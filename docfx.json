@@ -1,0 +1,33 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.{md,yml}"
+        ],
+        "exclude": [
+          "zilchengine.com/**"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "images/**"
+        ]
+      }
+    ],
+    "output": "zilchengine.com",
+    "template": [
+      "default",
+      "modern"
+    ],
+    "globalMetadata": {
+      "_appName": "ZilchEngine",
+      "_appTitle": "ZilchEngine",
+	  "_appLogoPath": "images/ZilchLogo.svg",
+      "_enableSearch": true,
+      "pdf": true
+    }
+  }
+}
