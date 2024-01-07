@@ -1,2 +1,4 @@
-- name: Docs
+- name: Documentation
   href: docs/
+- name: Samples
+  href: samples/

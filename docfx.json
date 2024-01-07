@@ -6,7 +6,7 @@
           "**/*.{md,yml}"
         ],
         "exclude": [
-          "zilchengine.com/**"
+          "_site/**"
         ]
       }
     ],
@@ -17,15 +17,17 @@
         ]
       }
     ],
-    "output": "zilchengine.com",
+    "output": "_site",
     "template": [
       "default",
-      "modern"
+      "modern",
+	  "template"
     ],
     "globalMetadata": {
       "_appName": "ZilchEngine",
       "_appTitle": "ZilchEngine",
 	  "_appLogoPath": "images/ZilchLogo.svg",
+	  "_appFooter": "ZilchEngine 2024",
       "_enableSearch": true,
       "pdf": true
     }
