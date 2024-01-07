@@ -39,7 +39,7 @@ There are a few built-in handle managers:
 
  #  Constructing a Handle
 It's not often that a handle needs to be constructed manually, however the situation may arise
-```
+```C++
 Handle handle;
 handle.Type = YourBoundType;
 handle.Manager = state->GetHandleManager<ManagerType>();

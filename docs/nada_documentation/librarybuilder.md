@@ -6,13 +6,13 @@ The *LibraryBuilder* allows us to create Nada types from C++ and add native func
 
 Say we want to create a Ray type from C++ that takes a position and normalized direction in 3D. Our type will contain a Real3 for translation and a Real3 for direction. We'll want this type to be considered a struct type (ValueType) in Nada which means that it gets fully copied on every assignment. The first thing we're going to want to do is define the offset of the members.
 
-```
+```C++
 const size_t PositionOffset = 0;
 const size_t DirectionOffset = PositionOffset + sizeof(Real3);
 ```
 It would obviously be more beneficial to actually create a Ray struct in C++ and use the automatically generated member offsets (via the standard offsetof macro). This would be actually safer too due to alignment issues on some platforms.
 
-```
+```C++
 // Use whatever name you would like for your library
 LibraryBuilder builder("Wallaby");
 
@@ -48,7 +48,7 @@ When we bind this function to Nada via the LibraryBuilder, this function will lo
 
 Since this function is going to be an instance function, then we know that 'this' is implicitly passed in. Call allows us to easily grab 'this' as a Handle. Nada automatically protects against calling a member function on a null object, so we can assume our this will always be non-null here (other handles such as parameters may need to be checked!). Be sure to store handles by reference because copying them incurs a reference count cost. Once we have the Handle we can call Dereference to get a direct pointer to the object.
 
-```
+```C++
 void GetPointOnRay(Call& call, ExceptionReport& report)
 {
   // Note: Call's Get and Set take parameter indices, however there are two special indices
@@ -76,7 +76,7 @@ void GetPointOnRay(Call& call, ExceptionReport& report)
 
 We can use Nada's exception handling to guard against bad parameter values, such as a negative distance:
 
-```
+```C++
 if (distance < 0)
 {
   // We should always make sure to return after throwing a Nada exception
@@ -101,7 +101,7 @@ NOTE: We encourage you to write your own macros and templates to wrap up functio
 A Property in Nada looks similar to a Field but when you attempt to read its value it will call a 'get' function, and when writing to its value it will call a 'set' function. The get takes no parameters and returns the value, and the set takes one parameter (the value to set) and returns nothing. Properties can also be made read only or write only just by passing in null for the set or the get (both cannot be null).
 
 Lets make Direction a property that automatically normalizes itself upon being set. Start by making two Nada style functions in C++.
-```
+```C++
 void GetDirection(Call& call, ExceptionReport& report)
 {
   // Get takes no parameters (except an implicit 'this' if this is an instance property)
@@ -137,7 +137,7 @@ You can use AddExtensionProperty or AddExtensionFunction to add a pretend instan
  #  Creating A Reference Type (Class)
 The main difference between a class and a struct in Nada is that classes are always allocated on the heap. Class types are zeroed out when they are allocated (all members become 0 or null, including composed structs on that class). This is guaranteed to be safe for all classes written entirely within Nada and is the main reason why constructors are optional for Nada types, however, for a type bound from C++ we often need to invoke constructors or destructors on members. Moreover, if the C++ class has a virtual table, we always have to be sure to invoke the constructor to initialize it. If we're allowing Nada to allocate our C++ object (via the HeapManager) then we need to be sure to provide a constructor and destructor for it. Using placement new and explicitly invoking the C++ destructor is the best way to achieve proper behavior.
 
-```
+```C++
 void ClassDefaultConstructor(Call& call, ExceptionReport& report)
 {
   // Get takes no parameters (except an implicit 'this' if this is an instance property)
@@ -160,7 +160,7 @@ void ClassDestructor(Call& call, ExceptionReport& report)
 ```
 And finally to binding the default constructor and destructor to our type using the LibraryBuilder:
 
-```
+```C++
 builder.AddBoundDefaultConstructor(classType, ClassDefaultConstructor);
 builder.AddBoundDestructor(classType, ClassDestructor);
 ```

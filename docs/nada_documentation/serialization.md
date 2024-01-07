@@ -6,7 +6,7 @@ Every Nada class or struct creates a BoundType which defines all the members (fi
 
 If your serialization format reads in names of members, then you can find a data-field or property via:
 
-```
+```C++
 void SerializeMember(const String& name, BoundType* type)
 {
   // This will find an instance member that we can call 'get' or 'set' on
