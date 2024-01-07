@@ -53,7 +53,7 @@ jobs:
         uses: ad-m/github-push-action@master
         with:
           github_token: ${{ secrets.API_TOKEN_GITHUB }}
-          branch: main
+          branch: master
           directory: _site
           repository: ZilchEngine/zilchengine.com
           force: true
