@@ -1,0 +1,1 @@
+The Zilch Engine Manual is designed to be a comprehensive reference guide for all engine functionality. It offers descriptions of engine systems and components for those who are already developing their own projects in the engine. If you feel you need more guidance or practice check out our [tutorial section](../tutorials/index.md).
