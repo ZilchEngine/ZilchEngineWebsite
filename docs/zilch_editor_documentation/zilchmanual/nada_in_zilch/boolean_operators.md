@@ -1,4 +1,4 @@
-NOTE: It is highly suggested you read [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/conditionals.md) before this page, as the concepts of conditionals are used through out to demonstrate Boolean Operators.
+NOTE: It is highly suggested you read [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md) before this page, as the concepts of conditionals are used through out to demonstrate Boolean Operators.
 
 The [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md) type has special operators that work with it.
 
@@ -219,7 +219,7 @@ Either i or j is true
 
  # Related Materials
  ## Manual
-- [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/conditionals.md)
+- [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md)
  ## Code Reference
 - [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md) 
 

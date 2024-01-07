@@ -49,8 +49,8 @@ Actions.Property(this.Owner.Actions,
 | Action Property Parameters | | |
 | **Example Value** | **Paremeter Type** |**Description** |
 | `this.Owner.Actions` | [ActionSet](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actionset.md) | The ActionSet which will update this action |
-|`@this.Area.Size` |[ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.md) | Delegate of the property to be modified by the action |
-| `this.TargetValue` | Property type of the [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.md) passed into the previous parameter (**i.e.** [Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md) in this example) | Value to which the action will interpolate the given property |
+|`@this.Area.Size` |[ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zilch/property_delegates.md) | Delegate of the property to be modified by the action |
+| `this.TargetValue` | Property type of the [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zilch/property_delegates.md) passed into the previous parameter (**i.e.** [Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md) in this example) | Value to which the action will interpolate the given property |
 | `this.Duration` | [Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) | The duration over which the action will be completed |
 | `Ease.Linear` | [Ease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#ease) | The [Ease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#ease) function used to calculate the rate of interpolation |
 
@@ -601,7 +601,7 @@ The final action type is the event action. This allows you to instantiate an eve
 
  ## Manual
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.md)
+- [ PropertyDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master//zilch_editor_documentation/zilchmanual/nada_in_zilch/property_delegates.md)
 
  ## Reference
  ### Classes

@@ -38,7 +38,7 @@ HashMap[Integer, String] (20744110)
 
 Notice that the order in which the elements are printed is not the order in which they were added to the HashMap. This is due to HashMaps having no inherent order, unlike [Arrays](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.md). Instead of the pairs being printed in an indexed order they are printed in an arbitrary order based on the hash of the pair.
 
-NOTE: The HashMap templated type is currently lacking templated print functionality similiar to [Arrays](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays.md). The `PrintHashMap` function used in this page is implemented below:
+NOTE: The HashMap templated type is currently lacking templated print functionality similiar to [Arrays](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/arrays.md). The `PrintHashMap` function used in this page is implemented below:
 
 ```name=PrintHashMap, lang=csharp
 function PrintHashMap(hash : HashMap[Integer, String])
@@ -101,7 +101,7 @@ three
 ```
 
  ### HashMap.GetOrDefault
-`HashMap.GetOrDefault` behaves the same as [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-get), but instead of throwing an exception when passed an invalid key it returns a *default// value that is the same type as the //values* of the HashMap.
+`HashMap.GetOrDefault` behaves the same as [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-get), but instead of throwing an exception when passed an invalid key it returns a *default// value that is the same type as the //values* of the HashMap.
 
 ```name=HashMap.GetOrDefault Example, lang=csharp
 var hash = HashMap[Integer, String]()
@@ -125,10 +125,10 @@ default
 ```
 
  ### HashMap.GetOrError
-`GetOrError` has the same functionality as [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-get), the only difference being that it is not called by the `[]` operator.
+`GetOrError` has the same functionality as [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-get), the only difference being that it is not called by the `[]` operator.
 
  # Adding to a HashMap
-There are multiple ways to add `KeyValue` pairs to HashMaps. [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-add), [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-set), and the `[]` operator can all be used to add `KeyValue` pairs to the HashMap.
+There are multiple ways to add `KeyValue` pairs to HashMaps. [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-add), [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-set), and the `[]` operator can all be used to add `KeyValue` pairs to the HashMap.
 
  ## HashMap.Add
 `Add` takes a *key* and //value//, adding the pair to the HashMap. If the given key already exists then a runtime exception will be thrown.
@@ -152,7 +152,7 @@ HashMap[Integer, String] (20744110)
 It should be noted that the `Add` function is called for each `KeyValue` pair when a HashMap is populated using an initializer list.
 
  ## HashMap.Set
-`Set` is very similar to [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-add). `Set` takes a *key// and //value//, adding the pair to the HashMap if the key does not exist. If the key does exist then the //value* paired with the given key will be replaced with the //given value//.
+`Set` is very similar to [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-add). `Set` takes a *key// and //value//, adding the pair to the HashMap if the key does not exist. If the key does exist then the //value* paired with the given key will be replaced with the //given value//.
 
 ```name=Set, lang=csharp
 var hash = HashMap[Integer, String]();
@@ -170,7 +170,7 @@ HashMap[Integer, String] (20744110)
 ```
 
  ### HashMap.SetOrOverwrite
-The relationship of [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-set) and `SetOrOverwrite` is simliar to that of [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-get) and [GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-getorerror) in that they have the same behavior. However, like [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-get), [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-set) is called by the `[]` operator during assignment.
+The relationship of [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-set) and `SetOrOverwrite` is simliar to that of [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-get) and [GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-getorerror) in that they have the same behavior. However, like [Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-get), [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-set) is called by the `[]` operator during assignment.
 
 ```name=SetOrOverwrite, lang=csharp
 var hash = HashMap[Integer, String]();
@@ -188,7 +188,7 @@ HashMap[Integer, String] (20744110)
 ```
 
  ### HashMap.SetOrIgnore
-`SetOrIgnore` behaves the same as [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-set) except if the given *key* already exists the function returns leaving the HashMap unmodified.
+`SetOrIgnore` behaves the same as [Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-set) except if the given *key* already exists the function returns leaving the HashMap unmodified.
 
 ```name=SetOrIgnore, lang=csharp
 var hash = HashMap[Integer, String]();
@@ -206,7 +206,7 @@ HashMap[Integer, String] (20744110)
 ```
 
  ### HashMap.SetOrError
-`SetOrError` follows a similiar behavior to [GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/hashmap/.md#hashmap-getorerror). If the key passed to `SetOrError` already exists in the HashMap then an exception will be thrown.
+`SetOrError` follows a similiar behavior to [GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/hashmap/.md#hashmap-getorerror). If the key passed to `SetOrError` already exists in the HashMap then an exception will be thrown.
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90732.png)
@@ -286,7 +286,7 @@ The `PrintHashMap` function is an excellent example of how one may use `All`.
 
  # Related Materials
  ## Manual
-- [Arrays](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/arrays.md)
+- [Arrays](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/arrays.md)
  ## Reference
 - [Arrays](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.md)
 - [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)

@@ -85,7 +85,7 @@ class Driver
 1
 0.25
 ```
-NOTE: Get-sets are not fields, and thus they have no storage of their own. If data state is needed you'll have to make another field on the class to which you may refer.  Although get-sets are not fields, fields can auto-generate the property interface using [property_delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.md).
+NOTE: Get-sets are not fields, and thus they have no storage of their own. If data state is needed you'll have to make another field on the class to which you may refer.  Although get-sets are not fields, fields can auto-generate the property interface using [property_delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/property_delegates.md).
 
  # Parts of a Property's definition
 
@@ -105,6 +105,6 @@ var Perimeter : Real // Despite ``var`` keyword, Properties have no storage.
 ```
  # Related Materials
  ## Manual
-- [property_delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/property_delegates.md) 
+- [property_delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/property_delegates.md) 
 
  

@@ -4,7 +4,7 @@ An enum, or enumerated type, is a set custom identifiers that are enumerated. An
 enum ControllerButtons {Start, Select, Up=0, Down, Left, Right, A=0, B=1} // no semicolon
 ```
 
-The names line up with incrementing [Integers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) where the default starting value is 0. The values can be manually set in which case the following values will increment off of that manually defined value. Note that to access these Integer values, the enum must be [casted](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/casting.md) to an Integer:
+The names line up with incrementing [Integers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) where the default starting value is 0. The values can be manually set in which case the following values will increment off of that manually defined value. Note that to access these Integer values, the enum must be [casted](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/casting.md) to an Integer:
 ```lang=csharp, name=Casting Enums to Integers
 Console.WriteLine("ControllerButtons.Start  = `ControllerButtons.Start  as Integer`  " );
 Console.WriteLine("ControllerButtons.Select = `ControllerButtons.Select as Integer`  " );
@@ -118,7 +118,7 @@ class Controller
 }
 ```
 
-We can test the calls to these [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/functions.md) to see the interplay of casting:
+We can test the calls to these [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md) to see the interplay of casting:
 
 ```lang=csharp, name=Implicit Enum Cast
 var paramInt = 3;
@@ -217,8 +217,8 @@ The binary '+' operator 'Positive / Add' is not valid with 'ControllerButtons' a
 
  # Related Materials
  ## Manual
-- [casting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/casting.md)
-- [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/functions.md)
+- [casting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/casting.md)
+- [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
 
  ## Code Reference
 - [enum_reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md)

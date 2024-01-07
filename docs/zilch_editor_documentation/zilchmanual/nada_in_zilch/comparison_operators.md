@@ -1,4 +1,4 @@
-Comparison operators take two operands and evaluate to a boolean value which describes a relationship between the given values. Comparison operators are frequently used with [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/conditionals.md).
+Comparison operators take two operands and evaluate to a boolean value which describes a relationship between the given values. Comparison operators are frequently used with [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md).
 
  #  `==` & `!=` Operators
 The `==` (equality) operator compares two operands and returns `true` if they are the same and `false` if they are not. The `!=` (inequality) operator performs the inverse operation, returning `false` if they are the same and `true` if they are not.
@@ -41,7 +41,7 @@ if(unknownObject != null)
  # Object Comparison
 As seen in the first code block, object comparison is fairly common. However, there are a few details to be aware of when comparing objects by value vs. by reference.
 
-NOTE: To read about the details about by-value and by-reference objects, [ read the manual page](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/constructbyvaluevsbyref.md).
+NOTE: To read about the details about by-value and by-reference objects, [ read the manual page](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/constructbyvaluevsbyref.md).
 
  ## Object Comparison by Value
 Take the following struct as a by-value example:
@@ -192,7 +192,7 @@ if(height >= 5)
 
  # Related Materials
  # Manual
-- [operators_precedence_chart](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/operators_precedence_chart.md)
+- [operators_precedence_chart](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md)
 
  # Tasks
 - {T556} 

@@ -17,7 +17,7 @@ The Discover tab is the Launcher's information hub, featuring links to documenta
 | Link | Description |
 | -- | -- |
 | [ZEROHUB](https://dev.zeroengine.io/) | The ZilchHub homepage |
-| [ZILCH](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md) | The Nada user documentation |
+| [ZILCH](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) | The Nada user documentation |
 | [ROADMAP](https://dev.zeroengine.io/project/board/52/) | An overview of current development on Zilch Engine |
 | [DOCUMENTATION](https://github.com/ZilchEngine/ZilchDocs/blob/master.md) | The root documentation page |
 | [MARKET](https://market.zeroengine.io/) | The Zilch Market webste |

@@ -1,4 +1,4 @@
-A function is a named block of code (with its own [scope](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.md#scope) that performs a task. Ideally, one function should perform just one task. A function may return a value of a specific [type](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.md) based on the operation performed in the function or it may return nothing at all. Functions can also take in values of a specific type, which are called parameters, that are used and/or changed by the operation of the function.
+A function is a named block of code (with its own [scope](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md#scope) that performs a task. Ideally, one function should perform just one task. A function may return a value of a specific [type](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md) based on the operation performed in the function or it may return nothing at all. Functions can also take in values of a specific type, which are called parameters, that are used and/or changed by the operation of the function.
 
 Functions are declared using the **function** keyword:
 ```lang=csharp, name=Function Declaration
@@ -24,7 +24,7 @@ function MyFunctionName(param1: MyParamType1, param2: MyParamType2) : MyReturnTy
 There are a number of important rules that functions in Nada must follow. If these rules are not followed, an error will be thrown, as can be seen in the examples below. 
 
  ## No Global Functions
-Nada **does not support** global functions. They must be contained within the scope of either a [class](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/classes.md) or [struct](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/structs.md). Thus, the above would actually be encased like this:
+Nada **does not support** global functions. They must be contained within the scope of either a [class](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md) or [struct](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/structs.md). Thus, the above would actually be encased like this:
 
 ```lang=csharp, name=Function Defined Within a Class
 class MyClassName
@@ -140,11 +140,11 @@ If we look at the possible logical flows of the `FunctionThatReturns` it should 
 
  # Related Materials
  ## Manual
-- [attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/attributes.md)
-- [classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/classes.md)
-- [variables_and_data_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.md)
-- [classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/classes.md)
-- [structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/structs.md)
+- [attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md)
+- [classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md)
+- [variables_and_data_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
+- [classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md)
+- [structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/structs.md)
  
 
  

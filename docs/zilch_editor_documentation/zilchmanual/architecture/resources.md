@@ -17,7 +17,7 @@ While most resources are directly tied to larger systems within the engine and a
 Resources vary greatly in type, ranging from audio and visual assets to physics materials and meshes to different types of Nada files.
 
  ## Code Resources
-- [NadaScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
+- [NadaScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
 - [NadaFragment (Shaders)](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/shaders.md)
 
  ## Graphics Resources

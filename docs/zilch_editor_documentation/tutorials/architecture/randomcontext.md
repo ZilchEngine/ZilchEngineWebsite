@@ -68,7 +68,7 @@ Notice how a random positive integer is returned.
  #  Using the Modulo Operator
 
 
-[Modulo](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/operators_precedence_chart.md) is represented by the `%` operator. Using modulo returns the remainder when a number is divided by another number.
+[Modulo](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md) is represented by the `%` operator. Using modulo returns the remainder when a number is divided by another number.
 
 
 - In the `NumberGenerator` script
@@ -252,7 +252,7 @@ Seeding is important in many different video games to recreate previous experien
 [DieRoll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/randomcontext.md#dieroll) is a simple function that returns an integer between 1 and a specified number of sides. It is intended for novice users, as it functions the same as the [ Range](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/randomcontext.md#range) function, except that:
 - The value returned is inclusive of the maximum value
 - The lowest value possible is `1` instead of `0`
-- The value returned is an [ Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) rather than a Real that must be [cast into an Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/casting.md)
+- The value returned is an [ Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) rather than a Real that must be [cast into an Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/casting.md)
 
 
  ##  Coin Flip
@@ -267,10 +267,10 @@ Seeding is important in many different video games to recreate previous experien
 - [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 - [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)
 - [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
-- [nada_in_zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
-- [operators_precedence_chart](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/operators_precedence_chart.md)
-- [variables_and_data_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.md)
-- [casting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/casting.md)
+- [nada_in_zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+- [operators_precedence_chart](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md)
+- [variables_and_data_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
+- [casting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/casting.md)
 
  ##  Reference
  ###  Commands

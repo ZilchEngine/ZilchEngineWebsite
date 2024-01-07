@@ -37,7 +37,7 @@ The Zilch Engine can be used to make simulations of any kind. Projects range fro
  - Scripted, [node-based](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode.md) DST system
  - 3D sound [positioning](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundemitter.md) and [attenuation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundattenuator.md)
 
- ## [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
+ ## [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
  - High-level scripting and shader language
 
 
@@ -60,7 +60,7 @@ Once you've mastered the basics taught in the Basics and Beginner  [tutorial_seq
  ## Intermediate Users
 If you have some experience making games and programming, you will be able to pick things up fairly quickly.
 
- - Start with the [nada_in_zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md). You will probably want to jump into scripting pretty quickly.
+ - Start with the [nada_in_zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md). You will probably want to jump into scripting pretty quickly.
  - Read the [zilchmanual](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual.md) starting with the [editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor.md), [architecture](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture.md), and [gameplay](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay.md) sections.
  - Browse [physics](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics.md), [editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor.md) and [audio](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio.md) sections for topics that are applicable to your project.
  - Read the remaining [zilchmanual](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual.md) sections at your own pace.

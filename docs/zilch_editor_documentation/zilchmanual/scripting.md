@@ -1,6 +1,6 @@
 
- # [nada_in_zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
-Scripting is the basis of making gameplay as it is how you define rules for your game and players to follow. If you feel like you need more practice, in depth explanation, or you are not very familiar with programming visit the [nada_in_zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md) section.
+ # [nada_in_zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+Scripting is the basis of making gameplay as it is how you define rules for your game and players to follow. If you feel like you need more practice, in depth explanation, or you are not very familiar with programming visit the [nada_in_zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) section.
 
 
  # [Events & Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting/eventsandconnections.md)

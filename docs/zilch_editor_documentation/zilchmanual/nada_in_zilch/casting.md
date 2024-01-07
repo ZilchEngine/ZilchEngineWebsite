@@ -1,4 +1,4 @@
-Fundamentally, casting is converting from one type to another.  As demonstrated in the code snippet below, a [Function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/functions.md) that takes a grade and returns pass/fail can be thought of as a conversion from a [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) to a [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md).
+Fundamentally, casting is converting from one type to another.  As demonstrated in the code snippet below, a [Function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md) that takes a grade and returns pass/fail can be thought of as a conversion from a [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) to a [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md).
 ```lang=csharp, name=Conversion Function
 function IsPassing(grade : Real) : Boolean
 {
@@ -12,7 +12,7 @@ function IsPassing(grade : Real) : Boolean
 The logic of that particular conversion is defined as a function and intended for a specific situation, but *cast operations* are more general-case and defined by Nada.
 
  # Implicit and Explicit
-There are two types of casting, implicit and explicit.  Implicit casting occurs during the assignment of a variable of one type, with a value of a *different* type.  Implicit casting is a mechanism that Nada uses when a [Variable](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.md) of one type is set to data of another type.  Explicit casting is a mechanic used by the user with the `as` keyword.  Any cast that can happen implicitly can be done explicitly.
+There are two types of casting, implicit and explicit.  Implicit casting occurs during the assignment of a variable of one type, with a value of a *different* type.  Implicit casting is a mechanism that Nada uses when a [Variable](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md) of one type is set to data of another type.  Explicit casting is a mechanic used by the user with the `as` keyword.  Any cast that can happen implicitly can be done explicitly.
 
 WARNING: Even with explicit casting, there are still *cast operations* that are invalid and will trigger compile-time exceptions.
 
@@ -64,7 +64,7 @@ Console.WriteLine(-3.99 as Integer);
 ```
 
  # Upcasting and Downcasting
-When casting between classes related through [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/inheritance.md), one class must be a base class of the other.
+When casting between classes related through [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md), one class must be a base class of the other.
 
 ```lang=csharp, name=Classes with Inheritance
 class A {}
@@ -133,9 +133,9 @@ var myInteger : Integer = 1 as Integer; // explicit same cast
 
  # Related Materials
  ## Manual
-- [Function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/functions.md)
-- [Variable](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.md)
-- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/inheritance.md)
+- [Function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
+- [Variable](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
+- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md)
 
  ## Code Reference
 - [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)

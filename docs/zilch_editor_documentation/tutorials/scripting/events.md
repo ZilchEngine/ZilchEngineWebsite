@@ -103,7 +103,7 @@ Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
 |---|---|---
 | `this.Space` | [ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/object.md) | The object onto which the event will be dispatched. 
 | `Events.LogicUpdate` | [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md) | The name of the event.
-| `this.OnLogicUpdate` | [ Delegate](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/delegates.md) | The callback function for the event.
+| `this.OnLogicUpdate` | [ Delegate](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/delegates.md) | The callback function for the event.
 
 The callback function must take a parameter whose type matches the type of the event that you are connecting to. Now let's take a look at the callback function:
 

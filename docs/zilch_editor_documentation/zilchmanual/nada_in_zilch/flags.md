@@ -1,4 +1,4 @@
-Flags are very similar to [enums](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/enums.md) except that they are ordered like a bit field (i.e. increasing in powers of two starting at 1 by default). Flags can be defined with the **flags** keyword:
+Flags are very similar to [enums](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/enums.md) except that they are ordered like a bit field (i.e. increasing in powers of two starting at 1 by default). Flags can be defined with the **flags** keyword:
 
 ```lang=csharp, name=Flags Type Defined
 flags Pizza 
@@ -297,7 +297,7 @@ The binary '+' operator 'Positive / Add' is not valid with 'Pizza' and 'Cookie'.
 
  # Related Materials
  # Manual
-- [enums](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/enums.md)
+- [enums](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/enums.md)
 
  ## Code Reference
 - [flags_reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/flags_reference.md)

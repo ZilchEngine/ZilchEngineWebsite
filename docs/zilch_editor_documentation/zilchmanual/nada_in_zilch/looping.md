@@ -20,7 +20,7 @@ loop
 1
 3
 ```
-The values of `sum` printed are `0`, `1`, and `3` because `sum += 0`, `sum += 1`, and `sum += 2` are all executed in sequence with a call to `Console.WriteLine` after each.  Whatever code is in the block following `loop` will be repeatedly executed until the `loop` is escaped with `return`, [break](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/looping.md#navigating-loops), or [continue](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/looping.md#continue).  `return` is a directive that leaves the [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/functions.md), and therefore can be used to exit a loop.
+The values of `sum` printed are `0`, `1`, and `3` because `sum += 0`, `sum += 1`, and `sum += 2` are all executed in sequence with a call to `Console.WriteLine` after each.  Whatever code is in the block following `loop` will be repeatedly executed until the `loop` is escaped with `return`, [break](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/looping.md#navigating-loops), or [continue](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/looping.md#continue).  `return` is a directive that leaves the [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md), and therefore can be used to exit a loop.
 
  # While and Do While
 While the `loop` keyword is sufficient in executing code an arbitrary ammount of times, there are other types of loop blocks that make for cleaner code.
@@ -170,7 +170,7 @@ for (var i = 0; i < 3; ++i)
 (2, 0)
 (2, 1)
 ```
-Notice how the `break` statement only exits the inner `for` loop.  The [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/strings.md) passed into `Console.WriteLine` will evaluate to `(1, 0)`, `(2, 0)`, and `(2, 1)`.  In other words, the result is printed when `j < i`.
+Notice how the `break` statement only exits the inner `for` loop.  The [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings.md) passed into `Console.WriteLine` will evaluate to `(1, 0)`, `(2, 0)`, and `(2, 1)`.  In other words, the result is printed when `j < i`.
 
  ## Continue
 The `continue` keyword operates similarly to `break`.  While `break` will jump to the end of the loop's scope **and** exit the loop, `continue` will only jump to the end of the loop's scope.
@@ -192,7 +192,7 @@ for(var i = 0; i < 5; ++i)
 Notice how `Console.WriteLine(i)` executes for each `i` in the range `[0, 4]` with the exception of `2`.  When `i == 2`, `continue` is reached and the next iteration is reached.  Also note that even when using `continue` in a for loop, the iterative statement `++i` is still executed.
 
  # Condensed Loops
-In the case that a loops only contains one statement within its scope (simliar to [ conditionals ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/conditionals.md#condensed-conditionals)) then no `{}` brackets are needed.
+In the case that a loops only contains one statement within its scope (simliar to [ conditionals ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md#condensed-conditionals)) then no `{}` brackets are needed.
 
 ```name=Single Line Loop, lang=csharp
 for(var i = 0; i < 3; ++i)
@@ -210,8 +210,8 @@ Here you can see that the second instance of `Console.WriteLine(i);` is only exe
 
  # Related Material
  ## Manual
-- [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/functions.md)
-- [strings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/strings.md)
+- [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
+- [strings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings.md)
 
  ## Code Reference
 - [array_t](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.md) 

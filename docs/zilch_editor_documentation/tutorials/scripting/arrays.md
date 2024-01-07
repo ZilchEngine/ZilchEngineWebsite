@@ -445,7 +445,7 @@ Current Enemy Objects:
 {}
 ```
 
-The [foreach](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/keywords.md) loop handles the accessing for you. Essentially, each iteration of the loop `enemy` will be a reference to the next element in the array. This means you do not have to do any indexing. This means that you also have little control over the indexing. While `foreach` is more commonly used for full iterations over an array, `for` loops may be more desirable for operations which require a non-linear indexing order.
+The [foreach](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md) loop handles the accessing for you. Essentially, each iteration of the loop `enemy` will be a reference to the next element in the array. This means you do not have to do any indexing. This means that you also have little control over the indexing. While `foreach` is more commonly used for full iterations over an array, `for` loops may be more desirable for operations which require a non-linear indexing order.
 
  # Related Materials
  ## Manual
@@ -453,7 +453,7 @@ The [foreach](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
 - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
 - [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
-- [foreach](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/keywords.md)
+- [foreach](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md)
 
  ## Tutorial
 - [loops](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/loops.md)

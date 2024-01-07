@@ -182,7 +182,7 @@ Also a part of the Tool template is a section of comments giving the user a list
 
 ###Manual Pages
 - [Scripting in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting.md)
-- [Nada in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
+- [Nada in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
 
 
 ### Tutorial Pages

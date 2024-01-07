@@ -11,7 +11,7 @@ Get a quick glance at the engine's [ features here](https://github.com/ZilchEngi
 The Zilch Engine Manual, Tutorials, and Code Reference
  - [Zilch Editor Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation.md)
   - [Zilch Manual](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual.md)
-   - [Nada In Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
+   - [Nada In Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
   - [Tutorials](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials.md)
    - [Tutorial Sequences](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/tutorial_sequences.md)
  - [Code Reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference.md)

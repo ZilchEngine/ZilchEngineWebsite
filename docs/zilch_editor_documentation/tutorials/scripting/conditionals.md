@@ -1,4 +1,4 @@
-[ Conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/conditionals.md) allow a developer to make decisions in code based off of `true` & `false` values.
+[ Conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md) allow a developer to make decisions in code based off of `true` & `false` values.
 
  #  Learning Objectives
  - Evaluating Expressions
@@ -50,15 +50,15 @@ Notice how the output displays only text within the `if(true)` conditional.
 - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
 
  #  Boolean Operators
-`if` statements are primarily used to determine whether an entire sequence results in `true` or `false`. By using [ Boolean Operators ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/boolean_operators.md) an entire sequence can be evaluated rather than a single variable.
+`if` statements are primarily used to determine whether an entire sequence results in `true` or `false`. By using [ Boolean Operators ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/boolean_operators.md) an entire sequence can be evaluated rather than a single variable.
 
-The [ Equality Operator ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/boolean_operators.md#equality) `==` is used to determine if two values are the same. This is different than the [ Assignment Operator](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/operators_precedence_chart.md) `=` that is used to assign a new value to a variable.
+The [ Equality Operator ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/boolean_operators.md#equality) `==` is used to determine if two values are the same. This is different than the [ Assignment Operator](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md) `=` that is used to assign a new value to a variable.
 
 NOTE: The Equality Operator is a type of comparison operator that returns a boolean operator. 
 
-The [ Inequality Operator](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/boolean_operators.md#inequality) `!=` is used to determine if two values are not the same. As long as the two values are not exactly the same, the `if` statement will be evaluated as `true`.
+The [ Inequality Operator](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/boolean_operators.md#inequality) `!=` is used to determine if two values are not the same. As long as the two values are not exactly the same, the `if` statement will be evaluated as `true`.
 
-The [ Negation Operator](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/operators_precedence_chart.md) `!` is used to reverse some values when possible. In the example below, the `!` operator is used to reverse the value of a boolean.
+The [ Negation Operator](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md) `!` is used to reverse some values when possible. In the example below, the `!` operator is used to reverse the value of a boolean.
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
 
@@ -371,14 +371,14 @@ Notice how the output tells the user what kind of sandwich they have based on th
 
  # Related Materials
  ## Manual
-- [Boolean Operators](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/boolean_operators.md)
-- [Conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/conditionals.md)
-- [Variables and Data Types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/variables_and_data_types.md)
-- [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
-- [Keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/keywords.md)
-- [Operators Precedence Chart](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/operators_precedence_chart.md)
-- [ Boolean Operators ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/boolean_operators.md)
-- [ Operator Precedence](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/operators_precedence_chart.md)
+- [Boolean Operators](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/boolean_operators.md)
+- [Conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md)
+- [Variables and Data Types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
+- [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+- [Keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md)
+- [Operators Precedence Chart](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md)
+- [ Boolean Operators ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/boolean_operators.md)
+- [ Operator Precedence](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md)
 - [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 
  ## Reference

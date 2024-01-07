@@ -1,11 +1,11 @@
-This tutorial covers how to create custom components and the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md).
+This tutorial covers how to create custom components and the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md).
 
 
  #  Learning Objectives
 
 
 - Creating custom components
-- [ Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md) scripting basics
+- [ Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) scripting basics
 
 
  #  Level Setup
@@ -62,7 +62,7 @@ Upon the creation of a NadaScript, Zilch Engine will open that resource in a new
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/48227.png)
 
 
-NOTE: If you are new to scripting, this series of tutorials marked with #beginner_ii  will cover the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md) within the Zilch Engine. That said, a lot of the concepts we'll cover are common to many other programming languages, and you may benefit from reading up on other programming resources targeted at beginners.
+NOTE: If you are new to scripting, this series of tutorials marked with #beginner_ii  will cover the basics of scripting in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) within the Zilch Engine. That said, a lot of the concepts we'll cover are common to many other programming languages, and you may benefit from reading up on other programming resources targeted at beginners.
 
 
  ##  Classes
@@ -78,11 +78,11 @@ A class is an abstract entity that is responsible for a specific set of tasks. N
 *The `MyComponent` script, line 1*
 
 
-The first keyword `class` indicates that we are providing the definition of a class. Notice that this keyword is highlighted in blue. Zilch Engine will highlight specific keywords that it recognizes as having significance in the [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md) language, which can be very useful for understanding how the engine is interpreting the script.
+The first keyword `class` indicates that we are providing the definition of a class. Notice that this keyword is highlighted in blue. Zilch Engine will highlight specific keywords that it recognizes as having significance in the [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) language, which can be very useful for understanding how the engine is interpreting the script.
 
 Next, we have `MyComponent`, which is the name we gave this script, confirming that it is the identifier we wish to assign to this class. It is worth mentioning that all classes **must** have a unique name, and you cannot use names already used by Zilch Engine.
 
-Next, we have `: Nada Component`. The colon `:` token is an important one within [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md), and can be interpreted to mean "of type". In this case, we have a `class` named `MyComponent` that is of type `NadaComponent`. NadaComponent is a very commonly used class type, and examples of it will be featured extensively here and in later tutorials.
+Next, we have `: Nada Component`. The colon `:` token is an important one within [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md), and can be interpreted to mean "of type". In this case, we have a `class` named `MyComponent` that is of type `NadaComponent`. NadaComponent is a very commonly used class type, and examples of it will be featured extensively here and in later tutorials.
 
 Lastly, on lines 2 and 11 we have the curly brace symbols `{` and `}`. These symbols denote that our class definition is confined to the space between them, which is called the class's **scope**, and all details pertaining to a class have to be described within it.
 
@@ -144,7 +144,7 @@ You may have noticed an interesting line within the scope of the **Initialize** 
 *`MyComponent`, line 5*
 
 
-This line is actually a piece of functionality that has been "commented out". In [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md), you can write comments in code by using the `//` token. This causes that token and everything on the line after it to be considered a **comment** that has no effect on the program's behavior.
+This line is actually a piece of functionality that has been "commented out". In [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md), you can write comments in code by using the `//` token. This causes that token and everything on the line after it to be considered a **comment** that has no effect on the program's behavior.
 
 While comments are very useful to write descriptions and explanations of the functionality of your code, another useful utility is to apply them to temporarily toggle functionality off by commenting lines of code out.
 
@@ -204,7 +204,7 @@ The instruction we just added causes the object to move to the right just slight
 - [variables](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/variables.md)
 
  ##  Manual
-- [nada_in_zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero.md)
+- [nada_in_zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
 - [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
 - [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 - [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)

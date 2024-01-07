@@ -28,7 +28,7 @@ class HiddenMouseExample : NadaComponent
 ```
 
 
-This would be the start of a component attached to the object that will act as the Custom Cursor. After making sure the object has a [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/transform.md) Component using the Dependency [-](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/codereference/reference/transform.md) Component using the Dependency [attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/attributes.md), it then sets the Mouse Cursor to be invisible. The final part of the code-block connects to the MouseMove event, which is fleshed out in the following code-block: 
+This would be the start of a component attached to the object that will act as the Custom Cursor. After making sure the object has a [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/transform.md) Component using the Dependency [-](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/codereference/reference/transform.md) Component using the Dependency [attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md), it then sets the Mouse Cursor to be invisible. The final part of the code-block connects to the MouseMove event, which is fleshed out in the following code-block: 
 
 ```
     // continued from above
@@ -111,7 +111,7 @@ class LockedMouseExample : NadaComponent
 
 Just from the initial setup it becomes obvious that this method is much more complex than simply making the Mouse invisible and having an Object follow it, but it also offers benefits.
 
-NOTE: **Get-Sets** In order to reduce the amount of repetitive typing, a number of `getters` have been used to hold references to other functions. For further explanation of get-sets, see [Get-Sets](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zero/properties.md).
+NOTE: **Get-Sets** In order to reduce the amount of repetitive typing, a number of `getters` have been used to hold references to other functions. For further explanation of get-sets, see [Get-Sets](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/properties.md).
 
 When this component is attached to the current level's [LevelSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/objects/levelsettings.md)  object, it will create an Object in a new  [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/space.md)  that is built on top of the GameSpace. This object allows it to function properly in a 3D game. As the getters have defined most of the variables, much of the script is ready to be used. 
 
