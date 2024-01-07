@@ -6,7 +6,7 @@ The first thing we need to do is create a class that derives from StaticLibrary.
 
 Below we have an example of a header file that contains the static library Wallaby and two example classes that might belong to that library. Remember, the name of the library can be anything you want.
 
-```lang=csharp
+```C++
 
 # pragma once
 
@@ -58,7 +58,7 @@ public:
 With *Internal Binding* we must use the `NadaDeclareBaseType` and `NadaDeclareDerivedType` macros in a public section of the class (typically at the beginning, but make sure to use public!). The Character class also publicly inherits from `INadaObject`, which is not required but allows the `character->NadaGetDerivedType()` function to be virtual, which will retrieve the BoundType for `Player` instead of `Character`.
 The following code should appear once within a translational unit (do not put this within a header):
 
-```lang=csharp
+```C++
 
 # include "Wallaby.hpp"
 
@@ -154,27 +154,27 @@ NadaBindEnumValue(builder, type, YourEnum::ValueName, "ValueName");
  #  Built-in Types Available To Binding
 The following list is not exhaustive, but contains the most common types that we accept in binding automatically. Technically anything defined in Nada.hpp that either internal or external binding and is bound to the Core library can be used. Note that most primitives (int, float, etc) are simply type-defined as Integer, Real, etc and can be used in binding.
 
- - [ Boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Byte](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Real](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Real2](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Real3](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Real4](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ String](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ DoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ DoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
- - [ Handle](https://github.com/ZilchEngine/ZilchDocs/blob/master.md) (binds to a special type that can accept any handle to any object type)
- - [ Delegate](https://github.com/ZilchEngine/ZilchDocs/blob/master.md) (binds to a special type that can accept any delegate)
- - [ Any](https://github.com/ZilchEngine/ZilchDocs/blob/master.md) (can accept any type in Nada)
- - [ StringBuilderExtended](https://github.com/ZilchEngine/ZilchDocs/blob/master.md)
+ - [ Boolean](../code_reference/nada_base_types/boolean.md)
+ - [ Boolean2](../code_reference/nada_base_types/boolean2.md)
+ - [ Boolean3](../code_reference/nada_base_types/boolean3.md)
+ - [ Boolean4](../code_reference/nada_base_types/boolean4.md)
+ - [ Byte](../code_reference/nada_base_types//byte.md)
+ - [ Integer](../code_reference/nada_base_types/integer.md)
+ - [ Integer2](../code_reference/nada_base_types/integer2.md)
+ - [ Integer3](../code_reference/nada_base_types/integer3.md)
+ - [ Integer4](../code_reference/nada_base_types/integer4.md)
+ - [ Real](../code_reference/nada_base_types/real.md)
+ - [ Real2](../code_reference/nada_base_types/real2.md)
+ - [ Real3](../code_reference/nada_base_types/real3.md)
+ - [ Real4](../code_reference/nada_base_types/real4.md)
+ - [ Quaternion](../code_reference/nada_base_types/quaternion.md)
+ - [ String](../code_reference/nada_base_types/string.md)
+ - [ DoubleReal](../code_reference/nada_base_types/doublereal.md)
+ - [ DoubleInteger](../code_reference/nada_base_types/doubleinteger.md)
+ - [ Handle](../code_reference/nada_base_types/anyhandle.md) (binds to a special type that can accept any handle to any object type)
+ - [ Delegate](../code_reference/nada_base_types//delegatetype.md) (binds to a special type that can accept any delegate)
+ - [ Any](../code_reference/nada_base_types/anytype.md) (can accept any type in Nada)
+ - [ StringBuilderExtended](../code_reference/nada_base_types/stringbuilder.md)
  - [[ | ArrayClass<Handle>]]
  - [[ | ArrayClass<Delegate>]]
  - [[ | ArrayClass<Boolean>]]
@@ -197,7 +197,7 @@ The following list is not exhaustive, but contains the most common types that we
 
 The following types are automatically redirected to the Nada Integer type (except unsigned long long which redirects to DoubleInteger):
 
-```lang=csharp
+```C++
 char
 signed char
 signed short
