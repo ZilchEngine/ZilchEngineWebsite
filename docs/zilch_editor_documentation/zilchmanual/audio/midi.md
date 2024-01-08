@@ -2,7 +2,7 @@ If a MIDI device is connected when the Zilch Engine starts up it will listen for
 
  # Common Uses
 
-- Using a synthesizer created with the [AdditiveSynthNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/additivesynthnode.md)
+- Using a synthesizer created with the [AdditiveSynthNode](soundnode/additivesynthnode.md)
 - Alternate game input and control 
 
  # Using the MIDI Events
@@ -36,7 +36,7 @@ The following events will be sent whenever a corresponding MIDI message is recei
 
  ## Manual
 
-- [AdditiveSynthNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/additivesynthnode.md)
+- [AdditiveSynthNode ](soundnode/additivesynthnode.md)
 
  ## Reference
 

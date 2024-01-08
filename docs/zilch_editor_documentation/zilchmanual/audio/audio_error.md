@@ -15,9 +15,9 @@ There are a few different reasons why this might be happening, but the most comm
 
 This is highly dependent on what is happening in the project, but in general there are two solutions; manage the number of active sounds or reduce the volume somewhere. 
 
-If the problem is too many sound effects playing at once, the `InstanceLimit` property on a [SoundTag  ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundtag.md) can be used to limit how many effects can play at once. The SoundTag's Compressor settings can be used to reduce the volume of the sound effects when they are too loud.
+If the problem is too many sound effects playing at once, the `InstanceLimit` property on a [SoundTag](soundtag.md) can be used to limit how many effects can play at once. The SoundTag's Compressor settings can be used to reduce the volume of the sound effects when they are too loud.
 
-[SoundNodes ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode.md) such as the [VolumeNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/volumenode.md) or [CompressorNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/compressornode.md) can be used to control the overall volume of a [SoundSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundspace.md) or collection of [SoundInstances](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundinstance.md).
+[SoundNodes](soundnode.md) such as the [VolumeNode](soundnode/volumenode.md) or [CompressorNode](soundnode/compressornode.md) can be used to control the overall volume of a [SoundSpace](soundspace.md) or collection of [SoundInstances](soundinstance.md).
 
 The best plan, however, is to investigate what is happening with the audio in the project and fix the underlying issues instead of papering over the problem with a quick fix. 
 
