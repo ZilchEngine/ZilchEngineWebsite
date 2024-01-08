@@ -143,6 +143,18 @@
 ## [Library Builder](nada_documentation/librarybuilder.md)
 ## [Serialization](nada_documentation/serialization.md)
 
+# [Source Code Documentation](./zilch_source_documentation.md)
+## [Getting Started](./zilch_source_documentation/getting_started.md)
+## [Overview](./zilch_source_documentation/zilch_overview.md)
+## [The Code](./zilch_source_documentation/zilch_code.md)
+### [Components](./zilch_source_documentation/components.md)
+### [Enums](./zilch_source_documentation/enums.md)
+### [Custom Event Names](./zilch_source_documentation/custom_event_names.md)
+### [Meta Binding](./zilch_source_documentation/meta_binding.md)
+## [Engine](./zilch_source_documentation/engine.md)
+## [Editor](./zilch_source_documentation/editor.md)
+## [Platform](./zilch_source_documentation/platform.md)
+
 # [Code Reference](code_reference.md)
 ## [Class Reference](code_reference/class_reference.md)
 ## [Class Reference Sorted By Tag](code_reference/classes_by_tag_reference.md)

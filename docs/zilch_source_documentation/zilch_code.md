@@ -114,7 +114,7 @@ Each higher level layer only depends on more fundamental layers.
 
 ### Creating A Cog
 
-```
+```C++
   Archetype* shipArchetype = ArchetypeManager::Find("Ship");
   Cog* cog = space->Create(shipArchetype)
 ```
@@ -125,7 +125,7 @@ Each higher level layer only depends on more fundamental layers.
 - Used to get components from compositions by type name.
 - It is type safe and will return NULL or a valid component.
 
-```
+```C++
 Model* model = cog->has(Model);
 if(model)
 {
@@ -141,7 +141,7 @@ if(model)
 - CogIds must be checked for NULL.
 - Once a CogId is checked it is safe to use that object for the rest of the frame.
 
-```
+```C++
 void SomeFunction(CogId target)
 {
   if(Cog* cog = target)
@@ -155,7 +155,7 @@ void SomeFunction(CogId target)
 ```
 also works on CogIds
 
-```
+```C++
 void SomeFunction(CogId target)
 {
   if(Transform* transform = target.has(Transform))
@@ -207,7 +207,7 @@ void SomeFunction(CogId target)
 - Examples: Collider, Joints, etc
 - Editor enforces only one component that has a particular interface. For example only one collider component (like BoxColllider) can be present.
 
-```
+```C++
 void ComponentExample::InitializeMeta(MetaClass* meta)
 {
   // Must have transform
@@ -262,7 +262,7 @@ void ComponentExample::InitializeMeta(MetaClass* meta)
 ## Example Serialization Code
 
 
-```
+```C++
 class ComponentExample
 {
 public:
@@ -282,7 +282,7 @@ void ComponentExample::Serialize(Serializer& stream)
 
 ## Example Serialization Result
 
-```
+```TS
 ComponentExample = 
 {
   float HitPoints = 20,
@@ -346,7 +346,7 @@ ComponentExample =
 
 ### Example Initialization Code
 
-```
+```C++
 void GraphicsComponent::Initialize(CogInitializer& init)
 {
   // Getting other components
@@ -369,7 +369,7 @@ void GraphicsComponent::Initialize(CogInitializer& init)
 
 ### Connect
 
-```
+```C++
   Connect(targetObject, Events::EventName, receivingObject, &ObjectType::FuncName);
 ```
 - For example, the object that is involved in a collision event will have a function called when the event occurs and are constant strings.
@@ -379,7 +379,7 @@ void GraphicsComponent::Initialize(CogInitializer& init)
 
 ### Connecting Example Code
 
-```
+```C++
 void GraphicsComponent::Initialize(CogInitializer& init)
 {
   // ConnectToThis expands to Connect(target, event, this, &classname::function)
@@ -416,7 +416,7 @@ void GraphicsComponent::Initialize(CogInitializer& init)
 
 ### Example Event Connections
 
-```
+```C++
 void ComponentExample::Initialize(CogInitializer& init)
 {
   ConnectToSelf(GetOwner(), Events::CollisionStarted, OnCollisionStarted);
@@ -457,7 +457,7 @@ void ComponentExample::OnCollisionStarted(CollsionEvent* event)
 - Containers use ranges in place of iterators for most moving in a container.
 - Ranges are more secure and easier to work with than iterators.
 
-```
+```C++
 int Sum(Array<int>& values)
 {
   int total = 0;
@@ -468,7 +468,7 @@ int Sum(Array<int>& values)
   return total;
 }
 ```
-```
+```C++
 int Sum(Array<int>& values)
 {
   int total = 0;

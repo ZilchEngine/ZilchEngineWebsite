@@ -1,7 +1,7 @@
 This lesson introduces the **Zilch Launcher** and explains how to use it.
 
 
- #  [Download the Engine](https://builds.zeroengine.io/ZilchLauncherSetup.exe )
+ #  [Download the Engine](https://builds.zilchengine.com/ZilchLauncherSetup.exe )
 
 (IMPORTANT)**Restricted Launcher Download**: Currently only registered DigiPen students with a valid DigiPen login can download the Zilch Launcher.
 

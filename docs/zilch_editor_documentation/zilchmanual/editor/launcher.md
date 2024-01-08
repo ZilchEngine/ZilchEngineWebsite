@@ -1,6 +1,6 @@
 This page covers the launcher and its multiple subtabs.
 
- #  [Download the Engine](http://download.zeroengine.io )
+ #  [Download the Engine](http://download.zilchengine.com )
 
  # The Discover Tab
 
@@ -16,12 +16,12 @@ The Discover tab is the Launcher's information hub, featuring links to documenta
 
 | Link | Description |
 | -- | -- |
-| [ZEROHUB](https://dev.zeroengine.io/) | The ZilchHub homepage |
+| [ZEROHUB](https://dev.zilchengine.com/) | The ZilchHub homepage |
 | [ZILCH](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) | The Nada user documentation |
-| [ROADMAP](https://dev.zeroengine.io/project/board/52/) | An overview of current development on Zilch Engine |
+| [ROADMAP](https://dev.zilchengine.com/project/board/52/) | An overview of current development on Zilch Engine |
 | [DOCUMENTATION](https://github.com/ZilchEngine/ZilchDocs/blob/master.md) | The root documentation page |
-| [MARKET](https://market.zeroengine.io/) | The Zilch Market webste |
-| [Q&A](https://ask.zeroengine.io/) | The Zilch Q&A website |
+| [MARKET](https://market.zilchengine.com/) | The Zilch Market webste |
+| [Q&A](https://ask.zilchengine.com/) | The Zilch Q&A website |
 
  # The Projects Tab
 

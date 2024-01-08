@@ -31,7 +31,7 @@ The following are usable in the Zilch Engine:
 | `[Command]`                             | Zilch  | Can run in editor and accessible in Search Window           |
 | `[ComponentInterface]`                  | Zilch  | Defines a class as a generic interface for derived classes  |
 
-(IMPORTANT)**Deprecation Warning**: The `[Editable]` and `[Serialized]` attributes were #deprecated in release [1.1.0](https://dev.zeroengine.io/source/ZeroCore/browse/releases%252F1.1.0/;d3c079aaf84bf52abb6e1c43e8ca88361cd70b10) and will be removed in the next major version of the engine. Use `[Property]` and `[Serialize]` for all engine versions `1.1.0` and newer.
+(IMPORTANT)**Deprecation Warning**: The `[Editable]` and `[Serialized]` attributes were #deprecated in release [1.1.0](https://dev.zilchengine.com/source/ZeroCore/browse/releases%252F1.1.0/;d3c079aaf84bf52abb6e1c43e8ca88361cd70b10) and will be removed in the next major version of the engine. Use `[Property]` and `[Serialize]` for all engine versions `1.1.0` and newer.
 
  ## [Static]
         

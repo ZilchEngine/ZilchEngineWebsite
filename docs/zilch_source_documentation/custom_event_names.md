@@ -1,7 +1,7 @@
 Custom Event Names
 ------------------
 We start by making a externed string in our header file:
-```
+```C++
 namespace Zilch
 {
   namespace Events
@@ -12,7 +12,7 @@ namespace Zilch
 ```
 And within the cpp file we must define the string:
 
-```
+```C++
 namespace Zilch
 {
   namespace Events
@@ -28,7 +28,7 @@ Custom Event Types
 ------------------
 To create an event type that we can send (*this is not required*) we can make a new class that inherits from `Event`:
 
-```
+```C++
 class FlagEvent : public Event
 {
 public:
@@ -37,9 +37,9 @@ public:
   // Any data you wish to put here
 };
 ```
-Notice that this class uses the `ZilchDeclareType` macro. This means that it is important that we use the counterpart `ZilchDefineType` within the cpp, and that we must absolutely be sure to call `BindBase` on Event as well as `InitializeMetaOfType(FlagEvent)` elsewhere in the initialization portion of our code. See [meta_binding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_source_documentation/meta_binding.md) for more details.
+Notice that this class uses the `ZilchDeclareType` macro. This means that it is important that we use the counterpart `ZilchDefineType` within the cpp, and that we must absolutely be sure to call `BindBase` on Event as well as `InitializeMetaOfType(FlagEvent)` elsewhere in the initialization portion of our code. See [meta_binding](meta_binding.md) for more details.
 
-```
+```C++
 ZilchDefineType(FlagEvent);
 
 void FlagEvent::InitializeMeta(MetaType* meta)
@@ -53,7 +53,7 @@ Sending / Receiving Events
 --------------------------
 Sending an event is generally:
 
-```
+```C++
 FlagEvent toSend;
   target->GetDispatcher()->Dispatch(Events::FlagCaptured, &toSend);
 ```
@@ -62,13 +62,13 @@ The `target` in this case is whoever we want to send the event on.
 
 In some places we have helper functions like `DispatchEvent` to make this more convenient (such as on component):
 
-```
+```C++
 FlagEvent toSend;
 DispatchEvent(Events::FlagCaptured, &toSend);
 ```
 When making an event *connection* so we can receive an event you may use:
 
-```
+```C++
 Zilch::Connect(target, Events::FlagCaptured, this, &self_type::OnFlagCaptured);
 ```
 
@@ -76,7 +76,7 @@ The `target` in this case is an object that is going to have that event sent to 
 
 Technically `Zilch::Connect` can connect any two objects (it doesn't even have to be yourself), however since your own object is most common, we have a macro to simplify this:
 
-```
+```C++
 ConnectThisTo(target, Events::FlagCaptured, OnFlagCaptured);
 ```
 
@@ -95,7 +95,7 @@ All events in Zilch are sent and received by string names. We are able to keep t
 
 Many event systems will pass multiple arguments and invoke functions directly:
 
-```
+```C++
 void MyCallback(float frameTime, int frameNumber, World* world);
 ```
 

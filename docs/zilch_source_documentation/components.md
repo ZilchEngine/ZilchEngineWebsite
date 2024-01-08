@@ -11,7 +11,7 @@ The bare minimum requirements for making a component are as follows:
 
 Within the `CustomComponent.hpp` header file:
 
-```
+```C++
 
 # pragma once
 
@@ -30,7 +30,7 @@ It is our coding style to not tab in the namespace. We also generally rely upon 
 
 Within the `CustomComponent.cpp` file:
 
-```
+```C++
 
 # include "Precompiled.hpp"
 
@@ -76,7 +76,7 @@ Within the component there are a few virtual functions which can be overridden.
 
 Add the following code to `CustomComponent.hpp` right after `InitializeMeta`:
 
-```
+```C++
 // These functions are in the order they will be invoked:
 void Serialize(Serializer& stream) override;
 void Initialize(CogInitializer& initializer) override;
@@ -89,7 +89,7 @@ You may implement these functions as you see fit. Empty implementations are OK, 
 
 The following includes some common example implementations of the above functions:
 
-```
+```C++
 void CustomComponent::InitializeMeta(MetaType* meta)
 {
   BindBase(Component);
@@ -114,7 +114,7 @@ void CustomComponent::InitializeMeta(MetaType* meta)
   BindMethod(Speak);
 }
 ```
-```
+```C++
 void CustomComponent::Serialize(Serializer& stream)
 {
   // Our serialization handles both directions (saving and loading)
@@ -123,7 +123,7 @@ void CustomComponent::Serialize(Serializer& stream)
   SerializeResourceName(mFace, MaterialManager);
 }
 ```
-```
+```C++
 void CustomComponent::Initialize(CogInitializer& initializer)
 {
   // You might grab another component on your object
@@ -132,21 +132,21 @@ void CustomComponent::Initialize(CogInitializer& initializer)
   mTransform = GetOwner()->has(Transform);
 }
 ```
-```
+```C++
 void CustomComponent::OnAllObjectsCreated(CogInitializer& initializer)
 {
   // Find another object within the space (everything should be created by here)
   Cog* player = GetSpace()->FindObjectByName("Player");
 }
 ```
-```
+```C++
 void CustomComponent::DebugDraw()
 {
   // Draw a red sphere at our position
   gDrawer->Add(Debug::Sphere(mTransform->GetWorldTranslation(), 0.5f).Color(Color::Red));
 }
 ```
-```
+```C++
 void CustomComponent::OnDestroy(uint flags)
 {
   // Disconnect ourselves from any lists we've been added to
@@ -154,7 +154,7 @@ void CustomComponent::OnDestroy(uint flags)
 ```
 Last but not least, if you would like your component to be automatically documented by doxygen, you must use tripple slashes `///` for comments above any classes, functions, properties, or members you want to be documented. The file header that doxygen requires should look something like:
 
-```
+```C++
 *///////////////////////////////////////////////////////////////////////////*
 ///
 /// \file CustomComponent.hpp
