@@ -7,4 +7,4 @@
 
 ## C++ Plugin Development
 Plugin development has the same requirements as the launcher and editor with the addition of:
-- **IDE**: Visual Studio 2015 
+- **IDE**: Visual Studio 2022
