@@ -21,8 +21,61 @@
 #### [Customizing and exported project](zilch_editor_documentation/zilchmanual/editor/customizeexportedgame.md)
 
 ## [Scripting](zilch_editor_documentation/zilchmanual/scripting.md)
+### [nada_in_zilch](zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+### [Events & Connections](zilch_editor_documentation/zilchmanual/scripting/eventsandconnections.md)
+### [Debug Drawing](zilch_editor_documentation/zilchmanual/scripting/debugdrawing.md)
+### [The WYSIWYG Approach to Configurable Properties](zilch_editor_documentation/zilchmanual/scripting/wysiwyg.md)
 
 ## [Architecture](zilch_editor_documentation/zilchmanual/architecture.md)
+###  [Cogs](zilch_editor_documentation/zilchmanual/architecture/cogs.md)
+#### [Game Objects Concept](zilch_editor_documentation/zilchmanual/architecture/cogs/gameobjectsconcept.md)
+#### [ObjectStore](zilch_editor_documentation/zilchmanual/architecture/cogs/objectstore.md)
+
+###  [Archetypes](zilch_editor_documentation/zilchmanual/architecture/archetypes.md)
+#### [Archetype Basics](zilch_editor_documentation/zilchmanual/architecture/archetypes/archetype_basics.md)
+#### [Nested Archetypes](zilch_editor_documentation/zilchmanual/architecture/archetypes/nested_archetypes.md) (Documentation Coming Soon)
+#### [Archetype Inheritance](zilch_editor_documentation/zilchmanual/architecture/archetypes/archetype_inheritance.md)
+
+###  [Significant Objects](zilch_editor_documentation/zilchmanual/architecture/objects.md)
+#### [The Level Settings Object](zilch_editor_documentation/zilchmanual/architecture/objects/levelsettings.md)
+#### [The Space Object](zilch_editor_documentation/zilchmanual/architecture/objects/spaces.md)
+#### [The Game Session Object](zilch_editor_documentation/zilchmanual/architecture/objects/gamesession.md)
+
+###  [Resources](zilch_editor_documentation/zilchmanual/architecture/resources.md)
+#### [Resources](zilch_editor_documentation/zilchmanual/architecture/resources/resources.md)
+#### [ResourceAdding](zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+#### Independent Resources
+##### [ColorGradient ](zilch_editor_documentation/zilchmanual/architecture/resources/colorgradient.md)
+##### [Level ](zilch_editor_documentation/zilchmanual/architecture/resources/level.md)
+##### [SampleCurve ](zilch_editor_documentation/zilchmanual/architecture/resources/samplecurve.md)
+##### [TextBlock ](zilch_editor_documentation/zilchmanual/architecture/resources/textblock.md)
+##### [ResourceTable](zilch_editor_documentation/zilchmanual/architecture/resources/resourcetable.md)
+##### [archetypes](zilch_editor_documentation/zilchmanual/architecture/archetypes.md)
+#### Code Resources
+##### [NadaScript](zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+##### [NadaFragment (Shaders)](zilch_editor_documentation/zilchmanual/graphics/materials/shaders.md)
+#### Graphics Resources
+##### [Font](zilch_editor_documentation/zilchmanual/architecture/resources/font.md)
+##### [Materials](zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md)
+##### [Mesh](zilch_editor_documentation/zilchmanual/graphics/models/mesh.md)
+##### [RenderGroup](zilch_editor_documentation/zilchmanual/graphics/rendergroups.md)
+##### [SpriteSource](zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.md)
+##### [textures](zilch_editor_documentation/zilchmanual/graphics/materials/textures.md)
+#### Physics Resources
+##### [CollisionGroup](zilch_editor_documentation/zilchmanual/physics/collisionoverview/collisiongroupsandtables.md)
+##### [CollisionTable](zilch_editor_documentation/zilchmanual/physics/collisionoverview/collisiongroupsandtables.md)
+##### [ConvexMesh](zilch_editor_documentation/zilchmanual/physics/colliders/convexmeshcollider.md)
+##### [MultiConvexMesh](zilch_editor_documentation/zilchmanual/physics/colliders/multiconvexmeshcollider.md)
+##### [PhysicsMaterial](zilch_editor_documentation/zilchmanual/physics/physicsmaterial.md)
+##### [PhysicsMesh](zilch_editor_documentation/zilchmanual/physics/colliders/meshcollider.md)
+##### [PhysicsSolverConfig](zilch_editor_documentation/zilchmanual/physics/physicssolverconfig.md)
+#### Sound Resources
+##### [sound](zilch_editor_documentation/zilchmanual/audio/sound.md)
+##### [SoundAttenuator](zilch_editor_documentation/zilchmanual/audio/soundattenuator.md)
+##### [soundcue](zilch_editor_documentation/zilchmanual/audio/soundcue.md)
+##### [soundtag](zilch_editor_documentation/zilchmanual/audio/soundtag.md)
+
+###  [Components](zilch_editor_documentation/zilchmanual/architecture/components.md)
 
 ## [Graphics](zilch_editor_documentation/zilchmanual/graphics.md)
 
