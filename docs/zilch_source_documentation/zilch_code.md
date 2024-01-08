@@ -1,4 +1,4 @@
-##General Principles
+## General Principles
 - Simplify
 - Organized by what it does
 - Embrace change
