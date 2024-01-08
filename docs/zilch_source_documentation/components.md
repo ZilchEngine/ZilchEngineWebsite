@@ -1,5 +1,6 @@
-Component Example
- ################# 
+A component is an atomic piece of functionality that is composed into a Cog to form game objects.
+
+# Component Example
 
 The following example guides you through making a component in C++ and exposing it to Zilch so that it can be added to a Cog, serialized, and interact with other components.
 

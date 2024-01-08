@@ -4,7 +4,7 @@ Scripting is the basis of making gameplay as it is how you define rules for your
 
 
 # [Events & Connections](scripting/eventsandconnections.md)
-Component based design depends heavily on a simple and flexible way to pass information between components. This section covers how to use events in zero to allow components to speak to each other.
+Component based design depends heavily on a simple and flexible way to pass information between components. This section covers how to use events in Zilch to allow components to speak to each other.
 
 # [Debug Drawing](scripting/debugdrawing.md)
 There are multiple ways to debug your game in Zilch aside from the standard `Console.Writeline` function.

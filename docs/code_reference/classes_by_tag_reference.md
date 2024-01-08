@@ -241,7 +241,7 @@
 - [textureinfo](class_reference/textureinfo.md) 
 - [trackevent](class_reference/trackevent.md) 
 - [tracknode](class_reference/tracknode.md) 
-- [zerometaarrayanimationclips](class_reference/zerometaarrayanimationclips.md) 
+- [zilchmetaarrayanimationclips](class_reference/zilchmetaarrayanimationclips.md) 
 - [nadafragmentbuilder](class_reference/nadafragmentbuilder.md) 
 - [nadapluginbuilder](class_reference/nadapluginbuilder.md) 
 - [nadascriptbuilder](class_reference/nadascriptbuilder.md) 
@@ -701,7 +701,7 @@
 - [updateevent](class_reference/updateevent.md) 
 - [userconfig](class_reference/userconfig.md) 
 - [windowlaunchsettings](class_reference/windowlaunchsettings.md) 
-- [zerometaarraycontentlibraryreferencearray](class_reference/zerometaarraycontentlibraryreferencearray.md) 
+- [zilchmetaarraycontentlibraryreferencearray](class_reference/zilchmetaarraycontentlibraryreferencearray.md) 
 - [nadacompiledevent](class_reference/nadacompiledevent.md) 
 - [nadacompileevent](class_reference/nadacompileevent.md) 
 - [nadacompilefragmentevent](class_reference/nadacompilefragmentevent.md) 
@@ -915,7 +915,7 @@
 - [webbrowsertextevent](class_reference/webbrowsertextevent.md) 
 - [webbrowserurlevent](class_reference/webbrowserurlevent.md) 
 - [webbrowserwidget](class_reference/webbrowserwidget.md) 
-- [zero](class_reference/zero.md) 
+- [zilch](class_reference/zilch.md) 
  #  Geometry
 ---  
 - [aabb](class_reference/aabb.md) 
@@ -1094,7 +1094,7 @@
 - [threadsafereferencecounted](class_reference/threadsafereferencecounted.md) 
 - [typeevent](class_reference/typeevent.md) 
 - [typenamedisplay](class_reference/typenamedisplay.md) 
-- [zerometaarrayrevisions](class_reference/zerometaarrayrevisions.md) 
+- [zilchmetaarrayrevisions](class_reference/zilchmetaarrayrevisions.md) 
  #  Networking
 ---  
 - [acquirenethostinfo](class_reference/acquirenethostinfo.md) 
@@ -1154,7 +1154,7 @@
 - [threadedwebrequest](class_reference/threadedwebrequest.md) 
 - [webrequester](class_reference/webrequester.md) 
 - [webresponseevent](class_reference/webresponseevent.md) 
-- [zerometaarraynetpropertyinfos](class_reference/zerometaarraynetpropertyinfos.md) 
+- [zilchmetaarraynetpropertyinfos](class_reference/zilchmetaarraynetpropertyinfos.md) 
  #  Physics
 ---  
 - [basecastfilter](class_reference/basecastfilter.md) 
@@ -1398,8 +1398,8 @@
 - [soundtagentrydisplay](class_reference/soundtagentrydisplay.md) 
 - [soundtags](class_reference/soundtags.md) 
 - [volumenode](class_reference/volumenode.md) 
-- [zerometaarraysounds](class_reference/zerometaarraysounds.md) 
-- [zerometaarraysoundtags](class_reference/zerometaarraysoundtags.md) 
+- [zilchmetaarraysounds](class_reference/zilchmetaarraysounds.md) 
+- [zilchmetaarraysoundtags](class_reference/zilchmetaarraysoundtags.md) 
  #  SpatialPartition
 ---  
 - [boundingboxbroadphase](class_reference/boundingboxbroadphase.md) 

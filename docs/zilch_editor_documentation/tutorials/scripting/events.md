@@ -230,7 +230,7 @@ Now we can see the particle system object being created in our event response fu
 - [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
 - [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md)
 - [updateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.md)
-- [zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md)
+- [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md)
 - [mouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md)
 - [keyboardevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md)
 - [soundevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundevent.md)

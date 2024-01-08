@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#connect-void)|[ Audio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#audio-zilch-engine-docume)| | |
-|[ Disconnect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#disconnect-void)|[ Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#editor-zilch-engine-docum)| | |
-|[ DisconnectAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#disconnectall-void)|[ Engine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#engine-zilch-engine-docum)| | |
-| |[ Environment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#environment-zilch-engine)| | |
-| |[ Gamepads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#gamepads-zilch-engine-doc)| | |
-| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#joysticks-zilch-engine-do)| | |
-| |[ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#keyboard-zilch-engine-doc)| | |
-| |[ Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#mouse-zilch-engine-docume)| | |
-| |[ ObjectStore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#objectstore-zilch-engine)| | |
-| |[ OsShell](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#osshell-zilch-engine-docu)| | |
-| |[ ResourceSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#resourcesystem-zilch-engi)| | |
+|[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#connect-void)|[ Audio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#audio-zilch-engine-docume)| | |
+|[ Disconnect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#disconnect-void)|[ Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#editor-zilch-engine-docum)| | |
+|[ DisconnectAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#disconnectall-void)|[ Engine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#engine-zilch-engine-docum)| | |
+| |[ Environment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#environment-zilch-engine)| | |
+| |[ Gamepads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#gamepads-zilch-engine-doc)| | |
+| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#joysticks-zilch-engine-do)| | |
+| |[ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#keyboard-zilch-engine-doc)| | |
+| |[ Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#mouse-zilch-engine-docume)| | |
+| |[ ObjectStore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#objectstore-zilch-engine)| | |
+| |[ OsShell](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#osshell-zilch-engine-docu)| | |
+| |[ ResourceSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#resourcesystem-zilch-engi)| | |
 
 
  #  Properties
