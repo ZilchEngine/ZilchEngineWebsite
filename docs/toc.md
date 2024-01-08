@@ -70,10 +70,10 @@
 ##### [PhysicsMesh](zilch_editor_documentation/zilchmanual/physics/colliders/meshcollider.md)
 ##### [PhysicsSolverConfig](zilch_editor_documentation/zilchmanual/physics/physicssolverconfig.md)
 #### Sound Resources
-##### [sound](zilch_editor_documentation/zilchmanual/audio/sound.md)
+##### [Sound](zilch_editor_documentation/zilchmanual/audio/sound.md)
 ##### [SoundAttenuator](zilch_editor_documentation/zilchmanual/audio/soundattenuator.md)
-##### [soundcue](zilch_editor_documentation/zilchmanual/audio/soundcue.md)
-##### [soundtag](zilch_editor_documentation/zilchmanual/audio/soundtag.md)
+##### [Soundcue](zilch_editor_documentation/zilchmanual/audio/soundcue.md)
+##### [Soundtag](zilch_editor_documentation/zilchmanual/audio/soundtag.md)
 
 ###  [Components](zilch_editor_documentation/zilchmanual/architecture/components.md)
 
