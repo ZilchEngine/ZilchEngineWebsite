@@ -1,4 +1,4 @@
-[ SoundCues ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.md) are a fundamental part of playing audio in the Zilch Engine. However the user chooses to play a sound, they will need to use a SoundCue to play it. SoundCues allow the user to modify various properties without affecting the original [Sound ](sound.md) resource: the same Sound can be applied to different SoundCues, have different property values on the SoundCue, and end up sounding completely different. 
+[ SoundCues ](../../../code_reference/class_reference/soundcue.md) are a fundamental part of playing audio in the Zilch Engine. However the user chooses to play a sound, they will need to use a SoundCue to play it. SoundCues allow the user to modify various properties without affecting the original [Sound ](sound.md) resource: the same Sound can be applied to different SoundCues, have different property values on the SoundCue, and end up sounding completely different. 
 
  # Common Uses
 
@@ -50,7 +50,7 @@ If all three of the fields are set to values other than zero, whenever the Sound
 
 ![SoundEntry](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47922.png)
 
-Each [ SoundEntry ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.md) holds a Sound which can be played by the SoundCue. SoundEntries have properties to control when the audio file starts and stops, when it starts looping and stops looping, and whether it should cross-fade audio after it loops.
+Each [ SoundEntry ](../../../code_reference/class_reference/soundentry.md) holds a Sound which can be played by the SoundCue. SoundEntries have properties to control when the audio file starts and stops, when it starts looping and stops looping, and whether it should cross-fade audio after it loops.
 
  ## SoundTagEntries
 
@@ -58,7 +58,7 @@ Every [ SoundTag](soundtag.md) in the list of SoundTagEntries will be applied to
 
  ##  Nada Events
 
-- The `SoundCuePrePlay` [ SoundInstanceEvent  ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstanceevent.md) is sent just before a SoundInstance is played. 
+- The `SoundCuePrePlay` [ SoundInstanceEvent  ](../../../code_reference/class_reference/soundinstanceevent.md) is sent just before a SoundInstance is played. 
 - The `SoundCuePostPlay` SoundInstanceEvent is sent immediately afterward. 
 
 The following code block shows how to connect to the `SoundCuePrePlay` event and change the SoundInstance's volume before it plays.
@@ -94,9 +94,9 @@ function OnCuePlay(event : SoundInstanceEvent)
 
  ## Reference
 
-- [ SoundCue ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.md)
-- [ SoundEntry ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundentry.md)
-- [ SoundTag ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.md)
-- [ SoundInstanceEvent ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstanceevent.md) 
+- [ SoundCue ](../../../code_reference/class_reference/soundcue.md)
+- [ SoundEntry ](../../../code_reference/class_reference/soundentry.md)
+- [ SoundTag ](../../../code_reference/class_reference/soundtag.md)
+- [ SoundInstanceEvent ](../../../code_reference/class_reference/soundinstanceevent.md) 
 
  
