@@ -62,7 +62,7 @@ In the abstract a SampleCurve is a visual representation of a change over time o
  ## Using Actions
 A SampleCurve can be used in place of the `Ease` parameter of an Action and alters the manner in which the value changes between its starting and ending values. The vertical axis of the SampleCurve represents a normalized value of the property being changed, with `0` representing the starting value and `1` representing the desired ending value.
 
-```
+```TS
 class SampleCurveTests : NadaComponent
 {
   // The SampleCurve to be used
@@ -101,7 +101,7 @@ SampleCurve has access to a function,  `Sample()` , that returns the value of th
 
 The return value is scaled by the Y maximum as defined in the curve editor. If the input value is less that the X value of the curve's first anchor point (usually `0.0`), or greater than the X value of the curve's final anchor point (usually the X maximum as defined in the curve editor), then the value will clamp to the Y value of that anchor point. 
 
-```
+```TS
 class LightTest : NadaComponent
 {
   [Dependency] var DirectionalLight : DirectionalLight;

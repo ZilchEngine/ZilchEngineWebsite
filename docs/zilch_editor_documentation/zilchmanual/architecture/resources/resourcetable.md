@@ -18,7 +18,7 @@ All sampling functions for a ResourceTable return a [ResourceTableEntry](https:/
 
 ResourceTables can be accessed as an array at run-time. This is useful for a list of objects where order is important (e.g. generating UI). Given below is a simple example of using the array interface to spawn archetypes:
 
-```lang=csharp 
+```TS
   // Spawn each archtype one below another
   for(var i = 0; i < this.Table.Count; ++i)
   {
@@ -42,7 +42,7 @@ ResourceTable can also be used as a hashmap where the entry's name is the key.
 
  One such example is mapping button names to a resource. Pictured above is a table of Levels. A menu in a game could use the `Name` properties to populate the text on buttons. When a button is clicked, the easiest way to get the Level to load is to use the HashMap interface to look up the entry by name.
 
-```lang=csharp
+```TS
   function GetLevelByName(name : String) : Level
   {
     var entry = this.Table.GetOrNull(name);
@@ -69,7 +69,7 @@ Each entry in a table has a weight used to determine how likely it is to be rand
  ##  Sampling the Table
 ResourceTable can be sampled at run-time through the `Sample` function:
 
-```lang=csharp
+```TS
   function SpawnDropAt(pos : Real3)
   {
     // Sampling the weighted table requires two random numbers in the range of [0, 1)

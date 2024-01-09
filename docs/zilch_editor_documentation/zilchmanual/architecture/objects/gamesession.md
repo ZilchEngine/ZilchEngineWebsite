@@ -1,13 +1,13 @@
-[GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md) manages the running of the game, both upon pressing the play button and dealing with the exported version. It is an object that represents one instance of the game. Being an object, it is possible to create more than one game session per executable.
+[GameSession](../../../../code_reference/class_reference/gamesession.md) manages the running of the game, both upon pressing the play button and dealing with the exported version. It is an object that represents one instance of the game. Being an object, it is possible to create more than one game session per executable.
 
  # Common Uses
- - Setting the starting [level](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/level.md) 
+ - Setting the starting [level](../resources/level.md) 
  - Redirecting the use of `Esc` key in game 
 
  # Using the GameSession
-The GameSession object may be accessed from the scripts that are running via any [ Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs/gameobjectsconcept.md):
+The GameSession object may be accessed from the scripts that are running via any [ Cog](../cogs/gameobjectsconcept.md):
 
-```
+```TS
     // Within a script, those ``this`` variables referring to a Cog can get the GameSession
     // Note: Even though they are not Cogs, all Components (to include derived NadaComponents)
     // are equipped with a getter to GameSession
@@ -22,7 +22,7 @@ The GameSession object may be accessed from the scripts that are running via any
 
 In Nada, a GameSession object cannot be created using the a normal constructor. In order to create a GameSession one must use a function bound from C++:
 
-```
+```TS
     // Here, a C++ function bound to Nada is used to create a GameSession
     var myGame = Zilch.Engine.CreateGameSession();
     
