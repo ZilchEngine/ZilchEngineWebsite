@@ -1,4 +1,4 @@
-The [Path](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/path.md) resource is used as a base for the [LevelPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/levelpath.md) component. 
+The [Path](../../../../code_reference/class_reference/path.md) resource is used as a base for the [LevelPath](../../gameplay/levelpath.md) component. 
 
 
 ## Using a Path
@@ -14,8 +14,8 @@ The Path resource on its own has no accessible functions. Instead a LevelPath co
 
 ### Reference Pages
 
-[Path](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/path.md) 
-[LevelPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/levelpath.md) 
+[Path](../../../../code_reference/class_reference/path.md) 
+[LevelPath](../../../../code_reference/class_reference/levelpath.md) 
  
 
  

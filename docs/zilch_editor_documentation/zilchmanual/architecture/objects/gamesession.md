@@ -48,23 +48,23 @@ The user connects to these events when dispatched on the GameSession], e.g.:
 
 | Event Name       |          Type         | Description                                                                       |
 |------------------|-----------------------|-----------------------------------------------------------------------------------|
-| GameSetup        | [gameevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gameevent.md) | This event fires after the creation of the GameSession. Only GameSession will be to respond to this event due to the timing of the dispatch during normal circumstances. |
-| GameLoad         | [gameevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gameevent.md) | This event fires after the creation of the Space Archetype. Only GameSession and spaces will be able to respond to this event due to the timing of the dispatch in normal circumstances. |
-| GameStarted      | [gameevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gameevent.md) | This event fires after the starting level is fully loaded. All cogs present at the start of level are able respond to this event. Dynamically created objects may or may not respond depending on when they were created. (e.g. those created during initialize of those objects loaded with the level will still receive this event, but those created in response to the `LogicUpdate` event will not. |
-| GameFocusIn      | [gameevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gameevent.md) | This event fires once the game window has regained focus (having been out of focus.) This event is not sent when testing in the editor. In order to test this logic, run the game using the `ExportAndPlayGame` command. |
-| GameFocusOut     | [gameevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gameevent.md) | This event fires after the game window has lost focus, for instance when clicking on another application. This event is not sent when testing in the editor. In order to test this logic, run the game using the `ExportAndPlayGame` command. |
-| GameRequestQuit  | [gameevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gameevent.md) | This event fires after the pressing the `Esc` key. This allows a script to hook the key in order to override this behavior. See [HandlingQuitMessage](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/handlingquitmessage.md) for more on this. |
+| GameSetup        | [gameevent](../../../../code_reference/class_reference/gameevent.md) | This event fires after the creation of the GameSession. Only GameSession will be to respond to this event due to the timing of the dispatch during normal circumstances. |
+| GameLoad         | [gameevent](../../../../code_reference/class_reference/gameevent.md) | This event fires after the creation of the Space Archetype. Only GameSession and spaces will be able to respond to this event due to the timing of the dispatch in normal circumstances. |
+| GameStarted      | [gameevent](../../../../code_reference/class_reference/gameevent.md) | This event fires after the starting level is fully loaded. All cogs present at the start of level are able respond to this event. Dynamically created objects may or may not respond depending on when they were created. (e.g. those created during initialize of those objects loaded with the level will still receive this event, but those created in response to the `LogicUpdate` event will not. |
+| GameFocusIn      | [gameevent](../../../../code_reference/class_reference/gameevent.md) | This event fires once the game window has regained focus (having been out of focus.) This event is not sent when testing in the editor. In order to test this logic, run the game using the `ExportAndPlayGame` command. |
+| GameFocusOut     | [gameevent](../../../../code_reference/class_reference/gameevent.md) | This event fires after the game window has lost focus, for instance when clicking on another application. This event is not sent when testing in the editor. In order to test this logic, run the game using the `ExportAndPlayGame` command. |
+| GameRequestQuit  | [gameevent](../../../../code_reference/class_reference/gameevent.md) | This event fires after the pressing the `Esc` key. This allows a script to hook the key in order to override this behavior. See [HandlingQuitMessage](../..//gameplay/handlingquitmessage.md) for more on this. |
 
 
  # Related Materials
  ## Manual
-- [HandlingQuitMessage](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/gameplay/handlingquitmessage.md)
-- [level](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/level.md) 
-- [ Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs/gameobjectsconcept.md)
+- [HandlingQuitMessage](../..//gameplay/handlingquitmessage.md)
+- [level](..//resources/level.md) 
+- [ Cog](../cogs/gameobjectsconcept.md)
 
  ## Reference
-- [GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
-- [gameevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/gameevent.md)
+- [GameSession](../../../../code_reference/class_reference/gamesession.md)
+- [gameevent](../../../../code_reference/class_reference/gameevent.md)
 
  
 

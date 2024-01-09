@@ -101,12 +101,12 @@ In the following demonstration, another, smaller Sprite has been added behind th
 
  # Related Materials
  ## Manual Pages
-- [resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.md)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [resources](../resources.md)
+- [resourceadding](../../editor/editorcommands/resourceadding.md)
  ## Reference Pages
-- [colorgradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorgradient.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md) 
-- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md) 
+- [colorgradient](../../../../code_reference/class_reference/colorgradient.md)
+- [Sprite](../../../../code_reference/class_reference/sprite.md) 
+- [Material](../../../../code_reference/class_reference/material.md) 
 
  
 

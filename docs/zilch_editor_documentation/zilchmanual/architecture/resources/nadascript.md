@@ -12,7 +12,7 @@ A NadaScript resource is an in-editor representation of a NadaScript file, which
 ## Using NadaScripts
 
 ###Creating a NadaScript
-A new NadaScript can be added by using the Add command [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : `Add` or clicking on the `Add` button, followed by selecting `NadaScript`. After giving the new NadaScript a name it's also possible to choose a template to use for the NadaScript, depending on what the script will be used for. 
+A new NadaScript can be added by using the Add command [Command](../../editor/editorcommands/commands.md) : `Add` or clicking on the `Add` button, followed by selecting `NadaScript`. After giving the new NadaScript a name it's also possible to choose a template to use for the NadaScript, depending on what the script will be used for. 
 
 
 
@@ -26,7 +26,7 @@ The most commonly used template is `Component` and is therefore the default, how
 
 The Component template will generate a simple class structure which inherits from `NadaComponent` inside the newly create NadaScript. 
 
-```
+```TS
 class TestScript : NadaComponent
 {
     function Initialize(init : CogInitializer)
@@ -49,7 +49,7 @@ NOTE: Nada is a statically compiled language, which means that all object defini
 
 When creating a NadaScript using the `Command` template, a basic class definition which inherits from `NadaComponent` is generated.
 
-```
+```TS
 [Command(autoRegister:true)]
 class TestCommand : NadaComponent
 {
@@ -79,7 +79,7 @@ While Commands can be used to trigger several things in the Editor, in order to 
 
 The template for a new Tool script is slightly more complex, but it is also commented for ease of use.
 
-```
+```TS
 [Tool(autoRegister:true)]
 class TestTool : NadaComponent
 {
@@ -134,7 +134,7 @@ The template tool is implemented so that when it is selected it will increase th
 
 Tools may also have Properties defined, which will then be available when that particular tool is chosen. 
 
-```
+```TS
     [Tool(autoRegister:true)]
     class TestTool : NadaComponent
     {
@@ -151,7 +151,7 @@ Tools may also have Properties defined, which will then be available when that p
 
 Also a part of the Tool template is a section of comments giving the user a list of events available for use for Tools. 
 
-```
+```TS
 //----------------- Tool Specific Events (Connect to this.Owner)
 // Events.GetToolInfo    - Called when the tool is selected - Access to SelectTool 
 // Events.ToolActivate   - Called when the tool is selected
@@ -181,13 +181,13 @@ Also a part of the Tool template is a section of comments giving the user a list
 ## Related Materials
 
 ###Manual Pages
-- [Scripting in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting.md)
-- [Nada in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+- [Scripting in Zilch](../../scripting.md)
+- [Nada in Zilch](../../nada_in_zilch.md)
 
 
 ### Tutorial Pages
 
-- [Scripting Tutorials](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting.md)
+- [Scripting Tutorials](../../../tutorials/scripting.md)
  
 
  

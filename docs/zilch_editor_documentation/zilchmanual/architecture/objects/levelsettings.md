@@ -1,14 +1,14 @@
-The LevelSettings object is a [Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs.md) of which there is one unique instance per Level. It serves as a globally accessible object from a variety of object types such as Components or other Cog. Unlike any other Cog there is no way to instantiate a LevelSettings object.
+The LevelSettings object is a [Cog](../../architecture/cogs.md) of which there is one unique instance per Level. It serves as a globally accessible object from a variety of object types such as Components or other Cog. Unlike any other Cog there is no way to instantiate a LevelSettings object.
 
  # Common Uses
- - Adding level specific [physics effects](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.md).
+ - Adding level specific [physics effects](../../physics/physicseffectsandregions.md).
  - Adding custom components which need to be globally accessible in a level by any other components that exist in the level.
 
  # Using the LevelSettings Object
 
  ## Accessing the LevelSettings Object In Editor
 
-NOTE: **Initialization Order** Notice that because the LevelSettings object is always the first object in the [Object Window](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorui.md) (and cannot be reordered) it will always be the first object to be created and initialized when the level is loaded into the Space. This can be very useful when implementing logic which depends on being initialized before related components on other objects in the level.
+NOTE: **Initialization Order** Notice that because the LevelSettings object is always the first object in the [Object Window](../../editor/editorui.md) (and cannot be reordered) it will always be the first object to be created and initialized when the level is loaded into the Space. This can be very useful when implementing logic which depends on being initialized before related components on other objects in the level.
 
 
 The LevelSettings object will always be the first object in the Object Window making it easy to find in editor.
@@ -25,7 +25,7 @@ NOTE: **LevelSettings & Hierarchies**  While parenting can often be useful with 
  ## Accessing the LevelSettings Object In Script
 The LevelSettings object may be accessed from scripts via any component or Cog:
 
-```name=LevelSettings Access Example, lang=csharp
+```TS
 class ExampleComponent : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -56,10 +56,10 @@ class ExampleComponent : NadaComponent
 
 
  ### GravityEffect & DragEffect
-Physics Effects are built in components that implement a piece of common physics-based functionality such as the [GravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions/forceeffect.md) or the [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md) components that are attached to the LevelSettings by default. Each physics effect component may perform the logic on different spatial scopes depending on which object is attached to. When a physics effect component is attached to the LevelSettings object it is applied to all objects in that level. This allows one to implement level wide effects with any of the built in physics effects as is done by default with GravityEffect and DragEffect.
+Physics Effects are built in components that implement a piece of common physics-based functionality such as the [GravityEffect](../../physics/physicseffectsandregions/forceeffect.md) or the [DragEffect](../../../../code_reference/class_reference/drageffect.md) components that are attached to the LevelSettings by default. Each physics effect component may perform the logic on different spatial scopes depending on which object is attached to. When a physics effect component is attached to the LevelSettings object it is applied to all objects in that level. This allows one to implement level wide effects with any of the built in physics effects as is done by default with GravityEffect and DragEffect.
 
  ### GridDraw
-The [griddraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md) component is a simple debug drawing component. It uses Zilch's buit in GridDraw component is a simple debug drawing component. It uses Zilch's buit in [debugdrawing](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting/debugdrawing.md) to create a customizable unit grid in the Level Window.
+The [griddraw](../../../..//code_reference/class_reference/griddraw.md) component is a simple debug drawing component. It uses Zilch's buit in GridDraw component is a simple debug drawing component. It uses Zilch's buit in [debugdrawing](../../scripting/debugdrawing.md) to create a customizable unit grid in the Level Window.
 
  ## Custom Components
 The LevelSettings object is often a very convenient object on which to attach certain custom Nada components. Imagine a scenario in which a function is implemented for a friendly AI which needs to return an enemy to attack. If all the enemies exist independent of any other object or component, there may be no immediate path from which to access all enemies from the AI.
@@ -73,22 +73,22 @@ While the above example may not be applicable to all games, it demonstrates the 
 
 | Event Name       | Type                                | Description                                                       |
 |------------------|-------------------------------------|-------------------------------------------------------------------|
-| EnterView        | [graphicalevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalevent.md) | Dispatched if [cameraviewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md) is attached to the LevelSettings object. |
-| ExitView         | [graphicalevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalevent.md) | Dispatched if [cameraviewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md) is attached to the |
+| EnterView        | [graphicalevent](../../../..//class_reference/graphicalevent.md) | Dispatched if [cameraviewport](../../../..//code_reference/class_reference/cameraviewport.md) is attached to the LevelSettings object. |
+| ExitView         | [graphicalevent](../../../..//code_reference/class_reference/graphicalevent.md) | Dispatched if [cameraviewport](../../../..//code_reference/class_reference/cameraviewport.md) is attached to the |
 
 ---
 
  # Related Materials
  ## Manual Pages
-- [Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs.md)
-- [Editor UI](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorui.md)
-- [Debug Drawing](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting/debugdrawing.md)
-- [physics effects](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.md)
+- [Cog](..//cogs.md)
+- [Editor UI](../../editor/editorui.md)
+- [Debug Drawing](../../scripting/debugdrawing.md)
+- [physics effects](../../physics/physicseffectsandregions.md)
 
  ## Code Reference
-- [GravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gravityeffect.md) 
-- [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md) 
-- [GridDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md) 
+- [GravityEffect](../../../..//code_reference/class_reference/gravityeffect.md) 
+- [DragEffect](../../../..//code_reference/class_reference/drageffect.md) 
+- [GridDraw](../../../..//code_reference/class_reference/griddraw.md) 
  
 
  

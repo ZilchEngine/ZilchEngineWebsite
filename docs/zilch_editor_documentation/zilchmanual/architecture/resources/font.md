@@ -1,9 +1,9 @@
-[Fonts](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/font.md) are used to give a visual flair to any text in a project. They can make text unique, memorable and fit into the visual style of the project all at the same time. Zilch can accept either OpenType font (OTF) and TrueType font (TTF).
+[Fonts](../../../../code_reference/class_reference/font.md) are used to give a visual flair to any text in a project. They can make text unique, memorable and fit into the visual style of the project all at the same time. Zilch can accept either OpenType font (OTF) and TrueType font (TTF).
 
 
 ## Importing New Fonts
 
-New font resources can be added in one of two ways: the file can be either dragged and dropped into the editor window, or the Add command can be used by using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add).
+New font resources can be added in one of two ways: the file can be either dragged and dropped into the editor window, or the Add command can be used by using [Command](../../editor/editorcommands/commands.md) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add).
 
 
 
@@ -15,11 +15,11 @@ This will open a new window where the user may select the font or fonts to impor
 
  # Related Materials
  ## Manual
-- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.md)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
-- [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
+- [SpriteText](../../graphics/sprites/spritetext.md)
+- [resourceadding](../../editor/editorcommands/resourceadding.md)
+- [Commands](../../editor/editorcommands/commands.md)
  ## Reference
-- [Font](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/font.md) 
+- [Font](../../../../code_reference/class_reference/font.md) 
  
 
  
