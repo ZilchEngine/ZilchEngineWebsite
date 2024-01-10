@@ -221,7 +221,6 @@
 # [Code Reference](code_reference.md)
 ## [Class Reference](code_reference/class_reference.md)
 ## [Class Reference Sorted By Tag](code_reference/classes_by_tag_reference.md)
-## [Command Reference](code_reference/command_reference.md)
 ## [Enum Reference](code_reference/enum_reference.md)
 ## [Event Reference](code_reference/event_reference.md)
 ## [Flag Reference](code_reference/flags_reference.md)
