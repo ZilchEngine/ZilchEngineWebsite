@@ -11,7 +11,7 @@ NOTE: This is a fairly limited and high-latency way to output audio. The audio d
 To output audio using a CustomAudioNode the user must connect to the CustomAudioNode's `NeedMoreSamples` event and send a buffer of audio samples when the event is received which is at least as large as the `MinimumBufferSize`. The CustomAudioNode will work best when the audio data is pre-computed and as little as possible is done when the event is received. If the data is not received quickly enough by the audio engine there may be clicks or gaps in the audio. 
 
 The following code block illustrates how to use a CustomAudioNode and a SoundBuffer to generate a single audio channel with a constant Sine tone.
-```lang=csharp
+```TS
 // Create and store the CustomAudioNode object
 var CustomNode : CustomAudioNode = Audio.CustomAudioNode();
 

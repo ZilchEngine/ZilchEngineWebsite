@@ -18,7 +18,7 @@ The `AddHarmonic` method adds a new harmonic which will be used for all notes pl
 
 The following code block shows you how to create a simple instrument with two harmonics.
 
-```lang=csharp
+```TS
 var Synth : AdditiveSynthNode = Audio.AdditiveSynthNode();
 
 function Initialize(init : CogInitializer)

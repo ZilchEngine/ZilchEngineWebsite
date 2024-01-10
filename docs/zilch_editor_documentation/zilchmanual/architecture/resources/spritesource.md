@@ -1,4 +1,4 @@
-A [SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/spritesource.md) is used to create a two dimensional visual element. SpriteSources can be added and modified as needed, and the same base image can be used to create several different SpriteSources if need be. 
+A [SpriteSource](../../../../code_reference/class_reference/spritesource.md) is used to create a two dimensional visual element. SpriteSources can be added and modified as needed, and the same base image can be used to create several different SpriteSources if need be. 
 
  # Common Uses
 
@@ -29,7 +29,7 @@ If changes need to be made, the SpriteSource can be modified in the [Sprite Sour
 - [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/graphics/spritesandtext/sprites.md)
 
  ## Reference Pages
-- [SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/spritesource.md) 
+- [SpriteSource](../../../../code_reference/class_reference/spritesource.md) 
  
 
  

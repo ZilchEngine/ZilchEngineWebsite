@@ -1,4 +1,4 @@
-The [SampleCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/samplecurve.md) editor is Zilch's tool for creating custom curves that can be used with any value that can be normalized, such as the Ease parameter in Actions. Just as eases can be represented on a graph as a function of a change of one value given another, the same applies to the curves created with the SampleCurve editor. 
+The [SampleCurve](../../../../code_reference/class_reference/samplecurve.md) editor is Zilch's tool for creating custom curves that can be used with any value that can be normalized, such as the Ease parameter in Actions. Just as eases can be represented on a graph as a function of a change of one value given another, the same applies to the curves created with the SampleCurve editor. 
 
 
 ## Common Uses
@@ -153,7 +153,7 @@ Since using `SampleCurve.Sample()` uses the full values of both axes, if they ar
 - [Using Actions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/actions.md)
 
  ## Reference
-- [SampleCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/samplecurve.md) 
+- [SampleCurve](../../../../code_reference/class_reference/samplecurve.md) 
  
 
  

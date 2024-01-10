@@ -1,4 +1,4 @@
-The [ SoundAttenuator ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.md) resource controls how a sound played through a [SoundEmitter ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundemitter.md) on an object decreases in volume as the object gets further away from a  [SoundListener ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundlistener.md). 
+The [SoundAttenuator ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundattenuator.md) resource controls how a sound played through a [SoundEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundemitter.md) on an object decreases in volume as the object gets further away from a  [SoundListener ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundlistener.md). 
 
  # Using SoundAttenuators 
 

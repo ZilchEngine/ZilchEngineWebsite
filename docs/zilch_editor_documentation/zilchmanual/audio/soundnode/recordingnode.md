@@ -12,7 +12,7 @@ The file created by the RecordingNode will be in WAV format. By default the node
 IMPORTANT: The `FileName` must contain the full path of the location where the file should be opened and all folders in the path must already exist. Do NOT include a file extension. This property must be set before calling `StartRecording`.
 
 The following code shows how to create a file named "RecordingTest.wav" inside the Zilch folder in the user's Documents folder.
-```lang=csharp
+```TS
 this.MyRecorder.FileName = FilePath.CombineDirectoriesAndFile(FilePath.UserDocumentsDirectory, "Zilch\\", "RecordingTest");
 ```
 

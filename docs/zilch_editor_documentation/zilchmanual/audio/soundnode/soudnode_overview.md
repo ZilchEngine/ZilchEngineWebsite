@@ -21,12 +21,12 @@ WARNING: When using PitchNodes, if a generating node has multiple output connect
  # Using SoundNodes
 
 In NadaScripts, all SoundNodes are created using the appropriate method on the Audio object. The following code block shows how you would create a PitchNode.
-```lang=csharp
+```TS
 var myPitchNode = Audio.PitchNode();
 ```
 
 There are multiple places in the SoundNode Graph that sound nodes can be attached.  Here is an example of a component that creates and controls a PitchNode for its neighboring [SoundEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundemitter.md):
-```lang=csharp
+```TS
 class EmitterPitch : NadaComponent
 {
   [Dependency] var SoundEmitter : SoundEmitter;
