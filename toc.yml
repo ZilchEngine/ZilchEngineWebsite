@@ -1,7 +1,7 @@
 - name: Documentation
   href: docs/
 - name: Samples
-  href: samples/
+  href: samples.md
 - name: Community
   href: community.md
 - name: News

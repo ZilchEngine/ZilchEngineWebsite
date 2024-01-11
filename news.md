@@ -104,7 +104,8 @@ Finally, you'll want to check out the [Documentation and Tutorials](https://zilc
 Below is a short list of items that need to be completed before the 1.0 release.
 
 - Material import (In progress)
-- 
+- In-Game UI improvement
+- Content library improvements
 
 ## Q & A
 
