@@ -15,7 +15,7 @@ For an in-depth dive into all the engine features, please check out the [documen
 **A Discrete Launcher**
 The launcher is the entry point into ZeroEngine. It is used to manage different versions of ZeroEngine, as well as managing your ZeroEngine projects.
 
-*** Launcher - Projects ***
+-> *** Launcher - Projects *** <-
 
 ![Launcher](./images/ZilchLauncher.png)
 
