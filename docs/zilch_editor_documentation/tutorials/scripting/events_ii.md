@@ -71,7 +71,7 @@ class CreateObjectOnInput : NadaComponent
 - In the `Properties Window`
   - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `CreateObjectOnInput`
 
-The first part of this script that should be new is the line with the `sends` keyword. If you recall from the previous [events](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/events.md) tutorial, the second parameter in the [ Zilch.Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#connect-void) function is a [ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md) ID that identifies the event. The `sends` keyword defines this ID, and also declares the event type the custom event will use:
+The first part of this script that should be new is the line with the `sends` keyword. If you recall from the previous [events](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/events.md) tutorial, the second parameter in the [ Zilch.Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#connect-void) function is a [ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md) ID that identifies the event. The `sends` keyword defines this ID, and also declares the event type the custom event will use:
 
 `sends EventId : EventType;`
 

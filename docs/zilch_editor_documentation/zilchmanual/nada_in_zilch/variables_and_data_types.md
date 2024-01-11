@@ -186,7 +186,7 @@ This example implements the exact same behavior as the previous `OnLogicUdpate` 
 - [nada_base_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types.md)
 - [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
 - [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
-- [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md)
+- [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md)
 - [Math](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.md) 
 
  ## Tasks

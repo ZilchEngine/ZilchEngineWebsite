@@ -241,7 +241,7 @@
 - [textureinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.md) 
 - [trackevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/trackevent.md) 
 - [tracknode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tracknode.md) 
-- [zerometaarrayanimationclips](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zerometaarrayanimationclips.md) 
+- [zilchmetaarrayanimationclips](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilchmetaarrayanimationclips.md) 
 - [nadafragmentbuilder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadafragmentbuilder.md) 
 - [nadapluginbuilder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginbuilder.md) 
 - [nadascriptbuilder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadascriptbuilder.md) 
@@ -701,7 +701,7 @@
 - [updateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.md) 
 - [userconfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.md) 
 - [windowlaunchsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.md) 
-- [zerometaarraycontentlibraryreferencearray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zerometaarraycontentlibraryreferencearray.md) 
+- [zilchmetaarraycontentlibraryreferencearray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilchmetaarraycontentlibraryreferencearray.md) 
 - [nadacompiledevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadacompiledevent.md) 
 - [nadacompileevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadacompileevent.md) 
 - [nadacompilefragmentevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadacompilefragmentevent.md) 
@@ -915,7 +915,7 @@
 - [webbrowsertextevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsertextevent.md) 
 - [webbrowserurlevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserurlevent.md) 
 - [webbrowserwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserwidget.md) 
-- [zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md) 
+- [zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md) 
  #  Geometry
 ---  
 - [aabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/aabb.md) 
@@ -1094,7 +1094,7 @@
 - [threadsafereferencecounted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadsafereferencecounted.md) 
 - [typeevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/typeevent.md) 
 - [typenamedisplay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/typenamedisplay.md) 
-- [zerometaarrayrevisions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zerometaarrayrevisions.md) 
+- [zilchmetaarrayrevisions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilchmetaarrayrevisions.md) 
  #  Networking
 ---  
 - [acquirenethostinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/acquirenethostinfo.md) 
@@ -1154,7 +1154,7 @@
 - [threadedwebrequest](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadedwebrequest.md) 
 - [webrequester](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.md) 
 - [webresponseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webresponseevent.md) 
-- [zerometaarraynetpropertyinfos](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zerometaarraynetpropertyinfos.md) 
+- [zilchmetaarraynetpropertyinfos](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilchmetaarraynetpropertyinfos.md) 
  #  Physics
 ---  
 - [basecastfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.md) 
@@ -1398,8 +1398,8 @@
 - [soundtagentrydisplay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtagentrydisplay.md) 
 - [soundtags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtags.md) 
 - [volumenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.md) 
-- [zerometaarraysounds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zerometaarraysounds.md) 
-- [zerometaarraysoundtags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zerometaarraysoundtags.md) 
+- [zilchmetaarraysounds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilchmetaarraysounds.md) 
+- [zilchmetaarraysoundtags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilchmetaarraysoundtags.md) 
  #  SpatialPartition
 ---  
 - [boundingboxbroadphase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boundingboxbroadphase.md) 

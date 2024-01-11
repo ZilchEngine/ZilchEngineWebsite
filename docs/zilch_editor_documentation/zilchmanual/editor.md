@@ -1,7 +1,7 @@
 Many new users will often make the mistake of calling the editor the engine. The engine however can function completely with out the editor and often is just manipulating data that the engine uses. Think of it like a car engine, the steering wheel is part of the car but not part of the engine.
 
  # [The Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md)
-The Zilch Engine Launcher is an application that helps you choose which version of zero you want to open a project with. It is also a place to find information about the engine community, and create new projects.
+The Zilch Engine Launcher is an application that helps you choose which version of ZilchEngine you want to open a project with. It is also a place to find information about the engine community, and create new projects.
 
  # [Editing Modes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editmode.md)
 There are a few editor modes that can be used in Zilch, check out some of the basics here.

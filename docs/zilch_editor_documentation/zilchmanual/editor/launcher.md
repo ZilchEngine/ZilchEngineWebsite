@@ -132,7 +132,7 @@ The settings tab has a number of different properties about how the Launcher its
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47897.png)
 
 
-`PROJECT SETTINGS`: Choose whether to launch the launcher or the engine when a zero project is opened.
+`PROJECT SETTINGS`: Choose whether to launch the launcher or the engine when a Zilch project is opened.
 
 `DEFAULT PROJECT LOCATION`: Where projects are saved.
 `DEFAULT DOWNLOAD LOCATION`: Where builds are saved.

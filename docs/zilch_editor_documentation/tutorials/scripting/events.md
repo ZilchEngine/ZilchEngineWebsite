@@ -93,7 +93,7 @@ class PlayerMovement : NadaComponent
 
  ## Event Connections
 
-Connecting to an event involves both calling the [Zilch.Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#connect-void-key-static) function and creating the appropriate callback function. Let's look at the call to the Connect function first, parameter by parameter:
+Connecting to an event involves both calling the [Zilch.Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md#connect-void-key-static) function and creating the appropriate callback function. Let's look at the call to the Connect function first, parameter by parameter:
 
 ```lang=csharp, name=Example Event Connect Function Call
 Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
@@ -230,7 +230,7 @@ Now we can see the particle system object being created in our event response fu
 - [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
 - [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md)
 - [updateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/updateevent.md)
-- [zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md)
+- [zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md)
 - [mouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md)
 - [keyboardevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md)
 - [soundevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundevent.md)

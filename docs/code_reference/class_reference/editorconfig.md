@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.md#editorconfig-void)|[ ZilchHubUsername](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.md#zerohubusername-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
+|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.md#editorconfig-void)|[ ZilchHubUsername](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorconfig.md#zilchhubusername-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
 
 
  #  Properties

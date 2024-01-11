@@ -1,7 +1,7 @@
 
 Before doing anything with crash dumps you should do 2 things:
 	1. Checkout the DevTools repo
-	2. Checkout a special depo of zero (or you could re-use one but it's best to make another) and add the environmental variable `ZERO_SOURCE` to point at the root of that depo.
+	2. Checkout a special repo of Zilch (or you could re-use one but it's best to make another) and add the environmental variable `ZERO_SOURCE` to point at the root of that depo.
 	
 The majority of what you care about is in the Readme.txt file under the SourceIndexer folder. Follow these steps to setup source indexing on your local machine. Currently the symbol server is only available on the local Engineering network.
 
@@ -17,6 +17,6 @@ Source Indexing
 ---------------
 Even with the symbol server setup, we still don't get source for a file at that revision. This is handled via another step called source indexing. The pdb is actually a file format that can store various files under stream names. There is a special stream named "SRC_SRV" that stores information about how to get a copy of a file from source control. For source indexing, you write to this stream a file that contains something along the lines of: FileName at %Revision% comes from the mercurial repository at %ZERO_SOURCE% with the command hg checkout FileName at %Revision% > %OutLocation%. This is currently done via the SourceIndexer program in the DevTools repository. This program takes in a source tree location and a collection of repository locations to pull from and embeds them in the pdb. Note that the source indexing needs to be embedded into the pdb before the symbol server is run. Also note that at the moment there are hard-coded repository names in the SourceIndexer program that should ideally be removed later.
 
-Crash dumps for zero are currently downloadable from http://zerocrash.digipen.edu. This website needs a large update though as it's really slow... 
+Crash dumps for Zilch are currently downloadable from http://zerocrash.digipen.edu. This website needs a large update though as it's really slow... 
 
  

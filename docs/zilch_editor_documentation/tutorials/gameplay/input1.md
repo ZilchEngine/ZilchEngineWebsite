@@ -53,7 +53,7 @@ Let's take a closer look inside our if statement:
 
 | Zilch.Keyboard.KeyIsPressed(Keys.Space); |
 |-----------------------------------------------|
-| [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md) | Accessing the Zilch engine class |
+| [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md) | Accessing the Zilch engine class |
 | [Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.md) | Accessing Keyboard class |
 | [KeyIsPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.md#keyispressed-zilch-engine)(...); | Function that determines whether a given key has been pressed this frame |
 | [Keys](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#keys) | Enumeration containing all keyboard keys |
