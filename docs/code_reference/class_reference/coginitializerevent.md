@@ -14,7 +14,7 @@
  #  CogInitializer : [coginitializer](coginitializer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CogInitializer : CogInitializer
 
 

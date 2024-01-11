@@ -19,7 +19,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -27,7 +27,7 @@
  #  End : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var End : Real3
 
 
@@ -35,7 +35,7 @@
  #  Mid : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mid : Real3
 
 
@@ -43,7 +43,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -51,7 +51,7 @@
  #  Start : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Start : Real3
 
 
@@ -59,7 +59,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -67,7 +67,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -75,7 +75,7 @@
  #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaleOffset : Real3
 
 
@@ -91,7 +91,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugArc()
 > ``` 
 
@@ -107,7 +107,7 @@
 > |start|[real3](../nada_base_types/real3.md)| |
 > |mid|[real3](../nada_base_types/real3.md)| |
 > |end|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugArc(start : Real3, mid : Real3, end : Real3)
 > ``` 
 

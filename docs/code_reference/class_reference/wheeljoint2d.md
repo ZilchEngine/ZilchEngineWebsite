@@ -23,7 +23,7 @@
  #  LocalBasisA : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object A . This frame is transformed to world space and then aligned with object B s frame . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBasisA : Quaternion
 
 
@@ -31,7 +31,7 @@
  #  LocalBasisB : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object B . This frame is transformed to world space and then aligned with object A s frame . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBasisB : Quaternion
 
 
@@ -39,7 +39,7 @@
  #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object A . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPointA : Real3
 
 
@@ -47,7 +47,7 @@
  #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object B . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPointB : Real3
 
 
@@ -55,7 +55,7 @@
  #  ShockAxis : [real3](../nada_base_types/real3.md)
 
 > The shock axis of the wheel in object A's local space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShockAxis : Real3
 
 
@@ -63,7 +63,7 @@
  #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object A given a position in world space 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPointA : Real3
 
 
@@ -71,7 +71,7 @@
  #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object B given a position in world space 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPointB : Real3
 
 
@@ -79,7 +79,7 @@
  #  WorldShockAxis : [real3](../nada_base_types/real3.md)
 
 > The shock axis of the wheel in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldShockAxis : Real3
 
 
@@ -94,7 +94,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetWorldPoints(point : Real3)
 > ``` 
 
@@ -107,7 +107,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WheelJoint2d()
 > ``` 
 

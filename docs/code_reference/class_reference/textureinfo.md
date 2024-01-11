@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Dimensions : String
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FileType : String
 
 
@@ -37,7 +37,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LoadFormat : String
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : String
 
 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TextureInfo()
 > ``` 
 

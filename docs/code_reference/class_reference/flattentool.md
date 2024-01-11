@@ -15,7 +15,7 @@
  #  Height : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Height : Real
 
 
@@ -23,7 +23,7 @@
  #  SampleNormal : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SampleNormal : Boolean
 
 
@@ -31,7 +31,7 @@
  #  SampleOnMouseDown : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SampleOnMouseDown : Boolean
 
 
@@ -39,7 +39,7 @@
  #  SlopeNormal : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SlopeNormal : Real3
 
 

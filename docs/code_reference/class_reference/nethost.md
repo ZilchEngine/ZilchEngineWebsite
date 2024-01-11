@@ -21,7 +21,7 @@
  `read-only`
 
 > Basic host info (limited to 480 bytes).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BasicHostInfo : EventBundle
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Extra host info.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ExtraHostInfo : EventBundle
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Host's IP address.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IpAddress : IpAddress
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > Returns the estimated latency ((RTT/2)) in milliseconds from our peer to this host.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Latency : Integer
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > Host's network residence.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Network : Network
 
 
@@ -71,7 +71,7 @@
  `read-only`
 
 > Returns the round-trip time (RTT) in milliseconds from our peer to this host.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RoundTripTime : Integer
 
 

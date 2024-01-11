@@ -29,7 +29,7 @@
  `read-only`
 
 > The rigid body that "owns" this collider. This is the body that forces/impulses/etc... should be applied to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ActiveBody : RigidBody
 
 
@@ -37,7 +37,7 @@
  #  CollisionGroup : [collisiongroup](collisiongroup.md)
 
 > The collision group is a tag used to alter collision behavior based upon the space's CollisionTable.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CollisionGroup : CollisionGroup
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > The current number of contacts/collisions with this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ContactCount : Integer
 
 
@@ -57,7 +57,7 @@
  `read-only`
 
 > A range of all contacts for this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Contacts : ContactRange
 
 
@@ -65,7 +65,7 @@
  #  Ghost : [boolean](../nada_base_types/boolean.md)
 
 > Ghosted colliders do not resolve collision. They do still detect collisions and send events. Ghosted colliders are typically used for trigger regions.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ghost : Boolean
 
 
@@ -75,7 +75,7 @@
  `read-only`
 
 > The number of joints attached to this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointCount : Integer
 
 
@@ -85,7 +85,7 @@
  `read-only`
 
 > A range of all joints attached to this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Joints : JointRange
 
 
@@ -93,7 +93,7 @@
  #  Material : [physicsmaterial](physicsmaterial.md)
 
 > The material used to determine the density, restitution, and friction of this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Material : PhysicsMaterial
 
 
@@ -101,7 +101,7 @@
  #  Offset : [real3](../nada_base_types/real3.md)
 
 > Moves the physics defined center of the object away from the transform's translation. Used to move physics to match a model.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Offset : Real3
 
 
@@ -109,7 +109,7 @@
  #  SendsEvents : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this object will send collision events. Used mainly for increasing performance by not sending unnecessary collision events.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SendsEvents : Boolean
 
 
@@ -119,7 +119,7 @@
  `read-only`
 
 > Returns the world-space axis aligned bounding box (Aabb) of this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldAabb : Aabb
 
 
@@ -129,7 +129,7 @@
  `read-only`
 
 > Returns the world-space bounding sphere of this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBoundingSphere : Sphere
 
 
@@ -143,7 +143,7 @@
 > Compute the world-space volume of this collider.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ComputeVolume() : Real
 > ``` 
 
@@ -155,7 +155,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetPointVelocity(worldPoint : Real3) : Real3
 > ``` 
 

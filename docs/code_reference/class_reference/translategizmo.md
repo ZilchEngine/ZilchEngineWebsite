@@ -19,7 +19,7 @@
  #  SnapDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapDistance : Real
 
 
@@ -27,7 +27,7 @@
  #  SnapMode : [GizmoSnapMode](../enum_reference.md#gizmosnapmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapMode : GizmoSnapMode
 
 
@@ -35,7 +35,7 @@
  #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > Snapping.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Snapping : Boolean
 
 
@@ -43,7 +43,7 @@
  #  UpdateMode : [UpdateMode](../enum_reference.md#updatemode)
 
 > Whether or not to automatically translate the gizmo as it's moved.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UpdateMode : UpdateMode
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TranslateGizmo()
 > ``` 
 

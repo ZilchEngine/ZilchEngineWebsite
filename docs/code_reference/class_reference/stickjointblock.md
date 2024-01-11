@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StickJointBlock()
 > ``` 
 

@@ -19,7 +19,7 @@
  `read-only`
 
 > Get source for height map.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Source : HeightMapSource
 
 
@@ -27,7 +27,7 @@
  #  UnitsPerPatch : [real](../nada_base_types/real.md)
 
 > Gets/sets the number of units per patch.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UnitsPerPatch : Real
 
 
@@ -43,7 +43,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HeightMap()
 > ``` 
 

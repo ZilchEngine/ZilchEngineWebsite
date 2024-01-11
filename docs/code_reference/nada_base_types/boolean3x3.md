@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -35,7 +35,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CountX : Integer
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CountY : Integer
 
 
@@ -53,7 +53,7 @@
  #  M00 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M00 : Boolean
 
 
@@ -61,7 +61,7 @@
  #  M01 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M01 : Boolean
 
 
@@ -69,7 +69,7 @@
  #  M02 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M02 : Boolean
 
 
@@ -77,7 +77,7 @@
  #  M10 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M10 : Boolean
 
 
@@ -85,7 +85,7 @@
  #  M11 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M11 : Boolean
 
 
@@ -93,7 +93,7 @@
  #  M12 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M12 : Boolean
 
 
@@ -101,7 +101,7 @@
  #  M20 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M20 : Boolean
 
 
@@ -109,7 +109,7 @@
  #  M21 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M21 : Boolean
 
 
@@ -117,7 +117,7 @@
  #  M22 : [boolean](boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M22 : Boolean
 
 
@@ -133,7 +133,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3x3()
 > ``` 
 
@@ -147,7 +147,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3x3(p0 : Boolean)
 > ``` 
 
@@ -169,7 +169,7 @@
 > |m20|[boolean](boolean.md)| |
 > |m21|[boolean](boolean.md)| |
 > |m22|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3x3(m00 : Boolean, m01 : Boolean, m02 : Boolean, m10 : Boolean, m11 : Boolean, m12 : Boolean, m20 : Boolean, m21 : Boolean, m22 : Boolean)
 > ``` 
 
@@ -181,7 +181,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |y|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(y : Integer) : Boolean3
 > ``` 
 
@@ -194,7 +194,7 @@
 > |---|---|---|
 > |y|[integer](integer.md)| |
 > |x|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(y : Integer, x : Integer) : Boolean
 > ``` 
 
@@ -206,7 +206,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetByIndex(index : Integer) : Boolean
 > ``` 
 
@@ -219,7 +219,7 @@
 > |---|---|---|
 > |y|[integer](integer.md)| |
 > |value|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(y : Integer, value : Boolean3)
 > ``` 
 
@@ -233,7 +233,7 @@
 > |y|[integer](integer.md)| |
 > |x|[integer](integer.md)| |
 > |value|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(y : Integer, x : Integer, value : Boolean)
 > ``` 
 
@@ -246,7 +246,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetByIndex(index : Integer, value : Boolean)
 > ``` 
 

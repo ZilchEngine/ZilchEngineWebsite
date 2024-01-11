@@ -15,7 +15,7 @@
  #  ScreenPixelPosition : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ScreenPixelPosition : Integer2
 
 
@@ -23,7 +23,7 @@
  #  ViewPixelPosition : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewPixelPosition : Integer2
 
 

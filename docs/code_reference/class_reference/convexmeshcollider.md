@@ -16,7 +16,7 @@
  #  ConvexMesh : [convexmesh](convexmesh.md)
 
 > The convex mesh resource that defines the collision volume of this collider.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConvexMesh : ConvexMesh
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ConvexMeshCollider()
 > ``` 
 

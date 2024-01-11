@@ -19,7 +19,7 @@
  #  AngularDamping : [real](../nada_base_types/real.md)
 
 > Angular damping coefficient for applying an angular drag acceleration (accel = -kw). Note: this affects objects the same regardless of mass.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AngularDamping : Real
 
 
@@ -27,7 +27,7 @@
  #  AngularDrag : [real](../nada_base_types/real.md)
 
 > The angular drag coefficient for applying an angular drag force (T = -kw).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AngularDrag : Real
 
 
@@ -35,7 +35,7 @@
  #  LinearDamping : [real](../nada_base_types/real.md)
 
 > Linear damping coefficient for applying a linear drag acceleration (accel = -bv). Note: this affects objects the same regardless of mass.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LinearDamping : Real
 
 
@@ -43,7 +43,7 @@
  #  LinearDrag : [real](../nada_base_types/real.md)
 
 > The linear drag coefficient for applying a linear drag force (F = -bv).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LinearDrag : Real
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DragEffect()
 > ``` 
 

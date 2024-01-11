@@ -24,7 +24,7 @@
  #  Failed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Failed : Boolean
 
 
@@ -32,7 +32,7 @@
  #  Handled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Handled : Boolean
 
 
@@ -42,7 +42,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseEvent : MouseEvent
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseOverObject : AnyHandle
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Object : AnyHandle
 
 
@@ -70,7 +70,7 @@
  #  Position : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real2
 
 
@@ -78,7 +78,7 @@
  #  Result : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Result : String
 
 
@@ -86,7 +86,7 @@
  #  Testing : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Testing : Boolean
 
 
@@ -96,7 +96,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportMouseEvent : ViewportMouseEvent
 
 

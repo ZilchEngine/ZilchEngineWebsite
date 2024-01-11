@@ -13,7 +13,7 @@
  #  Key : Key
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Key : Key
 
 
@@ -21,7 +21,7 @@
  #  Value : Value
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Value : Value
 
 
@@ -37,7 +37,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function KeyValue[Key, Value]()
 > ``` 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function KeyValue[Key, Value]()
 > ``` 
 

@@ -12,7 +12,7 @@
  #  PreviewArchetype : [archetype](archetype.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviewArchetype : Archetype
 
 
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RichAnimationBuilder()
 > ``` 
 

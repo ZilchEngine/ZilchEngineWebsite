@@ -28,7 +28,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not the car will run any logic at all. If this is false wheels will not work, they will not behave as springs, drive, or anything else.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -36,7 +36,7 @@
  #  AntiLockBrakes : [boolean](../nada_base_types/boolean.md)
 
 > Prevents the car from entering dynamic friction when applying brakes. If the brake would start to skid, the brake force is clamped to the max amount that will not slip.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AntiLockBrakes : Boolean
 
 
@@ -44,7 +44,7 @@
  #  Brake : [real](../nada_base_types/real.md)
 
 > How much the brake is being pressed [0,1] where 1 is full brake.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Brake : Real
 
 
@@ -52,7 +52,7 @@
  #  DebugDraw : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not the car should debug draw.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DebugDraw : Boolean
 
 
@@ -60,7 +60,7 @@
  #  Gas : [real](../nada_base_types/real.md)
 
 > How much the gas is being pressed [-1,1] where -1 is full reverse.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gas : Real
 
 
@@ -68,7 +68,7 @@
  #  GripScalar : [real](../nada_base_types/real.md)
 
 > Artificially increases the grip of the car (where 2 is twice the grip). The total grip scalar is computed as CarGripScalar * WheelGripScalar so the total car can be easily tweaked while allowing individual wheel tweaks.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GripScalar : Real
 
 
@@ -76,7 +76,7 @@
  #  MaxSpeed : [real](../nada_base_types/real.md)
 
 > The desired maximum speed of the car. Similar to a speed governor.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxSpeed : Real
 
 
@@ -84,7 +84,7 @@
  #  MaxTorque : [real](../nada_base_types/real.md)
 
 > The maximum torque the engine can apply to try to reach the max speed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxTorque : Real
 
 
@@ -92,7 +92,7 @@
  #  Steer : [real](../nada_base_types/real.md)
 
 > How much the wheel is being steered. This is measured in radians about this object's y-axis.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Steer : Real
 
 
@@ -100,7 +100,7 @@
  #  TorqueGovernor : [boolean](../nada_base_types/boolean.md)
 
 > Governs the max torque that the engine can apply. This is used to keep the wheels from spinning out (slipping) when too high of a torque is applied. If the tires would slip, the engine will apply the maximum torque for the tires to not slip.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TorqueGovernor : Boolean
 
 
@@ -110,7 +110,7 @@
  `read-only`
 
 > Read-only array of wheels belonging to this car.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WheelCogs : CarWheelArray
 
 
@@ -118,7 +118,7 @@
  #  WheelFrictionFrontRollCoef : [real](../nada_base_types/real.md)
 
 > Coefficient used to apply the forward friction force closer to the car's center of mass. 1 applies the force at the wheel position, 0 applies the force at the point along the contact normal closest to the center of mass.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WheelFrictionFrontRollCoef : Real
 
 
@@ -126,7 +126,7 @@
  #  WheelFrictionSideRollCoef : [real](../nada_base_types/real.md)
 
 > Coefficient used to apply the side friction force closer to the car's center of mass. 1 applies the force at the wheel position, 0 applies the force at the point along the contact normal closest to the center of mass.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WheelFrictionSideRollCoef : Real
 
 
@@ -140,7 +140,7 @@
 > The number of wheels currently in contact with an object.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NumberOfWheelsInContact() : Integer
 > ``` 
 
@@ -153,7 +153,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PhysicsCar()
 > ``` 
 

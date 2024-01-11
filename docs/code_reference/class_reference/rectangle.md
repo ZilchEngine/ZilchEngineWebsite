@@ -23,7 +23,7 @@
  #  Bottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Bottom : Real
 
 
@@ -31,7 +31,7 @@
  #  BottomLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BottomLeft : Real2
 
 
@@ -39,7 +39,7 @@
  #  BottomRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BottomRight : Real2
 
 
@@ -47,7 +47,7 @@
  #  Center : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Center : Real2
 
 
@@ -55,7 +55,7 @@
  #  Left : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Left : Real
 
 
@@ -63,7 +63,7 @@
  #  Max : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Max : Real2
 
 
@@ -71,7 +71,7 @@
  #  Min : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Min : Real2
 
 
@@ -79,7 +79,7 @@
  #  Right : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Right : Real
 
 
@@ -89,7 +89,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Real2
 
 
@@ -97,7 +97,7 @@
  #  Top : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Top : Real
 
 
@@ -105,7 +105,7 @@
  #  TopLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TopLeft : Real2
 
 
@@ -113,7 +113,7 @@
  #  TopRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TopRight : Real2
 
 
@@ -128,7 +128,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Contains(p0 : Real2) : Boolean
 > ``` 
 
@@ -140,7 +140,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[rectangle](rectangle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Contains(p0 : Rectangle) : Boolean
 > ``` 
 
@@ -152,7 +152,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Expand(p0 : Real2)
 > ``` 
 
@@ -164,7 +164,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[Location](../enum_reference.md#location)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetCardinalLocation(p0 : Location) : Real
 > ``` 
 
@@ -176,7 +176,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[Location](../enum_reference.md#location)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLocation(p0 : Location) : Real2
 > ``` 
 
@@ -188,7 +188,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[rectangle](rectangle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Overlap(p0 : Rectangle) : Boolean
 > ``` 
 
@@ -200,7 +200,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[rectangle](rectangle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Overlaps(p0 : Rectangle) : Boolean
 > ``` 
 
@@ -212,7 +212,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[thickness](thickness.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveThickness(p0 : Thickness)
 > ``` 
 
@@ -225,7 +225,7 @@
 > |---|---|---|
 > |p0|[Location](../enum_reference.md#location)| |
 > |p1|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResizeToPoint(p0 : Location, p1 : Real)
 > ``` 
 
@@ -238,7 +238,7 @@
 > |---|---|---|
 > |p0|[Location](../enum_reference.md#location)| |
 > |p1|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResizeToPoint(p0 : Location, p1 : Real2)
 > ``` 
 
@@ -252,7 +252,7 @@
 > |p0|[Location](../enum_reference.md#location)| |
 > |p1|[real2](../nada_base_types/real2.md)| |
 > |p2|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResizeToPoint(p0 : Location, p1 : Real2, p2 : Real2)
 > ``` 
 
@@ -265,7 +265,7 @@
 > |---|---|---|
 > |p0|[Location](../enum_reference.md#location)| |
 > |p1|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetLocation(p0 : Location, p1 : Real)
 > ``` 
 
@@ -278,7 +278,7 @@
 > |---|---|---|
 > |p0|[Location](../enum_reference.md#location)| |
 > |p1|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetLocation(p0 : Location, p1 : Real2)
 > ``` 
 
@@ -290,7 +290,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](../nada_base_types/real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transform(p0 : Real2x2)
 > ``` 
 
@@ -302,7 +302,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](../nada_base_types/real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transform(p0 : Real3x3)
 > ``` 
 
@@ -314,7 +314,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](../nada_base_types/real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transform(p0 : Real4x4)
 > ``` 
 
@@ -326,7 +326,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](../nada_base_types/real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transformed(p0 : Real2x2) : Rectangle
 > ``` 
 
@@ -338,7 +338,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](../nada_base_types/real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transformed(p0 : Real3x3) : Rectangle
 > ``` 
 
@@ -350,7 +350,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](../nada_base_types/real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transformed(p0 : Real4x4) : Rectangle
 > ``` 
 

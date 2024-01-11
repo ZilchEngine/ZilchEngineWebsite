@@ -28,7 +28,7 @@
 > |volume|[real](../nada_base_types/real.md)| |
 > |envelope|[adsrenvelope](adsrenvelope.md)| |
 > |type|[SynthWaveType](../enum_reference.md#synthwavetype)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddHarmonic(frequencyMultiplier : Real, volume : Real, envelope : AdsrEnvelope, type : SynthWaveType)
 > ``` 
 
@@ -40,7 +40,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |midiNote|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NoteOff(midiNote : Real)
 > ``` 
 
@@ -53,7 +53,7 @@
 > |---|---|---|
 > |midiNote|[real](../nada_base_types/real.md)| |
 > |volume|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NoteOn(midiNote : Real, volume : Real)
 > ``` 
 
@@ -64,7 +64,7 @@
 > Removes all current harmonics. You must add at least one harmonic before playing a note.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAllHarmonics()
 > ``` 
 
@@ -75,7 +75,7 @@
 > Stops playing all current notes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StopAllNotes()
 > ``` 
 

@@ -20,7 +20,7 @@
  #  Url : [string](../nada_base_types/string.md)
 
 > Get and set the url that we make requests to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Url : String
 
 
@@ -34,7 +34,7 @@
 > Clear headers and post data.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -45,7 +45,7 @@
 > Run the web request (we should get data back in a WebResponse event).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Run()
 > ``` 
 
@@ -58,7 +58,7 @@
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
 > |data|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetHeader(name : String, data : String)
 > ``` 
 
@@ -70,7 +70,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |data|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetPostData(data : String)
 > ``` 
 
@@ -83,7 +83,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WebRequester()
 > ``` 
 

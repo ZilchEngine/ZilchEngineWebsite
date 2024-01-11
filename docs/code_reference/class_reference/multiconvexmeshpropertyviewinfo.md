@@ -22,7 +22,7 @@
  #  AutoComputeMethod : [MultiConvexMeshAutoComputeMethod](../enum_reference.md#multiconvexmeshautocomputemethod)
 
 > What method of auto-computing should be used? Most likely 'pixel' is the mode that should be used.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoComputeMethod : MultiConvexMeshAutoComputeMethod
 
 
@@ -30,7 +30,7 @@
  #  AutoComputeMode : [MultiConvexMeshAutoComputeMode](../enum_reference.md#multiconvexmeshautocomputemode)
 
 > Should the auto-computed mesh be calculated from the alpha or the intensity of the sprite?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoComputeMode : MultiConvexMeshAutoComputeMode
 
 
@@ -38,7 +38,7 @@
  #  ClearColor : [real4](../nada_base_types/real4.md)
 
 > The clear color of the viewport used to render.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ClearColor : Real4
 
 
@@ -46,7 +46,7 @@
  #  DrawMode : [MultiConvexMeshDrawMode](../enum_reference.md#multiconvexmeshdrawmode)
 
 > How should the collection of meshes be drawn?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawMode : MultiConvexMeshDrawMode
 
 
@@ -54,7 +54,7 @@
  #  MeshThickness : [real](../nada_base_types/real.md)
 
 > Since the mesh is on a 2d plane, they need some thickness for their z-depth. This controls how thick the meshes are.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MeshThickness : Real
 
 
@@ -62,7 +62,7 @@
  #  OuterContourColor : [real4](../nada_base_types/real4.md)
 
 > The color to draw edges with.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OuterContourColor : Real4
 
 
@@ -70,7 +70,7 @@
  #  SimplificationThreshold : [real](../nada_base_types/real.md)
 
 > A threshold to control when vertices should be removed (simplified). This value is related to the area of a triangle.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SimplificationThreshold : Real
 
 
@@ -78,7 +78,7 @@
  #  SpriteSource : [spritesource](spritesource.md)
 
 > The sprite source used as a reference for drawing the mesh. Note: this is not always what's visible as the user can drag in archetypes to view as well.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpriteSource : SpriteSource
 
 
@@ -86,7 +86,7 @@
  #  SurfaceLevelThreshold : [real](../nada_base_types/real.md)
 
 > When the sprite is sampled using the AutoComputeMode, what value should be used to determine where a surface is.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SurfaceLevelThreshold : Real
 
 
@@ -100,7 +100,7 @@
 > Resets the points of the mesh to an approximation for the current sprite.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AutoCompute()
 > ``` 
 
@@ -113,7 +113,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiConvexMeshPropertyViewInfo()
 > ``` 
 

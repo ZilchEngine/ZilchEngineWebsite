@@ -16,7 +16,7 @@
  #  LeftVolume : [real](../nada_base_types/real.md)
 
 > The volume multiplier applied to audio in the left channel.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LeftVolume : Real
 
 
@@ -24,7 +24,7 @@
  #  RightVolume : [real](../nada_base_types/real.md)
 
 > The volume multiplier applied to audio in the right channel.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RightVolume : Real
 
 
@@ -32,7 +32,7 @@
  #  SumToMono : [boolean](../nada_base_types/boolean.md)
 
 > If this property is true, the audio will be combined into a single channel before being split between the right and left channels. If it is false and the audio has more than two channels, it will be combined into only two channels before being processed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SumToMono : Boolean
 
 
@@ -48,7 +48,7 @@
 > |---|---|---|
 > |volume|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateLeftVolume(volume : Real, time : Real)
 > ``` 
 
@@ -61,7 +61,7 @@
 > |---|---|---|
 > |volume|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateRightVolume(volume : Real, time : Real)
 > ``` 
 
@@ -75,7 +75,7 @@
 > |leftVolume|[real](../nada_base_types/real.md)| |
 > |rightVolume|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateVolumes(leftVolume : Real, rightVolume : Real, time : Real)
 > ``` 
 

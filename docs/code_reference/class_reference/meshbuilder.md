@@ -17,7 +17,7 @@
  #  FlipNormals : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FlipNormals : Boolean
 
 
@@ -25,7 +25,7 @@
  #  FlipWindingOrder : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FlipWindingOrder : Boolean
 
 
@@ -33,7 +33,7 @@
  #  GenerateSmoothNormals : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GenerateSmoothNormals : Boolean
 
 
@@ -41,7 +41,7 @@
  #  GenerateTangentSpace : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GenerateTangentSpace : Boolean
 
 
@@ -49,7 +49,7 @@
  #  InvertUvYAxis : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InvertUvYAxis : Boolean
 
 
@@ -57,7 +57,7 @@
  #  SmoothingAngleDegreesThreshold : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SmoothingAngleDegreesThreshold : Real
 
 
@@ -73,7 +73,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeshBuilder()
 > ``` 
 

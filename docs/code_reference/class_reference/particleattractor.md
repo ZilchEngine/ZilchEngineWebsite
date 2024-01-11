@@ -18,7 +18,7 @@
  #  AttractPosition : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AttractPosition : Real3
 
 
@@ -26,7 +26,7 @@
  #  MaxDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxDistance : Real
 
 
@@ -34,7 +34,7 @@
  #  MinDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MinDistance : Real
 
 
@@ -42,7 +42,7 @@
  #  PositionSpace : [SystemSpace](../enum_reference.md#systemspace)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositionSpace : SystemSpace
 
 
@@ -50,7 +50,7 @@
  #  Strength : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Strength : Real
 
 
@@ -66,7 +66,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ParticleAttractor()
 > ``` 
 

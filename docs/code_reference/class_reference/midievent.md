@@ -18,7 +18,7 @@
  #  Channel : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Channel : Real
 
 
@@ -26,7 +26,7 @@
  #  MIDINumber : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MIDINumber : Real
 
 
@@ -34,7 +34,7 @@
  #  Value : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Value : Real
 
 

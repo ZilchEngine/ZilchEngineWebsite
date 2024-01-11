@@ -20,7 +20,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ApplicationName : String
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BuildDate : String
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BuildVersion : String
 
 
@@ -56,7 +56,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MainConfig()
 > ``` 
 

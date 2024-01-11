@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : ContextMenuEntryChildrenRange
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : ContextMenuEntry
 
 
@@ -37,7 +37,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEmpty : Boolean
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotEmpty : Boolean
 
 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContextMenuEntryChildrenRange()
 > ``` 
 
@@ -77,7 +77,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[contextmenuentrychildrenrange](contextmenuentrychildrenrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContextMenuEntryChildrenRange(p0 : ContextMenuEntryChildrenRange)
 > ``` 
 
@@ -88,7 +88,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveNext()
 > ``` 
 

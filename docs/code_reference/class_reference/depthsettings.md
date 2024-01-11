@@ -30,7 +30,7 @@
  #  DepthCompareFunc : [TextureCompareFunc](../enum_reference.md#texturecomparefunc)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthCompareFunc : TextureCompareFunc
 
 
@@ -38,7 +38,7 @@
  #  DepthFailOp : [StencilOp](../enum_reference.md#stencilop)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthFailOp : StencilOp
 
 
@@ -46,7 +46,7 @@
  #  DepthFailOpBackFace : [StencilOp](../enum_reference.md#stencilop)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthFailOpBackFace : StencilOp
 
 
@@ -54,7 +54,7 @@
  #  DepthMode : [DepthMode](../enum_reference.md#depthmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthMode : DepthMode
 
 
@@ -62,7 +62,7 @@
  #  DepthPassOp : [StencilOp](../enum_reference.md#stencilop)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthPassOp : StencilOp
 
 
@@ -70,7 +70,7 @@
  #  DepthPassOpBackFace : [StencilOp](../enum_reference.md#stencilop)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthPassOpBackFace : StencilOp
 
 
@@ -78,7 +78,7 @@
  #  StencilCompareFunc : [TextureCompareFunc](../enum_reference.md#texturecomparefunc)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilCompareFunc : TextureCompareFunc
 
 
@@ -86,7 +86,7 @@
  #  StencilCompareFuncBackFace : [TextureCompareFunc](../enum_reference.md#texturecomparefunc)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilCompareFuncBackFace : TextureCompareFunc
 
 
@@ -94,7 +94,7 @@
  #  StencilFailOp : [StencilOp](../enum_reference.md#stencilop)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilFailOp : StencilOp
 
 
@@ -102,7 +102,7 @@
  #  StencilFailOpBackFace : [StencilOp](../enum_reference.md#stencilop)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilFailOpBackFace : StencilOp
 
 
@@ -110,7 +110,7 @@
  #  StencilMode : [StencilMode](../enum_reference.md#stencilmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilMode : StencilMode
 
 
@@ -118,7 +118,7 @@
  #  StencilReadMask : [byte](../nada_base_types/byte.md)
 
 > Bit mask for buffer value and test value when being compared.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilReadMask : Byte
 
 
@@ -126,7 +126,7 @@
  #  StencilReadMaskBackFace : [byte](../nada_base_types/byte.md)
 
 > Bit mask for buffer value and test value when being compared, for triangle back faces if in separate mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilReadMaskBackFace : Byte
 
 
@@ -134,7 +134,7 @@
  #  StencilTestValue : [byte](../nada_base_types/byte.md)
 
 > Value that will be used to compare against the stencil buffer for all pixels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilTestValue : Byte
 
 
@@ -142,7 +142,7 @@
  #  StencilTestValueBackFace : [byte](../nada_base_types/byte.md)
 
 > Value that will be used to compare against the stencil buffer for all pixels, for triangle back faces if in separate mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilTestValueBackFace : Byte
 
 
@@ -150,7 +150,7 @@
  #  StencilWriteMask : [byte](../nada_base_types/byte.md)
 
 > Bit mask for which bits in the buffer can be modified.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilWriteMask : Byte
 
 
@@ -158,7 +158,7 @@
  #  StencilWriteMaskBackFace : [byte](../nada_base_types/byte.md)
 
 > Bit mask for which bits in the buffer can be modified, for triangle back faces if in separate mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StencilWriteMaskBackFace : Byte
 
 
@@ -174,7 +174,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DepthSettings()
 > ``` 
 
@@ -188,7 +188,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |other|[depthsettings](depthsettings.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DepthSettings(other : DepthSettings)
 > ``` 
 

@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -35,7 +35,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CountX : Integer
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CountY : Integer
 
 
@@ -53,7 +53,7 @@
  #  M00 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M00 : Integer
 
 
@@ -61,7 +61,7 @@
  #  M01 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M01 : Integer
 
 
@@ -69,7 +69,7 @@
  #  M02 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M02 : Integer
 
 
@@ -77,7 +77,7 @@
  #  M10 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M10 : Integer
 
 
@@ -85,7 +85,7 @@
  #  M11 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M11 : Integer
 
 
@@ -93,7 +93,7 @@
  #  M12 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M12 : Integer
 
 
@@ -101,7 +101,7 @@
  #  M20 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M20 : Integer
 
 
@@ -109,7 +109,7 @@
  #  M21 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M21 : Integer
 
 
@@ -117,7 +117,7 @@
  #  M22 : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M22 : Integer
 
 
@@ -132,7 +132,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |y|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(y : Integer) : Integer3
 > ``` 
 
@@ -145,7 +145,7 @@
 > |---|---|---|
 > |y|[integer](integer.md)| |
 > |x|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(y : Integer, x : Integer) : Integer
 > ``` 
 
@@ -157,7 +157,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetByIndex(index : Integer) : Integer
 > ``` 
 
@@ -170,7 +170,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Integer3x3()
 > ``` 
 
@@ -184,7 +184,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Integer3x3(p0 : Integer)
 > ``` 
 
@@ -206,7 +206,7 @@
 > |m20|[integer](integer.md)| |
 > |m21|[integer](integer.md)| |
 > |m22|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Integer3x3(m00 : Integer, m01 : Integer, m02 : Integer, m10 : Integer, m11 : Integer, m12 : Integer, m20 : Integer, m21 : Integer, m22 : Integer)
 > ``` 
 
@@ -220,7 +220,7 @@
 > |y|[integer](integer.md)| |
 > |x|[integer](integer.md)| |
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(y : Integer, x : Integer, value : Integer)
 > ``` 
 
@@ -233,7 +233,7 @@
 > |---|---|---|
 > |y|[integer](integer.md)| |
 > |value|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(y : Integer, value : Integer3)
 > ``` 
 
@@ -246,7 +246,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetByIndex(index : Integer, value : Integer)
 > ``` 
 

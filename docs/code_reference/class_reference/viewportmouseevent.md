@@ -26,7 +26,7 @@
  `read-only`
 
 > Camera viewport that generated this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CameraViewport : CameraViewport
 
 
@@ -34,7 +34,7 @@
  #  HitDistance : [real](../nada_base_types/real.md)
 
 > The distance away the hit point is. Used with Reactive components.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HitDistance : Real
 
 
@@ -42,7 +42,7 @@
  #  HitNormal : [real3](../nada_base_types/real3.md)
 
 > The normal at the intersection point with an object. Used with Reactive components.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HitNormal : Real3
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > Object hit in ray cast.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HitObject : Cog
 
 
@@ -60,7 +60,7 @@
  #  HitPosition : [real3](../nada_base_types/real3.md)
 
 > The intersection point with an object. Used with Reactive components.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HitPosition : Real3
 
 
@@ -68,7 +68,7 @@
  #  HitUv : [real2](../nada_base_types/real2.md)
 
 > The uv texture coordinate at the intersection point, if applicable. Used with Reactive components.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HitUv : Real2
 
 
@@ -76,7 +76,7 @@
  #  RayDirection : [real3](../nada_base_types/real3.md)
 
 > Mouse Ray Direction.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RayDirection : Real3
 
 
@@ -84,7 +84,7 @@
  #  RayStart : [real3](../nada_base_types/real3.md)
 
 > Mouse Ray start.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RayStart : Real3
 
 
@@ -92,7 +92,7 @@
  #  WorldRay : [ray](ray.md)
 
 > The world mouse ray.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRay : Ray
 
 
@@ -108,7 +108,7 @@
 > |---|---|---|
 > |worldPlaneNormal|[real3](../nada_base_types/real3.md)| |
 > |worldPlanePosition|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToWorldPlane(worldPlaneNormal : Real3, worldPlanePosition : Real3) : Real3
 > ``` 
 
@@ -120,7 +120,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |viewDepth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToWorldViewPlane(viewDepth : Real) : Real3
 > ``` 
 
@@ -132,7 +132,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |worldDepth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToWorldZPlane(worldDepth : Real) : Real3
 > ``` 
 

@@ -15,7 +15,7 @@
  #  Pitch : [real](../nada_base_types/real.md)
 
 > The pitch adjustment applied to the node's input. A value of 0 will not affect the sound's pitch; 1 will raise the pitch by an octave and speed up the sound, and -1 will lower the sound by an octave and slow it down. Large pitch changes will likely affect the quality of the sound.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Pitch : Real
 
 
@@ -23,7 +23,7 @@
  #  Semitones : [real](../nada_base_types/real.md)
 
 > The pitch adjustment, in semitones (or half-steps), applied to the node's input. A value of 0 will not affect the sound's pitch; 12 will raise the pitch by an octave and speed up the sound, and -12 will lower the sound by an octave and slow it down. Large pitch changes will likely affect the quality of the sound.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Semitones : Real
 
 
@@ -39,7 +39,7 @@
 > |---|---|---|
 > |pitchRatio|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolatePitch(pitchRatio : Real, interpolationTime : Real)
 > ``` 
 
@@ -52,7 +52,7 @@
 > |---|---|---|
 > |pitchSemitones|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateSemitones(pitchSemitones : Real, interpolationTime : Real)
 > ``` 
 

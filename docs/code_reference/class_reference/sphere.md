@@ -15,7 +15,7 @@
  #  Center : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Center : Real3
 
 
@@ -23,7 +23,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 
@@ -33,7 +33,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SurfaceArea : Real
 
 
@@ -43,7 +43,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 
@@ -58,7 +58,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Expand(p0 : Real3)
 > ``` 
 
@@ -73,7 +73,7 @@
 > |---|---|---|
 > |p0|[sphere](sphere.md)| |
 > |p1|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Expand(p0 : Sphere, p1 : Real3) : Sphere
 > ``` 
 
@@ -85,7 +85,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[sphere](sphere.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Overlap(p0 : Sphere) : Boolean
 > ``` 
 
@@ -97,7 +97,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[sphere](sphere.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Overlaps(p0 : Sphere) : Boolean
 > ``` 
 
@@ -110,7 +110,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sphere()
 > ``` 
 
@@ -125,7 +125,7 @@
 > |---|---|---|
 > |center|[real3](../nada_base_types/real3.md)| |
 > |radius|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sphere(center : Real3, radius : Real)
 > ``` 
 
@@ -139,7 +139,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[sphere](sphere.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sphere(p0 : Sphere)
 > ``` 
 

@@ -15,7 +15,7 @@
  #  Data : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Data : String
 
 
@@ -23,7 +23,7 @@
  #  ResponseCode : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ResponseCode : Integer
 
 

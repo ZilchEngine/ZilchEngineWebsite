@@ -12,7 +12,7 @@
  #  MenuName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MenuName : String
 
 
@@ -29,7 +29,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |menuName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContextMenuEntryMenu(menuName : String)
 > ``` 
 

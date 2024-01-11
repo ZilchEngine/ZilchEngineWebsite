@@ -20,7 +20,7 @@
  #  Cue : [soundcue](soundcue.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cue : SoundCue
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > Will be true if the SoundCue is currently being played.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsPlaying : Boolean
 
 
@@ -38,7 +38,7 @@
  #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > Setting this Property to true will pause a currently playing SoundCue. Setting it to false will resume playback.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Paused : Boolean
 
 
@@ -46,7 +46,7 @@
  #  Positional : [boolean](../nada_base_types/boolean.md)
 
 > If this property is true the SoundCue will be played positionally (heard at a specific location by SoundListeners) through the SoundEmitter component on the same object. If false, the SoundCue will be played through the SoundSpace, and will NOT be affected by any SoundEmitter settings.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Positional : Boolean
 
 
@@ -54,7 +54,7 @@
  #  StartPlaying : [boolean](../nada_base_types/boolean.md)
 
 > If this property is true the SoundCue will begin playing as soon as the object is created.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StartPlaying : Boolean
 
 
@@ -68,7 +68,7 @@
 > Begins playing the SoundCue chosen in the Cue property and returns the resulting SoundInstance. If already playing it will be stopped and re-started.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Play() : SoundInstance
 > ``` 
 
@@ -81,7 +81,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimpleSound()
 > ``` 
 
@@ -92,7 +92,7 @@
 > Stops a currently playing SoundInstance if it exists.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Stop()
 > ``` 
 

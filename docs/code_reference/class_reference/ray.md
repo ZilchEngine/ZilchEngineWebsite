@@ -14,7 +14,7 @@
  #  Direction : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Direction : Real3
 
 
@@ -22,7 +22,7 @@
  #  Start : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Start : Real3
 
 
@@ -37,7 +37,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |tValue|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetPoint(tValue : Real) : Real3
 > ``` 
 
@@ -49,7 +49,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetTValue(point : Real3) : Real
 > ``` 
 
@@ -62,7 +62,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ray()
 > ``` 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[ray](ray.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ray(p0 : Ray)
 > ``` 
 
@@ -91,7 +91,7 @@
 > |---|---|---|
 > |start|[real3](../nada_base_types/real3.md)| |
 > |direction|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ray(start : Real3, direction : Real3)
 > ``` 
 

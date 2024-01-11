@@ -31,7 +31,7 @@
  #  AlphaColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AlphaColor : Real4
 
 
@@ -39,7 +39,7 @@
  #  CreatePalette : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CreatePalette : Boolean
 
 
@@ -49,7 +49,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameCount : Integer
 
 
@@ -57,7 +57,7 @@
  #  FrameHeight : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameHeight : Integer
 
 
@@ -65,7 +65,7 @@
  #  FrameRate : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameRate : Real
 
 
@@ -73,7 +73,7 @@
  #  FramesPerRow : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FramesPerRow : Integer
 
 
@@ -81,7 +81,7 @@
  #  FrameWidth : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameWidth : Integer
 
 
@@ -89,7 +89,7 @@
  #  ImportFrames : [ImportFrames](../enum_reference.md#importframes)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ImportFrames : ImportFrames
 
 
@@ -97,7 +97,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -105,7 +105,7 @@
  #  NumberOfRows : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NumberOfRows : Integer
 
 
@@ -113,7 +113,7 @@
  #  Origin : [SpriteOrigin](../enum_reference.md#spriteorigin)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Origin : SpriteOrigin
 
 
@@ -121,7 +121,7 @@
  #  PixelsPerUnit : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PixelsPerUnit : Integer
 
 
@@ -129,7 +129,7 @@
  #  PreviewAnimate : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviewAnimate : Boolean
 
 
@@ -137,7 +137,7 @@
  #  PreviewFrame : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviewFrame : Integer
 
 
@@ -145,7 +145,7 @@
  #  Smoothing : [SpriteSampling](../enum_reference.md#spritesampling)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Smoothing : SpriteSampling
 
 
@@ -153,7 +153,7 @@
  #  SourceSizeX : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SourceSizeX : Integer
 
 
@@ -161,7 +161,7 @@
  #  SourceSizeY : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SourceSizeY : Integer
 
 
@@ -169,7 +169,7 @@
  #  SpacingX : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpacingX : Integer
 
 
@@ -177,7 +177,7 @@
  #  SpacingY : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpacingY : Integer
 
 
@@ -185,7 +185,7 @@
  #  UseAlphaColorKey : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseAlphaColorKey : Boolean
 
 
@@ -199,7 +199,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOffsetX() : Integer
 > ``` 
 
@@ -210,7 +210,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOffsetY() : Integer
 > ``` 
 
@@ -222,7 +222,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetOffsetX(value : Integer)
 > ``` 
 
@@ -234,7 +234,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetOffsetY(value : Integer)
 > ``` 
 

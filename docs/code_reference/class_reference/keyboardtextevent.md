@@ -16,7 +16,7 @@
  #  Rune : [rune](../nada_base_types/rune.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Rune : Rune
 
 

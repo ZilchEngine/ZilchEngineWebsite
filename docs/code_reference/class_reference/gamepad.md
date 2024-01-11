@@ -21,7 +21,7 @@
  #  GamepadIndex : [integer](../nada_base_types/integer.md)
 
 > Index of this gamepad.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GamepadIndex : Integer
 
 
@@ -29,7 +29,7 @@
  #  IsActive : [boolean](../nada_base_types/boolean.md)
 
 > Is this controller turned on and plugged in.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsActive : Boolean
 
 
@@ -37,7 +37,7 @@
  #  LeftStick : [real2](../nada_base_types/real2.md)
 
 > Current offset [-1,1] from the center of the left stick.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LeftStick : Real2
 
 
@@ -45,7 +45,7 @@
  #  LeftStickDelta : [real2](../nada_base_types/real2.md)
 
 > Change in the left stick this frame.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LeftStickDelta : Real2
 
 
@@ -53,7 +53,7 @@
  #  LeftTrigger : [real](../nada_base_types/real.md)
 
 > Value of how much the Left Trigger is down. Range [0,1].
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LeftTrigger : Real
 
 
@@ -61,7 +61,7 @@
  #  RightStick : [real2](../nada_base_types/real2.md)
 
 > Current offset [-1,1] from the center of the right stick.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RightStick : Real2
 
 
@@ -69,7 +69,7 @@
  #  RightStickDelta : [real2](../nada_base_types/real2.md)
 
 > Change in the right stick this frame.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RightStickDelta : Real2
 
 
@@ -77,7 +77,7 @@
  #  RightTrigger : [real](../nada_base_types/real.md)
 
 > Value of how much the Right Trigger is down. Range [0,1].
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RightTrigger : Real
 
 
@@ -92,7 +92,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsButtonHeld(index : Integer) : Boolean
 > ``` 
 
@@ -104,7 +104,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsButtonPressed(index : Integer) : Boolean
 > ``` 
 
@@ -116,7 +116,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsButtonReleased(index : Integer) : Boolean
 > ``` 
 
@@ -128,7 +128,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TimeButtonHeld(index : Integer) : Real
 > ``` 
 
@@ -142,7 +142,7 @@
 > |time|[real](../nada_base_types/real.md)| |
 > |LeftSpeed|[real](../nada_base_types/real.md)| |
 > |RightSpeed|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Vibrate(time : Real, LeftSpeed : Real, RightSpeed : Real)
 > ``` 
 

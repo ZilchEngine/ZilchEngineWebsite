@@ -21,7 +21,7 @@
  #  AttachToCommonParent : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AttachToCommonParent : Boolean
 
 
@@ -29,7 +29,7 @@
  #  AttachToWorld : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AttachToWorld : Boolean
 
 
@@ -37,7 +37,7 @@
  #  AutoSnaps : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoSnaps : Boolean
 
 
@@ -45,7 +45,7 @@
  #  JointType : [JointToolTypes](../enum_reference.md#jointtooltypes)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointType : JointToolTypes
 
 
@@ -53,7 +53,7 @@
  #  Length : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Length : Real
 
 
@@ -61,7 +61,7 @@
  #  MaxImpulse : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxImpulse : Real
 
 
@@ -69,7 +69,7 @@
  #  OverrideLength : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OverrideLength : Boolean
 
 
@@ -77,7 +77,7 @@
  #  UseCenter : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseCenter : Boolean
 
 
@@ -93,7 +93,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function JointTool()
 > ``` 
 

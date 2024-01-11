@@ -16,7 +16,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -24,7 +24,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -32,7 +32,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -40,7 +40,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -48,7 +48,7 @@
  #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaleOffset : Real3
 
 
@@ -64,7 +64,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugFrustum()
 > ``` 
 
@@ -78,7 +78,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[frustum](frustum.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugFrustum(p0 : Frustum)
 > ``` 
 

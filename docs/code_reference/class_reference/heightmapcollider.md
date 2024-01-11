@@ -17,7 +17,7 @@
  #  Thickness : [real](../nada_base_types/real.md)
 
 > How thick the surface of the height map is. Used to avoid tunneling problems.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Thickness : Real
 
 
@@ -31,7 +31,7 @@
 > Clear the cached information used to avoid catching edges. Typically called internally by physics, but is exposed for manual triggering.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearCachedEdgeAdjacency()
 > ``` 
 
@@ -44,7 +44,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HeightMapCollider()
 > ``` 
 

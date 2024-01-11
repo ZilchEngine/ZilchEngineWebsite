@@ -14,7 +14,7 @@
  #  Cursor : [Cursor](../enum_reference.md#cursor)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cursor : Cursor
 
 

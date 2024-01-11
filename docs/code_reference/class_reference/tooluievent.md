@@ -18,7 +18,7 @@
  #  NeedsPropertyGrid : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to force show the tools window when switched to this tool.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NeedsPropertyGrid : Boolean
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > Getters / setters.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Parent : Composite
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > Easy access to the Select Tool. It's commonly used in other Tools (such as ray casting).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SelectTool : Cog
 
 

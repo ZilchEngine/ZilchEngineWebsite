@@ -24,7 +24,7 @@
  `read-only`
 
 > Get the number of connections we have.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConnectionCount : Integer
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > Get the number of incoming connections.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IncomingConnectionCount : Integer
 
 
@@ -44,7 +44,7 @@
  `read-only`
 
 > Get the number of outgoing connections.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OutgoingConnectionCount : Integer
 
 
@@ -58,7 +58,7 @@
 > Close all activity (whether listening or connected to a server).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Close()
 > ``` 
 
@@ -70,7 +70,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CloseConnection(index : Integer)
 > ``` 
 
@@ -83,7 +83,7 @@
 > |---|---|---|
 > |host|[string](../nada_base_types/string.md)| |
 > |port|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Connect(host : String, port : Integer)
 > ``` 
 
@@ -94,7 +94,7 @@
 > Check if we are currently connected to anyone.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsConnected() : Boolean
 > ``` 
 
@@ -107,7 +107,7 @@
 > |---|---|---|
 > |port|[integer](../nada_base_types/integer.md)| |
 > |maxConnections|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Listen(port : Integer, maxConnections : Integer) : Boolean
 > ``` 
 
@@ -121,7 +121,7 @@
 > |port|[integer](../nada_base_types/integer.md)| |
 > |maxConnections|[integer](../nada_base_types/integer.md)| |
 > |bindTo|[TcpSocketBind](../enum_reference.md#tcpsocketbind)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Listen(port : Integer, maxConnections : Integer, bindTo : TcpSocketBind) : Boolean
 > ``` 
 
@@ -135,7 +135,7 @@
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[sendableevent](sendableevent.md)| |
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendTo(eventId : String, event : SendableEvent, index : Integer)
 > ``` 
 
@@ -148,7 +148,7 @@
 > |---|---|---|
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[sendableevent](sendableevent.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendToAll(eventId : String, event : SendableEvent)
 > ``` 
 
@@ -161,7 +161,7 @@
 > |---|---|---|
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[sendableevent](sendableevent.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendToAllAndSelf(eventId : String, event : SendableEvent)
 > ``` 
 
@@ -175,7 +175,7 @@
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[sendableevent](sendableevent.md)| |
 > |exceptIndex|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendToAllExcept(eventId : String, event : SendableEvent, exceptIndex : Integer)
 > ``` 
 

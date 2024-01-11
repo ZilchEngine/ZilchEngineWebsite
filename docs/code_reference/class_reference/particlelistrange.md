@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : ParticleListRange
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : Particle
 
 
@@ -37,7 +37,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEmpty : Boolean
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotEmpty : Boolean
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveNext()
 > ``` 
 
@@ -74,7 +74,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ParticleListRange()
 > ``` 
 
@@ -88,7 +88,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[particlelistrange](particlelistrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ParticleListRange(p0 : ParticleListRange)
 > ``` 
 

@@ -34,7 +34,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this joint is currently active. Used for runtime enabling/disabling of joints.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -42,7 +42,7 @@
  #  AutoSnaps : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this joint will automatically delete itself if any of its constraints reach the max impulse value. This will still send an event if it snaps.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoSnaps : Boolean
 
 
@@ -50,7 +50,7 @@
  #  CollideConnected : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the two objects connected by this joint can collide. If any joint between this pair does not collide, then the pair does not collide. All joints have to be set to true in order to have the objects collide.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CollideConnected : Boolean
 
 
@@ -58,7 +58,7 @@
  #  MaxImpulse : [real](../nada_base_types/real.md)
 
 > The maximum impulse (instantaneous force) that this joint can apply to correct itself.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxImpulse : Real
 
 
@@ -66,7 +66,7 @@
  #  SendsEvents : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this joint will send any events. Used for a small efficiency boost and for reducing the number of events.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SendsEvents : Boolean
 
 
@@ -81,7 +81,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetCog(index : Integer) : Cog
 > ``` 
 
@@ -93,7 +93,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cog|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOtherObject(cog : Cog) : Cog
 > ``` 
 
@@ -106,7 +106,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Joint()
 > ``` 
 

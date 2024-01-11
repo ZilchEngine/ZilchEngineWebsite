@@ -16,7 +16,7 @@
  #  AutoDetermineSamples : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoDetermineSamples : Boolean
 
 
@@ -24,7 +24,7 @@
  #  RandomSampleDistance : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RandomSampleDistance : Integer
 
 
@@ -32,7 +32,7 @@
  #  RandomSamples : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RandomSamples : Integer
 
 
@@ -40,7 +40,7 @@
  #  Strength : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Strength : Real
 
 
@@ -48,7 +48,7 @@
  #  UniformSamples : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UniformSamples : Integer
 
 

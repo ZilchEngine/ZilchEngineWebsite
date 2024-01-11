@@ -12,7 +12,7 @@
  #  Message : [string](string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Message : String
 
 
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exception()
 > ``` 
 
@@ -42,7 +42,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exception(p0 : String)
 > ``` 
 

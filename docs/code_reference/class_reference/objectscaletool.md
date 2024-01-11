@@ -18,7 +18,7 @@
  #  AffectScale : [boolean](../nada_base_types/boolean.md)
 
 > With multiple objects selected, allow their local scale to be affected while being spacially-offset (with 'AffectTranslation') about the chosen pivot point.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AffectScale : Boolean
 
 
@@ -26,7 +26,7 @@
  #  AffectTranslation : [boolean](../nada_base_types/boolean.md)
 
 > With multiple objects selected, allow their spacial-offest to be affected about the chosen pivot point, while being locally scaled with 'mAffectScale'.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AffectTranslation : Boolean
 
 
@@ -34,7 +34,7 @@
  #  SnapDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapDistance : Real
 
 
@@ -42,7 +42,7 @@
  #  SnapMode : [GizmoSnapMode](../enum_reference.md#gizmosnapmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapMode : GizmoSnapMode
 
 
@@ -50,7 +50,7 @@
  #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Snapping : Boolean
 
 
@@ -66,7 +66,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectScaleTool()
 > ``` 
 

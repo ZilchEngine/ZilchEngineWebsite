@@ -28,7 +28,7 @@
  #  ActiveBatchName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ActiveBatchName : String
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Commands : OperationListRange
 
 
@@ -48,7 +48,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RedoCommands : OperationListRange
 
 
@@ -62,7 +62,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BeginBatch()
 > ``` 
 
@@ -74,7 +74,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BeginBatch(p0 : String)
 > ``` 
 
@@ -85,7 +85,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearAll()
 > ``` 
 
@@ -96,7 +96,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearRedo()
 > ``` 
 
@@ -107,7 +107,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearUndo()
 > ``` 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DestroyObject(p0 : Cog)
 > ``` 
 
@@ -130,7 +130,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EndBatch()
 > ``` 
 
@@ -143,7 +143,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsListeningForSideEffects() : Boolean
 > ``` 
 
@@ -156,7 +156,7 @@
 > |---|---|---|
 > |p0|[component](component.md)| |
 > |p1|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MarkPropertyAsModified(p0 : Component, p1 : String)
 > ``` 
 
@@ -168,7 +168,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectCreated(p0 : Cog)
 > ``` 
 
@@ -181,7 +181,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function OperationQueue()
 > ``` 
 
@@ -194,7 +194,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PopSubPropertyContext()
 > ``` 
 
@@ -205,7 +205,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function QueueRegisteredSideEffects()
 > ``` 
 
@@ -216,7 +216,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Redo()
 > ``` 
 
@@ -228,7 +228,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[operation](operation.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Redo(p0 : Operation) : Boolean
 > ``` 
 
@@ -244,7 +244,7 @@
 > |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
 > |p1|[string](../nada_base_types/string.md)| |
 > |p2|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RegisterSideEffect(p0 : AnyHandle, p1 : String, p2 : T)
 > ``` 
 
@@ -256,7 +256,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SaveObjectState(p0 : Cog)
 > ``` 
 
@@ -269,7 +269,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StartListeningForSideEffects()
 > ``` 
 
@@ -280,7 +280,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Undo()
 > ``` 
 
@@ -292,7 +292,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[operation](operation.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Undo(p0 : Operation) : Boolean
 > ``` 
 

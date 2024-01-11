@@ -21,7 +21,7 @@
  #  Depth : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Depth : Real
 
 
@@ -29,7 +29,7 @@
  #  DepthPlane : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthPlane : Real
 
 
@@ -37,7 +37,7 @@
  #  ObjectToSpawn : [archetype](archetype.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectToSpawn : Archetype
 
 
@@ -45,7 +45,7 @@
  #  Offset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Offset : Real3
 
 
@@ -53,7 +53,7 @@
  #  PlacementMode : [Placement](../enum_reference.md#placement)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PlacementMode : Placement
 
 
@@ -61,7 +61,7 @@
  #  Raycaster : [raycaster](raycaster.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Raycaster : Raycaster
 
 
@@ -69,7 +69,7 @@
  #  SnapDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapDistance : Real
 
 
@@ -77,7 +77,7 @@
  #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Snapping : Boolean
 
 
@@ -93,7 +93,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreationTool()
 > ``` 
 

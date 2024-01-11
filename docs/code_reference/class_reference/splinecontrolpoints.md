@@ -19,7 +19,7 @@
  `read-only`
 
 > The number of control points contained.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |controlPoint|[splinecontrolpoint](splinecontrolpoint.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(controlPoint : SplineControlPoint)
 > ``` 
 
@@ -45,7 +45,7 @@
 > Clear all control points.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -57,7 +57,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : SplineControlPoint
 > ``` 
 
@@ -70,7 +70,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |value|[splinecontrolpoint](splinecontrolpoint.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : SplineControlPoint)
 > ``` 
 

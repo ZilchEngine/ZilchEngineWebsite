@@ -20,7 +20,7 @@
  `read-only`
 
 > What type of collision filter block is this?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BlockType : CollisionFilterBlockType
 
 
@@ -28,7 +28,7 @@
  #  EventOverride : [string](../nada_base_types/string.md)
 
 > What event name to send out when this block triggers. If left empty the default name will be used (e.g. GroupCollisionStarted).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EventOverride : String
 
 
@@ -36,7 +36,7 @@
  #  SendEventsToA : [boolean](../nada_base_types/boolean.md)
 
 > Does the first object in the filter get this event type sent to it?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SendEventsToA : Boolean
 
 
@@ -44,7 +44,7 @@
  #  SendEventsToB : [boolean](../nada_base_types/boolean.md)
 
 > Does the second object in the filter get this event type sent to it?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SendEventsToB : Boolean
 
 
@@ -52,7 +52,7 @@
  #  SendEventsToSpace : [boolean](../nada_base_types/boolean.md)
 
 > Does the active space of the objects get this event type sent to it?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SendEventsToSpace : Boolean
 
 

@@ -13,7 +13,7 @@
  #  Animation : [animation](animation.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Animation : Animation
 
 
@@ -21,7 +21,7 @@
  #  PlayMode : [AnimationPlayMode](../enum_reference.md#animationplaymode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PlayMode : AnimationPlayMode
 
 

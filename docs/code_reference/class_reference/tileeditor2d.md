@@ -20,7 +20,7 @@
  #  ShowArchetype : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowArchetype : Boolean
 
 
@@ -28,7 +28,7 @@
  #  ShowCollision : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowCollision : Boolean
 
 
@@ -36,7 +36,7 @@
  #  ShowCoordinates : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowCoordinates : Boolean
 
 
@@ -44,7 +44,7 @@
  #  ShowGrid : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowGrid : Boolean
 
 
@@ -52,7 +52,7 @@
  #  ShowInvalid : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowInvalid : Boolean
 
 
@@ -60,7 +60,7 @@
  #  TiledDrawing : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TiledDrawing : Boolean
 
 
@@ -68,7 +68,7 @@
  #  ToolType : [TileEditor2DSubToolType](../enum_reference.md#tileeditor2dsubtooltype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ToolType : TileEditor2DSubToolType
 
 
@@ -82,7 +82,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateTileMap()
 > ``` 
 
@@ -95,7 +95,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TileEditor2D()
 > ``` 
 

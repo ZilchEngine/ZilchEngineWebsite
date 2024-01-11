@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : StringSplitRange
 
 
@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : StringRange
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotEmpty : Boolean
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveNext()
 > ``` 
 

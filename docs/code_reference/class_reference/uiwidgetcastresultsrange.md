@@ -21,7 +21,7 @@
 > Range Interface.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Empty() : Boolean
 > ``` 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Front() : UiWidget
 > ``` 
 
@@ -43,7 +43,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PopFront()
 > ``` 
 
@@ -54,7 +54,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Size() : Integer
 > ``` 
 

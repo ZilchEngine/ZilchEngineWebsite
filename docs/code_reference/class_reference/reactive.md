@@ -16,7 +16,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Is the reactive component active.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reactive()
 > ``` 
 

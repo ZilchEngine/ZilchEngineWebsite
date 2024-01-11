@@ -27,7 +27,7 @@
  #  IgnoreBuoyancy : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore buoyancy effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreBuoyancy : Boolean
 
 
@@ -35,7 +35,7 @@
  #  IgnoreCustom : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore custom effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreCustom : Boolean
 
 
@@ -43,7 +43,7 @@
  #  IgnoreDrag : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore drag effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreDrag : Boolean
 
 
@@ -51,7 +51,7 @@
  #  IgnoreFlow : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore flow effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreFlow : Boolean
 
 
@@ -59,7 +59,7 @@
  #  IgnoreForce : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore force effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreForce : Boolean
 
 
@@ -67,7 +67,7 @@
  #  IgnoreGravity : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore gravity effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreGravity : Boolean
 
 
@@ -75,7 +75,7 @@
  #  IgnorePointForce : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore point force effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnorePointForce : Boolean
 
 
@@ -83,7 +83,7 @@
  #  IgnorePointGravity : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore point gravity effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnorePointGravity : Boolean
 
 
@@ -91,7 +91,7 @@
  #  IgnoreThrust : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore thrust effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreThrust : Boolean
 
 
@@ -99,7 +99,7 @@
  #  IgnoreTorque : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore torque effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreTorque : Boolean
 
 
@@ -107,7 +107,7 @@
  #  IgnoreVortex : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore vortex effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreVortex : Boolean
 
 
@@ -115,7 +115,7 @@
  #  IgnoreWind : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to ignore wind effects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreWind : Boolean
 
 
@@ -130,7 +130,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |effectType|[PhysicsEffectType](../enum_reference.md#physicseffecttype)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetIgnoreState(effectType : PhysicsEffectType) : Boolean
 > ``` 
 
@@ -143,7 +143,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IgnoreSpaceEffects()
 > ``` 
 
@@ -156,7 +156,7 @@
 > |---|---|---|
 > |effectType|[PhysicsEffectType](../enum_reference.md#physicseffecttype)| |
 > |ignore|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetIgnoreState(effectType : PhysicsEffectType, ignore : Boolean)
 > ``` 
 

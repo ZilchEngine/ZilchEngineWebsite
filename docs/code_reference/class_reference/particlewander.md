@@ -18,7 +18,7 @@
  #  WanderAngle : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WanderAngle : Real
 
 
@@ -26,7 +26,7 @@
  #  WanderAngleVariance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WanderAngleVariance : Real
 
 
@@ -34,7 +34,7 @@
  #  WanderStrength : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WanderStrength : Real
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ParticleWander()
 > ``` 
 

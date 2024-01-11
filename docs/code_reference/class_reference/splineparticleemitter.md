@@ -19,7 +19,7 @@
  #  ClampT : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ClampT : Boolean
 
 
@@ -27,7 +27,7 @@
  #  EmitRadius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EmitRadius : Real
 
 
@@ -35,7 +35,7 @@
  #  SpawnT : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpawnT : Real
 
 
@@ -43,7 +43,7 @@
  #  SpawnTVariance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpawnTVariance : Real
 
 
@@ -51,7 +51,7 @@
  #  Spline : [spline](spline.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Spline : Spline
 
 
@@ -59,7 +59,7 @@
  #  TargetSplineCog : [cogpath](cogpath.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TargetSplineCog : CogPath
 
 
@@ -75,7 +75,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineParticleEmitter()
 > ``` 
 

@@ -15,7 +15,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -23,7 +23,7 @@
  #  Url : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Url : String
 
 

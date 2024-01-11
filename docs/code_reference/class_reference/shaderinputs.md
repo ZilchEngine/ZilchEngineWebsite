@@ -26,7 +26,7 @@
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
 > |input|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(fragmentName : String, inputName : String, input : Boolean)
 > ``` 
 
@@ -40,7 +40,7 @@
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
 > |input|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(fragmentName : String, inputName : String, input : Integer)
 > ``` 
 
@@ -54,7 +54,7 @@
 > ||[string](../nada_base_types/string.md)| |
 > ||[string](../nada_base_types/string.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : String,  : String,  : Integer2)
 > ``` 
 
@@ -68,7 +68,7 @@
 > ||[string](../nada_base_types/string.md)| |
 > ||[string](../nada_base_types/string.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : String,  : String,  : Integer3)
 > ``` 
 
@@ -82,7 +82,7 @@
 > ||[string](../nada_base_types/string.md)| |
 > ||[string](../nada_base_types/string.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : String,  : String,  : Integer4)
 > ``` 
 
@@ -96,7 +96,7 @@
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
 > |input|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(fragmentName : String, inputName : String, input : Real)
 > ``` 
 
@@ -110,7 +110,7 @@
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
 > |input|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(fragmentName : String, inputName : String, input : Real2)
 > ``` 
 
@@ -124,7 +124,7 @@
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
 > |input|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(fragmentName : String, inputName : String, input : Real3)
 > ``` 
 
@@ -138,7 +138,7 @@
 > ||[string](../nada_base_types/string.md)| |
 > ||[string](../nada_base_types/string.md)| |
 > ||[real3x3](../nada_base_types/real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : String,  : String,  : Real3x3)
 > ``` 
 
@@ -152,7 +152,7 @@
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
 > |input|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(fragmentName : String, inputName : String, input : Real4)
 > ``` 
 
@@ -166,7 +166,7 @@
 > ||[string](../nada_base_types/string.md)| |
 > ||[string](../nada_base_types/string.md)| |
 > ||[real4x4](../nada_base_types/real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : String,  : String,  : Real4x4)
 > ``` 
 
@@ -180,7 +180,7 @@
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
 > |input|[texture](texture.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(fragmentName : String, inputName : String, input : Texture)
 > ``` 
 
@@ -191,7 +191,7 @@
 > Remove all added inputs.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -204,7 +204,7 @@
 > |---|---|---|
 > |fragmentName|[string](../nada_base_types/string.md)| |
 > |inputName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Remove(fragmentName : String, inputName : String)
 > ``` 
 
@@ -217,7 +217,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ShaderInputs()
 > ``` 
 
@@ -231,7 +231,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[shaderinputs](shaderinputs.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ShaderInputs( : ShaderInputs)
 > ``` 
 

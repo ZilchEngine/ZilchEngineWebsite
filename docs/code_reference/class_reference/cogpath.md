@@ -24,7 +24,7 @@
  #  Cog : [cog](cog.md)
 
 > Setting the cog manually may recompute the path if the option is set Getting the cog will attempt to resolve the cog if we don't already have one (or if the path options is set, it will always resolve)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cog : Cog
 
 
@@ -32,7 +32,7 @@
  #  DirectCog : [cog](cog.md)
 
 > Setting the cog manually may recompute the path if the option is set Getting the cog will return whatever cog we already resolved, or null (it will not attempt to resolve)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DirectCog : Cog
 
 
@@ -40,7 +40,7 @@
  #  ErrorOnDirectLinkFail : [boolean](../nada_base_types/boolean.md)
 
 > Is it an exception/notification if a direct link to the object cannot be resolved?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ErrorOnDirectLinkFail : Boolean
 
 
@@ -48,7 +48,7 @@
  #  ErrorOnPathCantCompute : [boolean](../nada_base_types/boolean.md)
 
 > Is it an exception/notification if the path to an object cannot be computed?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ErrorOnPathCantCompute : Boolean
 
 
@@ -56,7 +56,7 @@
  #  ErrorOnResolveToNull : [boolean](../nada_base_types/boolean.md)
 
 > Is an exception thrown if you try to access the Cog when it's invalid or not found?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ErrorOnResolveToNull : Boolean
 
 
@@ -64,7 +64,7 @@
  #  Path : [string](../nada_base_types/string.md)
 
 > Setting the path will invalidate the object until the next call to GetCog.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Path : String
 
 
@@ -72,7 +72,7 @@
  #  PathPreference0 : [CogPathPreference](../enum_reference.md#cogpathpreference)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PathPreference0 : CogPathPreference
 
 
@@ -80,7 +80,7 @@
  #  PathPreference1 : [CogPathPreference](../enum_reference.md#cogpathpreference)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PathPreference1 : CogPathPreference
 
 
@@ -88,7 +88,7 @@
  #  PathPreference2 : [CogPathPreference](../enum_reference.md#cogpathpreference)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PathPreference2 : CogPathPreference
 
 
@@ -96,7 +96,7 @@
  #  RelativeTo : [cog](cog.md)
 
 > The cog that we compute paths relative to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RelativeTo : Cog
 
 
@@ -104,7 +104,7 @@
  #  UpdateCogOnInitialize : [boolean](../nada_base_types/boolean.md)
 
 > Whether the cog path attempts to resolve an object when the object is fully initialized.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UpdateCogOnInitialize : Boolean
 
 
@@ -112,7 +112,7 @@
  #  UpdateCogOnPathChange : [boolean](../nada_base_types/boolean.md)
 
 > When we set the cog path, should we try and resolve the object (this also detects parse errors)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UpdateCogOnPathChange : Boolean
 
 
@@ -120,7 +120,7 @@
  #  UpdatePathOnCogChange : [boolean](../nada_base_types/boolean.md)
 
 > When we set the cog, should we try and recompute a path to the object?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UpdatePathOnCogChange : Boolean
 
 
@@ -134,7 +134,7 @@
 > Creates a new copy of a cog path (since cog paths are reference counted and shared)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clone() : CogPath
 > ``` 
 
@@ -147,7 +147,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CogPath()
 > ``` 
 
@@ -161,7 +161,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[cogpath](cogpath.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CogPath( : CogPath)
 > ``` 
 
@@ -175,7 +175,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |path|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CogPath(path : String)
 > ``` 
 
@@ -191,7 +191,7 @@
 > |from|[cog](cog.md)| |
 > |to|[cog](cog.md)| |
 > |pref|[CogPathPreference](../enum_reference.md#cogpathpreference)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ComputePath(from : Cog, to : Cog, pref : CogPathPreference) : String
 > ``` 
 
@@ -202,7 +202,7 @@
 > Returns true if the object changes, false otherwise.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Refresh() : Boolean
 > ``` 
 
@@ -213,7 +213,7 @@
 > Returns true if the object changes, false otherwise.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RefreshIfNull() : Boolean
 > ``` 
 
@@ -228,7 +228,7 @@
 > |---|---|---|
 > |startFrom|[cog](cog.md)| |
 > |path|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resolve(startFrom : Cog, path : String) : Cog
 > ``` 
 

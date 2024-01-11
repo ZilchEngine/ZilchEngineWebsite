@@ -27,7 +27,7 @@
 > |otherCollider|[collider](collider.md)| |
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
 > |worldNormalTowardsOther|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddCollision(otherCollider : Collider, worldPoint : Real3, worldNormalTowardsOther : Real3)
 > ``` 
 
@@ -40,7 +40,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CustomCollisionEventTracker()
 > ``` 
 
@@ -52,7 +52,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |eventPrefix|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendEvents(eventPrefix : String)
 > ``` 
 

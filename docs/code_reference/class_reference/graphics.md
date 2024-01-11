@@ -14,7 +14,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DriverSupport : GraphicsDriverSupport
 
 

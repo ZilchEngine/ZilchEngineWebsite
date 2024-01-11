@@ -16,7 +16,7 @@
  #  Address : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Address : Integer
 
 
@@ -24,7 +24,7 @@
  #  Host : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Host : String
 
 
@@ -32,7 +32,7 @@
  #  Incoming : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Incoming : Boolean
 
 
@@ -40,7 +40,7 @@
  #  Index : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Index : Integer
 
 
@@ -48,7 +48,7 @@
  #  Port : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Port : Integer
 
 

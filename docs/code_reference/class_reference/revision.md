@@ -15,7 +15,7 @@
  #  ChangeSet : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChangeSet : String
 
 
@@ -23,7 +23,7 @@
  #  Date : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Date : String
 
 
@@ -31,7 +31,7 @@
  #  Summary : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Summary : String
 
 
@@ -39,7 +39,7 @@
  #  User : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var User : String
 
 

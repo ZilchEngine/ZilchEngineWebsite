@@ -12,7 +12,7 @@
  #  SampleTolerance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SampleTolerance : Real
 
 

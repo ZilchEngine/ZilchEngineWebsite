@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RootWidget : UiRootWidget
 
 

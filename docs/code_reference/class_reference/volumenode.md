@@ -15,7 +15,7 @@
  #  Decibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment, in decibels, that will be applied to the node's input. A value of 0 does not affect the sound; 6 will double the sound's volume, -6 will halve it, and -100 is effectively the same as a Volume of 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Decibels : Real
 
 
@@ -23,7 +23,7 @@
  #  Volume : [real](../nada_base_types/real.md)
 
 > The volume adjustment that will be applied to the node's input. A value of 1 does not affect the sound; 2 will double the sound's volume, 0.5 will halve it, and 0 will make the sound inaudible.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 
@@ -39,7 +39,7 @@
 > |---|---|---|
 > |volumeDB|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateDecibels(volumeDB : Real, interpolationTime : Real)
 > ``` 
 
@@ -52,7 +52,7 @@
 > |---|---|---|
 > |volume|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateVolume(volume : Real, interpolationTime : Real)
 > ``` 
 

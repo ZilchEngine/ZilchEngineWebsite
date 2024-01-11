@@ -15,7 +15,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : IndexedHalfEdgeFaceEdgeIndexArrayRange
 
 
@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -40,7 +40,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get( : Integer) : Integer
 > ``` 
 

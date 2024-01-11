@@ -21,7 +21,7 @@
  `read-only`
 
 > The Joint that triggered the event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Joint : Joint
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > The Cog of the Joint that signaled the event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointCog : Cog
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > ObjectA on the Joint.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectA : Cog
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > ObjectB on the Joint.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectB : Cog
 
 

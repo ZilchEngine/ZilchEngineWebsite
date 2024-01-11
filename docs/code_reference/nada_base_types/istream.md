@@ -23,7 +23,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Capabilities : StreamCapabilities
 
 
@@ -31,7 +31,7 @@
  #  Count : [doubleinteger](doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : DoubleInteger
 
 
@@ -39,7 +39,7 @@
  #  Position : [doubleinteger](doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : DoubleInteger
 
 
@@ -53,7 +53,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Flush()
 > ``` 
 
@@ -66,7 +66,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IStream()
 > ``` 
 
@@ -80,7 +80,7 @@
 > |data|Array[[byte](byte.md)]| |
 > |byteStart|[integer](integer.md)| |
 > |byteCount|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Read(data : Array[Byte], byteStart : Integer, byteCount : Integer) : Integer
 > ``` 
 
@@ -91,7 +91,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadAllText() : String
 > ``` 
 
@@ -103,7 +103,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[iencoding](iencoding.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadAllText(p0 : IEncoding) : String
 > ``` 
 
@@ -114,7 +114,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadByte() : Integer
 > ``` 
 
@@ -125,7 +125,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadLine() : String
 > ``` 
 
@@ -137,7 +137,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[iencoding](iencoding.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadLine(p0 : IEncoding) : String
 > ``` 
 
@@ -150,7 +150,7 @@
 > |---|---|---|
 > |position|[doubleinteger](doubleinteger.md)| |
 > |origin|[StreamOrigin](../enum_reference.md#streamorigin)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Seek(position : DoubleInteger, origin : StreamOrigin) : Boolean
 > ``` 
 
@@ -162,7 +162,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |data|Array[[byte](byte.md)]| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(data : Array[Byte]) : Integer
 > ``` 
 
@@ -176,7 +176,7 @@
 > |data|Array[[byte](byte.md)]| |
 > |byteStart|[integer](integer.md)| |
 > |byteCount|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(data : Array[Byte], byteStart : Integer, byteCount : Integer) : Integer
 > ``` 
 
@@ -188,7 +188,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteByte(p0 : Byte) : Integer
 > ``` 
 
@@ -200,7 +200,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |text|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteText(text : String) : Integer
 > ``` 
 
@@ -213,7 +213,7 @@
 > |---|---|---|
 > |text|[string](string.md)| |
 > |sourceStreamEncoding|[iencoding](iencoding.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteText(text : String, sourceStreamEncoding : IEncoding) : Integer
 > ``` 
 

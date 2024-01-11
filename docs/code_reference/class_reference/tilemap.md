@@ -15,7 +15,7 @@
  #  MeshThickness : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MeshThickness : Real
 
 
@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Source : TileMapSource
 
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TileMap()
 > ``` 
 

@@ -20,7 +20,7 @@
  #  BlendEquation : [BlendEquation](../enum_reference.md#blendequation)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BlendEquation : BlendEquation
 
 
@@ -28,7 +28,7 @@
  #  BlendEquationAlpha : [BlendEquation](../enum_reference.md#blendequation)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BlendEquationAlpha : BlendEquation
 
 
@@ -36,7 +36,7 @@
  #  BlendMode : [BlendMode](../enum_reference.md#blendmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BlendMode : BlendMode
 
 
@@ -44,7 +44,7 @@
  #  DestFactor : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DestFactor : BlendFactor
 
 
@@ -52,7 +52,7 @@
  #  DestFactorAlpha : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DestFactorAlpha : BlendFactor
 
 
@@ -60,7 +60,7 @@
  #  SourceFactor : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SourceFactor : BlendFactor
 
 
@@ -68,7 +68,7 @@
  #  SourceFactorAlpha : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SourceFactorAlpha : BlendFactor
 
 
@@ -84,7 +84,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BlendSettings()
 > ``` 
 
@@ -98,7 +98,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |other|[blendsettings](blendsettings.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BlendSettings(other : BlendSettings)
 > ``` 
 

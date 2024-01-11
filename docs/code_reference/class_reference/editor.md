@@ -33,7 +33,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Actions : Actions
 
 
@@ -43,7 +43,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EditGameSession : GameSession
 
 
@@ -53,7 +53,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EditLevel : Level
 
 
@@ -63,7 +63,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EditSpace : Space
 
 
@@ -73,7 +73,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OperationQueue : OperationQueue
 
 
@@ -83,7 +83,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ProjectCog : Cog
 
 
@@ -93,7 +93,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Selection : MetaSelection
 
 
@@ -107,7 +107,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddResource()
 > ``` 
 
@@ -120,7 +120,7 @@
 > |---|---|---|
 > |p0|[boundtype](../nada_base_types/boundtype.md)| |
 > |p1|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddResourceType(p0 : BoundType, p1 : String)
 > ``` 
 
@@ -136,7 +136,7 @@
 > |p2|[real2](../nada_base_types/real2.md)| |
 > |p3|[boolean](../nada_base_types/boolean.md)| |
 > |p4|[DockArea](../enum_reference.md#dockarea)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateDockableWindow(p0 : String, p1 : CameraViewport, p2 : Real2, p3 : Boolean, p4 : DockArea)
 > ``` 
 
@@ -149,7 +149,7 @@
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
 > |p1|[gamesession](gamesession.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisplayGameSession(p0 : String, p1 : GameSession)
 > ``` 
 
@@ -160,7 +160,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EditGameSpaces()
 > ``` 
 
@@ -172,7 +172,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|Resource| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EditResource(p0 : Resource)
 > ``` 
 
@@ -184,7 +184,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ExecuteCommand(p0 : String)
 > ``` 
 
@@ -195,7 +195,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PauseGame()
 > ``` 
 
@@ -209,7 +209,7 @@
 > |p0|[PlayGameOptions](../enum_reference.md#playgameoptions)| |
 > |p1|[boolean](../nada_base_types/boolean.md)| |
 > |p2|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlayGame(p0 : PlayGameOptions, p1 : Boolean, p2 : Boolean) : GameSession
 > ``` 
 
@@ -220,7 +220,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlayNewGame() : GameSession
 > ``` 
 
@@ -231,7 +231,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlaySingleGame() : GameSession
 > ``` 
 
@@ -243,7 +243,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SelectPrimary(p0 : AnyHandle)
 > ``` 
 
@@ -255,7 +255,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SelectTool(p0 : String)
 > ``` 
 
@@ -267,7 +267,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[space](space.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetFocus(p0 : Space)
 > ``` 
 
@@ -279,7 +279,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetGamePaused(p0 : Boolean)
 > ``` 
 
@@ -291,7 +291,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|Object| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetMainPropertyViewObject(p0 : Object)
 > ``` 
 
@@ -302,7 +302,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StepGame()
 > ``` 
 
@@ -313,7 +313,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StopGame()
 > ``` 
 
@@ -324,7 +324,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToggleGamePaused()
 > ``` 
 
@@ -336,7 +336,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[gamesession](gamesession.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ZoomOnGame(p0 : GameSession)
 > ``` 
 

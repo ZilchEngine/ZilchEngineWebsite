@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MaterialBlock()
 > ``` 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[materialblock](materialblock.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MaterialBlock(p0 : MaterialBlock)
 > ``` 
 

@@ -22,7 +22,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -32,7 +32,7 @@
  `read-only` `static`
 
 > The smallest (most negative) value that can be represented by an Integer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeMin : Integer2
 
 
@@ -42,7 +42,7 @@
  `read-only` `static`
 
 > The negative value closest to zero that can be represented by an Integer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeValueClosestToZero : Integer2
 
 
@@ -52,7 +52,7 @@
  `read-only` `static`
 
 > The one vector (a vector containing all ones).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var One : Integer2
 
 
@@ -62,7 +62,7 @@
  `read-only` `static`
 
 > The largest (most positive) value that can be represented by an Integer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveMax : Integer2
 
 
@@ -72,7 +72,7 @@
  `read-only` `static`
 
 > The positive value closest to zero that can be represented by an Integer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveValueClosestToZero : Integer2
 
 
@@ -82,7 +82,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var XAxis : Integer2
 
 
@@ -92,7 +92,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var YAxis : Integer2
 
 
@@ -102,7 +102,7 @@
  `read-only` `static`
 
 > The zero vector (a vector containing all zeroes).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Zero : Integer2
 
 
@@ -117,7 +117,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(p0 : Integer) : Integer
 > ``` 
 
@@ -131,7 +131,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxis(p0 : Integer) : Integer2
 > ``` 
 
@@ -144,7 +144,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Integer2()
 > ``` 
 
@@ -158,7 +158,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scalar|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Integer2(scalar : Integer)
 > ``` 
 
@@ -173,7 +173,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Integer2(p0 : Integer, p1 : Integer)
 > ``` 
 
@@ -187,7 +187,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Integer2(p0 : Integer2)
 > ``` 
 
@@ -200,7 +200,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(p0 : Integer, p1 : Integer)
 > ``` 
 

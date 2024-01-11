@@ -16,7 +16,7 @@
  #  Bottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Bottom : Real
 
 
@@ -24,7 +24,7 @@
  #  Left : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Left : Real
 
 
@@ -32,7 +32,7 @@
  #  Right : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Right : Real
 
 
@@ -40,7 +40,7 @@
  #  Top : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Top : Real
 
 
@@ -50,7 +50,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Zero : Thickness
 
 
@@ -67,7 +67,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function All(p0 : Real) : Thickness
 > ``` 
 
@@ -78,7 +78,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Size() : Real2
 > ``` 
 
@@ -93,7 +93,7 @@
 > |---|---|---|
 > |p0|[real](../nada_base_types/real.md)| |
 > |p1|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Thickness(p0 : Real, p1 : Real)
 > ``` 
 
@@ -110,7 +110,7 @@
 > |p1|[real](../nada_base_types/real.md)| |
 > |p2|[real](../nada_base_types/real.md)| |
 > |p3|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Thickness(p0 : Real, p1 : Real, p2 : Real, p3 : Real)
 > ``` 
 
@@ -124,7 +124,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Thickness(p0 : Real2)
 > ``` 
 
@@ -138,7 +138,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Thickness(p0 : Real4)
 > ``` 
 
@@ -149,7 +149,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TopLeft() : Real2
 > ``` 
 

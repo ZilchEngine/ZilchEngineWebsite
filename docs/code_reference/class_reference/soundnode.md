@@ -33,7 +33,7 @@
  #  AutoCollapse : [boolean](../nada_base_types/boolean.md)
 
 > If true, this node will automatically remove itself from the graph when its last input node is removed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoCollapse : Boolean
 
 
@@ -41,7 +41,7 @@
  #  BypassPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The BypassValue property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BypassPercent : Real
 
 
@@ -49,7 +49,7 @@
  #  BypassValue : [real](../nada_base_types/real.md)
 
 > The percentage of output (0 to 1.0) that should skip whatever processing the node does.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BypassValue : Real
 
 
@@ -59,7 +59,7 @@
  `read-only`
 
 > Will be true if this node has any input nodes.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HasInputs : Boolean
 
 
@@ -69,7 +69,7 @@
  `read-only`
 
 > Will be true if this node has any output nodes.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HasOutputs : Boolean
 
 
@@ -79,7 +79,7 @@
  `read-only`
 
 > The number of input nodes that are currently attached to this node.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InputCount : Integer
 
 
@@ -89,7 +89,7 @@
  `read-only`
 
 > The number of output nodes that are currently attached to this node.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OutputCount : Integer
 
 
@@ -104,7 +104,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](soundnode.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddInputNode(node : SoundNode)
 > ``` 
 
@@ -116,7 +116,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](soundnode.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InsertNodeAfter(node : SoundNode)
 > ``` 
 
@@ -128,7 +128,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](soundnode.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InsertNodeBefore(node : SoundNode)
 > ``` 
 
@@ -139,7 +139,7 @@
 > Removes the connections between this node and all of its input nodes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAllInputs()
 > ``` 
 
@@ -150,7 +150,7 @@
 > Removes the connections between this node and all of its output nodes, disconnecting this node from the graph. If this node has no inputs it will be deleted when no longer referenced.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAllOutputs()
 > ``` 
 
@@ -161,7 +161,7 @@
 > Removes this node from the graph by disconnecting it from all inputs and outputs and attaching the input nodes to the output nodes, keeping the rest of the graph intact. This node will be deleted when it is no longer referenced.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAndAttachInputsToOutputs()
 > ``` 
 
@@ -173,7 +173,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](soundnode.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveInputNode(node : SoundNode)
 > ``` 
 
@@ -185,7 +185,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |node|[soundnode](soundnode.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReplaceWith(node : SoundNode)
 > ``` 
 

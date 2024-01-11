@@ -16,7 +16,7 @@
  #  WorldAxis : [real3](../nada_base_types/real3.md)
 
 > The axis in world space that is constrained.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldAxis : Real3
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LinearAxisJoint()
 > ``` 
 

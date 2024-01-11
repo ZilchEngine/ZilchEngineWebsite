@@ -14,7 +14,7 @@
  #  Increment : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Increment : Real
 
 
@@ -22,7 +22,7 @@
  #  Max : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Max : Real
 
 
@@ -30,7 +30,7 @@
  #  Min : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Min : Real
 
 

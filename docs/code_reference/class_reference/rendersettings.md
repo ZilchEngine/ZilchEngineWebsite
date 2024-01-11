@@ -20,7 +20,7 @@
  #  BlendSettings : [blendsettings](blendsettings.md)
 
 > Settings to use when blending shader output with the ColorTarget, implicitly BlendSettings0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BlendSettings : BlendSettings
 
 
@@ -28,7 +28,7 @@
  #  ColorTarget : [rendertarget](rendertarget.md)
 
 > The RenderTarget of a color format to output to, implicitly RenderTarget0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ColorTarget : RenderTarget
 
 
@@ -36,7 +36,7 @@
  #  CullMode : [CullMode](../enum_reference.md#cullmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CullMode : CullMode
 
 
@@ -44,7 +44,7 @@
  #  DepthSettings : [depthsettings](depthsettings.md)
 
 > Settings to use when doing depth/stencil testing with DepthTarget.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthSettings : DepthSettings
 
 
@@ -52,7 +52,7 @@
  #  DepthTarget : [rendertarget](rendertarget.md)
 
 > The RenderTarget of a depth format to use as a depth buffer for depth/stencil testing.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DepthTarget : RenderTarget
 
 
@@ -60,7 +60,7 @@
  #  GlobalShaderInputs : [shaderinputs](shaderinputs.md)
 
 > Shader input values to be globally overridden for all objects/shaders.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GlobalShaderInputs : ShaderInputs
 
 
@@ -70,7 +70,7 @@
  `read-only`
 
 > Interface for configuring multiple color target outputs.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MultiRenderTarget : MultiRenderTarget
 
 
@@ -86,7 +86,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RenderSettings()
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[rendersettings](rendersettings.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RenderSettings( : RenderSettings)
 > ``` 
 

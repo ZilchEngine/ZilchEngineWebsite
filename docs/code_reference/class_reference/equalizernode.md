@@ -18,7 +18,7 @@
  #  Band1Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 150 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Band1Gain : Real
 
 
@@ -26,7 +26,7 @@
  #  Band2Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 600 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Band2Gain : Real
 
 
@@ -34,7 +34,7 @@
  #  Band3Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 2500 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Band3Gain : Real
 
 
@@ -42,7 +42,7 @@
  #  HighPassGain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies above 5000 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HighPassGain : Real
 
 
@@ -50,7 +50,7 @@
  #  LowPassGain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies below 80 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LowPassGain : Real
 
 
@@ -70,7 +70,7 @@
 > |band3|[real](../nada_base_types/real.md)| |
 > |highPass|[real](../nada_base_types/real.md)| |
 > |timeToInterpolate|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateAllBands(lowPass : Real, band1 : Real, band2 : Real, band3 : Real, highPass : Real, timeToInterpolate : Real)
 > ``` 
 

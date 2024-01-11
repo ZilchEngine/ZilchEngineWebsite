@@ -21,7 +21,7 @@
  #  DuplicateOnCtrlDrag : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DuplicateOnCtrlDrag : Boolean
 
 
@@ -29,7 +29,7 @@
  #  GrabMode : [GizmoGrab](../enum_reference.md#gizmograb)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabMode : GizmoGrab
 
 
@@ -37,7 +37,7 @@
  #  HoverColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HoverColor : Real4
 
 
@@ -45,7 +45,7 @@
  #  IncludeMode : [IncludeMode](../enum_reference.md#includemode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IncludeMode : IncludeMode
 
 
@@ -53,7 +53,7 @@
  #  SizeBoxCollider : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SizeBoxCollider : Boolean
 
 
@@ -61,7 +61,7 @@
  #  SnapDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapDistance : Real
 
 
@@ -69,7 +69,7 @@
  #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Snapping : Boolean
 
 
@@ -77,7 +77,7 @@
  #  ToolColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ToolColor : Real4
 
 
@@ -93,7 +93,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ManipulatorTool()
 > ``` 
 

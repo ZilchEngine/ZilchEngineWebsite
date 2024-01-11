@@ -12,7 +12,7 @@
  #  Action : [ConflictAction](../enum_reference.md#conflictaction)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Action : ConflictAction
 
 

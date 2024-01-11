@@ -148,7 +148,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EventId : String
 
 
@@ -162,7 +162,7 @@
 > Stops the event from being sent to any other connections.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Terminate()
 > ``` 
 

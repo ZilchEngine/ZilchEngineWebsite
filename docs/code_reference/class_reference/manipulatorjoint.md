@@ -18,7 +18,7 @@
  #  LocalPoint : [real3](../nada_base_types/real3.md)
 
 > The local space point on the object that the joint is connected to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPoint : Real3
 
 
@@ -26,7 +26,7 @@
  #  TargetPoint : [real3](../nada_base_types/real3.md)
 
 > The point in world space that the object's point is being moved towards.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TargetPoint : Real3
 
 
@@ -34,7 +34,7 @@
  #  WorldPoint : [real3](../nada_base_types/real3.md)
 
 > The world space point on the object that the joint is connected to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPoint : Real3
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ManipulatorJoint()
 > ``` 
 

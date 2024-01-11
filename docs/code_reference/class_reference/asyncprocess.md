@@ -21,7 +21,7 @@
  `read-only`
 
 > The cached total results from standard error. Will be empty if StoreStandardErrorData is false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StandardError : String
 
 
@@ -29,7 +29,7 @@
  #  StandardInput : [filestream](../nada_base_types/filestream.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StandardInput : FileStream
 
 
@@ -39,7 +39,7 @@
  `read-only`
 
 > The cached total results from standard output. Will be empty if StoreStandardOutputData is false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StandardOutput : String
 
 
@@ -47,7 +47,7 @@
  #  StoreStandardErrorData : [boolean](../nada_base_types/boolean.md)
 
 > Should the results from standard error be accumulated and stored? If a lot of data is output it may be good to turn this off and use the partial data callback events instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StoreStandardErrorData : Boolean
 
 
@@ -55,7 +55,7 @@
  #  StoreStandardOutputData : [boolean](../nada_base_types/boolean.md)
 
 > Should the results from standard output be accumulated and stored? If a lot of data is output it may be good to turn this off and use the partial data callback events instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StoreStandardOutputData : Boolean
 
 
@@ -69,7 +69,7 @@
 > Closes the wrapper around the process, does not close the process launched.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Close()
 > ``` 
 
@@ -82,7 +82,7 @@
 > Construct a new process. This does not start the process.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Create() : AsyncProcess
 > ``` 
 
@@ -93,7 +93,7 @@
 > Returns true if the process is still running, false otherwise.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsRunning() : Boolean
 > ``` 
 
@@ -105,7 +105,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |startInfo|[processstartinfo](../nada_base_types/processstartinfo.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Start(startInfo : ProcessStartInfo) : Boolean
 > ``` 
 
@@ -116,7 +116,7 @@
 > Attempts to manually shut down the process. This is not safe for the other process or what it's handling.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Terminate()
 > ``` 
 
@@ -127,7 +127,7 @@
 > Waits for a process to close, this will block until the process closes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WaitForClose() : Integer
 > ``` 
 
@@ -139,7 +139,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |milliseconds|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WaitForClose(milliseconds : Integer) : Integer
 > ``` 
 

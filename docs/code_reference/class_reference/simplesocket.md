@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Socket : TcpSocket
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimpleSocket()
 > ``` 
 

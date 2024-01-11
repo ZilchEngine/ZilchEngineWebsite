@@ -19,7 +19,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Close()
 > ``` 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FileStream()
 > ``` 
 
@@ -46,7 +46,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[filestream](filestream.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FileStream(p0 : FileStream)
 > ``` 
 
@@ -61,7 +61,7 @@
 > |---|---|---|
 > |filePath|[string](string.md)| |
 > |mode|[FileMode](../flags_reference.md#filemode)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FileStream(filePath : String, mode : FileMode)
 > ``` 
 

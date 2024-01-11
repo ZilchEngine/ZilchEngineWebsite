@@ -19,7 +19,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Should physics restrict the movement of this object?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -27,7 +27,7 @@
  #  MaxMoveImpulse : [real](../nada_base_types/real.md)
 
 > What is the max impulse allowed for controlling movement.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxMoveImpulse : Real
 
 
@@ -43,7 +43,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DynamicMotor()
 > ``` 
 
@@ -56,7 +56,7 @@
 > |---|---|---|
 > |direction|[real3](../nada_base_types/real3.md)| |
 > |up|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveInDirection(direction : Real3, up : Real3)
 > ``` 
 
@@ -68,7 +68,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |object|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetReferenceFrameToObject(object : Cog)
 > ``` 
 
@@ -79,7 +79,7 @@
 > Compute relative velocity with respect to the world. Used to signify that an absolute world speed is desired.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetReferenceFrameToWorld()
 > ``` 
 

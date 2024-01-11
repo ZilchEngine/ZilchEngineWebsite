@@ -31,7 +31,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : ArrayRange
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Capacity : Integer
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastIndex : Integer
 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : AnyHandle)
 > ``` 
 
@@ -88,7 +88,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Boolean)
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Boolean2)
 > ``` 
 
@@ -112,7 +112,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Boolean3)
 > ``` 
 
@@ -124,7 +124,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Boolean4)
 > ``` 
 
@@ -136,7 +136,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Byte)
 > ``` 
 
@@ -148,7 +148,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Cog)
 > ``` 
 
@@ -160,7 +160,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : delegate())
 > ``` 
 
@@ -172,7 +172,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : DoubleInteger)
 > ``` 
 
@@ -184,7 +184,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : DoubleReal)
 > ``` 
 
@@ -196,7 +196,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Integer)
 > ``` 
 
@@ -208,7 +208,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Integer2)
 > ``` 
 
@@ -220,7 +220,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Integer3)
 > ``` 
 
@@ -232,7 +232,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Integer4)
 > ``` 
 
@@ -244,7 +244,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Key)
 > ``` 
 
@@ -256,7 +256,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Quaternion)
 > ``` 
 
@@ -268,7 +268,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Real)
 > ``` 
 
@@ -280,7 +280,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Real2)
 > ``` 
 
@@ -292,7 +292,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Real3)
 > ``` 
 
@@ -304,7 +304,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Real4)
 > ``` 
 
@@ -316,7 +316,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : String)
 > ``` 
 
@@ -328,7 +328,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : T)
 > ``` 
 
@@ -341,7 +341,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -354,7 +354,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -367,7 +367,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -380,7 +380,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -393,7 +393,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -406,7 +406,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -419,7 +419,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -432,7 +432,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -445,7 +445,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -458,7 +458,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -471,7 +471,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -484,7 +484,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -497,7 +497,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -510,7 +510,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -523,7 +523,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -536,7 +536,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -549,7 +549,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -562,7 +562,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -575,7 +575,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -588,7 +588,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -601,7 +601,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -614,7 +614,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type]()
 > ``` 
 
@@ -628,7 +628,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -642,7 +642,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -656,7 +656,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -670,7 +670,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -684,7 +684,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -698,7 +698,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -712,7 +712,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -726,7 +726,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -740,7 +740,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -754,7 +754,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -768,7 +768,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -782,7 +782,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -796,7 +796,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -810,7 +810,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -824,7 +824,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -838,7 +838,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -852,7 +852,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -866,7 +866,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -880,7 +880,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -894,7 +894,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -908,7 +908,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -922,7 +922,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer)
 > ``` 
 
@@ -937,7 +937,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : AnyHandle)
 > ``` 
 
@@ -952,7 +952,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Boolean)
 > ``` 
 
@@ -967,7 +967,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Boolean2)
 > ``` 
 
@@ -982,7 +982,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Boolean3)
 > ``` 
 
@@ -997,7 +997,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Boolean4)
 > ``` 
 
@@ -1012,7 +1012,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Byte)
 > ``` 
 
@@ -1027,7 +1027,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Cog)
 > ``` 
 
@@ -1042,7 +1042,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : delegate())
 > ``` 
 
@@ -1057,7 +1057,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : DoubleInteger)
 > ``` 
 
@@ -1072,7 +1072,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : DoubleReal)
 > ``` 
 
@@ -1087,7 +1087,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Integer)
 > ``` 
 
@@ -1102,7 +1102,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Integer2)
 > ``` 
 
@@ -1117,7 +1117,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Integer3)
 > ``` 
 
@@ -1132,7 +1132,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Integer4)
 > ``` 
 
@@ -1147,7 +1147,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Key)
 > ``` 
 
@@ -1162,7 +1162,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Quaternion)
 > ``` 
 
@@ -1177,7 +1177,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Real)
 > ``` 
 
@@ -1192,7 +1192,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Real2)
 > ``` 
 
@@ -1207,7 +1207,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Real3)
 > ``` 
 
@@ -1222,7 +1222,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : Real4)
 > ``` 
 
@@ -1237,7 +1237,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : String)
 > ``` 
 
@@ -1252,7 +1252,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[Type](size : Integer, defaultValue : T)
 > ``` 
 
@@ -1263,7 +1263,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1274,7 +1274,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1285,7 +1285,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1296,7 +1296,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1307,7 +1307,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1318,7 +1318,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1329,7 +1329,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1340,7 +1340,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1351,7 +1351,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1362,7 +1362,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1373,7 +1373,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1384,7 +1384,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1395,7 +1395,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1406,7 +1406,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1417,7 +1417,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1428,7 +1428,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1439,7 +1439,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1450,7 +1450,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1461,7 +1461,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1472,7 +1472,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1483,7 +1483,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1494,7 +1494,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -1505,7 +1505,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Integer2]
 > ``` 
 
@@ -1516,7 +1516,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Boolean4]
 > ``` 
 
@@ -1527,7 +1527,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Cog]
 > ``` 
 
@@ -1538,7 +1538,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Integer4]
 > ``` 
 
@@ -1549,7 +1549,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Byte]
 > ``` 
 
@@ -1560,7 +1560,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Integer]
 > ``` 
 
@@ -1571,7 +1571,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[AnyHandle]
 > ``` 
 
@@ -1582,7 +1582,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[delegate()]
 > ``` 
 
@@ -1593,7 +1593,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[String]
 > ``` 
 
@@ -1604,7 +1604,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Real3]
 > ``` 
 
@@ -1615,7 +1615,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Real4]
 > ``` 
 
@@ -1626,7 +1626,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Type]
 > ``` 
 
@@ -1637,7 +1637,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Real]
 > ``` 
 
@@ -1648,7 +1648,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Quaternion]
 > ``` 
 
@@ -1659,7 +1659,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Boolean3]
 > ``` 
 
@@ -1670,7 +1670,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[DoubleInteger]
 > ``` 
 
@@ -1681,7 +1681,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Integer3]
 > ``` 
 
@@ -1692,7 +1692,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[any]
 > ``` 
 
@@ -1703,7 +1703,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Boolean]
 > ``` 
 
@@ -1714,7 +1714,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Real2]
 > ``` 
 
@@ -1725,7 +1725,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[DoubleReal]
 > ``` 
 
@@ -1736,7 +1736,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[Boolean2]
 > ``` 
 
@@ -1748,7 +1748,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : AnyHandle) : Integer
 > ``` 
 
@@ -1760,7 +1760,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Boolean) : Integer
 > ``` 
 
@@ -1772,7 +1772,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Boolean2) : Integer
 > ``` 
 
@@ -1784,7 +1784,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Boolean3) : Integer
 > ``` 
 
@@ -1796,7 +1796,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Boolean4) : Integer
 > ``` 
 
@@ -1808,7 +1808,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Byte) : Integer
 > ``` 
 
@@ -1820,7 +1820,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Cog) : Integer
 > ``` 
 
@@ -1832,7 +1832,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : delegate()) : Integer
 > ``` 
 
@@ -1844,7 +1844,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : DoubleInteger) : Integer
 > ``` 
 
@@ -1856,7 +1856,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : DoubleReal) : Integer
 > ``` 
 
@@ -1868,7 +1868,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Integer) : Integer
 > ``` 
 
@@ -1880,7 +1880,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Integer2) : Integer
 > ``` 
 
@@ -1892,7 +1892,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Integer3) : Integer
 > ``` 
 
@@ -1904,7 +1904,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Integer4) : Integer
 > ``` 
 
@@ -1916,7 +1916,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Key) : Integer
 > ``` 
 
@@ -1928,7 +1928,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Quaternion) : Integer
 > ``` 
 
@@ -1940,7 +1940,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Real) : Integer
 > ``` 
 
@@ -1952,7 +1952,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Real2) : Integer
 > ``` 
 
@@ -1964,7 +1964,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Real3) : Integer
 > ``` 
 
@@ -1976,7 +1976,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : Real4) : Integer
 > ``` 
 
@@ -1988,7 +1988,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : String) : Integer
 > ``` 
 
@@ -2000,7 +2000,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : T) : Integer
 > ``` 
 
@@ -2012,7 +2012,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Key
 > ``` 
 
@@ -2024,7 +2024,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Quaternion
 > ``` 
 
@@ -2036,7 +2036,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Cog
 > ``` 
 
@@ -2048,7 +2048,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Real2
 > ``` 
 
@@ -2060,7 +2060,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Real3
 > ``` 
 
@@ -2072,7 +2072,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Boolean2
 > ``` 
 
@@ -2084,7 +2084,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Real
 > ``` 
 
@@ -2096,7 +2096,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Integer4
 > ``` 
 
@@ -2108,7 +2108,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : delegate()
 > ``` 
 
@@ -2120,7 +2120,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Byte
 > ``` 
 
@@ -2132,7 +2132,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : DoubleReal
 > ``` 
 
@@ -2144,7 +2144,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Integer
 > ``` 
 
@@ -2156,7 +2156,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : String
 > ``` 
 
@@ -2168,7 +2168,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Real4
 > ``` 
 
@@ -2180,7 +2180,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Boolean3
 > ``` 
 
@@ -2192,7 +2192,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : DoubleInteger
 > ``` 
 
@@ -2204,7 +2204,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Boolean4
 > ``` 
 
@@ -2216,7 +2216,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Integer2
 > ``` 
 
@@ -2228,7 +2228,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Integer3
 > ``` 
 
@@ -2240,7 +2240,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Boolean
 > ``` 
 
@@ -2252,7 +2252,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : T
 > ``` 
 
@@ -2264,7 +2264,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : AnyHandle
 > ``` 
 
@@ -2277,7 +2277,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : AnyHandle)
 > ``` 
 
@@ -2290,7 +2290,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Boolean)
 > ``` 
 
@@ -2303,7 +2303,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Boolean2)
 > ``` 
 
@@ -2316,7 +2316,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Boolean3)
 > ``` 
 
@@ -2329,7 +2329,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Boolean4)
 > ``` 
 
@@ -2342,7 +2342,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Byte)
 > ``` 
 
@@ -2355,7 +2355,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Cog)
 > ``` 
 
@@ -2368,7 +2368,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : delegate())
 > ``` 
 
@@ -2381,7 +2381,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : DoubleInteger)
 > ``` 
 
@@ -2394,7 +2394,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : DoubleReal)
 > ``` 
 
@@ -2407,7 +2407,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Integer)
 > ``` 
 
@@ -2420,7 +2420,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Integer2)
 > ``` 
 
@@ -2433,7 +2433,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Integer3)
 > ``` 
 
@@ -2446,7 +2446,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Integer4)
 > ``` 
 
@@ -2459,7 +2459,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Key)
 > ``` 
 
@@ -2472,7 +2472,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Quaternion)
 > ``` 
 
@@ -2485,7 +2485,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Real)
 > ``` 
 
@@ -2498,7 +2498,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Real2)
 > ``` 
 
@@ -2511,7 +2511,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Real3)
 > ``` 
 
@@ -2524,7 +2524,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : Real4)
 > ``` 
 
@@ -2537,7 +2537,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : String)
 > ``` 
 
@@ -2550,7 +2550,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : T)
 > ``` 
 
@@ -2561,7 +2561,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Integer4
 > ``` 
 
@@ -2572,7 +2572,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : String
 > ``` 
 
@@ -2583,7 +2583,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Boolean2
 > ``` 
 
@@ -2594,7 +2594,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : T
 > ``` 
 
@@ -2605,7 +2605,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Key
 > ``` 
 
@@ -2616,7 +2616,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Real3
 > ``` 
 
@@ -2627,7 +2627,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : delegate()
 > ``` 
 
@@ -2638,7 +2638,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : DoubleReal
 > ``` 
 
@@ -2649,7 +2649,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Real4
 > ``` 
 
@@ -2660,7 +2660,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Integer3
 > ``` 
 
@@ -2671,7 +2671,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Real2
 > ``` 
 
@@ -2682,7 +2682,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Boolean
 > ``` 
 
@@ -2693,7 +2693,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Boolean3
 > ``` 
 
@@ -2704,7 +2704,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Integer
 > ``` 
 
@@ -2715,7 +2715,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : AnyHandle
 > ``` 
 
@@ -2726,7 +2726,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Boolean4
 > ``` 
 
@@ -2737,7 +2737,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Cog
 > ``` 
 
@@ -2748,7 +2748,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : DoubleInteger
 > ``` 
 
@@ -2759,7 +2759,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Real
 > ``` 
 
@@ -2770,7 +2770,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Integer2
 > ``` 
 
@@ -2781,7 +2781,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Byte
 > ``` 
 
@@ -2792,7 +2792,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : Quaternion
 > ``` 
 
@@ -2804,7 +2804,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : AnyHandle)
 > ``` 
 
@@ -2816,7 +2816,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Boolean)
 > ``` 
 
@@ -2828,7 +2828,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Boolean2)
 > ``` 
 
@@ -2840,7 +2840,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Boolean3)
 > ``` 
 
@@ -2852,7 +2852,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Boolean4)
 > ``` 
 
@@ -2864,7 +2864,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Byte)
 > ``` 
 
@@ -2876,7 +2876,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Cog)
 > ``` 
 
@@ -2888,7 +2888,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : delegate())
 > ``` 
 
@@ -2900,7 +2900,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : DoubleInteger)
 > ``` 
 
@@ -2912,7 +2912,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : DoubleReal)
 > ``` 
 
@@ -2924,7 +2924,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Integer)
 > ``` 
 
@@ -2936,7 +2936,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Integer2)
 > ``` 
 
@@ -2948,7 +2948,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Integer3)
 > ``` 
 
@@ -2960,7 +2960,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Integer4)
 > ``` 
 
@@ -2972,7 +2972,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Key)
 > ``` 
 
@@ -2984,7 +2984,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Quaternion)
 > ``` 
 
@@ -2996,7 +2996,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Real)
 > ``` 
 
@@ -3008,7 +3008,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Real2)
 > ``` 
 
@@ -3020,7 +3020,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Real3)
 > ``` 
 
@@ -3032,7 +3032,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : Real4)
 > ``` 
 
@@ -3044,7 +3044,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : String)
 > ``` 
 
@@ -3056,7 +3056,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : T)
 > ``` 
 
@@ -3069,7 +3069,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real]
 > ``` 
 
@@ -3082,7 +3082,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange
 > ``` 
 
@@ -3095,7 +3095,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer3]
 > ``` 
 
@@ -3108,7 +3108,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[DoubleReal]
 > ``` 
 
@@ -3121,7 +3121,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real3]
 > ``` 
 
@@ -3134,7 +3134,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean]
 > ``` 
 
@@ -3147,7 +3147,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[any]
 > ``` 
 
@@ -3160,7 +3160,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer]
 > ``` 
 
@@ -3173,7 +3173,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Byte]
 > ``` 
 
@@ -3186,7 +3186,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean3]
 > ``` 
 
@@ -3199,7 +3199,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Cog]
 > ``` 
 
@@ -3212,7 +3212,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real4]
 > ``` 
 
@@ -3225,7 +3225,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[DoubleInteger]
 > ``` 
 
@@ -3238,7 +3238,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[AnyHandle]
 > ``` 
 
@@ -3251,7 +3251,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real2]
 > ``` 
 
@@ -3264,7 +3264,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean2]
 > ``` 
 
@@ -3277,7 +3277,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[String]
 > ``` 
 
@@ -3290,7 +3290,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer2]
 > ``` 
 
@@ -3303,7 +3303,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer4]
 > ``` 
 
@@ -3316,7 +3316,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[delegate()]
 > ``` 
 
@@ -3329,7 +3329,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Quaternion]
 > ``` 
 
@@ -3342,7 +3342,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean4]
 > ``` 
 
@@ -3354,7 +3354,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : AnyHandle) : Integer
 > ``` 
 
@@ -3366,7 +3366,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Boolean) : Integer
 > ``` 
 
@@ -3378,7 +3378,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Boolean2) : Integer
 > ``` 
 
@@ -3390,7 +3390,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Boolean3) : Integer
 > ``` 
 
@@ -3402,7 +3402,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Boolean4) : Integer
 > ``` 
 
@@ -3414,7 +3414,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Byte) : Integer
 > ``` 
 
@@ -3426,7 +3426,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Cog) : Integer
 > ``` 
 
@@ -3438,7 +3438,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : delegate()) : Integer
 > ``` 
 
@@ -3450,7 +3450,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : DoubleInteger) : Integer
 > ``` 
 
@@ -3462,7 +3462,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : DoubleReal) : Integer
 > ``` 
 
@@ -3474,7 +3474,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Integer) : Integer
 > ``` 
 
@@ -3486,7 +3486,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Integer2) : Integer
 > ``` 
 
@@ -3498,7 +3498,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Integer3) : Integer
 > ``` 
 
@@ -3510,7 +3510,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Integer4) : Integer
 > ``` 
 
@@ -3522,7 +3522,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Key) : Integer
 > ``` 
 
@@ -3534,7 +3534,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Quaternion) : Integer
 > ``` 
 
@@ -3546,7 +3546,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Real) : Integer
 > ``` 
 
@@ -3558,7 +3558,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Real2) : Integer
 > ``` 
 
@@ -3570,7 +3570,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Real3) : Integer
 > ``` 
 
@@ -3582,7 +3582,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : Real4) : Integer
 > ``` 
 
@@ -3594,7 +3594,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : String) : Integer
 > ``` 
 
@@ -3606,7 +3606,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : T) : Integer
 > ``` 
 
@@ -3618,7 +3618,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3630,7 +3630,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3642,7 +3642,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3654,7 +3654,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3666,7 +3666,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3678,7 +3678,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3690,7 +3690,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3702,7 +3702,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3714,7 +3714,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3726,7 +3726,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3738,7 +3738,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3750,7 +3750,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3762,7 +3762,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3774,7 +3774,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3786,7 +3786,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3798,7 +3798,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3810,7 +3810,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3822,7 +3822,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3834,7 +3834,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3846,7 +3846,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3858,7 +3858,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3870,7 +3870,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -3882,7 +3882,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : AnyHandle) : Boolean
 > ``` 
 
@@ -3894,7 +3894,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Boolean) : Boolean
 > ``` 
 
@@ -3906,7 +3906,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Boolean2) : Boolean
 > ``` 
 
@@ -3918,7 +3918,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Boolean3) : Boolean
 > ``` 
 
@@ -3930,7 +3930,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Boolean4) : Boolean
 > ``` 
 
@@ -3942,7 +3942,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Byte) : Boolean
 > ``` 
 
@@ -3954,7 +3954,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Cog) : Boolean
 > ``` 
 
@@ -3966,7 +3966,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : delegate()) : Boolean
 > ``` 
 
@@ -3978,7 +3978,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : DoubleInteger) : Boolean
 > ``` 
 
@@ -3990,7 +3990,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : DoubleReal) : Boolean
 > ``` 
 
@@ -4002,7 +4002,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Integer) : Boolean
 > ``` 
 
@@ -4014,7 +4014,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Integer2) : Boolean
 > ``` 
 
@@ -4026,7 +4026,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Integer3) : Boolean
 > ``` 
 
@@ -4038,7 +4038,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Integer4) : Boolean
 > ``` 
 
@@ -4050,7 +4050,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Key) : Boolean
 > ``` 
 
@@ -4062,7 +4062,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Quaternion) : Boolean
 > ``` 
 
@@ -4074,7 +4074,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Real) : Boolean
 > ``` 
 
@@ -4086,7 +4086,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Real2) : Boolean
 > ``` 
 
@@ -4098,7 +4098,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Real3) : Boolean
 > ``` 
 
@@ -4110,7 +4110,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : Real4) : Boolean
 > ``` 
 
@@ -4122,7 +4122,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : String) : Boolean
 > ``` 
 
@@ -4134,7 +4134,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : T) : Boolean
 > ``` 
 
@@ -4146,7 +4146,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4158,7 +4158,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4170,7 +4170,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4182,7 +4182,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4194,7 +4194,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4206,7 +4206,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4218,7 +4218,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4230,7 +4230,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4242,7 +4242,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4254,7 +4254,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4266,7 +4266,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4278,7 +4278,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4290,7 +4290,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4302,7 +4302,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4314,7 +4314,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4326,7 +4326,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4338,7 +4338,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4350,7 +4350,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4362,7 +4362,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4374,7 +4374,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4386,7 +4386,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4398,7 +4398,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -4410,7 +4410,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4422,7 +4422,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4434,7 +4434,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4446,7 +4446,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4458,7 +4458,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4470,7 +4470,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4482,7 +4482,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4494,7 +4494,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4506,7 +4506,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4518,7 +4518,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4530,7 +4530,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4542,7 +4542,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4554,7 +4554,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4566,7 +4566,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4578,7 +4578,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4590,7 +4590,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4602,7 +4602,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4614,7 +4614,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4626,7 +4626,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4638,7 +4638,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4650,7 +4650,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4662,7 +4662,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -4674,7 +4674,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4686,7 +4686,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4698,7 +4698,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4710,7 +4710,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4722,7 +4722,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4734,7 +4734,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4746,7 +4746,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4758,7 +4758,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4770,7 +4770,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4782,7 +4782,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4794,7 +4794,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4806,7 +4806,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4818,7 +4818,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4830,7 +4830,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4842,7 +4842,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4854,7 +4854,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4866,7 +4866,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4878,7 +4878,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4890,7 +4890,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4902,7 +4902,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4914,7 +4914,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4926,7 +4926,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -4939,7 +4939,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : AnyHandle)
 > ``` 
 
@@ -4952,7 +4952,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Boolean)
 > ``` 
 
@@ -4965,7 +4965,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Boolean2)
 > ``` 
 
@@ -4978,7 +4978,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Boolean3)
 > ``` 
 
@@ -4991,7 +4991,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Boolean4)
 > ``` 
 
@@ -5004,7 +5004,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Byte)
 > ``` 
 
@@ -5017,7 +5017,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Cog)
 > ``` 
 
@@ -5030,7 +5030,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : delegate())
 > ``` 
 
@@ -5043,7 +5043,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : DoubleInteger)
 > ``` 
 
@@ -5056,7 +5056,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : DoubleReal)
 > ``` 
 
@@ -5069,7 +5069,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Integer)
 > ``` 
 
@@ -5082,7 +5082,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Integer2)
 > ``` 
 
@@ -5095,7 +5095,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Integer3)
 > ``` 
 
@@ -5108,7 +5108,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Integer4)
 > ``` 
 
@@ -5121,7 +5121,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Key)
 > ``` 
 
@@ -5134,7 +5134,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Quaternion)
 > ``` 
 
@@ -5147,7 +5147,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Real)
 > ``` 
 
@@ -5160,7 +5160,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Real2)
 > ``` 
 
@@ -5173,7 +5173,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Real3)
 > ``` 
 
@@ -5186,7 +5186,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : Real4)
 > ``` 
 
@@ -5199,7 +5199,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : String)
 > ``` 
 
@@ -5212,7 +5212,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : T)
 > ``` 
 
@@ -5225,7 +5225,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[anyhandle](anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : AnyHandle)
 > ``` 
 
@@ -5238,7 +5238,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Boolean)
 > ``` 
 
@@ -5251,7 +5251,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Boolean2)
 > ``` 
 
@@ -5264,7 +5264,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Boolean3)
 > ``` 
 
@@ -5277,7 +5277,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Boolean4)
 > ``` 
 
@@ -5290,7 +5290,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[byte](byte.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Byte)
 > ``` 
 
@@ -5303,7 +5303,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[cog](../class_reference/cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Cog)
 > ``` 
 
@@ -5316,7 +5316,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : delegate())
 > ``` 
 
@@ -5329,7 +5329,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[doubleinteger](doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : DoubleInteger)
 > ``` 
 
@@ -5342,7 +5342,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[doublereal](doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : DoubleReal)
 > ``` 
 
@@ -5355,7 +5355,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Integer)
 > ``` 
 
@@ -5368,7 +5368,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Integer2)
 > ``` 
 
@@ -5381,7 +5381,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Integer3)
 > ``` 
 
@@ -5394,7 +5394,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Integer4)
 > ``` 
 
@@ -5407,7 +5407,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Key)
 > ``` 
 
@@ -5420,7 +5420,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Quaternion)
 > ``` 
 
@@ -5433,7 +5433,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Real)
 > ``` 
 
@@ -5446,7 +5446,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Real2)
 > ``` 
 
@@ -5459,7 +5459,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Real3)
 > ``` 
 
@@ -5472,7 +5472,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Real4)
 > ``` 
 
@@ -5485,7 +5485,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : String)
 > ``` 
 
@@ -5498,7 +5498,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : T)
 > ``` 
 
@@ -5510,7 +5510,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:any,right:any):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:any,right:any):Boolean)
 > ``` 
 
@@ -5522,7 +5522,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:any,right:any):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:any,right:any):Integer)
 > ``` 
 
@@ -5534,7 +5534,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[anyhandle](anyhandle.md),right:[anyhandle](anyhandle.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:AnyHandle,right:AnyHandle):Boolean)
 > ``` 
 
@@ -5546,7 +5546,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[anyhandle](anyhandle.md),right:[anyhandle](anyhandle.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:AnyHandle,right:AnyHandle):Integer)
 > ``` 
 
@@ -5558,7 +5558,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean](boolean.md),right:[boolean](boolean.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean,right:Boolean):Boolean)
 > ``` 
 
@@ -5570,7 +5570,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean](boolean.md),right:[boolean](boolean.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean,right:Boolean):Integer)
 > ``` 
 
@@ -5582,7 +5582,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean2](boolean2.md),right:[boolean2](boolean2.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean2,right:Boolean2):Boolean)
 > ``` 
 
@@ -5594,7 +5594,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean2](boolean2.md),right:[boolean2](boolean2.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean2,right:Boolean2):Integer)
 > ``` 
 
@@ -5606,7 +5606,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean3](boolean3.md),right:[boolean3](boolean3.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean3,right:Boolean3):Boolean)
 > ``` 
 
@@ -5618,7 +5618,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean3](boolean3.md),right:[boolean3](boolean3.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean3,right:Boolean3):Integer)
 > ``` 
 
@@ -5630,7 +5630,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean4](boolean4.md),right:[boolean4](boolean4.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean4,right:Boolean4):Boolean)
 > ``` 
 
@@ -5642,7 +5642,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[boolean4](boolean4.md),right:[boolean4](boolean4.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Boolean4,right:Boolean4):Integer)
 > ``` 
 
@@ -5654,7 +5654,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[byte](byte.md),right:[byte](byte.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Byte,right:Byte):Boolean)
 > ``` 
 
@@ -5666,7 +5666,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[byte](byte.md),right:[byte](byte.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Byte,right:Byte):Integer)
 > ``` 
 
@@ -5678,7 +5678,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[cog](../class_reference/cog.md),right:[cog](../class_reference/cog.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Cog,right:Cog):Boolean)
 > ``` 
 
@@ -5690,7 +5690,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[cog](../class_reference/cog.md),right:[cog](../class_reference/cog.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Cog,right:Cog):Integer)
 > ``` 
 
@@ -5702,7 +5702,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:delegate(),right:delegate()):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:delegate(),right:delegate()):Boolean)
 > ``` 
 
@@ -5714,7 +5714,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:delegate(),right:delegate()):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:delegate(),right:delegate()):Integer)
 > ``` 
 
@@ -5726,7 +5726,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[doubleinteger](doubleinteger.md),right:[doubleinteger](doubleinteger.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:DoubleInteger,right:DoubleInteger):Boolean)
 > ``` 
 
@@ -5738,7 +5738,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[doubleinteger](doubleinteger.md),right:[doubleinteger](doubleinteger.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:DoubleInteger,right:DoubleInteger):Integer)
 > ``` 
 
@@ -5750,7 +5750,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[doublereal](doublereal.md),right:[doublereal](doublereal.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:DoubleReal,right:DoubleReal):Boolean)
 > ``` 
 
@@ -5762,7 +5762,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[doublereal](doublereal.md),right:[doublereal](doublereal.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:DoubleReal,right:DoubleReal):Integer)
 > ``` 
 
@@ -5774,7 +5774,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer](integer.md),right:[integer](integer.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer,right:Integer):Boolean)
 > ``` 
 
@@ -5786,7 +5786,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer](integer.md),right:[integer](integer.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer,right:Integer):Integer)
 > ``` 
 
@@ -5798,7 +5798,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer2](integer2.md),right:[integer2](integer2.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer2,right:Integer2):Boolean)
 > ``` 
 
@@ -5810,7 +5810,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer2](integer2.md),right:[integer2](integer2.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer2,right:Integer2):Integer)
 > ``` 
 
@@ -5822,7 +5822,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer3](integer3.md),right:[integer3](integer3.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer3,right:Integer3):Boolean)
 > ``` 
 
@@ -5834,7 +5834,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer3](integer3.md),right:[integer3](integer3.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer3,right:Integer3):Integer)
 > ``` 
 
@@ -5846,7 +5846,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer4](integer4.md),right:[integer4](integer4.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer4,right:Integer4):Boolean)
 > ``` 
 
@@ -5858,7 +5858,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[integer4](integer4.md),right:[integer4](integer4.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Integer4,right:Integer4):Integer)
 > ``` 
 
@@ -5870,7 +5870,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:Key,right:Key):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Key,right:Key):Boolean)
 > ``` 
 
@@ -5882,7 +5882,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:Key,right:Key):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Key,right:Key):Integer)
 > ``` 
 
@@ -5894,7 +5894,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[quaternion](quaternion.md),right:[quaternion](quaternion.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Quaternion,right:Quaternion):Boolean)
 > ``` 
 
@@ -5906,7 +5906,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[quaternion](quaternion.md),right:[quaternion](quaternion.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Quaternion,right:Quaternion):Integer)
 > ``` 
 
@@ -5918,7 +5918,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real](real.md),right:[real](real.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real,right:Real):Boolean)
 > ``` 
 
@@ -5930,7 +5930,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real](real.md),right:[real](real.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real,right:Real):Integer)
 > ``` 
 
@@ -5942,7 +5942,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real2](real2.md),right:[real2](real2.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real2,right:Real2):Boolean)
 > ``` 
 
@@ -5954,7 +5954,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real2](real2.md),right:[real2](real2.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real2,right:Real2):Integer)
 > ``` 
 
@@ -5966,7 +5966,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real3](real3.md),right:[real3](real3.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real3,right:Real3):Boolean)
 > ``` 
 
@@ -5978,7 +5978,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real3](real3.md),right:[real3](real3.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real3,right:Real3):Integer)
 > ``` 
 
@@ -5990,7 +5990,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real4](real4.md),right:[real4](real4.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real4,right:Real4):Boolean)
 > ``` 
 
@@ -6002,7 +6002,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[real4](real4.md),right:[real4](real4.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:Real4,right:Real4):Integer)
 > ``` 
 
@@ -6014,7 +6014,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[string](string.md),right:[string](string.md)):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:String,right:String):Boolean)
 > ``` 
 
@@ -6026,7 +6026,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:[string](string.md),right:[string](string.md)):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:String,right:String):Integer)
 > ``` 
 

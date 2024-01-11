@@ -18,7 +18,7 @@
  #  GameSession : [gamesession](gamesession.md)
 
 > Returns the game session.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GameSession : GameSession
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > Returns true if the event bundle is empty (doesn't contain any events), else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEmpty : Boolean
 
 
@@ -43,7 +43,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |event|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddEvent(event : Event) : Boolean
 > ``` 
 
@@ -54,7 +54,7 @@
 > Clears the event bundle.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -67,7 +67,7 @@
 > Constructors.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EventBundle()
 > ``` 
 
@@ -81,7 +81,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |event|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EventBundle(event : Event)
 > ``` 
 
@@ -95,7 +95,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rhs|[eventbundle](eventbundle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EventBundle(rhs : EventBundle)
 > ``` 
 
@@ -109,7 +109,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |gameSession|[gamesession](gamesession.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EventBundle(gameSession : GameSession)
 > ``` 
 
@@ -124,7 +124,7 @@
 > |---|---|---|
 > |gameSession|[gamesession](gamesession.md)| |
 > |event|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EventBundle(gameSession : GameSession, event : Event)
 > ``` 
 
@@ -135,7 +135,7 @@
 > Returns all the events that have been added to the event bundle.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetEvents() : EventRange
 > ``` 
 
@@ -147,7 +147,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |event|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveEvent(event : Event) : Boolean
 > ``` 
 
@@ -159,7 +159,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveEvent( : String) : Boolean
 > ``` 
 

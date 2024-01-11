@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : IndexedHalfEdgeMeshFaceArrayRange
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : IndexedHalfEdgeFace
 
 
@@ -37,7 +37,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEmpty : Boolean
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotEmpty : Boolean
 
 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdgeMeshFaceArrayRange()
 > ``` 
 
@@ -77,7 +77,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[indexedhalfedgemeshfacearrayrange](indexedhalfedgemeshfacearrayrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdgeMeshFaceArrayRange(p0 : IndexedHalfEdgeMeshFaceArrayRange)
 > ``` 
 
@@ -88,7 +88,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveNext()
 > ``` 
 

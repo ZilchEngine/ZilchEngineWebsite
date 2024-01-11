@@ -13,7 +13,7 @@
  #  NetChannelConfig : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetChannelConfig : String
 
 
@@ -21,7 +21,7 @@
  #  NetPropertyConfig : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetPropertyConfig : String
 
 

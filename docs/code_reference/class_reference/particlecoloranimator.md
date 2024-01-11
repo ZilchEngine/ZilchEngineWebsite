@@ -18,7 +18,7 @@
  #  MaxParticleSpeed : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxParticleSpeed : Real
 
 
@@ -26,7 +26,7 @@
  #  TimeGradient : [colorgradient](colorgradient.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TimeGradient : ColorGradient
 
 
@@ -34,7 +34,7 @@
  #  VelocityGradient : [colorgradient](colorgradient.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VelocityGradient : ColorGradient
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ParticleColorAnimator()
 > ``` 
 

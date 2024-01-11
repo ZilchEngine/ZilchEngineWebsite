@@ -17,7 +17,7 @@
  #  Radii : [real3](../nada_base_types/real3.md)
 
 > The x, y, and z radius of the ellipsoid.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radii : Real3
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > The radii of the ellipsoid after transform is applied (scale and rotation).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRadii : Real3
 
 
@@ -43,7 +43,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EllipsoidCollider()
 > ``` 
 

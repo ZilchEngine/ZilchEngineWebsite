@@ -22,7 +22,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : MetaSelectionRange
 
 
@@ -30,7 +30,7 @@
  #  Primary : [anyhandle](../nada_base_types/anyhandle.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Primary : AnyHandle
 
 
@@ -45,7 +45,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : AnyHandle)
 > ``` 
 
@@ -56,7 +56,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -68,7 +68,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Contains(p0 : AnyHandle) : Boolean
 > ``` 
 
@@ -79,7 +79,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Count() : Integer
 > ``` 
 
@@ -90,7 +90,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Empty() : Boolean
 > ``` 
 
@@ -101,7 +101,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FinalSelectionChanged()
 > ``` 
 
@@ -113,7 +113,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Remove(p0 : AnyHandle)
 > ``` 
 
@@ -126,7 +126,7 @@
 > |---|---|---|
 > |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
 > |p1|[anyhandle](../nada_base_types/anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Replace(p0 : AnyHandle, p1 : AnyHandle)
 > ``` 
 
@@ -138,7 +138,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SelectOnly(p0 : AnyHandle)
 > ``` 
 

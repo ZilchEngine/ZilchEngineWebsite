@@ -33,7 +33,7 @@
  #  AllowSleep : [boolean](../nada_base_types/boolean.md)
 
 > Determines if anything in the space is allowed to fall sleep.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllowSleep : Boolean
 
 
@@ -41,7 +41,7 @@
  #  CollisionTable : [collisiontable](collisiontable.md)
 
 > The collision table resource used to filter collisions in this space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CollisionTable : CollisionTable
 
 
@@ -49,7 +49,7 @@
  #  Deterministic : [boolean](../nada_base_types/boolean.md)
 
 > Performs extra work to help enforce determinism in the simulation.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Deterministic : Boolean
 
 
@@ -57,7 +57,7 @@
  #  DynamicBroadphaseType : [string](../nada_base_types/string.md)
 
 > What kind of broadphase is used for dynamic objects (those with RigidBodies).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DynamicBroadphaseType : String
 
 
@@ -65,7 +65,7 @@
  #  Mode2D : [boolean](../nada_base_types/boolean.md)
 
 > The default 2D mode for this space. If a RigidBody is set to InheritFromSpace then it will use this value.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mode2D : Boolean
 
 
@@ -73,7 +73,7 @@
  #  PhysicsSolverConfig : [physicssolverconfig](physicssolverconfig.md)
 
 > The resource that controls how physics solves things. Mostly related to how collision is resolved.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PhysicsSolverConfig : PhysicsSolverConfig
 
 
@@ -81,7 +81,7 @@
  #  StaticBroadphaseType : [string](../nada_base_types/string.md)
 
 > What kind of broadphase is used for static objects (those without RigidBodies).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StaticBroadphaseType : String
 
 
@@ -89,7 +89,7 @@
  #  SubStepCount : [integer](../nada_base_types/integer.md)
 
 > The number of iterations the physics space will take every frame. Used to achieve higher accuracy and increase visual results.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SubStepCount : Integer
 
 
@@ -105,7 +105,7 @@
 > |---|---|---|
 > |cog1|[cog](cog.md)| |
 > |cog2|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddHierarchyPairFilter(cog1 : Cog, cog2 : Cog)
 > ``` 
 
@@ -118,7 +118,7 @@
 > |---|---|---|
 > |cog1|[cog](cog.md)| |
 > |cog2|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddPairFilter(cog1 : Cog, cog2 : Cog)
 > ``` 
 
@@ -132,7 +132,7 @@
 > |aabb|[aabb](aabb.md)| |
 > |maxCount|[integer](../nada_base_types/integer.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastAabb(aabb : Aabb, maxCount : Integer, filter : CastFilter) : CastResultsRange
 > ``` 
 
@@ -146,7 +146,7 @@
 > |offset|[real3](../nada_base_types/real3.md)| |
 > |testCollider|[collider](collider.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastCollider(offset : Real3, testCollider : Collider, filter : CastFilter) : CastResultsRange
 > ``` 
 
@@ -160,7 +160,7 @@
 > |frustum|[frustum](frustum.md)| |
 > |maxCount|[integer](../nada_base_types/integer.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastFrustum(frustum : Frustum, maxCount : Integer, filter : CastFilter) : CastResultsRange
 > ``` 
 
@@ -173,7 +173,7 @@
 > |---|---|---|
 > |worldRay|[ray](ray.md)| |
 > |maxCount|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastRay(worldRay : Ray, maxCount : Integer) : CastResultsRange
 > ``` 
 
@@ -187,7 +187,7 @@
 > |worldRay|[ray](ray.md)| |
 > |maxCount|[integer](../nada_base_types/integer.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastRay(worldRay : Ray, maxCount : Integer, filter : CastFilter) : CastResultsRange
 > ``` 
 
@@ -199,7 +199,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |worldRay|[ray](ray.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastRayFirst(worldRay : Ray) : CastResult
 > ``` 
 
@@ -212,7 +212,7 @@
 > |---|---|---|
 > |worldRay|[ray](ray.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastRayFirst(worldRay : Ray, filter : CastFilter) : CastResult
 > ``` 
 
@@ -225,7 +225,7 @@
 > |---|---|---|
 > |segment|[segment](segment.md)| |
 > |maxCount|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastSegment(segment : Segment, maxCount : Integer) : CastResultsRange
 > ``` 
 
@@ -239,7 +239,7 @@
 > |segment|[segment](segment.md)| |
 > |maxCount|[integer](../nada_base_types/integer.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastSegment(segment : Segment, maxCount : Integer, filter : CastFilter) : CastResultsRange
 > ``` 
 
@@ -253,7 +253,7 @@
 > |sphere|[sphere](sphere.md)| |
 > |maxCount|[integer](../nada_base_types/integer.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastSphere(sphere : Sphere, maxCount : Integer, filter : CastFilter) : CastResultsRange
 > ``` 
 
@@ -268,7 +268,7 @@
 > |cog1|[cog](cog.md)| |
 > |jointName|[string](../nada_base_types/string.md)| |
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateJoint(cog0 : Cog, cog1 : Cog, jointName : String, worldPoint : Real3) : Cog
 > ``` 
 
@@ -283,7 +283,7 @@
 > |filter|[castfilter](castfilter.md)| |
 > |eventName|[string](../nada_base_types/string.md)| |
 > |toSend|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchWithinAabb(aabb : Aabb, filter : CastFilter, eventName : String, toSend : Event)
 > ``` 
 
@@ -297,7 +297,7 @@
 > |aabb|[aabb](aabb.md)| |
 > |eventName|[string](../nada_base_types/string.md)| |
 > |toSend|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchWithinAabb(aabb : Aabb, eventName : String, toSend : Event)
 > ``` 
 
@@ -312,7 +312,7 @@
 > |filter|[castfilter](castfilter.md)| |
 > |eventName|[string](../nada_base_types/string.md)| |
 > |toSend|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchWithinSphere(sphere : Sphere, filter : CastFilter, eventName : String, toSend : Event)
 > ``` 
 
@@ -326,7 +326,7 @@
 > |sphere|[sphere](sphere.md)| |
 > |eventName|[string](../nada_base_types/string.md)| |
 > |toSend|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchWithinSphere(sphere : Sphere, eventName : String, toSend : Event)
 > ``` 
 
@@ -337,7 +337,7 @@
 > Forces all queued computations in physics to be updated now. Should only be used for debugging.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FlushPhysicsQueue()
 > ``` 
 
@@ -350,7 +350,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PhysicsSpace()
 > ``` 
 
@@ -363,7 +363,7 @@
 > |---|---|---|
 > |cog1|[cog](cog.md)| |
 > |cog2|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveHierarchyPairFilter(cog1 : Cog, cog2 : Cog)
 > ``` 
 
@@ -376,7 +376,7 @@
 > |---|---|---|
 > |cog1|[cog](cog.md)| |
 > |cog2|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemovePairFilter(cog1 : Cog, cog2 : Cog)
 > ``` 
 
@@ -391,7 +391,7 @@
 > |velocity|[real3](../nada_base_types/real3.md)| |
 > |dt|[real](../nada_base_types/real.md)| |
 > |filter|[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SweepCollider(collider : Collider, velocity : Real3, dt : Real, filter : CastFilter) : SweepResultRange
 > ``` 
 
@@ -404,7 +404,7 @@
 > |---|---|---|
 > |cog1|[cog](cog.md)| |
 > |cog2|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WhyAreTheyNotColliding(cog1 : Cog, cog2 : Cog) : String
 > ``` 
 

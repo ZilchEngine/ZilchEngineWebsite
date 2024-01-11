@@ -19,7 +19,7 @@
  `read-only`
 
 > The object's current network user owner.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CurrentNetUserOwner : Cog
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > The object's previous network user owner.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviousNetUserOwner : Cog
 
 

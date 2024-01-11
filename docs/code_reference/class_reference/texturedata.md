@@ -19,7 +19,7 @@
  `read-only`
 
 > Memory format of the stored pixel data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Format : TextureFormat
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > Height of the texture data in pixels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Height : Integer
 
 
@@ -39,7 +39,7 @@
  `read-only`
 
 > Total number of pixels in texture data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PixelCount : Integer
 
 
@@ -49,7 +49,7 @@
  `read-only`
 
 > Width of the texture data in pixels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Width : Integer
 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Real4
 > ``` 
 
@@ -77,7 +77,7 @@
 > |---|---|---|
 > |x|[integer](../nada_base_types/integer.md)| |
 > |y|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(x : Integer, y : Integer) : Real4
 > ``` 
 
@@ -91,7 +91,7 @@
 > |x|[integer](../nada_base_types/integer.md)| |
 > |y|[integer](../nada_base_types/integer.md)| |
 > |value|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(x : Integer, y : Integer, value : Real4)
 > ``` 
 
@@ -104,7 +104,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |value|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : Real4)
 > ``` 
 
@@ -120,7 +120,7 @@
 > |format|[TextureFormat](../enum_reference.md#textureformat)| |
 > |width|[integer](../nada_base_types/integer.md)| |
 > |height|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TextureData(format : TextureFormat, width : Integer, height : Integer)
 > ``` 
 

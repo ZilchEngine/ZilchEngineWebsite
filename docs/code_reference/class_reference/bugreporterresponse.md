@@ -14,7 +14,7 @@
  #  Response : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Response : String
 
 

@@ -26,7 +26,7 @@
 > |subSettings|[rendersettings](rendersettings.md)| |
 > |subGroup|[rendergroup](rendergroup.md)| |
 > |subPass|[materialblock](materialblock.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddSubSettings(subSettings : RenderSettings, subGroup : RenderGroup, subPass : MaterialBlock)
 > ``` 
 
@@ -38,7 +38,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |subGroup|[rendergroup](rendergroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ExcludeSubRenderGroup(subGroup : RenderGroup)
 > ``` 
 
@@ -50,7 +50,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |baseRenderGroup|[rendergroup](rendergroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reset(baseRenderGroup : RenderGroup)
 > ``` 
 
@@ -63,7 +63,7 @@
 > |---|---|---|
 > |defaultSettings|[rendersettings](rendersettings.md)| |
 > |defaultPass|[materialblock](materialblock.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetDefaultSettings(defaultSettings : RenderSettings, defaultPass : MaterialBlock)
 > ``` 
 

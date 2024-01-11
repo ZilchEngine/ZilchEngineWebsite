@@ -152,7 +152,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.941176, 0.972549, 1, 1) or hex 0xF0F8FFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AliceBlue : Real4
 
 
@@ -162,7 +162,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.980392, 0.921569, 0.843137, 1) or hex 0xFAEBD7FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AntiqueWhite : Real4
 
 
@@ -172,7 +172,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 1, 1, 1) or hex 0x00FFFFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Aqua : Real4
 
 
@@ -182,7 +182,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.498039, 1, 0.831373, 1) or hex 0x7FFFD4FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Aquamarine : Real4
 
 
@@ -192,7 +192,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.941176, 1, 1, 1) or hex 0xF0FFFFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Azure : Real4
 
 
@@ -202,7 +202,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.960784, 0.960784, 0.862745, 1) or hex 0xF5F5DCFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Beige : Real4
 
 
@@ -212,7 +212,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.894118, 0.768627, 1) or hex 0xFFE4C4FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Bisque : Real4
 
 
@@ -222,7 +222,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0, 0, 1) or hex 0x000000FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Black : Real4
 
 
@@ -232,7 +232,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.921569, 0.803922, 1) or hex 0xFFEBCDFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BlanchedAlmond : Real4
 
 
@@ -242,7 +242,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0, 1, 1) or hex 0x0000FFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Blue : Real4
 
 
@@ -252,7 +252,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.541176, 0.168627, 0.886275, 1) or hex 0x8A2BE2FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BlueViolet : Real4
 
 
@@ -262,7 +262,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.647059, 0.164706, 0.164706, 1) or hex 0xA52A2AFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Brown : Real4
 
 
@@ -272,7 +272,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.870588, 0.721569, 0.529412, 1) or hex 0xDEB887FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Burlywood : Real4
 
 
@@ -282,7 +282,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.372549, 0.619608, 0.627451, 1) or hex 0x5F9EA0FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CadetBlue : Real4
 
 
@@ -292,7 +292,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.498039, 1, 0, 1) or hex 0x7FFF00FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Chartreuse : Real4
 
 
@@ -302,7 +302,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.823529, 0.411765, 0.117647, 1) or hex 0xD2691EFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Chocolate : Real4
 
 
@@ -312,7 +312,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 1, 1, 0) or hex 0xFFFFFF00
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Clear : Real4
 
 
@@ -322,7 +322,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.498039, 0.313726, 1) or hex 0xFF7F50FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Coral : Real4
 
 
@@ -332,7 +332,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.392157, 0.584314, 0.929412, 1) or hex 0x6495EDFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cornflower : Real4
 
 
@@ -342,7 +342,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.972549, 0.862745, 1) or hex 0xFFF8DCFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cornsilk : Real4
 
 
@@ -352,7 +352,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.862745, 0.0784314, 0.235294, 1) or hex 0xDC143CFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Crimson : Real4
 
 
@@ -362,7 +362,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 1, 1, 1) or hex 0x00FFFFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cyan : Real4
 
 
@@ -372,7 +372,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.721569, 0.52549, 0.0431373, 1) or hex 0xB8860BFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkGoldenrod : Real4
 
 
@@ -382,7 +382,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.662745, 0.662745, 0.662745, 1) or hex 0xA9A9A9FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkGray : Real4
 
 
@@ -392,7 +392,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.741176, 0.717647, 0.419608, 1) or hex 0xBDB76BFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkKhaki : Real4
 
 
@@ -402,7 +402,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.545098, 0, 0.545098, 1) or hex 0x8B008BFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkMagenta : Real4
 
 
@@ -412,7 +412,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.333333, 0.419608, 0.184314, 1) or hex 0x556B2FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkOliveGreen : Real4
 
 
@@ -422,7 +422,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.54902, 0, 1) or hex 0xFF8C00FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkOrange : Real4
 
 
@@ -432,7 +432,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.6, 0.196078, 0.8, 1) or hex 0x9932CCFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkOrchid : Real4
 
 
@@ -442,7 +442,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.913725, 0.588235, 0.478431, 1) or hex 0xE9967AFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkSalmon : Real4
 
 
@@ -452,7 +452,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.560784, 0.737255, 0.560784, 1) or hex 0x8FBC8FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkSeaGreen : Real4
 
 
@@ -462,7 +462,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.282353, 0.239216, 0.545098, 1) or hex 0x483D8BFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkSlateBlue : Real4
 
 
@@ -472,7 +472,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.184314, 0.309804, 0.309804, 1) or hex 0x2F4F4FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkSlateGray : Real4
 
 
@@ -482,7 +482,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0.807843, 0.819608, 1) or hex 0x00CED1FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkTurquoise : Real4
 
 
@@ -492,7 +492,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.580392, 0, 0.827451, 1) or hex 0x9400D3FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DarkViolet : Real4
 
 
@@ -502,7 +502,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0.498039, 0, 1) or hex 0x007F00FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeepGreen : Real4
 
 
@@ -512,7 +512,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.0784314, 0.576471, 1) or hex 0xFF1493FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeepPink : Real4
 
 
@@ -522,7 +522,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0.74902, 1, 1) or hex 0x00BFFFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeepSkyBlue : Real4
 
 
@@ -532,7 +532,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.411765, 0.411765, 0.411765, 1) or hex 0x696969FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DimGray : Real4
 
 
@@ -542,7 +542,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.117647, 0.564706, 1, 1) or hex 0x1E90FFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DodgerBlue : Real4
 
 
@@ -552,7 +552,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.698039, 0.133333, 0.133333, 1) or hex 0xB22222FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Firebrick : Real4
 
 
@@ -562,7 +562,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.980392, 0.941176, 1) or hex 0xFFFAF0FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FloralWhite : Real4
 
 
@@ -572,7 +572,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.133333, 0.545098, 0.133333, 1) or hex 0x228B22FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ForestGreen : Real4
 
 
@@ -582,7 +582,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0, 1, 1) or hex 0xFF00FFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Fuchsia : Real4
 
 
@@ -592,7 +592,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.862745, 0.862745, 0.862745, 1) or hex 0xDCDCDCFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gainsboro : Real4
 
 
@@ -602,7 +602,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.972549, 0.972549, 1, 1) or hex 0xF8F8FFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GhostWhite : Real4
 
 
@@ -612,7 +612,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.843137, 0, 1) or hex 0xFFD700FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gold : Real4
 
 
@@ -622,7 +622,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.854902, 0.647059, 0.12549, 1) or hex 0xDAA520FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Goldenrod : Real4
 
 
@@ -632,7 +632,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.498039, 0.498039, 0.498039, 1) or hex 0x7F7F7FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gray : Real4
 
 
@@ -642,7 +642,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 1, 0, 1) or hex 0x00FF00FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Green : Real4
 
 
@@ -652,7 +652,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.678431, 1, 0.184314, 1) or hex 0xADFF2FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GreenYellow : Real4
 
 
@@ -662,7 +662,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.941176, 1, 0.941176, 1) or hex 0xF0FFF0FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Honeydew : Real4
 
 
@@ -672,7 +672,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.411765, 0.705882, 1) or hex 0xFF69B4FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HotPink : Real4
 
 
@@ -682,7 +682,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.803922, 0.360784, 0.360784, 1) or hex 0xCD5C5CFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IndianRed : Real4
 
 
@@ -692,7 +692,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.294118, 0, 0.509804, 1) or hex 0x4B0082FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Indigo : Real4
 
 
@@ -702,7 +702,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 1, 0.941176, 1) or hex 0xFFFFF0FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ivory : Real4
 
 
@@ -712,7 +712,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.941176, 0.901961, 0.54902, 1) or hex 0xF0E68CFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Khaki : Real4
 
 
@@ -722,7 +722,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.901961, 0.901961, 0.980392, 1) or hex 0xE6E6FAFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Lavender : Real4
 
 
@@ -732,7 +732,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.941176, 0.960784, 1) or hex 0xFFF0F5FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LavenderBlush : Real4
 
 
@@ -742,7 +742,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.486275, 0.988235, 0, 1) or hex 0x7CFC00FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LawnGreen : Real4
 
 
@@ -752,7 +752,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.980392, 0.803922, 1) or hex 0xFFFACDFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LemonChiffon : Real4
 
 
@@ -762,7 +762,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.678431, 0.847059, 0.901961, 1) or hex 0xADD8E6FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightBlue : Real4
 
 
@@ -772,7 +772,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.941176, 0.501961, 0.501961, 1) or hex 0xF08080FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightCoral : Real4
 
 
@@ -782,7 +782,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.878431, 1, 1, 1) or hex 0xE0FFFFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightCyan : Real4
 
 
@@ -792,7 +792,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.980392, 0.980392, 0.823529, 1) or hex 0xFAFAD2FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightGoldenrod : Real4
 
 
@@ -802,7 +802,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.827451, 0.827451, 0.827451, 1) or hex 0xD3D3D3FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightGray : Real4
 
 
@@ -812,7 +812,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.564706, 0.933333, 0.564706, 1) or hex 0x90EE90FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightGreen : Real4
 
 
@@ -822,7 +822,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.713726, 0.756863, 1) or hex 0xFFB6C1FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightPink : Real4
 
 
@@ -832,7 +832,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.627451, 0.478431, 1) or hex 0xFFA07AFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightSalmon : Real4
 
 
@@ -842,7 +842,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.12549, 0.698039, 0.666667, 1) or hex 0x20B2AAFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightSeaGreen : Real4
 
 
@@ -852,7 +852,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.529412, 0.807843, 0.980392, 1) or hex 0x87CEFAFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightSkyBlue : Real4
 
 
@@ -862,7 +862,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.466667, 0.533333, 0.6, 1) or hex 0x778899FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightSlateGray : Real4
 
 
@@ -872,7 +872,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.690196, 0.768627, 0.870588, 1) or hex 0xB0C4DEFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightSteelBlue : Real4
 
 
@@ -882,7 +882,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 1, 0.878431, 1) or hex 0xFFFFE0FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LightYellow : Real4
 
 
@@ -892,7 +892,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 1, 0, 1) or hex 0x00FF00FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Lime : Real4
 
 
@@ -902,7 +902,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.196078, 0.803922, 0.196078, 1) or hex 0x32CD32FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LimeGreen : Real4
 
 
@@ -912,7 +912,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.980392, 0.941176, 0.901961, 1) or hex 0xFAF0E6FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Linen : Real4
 
 
@@ -922,7 +922,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0, 1, 1) or hex 0xFF00FFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Magenta : Real4
 
 
@@ -932,7 +932,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.498039, 0, 0, 1) or hex 0x7F0000FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Maroon : Real4
 
 
@@ -942,7 +942,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.4, 0.803922, 0.666667, 1) or hex 0x66CDAAFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumAquamarine : Real4
 
 
@@ -952,7 +952,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0, 0.803922, 1) or hex 0x0000CDFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumBlue : Real4
 
 
@@ -962,7 +962,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.729412, 0.333333, 0.827451, 1) or hex 0xBA55D3FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumOrchid : Real4
 
 
@@ -972,7 +972,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.576471, 0.439216, 0.858824, 1) or hex 0x9370DBFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumPurple : Real4
 
 
@@ -982,7 +982,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.235294, 0.701961, 0.443137, 1) or hex 0x3CB371FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumSeaGreen : Real4
 
 
@@ -992,7 +992,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.482353, 0.407843, 0.933333, 1) or hex 0x7B68EEFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumSlateBlue : Real4
 
 
@@ -1002,7 +1002,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0.980392, 0.603922, 1) or hex 0x00FA9AFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumSpringGreen : Real4
 
 
@@ -1012,7 +1012,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.282353, 0.819608, 0.8, 1) or hex 0x48D1CCFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumTurquoise : Real4
 
 
@@ -1022,7 +1022,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.780392, 0.0823529, 0.521569, 1) or hex 0xC71585FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MediumVioletRed : Real4
 
 
@@ -1032,7 +1032,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.0980392, 0.0980392, 0.439216, 1) or hex 0x191970FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MidnightBlue : Real4
 
 
@@ -1042,7 +1042,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.960784, 1, 0.980392, 1) or hex 0xF5FFFAFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MintCream : Real4
 
 
@@ -1052,7 +1052,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.894118, 0.882353, 1) or hex 0xFFE4E1FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MistyRose : Real4
 
 
@@ -1062,7 +1062,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.894118, 0.709804, 1) or hex 0xFFE4B5FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Moccasin : Real4
 
 
@@ -1072,7 +1072,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.870588, 0.678431, 1) or hex 0xFFDEADFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NavajoWhite : Real4
 
 
@@ -1082,7 +1082,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0, 0.501961, 1) or hex 0x000080FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Navy : Real4
 
 
@@ -1092,7 +1092,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.992157, 0.960784, 0.901961, 1) or hex 0xFDF5E6FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OldLace : Real4
 
 
@@ -1102,7 +1102,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.501961, 0.501961, 0, 1) or hex 0x808000FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Olive : Real4
 
 
@@ -1112,7 +1112,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.419608, 0.556863, 0.137255, 1) or hex 0x6B8E23FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OliveDrab : Real4
 
 
@@ -1122,7 +1122,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.647059, 0, 1) or hex 0xFFA500FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Orange : Real4
 
 
@@ -1132,7 +1132,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.270588, 0, 1) or hex 0xFF4500FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OrangeRed : Real4
 
 
@@ -1142,7 +1142,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.854902, 0.439216, 0.839216, 1) or hex 0xDA70D6FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Orchid : Real4
 
 
@@ -1152,7 +1152,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.933333, 0.909804, 0.666667, 1) or hex 0xEEE8AAFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaleGoldenrod : Real4
 
 
@@ -1162,7 +1162,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.596078, 0.984314, 0.596078, 1) or hex 0x98FB98FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaleGreen : Real4
 
 
@@ -1172,7 +1172,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.686275, 0.933333, 0.933333, 1) or hex 0xAFEEEEFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaleTurquoise : Real4
 
 
@@ -1182,7 +1182,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.858824, 0.439216, 0.576471, 1) or hex 0xDB7093FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaleVioletRed : Real4
 
 
@@ -1192,7 +1192,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.937255, 0.835294, 1) or hex 0xFFEFD5FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PapayaWhip : Real4
 
 
@@ -1202,7 +1202,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.854902, 0.72549, 1) or hex 0xFFDAB9FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PeachPuff : Real4
 
 
@@ -1212,7 +1212,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.803922, 0.521569, 0.247059, 1) or hex 0xCD853FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Peru : Real4
 
 
@@ -1222,7 +1222,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.752941, 0.796078, 1) or hex 0xFFC0CBFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Pink : Real4
 
 
@@ -1232,7 +1232,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.866667, 0.627451, 0.866667, 1) or hex 0xDDA0DDFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Plum : Real4
 
 
@@ -1242,7 +1242,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.690196, 0.878431, 0.901961, 1) or hex 0xB0E0E6FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PowderBlue : Real4
 
 
@@ -1252,7 +1252,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.498039, 0, 0.498039, 1) or hex 0x7F007FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Purple : Real4
 
 
@@ -1262,7 +1262,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.4, 0.2, 0.6, 1) or hex 0x663399FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RebeccaPurple : Real4
 
 
@@ -1272,7 +1272,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0, 0, 1) or hex 0xFF0000FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Red : Real4
 
 
@@ -1282,7 +1282,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.737255, 0.560784, 0.560784, 1) or hex 0xBC8F8FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RosyBrown : Real4
 
 
@@ -1292,7 +1292,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.254902, 0.411765, 0.882353, 1) or hex 0x4169E1FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RoyalBlue : Real4
 
 
@@ -1302,7 +1302,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.545098, 0.270588, 0.0745098, 1) or hex 0x8B4513FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SaddleBrown : Real4
 
 
@@ -1312,7 +1312,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.980392, 0.501961, 0.447059, 1) or hex 0xFA8072FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Salmon : Real4
 
 
@@ -1322,7 +1322,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.956863, 0.643137, 0.376471, 1) or hex 0xF4A460FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SandyBrown : Real4
 
 
@@ -1332,7 +1332,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.180392, 0.545098, 0.341176, 1) or hex 0x2E8B57FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SeaGreen : Real4
 
 
@@ -1342,7 +1342,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.960784, 0.933333, 1) or hex 0xFFF5EEFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Seashell : Real4
 
 
@@ -1352,7 +1352,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.627451, 0.321569, 0.176471, 1) or hex 0xA0522DFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Sienna : Real4
 
 
@@ -1362,7 +1362,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.752941, 0.752941, 0.752941, 1) or hex 0xC0C0C0FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Silver : Real4
 
 
@@ -1372,7 +1372,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.529412, 0.807843, 0.921569, 1) or hex 0x87CEEBFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SkyBlue : Real4
 
 
@@ -1382,7 +1382,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.415686, 0.352941, 0.803922, 1) or hex 0x6A5ACDFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SlateBlue : Real4
 
 
@@ -1392,7 +1392,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.439216, 0.501961, 0.564706, 1) or hex 0x708090FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SlateGray : Real4
 
 
@@ -1402,7 +1402,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.980392, 0.980392, 1) or hex 0xFFFAFAFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Snow : Real4
 
 
@@ -1412,7 +1412,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 1, 0.498039, 1) or hex 0x00FF7FFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpringGreen : Real4
 
 
@@ -1422,7 +1422,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.27451, 0.509804, 0.705882, 1) or hex 0x4682B4FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SteelBlue : Real4
 
 
@@ -1432,7 +1432,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.823529, 0.705882, 0.54902, 1) or hex 0xD2B48CFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Tan : Real4
 
 
@@ -1442,7 +1442,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0, 0.501961, 0.501961, 1) or hex 0x008080FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Teal : Real4
 
 
@@ -1452,7 +1452,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.847059, 0.74902, 0.847059, 1) or hex 0xD8BFD8FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Thistle : Real4
 
 
@@ -1462,7 +1462,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 0.388235, 0.278431, 1) or hex 0xFF6347FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Tomato : Real4
 
 
@@ -1472,7 +1472,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.25098, 0.878431, 0.815686, 1) or hex 0x40E0D0FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Turquoise : Real4
 
 
@@ -1482,7 +1482,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.933333, 0.509804, 0.933333, 1) or hex 0xEE82EEFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Violet : Real4
 
 
@@ -1492,7 +1492,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.960784, 0.870588, 0.701961, 1) or hex 0xF5DEB3FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Wheat : Real4
 
 
@@ -1502,7 +1502,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 1, 1, 1) or hex 0xFFFFFFFF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var White : Real4
 
 
@@ -1512,7 +1512,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.960784, 0.960784, 0.960784, 1) or hex 0xF5F5F5FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WhiteSmoke : Real4
 
 
@@ -1522,7 +1522,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(1, 1, 0, 1) or hex 0xFFFF00FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Yellow : Real4
 
 
@@ -1532,7 +1532,7 @@
  `read-only` `static`
 
 > RGBA color of Real4(0.603922, 0.803922, 0.196078, 1) or hex 0x9ACD32FF
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var YellowGreen : Real4
 
 

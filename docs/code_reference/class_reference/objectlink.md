@@ -23,7 +23,7 @@
  #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The Point on Object A in local space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPointA : Real3
 
 
@@ -31,7 +31,7 @@
  #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The Point on Object B in local space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPointB : Real3
 
 
@@ -39,7 +39,7 @@
  #  ObjectA : [cog](cog.md)
 
 > The first object that is being connected to. Set this to null to clear the link.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectA : Cog
 
 
@@ -47,7 +47,7 @@
  #  ObjectAPath : [cogpath](cogpath.md)
 
 > CogPath to object A.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectAPath : CogPath
 
 
@@ -55,7 +55,7 @@
  #  ObjectB : [cog](cog.md)
 
 > The second object that is being connected to. Set this to null to clear the link.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectB : Cog
 
 
@@ -63,7 +63,7 @@
  #  ObjectBPath : [cogpath](cogpath.md)
 
 > CogPath to object B.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectBPath : CogPath
 
 
@@ -71,7 +71,7 @@
  #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The point on object A in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPointA : Real3
 
 
@@ -79,7 +79,7 @@
  #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The point on object B in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPointB : Real3
 
 
@@ -95,7 +95,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectLink()
 > ``` 
 

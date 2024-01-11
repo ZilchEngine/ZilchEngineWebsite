@@ -18,7 +18,7 @@
  #  CanModifyReadOnlyResources : [boolean](../nada_base_types/boolean.md)
 
 > Allows editing and saving of read only resources.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CanModifyReadOnlyResources : Boolean
 
 
@@ -26,7 +26,7 @@
  #  DoubleEscapeQuit : [boolean](../nada_base_types/boolean.md)
 
 > Double escape to close the engine.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DoubleEscapeQuit : Boolean
 
 
@@ -34,7 +34,7 @@
  #  ProxyObjectsInPreviews : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not script objects are proxied in the preview windows.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ProxyObjectsInPreviews : Boolean
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DeveloperConfig()
 > ``` 
 

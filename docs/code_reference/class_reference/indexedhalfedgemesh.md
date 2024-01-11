@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Edges : IndexedHalfEdgeMeshEdgeArray
 
 
@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Faces : IndexedHalfEdgeMeshFaceArray
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Vertices : IndexedHalfEdgeMeshVertexArray
 
 
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdgeMesh()
 > ``` 
 
@@ -66,7 +66,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[indexedhalfedgemesh](indexedhalfedgemesh.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdgeMesh(p0 : IndexedHalfEdgeMesh)
 > ``` 
 

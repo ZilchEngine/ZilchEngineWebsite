@@ -29,7 +29,7 @@
  #  EulerAngles : [real3](../nada_base_types/real3.md)
 
 > The rotation of the transform as an Euler angle vector in radians.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EulerAngles : Real3
 
 
@@ -37,7 +37,7 @@
  #  LocalRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Local rotation relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalRotation : Quaternion
 
 
@@ -45,7 +45,7 @@
  #  LocalScale : [real3](../nada_base_types/real3.md)
 
 > Local Scale relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalScale : Real3
 
 
@@ -53,7 +53,7 @@
  #  LocalTranslation : [real3](../nada_base_types/real3.md)
 
 > Local Translation relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTranslation : Real3
 
 
@@ -63,7 +63,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Parent : Transform
 
 
@@ -71,7 +71,7 @@
  #  Rotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Local rotation relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Rotation : Quaternion
 
 
@@ -79,7 +79,7 @@
  #  Scale : [real3](../nada_base_types/real3.md)
 
 > Local Scale relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Scale : Real3
 
 
@@ -87,7 +87,7 @@
  #  Translation : [real3](../nada_base_types/real3.md)
 
 > Local Translation relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Translation : Real3
 
 
@@ -97,7 +97,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldMatrix : Real4x4
 
 
@@ -105,7 +105,7 @@
  #  WorldRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Rotation in World Space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRotation : Quaternion
 
 
@@ -113,7 +113,7 @@
  #  WorldScale : [real3](../nada_base_types/real3.md)
 
 > Scale in World Space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldScale : Real3
 
 
@@ -121,7 +121,7 @@
  #  WorldTranslation : [real3](../nada_base_types/real3.md)
 
 > Translation in World Space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTranslation : Real3
 
 
@@ -136,7 +136,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |angles|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateAnglesLocal(angles : Real3)
 > ``` 
 
@@ -148,7 +148,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |angles|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateAnglesWorld(angles : Real3)
 > ``` 
 
@@ -161,7 +161,7 @@
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
 > |rotation|[quaternion](../nada_base_types/quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateAround(point : Real3, rotation : Quaternion)
 > ``` 
 
@@ -173,7 +173,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rotation|[quaternion](../nada_base_types/quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateLocal(rotation : Quaternion)
 > ``` 
 
@@ -185,7 +185,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rotation|[quaternion](../nada_base_types/quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateWorld(rotation : Quaternion)
 > ``` 
 
@@ -199,7 +199,7 @@
 > |xRadians|[real](../nada_base_types/real.md)| |
 > |yRadians|[real](../nada_base_types/real.md)| |
 > |zRadians|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetEulerAnglesXYZ(xRadians : Real, yRadians : Real, zRadians : Real)
 > ``` 
 
@@ -213,7 +213,7 @@
 > |facing|[real3](../nada_base_types/real3.md)| |
 > |up|[real3](../nada_base_types/real3.md)| |
 > |right|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetRotationBases(facing : Real3, up : Real3, right : Real3)
 > ``` 
 
@@ -226,7 +226,7 @@
 > Constructor / Destructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transform()
 > ``` 
 
@@ -238,7 +238,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |normal|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformNormal(normal : Real3) : Real3
 > ``` 
 
@@ -250,7 +250,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |normal|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformNormalInverse(normal : Real3) : Real3
 > ``` 
 
@@ -262,7 +262,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |normal|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformNormalLocal(normal : Real3) : Real3
 > ``` 
 
@@ -274,7 +274,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformPoint(point : Real3) : Real3
 > ``` 
 
@@ -286,7 +286,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformPointInverse(point : Real3) : Real3
 > ``` 
 
@@ -298,7 +298,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformPointLocal(point : Real3) : Real3
 > ``` 
 

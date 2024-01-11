@@ -20,7 +20,7 @@
  #  JointA : [cog](cog.md)
 
 > The joint connected to ObjectA that the pulley operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointA : Cog
 
 
@@ -28,7 +28,7 @@
  #  JointAPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectA that the pulley operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointAPath : CogPath
 
 
@@ -36,7 +36,7 @@
  #  JointB : [cog](cog.md)
 
 > The joint connected to ObjectB that the pulley operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointB : Cog
 
 
@@ -44,7 +44,7 @@
  #  JointBPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectB that the pulley operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointBPath : CogPath
 
 
@@ -52,7 +52,7 @@
  #  Ratio : [real](../nada_base_types/real.md)
 
 > The ratio between the two stick joints. The ratio is used in the formula "length0 + ratio * length1 = 0".
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ratio : Real
 
 
@@ -68,7 +68,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PulleyJoint()
 > ``` 
 

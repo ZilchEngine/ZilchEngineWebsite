@@ -17,7 +17,7 @@
  #  LocalBasisA : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object A . This frame is transformed to world space and then aligned with object B s frame . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBasisA : Quaternion
 
 
@@ -25,7 +25,7 @@
  #  LocalBasisB : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object B . This frame is transformed to world space and then aligned with object A s frame . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBasisB : Quaternion
 
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FixedAngleJoint()
 > ``` 
 

@@ -12,7 +12,7 @@
  #  MeshBuilt : [PhysicsMeshType](../enum_reference.md#physicsmeshtype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MeshBuilt : PhysicsMeshType
 
 
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PhysicsMeshBuilder()
 > ``` 
 

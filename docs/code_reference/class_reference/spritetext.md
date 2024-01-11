@@ -20,7 +20,7 @@
  #  Font : [font](font.md)
 
 > Font used to display the text.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Font : Font
 
 
@@ -28,7 +28,7 @@
  #  FontSize : [integer](../nada_base_types/integer.md)
 
 > Size that the font will be rastered at to a texture atlas.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FontSize : Integer
 
 
@@ -36,7 +36,7 @@
  #  PixelsPerUnit : [real](../nada_base_types/real.md)
 
 > Number of pixels of the font size that map to one world space unit.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PixelsPerUnit : Real
 
 
@@ -44,7 +44,7 @@
  #  Text : [string](../nada_base_types/string.md)
 
 > Text to display.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Text : String
 
 
@@ -52,7 +52,7 @@
  #  TextAlign : [TextAlign](../enum_reference.md#textalign)
 
 > How to position the text about the objects origin.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextAlign : TextAlign
 
 
@@ -67,7 +67,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |characterIndex|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetCharacterPosition(characterIndex : Integer) : Real3
 > ``` 
 
@@ -79,7 +79,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |text|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureGivenText(text : String) : Real2
 > ``` 
 
@@ -90,7 +90,7 @@
 > Get the effective size in world space of the current text.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureText() : Real2
 > ``` 
 
@@ -103,7 +103,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SpriteText()
 > ``` 
 

@@ -31,7 +31,7 @@
  #  AddComponents : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AddComponents : Boolean
 
 
@@ -39,7 +39,7 @@
  #  ChangeSelection : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChangeSelection : Boolean
 
 
@@ -47,7 +47,7 @@
  #  ChangeTools : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChangeTools : Boolean
 
 
@@ -55,7 +55,7 @@
  #  CreateObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CreateObjects : Boolean
 
 
@@ -63,7 +63,7 @@
  #  DestroyObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DestroyObjects : Boolean
 
 
@@ -71,7 +71,7 @@
  #  Frames : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Frames : Integer
 
 
@@ -79,7 +79,7 @@
  #  KeyEvents : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var KeyEvents : Boolean
 
 
@@ -87,7 +87,7 @@
  #  LogFile : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LogFile : String
 
 
@@ -95,7 +95,7 @@
  #  MouseEvents : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseEvents : Boolean
 
 
@@ -103,7 +103,7 @@
  #  ParentObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ParentObjects : Boolean
 
 
@@ -111,7 +111,7 @@
  #  RayCasts : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RayCasts : Boolean
 
 
@@ -119,7 +119,7 @@
  #  Redo : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Redo : Boolean
 
 
@@ -127,7 +127,7 @@
  #  RemoveComponents : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RemoveComponents : Boolean
 
 
@@ -135,7 +135,7 @@
  #  Seed : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Seed : Integer
 
 
@@ -143,7 +143,7 @@
  #  SetProperties : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SetProperties : Boolean
 
 
@@ -151,7 +151,7 @@
  #  StartGameInstances : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StartGameInstances : Boolean
 
 
@@ -159,7 +159,7 @@
  #  StopGameInstances : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StopGameInstances : Boolean
 
 
@@ -167,7 +167,7 @@
  #  SwitchViewports : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SwitchViewports : Boolean
 
 
@@ -175,7 +175,7 @@
  #  Undo : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Undo : Boolean
 
 
@@ -183,7 +183,7 @@
  #  UnparentObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UnparentObjects : Boolean
 
 

@@ -22,7 +22,7 @@
  #  Material : [material](material.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Material : Material
 
 
@@ -30,7 +30,7 @@
  #  OverrideSelections : [boolean](../nada_base_types/boolean.md)
 
 > If collider/graphical or other selection logic should be disabled and only selectable via this icon.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OverrideSelections : Boolean
 
 
@@ -38,7 +38,7 @@
  #  ShaderInputs : [shaderinputs](shaderinputs.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShaderInputs : ShaderInputs
 
 
@@ -46,7 +46,7 @@
  #  SpriteSource : [spritesource](spritesource.md)
 
 > Sprite based image to use for icon, will not animate.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpriteSource : SpriteSource
 
 
@@ -54,7 +54,7 @@
  #  ViewScale : [real](../nada_base_types/real.md)
 
 > Scalar for how big the icon should appear in the viewport.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScale : Real
 
 
@@ -62,7 +62,7 @@
  #  VisibilityEvents : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VisibilityEvents : Boolean
 
 
@@ -70,7 +70,7 @@
  #  Visible : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Visible : Boolean
 
 
@@ -86,7 +86,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SelectionIcon()
 > ``` 
 

@@ -13,7 +13,7 @@
  #  FragmentName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FragmentName : String
 
 
@@ -21,7 +21,7 @@
  #  InputName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InputName : String
 
 

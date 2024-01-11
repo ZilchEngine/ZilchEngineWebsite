@@ -17,7 +17,7 @@
  #  CallbackEventName : [string](../nada_base_types/string.md)
 
 > The name of the event to invoke on the callback object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CallbackEventName : String
 
 
@@ -25,7 +25,7 @@
  #  CallbackObject : Object
 
 > An object to invoke a callback on (via the callback name) to see if an object in a cast should be skipped.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CallbackObject : Object
 
 
@@ -33,7 +33,7 @@
  #  CollisionGroup : [collisiongroup](collisiongroup.md)
 
 > Should this cast behave like it belongs to a collision group? Uses the current space's CollisionTable for filtering logic.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CollisionGroup : CollisionGroup
 
 
@@ -41,7 +41,7 @@
  #  IgnoreCog : [cog](cog.md)
 
 > A cog to ignore during casts.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IgnoreCog : Cog
 
 
@@ -57,7 +57,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastFilter()
 > ``` 
 
@@ -71,7 +71,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[castfilter](castfilter.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastFilter( : CastFilter)
 > ``` 
 

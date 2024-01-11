@@ -23,7 +23,7 @@
  `read-only`
 
 > Our IP address (as seen from their perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurIpAddress : IpAddress
 
 
@@ -31,7 +31,7 @@
  #  ReturnOurConnectResponse : [boolean](../nada_base_types/boolean.md)
 
 > Return: Our connect response (accept the connect request?).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReturnOurConnectResponse : Boolean
 
 
@@ -39,7 +39,7 @@
  #  ReturnOurResponseBundle : [eventbundle](eventbundle.md)
 
 > Return: Our bundled response event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReturnOurResponseBundle : EventBundle
 
 
@@ -49,7 +49,7 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirIpAddress : IpAddress
 
 
@@ -59,7 +59,7 @@
  `read-only`
 
 > Their pending user add requests following this connect request (within the same frame).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirPendingUserAddRequestCount : Integer
 
 
@@ -69,7 +69,7 @@
  `read-only`
 
 > Their bundled request event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirRequestBundle : EventBundle
 
 

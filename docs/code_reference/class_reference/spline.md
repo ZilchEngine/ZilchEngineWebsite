@@ -22,7 +22,7 @@
  `read-only`
 
 > The read-only curve points baked out to line segments using the provided error.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BakedPoints : SplineBakedPoints
 
 
@@ -30,7 +30,7 @@
  #  Closed : [boolean](../nada_base_types/boolean.md)
 
 > Does the spline loop back on itself?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Closed : Boolean
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > The control points used to bake out the curve.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ControlPoints : SplineControlPoints
 
 
@@ -48,7 +48,7 @@
  #  Error : [real](../nada_base_types/real.md)
 
 > The max number of units that a line segment is allowed to deviate from the curve.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Error : Real
 
 
@@ -56,7 +56,7 @@
  #  SplineType : [SplineType](../enum_reference.md#splinetype)
 
 > The kind of spline (Linear, BSpline, CatmullRom). Determines how the control points affect the curve.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SplineType : SplineType
 
 
@@ -66,7 +66,7 @@
  `read-only`
 
 > The total arc-length of the curve. Use to normalize the curve if you wish.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TotalDistance : Real
 
 
@@ -80,7 +80,7 @@
 > Create a new copy of this spline.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clone() : Spline
 > ``` 
 
@@ -93,7 +93,7 @@
 > Create a new instance of a spline.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Create() : Spline
 > ``` 
 
@@ -105,7 +105,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |color|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugDraw(color : Real4)
 > ``` 
 
@@ -116,7 +116,7 @@
 > Forcibly rebuild the baked points from the control points.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ForceRebuild()
 > ``` 
 
@@ -127,7 +127,7 @@
 > Rebuild the baked points from the control points if they have changed. Should not need to be manually called unless the user wants to control the timing when the points are baked.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RebuildIfModified()
 > ``` 
 
@@ -139,7 +139,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |distance|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SampleDistance(distance : Real) : SplineSampleData
 > ``` 
 
@@ -151,7 +151,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SampleNormalized(time : Real) : SplineSampleData
 > ``` 
 

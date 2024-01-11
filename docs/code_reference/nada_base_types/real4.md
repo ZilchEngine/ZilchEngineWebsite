@@ -24,7 +24,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -34,7 +34,7 @@
  `read-only` `static`
 
 > The smallest (most negative) value that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeMin : Real4
 
 
@@ -44,7 +44,7 @@
  `read-only` `static`
 
 > The negative value closest to zero that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeValueClosestToZero : Real4
 
 
@@ -54,7 +54,7 @@
  `read-only` `static`
 
 > The one vector (a vector containing all ones).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var One : Real4
 
 
@@ -64,7 +64,7 @@
  `read-only` `static`
 
 > The largest (most positive) value that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveMax : Real4
 
 
@@ -74,7 +74,7 @@
  `read-only` `static`
 
 > The positive value closest to zero that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveValueClosestToZero : Real4
 
 
@@ -84,7 +84,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WAxis : Real4
 
 
@@ -94,7 +94,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var XAxis : Real4
 
 
@@ -104,7 +104,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var YAxis : Real4
 
 
@@ -114,7 +114,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ZAxis : Real4
 
 
@@ -124,7 +124,7 @@
  `read-only` `static`
 
 > The zero vector (a vector containing all zeroes).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Zero : Real4
 
 
@@ -139,7 +139,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(p0 : Integer) : Real
 > ``` 
 
@@ -153,7 +153,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxis(p0 : Integer) : Real4
 > ``` 
 
@@ -166,7 +166,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4()
 > ``` 
 
@@ -180,7 +180,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scalar|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(scalar : Real)
 > ``` 
 
@@ -197,7 +197,7 @@
 > |p1|[real](real.md)| |
 > |p2|[real](real.md)| |
 > |p3|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(p0 : Real, p1 : Real, p2 : Real, p3 : Real)
 > ``` 
 
@@ -213,7 +213,7 @@
 > |p0|[real](real.md)| |
 > |p1|[real](real.md)| |
 > |p2|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(p0 : Real, p1 : Real, p2 : Real2)
 > ``` 
 
@@ -229,7 +229,7 @@
 > |p0|[real](real.md)| |
 > |p1|[real2](real2.md)| |
 > |p2|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(p0 : Real, p1 : Real2, p2 : Real)
 > ``` 
 
@@ -244,7 +244,7 @@
 > |---|---|---|
 > |p0|[real](real.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(p0 : Real, p1 : Real3)
 > ``` 
 
@@ -260,7 +260,7 @@
 > |p0|[real2](real2.md)| |
 > |p1|[real](real.md)| |
 > |p2|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(p0 : Real2, p1 : Real, p2 : Real)
 > ``` 
 
@@ -275,7 +275,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(p0 : Real2, p1 : Real2)
 > ``` 
 
@@ -290,7 +290,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real4(p0 : Real3, p1 : Real)
 > ``` 
 
@@ -303,7 +303,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(p0 : Integer, p1 : Real)
 > ``` 
 

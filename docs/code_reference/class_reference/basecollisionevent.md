@@ -22,7 +22,7 @@
  `read-only`
 
 > The number of contact points in this collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ContactPointCount : Integer
 
 
@@ -32,7 +32,7 @@
  `read-only`
 
 > A range for iterating through all contact points.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ContactPoints : ContactPointRange
 
 
@@ -42,7 +42,7 @@
  `read-only`
 
 > If this was a ghost collision (detected but not resolved).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsGhost : Boolean
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > The object that this event was sent to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Object : Cog
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > The other object in this collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OtherObject : Cog
 
 

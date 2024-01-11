@@ -15,7 +15,7 @@
  #  Mode : [AnimationBlendMode](../enum_reference.md#animationblendmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mode : AnimationBlendMode
 
 
@@ -23,7 +23,7 @@
  #  TimeScaleFrom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TimeScaleFrom : Real
 
 
@@ -31,7 +31,7 @@
  #  TimeScaleTo : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TimeScaleTo : Real
 
 
@@ -39,7 +39,7 @@
  #  Type : [AnimationBlendType](../enum_reference.md#animationblendtype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Type : AnimationBlendType
 
 
@@ -56,7 +56,7 @@
 > |p0|[real](../nada_base_types/real.md)| |
 > |p1|[real](../nada_base_types/real.md)| |
 > |p2|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetNormalizedTimeScale(p0 : Real, p1 : Real, p2 : Real)
 > ``` 
 
@@ -67,7 +67,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SyncCadence()
 > ``` 
 

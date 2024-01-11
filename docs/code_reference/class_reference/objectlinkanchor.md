@@ -18,7 +18,7 @@
  `read-only`
 
 > The range of object link edges connected to this anchor.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectLinks : ObjectLinkRange
 
 
@@ -34,7 +34,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectLinkAnchor()
 > ``` 
 

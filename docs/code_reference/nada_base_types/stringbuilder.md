@@ -22,7 +22,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -35,7 +35,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StringBuilder()
 > ``` 
 
@@ -46,7 +46,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToString() : String
 > ``` 
 
@@ -58,7 +58,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(p0 : T)
 > ``` 
 
@@ -69,7 +69,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine()
 > ``` 
 
@@ -81,7 +81,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine(p0 : T)
 > ``` 
 

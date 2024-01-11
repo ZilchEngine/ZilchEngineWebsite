@@ -20,7 +20,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetResourceByName(p0 : String) : Resource
 > ``` 
 
@@ -33,7 +33,7 @@
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
 > |p1|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetResourceByTypeAndName(p0 : String, p1 : String) : Resource
 > ``` 
 

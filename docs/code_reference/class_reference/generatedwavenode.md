@@ -18,7 +18,7 @@
  #  Decibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment, in decibels, that will be applied to the sound when it plays. A value of 0 does not affect the sound; 6 will double the sound's volume, -6 will halve it, and -100 is effectively the same as a Volume of 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Decibels : Real
 
 
@@ -26,7 +26,7 @@
  #  SquareWavePulseValue : [real](../nada_base_types/real.md)
 
 > The percentage of the square wave (from 0 to 1.0) which should be up. This will have no effect if a different wave type is chosen.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SquareWavePulseValue : Real
 
 
@@ -34,7 +34,7 @@
  #  Volume : [real](../nada_base_types/real.md)
 
 > The volume adjustment that will be applied to the sound when it plays. A value of 1 does not affect the sound; 2 will double the sound's volume, 0.5 will halve it, and 0 will make the sound inaudible.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 
@@ -42,7 +42,7 @@
  #  WaveFrequency : [real](../nada_base_types/real.md)
 
 > The frequency of the generated sound wave. This value will have no effect if the Noise type is chosen.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WaveFrequency : Real
 
 
@@ -50,7 +50,7 @@
  #  WaveType : [SynthWaveType](../enum_reference.md#synthwavetype)
 
 > The type of sound wave used to generate the audio. Possible types are Sine, Square, Saw, Triangle, and Noise (randomly generated white noise).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WaveType : SynthWaveType
 
 
@@ -66,7 +66,7 @@
 > |---|---|---|
 > |decibels|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateDecibels(decibels : Real, interpolationTime : Real)
 > ``` 
 
@@ -79,7 +79,7 @@
 > |---|---|---|
 > |volume|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateVolume(volume : Real, interpolationTime : Real)
 > ``` 
 
@@ -92,7 +92,7 @@
 > |---|---|---|
 > |frequency|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateWaveFrequency(frequency : Real, time : Real)
 > ``` 
 
@@ -103,7 +103,7 @@
 > Starts playing the generated audio.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Play()
 > ``` 
 
@@ -114,7 +114,7 @@
 > Stops playing the generated audio.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Stop()
 > ``` 
 

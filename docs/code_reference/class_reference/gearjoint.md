@@ -21,7 +21,7 @@
  #  Constant : [real](../nada_base_types/real.md)
 
 > The initial offset of the gear ratio.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Constant : Real
 
 
@@ -29,7 +29,7 @@
  #  JointA : [cog](cog.md)
 
 > The joint connected to ObjectA that the gear operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointA : Cog
 
 
@@ -37,7 +37,7 @@
  #  JointAPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectA that the gear operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointAPath : CogPath
 
 
@@ -45,7 +45,7 @@
  #  JointB : [cog](cog.md)
 
 > The joint connected to ObjectB that the gear operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointB : Cog
 
 
@@ -53,7 +53,7 @@
  #  JointBPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectB that the gear operates on.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JointBPath : CogPath
 
 
@@ -61,7 +61,7 @@
  #  Ratio : [real](../nada_base_types/real.md)
 
 > The gear ratio that the two constraints are bound with.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ratio : Real
 
 
@@ -77,7 +77,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GearJoint()
 > ``` 
 

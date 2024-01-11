@@ -18,7 +18,7 @@
  `read-only`
 
 > The info published along with their record. Contains game server specific data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BasicHostInfo : EventBundle
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > The IpAddress associated with this record. This is who published it.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IpAddress : IpAddress
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > How long has this record been alive in seconds?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Lifetime : Real
 
 

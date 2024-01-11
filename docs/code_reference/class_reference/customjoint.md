@@ -23,7 +23,7 @@
  `read-only`
 
 > Returns how many constraints this joint owns.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConstraintCount : Integer
 
 
@@ -38,7 +38,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |constraint|[customconstraintinfo](customconstraintinfo.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddConstraint(constraint : CustomConstraintInfo)
 > ``` 
 
@@ -49,7 +49,7 @@
 > Clear all constraints from this joint (so none will solve).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearConstraints()
 > ``` 
 
@@ -60,7 +60,7 @@
 > Create a constraint that is attached to this joint.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateConstraint() : CustomConstraintInfo
 > ``` 
 
@@ -73,7 +73,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CustomJoint()
 > ``` 
 
@@ -85,7 +85,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetConstraint(index : Integer) : CustomConstraintInfo
 > ``` 
 
@@ -97,7 +97,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |constraint|[customconstraintinfo](customconstraintinfo.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveConstraint(constraint : CustomConstraintInfo)
 > ``` 
 

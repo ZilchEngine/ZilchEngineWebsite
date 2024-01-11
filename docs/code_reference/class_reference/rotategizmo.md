@@ -15,7 +15,7 @@
  #  SnapAngle : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapAngle : Real
 
 
@@ -23,7 +23,7 @@
  #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > Snapping.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Snapping : Boolean
 
 
@@ -39,7 +39,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateGizmo()
 > ``` 
 

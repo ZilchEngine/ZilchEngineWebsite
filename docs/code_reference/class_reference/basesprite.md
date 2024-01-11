@@ -18,7 +18,7 @@
  #  GeometryMode : [SpriteGeometryMode](../enum_reference.md#spritegeometrymode)
 
 > How the Sprite should be oriented in 3D space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GeometryMode : SpriteGeometryMode
 
 
@@ -26,7 +26,7 @@
  #  VertexColor : [real4](../nada_base_types/real4.md)
 
 > Color attribute of the generated vertices accessible in the vertex shader.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VertexColor : Real4
 
 

@@ -16,7 +16,7 @@
  #  SaveAudio : [boolean](../nada_base_types/boolean.md)
 
 > When true, audio from input SoundNodes will be saved. Setting this to true will remove any existing saved audio before saving more.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SaveAudio : Boolean
 
 
@@ -30,7 +30,7 @@
 > Removes all currently saved audio.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearSavedAudio()
 > ``` 
 
@@ -41,7 +41,7 @@
 > Plays the saved audio.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlaySavedAudio()
 > ``` 
 
@@ -52,7 +52,7 @@
 > Stops playing the saved audio.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StopPlaying()
 > ``` 
 

@@ -124,7 +124,7 @@
  `read-only`
 
 > Get the GameSession that owns us and our space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GameSession : GameSession
 
 
@@ -134,7 +134,7 @@
  `read-only`
 
 > Get the object named 'LevelSettings', a special object where we can put components for our level.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LevelSettings : Cog
 
 
@@ -144,7 +144,7 @@
  `read-only`
 
 > Get the Cog this Component is owned by (not the parent of this composition).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Owner : Cog
 
 
@@ -154,7 +154,7 @@
  `read-only`
 
 > The Space where the object is located.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Space : Space
 
 
@@ -170,7 +170,7 @@
 > Constructor / Destructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Component()
 > ``` 
 
@@ -181,7 +181,7 @@
 > Base debug draw for a component. Special for the each type of component.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugDraw()
 > ``` 
 

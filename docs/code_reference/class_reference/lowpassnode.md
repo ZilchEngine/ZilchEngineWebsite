@@ -14,7 +14,7 @@
  #  CutoffFrequency : [real](../nada_base_types/real.md)
 
 > Frequencies above this number in the node's input will be attenuated. Setting this value to 20,000.00 or higher will skip all filter calculations.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CutoffFrequency : Real
 
 

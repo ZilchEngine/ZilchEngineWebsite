@@ -17,7 +17,7 @@
  #  Mesh : [mesh](mesh.md)
 
 > Mesh that the graphical will render.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mesh : Mesh
 
 
@@ -25,7 +25,7 @@
  #  SkeletonPath : [cogpath](cogpath.md)
 
 > Path to an object with a Skeleton component that will be used for skinning.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SkeletonPath : CogPath
 
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SkinnedModel()
 > ``` 
 

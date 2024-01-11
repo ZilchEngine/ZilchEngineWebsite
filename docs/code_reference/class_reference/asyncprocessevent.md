@@ -17,7 +17,7 @@
  #  Bytes : [string](../nada_base_types/string.md)
 
 > Bytes being read from a stream. Note: These bytes may not form a valid string if the stream type was non ascii (e.g. utf-8).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Bytes : String
 
 
@@ -25,7 +25,7 @@
  #  StreamType : [StreamType](../enum_reference.md#streamtype)
 
 > The type of stream that sent this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StreamType : StreamType
 
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AsyncProcessEvent()
 > ``` 
 

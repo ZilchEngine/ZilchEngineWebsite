@@ -21,7 +21,7 @@
  #  Bottom : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Bottom : Integer
 
 
@@ -29,7 +29,7 @@
  #  Fill : [SpriteFill](../enum_reference.md#spritefill)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Fill : SpriteFill
 
 
@@ -37,7 +37,7 @@
  #  Left : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Left : Integer
 
 
@@ -45,7 +45,7 @@
  #  Looping : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Looping : Boolean
 
 
@@ -53,7 +53,7 @@
  #  OriginX : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginX : Real
 
 
@@ -61,7 +61,7 @@
  #  OriginY : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginY : Real
 
 
@@ -69,7 +69,7 @@
  #  PixelsPerUnit : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PixelsPerUnit : Real
 
 
@@ -77,7 +77,7 @@
  #  Right : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Right : Integer
 
 
@@ -85,7 +85,7 @@
  #  Sampling : [SpriteSampling](../enum_reference.md#spritesampling)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Sampling : SpriteSampling
 
 
@@ -93,7 +93,7 @@
  #  Top : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Top : Integer
 
 

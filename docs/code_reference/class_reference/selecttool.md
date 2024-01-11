@@ -17,7 +17,7 @@
  #  ArchetypeSelect : [boolean](../nada_base_types/boolean.md)
 
 > Selects the root archetype of the tree, subsequent clicks will select the nearest archetype followed by any direct children following that.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ArchetypeSelect : Boolean
 
 
@@ -25,7 +25,7 @@
  #  Raycaster : [raycaster](raycaster.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Raycaster : Raycaster
 
 
@@ -33,7 +33,7 @@
  #  RootSelect : [boolean](../nada_base_types/boolean.md)
 
 > Selects the root of a hierarchy first, subsequent clicks will select children objects.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RootSelect : Boolean
 
 
@@ -41,7 +41,7 @@
  #  SmartGroupSelect : [boolean](../nada_base_types/boolean.md)
 
 > If a parent of a hierarchy is already selected drag select will only select all the children of the currently selected parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SmartGroupSelect : Boolean
 
 
@@ -57,7 +57,7 @@
 > |---|---|---|
 > |viewport|[viewport](viewport.md)| |
 > |mousePosition|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RayCast(viewport : Viewport, mousePosition : Real2) : Cog
 > ``` 
 
@@ -70,7 +70,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SelectTool()
 > ``` 
 
@@ -87,7 +87,7 @@
 > |toSelect|[cog](cog.md)| |
 > |rootSelect|[boolean](../nada_base_types/boolean.md)| |
 > |archetypeSelect|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmartSelect(selection : MetaSelection, toSelect : Cog, rootSelect : Boolean, archetypeSelect : Boolean) : Cog
 > ``` 
 

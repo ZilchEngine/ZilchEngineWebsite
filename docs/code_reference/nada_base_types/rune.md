@@ -12,7 +12,7 @@
  #  Value : [integer](integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Value : Integer
 
 
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Rune()
 > ``` 
 
@@ -42,7 +42,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Rune(value : Integer)
 > ``` 
 

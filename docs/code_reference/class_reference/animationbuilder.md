@@ -12,7 +12,7 @@
  #  Clips : [animationclips](animationclips.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Clips : AnimationClips
 
 
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnimationBuilder()
 > ``` 
 

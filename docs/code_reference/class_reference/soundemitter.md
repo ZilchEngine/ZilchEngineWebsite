@@ -29,7 +29,7 @@
  #  Attenuator : [soundattenuator](soundattenuator.md)
 
 > If a SoundAttenuator resource other than DefaultNoAttenuation is selected it will be applied to SoundCues without their own SoundAttenuator resource. If a SoundCue has attenuation settings those will always be used. If neither has settings, the sound will not be attenuated.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Attenuator : SoundAttenuator
 
 
@@ -37,7 +37,7 @@
  #  Decibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment, in decibels, applied to all sounds played through this SoundEmitter. A value of 0 does nothing, 6 will double the volume, -6 will halve it. The Decibels property is linked to the Volume property (changing one will change the other).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Decibels : Real
 
 
@@ -45,7 +45,7 @@
  #  Directional : [boolean](../nada_base_types/boolean.md)
 
 > When true, the audio output of the SoundEmitter will be limited by the EmitAngle, so that sound in front of the object will be louder than sound behind it. Within the EmitAngle the sound will be at full volume. The volume interpolates logarithmically until it reaches the RearVolume value directly behind the object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Directional : Boolean
 
 
@@ -53,7 +53,7 @@
  #  EmitAngle : [real](../nada_base_types/real.md)
 
 > The angle of full volume sound for a directional SoundEmitter, from 1 to 360. An angle of 90, for example, will be centered at the object's front, extending 45 degrees to the left and right.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EmitAngle : Real
 
 
@@ -63,7 +63,7 @@
  `read-only`
 
 > DEPRECATED The SoundNodeInput property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InputNode : SoundNode
 
 
@@ -73,7 +73,7 @@
  `read-only`
 
 > This property will be true if there are SoundInstances currently associated with this SoundEmitter, even if they are paused or otherwise not audible.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsPlaying : Boolean
 
 
@@ -83,7 +83,7 @@
  `read-only`
 
 > DEPRECATED The SoundNodeOutput property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OutputNode : SoundNode
 
 
@@ -91,7 +91,7 @@
  #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > Setting this property to true pauses all sounds currently playing through the SoundEmitter. Setting it to false will resume playback.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Paused : Boolean
 
 
@@ -99,7 +99,7 @@
  #  Pitch : [real](../nada_base_types/real.md)
 
 > This property affects both the pitch and speed of all sounds played through this SoundEmitter. A value of 0 will do nothing, 1 will raise the pitch by an octave and speed up the sound, -1 will lower the sound by an octave and slow it down. The Pitch property is linked to the Semitones property (changing one will change the other).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Pitch : Real
 
 
@@ -107,7 +107,7 @@
  #  RearVolume : [real](../nada_base_types/real.md)
 
 > The volume of sound heard directly behind a directional SoundEmitter. It will only reach this value in a small area, since volume is interpolated from the edge of the EmitAngle. To make the volume as quiet as possible behind the object, use a small EmitAngle.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RearVolume : Real
 
 
@@ -115,7 +115,7 @@
  #  Semitones : [real](../nada_base_types/real.md)
 
 > This property, specified in semitones (or half-steps), affects both the pitch and speed of all sounds played through this SoundEmitter.. A value of 0 will do nothing, 12 will raise the pitch by an octave and speed up the sound, -12 will lower the sound by an octave and slow it down. The Semitones property is linked to the Pitch property (changing one will change the other).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Semitones : Real
 
 
@@ -125,7 +125,7 @@
  `read-only`
 
 > The SoundNode to use for attaching other nodes to the input of the SoundEmitter.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SoundNodeInput : SoundNode
 
 
@@ -135,7 +135,7 @@
  `read-only`
 
 > The SoundNode to use for attaching other nodes to the output of the SoundEmitter.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SoundNodeOutput : SoundNode
 
 
@@ -143,7 +143,7 @@
  #  Volume : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to all sounds played through this SoundEmitter. A value of 1 does nothing, 2 will double the volume, 0.5 will halve it. The Volume property is linked to the Decibels property (changing one will change the other).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 
@@ -159,7 +159,7 @@
 > |---|---|---|
 > |decibels|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateDecibels(decibels : Real, interpolationTime : Real)
 > ``` 
 
@@ -172,7 +172,7 @@
 > |---|---|---|
 > |pitch|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolatePitch(pitch : Real, interpolationTime : Real)
 > ``` 
 
@@ -185,7 +185,7 @@
 > |---|---|---|
 > |pitch|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateSemitones(pitch : Real, interpolationTime : Real)
 > ``` 
 
@@ -198,7 +198,7 @@
 > |---|---|---|
 > |volume|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateVolume(volume : Real, interpolationTime : Real)
 > ``` 
 
@@ -210,7 +210,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cue|[soundcue](soundcue.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlayCue(cue : SoundCue) : SoundInstance
 > ``` 
 
@@ -222,7 +222,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cue|[soundcue](soundcue.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlayCuePaused(cue : SoundCue) : SoundInstance
 > ``` 
 
@@ -235,7 +235,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SoundEmitter()
 > ``` 
 

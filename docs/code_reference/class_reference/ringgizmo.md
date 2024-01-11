@@ -23,7 +23,7 @@
  #  BackShade : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BackShade : Boolean
 
 
@@ -31,7 +31,7 @@
  #  DragRadiansPerPixel : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DragRadiansPerPixel : Real
 
 
@@ -39,7 +39,7 @@
  #  GrabArrowColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabArrowColor : Real4
 
 
@@ -47,7 +47,7 @@
  #  GrabArrowHeadSize : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabArrowHeadSize : Real
 
 
@@ -55,7 +55,7 @@
  #  GrabArrowLength : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabArrowLength : Real
 
 
@@ -63,7 +63,7 @@
  #  GrabArrowOnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabArrowOnTop : Boolean
 
 
@@ -71,7 +71,7 @@
  #  GrabArrowViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabArrowViewScaled : Boolean
 
 
@@ -79,7 +79,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 
@@ -87,7 +87,7 @@
  #  SelectRadius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SelectRadius : Real
 
 
@@ -95,7 +95,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -111,7 +111,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RingGizmo()
 > ``` 
 

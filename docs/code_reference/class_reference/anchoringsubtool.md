@@ -13,7 +13,7 @@
  #  AnchoredPointMassColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AnchoredPointMassColor : Real4
 
 
@@ -21,7 +21,7 @@
  #  DrawAnchoredPoints : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawAnchoredPoints : Boolean
 
 

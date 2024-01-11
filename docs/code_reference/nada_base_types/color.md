@@ -30,7 +30,7 @@
 > |r|[integer](integer.md)| |
 > |g|[integer](integer.md)| |
 > |b|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromBytes(r : Integer, g : Integer, b : Integer) : Real4
 > ``` 
 
@@ -47,7 +47,7 @@
 > |g|[integer](integer.md)| |
 > |b|[integer](integer.md)| |
 > |a|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromBytes(r : Integer, g : Integer, b : Integer, a : Integer) : Real4
 > ``` 
 
@@ -61,7 +61,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rgba|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromBytes(rgba : Integer4) : Real4
 > ``` 
 
@@ -75,7 +75,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromHexString(value : String) : Real4
 > ``` 
 
@@ -91,7 +91,7 @@
 > |h|[real](real.md)| |
 > |s|[real](real.md)| |
 > |v|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromHsva(h : Real, s : Real, v : Real) : Real4
 > ``` 
 
@@ -108,7 +108,7 @@
 > |s|[real](real.md)| |
 > |v|[real](real.md)| |
 > |a|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromHsva(h : Real, s : Real, v : Real, a : Real) : Real4
 > ``` 
 
@@ -122,7 +122,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |hsva|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromHsva(hsva : Real4) : Real4
 > ``` 
 
@@ -136,7 +136,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rgba|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromInteger(rgba : Integer) : Real4
 > ``` 
 
@@ -151,7 +151,7 @@
 > |---|---|---|
 > |rgb|[integer](integer.md)| |
 > |a|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromInteger(rgb : Integer, a : Integer) : Real4
 > ``` 
 
@@ -166,7 +166,7 @@
 > |---|---|---|
 > |rgb|[integer](integer.md)| |
 > |a|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FromInteger(rgb : Integer, a : Real) : Real4
 > ``` 
 
@@ -182,7 +182,7 @@
 > |r|[real](real.md)| |
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToBytes(r : Real, g : Real, b : Real) : Integer4
 > ``` 
 
@@ -199,7 +199,7 @@
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
 > |a|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToBytes(r : Real, g : Real, b : Real, a : Real) : Integer4
 > ``` 
 
@@ -213,7 +213,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rgba|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToBytes(rgba : Real4) : Integer4
 > ``` 
 
@@ -229,7 +229,7 @@
 > |r|[real](real.md)| |
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToHexString(r : Real, g : Real, b : Real) : String
 > ``` 
 
@@ -246,7 +246,7 @@
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
 > |a|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToHexString(r : Real, g : Real, b : Real, a : Real) : String
 > ``` 
 
@@ -260,7 +260,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rgba|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToHexString(rgba : Real4) : String
 > ``` 
 
@@ -276,7 +276,7 @@
 > |r|[real](real.md)| |
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToHsva(r : Real, g : Real, b : Real) : Real4
 > ``` 
 
@@ -293,7 +293,7 @@
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
 > |a|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToHsva(r : Real, g : Real, b : Real, a : Real) : Real4
 > ``` 
 
@@ -307,7 +307,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rgba|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToHsva(rgba : Real4) : Real4
 > ``` 
 
@@ -323,7 +323,7 @@
 > |r|[real](real.md)| |
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToInteger(r : Real, g : Real, b : Real) : Integer
 > ``` 
 
@@ -340,7 +340,7 @@
 > |g|[real](real.md)| |
 > |b|[real](real.md)| |
 > |a|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToInteger(r : Real, g : Real, b : Real, a : Real) : Integer
 > ``` 
 
@@ -354,7 +354,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rgba|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToInteger(rgba : Real4) : Integer
 > ``` 
 

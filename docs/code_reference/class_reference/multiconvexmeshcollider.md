@@ -16,7 +16,7 @@
  #  Mesh : [multiconvexmesh](multiconvexmesh.md)
 
 > The MultiConvexMesh resource that defines collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mesh : MultiConvexMesh
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiConvexMeshCollider()
 > ``` 
 

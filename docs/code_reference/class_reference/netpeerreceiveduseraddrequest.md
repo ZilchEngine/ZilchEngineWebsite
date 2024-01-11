@@ -22,7 +22,7 @@
  #  ReturnOurAddResponse : [boolean](../nada_base_types/boolean.md)
 
 > Return: Our add response (accept the add request?).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReturnOurAddResponse : Boolean
 
 
@@ -30,7 +30,7 @@
  #  ReturnOurResponseBundle : [eventbundle](eventbundle.md)
 
 > Return: Our bundled response event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReturnOurResponseBundle : EventBundle
 
 
@@ -38,7 +38,7 @@
  #  ReturnTheirNetUser : [cog](cog.md)
 
 > Return: Their network user object (must have a NetUser component).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReturnTheirNetUser : Cog
 
 
@@ -48,7 +48,7 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirIpAddress : IpAddress
 
 
@@ -58,7 +58,7 @@
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirNetPeerId : Integer
 
 
@@ -68,7 +68,7 @@
  `read-only`
 
 > Their net user ID (released back to the store if not accepted).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirNetUserId : Integer
 
 
@@ -78,7 +78,7 @@
  `read-only`
 
 > Their bundled request event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirRequestBundle : EventBundle
 
 

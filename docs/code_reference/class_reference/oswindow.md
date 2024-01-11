@@ -22,7 +22,7 @@
  #  ClientSize : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ClientSize : Integer2
 
 
@@ -30,7 +30,7 @@
  #  MinSize : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MinSize : Integer2
 
 
@@ -38,7 +38,7 @@
  #  MouseCapture : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseCapture : Boolean
 
 
@@ -46,7 +46,7 @@
  #  MouseCursor : [Cursor](../enum_reference.md#cursor)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseCursor : Cursor
 
 
@@ -54,7 +54,7 @@
  #  MouseTrap : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseTrap : Boolean
 
 
@@ -64,7 +64,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Parent : OsWindow
 
 
@@ -72,7 +72,7 @@
  #  Position : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Integer2
 
 
@@ -80,7 +80,7 @@
  #  Size : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Integer2
 
 
@@ -88,7 +88,7 @@
  #  State : [WindowState](../enum_reference.md#windowstate)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var State : WindowState
 
 
@@ -96,7 +96,7 @@
  #  Title : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Title : String
 
 
@@ -104,7 +104,7 @@
  #  Visible : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Visible : Boolean
 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClientToScreen(p0 : Integer2) : Integer2
 > ``` 
 
@@ -130,7 +130,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HasFocus() : Boolean
 > ``` 
 
@@ -142,7 +142,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ScreenToClient(p0 : Integer2) : Integer2
 > ``` 
 

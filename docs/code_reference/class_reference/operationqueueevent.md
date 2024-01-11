@@ -16,7 +16,7 @@
  #  Operation : [operation](operation.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Operation : Operation
 
 

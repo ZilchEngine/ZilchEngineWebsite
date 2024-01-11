@@ -22,7 +22,7 @@
  #  AddressingX : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AddressingX : TextureAddressing
 
 
@@ -30,7 +30,7 @@
  #  AddressingY : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AddressingY : TextureAddressing
 
 
@@ -38,7 +38,7 @@
  #  Anisotropy : [TextureAnisotropy](../enum_reference.md#textureanisotropy)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Anisotropy : TextureAnisotropy
 
 
@@ -46,7 +46,7 @@
  #  Compression : [TextureCompression](../enum_reference.md#texturecompression)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Compression : TextureCompression
 
 
@@ -54,7 +54,7 @@
  #  Filtering : [TextureFiltering](../enum_reference.md#texturefiltering)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Filtering : TextureFiltering
 
 
@@ -62,7 +62,7 @@
  #  GammaCorrection : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GammaCorrection : Boolean
 
 
@@ -70,7 +70,7 @@
  #  HalfScaleCount : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HalfScaleCount : Integer
 
 
@@ -78,7 +78,7 @@
  #  MipMapping : [TextureMipMapping](../enum_reference.md#texturemipmapping)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MipMapping : TextureMipMapping
 
 
@@ -86,7 +86,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -94,7 +94,7 @@
  #  PremultipliedAlpha : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PremultipliedAlpha : Boolean
 
 
@@ -102,7 +102,7 @@
  #  Type : [TextureType](../enum_reference.md#texturetype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Type : TextureType
 
 
@@ -118,7 +118,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TextureBuilder()
 > ``` 
 

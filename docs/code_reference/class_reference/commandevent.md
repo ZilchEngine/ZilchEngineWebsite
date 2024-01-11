@@ -16,7 +16,7 @@
  `read-only`
 
 > Gives context to where the command was executed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Space : Space
 
 

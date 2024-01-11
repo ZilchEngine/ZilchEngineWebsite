@@ -16,7 +16,7 @@
  #  ViewingObject : [cog](cog.md)
 
 > The viewing CameraViewport for EnterView/ExitView.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewingObject : Cog
 
 

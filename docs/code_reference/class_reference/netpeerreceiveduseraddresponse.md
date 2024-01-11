@@ -23,7 +23,7 @@
  `read-only`
 
 > Our net user ID (set only if accepted).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurNetUserId : Integer
 
 
@@ -33,7 +33,7 @@
  `read-only`
 
 > Our bundled request event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurRequestBundle : EventBundle
 
 
@@ -43,7 +43,7 @@
  `read-only`
 
 > Their add response.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirAddResponse : NetUserAddResponse
 
 
@@ -53,7 +53,7 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirIpAddress : IpAddress
 
 
@@ -63,7 +63,7 @@
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirNetPeerId : Integer
 
 
@@ -73,7 +73,7 @@
  `read-only`
 
 > Their bundled response event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirResponseBundle : EventBundle
 
 

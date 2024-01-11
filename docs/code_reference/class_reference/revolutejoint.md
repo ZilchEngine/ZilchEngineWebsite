@@ -23,7 +23,7 @@
  #  FrameOfReference : [JointFrameOfReference](../enum_reference.md#jointframeofreference)
 
 > Should the default basis of the constraint be object A or B? This determines which object's world axis is used when constructing the basis for the constraint. In the case of a dynamic and static object, the static object is generally the better choice. As a general rule of thumb, it should be the heavier/most important object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameOfReference : JointFrameOfReference
 
 
@@ -31,7 +31,7 @@
  #  LocalBasisA : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object A . This frame is transformed to world space and then aligned with object B s frame . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBasisA : Quaternion
 
 
@@ -39,7 +39,7 @@
  #  LocalBasisB : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object B . This frame is transformed to world space and then aligned with object A s frame . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBasisB : Quaternion
 
 
@@ -47,7 +47,7 @@
  #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object A . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPointA : Real3
 
 
@@ -55,7 +55,7 @@
  #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object B . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPointB : Real3
 
 
@@ -63,7 +63,7 @@
  #  WorldBasis : [quaternion](../nada_base_types/quaternion.md)
 
 > The basis of the joint in world-space. This basis will come object specified by FrameOfReference. The basis is constructed such that the x-axis is the primary axis while the z-axis is the hinge axis.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBasis : Quaternion
 
 
@@ -71,7 +71,7 @@
  #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object A given a position in world space 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPointA : Real3
 
 
@@ -79,7 +79,7 @@
  #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object B given a position in world space 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPointB : Real3
 
 
@@ -95,7 +95,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RevoluteJoint()
 > ``` 
 
@@ -107,7 +107,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rot|[quaternion](../nada_base_types/quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetWorldFrame(rot : Quaternion)
 > ``` 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetWorldPoints(point : Real3)
 > ``` 
 

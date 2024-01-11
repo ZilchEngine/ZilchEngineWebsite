@@ -18,7 +18,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Children : HierarchyListRange
 
 
@@ -34,7 +34,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Hierarchy()
 > ``` 
 

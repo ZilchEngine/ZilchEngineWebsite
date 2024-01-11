@@ -27,7 +27,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -35,7 +35,7 @@
  #  AlwaysDrawInEditor : [boolean](../nada_base_types/boolean.md)
 
 > Always draw the grid in editor (not just when it's selected)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AlwaysDrawInEditor : Boolean
 
 
@@ -43,7 +43,7 @@
  #  Axis : [AxisDirection](../enum_reference.md#axisdirection)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Axis : AxisDirection
 
 
@@ -51,7 +51,7 @@
  #  CellSize : [real](../nada_base_types/real.md)
 
 > The deltas in the grid (how far apart we draw grid lines)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CellSize : Real
 
 
@@ -59,7 +59,7 @@
  #  DrawAxisOrigins : [boolean](../nada_base_types/boolean.md)
 
 > Changes the line color to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawAxisOrigins : Boolean
 
 
@@ -67,7 +67,7 @@
  #  DrawInGame : [boolean](../nada_base_types/boolean.md)
 
 > Draw the grid in the game.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawInGame : Boolean
 
 
@@ -75,7 +75,7 @@
  #  FollowEditorCamera : [boolean](../nada_base_types/boolean.md)
 
 > Move with the editor camera?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FollowEditorCamera : Boolean
 
 
@@ -83,7 +83,7 @@
  #  GridColor : [real4](../nada_base_types/real4.md)
 
 > Color of grid lines.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GridColor : Real4
 
 
@@ -91,7 +91,7 @@
  #  GridHighlight : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GridHighlight : Real4
 
 
@@ -99,7 +99,7 @@
  #  HalfCellOffset : [boolean](../nada_base_types/boolean.md)
 
 > Is the grid offset by half a unit?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HalfCellOffset : Boolean
 
 
@@ -107,7 +107,7 @@
  #  HighlightInterval : [integer](../nada_base_types/integer.md)
 
 > How often should cells be activated.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HighlightInterval : Integer
 
 
@@ -115,7 +115,7 @@
  #  Lines : [integer](../nada_base_types/integer.md)
 
 > The number of lines to draw.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Lines : Integer
 
 
@@ -131,7 +131,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GridDraw()
 > ``` 
 

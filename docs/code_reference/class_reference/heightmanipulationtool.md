@@ -14,7 +14,7 @@
  #  FeatherRadius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeatherRadius : Real
 
 
@@ -22,7 +22,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 

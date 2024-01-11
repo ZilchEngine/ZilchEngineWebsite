@@ -14,7 +14,7 @@
  #  SamplesNeeded : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SamplesNeeded : Integer
 
 

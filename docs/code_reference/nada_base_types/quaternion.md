@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -26,7 +26,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Identity : Quaternion
 
 
@@ -41,7 +41,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(p0 : Integer) : Real
 > ``` 
 
@@ -54,7 +54,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion()
 > ``` 
 
@@ -68,7 +68,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scalar|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(scalar : Real)
 > ``` 
 
@@ -85,7 +85,7 @@
 > |p1|[real](real.md)| |
 > |p2|[real](real.md)| |
 > |p3|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(p0 : Real, p1 : Real, p2 : Real, p3 : Real)
 > ``` 
 
@@ -101,7 +101,7 @@
 > |p0|[real](real.md)| |
 > |p1|[real](real.md)| |
 > |p2|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(p0 : Real, p1 : Real, p2 : Real2)
 > ``` 
 
@@ -117,7 +117,7 @@
 > |p0|[real](real.md)| |
 > |p1|[real2](real2.md)| |
 > |p2|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(p0 : Real, p1 : Real2, p2 : Real)
 > ``` 
 
@@ -132,7 +132,7 @@
 > |---|---|---|
 > |p0|[real](real.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(p0 : Real, p1 : Real3)
 > ``` 
 
@@ -148,7 +148,7 @@
 > |p0|[real2](real2.md)| |
 > |p1|[real](real.md)| |
 > |p2|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(p0 : Real2, p1 : Real, p2 : Real)
 > ``` 
 
@@ -163,7 +163,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(p0 : Real2, p1 : Real2)
 > ``` 
 
@@ -178,7 +178,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion(p0 : Real3, p1 : Real)
 > ``` 
 
@@ -191,7 +191,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(p0 : Integer, p1 : Real)
 > ``` 
 

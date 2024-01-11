@@ -21,7 +21,7 @@
  #  AngularBaumgarte : [real](../nada_base_types/real.md)
 
 > The exponential constant for correcting angular error with a penalty impulse.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AngularBaumgarte : Real
 
 
@@ -29,7 +29,7 @@
  #  AngularErrorCorrection : [real](../nada_base_types/real.md)
 
 > The max amount of error that can be corrected by the angular portion of any constraint in one frame (only for PostStabilization).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AngularErrorCorrection : Real
 
 
@@ -37,7 +37,7 @@
  #  LinearBaumgarte : [real](../nada_base_types/real.md)
 
 > The exponential constant for correcting linear error with a penalty impulse.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LinearBaumgarte : Real
 
 
@@ -45,7 +45,7 @@
  #  LinearErrorCorrection : [real](../nada_base_types/real.md)
 
 > The max amount of error that can be corrected by the linear portion of any constraint in one frame (only for PostStabilization).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LinearErrorCorrection : Real
 
 
@@ -53,7 +53,7 @@
  #  PositionCorrectionType : [ConstraintPositionCorrection](../enum_reference.md#constraintpositioncorrection)
 
 > The kind of position correction that this joint should use.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositionCorrectionType : ConstraintPositionCorrection
 
 
@@ -61,7 +61,7 @@
  #  Slop : [real](../nada_base_types/real.md)
 
 > The amount of error allowed before position correction takes effect.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Slop : Real
 
 
@@ -77,7 +77,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function JointConfigOverride()
 > ``` 
 

@@ -23,7 +23,7 @@
  #  Authority : [Authority](../enum_reference.md#authority)
 
 > Controls which peer has the authority to observe and replicate property changes. (Client: Indicates both the client and server are allowed to observe and replicate property changes) (Server: Indicates only the server is allowed to observe and replicate property changes) Only a single client, specified by NetObject::NetUserOwnerPeerId, may possess client authority at any given time. The server is still responsible for relaying contained property changes to other clients, but will not replicate contained property changes back to the authority client. However, the server is also still responsible for other replication commands (such as object creation/destruction), and these WILL be replicated to the authority client.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Authority : Authority
 
 
@@ -31,7 +31,7 @@
  #  ChangeFlag : [boolean](../nada_base_types/boolean.md)
 
 > Manual change flag (checked upon manual change observation).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChangeFlag : Boolean
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Returns true if the net channel is currently napping (performing change detection on longer intervals), else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNapping : Boolean
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > Returns true if this net channel is scheduled for change observation, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsScheduled : Boolean
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > Elapsed time passed since this net channel was last changed, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastChangeTimePassed : Real
 
 
@@ -71,7 +71,7 @@
  `read-only`
 
 > Timestamp indicating when this net channel was last changed, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastChangeTimestamp : Real
 
 
@@ -81,7 +81,7 @@
  `read-only`
 
 > Net channel name.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -91,7 +91,7 @@
  `read-only`
 
 > Operating net channel type.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetChannelType : NetChannelType
 
 
@@ -107,7 +107,7 @@
 > |---|---|---|
 > |component|[component](component.md)| |
 > |propertyName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetNetProperty(component : Component, propertyName : String) : NetProperty
 > ``` 
 
@@ -120,7 +120,7 @@
 > |---|---|---|
 > |component|[component](component.md)| |
 > |propertyName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HasNetProperty(component : Component, propertyName : String) : Boolean
 > ``` 
 
@@ -131,7 +131,7 @@
 > Replicates net property changes immediately (only if changes are detected). Will also update nap state as configured. Returns true if changes were replicated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReplicateNow() : Boolean
 > ``` 
 
@@ -142,7 +142,7 @@
 > Forces the net channel to start napping immediately.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TakeNap()
 > ``` 
 
@@ -153,7 +153,7 @@
 > Forces the net channel to stop napping immediately.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WakeUp()
 > ``` 
 

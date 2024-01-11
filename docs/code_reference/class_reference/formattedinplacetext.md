@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FormattedInPlaceText()
 > ``` 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[formattedinplacetext](formattedinplacetext.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FormattedInPlaceText(p0 : FormattedInPlaceText)
 > ``` 
 

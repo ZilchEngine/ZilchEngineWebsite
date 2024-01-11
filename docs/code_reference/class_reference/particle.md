@@ -20,7 +20,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -28,7 +28,7 @@
  #  Lifetime : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Lifetime : Real
 
 
@@ -36,7 +36,7 @@
  #  Position : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real3
 
 
@@ -44,7 +44,7 @@
  #  Rotation : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Rotation : Real
 
 
@@ -52,7 +52,7 @@
  #  RotationalVelocity : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RotationalVelocity : Real
 
 
@@ -60,7 +60,7 @@
  #  Size : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Real
 
 
@@ -68,7 +68,7 @@
  #  Time : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Time : Real
 
 
@@ -76,7 +76,7 @@
  #  Velocity : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Velocity : Real3
 
 
@@ -84,7 +84,7 @@
  #  WanderAngle : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WanderAngle : Real
 
 

@@ -14,7 +14,7 @@
  #  GenerateCue : [AudioCueImport](../enum_reference.md#audiocueimport)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GenerateCue : AudioCueImport
 
 
@@ -22,7 +22,7 @@
  #  GroupCueName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GroupCueName : String
 
 
@@ -30,7 +30,7 @@
  #  StreamingMode : [AudioFileLoadType](../enum_reference.md#audiofileloadtype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StreamingMode : AudioFileLoadType
 
 

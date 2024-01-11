@@ -19,7 +19,7 @@
  `read-only`
 
 > The stream where standard error is re-directed to. Null if not re-directed
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StandardError : FileStream
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > The stream where standard input is re-directed to. Null if not re-directed
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StandardInput : FileStream
 
 
@@ -39,7 +39,7 @@
  `read-only`
 
 > The stream where standard output is re-directed to. Null if not re-directed
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StandardOutput : FileStream
 
 
@@ -53,7 +53,7 @@
 > Closes the wrapper around the process, does not close the process launched.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Close()
 > ``` 
 
@@ -64,7 +64,7 @@
 > Returns true if the process is still running, false otherwise.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsRunning() : Boolean
 > ``` 
 
@@ -77,7 +77,7 @@
 > Process class used for managing external processes and redirecting their stdio. Used to launch and monitor various external programs.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProcessClass()
 > ``` 
 
@@ -89,7 +89,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |startInfo|[processstartinfo](processstartinfo.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Start(startInfo : ProcessStartInfo)
 > ``` 
 
@@ -100,7 +100,7 @@
 > Attempts to manually shut down the process. This is not safe for the other process or what it's handling.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Terminate()
 > ``` 
 
@@ -111,7 +111,7 @@
 > Waits for a process to close, this will block until the process closes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WaitForClose() : Integer
 > ``` 
 

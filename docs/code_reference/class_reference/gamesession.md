@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllSpaces : SpaceMapValueRange
 
 
@@ -35,7 +35,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Focused : Boolean
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FullScreen : Boolean
 
 
@@ -53,7 +53,7 @@
  #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > Controls if the game session is paused which prevents updates to all spaces owned by this game.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Paused : Boolean
 
 
@@ -63,7 +63,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Resolution : Real2
 
 
@@ -79,7 +79,7 @@
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
 > |archetype|[archetype](archetype.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateNamedSpace(name : String, archetype : Archetype) : Space
 > ``` 
 
@@ -91,7 +91,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |archetype|[archetype](archetype.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateSpace(archetype : Archetype) : Space
 > ``` 
 
@@ -103,7 +103,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindAllSpacesByName(name : String) : SpaceMapValueRange
 > ``` 
 
@@ -115,7 +115,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindSpaceByName(name : String) : Space
 > ``` 
 
@@ -128,7 +128,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GameSession()
 > ``` 
 
@@ -139,7 +139,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsEditorMode() : Boolean
 > ``` 
 
@@ -150,7 +150,7 @@
 > Pauses the game session which prevents updates to all spaces owned by this game.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pause()
 > ``` 
 
@@ -161,7 +161,7 @@
 > Quit the game and exit the engine if not in editor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quit()
 > ``` 
 
@@ -172,7 +172,7 @@
 > Request to quit sending out the GameRequestQuit event.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RequestQuit()
 > ``` 
 
@@ -183,7 +183,7 @@
 > Start the game.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Start()
 > ``` 
 

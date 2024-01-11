@@ -23,7 +23,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frustum()
 > ``` 
 
@@ -37,7 +37,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[frustum](frustum.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frustum(p0 : Frustum)
 > ``` 
 
@@ -49,7 +49,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(p0 : Integer) : Plane
 > ``` 
 
@@ -60,7 +60,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAabb() : Aabb
 > ``` 
 
@@ -73,7 +73,7 @@
 > |---|---|---|
 > |p0|[integer](../nada_base_types/integer.md)| |
 > |p1|[plane](plane.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(p0 : Integer, p1 : Plane)
 > ``` 
 

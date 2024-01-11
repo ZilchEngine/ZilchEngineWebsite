@@ -15,7 +15,7 @@
  #  AudioData : Array[[real](../nada_base_types/real.md)]
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AudioData : Array[Real]
 
 
@@ -23,7 +23,7 @@
  #  Channels : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Channels : Integer
 
 

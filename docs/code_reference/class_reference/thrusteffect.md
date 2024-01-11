@@ -19,7 +19,7 @@
  #  ForceDirection : [real3](../nada_base_types/real3.md)
 
 > The direction that the force should be applied.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ForceDirection : Real3
 
 
@@ -27,7 +27,7 @@
  #  ForceStrength : [real](../nada_base_types/real.md)
 
 > The strength of the force being applied in the force direction.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ForceStrength : Real
 
 
@@ -35,7 +35,7 @@
  #  LocalSpaceDirection : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this force is to be applied in local or world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalSpaceDirection : Boolean
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > The direction that the force should be applied in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldForceDirection : Real3
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ThrustEffect()
 > ``` 
 

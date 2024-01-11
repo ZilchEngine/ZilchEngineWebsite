@@ -14,7 +14,7 @@
  #  GizmoWorldScale : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GizmoWorldScale : Real3
 
 

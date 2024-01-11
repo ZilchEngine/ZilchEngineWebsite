@@ -17,7 +17,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > The radius of the sphere in local space (before transform is applied).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > The radius of the sphere after transform is applied (scale).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRadius : Real
 
 
@@ -43,7 +43,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SphereCollider()
 > ``` 
 

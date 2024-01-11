@@ -21,7 +21,7 @@
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
 > |p1|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchEvent(p0 : String, p1 : Event)
 > ``` 
 
@@ -34,7 +34,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NadaObject()
 > ``` 
 

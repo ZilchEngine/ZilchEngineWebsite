@@ -18,7 +18,7 @@
  #  AnimationActive : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AnimationActive : Boolean
 
 
@@ -26,7 +26,7 @@
  #  AnimationSpeed : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AnimationSpeed : Real
 
 
@@ -40,7 +40,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function All() : MultiSpriteEntryRange
 > ``` 
 
@@ -51,7 +51,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -63,7 +63,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(p0 : Integer2) : MultiSpriteEntry
 > ``` 
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiSprite()
 > ``` 
 
@@ -89,7 +89,7 @@
 > |---|---|---|
 > |p0|[integer2](../nada_base_types/integer2.md)| |
 > |p1|[spritesource](spritesource.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(p0 : Integer2, p1 : SpriteSource)
 > ``` 
 

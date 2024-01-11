@@ -20,7 +20,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not this component is active.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -28,7 +28,7 @@
  #  Detail : [real](../nada_base_types/real.md)
 
 > The amount of detail to use when drawing. For example, the detail on a RevoluteJoint will increase the number of lines used to draw the arc of a circle.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Detail : Real
 
 
@@ -36,7 +36,7 @@
  #  ObjectAPerspective : [boolean](../nada_base_types/boolean.md)
 
 > If we draw the joint's debug info from the perspective of ObjectA. Typically used when ObjectA is marked as a static object and ObjectB has free movement.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectAPerspective : Boolean
 
 
@@ -44,7 +44,7 @@
  #  ObjectBPerspective : [boolean](../nada_base_types/boolean.md)
 
 > If we draw the joint's debug info from the perspective of ObjectB. Typically used when ObjectB is marked as a static object and ObjectA has free movement.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectBPerspective : Boolean
 
 
@@ -52,7 +52,7 @@
  #  Size : [real](../nada_base_types/real.md)
 
 > A size modifier for the debug drawing. 1 is the base size.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Real
 
 
@@ -68,7 +68,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function JointDebugDrawConfig()
 > ``` 
 

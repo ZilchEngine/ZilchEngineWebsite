@@ -15,7 +15,7 @@
  #  Position : [real3](../nada_base_types/real3.md)
 
 > The position of a control point.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real3
 
 
@@ -23,7 +23,7 @@
  #  WorldPosition : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPosition : Real3
 
 
@@ -39,7 +39,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineControlPoint()
 > ``` 
 
@@ -53,7 +53,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |position|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineControlPoint(position : Real3)
 > ``` 
 

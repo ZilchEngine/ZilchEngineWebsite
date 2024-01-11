@@ -19,7 +19,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Component : String
 
 
@@ -27,7 +27,7 @@
  #  NetChannelConfig : [netchannelconfig](netchannelconfig.md)
 
 > Network channel configuration resource.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetChannelConfig : NetChannelConfig
 
 
@@ -35,7 +35,7 @@
  #  NetPropertyConfig : [netpropertyconfig](netpropertyconfig.md)
 
 > Network property configuration resource.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetPropertyConfig : NetPropertyConfig
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Property : String
 
 

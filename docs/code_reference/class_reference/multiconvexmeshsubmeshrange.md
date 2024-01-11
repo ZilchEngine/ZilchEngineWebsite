@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : MultiConvexMeshSubMeshRange
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : SubConvexMesh
 
 
@@ -37,7 +37,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEmpty : Boolean
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotEmpty : Boolean
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveNext()
 > ``` 
 
@@ -74,7 +74,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiConvexMeshSubMeshRange()
 > ``` 
 
@@ -88,7 +88,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[multiconvexmeshsubmeshrange](multiconvexmeshsubmeshrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiConvexMeshSubMeshRange(p0 : MultiConvexMeshSubMeshRange)
 > ``` 
 

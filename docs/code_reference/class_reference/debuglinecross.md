@@ -18,7 +18,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -26,7 +26,7 @@
  #  HalfExtents : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HalfExtents : Real
 
 
@@ -34,7 +34,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -42,7 +42,7 @@
  #  Position : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real3
 
 
@@ -50,7 +50,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -58,7 +58,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -66,7 +66,7 @@
  #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaleOffset : Real3
 
 
@@ -82,7 +82,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLineCross()
 > ``` 
 
@@ -97,7 +97,7 @@
 > |---|---|---|
 > |position|[real3](../nada_base_types/real3.md)| |
 > |halfExtents|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLineCross(position : Real3, halfExtents : Real)
 > ``` 
 

@@ -19,7 +19,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -29,7 +29,7 @@
  `read-only` `static`
 
 > The one vector (a vector containing all ones).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var One : Boolean3
 
 
@@ -39,7 +39,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var XAxis : Boolean3
 
 
@@ -49,7 +49,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var YAxis : Boolean3
 
 
@@ -59,7 +59,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ZAxis : Boolean3
 
 
@@ -69,7 +69,7 @@
  `read-only` `static`
 
 > The zero vector (a vector containing all zeroes).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Zero : Boolean3
 
 
@@ -85,7 +85,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3()
 > ``` 
 
@@ -99,7 +99,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scalar|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3(scalar : Boolean)
 > ``` 
 
@@ -115,7 +115,7 @@
 > |p0|[boolean](boolean.md)| |
 > |p1|[boolean](boolean.md)| |
 > |p2|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3(p0 : Boolean, p1 : Boolean, p2 : Boolean)
 > ``` 
 
@@ -130,7 +130,7 @@
 > |---|---|---|
 > |p0|[boolean](boolean.md)| |
 > |p1|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3(p0 : Boolean, p1 : Boolean2)
 > ``` 
 
@@ -145,7 +145,7 @@
 > |---|---|---|
 > |p0|[boolean2](boolean2.md)| |
 > |p1|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Boolean3(p0 : Boolean2, p1 : Boolean)
 > ``` 
 
@@ -157,7 +157,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(p0 : Integer) : Boolean
 > ``` 
 
@@ -171,7 +171,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxis(p0 : Integer) : Boolean3
 > ``` 
 
@@ -184,7 +184,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(p0 : Integer, p1 : Boolean)
 > ``` 
 

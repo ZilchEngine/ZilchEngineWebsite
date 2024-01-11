@@ -14,7 +14,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CallingState : ExecutableState
 
 
@@ -29,7 +29,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ExecuteStatement(p0 : String) : T
 > ``` 
 

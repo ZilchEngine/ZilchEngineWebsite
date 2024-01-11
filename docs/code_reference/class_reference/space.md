@@ -33,7 +33,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllObjects : SpaceRange
 
 
@@ -43,7 +43,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllRootObjects : HierarchyListRange
 
 
@@ -53,7 +53,7 @@
  `read-only`
 
 > Last level loaded.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CurrentLevel : Level
 
 
@@ -63,7 +63,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEditorMode : Boolean
 
 
@@ -73,7 +73,7 @@
  `read-only`
 
 > Number of objects in the space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectCount : Integer
 
 
@@ -88,7 +88,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |levelName|[level](level.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddObjectsFromLevel(levelName : Level) : Level
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |archetype|[archetype](archetype.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Create(archetype : Archetype) : Cog
 > ``` 
 
@@ -113,7 +113,7 @@
 > |---|---|---|
 > |archetype|[archetype](archetype.md)| |
 > |position|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateAtPosition(archetype : Archetype, position : Real3) : Cog
 > ``` 
 
@@ -127,7 +127,7 @@
 > |archetype|[archetype](archetype.md)| |
 > |objectA|[cog](cog.md)| |
 > |objectB|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateLink(archetype : Archetype, objectA : Cog, objectB : Cog) : Cog
 > ``` 
 
@@ -138,7 +138,7 @@
 > Destroy all objects in space.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DestroyAll()
 > ``` 
 
@@ -149,7 +149,7 @@
 > Destroy all objects created from level.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DestroyAllFromLevel()
 > ``` 
 
@@ -161,7 +161,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindAllObjectsByName(name : String) : CogNameRange
 > ``` 
 
@@ -173,7 +173,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstObjectByName(name : String) : Cog
 > ``` 
 
@@ -185,7 +185,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstRootObjectByName(name : String) : Cog
 > ``` 
 
@@ -197,7 +197,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindLastObjectByName(name : String) : Cog
 > ``` 
 
@@ -209,7 +209,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindLastRootObjectByName(name : String) : Cog
 > ``` 
 
@@ -221,7 +221,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindObjectByName(name : String) : Cog
 > ``` 
 
@@ -232,7 +232,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetModified() : Boolean
 > ``` 
 
@@ -244,7 +244,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |level|[level](level.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LoadLevel(level : Level)
 > ``` 
 
@@ -255,7 +255,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MarkModified()
 > ``` 
 
@@ -266,7 +266,7 @@
 > Clears all modifications on this Cog. Does not clear LocalModificationOverride properties.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MarkNotModified()
 > ``` 
 
@@ -277,7 +277,7 @@
 > Reload the current level.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReloadLevel()
 > ``` 
 
@@ -290,7 +290,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Space()
 > ``` 
 

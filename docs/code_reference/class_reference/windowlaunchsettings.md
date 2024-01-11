@@ -17,7 +17,7 @@
  #  LaunchFullscreen : [boolean](../nada_base_types/boolean.md)
 
 > If a pre-launch popup should be used to determine how application window is sized.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LaunchFullscreen : Boolean
 
 
@@ -25,7 +25,7 @@
  #  WindowedResolution : [integer2](../nada_base_types/integer2.md)
 
 > Resolution of application when launched in windowed mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WindowedResolution : Integer2
 
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WindowLaunchSettings()
 > ``` 
 

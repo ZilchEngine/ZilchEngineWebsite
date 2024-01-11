@@ -22,7 +22,7 @@
  #  AutoCalculateLifetime : [boolean](../nada_base_types/boolean.md)
 
 > If checked, the lifetime on the SplineParticleEmitter will be updated to the time it would take to travel the entire path at the current speed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoCalculateLifetime : Boolean
 
 
@@ -30,7 +30,7 @@
  #  Helix : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Helix : Boolean
 
 
@@ -38,7 +38,7 @@
  #  HelixOffset : [real](../nada_base_types/real.md)
 
 > Offset in radians for where the helix starts.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HelixOffset : Real
 
 
@@ -46,7 +46,7 @@
  #  HelixRadius : [real](../nada_base_types/real.md)
 
 > The radius of the helix.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HelixRadius : Real
 
 
@@ -54,7 +54,7 @@
  #  HelixWaveLength : [real](../nada_base_types/real.md)
 
 > How fast the helix rotates in radians / second.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HelixWaveLength : Real
 
 
@@ -62,7 +62,7 @@
  #  Mode : [SplineAnimatorMode](../enum_reference.md#splineanimatormode)
 
 > The current animate mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mode : SplineAnimatorMode
 
 
@@ -70,7 +70,7 @@
  #  Speed : [real](../nada_base_types/real.md)
 
 > The speed at which the particles move in meters / second.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Speed : Real
 
 
@@ -78,7 +78,7 @@
  #  SpringDampingRatio : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpringDampingRatio : Real
 
 
@@ -86,7 +86,7 @@
  #  SpringFrequencyHz : [real](../nada_base_types/real.md)
 
 > Spring properties.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpringFrequencyHz : Real
 
 
@@ -102,7 +102,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineParticleAnimator()
 > ``` 
 

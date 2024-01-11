@@ -17,7 +17,7 @@
  #  Point : [real3](../nada_base_types/real3.md)
 
 > The point on the curve.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Point : Real3
 
 
@@ -25,7 +25,7 @@
  #  Tangent : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Tangent : Real3
 
 
@@ -33,7 +33,7 @@
  #  WorldPoint : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPoint : Real3
 
 
@@ -41,7 +41,7 @@
  #  WorldTangent : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTangent : Real3
 
 
@@ -57,7 +57,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineSampleData()
 > ``` 
 

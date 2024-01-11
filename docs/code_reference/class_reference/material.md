@@ -20,7 +20,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompositionLabel : Integer
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReferencedByList : RenderGroupList
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RenderGroups : RenderGroupList
 
 
@@ -54,7 +54,7 @@
 > Creates an anonymous copy that can be independently modified, destroyed when all references are gone.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : Material
 > ``` 
 

@@ -12,7 +12,7 @@
  #  CommandName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CommandName : String
 
 
@@ -29,7 +29,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |commandName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContextMenuEntryCommand(commandName : String)
 > ``` 
 

@@ -22,7 +22,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |colorTarget|[rendertarget](rendertarget.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, colorTarget : RenderTarget)
 > ``` 
 

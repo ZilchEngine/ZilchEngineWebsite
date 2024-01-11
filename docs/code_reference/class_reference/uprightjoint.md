@@ -18,7 +18,7 @@
  #  LocalAxisA : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object A . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalAxisA : Real3
 
 
@@ -26,7 +26,7 @@
  #  LocalAxisB : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object B . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalAxisB : Real3
 
 
@@ -34,7 +34,7 @@
  #  WorldAxis : [real3](../nada_base_types/real3.md)
 
 > The axis in world space that is being rotated about . 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldAxis : Real3
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UprightJoint()
 > ``` 
 

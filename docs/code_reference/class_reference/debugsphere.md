@@ -19,7 +19,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -27,7 +27,7 @@
  #  Colored : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Colored : Boolean
 
 
@@ -35,7 +35,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -43,7 +43,7 @@
  #  Position : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real3
 
 
@@ -51,7 +51,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 
@@ -59,7 +59,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -67,7 +67,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -75,7 +75,7 @@
  #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaleOffset : Real3
 
 
@@ -91,7 +91,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugSphere()
 > ``` 
 
@@ -105,7 +105,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |sphere|[debugsphere](debugsphere.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugSphere(sphere : DebugSphere)
 > ``` 
 
@@ -120,7 +120,7 @@
 > |---|---|---|
 > |position|[real3](../nada_base_types/real3.md)| |
 > |radius|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugSphere(position : Real3, radius : Real)
 > ``` 
 

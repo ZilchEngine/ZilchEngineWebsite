@@ -21,7 +21,7 @@
  #  Centered : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Centered : Boolean
 
 
@@ -29,7 +29,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -37,7 +37,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -45,7 +45,7 @@
  #  Position : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real3
 
 
@@ -53,7 +53,7 @@
  #  Rotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Rotation : Quaternion
 
 
@@ -61,7 +61,7 @@
  #  Text : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Text : String
 
 
@@ -69,7 +69,7 @@
  #  TextHeight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextHeight : Real
 
 
@@ -77,7 +77,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -85,7 +85,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -93,7 +93,7 @@
  #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaleOffset : Real3
 
 
@@ -109,7 +109,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugText()
 > ``` 
 
@@ -125,7 +125,7 @@
 > |position|[real3](../nada_base_types/real3.md)| |
 > |textHeight|[real](../nada_base_types/real.md)| |
 > |text|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugText(position : Real3, textHeight : Real, text : String)
 > ``` 
 

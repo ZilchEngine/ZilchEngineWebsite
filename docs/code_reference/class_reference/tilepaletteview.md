@@ -16,7 +16,7 @@
  #  Archetype : [archetype](archetype.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Archetype : Archetype
 
 
@@ -24,7 +24,7 @@
  #  Collision : [physicsmesh](physicsmesh.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Collision : PhysicsMesh
 
 
@@ -32,7 +32,7 @@
  #  Mergeable : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mergeable : Boolean
 
 
@@ -40,7 +40,7 @@
  #  Sprite : [spritesource](spritesource.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Sprite : SpriteSource
 
 
@@ -48,7 +48,7 @@
  #  TilePalette : [tilepalettesource](tilepalettesource.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TilePalette : TilePaletteSource
 
 

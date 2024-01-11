@@ -26,7 +26,7 @@
  #  Bottom : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Bottom : Integer
 
 
@@ -34,7 +34,7 @@
  #  CurrentFrame : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CurrentFrame : Integer
 
 
@@ -42,7 +42,7 @@
  #  FrameRate : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameRate : Real
 
 
@@ -50,7 +50,7 @@
  #  Left : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Left : Integer
 
 
@@ -58,7 +58,7 @@
  #  Looping : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Looping : Boolean
 
 
@@ -66,7 +66,7 @@
  #  Origin : [SpriteOrigin](../enum_reference.md#spriteorigin)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Origin : SpriteOrigin
 
 
@@ -74,7 +74,7 @@
  #  OriginX : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginX : Real
 
 
@@ -82,7 +82,7 @@
  #  OriginY : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginY : Real
 
 
@@ -90,7 +90,7 @@
  #  PixelsPerUnit : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PixelsPerUnit : Real
 
 
@@ -98,7 +98,7 @@
  #  PreviewAnimation : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviewAnimation : Boolean
 
 
@@ -106,7 +106,7 @@
  #  Right : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Right : Integer
 
 
@@ -114,7 +114,7 @@
  #  Sampling : [SpriteSampling](../enum_reference.md#spritesampling)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Sampling : SpriteSampling
 
 
@@ -122,7 +122,7 @@
  #  SpriteFill : [SpriteFill](../enum_reference.md#spritefill)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpriteFill : SpriteFill
 
 
@@ -130,7 +130,7 @@
  #  SpriteName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpriteName : String
 
 
@@ -138,7 +138,7 @@
  #  Top : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Top : Integer
 
 

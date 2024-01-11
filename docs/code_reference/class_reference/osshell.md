@@ -14,7 +14,7 @@
  #  ClipboardText : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ClipboardText : String
 
 
@@ -24,7 +24,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WindowCount : Integer
 
 
@@ -38,7 +38,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DumpMemoryDebuggerStats()
 > ``` 
 
@@ -50,7 +50,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetWindow(p0 : Integer) : OsWindow
 > ``` 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsClipboardText() : Boolean
 > ``` 
 

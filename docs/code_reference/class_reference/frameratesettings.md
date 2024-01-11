@@ -18,7 +18,7 @@
  #  FrameRate : [integer](../nada_base_types/integer.md)
 
 > How many frames per second the engine should be limited at.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameRate : Integer
 
 
@@ -26,7 +26,7 @@
  #  LimitFrameRate : [boolean](../nada_base_types/boolean.md)
 
 > If the engine should limit the frame rate.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LimitFrameRate : Boolean
 
 
@@ -34,7 +34,7 @@
  #  VerticalSync : [boolean](../nada_base_types/boolean.md)
 
 > If the frame rate should sync with the monitor's refresh rate, superseded by LimitFrameRate.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VerticalSync : Boolean
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FrameRateSettings()
 > ``` 
 

@@ -13,7 +13,7 @@
  #  From : [animationnode](animationnode.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var From : AnimationNode
 
 
@@ -21,7 +21,7 @@
  #  To : [animationnode](animationnode.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var To : AnimationNode
 
 

@@ -16,7 +16,7 @@
  #  ReturnHostInfo : [eventbundle](eventbundle.md)
 
 > Return: Our bundled host info event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReturnHostInfo : EventBundle
 
 

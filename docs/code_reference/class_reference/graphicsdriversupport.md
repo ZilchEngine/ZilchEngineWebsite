@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MultiTargetBlend : Boolean
 
 
@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SamplerObjects : Boolean
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextureCompression : Boolean
 
 

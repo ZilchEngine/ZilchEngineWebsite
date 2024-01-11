@@ -16,7 +16,7 @@
  #  Category : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Category : String
 
 
@@ -24,7 +24,7 @@
  #  CategorySortWeight : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CategorySortWeight : Integer
 
 
@@ -32,7 +32,7 @@
  #  Description : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Description : String
 
 
@@ -40,7 +40,7 @@
  #  DisplayName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DisplayName : String
 
 
@@ -48,7 +48,7 @@
  #  SortWeight : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SortWeight : Integer
 
 
@@ -64,7 +64,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResourceTemplate()
 > ``` 
 

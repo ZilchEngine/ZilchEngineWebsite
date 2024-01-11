@@ -19,7 +19,7 @@
  #  LocalTorque : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the torque is applied in local or world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTorque : Boolean
 
 
@@ -27,7 +27,7 @@
  #  TorqueAxis : [real3](../nada_base_types/real3.md)
 
 > The axis that the torque is being applied about.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TorqueAxis : Real3
 
 
@@ -35,7 +35,7 @@
  #  TorqueStrength : [real](../nada_base_types/real.md)
 
 > The strength of the torque being applied.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TorqueStrength : Real
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > The axis of the torque in world space (can be used to manually add torque to a RigidBody).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTorqueAxis : Real3
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TorqueEffect()
 > ``` 
 

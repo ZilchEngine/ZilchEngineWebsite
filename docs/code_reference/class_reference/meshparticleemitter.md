@@ -18,7 +18,7 @@
  #  Mesh : [mesh](mesh.md)
 
 > Mesh used for this Model.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mesh : Mesh
 
 
@@ -26,7 +26,7 @@
  #  MeshEmitMode : [MeshEmitMode](../enum_reference.md#meshemitmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MeshEmitMode : MeshEmitMode
 
 
@@ -34,7 +34,7 @@
  #  NormalExtrude : [real](../nada_base_types/real.md)
 
 > Moved the spawn position along the normal scaled by this amount.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NormalExtrude : Real
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeshParticleEmitter()
 > ``` 
 

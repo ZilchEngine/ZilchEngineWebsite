@@ -15,7 +15,7 @@
  #  Child : [cog](cog.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Child : Cog
 
 
@@ -23,7 +23,7 @@
  #  Parent : [cog](cog.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Parent : Cog
 
 

@@ -14,7 +14,7 @@
  #  ExtraContentLibraries : [contentlibraryreferencearray](contentlibraryreferencearray.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ExtraContentLibraries : ContentLibraryReferenceArray
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SharedContent()
 > ``` 
 

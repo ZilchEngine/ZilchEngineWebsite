@@ -15,7 +15,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Type : DelegateType
 
 
@@ -30,7 +30,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |instance|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateDelegate(instance : T) : T
 > ``` 
 
@@ -43,7 +43,7 @@
 > |---|---|---|
 > |instance|T| |
 > |arguments|Array[any]| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Invoke(instance : T, arguments : Array[any]) : T
 > ``` 
 

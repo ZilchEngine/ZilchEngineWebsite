@@ -20,7 +20,7 @@
  `read-only`
 
 > The position of the mouse cursor relative to the application's top-left corner in pixels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ClientPosition : Real2
 
 
@@ -28,7 +28,7 @@
  #  Cursor : [Cursor](../enum_reference.md#cursor)
 
 > Set the cursor of the mouse.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cursor : Cursor
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > The movement of the mouse in pixels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CursorMovement : Real2
 
 
@@ -46,7 +46,7 @@
  #  RawMovement : [real2](../nada_base_types/real2.md)
 
 > High precision raw movement of the mouse.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RawMovement : Real2
 
 
@@ -54,7 +54,7 @@
  #  Trapped : [boolean](../nada_base_types/boolean.md)
 
 > Trap the mouse preventing it from moving.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Trapped : Boolean
 
 
@@ -69,7 +69,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |button|[MouseButtons](../enum_reference.md#mousebuttons)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsButtonDown(button : MouseButtons) : Boolean
 > ``` 
 
@@ -80,7 +80,7 @@
 > Toggles if the mouse is currently trapped.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToggleTrapped()
 > ``` 
 

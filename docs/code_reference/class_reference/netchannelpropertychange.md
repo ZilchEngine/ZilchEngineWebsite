@@ -24,7 +24,7 @@
  `read-only`
 
 > The changed net channel.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChannelName : String
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > The component which declared the changed net property.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ComponentName : String
 
 
@@ -44,7 +44,7 @@
  `read-only`
 
 > The change direction.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Direction : TransmissionDirection
 
 
@@ -54,7 +54,7 @@
  `read-only`
 
 > The changed net object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Object : Cog
 
 
@@ -64,7 +64,7 @@
  `read-only`
 
 > The changed net property.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PropertyName : String
 
 
@@ -74,7 +74,7 @@
  `read-only`
 
 > The replication phase.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReplicationPhase : ReplicationPhase
 
 
@@ -84,7 +84,7 @@
  `read-only`
 
 > The time this change occurred.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Timestamp : Real
 
 

@@ -21,7 +21,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -31,7 +31,7 @@
  `read-only` `static`
 
 > The smallest (most negative) value that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeMin : Real
 
 
@@ -41,7 +41,7 @@
  `read-only` `static`
 
 > The negative value closest to zero that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeValueClosestToZero : Real
 
 
@@ -51,7 +51,7 @@
  `read-only` `static`
 
 > The one vector (a vector containing all ones).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var One : Real
 
 
@@ -61,7 +61,7 @@
  `read-only` `static`
 
 > The largest (most positive) value that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveMax : Real
 
 
@@ -71,7 +71,7 @@
  `read-only` `static`
 
 > The positive value closest to zero that can be represented by a Real.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveValueClosestToZero : Real
 
 
@@ -81,7 +81,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var XAxis : Real
 
 
@@ -91,7 +91,7 @@
  `read-only` `static`
 
 > The zero vector (a vector containing all zeroes).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Zero : Real
 
 
@@ -106,7 +106,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(p0 : Integer) : Real
 > ``` 
 
@@ -120,7 +120,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxis(p0 : Integer) : Real
 > ``` 
 
@@ -134,7 +134,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Parse(p0 : StringRange) : Real
 > ``` 
 
@@ -147,7 +147,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real()
 > ``` 
 
@@ -161,7 +161,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scalar|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real(scalar : Real)
 > ``` 
 
@@ -175,7 +175,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reinterpret(p0 : Integer) : Real
 > ``` 
 
@@ -188,7 +188,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(p0 : Integer, p1 : Real)
 > ``` 
 

@@ -14,7 +14,7 @@
  #  GizmoArchetype : [archetype](archetype.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GizmoArchetype : Archetype
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GizmoCreator()
 > ``` 
 

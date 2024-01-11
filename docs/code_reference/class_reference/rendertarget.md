@@ -16,7 +16,7 @@
  `read-only`
 
 > Texture that is rendered to. Can be used as shader input to a separate rendering operation.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Texture : Texture
 
 
@@ -30,7 +30,7 @@
 > Allows the managed Texture being referenced by this RenderTarget to be reused by the renderer if the same specifications are requested again. Also deletes this RenderTarget.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Release()
 > ``` 
 

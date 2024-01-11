@@ -15,7 +15,7 @@
  #  BaseHeight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BaseHeight : Real
 
 
@@ -23,7 +23,7 @@
  #  PerlinAmplitude : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PerlinAmplitude : Real
 
 
@@ -31,7 +31,7 @@
  #  PerlinFrequency : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PerlinFrequency : Real
 
 
@@ -39,7 +39,7 @@
  #  UsePerlinNoise : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UsePerlinNoise : Boolean
 
 

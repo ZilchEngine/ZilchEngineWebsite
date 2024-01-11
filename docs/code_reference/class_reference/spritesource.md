@@ -15,7 +15,7 @@
  #  FrameCount : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameCount : Integer
 
 
@@ -29,7 +29,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOrigin() : Real2
 > ``` 
 
@@ -40,7 +40,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetSize() : Real2
 > ``` 
 

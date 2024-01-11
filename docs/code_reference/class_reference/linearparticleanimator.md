@@ -21,7 +21,7 @@
  #  Dampening : [real](../nada_base_types/real.md)
 
 > Velocity dampening.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Dampening : Real
 
 
@@ -29,7 +29,7 @@
  #  Force : [real3](../nada_base_types/real3.md)
 
 > Constance force applied to particles.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Force : Real3
 
 
@@ -37,7 +37,7 @@
  #  Growth : [real](../nada_base_types/real.md)
 
 > Rate of particle size growth.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Growth : Real
 
 
@@ -45,7 +45,7 @@
  #  RandomForce : [real3](../nada_base_types/real3.md)
 
 > Random force applied to particles.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RandomForce : Real3
 
 
@@ -53,7 +53,7 @@
  #  Torque : [real](../nada_base_types/real.md)
 
 > Force that applies spin.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Torque : Real
 
 
@@ -61,7 +61,7 @@
  #  Twist : [real3](../nada_base_types/real3.md)
 
 > Twist applies a twisting/tornado force to the particles.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Twist : Real3
 
 
@@ -77,7 +77,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LinearParticleAnimator()
 > ``` 
 

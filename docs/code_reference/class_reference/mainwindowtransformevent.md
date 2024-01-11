@@ -20,7 +20,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NewScreenPosition : Real2
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NewScreenSize : Real2
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OldScreenPosition : Real2
 
 
@@ -50,7 +50,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OldScreenSize : Real2
 
 
@@ -60,7 +60,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TargetWindow : OsWindow
 
 

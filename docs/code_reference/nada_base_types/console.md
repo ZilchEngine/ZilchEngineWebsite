@@ -27,7 +27,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DumpValue(p0 : T)
 > ``` 
 
@@ -42,7 +42,7 @@
 > |---|---|---|
 > |p0|T| |
 > |p1|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DumpValue(p0 : T, p1 : Integer)
 > ``` 
 
@@ -55,7 +55,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadBoolean() : Boolean
 > ``` 
 
@@ -68,7 +68,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger() : Integer
 > ``` 
 
@@ -81,7 +81,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal() : Real
 > ``` 
 
@@ -94,7 +94,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadString() : String
 > ``` 
 
@@ -108,7 +108,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(p0 : T)
 > ``` 
 
@@ -123,7 +123,7 @@
 > |---|---|---|
 > |p0|T| |
 > |p1|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(p0 : T, p1 : T)
 > ``` 
 
@@ -139,7 +139,7 @@
 > |p0|T| |
 > |p1|T| |
 > |p2|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(p0 : T, p1 : T, p2 : T)
 > ``` 
 
@@ -156,7 +156,7 @@
 > |p1|T| |
 > |p2|T| |
 > |p3|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(p0 : T, p1 : T, p2 : T, p3 : T)
 > ``` 
 
@@ -174,7 +174,7 @@
 > |p2|T| |
 > |p3|T| |
 > |p4|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(p0 : T, p1 : T, p2 : T, p3 : T, p4 : T)
 > ``` 
 
@@ -187,7 +187,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine()
 > ``` 
 
@@ -201,7 +201,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine(p0 : T)
 > ``` 
 
@@ -216,7 +216,7 @@
 > |---|---|---|
 > |p0|T| |
 > |p1|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine(p0 : T, p1 : T)
 > ``` 
 
@@ -232,7 +232,7 @@
 > |p0|T| |
 > |p1|T| |
 > |p2|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine(p0 : T, p1 : T, p2 : T)
 > ``` 
 
@@ -249,7 +249,7 @@
 > |p1|T| |
 > |p2|T| |
 > |p3|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine(p0 : T, p1 : T, p2 : T, p3 : T)
 > ``` 
 
@@ -267,7 +267,7 @@
 > |p2|T| |
 > |p3|T| |
 > |p4|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteLine(p0 : T, p1 : T, p2 : T, p3 : T, p4 : T)
 > ``` 
 

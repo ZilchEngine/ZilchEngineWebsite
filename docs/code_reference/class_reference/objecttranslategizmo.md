@@ -14,7 +14,7 @@
  #  DuplicateOnCtrlDrag : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DuplicateOnCtrlDrag : Boolean
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectTranslateGizmo()
 > ``` 
 

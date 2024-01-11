@@ -20,7 +20,7 @@
  `read-only`
 
 > Our pending user add requests following this connect request (within the same frame).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurPendingUserAddRequestCount : Integer
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > Our bundled request event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurRequestBundle : EventBundle
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirIpAddress : IpAddress
 
 

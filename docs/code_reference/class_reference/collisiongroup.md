@@ -25,7 +25,7 @@
 > Creates a CollisionGroup for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : CollisionGroup
 > ``` 
 
@@ -36,7 +36,7 @@
 > Creates a clone of this CollisionGroup for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : CollisionGroup
 > ``` 
 

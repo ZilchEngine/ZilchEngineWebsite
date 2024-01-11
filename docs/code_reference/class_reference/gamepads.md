@@ -18,7 +18,7 @@
  `read-only`
 
 > Gets the maximum number of supported gamepads.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxGamepadCount : Integer
 
 
@@ -33,7 +33,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |gamepadIndex|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetGamePad(gamepadIndex : Integer) : Gamepad
 > ``` 
 
@@ -44,7 +44,7 @@
 > Pause Vibration on all gamepads.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PauseVibration()
 > ``` 
 
@@ -55,7 +55,7 @@
 > Resume vibration on all gamepads.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResumeVibration()
 > ``` 
 

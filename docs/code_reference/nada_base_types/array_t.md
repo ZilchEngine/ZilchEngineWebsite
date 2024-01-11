@@ -31,7 +31,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : ArrayRange[T]
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Capacity : Integer
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastIndex : Integer
 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : T)
 > ``` 
 
@@ -89,7 +89,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[T]()
 > ``` 
 
@@ -103,7 +103,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[T](size : Integer)
 > ``` 
 
@@ -118,7 +118,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Array[T](size : Integer, defaultValue : T)
 > ``` 
 
@@ -129,7 +129,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -140,7 +140,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Copy() : Array[T]
 > ``` 
 
@@ -152,7 +152,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstIndex(value : T) : Integer
 > ``` 
 
@@ -164,7 +164,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : T
 > ``` 
 
@@ -177,7 +177,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Insert(index : Integer, value : T)
 > ``` 
 
@@ -188,7 +188,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pop() : T
 > ``` 
 
@@ -200,7 +200,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Push(p0 : T)
 > ``` 
 
@@ -213,7 +213,7 @@
 > |---|---|---|
 > |start|[integer](integer.md)| |
 > |count|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[T]
 > ``` 
 
@@ -225,7 +225,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAll(value : T) : Integer
 > ``` 
 
@@ -237,7 +237,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -249,7 +249,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveFirst(value : T) : Boolean
 > ``` 
 
@@ -261,7 +261,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveSwap(index : Integer)
 > ``` 
 
@@ -273,7 +273,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |capacity|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve(capacity : Integer)
 > ``` 
 
@@ -285,7 +285,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |size|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer)
 > ``` 
 
@@ -298,7 +298,7 @@
 > |---|---|---|
 > |size|[integer](integer.md)| |
 > |defaultValue|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Resize(size : Integer, defaultValue : T)
 > ``` 
 
@@ -311,7 +311,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, value : T)
 > ``` 
 
@@ -323,7 +323,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:any,right:any):[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:any,right:any):Boolean)
 > ``` 
 
@@ -335,7 +335,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |compare|delegate(left:any,right:any):[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sort(compare : delegate(left:any,right:any):Integer)
 > ``` 
 

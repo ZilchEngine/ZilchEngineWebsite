@@ -21,7 +21,7 @@
  `read-only`
 
 > Network game session.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GameSession : GameSession
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Is this the end of the object's lifespan?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEndOfLifespan : Boolean
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Network object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Object : Cog
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > Network space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Space : Space
 
 

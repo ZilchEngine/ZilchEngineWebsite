@@ -15,7 +15,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Index : Integer2
 
 
@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpriteSource : SpriteSource
 
 
@@ -42,7 +42,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[multispriteentry](multispriteentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiSpriteEntry(p0 : MultiSpriteEntry)
 > ``` 
 

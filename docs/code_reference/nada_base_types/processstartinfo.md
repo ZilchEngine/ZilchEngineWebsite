@@ -19,7 +19,7 @@
  #  ApplicationName : [string](string.md)
 
 > Name of the application to execute. No quoting of this string is necessary.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ApplicationName : String
 
 
@@ -27,7 +27,7 @@
  #  Arguments : [string](string.md)
 
 > Arguments to pass to the application.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Arguments : String
 
 
@@ -35,7 +35,7 @@
  #  RedirectStandardError : [boolean](boolean.md)
 
 > Whether or not we should redirect the Standard Error of the process for capturing.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RedirectStandardError : Boolean
 
 
@@ -43,7 +43,7 @@
  #  RedirectStandardInput : [boolean](boolean.md)
 
 > Whether or not we should redirect the Standard Input of the process for writing.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RedirectStandardInput : Boolean
 
 
@@ -51,7 +51,7 @@
  #  RedirectStandardOutput : [boolean](boolean.md)
 
 > Whether or not we should redirect the Standard Output of the process for capturing.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RedirectStandardOutput : Boolean
 
 
@@ -59,7 +59,7 @@
  #  SearchPath : [boolean](boolean.md)
 
 > Whether or not we should search the path for the application.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SearchPath : Boolean
 
 
@@ -67,7 +67,7 @@
  #  ShowWindow : [boolean](boolean.md)
 
 > Whether or not the window of the launched application should be shown.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowWindow : Boolean
 
 
@@ -75,7 +75,7 @@
  #  WorkingDirectory : [string](string.md)
 
 > The working directory for the process to start with. No quoting of this string is necessary.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorkingDirectory : String
 
 
@@ -91,7 +91,7 @@
 > Class used to set up parameters before launching a process.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProcessStartInfo()
 > ``` 
 

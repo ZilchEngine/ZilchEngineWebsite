@@ -47,7 +47,7 @@
  `read-only`
 
 > The max integer value that can be returned.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxInt : Integer
 
 
@@ -55,7 +55,7 @@
  #  RandomSeed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RandomSeed : Boolean
 
 
@@ -63,7 +63,7 @@
  #  Seed : [integer](../nada_base_types/integer.md)
 
 > Seeds the random number generator.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Seed : Integer
 
 
@@ -77,7 +77,7 @@
 > Samples a bell curve with standard normal distribution in the range [0,1] This is equivalent to a Gaussian distribution with standard deviation of 1.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BellCurve() : Real
 > ``` 
 
@@ -91,7 +91,7 @@
 > |center|[real](../nada_base_types/real.md)| |
 > |range|[real](../nada_base_types/real.md)| |
 > |standardDeviation|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BellCurveDistribution(center : Real, range : Real, standardDeviation : Real) : Real
 > ``` 
 
@@ -104,7 +104,7 @@
 > |---|---|---|
 > |center|[real](../nada_base_types/real.md)| |
 > |range|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BellCurveRange(center : Real, range : Real) : Real
 > ``` 
 
@@ -115,7 +115,7 @@
 > Returns a random bool value.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Bool() : Boolean
 > ``` 
 
@@ -126,7 +126,7 @@
 > Returns true if the coin flips heads.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CoinFlip() : Boolean
 > ``` 
 
@@ -138,7 +138,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |sides|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DieRoll(sides : Integer) : Integer
 > ``` 
 
@@ -151,7 +151,7 @@
 > |---|---|---|
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DoubleRange( : DoubleReal,  : DoubleReal) : DoubleReal
 > ``` 
 
@@ -162,7 +162,7 @@
 > Returns a random double real in the range [0,1].
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DoubleReal() : DoubleReal
 > ``` 
 
@@ -175,7 +175,7 @@
 > |---|---|---|
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DoubleRealVariance( : DoubleReal,  : DoubleReal) : DoubleReal
 > ``` 
 
@@ -186,7 +186,7 @@
 > Returns a random float in the range [0,1].
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Float() : Real
 > ``` 
 
@@ -199,7 +199,7 @@
 > |---|---|---|
 > |base|[real](../nada_base_types/real.md)| |
 > |variance|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FloatVariance(base : Real, variance : Real) : Real
 > ``` 
 
@@ -210,7 +210,7 @@
 > Returns a random int in the range of [0, MaxInt].
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Int() : Integer
 > ``` 
 
@@ -223,7 +223,7 @@
 > |---|---|---|
 > |base|[integer](../nada_base_types/integer.md)| |
 > |variance|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IntVariance(base : Integer, variance : Integer) : Integer
 > ``` 
 
@@ -235,7 +235,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |probOfTrue|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Probability(probOfTrue : Real) : Boolean
 > ``` 
 
@@ -246,7 +246,7 @@
 > Random unit length quaternion. This is also a unit quaternion.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Quaternion() : Quaternion
 > ``` 
 
@@ -259,7 +259,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RandomContext()
 > ``` 
 
@@ -272,7 +272,7 @@
 > |---|---|---|
 > |min|[real](../nada_base_types/real.md)| |
 > |max|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Range(min : Real, max : Real) : Real
 > ``` 
 
@@ -285,7 +285,7 @@
 > |---|---|---|
 > |min|[integer](../nada_base_types/integer.md)| |
 > |max|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RangeExclusiveMax(min : Integer, max : Integer) : Integer
 > ``` 
 
@@ -298,7 +298,7 @@
 > |---|---|---|
 > |min|[integer](../nada_base_types/integer.md)| |
 > |max|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RangeInclusiveMax(min : Integer, max : Integer) : Integer
 > ``` 
 
@@ -309,7 +309,7 @@
 > Returns a random real in the range [0,1].
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real() : Real
 > ``` 
 
@@ -322,7 +322,7 @@
 > |---|---|---|
 > |minLength|[real](../nada_base_types/real.md)| |
 > |maxLength|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real2(minLength : Real, maxLength : Real) : Real2
 > ``` 
 
@@ -335,7 +335,7 @@
 > |---|---|---|
 > |minLength|[real](../nada_base_types/real.md)| |
 > |maxLength|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real3(minLength : Real, maxLength : Real) : Real3
 > ``` 
 
@@ -348,7 +348,7 @@
 > |---|---|---|
 > |base|[real](../nada_base_types/real.md)| |
 > |variance|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RealVariance(base : Real, variance : Real) : Real
 > ``` 
 
@@ -359,7 +359,7 @@
 > Random rotation quaternion. This is the same as calling Quaternion()
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Rotation() : Quaternion
 > ``` 
 
@@ -370,7 +370,7 @@
 > Generates a unit length Real2.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UnitReal2() : Real2
 > ``` 
 
@@ -381,7 +381,7 @@
 > Generates a unit length Real3.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UnitReal3() : Real3
 > ``` 
 
@@ -392,7 +392,7 @@
 > Generates a unit length Vec2.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UnitVector2() : Real2
 > ``` 
 
@@ -403,7 +403,7 @@
 > Generates a unit length Vec3.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UnitVector3() : Real3
 > ``` 
 
@@ -416,7 +416,7 @@
 > |---|---|---|
 > |minLength|[real](../nada_base_types/real.md)| |
 > |maxLength|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Vector2(minLength : Real, maxLength : Real) : Real2
 > ``` 
 
@@ -429,7 +429,7 @@
 > |---|---|---|
 > |minLength|[real](../nada_base_types/real.md)| |
 > |maxLength|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Vector3(minLength : Real, maxLength : Real) : Real3
 > ``` 
 

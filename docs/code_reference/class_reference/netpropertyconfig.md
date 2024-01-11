@@ -73,7 +73,7 @@
  #  ActiveConvergenceWeight : [real](../nada_base_types/real.md)
 
 > Active convergence weight applied every convergence interval.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ActiveConvergenceWeight : Real
 
 
@@ -81,7 +81,7 @@
  #  BasicNetType : [BasicNetType](../enum_reference.md#basicnettype)
 
 > Target basic property type.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BasicNetType : BasicNetType
 
 
@@ -89,7 +89,7 @@
  #  ConvergenceInterval : [integer](../nada_base_types/integer.md)
 
 > Convergence interval.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConvergenceInterval : Integer
 
 
@@ -97,7 +97,7 @@
  #  DeltaThresholdDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdDoubleInteger : DoubleInteger
 
 
@@ -105,7 +105,7 @@
  #  DeltaThresholdDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdDoubleReal : DoubleReal
 
 
@@ -113,7 +113,7 @@
  #  DeltaThresholdInteger : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdInteger : Integer
 
 
@@ -121,7 +121,7 @@
  #  DeltaThresholdInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdInteger2 : Integer2
 
 
@@ -129,7 +129,7 @@
  #  DeltaThresholdInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdInteger3 : Integer3
 
 
@@ -137,7 +137,7 @@
  #  DeltaThresholdInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdInteger4 : Integer4
 
 
@@ -145,7 +145,7 @@
  #  DeltaThresholdQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdQuaternion : Quaternion
 
 
@@ -153,7 +153,7 @@
  #  DeltaThresholdReal : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdReal : Real
 
 
@@ -161,7 +161,7 @@
  #  DeltaThresholdReal2 : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdReal2 : Real2
 
 
@@ -169,7 +169,7 @@
  #  DeltaThresholdReal3 : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdReal3 : Real3
 
 
@@ -177,7 +177,7 @@
  #  DeltaThresholdReal4 : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DeltaThresholdReal4 : Real4
 
 
@@ -185,7 +185,7 @@
  #  EventOnConvergenceStateChange : [boolean](../nada_base_types/boolean.md)
 
 > Event on convergence state change?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EventOnConvergenceStateChange : Boolean
 
 
@@ -193,7 +193,7 @@
  #  ExtrapolationLimit : [real](../nada_base_types/real.md)
 
 > Extrapolation time limit.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ExtrapolationLimit : Real
 
 
@@ -201,7 +201,7 @@
  #  InterpolationCurve : [CurveType](../enum_reference.md#curvetype)
 
 > Interpolation curve type.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InterpolationCurve : CurveType
 
 
@@ -209,7 +209,7 @@
  #  QuantizationRangeMaxDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxDoubleInteger : DoubleInteger
 
 
@@ -217,7 +217,7 @@
  #  QuantizationRangeMaxDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxDoubleReal : DoubleReal
 
 
@@ -225,7 +225,7 @@
  #  QuantizationRangeMaxInteger : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxInteger : Integer
 
 
@@ -233,7 +233,7 @@
  #  QuantizationRangeMaxInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxInteger2 : Integer2
 
 
@@ -241,7 +241,7 @@
  #  QuantizationRangeMaxInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxInteger3 : Integer3
 
 
@@ -249,7 +249,7 @@
  #  QuantizationRangeMaxInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxInteger4 : Integer4
 
 
@@ -257,7 +257,7 @@
  #  QuantizationRangeMaxQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxQuaternion : Quaternion
 
 
@@ -265,7 +265,7 @@
  #  QuantizationRangeMaxReal : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxReal : Real
 
 
@@ -273,7 +273,7 @@
  #  QuantizationRangeMaxReal2 : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxReal2 : Real2
 
 
@@ -281,7 +281,7 @@
  #  QuantizationRangeMaxReal3 : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxReal3 : Real3
 
 
@@ -289,7 +289,7 @@
  #  QuantizationRangeMaxReal4 : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMaxReal4 : Real4
 
 
@@ -297,7 +297,7 @@
  #  QuantizationRangeMinDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinDoubleInteger : DoubleInteger
 
 
@@ -305,7 +305,7 @@
  #  QuantizationRangeMinDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinDoubleReal : DoubleReal
 
 
@@ -313,7 +313,7 @@
  #  QuantizationRangeMinInteger : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinInteger : Integer
 
 
@@ -321,7 +321,7 @@
  #  QuantizationRangeMinInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinInteger2 : Integer2
 
 
@@ -329,7 +329,7 @@
  #  QuantizationRangeMinInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinInteger3 : Integer3
 
 
@@ -337,7 +337,7 @@
  #  QuantizationRangeMinInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinInteger4 : Integer4
 
 
@@ -345,7 +345,7 @@
  #  QuantizationRangeMinQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinQuaternion : Quaternion
 
 
@@ -353,7 +353,7 @@
  #  QuantizationRangeMinReal : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinReal : Real
 
 
@@ -361,7 +361,7 @@
  #  QuantizationRangeMinReal2 : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinReal2 : Real2
 
 
@@ -369,7 +369,7 @@
  #  QuantizationRangeMinReal3 : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinReal3 : Real3
 
 
@@ -377,7 +377,7 @@
  #  QuantizationRangeMinReal4 : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QuantizationRangeMinReal4 : Real4
 
 
@@ -385,7 +385,7 @@
  #  RestingConvergenceDuration : [real](../nada_base_types/real.md)
 
 > Resting convergence duration handled every convergence interval.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RestingConvergenceDuration : Real
 
 
@@ -393,7 +393,7 @@
  #  SampleTimeOffset : [real](../nada_base_types/real.md)
 
 > Sample time offset from now.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SampleTimeOffset : Real
 
 
@@ -401,7 +401,7 @@
  #  SerializationMode : [SerializationMode](../enum_reference.md#serializationmode)
 
 > Serialization mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SerializationMode : SerializationMode
 
 
@@ -409,7 +409,7 @@
  #  SnapThresholdDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdDoubleInteger : DoubleInteger
 
 
@@ -417,7 +417,7 @@
  #  SnapThresholdDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdDoubleReal : DoubleReal
 
 
@@ -425,7 +425,7 @@
  #  SnapThresholdInteger : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdInteger : Integer
 
 
@@ -433,7 +433,7 @@
  #  SnapThresholdInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdInteger2 : Integer2
 
 
@@ -441,7 +441,7 @@
  #  SnapThresholdInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdInteger3 : Integer3
 
 
@@ -449,7 +449,7 @@
  #  SnapThresholdInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdInteger4 : Integer4
 
 
@@ -457,7 +457,7 @@
  #  SnapThresholdQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdQuaternion : Quaternion
 
 
@@ -465,7 +465,7 @@
  #  SnapThresholdReal : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdReal : Real
 
 
@@ -473,7 +473,7 @@
  #  SnapThresholdReal2 : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdReal2 : Real2
 
 
@@ -481,7 +481,7 @@
  #  SnapThresholdReal3 : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdReal3 : Real3
 
 
@@ -489,7 +489,7 @@
  #  SnapThresholdReal4 : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapThresholdReal4 : Real4
 
 
@@ -497,7 +497,7 @@
  #  UseConvergence : [boolean](../nada_base_types/boolean.md)
 
 > Use convergence?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseConvergence : Boolean
 
 
@@ -505,7 +505,7 @@
  #  UseDeltaThreshold : [boolean](../nada_base_types/boolean.md)
 
 > Use delta threshold?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseDeltaThreshold : Boolean
 
 
@@ -513,7 +513,7 @@
  #  UseHalfFloats : [boolean](../nada_base_types/boolean.md)
 
 > Use half floats?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseHalfFloats : Boolean
 
 
@@ -521,7 +521,7 @@
  #  UseInterpolation : [boolean](../nada_base_types/boolean.md)
 
 > Use interpolation?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseInterpolation : Boolean
 
 
@@ -529,7 +529,7 @@
  #  UseQuantization : [boolean](../nada_base_types/boolean.md)
 
 > Use quantization?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseQuantization : Boolean
 
 

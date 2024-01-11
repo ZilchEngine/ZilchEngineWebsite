@@ -17,7 +17,7 @@
  #  BackgroundColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BackgroundColor : Real4
 
 
@@ -25,7 +25,7 @@
  #  BorderColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BorderColor : Real4
 
 
@@ -33,7 +33,7 @@
  #  Padding : [thickness](thickness.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Padding : Thickness
 
 
@@ -49,7 +49,7 @@
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
 > |p1|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddText(p0 : String, p1 : Real4)
 > ``` 
 
@@ -60,7 +60,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearText()
 > ``` 
 
@@ -72,7 +72,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[ToolTipColorScheme](../enum_reference.md#tooltipcolorscheme)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetColorScheme(p0 : ToolTipColorScheme)
 > ``` 
 
@@ -85,7 +85,7 @@
 > |---|---|---|
 > |p0|[cameraviewport](cameraviewport.md)| |
 > |p1|[rectangle](rectangle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetPlacement(p0 : CameraViewport, p1 : Rectangle)
 > ``` 
 
@@ -100,7 +100,7 @@
 > |p1|[IndicatorSide](../enum_reference.md#indicatorside)| |
 > |p2|[IndicatorSide](../enum_reference.md#indicatorside)| |
 > |p3|[IndicatorSide](../enum_reference.md#indicatorside)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetPriority(p0 : IndicatorSide, p1 : IndicatorSide, p2 : IndicatorSide, p3 : IndicatorSide)
 > ``` 
 
@@ -113,7 +113,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UiLegacyToolTip()
 > ``` 
 
@@ -127,7 +127,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[uilegacytooltip](uilegacytooltip.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UiLegacyToolTip(p0 : UiLegacyToolTip)
 > ``` 
 

@@ -18,7 +18,7 @@
  #  Delay : [real](../nada_base_types/real.md)
 
 > The length of the delay, in seconds.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Delay : Real
 
 
@@ -26,7 +26,7 @@
  #  FeedbackPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The FeedbackValue property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeedbackPercent : Real
 
 
@@ -34,7 +34,7 @@
  #  FeedbackValue : [real](../nada_base_types/real.md)
 
 > The percentage of output (from 0 to 1.0f) which is fed back into the filter as input, creating an echo-like effect.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeedbackValue : Real
 
 
@@ -42,7 +42,7 @@
  #  WetPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The WetValue property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WetPercent : Real
 
 
@@ -50,7 +50,7 @@
  #  WetValue : [real](../nada_base_types/real.md)
 
 > The percentage of the node's output (0 - 1.0) which has the delay filter applied to it.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WetValue : Real
 
 
@@ -66,7 +66,7 @@
 > |---|---|---|
 > |wetPercent|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateWetPercent(wetPercent : Real, time : Real)
 > ``` 
 
@@ -79,7 +79,7 @@
 > |---|---|---|
 > |wetPercent|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateWetValue(wetPercent : Real, time : Real)
 > ``` 
 

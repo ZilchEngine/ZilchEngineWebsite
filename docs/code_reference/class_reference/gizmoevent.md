@@ -20,7 +20,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Finished : Boolean
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gizmo : Cog
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OperationQueue : OperationQueue
 
 
@@ -50,7 +50,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Source : Component
 
 
@@ -60,7 +60,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportMouseEvent : ViewportMouseEvent
 
 

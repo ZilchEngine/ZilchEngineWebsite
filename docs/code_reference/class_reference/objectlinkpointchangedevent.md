@@ -16,7 +16,7 @@
  #  EdgeId : [integer](../nada_base_types/integer.md)
 
 > The index on the edge that is being overridden.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EdgeId : Integer
 
 
@@ -24,7 +24,7 @@
  #  NewLocalPoint : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NewLocalPoint : Real3
 
 
@@ -32,7 +32,7 @@
  #  OldLocalPoint : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OldLocalPoint : Real3
 
 

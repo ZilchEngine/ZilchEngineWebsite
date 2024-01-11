@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : StringRange
 
 
@@ -46,7 +46,7 @@
  `read-only`
 
 > Returns the RuneIterator at the start of this range.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Begin : RuneIterator
 
 
@@ -56,7 +56,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : Rune
 
 
@@ -66,7 +66,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Empty : Boolean
 
 
@@ -76,7 +76,7 @@
  `read-only`
 
 > Returns the RuneIterator at the end (one past the last Rune) of this range.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var End : RuneIterator
 
 
@@ -86,7 +86,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotEmpty : Boolean
 
 
@@ -96,7 +96,7 @@
  `read-only`
 
 > Returns the entire string that this range was constructed from.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginalString : String
 
 
@@ -114,7 +114,7 @@
 > |---|---|---|
 > |left|[stringrange](stringrange.md)| |
 > |right|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Compare(left : StringRange, right : StringRange) : Integer
 > ``` 
 
@@ -126,7 +126,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CompareTo(p0 : StringRange) : Integer
 > ``` 
 
@@ -138,7 +138,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Contains(p0 : StringRange) : Boolean
 > ``` 
 
@@ -150,7 +150,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EndsWith(p0 : StringRange) : Boolean
 > ``` 
 
@@ -162,7 +162,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFirstOf(p0 : StringRange) : StringRange
 > ``` 
 
@@ -174,7 +174,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindLastOf(p0 : StringRange) : StringRange
 > ``` 
 
@@ -187,7 +187,7 @@
 > |---|---|---|
 > |startRange|[stringrange](stringrange.md)| |
 > |endRange|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindRangeExclusive(startRange : StringRange, endRange : StringRange) : StringRange
 > ``` 
 
@@ -200,7 +200,7 @@
 > |---|---|---|
 > |startRange|[stringrange](stringrange.md)| |
 > |endRange|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindRangeInclusive(startRange : StringRange, endRange : StringRange) : StringRange
 > ``` 
 
@@ -211,7 +211,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveNext()
 > ``` 
 
@@ -224,7 +224,7 @@
 > |---|---|---|
 > |oldValue|[stringrange](stringrange.md)| |
 > |newValue|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Replace(oldValue : StringRange, newValue : StringRange) : String
 > ``` 
 
@@ -236,7 +236,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |byteIndex|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuneIteratorFromByteIndex(byteIndex : Integer) : RuneIterator
 > ``` 
 
@@ -248,7 +248,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |runeIndex|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuneIteratorFromRuneIndex(runeIndex : Integer) : RuneIterator
 > ``` 
 
@@ -260,7 +260,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |separator|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Split(separator : StringRange) : StringSplitRange
 > ``` 
 
@@ -272,7 +272,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StartsWith(p0 : StringRange) : Boolean
 > ``` 
 
@@ -285,7 +285,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StringRange()
 > ``` 
 
@@ -298,7 +298,7 @@
 > |---|---|---|
 > |begin|[runeiterator](runeiterator.md)| |
 > |end|[runeiterator](runeiterator.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SubString(begin : RuneIterator, end : RuneIterator) : StringRange
 > ``` 
 
@@ -311,7 +311,7 @@
 > |---|---|---|
 > |startByteIndex|[integer](integer.md)| |
 > |lengthInBytes|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SubStringBytes(startByteIndex : Integer, lengthInBytes : Integer) : StringRange
 > ``` 
 
@@ -322,7 +322,7 @@
 > Returns a copy of the string that has been converted to lowercase.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToLower() : String
 > ``` 
 
@@ -333,7 +333,7 @@
 > Returns a new string of the current range.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToString() : String
 > ``` 
 
@@ -344,7 +344,7 @@
 > Returns a copy of the string that has been converted to uppercase.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToUpper() : String
 > ``` 
 
@@ -355,7 +355,7 @@
 > Trims all leading and trailing whitespace.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Trim() : StringRange
 > ``` 
 
@@ -366,7 +366,7 @@
 > Trims all trailing whitespace.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TrimEnd() : StringRange
 > ``` 
 
@@ -377,7 +377,7 @@
 > Trims all leading whitespace.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TrimStart() : StringRange
 > ``` 
 

@@ -16,7 +16,7 @@
  #  StoredType : [boundtype](../nada_base_types/boundtype.md)
 
 > An Archetype can be a Cog, Space, or GameSession. It's okay for this to be a raw BoundType* because native types will never be destructed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StoredType : BoundType
 
 

@@ -18,7 +18,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -26,7 +26,7 @@
  #  Resource : Resource
 
 > The resource value of this entry. Returns null if the underlying type is not a resource. Changes this entry's type to the given resource's type on Set.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Resource : Resource
 
 
@@ -34,7 +34,7 @@
  #  ResourceType : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ResourceType : String
 
 
@@ -42,7 +42,7 @@
  #  Value : [string](../nada_base_types/string.md)
 
 > The string value of this entry. Changes this entry's type to String on Set.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Value : String
 
 
@@ -50,7 +50,7 @@
  #  Weight : [real](../nada_base_types/real.md)
 
 > The weight value used to determine how likely this item is to be sampled. Note: Weights must be positive. Negative weights will be clamped to 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Weight : Real
 
 
@@ -64,7 +64,7 @@
 > Creates a new entry with the same values.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clone() : ResourceTableEntry
 > ``` 
 
@@ -77,7 +77,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResourceTableEntry()
 > ``` 
 
@@ -91,7 +91,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResourceTableEntry( : ResourceTableEntry)
 > ``` 
 

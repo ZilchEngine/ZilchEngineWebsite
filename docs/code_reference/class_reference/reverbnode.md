@@ -16,7 +16,7 @@
  #  Length : [real](../nada_base_types/real.md)
 
 > The length of the reverb tail, in seconds. The default value is 0.1.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Length : Real
 
 
@@ -24,7 +24,7 @@
  #  WetPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The WetValue property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WetPercent : Real
 
 
@@ -32,7 +32,7 @@
  #  WetValue : [real](../nada_base_types/real.md)
 
 > The percentage of the node's output (0 - 1.0) which has the reverb filter applied to it. Setting this property to 0 will stop all reverb calculations.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WetValue : Real
 
 
@@ -48,7 +48,7 @@
 > |---|---|---|
 > |percent|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateWetPercent(percent : Real, time : Real)
 > ``` 
 
@@ -61,7 +61,7 @@
 > |---|---|---|
 > |value|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateWetValue(value : Real, time : Real)
 > ``` 
 

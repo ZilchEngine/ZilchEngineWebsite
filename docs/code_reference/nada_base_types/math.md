@@ -95,7 +95,7 @@
  `read-only` `static`
 
 > Euler's number.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var E : Real
 
 
@@ -105,7 +105,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Pi : Real
 
 
@@ -122,7 +122,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer) : Integer
 > ``` 
 
@@ -136,7 +136,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer2) : Integer2
 > ``` 
 
@@ -150,7 +150,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer2x2) : Integer2x2
 > ``` 
 
@@ -164,7 +164,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer2x3) : Integer2x3
 > ``` 
 
@@ -178,7 +178,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer2x4) : Integer2x4
 > ``` 
 
@@ -192,7 +192,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer3) : Integer3
 > ``` 
 
@@ -206,7 +206,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer3x2) : Integer3x2
 > ``` 
 
@@ -220,7 +220,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer3x3) : Integer3x3
 > ``` 
 
@@ -234,7 +234,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer3x4) : Integer3x4
 > ``` 
 
@@ -248,7 +248,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer4) : Integer4
 > ``` 
 
@@ -262,7 +262,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer4x2) : Integer4x2
 > ``` 
 
@@ -276,7 +276,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer4x3) : Integer4x3
 > ``` 
 
@@ -290,7 +290,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Integer4x4) : Integer4x4
 > ``` 
 
@@ -304,7 +304,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real) : Real
 > ``` 
 
@@ -318,7 +318,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real2) : Real2
 > ``` 
 
@@ -332,7 +332,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -346,7 +346,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -360,7 +360,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -374,7 +374,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real3) : Real3
 > ``` 
 
@@ -388,7 +388,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -402,7 +402,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -416,7 +416,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -430,7 +430,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real4) : Real4
 > ``` 
 
@@ -444,7 +444,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -458,7 +458,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -472,7 +472,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Abs(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -486,7 +486,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real) : Real
 > ``` 
 
@@ -500,7 +500,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real2) : Real2
 > ``` 
 
@@ -514,7 +514,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real2x2) : Real2x2
 > ``` 
 
@@ -528,7 +528,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real2x3) : Real2x3
 > ``` 
 
@@ -542,7 +542,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real2x4) : Real2x4
 > ``` 
 
@@ -556,7 +556,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real3) : Real3
 > ``` 
 
@@ -570,7 +570,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real3x2) : Real3x2
 > ``` 
 
@@ -584,7 +584,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real3x3) : Real3x3
 > ``` 
 
@@ -598,7 +598,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real3x4) : Real3x4
 > ``` 
 
@@ -612,7 +612,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real4) : Real4
 > ``` 
 
@@ -626,7 +626,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real4x2) : Real4x2
 > ``` 
 
@@ -640,7 +640,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real4x3) : Real4x3
 > ``` 
 
@@ -654,7 +654,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ACos(units : Real4x4) : Real4x4
 > ``` 
 
@@ -668,7 +668,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean) : Boolean
 > ``` 
 
@@ -682,7 +682,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean2) : Boolean
 > ``` 
 
@@ -696,7 +696,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x2](boolean2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean2x2) : Boolean
 > ``` 
 
@@ -710,7 +710,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x3](boolean2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean2x3) : Boolean
 > ``` 
 
@@ -724,7 +724,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x4](boolean2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean2x4) : Boolean
 > ``` 
 
@@ -738,7 +738,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean3) : Boolean
 > ``` 
 
@@ -752,7 +752,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x2](boolean3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean3x2) : Boolean
 > ``` 
 
@@ -766,7 +766,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x3](boolean3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean3x3) : Boolean
 > ``` 
 
@@ -780,7 +780,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x4](boolean3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean3x4) : Boolean
 > ``` 
 
@@ -794,7 +794,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean4) : Boolean
 > ``` 
 
@@ -808,7 +808,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x2](boolean4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean4x2) : Boolean
 > ``` 
 
@@ -822,7 +822,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x3](boolean4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean4x3) : Boolean
 > ``` 
 
@@ -836,7 +836,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x4](boolean4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Boolean4x4) : Boolean
 > ``` 
 
@@ -850,7 +850,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer) : Boolean
 > ``` 
 
@@ -864,7 +864,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer2) : Boolean
 > ``` 
 
@@ -878,7 +878,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer2x2) : Boolean
 > ``` 
 
@@ -892,7 +892,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer2x3) : Boolean
 > ``` 
 
@@ -906,7 +906,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer2x4) : Boolean
 > ``` 
 
@@ -920,7 +920,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer3) : Boolean
 > ``` 
 
@@ -934,7 +934,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer3x2) : Boolean
 > ``` 
 
@@ -948,7 +948,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer3x3) : Boolean
 > ``` 
 
@@ -962,7 +962,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer3x4) : Boolean
 > ``` 
 
@@ -976,7 +976,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer4) : Boolean
 > ``` 
 
@@ -990,7 +990,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer4x2) : Boolean
 > ``` 
 
@@ -1004,7 +1004,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer4x3) : Boolean
 > ``` 
 
@@ -1018,7 +1018,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Integer4x4) : Boolean
 > ``` 
 
@@ -1032,7 +1032,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real) : Boolean
 > ``` 
 
@@ -1046,7 +1046,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real2) : Boolean
 > ``` 
 
@@ -1060,7 +1060,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real2x2) : Boolean
 > ``` 
 
@@ -1074,7 +1074,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real2x3) : Boolean
 > ``` 
 
@@ -1088,7 +1088,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real2x4) : Boolean
 > ``` 
 
@@ -1102,7 +1102,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real3) : Boolean
 > ``` 
 
@@ -1116,7 +1116,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real3x2) : Boolean
 > ``` 
 
@@ -1130,7 +1130,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real3x3) : Boolean
 > ``` 
 
@@ -1144,7 +1144,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real3x4) : Boolean
 > ``` 
 
@@ -1158,7 +1158,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real4) : Boolean
 > ``` 
 
@@ -1172,7 +1172,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real4x2) : Boolean
 > ``` 
 
@@ -1186,7 +1186,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real4x3) : Boolean
 > ``` 
 
@@ -1200,7 +1200,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AllNonZero(p0 : Real4x4) : Boolean
 > ``` 
 
@@ -1214,7 +1214,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Angle2D(p0 : Real3) : Real
 > ``` 
 
@@ -1229,7 +1229,7 @@
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
 > |p1|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AngleBetween(p0 : Quaternion, p1 : Quaternion) : Real
 > ``` 
 
@@ -1244,7 +1244,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AngleBetween(p0 : Real2, p1 : Real2) : Real
 > ``` 
 
@@ -1259,7 +1259,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AngleBetween(p0 : Real3, p1 : Real3) : Real
 > ``` 
 
@@ -1274,7 +1274,7 @@
 > |---|---|---|
 > |p0|[real4](real4.md)| |
 > |p1|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AngleBetween(p0 : Real4, p1 : Real4) : Real
 > ``` 
 
@@ -1288,7 +1288,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean) : Boolean
 > ``` 
 
@@ -1302,7 +1302,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2](boolean2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean2) : Boolean
 > ``` 
 
@@ -1316,7 +1316,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x2](boolean2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean2x2) : Boolean
 > ``` 
 
@@ -1330,7 +1330,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x3](boolean2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean2x3) : Boolean
 > ``` 
 
@@ -1344,7 +1344,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x4](boolean2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean2x4) : Boolean
 > ``` 
 
@@ -1358,7 +1358,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3](boolean3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean3) : Boolean
 > ``` 
 
@@ -1372,7 +1372,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x2](boolean3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean3x2) : Boolean
 > ``` 
 
@@ -1386,7 +1386,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x3](boolean3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean3x3) : Boolean
 > ``` 
 
@@ -1400,7 +1400,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x4](boolean3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean3x4) : Boolean
 > ``` 
 
@@ -1414,7 +1414,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4](boolean4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean4) : Boolean
 > ``` 
 
@@ -1428,7 +1428,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x2](boolean4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean4x2) : Boolean
 > ``` 
 
@@ -1442,7 +1442,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x3](boolean4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean4x3) : Boolean
 > ``` 
 
@@ -1456,7 +1456,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x4](boolean4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Boolean4x4) : Boolean
 > ``` 
 
@@ -1470,7 +1470,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer) : Boolean
 > ``` 
 
@@ -1484,7 +1484,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer2) : Boolean
 > ``` 
 
@@ -1498,7 +1498,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer2x2) : Boolean
 > ``` 
 
@@ -1512,7 +1512,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer2x3) : Boolean
 > ``` 
 
@@ -1526,7 +1526,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer2x4) : Boolean
 > ``` 
 
@@ -1540,7 +1540,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer3) : Boolean
 > ``` 
 
@@ -1554,7 +1554,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer3x2) : Boolean
 > ``` 
 
@@ -1568,7 +1568,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer3x3) : Boolean
 > ``` 
 
@@ -1582,7 +1582,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer3x4) : Boolean
 > ``` 
 
@@ -1596,7 +1596,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer4) : Boolean
 > ``` 
 
@@ -1610,7 +1610,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer4x2) : Boolean
 > ``` 
 
@@ -1624,7 +1624,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer4x3) : Boolean
 > ``` 
 
@@ -1638,7 +1638,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Integer4x4) : Boolean
 > ``` 
 
@@ -1652,7 +1652,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real) : Boolean
 > ``` 
 
@@ -1666,7 +1666,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real2) : Boolean
 > ``` 
 
@@ -1680,7 +1680,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real2x2) : Boolean
 > ``` 
 
@@ -1694,7 +1694,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real2x3) : Boolean
 > ``` 
 
@@ -1708,7 +1708,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real2x4) : Boolean
 > ``` 
 
@@ -1722,7 +1722,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real3) : Boolean
 > ``` 
 
@@ -1736,7 +1736,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real3x2) : Boolean
 > ``` 
 
@@ -1750,7 +1750,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real3x3) : Boolean
 > ``` 
 
@@ -1764,7 +1764,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real3x4) : Boolean
 > ``` 
 
@@ -1778,7 +1778,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real4) : Boolean
 > ``` 
 
@@ -1792,7 +1792,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real4x2) : Boolean
 > ``` 
 
@@ -1806,7 +1806,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real4x3) : Boolean
 > ``` 
 
@@ -1820,7 +1820,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnyNonZero(p0 : Real4x4) : Boolean
 > ``` 
 
@@ -1836,7 +1836,7 @@
 > |p0|[real](real.md)| |
 > |p1|[real](real.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real, p1 : Real, epsilon : Real) : Boolean
 > ``` 
 
@@ -1852,7 +1852,7 @@
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real2, p1 : Real2, epsilon : Real) : Boolean2
 > ``` 
 
@@ -1868,7 +1868,7 @@
 > |p0|[real2x2](real2x2.md)| |
 > |p1|[real2x2](real2x2.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real2x2, p1 : Real2x2, epsilon : Real) : Boolean2x2
 > ``` 
 
@@ -1884,7 +1884,7 @@
 > |p0|[real2x3](real2x3.md)| |
 > |p1|[real2x3](real2x3.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real2x3, p1 : Real2x3, epsilon : Real) : Boolean2x3
 > ``` 
 
@@ -1900,7 +1900,7 @@
 > |p0|[real2x4](real2x4.md)| |
 > |p1|[real2x4](real2x4.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real2x4, p1 : Real2x4, epsilon : Real) : Boolean2x4
 > ``` 
 
@@ -1916,7 +1916,7 @@
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real3, p1 : Real3, epsilon : Real) : Boolean3
 > ``` 
 
@@ -1932,7 +1932,7 @@
 > |p0|[real3x2](real3x2.md)| |
 > |p1|[real3x2](real3x2.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real3x2, p1 : Real3x2, epsilon : Real) : Boolean3x2
 > ``` 
 
@@ -1948,7 +1948,7 @@
 > |p0|[real3x3](real3x3.md)| |
 > |p1|[real3x3](real3x3.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real3x3, p1 : Real3x3, epsilon : Real) : Boolean3x3
 > ``` 
 
@@ -1964,7 +1964,7 @@
 > |p0|[real3x4](real3x4.md)| |
 > |p1|[real3x4](real3x4.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real3x4, p1 : Real3x4, epsilon : Real) : Boolean3x4
 > ``` 
 
@@ -1980,7 +1980,7 @@
 > |p0|[real4](real4.md)| |
 > |p1|[real4](real4.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real4, p1 : Real4, epsilon : Real) : Boolean4
 > ``` 
 
@@ -1996,7 +1996,7 @@
 > |p0|[real4x2](real4x2.md)| |
 > |p1|[real4x2](real4x2.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real4x2, p1 : Real4x2, epsilon : Real) : Boolean4x2
 > ``` 
 
@@ -2012,7 +2012,7 @@
 > |p0|[real4x3](real4x3.md)| |
 > |p1|[real4x3](real4x3.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real4x3, p1 : Real4x3, epsilon : Real) : Boolean4x3
 > ``` 
 
@@ -2028,7 +2028,7 @@
 > |p0|[real4x4](real4x4.md)| |
 > |p1|[real4x4](real4x4.md)| |
 > |epsilon|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApproximatelyEqual(p0 : Real4x4, p1 : Real4x4, epsilon : Real) : Boolean4x4
 > ``` 
 
@@ -2042,7 +2042,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real) : Real
 > ``` 
 
@@ -2056,7 +2056,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real2) : Real2
 > ``` 
 
@@ -2070,7 +2070,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real2x2) : Real2x2
 > ``` 
 
@@ -2084,7 +2084,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real2x3) : Real2x3
 > ``` 
 
@@ -2098,7 +2098,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real2x4) : Real2x4
 > ``` 
 
@@ -2112,7 +2112,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real3) : Real3
 > ``` 
 
@@ -2126,7 +2126,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real3x2) : Real3x2
 > ``` 
 
@@ -2140,7 +2140,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real3x3) : Real3x3
 > ``` 
 
@@ -2154,7 +2154,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real3x4) : Real3x4
 > ``` 
 
@@ -2168,7 +2168,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real4) : Real4
 > ``` 
 
@@ -2182,7 +2182,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real4x2) : Real4x2
 > ``` 
 
@@ -2196,7 +2196,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real4x3) : Real4x3
 > ``` 
 
@@ -2210,7 +2210,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ASin(units : Real4x4) : Real4x4
 > ``` 
 
@@ -2224,7 +2224,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real) : Real
 > ``` 
 
@@ -2238,7 +2238,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real2) : Real2
 > ``` 
 
@@ -2252,7 +2252,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real2x2) : Real2x2
 > ``` 
 
@@ -2266,7 +2266,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real2x3) : Real2x3
 > ``` 
 
@@ -2280,7 +2280,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real2x4) : Real2x4
 > ``` 
 
@@ -2294,7 +2294,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real3) : Real3
 > ``` 
 
@@ -2308,7 +2308,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real3x2) : Real3x2
 > ``` 
 
@@ -2322,7 +2322,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real3x3) : Real3x3
 > ``` 
 
@@ -2336,7 +2336,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real3x4) : Real3x4
 > ``` 
 
@@ -2350,7 +2350,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real4) : Real4
 > ``` 
 
@@ -2364,7 +2364,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real4x2) : Real4x2
 > ``` 
 
@@ -2378,7 +2378,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real4x3) : Real4x3
 > ``` 
 
@@ -2392,7 +2392,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |units|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan(units : Real4x4) : Real4x4
 > ``` 
 
@@ -2407,7 +2407,7 @@
 > |---|---|---|
 > |y|[real](real.md)| |
 > |x|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real, x : Real) : Real
 > ``` 
 
@@ -2422,7 +2422,7 @@
 > |---|---|---|
 > |y|[real2](real2.md)| |
 > |x|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real2, x : Real2) : Real2
 > ``` 
 
@@ -2437,7 +2437,7 @@
 > |---|---|---|
 > |y|[real2x2](real2x2.md)| |
 > |x|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real2x2, x : Real2x2) : Real2x2
 > ``` 
 
@@ -2452,7 +2452,7 @@
 > |---|---|---|
 > |y|[real2x3](real2x3.md)| |
 > |x|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real2x3, x : Real2x3) : Real2x3
 > ``` 
 
@@ -2467,7 +2467,7 @@
 > |---|---|---|
 > |y|[real2x4](real2x4.md)| |
 > |x|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real2x4, x : Real2x4) : Real2x4
 > ``` 
 
@@ -2482,7 +2482,7 @@
 > |---|---|---|
 > |y|[real3](real3.md)| |
 > |x|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real3, x : Real3) : Real3
 > ``` 
 
@@ -2497,7 +2497,7 @@
 > |---|---|---|
 > |y|[real3x2](real3x2.md)| |
 > |x|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real3x2, x : Real3x2) : Real3x2
 > ``` 
 
@@ -2512,7 +2512,7 @@
 > |---|---|---|
 > |y|[real3x3](real3x3.md)| |
 > |x|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real3x3, x : Real3x3) : Real3x3
 > ``` 
 
@@ -2527,7 +2527,7 @@
 > |---|---|---|
 > |y|[real3x4](real3x4.md)| |
 > |x|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real3x4, x : Real3x4) : Real3x4
 > ``` 
 
@@ -2542,7 +2542,7 @@
 > |---|---|---|
 > |y|[real4](real4.md)| |
 > |x|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real4, x : Real4) : Real4
 > ``` 
 
@@ -2557,7 +2557,7 @@
 > |---|---|---|
 > |y|[real4x2](real4x2.md)| |
 > |x|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real4x2, x : Real4x2) : Real4x2
 > ``` 
 
@@ -2572,7 +2572,7 @@
 > |---|---|---|
 > |y|[real4x3](real4x3.md)| |
 > |x|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real4x3, x : Real4x3) : Real4x3
 > ``` 
 
@@ -2587,7 +2587,7 @@
 > |---|---|---|
 > |y|[real4x4](real4x4.md)| |
 > |x|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ATan2(y : Real4x4, x : Real4x4) : Real4x4
 > ``` 
 
@@ -2602,7 +2602,7 @@
 > |---|---|---|
 > |axis|[real3](real3.md)| |
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AxisAngle(axis : Real3, radians : Real) : Quaternion
 > ``` 
 
@@ -2616,7 +2616,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real) : Real
 > ``` 
 
@@ -2631,7 +2631,7 @@
 > |---|---|---|
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real, places : Integer) : Real
 > ``` 
 
@@ -2647,7 +2647,7 @@
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real, places : Integer, numericalBase : Integer) : Real
 > ``` 
 
@@ -2661,7 +2661,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real2) : Real2
 > ``` 
 
@@ -2676,7 +2676,7 @@
 > |---|---|---|
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2, places : Integer) : Real2
 > ``` 
 
@@ -2692,7 +2692,7 @@
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2, places : Integer, numericalBase : Integer) : Real2
 > ``` 
 
@@ -2706,7 +2706,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -2721,7 +2721,7 @@
 > |---|---|---|
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2x2, places : Integer) : Real2x2
 > ``` 
 
@@ -2737,7 +2737,7 @@
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2x2, places : Integer, numericalBase : Integer) : Real2x2
 > ``` 
 
@@ -2751,7 +2751,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -2766,7 +2766,7 @@
 > |---|---|---|
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2x3, places : Integer) : Real2x3
 > ``` 
 
@@ -2782,7 +2782,7 @@
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2x3, places : Integer, numericalBase : Integer) : Real2x3
 > ``` 
 
@@ -2796,7 +2796,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -2811,7 +2811,7 @@
 > |---|---|---|
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2x4, places : Integer) : Real2x4
 > ``` 
 
@@ -2827,7 +2827,7 @@
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real2x4, places : Integer, numericalBase : Integer) : Real2x4
 > ``` 
 
@@ -2841,7 +2841,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real3) : Real3
 > ``` 
 
@@ -2856,7 +2856,7 @@
 > |---|---|---|
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3, places : Integer) : Real3
 > ``` 
 
@@ -2872,7 +2872,7 @@
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3, places : Integer, numericalBase : Integer) : Real3
 > ``` 
 
@@ -2886,7 +2886,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -2901,7 +2901,7 @@
 > |---|---|---|
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3x2, places : Integer) : Real3x2
 > ``` 
 
@@ -2917,7 +2917,7 @@
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3x2, places : Integer, numericalBase : Integer) : Real3x2
 > ``` 
 
@@ -2931,7 +2931,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -2946,7 +2946,7 @@
 > |---|---|---|
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3x3, places : Integer) : Real3x3
 > ``` 
 
@@ -2962,7 +2962,7 @@
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3x3, places : Integer, numericalBase : Integer) : Real3x3
 > ``` 
 
@@ -2976,7 +2976,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -2991,7 +2991,7 @@
 > |---|---|---|
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3x4, places : Integer) : Real3x4
 > ``` 
 
@@ -3007,7 +3007,7 @@
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real3x4, places : Integer, numericalBase : Integer) : Real3x4
 > ``` 
 
@@ -3021,7 +3021,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real4) : Real4
 > ``` 
 
@@ -3036,7 +3036,7 @@
 > |---|---|---|
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4, places : Integer) : Real4
 > ``` 
 
@@ -3052,7 +3052,7 @@
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4, places : Integer, numericalBase : Integer) : Real4
 > ``` 
 
@@ -3066,7 +3066,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -3081,7 +3081,7 @@
 > |---|---|---|
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4x2, places : Integer) : Real4x2
 > ``` 
 
@@ -3097,7 +3097,7 @@
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4x2, places : Integer, numericalBase : Integer) : Real4x2
 > ``` 
 
@@ -3111,7 +3111,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -3126,7 +3126,7 @@
 > |---|---|---|
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4x3, places : Integer) : Real4x3
 > ``` 
 
@@ -3142,7 +3142,7 @@
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4x3, places : Integer, numericalBase : Integer) : Real4x3
 > ``` 
 
@@ -3156,7 +3156,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -3171,7 +3171,7 @@
 > |---|---|---|
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4x4, places : Integer) : Real4x4
 > ``` 
 
@@ -3187,7 +3187,7 @@
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Ceil(value : Real4x4, places : Integer, numericalBase : Integer) : Real4x4
 > ``` 
 
@@ -3203,7 +3203,7 @@
 > |value|[integer](integer.md)| |
 > |min|[integer](integer.md)| |
 > |max|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer, min : Integer, max : Integer) : Integer
 > ``` 
 
@@ -3219,7 +3219,7 @@
 > |value|[integer2](integer2.md)| |
 > |min|[integer2](integer2.md)| |
 > |max|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer2, min : Integer2, max : Integer2) : Integer2
 > ``` 
 
@@ -3235,7 +3235,7 @@
 > |value|[integer2x2](integer2x2.md)| |
 > |min|[integer2x2](integer2x2.md)| |
 > |max|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer2x2, min : Integer2x2, max : Integer2x2) : Integer2x2
 > ``` 
 
@@ -3251,7 +3251,7 @@
 > |value|[integer2x3](integer2x3.md)| |
 > |min|[integer2x3](integer2x3.md)| |
 > |max|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer2x3, min : Integer2x3, max : Integer2x3) : Integer2x3
 > ``` 
 
@@ -3267,7 +3267,7 @@
 > |value|[integer2x4](integer2x4.md)| |
 > |min|[integer2x4](integer2x4.md)| |
 > |max|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer2x4, min : Integer2x4, max : Integer2x4) : Integer2x4
 > ``` 
 
@@ -3283,7 +3283,7 @@
 > |value|[integer3](integer3.md)| |
 > |min|[integer3](integer3.md)| |
 > |max|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer3, min : Integer3, max : Integer3) : Integer3
 > ``` 
 
@@ -3299,7 +3299,7 @@
 > |value|[integer3x2](integer3x2.md)| |
 > |min|[integer3x2](integer3x2.md)| |
 > |max|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer3x2, min : Integer3x2, max : Integer3x2) : Integer3x2
 > ``` 
 
@@ -3315,7 +3315,7 @@
 > |value|[integer3x3](integer3x3.md)| |
 > |min|[integer3x3](integer3x3.md)| |
 > |max|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer3x3, min : Integer3x3, max : Integer3x3) : Integer3x3
 > ``` 
 
@@ -3331,7 +3331,7 @@
 > |value|[integer3x4](integer3x4.md)| |
 > |min|[integer3x4](integer3x4.md)| |
 > |max|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer3x4, min : Integer3x4, max : Integer3x4) : Integer3x4
 > ``` 
 
@@ -3347,7 +3347,7 @@
 > |value|[integer4](integer4.md)| |
 > |min|[integer4](integer4.md)| |
 > |max|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer4, min : Integer4, max : Integer4) : Integer4
 > ``` 
 
@@ -3363,7 +3363,7 @@
 > |value|[integer4x2](integer4x2.md)| |
 > |min|[integer4x2](integer4x2.md)| |
 > |max|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer4x2, min : Integer4x2, max : Integer4x2) : Integer4x2
 > ``` 
 
@@ -3379,7 +3379,7 @@
 > |value|[integer4x3](integer4x3.md)| |
 > |min|[integer4x3](integer4x3.md)| |
 > |max|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer4x3, min : Integer4x3, max : Integer4x3) : Integer4x3
 > ``` 
 
@@ -3395,7 +3395,7 @@
 > |value|[integer4x4](integer4x4.md)| |
 > |min|[integer4x4](integer4x4.md)| |
 > |max|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Integer4x4, min : Integer4x4, max : Integer4x4) : Integer4x4
 > ``` 
 
@@ -3411,7 +3411,7 @@
 > |value|[real](real.md)| |
 > |min|[real](real.md)| |
 > |max|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real, min : Real, max : Real) : Real
 > ``` 
 
@@ -3427,7 +3427,7 @@
 > |value|[real2](real2.md)| |
 > |min|[real2](real2.md)| |
 > |max|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real2, min : Real2, max : Real2) : Real2
 > ``` 
 
@@ -3443,7 +3443,7 @@
 > |value|[real2x2](real2x2.md)| |
 > |min|[real2x2](real2x2.md)| |
 > |max|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real2x2, min : Real2x2, max : Real2x2) : Real2x2
 > ``` 
 
@@ -3459,7 +3459,7 @@
 > |value|[real2x3](real2x3.md)| |
 > |min|[real2x3](real2x3.md)| |
 > |max|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real2x3, min : Real2x3, max : Real2x3) : Real2x3
 > ``` 
 
@@ -3475,7 +3475,7 @@
 > |value|[real2x4](real2x4.md)| |
 > |min|[real2x4](real2x4.md)| |
 > |max|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real2x4, min : Real2x4, max : Real2x4) : Real2x4
 > ``` 
 
@@ -3491,7 +3491,7 @@
 > |value|[real3](real3.md)| |
 > |min|[real3](real3.md)| |
 > |max|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real3, min : Real3, max : Real3) : Real3
 > ``` 
 
@@ -3507,7 +3507,7 @@
 > |value|[real3x2](real3x2.md)| |
 > |min|[real3x2](real3x2.md)| |
 > |max|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real3x2, min : Real3x2, max : Real3x2) : Real3x2
 > ``` 
 
@@ -3523,7 +3523,7 @@
 > |value|[real3x3](real3x3.md)| |
 > |min|[real3x3](real3x3.md)| |
 > |max|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real3x3, min : Real3x3, max : Real3x3) : Real3x3
 > ``` 
 
@@ -3539,7 +3539,7 @@
 > |value|[real3x4](real3x4.md)| |
 > |min|[real3x4](real3x4.md)| |
 > |max|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real3x4, min : Real3x4, max : Real3x4) : Real3x4
 > ``` 
 
@@ -3555,7 +3555,7 @@
 > |value|[real4](real4.md)| |
 > |min|[real4](real4.md)| |
 > |max|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real4, min : Real4, max : Real4) : Real4
 > ``` 
 
@@ -3571,7 +3571,7 @@
 > |value|[real4x2](real4x2.md)| |
 > |min|[real4x2](real4x2.md)| |
 > |max|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real4x2, min : Real4x2, max : Real4x2) : Real4x2
 > ``` 
 
@@ -3587,7 +3587,7 @@
 > |value|[real4x3](real4x3.md)| |
 > |min|[real4x3](real4x3.md)| |
 > |max|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real4x3, min : Real4x3, max : Real4x3) : Real4x3
 > ``` 
 
@@ -3603,7 +3603,7 @@
 > |value|[real4x4](real4x4.md)| |
 > |min|[real4x4](real4x4.md)| |
 > |max|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clamp(value : Real4x4, min : Real4x4, max : Real4x4) : Real4x4
 > ``` 
 
@@ -3617,7 +3617,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real) : Real
 > ``` 
 
@@ -3631,7 +3631,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real2) : Real2
 > ``` 
 
@@ -3645,7 +3645,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real2x2) : Real2x2
 > ``` 
 
@@ -3659,7 +3659,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real2x3) : Real2x3
 > ``` 
 
@@ -3673,7 +3673,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real2x4) : Real2x4
 > ``` 
 
@@ -3687,7 +3687,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real3) : Real3
 > ``` 
 
@@ -3701,7 +3701,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real3x2) : Real3x2
 > ``` 
 
@@ -3715,7 +3715,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real3x3) : Real3x3
 > ``` 
 
@@ -3729,7 +3729,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real3x4) : Real3x4
 > ``` 
 
@@ -3743,7 +3743,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real4) : Real4
 > ``` 
 
@@ -3757,7 +3757,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real4x2) : Real4x2
 > ``` 
 
@@ -3771,7 +3771,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real4x3) : Real4x3
 > ``` 
 
@@ -3785,7 +3785,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cos(radians : Real4x4) : Real4x4
 > ``` 
 
@@ -3799,7 +3799,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real) : Real
 > ``` 
 
@@ -3813,7 +3813,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real2) : Real2
 > ``` 
 
@@ -3827,7 +3827,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real2x2) : Real2x2
 > ``` 
 
@@ -3841,7 +3841,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real2x3) : Real2x3
 > ``` 
 
@@ -3855,7 +3855,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real2x4) : Real2x4
 > ``` 
 
@@ -3869,7 +3869,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real3) : Real3
 > ``` 
 
@@ -3883,7 +3883,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real3x2) : Real3x2
 > ``` 
 
@@ -3897,7 +3897,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real3x3) : Real3x3
 > ``` 
 
@@ -3911,7 +3911,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real3x4) : Real3x4
 > ``` 
 
@@ -3925,7 +3925,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real4) : Real4
 > ``` 
 
@@ -3939,7 +3939,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real4x2) : Real4x2
 > ``` 
 
@@ -3953,7 +3953,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real4x3) : Real4x3
 > ``` 
 
@@ -3967,7 +3967,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cosh(radians : Real4x4) : Real4x4
 > ``` 
 
@@ -3981,7 +3981,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer) : Integer
 > ``` 
 
@@ -3995,7 +3995,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer2) : Integer2
 > ``` 
 
@@ -4009,7 +4009,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer2x2) : Integer2x2
 > ``` 
 
@@ -4023,7 +4023,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer2x3) : Integer2x3
 > ``` 
 
@@ -4037,7 +4037,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer2x4) : Integer2x4
 > ``` 
 
@@ -4051,7 +4051,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer3) : Integer3
 > ``` 
 
@@ -4065,7 +4065,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer3x2) : Integer3x2
 > ``` 
 
@@ -4079,7 +4079,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer3x3) : Integer3x3
 > ``` 
 
@@ -4093,7 +4093,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer3x4) : Integer3x4
 > ``` 
 
@@ -4107,7 +4107,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer4) : Integer4
 > ``` 
 
@@ -4121,7 +4121,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer4x2) : Integer4x2
 > ``` 
 
@@ -4135,7 +4135,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer4x3) : Integer4x3
 > ``` 
 
@@ -4149,7 +4149,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CountBits(p0 : Integer4x4) : Integer4x4
 > ``` 
 
@@ -4164,7 +4164,7 @@
 > |---|---|---|
 > |p0|[real](real.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cross(p0 : Real, p1 : Real2) : Real2
 > ``` 
 
@@ -4179,7 +4179,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cross(p0 : Real2, p1 : Real) : Real2
 > ``` 
 
@@ -4194,7 +4194,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cross(p0 : Real2, p1 : Real2) : Real
 > ``` 
 
@@ -4209,7 +4209,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cross(p0 : Real3, p1 : Real3) : Real3
 > ``` 
 
@@ -4223,7 +4223,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Determinant(p0 : Real2x2) : Real
 > ``` 
 
@@ -4237,7 +4237,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Determinant(p0 : Real3x3) : Real
 > ``` 
 
@@ -4251,7 +4251,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Determinant(p0 : Real4x4) : Real
 > ``` 
 
@@ -4266,7 +4266,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Distance(p0 : Real2, p1 : Real2) : Real
 > ``` 
 
@@ -4281,7 +4281,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Distance(p0 : Real3, p1 : Real3) : Real
 > ``` 
 
@@ -4296,7 +4296,7 @@
 > |---|---|---|
 > |p0|[real4](real4.md)| |
 > |p1|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Distance(p0 : Real4, p1 : Real4) : Real
 > ``` 
 
@@ -4311,7 +4311,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DistanceSq(p0 : Real2, p1 : Real2) : Real
 > ``` 
 
@@ -4326,7 +4326,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DistanceSq(p0 : Real3, p1 : Real3) : Real
 > ``` 
 
@@ -4341,7 +4341,7 @@
 > |---|---|---|
 > |p0|[real4](real4.md)| |
 > |p1|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DistanceSq(p0 : Real4, p1 : Real4) : Real
 > ``` 
 
@@ -4356,7 +4356,7 @@
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
 > |p1|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Dot(p0 : Quaternion, p1 : Quaternion) : Real
 > ``` 
 
@@ -4371,7 +4371,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Dot(p0 : Real2, p1 : Real2) : Real
 > ``` 
 
@@ -4386,7 +4386,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Dot(p0 : Real3, p1 : Real3) : Real
 > ``` 
 
@@ -4401,7 +4401,7 @@
 > |---|---|---|
 > |p0|[real4](real4.md)| |
 > |p1|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Dot(p0 : Real4, p1 : Real4) : Real
 > ``` 
 
@@ -4415,7 +4415,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |eulerRadians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Euler(eulerRadians : Real3) : Quaternion
 > ``` 
 
@@ -4429,7 +4429,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real) : Real
 > ``` 
 
@@ -4443,7 +4443,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real2) : Real2
 > ``` 
 
@@ -4457,7 +4457,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -4471,7 +4471,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -4485,7 +4485,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -4499,7 +4499,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real3) : Real3
 > ``` 
 
@@ -4513,7 +4513,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -4527,7 +4527,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -4541,7 +4541,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -4555,7 +4555,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real4) : Real4
 > ``` 
 
@@ -4569,7 +4569,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -4583,7 +4583,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -4597,7 +4597,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -4611,7 +4611,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real) : Real
 > ``` 
 
@@ -4625,7 +4625,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real2) : Real2
 > ``` 
 
@@ -4639,7 +4639,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -4653,7 +4653,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -4667,7 +4667,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -4681,7 +4681,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real3) : Real3
 > ``` 
 
@@ -4695,7 +4695,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -4709,7 +4709,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -4723,7 +4723,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -4737,7 +4737,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real4) : Real4
 > ``` 
 
@@ -4751,7 +4751,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -4765,7 +4765,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -4779,7 +4779,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Exp2(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -4793,7 +4793,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real) : Real
 > ``` 
 
@@ -4808,7 +4808,7 @@
 > |---|---|---|
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real, places : Integer) : Real
 > ``` 
 
@@ -4824,7 +4824,7 @@
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real, places : Integer, numericalBase : Integer) : Real
 > ``` 
 
@@ -4838,7 +4838,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real2) : Real2
 > ``` 
 
@@ -4853,7 +4853,7 @@
 > |---|---|---|
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2, places : Integer) : Real2
 > ``` 
 
@@ -4869,7 +4869,7 @@
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2, places : Integer, numericalBase : Integer) : Real2
 > ``` 
 
@@ -4883,7 +4883,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -4898,7 +4898,7 @@
 > |---|---|---|
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2x2, places : Integer) : Real2x2
 > ``` 
 
@@ -4914,7 +4914,7 @@
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2x2, places : Integer, numericalBase : Integer) : Real2x2
 > ``` 
 
@@ -4928,7 +4928,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -4943,7 +4943,7 @@
 > |---|---|---|
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2x3, places : Integer) : Real2x3
 > ``` 
 
@@ -4959,7 +4959,7 @@
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2x3, places : Integer, numericalBase : Integer) : Real2x3
 > ``` 
 
@@ -4973,7 +4973,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -4988,7 +4988,7 @@
 > |---|---|---|
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2x4, places : Integer) : Real2x4
 > ``` 
 
@@ -5004,7 +5004,7 @@
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real2x4, places : Integer, numericalBase : Integer) : Real2x4
 > ``` 
 
@@ -5018,7 +5018,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real3) : Real3
 > ``` 
 
@@ -5033,7 +5033,7 @@
 > |---|---|---|
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3, places : Integer) : Real3
 > ``` 
 
@@ -5049,7 +5049,7 @@
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3, places : Integer, numericalBase : Integer) : Real3
 > ``` 
 
@@ -5063,7 +5063,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -5078,7 +5078,7 @@
 > |---|---|---|
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3x2, places : Integer) : Real3x2
 > ``` 
 
@@ -5094,7 +5094,7 @@
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3x2, places : Integer, numericalBase : Integer) : Real3x2
 > ``` 
 
@@ -5108,7 +5108,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -5123,7 +5123,7 @@
 > |---|---|---|
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3x3, places : Integer) : Real3x3
 > ``` 
 
@@ -5139,7 +5139,7 @@
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3x3, places : Integer, numericalBase : Integer) : Real3x3
 > ``` 
 
@@ -5153,7 +5153,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -5168,7 +5168,7 @@
 > |---|---|---|
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3x4, places : Integer) : Real3x4
 > ``` 
 
@@ -5184,7 +5184,7 @@
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real3x4, places : Integer, numericalBase : Integer) : Real3x4
 > ``` 
 
@@ -5198,7 +5198,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real4) : Real4
 > ``` 
 
@@ -5213,7 +5213,7 @@
 > |---|---|---|
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4, places : Integer) : Real4
 > ``` 
 
@@ -5229,7 +5229,7 @@
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4, places : Integer, numericalBase : Integer) : Real4
 > ``` 
 
@@ -5243,7 +5243,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -5258,7 +5258,7 @@
 > |---|---|---|
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4x2, places : Integer) : Real4x2
 > ``` 
 
@@ -5274,7 +5274,7 @@
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4x2, places : Integer, numericalBase : Integer) : Real4x2
 > ``` 
 
@@ -5288,7 +5288,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -5303,7 +5303,7 @@
 > |---|---|---|
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4x3, places : Integer) : Real4x3
 > ``` 
 
@@ -5319,7 +5319,7 @@
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4x3, places : Integer, numericalBase : Integer) : Real4x3
 > ``` 
 
@@ -5333,7 +5333,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -5348,7 +5348,7 @@
 > |---|---|---|
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4x4, places : Integer) : Real4x4
 > ``` 
 
@@ -5364,7 +5364,7 @@
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Floor(value : Real4x4, places : Integer, numericalBase : Integer) : Real4x4
 > ``` 
 
@@ -5379,7 +5379,7 @@
 > |---|---|---|
 > |numerator|[real](real.md)| |
 > |denominator|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real, denominator : Real) : Real
 > ``` 
 
@@ -5394,7 +5394,7 @@
 > |---|---|---|
 > |numerator|[real2](real2.md)| |
 > |denominator|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real2, denominator : Real2) : Real2
 > ``` 
 
@@ -5409,7 +5409,7 @@
 > |---|---|---|
 > |numerator|[real2x2](real2x2.md)| |
 > |denominator|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real2x2, denominator : Real2x2) : Real2x2
 > ``` 
 
@@ -5424,7 +5424,7 @@
 > |---|---|---|
 > |numerator|[real2x3](real2x3.md)| |
 > |denominator|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real2x3, denominator : Real2x3) : Real2x3
 > ``` 
 
@@ -5439,7 +5439,7 @@
 > |---|---|---|
 > |numerator|[real2x4](real2x4.md)| |
 > |denominator|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real2x4, denominator : Real2x4) : Real2x4
 > ``` 
 
@@ -5454,7 +5454,7 @@
 > |---|---|---|
 > |numerator|[real3](real3.md)| |
 > |denominator|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real3, denominator : Real3) : Real3
 > ``` 
 
@@ -5469,7 +5469,7 @@
 > |---|---|---|
 > |numerator|[real3x2](real3x2.md)| |
 > |denominator|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real3x2, denominator : Real3x2) : Real3x2
 > ``` 
 
@@ -5484,7 +5484,7 @@
 > |---|---|---|
 > |numerator|[real3x3](real3x3.md)| |
 > |denominator|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real3x3, denominator : Real3x3) : Real3x3
 > ``` 
 
@@ -5499,7 +5499,7 @@
 > |---|---|---|
 > |numerator|[real3x4](real3x4.md)| |
 > |denominator|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real3x4, denominator : Real3x4) : Real3x4
 > ``` 
 
@@ -5514,7 +5514,7 @@
 > |---|---|---|
 > |numerator|[real4](real4.md)| |
 > |denominator|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real4, denominator : Real4) : Real4
 > ``` 
 
@@ -5529,7 +5529,7 @@
 > |---|---|---|
 > |numerator|[real4x2](real4x2.md)| |
 > |denominator|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real4x2, denominator : Real4x2) : Real4x2
 > ``` 
 
@@ -5544,7 +5544,7 @@
 > |---|---|---|
 > |numerator|[real4x3](real4x3.md)| |
 > |denominator|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real4x3, denominator : Real4x3) : Real4x3
 > ``` 
 
@@ -5559,7 +5559,7 @@
 > |---|---|---|
 > |numerator|[real4x4](real4x4.md)| |
 > |denominator|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FMod(numerator : Real4x4, denominator : Real4x4) : Real4x4
 > ``` 
 
@@ -5573,7 +5573,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real) : Real
 > ``` 
 
@@ -5587,7 +5587,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real2) : Real2
 > ``` 
 
@@ -5601,7 +5601,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -5615,7 +5615,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -5629,7 +5629,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -5643,7 +5643,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real3) : Real3
 > ``` 
 
@@ -5657,7 +5657,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -5671,7 +5671,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -5685,7 +5685,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -5699,7 +5699,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real4) : Real4
 > ``` 
 
@@ -5713,7 +5713,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -5727,7 +5727,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -5741,7 +5741,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Frac(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -5755,7 +5755,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateRotationMatrix2x2(radians : Real) : Real2x2
 > ``` 
 
@@ -5769,7 +5769,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateRotationMatrix3x3(radians : Real) : Real3x3
 > ``` 
 
@@ -5784,7 +5784,7 @@
 > |---|---|---|
 > |axis|[real3](real3.md)| |
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateRotationMatrix3x3(axis : Real3, radians : Real) : Real3x3
 > ``` 
 
@@ -5799,7 +5799,7 @@
 > |---|---|---|
 > |axis|[real3](real3.md)| |
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateRotationMatrix4x4(axis : Real3, radians : Real) : Real4x4
 > ``` 
 
@@ -5813,7 +5813,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scale|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateScaleMatrix2x2(scale : Real2) : Real2x2
 > ``` 
 
@@ -5827,7 +5827,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scale|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateScaleMatrix3x3(scale : Real2) : Real3x3
 > ``` 
 
@@ -5841,7 +5841,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scale|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateScaleMatrix3x3(scale : Real3) : Real3x3
 > ``` 
 
@@ -5855,7 +5855,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |scale|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateScaleMatrix4x4(scale : Real3) : Real4x4
 > ``` 
 
@@ -5870,7 +5870,7 @@
 > |---|---|---|
 > |radians|[real](real.md)| |
 > |scale|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTransformMatrix2x2(radians : Real, scale : Real2) : Real2x2
 > ``` 
 
@@ -5885,7 +5885,7 @@
 > |---|---|---|
 > |rotation|[quaternion](quaternion.md)| |
 > |scale|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTransformMatrix3x3(rotation : Quaternion, scale : Real3) : Real3x3
 > ``` 
 
@@ -5901,7 +5901,7 @@
 > |translation|[real2](real2.md)| |
 > |radians|[real](real.md)| |
 > |scale|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTransformMatrix3x3(translation : Real2, radians : Real, scale : Real2) : Real3x3
 > ``` 
 
@@ -5916,7 +5916,7 @@
 > |---|---|---|
 > |rotation|[real3x3](real3x3.md)| |
 > |scale|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTransformMatrix3x3(rotation : Real3x3, scale : Real3) : Real3x3
 > ``` 
 
@@ -5932,7 +5932,7 @@
 > |translation|[real3](real3.md)| |
 > |rotation|[quaternion](quaternion.md)| |
 > |scale|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTransformMatrix4x4(translation : Real3, rotation : Quaternion, scale : Real3) : Real4x4
 > ``` 
 
@@ -5948,7 +5948,7 @@
 > |translation|[real3](real3.md)| |
 > |rotation|[real3x3](real3x3.md)| |
 > |scale|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTransformMatrix4x4(translation : Real3, rotation : Real3x3, scale : Real3) : Real4x4
 > ``` 
 
@@ -5962,7 +5962,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |translation|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTranslationMatrix3x3(translation : Real2) : Real3x3
 > ``` 
 
@@ -5976,7 +5976,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |translation|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GenerateTranslationMatrix4x4(translation : Real3) : Real4x4
 > ``` 
 
@@ -5990,7 +5990,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Invert(p0 : Quaternion) : Quaternion
 > ``` 
 
@@ -6004,7 +6004,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Invert(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -6018,7 +6018,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Invert(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -6032,7 +6032,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Invert(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -6046,7 +6046,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Length(p0 : Quaternion) : Real
 > ``` 
 
@@ -6060,7 +6060,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Length(p0 : Real2) : Real
 > ``` 
 
@@ -6074,7 +6074,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Length(p0 : Real3) : Real
 > ``` 
 
@@ -6088,7 +6088,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Length(p0 : Real4) : Real
 > ``` 
 
@@ -6102,7 +6102,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LengthSq(p0 : Quaternion) : Real
 > ``` 
 
@@ -6116,7 +6116,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LengthSq(p0 : Real2) : Real
 > ``` 
 
@@ -6130,7 +6130,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LengthSq(p0 : Real3) : Real
 > ``` 
 
@@ -6144,7 +6144,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LengthSq(p0 : Real4) : Real
 > ``` 
 
@@ -6160,7 +6160,7 @@
 > |start|[real](real.md)| |
 > |end|[real](real.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real, end : Real, t : Real) : Real
 > ``` 
 
@@ -6176,7 +6176,7 @@
 > |start|[real2](real2.md)| |
 > |end|[real2](real2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2, end : Real2, t : Real) : Real2
 > ``` 
 
@@ -6192,7 +6192,7 @@
 > |start|[real2](real2.md)| |
 > |end|[real2](real2.md)| |
 > |t|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2, end : Real2, t : Real2) : Real2
 > ``` 
 
@@ -6208,7 +6208,7 @@
 > |start|[real2x2](real2x2.md)| |
 > |end|[real2x2](real2x2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2x2, end : Real2x2, t : Real) : Real2x2
 > ``` 
 
@@ -6224,7 +6224,7 @@
 > |start|[real2x2](real2x2.md)| |
 > |end|[real2x2](real2x2.md)| |
 > |t|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2x2, end : Real2x2, t : Real2x2) : Real2x2
 > ``` 
 
@@ -6240,7 +6240,7 @@
 > |start|[real2x3](real2x3.md)| |
 > |end|[real2x3](real2x3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2x3, end : Real2x3, t : Real) : Real2x3
 > ``` 
 
@@ -6256,7 +6256,7 @@
 > |start|[real2x3](real2x3.md)| |
 > |end|[real2x3](real2x3.md)| |
 > |t|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2x3, end : Real2x3, t : Real2x3) : Real2x3
 > ``` 
 
@@ -6272,7 +6272,7 @@
 > |start|[real2x4](real2x4.md)| |
 > |end|[real2x4](real2x4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2x4, end : Real2x4, t : Real) : Real2x4
 > ``` 
 
@@ -6288,7 +6288,7 @@
 > |start|[real2x4](real2x4.md)| |
 > |end|[real2x4](real2x4.md)| |
 > |t|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real2x4, end : Real2x4, t : Real2x4) : Real2x4
 > ``` 
 
@@ -6304,7 +6304,7 @@
 > |start|[real3](real3.md)| |
 > |end|[real3](real3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3, end : Real3, t : Real) : Real3
 > ``` 
 
@@ -6320,7 +6320,7 @@
 > |start|[real3](real3.md)| |
 > |end|[real3](real3.md)| |
 > |t|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3, end : Real3, t : Real3) : Real3
 > ``` 
 
@@ -6336,7 +6336,7 @@
 > |start|[real3x2](real3x2.md)| |
 > |end|[real3x2](real3x2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3x2, end : Real3x2, t : Real) : Real3x2
 > ``` 
 
@@ -6352,7 +6352,7 @@
 > |start|[real3x2](real3x2.md)| |
 > |end|[real3x2](real3x2.md)| |
 > |t|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3x2, end : Real3x2, t : Real3x2) : Real3x2
 > ``` 
 
@@ -6368,7 +6368,7 @@
 > |start|[real3x3](real3x3.md)| |
 > |end|[real3x3](real3x3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3x3, end : Real3x3, t : Real) : Real3x3
 > ``` 
 
@@ -6384,7 +6384,7 @@
 > |start|[real3x3](real3x3.md)| |
 > |end|[real3x3](real3x3.md)| |
 > |t|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3x3, end : Real3x3, t : Real3x3) : Real3x3
 > ``` 
 
@@ -6400,7 +6400,7 @@
 > |start|[real3x4](real3x4.md)| |
 > |end|[real3x4](real3x4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3x4, end : Real3x4, t : Real) : Real3x4
 > ``` 
 
@@ -6416,7 +6416,7 @@
 > |start|[real3x4](real3x4.md)| |
 > |end|[real3x4](real3x4.md)| |
 > |t|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real3x4, end : Real3x4, t : Real3x4) : Real3x4
 > ``` 
 
@@ -6432,7 +6432,7 @@
 > |start|[real4](real4.md)| |
 > |end|[real4](real4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4, end : Real4, t : Real) : Real4
 > ``` 
 
@@ -6448,7 +6448,7 @@
 > |start|[real4](real4.md)| |
 > |end|[real4](real4.md)| |
 > |t|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4, end : Real4, t : Real4) : Real4
 > ``` 
 
@@ -6464,7 +6464,7 @@
 > |start|[real4x2](real4x2.md)| |
 > |end|[real4x2](real4x2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4x2, end : Real4x2, t : Real) : Real4x2
 > ``` 
 
@@ -6480,7 +6480,7 @@
 > |start|[real4x2](real4x2.md)| |
 > |end|[real4x2](real4x2.md)| |
 > |t|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4x2, end : Real4x2, t : Real4x2) : Real4x2
 > ``` 
 
@@ -6496,7 +6496,7 @@
 > |start|[real4x3](real4x3.md)| |
 > |end|[real4x3](real4x3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4x3, end : Real4x3, t : Real) : Real4x3
 > ``` 
 
@@ -6512,7 +6512,7 @@
 > |start|[real4x3](real4x3.md)| |
 > |end|[real4x3](real4x3.md)| |
 > |t|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4x3, end : Real4x3, t : Real4x3) : Real4x3
 > ``` 
 
@@ -6528,7 +6528,7 @@
 > |start|[real4x4](real4x4.md)| |
 > |end|[real4x4](real4x4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4x4, end : Real4x4, t : Real) : Real4x4
 > ``` 
 
@@ -6544,7 +6544,7 @@
 > |start|[real4x4](real4x4.md)| |
 > |end|[real4x4](real4x4.md)| |
 > |t|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Lerp(start : Real4x4, end : Real4x4, t : Real4x4) : Real4x4
 > ``` 
 
@@ -6558,7 +6558,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real) : Real
 > ``` 
 
@@ -6572,7 +6572,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real2) : Real2
 > ``` 
 
@@ -6586,7 +6586,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -6600,7 +6600,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -6614,7 +6614,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -6628,7 +6628,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real3) : Real3
 > ``` 
 
@@ -6642,7 +6642,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -6656,7 +6656,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -6670,7 +6670,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -6684,7 +6684,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real4) : Real4
 > ``` 
 
@@ -6698,7 +6698,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -6712,7 +6712,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -6726,7 +6726,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -6740,7 +6740,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real) : Real
 > ``` 
 
@@ -6754,7 +6754,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real2) : Real2
 > ``` 
 
@@ -6768,7 +6768,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -6782,7 +6782,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -6796,7 +6796,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -6810,7 +6810,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real3) : Real3
 > ``` 
 
@@ -6824,7 +6824,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -6838,7 +6838,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -6852,7 +6852,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -6866,7 +6866,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real4) : Real4
 > ``` 
 
@@ -6880,7 +6880,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -6894,7 +6894,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -6908,7 +6908,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log10(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -6922,7 +6922,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real) : Real
 > ``` 
 
@@ -6936,7 +6936,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real2) : Real2
 > ``` 
 
@@ -6950,7 +6950,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -6964,7 +6964,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -6978,7 +6978,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -6992,7 +6992,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real3) : Real3
 > ``` 
 
@@ -7006,7 +7006,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -7020,7 +7020,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -7034,7 +7034,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -7048,7 +7048,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real4) : Real4
 > ``` 
 
@@ -7062,7 +7062,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -7076,7 +7076,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -7090,7 +7090,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Log2(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -7105,7 +7105,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer, p1 : Integer) : Integer
 > ``` 
 
@@ -7120,7 +7120,7 @@
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
 > |p1|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer2, p1 : Integer2) : Integer2
 > ``` 
 
@@ -7135,7 +7135,7 @@
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
 > |p1|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer2x2, p1 : Integer2x2) : Integer2x2
 > ``` 
 
@@ -7150,7 +7150,7 @@
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
 > |p1|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer2x3, p1 : Integer2x3) : Integer2x3
 > ``` 
 
@@ -7165,7 +7165,7 @@
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
 > |p1|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer2x4, p1 : Integer2x4) : Integer2x4
 > ``` 
 
@@ -7180,7 +7180,7 @@
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
 > |p1|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer3, p1 : Integer3) : Integer3
 > ``` 
 
@@ -7195,7 +7195,7 @@
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
 > |p1|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer3x2, p1 : Integer3x2) : Integer3x2
 > ``` 
 
@@ -7210,7 +7210,7 @@
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
 > |p1|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer3x3, p1 : Integer3x3) : Integer3x3
 > ``` 
 
@@ -7225,7 +7225,7 @@
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
 > |p1|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer3x4, p1 : Integer3x4) : Integer3x4
 > ``` 
 
@@ -7240,7 +7240,7 @@
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
 > |p1|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer4, p1 : Integer4) : Integer4
 > ``` 
 
@@ -7255,7 +7255,7 @@
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
 > |p1|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer4x2, p1 : Integer4x2) : Integer4x2
 > ``` 
 
@@ -7270,7 +7270,7 @@
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
 > |p1|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer4x3, p1 : Integer4x3) : Integer4x3
 > ``` 
 
@@ -7285,7 +7285,7 @@
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
 > |p1|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Integer4x4, p1 : Integer4x4) : Integer4x4
 > ``` 
 
@@ -7300,7 +7300,7 @@
 > |---|---|---|
 > |p0|[real](real.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real, p1 : Real) : Real
 > ``` 
 
@@ -7315,7 +7315,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real2, p1 : Real2) : Real2
 > ``` 
 
@@ -7330,7 +7330,7 @@
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
 > |p1|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real2x2, p1 : Real2x2) : Real2x2
 > ``` 
 
@@ -7345,7 +7345,7 @@
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
 > |p1|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real2x3, p1 : Real2x3) : Real2x3
 > ``` 
 
@@ -7360,7 +7360,7 @@
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
 > |p1|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real2x4, p1 : Real2x4) : Real2x4
 > ``` 
 
@@ -7375,7 +7375,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real3, p1 : Real3) : Real3
 > ``` 
 
@@ -7390,7 +7390,7 @@
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
 > |p1|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real3x2, p1 : Real3x2) : Real3x2
 > ``` 
 
@@ -7405,7 +7405,7 @@
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
 > |p1|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real3x3, p1 : Real3x3) : Real3x3
 > ``` 
 
@@ -7420,7 +7420,7 @@
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
 > |p1|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real3x4, p1 : Real3x4) : Real3x4
 > ``` 
 
@@ -7435,7 +7435,7 @@
 > |---|---|---|
 > |p0|[real4](real4.md)| |
 > |p1|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real4, p1 : Real4) : Real4
 > ``` 
 
@@ -7450,7 +7450,7 @@
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
 > |p1|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real4x2, p1 : Real4x2) : Real4x2
 > ``` 
 
@@ -7465,7 +7465,7 @@
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
 > |p1|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real4x3, p1 : Real4x3) : Real4x3
 > ``` 
 
@@ -7480,7 +7480,7 @@
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
 > |p1|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Max(p0 : Real4x4, p1 : Real4x4) : Real4x4
 > ``` 
 
@@ -7495,7 +7495,7 @@
 > |---|---|---|
 > |p0|[integer](integer.md)| |
 > |p1|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer, p1 : Integer) : Integer
 > ``` 
 
@@ -7510,7 +7510,7 @@
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
 > |p1|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer2, p1 : Integer2) : Integer2
 > ``` 
 
@@ -7525,7 +7525,7 @@
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
 > |p1|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer2x2, p1 : Integer2x2) : Integer2x2
 > ``` 
 
@@ -7540,7 +7540,7 @@
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
 > |p1|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer2x3, p1 : Integer2x3) : Integer2x3
 > ``` 
 
@@ -7555,7 +7555,7 @@
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
 > |p1|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer2x4, p1 : Integer2x4) : Integer2x4
 > ``` 
 
@@ -7570,7 +7570,7 @@
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
 > |p1|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer3, p1 : Integer3) : Integer3
 > ``` 
 
@@ -7585,7 +7585,7 @@
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
 > |p1|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer3x2, p1 : Integer3x2) : Integer3x2
 > ``` 
 
@@ -7600,7 +7600,7 @@
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
 > |p1|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer3x3, p1 : Integer3x3) : Integer3x3
 > ``` 
 
@@ -7615,7 +7615,7 @@
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
 > |p1|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer3x4, p1 : Integer3x4) : Integer3x4
 > ``` 
 
@@ -7630,7 +7630,7 @@
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
 > |p1|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer4, p1 : Integer4) : Integer4
 > ``` 
 
@@ -7645,7 +7645,7 @@
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
 > |p1|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer4x2, p1 : Integer4x2) : Integer4x2
 > ``` 
 
@@ -7660,7 +7660,7 @@
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
 > |p1|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer4x3, p1 : Integer4x3) : Integer4x3
 > ``` 
 
@@ -7675,7 +7675,7 @@
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
 > |p1|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Integer4x4, p1 : Integer4x4) : Integer4x4
 > ``` 
 
@@ -7690,7 +7690,7 @@
 > |---|---|---|
 > |p0|[real](real.md)| |
 > |p1|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real, p1 : Real) : Real
 > ``` 
 
@@ -7705,7 +7705,7 @@
 > |---|---|---|
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real2, p1 : Real2) : Real2
 > ``` 
 
@@ -7720,7 +7720,7 @@
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
 > |p1|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real2x2, p1 : Real2x2) : Real2x2
 > ``` 
 
@@ -7735,7 +7735,7 @@
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
 > |p1|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real2x3, p1 : Real2x3) : Real2x3
 > ``` 
 
@@ -7750,7 +7750,7 @@
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
 > |p1|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real2x4, p1 : Real2x4) : Real2x4
 > ``` 
 
@@ -7765,7 +7765,7 @@
 > |---|---|---|
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real3, p1 : Real3) : Real3
 > ``` 
 
@@ -7780,7 +7780,7 @@
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
 > |p1|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real3x2, p1 : Real3x2) : Real3x2
 > ``` 
 
@@ -7795,7 +7795,7 @@
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
 > |p1|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real3x3, p1 : Real3x3) : Real3x3
 > ``` 
 
@@ -7810,7 +7810,7 @@
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
 > |p1|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real3x4, p1 : Real3x4) : Real3x4
 > ``` 
 
@@ -7825,7 +7825,7 @@
 > |---|---|---|
 > |p0|[real4](real4.md)| |
 > |p1|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real4, p1 : Real4) : Real4
 > ``` 
 
@@ -7840,7 +7840,7 @@
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
 > |p1|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real4x2, p1 : Real4x2) : Real4x2
 > ``` 
 
@@ -7855,7 +7855,7 @@
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
 > |p1|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real4x3, p1 : Real4x3) : Real4x3
 > ``` 
 
@@ -7870,7 +7870,7 @@
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
 > |p1|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Min(p0 : Real4x4, p1 : Real4x4) : Real4x4
 > ``` 
 
@@ -7885,7 +7885,7 @@
 > |---|---|---|
 > |by|[integer2x2](integer2x2.md)| |
 > |the|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x2, the : Integer2) : Integer2
 > ``` 
 
@@ -7900,7 +7900,7 @@
 > |---|---|---|
 > |by|[integer2x2](integer2x2.md)| |
 > |the|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x2, the : Integer2x2) : Integer2x2
 > ``` 
 
@@ -7915,7 +7915,7 @@
 > |---|---|---|
 > |by|[integer2x2](integer2x2.md)| |
 > |the|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x2, the : Integer2x3) : Integer2x3
 > ``` 
 
@@ -7930,7 +7930,7 @@
 > |---|---|---|
 > |by|[integer2x2](integer2x2.md)| |
 > |the|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x2, the : Integer2x4) : Integer2x4
 > ``` 
 
@@ -7945,7 +7945,7 @@
 > |---|---|---|
 > |by|[integer2x3](integer2x3.md)| |
 > |the|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x3, the : Integer3) : Integer2
 > ``` 
 
@@ -7960,7 +7960,7 @@
 > |---|---|---|
 > |by|[integer2x3](integer2x3.md)| |
 > |the|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x3, the : Integer3x2) : Integer2x2
 > ``` 
 
@@ -7975,7 +7975,7 @@
 > |---|---|---|
 > |by|[integer2x3](integer2x3.md)| |
 > |the|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x3, the : Integer3x3) : Integer2x3
 > ``` 
 
@@ -7990,7 +7990,7 @@
 > |---|---|---|
 > |by|[integer2x3](integer2x3.md)| |
 > |the|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x3, the : Integer3x4) : Integer2x4
 > ``` 
 
@@ -8005,7 +8005,7 @@
 > |---|---|---|
 > |by|[integer2x4](integer2x4.md)| |
 > |the|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x4, the : Integer4) : Integer2
 > ``` 
 
@@ -8020,7 +8020,7 @@
 > |---|---|---|
 > |by|[integer2x4](integer2x4.md)| |
 > |the|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x4, the : Integer4x2) : Integer2x2
 > ``` 
 
@@ -8035,7 +8035,7 @@
 > |---|---|---|
 > |by|[integer2x4](integer2x4.md)| |
 > |the|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x4, the : Integer4x3) : Integer2x3
 > ``` 
 
@@ -8050,7 +8050,7 @@
 > |---|---|---|
 > |by|[integer2x4](integer2x4.md)| |
 > |the|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer2x4, the : Integer4x4) : Integer2x4
 > ``` 
 
@@ -8065,7 +8065,7 @@
 > |---|---|---|
 > |by|[integer3x2](integer3x2.md)| |
 > |the|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x2, the : Integer2) : Integer3
 > ``` 
 
@@ -8080,7 +8080,7 @@
 > |---|---|---|
 > |by|[integer3x2](integer3x2.md)| |
 > |the|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x2, the : Integer2x2) : Integer3x2
 > ``` 
 
@@ -8095,7 +8095,7 @@
 > |---|---|---|
 > |by|[integer3x2](integer3x2.md)| |
 > |the|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x2, the : Integer2x3) : Integer3x3
 > ``` 
 
@@ -8110,7 +8110,7 @@
 > |---|---|---|
 > |by|[integer3x2](integer3x2.md)| |
 > |the|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x2, the : Integer2x4) : Integer3x4
 > ``` 
 
@@ -8125,7 +8125,7 @@
 > |---|---|---|
 > |by|[integer3x3](integer3x3.md)| |
 > |the|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x3, the : Integer3) : Integer3
 > ``` 
 
@@ -8140,7 +8140,7 @@
 > |---|---|---|
 > |by|[integer3x3](integer3x3.md)| |
 > |the|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x3, the : Integer3x2) : Integer3x2
 > ``` 
 
@@ -8155,7 +8155,7 @@
 > |---|---|---|
 > |by|[integer3x3](integer3x3.md)| |
 > |the|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x3, the : Integer3x3) : Integer3x3
 > ``` 
 
@@ -8170,7 +8170,7 @@
 > |---|---|---|
 > |by|[integer3x3](integer3x3.md)| |
 > |the|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x3, the : Integer3x4) : Integer3x4
 > ``` 
 
@@ -8185,7 +8185,7 @@
 > |---|---|---|
 > |by|[integer3x4](integer3x4.md)| |
 > |the|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x4, the : Integer4) : Integer3
 > ``` 
 
@@ -8200,7 +8200,7 @@
 > |---|---|---|
 > |by|[integer3x4](integer3x4.md)| |
 > |the|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x4, the : Integer4x2) : Integer3x2
 > ``` 
 
@@ -8215,7 +8215,7 @@
 > |---|---|---|
 > |by|[integer3x4](integer3x4.md)| |
 > |the|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x4, the : Integer4x3) : Integer3x3
 > ``` 
 
@@ -8230,7 +8230,7 @@
 > |---|---|---|
 > |by|[integer3x4](integer3x4.md)| |
 > |the|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer3x4, the : Integer4x4) : Integer3x4
 > ``` 
 
@@ -8245,7 +8245,7 @@
 > |---|---|---|
 > |by|[integer4x2](integer4x2.md)| |
 > |the|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x2, the : Integer2) : Integer4
 > ``` 
 
@@ -8260,7 +8260,7 @@
 > |---|---|---|
 > |by|[integer4x2](integer4x2.md)| |
 > |the|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x2, the : Integer2x2) : Integer4x2
 > ``` 
 
@@ -8275,7 +8275,7 @@
 > |---|---|---|
 > |by|[integer4x2](integer4x2.md)| |
 > |the|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x2, the : Integer2x3) : Integer4x3
 > ``` 
 
@@ -8290,7 +8290,7 @@
 > |---|---|---|
 > |by|[integer4x2](integer4x2.md)| |
 > |the|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x2, the : Integer2x4) : Integer4x4
 > ``` 
 
@@ -8305,7 +8305,7 @@
 > |---|---|---|
 > |by|[integer4x3](integer4x3.md)| |
 > |the|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x3, the : Integer3) : Integer4
 > ``` 
 
@@ -8320,7 +8320,7 @@
 > |---|---|---|
 > |by|[integer4x3](integer4x3.md)| |
 > |the|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x3, the : Integer3x2) : Integer4x2
 > ``` 
 
@@ -8335,7 +8335,7 @@
 > |---|---|---|
 > |by|[integer4x3](integer4x3.md)| |
 > |the|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x3, the : Integer3x3) : Integer4x3
 > ``` 
 
@@ -8350,7 +8350,7 @@
 > |---|---|---|
 > |by|[integer4x3](integer4x3.md)| |
 > |the|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x3, the : Integer3x4) : Integer4x4
 > ``` 
 
@@ -8365,7 +8365,7 @@
 > |---|---|---|
 > |by|[integer4x4](integer4x4.md)| |
 > |the|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x4, the : Integer4) : Integer4
 > ``` 
 
@@ -8380,7 +8380,7 @@
 > |---|---|---|
 > |by|[integer4x4](integer4x4.md)| |
 > |the|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x4, the : Integer4x2) : Integer4x2
 > ``` 
 
@@ -8395,7 +8395,7 @@
 > |---|---|---|
 > |by|[integer4x4](integer4x4.md)| |
 > |the|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x4, the : Integer4x3) : Integer4x3
 > ``` 
 
@@ -8410,7 +8410,7 @@
 > |---|---|---|
 > |by|[integer4x4](integer4x4.md)| |
 > |the|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Integer4x4, the : Integer4x4) : Integer4x4
 > ``` 
 
@@ -8425,7 +8425,7 @@
 > |---|---|---|
 > |by|[quaternion](quaternion.md)| |
 > |the|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Quaternion, the : Quaternion) : Quaternion
 > ``` 
 
@@ -8440,7 +8440,7 @@
 > |---|---|---|
 > |by|[quaternion](quaternion.md)| |
 > |the|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Quaternion, the : Real3) : Real3
 > ``` 
 
@@ -8455,7 +8455,7 @@
 > |---|---|---|
 > |by|[real2x2](real2x2.md)| |
 > |the|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x2, the : Real2) : Real2
 > ``` 
 
@@ -8470,7 +8470,7 @@
 > |---|---|---|
 > |by|[real2x2](real2x2.md)| |
 > |the|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x2, the : Real2x2) : Real2x2
 > ``` 
 
@@ -8485,7 +8485,7 @@
 > |---|---|---|
 > |by|[real2x2](real2x2.md)| |
 > |the|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x2, the : Real2x3) : Real2x3
 > ``` 
 
@@ -8500,7 +8500,7 @@
 > |---|---|---|
 > |by|[real2x2](real2x2.md)| |
 > |the|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x2, the : Real2x4) : Real2x4
 > ``` 
 
@@ -8515,7 +8515,7 @@
 > |---|---|---|
 > |by|[real2x3](real2x3.md)| |
 > |the|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x3, the : Real3) : Real2
 > ``` 
 
@@ -8530,7 +8530,7 @@
 > |---|---|---|
 > |by|[real2x3](real2x3.md)| |
 > |the|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x3, the : Real3x2) : Real2x2
 > ``` 
 
@@ -8545,7 +8545,7 @@
 > |---|---|---|
 > |by|[real2x3](real2x3.md)| |
 > |the|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x3, the : Real3x3) : Real2x3
 > ``` 
 
@@ -8560,7 +8560,7 @@
 > |---|---|---|
 > |by|[real2x3](real2x3.md)| |
 > |the|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x3, the : Real3x4) : Real2x4
 > ``` 
 
@@ -8575,7 +8575,7 @@
 > |---|---|---|
 > |by|[real2x4](real2x4.md)| |
 > |the|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x4, the : Real4) : Real2
 > ``` 
 
@@ -8590,7 +8590,7 @@
 > |---|---|---|
 > |by|[real2x4](real2x4.md)| |
 > |the|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x4, the : Real4x2) : Real2x2
 > ``` 
 
@@ -8605,7 +8605,7 @@
 > |---|---|---|
 > |by|[real2x4](real2x4.md)| |
 > |the|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x4, the : Real4x3) : Real2x3
 > ``` 
 
@@ -8620,7 +8620,7 @@
 > |---|---|---|
 > |by|[real2x4](real2x4.md)| |
 > |the|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real2x4, the : Real4x4) : Real2x4
 > ``` 
 
@@ -8635,7 +8635,7 @@
 > |---|---|---|
 > |by|[real3x2](real3x2.md)| |
 > |the|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x2, the : Real2) : Real3
 > ``` 
 
@@ -8650,7 +8650,7 @@
 > |---|---|---|
 > |by|[real3x2](real3x2.md)| |
 > |the|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x2, the : Real2x2) : Real3x2
 > ``` 
 
@@ -8665,7 +8665,7 @@
 > |---|---|---|
 > |by|[real3x2](real3x2.md)| |
 > |the|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x2, the : Real2x3) : Real3x3
 > ``` 
 
@@ -8680,7 +8680,7 @@
 > |---|---|---|
 > |by|[real3x2](real3x2.md)| |
 > |the|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x2, the : Real2x4) : Real3x4
 > ``` 
 
@@ -8695,7 +8695,7 @@
 > |---|---|---|
 > |by|[real3x3](real3x3.md)| |
 > |the|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x3, the : Real3) : Real3
 > ``` 
 
@@ -8710,7 +8710,7 @@
 > |---|---|---|
 > |by|[real3x3](real3x3.md)| |
 > |the|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x3, the : Real3x2) : Real3x2
 > ``` 
 
@@ -8725,7 +8725,7 @@
 > |---|---|---|
 > |by|[real3x3](real3x3.md)| |
 > |the|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x3, the : Real3x3) : Real3x3
 > ``` 
 
@@ -8740,7 +8740,7 @@
 > |---|---|---|
 > |by|[real3x3](real3x3.md)| |
 > |the|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x3, the : Real3x4) : Real3x4
 > ``` 
 
@@ -8755,7 +8755,7 @@
 > |---|---|---|
 > |by|[real3x4](real3x4.md)| |
 > |the|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x4, the : Real4) : Real3
 > ``` 
 
@@ -8770,7 +8770,7 @@
 > |---|---|---|
 > |by|[real3x4](real3x4.md)| |
 > |the|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x4, the : Real4x2) : Real3x2
 > ``` 
 
@@ -8785,7 +8785,7 @@
 > |---|---|---|
 > |by|[real3x4](real3x4.md)| |
 > |the|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x4, the : Real4x3) : Real3x3
 > ``` 
 
@@ -8800,7 +8800,7 @@
 > |---|---|---|
 > |by|[real3x4](real3x4.md)| |
 > |the|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real3x4, the : Real4x4) : Real3x4
 > ``` 
 
@@ -8815,7 +8815,7 @@
 > |---|---|---|
 > |by|[real4x2](real4x2.md)| |
 > |the|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x2, the : Real2) : Real4
 > ``` 
 
@@ -8830,7 +8830,7 @@
 > |---|---|---|
 > |by|[real4x2](real4x2.md)| |
 > |the|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x2, the : Real2x2) : Real4x2
 > ``` 
 
@@ -8845,7 +8845,7 @@
 > |---|---|---|
 > |by|[real4x2](real4x2.md)| |
 > |the|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x2, the : Real2x3) : Real4x3
 > ``` 
 
@@ -8860,7 +8860,7 @@
 > |---|---|---|
 > |by|[real4x2](real4x2.md)| |
 > |the|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x2, the : Real2x4) : Real4x4
 > ``` 
 
@@ -8875,7 +8875,7 @@
 > |---|---|---|
 > |by|[real4x3](real4x3.md)| |
 > |the|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x3, the : Real3) : Real4
 > ``` 
 
@@ -8890,7 +8890,7 @@
 > |---|---|---|
 > |by|[real4x3](real4x3.md)| |
 > |the|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x3, the : Real3x2) : Real4x2
 > ``` 
 
@@ -8905,7 +8905,7 @@
 > |---|---|---|
 > |by|[real4x3](real4x3.md)| |
 > |the|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x3, the : Real3x3) : Real4x3
 > ``` 
 
@@ -8920,7 +8920,7 @@
 > |---|---|---|
 > |by|[real4x3](real4x3.md)| |
 > |the|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x3, the : Real3x4) : Real4x4
 > ``` 
 
@@ -8935,7 +8935,7 @@
 > |---|---|---|
 > |by|[real4x4](real4x4.md)| |
 > |the|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x4, the : Real4) : Real4
 > ``` 
 
@@ -8950,7 +8950,7 @@
 > |---|---|---|
 > |by|[real4x4](real4x4.md)| |
 > |the|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x4, the : Real4x2) : Real4x2
 > ``` 
 
@@ -8965,7 +8965,7 @@
 > |---|---|---|
 > |by|[real4x4](real4x4.md)| |
 > |the|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x4, the : Real4x3) : Real4x3
 > ``` 
 
@@ -8980,7 +8980,7 @@
 > |---|---|---|
 > |by|[real4x4](real4x4.md)| |
 > |the|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Multiply(by : Real4x4, the : Real4x4) : Real4x4
 > ``` 
 
@@ -8995,7 +8995,7 @@
 > |---|---|---|
 > |by|[real2x2](real2x2.md)| |
 > |the|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyNormal(by : Real2x2, the : Real) : Real
 > ``` 
 
@@ -9010,7 +9010,7 @@
 > |---|---|---|
 > |by|[real3x3](real3x3.md)| |
 > |the|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyNormal(by : Real3x3, the : Real2) : Real2
 > ``` 
 
@@ -9025,7 +9025,7 @@
 > |---|---|---|
 > |by|[real4x4](real4x4.md)| |
 > |the|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyNormal(by : Real4x4, the : Real3) : Real3
 > ``` 
 
@@ -9040,7 +9040,7 @@
 > |---|---|---|
 > |by|[real2x2](real2x2.md)| |
 > |the|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyPoint(by : Real2x2, the : Real) : Real
 > ``` 
 
@@ -9055,7 +9055,7 @@
 > |---|---|---|
 > |by|[real3x3](real3x3.md)| |
 > |the|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyPoint(by : Real3x3, the : Real2) : Real2
 > ``` 
 
@@ -9070,7 +9070,7 @@
 > |---|---|---|
 > |by|[real4x4](real4x4.md)| |
 > |the|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyPoint(by : Real4x4, the : Real3) : Real3
 > ``` 
 
@@ -9085,7 +9085,7 @@
 > |---|---|---|
 > |by|[real2x2](real2x2.md)| |
 > |the|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyPointNoDivide(by : Real2x2, the : Real) : Real
 > ``` 
 
@@ -9100,7 +9100,7 @@
 > |---|---|---|
 > |by|[real3x3](real3x3.md)| |
 > |the|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyPointNoDivide(by : Real3x3, the : Real2) : Real2
 > ``` 
 
@@ -9115,7 +9115,7 @@
 > |---|---|---|
 > |by|[real4x4](real4x4.md)| |
 > |the|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MultiplyPointNoDivide(by : Real4x4, the : Real3) : Real3
 > ``` 
 
@@ -9129,7 +9129,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Normalize(p0 : Quaternion) : Quaternion
 > ``` 
 
@@ -9143,7 +9143,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Normalize(p0 : Real2) : Real2
 > ``` 
 
@@ -9157,7 +9157,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Normalize(p0 : Real3) : Real3
 > ``` 
 
@@ -9171,7 +9171,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Normalize(p0 : Real4) : Real4
 > ``` 
 
@@ -9186,7 +9186,7 @@
 > |---|---|---|
 > |base|[real](real.md)| |
 > |exponent|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real, exponent : Real) : Real
 > ``` 
 
@@ -9201,7 +9201,7 @@
 > |---|---|---|
 > |base|[real2](real2.md)| |
 > |exponent|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real2, exponent : Real2) : Real2
 > ``` 
 
@@ -9216,7 +9216,7 @@
 > |---|---|---|
 > |base|[real2x2](real2x2.md)| |
 > |exponent|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real2x2, exponent : Real2x2) : Real2x2
 > ``` 
 
@@ -9231,7 +9231,7 @@
 > |---|---|---|
 > |base|[real2x3](real2x3.md)| |
 > |exponent|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real2x3, exponent : Real2x3) : Real2x3
 > ``` 
 
@@ -9246,7 +9246,7 @@
 > |---|---|---|
 > |base|[real2x4](real2x4.md)| |
 > |exponent|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real2x4, exponent : Real2x4) : Real2x4
 > ``` 
 
@@ -9261,7 +9261,7 @@
 > |---|---|---|
 > |base|[real3](real3.md)| |
 > |exponent|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real3, exponent : Real3) : Real3
 > ``` 
 
@@ -9276,7 +9276,7 @@
 > |---|---|---|
 > |base|[real3x2](real3x2.md)| |
 > |exponent|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real3x2, exponent : Real3x2) : Real3x2
 > ``` 
 
@@ -9291,7 +9291,7 @@
 > |---|---|---|
 > |base|[real3x3](real3x3.md)| |
 > |exponent|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real3x3, exponent : Real3x3) : Real3x3
 > ``` 
 
@@ -9306,7 +9306,7 @@
 > |---|---|---|
 > |base|[real3x4](real3x4.md)| |
 > |exponent|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real3x4, exponent : Real3x4) : Real3x4
 > ``` 
 
@@ -9321,7 +9321,7 @@
 > |---|---|---|
 > |base|[real4](real4.md)| |
 > |exponent|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real4, exponent : Real4) : Real4
 > ``` 
 
@@ -9336,7 +9336,7 @@
 > |---|---|---|
 > |base|[real4x2](real4x2.md)| |
 > |exponent|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real4x2, exponent : Real4x2) : Real4x2
 > ``` 
 
@@ -9351,7 +9351,7 @@
 > |---|---|---|
 > |base|[real4x3](real4x3.md)| |
 > |exponent|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real4x3, exponent : Real4x3) : Real4x3
 > ``` 
 
@@ -9366,7 +9366,7 @@
 > |---|---|---|
 > |base|[real4x4](real4x4.md)| |
 > |exponent|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Pow(base : Real4x4, exponent : Real4x4) : Real4x4
 > ``` 
 
@@ -9381,7 +9381,7 @@
 > |---|---|---|
 > |toBeProjected|[real3](real3.md)| |
 > |normalizedVector|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Project(toBeProjected : Real3, normalizedVector : Real3) : Real3
 > ``` 
 
@@ -9396,7 +9396,7 @@
 > |---|---|---|
 > |toBeProjected|[real2](real2.md)| |
 > |planeNormal|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectOnPlane(toBeProjected : Real2, planeNormal : Real2) : Real2
 > ``` 
 
@@ -9411,7 +9411,7 @@
 > |---|---|---|
 > |toBeProjected|[real3](real3.md)| |
 > |planeNormal|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectOnPlane(toBeProjected : Real3, planeNormal : Real3) : Real3
 > ``` 
 
@@ -9426,7 +9426,7 @@
 > |---|---|---|
 > |toBeProjected|[real4](real4.md)| |
 > |planeNormal|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectOnPlane(toBeProjected : Real4, planeNormal : Real4) : Real4
 > ``` 
 
@@ -9441,7 +9441,7 @@
 > |---|---|---|
 > |toBeProjected|[real2](real2.md)| |
 > |normalizedVector|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectOnVector(toBeProjected : Real2, normalizedVector : Real2) : Real2
 > ``` 
 
@@ -9456,7 +9456,7 @@
 > |---|---|---|
 > |toBeProjected|[real3](real3.md)| |
 > |normalizedVector|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectOnVector(toBeProjected : Real3, normalizedVector : Real3) : Real3
 > ``` 
 
@@ -9471,7 +9471,7 @@
 > |---|---|---|
 > |toBeProjected|[real4](real4.md)| |
 > |normalizedVector|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectOnVector(toBeProjected : Real4, normalizedVector : Real4) : Real4
 > ``` 
 
@@ -9486,7 +9486,7 @@
 > |---|---|---|
 > |toBeReflected|[real2](real2.md)| |
 > |planeNormal|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReflectAcrossPlane(toBeReflected : Real2, planeNormal : Real2) : Real2
 > ``` 
 
@@ -9501,7 +9501,7 @@
 > |---|---|---|
 > |toBeReflected|[real3](real3.md)| |
 > |planeNormal|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReflectAcrossPlane(toBeReflected : Real3, planeNormal : Real3) : Real3
 > ``` 
 
@@ -9516,7 +9516,7 @@
 > |---|---|---|
 > |toBeReflected|[real4](real4.md)| |
 > |planeNormal|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReflectAcrossPlane(toBeReflected : Real4, planeNormal : Real4) : Real4
 > ``` 
 
@@ -9531,7 +9531,7 @@
 > |---|---|---|
 > |toBeReflected|[real2](real2.md)| |
 > |vector|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReflectAcrossVector(toBeReflected : Real2, vector : Real2) : Real2
 > ``` 
 
@@ -9546,7 +9546,7 @@
 > |---|---|---|
 > |toBeReflected|[real3](real3.md)| |
 > |vector|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReflectAcrossVector(toBeReflected : Real3, vector : Real3) : Real3
 > ``` 
 
@@ -9561,7 +9561,7 @@
 > |---|---|---|
 > |toBeReflected|[real4](real4.md)| |
 > |vector|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReflectAcrossVector(toBeReflected : Real4, vector : Real4) : Real4
 > ``` 
 
@@ -9577,7 +9577,7 @@
 > |toBeRefracted|[real2](real2.md)| |
 > |planeNormal|[real2](real2.md)| |
 > |refractionIndex|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Refract(toBeRefracted : Real2, planeNormal : Real2, refractionIndex : Real) : Real2
 > ``` 
 
@@ -9593,7 +9593,7 @@
 > |toBeRefracted|[real3](real3.md)| |
 > |planeNormal|[real3](real3.md)| |
 > |refractionIndex|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Refract(toBeRefracted : Real3, planeNormal : Real3, refractionIndex : Real) : Real3
 > ``` 
 
@@ -9609,7 +9609,7 @@
 > |toBeRefracted|[real4](real4.md)| |
 > |planeNormal|[real4](real4.md)| |
 > |refractionIndex|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Refract(toBeRefracted : Real4, planeNormal : Real4, refractionIndex : Real) : Real4
 > ``` 
 
@@ -9625,7 +9625,7 @@
 > |p0|[quaternion](quaternion.md)| |
 > |p1|[quaternion](quaternion.md)| |
 > |maxRadians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateTowards(p0 : Quaternion, p1 : Quaternion, maxRadians : Real) : Quaternion
 > ``` 
 
@@ -9641,7 +9641,7 @@
 > |p0|[real2](real2.md)| |
 > |p1|[real2](real2.md)| |
 > |maxRadians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateTowards(p0 : Real2, p1 : Real2, maxRadians : Real) : Real2
 > ``` 
 
@@ -9657,7 +9657,7 @@
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
 > |maxRadians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateTowards(p0 : Real3, p1 : Real3, maxRadians : Real) : Real3
 > ``` 
 
@@ -9673,7 +9673,7 @@
 > |vector|[real3](real3.md)| |
 > |axis|[real3](real3.md)| |
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotateVector(vector : Real3, axis : Real3, radians : Real) : Real3
 > ``` 
 
@@ -9688,7 +9688,7 @@
 > |---|---|---|
 > |start|[real3](real3.md)| |
 > |end|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotationQuaternionBetween(start : Real3, end : Real3) : Quaternion
 > ``` 
 
@@ -9702,7 +9702,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real) : Real
 > ``` 
 
@@ -9717,7 +9717,7 @@
 > |---|---|---|
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real, places : Integer) : Real
 > ``` 
 
@@ -9733,7 +9733,7 @@
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real, places : Integer, numericalBase : Integer) : Real
 > ``` 
 
@@ -9747,7 +9747,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real2) : Real2
 > ``` 
 
@@ -9762,7 +9762,7 @@
 > |---|---|---|
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2, places : Integer) : Real2
 > ``` 
 
@@ -9778,7 +9778,7 @@
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2, places : Integer, numericalBase : Integer) : Real2
 > ``` 
 
@@ -9792,7 +9792,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -9807,7 +9807,7 @@
 > |---|---|---|
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2x2, places : Integer) : Real2x2
 > ``` 
 
@@ -9823,7 +9823,7 @@
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2x2, places : Integer, numericalBase : Integer) : Real2x2
 > ``` 
 
@@ -9837,7 +9837,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -9852,7 +9852,7 @@
 > |---|---|---|
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2x3, places : Integer) : Real2x3
 > ``` 
 
@@ -9868,7 +9868,7 @@
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2x3, places : Integer, numericalBase : Integer) : Real2x3
 > ``` 
 
@@ -9882,7 +9882,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -9897,7 +9897,7 @@
 > |---|---|---|
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2x4, places : Integer) : Real2x4
 > ``` 
 
@@ -9913,7 +9913,7 @@
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real2x4, places : Integer, numericalBase : Integer) : Real2x4
 > ``` 
 
@@ -9927,7 +9927,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real3) : Real3
 > ``` 
 
@@ -9942,7 +9942,7 @@
 > |---|---|---|
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3, places : Integer) : Real3
 > ``` 
 
@@ -9958,7 +9958,7 @@
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3, places : Integer, numericalBase : Integer) : Real3
 > ``` 
 
@@ -9972,7 +9972,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -9987,7 +9987,7 @@
 > |---|---|---|
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3x2, places : Integer) : Real3x2
 > ``` 
 
@@ -10003,7 +10003,7 @@
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3x2, places : Integer, numericalBase : Integer) : Real3x2
 > ``` 
 
@@ -10017,7 +10017,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -10032,7 +10032,7 @@
 > |---|---|---|
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3x3, places : Integer) : Real3x3
 > ``` 
 
@@ -10048,7 +10048,7 @@
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3x3, places : Integer, numericalBase : Integer) : Real3x3
 > ``` 
 
@@ -10062,7 +10062,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -10077,7 +10077,7 @@
 > |---|---|---|
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3x4, places : Integer) : Real3x4
 > ``` 
 
@@ -10093,7 +10093,7 @@
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real3x4, places : Integer, numericalBase : Integer) : Real3x4
 > ``` 
 
@@ -10107,7 +10107,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real4) : Real4
 > ``` 
 
@@ -10122,7 +10122,7 @@
 > |---|---|---|
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4, places : Integer) : Real4
 > ``` 
 
@@ -10138,7 +10138,7 @@
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4, places : Integer, numericalBase : Integer) : Real4
 > ``` 
 
@@ -10152,7 +10152,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -10167,7 +10167,7 @@
 > |---|---|---|
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4x2, places : Integer) : Real4x2
 > ``` 
 
@@ -10183,7 +10183,7 @@
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4x2, places : Integer, numericalBase : Integer) : Real4x2
 > ``` 
 
@@ -10197,7 +10197,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -10212,7 +10212,7 @@
 > |---|---|---|
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4x3, places : Integer) : Real4x3
 > ``` 
 
@@ -10228,7 +10228,7 @@
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4x3, places : Integer, numericalBase : Integer) : Real4x3
 > ``` 
 
@@ -10242,7 +10242,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -10257,7 +10257,7 @@
 > |---|---|---|
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4x4, places : Integer) : Real4x4
 > ``` 
 
@@ -10273,7 +10273,7 @@
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Round(value : Real4x4, places : Integer, numericalBase : Integer) : Real4x4
 > ``` 
 
@@ -10287,7 +10287,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real) : Real
 > ``` 
 
@@ -10301,7 +10301,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real2) : Real2
 > ``` 
 
@@ -10315,7 +10315,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -10329,7 +10329,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -10343,7 +10343,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -10357,7 +10357,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real3) : Real3
 > ``` 
 
@@ -10371,7 +10371,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -10385,7 +10385,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -10399,7 +10399,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -10413,7 +10413,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real4) : Real4
 > ``` 
 
@@ -10427,7 +10427,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -10441,7 +10441,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -10455,7 +10455,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RSqrt(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -10469,7 +10469,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real) : Real
 > ``` 
 
@@ -10483,7 +10483,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real2) : Real2
 > ``` 
 
@@ -10497,7 +10497,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -10511,7 +10511,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -10525,7 +10525,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -10539,7 +10539,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real3) : Real3
 > ``` 
 
@@ -10553,7 +10553,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -10567,7 +10567,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -10581,7 +10581,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -10595,7 +10595,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real4) : Real4
 > ``` 
 
@@ -10609,7 +10609,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -10623,7 +10623,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -10637,7 +10637,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Saturate(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -10651,7 +10651,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer) : Integer
 > ``` 
 
@@ -10665,7 +10665,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2](integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer2) : Integer2
 > ``` 
 
@@ -10679,7 +10679,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer2x2) : Integer2x2
 > ``` 
 
@@ -10693,7 +10693,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer2x3) : Integer2x3
 > ``` 
 
@@ -10707,7 +10707,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer2x4) : Integer2x4
 > ``` 
 
@@ -10721,7 +10721,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3](integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer3) : Integer3
 > ``` 
 
@@ -10735,7 +10735,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer3x2) : Integer3x2
 > ``` 
 
@@ -10749,7 +10749,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer3x3) : Integer3x3
 > ``` 
 
@@ -10763,7 +10763,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer3x4) : Integer3x4
 > ``` 
 
@@ -10777,7 +10777,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4](integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer4) : Integer4
 > ``` 
 
@@ -10791,7 +10791,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer4x2) : Integer4x2
 > ``` 
 
@@ -10805,7 +10805,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer4x3) : Integer4x3
 > ``` 
 
@@ -10819,7 +10819,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Integer4x4) : Integer4x4
 > ``` 
 
@@ -10833,7 +10833,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real) : Integer
 > ``` 
 
@@ -10847,7 +10847,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real2) : Integer2
 > ``` 
 
@@ -10861,7 +10861,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real2x2) : Integer2x2
 > ``` 
 
@@ -10875,7 +10875,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real2x3) : Integer2x3
 > ``` 
 
@@ -10889,7 +10889,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real2x4) : Integer2x4
 > ``` 
 
@@ -10903,7 +10903,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real3) : Integer3
 > ``` 
 
@@ -10917,7 +10917,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real3x2) : Integer3x2
 > ``` 
 
@@ -10931,7 +10931,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real3x3) : Integer3x3
 > ``` 
 
@@ -10945,7 +10945,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real3x4) : Integer3x4
 > ``` 
 
@@ -10959,7 +10959,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real4) : Integer4
 > ``` 
 
@@ -10973,7 +10973,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real4x2) : Integer4x2
 > ``` 
 
@@ -10987,7 +10987,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real4x3) : Integer4x3
 > ``` 
 
@@ -11001,7 +11001,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sign(p0 : Real4x4) : Integer4x4
 > ``` 
 
@@ -11017,7 +11017,7 @@
 > |p0|[real3](real3.md)| |
 > |p1|[real3](real3.md)| |
 > |up|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SignedAngle(p0 : Real3, p1 : Real3, up : Real3) : Real
 > ``` 
 
@@ -11031,7 +11031,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real) : Real
 > ``` 
 
@@ -11045,7 +11045,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real2) : Real2
 > ``` 
 
@@ -11059,7 +11059,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real2x2) : Real2x2
 > ``` 
 
@@ -11073,7 +11073,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real2x3) : Real2x3
 > ``` 
 
@@ -11087,7 +11087,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real2x4) : Real2x4
 > ``` 
 
@@ -11101,7 +11101,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real3) : Real3
 > ``` 
 
@@ -11115,7 +11115,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real3x2) : Real3x2
 > ``` 
 
@@ -11129,7 +11129,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real3x3) : Real3x3
 > ``` 
 
@@ -11143,7 +11143,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real3x4) : Real3x4
 > ``` 
 
@@ -11157,7 +11157,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real4) : Real4
 > ``` 
 
@@ -11171,7 +11171,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real4x2) : Real4x2
 > ``` 
 
@@ -11185,7 +11185,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real4x3) : Real4x3
 > ``` 
 
@@ -11199,7 +11199,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sin(radians : Real4x4) : Real4x4
 > ``` 
 
@@ -11213,7 +11213,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real) : Real
 > ``` 
 
@@ -11227,7 +11227,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real2) : Real2
 > ``` 
 
@@ -11241,7 +11241,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real2x2) : Real2x2
 > ``` 
 
@@ -11255,7 +11255,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real2x3) : Real2x3
 > ``` 
 
@@ -11269,7 +11269,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real2x4) : Real2x4
 > ``` 
 
@@ -11283,7 +11283,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real3) : Real3
 > ``` 
 
@@ -11297,7 +11297,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real3x2) : Real3x2
 > ``` 
 
@@ -11311,7 +11311,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real3x3) : Real3x3
 > ``` 
 
@@ -11325,7 +11325,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real3x4) : Real3x4
 > ``` 
 
@@ -11339,7 +11339,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real4) : Real4
 > ``` 
 
@@ -11353,7 +11353,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real4x2) : Real4x2
 > ``` 
 
@@ -11367,7 +11367,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real4x3) : Real4x3
 > ``` 
 
@@ -11381,7 +11381,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sinh(radians : Real4x4) : Real4x4
 > ``` 
 
@@ -11397,7 +11397,7 @@
 > |start|[quaternion](quaternion.md)| |
 > |end|[quaternion](quaternion.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Slerp(start : Quaternion, end : Quaternion, t : Real) : Quaternion
 > ``` 
 
@@ -11413,7 +11413,7 @@
 > |start|[real2](real2.md)| |
 > |end|[real2](real2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Slerp(start : Real2, end : Real2, t : Real) : Real2
 > ``` 
 
@@ -11429,7 +11429,7 @@
 > |start|[real3](real3.md)| |
 > |end|[real3](real3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Slerp(start : Real3, end : Real3, t : Real) : Real3
 > ``` 
 
@@ -11445,7 +11445,7 @@
 > |start|[real2](real2.md)| |
 > |end|[real2](real2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SlerpUnnormalized(start : Real2, end : Real2, t : Real) : Real2
 > ``` 
 
@@ -11461,7 +11461,7 @@
 > |start|[real3](real3.md)| |
 > |end|[real3](real3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SlerpUnnormalized(start : Real3, end : Real3, t : Real) : Real3
 > ``` 
 
@@ -11477,7 +11477,7 @@
 > |min|[real](real.md)| |
 > |max|[real](real.md)| |
 > |x|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real, max : Real, x : Real) : Real
 > ``` 
 
@@ -11493,7 +11493,7 @@
 > |min|[real2](real2.md)| |
 > |max|[real2](real2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2, max : Real2, t : Real) : Real2
 > ``` 
 
@@ -11509,7 +11509,7 @@
 > |min|[real2](real2.md)| |
 > |max|[real2](real2.md)| |
 > |x|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2, max : Real2, x : Real2) : Real2
 > ``` 
 
@@ -11525,7 +11525,7 @@
 > |min|[real2x2](real2x2.md)| |
 > |max|[real2x2](real2x2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2x2, max : Real2x2, t : Real) : Real2x2
 > ``` 
 
@@ -11541,7 +11541,7 @@
 > |min|[real2x2](real2x2.md)| |
 > |max|[real2x2](real2x2.md)| |
 > |x|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2x2, max : Real2x2, x : Real2x2) : Real2x2
 > ``` 
 
@@ -11557,7 +11557,7 @@
 > |min|[real2x3](real2x3.md)| |
 > |max|[real2x3](real2x3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2x3, max : Real2x3, t : Real) : Real2x3
 > ``` 
 
@@ -11573,7 +11573,7 @@
 > |min|[real2x3](real2x3.md)| |
 > |max|[real2x3](real2x3.md)| |
 > |x|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2x3, max : Real2x3, x : Real2x3) : Real2x3
 > ``` 
 
@@ -11589,7 +11589,7 @@
 > |min|[real2x4](real2x4.md)| |
 > |max|[real2x4](real2x4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2x4, max : Real2x4, t : Real) : Real2x4
 > ``` 
 
@@ -11605,7 +11605,7 @@
 > |min|[real2x4](real2x4.md)| |
 > |max|[real2x4](real2x4.md)| |
 > |x|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real2x4, max : Real2x4, x : Real2x4) : Real2x4
 > ``` 
 
@@ -11621,7 +11621,7 @@
 > |min|[real3](real3.md)| |
 > |max|[real3](real3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3, max : Real3, t : Real) : Real3
 > ``` 
 
@@ -11637,7 +11637,7 @@
 > |min|[real3](real3.md)| |
 > |max|[real3](real3.md)| |
 > |x|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3, max : Real3, x : Real3) : Real3
 > ``` 
 
@@ -11653,7 +11653,7 @@
 > |min|[real3x2](real3x2.md)| |
 > |max|[real3x2](real3x2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3x2, max : Real3x2, t : Real) : Real3x2
 > ``` 
 
@@ -11669,7 +11669,7 @@
 > |min|[real3x2](real3x2.md)| |
 > |max|[real3x2](real3x2.md)| |
 > |x|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3x2, max : Real3x2, x : Real3x2) : Real3x2
 > ``` 
 
@@ -11685,7 +11685,7 @@
 > |min|[real3x3](real3x3.md)| |
 > |max|[real3x3](real3x3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3x3, max : Real3x3, t : Real) : Real3x3
 > ``` 
 
@@ -11701,7 +11701,7 @@
 > |min|[real3x3](real3x3.md)| |
 > |max|[real3x3](real3x3.md)| |
 > |x|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3x3, max : Real3x3, x : Real3x3) : Real3x3
 > ``` 
 
@@ -11717,7 +11717,7 @@
 > |min|[real3x4](real3x4.md)| |
 > |max|[real3x4](real3x4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3x4, max : Real3x4, t : Real) : Real3x4
 > ``` 
 
@@ -11733,7 +11733,7 @@
 > |min|[real3x4](real3x4.md)| |
 > |max|[real3x4](real3x4.md)| |
 > |x|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real3x4, max : Real3x4, x : Real3x4) : Real3x4
 > ``` 
 
@@ -11749,7 +11749,7 @@
 > |min|[real4](real4.md)| |
 > |max|[real4](real4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4, max : Real4, t : Real) : Real4
 > ``` 
 
@@ -11765,7 +11765,7 @@
 > |min|[real4](real4.md)| |
 > |max|[real4](real4.md)| |
 > |x|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4, max : Real4, x : Real4) : Real4
 > ``` 
 
@@ -11781,7 +11781,7 @@
 > |min|[real4x2](real4x2.md)| |
 > |max|[real4x2](real4x2.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4x2, max : Real4x2, t : Real) : Real4x2
 > ``` 
 
@@ -11797,7 +11797,7 @@
 > |min|[real4x2](real4x2.md)| |
 > |max|[real4x2](real4x2.md)| |
 > |x|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4x2, max : Real4x2, x : Real4x2) : Real4x2
 > ``` 
 
@@ -11813,7 +11813,7 @@
 > |min|[real4x3](real4x3.md)| |
 > |max|[real4x3](real4x3.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4x3, max : Real4x3, t : Real) : Real4x3
 > ``` 
 
@@ -11829,7 +11829,7 @@
 > |min|[real4x3](real4x3.md)| |
 > |max|[real4x3](real4x3.md)| |
 > |x|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4x3, max : Real4x3, x : Real4x3) : Real4x3
 > ``` 
 
@@ -11845,7 +11845,7 @@
 > |min|[real4x4](real4x4.md)| |
 > |max|[real4x4](real4x4.md)| |
 > |t|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4x4, max : Real4x4, t : Real) : Real4x4
 > ``` 
 
@@ -11861,7 +11861,7 @@
 > |min|[real4x4](real4x4.md)| |
 > |max|[real4x4](real4x4.md)| |
 > |x|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SmoothStep(min : Real4x4, max : Real4x4, x : Real4x4) : Real4x4
 > ``` 
 
@@ -11875,7 +11875,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real) : Real
 > ``` 
 
@@ -11889,7 +11889,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real2) : Real2
 > ``` 
 
@@ -11903,7 +11903,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -11917,7 +11917,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -11931,7 +11931,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -11945,7 +11945,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real3) : Real3
 > ``` 
 
@@ -11959,7 +11959,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -11973,7 +11973,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -11987,7 +11987,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -12001,7 +12001,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real4) : Real4
 > ``` 
 
@@ -12015,7 +12015,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -12029,7 +12029,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -12043,7 +12043,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sqrt(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -12058,7 +12058,7 @@
 > |---|---|---|
 > |y|[real](real.md)| |
 > |x|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real, x : Real) : Real
 > ``` 
 
@@ -12073,7 +12073,7 @@
 > |---|---|---|
 > |y|[real2](real2.md)| |
 > |x|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real2, x : Real2) : Real2
 > ``` 
 
@@ -12088,7 +12088,7 @@
 > |---|---|---|
 > |y|[real2x2](real2x2.md)| |
 > |x|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real2x2, x : Real2x2) : Real2x2
 > ``` 
 
@@ -12103,7 +12103,7 @@
 > |---|---|---|
 > |y|[real2x3](real2x3.md)| |
 > |x|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real2x3, x : Real2x3) : Real2x3
 > ``` 
 
@@ -12118,7 +12118,7 @@
 > |---|---|---|
 > |y|[real2x4](real2x4.md)| |
 > |x|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real2x4, x : Real2x4) : Real2x4
 > ``` 
 
@@ -12133,7 +12133,7 @@
 > |---|---|---|
 > |y|[real3](real3.md)| |
 > |x|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real3, x : Real3) : Real3
 > ``` 
 
@@ -12148,7 +12148,7 @@
 > |---|---|---|
 > |y|[real3x2](real3x2.md)| |
 > |x|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real3x2, x : Real3x2) : Real3x2
 > ``` 
 
@@ -12163,7 +12163,7 @@
 > |---|---|---|
 > |y|[real3x3](real3x3.md)| |
 > |x|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real3x3, x : Real3x3) : Real3x3
 > ``` 
 
@@ -12178,7 +12178,7 @@
 > |---|---|---|
 > |y|[real3x4](real3x4.md)| |
 > |x|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real3x4, x : Real3x4) : Real3x4
 > ``` 
 
@@ -12193,7 +12193,7 @@
 > |---|---|---|
 > |y|[real4](real4.md)| |
 > |x|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real4, x : Real4) : Real4
 > ``` 
 
@@ -12208,7 +12208,7 @@
 > |---|---|---|
 > |y|[real4x2](real4x2.md)| |
 > |x|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real4x2, x : Real4x2) : Real4x2
 > ``` 
 
@@ -12223,7 +12223,7 @@
 > |---|---|---|
 > |y|[real4x3](real4x3.md)| |
 > |x|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real4x3, x : Real4x3) : Real4x3
 > ``` 
 
@@ -12238,7 +12238,7 @@
 > |---|---|---|
 > |y|[real4x4](real4x4.md)| |
 > |x|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Step(y : Real4x4, x : Real4x4) : Real4x4
 > ``` 
 
@@ -12252,7 +12252,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real) : Real
 > ``` 
 
@@ -12266,7 +12266,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real2) : Real2
 > ``` 
 
@@ -12280,7 +12280,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real2x2) : Real2x2
 > ``` 
 
@@ -12294,7 +12294,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real2x3) : Real2x3
 > ``` 
 
@@ -12308,7 +12308,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real2x4) : Real2x4
 > ``` 
 
@@ -12322,7 +12322,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real3) : Real3
 > ``` 
 
@@ -12336,7 +12336,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real3x2) : Real3x2
 > ``` 
 
@@ -12350,7 +12350,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real3x3) : Real3x3
 > ``` 
 
@@ -12364,7 +12364,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real3x4) : Real3x4
 > ``` 
 
@@ -12378,7 +12378,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real4) : Real4
 > ``` 
 
@@ -12392,7 +12392,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real4x2) : Real4x2
 > ``` 
 
@@ -12406,7 +12406,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real4x3) : Real4x3
 > ``` 
 
@@ -12420,7 +12420,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tan(radians : Real4x4) : Real4x4
 > ``` 
 
@@ -12434,7 +12434,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real) : Real
 > ``` 
 
@@ -12448,7 +12448,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real2) : Real2
 > ``` 
 
@@ -12462,7 +12462,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real2x2) : Real2x2
 > ``` 
 
@@ -12476,7 +12476,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real2x3) : Real2x3
 > ``` 
 
@@ -12490,7 +12490,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real2x4) : Real2x4
 > ``` 
 
@@ -12504,7 +12504,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real3) : Real3
 > ``` 
 
@@ -12518,7 +12518,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real3x2) : Real3x2
 > ``` 
 
@@ -12532,7 +12532,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real3x3) : Real3x3
 > ``` 
 
@@ -12546,7 +12546,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real3x4) : Real3x4
 > ``` 
 
@@ -12560,7 +12560,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real4) : Real4
 > ``` 
 
@@ -12574,7 +12574,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real4x2) : Real4x2
 > ``` 
 
@@ -12588,7 +12588,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real4x3) : Real4x3
 > ``` 
 
@@ -12602,7 +12602,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Tanh(radians : Real4x4) : Real4x4
 > ``` 
 
@@ -12616,7 +12616,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real) : Real
 > ``` 
 
@@ -12630,7 +12630,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real2) : Real2
 > ``` 
 
@@ -12644,7 +12644,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real2x2) : Real2x2
 > ``` 
 
@@ -12658,7 +12658,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real2x3) : Real2x3
 > ``` 
 
@@ -12672,7 +12672,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real2x4) : Real2x4
 > ``` 
 
@@ -12686,7 +12686,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real3) : Real3
 > ``` 
 
@@ -12700,7 +12700,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real3x2) : Real3x2
 > ``` 
 
@@ -12714,7 +12714,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real3x3) : Real3x3
 > ``` 
 
@@ -12728,7 +12728,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real3x4) : Real3x4
 > ``` 
 
@@ -12742,7 +12742,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real4) : Real4
 > ``` 
 
@@ -12756,7 +12756,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real4x2) : Real4x2
 > ``` 
 
@@ -12770,7 +12770,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real4x3) : Real4x3
 > ``` 
 
@@ -12784,7 +12784,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |radians|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToDegrees(radians : Real4x4) : Real4x4
 > ``` 
 
@@ -12800,7 +12800,7 @@
 > |xRadians|[real](real.md)| |
 > |yRadians|[real](real.md)| |
 > |zRadians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToQuaternion(xRadians : Real, yRadians : Real, zRadians : Real) : Quaternion
 > ``` 
 
@@ -12814,7 +12814,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |eulerRadians|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToQuaternion(eulerRadians : Real3) : Quaternion
 > ``` 
 
@@ -12829,7 +12829,7 @@
 > |---|---|---|
 > |axis|[real3](real3.md)| |
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToQuaternion(axis : Real3, radians : Real) : Quaternion
 > ``` 
 
@@ -12844,7 +12844,7 @@
 > |---|---|---|
 > |facing|[real3](real3.md)| |
 > |up|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToQuaternion(facing : Real3, up : Real3) : Quaternion
 > ``` 
 
@@ -12860,7 +12860,7 @@
 > |facing|[real3](real3.md)| |
 > |up|[real3](real3.md)| |
 > |right|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToQuaternion(facing : Real3, up : Real3, right : Real3) : Quaternion
 > ``` 
 
@@ -12874,7 +12874,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rotationMatrix|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToQuaternion(rotationMatrix : Real3x3) : Quaternion
 > ``` 
 
@@ -12888,7 +12888,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real) : Real
 > ``` 
 
@@ -12902,7 +12902,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real2) : Real2
 > ``` 
 
@@ -12916,7 +12916,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real2x2) : Real2x2
 > ``` 
 
@@ -12930,7 +12930,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real2x3) : Real2x3
 > ``` 
 
@@ -12944,7 +12944,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real2x4) : Real2x4
 > ``` 
 
@@ -12958,7 +12958,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real3) : Real3
 > ``` 
 
@@ -12972,7 +12972,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real3x2) : Real3x2
 > ``` 
 
@@ -12986,7 +12986,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real3x3) : Real3x3
 > ``` 
 
@@ -13000,7 +13000,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real3x4) : Real3x4
 > ``` 
 
@@ -13014,7 +13014,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real4) : Real4
 > ``` 
 
@@ -13028,7 +13028,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real4x2) : Real4x2
 > ``` 
 
@@ -13042,7 +13042,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real4x3) : Real4x3
 > ``` 
 
@@ -13056,7 +13056,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |degrees|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToRadians(degrees : Real4x4) : Real4x4
 > ``` 
 
@@ -13070,7 +13070,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rotation|[quaternion](quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToReal3x3(rotation : Quaternion) : Real3x3
 > ``` 
 
@@ -13086,7 +13086,7 @@
 > |xRadians|[real](real.md)| |
 > |yRadians|[real](real.md)| |
 > |zRadians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToReal3x3(xRadians : Real, yRadians : Real, zRadians : Real) : Real3x3
 > ``` 
 
@@ -13101,7 +13101,7 @@
 > |---|---|---|
 > |axis|[real3](real3.md)| |
 > |radians|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToReal3x3(axis : Real3, radians : Real) : Real3x3
 > ``` 
 
@@ -13116,7 +13116,7 @@
 > |---|---|---|
 > |facing|[real3](real3.md)| |
 > |up|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToReal3x3(facing : Real3, up : Real3) : Real3x3
 > ``` 
 
@@ -13132,7 +13132,7 @@
 > |facing|[real3](real3.md)| |
 > |up|[real3](real3.md)| |
 > |right|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToReal3x3(facing : Real3, up : Real3, right : Real3) : Real3x3
 > ``` 
 
@@ -13146,7 +13146,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x2](boolean2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean2x2) : Boolean2x2
 > ``` 
 
@@ -13160,7 +13160,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x3](boolean2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean2x3) : Boolean3x2
 > ``` 
 
@@ -13174,7 +13174,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean2x4](boolean2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean2x4) : Boolean4x2
 > ``` 
 
@@ -13188,7 +13188,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x2](boolean3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean3x2) : Boolean2x3
 > ``` 
 
@@ -13202,7 +13202,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x3](boolean3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean3x3) : Boolean3x3
 > ``` 
 
@@ -13216,7 +13216,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean3x4](boolean3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean3x4) : Boolean4x3
 > ``` 
 
@@ -13230,7 +13230,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x2](boolean4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean4x2) : Boolean2x4
 > ``` 
 
@@ -13244,7 +13244,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x3](boolean4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean4x3) : Boolean3x4
 > ``` 
 
@@ -13258,7 +13258,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean4x4](boolean4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Boolean4x4) : Boolean4x4
 > ``` 
 
@@ -13272,7 +13272,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x2](integer2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer2x2) : Integer2x2
 > ``` 
 
@@ -13286,7 +13286,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x3](integer2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer2x3) : Integer3x2
 > ``` 
 
@@ -13300,7 +13300,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer2x4](integer2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer2x4) : Integer4x2
 > ``` 
 
@@ -13314,7 +13314,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x2](integer3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer3x2) : Integer2x3
 > ``` 
 
@@ -13328,7 +13328,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x3](integer3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer3x3) : Integer3x3
 > ``` 
 
@@ -13342,7 +13342,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer3x4](integer3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer3x4) : Integer4x3
 > ``` 
 
@@ -13356,7 +13356,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x2](integer4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer4x2) : Integer2x4
 > ``` 
 
@@ -13370,7 +13370,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x3](integer4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer4x3) : Integer3x4
 > ``` 
 
@@ -13384,7 +13384,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer4x4](integer4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Integer4x4) : Integer4x4
 > ``` 
 
@@ -13398,7 +13398,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -13412,7 +13412,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real2x3) : Real3x2
 > ``` 
 
@@ -13426,7 +13426,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real2x4) : Real4x2
 > ``` 
 
@@ -13440,7 +13440,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real3x2) : Real2x3
 > ``` 
 
@@ -13454,7 +13454,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -13468,7 +13468,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real3x4) : Real4x3
 > ``` 
 
@@ -13482,7 +13482,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real4x2) : Real2x4
 > ``` 
 
@@ -13496,7 +13496,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real4x3) : Real3x4
 > ``` 
 
@@ -13510,7 +13510,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Transpose(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -13524,7 +13524,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real) : Real
 > ``` 
 
@@ -13539,7 +13539,7 @@
 > |---|---|---|
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real, places : Integer) : Real
 > ``` 
 
@@ -13555,7 +13555,7 @@
 > |value|[real](real.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real, places : Integer, numericalBase : Integer) : Real
 > ``` 
 
@@ -13569,7 +13569,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2](real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real2) : Real2
 > ``` 
 
@@ -13584,7 +13584,7 @@
 > |---|---|---|
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2, places : Integer) : Real2
 > ``` 
 
@@ -13600,7 +13600,7 @@
 > |value|[real2](real2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2, places : Integer, numericalBase : Integer) : Real2
 > ``` 
 
@@ -13614,7 +13614,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x2](real2x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real2x2) : Real2x2
 > ``` 
 
@@ -13629,7 +13629,7 @@
 > |---|---|---|
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2x2, places : Integer) : Real2x2
 > ``` 
 
@@ -13645,7 +13645,7 @@
 > |value|[real2x2](real2x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2x2, places : Integer, numericalBase : Integer) : Real2x2
 > ``` 
 
@@ -13659,7 +13659,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x3](real2x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real2x3) : Real2x3
 > ``` 
 
@@ -13674,7 +13674,7 @@
 > |---|---|---|
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2x3, places : Integer) : Real2x3
 > ``` 
 
@@ -13690,7 +13690,7 @@
 > |value|[real2x3](real2x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2x3, places : Integer, numericalBase : Integer) : Real2x3
 > ``` 
 
@@ -13704,7 +13704,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real2x4](real2x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real2x4) : Real2x4
 > ``` 
 
@@ -13719,7 +13719,7 @@
 > |---|---|---|
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2x4, places : Integer) : Real2x4
 > ``` 
 
@@ -13735,7 +13735,7 @@
 > |value|[real2x4](real2x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real2x4, places : Integer, numericalBase : Integer) : Real2x4
 > ``` 
 
@@ -13749,7 +13749,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real3) : Real3
 > ``` 
 
@@ -13764,7 +13764,7 @@
 > |---|---|---|
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3, places : Integer) : Real3
 > ``` 
 
@@ -13780,7 +13780,7 @@
 > |value|[real3](real3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3, places : Integer, numericalBase : Integer) : Real3
 > ``` 
 
@@ -13794,7 +13794,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x2](real3x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real3x2) : Real3x2
 > ``` 
 
@@ -13809,7 +13809,7 @@
 > |---|---|---|
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3x2, places : Integer) : Real3x2
 > ``` 
 
@@ -13825,7 +13825,7 @@
 > |value|[real3x2](real3x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3x2, places : Integer, numericalBase : Integer) : Real3x2
 > ``` 
 
@@ -13839,7 +13839,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x3](real3x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real3x3) : Real3x3
 > ``` 
 
@@ -13854,7 +13854,7 @@
 > |---|---|---|
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3x3, places : Integer) : Real3x3
 > ``` 
 
@@ -13870,7 +13870,7 @@
 > |value|[real3x3](real3x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3x3, places : Integer, numericalBase : Integer) : Real3x3
 > ``` 
 
@@ -13884,7 +13884,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3x4](real3x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real3x4) : Real3x4
 > ``` 
 
@@ -13899,7 +13899,7 @@
 > |---|---|---|
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3x4, places : Integer) : Real3x4
 > ``` 
 
@@ -13915,7 +13915,7 @@
 > |value|[real3x4](real3x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real3x4, places : Integer, numericalBase : Integer) : Real3x4
 > ``` 
 
@@ -13929,7 +13929,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4](real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real4) : Real4
 > ``` 
 
@@ -13944,7 +13944,7 @@
 > |---|---|---|
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4, places : Integer) : Real4
 > ``` 
 
@@ -13960,7 +13960,7 @@
 > |value|[real4](real4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4, places : Integer, numericalBase : Integer) : Real4
 > ``` 
 
@@ -13974,7 +13974,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x2](real4x2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real4x2) : Real4x2
 > ``` 
 
@@ -13989,7 +13989,7 @@
 > |---|---|---|
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4x2, places : Integer) : Real4x2
 > ``` 
 
@@ -14005,7 +14005,7 @@
 > |value|[real4x2](real4x2.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4x2, places : Integer, numericalBase : Integer) : Real4x2
 > ``` 
 
@@ -14019,7 +14019,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x3](real4x3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real4x3) : Real4x3
 > ``` 
 
@@ -14034,7 +14034,7 @@
 > |---|---|---|
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4x3, places : Integer) : Real4x3
 > ``` 
 
@@ -14050,7 +14050,7 @@
 > |value|[real4x3](real4x3.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4x3, places : Integer, numericalBase : Integer) : Real4x3
 > ``` 
 
@@ -14064,7 +14064,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real4x4](real4x4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(p0 : Real4x4) : Real4x4
 > ``` 
 
@@ -14079,7 +14079,7 @@
 > |---|---|---|
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4x4, places : Integer) : Real4x4
 > ``` 
 
@@ -14095,7 +14095,7 @@
 > |value|[real4x4](real4x4.md)| |
 > |places|[integer](integer.md)| |
 > |numericalBase|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Truncate(value : Real4x4, places : Integer, numericalBase : Integer) : Real4x4
 > ``` 
 

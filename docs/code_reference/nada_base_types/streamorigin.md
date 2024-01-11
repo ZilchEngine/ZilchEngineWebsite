@@ -16,7 +16,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : StreamOrigin
 
 
@@ -26,7 +26,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var End : StreamOrigin
 
 
@@ -36,7 +36,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Start : StreamOrigin
 
 

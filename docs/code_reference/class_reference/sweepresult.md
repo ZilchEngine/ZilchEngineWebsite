@@ -22,7 +22,7 @@
  `read-only`
 
 > The other collider being hit.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OtherCollider : Collider
 
 
@@ -32,7 +32,7 @@
  `read-only`
 
 > The other cog being hit.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OtherObject : Cog
 
 
@@ -42,7 +42,7 @@
  `read-only`
 
 > The amount of overlap with this object. Will typically be zero unless the objects start in contact.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Penetration : Real
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > The time of impact that this collision first happens.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Time : Real
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > The contact normal pointing from the sweeping object towards the other object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldNormalTowardsOther : Real3
 
 
@@ -72,7 +72,7 @@
  `read-only`
 
 > The contact normal pointing from the other object towards the sweeping object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldNormalTowardsSelf : Real3
 
 
@@ -82,7 +82,7 @@
  `read-only`
 
 > The point of intersection in world-space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPoint : Real3
 
 
@@ -98,7 +98,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SweepResult()
 > ``` 
 
@@ -112,7 +112,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[sweepresult](sweepresult.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SweepResult( : SweepResult)
 > ``` 
 

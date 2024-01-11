@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : MultiConvexMeshSubMeshRange
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -41,7 +41,7 @@
 > Create and add a new SubConvexMesh. Returns the new mesh for modification.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add() : SubConvexMesh
 > ``` 
 
@@ -52,7 +52,7 @@
 > Clears all sub-meshes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get( : Integer) : SubConvexMesh
 > ``` 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |arrayIndex|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(arrayIndex : Integer)
 > ``` 
 

@@ -48,7 +48,7 @@
  #  BasicHostInfoTimeout : [real](../nada_base_types/real.md)
 
 > [Client/Server] Determines the amount of time the client is willing to wait for.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BasicHostInfoTimeout : Real
 
 
@@ -56,7 +56,7 @@
  #  ExtraHostInfoTimeout : [real](../nada_base_types/real.md)
 
 > [Client/Server] Determines the amount of time the client will wait for extra host info from a server.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ExtraHostInfoTimeout : Real
 
 
@@ -64,7 +64,7 @@
  #  FrameFillSkip : [real](../nada_base_types/real.md)
 
 > Controls when to skip change replication for the current frame because of remaining outgoing bandwidth utilization ratio on any given link.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameFillSkip : Real
 
 
@@ -72,7 +72,7 @@
  #  FrameFillWarning : [real](../nada_base_types/real.md)
 
 > Controls when the user will be warned of their current frame's outgoing bandwidth utilization ratio on any given link.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrameFillWarning : Real
 
 
@@ -80,7 +80,7 @@
  #  HostPingInterval : [real](../nada_base_types/real.md)
 
 > [Client/Server] The time between (potentially) redundant pings from a net peer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HostPingInterval : Real
 
 
@@ -88,7 +88,7 @@
  #  HostPortRangeEnd : [integer](../nada_base_types/integer.md)
 
 > Configures the inclusive range of ports used to host this game.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HostPortRangeEnd : Integer
 
 
@@ -96,7 +96,7 @@
  #  HostPortRangeStart : [integer](../nada_base_types/integer.md)
 
 > Configures the inclusive range of ports used to host this game.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HostPortRangeStart : Integer
 
 
@@ -106,7 +106,7 @@
  `read-only`
 
 > Current peer identifier information display string. Provided for logging and debugging convenience. Contains the peer's local IP address, network role, and net peer ID.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Info : String
 
 
@@ -114,7 +114,7 @@
  #  InternetDiscoverable : [boolean](../nada_base_types/boolean.md)
 
 > Configures the server peer to be discoverable on the internet.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InternetDiscoverable : Boolean
 
 
@@ -122,7 +122,7 @@
  #  InternetHostListTimeout : [real](../nada_base_types/real.md)
 
 > [Client/Server] Determines the amount of time the client is willing to wait to get a host list from master server.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InternetHostListTimeout : Real
 
 
@@ -130,7 +130,7 @@
  #  InternetHostPublishInterval : [real](../nada_base_types/real.md)
 
 > Controls how often the internet discoverable peer sends a host record message to its master server subscriptions.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InternetHostPublishInterval : Real
 
 
@@ -138,7 +138,7 @@
  #  InternetHostRecordLifetime : [real](../nada_base_types/real.md)
 
 > Controls the lifetime of every host record stored on the master server.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InternetHostRecordLifetime : Real
 
 
@@ -146,7 +146,7 @@
  #  InternetSameIpHostRecordLimit : [integer](../nada_base_types/integer.md)
 
 > Controls how many host records from the same IP address may be stored on the master server (used to prevent flood attacks).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InternetSameIpHostRecordLimit : Integer
 
 
@@ -156,7 +156,7 @@
  `read-only`
 
 > Returns the peer's local IPv4 address, else IpAddress(). Set if the peer is open with an IPv4 socket.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ipv4Address : IpAddress
 
 
@@ -166,7 +166,7 @@
  `read-only`
 
 > Returns the peer's local IPv4 address host as a numeric address string, else String().
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ipv4Host : String
 
 
@@ -176,7 +176,7 @@
  `read-only`
 
 > Returns the peer's local IPv4 address port, else String().
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ipv4Port : Integer
 
 
@@ -186,7 +186,7 @@
  `read-only`
 
 > Returns true if the peer is open, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsOpen : Boolean
 
 
@@ -194,7 +194,7 @@
  #  LanDiscoverable : [boolean](../nada_base_types/boolean.md)
 
 > Configures the server peer to be discoverable on the local area network.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LanDiscoverable : Boolean
 
 
@@ -204,7 +204,7 @@
  `read-only`
 
 > [Client/Server] Returns the number of connected network links managed by this peer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LinkCount : Integer
 
 
@@ -214,7 +214,7 @@
  `read-only`
 
 > Returns the number of net objects in this game session (but not including the net peer itself).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetObjectCount : Integer
 
 
@@ -224,7 +224,7 @@
  `read-only`
 
 > Returns the open peer's unique network identifier, else 0. [Server/Offline] This will always be zero. [Client] This will be non-zero once connected to a server, else zero.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetPeerId : Integer
 
 
@@ -234,7 +234,7 @@
  `read-only`
 
 > Returns the number of net spaces in this game session.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetSpaceCount : Integer
 
 
@@ -244,7 +244,7 @@
  `read-only`
 
 > Returns the number of net users in this game session.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetUserCount : Integer
 
 
@@ -254,7 +254,7 @@
  `read-only`
 
 > Returns the number of added network users.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UserCount : Integer
 
 
@@ -264,7 +264,7 @@
  `read-only`
 
 > Returns all added network users.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Users : NetUserRange
 
 
@@ -274,7 +274,7 @@
  `read-only`
 
 > Returns the network users added by our local peer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UsersAddedByMyPeer : NetUserRange
 
 
@@ -288,7 +288,7 @@
 > Initiates a network user add request to add a new user belonging to our local peer (delayed until end of frame). Listen to the NetUser event interface to handle the results. Returns true if the request was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddUser() : Boolean
 > ``` 
 
@@ -300,7 +300,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |requestEvent|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddUser(requestEvent : Event) : Boolean
 > ``` 
 
@@ -312,7 +312,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |requestBundle|[eventbundle](eventbundle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddUser(requestBundle : EventBundle) : Boolean
 > ``` 
 
@@ -323,7 +323,7 @@
 > Cancels all host discovery and refresh requests currently in progress (the operations will be considered unsuccessful). Listen to the NetHost event interface to handle the results.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CancelHostRequests()
 > ``` 
 
@@ -335,7 +335,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |network|[Network](../enum_reference.md#network)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearHostList(network : Network)
 > ``` 
 
@@ -346,7 +346,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearHostLists()
 > ``` 
 
@@ -357,7 +357,7 @@
 > Closes the peer (safe to call multiple times).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Close()
 > ``` 
 
@@ -369,7 +369,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ConnectLink(ipAddress : IpAddress) : Boolean
 > ``` 
 
@@ -382,7 +382,7 @@
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
 > |requestEvent|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ConnectLink(ipAddress : IpAddress, requestEvent : Event) : Boolean
 > ``` 
 
@@ -395,7 +395,7 @@
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
 > |requestBundle|[eventbundle](eventbundle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ConnectLink(ipAddress : IpAddress, requestBundle : EventBundle) : Boolean
 > ``` 
 
@@ -406,7 +406,7 @@
 > [Client/Server] Disconnects by request from all remote peers. Listen to the NetLink event interface to handle the results. Returns the number of links disconnected.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectAllLinks() : Integer
 > ``` 
 
@@ -418,7 +418,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |requestEvent|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectAllLinks(requestEvent : Event) : Integer
 > ``` 
 
@@ -430,7 +430,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |requestBundle|[eventbundle](eventbundle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectAllLinks(requestBundle : EventBundle) : Integer
 > ``` 
 
@@ -442,7 +442,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectLink(netPeerId : Integer) : Boolean
 > ``` 
 
@@ -455,7 +455,7 @@
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
 > |requestEvent|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectLink(netPeerId : Integer, requestEvent : Event) : Boolean
 > ``` 
 
@@ -468,7 +468,7 @@
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
 > |requestBundle|[eventbundle](eventbundle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectLink(netPeerId : Integer, requestBundle : EventBundle) : Boolean
 > ``` 
 
@@ -480,7 +480,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectLink(ipAddress : IpAddress) : Boolean
 > ``` 
 
@@ -493,7 +493,7 @@
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
 > |requestEvent|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectLink(ipAddress : IpAddress, requestEvent : Event) : Boolean
 > ``` 
 
@@ -506,7 +506,7 @@
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
 > |requestBundle|[eventbundle](eventbundle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DisconnectLink(ipAddress : IpAddress, requestBundle : EventBundle) : Boolean
 > ``` 
 
@@ -519,7 +519,7 @@
 > |---|---|---|
 > |network|[Network](../enum_reference.md#network)| |
 > |removeStaleHosts|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DiscoverHostList(network : Network, removeStaleHosts : Boolean) : Boolean
 > ``` 
 
@@ -531,7 +531,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetHostByAddress(ipAddress : IpAddress) : NetHost
 > ``` 
 
@@ -544,7 +544,7 @@
 > |---|---|---|
 > |network|[Network](../enum_reference.md#network)| |
 > |ipAddress|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetHostByAddress(network : Network, ipAddress : IpAddress) : NetHost
 > ``` 
 
@@ -557,7 +557,7 @@
 > |---|---|---|
 > |network|[Network](../enum_reference.md#network)| |
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetHostByIndex(network : Network, index : Integer) : NetHost
 > ``` 
 
@@ -569,7 +569,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |network|[Network](../enum_reference.md#network)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetHostList(network : Network) : NetHostRange
 > ``` 
 
@@ -581,7 +581,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLinkCreationDirection(netPeerId : Integer) : TransmissionDirection
 > ``` 
 
@@ -593,7 +593,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLinkInternetProtocol(netPeerId : Integer) : InternetProtocol
 > ``` 
 
@@ -605,7 +605,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLinkIpAddress(netPeerId : Integer) : IpAddress
 > ``` 
 
@@ -617,7 +617,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLinkNetPeerId(ipAddress : IpAddress) : Integer
 > ``` 
 
@@ -629,7 +629,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLinkState(netPeerId : Integer) : LinkState
 > ``` 
 
@@ -641,7 +641,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLinkStatus(netPeerId : Integer) : LinkStatus
 > ``` 
 
@@ -653,7 +653,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netObjectId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetNetObject(netObjectId : Integer) : Cog
 > ``` 
 
@@ -665,7 +665,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netObjectId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetNetSpace(netObjectId : Integer) : Space
 > ``` 
 
@@ -677,7 +677,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOurIpAddressFromLink(netPeerId : Integer) : IpAddress
 > ``` 
 
@@ -689,7 +689,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netUserId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetUser(netUserId : Integer) : Cog
 > ``` 
 
@@ -701,7 +701,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetUsersAddedByPeer(netPeerId : Integer) : NetUserRange
 > ``` 
 
@@ -714,7 +714,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NetPeer()
 > ``` 
 
@@ -726,7 +726,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |role|[NetRole](../enum_reference.md#netrole)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Open(role : NetRole) : Boolean
 > ``` 
 
@@ -739,7 +739,7 @@
 > |---|---|---|
 > |role|[NetRole](../enum_reference.md#netrole)| |
 > |port|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Open(role : NetRole, port : Integer) : Boolean
 > ``` 
 
@@ -753,7 +753,7 @@
 > |role|[NetRole](../enum_reference.md#netrole)| |
 > |port|[integer](../nada_base_types/integer.md)| |
 > |retries|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Open(role : NetRole, port : Integer, retries : Integer) : Boolean
 > ``` 
 
@@ -764,7 +764,7 @@
 > Opens the peer as a client on any available port. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function OpenClient() : Boolean
 > ``` 
 
@@ -776,7 +776,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |port|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function OpenClient(port : Integer) : Boolean
 > ``` 
 
@@ -789,7 +789,7 @@
 > |---|---|---|
 > |port|[integer](../nada_base_types/integer.md)| |
 > |retries|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function OpenClient(port : Integer, retries : Integer) : Boolean
 > ``` 
 
@@ -800,7 +800,7 @@
 > Opens the peer in offline mode. In offline mode, the peer will act as a pass-through and simulate all applicable network events locally. Always succeeds and returns true.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function OpenOffline() : Boolean
 > ``` 
 
@@ -811,7 +811,7 @@
 > Opens the peer as a server on any available port. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function OpenServer() : Boolean
 > ``` 
 
@@ -823,7 +823,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |port|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function OpenServer(port : Integer) : Boolean
 > ``` 
 
@@ -839,7 +839,7 @@
 > |getExtraHostInfo|[boolean](../nada_base_types/boolean.md)| |
 > |allowDiscovery|[boolean](../nada_base_types/boolean.md)| |
 > |removeStaleHosts|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RefreshHost(network : Network, ipAddress : IpAddress, getExtraHostInfo : Boolean, allowDiscovery : Boolean, removeStaleHosts : Boolean) : Boolean
 > ``` 
 
@@ -854,7 +854,7 @@
 > |getExtraHostInfo|[boolean](../nada_base_types/boolean.md)| |
 > |allowDiscovery|[boolean](../nada_base_types/boolean.md)| |
 > |removeStaleHosts|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RefreshHostList(network : Network, getExtraHostInfo : Boolean, allowDiscovery : Boolean, removeStaleHosts : Boolean) : Boolean
 > ``` 
 
@@ -866,7 +866,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cog|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveUser(cog : Cog) : Boolean
 > ``` 
 
@@ -879,7 +879,7 @@
 > |---|---|---|
 > |cog|[cog](cog.md)| |
 > |requestEvent|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveUser(cog : Cog, requestEvent : Event) : Boolean
 > ``` 
 
@@ -892,7 +892,7 @@
 > |---|---|---|
 > |cog|[cog](cog.md)| |
 > |requestBundle|[eventbundle](eventbundle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveUser(cog : Cog, requestBundle : EventBundle) : Boolean
 > ``` 
 
@@ -904,7 +904,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SubscribeToMasterServer(ipAddress : IpAddress)
 > ``` 
 
@@ -916,7 +916,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |ipAddress|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UnsubscribeFromMasterServer(ipAddress : IpAddress)
 > ``` 
 

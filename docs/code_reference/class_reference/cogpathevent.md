@@ -14,7 +14,7 @@
  #  CogPath : [cogpath](cogpath.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CogPath : CogPath
 
 

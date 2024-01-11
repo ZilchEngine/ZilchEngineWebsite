@@ -13,7 +13,7 @@
  #  MultiSelectGraphical : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MultiSelectGraphical : Boolean
 
 
@@ -21,7 +21,7 @@
  #  VisibleOnly : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VisibleOnly : Boolean
 
 
@@ -37,7 +37,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GraphicsRaycastProvider()
 > ``` 
 

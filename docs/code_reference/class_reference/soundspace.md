@@ -27,7 +27,7 @@
  #  Decibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment, in decibels, applied to all sounds in the space. A value of 0 does nothing, 6 will double the sound's volume, -6 will halve it.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Decibels : Real
 
 
@@ -37,7 +37,7 @@
  `read-only`
 
 > DEPRECATED The SoundNodeInput property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InputNode : SoundNode
 
 
@@ -45,7 +45,7 @@
  #  MuteAudio : [boolean](../nada_base_types/boolean.md)
 
 > Silences all audio output from this space but processes audio normally.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MuteAudio : Boolean
 
 
@@ -55,7 +55,7 @@
  `read-only`
 
 > DEPRECATED The SoundNodeOutput property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OutputNode : SoundNode
 
 
@@ -63,7 +63,7 @@
  #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > Setting this Property to true will pause all audio in the space. Setting it to false will resume all audio.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Paused : Boolean
 
 
@@ -71,7 +71,7 @@
  #  PauseWithTimeSpace : [boolean](../nada_base_types/boolean.md)
 
 > If true, the audio of the space will pause when the space is paused.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PauseWithTimeSpace : Boolean
 
 
@@ -79,7 +79,7 @@
  #  Pitch : [real](../nada_base_types/real.md)
 
 > The pitch adjustment applied to all sounds in the space. A value of 0 will do nothing, 1 will raise the pitch by an octave and speed up the sound, -1 will lower the sound by an octave and slow it down.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Pitch : Real
 
 
@@ -87,7 +87,7 @@
  #  PitchWithTimeSpace : [boolean](../nada_base_types/boolean.md)
 
 > If true, the audio in the SoundSpace will be pitched according to the TimeScale of the Space(if time slows down the audio will slow down and lower in pitch, if it speeds up the audio will speed up and raise in pitch).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PitchWithTimeSpace : Boolean
 
 
@@ -95,7 +95,7 @@
  #  Semitones : [real](../nada_base_types/real.md)
 
 > The pitch adjustment, in semitones (or half-steps), applied to all sounds in the space. A value of 0 will do nothing, 12 will raise the pitch by an octave and speed up the sound,.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Semitones : Real
 
 
@@ -105,7 +105,7 @@
  `read-only`
 
 > The SoundNode which is the ultimate output of all sounds in this space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SoundNodeInput : SoundNode
 
 
@@ -115,7 +115,7 @@
  `read-only`
 
 > The SoundNode which can be used to attach other nodes which should process all audio in the SoundSpace.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SoundNodeOutput : SoundNode
 
 
@@ -123,7 +123,7 @@
  #  Volume : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to all sounds in the space. A value of 1 does nothing, 2 will double the volume, 0.5 will halve it.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 
@@ -139,7 +139,7 @@
 > |---|---|---|
 > |decibels|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateDecibels(decibels : Real, interpolationTime : Real)
 > ``` 
 
@@ -152,7 +152,7 @@
 > |---|---|---|
 > |pitch|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolatePitch(pitch : Real, time : Real)
 > ``` 
 
@@ -165,7 +165,7 @@
 > |---|---|---|
 > |pitch|[real](../nada_base_types/real.md)| |
 > |time|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateSemitones(pitch : Real, time : Real)
 > ``` 
 
@@ -178,7 +178,7 @@
 > |---|---|---|
 > |value|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateVolume(value : Real, interpolationTime : Real)
 > ``` 
 
@@ -190,7 +190,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cue|[soundcue](soundcue.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlayCue(cue : SoundCue) : SoundInstance
 > ``` 
 
@@ -202,7 +202,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cue|[soundcue](soundcue.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlayCuePaused(cue : SoundCue) : SoundInstance
 > ``` 
 
@@ -215,7 +215,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SoundSpace()
 > ``` 
 

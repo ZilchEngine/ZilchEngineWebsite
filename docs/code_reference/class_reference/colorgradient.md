@@ -23,7 +23,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |t|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sample(t : Real) : Real4
 > ``` 
 

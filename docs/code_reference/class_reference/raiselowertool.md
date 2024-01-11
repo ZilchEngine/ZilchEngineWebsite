@@ -13,7 +13,7 @@
  #  Relative : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Relative : Boolean
 
 
@@ -21,7 +21,7 @@
  #  Strength : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Strength : Real
 
 

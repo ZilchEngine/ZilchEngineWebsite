@@ -15,7 +15,7 @@
  #  Author : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Author : String
 
 
@@ -23,7 +23,7 @@
  #  Description : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Description : String
 
 
@@ -31,7 +31,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -39,7 +39,7 @@
  #  Tags : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Tags : String
 
 

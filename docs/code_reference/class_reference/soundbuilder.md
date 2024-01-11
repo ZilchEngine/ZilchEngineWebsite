@@ -15,7 +15,7 @@
  #  FileLoadType : [AudioFileLoadType](../enum_reference.md#audiofileloadtype)
 
 > If Streamed is selected, or if Auto is selected and the file is longer than one minute, the sound file will be streamed from disk at runtime instead of loaded into memory. Streaming files can't be played multiple times simultaneously and can't use loop tails.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FileLoadType : AudioFileLoadType
 
 
@@ -23,7 +23,7 @@
  #  MaxVolume : [real](../nada_base_types/real.md)
 
 > The volume of the sound will be altered so that the highest volume peak matches this value. All audio samples will be adjusted equally.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxVolume : Real
 
 
@@ -31,7 +31,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -39,7 +39,7 @@
  #  Normalize : [boolean](../nada_base_types/boolean.md)
 
 > If true, the audio will be normalized when loaded so that the highest volume peak matches the MaxVolume value.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Normalize : Boolean
 
 

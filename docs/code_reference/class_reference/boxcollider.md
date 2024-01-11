@@ -18,7 +18,7 @@
  #  HalfSize : [real3](../nada_base_types/real3.md)
 
 > The half size (from the center to the upper-right corner) on each axis of the box in local space. Used to make the box's size match a model or some other volume without needing to scale the transform (also avoids non-uniform scale issues).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HalfSize : Real3
 
 
@@ -26,7 +26,7 @@
  #  Size : [real3](../nada_base_types/real3.md)
 
 > The size (from min to max) on each axis of the box in local space. Used to make the box's size match a model or some other volume without needing to scale the transform (also avoids non-uniform scale issues).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Real3
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > The size of the box after the transform is applied (scale and rotation).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldSize : Real3
 
 
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BoxCollider()
 > ``` 
 

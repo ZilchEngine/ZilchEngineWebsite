@@ -14,7 +14,7 @@
  #  Spacing : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Spacing : Real2
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UiDockLayout()
 > ``` 
 

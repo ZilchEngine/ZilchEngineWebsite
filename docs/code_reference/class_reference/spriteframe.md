@@ -21,7 +21,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[spriteframe](spriteframe.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SpriteFrame(p0 : SpriteFrame)
 > ``` 
 

@@ -18,7 +18,7 @@
  #  DynamicColliders : [boolean](../nada_base_types/boolean.md)
 
 > Should dynamic colliders (those with rigid bodies) be selected?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DynamicColliders : Boolean
 
 
@@ -26,7 +26,7 @@
  #  MultiSelectKinematic : [boolean](../nada_base_types/boolean.md)
 
 > Should multi-selection work with kinematic objects?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MultiSelectKinematic : Boolean
 
 
@@ -34,7 +34,7 @@
  #  MultiSelectStatic : [boolean](../nada_base_types/boolean.md)
 
 > Should multi-selection work with static objects?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MultiSelectStatic : Boolean
 
 
@@ -42,7 +42,7 @@
  #  SelectGhosts : [boolean](../nada_base_types/boolean.md)
 
 > Should ghost colliders be selected?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SelectGhosts : Boolean
 
 
@@ -50,7 +50,7 @@
  #  StaticColliders : [boolean](../nada_base_types/boolean.md)
 
 > Should static colliders (those without rigid bodies) be selected?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StaticColliders : Boolean
 
 
@@ -66,7 +66,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PhysicsRaycastProvider()
 > ``` 
 

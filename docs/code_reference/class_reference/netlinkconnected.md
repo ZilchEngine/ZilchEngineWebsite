@@ -20,7 +20,7 @@
  `read-only`
 
 > Transmission direction.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Direction : TransmissionDirection
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirIpAddress : IpAddress
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirNetPeerId : Integer
 
 

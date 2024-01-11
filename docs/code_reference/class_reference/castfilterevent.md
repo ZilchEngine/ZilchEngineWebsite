@@ -17,7 +17,7 @@
  #  FilterState : [CastFilterState](../enum_reference.md#castfilterstate)
 
 > When filtering should we accept or reject this cog? Alternatively we can let the default cast filter logic run.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FilterState : CastFilterState
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > The object being tested in this cast.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Object : Cog
 
 

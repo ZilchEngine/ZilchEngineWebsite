@@ -13,7 +13,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Getter : Function
 
 
@@ -23,7 +23,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Setter : Function
 
 
@@ -38,7 +38,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |instance|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetValue(instance : T) : T
 > ``` 
 
@@ -51,7 +51,7 @@
 > |---|---|---|
 > |instance|T| |
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetValue(instance : T, value : T)
 > ``` 
 

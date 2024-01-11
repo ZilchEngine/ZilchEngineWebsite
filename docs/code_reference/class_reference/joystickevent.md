@@ -17,7 +17,7 @@
  #  Button : [integer](../nada_base_types/integer.md)
 
 > The button that was just pressed or released.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Button : Integer
 
 
@@ -25,7 +25,7 @@
  #  Joystick : [joystick](joystick.md)
 
 > The joystick that generated this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Joystick : Joystick
 
 

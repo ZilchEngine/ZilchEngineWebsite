@@ -26,7 +26,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ConvexMesh()
 > ``` 
 
@@ -39,7 +39,7 @@
 > Creates a ConvexMesh for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : ConvexMesh
 > ``` 
 
@@ -50,7 +50,7 @@
 > Creates a clone of this mesh for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : ConvexMesh
 > ``` 
 

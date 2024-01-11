@@ -18,7 +18,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > If graphics for this Space should be running.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -26,7 +26,7 @@
  #  RandomSeed : [boolean](../nada_base_types/boolean.md)
 
 > If the random number generator used by graphics objects should be seeded randomly.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RandomSeed : Boolean
 
 
@@ -34,7 +34,7 @@
  #  Seed : [integer](../nada_base_types/integer.md)
 
 > Value to seed the random number generator with.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Seed : Integer
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GraphicsSpace()
 > ``` 
 

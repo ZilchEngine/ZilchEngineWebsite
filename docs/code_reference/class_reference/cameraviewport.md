@@ -41,7 +41,7 @@
  `read-only`
 
 > Find the Camera component from the CameraPath (or null if it doesn't exist).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Camera : Camera
 
 
@@ -49,7 +49,7 @@
  #  CameraPath : [cogpath](cogpath.md)
 
 > Object with the Camera component to be used for rendering. A Camera can only be used by one CameraViewport, if already used by another usage will be stolen when assigned.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CameraPath : CogPath
 
 
@@ -59,7 +59,7 @@
  `read-only`
 
 > Texture that contains the end result of this CameraViewport's rendering. Must be explicitly written to in renderer script.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FinalTexture : Texture
 
 
@@ -67,7 +67,7 @@
  #  ForwardViewportEvents : [boolean](../nada_base_types/boolean.md)
 
 > Forwards mouse events to viewports underneath this viewport.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ForwardViewportEvents : Boolean
 
 
@@ -77,7 +77,7 @@
  `read-only`
 
 > Creates a frustum using the CameraViewport's settings (including aspect ratio). If the Camera is null, then this will throw an exception.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Frustum : Frustum
 
 
@@ -85,7 +85,7 @@
  #  MarginColor : [real4](../nada_base_types/real4.md)
 
 > Color to used for letterbox/scaling margins.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MarginColor : Real4
 
 
@@ -95,7 +95,7 @@
  `read-only`
 
 > Get the world ray starting from the mouse.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseWorldRay : Ray
 
 
@@ -103,7 +103,7 @@
  #  NormalizedOffset : [real2](../nada_base_types/real2.md)
 
 > Offset of the viewport in normalized UI coordinates.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NormalizedOffset : Real2
 
 
@@ -111,7 +111,7 @@
  #  NormalizedSize : [real2](../nada_base_types/real2.md)
 
 > Size of viewport in normalized UI coordinates.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NormalizedSize : Real2
 
 
@@ -119,7 +119,7 @@
  #  RendererPath : [cogpath](cogpath.md)
 
 > Object with renderer script that connects to RenderTasksUpdate that determines what rendering will be done.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RendererPath : CogPath
 
 
@@ -127,7 +127,7 @@
  #  RenderInEditor : [boolean](../nada_base_types/boolean.md)
 
 > If rendering will be ran in edit mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RenderInEditor : Boolean
 
 
@@ -135,7 +135,7 @@
  #  RenderInGame : [boolean](../nada_base_types/boolean.md)
 
 > If rendering will be ran in play game mode.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RenderInGame : Boolean
 
 
@@ -143,7 +143,7 @@
  #  RenderOrder : [integer](../nada_base_types/integer.md)
 
 > The order that rendering should be done relative to other CameraViewports, lowest to highest.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RenderOrder : Integer
 
 
@@ -151,7 +151,7 @@
  #  RenderToViewport : [boolean](../nada_base_types/boolean.md)
 
 > If the rendering result in FinalTexture should also be placed on the UI viewport.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RenderToViewport : Boolean
 
 
@@ -159,7 +159,7 @@
  #  ResolutionOrAspect : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ResolutionOrAspect : Integer2
 
 
@@ -169,7 +169,7 @@
  `read-only`
 
 > If the viewport created by this CameraViewport, if rendering to one, has focus.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportHasFocus : Boolean
 
 
@@ -179,7 +179,7 @@
  `read-only`
 
 > The current offset of the viewport, in pixels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportOffset : Real2
 
 
@@ -189,7 +189,7 @@
  `read-only`
 
 > The current offset of the viewport's margin, in pixels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportOffsetWithMargin : Real2
 
 
@@ -199,7 +199,7 @@
  `read-only`
 
 > The current resolution of the viewport.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportResolution : Real2
 
 
@@ -209,7 +209,7 @@
  `read-only`
 
 > The current resolution of the viewport including margin.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportResolutionWithMargin : Real2
 
 
@@ -217,7 +217,7 @@
  #  ViewportScaling : [ViewportScaling](../enum_reference.md#viewportscaling)
 
 > Method to use for sizing the viewport.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportScaling : ViewportScaling
 
 
@@ -227,7 +227,7 @@
  `read-only`
 
 > Transformation that defines how the view frustum is mapped to normalized coordinates, pre W divide.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewToPerspective : Real4x4
 
 
@@ -237,7 +237,7 @@
  `read-only`
 
 > Concatenation of the WorldToView and ViewToPerspective transformations.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldToPerspective : Real4x4
 
 
@@ -247,7 +247,7 @@
  `read-only`
 
 > Transformation that defines view space as the Camera at the origin and the view direction as -Z.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldToView : Real4x4
 
 
@@ -263,7 +263,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CameraViewport()
 > ``` 
 
@@ -275,7 +275,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |screenPoint|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ScreenToViewport(screenPoint : Real2) : Real2
 > ``` 
 
@@ -289,7 +289,7 @@
 > |screenPoint|[real2](../nada_base_types/real2.md)| |
 > |worldPlaneNormal|[real3](../nada_base_types/real3.md)| |
 > |worldPlanePosition|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ScreenToWorldPlane(screenPoint : Real2, worldPlaneNormal : Real3, worldPlanePosition : Real3) : Real3
 > ``` 
 
@@ -301,7 +301,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |screenPoint|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ScreenToWorldRay(screenPoint : Real2) : Ray
 > ``` 
 
@@ -314,7 +314,7 @@
 > |---|---|---|
 > |screenPoint|[real2](../nada_base_types/real2.md)| |
 > |viewDepth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ScreenToWorldViewPlane(screenPoint : Real2, viewDepth : Real) : Real3
 > ``` 
 
@@ -327,7 +327,7 @@
 > |---|---|---|
 > |screenPoint|[real2](../nada_base_types/real2.md)| |
 > |worldDepth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ScreenToWorldZPlane(screenPoint : Real2, worldDepth : Real) : Real3
 > ``` 
 
@@ -339,7 +339,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |viewDepth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ViewPlaneSize(viewDepth : Real) : Real2
 > ``` 
 
@@ -350,7 +350,7 @@
 > Returns whether or not it succeeded in taking focus. Will always fail if RenderToViewport is false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ViewportTakeFocus() : Boolean
 > ``` 
 
@@ -362,7 +362,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |viewportPoint|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ViewportToScreen(viewportPoint : Real2) : Real2
 > ``` 
 
@@ -374,7 +374,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WorldToScreen(worldPoint : Real3) : Real2
 > ``` 
 

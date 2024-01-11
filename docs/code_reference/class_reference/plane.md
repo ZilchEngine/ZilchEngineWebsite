@@ -14,7 +14,7 @@
  #  Data : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Data : Real4
 
 
@@ -24,7 +24,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Distance : Real
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Normal : Real3
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Plane()
 > ``` 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[plane](plane.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Plane(p0 : Plane)
 > ``` 
 
@@ -79,7 +79,7 @@
 > |---|---|---|
 > |normal|[real3](../nada_base_types/real3.md)| |
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Plane(normal : Real3, point : Real3)
 > ``` 
 
@@ -93,7 +93,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |data|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Plane(data : Real4)
 > ``` 
 
@@ -106,7 +106,7 @@
 > |---|---|---|
 > |normal|[real3](../nada_base_types/real3.md)| |
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(normal : Real3, point : Real3)
 > ``` 
 
@@ -118,7 +118,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |data|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(data : Real4)
 > ``` 
 

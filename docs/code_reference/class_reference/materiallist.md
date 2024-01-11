@@ -21,7 +21,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |material|[material](material.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(material : Material)
 > ``` 
 
@@ -32,7 +32,7 @@
 > Range of all resources in the list.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function All() : ArrayHandleOfMaterial
 > ``` 
 
@@ -44,7 +44,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |material|[material](material.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Remove(material : Material)
 > ``` 
 

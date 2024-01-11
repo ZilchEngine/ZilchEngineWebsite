@@ -18,7 +18,7 @@
  #  CellIndexType : [CellIndexType](../enum_reference.md#cellindextype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CellIndexType : CellIndexType
 
 
@@ -26,7 +26,7 @@
  #  CurrentTool : [HeightTool](../enum_reference.md#heighttool)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CurrentTool : HeightTool
 
 
@@ -34,7 +34,7 @@
  #  ShowCellIndex : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowCellIndex : Boolean
 
 
@@ -42,7 +42,7 @@
  #  ShowPatchIndex : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowPatchIndex : Boolean
 
 
@@ -50,7 +50,7 @@
  #  SubTool : [heightmapsubtool](heightmapsubtool.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SubTool : HeightMapSubTool
 
 
@@ -66,7 +66,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HeightMapTool()
 > ``` 
 

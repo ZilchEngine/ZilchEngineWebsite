@@ -17,7 +17,7 @@
  #  Friction : [real](../nada_base_types/real.md)
 
 > The friction to use for solving this pair. Allows custom overriding for this pair.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Friction : Real
 
 
@@ -25,7 +25,7 @@
  #  Restitution : [real](../nada_base_types/real.md)
 
 > The restitution to use for solving this pair. Allows custom overriding for this pair.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Restitution : Real
 
 

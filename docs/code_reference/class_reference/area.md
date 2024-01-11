@@ -54,7 +54,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BottomCenter : Real2
 
 
@@ -64,7 +64,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BottomLeft : Real2
 
 
@@ -74,7 +74,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BottomRight : Real2
 
 
@@ -84,7 +84,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Center : Real2
 
 
@@ -94,7 +94,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CenterLeft : Real2
 
 
@@ -104,7 +104,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CenterRight : Real2
 
 
@@ -112,7 +112,7 @@
  #  LocalBottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottom : Real
 
 
@@ -122,7 +122,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottomCenter : Real2
 
 
@@ -132,7 +132,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottomLeft : Real2
 
 
@@ -142,7 +142,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottomRight : Real2
 
 
@@ -152,7 +152,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalCenter : Real2
 
 
@@ -162,7 +162,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalCenterLeft : Real2
 
 
@@ -172,7 +172,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalCenterRight : Real2
 
 
@@ -180,7 +180,7 @@
  #  LocalLeft : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalLeft : Real
 
 
@@ -188,7 +188,7 @@
  #  LocalRectangle : [rectangle](rectangle.md)
 
 > Rectangle representing the area relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalRectangle : Rectangle
 
 
@@ -196,7 +196,7 @@
  #  LocalRight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalRight : Real
 
 
@@ -204,7 +204,7 @@
  #  LocalTop : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTop : Real
 
 
@@ -214,7 +214,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTopCenter : Real2
 
 
@@ -224,7 +224,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTopLeft : Real2
 
 
@@ -234,7 +234,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTopRight : Real2
 
 
@@ -242,7 +242,7 @@
  #  Origin : [Location](../enum_reference.md#location)
 
 > Location of the Origin of the Area.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Origin : Location
 
 
@@ -250,7 +250,7 @@
  #  Size : [real2](../nada_base_types/real2.md)
 
 > Size of the Area.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Real2
 
 
@@ -260,7 +260,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TopCenter : Real2
 
 
@@ -270,7 +270,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TopLeft : Real2
 
 
@@ -280,7 +280,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TopRight : Real2
 
 
@@ -288,7 +288,7 @@
  #  WorldBottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottom : Real
 
 
@@ -298,7 +298,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottomCenter : Real2
 
 
@@ -308,7 +308,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottomLeft : Real2
 
 
@@ -318,7 +318,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottomRight : Real2
 
 
@@ -328,7 +328,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCenter : Real2
 
 
@@ -338,7 +338,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCenterLeft : Real2
 
 
@@ -348,7 +348,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCenterRight : Real2
 
 
@@ -356,7 +356,7 @@
  #  WorldLeft : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldLeft : Real
 
 
@@ -364,7 +364,7 @@
  #  WorldRectangle : [rectangle](rectangle.md)
 
 > Rectangle representing the area in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRectangle : Rectangle
 
 
@@ -372,7 +372,7 @@
  #  WorldRight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRight : Real
 
 
@@ -380,7 +380,7 @@
  #  WorldTop : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTop : Real
 
 
@@ -390,7 +390,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTopCenter : Real2
 
 
@@ -400,7 +400,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTopLeft : Real2
 
 
@@ -410,7 +410,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTopRight : Real2
 
 
@@ -426,7 +426,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Area()
 > ``` 
 
@@ -438,7 +438,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |location|[Location](../enum_reference.md#location)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLocalLocation(location : Location) : Real2
 > ``` 
 
@@ -450,7 +450,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |location|[Location](../enum_reference.md#location)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetWorldLocation(location : Location) : Real2
 > ``` 
 
@@ -462,7 +462,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |location|[Location](../enum_reference.md#location)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LocalOffsetOf(location : Location) : Real2
 > ``` 
 
@@ -475,7 +475,7 @@
 > |---|---|---|
 > |location|[Location](../enum_reference.md#location)| |
 > |localTranslation|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetLocalLocation(location : Location, localTranslation : Real2)
 > ``` 
 
@@ -488,7 +488,7 @@
 > |---|---|---|
 > |location|[Location](../enum_reference.md#location)| |
 > |worldTranslation|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetWorldLocation(location : Location, worldTranslation : Real2)
 > ``` 
 

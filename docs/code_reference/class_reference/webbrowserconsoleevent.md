@@ -16,7 +16,7 @@
  #  Line : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Line : Integer
 
 
@@ -24,7 +24,7 @@
  #  Message : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Message : String
 
 
@@ -32,7 +32,7 @@
  #  Source : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Source : String
 
 

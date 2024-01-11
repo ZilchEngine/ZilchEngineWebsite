@@ -19,7 +19,7 @@
  `read-only`
 
 > The number of samples currently in the buffer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SampleCount : Integer
 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Array[[real](../nada_base_types/real.md)]| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddMicUncompressedData( : Array[Real])
 > ``` 
 
@@ -46,7 +46,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |sample|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddSampleToBuffer(sample : Real)
 > ``` 
 
@@ -58,7 +58,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetSampleAtIndex(index : Integer) : Real
 > ``` 
 
@@ -69,7 +69,7 @@
 > Removes all data from the buffer and resets it.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reset()
 > ``` 
 

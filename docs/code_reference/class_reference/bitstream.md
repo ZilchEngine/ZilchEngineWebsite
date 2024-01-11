@@ -150,7 +150,7 @@
 > Default Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BitStream()
 > ``` 
 
@@ -161,7 +161,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadBoolean() : Boolean
 > ``` 
 
@@ -172,7 +172,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadDoubleInteger() : Boolean
 > ``` 
 
@@ -185,7 +185,7 @@
 > |---|---|---|
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger) : Boolean
 > ``` 
 
@@ -199,7 +199,7 @@
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger) : Boolean
 > ``` 
 
@@ -210,7 +210,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadDoubleReal() : Boolean
 > ``` 
 
@@ -223,7 +223,7 @@
 > |---|---|---|
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadDoubleRealQuantized( : DoubleReal,  : DoubleReal) : Boolean
 > ``` 
 
@@ -237,7 +237,7 @@
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal) : Boolean
 > ``` 
 
@@ -248,7 +248,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger() : Boolean
 > ``` 
 
@@ -259,7 +259,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger2() : Boolean
 > ``` 
 
@@ -272,7 +272,7 @@
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger2Quantized( : Integer2,  : Integer2) : Boolean
 > ``` 
 
@@ -286,7 +286,7 @@
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger2Quantized( : Integer2,  : Integer2,  : Integer2) : Boolean
 > ``` 
 
@@ -297,7 +297,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger3() : Boolean
 > ``` 
 
@@ -310,7 +310,7 @@
 > |---|---|---|
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger3Quantized( : Integer3,  : Integer3) : Boolean
 > ``` 
 
@@ -324,7 +324,7 @@
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger3Quantized( : Integer3,  : Integer3,  : Integer3) : Boolean
 > ``` 
 
@@ -335,7 +335,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger4() : Boolean
 > ``` 
 
@@ -348,7 +348,7 @@
 > |---|---|---|
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger4Quantized( : Integer4,  : Integer4) : Boolean
 > ``` 
 
@@ -362,7 +362,7 @@
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadInteger4Quantized( : Integer4,  : Integer4,  : Integer4) : Boolean
 > ``` 
 
@@ -375,7 +375,7 @@
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadIntegerQuantized( : Integer,  : Integer) : Boolean
 > ``` 
 
@@ -389,7 +389,7 @@
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadIntegerQuantized( : Integer,  : Integer,  : Integer) : Boolean
 > ``` 
 
@@ -400,7 +400,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadQuaternion() : Boolean
 > ``` 
 
@@ -411,7 +411,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal() : Boolean
 > ``` 
 
@@ -422,7 +422,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal2() : Boolean
 > ``` 
 
@@ -433,7 +433,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal2Half() : Boolean
 > ``` 
 
@@ -446,7 +446,7 @@
 > |---|---|---|
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal2Quantized( : Real2,  : Real2) : Boolean
 > ``` 
 
@@ -460,7 +460,7 @@
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal2Quantized( : Real2,  : Real2,  : Real2) : Boolean
 > ``` 
 
@@ -471,7 +471,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal3() : Boolean
 > ``` 
 
@@ -482,7 +482,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal3Half() : Boolean
 > ``` 
 
@@ -495,7 +495,7 @@
 > |---|---|---|
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal3Quantized( : Real3,  : Real3) : Boolean
 > ``` 
 
@@ -509,7 +509,7 @@
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal3Quantized( : Real3,  : Real3,  : Real3) : Boolean
 > ``` 
 
@@ -520,7 +520,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal4() : Boolean
 > ``` 
 
@@ -531,7 +531,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal4Half() : Boolean
 > ``` 
 
@@ -544,7 +544,7 @@
 > |---|---|---|
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal4Quantized( : Real4,  : Real4) : Boolean
 > ``` 
 
@@ -558,7 +558,7 @@
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadReal4Quantized( : Real4,  : Real4,  : Real4) : Boolean
 > ``` 
 
@@ -569,7 +569,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadRealHalf() : Boolean
 > ``` 
 
@@ -582,7 +582,7 @@
 > |---|---|---|
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadRealQuantized( : Real,  : Real) : Boolean
 > ``` 
 
@@ -596,7 +596,7 @@
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadRealQuantized( : Real,  : Real,  : Real) : Boolean
 > ``` 
 
@@ -607,7 +607,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CanReadString() : Boolean
 > ``` 
 
@@ -619,7 +619,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |freeMemory|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear(freeMemory : Boolean)
 > ``` 
 
@@ -630,7 +630,7 @@
 > Clears the number of bits read.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearBitsRead()
 > ``` 
 
@@ -641,7 +641,7 @@
 > Clears the number of bits written.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearBitsWritten()
 > ``` 
 
@@ -652,7 +652,7 @@
 > Returns the data array capacity in bits.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBitCapacity() : Integer
 > ``` 
 
@@ -663,7 +663,7 @@
 > Returns the number of bits read.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBitsRead() : Integer
 > ``` 
 
@@ -674,7 +674,7 @@
 > Returns the number of bits unread.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBitsUnread() : Integer
 > ``` 
 
@@ -685,7 +685,7 @@
 > Returns the number of bits unwritten.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBitsUnwritten() : Integer
 > ``` 
 
@@ -696,7 +696,7 @@
 > Returns the number of bits written.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBitsWritten() : Integer
 > ``` 
 
@@ -707,7 +707,7 @@
 > Returns the data array capacity in bytes.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetByteCapacity() : Integer
 > ``` 
 
@@ -718,7 +718,7 @@
 > Returns the number of bytes read (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBytesRead() : Integer
 > ``` 
 
@@ -729,7 +729,7 @@
 > Returns the number of bytes unread (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBytesUnread() : Integer
 > ``` 
 
@@ -740,7 +740,7 @@
 > Returns the number of bytes unwritten (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBytesUnwritten() : Integer
 > ``` 
 
@@ -751,7 +751,7 @@
 > Returns the number of bytes written (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetBytesWritten() : Integer
 > ``` 
 
@@ -762,7 +762,7 @@
 > Returns true if the BitStream is empty (0 bits written), else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsEmpty() : Boolean
 > ``` 
 
@@ -775,7 +775,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureBoolean() : Integer
 > ``` 
 
@@ -788,7 +788,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureDoubleInteger() : Integer
 > ``` 
 
@@ -803,7 +803,7 @@
 > |---|---|---|
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger) : Integer
 > ``` 
 
@@ -819,7 +819,7 @@
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger) : Integer
 > ``` 
 
@@ -832,7 +832,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureDoubleReal() : Integer
 > ``` 
 
@@ -847,7 +847,7 @@
 > |---|---|---|
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureDoubleRealQuantized( : DoubleReal,  : DoubleReal) : Integer
 > ``` 
 
@@ -863,7 +863,7 @@
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal) : Integer
 > ``` 
 
@@ -876,7 +876,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger() : Integer
 > ``` 
 
@@ -889,7 +889,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger2() : Integer
 > ``` 
 
@@ -904,7 +904,7 @@
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger2Quantized( : Integer2,  : Integer2) : Integer
 > ``` 
 
@@ -920,7 +920,7 @@
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger2Quantized( : Integer2,  : Integer2,  : Integer2) : Integer
 > ``` 
 
@@ -933,7 +933,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger3() : Integer
 > ``` 
 
@@ -948,7 +948,7 @@
 > |---|---|---|
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger3Quantized( : Integer3,  : Integer3) : Integer
 > ``` 
 
@@ -964,7 +964,7 @@
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger3Quantized( : Integer3,  : Integer3,  : Integer3) : Integer
 > ``` 
 
@@ -977,7 +977,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger4() : Integer
 > ``` 
 
@@ -992,7 +992,7 @@
 > |---|---|---|
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger4Quantized( : Integer4,  : Integer4) : Integer
 > ``` 
 
@@ -1008,7 +1008,7 @@
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureInteger4Quantized( : Integer4,  : Integer4,  : Integer4) : Integer
 > ``` 
 
@@ -1023,7 +1023,7 @@
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureIntegerQuantized( : Integer,  : Integer) : Integer
 > ``` 
 
@@ -1039,7 +1039,7 @@
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureIntegerQuantized( : Integer,  : Integer,  : Integer) : Integer
 > ``` 
 
@@ -1052,7 +1052,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureQuaternion() : Integer
 > ``` 
 
@@ -1065,7 +1065,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal() : Integer
 > ``` 
 
@@ -1078,7 +1078,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal2() : Integer
 > ``` 
 
@@ -1091,7 +1091,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal2Half() : Integer
 > ``` 
 
@@ -1106,7 +1106,7 @@
 > |---|---|---|
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal2Quantized( : Real2,  : Real2) : Integer
 > ``` 
 
@@ -1122,7 +1122,7 @@
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal2Quantized( : Real2,  : Real2,  : Real2) : Integer
 > ``` 
 
@@ -1135,7 +1135,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal3() : Integer
 > ``` 
 
@@ -1148,7 +1148,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal3Half() : Integer
 > ``` 
 
@@ -1163,7 +1163,7 @@
 > |---|---|---|
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal3Quantized( : Real3,  : Real3) : Integer
 > ``` 
 
@@ -1179,7 +1179,7 @@
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal3Quantized( : Real3,  : Real3,  : Real3) : Integer
 > ``` 
 
@@ -1192,7 +1192,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal4() : Integer
 > ``` 
 
@@ -1205,7 +1205,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal4Half() : Integer
 > ``` 
 
@@ -1220,7 +1220,7 @@
 > |---|---|---|
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal4Quantized( : Real4,  : Real4) : Integer
 > ``` 
 
@@ -1236,7 +1236,7 @@
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureReal4Quantized( : Real4,  : Real4,  : Real4) : Integer
 > ``` 
 
@@ -1249,7 +1249,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureRealHalf() : Integer
 > ``` 
 
@@ -1264,7 +1264,7 @@
 > |---|---|---|
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureRealQuantized( : Real,  : Real) : Integer
 > ``` 
 
@@ -1280,7 +1280,7 @@
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureRealQuantized( : Real,  : Real,  : Real) : Integer
 > ``` 
 
@@ -1293,7 +1293,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureString() : Integer
 > ``` 
 
@@ -1307,7 +1307,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeasureString( : String) : Integer
 > ``` 
 
@@ -1318,7 +1318,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadBoolean() : Boolean
 > ``` 
 
@@ -1329,7 +1329,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadDoubleInteger() : DoubleInteger
 > ``` 
 
@@ -1342,7 +1342,7 @@
 > |---|---|---|
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger) : DoubleInteger
 > ``` 
 
@@ -1356,7 +1356,7 @@
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger) : DoubleInteger
 > ``` 
 
@@ -1367,7 +1367,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadDoubleReal() : DoubleReal
 > ``` 
 
@@ -1380,7 +1380,7 @@
 > |---|---|---|
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadDoubleRealQuantized( : DoubleReal,  : DoubleReal) : DoubleReal
 > ``` 
 
@@ -1394,7 +1394,7 @@
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal) : DoubleReal
 > ``` 
 
@@ -1405,7 +1405,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger() : Integer
 > ``` 
 
@@ -1416,7 +1416,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger2() : Integer2
 > ``` 
 
@@ -1429,7 +1429,7 @@
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger2Quantized( : Integer2,  : Integer2) : Integer2
 > ``` 
 
@@ -1443,7 +1443,7 @@
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger2Quantized( : Integer2,  : Integer2,  : Integer2) : Integer2
 > ``` 
 
@@ -1454,7 +1454,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger3() : Integer3
 > ``` 
 
@@ -1467,7 +1467,7 @@
 > |---|---|---|
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger3Quantized( : Integer3,  : Integer3) : Integer3
 > ``` 
 
@@ -1481,7 +1481,7 @@
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger3Quantized( : Integer3,  : Integer3,  : Integer3) : Integer3
 > ``` 
 
@@ -1492,7 +1492,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger4() : Integer4
 > ``` 
 
@@ -1505,7 +1505,7 @@
 > |---|---|---|
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger4Quantized( : Integer4,  : Integer4) : Integer4
 > ``` 
 
@@ -1519,7 +1519,7 @@
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadInteger4Quantized( : Integer4,  : Integer4,  : Integer4) : Integer4
 > ``` 
 
@@ -1532,7 +1532,7 @@
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadIntegerQuantized( : Integer,  : Integer) : Integer
 > ``` 
 
@@ -1546,7 +1546,7 @@
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadIntegerQuantized( : Integer,  : Integer,  : Integer) : Integer
 > ``` 
 
@@ -1557,7 +1557,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadQuaternion() : Quaternion
 > ``` 
 
@@ -1568,7 +1568,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal() : Real
 > ``` 
 
@@ -1579,7 +1579,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal2() : Real2
 > ``` 
 
@@ -1590,7 +1590,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal2Half() : Real2
 > ``` 
 
@@ -1603,7 +1603,7 @@
 > |---|---|---|
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal2Quantized( : Real2,  : Real2) : Real2
 > ``` 
 
@@ -1617,7 +1617,7 @@
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal2Quantized( : Real2,  : Real2,  : Real2) : Real2
 > ``` 
 
@@ -1628,7 +1628,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal3() : Real3
 > ``` 
 
@@ -1639,7 +1639,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal3Half() : Real3
 > ``` 
 
@@ -1652,7 +1652,7 @@
 > |---|---|---|
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal3Quantized( : Real3,  : Real3) : Real3
 > ``` 
 
@@ -1666,7 +1666,7 @@
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal3Quantized( : Real3,  : Real3,  : Real3) : Real3
 > ``` 
 
@@ -1677,7 +1677,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal4() : Real4
 > ``` 
 
@@ -1688,7 +1688,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal4Half() : Real4
 > ``` 
 
@@ -1701,7 +1701,7 @@
 > |---|---|---|
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal4Quantized( : Real4,  : Real4) : Real4
 > ``` 
 
@@ -1715,7 +1715,7 @@
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadReal4Quantized( : Real4,  : Real4,  : Real4) : Real4
 > ``` 
 
@@ -1726,7 +1726,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadRealHalf() : Real
 > ``` 
 
@@ -1739,7 +1739,7 @@
 > |---|---|---|
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadRealQuantized( : Real,  : Real) : Real
 > ``` 
 
@@ -1753,7 +1753,7 @@
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadRealQuantized( : Real,  : Real,  : Real) : Real
 > ``` 
 
@@ -1764,7 +1764,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReadString() : String
 > ``` 
 
@@ -1776,7 +1776,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reserve( : Integer)
 > ``` 
 
@@ -1788,7 +1788,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetBitsRead( : Integer)
 > ``` 
 
@@ -1800,7 +1800,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetBitsWritten( : Integer)
 > ``` 
 
@@ -1812,7 +1812,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetBytesRead( : Integer)
 > ``` 
 
@@ -1824,7 +1824,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetBytesWritten( : Integer)
 > ``` 
 
@@ -1836,7 +1836,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Unread( : Integer)
 > ``` 
 
@@ -1848,7 +1848,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteBoolean( : Boolean)
 > ``` 
 
@@ -1860,7 +1860,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteDoubleInteger( : DoubleInteger)
 > ``` 
 
@@ -1874,7 +1874,7 @@
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger)
 > ``` 
 
@@ -1889,7 +1889,7 @@
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger,  : DoubleInteger)
 > ``` 
 
@@ -1901,7 +1901,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteDoubleReal( : DoubleReal)
 > ``` 
 
@@ -1915,7 +1915,7 @@
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal)
 > ``` 
 
@@ -1930,7 +1930,7 @@
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
 > ||[doublereal](../nada_base_types/doublereal.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal,  : DoubleReal)
 > ``` 
 
@@ -1942,7 +1942,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger( : Integer)
 > ``` 
 
@@ -1954,7 +1954,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger2( : Integer2)
 > ``` 
 
@@ -1968,7 +1968,7 @@
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger2Quantized( : Integer2,  : Integer2,  : Integer2)
 > ``` 
 
@@ -1983,7 +1983,7 @@
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger2Quantized( : Integer2,  : Integer2,  : Integer2,  : Integer2)
 > ``` 
 
@@ -1995,7 +1995,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger3( : Integer3)
 > ``` 
 
@@ -2009,7 +2009,7 @@
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger3Quantized( : Integer3,  : Integer3,  : Integer3)
 > ``` 
 
@@ -2024,7 +2024,7 @@
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger3Quantized( : Integer3,  : Integer3,  : Integer3,  : Integer3)
 > ``` 
 
@@ -2036,7 +2036,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger4( : Integer4)
 > ``` 
 
@@ -2050,7 +2050,7 @@
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger4Quantized( : Integer4,  : Integer4,  : Integer4)
 > ``` 
 
@@ -2065,7 +2065,7 @@
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteInteger4Quantized( : Integer4,  : Integer4,  : Integer4,  : Integer4)
 > ``` 
 
@@ -2079,7 +2079,7 @@
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteIntegerQuantized( : Integer,  : Integer,  : Integer)
 > ``` 
 
@@ -2094,7 +2094,7 @@
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteIntegerQuantized( : Integer,  : Integer,  : Integer,  : Integer)
 > ``` 
 
@@ -2106,7 +2106,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[quaternion](../nada_base_types/quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteQuaternion( : Quaternion)
 > ``` 
 
@@ -2118,7 +2118,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal( : Real)
 > ``` 
 
@@ -2130,7 +2130,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal2( : Real2)
 > ``` 
 
@@ -2142,7 +2142,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal2Half( : Real2)
 > ``` 
 
@@ -2156,7 +2156,7 @@
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal2Quantized( : Real2,  : Real2,  : Real2)
 > ``` 
 
@@ -2171,7 +2171,7 @@
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
 > ||[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal2Quantized( : Real2,  : Real2,  : Real2,  : Real2)
 > ``` 
 
@@ -2183,7 +2183,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal3( : Real3)
 > ``` 
 
@@ -2195,7 +2195,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal3Half( : Real3)
 > ``` 
 
@@ -2209,7 +2209,7 @@
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal3Quantized( : Real3,  : Real3,  : Real3)
 > ``` 
 
@@ -2224,7 +2224,7 @@
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
 > ||[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal3Quantized( : Real3,  : Real3,  : Real3,  : Real3)
 > ``` 
 
@@ -2236,7 +2236,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal4( : Real4)
 > ``` 
 
@@ -2248,7 +2248,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal4Half( : Real4)
 > ``` 
 
@@ -2262,7 +2262,7 @@
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal4Quantized( : Real4,  : Real4,  : Real4)
 > ``` 
 
@@ -2277,7 +2277,7 @@
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
 > ||[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteReal4Quantized( : Real4,  : Real4,  : Real4,  : Real4)
 > ``` 
 
@@ -2289,7 +2289,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteRealHalf( : Real)
 > ``` 
 
@@ -2303,7 +2303,7 @@
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteRealQuantized( : Real,  : Real,  : Real)
 > ``` 
 
@@ -2318,7 +2318,7 @@
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
 > ||[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteRealQuantized( : Real,  : Real,  : Real,  : Real)
 > ``` 
 
@@ -2330,7 +2330,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WriteString( : String)
 > ``` 
 

@@ -20,7 +20,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > Display colors.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -28,7 +28,7 @@
  #  DrawOnTop : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to draw on top of all objects regardless of depth.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawOnTop : Boolean
 
 
@@ -36,7 +36,7 @@
  #  HoverColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HoverColor : Real4
 
 
@@ -44,7 +44,7 @@
  #  MouseInput : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not this Gizmo should receive mouse input.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseInput : Boolean
 
 
@@ -52,7 +52,7 @@
  #  PickingPriority : [integer](../nada_base_types/integer.md)
 
 > Used to manually determine which Gizmo gets selected when the mouse is over multiple Gizmos. Higher priority will get picked first.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PickingPriority : Integer
 
 
@@ -60,7 +60,7 @@
  #  UseParentAsViewScaleOrigin : [boolean](../nada_base_types/boolean.md)
 
 > If enabled, the gizmo will scale around it's parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseParentAsViewScaleOrigin : Boolean
 
 
@@ -68,7 +68,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > If enabled, the size of the gizmo will stay the same regardless of how far away the camera is.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -84,7 +84,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimpleGizmoBase()
 > ``` 
 

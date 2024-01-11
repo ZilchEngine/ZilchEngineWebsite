@@ -36,7 +36,7 @@
  `read-only`
 
 > If this is a static body then the active body (the one force/velocity should be applied to or calculated from) is the nearest parent body up the hierarchy that is not static. If one isn't found then this returns the current rigid body (this).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ActiveBody : RigidBody
 
 
@@ -44,7 +44,7 @@
  #  AllowSleep : [boolean](../nada_base_types/boolean.md)
 
 > Sleeping happens when an object has not "moved" (small enough linear + angular velocity) for long enough. If this happens then the physics engine stops updating this object (integration, collision detection, etc...) until an awake object hits it. Sleeping is purely an optimization. Sometimes it is not desirable for a body to ever fall asleep (such as a player).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllowSleep : Boolean
 
 
@@ -52,7 +52,7 @@
  #  AngularVelocity : [real3](../nada_base_types/real3.md)
 
 > The angular velocity (radians per second) of this body in world space. Objects will rotate about this axis using the right-hand rule. Max bounds are around 1e+10, after this the angular velocity will be capped. Setting this will wake up the body if it's asleep.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AngularVelocity : Real3
 
 
@@ -60,7 +60,7 @@
  #  Asleep : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not this object is currently asleep. Setting this to true will force the object asleep even if this causes invalid behavior (objects floating).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Asleep : Boolean
 
 
@@ -68,7 +68,7 @@
  #  DynamicState : [RigidBodyDynamicState](../enum_reference.md#rigidbodydynamicstate)
 
 > How this rigid body handles dynamics. Is it a regular rigid body (dynamic)? Does it not move (static)? Does the user want to manually move it and have objects properly collide with it (kinematic)? Note: Static vs. static does not check for collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DynamicState : RigidBodyDynamicState
 
 
@@ -76,7 +76,7 @@
  #  Force : [real3](../nada_base_types/real3.md)
 
 > The total accumulated force (in world space) that is being applied to the center of mass of this rigid body this frame. Setting this will wake up the body if it's asleep.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Force : Real3
 
 
@@ -86,7 +86,7 @@
  `read-only`
 
 > The inverse inertia tensor in local space of this body. The local space inertia tensor doesn't change when the object rotates but is not typically useful for any calculations other than computing the world-space inverse inertia tensor.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalInverseInertiaTensor : Real3x3
 
 
@@ -96,7 +96,7 @@
  `read-only`
 
 > The current mass of the rigid body. This includes all child colliders belonging to this body.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mass : Real
 
 
@@ -104,7 +104,7 @@
  #  Mode2D : [Mode2DStates](../enum_reference.md#mode2dstates)
 
 > Used to make an object act as if it were 2D. This is done by locking it to the current z-plane and only allowing rotation about the world's z-axis. Objects can be set to always be 2D or 3D, or this can be deferred to the PhysicsSpace's Mode2D.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mode2D : Mode2DStates
 
 
@@ -112,7 +112,7 @@
  #  RotationLocked : [boolean](../nada_base_types/boolean.md)
 
 > Makes physics unable to rotate this object. Manual rotations can still be applied.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RotationLocked : Boolean
 
 
@@ -120,7 +120,7 @@
  #  Torque : [real3](../nada_base_types/real3.md)
 
 > The total accumulated torque (in world space) that is being applied to the center of mass of this rigid body this frame. Setting this will wake up the body if it's asleep.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Torque : Real3
 
 
@@ -128,7 +128,7 @@
  #  Velocity : [real3](../nada_base_types/real3.md)
 
 > The velocity (units per second) of this body in world space. Max bounds are around 1e+10, after this the velocity will be capped. Setting this will wake up the body if it's asleep.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Velocity : Real3
 
 
@@ -138,7 +138,7 @@
  `read-only`
 
 > The position of the center of mass in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCenterOfMass : Real3
 
 
@@ -148,7 +148,7 @@
  `read-only`
 
 > The inverse inertia tensor in world space of this body. Describes how hard it is to rotate an object about the world-space axes. Useful to convert any torque into an angular velocity.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldInverseInertiaTensor : Real3x3
 
 
@@ -163,7 +163,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |angular|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyAngularImpulse(angular : Real3)
 > ``` 
 
@@ -175,7 +175,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |angular|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyAngularVelocity(angular : Real3)
 > ``` 
 
@@ -187,7 +187,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |force|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyForce(force : Real3)
 > ``` 
 
@@ -200,7 +200,7 @@
 > |---|---|---|
 > |force|[real3](../nada_base_types/real3.md)| |
 > |worldOffset|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyForceAtOffsetVector(force : Real3, worldOffset : Real3)
 > ``` 
 
@@ -213,7 +213,7 @@
 > |---|---|---|
 > |force|[real3](../nada_base_types/real3.md)| |
 > |worldOffset|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyForceAtOffsetVectorNoWakeUp(force : Real3, worldOffset : Real3)
 > ``` 
 
@@ -226,7 +226,7 @@
 > |---|---|---|
 > |force|[real3](../nada_base_types/real3.md)| |
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyForceAtPoint(force : Real3, worldPoint : Real3)
 > ``` 
 
@@ -239,7 +239,7 @@
 > |---|---|---|
 > |force|[real3](../nada_base_types/real3.md)| |
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyForceAtPointNoWakeUp(force : Real3, worldPoint : Real3)
 > ``` 
 
@@ -251,7 +251,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |force|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyForceNoWakeUp(force : Real3)
 > ``` 
 
@@ -264,7 +264,7 @@
 > |---|---|---|
 > |impulse|[real3](../nada_base_types/real3.md)| |
 > |worldOffset|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyImpulseAtOffsetVector(impulse : Real3, worldOffset : Real3)
 > ``` 
 
@@ -277,7 +277,7 @@
 > |---|---|---|
 > |impulse|[real3](../nada_base_types/real3.md)| |
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyImpulseAtPoint(impulse : Real3, worldPoint : Real3)
 > ``` 
 
@@ -289,7 +289,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |linear|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyLinearImpulse(linear : Real3)
 > ``` 
 
@@ -301,7 +301,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |linear|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyLinearVelocity(linear : Real3)
 > ``` 
 
@@ -313,7 +313,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |torque|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyTorque(torque : Real3)
 > ``` 
 
@@ -325,7 +325,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |torque|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyTorqueNoWakeUp(torque : Real3)
 > ``` 
 
@@ -338,7 +338,7 @@
 > |---|---|---|
 > |velocity|[real3](../nada_base_types/real3.md)| |
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ApplyVelocityAtPoint(velocity : Real3, worldPoint : Real3)
 > ``` 
 
@@ -349,7 +349,7 @@
 > Forces the object asleep. Warning: calling this function could create gameplay flaws if used incorrectly, use at your own risk (and sparingly).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ForceAsleep()
 > ``` 
 
@@ -360,7 +360,7 @@
 > Forces the object awake. Will reset the sleep timer.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ForceAwake()
 > ``` 
 
@@ -372,7 +372,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |worldPoint|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetPointVelocity(worldPoint : Real3) : Real3
 > ``` 
 
@@ -385,7 +385,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RigidBody()
 > ``` 
 

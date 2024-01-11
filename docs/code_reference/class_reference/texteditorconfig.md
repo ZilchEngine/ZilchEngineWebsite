@@ -25,7 +25,7 @@
  #  AutoCompleteOnEnter : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoCompleteOnEnter : Boolean
 
 
@@ -33,7 +33,7 @@
  #  CodeFolding : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CodeFolding : Boolean
 
 
@@ -41,7 +41,7 @@
  #  ColorScheme : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ColorScheme : String
 
 
@@ -49,7 +49,7 @@
  #  ConfidentAutoCompleteOnSymbols : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConfidentAutoCompleteOnSymbols : Boolean
 
 
@@ -57,7 +57,7 @@
  #  FontSize : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FontSize : Integer
 
 
@@ -65,7 +65,7 @@
  #  HighlightPartialTextMatch : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HighlightPartialTextMatch : Boolean
 
 
@@ -73,7 +73,7 @@
  #  KeywordAndTypeCompletion : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var KeywordAndTypeCompletion : Boolean
 
 
@@ -81,7 +81,7 @@
  #  LineNumbers : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LineNumbers : Boolean
 
 
@@ -89,7 +89,7 @@
  #  LocalWordCompletion : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalWordCompletion : Boolean
 
 
@@ -97,7 +97,7 @@
  #  ShowWhiteSpace : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowWhiteSpace : Boolean
 
 
@@ -105,7 +105,7 @@
  #  TabWidth : [TabWidth](../enum_reference.md#tabwidth)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TabWidth : TabWidth
 
 
@@ -113,7 +113,7 @@
  #  TextMatchHighlighting : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextMatchHighlighting : Boolean
 
 
@@ -129,7 +129,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TextEditorConfig()
 > ``` 
 

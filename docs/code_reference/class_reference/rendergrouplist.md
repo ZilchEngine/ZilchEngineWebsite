@@ -21,7 +21,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](rendergroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(renderGroup : RenderGroup)
 > ``` 
 
@@ -32,7 +32,7 @@
 > Range of all resources in the list.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function All() : ArrayHandleOfRenderGroup
 > ``` 
 
@@ -44,7 +44,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](rendergroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Remove(renderGroup : RenderGroup)
 > ``` 
 

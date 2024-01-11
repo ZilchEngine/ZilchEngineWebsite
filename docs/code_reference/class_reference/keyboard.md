@@ -30,7 +30,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[Keys](../enum_reference.md#keys)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetKeyName(key : Keys) : String
 > ``` 
 
@@ -41,7 +41,7 @@
 > Is any key in the 'Keys' enum down (not including 'Keys::Unknown', e.g. PrintScreen).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsAnyKeyDown() : Boolean
 > ``` 
 
@@ -52,7 +52,7 @@
 > Excluding Ctrl, Shift, and Alt - is any key in the 'Keys' enum down (not including 'Keys::Unknown', e.g. PrintScreen).
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsAnyNonModifierDown() : Boolean
 > ``` 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[Keys](../enum_reference.md#keys)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function KeyIsDown(key : Keys) : Boolean
 > ``` 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[Keys](../enum_reference.md#keys)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function KeyIsPressed(key : Keys) : Boolean
 > ``` 
 
@@ -88,7 +88,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[Keys](../enum_reference.md#keys)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function KeyIsReleased(key : Keys) : Boolean
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[Keys](../enum_reference.md#keys)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function KeyIsUp(key : Keys) : Boolean
 > ``` 
 
@@ -112,7 +112,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToKey(key : String) : Keys
 > ``` 
 
@@ -124,7 +124,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[Keys](../enum_reference.md#keys)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToSymbol(key : Keys) : String
 > ``` 
 
@@ -136,7 +136,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |keyName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToSymbol(keyName : String) : String
 > ``` 
 
@@ -148,7 +148,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[Keys](../enum_reference.md#keys)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Valid(key : Keys) : Boolean
 > ``` 
 
@@ -160,7 +160,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Valid(key : String) : Boolean
 > ``` 
 

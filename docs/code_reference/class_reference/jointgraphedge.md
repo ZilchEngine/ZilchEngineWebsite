@@ -20,7 +20,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Joint : Joint
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Object : Cog
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OtherObject : Cog
 
 
@@ -50,7 +50,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Owner : Cog
 
 
@@ -60,7 +60,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Valid : Boolean
 
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function JointGraphEdge()
 > ``` 
 
@@ -90,7 +90,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[jointgraphedge](jointgraphedge.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function JointGraphEdge( : JointGraphEdge)
 > ``` 
 

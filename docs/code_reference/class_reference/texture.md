@@ -28,7 +28,7 @@
  #  AddressingX : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > How to treat uv coordinates outside of [0, 1] along the Texture's width.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AddressingX : TextureAddressing
 
 
@@ -36,7 +36,7 @@
  #  AddressingY : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > How to treat uv coordinates outside of [0, 1] along the Texture's height.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AddressingY : TextureAddressing
 
 
@@ -44,7 +44,7 @@
  #  Anisotropy : [TextureAnisotropy](../enum_reference.md#textureanisotropy)
 
 > Max ratio of anisotropy that filtering will account for at oblique viewing angles.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Anisotropy : TextureAnisotropy
 
 
@@ -52,7 +52,7 @@
  #  CompareFunc : [TextureCompareFunc](../enum_reference.md#texturecomparefunc)
 
 > Which method of comparison should be used if CompareMode is set to Enable.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompareFunc : TextureCompareFunc
 
 
@@ -60,7 +60,7 @@
  #  CompareMode : [TextureCompareMode](../enum_reference.md#texturecomparemode)
 
 > If sampling in hardware should perform comparison instead of fetching. Requires using SamplerShadow2d in the shader.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompareMode : TextureCompareMode
 
 
@@ -70,7 +70,7 @@
  `read-only`
 
 > Block compression method being used. Requires pre-processing, cannot be set for runtime Textures.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Compression : TextureCompression
 
 
@@ -78,7 +78,7 @@
  #  Filtering : [TextureFiltering](../enum_reference.md#texturefiltering)
 
 > How samples should be blended under minification/magnification.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Filtering : TextureFiltering
 
 
@@ -88,7 +88,7 @@
  `read-only`
 
 > Memory format of the stored pixel data. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Format : TextureFormat
 
 
@@ -98,7 +98,7 @@
  `read-only`
 
 > Height of the Texture in pixels. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Height : Integer
 
 
@@ -106,7 +106,7 @@
  #  MipMapping : [TextureMipMapping](../enum_reference.md#texturemipmapping)
 
 > If downsampled versions of the texture (mip maps) should be generated. PreGenerated is not valid for runtime Textures.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MipMapping : TextureMipMapping
 
 
@@ -116,7 +116,7 @@
  `read-only`
 
 > Width and height (x, y) of the Texture in pixels. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Integer2
 
 
@@ -126,7 +126,7 @@
  `read-only`
 
 > The type of texture data being represented.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Type : TextureType
 
 
@@ -136,7 +136,7 @@
  `read-only`
 
 > Width of the Texture in pixels. Set on Upload() for runtime Textures.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Width : Integer
 
 
@@ -152,7 +152,7 @@
 > Makes an anonymous Texture resource that can be defined by script and uploaded to the gpu.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : Texture
 > ``` 
 
@@ -166,7 +166,7 @@
 > |textureData|[texturedata](texturedata.md)| |
 > |xOffset|[integer](../nada_base_types/integer.md)| |
 > |yOffset|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SubUpload(textureData : TextureData, xOffset : Integer, yOffset : Integer)
 > ``` 
 
@@ -178,7 +178,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |textureData|[texturedata](texturedata.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Upload(textureData : TextureData)
 > ``` 
 

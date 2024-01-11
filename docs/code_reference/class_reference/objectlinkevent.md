@@ -18,7 +18,7 @@
  #  EdgeId : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EdgeId : Integer
 
 
@@ -26,7 +26,7 @@
  #  NewCog : [cog](cog.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NewCog : Cog
 
 
@@ -34,7 +34,7 @@
  #  OldCog : [cog](cog.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OldCog : Cog
 
 

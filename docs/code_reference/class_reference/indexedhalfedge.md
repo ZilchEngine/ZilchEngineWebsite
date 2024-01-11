@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FaceIndex : Integer
 
 
@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TwinIndex : Integer
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VertexIndex : Integer
 
 
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdge()
 > ``` 
 
@@ -66,7 +66,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[indexedhalfedge](indexedhalfedge.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdge(p0 : IndexedHalfEdge)
 > ``` 
 

@@ -17,7 +17,7 @@
  #  Get : delegate():Key
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Get : delegate () : Key
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Getter : Function
 
 
@@ -35,7 +35,7 @@
  #  Instance : T
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Instance : T
 
 
@@ -43,7 +43,7 @@
  #  Property : Property[[type](type.md)]
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Property : Property[Type]
 
 
@@ -51,7 +51,7 @@
  #  Set : delegate(value:Key)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Set : delegate (value : Key)
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Setter : Function
 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |instance|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetValue(instance : T) : T
 > ``` 
 
@@ -89,7 +89,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -102,7 +102,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -115,7 +115,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -128,7 +128,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -141,7 +141,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -154,7 +154,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -167,7 +167,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -180,7 +180,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -193,7 +193,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Property[Type]()
 > ``` 
 
@@ -206,7 +206,7 @@
 > |---|---|---|
 > |instance|T| |
 > |value|T| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetValue(instance : T, value : T)
 > ``` 
 

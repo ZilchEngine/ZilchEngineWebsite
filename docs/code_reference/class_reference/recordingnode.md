@@ -16,7 +16,7 @@
  #  FileName : [string](../nada_base_types/string.md)
 
 > The name of the output file that will be created, including the full path. Do not include the file extension.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FileName : String
 
 
@@ -24,7 +24,7 @@
  #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > When true, recording is paused, and can be resumed by setting to false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Paused : Boolean
 
 
@@ -32,7 +32,7 @@
  #  StreamToDisk : [boolean](../nada_base_types/boolean.md)
 
 > When false, audio data will be saved in a buffer and written to the file when StopRecording is called. When true, data will be written to the file constantly during every update frame, and nothing will be saved.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StreamToDisk : Boolean
 
 
@@ -46,7 +46,7 @@
 > Starts writing all audio input to a file.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StartRecording()
 > ``` 
 
@@ -57,7 +57,7 @@
 > Stops writing data and closes the file.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StopRecording()
 > ``` 
 

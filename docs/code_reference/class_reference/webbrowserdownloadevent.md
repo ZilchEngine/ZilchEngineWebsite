@@ -26,7 +26,7 @@
  #  Cancel : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cancel : Boolean
 
 
@@ -34,7 +34,7 @@
  #  ContentDisposition : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ContentDisposition : String
 
 
@@ -42,7 +42,7 @@
  #  CurrentSpeed : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CurrentSpeed : DoubleInteger
 
 
@@ -50,7 +50,7 @@
  #  FilePath : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FilePath : String
 
 
@@ -58,7 +58,7 @@
  #  Id : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Id : Integer
 
 
@@ -66,7 +66,7 @@
  #  IsComplete : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsComplete : Boolean
 
 
@@ -74,7 +74,7 @@
  #  IsInProgress : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsInProgress : Boolean
 
 
@@ -82,7 +82,7 @@
  #  MimeType : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MimeType : String
 
 
@@ -90,7 +90,7 @@
  #  OriginalUrl : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginalUrl : String
 
 
@@ -98,7 +98,7 @@
  #  ReceivedBytes : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReceivedBytes : DoubleInteger
 
 
@@ -106,7 +106,7 @@
  #  SuggestedFileName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SuggestedFileName : String
 
 
@@ -114,7 +114,7 @@
  #  TotalBytes : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TotalBytes : DoubleInteger
 
 
@@ -122,7 +122,7 @@
  #  Url : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Url : String
 
 

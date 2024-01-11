@@ -19,7 +19,7 @@
  #  AttackTime : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AttackTime : Real
 
 
@@ -27,7 +27,7 @@
  #  DecayTime : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DecayTime : Real
 
 
@@ -35,7 +35,7 @@
  #  DelayTime : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DelayTime : Real
 
 
@@ -43,7 +43,7 @@
  #  ReleaseTime : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReleaseTime : Real
 
 
@@ -51,7 +51,7 @@
  #  SustainLevel : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SustainLevel : Real
 
 
@@ -59,7 +59,7 @@
  #  SustainTime : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SustainTime : Real
 
 
@@ -75,7 +75,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AdsrEnvelope()
 > ``` 
 

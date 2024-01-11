@@ -26,7 +26,7 @@
  `read-only`
 
 > The object that has a CameraViewport component using this Camera, if any.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CameraViewportCog : Cog
 
 
@@ -34,7 +34,7 @@
  #  FarPlane : [real](../nada_base_types/real.md)
 
 > The far clipping plane, always positive and in the view direction.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FarPlane : Real
 
 
@@ -42,7 +42,7 @@
  #  FieldOfView : [real](../nada_base_types/real.md)
 
 > The vertical field of view of the Camera, in degrees. Horizontal fov derived from aspect ratio (Hor+).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FieldOfView : Real
 
 
@@ -50,7 +50,7 @@
  #  NearPlane : [real](../nada_base_types/real.md)
 
 > The near clipping plane, always positive and in the view direction.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NearPlane : Real
 
 
@@ -58,7 +58,7 @@
  #  PerspectiveMode : [PerspectiveMode](../enum_reference.md#perspectivemode)
 
 > How the scene is projected on to the view plane.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PerspectiveMode : PerspectiveMode
 
 
@@ -66,7 +66,7 @@
  #  Size : [real](../nada_base_types/real.md)
 
 > Size (width and height) of the orthographic projection, in world units.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Real
 
 
@@ -76,7 +76,7 @@
  `read-only`
 
 > Direction the Camera is facing, in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldDirection : Real3
 
 
@@ -86,7 +86,7 @@
  `read-only`
 
 > Translation of the Camera, in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTranslation : Real3
 
 
@@ -96,7 +96,7 @@
  `read-only`
 
 > The upright direction of the Camera(perpendicular to facing direction), in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldUp : Real3
 
 
@@ -112,7 +112,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Camera()
 > ``` 
 
@@ -124,7 +124,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |aspect|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFrustum(aspect : Real) : Frustum
 > ``` 
 

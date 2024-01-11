@@ -20,7 +20,7 @@
  `read-only`
 
 > Network game session.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GameSession : GameSession
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > Current level name.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LevelName : String
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Network space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Space : Space
 
 

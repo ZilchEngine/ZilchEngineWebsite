@@ -17,7 +17,7 @@
  `read-only` `static`
 
 > The smallest (most negative) value that can be represented by a DoubleReal.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeMin : DoubleReal
 
 
@@ -27,7 +27,7 @@
  `read-only` `static`
 
 > The negative value closest to zero that can be represented by a DoubleReal.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NegativeValueClosestToZero : DoubleReal
 
 
@@ -37,7 +37,7 @@
  `read-only` `static`
 
 > The largest (most positive) value that can be represented by a DoubleReal.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveMax : DoubleReal
 
 
@@ -47,7 +47,7 @@
  `read-only` `static`
 
 > The positive value closest to zero that can be represented by a DoubleReal.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveValueClosestToZero : DoubleReal
 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Parse(p0 : StringRange) : DoubleReal
 > ``` 
 

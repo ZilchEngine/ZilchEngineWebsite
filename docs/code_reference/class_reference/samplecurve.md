@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HeightMax : Real
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WidthMax : Real
 
 
@@ -44,7 +44,7 @@
 > |p0|[real](../nada_base_types/real.md)| |
 > |p1|[string](../nada_base_types/string.md)| |
 > |p2|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugSample(p0 : Real, p1 : String, p2 : Real4) : Real
 > ``` 
 
@@ -56,7 +56,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sample(p0 : Real) : Real
 > ``` 
 

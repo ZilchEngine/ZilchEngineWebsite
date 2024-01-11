@@ -17,7 +17,7 @@
  #  Axis : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Axis : Real3
 
 
@@ -25,7 +25,7 @@
  #  MaxDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxDistance : Real
 
 
@@ -33,7 +33,7 @@
  #  MinDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MinDistance : Real
 
 
@@ -41,7 +41,7 @@
  #  Strength : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Strength : Real
 
 
@@ -57,7 +57,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ParticleTwister()
 > ``` 
 

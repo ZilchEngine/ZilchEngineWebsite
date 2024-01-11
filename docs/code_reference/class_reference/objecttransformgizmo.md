@@ -20,7 +20,7 @@
  #  Basis : [GizmoBasis](../enum_reference.md#gizmobasis)
 
 > Setters / Getters.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Basis : GizmoBasis
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > Object getters.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectCount : Integer
 
 
@@ -38,7 +38,7 @@
  #  Pivot : [GizmoPivot](../enum_reference.md#gizmopivot)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Pivot : GizmoPivot
 
 
@@ -54,7 +54,7 @@
 > |---|---|---|
 > ||[anyhandle](../nada_base_types/anyhandle.md)| |
 > ||[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddObject( : AnyHandle,  : Boolean)
 > ``` 
 
@@ -65,7 +65,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearObjects()
 > ``` 
 
@@ -77,7 +77,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetObjectAtIndex(index : Integer) : AnyHandle
 > ``` 
 
@@ -90,7 +90,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectTransformGizmo()
 > ``` 
 
@@ -103,7 +103,7 @@
 > |---|---|---|
 > ||[anyhandle](../nada_base_types/anyhandle.md)| |
 > ||[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveObject( : AnyHandle,  : Boolean)
 > ``` 
 
@@ -115,7 +115,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |opQueue|[operationqueue](operationqueue.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetOperationQueue(opQueue : OperationQueue)
 > ``` 
 
@@ -126,7 +126,7 @@
 > Toggle between local / world.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ToggleCoordinateMode()
 > ``` 
 

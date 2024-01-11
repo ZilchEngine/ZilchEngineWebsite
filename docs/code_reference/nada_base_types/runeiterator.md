@@ -18,7 +18,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : RuneIterator
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ByteIndex : Integer
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Current : Rune
 
 
@@ -48,7 +48,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotEmpty : Boolean
 
 
@@ -58,7 +58,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginalString : String
 
 
@@ -72,7 +72,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Decrement()
 > ``` 
 
@@ -84,7 +84,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[runeiterator](runeiterator.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Equals(p0 : RuneIterator) : Boolean
 > ``` 
 
@@ -95,7 +95,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Increment()
 > ``` 
 
@@ -106,7 +106,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MoveNext()
 > ``` 
 
@@ -119,7 +119,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuneIterator()
 > ``` 
 

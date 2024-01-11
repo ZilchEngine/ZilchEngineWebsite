@@ -24,7 +24,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChildCount : Integer
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastDeepestChild : UiWidget
 
 
@@ -44,7 +44,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastDirectChild : UiWidget
 
 
@@ -54,7 +54,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NextInHierarchyOrder : UiWidget
 
 
@@ -64,7 +64,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NextSibling : UiWidget
 
 
@@ -74,7 +74,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Parent : UiWidget
 
 
@@ -84,7 +84,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviousInHierarchyOrder : UiWidget
 
 
@@ -94,7 +94,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviousSibling : UiWidget
 
 
@@ -104,7 +104,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Root : UiWidget
 
 
@@ -118,7 +118,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetChildren() : UiWidgetRange
 > ``` 
 
@@ -130,7 +130,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[uiwidget](uiwidget.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsAncestorOf( : UiWidget) : Boolean
 > ``` 
 
@@ -142,7 +142,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[uiwidget](uiwidget.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsDescendantOf( : UiWidget) : Boolean
 > ``` 
 

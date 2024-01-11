@@ -15,7 +15,7 @@
  #  AudioOptions : [audiooptions](audiooptions.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AudioOptions : AudioOptions
 
 
@@ -23,7 +23,7 @@
  #  ConflictOptions : [conflictoptions](conflictoptions.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConflictOptions : ConflictOptions
 
 
@@ -31,7 +31,7 @@
  #  GeometryOptions : [geometryoptions](geometryoptions.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GeometryOptions : GeometryOptions
 
 
@@ -39,7 +39,7 @@
  #  ImageOptions : [imageoptions](imageoptions.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ImageOptions : ImageOptions
 
 

@@ -25,7 +25,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Enable/disable this effect.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -33,7 +33,7 @@
  #  DebugDrawEffect : [boolean](../nada_base_types/boolean.md)
 
 > Should the effect debug draw.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DebugDrawEffect : Boolean
 
 
@@ -43,7 +43,7 @@
  `read-only`
 
 > What kind of effect this is (e.g. ForceEffect, GravityEffect, etc...).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EffectType : PhysicsEffectType
 
 
@@ -51,7 +51,7 @@
  #  WakeUpOnChange : [boolean](../nada_base_types/boolean.md)
 
 > Whether the object associated with this is woken up when any property is changed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WakeUpOnChange : Boolean
 
 
@@ -65,7 +65,7 @@
 > Toggles whether or not this effect is active.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Toggle()
 > ``` 
 

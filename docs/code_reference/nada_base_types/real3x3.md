@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -35,7 +35,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CountX : Integer
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CountY : Integer
 
 
@@ -53,7 +53,7 @@
  #  M00 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M00 : Real
 
 
@@ -61,7 +61,7 @@
  #  M01 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M01 : Real
 
 
@@ -69,7 +69,7 @@
  #  M02 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M02 : Real
 
 
@@ -77,7 +77,7 @@
  #  M10 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M10 : Real
 
 
@@ -85,7 +85,7 @@
  #  M11 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M11 : Real
 
 
@@ -93,7 +93,7 @@
  #  M12 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M12 : Real
 
 
@@ -101,7 +101,7 @@
  #  M20 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M20 : Real
 
 
@@ -109,7 +109,7 @@
  #  M21 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M21 : Real
 
 
@@ -117,7 +117,7 @@
  #  M22 : [real](real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var M22 : Real
 
 
@@ -132,7 +132,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |y|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(y : Integer) : Real3
 > ``` 
 
@@ -145,7 +145,7 @@
 > |---|---|---|
 > |y|[integer](integer.md)| |
 > |x|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(y : Integer, x : Integer) : Real
 > ``` 
 
@@ -157,7 +157,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetByIndex(index : Integer) : Real
 > ``` 
 
@@ -170,7 +170,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real3x3()
 > ``` 
 
@@ -184,7 +184,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real3x3(p0 : Real)
 > ``` 
 
@@ -206,7 +206,7 @@
 > |m20|[real](real.md)| |
 > |m21|[real](real.md)| |
 > |m22|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Real3x3(m00 : Real, m01 : Real, m02 : Real, m10 : Real, m11 : Real, m12 : Real, m20 : Real, m21 : Real, m22 : Real)
 > ``` 
 
@@ -220,7 +220,7 @@
 > |y|[integer](integer.md)| |
 > |x|[integer](integer.md)| |
 > |value|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(y : Integer, x : Integer, value : Real)
 > ``` 
 
@@ -233,7 +233,7 @@
 > |---|---|---|
 > |y|[integer](integer.md)| |
 > |value|[real3](real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(y : Integer, value : Real3)
 > ``` 
 
@@ -246,7 +246,7 @@
 > |---|---|---|
 > |index|[integer](integer.md)| |
 > |value|[real](real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetByIndex(index : Integer, value : Real)
 > ``` 
 

@@ -21,7 +21,7 @@
  #  Closed : [boolean](../nada_base_types/boolean.md)
 
 > Does the spline loop back on itself?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Closed : Boolean
 
 
@@ -29,7 +29,7 @@
  #  DebugDrawSpline : [boolean](../nada_base_types/boolean.md)
 
 > Should the spline draw every frame? Mainly used for debugging purposes.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DebugDrawSpline : Boolean
 
 
@@ -37,7 +37,7 @@
  #  Error : [real](../nada_base_types/real.md)
 
 > The max number of units that a line segment is allowed to deviate from the curve.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Error : Real
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > The internal spline data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Spline : Spline
 
 
@@ -55,7 +55,7 @@
  #  SplineColor : [real4](../nada_base_types/real4.md)
 
 > What color should that spline be drawn with.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SplineColor : Real4
 
 
@@ -63,7 +63,7 @@
  #  SplineType : [SplineType](../enum_reference.md#splinetype)
 
 > The kind of spline (Linear, BSpline, CatmullRom). Determines how the control points affect the curve.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SplineType : SplineType
 
 
@@ -77,7 +77,7 @@
 > Forcibly rebuilds the baked points for the spline.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ForceRebuild()
 > ``` 
 
@@ -90,7 +90,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HierarchySpline()
 > ``` 
 
@@ -101,7 +101,7 @@
 > Rebuild the baked points if there are any changes to the spline's control points. This should never need to be manually called.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RebuildIfModified()
 > ``` 
 

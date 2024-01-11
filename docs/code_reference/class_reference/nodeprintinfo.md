@@ -18,7 +18,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Connections : NodeInfoListRange
 
 
@@ -26,7 +26,7 @@
  #  HasOutput : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HasOutput : Boolean
 
 
@@ -34,7 +34,7 @@
  #  ID : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ID : Integer
 
 
@@ -42,7 +42,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -50,7 +50,7 @@
  #  Position : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real2
 
 

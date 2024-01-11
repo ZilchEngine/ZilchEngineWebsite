@@ -18,7 +18,7 @@
  #  ChangeBasis : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChangeBasis : Boolean
 
 
@@ -26,7 +26,7 @@
  #  CollapsePivots : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CollapsePivots : Boolean
 
 
@@ -34,7 +34,7 @@
  #  OriginOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginOffset : Real3
 
 
@@ -42,7 +42,7 @@
  #  ScaleFactor : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ScaleFactor : Real
 
 
@@ -50,7 +50,7 @@
  #  XBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var XBasisTo : BasisType
 
 
@@ -58,7 +58,7 @@
  #  YBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var YBasisTo : BasisType
 
 
@@ -66,7 +66,7 @@
  #  ZBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ZBasisTo : BasisType
 
 
@@ -82,7 +82,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GeometryImport()
 > ``` 
 

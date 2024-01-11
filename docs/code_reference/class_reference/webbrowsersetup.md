@@ -16,7 +16,7 @@
  #  BackgroundColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BackgroundColor : Real4
 
 
@@ -24,7 +24,7 @@
  #  ScrollSpeed : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ScrollSpeed : Real2
 
 
@@ -32,7 +32,7 @@
  #  Size : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Integer2
 
 
@@ -40,7 +40,7 @@
  #  Transparent : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Transparent : Boolean
 
 
@@ -48,7 +48,7 @@
  #  Url : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Url : String
 
 
@@ -64,7 +64,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WebBrowserSetup()
 > ``` 
 

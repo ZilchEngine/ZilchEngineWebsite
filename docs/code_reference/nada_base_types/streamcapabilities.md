@@ -19,7 +19,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GetCount : StreamCapabilities
 
 
@@ -29,7 +29,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var None : StreamCapabilities
 
 
@@ -39,7 +39,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Read : StreamCapabilities
 
 
@@ -49,7 +49,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Seek : StreamCapabilities
 
 
@@ -59,7 +59,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SetCount : StreamCapabilities
 
 
@@ -69,7 +69,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Write : StreamCapabilities
 
 

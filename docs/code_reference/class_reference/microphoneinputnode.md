@@ -15,7 +15,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Microphone input will only be played while the Active property is set to True.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -23,7 +23,7 @@
  #  Volume : [real](../nada_base_types/real.md)
 
 > The volume modifier applied to all audio data received from the microphone.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 

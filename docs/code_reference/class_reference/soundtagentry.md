@@ -14,7 +14,7 @@
  #  SoundTag : [soundtag](soundtag.md)
 
 > This SoundTag will be added to all SoundInstances created by the SoundCue.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SoundTag : SoundTag
 
 

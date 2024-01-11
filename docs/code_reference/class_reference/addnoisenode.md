@@ -17,7 +17,7 @@
  #  AdditiveCutoff : [real](../nada_base_types/real.md)
 
 > The cutoff frequency used for the additive noise component, in Hz.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AdditiveCutoff : Real
 
 
@@ -25,7 +25,7 @@
  #  AdditiveGain : [real](../nada_base_types/real.md)
 
 > The gain of the additive noise component, in decibels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AdditiveGain : Real
 
 
@@ -33,7 +33,7 @@
  #  MultiplicativeCutoff : [real](../nada_base_types/real.md)
 
 > The cutoff frequency used for the multiplicative noise component, in Hz.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MultiplicativeCutoff : Real
 
 
@@ -41,7 +41,7 @@
  #  MultiplicativeGain : [real](../nada_base_types/real.md)
 
 > The gain of the multiplicative noise component, in decibels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MultiplicativeGain : Real
 
 

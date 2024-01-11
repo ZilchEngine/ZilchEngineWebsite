@@ -24,7 +24,7 @@
  `read-only`
 
 > Object with the CameraViewport component that this event is getting tasks for.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CameraViewportCog : Cog
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > Size of the UI viewport, or the resolution on CameraViewport if not rendering to viewport.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewportSize : Integer2
 
 
@@ -50,7 +50,7 @@
 > |---|---|---|
 > |renderSettings|[rendersettings](rendersettings.md)| |
 > |color|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4)
 > ``` 
 
@@ -64,7 +64,7 @@
 > |renderSettings|[rendersettings](rendersettings.md)| |
 > |color|[real4](../nada_base_types/real4.md)| |
 > |depth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4, depth : Real)
 > ``` 
 
@@ -79,7 +79,7 @@
 > |color|[real4](../nada_base_types/real4.md)| |
 > |depth|[real](../nada_base_types/real.md)| |
 > |stencil|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4, depth : Real, stencil : Integer)
 > ``` 
 
@@ -95,7 +95,7 @@
 > |depth|[real](../nada_base_types/real.md)| |
 > |stencil|[integer](../nada_base_types/integer.md)| |
 > |stencilWriteMask|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4, depth : Real, stencil : Integer, stencilWriteMask : Integer)
 > ``` 
 
@@ -108,7 +108,7 @@
 > |---|---|---|
 > |depthTarget|[rendertarget](rendertarget.md)| |
 > |depth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(depthTarget : RenderTarget, depth : Real)
 > ``` 
 
@@ -122,7 +122,7 @@
 > |depthTarget|[rendertarget](rendertarget.md)| |
 > |depth|[real](../nada_base_types/real.md)| |
 > |stencil|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(depthTarget : RenderTarget, depth : Real, stencil : Integer)
 > ``` 
 
@@ -137,7 +137,7 @@
 > |depth|[real](../nada_base_types/real.md)| |
 > |stencil|[integer](../nada_base_types/integer.md)| |
 > |stencilWriteMask|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(depthTarget : RenderTarget, depth : Real, stencil : Integer, stencilWriteMask : Integer)
 > ``` 
 
@@ -150,7 +150,7 @@
 > |---|---|---|
 > |colorTarget|[rendertarget](rendertarget.md)| |
 > |color|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, color : Real4)
 > ``` 
 
@@ -165,7 +165,7 @@
 > |depthTarget|[rendertarget](rendertarget.md)| |
 > |color|[real4](../nada_base_types/real4.md)| |
 > |depth|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, depthTarget : RenderTarget, color : Real4, depth : Real)
 > ``` 
 
@@ -181,7 +181,7 @@
 > |color|[real4](../nada_base_types/real4.md)| |
 > |depth|[real](../nada_base_types/real.md)| |
 > |stencil|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, depthTarget : RenderTarget, color : Real4, depth : Real, stencil : Integer)
 > ``` 
 
@@ -198,7 +198,7 @@
 > |depth|[real](../nada_base_types/real.md)| |
 > |stencil|[integer](../nada_base_types/integer.md)| |
 > |stencilWriteMask|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, depthTarget : RenderTarget, color : Real4, depth : Real, stencil : Integer, stencilWriteMask : Integer)
 > ``` 
 
@@ -211,7 +211,7 @@
 > |---|---|---|
 > |renderSettings|[rendersettings](rendersettings.md)| |
 > |material|[material](material.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskPostProcess(renderSettings : RenderSettings, material : Material)
 > ``` 
 
@@ -224,7 +224,7 @@
 > |---|---|---|
 > |renderSettings|[rendersettings](rendersettings.md)| |
 > |postProcess|[materialblock](materialblock.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskPostProcess(renderSettings : RenderSettings, postProcess : MaterialBlock)
 > ``` 
 
@@ -237,7 +237,7 @@
 > |---|---|---|
 > |renderTarget|[rendertarget](rendertarget.md)| |
 > |material|[material](material.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskPostProcess(renderTarget : RenderTarget, material : Material)
 > ``` 
 
@@ -250,7 +250,7 @@
 > |---|---|---|
 > |renderTarget|[rendertarget](rendertarget.md)| |
 > |postProcess|[materialblock](materialblock.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskPostProcess(renderTarget : RenderTarget, postProcess : MaterialBlock)
 > ``` 
 
@@ -264,7 +264,7 @@
 > |renderSettings|[rendersettings](rendersettings.md)| |
 > |graphicalRange|[graphicalrangeinterface](graphicalrangeinterface.md)| |
 > |renderPass|[materialblock](materialblock.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskRenderPass(renderSettings : RenderSettings, graphicalRange : GraphicalRangeInterface, renderPass : MaterialBlock)
 > ``` 
 
@@ -278,7 +278,7 @@
 > |renderSettings|[rendersettings](rendersettings.md)| |
 > |renderGroup|[rendergroup](rendergroup.md)| |
 > |renderPass|[materialblock](materialblock.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskRenderPass(renderSettings : RenderSettings, renderGroup : RenderGroup, renderPass : MaterialBlock)
 > ``` 
 
@@ -290,7 +290,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |subRenderGroupPass|[subrendergrouppass](subrendergrouppass.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddRenderTaskSubRenderGroupPass(subRenderGroupPass : SubRenderGroupPass)
 > ``` 
 
@@ -302,7 +302,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |baseGroup|[rendergroup](rendergroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateSubRenderGroupPass(baseGroup : RenderGroup) : SubRenderGroupPass
 > ``` 
 
@@ -315,7 +315,7 @@
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[TextureFormat](../enum_reference.md#textureformat)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFinalTarget( : Integer2,  : TextureFormat) : RenderTarget
 > ``` 
 
@@ -329,7 +329,7 @@
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[TextureFormat](../enum_reference.md#textureformat)| |
 > ||[samplersettings](samplersettings.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFinalTarget( : Integer2,  : TextureFormat,  : SamplerSettings) : RenderTarget
 > ``` 
 
@@ -342,7 +342,7 @@
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[TextureFormat](../enum_reference.md#textureformat)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetRenderTarget( : Integer2,  : TextureFormat) : RenderTarget
 > ``` 
 
@@ -356,7 +356,7 @@
 > ||[integer2](../nada_base_types/integer2.md)| |
 > ||[TextureFormat](../enum_reference.md#textureformat)| |
 > ||[samplersettings](samplersettings.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetRenderTarget( : Integer2,  : TextureFormat,  : SamplerSettings) : RenderTarget
 > ``` 
 
@@ -368,7 +368,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |texture|[texture](texture.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetRenderTarget(texture : Texture) : RenderTarget
 > ``` 
 

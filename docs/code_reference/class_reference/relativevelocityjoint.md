@@ -31,7 +31,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxis(index : Integer) : Real3
 > ``` 
 
@@ -43,7 +43,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxisActive(index : Integer) : Boolean
 > ``` 
 
@@ -55,7 +55,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetMaxImpulse(index : Integer) : Real
 > ``` 
 
@@ -67,7 +67,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetSpeed(index : Integer) : Real
 > ``` 
 
@@ -80,7 +80,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RelativeVelocityJoint()
 > ``` 
 
@@ -93,7 +93,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |axis|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetAxis(index : Integer, axis : Real3)
 > ``` 
 
@@ -106,7 +106,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |active|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetAxisActive(index : Integer, active : Boolean)
 > ``` 
 
@@ -119,7 +119,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |maxImpulse|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetMaxImpulse(index : Integer, maxImpulse : Real)
 > ``` 
 
@@ -132,7 +132,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |speed|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetSpeed(index : Integer, speed : Real)
 > ``` 
 

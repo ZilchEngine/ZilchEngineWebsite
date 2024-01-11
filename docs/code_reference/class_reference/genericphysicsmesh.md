@@ -19,7 +19,7 @@
  `read-only`
 
 > The index buffer data of this mesh.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Indices : PhysicsMeshIndexData
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > The vertex buffer data of this mesh.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Vertices : PhysicsMeshVertexData
 
 
@@ -43,7 +43,7 @@
 > Rebuild all extra mesh information if it is currently modified. This includes things like the center of mass, volume, aabb, edge info and more (some derived types may have a mid-phase, etc...)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UpdateAndNotifyIfModified()
 > ``` 
 
@@ -55,7 +55,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |throwExceptionIfInvalid|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Validate(throwExceptionIfInvalid : Boolean) : Boolean
 > ``` 
 

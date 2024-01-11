@@ -19,7 +19,7 @@
  #  PaddingBottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaddingBottom : Real
 
 
@@ -27,7 +27,7 @@
  #  PaddingLeft : [real](../nada_base_types/real.md)
 
 > Padding getter / setters for binding until we have Thickness binding.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaddingLeft : Real
 
 
@@ -35,7 +35,7 @@
  #  PaddingRight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaddingRight : Real
 
 
@@ -43,7 +43,7 @@
  #  PaddingTop : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PaddingTop : Real
 
 
@@ -57,7 +57,7 @@
 > Calling this will set a breakpoint before the layout is done.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Debug()
 > ``` 
 

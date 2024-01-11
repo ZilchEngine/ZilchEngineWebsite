@@ -69,7 +69,7 @@
  #  AbsoluteMinSize : [real2](../nada_base_types/real2.md)
 
 > The minimum size this widget has to be when being laid out.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AbsoluteMinSize : Real2
 
 
@@ -77,7 +77,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Active getter / setter.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -85,7 +85,7 @@
  #  CanTakeFocus : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CanTakeFocus : Boolean
 
 
@@ -93,7 +93,7 @@
  #  ClipChildren : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ClipChildren : Boolean
 
 
@@ -101,7 +101,7 @@
  #  DockMode : [UiDockMode](../enum_reference.md#uidockmode)
 
 > Used in the dock layout.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DockMode : UiDockMode
 
 
@@ -109,7 +109,7 @@
  #  FlexSize : [real2](../nada_base_types/real2.md)
 
 > Flex size used in conjunction with mSizePolicy (if FlexSize is set).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FlexSize : Real2
 
 
@@ -119,7 +119,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HasFocus : Boolean
 
 
@@ -127,7 +127,7 @@
  #  HierarchyColor : [real4](../nada_base_types/real4.md)
 
 > Color that cascades down to children.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HierarchyColor : Real4
 
 
@@ -137,7 +137,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HierarchyHasFocus : Boolean
 
 
@@ -145,7 +145,7 @@
  #  HorizontalAlignment : [UiHorizontalAlignment](../enum_reference.md#uihorizontalalignment)
 
 > Alignments used to shift widgets when in a layout.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HorizontalAlignment : UiHorizontalAlignment
 
 
@@ -153,7 +153,7 @@
  #  InLayout : [boolean](../nada_base_types/boolean.md)
 
 > If true, we will be ignored when our parent updates the layout. Disable this if you want to manually place this widget.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InLayout : Boolean
 
 
@@ -161,7 +161,7 @@
  #  Interactive : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Interactive : Boolean
 
 
@@ -169,7 +169,7 @@
  #  LocalBottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottom : Real
 
 
@@ -177,7 +177,7 @@
  #  LocalBottomCenter : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottomCenter : Real2
 
 
@@ -185,7 +185,7 @@
  #  LocalBottomLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottomLeft : Real2
 
 
@@ -193,7 +193,7 @@
  #  LocalBottomRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalBottomRight : Real2
 
 
@@ -201,7 +201,7 @@
  #  LocalCenter : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalCenter : Real2
 
 
@@ -209,7 +209,7 @@
  #  LocalCenterLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalCenterLeft : Real2
 
 
@@ -217,7 +217,7 @@
  #  LocalCenterRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalCenterRight : Real2
 
 
@@ -225,7 +225,7 @@
  #  LocalColor : [real4](../nada_base_types/real4.md)
 
 > Color that does not cascade to children. It is, however, affected by the parents color.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalColor : Real4
 
 
@@ -233,7 +233,7 @@
  #  LocalLeft : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalLeft : Real
 
 
@@ -241,7 +241,7 @@
  #  LocalRectangle : [rectangle](rectangle.md)
 
 > Returns our rect relative to parent. The origin of this Rect is bottom left.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalRectangle : Rectangle
 
 
@@ -249,7 +249,7 @@
  #  LocalRight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalRight : Real
 
 
@@ -257,7 +257,7 @@
  #  LocalTop : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTop : Real
 
 
@@ -265,7 +265,7 @@
  #  LocalTopCenter : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTopCenter : Real2
 
 
@@ -273,7 +273,7 @@
  #  LocalTopLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTopLeft : Real2
 
 
@@ -281,7 +281,7 @@
  #  LocalTopRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTopRight : Real2
 
 
@@ -289,7 +289,7 @@
  #  LocalTranslation : [real2](../nada_base_types/real2.md)
 
 > Local Translation relative to parent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalTranslation : Real2
 
 
@@ -297,7 +297,7 @@
  #  MarginBottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MarginBottom : Real
 
 
@@ -305,7 +305,7 @@
  #  MarginLeft : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MarginLeft : Real
 
 
@@ -313,7 +313,7 @@
  #  MarginRight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MarginRight : Real
 
 
@@ -321,7 +321,7 @@
  #  MarginTop : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MarginTop : Real
 
 
@@ -331,7 +331,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseOver : Boolean
 
 
@@ -341,7 +341,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseOverHierarchy : Boolean
 
 
@@ -349,7 +349,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -359,7 +359,7 @@
  `read-only`
 
 > Hide the ComponentHierarchy with a more specific root type.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Root : UiRootWidget
 
 
@@ -367,7 +367,7 @@
  #  Size : [real2](../nada_base_types/real2.md)
 
 > Size getter / setter. This acts as a shortcut to the Area Component.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Real2
 
 
@@ -375,7 +375,7 @@
  #  SizePolicyX : [UiSizePolicy](../enum_reference.md#uisizepolicy)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SizePolicyX : UiSizePolicy
 
 
@@ -383,7 +383,7 @@
  #  SizePolicyY : [UiSizePolicy](../enum_reference.md#uisizepolicy)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SizePolicyY : UiSizePolicy
 
 
@@ -391,7 +391,7 @@
  #  VerticalAlignment : [UiVerticalAlignment](../enum_reference.md#uiverticalalignment)
 
 > Alignments used to shift widgets when in a layout.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VerticalAlignment : UiVerticalAlignment
 
 
@@ -399,7 +399,7 @@
  #  Visible : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Visible : Boolean
 
 
@@ -407,7 +407,7 @@
  #  WorldBottom : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottom : Real
 
 
@@ -415,7 +415,7 @@
  #  WorldBottomCenter : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottomCenter : Real2
 
 
@@ -423,7 +423,7 @@
  #  WorldBottomLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottomLeft : Real2
 
 
@@ -431,7 +431,7 @@
  #  WorldBottomRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldBottomRight : Real2
 
 
@@ -439,7 +439,7 @@
  #  WorldCenter : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCenter : Real2
 
 
@@ -447,7 +447,7 @@
  #  WorldCenterLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCenterLeft : Real2
 
 
@@ -455,7 +455,7 @@
  #  WorldCenterRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCenterRight : Real2
 
 
@@ -463,7 +463,7 @@
  #  WorldLeft : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldLeft : Real
 
 
@@ -471,7 +471,7 @@
  #  WorldRectangle : [rectangle](rectangle.md)
 
 > Returns our world rect. The origin of this Rect is bottom left.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRectangle : Rectangle
 
 
@@ -479,7 +479,7 @@
  #  WorldRight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRight : Real
 
 
@@ -487,7 +487,7 @@
  #  WorldTop : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTop : Real
 
 
@@ -495,7 +495,7 @@
  #  WorldTopCenter : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTopCenter : Real2
 
 
@@ -503,7 +503,7 @@
  #  WorldTopLeft : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTopLeft : Real2
 
 
@@ -511,7 +511,7 @@
  #  WorldTopRight : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTopRight : Real2
 
 
@@ -519,7 +519,7 @@
  #  WorldTranslation : [real2](../nada_base_types/real2.md)
 
 > Translation in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldTranslation : Real2
 
 
@@ -536,7 +536,7 @@
 > |worldPoint|[real2](../nada_base_types/real2.md)| |
 > |ignore|[uiwidget](uiwidget.md)| |
 > |interactiveOnly|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastPoint(worldPoint : Real2, ignore : UiWidget, interactiveOnly : Boolean) : UiWidget
 > ``` 
 
@@ -550,7 +550,7 @@
 > |worldRect|[rectangle](rectangle.md)| |
 > |ignore|[uiwidget](uiwidget.md)| |
 > |interactiveOnly|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastRect(worldRect : Rectangle, ignore : UiWidget, interactiveOnly : Boolean) : UiWidgetCastResultsRange
 > ``` 
 
@@ -561,7 +561,7 @@
 > Gives focus back to the root widget.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LoseFocus()
 > ``` 
 
@@ -572,7 +572,7 @@
 > Lets the Widget system know that this object has been modified and needs to be re-laid out.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MarkAsNeedsUpdate()
 > ``` 
 
@@ -585,7 +585,7 @@
 > |---|---|---|
 > |location|[Location](../enum_reference.md#location)| |
 > |localTranslation|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetLocalLocation(location : Location, localTranslation : Real2)
 > ``` 
 
@@ -598,7 +598,7 @@
 > |---|---|---|
 > |location|[Location](../enum_reference.md#location)| |
 > |worldTranslation|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetWorldLocation(location : Location, worldTranslation : Real2)
 > ``` 
 
@@ -609,7 +609,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SizeToContents()
 > ``` 
 
@@ -621,7 +621,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |e|[keyboardevent](keyboardevent.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TabJump(e : KeyboardEvent) : Boolean
 > ``` 
 
@@ -633,7 +633,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |direction|[UiFocusDirection](../enum_reference.md#uifocusdirection)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TabJumpDirection(direction : UiFocusDirection)
 > ``` 
 
@@ -644,7 +644,7 @@
 > Focus control.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TakeFocus()
 > ``` 
 
@@ -656,7 +656,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |localPosition|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformPoint(localPosition : Real2) : Real2
 > ``` 
 
@@ -668,7 +668,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |worldPosition|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TransformPointInverse(worldPosition : Real2) : Real2
 > ``` 
 
@@ -681,7 +681,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UiWidget()
 > ``` 
 
@@ -693,7 +693,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |e|[uitransformupdateevent](uitransformupdateevent.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Update(e : UiTransformUpdateEvent)
 > ``` 
 

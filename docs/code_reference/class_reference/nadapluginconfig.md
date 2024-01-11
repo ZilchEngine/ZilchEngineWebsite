@@ -14,7 +14,7 @@
  #  AttemptedIdeToolsInstall : [boolean](../nada_base_types/boolean.md)
 
 > If on this machine we attempted to install IDE tools for plugins.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AttemptedIdeToolsInstall : Boolean
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NadaPluginConfig()
 > ``` 
 

@@ -24,7 +24,7 @@
  `read-only`
 
 > Our connect response.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurConnectResponse : ConnectResponse
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > Our IP address (as seen from their perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurIpAddress : IpAddress
 
 
@@ -44,7 +44,7 @@
  `read-only`
 
 > Our bundled response event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OurResponseBundle : EventBundle
 
 
@@ -54,7 +54,7 @@
  `read-only`
 
 > Their IP address (as seen from our perspective).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirIpAddress : IpAddress
 
 
@@ -64,7 +64,7 @@
  `read-only`
 
 > Their net peer ID (set only if accepted).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirNetPeerId : Integer
 
 
@@ -74,7 +74,7 @@
  `read-only`
 
 > Their pending user add requests following this connect request (within the same frame).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirPendingUserAddRequestCount : Integer
 
 
@@ -84,7 +84,7 @@
  `read-only`
 
 > Their bundled request event data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirRequestBundle : EventBundle
 
 

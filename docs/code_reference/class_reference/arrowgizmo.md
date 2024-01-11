@@ -20,7 +20,7 @@
  #  DualHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DualHeads : Boolean
 
 
@@ -28,7 +28,7 @@
  #  FilledHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FilledHeads : Boolean
 
 
@@ -36,7 +36,7 @@
  #  HeadSize : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HeadSize : Real
 
 
@@ -44,7 +44,7 @@
  #  HeadType : [ArrowHeadType](../enum_reference.md#arrowheadtype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HeadType : ArrowHeadType
 
 
@@ -52,7 +52,7 @@
  #  Length : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Length : Real
 
 
@@ -60,7 +60,7 @@
  #  LineDrawWidth : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LineDrawWidth : Real
 
 
@@ -68,7 +68,7 @@
  #  SelectRadius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SelectRadius : Real
 
 
@@ -84,7 +84,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ArrowGizmo()
 > ``` 
 

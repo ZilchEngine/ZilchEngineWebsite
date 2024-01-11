@@ -17,7 +17,7 @@
  #  Device : [InputDevice](../enum_reference.md#inputdevice)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Device : InputDevice
 
 
@@ -25,7 +25,7 @@
  #  LastDevice : [InputDevice](../enum_reference.md#inputdevice)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastDevice : InputDevice
 
 

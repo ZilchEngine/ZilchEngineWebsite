@@ -21,7 +21,7 @@
  `read-only`
 
 > How many points of contact were in this collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ContactPointCount : Integer
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Returns a range of all contact points in the collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ContactPoints : ContactPointRange
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Convenience function to return the first ContactPoint. Some logic only cares about one point of information. In a more general case all points should be iterated over.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FirstPoint : ContactPoint
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > Was this a ghost collision?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsGhost : Boolean
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Object : Cog
 
 
@@ -71,7 +71,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OtherObject : Cog
 
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContactGraphEdge()
 > ``` 
 
@@ -101,7 +101,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[contactgraphedge](contactgraphedge.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContactGraphEdge( : ContactGraphEdge)
 > ``` 
 

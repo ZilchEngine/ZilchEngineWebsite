@@ -18,7 +18,7 @@
  `read-only`
 
 > The object link that this edge is connected to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectLink : ObjectLink
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > The other cog that the object link is connected to (the one not part of this edge).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OtherCog : Cog
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > The cog that this edge on the object link is connected to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SelfCog : Cog
 
 
@@ -54,7 +54,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectLinkEdge()
 > ``` 
 
@@ -68,7 +68,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[objectlinkedge](objectlinkedge.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectLinkEdge( : ObjectLinkEdge)
 > ``` 
 

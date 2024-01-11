@@ -20,7 +20,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Append : FileMode
 
 
@@ -30,7 +30,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Read : FileMode
 
 
@@ -40,7 +40,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Sequential : FileMode
 
 
@@ -50,7 +50,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShareDelete : FileMode
 
 
@@ -60,7 +60,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShareRead : FileMode
 
 
@@ -70,7 +70,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShareWrite : FileMode
 
 
@@ -80,7 +80,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Write : FileMode
 
 

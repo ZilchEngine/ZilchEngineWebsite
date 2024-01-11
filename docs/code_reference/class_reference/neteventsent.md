@@ -20,7 +20,7 @@
  `read-only`
 
 > Dispatch destination object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Destination : Cog
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > Network event sent.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetEvent : Event
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirNetPeerId : Integer
 
 

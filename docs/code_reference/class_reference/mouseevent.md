@@ -25,7 +25,7 @@
  #  AltPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AltPressed : Boolean
 
 
@@ -33,7 +33,7 @@
  #  Button : [MouseButtons](../enum_reference.md#mousebuttons)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Button : MouseButtons
 
 
@@ -41,7 +41,7 @@
  #  ButtonDown : [boolean](../nada_base_types/boolean.md)
 
 > State of all the mouse buttons.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ButtonDown : Boolean
 
 
@@ -49,7 +49,7 @@
  #  CtrlPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CtrlPressed : Boolean
 
 
@@ -57,7 +57,7 @@
  #  HandledEvent : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HandledEvent : Boolean
 
 
@@ -67,7 +67,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mouse : Mouse
 
 
@@ -75,7 +75,7 @@
  #  Movement : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Movement : Real2
 
 
@@ -83,7 +83,7 @@
  #  Position : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real2
 
 
@@ -91,7 +91,7 @@
  #  Scroll : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Scroll : Real2
 
 
@@ -99,7 +99,7 @@
  #  ShiftPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShiftPressed : Boolean
 
 
@@ -114,7 +114,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |button|[MouseButtons](../enum_reference.md#mousebuttons)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsButtonUp(button : MouseButtons) : Boolean
 > ``` 
 

@@ -24,7 +24,7 @@
  `read-only`
 
 > Get number of entries in the ObjectStore.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EntryCount : Integer
 
 
@@ -38,7 +38,7 @@
 > Clear the store.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearStore()
 > ``` 
 
@@ -50,7 +50,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Erase(name : String)
 > ``` 
 
@@ -61,7 +61,7 @@
 > Returns the directory path to the object store.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetDirectoryPath() : String
 > ``` 
 
@@ -73,7 +73,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetEntryAt(index : Integer) : String
 > ``` 
 
@@ -85,7 +85,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsEntryStored(name : String) : Boolean
 > ``` 
 
@@ -97,7 +97,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsStored( : String) : Boolean
 > ``` 
 
@@ -110,7 +110,7 @@
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
 > |space|[space](space.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Restore(name : String, space : Space) : Cog
 > ``` 
 
@@ -124,7 +124,7 @@
 > |name|[string](../nada_base_types/string.md)| |
 > |archetype|[archetype](archetype.md)| |
 > |space|[space](space.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RestoreOrArchetype(name : String, archetype : Archetype, space : Space) : Cog
 > ``` 
 
@@ -137,7 +137,7 @@
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
 > |object|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Store(name : String, object : Cog) : StoreResult
 > ``` 
 

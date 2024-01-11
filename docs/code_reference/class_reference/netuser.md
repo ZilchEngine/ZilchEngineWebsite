@@ -22,7 +22,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AddedByMyPeer : Boolean
 
 
@@ -32,7 +32,7 @@
  `read-only`
 
 > Adding network peer identifier.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetPeerId : Integer
 
 
@@ -42,7 +42,7 @@
  `read-only`
 
 > Network user identifier.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetUserId : Integer
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > Returns the number of net objects owned by this user in all spaces.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OwnedNetObjectCount : Integer
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > Returns all net objects owned by this user in all spaces.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OwnedNetObjects : CogHashSetRange
 
 
@@ -77,7 +77,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddedByPeer(netPeerId : Integer) : Boolean
 > ``` 
 
@@ -89,7 +89,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindOwnedNetObjectByName(name : String) : Cog
 > ``` 
 
@@ -102,7 +102,7 @@
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
 > |space|[space](space.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindOwnedNetObjectByNameInSpace(name : String, space : Space) : Cog
 > ``` 
 
@@ -115,7 +115,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NetUser()
 > ``` 
 
@@ -126,7 +126,7 @@
 > [Server/Offline] Releases ownership of all net objects owned by this user in all spaces.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReleaseOwnedNetObjects()
 > ``` 
 

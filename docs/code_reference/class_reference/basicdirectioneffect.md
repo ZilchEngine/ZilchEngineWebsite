@@ -19,7 +19,7 @@
  #  Direction : [real3](../nada_base_types/real3.md)
 
 > The direction that the effect will be applied in (may be in local or world space depending on the LocalSpaceDirection property).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Direction : Real3
 
 
@@ -27,7 +27,7 @@
  #  LocalSpaceDirection : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the direction that the effect is applied is in local or world space. This vector is normalized when calculating forces.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalSpaceDirection : Boolean
 
 
@@ -35,7 +35,7 @@
  #  Strength : [real](../nada_base_types/real.md)
 
 > The magnitude of the force to apply.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Strength : Real
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > The world direction of the effect. If the effect is not in local space then this is the same as Direction.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldDirection : Real3
 
 

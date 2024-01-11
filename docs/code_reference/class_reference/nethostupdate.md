@@ -21,7 +21,7 @@
  `read-only`
 
 > Host discovered or refreshed (will contain the first host updated if this is a list update).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Host : NetHost
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Operation target network.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Network : Network
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Whether or not the operation completed successfully.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RefreshResult : NetRefreshResult
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > Operation response time (from request to completion).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ResponseTime : Real
 
 

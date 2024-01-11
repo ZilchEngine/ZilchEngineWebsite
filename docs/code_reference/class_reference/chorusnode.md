@@ -19,7 +19,7 @@
  #  FeedbackPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The FeedbackValue property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeedbackPercent : Real
 
 
@@ -27,7 +27,7 @@
  #  FeedbackValue : [real](../nada_base_types/real.md)
 
 > The percentage of output (0 - 1.0) which is fed back into the filter as input.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeedbackValue : Real
 
 
@@ -35,7 +35,7 @@
  #  MaxDelayMillisec : [real](../nada_base_types/real.md)
 
 > The maximum delay reached by the modulation. It will oscillate between the MinDelayMillisec value and this value at the frequency set by the ModulationFrequency property.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxDelayMillisec : Real
 
 
@@ -43,7 +43,7 @@
  #  MinDelayMillisec : [real](../nada_base_types/real.md)
 
 > The minimum delay reached by the modulation. It will oscillate between the this value and the MaxDelayMillisec value at the frequency set by the ModulationFrequency property.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MinDelayMillisec : Real
 
 
@@ -51,7 +51,7 @@
  #  ModulationFrequency : [real](../nada_base_types/real.md)
 
 > The frequency of the oscillator which varies the modulation.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ModulationFrequency : Real
 
 
@@ -59,7 +59,7 @@
  #  OffsetMillisec : [real](../nada_base_types/real.md)
 
 > The offset value of the chorus filter, in milliseconds.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OffsetMillisec : Real
 
 

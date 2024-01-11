@@ -19,7 +19,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Frustum : Frustum
 
 
@@ -27,7 +27,7 @@
  #  Handled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Handled : Boolean
 
 
@@ -35,7 +35,7 @@
  #  HandledEventScript : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HandledEventScript : Boolean
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Space : Space
 
 

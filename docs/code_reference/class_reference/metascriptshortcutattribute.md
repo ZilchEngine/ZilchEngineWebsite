@@ -15,7 +15,7 @@
  #  Alt : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Alt : Boolean
 
 
@@ -23,7 +23,7 @@
  #  Ctrl : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ctrl : Boolean
 
 
@@ -31,7 +31,7 @@
  #  Key : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Key : String
 
 
@@ -39,7 +39,7 @@
  #  Shift : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Shift : Boolean
 
 

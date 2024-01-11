@@ -15,7 +15,7 @@
  #  FeatherRadius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeatherRadius : Real
 
 
@@ -23,7 +23,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 
@@ -31,7 +31,7 @@
  #  Strength : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Strength : Real
 
 
@@ -39,7 +39,7 @@
  #  TextureChannel : [HeightTextureSelect](../enum_reference.md#heighttextureselect)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextureChannel : HeightTextureSelect
 
 

@@ -19,7 +19,7 @@
  #  Button : [integer](../nada_base_types/integer.md)
 
 > Button that was just pressed down or released up.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Button : Integer
 
 
@@ -27,7 +27,7 @@
  #  FlickDirection : [real2](../nada_base_types/real2.md)
 
 > The direction of the stick that was flicked (normalized)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FlickDirection : Real2
 
 
@@ -35,7 +35,7 @@
  #  FlickedStick : [FlickedStick](../enum_reference.md#flickedstick)
 
 > When responding to the 'GamepadStickFlicked' event, this will be set to the stick that was flicked.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FlickedStick : FlickedStick
 
 
@@ -43,7 +43,7 @@
  #  Gamepad : [gamepad](gamepad.md)
 
 > Gamepad that generated this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gamepad : Gamepad
 
 

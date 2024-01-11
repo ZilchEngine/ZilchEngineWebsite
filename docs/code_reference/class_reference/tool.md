@@ -19,7 +19,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[viewport](viewport.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BeginDrag(p0 : Viewport)
 > ``` 
 

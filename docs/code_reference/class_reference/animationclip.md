@@ -15,7 +15,7 @@
  #  AnimationIndex : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AnimationIndex : Integer
 
 
@@ -23,7 +23,7 @@
  #  EndFrame : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EndFrame : Integer
 
 
@@ -31,7 +31,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -39,7 +39,7 @@
  #  StartFrame : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StartFrame : Integer
 
 

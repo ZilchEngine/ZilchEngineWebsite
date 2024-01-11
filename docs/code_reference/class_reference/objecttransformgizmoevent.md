@@ -16,7 +16,7 @@
  #  FinalLocalRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FinalLocalRotation : Quaternion
 
 
@@ -24,7 +24,7 @@
  #  FinalLocalScale : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FinalLocalScale : Real3
 
 
@@ -32,7 +32,7 @@
  #  FinalLocalTranslation : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FinalLocalTranslation : Real3
 
 

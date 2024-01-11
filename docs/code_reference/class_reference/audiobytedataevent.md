@@ -14,7 +14,7 @@
  #  AudioData : Array[[byte](../nada_base_types/byte.md)]
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AudioData : Array[Byte]
 
 

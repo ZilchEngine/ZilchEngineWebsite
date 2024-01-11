@@ -15,7 +15,7 @@
  #  AllowAdd : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllowAdd : Boolean
 
 
@@ -23,7 +23,7 @@
  #  AllowNone : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllowNone : Boolean
 
 
@@ -31,7 +31,7 @@
  #  FilterTag : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FilterTag : String
 
 
@@ -39,7 +39,7 @@
  #  SearchPreview : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SearchPreview : Boolean
 
 

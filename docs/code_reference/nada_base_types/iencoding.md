@@ -16,7 +16,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ascii : AsciiEncoding
 
 
@@ -26,7 +26,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Utf8 : Utf8Encoding
 
 
@@ -42,7 +42,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IEncoding()
 > ``` 
 
@@ -54,7 +54,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[istream](istream.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Read(p0 : IStream) : Rune
 > ``` 
 
@@ -67,7 +67,7 @@
 > |---|---|---|
 > |p0|[rune](rune.md)| |
 > |p1|[istream](istream.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Write(p0 : Rune, p1 : IStream) : Integer
 > ``` 
 

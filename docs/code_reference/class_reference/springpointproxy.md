@@ -14,7 +14,7 @@
  #  Anchor : [cog](cog.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Anchor : Cog
 
 
@@ -22,7 +22,7 @@
  #  Fixed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Fixed : Boolean
 
 
@@ -30,7 +30,7 @@
  #  Mass : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mass : Real
 
 

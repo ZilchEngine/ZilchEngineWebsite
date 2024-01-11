@@ -19,7 +19,7 @@
  #  Game : [gamesession](gamesession.md)
 
 > GameSession Object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Game : GameSession
 
 
@@ -27,7 +27,7 @@
  #  Handled : [boolean](../nada_base_types/boolean.md)
 
 > Has this event been handled? Used to for the engine to poll for Request Quit and other operations.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Handled : Boolean
 
 
@@ -35,7 +35,7 @@
  #  LevelName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LevelName : String
 
 
@@ -43,7 +43,7 @@
  #  Space : [space](space.md)
 
 > Space related to his event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Space : Space
 
 

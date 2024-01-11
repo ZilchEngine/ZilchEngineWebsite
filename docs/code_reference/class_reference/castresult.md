@@ -20,7 +20,7 @@
  `read-only`
 
 > The collider hit by the cast.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Collider : Collider
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > The distance from the ray/segment start to the point of intersection. Invalid on a volume cast.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Distance : Real
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > The normal of the object at the intersection point (world space). Invalid on a volume cast.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Normal : Real3
 
 
@@ -50,7 +50,7 @@
  `read-only`
 
 > The cog hit by the cast.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ObjectHit : Cog
 
 
@@ -60,7 +60,7 @@
  `read-only`
 
 > Returns the world-space position that the object was hit. Invalid on a volume cast.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPosition : Real3
 
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastResult()
 > ``` 
 
@@ -90,7 +90,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rhs|[castresult](castresult.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CastResult(rhs : CastResult)
 > ``` 
 
@@ -102,7 +102,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |pointIndex|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetLocalPosition(pointIndex : Integer) : Real3
 > ``` 
 

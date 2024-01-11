@@ -22,7 +22,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Hash : Integer
 
 
@@ -30,7 +30,7 @@
  #  Host : [string](../nada_base_types/string.md)
 
 > Returns the valid IP address host as a numeric string, else String()
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Host : String
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Returns the valid IP address protocol version, else InternetProtocol::Unspecified.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InternetProtocol : InternetProtocol
 
 
@@ -50,7 +50,7 @@
  `read-only`
 
 > Returns true if this is a non-empty IPv4/IPv6 address, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsValid : Boolean
 
 
@@ -58,7 +58,7 @@
  #  Port : [integer](../nada_base_types/integer.md)
 
 > Returns the valid IP address port, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Port : Integer
 
 
@@ -68,7 +68,7 @@
  `read-only`
 
 > Returns the valid IP address port as a numeric string, else String()
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PortString : String
 
 
@@ -78,7 +78,7 @@
  `read-only`
 
 > Returns the valid IP address as a numeric "host:port" string, else String()
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var String : String
 
 
@@ -92,7 +92,7 @@
 > Clears the IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -105,7 +105,7 @@
 > Creates an empty IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IpAddress()
 > ``` 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |rhs|[ipaddress](ipaddress.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IpAddress(rhs : IpAddress)
 > ``` 
 
@@ -134,7 +134,7 @@
 > |---|---|---|
 > |host|[string](../nada_base_types/string.md)| |
 > |port|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IpAddress(host : String, port : Integer)
 > ``` 
 
@@ -150,7 +150,7 @@
 > |host|[string](../nada_base_types/string.md)| |
 > |port|[integer](../nada_base_types/integer.md)| |
 > |internetProtocol|[InternetProtocol](../enum_reference.md#internetprotocol)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IpAddress(host : String, port : Integer, internetProtocol : InternetProtocol)
 > ``` 
 

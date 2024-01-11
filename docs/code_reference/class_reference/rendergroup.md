@@ -22,7 +22,7 @@
  `read-only`
 
 > For assigning child RenderGroups, making this a parent group of everything in the list.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChildRenderGroups : ChildRenderGroupList
 
 
@@ -30,7 +30,7 @@
  #  GraphicalSortMethod : [GraphicalSortMethod](../enum_reference.md#graphicalsortmethod)
 
 > Determines the order that graphicals will be drawn when processed as this RenderGroup.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GraphicalSortMethod : GraphicalSortMethod
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Materials : MaterialList
 
 
@@ -48,7 +48,7 @@
  #  ParentRenderGroup : [rendergroup](rendergroup.md)
 
 > RenderGroup that this is a sub group of. Also a sub group of all of its parents.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ParentRenderGroup : RenderGroup
 
 
@@ -58,7 +58,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReferencedByList : MaterialList
 
 
@@ -73,7 +73,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](rendergroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsSubRenderGroup(renderGroup : RenderGroup) : Boolean
 > ``` 
 
@@ -85,7 +85,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |renderGroup|[rendergroup](rendergroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsSubRenderGroupOf(renderGroup : RenderGroup) : Boolean
 > ``` 
 

@@ -14,7 +14,7 @@
  #  Editor : [editor](editor.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Editor : Editor
 
 

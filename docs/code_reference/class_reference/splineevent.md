@@ -16,7 +16,7 @@
  #  Spline : [spline](spline.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Spline : Spline
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineEvent()
 > ``` 
 
@@ -46,7 +46,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |spline|[spline](spline.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineEvent(spline : Spline)
 > ``` 
 
@@ -60,7 +60,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[splineevent](splineevent.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SplineEvent( : SplineEvent)
 > ``` 
 

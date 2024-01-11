@@ -17,7 +17,7 @@
  #  WorldRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRotation : Quaternion
 
 
@@ -25,7 +25,7 @@
  #  XAxisName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var XAxisName : String
 
 
@@ -33,7 +33,7 @@
  #  YAxisName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var YAxisName : String
 
 
@@ -41,7 +41,7 @@
  #  ZAxisName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ZAxisName : String
 
 
@@ -55,7 +55,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ActivateAsGizmo()
 > ``` 
 
@@ -68,7 +68,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RotationBasisGizmo()
 > ``` 
 

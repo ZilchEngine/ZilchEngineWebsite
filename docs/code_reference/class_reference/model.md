@@ -16,7 +16,7 @@
  #  Mesh : [mesh](mesh.md)
 
 > Mesh that the graphical will render.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mesh : Mesh
 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Model()
 > ``` 
 

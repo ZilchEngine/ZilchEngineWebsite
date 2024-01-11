@@ -21,7 +21,7 @@
  #  AutoTakeProjectScreenshot : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoTakeProjectScreenshot : Boolean
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Returns the path to the generated content folder for this project.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ContentFolder : String
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Returns the path to the content folder containing editor specific content (screen shot, editor settings, etc...).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EditorContentFolder : String
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > Returns the path to the folder containing this project.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ProjectFolder : String
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > Returns the Project's Name.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ProjectName : String
 
 
@@ -69,7 +69,7 @@
  #  ProjectOwner : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ProjectOwner : String
 
 
@@ -85,7 +85,7 @@
 > Constructor / Destructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectSettings()
 > ``` 
 
@@ -98,7 +98,7 @@
 > Constructor / Destructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectSettings()
 > ``` 
 

@@ -21,7 +21,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ActivateAutoUpdate()
 > ``` 
 
@@ -32,7 +32,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Invalidate()
 > ``` 
 
@@ -43,7 +43,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Refresh()
 > ``` 
 
@@ -55,7 +55,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|Object| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetObject(p0 : Object)
 > ``` 
 

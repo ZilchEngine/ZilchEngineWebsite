@@ -19,7 +19,7 @@
  `read-only`
 
 > Net property type name.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -33,7 +33,7 @@
 > Resets all configuration settings. (Cannot be modified at game runtime)
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ResetConfig()
 > ``` 
 
@@ -45,7 +45,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPropertyConfig|[netpropertyconfig](netpropertyconfig.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetConfig(netPropertyConfig : NetPropertyConfig)
 > ``` 
 

@@ -35,7 +35,7 @@
  #  DispatchMicrophoneCompressedByteData : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DispatchMicrophoneCompressedByteData : Boolean
 
 
@@ -43,7 +43,7 @@
  #  DispatchMicrophoneUncompressedFloatData : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DispatchMicrophoneUncompressedFloatData : Boolean
 
 
@@ -51,7 +51,7 @@
  #  LatencySetting : [AudioLatency](../enum_reference.md#audiolatency)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LatencySetting : AudioLatency
 
 
@@ -59,7 +59,7 @@
  #  MuteAllAudio : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MuteAllAudio : Boolean
 
 
@@ -69,7 +69,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OutputChannels : Integer
 
 
@@ -79,7 +79,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PeakInputLevel : Real
 
 
@@ -89,7 +89,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PeakOutputLevel : Real
 
 
@@ -99,7 +99,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RMSOutputLevel : Real
 
 
@@ -107,7 +107,7 @@
  #  SystemVolume : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SystemVolume : Real
 
 
@@ -123,7 +123,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AdditiveSynthNode() : AdditiveSynthNode
 > ``` 
 
@@ -136,7 +136,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddNoiseNode() : AddNoiseNode
 > ``` 
 
@@ -149,7 +149,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BandPassNode() : BandPassNode
 > ``` 
 
@@ -162,7 +162,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ChorusNode() : ChorusNode
 > ``` 
 
@@ -175,7 +175,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CompressorNode() : CompressorNode
 > ``` 
 
@@ -188,7 +188,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CustomAudioNode() : CustomAudioNode
 > ``` 
 
@@ -201,7 +201,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DelayNode() : DelayNode
 > ``` 
 
@@ -214,7 +214,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EqualizerNode() : EqualizerNode
 > ``` 
 
@@ -227,7 +227,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ExpanderNode() : ExpanderNode
 > ``` 
 
@@ -240,7 +240,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FlangerNode() : FlangerNode
 > ``` 
 
@@ -253,7 +253,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GeneratedWaveNode() : GeneratedWaveNode
 > ``` 
 
@@ -264,7 +264,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetNodeGraphInfo() : NodeInfoListRange
 > ``` 
 
@@ -277,7 +277,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GranularSynthNode() : GranularSynthNode
 > ``` 
 
@@ -290,7 +290,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HighPassNode() : HighPassNode
 > ``` 
 
@@ -303,7 +303,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LowPassNode() : LowPassNode
 > ``` 
 
@@ -316,7 +316,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MicrophoneInputNode() : MicrophoneInputNode
 > ``` 
 
@@ -329,7 +329,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ModulationNode() : ModulationNode
 > ``` 
 
@@ -342,7 +342,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PanningNode() : PanningNode
 > ``` 
 
@@ -355,7 +355,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PitchNode() : PitchNode
 > ``` 
 
@@ -368,7 +368,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RecordingNode() : RecordingNode
 > ``` 
 
@@ -381,7 +381,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReverbNode() : ReverbNode
 > ``` 
 
@@ -394,7 +394,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SaveAudioNode() : SaveAudioNode
 > ``` 
 
@@ -407,7 +407,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SoundBuffer() : SoundBuffer
 > ``` 
 
@@ -420,7 +420,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function VolumeNode() : VolumeNode
 > ``` 
 

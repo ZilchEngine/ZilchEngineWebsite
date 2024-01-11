@@ -18,7 +18,7 @@
  `read-only`
 
 > Duration of the animation in seconds.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Duration : Real
 
 

@@ -20,7 +20,7 @@
  #  AutoFocus : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoFocus : Boolean
 
 
@@ -28,7 +28,7 @@
  #  AutoKey : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoKey : Boolean
 
 
@@ -36,7 +36,7 @@
  #  EditFps : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EditFps : Integer
 
 
@@ -44,7 +44,7 @@
  #  OnionSkinning : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnionSkinning : Boolean
 
 
@@ -52,7 +52,7 @@
  #  PlaybackSpeed : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PlaybackSpeed : Real
 
 
@@ -60,7 +60,7 @@
  #  PreviewMode : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreviewMode : Integer
 
 
@@ -68,7 +68,7 @@
  #  SnappingX : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnappingX : Boolean
 
 
@@ -76,7 +76,7 @@
  #  SnappingY : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnappingY : Boolean
 
 
@@ -84,7 +84,7 @@
  #  TimeDisplay : [TimeDisplay](../enum_reference.md#timedisplay)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TimeDisplay : TimeDisplay
 
 

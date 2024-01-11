@@ -29,7 +29,7 @@
  #  ChangeBasis : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ChangeBasis : Boolean
 
 
@@ -37,7 +37,7 @@
  #  CollapsePivots : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CollapsePivots : Boolean
 
 
@@ -45,7 +45,7 @@
  #  CreateArchetype : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CreateArchetype : Boolean
 
 
@@ -53,7 +53,7 @@
  #  FlipWindingOrder : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FlipWindingOrder : Boolean
 
 
@@ -61,7 +61,7 @@
  #  GenerateSmoothNormals : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GenerateSmoothNormals : Boolean
 
 
@@ -69,7 +69,7 @@
  #  GenerateTangentSpace : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GenerateTangentSpace : Boolean
 
 
@@ -77,7 +77,7 @@
  #  ImportAnimations : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ImportAnimations : Boolean
 
 
@@ -85,7 +85,7 @@
  #  ImportMeshes : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ImportMeshes : Boolean
 
 
@@ -93,7 +93,7 @@
  #  ImportTextures : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ImportTextures : Boolean
 
 
@@ -101,7 +101,7 @@
  #  InvertUvYAxis : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InvertUvYAxis : Boolean
 
 
@@ -109,7 +109,7 @@
  #  OriginOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OriginOffset : Real3
 
 
@@ -117,7 +117,7 @@
  #  PhysicsImport : [PhysicsImport](../enum_reference.md#physicsimport)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PhysicsImport : PhysicsImport
 
 
@@ -125,7 +125,7 @@
  #  ScaleConversion : [ScaleConversion](../enum_reference.md#scaleconversion)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ScaleConversion : ScaleConversion
 
 
@@ -133,7 +133,7 @@
  #  ScaleFactor : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ScaleFactor : Real
 
 
@@ -141,7 +141,7 @@
  #  SmoothingAngleDegreesThreshold : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SmoothingAngleDegreesThreshold : Real
 
 
@@ -149,7 +149,7 @@
  #  XBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var XBasisTo : BasisType
 
 
@@ -157,7 +157,7 @@
  #  YBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var YBasisTo : BasisType
 
 
@@ -165,7 +165,7 @@
  #  ZBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ZBasisTo : BasisType
 
 

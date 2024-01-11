@@ -14,7 +14,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Edges : IndexedHalfEdgeFaceEdgeIndexArray
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdgeFace()
 > ``` 
 
@@ -44,7 +44,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[indexedhalfedgeface](indexedhalfedgeface.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IndexedHalfEdgeFace(p0 : IndexedHalfEdgeFace)
 > ``` 
 

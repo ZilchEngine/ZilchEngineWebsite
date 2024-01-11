@@ -19,7 +19,7 @@
  #  BaseHeight : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BaseHeight : Real
 
 
@@ -27,7 +27,7 @@
  #  ImportMode : [ImportMode](../enum_reference.md#importmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ImportMode : ImportMode
 
 
@@ -35,7 +35,7 @@
  #  MaxHeightRange : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxHeightRange : Real
 
 
@@ -43,7 +43,7 @@
  #  MinHeightRange : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MinHeightRange : Real
 
 
@@ -51,7 +51,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -59,7 +59,7 @@
  #  PatchColumns : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PatchColumns : Integer
 
 
@@ -67,7 +67,7 @@
  #  PatchRows : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PatchRows : Integer
 
 
@@ -75,7 +75,7 @@
  #  PatchSize : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PatchSize : Integer
 
 

@@ -22,7 +22,7 @@
  `read-only`
 
 > Elapsed time passed since this net property was last changed, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastChangeTimePassed : Real
 
 
@@ -32,7 +32,7 @@
  `read-only`
 
 > Timestamp indicating when this net property was last changed, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastChangeTimestamp : Real
 
 
@@ -42,7 +42,7 @@
  `read-only`
 
 > Net property name.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > Operating net channel.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetChannel : NetChannel
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > Operating net property type.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetPropertyType : NetPropertyType
 
 

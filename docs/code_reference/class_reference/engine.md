@@ -20,7 +20,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GameSessions : GameSessionRange
 
 
@@ -34,7 +34,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CrashEngine()
 > ``` 
 
@@ -45,7 +45,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateGameSession() : GameSession
 > ``` 
 
@@ -57,7 +57,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[archetype](archetype.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateGameSessionFromArchetype(p0 : Archetype) : GameSession
 > ``` 
 
@@ -68,7 +68,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugBreak()
 > ``` 
 
@@ -79,7 +79,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetCurrentInputDevice() : InputDevice
 > ``` 
 
@@ -91,7 +91,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[archetype](archetype.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RebuildArchetypes(p0 : Archetype)
 > ``` 
 
@@ -102,7 +102,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Terminate()
 > ``` 
 

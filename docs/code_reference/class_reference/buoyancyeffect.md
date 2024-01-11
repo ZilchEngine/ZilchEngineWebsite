@@ -19,7 +19,7 @@
  #  DebugDrawRuntime : [boolean](../nada_base_types/boolean.md)
 
 > Draw the points used to compute the buoyancy during run-time. This helps in debugging, but should be left off during normal run.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DebugDrawRuntime : Boolean
 
 
@@ -27,7 +27,7 @@
  #  Density : [real](../nada_base_types/real.md)
 
 > The density of the fluid.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Density : Real
 
 
@@ -35,7 +35,7 @@
  #  Detail : [integer](../nada_base_types/integer.md)
 
 > The amount of points to subdivide each object into for sampling (total points is Detail^3)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Detail : Integer
 
 
@@ -43,7 +43,7 @@
  #  Gravity : [real3](../nada_base_types/real3.md)
 
 > The direction of gravity in world-space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gravity : Real3
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function BuoyancyEffect()
 > ``` 
 

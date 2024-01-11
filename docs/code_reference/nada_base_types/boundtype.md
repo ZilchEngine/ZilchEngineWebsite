@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BaseType : BoundType
 
 
@@ -35,7 +35,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DefaultConstructor : Function
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Destructor : Function
 
 
@@ -55,7 +55,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Fields : FieldRange
 
 
@@ -65,7 +65,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Functions : FunctionRange
 
 
@@ -75,7 +75,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GetterSetters : GetterSetterRange
 
 
@@ -85,7 +85,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNative : Boolean
 
 
@@ -95,7 +95,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsTypeOrBaseNative : Boolean
 
 
@@ -105,7 +105,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Members : MemberRange
 
 
@@ -115,7 +115,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PreConstructor : Function
 
 
@@ -125,7 +125,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Properties : PropertyRange
 
 
@@ -135,7 +135,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TemplateBaseName : String
 
 
@@ -151,7 +151,7 @@
 > |---|---|---|
 > |signatureType|[delegatetype](delegatetype.md)| |
 > |inherited|[boolean](boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetConstructor(signatureType : DelegateType, inherited : Boolean) : Function
 > ``` 
 
@@ -163,7 +163,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetField(name : String) : Field
 > ``` 
 
@@ -176,7 +176,7 @@
 > |---|---|---|
 > |name|[string](string.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetField(name : String, options : Members) : Field
 > ``` 
 
@@ -190,7 +190,7 @@
 > |name|[string](string.md)| |
 > |declaredType|[type](type.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetField(name : String, declaredType : Type, options : Members) : Field
 > ``` 
 
@@ -202,7 +202,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFunction(name : String) : Function
 > ``` 
 
@@ -216,7 +216,7 @@
 > |name|[string](string.md)| |
 > |signatureType|[delegatetype](delegatetype.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFunction(name : String, signatureType : DelegateType, options : Members) : Function
 > ``` 
 
@@ -229,7 +229,7 @@
 > |---|---|---|
 > |name|[string](string.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFunction(name : String, options : Members) : Function
 > ``` 
 
@@ -241,7 +241,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetGetterSetter(name : String) : GetterSetter
 > ``` 
 
@@ -254,7 +254,7 @@
 > |---|---|---|
 > |name|[string](string.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetGetterSetter(name : String, options : Members) : GetterSetter
 > ``` 
 
@@ -268,7 +268,7 @@
 > |name|[string](string.md)| |
 > |declaredType|[type](type.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetGetterSetter(name : String, declaredType : Type, options : Members) : GetterSetter
 > ``` 
 
@@ -280,7 +280,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetMember(name : String) : Member
 > ``` 
 
@@ -293,7 +293,7 @@
 > |---|---|---|
 > |name|[string](string.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetMember(name : String, options : Members) : Member
 > ``` 
 
@@ -307,7 +307,7 @@
 > |name|[string](string.md)| |
 > |declaredType|[type](type.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetMember(name : String, declaredType : Type, options : Members) : Member
 > ``` 
 
@@ -319,7 +319,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetProperty(name : String) : Property
 > ``` 
 
@@ -332,7 +332,7 @@
 > |---|---|---|
 > |name|[string](string.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetProperty(name : String, options : Members) : Property
 > ``` 
 
@@ -346,7 +346,7 @@
 > |name|[string](string.md)| |
 > |declaredType|[type](type.md)| |
 > |options|[Members](../flags_reference.md#members)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetProperty(name : String, declaredType : Type, options : Members) : Property
 > ``` 
 
@@ -357,7 +357,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InstantiatePreConstructedObject() : T
 > ``` 
 

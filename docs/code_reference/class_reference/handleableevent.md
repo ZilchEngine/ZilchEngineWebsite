@@ -16,7 +16,7 @@
  #  Handled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Handled : Boolean
 
 

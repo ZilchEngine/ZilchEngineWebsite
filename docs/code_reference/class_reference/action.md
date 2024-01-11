@@ -18,7 +18,7 @@
  `read-only`
 
 > The action is queued and not stared or running.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > The action ran until it completed.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Completed : Boolean
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > Has the action started?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Started : Boolean
 
 
@@ -52,7 +52,7 @@
 > Cancel the action and all child actions.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Cancel()
 > ``` 
 

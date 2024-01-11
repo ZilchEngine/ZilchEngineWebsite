@@ -34,7 +34,7 @@
  #  CompressorAttack : [real](../nada_base_types/real.md)
 
 > The time, in milliseconds, for the filter to ramp to full effect after the input reaches the threshold.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompressorAttack : Real
 
 
@@ -42,7 +42,7 @@
  #  CompressorKneeWidth : [real](../nada_base_types/real.md)
 
 > The knee width of the filter, in decibels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompressorKneeWidth : Real
 
 
@@ -50,7 +50,7 @@
  #  CompressorRatio : [real](../nada_base_types/real.md)
 
 > The ratio of the compression applied by the filter.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompressorRatio : Real
 
 
@@ -58,7 +58,7 @@
  #  CompressorRelease : [real](../nada_base_types/real.md)
 
 > The time, in milliseconds, for the filter to ramp from full effect to off after the input drops below the threshold.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompressorRelease : Real
 
 
@@ -66,7 +66,7 @@
  #  CompressorThreshold : [real](../nada_base_types/real.md)
 
 > The threshold, in decibels, at which the volume is affected by the filter.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CompressorThreshold : Real
 
 
@@ -74,7 +74,7 @@
  #  Decibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment, in decibels, applied to all tagged instances.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Decibels : Real
 
 
@@ -82,7 +82,7 @@
  #  EQBand1Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 150 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EQBand1Gain : Real
 
 
@@ -90,7 +90,7 @@
  #  EQBand2Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 600 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EQBand2Gain : Real
 
 
@@ -98,7 +98,7 @@
  #  EQBand3Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 2500 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EQBand3Gain : Real
 
 
@@ -106,7 +106,7 @@
  #  EQHighPassGain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies above 5000 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EQHighPassGain : Real
 
 
@@ -114,7 +114,7 @@
  #  EQLowPassGain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies below 80 Hz. Positive values will boost these frequencies while negative values will reduce them.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EQLowPassGain : Real
 
 
@@ -124,7 +124,7 @@
  `read-only`
 
 > The number of SoundInstances currently associated with this SoundTag.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InstanceCount : Integer
 
 
@@ -132,7 +132,7 @@
  #  InstanceLimit : [real](../nada_base_types/real.md)
 
 > If this value is greater than zero, SoundCues with this SoundTag will only play if the number of tagged SoundInstances is less than this number.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InstanceLimit : Real
 
 
@@ -142,7 +142,7 @@
  `read-only`
 
 > This allows you to get all currently tagged SoundInstances. Using a foreach loop, you can access any SoundInstance functionality on each of the tagged instances.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Instances : SoundInstanceRange
 
 
@@ -150,7 +150,7 @@
  #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > Setting this property to true will pause all tagged instances. Setting it to false will resume playback.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Paused : Boolean
 
 
@@ -158,7 +158,7 @@
  #  TagForDucking : [soundtag](soundtag.md)
 
 > If this property is not null, the selected SoundTag will be used to trigger this SoundTag's compressor.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TagForDucking : SoundTag
 
 
@@ -166,7 +166,7 @@
  #  UseCompressor : [boolean](../nada_base_types/boolean.md)
 
 > If true, the SoundTag's compressor settings will be applied to the tagged SoundInstances.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseCompressor : Boolean
 
 
@@ -174,7 +174,7 @@
  #  UseEqualizer : [boolean](../nada_base_types/boolean.md)
 
 > If true, the SoundTag's equalizer settings will be applied to the tagged SoundInstances.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseEqualizer : Boolean
 
 
@@ -182,7 +182,7 @@
  #  Volume : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to all tagged instances.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 
@@ -202,7 +202,7 @@
 > |band3|[real](../nada_base_types/real.md)| |
 > |highPass|[real](../nada_base_types/real.md)| |
 > |timeToInterpolate|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EQSetAllBands(lowPass : Real, band1 : Real, band2 : Real, band3 : Real, highPass : Real, timeToInterpolate : Real)
 > ``` 
 
@@ -215,7 +215,7 @@
 > |---|---|---|
 > |decibels|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateDecibels(decibels : Real, interpolationTime : Real)
 > ``` 
 
@@ -228,7 +228,7 @@
 > |---|---|---|
 > |value|[real](../nada_base_types/real.md)| |
 > |interpolationTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function InterpolateVolume(value : Real, interpolationTime : Real)
 > ``` 
 
@@ -239,7 +239,7 @@
 > Stops all currently tagged SoundInstances.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StopSounds()
 > ``` 
 
@@ -251,7 +251,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |instance|[soundinstance](soundinstance.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TagSound(instance : SoundInstance)
 > ``` 
 
@@ -263,7 +263,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |instance|[soundinstance](soundinstance.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UnTagSound(instance : SoundInstance)
 > ``` 
 

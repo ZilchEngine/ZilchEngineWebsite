@@ -14,7 +14,7 @@
  #  MaxDebugObjects : [integer](../nada_base_types/integer.md)
 
 > Maximum number of debug objects allowed at any one time to prevent accidentally running out of memory.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxDebugObjects : Integer
 
 
@@ -30,7 +30,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugSettings()
 > ``` 
 

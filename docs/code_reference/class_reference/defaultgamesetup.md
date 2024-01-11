@@ -18,7 +18,7 @@
  #  LoadEditingLevel : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LoadEditingLevel : Boolean
 
 
@@ -26,7 +26,7 @@
  #  StartingLevel : [level](level.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StartingLevel : Level
 
 
@@ -34,7 +34,7 @@
  #  StartingSpace : [archetype](archetype.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StartingSpace : Archetype
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DefaultGameSetup()
 > ``` 
 

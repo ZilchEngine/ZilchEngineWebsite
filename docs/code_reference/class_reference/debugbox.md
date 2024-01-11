@@ -20,7 +20,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -28,7 +28,7 @@
  #  Filled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Filled : Boolean
 
 
@@ -36,7 +36,7 @@
  #  HalfExtents : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HalfExtents : Real2
 
 
@@ -44,7 +44,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -52,7 +52,7 @@
  #  Position : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Position : Real3
 
 
@@ -60,7 +60,7 @@
  #  Rotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Rotation : Quaternion
 
 
@@ -68,7 +68,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -76,7 +76,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -84,7 +84,7 @@
  #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaleOffset : Real3
 
 
@@ -100,7 +100,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugBox()
 > ``` 
 
@@ -114,7 +114,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |aabb|[aabb](aabb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugBox(aabb : Aabb)
 > ``` 
 
@@ -129,7 +129,7 @@
 > |---|---|---|
 > |position|[real3](../nada_base_types/real3.md)| |
 > |halfExtents|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugBox(position : Real3, halfExtents : Real)
 > ``` 
 
@@ -145,7 +145,7 @@
 > |position|[real3](../nada_base_types/real3.md)| |
 > |halfExtents|[real](../nada_base_types/real.md)| |
 > |rotation|[quaternion](../nada_base_types/quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugBox(position : Real3, halfExtents : Real, rotation : Quaternion)
 > ``` 
 
@@ -160,7 +160,7 @@
 > |---|---|---|
 > |position|[real3](../nada_base_types/real3.md)| |
 > |halfExtents|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugBox(position : Real3, halfExtents : Real2)
 > ``` 
 
@@ -176,7 +176,7 @@
 > |position|[real3](../nada_base_types/real3.md)| |
 > |halfExtents|[real2](../nada_base_types/real2.md)| |
 > |rotation|[quaternion](../nada_base_types/quaternion.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugBox(position : Real3, halfExtents : Real2, rotation : Quaternion)
 > ``` 
 

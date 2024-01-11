@@ -25,7 +25,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AxisCount : Integer
 
 
@@ -35,7 +35,7 @@
  `read-only`
 
 > Get the number of buttons or axes.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ButtonCount : Integer
 
 
@@ -45,7 +45,7 @@
  `read-only` `static`
 
 > A value that means a joystick axis is invalid. For example when a HAT-switch is not pressed down, it will return this value.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DisabledValue : Real
 
 
@@ -55,7 +55,7 @@
  `read-only`
 
 > Gets whether or not the joystick is active.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsActive : Boolean
 
 
@@ -65,7 +65,7 @@
  `read-only`
 
 > Get the name of the Joystick.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -79,7 +79,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Calibrating() : Boolean
 > ``` 
 
@@ -90,7 +90,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EndCalibration()
 > ``` 
 
@@ -102,7 +102,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxisIndex(name : String) : Integer
 > ``` 
 
@@ -114,7 +114,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxisName(index : Integer) : String
 > ``` 
 
@@ -126,7 +126,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxisValue(index : Integer) : Real
 > ``` 
 
@@ -138,7 +138,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAxisValueByName(name : String) : Real
 > ``` 
 
@@ -150,7 +150,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetButtonValue(index : Integer) : Boolean
 > ``` 
 
@@ -162,7 +162,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function LoadInputMapping(name : String)
 > ``` 
 
@@ -174,7 +174,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SaveInputMapping(name : String)
 > ``` 
 
@@ -185,7 +185,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function StartCalibration()
 > ``` 
 

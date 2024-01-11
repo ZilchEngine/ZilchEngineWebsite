@@ -24,7 +24,7 @@
  #  BackgroundColor : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BackgroundColor : Real4
 
 
@@ -34,7 +34,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CanGoBackward : Boolean
 
 
@@ -44,7 +44,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CanGoForward : Boolean
 
 
@@ -52,7 +52,7 @@
  #  Focus : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Focus : Boolean
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsLoading : Boolean
 
 
@@ -70,7 +70,7 @@
  #  ScrollSpeed : [real2](../nada_base_types/real2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ScrollSpeed : Real2
 
 
@@ -78,7 +78,7 @@
  #  Size : [integer2](../nada_base_types/integer2.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Size : Integer2
 
 
@@ -88,7 +88,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Status : String
 
 
@@ -98,7 +98,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Texture : Texture
 
 
@@ -108,7 +108,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Title : String
 
 
@@ -116,7 +116,7 @@
  #  Transparent : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Transparent : Boolean
 
 
@@ -124,7 +124,7 @@
  #  Url : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Url : String
 
 
@@ -132,7 +132,7 @@
  #  Visible : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Visible : Boolean
 
 
@@ -148,7 +148,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Create() : WebBrowser
 > ``` 
 
@@ -162,7 +162,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[webbrowsersetup](webbrowsersetup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Create(p0 : WebBrowserSetup) : WebBrowser
 > ``` 
 
@@ -174,7 +174,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ExecuteScript(p0 : String)
 > ``` 
 
@@ -188,7 +188,7 @@
 > |p0|[string](../nada_base_types/string.md)| |
 > |p1|[string](../nada_base_types/string.md)| |
 > |p2|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ExecuteScriptFromLocation(p0 : String, p1 : String, p2 : Integer)
 > ``` 
 
@@ -199,7 +199,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GoBackward()
 > ``` 
 
@@ -210,7 +210,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GoForward()
 > ``` 
 
@@ -221,7 +221,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reload()
 > ``` 
 
@@ -233,7 +233,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reload(p0 : Boolean)
 > ``` 
 
@@ -247,7 +247,7 @@
 > |p0|[integer](../nada_base_types/integer.md)| |
 > |p1|[boolean](../nada_base_types/boolean.md)| |
 > |p2|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimulateKey(p0 : Integer, p1 : Boolean, p2 : WebBrowserModifiers)
 > ``` 
 
@@ -262,7 +262,7 @@
 > |p1|[MouseButtons](../enum_reference.md#mousebuttons)| |
 > |p2|[boolean](../nada_base_types/boolean.md)| |
 > |p3|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimulateMouseClick(p0 : Integer2, p1 : MouseButtons, p2 : Boolean, p3 : WebBrowserModifiers)
 > ``` 
 
@@ -276,7 +276,7 @@
 > |p0|[integer2](../nada_base_types/integer2.md)| |
 > |p1|[MouseButtons](../enum_reference.md#mousebuttons)| |
 > |p2|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimulateMouseDoubleClick(p0 : Integer2, p1 : MouseButtons, p2 : WebBrowserModifiers)
 > ``` 
 
@@ -289,7 +289,7 @@
 > |---|---|---|
 > |p0|[integer2](../nada_base_types/integer2.md)| |
 > |p1|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimulateMouseMove(p0 : Integer2, p1 : WebBrowserModifiers)
 > ``` 
 
@@ -303,7 +303,7 @@
 > |p0|[integer2](../nada_base_types/integer2.md)| |
 > |p1|[real2](../nada_base_types/real2.md)| |
 > |p2|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimulateMouseScroll(p0 : Integer2, p1 : Real2, p2 : WebBrowserModifiers)
 > ``` 
 
@@ -316,7 +316,7 @@
 > |---|---|---|
 > |p0|[integer](../nada_base_types/integer.md)| |
 > |p1|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimulateTextTyped(p0 : Integer, p1 : WebBrowserModifiers)
 > ``` 
 

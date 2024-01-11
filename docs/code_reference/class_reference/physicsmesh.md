@@ -26,7 +26,7 @@
 > Creates a PhysicsMesh for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : PhysicsMesh
 > ``` 
 
@@ -39,7 +39,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PhysicsMesh()
 > ``` 
 
@@ -50,7 +50,7 @@
 > Creates a clone of this mesh for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : PhysicsMesh
 > ``` 
 

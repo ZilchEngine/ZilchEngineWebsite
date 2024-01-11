@@ -14,7 +14,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Cog : Cog
 
 
@@ -29,7 +29,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetGraphicalSortValue(p0 : Integer)
 > ``` 
 

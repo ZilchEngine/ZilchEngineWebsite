@@ -26,7 +26,7 @@
  `read-only`
 
 > Returns the number of vertices that have a complete set of data stored.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VertexCount : Integer
 
 
@@ -43,7 +43,7 @@
 > |semantic|[VertexSemantic](../enum_reference.md#vertexsemantic)| |
 > |elementType|[VertexElementType](../enum_reference.md#vertexelementtype)| |
 > |elementCount|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddAttribute(semantic : VertexSemantic, elementType : VertexElementType, elementCount : Integer)
 > ``` 
 
@@ -55,7 +55,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddByte(value : Integer)
 > ``` 
 
@@ -67,7 +67,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddByte( : Integer2)
 > ``` 
 
@@ -79,7 +79,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddByte( : Integer3)
 > ``` 
 
@@ -91,7 +91,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddByte( : Integer4)
 > ``` 
 
@@ -103,7 +103,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddReal(value : Real)
 > ``` 
 
@@ -115,7 +115,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real2](../nada_base_types/real2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddReal(value : Real2)
 > ``` 
 
@@ -127,7 +127,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddReal(value : Real3)
 > ``` 
 
@@ -139,7 +139,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[real4](../nada_base_types/real4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddReal(value : Real4)
 > ``` 
 
@@ -151,7 +151,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddShort(value : Integer)
 > ``` 
 
@@ -163,7 +163,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer2](../nada_base_types/integer2.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddShort( : Integer2)
 > ``` 
 
@@ -175,7 +175,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer3](../nada_base_types/integer3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddShort( : Integer3)
 > ``` 
 
@@ -187,7 +187,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer4](../nada_base_types/integer4.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddShort( : Integer4)
 > ``` 
 
@@ -198,7 +198,7 @@
 > Clears all added attributes from the vertex definition so they can be redefined.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearAttributes()
 > ``` 
 
@@ -209,7 +209,7 @@
 > Clears all added vertex data so new data can be added.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ClearData()
 > ``` 
 
@@ -220,7 +220,7 @@
 > Returns a range of attribute semantics in the order that they were added.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetAttributes() : VertexSemanticRange
 > ``` 
 
@@ -232,7 +232,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |semantic|[VertexSemantic](../enum_reference.md#vertexsemantic)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetElementCount(semantic : VertexSemantic) : Integer
 > ``` 
 
@@ -244,7 +244,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |semantic|[VertexSemantic](../enum_reference.md#vertexsemantic)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetElementType(semantic : VertexSemantic) : VertexElementType
 > ``` 
 
@@ -257,7 +257,7 @@
 > |---|---|---|
 > |vertexIndex|[integer](../nada_base_types/integer.md)| |
 > |semantic|[VertexSemantic](../enum_reference.md#vertexsemantic)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetVertexData(vertexIndex : Integer, semantic : VertexSemantic) : Real4
 > ``` 
 
@@ -272,7 +272,7 @@
 > |semantic|[VertexSemantic](../enum_reference.md#vertexsemantic)| |
 > |type|[VertexElementType](../enum_reference.md#vertexelementtype)| |
 > |count|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetVertexData(vertexIndex : Integer, semantic : VertexSemantic, type : VertexElementType, count : Integer) : Real4
 > ``` 
 
@@ -287,7 +287,7 @@
 > |semantic|[VertexSemantic](../enum_reference.md#vertexsemantic)| |
 > |type|[VertexElementType](../enum_reference.md#vertexelementtype)| |
 > |count|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsValidVertexData(vertexIndex : Integer, semantic : VertexSemantic, type : VertexElementType, count : Integer) : Boolean
 > ``` 
 

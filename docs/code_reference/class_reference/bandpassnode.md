@@ -15,7 +15,7 @@
  #  CentralFrequency : [real](../nada_base_types/real.md)
 
 > The center frequency of the band. Frequencies above and below this band will be attenuated.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CentralFrequency : Real
 
 
@@ -23,7 +23,7 @@
  #  QualityFactor : [real](../nada_base_types/real.md)
 
 > The Q number of the band pass filter: higher numbers make the band smaller, while smaller numbers make it wider. The default value is 0.669.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var QualityFactor : Real
 
 

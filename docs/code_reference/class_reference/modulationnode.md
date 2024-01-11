@@ -17,7 +17,7 @@
  #  Frequency : [real](../nada_base_types/real.md)
 
 > The frequency of the sine wave used for the modulation.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Frequency : Real
 
 
@@ -25,7 +25,7 @@
  #  UseAmplitudeModulation : [boolean](../nada_base_types/boolean.md)
 
 > If this property is true, the node will apply amplitude modulation (multiply the audio input with a unipolar sine wave with values from 0.0 to 1.0). If false, the node will apply ring modulation (multiply the input with a bipolar sine wave with values from -1.0 to 1.0).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UseAmplitudeModulation : Boolean
 
 
@@ -33,7 +33,7 @@
  #  WetPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The WetValue property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WetPercent : Real
 
 
@@ -41,7 +41,7 @@
  #  WetValue : [real](../nada_base_types/real.md)
 
 > The percentage of the input (0 - 1.0) which should have the modulation applied to it.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WetValue : Real
 
 

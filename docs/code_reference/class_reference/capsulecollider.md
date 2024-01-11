@@ -21,7 +21,7 @@
  #  Direction : [AxisDirection](../enum_reference.md#axisdirection)
 
 > The direction that the height is defined along. Allows the user to change whether the capsule's height is along the local-space x, y, or z axis.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Direction : AxisDirection
 
 
@@ -29,7 +29,7 @@
  #  Height : [real](../nada_base_types/real.md)
 
 > The local space distance from the center of one sphere to another.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Height : Real
 
 
@@ -37,7 +37,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > The local space radius of the spheres at the capsule edges.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 
@@ -45,7 +45,7 @@
  #  ScalingMode : [CapsuleScalingMode](../enum_reference.md#capsulescalingmode)
 
 > How should non-uniform scale affect the capsules size. Should a scale of 2 on the height axis double the total capsule size or should it double the capsule height?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ScalingMode : CapsuleScalingMode
 
 
@@ -55,7 +55,7 @@
  `read-only`
 
 > The full height of the capsule's cylinder after the scale is applied (world distance from one sphere to another).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldCylinderHeight : Real
 
 
@@ -65,7 +65,7 @@
  `read-only`
 
 > The radius of the sphere caps after scale is applied.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRadius : Real
 
 
@@ -81,7 +81,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CapsuleCollider()
 > ``` 
 

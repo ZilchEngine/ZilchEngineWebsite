@@ -18,7 +18,7 @@
  #  EndWorldRectangle : [rectangle](rectangle.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EndWorldRectangle : Rectangle
 
 
@@ -28,7 +28,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Finished : Boolean
 
 
@@ -38,7 +38,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabLocation : Location
 
 
@@ -48,7 +48,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OperationQueue : OperationQueue
 
 
@@ -58,7 +58,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StartWorldRectangle : Rectangle
 
 

@@ -22,7 +22,7 @@
  #  AutoDrag : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoDrag : Boolean
 
 
@@ -32,7 +32,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DragActive : Boolean
 
 
@@ -40,7 +40,7 @@
  #  DragDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DragDistance : Real
 
 
@@ -48,7 +48,7 @@
  #  DragMode : [GizmoDragMode](../enum_reference.md#gizmodragmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DragMode : GizmoDragMode
 
 
@@ -56,7 +56,7 @@
  #  GrabMode : [GizmoGrabMode](../enum_reference.md#gizmograbmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabMode : GizmoGrabMode
 
 
@@ -66,7 +66,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GrabPoint : Real3
 
 
@@ -74,7 +74,7 @@
  #  LineDirection : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LineDirection : Real3
 
 
@@ -82,7 +82,7 @@
  #  NormalInWorld : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NormalInWorld : Boolean
 
 
@@ -90,7 +90,7 @@
  #  PlaneNormal : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PlaneNormal : Real3
 
 
@@ -106,7 +106,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GizmoDrag()
 > ``` 
 

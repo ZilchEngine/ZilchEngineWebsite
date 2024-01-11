@@ -13,7 +13,7 @@
  #  CommandLine : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CommandLine : String
 
 
@@ -28,7 +28,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetEnvironmentalVariable(p0 : String) : String
 > ``` 
 
@@ -40,7 +40,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetParsedArgument(p0 : String) : String
 > ``` 
 

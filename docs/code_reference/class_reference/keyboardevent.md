@@ -25,7 +25,7 @@
  #  AltPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AltPressed : Boolean
 
 
@@ -33,7 +33,7 @@
  #  CtrlPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CtrlPressed : Boolean
 
 
@@ -41,7 +41,7 @@
  #  HandledEvent : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HandledEvent : Boolean
 
 
@@ -49,7 +49,7 @@
  #  Key : [Keys](../enum_reference.md#keys)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Key : Keys
 
 
@@ -59,7 +59,7 @@
  `read-only`
 
 > Get the keyboard that generated this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Keyboard : Keyboard
 
 
@@ -69,7 +69,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ModifierPressed : Boolean
 
 
@@ -77,7 +77,7 @@
  #  OsKey : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OsKey : Integer
 
 
@@ -85,7 +85,7 @@
  #  ShiftPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShiftPressed : Boolean
 
 
@@ -93,7 +93,7 @@
  #  SpacePressed : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpacePressed : Boolean
 
 
@@ -101,7 +101,7 @@
  #  State : [KeyState](../enum_reference.md#keystate)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var State : KeyState
 
 

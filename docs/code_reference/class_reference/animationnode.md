@@ -17,7 +17,7 @@
  #  CollapseToPoseOnFinish : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to collapse to a pose node when finished playing.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var CollapseToPoseOnFinish : Boolean
 
 
@@ -25,7 +25,7 @@
  #  Duration : [real](../nada_base_types/real.md)
 
 > The duration of the node.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Duration : Real
 
 
@@ -33,7 +33,7 @@
  #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not the node is currently paused.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Paused : Boolean
 
 
@@ -41,7 +41,7 @@
  #  Time : [real](../nada_base_types/real.md)
 
 > The current time in the node.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Time : Real
 
 
@@ -49,7 +49,7 @@
  #  TimeScale : [real](../nada_base_types/real.md)
 
 > A scalar to dt when updating the node.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TimeScale : Real
 
 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clone() : AnimationNode
 > ``` 
 
@@ -74,7 +74,7 @@
 > Collapses all children to a pose node on the next Update.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CollapseToPose()
 > ``` 
 
@@ -85,7 +85,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetNormalizedTime() : Real
 > ``` 
 
@@ -96,7 +96,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsActive() : Boolean
 > ``` 
 
@@ -108,7 +108,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |tabs|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PrintNode(tabs : Integer)
 > ``` 
 
@@ -120,7 +120,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |normalizedTime|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetNormalizedTime(normalizedTime : Real)
 > ``` 
 

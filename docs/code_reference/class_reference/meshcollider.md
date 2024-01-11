@@ -19,7 +19,7 @@
  #  DrawEdges : [boolean](../nada_base_types/boolean.md)
 
 > Whether to debug draw the edges of each triangle.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawEdges : Boolean
 
 
@@ -27,7 +27,7 @@
  #  DrawFaceNormals : [boolean](../nada_base_types/boolean.md)
 
 > Whether to debug draw the normals of each triangle.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawFaceNormals : Boolean
 
 
@@ -35,7 +35,7 @@
  #  DrawFaces : [boolean](../nada_base_types/boolean.md)
 
 > Whether to debug draw the faces of each triangle.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DrawFaces : Boolean
 
 
@@ -43,7 +43,7 @@
  #  PhysicsMesh : [physicsmesh](physicsmesh.md)
 
 > The mesh resource used to define collision. This mesh is just a surface mesh of triangles (no volume is defined).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PhysicsMesh : PhysicsMesh
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MeshCollider()
 > ``` 
 

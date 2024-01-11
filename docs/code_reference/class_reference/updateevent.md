@@ -18,7 +18,7 @@
  #  Dt : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Dt : Real
 
 
@@ -26,7 +26,7 @@
  #  RealTimePassed : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RealTimePassed : Real
 
 
@@ -34,7 +34,7 @@
  #  TimePassed : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TimePassed : Real
 
 

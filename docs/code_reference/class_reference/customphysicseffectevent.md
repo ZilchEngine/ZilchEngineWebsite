@@ -18,7 +18,7 @@
  #  Dt : [real](../nada_base_types/real.md)
 
 > The timestep of the current physics frame (in seconds).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Dt : Real
 
 
@@ -26,7 +26,7 @@
  #  Effect : [customphysicseffect](customphysicseffect.md)
 
 > The effect that sent out this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Effect : CustomPhysicsEffect
 
 
@@ -34,7 +34,7 @@
  #  RigidBody : [rigidbody](rigidbody.md)
 
 > The RigidBody to apply forces to.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RigidBody : RigidBody
 
 
@@ -50,7 +50,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CustomPhysicsEffectEvent()
 > ``` 
 

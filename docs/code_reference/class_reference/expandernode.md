@@ -18,7 +18,7 @@
  #  AttackMillisec : [real](../nada_base_types/real.md)
 
 > The time for the expander to ramp to full effect after the input reaches the threshold.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AttackMillisec : Real
 
 
@@ -26,7 +26,7 @@
  #  InputGainDecibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to the audio input, in decibels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InputGainDecibels : Real
 
 
@@ -34,7 +34,7 @@
  #  KneeWidth : [real](../nada_base_types/real.md)
 
 > The knee width of the expander, in decibels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var KneeWidth : Real
 
 
@@ -42,7 +42,7 @@
  #  OutputGainDecibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to the expander output, in decibels.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OutputGainDecibels : Real
 
 
@@ -50,7 +50,7 @@
  #  Ratio : [real](../nada_base_types/real.md)
 
 > The ratio of the volume reduction applied by the expander.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Ratio : Real
 
 
@@ -58,7 +58,7 @@
  #  ReleaseMillisec : [real](../nada_base_types/real.md)
 
 > The time for the expander to ramp from full effect to off after the input goes above the threshold.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReleaseMillisec : Real
 
 
@@ -66,7 +66,7 @@
  #  ThresholdDecibels : [real](../nada_base_types/real.md)
 
 > The threshold, in decibels, at which the volume of the input is affected by the expander.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ThresholdDecibels : Real
 
 

@@ -24,7 +24,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Is the animGraph animating?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -32,7 +32,7 @@
  #  ActiveNode : [animationnode](animationnode.md)
 
 > The current root animation node.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ActiveNode : AnimationNode
 
 
@@ -40,7 +40,7 @@
  #  TimeScale : [real](../nada_base_types/real.md)
 
 > A scalar to the entire animation graph.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TimeScale : Real
 
 
@@ -56,7 +56,7 @@
 > Constructor / destructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AnimationGraph()
 > ``` 
 
@@ -69,7 +69,7 @@
 > |---|---|---|
 > |animation|[animation](animation.md)| |
 > |mode|[AnimationPlayMode](../enum_reference.md#animationplaymode)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateBasicNode(animation : Animation, mode : AnimationPlayMode) : BasicAnimation
 > ``` 
 
@@ -80,7 +80,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateChainNode() : ChainNode
 > ``` 
 
@@ -91,7 +91,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateCrossBlendNode() : CrossBlend
 > ``` 
 
@@ -102,7 +102,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateDirectBlendNode() : DirectBlend
 > ``` 
 
@@ -113,7 +113,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateSelectiveNode() : SelectiveNode
 > ``` 
 
@@ -125,7 +125,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |animation|[animation](animation.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsPlayingInGraph(animation : Animation) : Boolean
 > ``` 
 
@@ -136,7 +136,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PrintGraph()
 > ``` 
 
@@ -148,7 +148,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |dt|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Update(dt : Real)
 > ``` 
 

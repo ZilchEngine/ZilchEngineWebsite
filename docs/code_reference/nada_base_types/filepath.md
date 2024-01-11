@@ -28,7 +28,7 @@
 
 > Gets the character(s) used for separating directories and files. This value is often different depending on the operating system (generally either '/' or '\')
 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DirectorySeparator : String
 
 
@@ -39,7 +39,7 @@
 
 > The directory the executable lives with in (exe, elf...). This will always include a directory separator at the end of the result.
 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ExecutableDirectory : String
 
 
@@ -50,7 +50,7 @@
 
 > A path directly to the executable itself (exe, elf...).
 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ExecutableFile : String
 
 
@@ -61,7 +61,7 @@
 
 > Temporary files should be placed here. This will always include a directory separator at the end of the result.
 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TemporaryDirectory : String
 
 
@@ -72,7 +72,7 @@
 
 > User saved data that the user can backup or modify should be placed here (read/write/create permissions should be allowed). This will always include a directory separator at the end of the result.
 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UserDocumentsDirectory : String
 
 
@@ -83,7 +83,7 @@
 
 > Application saved information should be placed here (read/write/create permissions should be allowed). This will always include a directory separator at the end of the result.
 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UserLocalDirectory : String
 
 
@@ -94,7 +94,7 @@
 
 > A directory that all relative paths start resolving from. In general the changing of the working directory is discouraged because it may affect assumptions of the host application. This will always include a directory separator at the end of the result.
 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorkingDirectory : String
 
 
@@ -114,7 +114,7 @@ Example: ('Content\Powerups\') results in 'Content\Powerups\'
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddTrailingDirectorySeparator(p0 : String) : String
 > ``` 
 
@@ -133,7 +133,7 @@ Example: ('Content\Player.', '.jpg') results in 'Content\Player.jpg'
 > |---|---|---|
 > |p0|[string](string.md)| |
 > |p1|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ChangeExtension(p0 : String, p1 : String) : String
 > ``` 
 
@@ -153,7 +153,7 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 > |---|---|---|
 > |dir0|[string](string.md)| |
 > |dir1|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectories(dir0 : String, dir1 : String) : String
 > ``` 
 
@@ -174,7 +174,7 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 > |dir0|[string](string.md)| |
 > |dir1|[string](string.md)| |
 > |dir2|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectories(dir0 : String, dir1 : String, dir2 : String) : String
 > ``` 
 
@@ -196,7 +196,7 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 > |dir1|[string](string.md)| |
 > |dir2|[string](string.md)| |
 > |dir3|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectories(dir0 : String, dir1 : String, dir2 : String, dir3 : String) : String
 > ``` 
 
@@ -219,7 +219,7 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 > |dir2|[string](string.md)| |
 > |dir3|[string](string.md)| |
 > |dir4|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectories(dir0 : String, dir1 : String, dir2 : String, dir3 : String, dir4 : String) : String
 > ``` 
 
@@ -239,7 +239,7 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 > |---|---|---|
 > |dir0|[string](string.md)| |
 > |fileName|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectoriesAndFile(dir0 : String, fileName : String) : String
 > ``` 
 
@@ -260,7 +260,7 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 > |dir0|[string](string.md)| |
 > |dir1|[string](string.md)| |
 > |fileName|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectoriesAndFile(dir0 : String, dir1 : String, fileName : String) : String
 > ``` 
 
@@ -282,7 +282,7 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 > |dir1|[string](string.md)| |
 > |dir2|[string](string.md)| |
 > |fileName|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectoriesAndFile(dir0 : String, dir1 : String, dir2 : String, fileName : String) : String
 > ``` 
 
@@ -305,7 +305,7 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 > |dir2|[string](string.md)| |
 > |dir3|[string](string.md)| |
 > |fileName|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CombineDirectoriesAndFile(dir0 : String, dir1 : String, dir2 : String, dir3 : String, fileName : String) : String
 > ``` 
 
@@ -321,7 +321,7 @@ Example: ('C:/Sandbox//Engine/../Content/./Player.png') results in 'C:\Sandbox\C
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetCanonicalizedPathFromAbsolutePath(p0 : String) : String
 > ``` 
 
@@ -337,7 +337,7 @@ Example: ('C:\Sandbox\Engine\..\Content\.\Player.png') results in 'c:\sandbox\co
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetComparablePathFromAbsolutePath(p0 : String) : String
 > ``` 
 
@@ -356,7 +356,7 @@ Example: ('Content') results in ''
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetDirectoryName(p0 : String) : String
 > ``` 
 
@@ -375,7 +375,7 @@ Example: ('Content') results in ''
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetDirectoryPath(p0 : String) : String
 > ``` 
 
@@ -393,7 +393,7 @@ Example: ('Parent.Directory\Log') results in ''
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetExtensionWithDot(p0 : String) : String
 > ``` 
 
@@ -411,7 +411,7 @@ Example: ('Parent.Directory\Log') results in ''
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetExtensionWithoutDot(p0 : String) : String
 > ``` 
 
@@ -429,7 +429,7 @@ Example: ('Content\Powerups') results in 'Powerups'
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFileNameWithExtension(p0 : String) : String
 > ``` 
 
@@ -447,7 +447,7 @@ Example: ('Content\Powerups') results in 'Powerups'
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetFileNameWithoutExtension(p0 : String) : String
 > ``` 
 
@@ -466,7 +466,7 @@ Example: ('/usr/Content/Player.png') results in 'false'
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsRelative(p0 : String) : Boolean
 > ``` 
 
@@ -483,7 +483,7 @@ Example: ('Content\Powerups\') results in 'Content\Powerups'
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[string](string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveTrailingDirectorySeparator(p0 : String) : String
 > ``` 
 

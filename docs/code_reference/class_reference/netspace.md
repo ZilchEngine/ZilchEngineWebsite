@@ -19,7 +19,7 @@
  `read-only`
 
 > Returns the number of net objects in this space (but not including the net space itself).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetObjectCount : Integer
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > Returns the number of net users in this space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetUserCount : Integer
 
 
@@ -45,7 +45,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NetSpace()
 > ``` 
 

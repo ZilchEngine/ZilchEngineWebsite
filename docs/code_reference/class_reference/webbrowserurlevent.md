@@ -15,7 +15,7 @@
  #  Handled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Handled : Boolean
 
 
@@ -23,7 +23,7 @@
  #  Url : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Url : String
 
 

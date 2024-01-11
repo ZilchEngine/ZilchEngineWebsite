@@ -19,7 +19,7 @@
  `read-only`
 
 > The number of audio channels in the file.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Channels : Integer
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > The length of the audio file, in seconds.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Length : Real
 
 

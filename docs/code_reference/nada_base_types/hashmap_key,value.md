@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : HashMapRange[Key,Value]
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -46,7 +46,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Keys : HashMapKeyRange[Key]
 
 
@@ -56,7 +56,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Values : HashMap[Value]
 
 
@@ -72,7 +72,7 @@
 > |---|---|---|
 > ||Key| |
 > ||Value| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Key,  : Value)
 > ``` 
 
@@ -83,7 +83,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -95,7 +95,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Contains( : Key) : Boolean
 > ``` 
 
@@ -107,7 +107,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get( : Key) : Value
 > ``` 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOrDefault( : Key) : Value
 > ``` 
 
@@ -132,7 +132,7 @@
 > |---|---|---|
 > ||Key| |
 > ||Value| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOrDefault( : Key,  : Value) : Value
 > ``` 
 
@@ -144,7 +144,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOrError( : Key) : Value
 > ``` 
 
@@ -157,7 +157,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HashMap[Key,Value]()
 > ``` 
 
@@ -169,7 +169,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveOrError( : Key)
 > ``` 
 
@@ -181,7 +181,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Key| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveOrIgnore( : Key) : Boolean
 > ``` 
 
@@ -194,7 +194,7 @@
 > |---|---|---|
 > ||Key| |
 > ||Value| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set( : Key,  : Value) : Boolean
 > ``` 
 
@@ -207,7 +207,7 @@
 > |---|---|---|
 > ||Key| |
 > ||Value| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetOrError( : Key,  : Value)
 > ``` 
 
@@ -220,7 +220,7 @@
 > |---|---|---|
 > ||Key| |
 > ||Value| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetOrIgnore( : Key,  : Value) : Boolean
 > ``` 
 
@@ -233,7 +233,7 @@
 > |---|---|---|
 > ||Key| |
 > ||Value| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetOrOverwrite( : Key,  : Value) : Boolean
 > ``` 
 

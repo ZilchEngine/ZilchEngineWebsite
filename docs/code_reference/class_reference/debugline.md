@@ -22,7 +22,7 @@
  #  BoxHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var BoxHeads : Boolean
 
 
@@ -30,7 +30,7 @@
  #  Color : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Color : Real4
 
 
@@ -38,7 +38,7 @@
  #  DualHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DualHeads : Boolean
 
 
@@ -46,7 +46,7 @@
  #  End : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var End : Real3
 
 
@@ -54,7 +54,7 @@
  #  Filled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Filled : Boolean
 
 
@@ -62,7 +62,7 @@
  #  HeadSize : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HeadSize : Real
 
 
@@ -70,7 +70,7 @@
  #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnTop : Boolean
 
 
@@ -78,7 +78,7 @@
  #  Start : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Start : Real3
 
 
@@ -86,7 +86,7 @@
  #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewAligned : Boolean
 
 
@@ -94,7 +94,7 @@
  #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaled : Boolean
 
 
@@ -102,7 +102,7 @@
  #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewScaleOffset : Real3
 
 
@@ -118,7 +118,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLine()
 > ``` 
 
@@ -132,7 +132,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |ray|[ray](ray.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLine(ray : Ray)
 > ``` 
 
@@ -147,7 +147,7 @@
 > |---|---|---|
 > |ray|[ray](ray.md)| |
 > |t|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLine(ray : Ray, t : Real)
 > ``` 
 
@@ -162,7 +162,7 @@
 > |---|---|---|
 > |start|[real3](../nada_base_types/real3.md)| |
 > |end|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLine(start : Real3, end : Real3)
 > ``` 
 
@@ -178,7 +178,7 @@
 > |start|[real3](../nada_base_types/real3.md)| |
 > |end|[real3](../nada_base_types/real3.md)| |
 > |headSize|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLine(start : Real3, end : Real3, headSize : Real)
 > ``` 
 
@@ -192,7 +192,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |segment|[segment](segment.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DebugLine(segment : Segment)
 > ``` 
 

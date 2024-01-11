@@ -16,7 +16,7 @@
  #  Basis : [GizmoBasis](../enum_reference.md#gizmobasis)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Basis : GizmoBasis
 
 
@@ -24,7 +24,7 @@
  #  Grab : [GizmoGrabMode](../enum_reference.md#gizmograbmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Grab : GizmoGrabMode
 
 
@@ -32,7 +32,7 @@
  #  Pivot : [GizmoPivot](../enum_reference.md#gizmopivot)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Pivot : GizmoPivot
 
 
@@ -48,7 +48,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectTransformTool()
 > ``` 
 

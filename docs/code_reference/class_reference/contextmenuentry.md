@@ -18,7 +18,7 @@
  #  Icon : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Icon : String
 
 
@@ -26,7 +26,7 @@
  #  Name : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -41,7 +41,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |commandName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddCommandByName(commandName : String) : ContextMenuEntry
 > ``` 
 
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddDivider() : ContextMenuEntry
 > ``` 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddEntry(name : String) : ContextMenuEntry
 > ``` 
 
@@ -77,7 +77,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContextMenuEntry()
 > ``` 
 
@@ -88,7 +88,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Entries() : ContextMenuEntryChildrenRange
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetEntry(name : String) : ContextMenuEntry
 > ``` 
 
@@ -112,7 +112,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |name|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveEntry(name : String)
 > ``` 
 

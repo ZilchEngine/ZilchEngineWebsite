@@ -21,7 +21,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugarc](debugarc.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugArc)
 > ``` 
 
@@ -35,7 +35,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugbox](debugbox.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugBox)
 > ``` 
 
@@ -49,7 +49,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugcapsule](debugcapsule.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugCapsule)
 > ``` 
 
@@ -63,7 +63,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugcircle](debugcircle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugCircle)
 > ``` 
 
@@ -77,7 +77,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugcone](debugcone.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugCone)
 > ``` 
 
@@ -91,7 +91,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugcylinder](debugcylinder.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugCylinder)
 > ``` 
 
@@ -105,7 +105,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugfrustum](debugfrustum.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugFrustum)
 > ``` 
 
@@ -119,7 +119,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugline](debugline.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugLine)
 > ``` 
 
@@ -133,7 +133,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debuglinecross](debuglinecross.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugLineCross)
 > ``` 
 
@@ -147,7 +147,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugobb](debugobb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugObb)
 > ``` 
 
@@ -161,7 +161,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugsphere](debugsphere.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugSphere)
 > ``` 
 
@@ -175,7 +175,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugtext](debugtext.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugText)
 > ``` 
 
@@ -189,7 +189,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[debugtriangle](debugtriangle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : DebugTriangle)
 > ``` 
 
@@ -204,7 +204,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugarc](debugarc.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugArc)
 > ``` 
 
@@ -219,7 +219,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugbox](debugbox.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugBox)
 > ``` 
 
@@ -234,7 +234,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugcapsule](debugcapsule.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugCapsule)
 > ``` 
 
@@ -249,7 +249,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugcircle](debugcircle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugCircle)
 > ``` 
 
@@ -264,7 +264,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugcone](debugcone.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugCone)
 > ``` 
 
@@ -279,7 +279,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugcylinder](debugcylinder.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugCylinder)
 > ``` 
 
@@ -294,7 +294,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugfrustum](debugfrustum.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugFrustum)
 > ``` 
 
@@ -309,7 +309,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugline](debugline.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugLine)
 > ``` 
 
@@ -324,7 +324,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debuglinecross](debuglinecross.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugLineCross)
 > ``` 
 
@@ -339,7 +339,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugobb](debugobb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugObb)
 > ``` 
 
@@ -354,7 +354,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugsphere](debugsphere.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugSphere)
 > ``` 
 
@@ -369,7 +369,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugtext](debugtext.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugText)
 > ``` 
 
@@ -384,7 +384,7 @@
 > |---|---|---|
 > ||[space](space.md)| |
 > ||[debugtriangle](debugtriangle.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Space,  : DebugTriangle)
 > ``` 
 

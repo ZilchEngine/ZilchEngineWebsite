@@ -16,7 +16,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GameSession : GameSession
 
 
@@ -26,7 +26,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Parent : Cog
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Space : Space
 
 
@@ -52,7 +52,7 @@
 > |---|---|---|
 > |p0|[string](../nada_base_types/string.md)| |
 > |p1|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchEvent(p0 : String, p1 : Event)
 > ``` 
 

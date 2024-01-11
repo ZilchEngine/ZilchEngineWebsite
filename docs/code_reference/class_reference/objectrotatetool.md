@@ -17,7 +17,7 @@
  #  AffectRotation : [boolean](../nada_base_types/boolean.md)
 
 > With multiple objects selected, allow their local rotation to be affected while being spacially-rotated (with 'AffectTranslation') about the chosen pivot point.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AffectRotation : Boolean
 
 
@@ -25,7 +25,7 @@
  #  AffectTranslation : [boolean](../nada_base_types/boolean.md)
 
 > With multiple objects selected, allow their spacial-offest to be rotated about the chosen pivot point, while being locally rotated with 'mAffectRotation'.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AffectTranslation : Boolean
 
 
@@ -33,7 +33,7 @@
  #  SnapAngle : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SnapAngle : Real
 
 
@@ -41,7 +41,7 @@
  #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Snapping : Boolean
 
 
@@ -57,7 +57,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ObjectRotateTool()
 > ``` 
 

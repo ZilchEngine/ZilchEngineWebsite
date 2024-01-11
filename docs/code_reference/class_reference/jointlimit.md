@@ -19,7 +19,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this limit is currently active.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -27,7 +27,7 @@
  #  AtomIds : [integer](../nada_base_types/integer.md)
 
 > Signifies what atoms on the joint this affects. For internal use.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AtomIds : Integer
 
 
@@ -35,7 +35,7 @@
  #  LowerLimit : [real](../nada_base_types/real.md)
 
 > The lower bound for this limit.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LowerLimit : Real
 
 
@@ -43,7 +43,7 @@
  #  UpperLimit : [real](../nada_base_types/real.md)
 
 > The upper bound for this limit.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var UpperLimit : Real
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function JointLimit()
 > ``` 
 

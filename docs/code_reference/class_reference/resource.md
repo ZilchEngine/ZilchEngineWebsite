@@ -25,7 +25,7 @@
  #  Name : [string](../nada_base_types/string.md) `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String;
 
 

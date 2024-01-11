@@ -20,7 +20,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FirstPoint : ContactPoint
 
 
@@ -30,7 +30,7 @@
  `read-only`
 
 > Returns the CollisionGroup name of object A.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TypeAName : String
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Returns the CollisionGroup name of object B.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TypeBName : String
 
 

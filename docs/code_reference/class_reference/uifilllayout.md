@@ -25,7 +25,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |child|[uiwidget](uiwidget.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FillToParent(child : UiWidget)
 > ``` 
 
@@ -40,7 +40,7 @@
 > |---|---|---|
 > |rect|[rectangle](rectangle.md)| |
 > |widget|[uiwidget](uiwidget.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FillToRectangle(rect : Rectangle, widget : UiWidget)
 > ``` 
 
@@ -53,7 +53,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UiFillLayout()
 > ``` 
 

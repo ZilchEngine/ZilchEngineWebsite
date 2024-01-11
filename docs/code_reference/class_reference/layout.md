@@ -17,7 +17,7 @@
  #  Padding : [thickness](thickness.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Padding : Thickness
 
 
@@ -33,7 +33,7 @@
 > |---|---|---|
 > |p0|[composite](composite.md)| |
 > |p1|[layoutarea](layoutarea.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DoLayout(p0 : Composite, p1 : LayoutArea) : Real2
 > ``` 
 
@@ -46,7 +46,7 @@
 > |---|---|---|
 > |p0|[composite](composite.md)| |
 > |p1|[layoutarea](layoutarea.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Measure(p0 : Composite, p1 : LayoutArea) : Real2
 > ``` 
 

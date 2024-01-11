@@ -17,7 +17,7 @@
  #  FeedbackPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The FeedbackValue property should be used instead.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeedbackPercent : Real
 
 
@@ -25,7 +25,7 @@
  #  FeedbackValue : [real](../nada_base_types/real.md)
 
 > The percentage of output (0 - 1.0) which is fed back into the filter as input.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FeedbackValue : Real
 
 
@@ -33,7 +33,7 @@
  #  MaxDelayMillisec : [real](../nada_base_types/real.md)
 
 > The maximum delay reached by the modulation. It will oscillate between 0 and this value at the frequency set by the ModulationFrequency property.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxDelayMillisec : Real
 
 
@@ -41,7 +41,7 @@
  #  ModulationFrequency : [real](../nada_base_types/real.md)
 
 > The frequency of the oscillator which varies the modulation.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ModulationFrequency : Real
 
 

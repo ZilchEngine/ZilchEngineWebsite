@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PropertyPath()
 > ``` 
 
@@ -34,7 +34,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[propertypath](propertypath.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PropertyPath(p0 : PropertyPath)
 > ``` 
 

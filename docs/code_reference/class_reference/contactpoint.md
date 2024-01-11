@@ -26,7 +26,7 @@
  `read-only`
 
 > The total impulse this object applied (only for more complicated logic). The impulse is a Vector3 of the values (normal, friction1, friction2).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ComplexImpulse : Real3
 
 
@@ -36,7 +36,7 @@
  `read-only`
 
 > The total friction impulse that this object applied.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrictionImpulse : Real
 
 
@@ -46,7 +46,7 @@
  `read-only`
 
 > The point in local space of myself in this collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalPoint : Real3
 
 
@@ -56,7 +56,7 @@
  `read-only`
 
 > The total impulse that this object applied in the direction of the normal.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NormalImpulse : Real
 
 
@@ -66,7 +66,7 @@
  `read-only`
 
 > The point in local space of the other object in this collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OtherLocalPoint : Real3
 
 
@@ -76,7 +76,7 @@
  `read-only`
 
 > The penetration of this contact point in the direction of the normal. Note: penetration is always positive and is not flipped for object A or object B.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Penetration : Real
 
 
@@ -86,7 +86,7 @@
  `read-only`
 
 > The relative velocity of this point in the direction of the normal. The relative point velocity is defined as Dot(p1 - p0, n) where p1 and p0 are the velocities of the contact points in the collision of myself and the other object respectively. This value can be used to see how fast the objects are now separating. Also, in pre-collision this value can be used to approximate the impulse of the collision since the impulse values will not have been calculated yet in pre-collision.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var RelativeVelocity : Real
 
 
@@ -96,7 +96,7 @@
  `read-only`
 
 > The world space normal that points from myself towards the other object.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldNormalTowardsOther : Real3
 
 
@@ -106,7 +106,7 @@
  `read-only`
 
 > The point in world space of this contact point.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldPoint : Real3
 
 
@@ -122,7 +122,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContactPoint()
 > ``` 
 
@@ -136,7 +136,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[contactpoint](contactpoint.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContactPoint( : ContactPoint)
 > ``` 
 

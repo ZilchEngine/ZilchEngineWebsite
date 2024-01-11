@@ -18,7 +18,7 @@
  `read-only`
 
 > Operation target network.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Network : Network
 
 

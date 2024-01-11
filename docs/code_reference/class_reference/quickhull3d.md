@@ -16,7 +16,7 @@
  #  Index : [integer](../nada_base_types/integer.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Index : Integer
 
 
@@ -24,7 +24,7 @@
  #  Mesh : [indexedhalfedgemesh](indexedhalfedgemesh.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Mesh : IndexedHalfEdgeMesh
 
 
@@ -32,7 +32,7 @@
  #  ShowDebugDraw : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShowDebugDraw : Boolean
 
 
@@ -47,7 +47,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(p0 : Real3)
 > ``` 
 
@@ -58,7 +58,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Build() : Boolean
 > ``` 
 
@@ -69,7 +69,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -80,7 +80,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Draw()
 > ``` 
 
@@ -93,7 +93,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function QuickHull3D()
 > ``` 
 
@@ -107,7 +107,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[quickhull3d](quickhull3d.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function QuickHull3D(p0 : QuickHull3D)
 > ``` 
 

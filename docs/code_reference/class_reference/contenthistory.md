@@ -12,7 +12,7 @@
  #  Revisions : [revisions](revisions.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Revisions : Revisions
 
 
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContentHistory()
 > ``` 
 

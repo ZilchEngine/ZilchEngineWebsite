@@ -17,7 +17,7 @@
  #  WakeUpOnEffectChange : [boolean](../nada_base_types/boolean.md)
 
 > Determines if all objects in the region should be woken up when an effect is changed. Used to make sure that changes in effects will be applied to an object event if it is asleep.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WakeUpOnEffectChange : Boolean
 
 
@@ -33,7 +33,7 @@
 > |---|---|---|
 > |eventId|[string](../nada_base_types/string.md)| |
 > |toSend|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchEvent(eventId : String, toSend : Event)
 > ``` 
 
@@ -46,7 +46,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Region()
 > ``` 
 

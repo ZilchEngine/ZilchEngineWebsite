@@ -18,7 +18,7 @@
  `read-only`
 
 > Current number of Graphicals in the list.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -33,7 +33,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |graphical|[graphical](graphical.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(graphical : Graphical)
 > ``` 
 
@@ -44,7 +44,7 @@
 > Remove all Graphicals from the list.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -57,7 +57,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GraphicalRangeInterface()
 > ``` 
 
@@ -71,7 +71,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[graphicalrangeinterface](graphicalrangeinterface.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GraphicalRangeInterface( : GraphicalRangeInterface)
 > ``` 
 

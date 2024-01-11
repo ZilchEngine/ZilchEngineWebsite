@@ -16,7 +16,7 @@
  #  Count : [integer](../nada_base_types/integer.md)
 
 > Number of vertex indices currently in buffer. Can be set manually to invoke vertex shading that number of times, with or without vertex data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -31,7 +31,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |value|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add(value : Integer)
 > ``` 
 
@@ -42,7 +42,7 @@
 > Clears all stored indices so that new ones can be added.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -54,7 +54,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : Integer
 > ``` 
 

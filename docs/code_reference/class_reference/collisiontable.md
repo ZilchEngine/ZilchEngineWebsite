@@ -26,7 +26,7 @@
 > Creates a CollisionTable for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : CollisionTable
 > ``` 
 
@@ -39,7 +39,7 @@
 > |---|---|---|
 > |groupA|[collisiongroup](collisiongroup.md)| |
 > |groupB|[collisiongroup](collisiongroup.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function FindFilter(groupA : CollisionGroup, groupB : CollisionGroup) : CollisionFilter
 > ``` 
 
@@ -50,7 +50,7 @@
 > Creates a clone of this CollisionTable for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : CollisionTable
 > ``` 
 

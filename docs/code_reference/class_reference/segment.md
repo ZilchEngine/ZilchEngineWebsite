@@ -14,7 +14,7 @@
  #  End : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var End : Real3
 
 
@@ -22,7 +22,7 @@
  #  Start : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Start : Real3
 
 
@@ -37,7 +37,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |tValue|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetPoint(tValue : Real) : Real3
 > ``` 
 
@@ -49,7 +49,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetTValue(point : Real3) : Real
 > ``` 
 
@@ -62,7 +62,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Segment()
 > ``` 
 
@@ -77,7 +77,7 @@
 > |---|---|---|
 > |start|[real3](../nada_base_types/real3.md)| |
 > |end|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Segment(start : Real3, end : Real3)
 > ``` 
 
@@ -91,7 +91,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[segment](segment.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Segment(p0 : Segment)
 > ``` 
 

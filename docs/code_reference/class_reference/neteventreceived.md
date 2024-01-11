@@ -21,7 +21,7 @@
  `read-only`
 
 > Dispatch destination object (null if the net object could not be found locally).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Destination : Cog
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > Network event received.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetEvent : Event
 
 
@@ -39,7 +39,7 @@
  #  ReturnAllow : [boolean](../nada_base_types/boolean.md)
 
 > Return: Allow the received network event to be dispatched on the destination object?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ReturnAllow : Boolean
 
 
@@ -49,7 +49,7 @@
  `read-only`
 
 > Their net peer ID.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TheirNetPeerId : Integer
 
 

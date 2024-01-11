@@ -28,7 +28,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Is this constraint currently active?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -36,7 +36,7 @@
  #  Angular0 : [real3](../nada_base_types/real3.md)
 
 > Angular portion of objectA's Jacobian.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Angular0 : Real3
 
 
@@ -44,7 +44,7 @@
  #  Angular1 : [real3](../nada_base_types/real3.md)
 
 > Angular portion of objectB's Jacobian.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Angular1 : Real3
 
 
@@ -52,7 +52,7 @@
  #  Baumgarte : [real](../nada_base_types/real.md)
 
 > The baumgarte term used to correct error. This should typically be set in initialization (per constraint) and then left alone. Default value is 5.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Baumgarte : Real
 
 
@@ -60,7 +60,7 @@
  #  Bias : [real](../nada_base_types/real.md)
 
 > The bias is used to apply energy into the system. Typically, bias is combined with Error and Baumgarte to fix error. Bias is also used for motors and springs to drive the constraint.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Bias : Real
 
 
@@ -68,7 +68,7 @@
  #  EffectiveMass : [real](../nada_base_types/real.md)
 
 > The effective mass of the constraint. This is typically set by calling SetJacobian.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EffectiveMass : Real
 
 
@@ -76,7 +76,7 @@
  #  Error : [real](../nada_base_types/real.md)
 
 > The error of the constraint. This should typically be set via the SetError function.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Error : Real
 
 
@@ -84,7 +84,7 @@
  #  Gamma : [real](../nada_base_types/real.md)
 
 > Gamma is used to soften constraints. This should typically never be manually set. Instead, it is set when configuring the constraint to act like a spring.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gamma : Real
 
 
@@ -92,7 +92,7 @@
  #  Impulse : [real](../nada_base_types/real.md)
 
 > The total accumulated impulse of this constraint. If you want to not use warm-starting then clear this value every frame.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Impulse : Real
 
 
@@ -100,7 +100,7 @@
  #  Linear0 : [real3](../nada_base_types/real3.md)
 
 > Linear portion of objectA's Jacobian.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Linear0 : Real3
 
 
@@ -108,7 +108,7 @@
  #  Linear1 : [real3](../nada_base_types/real3.md)
 
 > Linear portion of objectB's Jacobian.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Linear1 : Real3
 
 
@@ -116,7 +116,7 @@
  #  MaxImpulse : [real](../nada_base_types/real.md)
 
 > The max impulse magnitude allowed for the constraint.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxImpulse : Real
 
 
@@ -124,7 +124,7 @@
  #  MinImpulse : [real](../nada_base_types/real.md)
 
 > The min impulse magnitude allowed for the constraint.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MinImpulse : Real
 
 
@@ -134,7 +134,7 @@
  `read-only`
 
 > What joint currently owns this constraint.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Owner : CustomJoint
 
 
@@ -142,7 +142,7 @@
  #  SolvePosition : [boolean](../nada_base_types/boolean.md)
 
 > Should this constraint solve position directly or use baumgarte correction? Toggling SolvePosition should be done before setting any other values (ideally in initialization). Setting a constraint to be a motor or a spring will turn off position correction as an error bias must be used to solve those scenarios.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SolvePosition : Boolean
 
 
@@ -159,7 +159,7 @@
 > |targetSpeed|[real](../nada_base_types/real.md)| |
 > |minImpulse|[real](../nada_base_types/real.md)| |
 > |maxImpulse|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ComputeMotor(targetSpeed : Real, minImpulse : Real, maxImpulse : Real)
 > ``` 
 
@@ -172,7 +172,7 @@
 > |---|---|---|
 > |frequencyHz|[real](../nada_base_types/real.md)| |
 > |dampRatio|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ComputeSpring(frequencyHz : Real, dampRatio : Real)
 > ``` 
 
@@ -183,7 +183,7 @@
 > Remove this constraint from whatever joint owns it. This is equivalent to "this.Owner.RemoveConstraint(this)".
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DetachFromOwner()
 > ``` 
 
@@ -194,7 +194,7 @@
 > Is this constraint currently owned by a joint? (Equivalent to "this.Owner != null").
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsOwned() : Boolean
 > ``` 
 
@@ -206,7 +206,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |error|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetErrorAndBias(error : Real)
 > ``` 
 
@@ -221,7 +221,7 @@
 > |angular0|[real3](../nada_base_types/real3.md)| |
 > |linear1|[real3](../nada_base_types/real3.md)| |
 > |angular1|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetJacobian(linear0 : Real3, angular0 : Real3, linear1 : Real3, angular1 : Real3)
 > ``` 
 

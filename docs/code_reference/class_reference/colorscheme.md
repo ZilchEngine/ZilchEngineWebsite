@@ -33,7 +33,7 @@
  #  ActiveScheme : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ActiveScheme : String
 
 
@@ -41,7 +41,7 @@
  #  Background : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Background : Real4
 
 
@@ -49,7 +49,7 @@
  #  ClassName : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ClassName : Real4
 
 
@@ -57,7 +57,7 @@
  #  Comment : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Comment : Real4
 
 
@@ -65,7 +65,7 @@
  #  Default : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Default : Real4
 
 
@@ -73,7 +73,7 @@
  #  Error : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Error : Real4
 
 
@@ -81,7 +81,7 @@
  #  FunctionName : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FunctionName : Real4
 
 
@@ -89,7 +89,7 @@
  #  Gutter : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Gutter : Real4
 
 
@@ -97,7 +97,7 @@
  #  GutterText : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var GutterText : Real4
 
 
@@ -105,7 +105,7 @@
  #  Keyword : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Keyword : Real4
 
 
@@ -113,7 +113,7 @@
  #  LineSelection : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LineSelection : Real4
 
 
@@ -121,7 +121,7 @@
  #  Link : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Link : Real4
 
 
@@ -129,7 +129,7 @@
  #  Number : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Number : Real4
 
 
@@ -137,7 +137,7 @@
  #  Operator : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Operator : Real4
 
 
@@ -145,7 +145,7 @@
  #  SaveName : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SaveName : String
 
 
@@ -153,7 +153,7 @@
  #  Selection : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Selection : Real4
 
 
@@ -161,7 +161,7 @@
  #  SpecialWords : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SpecialWords : Real4
 
 
@@ -169,7 +169,7 @@
  #  StringLiteral : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var StringLiteral : Real4
 
 
@@ -177,7 +177,7 @@
  #  TextMatchHighlight : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextMatchHighlight : Real4
 
 
@@ -185,7 +185,7 @@
  #  TextMatchIndicator : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextMatchIndicator : Real4
 
 
@@ -193,7 +193,7 @@
  #  TextMatchOutlineAlpha : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var TextMatchOutlineAlpha : Real
 
 
@@ -201,7 +201,7 @@
  #  Whitespace : [real4](../nada_base_types/real4.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Whitespace : Real4
 
 
@@ -215,7 +215,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Save()
 > ``` 
 

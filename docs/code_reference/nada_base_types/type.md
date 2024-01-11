@@ -22,7 +22,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsAny : Boolean
 
 
@@ -32,7 +32,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsDelegate : Boolean
 
 
@@ -42,7 +42,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEnum : Boolean
 
 
@@ -52,7 +52,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsEnumOrFlags : Boolean
 
 
@@ -62,7 +62,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsFlags : Boolean
 
 
@@ -72,7 +72,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsHandle : Boolean
 
 
@@ -82,7 +82,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsValue : Boolean
 
 
@@ -92,7 +92,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Library : Library
 
 
@@ -102,7 +102,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Name : String
 
 
@@ -117,7 +117,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |baseType|[type](type.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsA(baseType : Type) : Boolean
 > ``` 
 
@@ -129,7 +129,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |toType|[type](type.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsCastableTo(toType : Type) : Boolean
 > ``` 
 
@@ -141,7 +141,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |toType|[type](type.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsRawCastableTo(toType : Type) : Boolean
 > ``` 
 

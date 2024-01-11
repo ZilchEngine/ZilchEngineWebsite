@@ -16,7 +16,7 @@
  #  LongDescription : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LongDescription : String
 
 
@@ -24,7 +24,7 @@
  #  ShortDescription : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ShortDescription : String
 
 
@@ -32,7 +32,7 @@
  #  Tags : [string](../nada_base_types/string.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Tags : String
 
 
@@ -48,7 +48,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ProjectDescription()
 > ``` 
 

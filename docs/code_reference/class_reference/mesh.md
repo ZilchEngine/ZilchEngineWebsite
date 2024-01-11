@@ -22,7 +22,7 @@
  `read-only`
 
 > Indices used to define non-sequential primitive construction from vertices, such as shared vertices.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Indices : IndexBuffer
 
 
@@ -30,7 +30,7 @@
  #  PrimitiveType : [PrimitiveType](../enum_reference.md#primitivetype)
 
 > The type of primitives to be made with the vertex data.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PrimitiveType : PrimitiveType
 
 
@@ -40,7 +40,7 @@
  `read-only`
 
 > Vertex data and attribute semantics for defining data that can be uploaded to the gpu.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Vertices : VertexBuffer
 
 
@@ -56,7 +56,7 @@
 > Makes an anonymous Mesh resource that can be defined by script and uploaded to the gpu.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : Mesh
 > ``` 
 
@@ -67,7 +67,7 @@
 > Creates a clone of this Mesh. As a clone is expected to be modified, an upload function must be called before this mesh can be used.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : Mesh
 > ``` 
 
@@ -78,7 +78,7 @@
 > Upload vertex buffer and index buffer data to the gpu. This will also build the aabb and information needed for raycasting.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Upload()
 > ``` 
 
@@ -89,7 +89,7 @@
 > Same as Upload except raycasting information will not be built. This avoids a possible spike when a custom mesh will never need to be raycasted against.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UploadNoRayCastInfo()
 > ``` 
 
@@ -100,7 +100,7 @@
 > Same as Upload except raycasting information and the aabb will not be built. This should be used when the user is manually setting an aabb or frustum culling is disabled.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UploadNoRayCastInfoOrAabb()
 > ``` 
 

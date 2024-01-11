@@ -20,7 +20,7 @@
  #  Direction : [AxisDirection](../enum_reference.md#axisdirection)
 
 > The direction that the height is defined along. Allows the user to change whether the cylinder's height is along the x, y, or z axis.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Direction : AxisDirection
 
 
@@ -28,7 +28,7 @@
  #  Height : [real](../nada_base_types/real.md)
 
 > The local space distance from the top of the cylinder to the bottom.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Height : Real
 
 
@@ -36,7 +36,7 @@
  #  Radius : [real](../nada_base_types/real.md)
 
 > The local space radius of the cylinder.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Radius : Real
 
 
@@ -46,7 +46,7 @@
  `read-only`
 
 > The full height of the cylinder after scale is applied.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldHeight : Real
 
 
@@ -56,7 +56,7 @@
  `read-only`
 
 > The radius of the cylinder after scale is applied.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldRadius : Real
 
 
@@ -72,7 +72,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CylinderCollider()
 > ``` 
 

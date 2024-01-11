@@ -17,7 +17,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : PhysicsMeshIndexRange
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -42,7 +42,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Add( : Integer)
 > ``` 
 
@@ -53,7 +53,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -65,7 +65,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get( : Integer) : Integer
 > ``` 
 
@@ -78,7 +78,7 @@
 > |---|---|---|
 > ||[integer](../nada_base_types/integer.md)| |
 > ||[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set( : Integer,  : Integer)
 > ``` 
 

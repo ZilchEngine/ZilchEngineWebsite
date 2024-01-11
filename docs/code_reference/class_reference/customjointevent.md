@@ -17,7 +17,7 @@
  #  Dt : [real](../nada_base_types/real.md)
 
 > The current frame's delta time. Use to setup the constraint if necessary.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Dt : Real
 
 
@@ -25,7 +25,7 @@
  #  Owner : [customjoint](customjoint.md)
 
 > The joint that sent this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Owner : CustomJoint
 
 

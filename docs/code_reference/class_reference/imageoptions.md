@@ -12,7 +12,7 @@
  #  ImportImages : [ImageImport](../enum_reference.md#imageimport)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ImportImages : ImageImport
 
 

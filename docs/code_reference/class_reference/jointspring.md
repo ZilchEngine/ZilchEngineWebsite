@@ -19,7 +19,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this spring is active.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -27,7 +27,7 @@
  #  AtomIds : [integer](../nada_base_types/integer.md)
 
 > Signifies what atoms on the joint this affects. For internal use.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AtomIds : Integer
 
 
@@ -35,7 +35,7 @@
  #  DampingRatio : [real](../nada_base_types/real.md)
 
 > The damping ratio of this spring. The value should range from 0 to 1 where 0 is no damping and 1 is critical damping.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DampingRatio : Real
 
 
@@ -43,7 +43,7 @@
  #  FrequencyHz : [real](../nada_base_types/real.md)
 
 > The oscillation frequency of the spring in Hertz (cycles per second).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var FrequencyHz : Real
 
 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function JointSpring()
 > ``` 
 

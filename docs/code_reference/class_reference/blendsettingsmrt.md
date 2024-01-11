@@ -22,7 +22,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : BlendSettings
 > ``` 
 
@@ -35,7 +35,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |blendSettings|[blendsettings](blendsettings.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, blendSettings : BlendSettings)
 > ``` 
 

@@ -18,7 +18,7 @@
  `read-only`
 
 > Returns whether or not this has an active mouse capture.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsCaptured : Boolean
 
 
@@ -33,7 +33,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |e|[viewportmouseevent](viewportmouseevent.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Capture(e : ViewportMouseEvent) : Boolean
 > ``` 
 
@@ -46,7 +46,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function MouseCapture()
 > ``` 
 
@@ -57,7 +57,7 @@
 > Releases the mouse manipulation.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReleaseCapture()
 > ``` 
 
@@ -69,7 +69,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |e|[viewportmouseevent](viewportmouseevent.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReleaseCapture(e : ViewportMouseEvent)
 > ``` 
 

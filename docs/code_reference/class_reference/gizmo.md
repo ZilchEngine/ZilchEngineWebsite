@@ -19,7 +19,7 @@
  #  Active : [boolean](../nada_base_types/boolean.md)
 
 > If set to false, it will not receive input events.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Active : Boolean
 
 
@@ -29,7 +29,7 @@
  `read-only`
 
 > Needed?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var EditingObject : Cog
 
 
@@ -37,7 +37,7 @@
  #  ForwardEventsToChildren : [boolean](../nada_base_types/boolean.md)
 
 > You may want to manually forward the input events to specific children.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ForwardEventsToChildren : Boolean
 
 
@@ -47,7 +47,7 @@
  `read-only`
 
 > Whether or not the mouse is currently over the gizmo.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseOver : Boolean
 
 
@@ -63,7 +63,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Gizmo()
 > ``` 
 

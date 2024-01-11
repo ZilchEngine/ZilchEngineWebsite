@@ -19,7 +19,7 @@
  #  ControlMode : [ControlMode](../enum_reference.md#controlmode)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ControlMode : ControlMode
 
 
@@ -27,7 +27,7 @@
  #  HorizontalAngle : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HorizontalAngle : Real
 
 
@@ -35,7 +35,7 @@
  #  LookDistance : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LookDistance : Real
 
 
@@ -43,7 +43,7 @@
  #  LookTarget : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LookTarget : Real3
 
 
@@ -51,7 +51,7 @@
  #  MoveSensitivity : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MoveSensitivity : Real
 
 
@@ -59,7 +59,7 @@
  #  VerticalAngle : [real](../nada_base_types/real.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var VerticalAngle : Real
 
 
@@ -75,7 +75,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EditorCameraController()
 > ``` 
 
@@ -86,7 +86,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Reset()
 > ``` 
 

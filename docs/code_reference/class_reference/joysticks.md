@@ -17,7 +17,7 @@
  `read-only`
 
 > Get the number of joysticks.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var JoystickCount : Integer
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Joysticks : JoystickRange
 
 

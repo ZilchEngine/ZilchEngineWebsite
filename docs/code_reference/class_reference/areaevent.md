@@ -16,7 +16,7 @@
  #  Area : [area](area.md)
 
 > The area component that triggered this event.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Area : Area
 
 

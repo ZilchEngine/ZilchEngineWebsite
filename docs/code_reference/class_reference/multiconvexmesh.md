@@ -21,7 +21,7 @@
  `read-only`
 
 > Is the resource currently modified?
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Modified : Boolean
 
 
@@ -31,7 +31,7 @@
  `read-only`
 
 > A collection of sub-convex meshes.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SubMeshes : MultiConvexMeshSubMeshData
 
 
@@ -41,7 +41,7 @@
  `read-only`
 
 > Is the resource correctly setup? Typically involves a mis-match in indices and vertices.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Valid : Boolean
 
 
@@ -51,7 +51,7 @@
  `read-only`
 
 > The vertex buffer data of this mesh.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Vertices : MultiConvexMeshVertexData
 
 
@@ -67,7 +67,7 @@
 > Creates a MultiConvexMesh for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : MultiConvexMesh
 > ``` 
 
@@ -78,7 +78,7 @@
 > Creates a clone of this mesh for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : MultiConvexMesh
 > ``` 
 
@@ -89,7 +89,7 @@
 > Rebuild all extra mesh information if it is currently modified. This includes things like the center of mass, volume, aabb, edge info and more.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function UpdateAndNotifyIfModified()
 > ``` 
 
@@ -101,7 +101,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |throwExceptionIfInvalid|[boolean](../nada_base_types/boolean.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Validate(throwExceptionIfInvalid : Boolean) : Boolean
 > ``` 
 

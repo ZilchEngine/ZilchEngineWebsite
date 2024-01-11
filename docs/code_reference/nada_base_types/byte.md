@@ -15,7 +15,7 @@
  `read-only` `static`
 
 > The largest (most positive) value that can be represented by a Byte.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveMax : Byte
 
 
@@ -25,7 +25,7 @@
  `read-only` `static`
 
 > The positive value closest to zero that can be represented by a Byte.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PositiveValueClosestToZero : Byte
 
 
@@ -42,7 +42,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[stringrange](stringrange.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Parse(p0 : StringRange) : Byte
 > ``` 
 

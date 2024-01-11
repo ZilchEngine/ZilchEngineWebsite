@@ -12,7 +12,7 @@
  #  Root : [cog](cog.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Root : Cog
 
 

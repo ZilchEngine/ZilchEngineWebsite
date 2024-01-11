@@ -21,7 +21,7 @@
  #  Animation : [animation](animation.md)
 
 > Animation getter/setter.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Animation : Animation
 
 
@@ -29,7 +29,7 @@
  #  PlayMode : [AnimationPlayMode](../enum_reference.md#animationplaymode)
 
 > Play mode getter/setter.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var PlayMode : AnimationPlayMode
 
 
@@ -45,7 +45,7 @@
 > |---|---|---|
 > |animation|[animation](animation.md)| |
 > |playMode|[AnimationPlayMode](../enum_reference.md#animationplaymode)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ChainAnimation(animation : Animation, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -59,7 +59,7 @@
 > |animation|[animation](animation.md)| |
 > |transitionTime|[real](../nada_base_types/real.md)| |
 > |playMode|[AnimationPlayMode](../enum_reference.md#animationplaymode)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CrossBlend(animation : Animation, transitionTime : Real, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -73,7 +73,7 @@
 > |animation|[animation](animation.md)| |
 > |transitionTime|[real](../nada_base_types/real.md)| |
 > |playMode|[AnimationPlayMode](../enum_reference.md#animationplaymode)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DirectBlend(animation : Animation, transitionTime : Real, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -87,7 +87,7 @@
 > |animation|[animation](animation.md)| |
 > |rootBone|[cog](cog.md)| |
 > |playMode|[AnimationPlayMode](../enum_reference.md#animationplaymode)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlayIsolatedAnimation(animation : Animation, rootBone : Cog, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -100,7 +100,7 @@
 > |---|---|---|
 > |animation|[animation](animation.md)| |
 > |playMode|[AnimationPlayMode](../enum_reference.md#animationplaymode)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function PlaySingle(animation : Animation, playMode : AnimationPlayMode) : AnimationNode
 > ``` 
 
@@ -113,7 +113,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SimpleAnimation()
 > ``` 
 

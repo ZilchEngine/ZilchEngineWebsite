@@ -53,7 +53,7 @@
  #  AcceptIncomingChanges : [boolean](../nada_base_types/boolean.md)
 
 > Controls whether or not net channels on this net object may accept incoming changes.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AcceptIncomingChanges : Boolean
 
 
@@ -61,7 +61,7 @@
  #  AccurateTimestampOnChange : [boolean](../nada_base_types/boolean.md)
 
 > Controls whether or not the net object will serialize an accurate timestamp value when changed (on any net channel), or will instead accept an estimated timestamp value. (Enabling this will override the corresponding net channel type setting for all net channels added to this net object)
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AccurateTimestampOnChange : Boolean
 
 
@@ -69,7 +69,7 @@
  #  AccurateTimestampOnOffline : [boolean](../nada_base_types/boolean.md)
 
 > Controls whether or not the net object will serialize an accurate timestamp value when taken offline, or will instead accept an estimated timestamp value.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AccurateTimestampOnOffline : Boolean
 
 
@@ -77,7 +77,7 @@
  #  AccurateTimestampOnOnline : [boolean](../nada_base_types/boolean.md)
 
 > Controls whether or not the net object will serialize an accurate timestamp value when brought online, or will instead accept an estimated timestamp value.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AccurateTimestampOnOnline : Boolean
 
 
@@ -85,7 +85,7 @@
  #  AllowNapping : [boolean](../nada_base_types/boolean.md)
 
 > Controls whether or not net channels on this net object may nap (perform change detection on longer intervals) if they haven't changed in a while.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AllowNapping : Boolean
 
 
@@ -93,7 +93,7 @@
  #  AutomaticChannel : [netchannelconfig](netchannelconfig.md)
 
 > Returns the automatic net channel configuration resource (assigned to net properties unless another channel is specified).
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutomaticChannel : NetChannelConfig
 
 
@@ -101,7 +101,7 @@
  #  DetectOutgoingChanges : [boolean](../nada_base_types/boolean.md)
 
 > Controls whether or not net channels on this net object may detect outgoing changes.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var DetectOutgoingChanges : Boolean
 
 
@@ -111,7 +111,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is client, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsClient : Boolean
 
 
@@ -121,7 +121,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is client and the net object is conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsClientAndMine : Boolean
 
 
@@ -131,7 +131,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is client and the net object is not conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsClientButNotMine : Boolean
 
 
@@ -141,7 +141,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is client or offline, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsClientOrOffline : Boolean
 
 
@@ -151,7 +151,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is client or server, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsClientOrServer : Boolean
 
 
@@ -161,7 +161,7 @@
  `read-only`
 
 > Returns true if the net object is conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsMine : Boolean
 
 
@@ -171,7 +171,7 @@
  `read-only`
 
 > Returns true if all net channels on this net object are napping (performing change detection on longer intervals), else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNapping : Boolean
 
 
@@ -181,7 +181,7 @@
  `read-only`
 
 > Returns true if the net object is not conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotMine : Boolean
 
 
@@ -191,7 +191,7 @@
  `read-only`
 
 > Returns true if the net object is not conceptually owned by a user, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsNotOwnedByAUser : Boolean
 
 
@@ -201,7 +201,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is offline, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsOffline : Boolean
 
 
@@ -211,7 +211,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is offline and the net object is conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsOfflineAndMine : Boolean
 
 
@@ -221,7 +221,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is offline and the net object is not conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsOfflineButNotMine : Boolean
 
 
@@ -231,7 +231,7 @@
  `read-only`
 
 > Returns true if the net object is online, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsOnline : Boolean
 
 
@@ -241,7 +241,7 @@
  `read-only`
 
 > Returns true if the net object is conceptually owned by a user, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsOwnedByAUser : Boolean
 
 
@@ -251,7 +251,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is server, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsServer : Boolean
 
 
@@ -261,7 +261,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is server and the net object is conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsServerAndMine : Boolean
 
 
@@ -271,7 +271,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is server and the net object is not conceptually owned by a user added by our local peer, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsServerButNotMine : Boolean
 
 
@@ -281,7 +281,7 @@
  `read-only`
 
 > Returns true if our open peer's network role is server or offline, else false.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var IsServerOrOffline : Boolean
 
 
@@ -291,7 +291,7 @@
  `read-only`
 
 > Elapsed time passed since this net object was last changed, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastChangeTimePassed : Real
 
 
@@ -301,7 +301,7 @@
  `read-only`
 
 > Timestamp indicating when this net object was last changed, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LastChangeTimestamp : Real
 
 
@@ -311,7 +311,7 @@
  `read-only`
 
 > Returns the net object ID (set if the net object is live), else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetObjectId : Integer
 
 
@@ -319,7 +319,7 @@
  #  NetPropertyInfos : [netpropertyinfos](netpropertyinfos.md)
 
 > Net property infos added through the property grid.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetPropertyInfos : NetPropertyInfos
 
 
@@ -327,7 +327,7 @@
  #  NetUserOwner : [cog](cog.md)
 
 > Returns the network user this object conceptually belongs to, else nullptr.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetUserOwner : Cog
 
 
@@ -337,7 +337,7 @@
  `read-only`
 
 > Path to the network user this object conceptually belongs to, else empty cog path.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetUserOwnerPath : CogPath
 
 
@@ -347,7 +347,7 @@
  `read-only`
 
 > Returns the network peer identifier of the peer who added the user this object conceptually belongs to, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetUserOwnerPeerId : Integer
 
 
@@ -357,7 +357,7 @@
  `read-only`
 
 > Returns the network user identifier of the user this object conceptually belongs to, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var NetUserOwnerUserId : Integer
 
 
@@ -367,7 +367,7 @@
  `read-only`
 
 > Elapsed time passed since this net object was taken offline, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OfflineTimePassed : Real
 
 
@@ -377,7 +377,7 @@
  `read-only`
 
 > Timestamp indicating when this net object was taken offline, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OfflineTimestamp : Real
 
 
@@ -387,7 +387,7 @@
  `read-only`
 
 > Elapsed time passed since this net object was brought online, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnlineTimePassed : Real
 
 
@@ -397,7 +397,7 @@
  `read-only`
 
 > Timestamp indicating when this net object was brought online, else 0.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var OnlineTimestamp : Real
 
 
@@ -407,7 +407,7 @@
  `read-only`
 
 > Returns our open peer's network role (client, server, offline), else Role::Unspecified.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Role : NetRole
 
 
@@ -423,7 +423,7 @@
 > |---|---|---|
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchBroadcast(eventId : String, event : Event)
 > ``` 
 
@@ -436,7 +436,7 @@
 > |---|---|---|
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchLocal(eventId : String, event : Event)
 > ``` 
 
@@ -449,7 +449,7 @@
 > |---|---|---|
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[event](event.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchLocalAndBroadcast(eventId : String, event : Event)
 > ``` 
 
@@ -463,7 +463,7 @@
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[event](event.md)| |
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchLocalAndRemote(eventId : String, event : Event, netPeerId : Integer)
 > ``` 
 
@@ -477,7 +477,7 @@
 > |eventId|[string](../nada_base_types/string.md)| |
 > |event|[event](event.md)| |
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function DispatchRemote(eventId : String, event : Event, netPeerId : Integer)
 > ``` 
 
@@ -488,7 +488,7 @@
 > [Client] Forgets the online net object locally. [Server] Forgets the online net object locally and remotely for all relevant peers. Effectively removes the net object from the network system without destroying it. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Forget() : Boolean
 > ``` 
 
@@ -500,7 +500,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netChannelName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetNetChannel(netChannelName : String) : NetChannel
 > ``` 
 
@@ -512,7 +512,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netChannelName|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function HasNetChannel(netChannelName : String) : Boolean
 > ``` 
 
@@ -524,7 +524,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |netPeerId|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsOwnedByPeer(netPeerId : Integer) : Boolean
 > ``` 
 
@@ -536,7 +536,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cog|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function IsOwnedByUser(cog : Cog) : Boolean
 > ``` 
 
@@ -549,7 +549,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function NetObject()
 > ``` 
 
@@ -560,7 +560,7 @@
 > [Client/Server] Replicates all net channels' property changes immediately (only where changes are detected). Will also update nap state as configured. Returns true if changes were replicated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ReplicateNow() : Boolean
 > ``` 
 
@@ -571,7 +571,7 @@
 > [Client/Server] Selects the remote net object on the first opposite-role peer found running in another game session instance on the engine. Will fail if the net object is not online, or not found remotely. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SelectRemote() : Boolean
 > ``` 
 
@@ -583,7 +583,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cog|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetNetUserOwnerDown(cog : Cog)
 > ``` 
 
@@ -595,7 +595,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |cog|[cog](cog.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetNetUserOwnerUp(cog : Cog)
 > ``` 
 
@@ -606,7 +606,7 @@
 > Forces all net channels on this net object to start napping immediately.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function TakeNap()
 > ``` 
 
@@ -617,7 +617,7 @@
 > Forces all net channels on this net object to stop napping immediately.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WakeUp()
 > ``` 
 

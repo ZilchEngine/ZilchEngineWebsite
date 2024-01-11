@@ -18,7 +18,7 @@
  #  ConstrainedWorldDelta : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConstrainedWorldDelta : Real3
 
 
@@ -26,7 +26,7 @@
  #  ConstrainedWorldMovement : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ConstrainedWorldMovement : Real3
 
 
@@ -34,7 +34,7 @@
  #  InitialGrabPoint : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var InitialGrabPoint : Real3
 
 
@@ -42,7 +42,7 @@
  #  MouseWorldDelta : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseWorldDelta : Real3
 
 
@@ -50,7 +50,7 @@
  #  MouseWorldMovement : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MouseWorldMovement : Real3
 
 

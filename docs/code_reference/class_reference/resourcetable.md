@@ -35,7 +35,7 @@
  `read-only`
 
 > Range to iterate over all entries.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var All : ResourceTableEntryRange
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > How many items are stored in the table.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Count : Integer
 
 
@@ -53,7 +53,7 @@
  #  MaxWeight : [real](../nada_base_types/real.md)
 
 > The maximum probability weight value that can be stored in the table. Setting this will clamp all weight values.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MaxWeight : Real
 
 
@@ -61,7 +61,7 @@
  #  ResourceType : [string](../nada_base_types/string.md)
 
 > The kind of resource contained in this table. This is either a resource type or "String".
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ResourceType : String
 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddOrError(entry : ResourceTableEntry)
 > ``` 
 
@@ -88,7 +88,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddOrIgnore(entry : ResourceTableEntry) : Boolean
 > ``` 
 
@@ -100,7 +100,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function AddOrOverwrite(entry : ResourceTableEntry) : Boolean
 > ``` 
 
@@ -111,7 +111,7 @@
 > Clear all items in the table.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Clear()
 > ``` 
 
@@ -123,7 +123,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Contains(key : String) : Boolean
 > ``` 
 
@@ -136,7 +136,7 @@
 > Creates a ResourceTable for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function CreateRuntime() : ResourceTable
 > ``` 
 
@@ -147,7 +147,7 @@
 > Force rebuild the weighted probability table.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ForceRebuild()
 > ``` 
 
@@ -159,7 +159,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(index : Integer) : ResourceTableEntry
 > ``` 
 
@@ -171,7 +171,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(entry : ResourceTableEntry) : ResourceTableEntry
 > ``` 
 
@@ -183,7 +183,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Get(key : String) : ResourceTableEntry
 > ``` 
 
@@ -196,7 +196,7 @@
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
 > |defaultValue|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOrDefault(key : String, defaultValue : ResourceTableEntry) : ResourceTableEntry
 > ``` 
 
@@ -208,7 +208,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOrError(key : String) : ResourceTableEntry
 > ``` 
 
@@ -220,7 +220,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function GetOrNull(key : String) : ResourceTableEntry
 > ``` 
 
@@ -232,7 +232,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
@@ -244,7 +244,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveOrError(key : String)
 > ``` 
 
@@ -256,7 +256,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RemoveOrIgnore(key : String) : Boolean
 > ``` 
 
@@ -267,7 +267,7 @@
 > Creates a clone of this table for run-time modifications.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function RuntimeClone() : ResourceTable
 > ``` 
 
@@ -280,7 +280,7 @@
 > |---|---|---|
 > |random1|[real](../nada_base_types/real.md)| |
 > |random2|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Sample(random1 : Real, random2 : Real) : ResourceTableEntry
 > ``` 
 
@@ -293,7 +293,7 @@
 > |---|---|---|
 > |random1|[real](../nada_base_types/real.md)| |
 > |random2|[real](../nada_base_types/real.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SampleIndex(random1 : Real, random2 : Real) : Integer
 > ``` 
 
@@ -306,7 +306,7 @@
 > |---|---|---|
 > |index|[integer](../nada_base_types/integer.md)| |
 > |entry|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(index : Integer, entry : ResourceTableEntry)
 > ``` 
 
@@ -318,7 +318,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |entry|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(entry : ResourceTableEntry)
 > ``` 
 
@@ -331,7 +331,7 @@
 > |---|---|---|
 > |key|[string](../nada_base_types/string.md)| |
 > |entry|[resourcetableentry](resourcetableentry.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(key : String, entry : ResourceTableEntry)
 > ``` 
 

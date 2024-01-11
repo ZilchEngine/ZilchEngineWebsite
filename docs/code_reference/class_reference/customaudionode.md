@@ -17,7 +17,7 @@
  #  Channels : [integer](../nada_base_types/integer.md)
 
 > The number of audio channels that will be in the buffer.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Channels : Integer
 
 
@@ -27,7 +27,7 @@
  `read-only`
 
 > The minimum number of samples that should be sent when a NeedMoreSamples event is received.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var MinimumBufferSize : Integer
 
 
@@ -37,7 +37,7 @@
  `read-only`
 
 > The sample rate currently being used by the audio system.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SystemSampleRate : Integer
 
 
@@ -52,7 +52,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |buffer|[soundbuffer](soundbuffer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendBuffer(buffer : SoundBuffer)
 > ``` 
 
@@ -64,7 +64,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Array[[byte](../nada_base_types/byte.md)]| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendMicCompressedData( : Array[Byte])
 > ``` 
 
@@ -76,7 +76,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > ||Array[[real](../nada_base_types/real.md)]| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendMicUncompressedData( : Array[Real])
 > ``` 
 
@@ -90,7 +90,7 @@
 > |buffer|[soundbuffer](soundbuffer.md)| |
 > |startAtIndex|[integer](../nada_base_types/integer.md)| |
 > |howManySamples|[integer](../nada_base_types/integer.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SendPartialBuffer(buffer : SoundBuffer, startAtIndex : Integer, howManySamples : Integer)
 > ``` 
 

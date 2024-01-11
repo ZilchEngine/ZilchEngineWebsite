@@ -19,7 +19,7 @@
  #  LocalSpaceDirection : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the wind's direction is a local or world-space vector.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var LocalSpaceDirection : Boolean
 
 
@@ -27,7 +27,7 @@
  #  WindDirection : [real3](../nada_base_types/real3.md)
 
 > The direction that the wind is blowing.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WindDirection : Real3
 
 
@@ -35,7 +35,7 @@
  #  WindSpeed : [real](../nada_base_types/real.md)
 
 > The speed that the wind is blowing.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WindSpeed : Real
 
 
@@ -45,7 +45,7 @@
  `read-only`
 
 > The direction of the wind in world space.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var WorldWindDirection : Real3
 
 
@@ -61,7 +61,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function WindEffect()
 > ``` 
 

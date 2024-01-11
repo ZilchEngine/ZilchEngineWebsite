@@ -19,7 +19,7 @@
  #  Center : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Center : Real3
 
 
@@ -27,7 +27,7 @@
  #  Extents : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Extents : Real3
 
 
@@ -35,7 +35,7 @@
  #  HalfExtents : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var HalfExtents : Real3
 
 
@@ -43,7 +43,7 @@
  #  Max : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Max : Real3
 
 
@@ -51,7 +51,7 @@
  #  Min : [real3](../nada_base_types/real3.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Min : Real3
 
 
@@ -61,7 +61,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var SurfaceArea : Real
 
 
@@ -71,7 +71,7 @@
  `read-only`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var Volume : Real
 
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Aabb()
 > ``` 
 
@@ -101,7 +101,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[aabb](aabb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Aabb(p0 : Aabb)
 > ``` 
 
@@ -116,7 +116,7 @@
 > |---|---|---|
 > |center|[real3](../nada_base_types/real3.md)| |
 > |halfExtents|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Aabb(center : Real3, halfExtents : Real3)
 > ``` 
 
@@ -128,7 +128,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ContainsPoint(p0 : Real3) : Boolean
 > ``` 
 
@@ -140,7 +140,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[aabb](aabb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Expand(p0 : Aabb)
 > ``` 
 
@@ -155,7 +155,7 @@
 > |---|---|---|
 > |p0|[aabb](aabb.md)| |
 > |p1|[aabb](aabb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Expand(p0 : Aabb, p1 : Aabb) : Aabb
 > ``` 
 
@@ -170,7 +170,7 @@
 > |---|---|---|
 > |p0|[aabb](aabb.md)| |
 > |p1|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Expand(p0 : Aabb, p1 : Real3) : Aabb
 > ``` 
 
@@ -182,7 +182,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Expand(p0 : Real3)
 > ``` 
 
@@ -194,7 +194,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[aabb](aabb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Overlap(p0 : Aabb) : Boolean
 > ``` 
 
@@ -206,7 +206,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|[aabb](aabb.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Overlaps(p0 : Aabb) : Boolean
 > ``` 
 
@@ -218,7 +218,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |point|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(point : Real3)
 > ``` 
 
@@ -231,7 +231,7 @@
 > |---|---|---|
 > |center|[real3](../nada_base_types/real3.md)| |
 > |halfExtents|[real3](../nada_base_types/real3.md)| |
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function Set(center : Real3, halfExtents : Real3)
 > ``` 
 
@@ -242,7 +242,7 @@
 > Sets this aabb to an invalid aabb (Real3.PositiveMax, Real3.NegativeMin)). This also makes expansion easier.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function SetInvalid()
 > ``` 
 
@@ -253,7 +253,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function ZeroOut()
 > ``` 
 

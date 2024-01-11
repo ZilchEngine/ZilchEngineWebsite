@@ -16,7 +16,7 @@
  #  AutoUpdateContentChanges : [boolean](../nada_base_types/boolean.md)
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var AutoUpdateContentChanges : Boolean
 
 
@@ -24,7 +24,7 @@
  #  ViewCube : [boolean](../nada_base_types/boolean.md)
 
 > Show/hide the orientation view cube.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewCube : Boolean
 
 
@@ -32,7 +32,7 @@
  #  ViewCubeSize : [real](../nada_base_types/real.md)
 
 > Size in pixels of the viewport the view cube is shown in.
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > var ViewCubeSize : Real
 
 
@@ -48,7 +48,7 @@
 > Constructor.
 > |Name|Type|Description|
 > |---|---|---|
-> ``` lang=cpp, name=Nada
+> ```TS:Nada
 > function EditorSettings()
 > ``` 
 
