@@ -14,16 +14,32 @@ For an in-depth dive into all the engine features, please check out the [documen
 
 **A Discrete Launcher**
 The launcher is the entry point into ZeroEngine. It is used to manage different versions of ZeroEngine, as well as managing your ZeroEngine projects.
+
+<p style="text-align: center">
+### Launcher - Projects
+<br/>
 ![Launcher](./images/ZilchLauncher.png)
+</p>
+<p style="text-align: center">
+### Launcher - Editor Builds
+<br/>
 ![Launcher](./images/ZilchLauncherBuilds.png)
+</p>
 
 **Editor**
 A powerful and flexible editor with editor modes customized for 2D and 3D projects.
 It also comes with a full-featured text editor with dozens of hotkeys and configuration options.
 
+<p style="text-align: center">
+<br/>
+### Editor 3D Mode
 ![Launcher](./images/ZilchEditor1.png)
+</p>
+<p style="text-align: center">
+### Editor 2D Mode
+<br/>
 ![Launcher](./images/ZilchEditor2.png)
-![Launcher](./images/ZilchEditor3.png)
+</p>
 
 **Engine**
 
