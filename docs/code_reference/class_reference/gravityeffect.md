@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gravityeffect.md#gravityeffect-void)| |[basicdirectioneffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.md)| |
+|[ Constructor](gravityeffect.md#gravityeffect-void)| |[basicdirectioneffect](basicdirectioneffect.md)| |
 
 
  #  Properties

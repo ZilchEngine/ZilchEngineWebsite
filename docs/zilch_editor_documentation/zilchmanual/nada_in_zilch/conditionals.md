@@ -1,7 +1,7 @@
 Conditionals allow programs to ask questions and act or not act based of the results.
 
  # if
-An `if` conditional evaluates a given statement that evaluates to a [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md) value and executes code in a block scope defined underneath if it evaluates to `true`.
+An `if` conditional evaluates a given statement that evaluates to a [boolean](../../../code_reference/nada_base_types/boolean.md) value and executes code in a block scope defined underneath if it evaluates to `true`.
 
 ```lang=csharp, name=if Conditional
 var boolValue = true;
@@ -67,7 +67,7 @@ else
 ```name=Console window
 The else ran
 ```
-Under the code block of the first `if`, there is a code block paired with the [Keyword](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md) `else`.  The value `false` if given to the `if` conditional, and so the `else` block is executed. In any `if`-`else` pair, exactly one of the two code blocks will run.
+Under the code block of the first `if`, there is a code block paired with the [Keyword](keywords.md) `else`.  The value `false` if given to the `if` conditional, and so the `else` block is executed. In any `if`-`else` pair, exactly one of the two code blocks will run.
 
  ## Else If
 While often for any given conditional there are only two outcomes, sometimes there are more. The `else if` keyword combinations allows the chaining of conditional statements.
@@ -147,15 +147,15 @@ neither valone or valtwo are true
 `else if` may seem like a seperate keyword than `if` and `else` but it is actually just syntactical suger to make code easier to follow.
 
  # Boolean Operations
-While conditionals a useful their real power comes when used in combination with [boolean_operators](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/boolean_operators.md). It is highly suggested you review this page.
+While conditionals a useful their real power comes when used in combination with [boolean_operators](boolean_operators.md). It is highly suggested you review this page.
 
  # Related Material
  ## Manual
-- [keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md)
-- [boolean_operators](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/boolean_operators.md)
+- [keywords](keywords.md)
+- [boolean_operators](boolean_operators.md)
 
  ## Code Reference
-- [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+- [boolean](../../../code_reference/nada_base_types/boolean.md)
  
 
  

@@ -4,31 +4,31 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BlendSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings-zilch-engin)|[threadsafereferencecounted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadsafereferencecounted.md)| |
-| |[ BlendSettings0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings0-zilch-engi)| | |
-| |[ BlendSettings1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings1-zilch-engi)| | |
-| |[ BlendSettings2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings2-zilch-engi)| | |
-| |[ BlendSettings3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings3-zilch-engi)| | |
-| |[ BlendSettings4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings4-zilch-engi)| | |
-| |[ BlendSettings5](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings5-zilch-engi)| | |
-| |[ BlendSettings6](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings6-zilch-engi)| | |
-| |[ BlendSettings7](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#blendsettings7-zilch-engi)| | |
-| |[ ColorTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget-zilch-engine)| | |
-| |[ ColorTarget0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget0-zilch-engine)| | |
-| |[ ColorTarget1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget1-zilch-engine)| | |
-| |[ ColorTarget2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget2-zilch-engine)| | |
-| |[ ColorTarget3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget3-zilch-engine)| | |
-| |[ ColorTarget4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget4-zilch-engine)| | |
-| |[ ColorTarget5](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget5-zilch-engine)| | |
-| |[ ColorTarget6](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget6-zilch-engine)| | |
-| |[ ColorTarget7](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md#colortarget7-zilch-engine)| | |
+| |[ BlendSettings](multirendertarget.md#blendsettings-zilch-engin)|[threadsafereferencecounted](threadsafereferencecounted.md)| |
+| |[ BlendSettings0](multirendertarget.md#blendsettings0-zilch-engi)| | |
+| |[ BlendSettings1](multirendertarget.md#blendsettings1-zilch-engi)| | |
+| |[ BlendSettings2](multirendertarget.md#blendsettings2-zilch-engi)| | |
+| |[ BlendSettings3](multirendertarget.md#blendsettings3-zilch-engi)| | |
+| |[ BlendSettings4](multirendertarget.md#blendsettings4-zilch-engi)| | |
+| |[ BlendSettings5](multirendertarget.md#blendsettings5-zilch-engi)| | |
+| |[ BlendSettings6](multirendertarget.md#blendsettings6-zilch-engi)| | |
+| |[ BlendSettings7](multirendertarget.md#blendsettings7-zilch-engi)| | |
+| |[ ColorTarget](multirendertarget.md#colortarget-zilch-engine)| | |
+| |[ ColorTarget0](multirendertarget.md#colortarget0-zilch-engine)| | |
+| |[ ColorTarget1](multirendertarget.md#colortarget1-zilch-engine)| | |
+| |[ ColorTarget2](multirendertarget.md#colortarget2-zilch-engine)| | |
+| |[ ColorTarget3](multirendertarget.md#colortarget3-zilch-engine)| | |
+| |[ ColorTarget4](multirendertarget.md#colortarget4-zilch-engine)| | |
+| |[ ColorTarget5](multirendertarget.md#colortarget5-zilch-engine)| | |
+| |[ ColorTarget6](multirendertarget.md#colortarget6-zilch-engine)| | |
+| |[ ColorTarget7](multirendertarget.md#colortarget7-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  BlendSettings : [blendsettingsmrt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettingsmrt.md)
+ #  BlendSettings : [blendsettingsmrt](blendsettingsmrt.md)
 
  `read-only`
 
@@ -38,7 +38,7 @@
 
 
 ---  
- #  BlendSettings0 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings0 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -46,7 +46,7 @@
 
 
 ---  
- #  BlendSettings1 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings1 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -54,7 +54,7 @@
 
 
 ---  
- #  BlendSettings2 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings2 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -62,7 +62,7 @@
 
 
 ---  
- #  BlendSettings3 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings3 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -70,7 +70,7 @@
 
 
 ---  
- #  BlendSettings4 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings4 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -78,7 +78,7 @@
 
 
 ---  
- #  BlendSettings5 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings5 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -86,7 +86,7 @@
 
 
 ---  
- #  BlendSettings6 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings6 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -94,7 +94,7 @@
 
 
 ---  
- #  BlendSettings7 : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings7 : [blendsettings](blendsettings.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -102,7 +102,7 @@
 
 
 ---  
- #  ColorTarget : [colortargetmrt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colortargetmrt.md)
+ #  ColorTarget : [colortargetmrt](colortargetmrt.md)
 
  `read-only`
 
@@ -112,7 +112,7 @@
 
 
 ---  
- #  ColorTarget0 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget0 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -120,7 +120,7 @@
 
 
 ---  
- #  ColorTarget1 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget1 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -128,7 +128,7 @@
 
 
 ---  
- #  ColorTarget2 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget2 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -136,7 +136,7 @@
 
 
 ---  
- #  ColorTarget3 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget3 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -144,7 +144,7 @@
 
 
 ---  
- #  ColorTarget4 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget4 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -152,7 +152,7 @@
 
 
 ---  
- #  ColorTarget5 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget5 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -160,7 +160,7 @@
 
 
 ---  
- #  ColorTarget6 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget6 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -168,7 +168,7 @@
 
 
 ---  
- #  ColorTarget7 : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget7 : [rendertarget](rendertarget.md)
 
 > 
 > ``` lang=cpp, name=Nada

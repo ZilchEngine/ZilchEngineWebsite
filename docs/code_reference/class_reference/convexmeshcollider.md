@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmeshcollider.md#convexmeshcollider-void)|[ ConvexMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmeshcollider.md#convexmesh-zilch-engine-d)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)| |
+|[ Constructor](convexmeshcollider.md#convexmeshcollider-void)|[ ConvexMesh](convexmeshcollider.md#convexmesh-zilch-engine-d)|[collider](collider.md)| |
 
 
  #  Properties
 
 
 ---  
- #  ConvexMesh : [convexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.md)
+ #  ConvexMesh : [convexmesh](convexmesh.md)
 
 > The convex mesh resource that defines the collision volume of this collider.
 > ``` lang=cpp, name=Nada

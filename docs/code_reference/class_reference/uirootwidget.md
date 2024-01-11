@@ -4,22 +4,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Render](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#render-void)|[ DebugMouseInteraction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#debugmouseinteraction-ze)|[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#uirootwidget-void)|[ DebugSelected](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#debugselected-zilch-engin)| | |
-|[ Update](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#update-void)|[ DepthSeparation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#depthseparation-zilch-eng)| | |
-| |[ DoubleClickTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#doubleclicktime-zilch-eng)| | |
-| |[ FocusWidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#focuswidget-zilch-engine)| | |
-| |[ MouseDownWidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#mousedownwidget-zilch-eng)| | |
-| |[ MouseHoldTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#mouseholdtime-zilch-engin)| | |
-| |[ MouseHoverTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#mousehovertime-zilch-engi)| | |
-| |[ MouseOverWidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md#mouseoverwidget-zilch-eng)| | |
+|[ Render](uirootwidget.md#render-void)|[ DebugMouseInteraction](uirootwidget.md#debugmouseinteraction-ze)|[uiwidget](uiwidget.md)| |
+|[ Constructor](uirootwidget.md#uirootwidget-void)|[ DebugSelected](uirootwidget.md#debugselected-zilch-engin)| | |
+|[ Update](uirootwidget.md#update-void)|[ DepthSeparation](uirootwidget.md#depthseparation-zilch-eng)| | |
+| |[ DoubleClickTime](uirootwidget.md#doubleclicktime-zilch-eng)| | |
+| |[ FocusWidget](uirootwidget.md#focuswidget-zilch-engine)| | |
+| |[ MouseDownWidget](uirootwidget.md#mousedownwidget-zilch-eng)| | |
+| |[ MouseHoldTime](uirootwidget.md#mouseholdtime-zilch-engin)| | |
+| |[ MouseHoverTime](uirootwidget.md#mousehovertime-zilch-engi)| | |
+| |[ MouseOverWidget](uirootwidget.md#mouseoverwidget-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  DebugMouseInteraction : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DebugMouseInteraction : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to print out debug information to the console about what the mouse is currently doing.
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  DebugSelected : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  DebugSelected : [cog](cog.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  DepthSeparation : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DepthSeparation : [real](../nada_base_types/real.md)
 
 > Used for debugging.
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  DoubleClickTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DoubleClickTime : [real](../nada_base_types/real.md)
 
 > The amount of time between clicks to send the 'DoubleClick' event.
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  FocusWidget : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  FocusWidget : [uiwidget](uiwidget.md)
 
 > The widget that currently has focus.
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  MouseDownWidget : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  MouseDownWidget : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -69,7 +69,7 @@
 
 
 ---  
- #  MouseHoldTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MouseHoldTime : [real](../nada_base_types/real.md)
 
 > Only send the 'MouseHold' event when the mouse has been holding on a single widget for this amount of time.
 > ``` lang=cpp, name=Nada
@@ -77,7 +77,7 @@
 
 
 ---  
- #  MouseHoverTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MouseHoverTime : [real](../nada_base_types/real.md)
 
 > Only send the MouseHover event when the mouse has been over a single widget for this amount of time.
 > ``` lang=cpp, name=Nada
@@ -85,7 +85,7 @@
 
 
 ---  
- #  MouseOverWidget : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  MouseOverWidget : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -104,10 +104,10 @@
 > Renders the Ui to the given color render target. The depth render target must have stencil.
 > |Name|Type|Description|
 > |---|---|---|
-> |e|[rendertasksevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md)| |
-> |color|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |depth|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |renderPass|[materialblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materialblock.md)| |
+> |e|[rendertasksevent](rendertasksevent.md)| |
+> |color|[rendertarget](rendertarget.md)| |
+> |depth|[rendertarget](rendertarget.md)| |
+> |renderPass|[materialblock](materialblock.md)| |
 > ``` lang=cpp, name=Nada
 > function Render(e : RenderTasksEvent, color : RenderTarget, depth : RenderTarget, renderPass : MaterialBlock)
 > ``` 

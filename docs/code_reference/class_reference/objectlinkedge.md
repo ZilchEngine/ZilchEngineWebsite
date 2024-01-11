@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.md#objectlinkedge-void)|[ ObjectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.md#objectlink-zilch-engine-d)| | |
-| |[ OtherCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.md#othercog-zilch-engine-doc)| | |
-| |[ SelfCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.md#selfcog-zilch-engine-docu)| | |
+|[ Constructor](objectlinkedge.md#objectlinkedge-void)|[ ObjectLink](objectlinkedge.md#objectlink-zilch-engine-d)| | |
+| |[ OtherCog](objectlinkedge.md#othercog-zilch-engine-doc)| | |
+| |[ SelfCog](objectlinkedge.md#selfcog-zilch-engine-docu)| | |
 
 
  #  Properties
 
 
 ---  
- #  ObjectLink : [objectlink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md)
+ #  ObjectLink : [objectlink](objectlink.md)
 
  `read-only`
 
@@ -23,7 +23,7 @@
 
 
 ---  
- #  OtherCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  OtherCog : [cog](cog.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  SelfCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  SelfCog : [cog](cog.md)
 
  `read-only`
 
@@ -67,7 +67,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[objectlinkedge](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.md)| |
+> ||[objectlinkedge](objectlinkedge.md)| |
 > ``` lang=cpp, name=Nada
 > function ObjectLinkEdge( : ObjectLinkEdge)
 > ``` 

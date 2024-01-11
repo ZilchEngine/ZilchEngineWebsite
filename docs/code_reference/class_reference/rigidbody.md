@@ -6,32 +6,32 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ApplyAngularImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyangularimpulse-void)|[ ActiveBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#activebody-zilch-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ ApplyAngularVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyangularvelocity-voi)|[ AllowSleep](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#allowsleep-zilch-engine-d)| | |
-|[ ApplyForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyforce-void)|[ AngularVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#angularvelocity-zilch-eng)| | |
-|[ ApplyForceAtOffsetVector](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyforceatoffsetvector)|[ Asleep](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#asleep-zilch-engine-docum)| | |
-|[ ApplyForceAtOffsetVectorNoWakeUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyforceatoffsetvector)|[ DynamicState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#dynamicstate-zilch-engine)| | |
-|[ ApplyForceAtPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyforceatpoint-void)|[ Force](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#force-zilch-engine-docume)| | |
-|[ ApplyForceAtPointNoWakeUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyforceatpointnowakeu)|[ LocalInverseInertiaTensor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#localinverseinertiatenso)| | |
-|[ ApplyForceNoWakeUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyforcenowakeup-void)|[ Mass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#mass-zilch-engine-documen)| | |
-|[ ApplyImpulseAtOffsetVector](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyimpulseatoffsetvect)|[ Mode2D](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#mode2d-zilch-engine-docum)| | |
-|[ ApplyImpulseAtPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyimpulseatpoint-void)|[ RotationLocked](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#rotationlocked-zilch-engi)| | |
-|[ ApplyLinearImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applylinearimpulse-void)|[ Torque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#torque-zilch-engine-docum)| | |
-|[ ApplyLinearVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applylinearvelocity-void)|[ Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#velocity-zilch-engine-doc)| | |
-|[ ApplyTorque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applytorque-void)|[ WorldCenterOfMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#worldcenterofmass-zilch-e)| | |
-|[ ApplyTorqueNoWakeUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applytorquenowakeup-void)|[ WorldInverseInertiaTensor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#worldinverseinertiatenso)| | |
-|[ ApplyVelocityAtPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#applyvelocityatpoint-voi)| | | |
-|[ ForceAsleep](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#forceasleep-void)| | | |
-|[ ForceAwake](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#forceawake-void)| | | |
-|[ GetPointVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#getpointvelocity-zilch-en)| | | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md#rigidbody-void)| | | |
+|[ ApplyAngularImpulse](rigidbody.md#applyangularimpulse-void)|[ ActiveBody](rigidbody.md#activebody-zilch-engine-d)|[component](component.md)| |
+|[ ApplyAngularVelocity](rigidbody.md#applyangularvelocity-voi)|[ AllowSleep](rigidbody.md#allowsleep-zilch-engine-d)| | |
+|[ ApplyForce](rigidbody.md#applyforce-void)|[ AngularVelocity](rigidbody.md#angularvelocity-zilch-eng)| | |
+|[ ApplyForceAtOffsetVector](rigidbody.md#applyforceatoffsetvector)|[ Asleep](rigidbody.md#asleep-zilch-engine-docum)| | |
+|[ ApplyForceAtOffsetVectorNoWakeUp](rigidbody.md#applyforceatoffsetvector)|[ DynamicState](rigidbody.md#dynamicstate-zilch-engine)| | |
+|[ ApplyForceAtPoint](rigidbody.md#applyforceatpoint-void)|[ Force](rigidbody.md#force-zilch-engine-docume)| | |
+|[ ApplyForceAtPointNoWakeUp](rigidbody.md#applyforceatpointnowakeu)|[ LocalInverseInertiaTensor](rigidbody.md#localinverseinertiatenso)| | |
+|[ ApplyForceNoWakeUp](rigidbody.md#applyforcenowakeup-void)|[ Mass](rigidbody.md#mass-zilch-engine-documen)| | |
+|[ ApplyImpulseAtOffsetVector](rigidbody.md#applyimpulseatoffsetvect)|[ Mode2D](rigidbody.md#mode2d-zilch-engine-docum)| | |
+|[ ApplyImpulseAtPoint](rigidbody.md#applyimpulseatpoint-void)|[ RotationLocked](rigidbody.md#rotationlocked-zilch-engi)| | |
+|[ ApplyLinearImpulse](rigidbody.md#applylinearimpulse-void)|[ Torque](rigidbody.md#torque-zilch-engine-docum)| | |
+|[ ApplyLinearVelocity](rigidbody.md#applylinearvelocity-void)|[ Velocity](rigidbody.md#velocity-zilch-engine-doc)| | |
+|[ ApplyTorque](rigidbody.md#applytorque-void)|[ WorldCenterOfMass](rigidbody.md#worldcenterofmass-zilch-e)| | |
+|[ ApplyTorqueNoWakeUp](rigidbody.md#applytorquenowakeup-void)|[ WorldInverseInertiaTensor](rigidbody.md#worldinverseinertiatenso)| | |
+|[ ApplyVelocityAtPoint](rigidbody.md#applyvelocityatpoint-voi)| | | |
+|[ ForceAsleep](rigidbody.md#forceasleep-void)| | | |
+|[ ForceAwake](rigidbody.md#forceawake-void)| | | |
+|[ GetPointVelocity](rigidbody.md#getpointvelocity-zilch-en)| | | |
+|[ Constructor](rigidbody.md#rigidbody-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  ActiveBody : [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
+ #  ActiveBody : [rigidbody](rigidbody.md)
 
  `read-only`
 
@@ -41,7 +41,7 @@
 
 
 ---  
- #  AllowSleep : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AllowSleep : [boolean](../nada_base_types/boolean.md)
 
 > Sleeping happens when an object has not "moved" (small enough linear + angular velocity) for long enough. If this happens then the physics engine stops updating this object (integration, collision detection, etc...) until an awake object hits it. Sleeping is purely an optimization. Sometimes it is not desirable for a body to ever fall asleep (such as a player).
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  AngularVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  AngularVelocity : [real3](../nada_base_types/real3.md)
 
 > The angular velocity (radians per second) of this body in world space. Objects will rotate about this axis using the right-hand rule. Max bounds are around 1e+10, after this the angular velocity will be capped. Setting this will wake up the body if it's asleep.
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  Asleep : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Asleep : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not this object is currently asleep. Setting this to true will force the object asleep even if this causes invalid behavior (objects floating).
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  DynamicState : [RigidBodyDynamicState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)
+ #  DynamicState : [RigidBodyDynamicState](../enum_reference.md#rigidbodydynamicstate)
 
 > How this rigid body handles dynamics. Is it a regular rigid body (dynamic)? Does it not move (static)? Does the user want to manually move it and have objects properly collide with it (kinematic)? Note: Static vs. static does not check for collision.
 > ``` lang=cpp, name=Nada
@@ -73,7 +73,7 @@
 
 
 ---  
- #  Force : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Force : [real3](../nada_base_types/real3.md)
 
 > The total accumulated force (in world space) that is being applied to the center of mass of this rigid body this frame. Setting this will wake up the body if it's asleep.
 > ``` lang=cpp, name=Nada
@@ -81,7 +81,7 @@
 
 
 ---  
- #  LocalInverseInertiaTensor : [real3x3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md)
+ #  LocalInverseInertiaTensor : [real3x3](../nada_base_types/real3x3.md)
 
  `read-only`
 
@@ -91,7 +91,7 @@
 
 
 ---  
- #  Mass : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Mass : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -101,7 +101,7 @@
 
 
 ---  
- #  Mode2D : [Mode2DStates](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#mode2dstates)
+ #  Mode2D : [Mode2DStates](../enum_reference.md#mode2dstates)
 
 > Used to make an object act as if it were 2D. This is done by locking it to the current z-plane and only allowing rotation about the world's z-axis. Objects can be set to always be 2D or 3D, or this can be deferred to the PhysicsSpace's Mode2D.
 > ``` lang=cpp, name=Nada
@@ -109,7 +109,7 @@
 
 
 ---  
- #  RotationLocked : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RotationLocked : [boolean](../nada_base_types/boolean.md)
 
 > Makes physics unable to rotate this object. Manual rotations can still be applied.
 > ``` lang=cpp, name=Nada
@@ -117,7 +117,7 @@
 
 
 ---  
- #  Torque : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Torque : [real3](../nada_base_types/real3.md)
 
 > The total accumulated torque (in world space) that is being applied to the center of mass of this rigid body this frame. Setting this will wake up the body if it's asleep.
 > ``` lang=cpp, name=Nada
@@ -125,7 +125,7 @@
 
 
 ---  
- #  Velocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Velocity : [real3](../nada_base_types/real3.md)
 
 > The velocity (units per second) of this body in world space. Max bounds are around 1e+10, after this the velocity will be capped. Setting this will wake up the body if it's asleep.
 > ``` lang=cpp, name=Nada
@@ -133,7 +133,7 @@
 
 
 ---  
- #  WorldCenterOfMass : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldCenterOfMass : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -143,7 +143,7 @@
 
 
 ---  
- #  WorldInverseInertiaTensor : [real3x3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md)
+ #  WorldInverseInertiaTensor : [real3x3](../nada_base_types/real3x3.md)
 
  `read-only`
 
@@ -162,7 +162,7 @@
 > Applies an angular impulse through the center of mass (world space). Only results in a change of angular velocity. Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |angular|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |angular|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyAngularImpulse(angular : Real3)
 > ``` 
@@ -174,7 +174,7 @@
 > Adds to the current angular velocity (world space). Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |angular|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |angular|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyAngularVelocity(angular : Real3)
 > ``` 
@@ -186,7 +186,7 @@
 > Applies a force through the center of mass of the body (world space). Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |force|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |force|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyForce(force : Real3)
 > ``` 
@@ -198,8 +198,8 @@
 > Applies a force at an offset from the center of mass (world space). Results in a force and torque to the center of mass. Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |force|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldOffset|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |force|[real3](../nada_base_types/real3.md)| |
+> |worldOffset|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyForceAtOffsetVector(force : Real3, worldOffset : Real3)
 > ``` 
@@ -211,8 +211,8 @@
 > Applies a force at an offset from the center of mass (world space). Results in a force and torque to the center of mass. Will not wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |force|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldOffset|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |force|[real3](../nada_base_types/real3.md)| |
+> |worldOffset|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyForceAtOffsetVectorNoWakeUp(force : Real3, worldOffset : Real3)
 > ``` 
@@ -224,8 +224,8 @@
 > Applies a force at a world point (world space). Results in a force and torque to the center of mass. Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |force|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |force|[real3](../nada_base_types/real3.md)| |
+> |worldPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyForceAtPoint(force : Real3, worldPoint : Real3)
 > ``` 
@@ -237,8 +237,8 @@
 > Applies a force at a world point (world space). Results in a force and torque to the center of mass. Will not wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |force|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |force|[real3](../nada_base_types/real3.md)| |
+> |worldPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyForceAtPointNoWakeUp(force : Real3, worldPoint : Real3)
 > ``` 
@@ -250,7 +250,7 @@
 > Applies a force through the center of mass of the body (world space). Will not wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |force|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |force|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyForceNoWakeUp(force : Real3)
 > ``` 
@@ -262,8 +262,8 @@
 > Applies an impulse at on offset from the center of mass (world space). Results in a change in linear and angular velocity. Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |impulse|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldOffset|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |impulse|[real3](../nada_base_types/real3.md)| |
+> |worldOffset|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyImpulseAtOffsetVector(impulse : Real3, worldOffset : Real3)
 > ``` 
@@ -275,8 +275,8 @@
 > Applies an impulse at a world point (world space). Results in a change to linear and angular velocity. Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |impulse|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |impulse|[real3](../nada_base_types/real3.md)| |
+> |worldPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyImpulseAtPoint(impulse : Real3, worldPoint : Real3)
 > ``` 
@@ -288,7 +288,7 @@
 > Applies a linear impulse through the center of mass (world space). Only results in a change of linear velocity. Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |linear|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |linear|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyLinearImpulse(linear : Real3)
 > ``` 
@@ -300,7 +300,7 @@
 > Adds to the current linear velocity (world space). Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |linear|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |linear|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyLinearVelocity(linear : Real3)
 > ``` 
@@ -312,7 +312,7 @@
 > Applies a torque through the center of mass of the body (world space). Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |torque|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |torque|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyTorque(torque : Real3)
 > ``` 
@@ -324,7 +324,7 @@
 > Applies a torque through the center of mass of the body (world space). Will not wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |torque|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |torque|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyTorqueNoWakeUp(torque : Real3)
 > ``` 
@@ -336,8 +336,8 @@
 > Applies a velocity at a world space point on the object. Results in a change to linear and angular velocity. Will wake up the body if it's asleep.
 > |Name|Type|Description|
 > |---|---|---|
-> |velocity|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |velocity|[real3](../nada_base_types/real3.md)| |
+> |worldPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ApplyVelocityAtPoint(velocity : Real3, worldPoint : Real3)
 > ``` 
@@ -366,12 +366,12 @@
 
 
 ---  
- #  GetPointVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  GetPointVelocity : [real3](../nada_base_types/real3.md)
 
 > Computes the linear point velocity of world-space point.
 > |Name|Type|Description|
 > |---|---|---|
-> |worldPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |worldPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function GetPointVelocity(worldPoint : Real3) : Real3
 > ``` 

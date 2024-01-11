@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md#eventrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](eventrange.md#eventrange-void)|[ All](eventrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](eventrange.md#movenext-void)|[ Current](eventrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](eventrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](eventrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [eventrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md)
+ #  All : [eventrange](eventrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)
+ #  Current : [event](event.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[eventrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventrange.md)| |
+> |p0|[eventrange](eventrange.md)| |
 > ``` lang=cpp, name=Nada
 > function EventRange(p0 : EventRange)
 > ``` 

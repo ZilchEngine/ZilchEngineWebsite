@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.md#clean-void)| |[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.md)| |
-|[ CompileDebug](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.md#compiledebug-void)| | | |
-|[ CompileRelease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.md#compilerelease-void)| | | |
-|[ CopyPluginDependencies](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.md#copyplugindependencies-v)| | | |
-|[ InstallIdeTools](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.md#installidetools-void)| | | |
-|[ OpenDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.md#opendirectory-void)| | | |
-|[ OpenIde](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginsource.md#openide-void)| | | |
+|[ Clean](nadapluginsource.md#clean-void)| |[dataresource](dataresource.md)| |
+|[ CompileDebug](nadapluginsource.md#compiledebug-void)| | | |
+|[ CompileRelease](nadapluginsource.md#compilerelease-void)| | | |
+|[ CopyPluginDependencies](nadapluginsource.md#copyplugindependencies-v)| | | |
+|[ InstallIdeTools](nadapluginsource.md#installidetools-void)| | | |
+|[ OpenDirectory](nadapluginsource.md#opendirectory-void)| | | |
+|[ OpenIde](nadapluginsource.md#openide-void)| | | |
 
 
  #  Properties

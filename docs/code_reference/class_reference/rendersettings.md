@@ -4,20 +4,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#rendersettings-void)|[ BlendSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#blendsettings-zilch-engin)| | |
-| |[ ColorTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#colortarget-zilch-engine)| | |
-| |[ CullMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#cullmode-zilch-engine-doc)| | |
-| |[ DepthSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#depthsettings-zilch-engin)| | |
-| |[ DepthTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#depthtarget-zilch-engine)| | |
-| |[ GlobalShaderInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#globalshaderinputs-zero)| | |
-| |[ MultiRenderTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md#multirendertarget-zilch-e)| | |
+|[ Constructor](rendersettings.md#rendersettings-void)|[ BlendSettings](rendersettings.md#blendsettings-zilch-engin)| | |
+| |[ ColorTarget](rendersettings.md#colortarget-zilch-engine)| | |
+| |[ CullMode](rendersettings.md#cullmode-zilch-engine-doc)| | |
+| |[ DepthSettings](rendersettings.md#depthsettings-zilch-engin)| | |
+| |[ DepthTarget](rendersettings.md#depthtarget-zilch-engine)| | |
+| |[ GlobalShaderInputs](rendersettings.md#globalshaderinputs-zero)| | |
+| |[ MultiRenderTarget](rendersettings.md#multirendertarget-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  BlendSettings : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  BlendSettings : [blendsettings](blendsettings.md)
 
 > Settings to use when blending shader output with the ColorTarget, implicitly BlendSettings0.
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  ColorTarget : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  ColorTarget : [rendertarget](rendertarget.md)
 
 > The RenderTarget of a color format to output to, implicitly RenderTarget0.
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  CullMode : [CullMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#cullmode)
+ #  CullMode : [CullMode](../enum_reference.md#cullmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  DepthSettings : [depthsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/depthsettings.md)
+ #  DepthSettings : [depthsettings](depthsettings.md)
 
 > Settings to use when doing depth/stencil testing with DepthTarget.
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  DepthTarget : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  DepthTarget : [rendertarget](rendertarget.md)
 
 > The RenderTarget of a depth format to use as a depth buffer for depth/stencil testing.
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  GlobalShaderInputs : [shaderinputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/shaderinputs.md)
+ #  GlobalShaderInputs : [shaderinputs](shaderinputs.md)
 
 > Shader input values to be globally overridden for all objects/shaders.
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  MultiRenderTarget : [multirendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multirendertarget.md)
+ #  MultiRenderTarget : [multirendertarget](multirendertarget.md)
 
  `read-only`
 
@@ -99,7 +99,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
+> ||[rendersettings](rendersettings.md)| |
 > ``` lang=cpp, name=Nada
 > function RenderSettings( : RenderSettings)
 > ``` 

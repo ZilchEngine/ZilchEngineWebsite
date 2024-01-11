@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md#boxcollider-void)|[ HalfSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md#halfsize-zilch-engine-doc)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)| |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md#size-zilch-engine-documen)| | |
-| |[ WorldSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md#worldsize-zilch-engine-do)| | |
+|[ Constructor](boxcollider.md#boxcollider-void)|[ HalfSize](boxcollider.md#halfsize-zilch-engine-doc)|[collider](collider.md)| |
+| |[ Size](boxcollider.md#size-zilch-engine-documen)| | |
+| |[ WorldSize](boxcollider.md#worldsize-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  HalfSize : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  HalfSize : [real3](../nada_base_types/real3.md)
 
 > The half size (from the center to the upper-right corner) on each axis of the box in local space. Used to make the box's size match a model or some other volume without needing to scale the transform (also avoids non-uniform scale issues).
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Size : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Size : [real3](../nada_base_types/real3.md)
 
 > The size (from min to max) on each axis of the box in local space. Used to make the box's size match a model or some other volume without needing to scale the transform (also avoids non-uniform scale issues).
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  WorldSize : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldSize : [real3](../nada_base_types/real3.md)
 
  `read-only`
 

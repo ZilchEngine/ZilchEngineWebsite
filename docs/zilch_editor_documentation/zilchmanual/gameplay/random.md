@@ -4,8 +4,8 @@ Randomness is an important part of most games, without randomness a game will be
  # Creating a Random Number Generator Object
 There are two ways you can create a Random Number Generator Object in Zilch Engine: 
 
-- [randomcontext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/randomcontext.md)
-- [random](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.md) (only available through Nada Scripts)
+- [randomcontext](../../../code_reference/class_reference/randomcontext.md)
+- [random](../../../code_reference/nada_base_types/random.md) (only available through Nada Scripts)
 
 RandomContext is a component that can be added to an object while Random is a type (such as Real2 or Quaternion). While they both offer slightly different methods, they both can be used to accomplish the same goals and are often interchangeable.
 
@@ -102,7 +102,7 @@ So in a Replay feature, we simply save the current seed of the random number gen
 
  # Related Material
  ## Reference
-- [randomcontext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/randomcontext.md)
-- [random](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/random.md) 
+- [randomcontext](../../../code_reference/class_reference/randomcontext.md)
+- [random](../../../code_reference/nada_base_types/random.md) 
 
  

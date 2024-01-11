@@ -1,4 +1,4 @@
-The [ GeneratedWaveNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.md) will generate audio using a specified wave type and frequency. Since it is a generating node, it will ignore any input connections.
+The [ GeneratedWaveNode](../../../../code_reference/class_reference/generatedwavenode.md) will generate audio using a specified wave type and frequency. Since it is a generating node, it will ignore any input connections.
 
  # Common Uses
 
@@ -72,9 +72,9 @@ class SimpleSiren : NadaComponent
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
+- [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ GeneratedWaveNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.md) 
+- [ GeneratedWaveNode ](../../../../code_reference/class_reference/generatedwavenode.md) 
 
  

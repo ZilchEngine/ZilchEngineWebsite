@@ -2,7 +2,7 @@ Debug drawing is a feature in Zilch that allows you to draw lines and shapes wit
 
  # DebugDraw
 
-The DebugDraw object draws all the debug objects in a level once per frame.  Each debug draw object is turned into a graphical which uses either the DebugDraw resource or  DebugDrawOnTop resource [RenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/rendergroups.md). The user will never make the draw call directly; instead, all debug objects to be rendered must be added to the debug draw call using the `DebugDraw.Add()` function:
+The DebugDraw object draws all the debug objects in a level once per frame.  Each debug draw object is turned into a graphical which uses either the DebugDraw resource or  DebugDrawOnTop resource [RenderGroup](../graphics/rendergroups.md). The user will never make the draw call directly; instead, all debug objects to be rendered must be added to the debug draw call using the `DebugDraw.Add()` function:
 
 ``` lang=csharp
 // Create a DebugLine instance with a point and a radius, and add it to the DebugDraw call
@@ -179,6 +179,6 @@ class DrawTriangles: NadaComponent
 
  ## Related Materials
  ### Manual
-- [rendergroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/rendergroups.md) 
+- [rendergroups](../graphics/rendergroups.md) 
 
  

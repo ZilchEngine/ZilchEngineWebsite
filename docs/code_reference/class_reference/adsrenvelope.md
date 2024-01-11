@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.md#adsrenvelope-void)|[ AttackTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.md#attacktime-zilch-engine-d)| | |
-| |[ DecayTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.md#decaytime-zilch-engine-do)| | |
-| |[ DelayTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.md#delaytime-zilch-engine-do)| | |
-| |[ ReleaseTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.md#releasetime-zilch-engine)| | |
-| |[ SustainLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.md#sustainlevel-zilch-engine)| | |
-| |[ SustainTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/adsrenvelope.md#sustaintime-zilch-engine)| | |
+|[ Constructor](adsrenvelope.md#adsrenvelope-void)|[ AttackTime](adsrenvelope.md#attacktime-zilch-engine-d)| | |
+| |[ DecayTime](adsrenvelope.md#decaytime-zilch-engine-do)| | |
+| |[ DelayTime](adsrenvelope.md#delaytime-zilch-engine-do)| | |
+| |[ ReleaseTime](adsrenvelope.md#releasetime-zilch-engine)| | |
+| |[ SustainLevel](adsrenvelope.md#sustainlevel-zilch-engine)| | |
+| |[ SustainTime](adsrenvelope.md#sustaintime-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  AttackTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AttackTime : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  DecayTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DecayTime : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  DelayTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DelayTime : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  ReleaseTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ReleaseTime : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  SustainLevel : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SustainLevel : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  SustainTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SustainTime : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

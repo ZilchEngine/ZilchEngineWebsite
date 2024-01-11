@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjointblock.md#gearjointblock-void)| |[constraintconfigblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/constraintconfigblock.md)| |
+|[ Constructor](gearjointblock.md#gearjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

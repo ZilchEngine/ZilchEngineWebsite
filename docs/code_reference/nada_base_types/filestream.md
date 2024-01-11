@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.md#close-void)| |[istream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/istream.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.md#filestream-void)| | | |
+|[ Close](filestream.md#close-void)| |[istream](istream.md)| |
+|[ Constructor](filestream.md#filestream-void)| | | |
 
 
  #  Properties
@@ -45,7 +45,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[filestream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.md)| |
+> |p0|[filestream](filestream.md)| |
 > ``` lang=cpp, name=Nada
 > function FileStream(p0 : FileStream)
 > ``` 
@@ -59,8 +59,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |filePath|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |mode|[FileMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/flags_reference.md#filemode)| |
+> |filePath|[string](string.md)| |
+> |mode|[FileMode](../flags_reference.md#filemode)| |
 > ``` lang=cpp, name=Nada
 > function FileStream(filePath : String, mode : FileMode)
 > ``` 

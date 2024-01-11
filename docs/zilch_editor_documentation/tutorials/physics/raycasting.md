@@ -9,12 +9,12 @@ This lesson covers how to cast rays using Physics and interpret the results.
 
  # Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Square`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[-4, 0, 0]`
 
  - Create three sprite objects with the following properties:
@@ -33,7 +33,7 @@ This lesson covers how to cast rays using Physics and interpret the results.
 *The property values should look like this*
 
 
-- - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `MoveUpAndDown`
 - In the `MoveUpAndDown` script
  - Update the `MoveUpAndDown` class to the following:
@@ -75,11 +75,11 @@ class MoveUpAndDown : NadaComponent
 ```
 
 - For each Circle object
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [spherecollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.md)
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
- - Under [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [spherecollider](../../../code_reference/class_reference/spherecollider.md)
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [rigidbody](../../../code_reference/class_reference/rigidbody.md)
+ - Under [rigidbody](../../../code_reference/class_reference/rigidbody.md)
   - Set DynamicState enum to `Kinematic`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `MoveUpAndDown`
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MoveUpAndDown`
  - Under `MoveUpAndDown`
   - Set the properties to the following:
 
@@ -90,7 +90,7 @@ class MoveUpAndDown : NadaComponent
 | BlueCircle object | `[1.5, 1, 0]` | `[1.5, -1, 0]` | `3` |
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -98,7 +98,7 @@ class MoveUpAndDown : NadaComponent
 
  *The circles should move like this*
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  # Rays
@@ -119,7 +119,7 @@ NOTE:
 
 The first step to raycasting is to build the ray with the desired parameters. Let's take a look.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `RayCasterLogic`
 - In the `RayCasterLogic` script
  - Update the `RayCasterLogic` class to the following:
@@ -184,11 +184,11 @@ class RayCasterLogic : NadaComponent
   }
 }
 ```
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Square object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Square object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `RaycasterLogic`
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `RaycasterLogic`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -198,17 +198,17 @@ class RayCasterLogic : NadaComponent
 *We can see the ray starting at the Square object and extending to the right. Upon intersecting with one of the circles, the color of the square is changed to match it.*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
 
 Raycasting always consists of 3 steps:
 
-1. Create the [Ray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.md)
-2. Request the [PhysicsSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsspace.md) to cast it (storing the results)
-3. Interpret the [CastResult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md)
+1. Create the [Ray](../../../code_reference/class_reference/ray.md)
+2. Request the [PhysicsSpace](../../../code_reference/class_reference/physicsspace.md) to cast it (storing the results)
+3. Interpret the [CastResult](../../../code_reference/class_reference/castresult.md)
 
-If the ray intersects an object, you can retrieve the following information from the [CastResult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md):
+If the ray intersects an object, you can retrieve the following information from the [CastResult](../../../code_reference/class_reference/castresult.md):
 
 |CastResult |
 |------------|
@@ -220,7 +220,7 @@ If the ray intersects an object, you can retrieve the following information from
 
  # Multiple Results
 
-It is also possible to cast a Ray and retrieve the resulting intersections with multiple objects by using the [ PhysicsSpace.CastRay()](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsspace.md) function instead.
+It is also possible to cast a Ray and retrieve the resulting intersections with multiple objects by using the [ PhysicsSpace.CastRay()](../../../code_reference/class_reference/physicsspace.md) function instead.
 
 - Add the following function to the `RayCasterLogic` class:
 
@@ -270,20 +270,20 @@ It is also possible to cast a Ray and retrieve the resulting intersections with 
   }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![RaycastMultiple](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/105983.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
-The [ CastRay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsspace.md) function allows you to specify the ray and a maximum number of objects to detect. It returns a range of [ CastResults](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md) that contains all of the objects intersected (up to the specified number) in order of distance (closest to farthest).
+The [ CastRay](../../../code_reference/class_reference/physicsspace.md) function allows you to specify the ray and a maximum number of objects to detect. It returns a range of [ CastResults](../../../code_reference/class_reference/castresult.md) that contains all of the objects intersected (up to the specified number) in order of distance (closest to farthest).
 
  # Cast Filters
 
-[ CastFilters](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md) allow you to customize which objects the raycast process should hit and which should be ignored. The filter can then be passed as an optional third parameter to the `CastRay` function.
+[ CastFilters](../../../code_reference/class_reference/castfilter.md) allow you to customize which objects the raycast process should hit and which should be ignored. The filter can then be passed as an optional third parameter to the `CastRay` function.
 
 - Replace the `FindSeveralObjects` function in the `RayCasterLogic` class with the following :
 
@@ -327,30 +327,30 @@ The [ CastRay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_referen
   }
 ```
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : GreenCircle object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : GreenCircle object
 - In the `Properties Window`
- - Under [SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.md)
+ - Under [SphereCollider](../../../code_reference/class_reference/spherecollider.md)
   - Set  Ghost checkBox to `true`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![RaycastMultipleFiltered](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/105986.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
-Here are some useful properties you can set on the [CastFilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md) that allow you to further customize which objects to ignore.
+Here are some useful properties you can set on the [CastFilter](../../../code_reference/class_reference/castfilter.md) that allow you to further customize which objects to ignore.
 
 |Cast Filter|
 |-----------|
-|IgnoreCog| [Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| A given specific Cog to ignore |
-|IgnoreDynamic| [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Dynamic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)|
-|IgnoreGhost| [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Ghost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#ghost)|
-|IgnoreKinematic| [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Kinematic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)|
-|IgnoreStatic| [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)|
-|CollisionGroup| [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)| Makes the Ray behave as part of a collision group, using the current [collisiontable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiontable.md) |
+|IgnoreCog| [Cog](../../../code_reference/class_reference/cog.md)| A given specific Cog to ignore |
+|IgnoreDynamic| [boolean](../../../code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Dynamic](../../../code_reference/enum_reference.md#rigidbodydynamicstate)|
+|IgnoreGhost| [boolean](../../../code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Ghost](../../../code_reference/class_reference/collider.md#ghost)|
+|IgnoreKinematic| [boolean](../../../code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Kinematic](../../../code_reference/enum_reference.md#rigidbodydynamicstate)|
+|IgnoreStatic| [boolean](../../../code_reference/nada_base_types/boolean.md)| Ignores all objects marked as [Static](../../../code_reference/enum_reference.md#rigidbodydynamicstate)|
+|CollisionGroup| [collisiongroup](../../../code_reference/class_reference/collisiongroup.md)| Makes the Ray behave as part of a collision group, using the current [collisiontable](../../../code_reference/class_reference/collisiontable.md) |
 
 
 
@@ -358,51 +358,51 @@ Here are some useful properties you can set on the [CastFilter](https://github.c
 
 In addition to Rays, Zilch Engine allows you to cast other types of shapes, including:
 
-- [Segment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.md)
-- [Sphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.md)
-- [Aabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/aabb.md)
-- [Frustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md)
-- [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
+- [Segment](../../../code_reference/class_reference/segment.md)
+- [Sphere](../../../code_reference/class_reference/sphere.md)
+- [Aabb](../../../code_reference/class_reference/aabb.md)
+- [Frustum](../../../code_reference/class_reference/frustum.md)
+- [Collider](../../../code_reference/class_reference/collider.md)
 
-They all follow the same basic steps described in this tutorial: define the shape, request [PhysicsSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsspace.md) to cast it (with the optional inclusion of a [CastFilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md)) and then interpret the results. You can read more about them in the [ PhysicsCasting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicscasting.md) Manual Page.
+They all follow the same basic steps described in this tutorial: define the shape, request [PhysicsSpace](../../../code_reference/class_reference/physicsspace.md) to cast it (with the optional inclusion of a [CastFilter](../../../code_reference/class_reference/castfilter.md)) and then interpret the results. You can read more about them in the [ PhysicsCasting](../../zilchmanual/physics/physicscasting.md) Manual Page.
 
 
  # Related Materials
 
  ## Manual
-- [ PhysicsCasting](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicscasting.md)
-- [ Colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md)
-- [ Collision Groups and Tables](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/collisionoverview/collisiongroupsandtables.md)
+- [ PhysicsCasting](../../zilchmanual/physics/physicscasting.md)
+- [ Colliders](../../zilchmanual/physics/colliders.md)
+- [ Collision Groups and Tables](../../zilchmanual/physics/collisionoverview/collisiongroupsandtables.md)
 
  ## Tutorial
-- [collisiongroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/physics/collision/collisiongroups.md)
+- [collisiongroups](collision/collisiongroups.md)
 
 
  ## Code Reference
  ### Classes
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
-- [spherecollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.md)
-- [Ray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.md)
-- [Segment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.md)
-- [CastFilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md)
-- [CastResult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md)
-- [PhysicsSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsspace.md)
-- [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
-- [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)
-- [collisiontable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiontable.md)
-- [sphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.md)
-- [aabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/aabb.md)
-- [frustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [Sprite](../../../code_reference/class_reference/sprite.md)
+- [Cog](../../../code_reference/class_reference/cog.md)
+- [spherecollider](../../../code_reference/class_reference/spherecollider.md)
+- [Ray](../../../code_reference/class_reference/ray.md)
+- [Segment](../../../code_reference/class_reference/segment.md)
+- [CastFilter](../../../code_reference/class_reference/castfilter.md)
+- [CastResult](../../../code_reference/class_reference/castresult.md)
+- [PhysicsSpace](../../../code_reference/class_reference/physicsspace.md)
+- [Collider](../../../code_reference/class_reference/collider.md)
+- [collisiongroup](../../../code_reference/class_reference/collisiongroup.md)
+- [collisiontable](../../../code_reference/class_reference/collisiontable.md)
+- [sphere](../../../code_reference/class_reference/sphere.md)
+- [aabb](../../../code_reference/class_reference/aabb.md)
+- [frustum](../../../code_reference/class_reference/frustum.md)
 
  ## Enums
-- [RigidBodyDynamicState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)
+- [RigidBodyDynamicState](../../../code_reference/enum_reference.md#rigidbodydynamicstate)
 
  ### Commands
-- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  ## Development Task

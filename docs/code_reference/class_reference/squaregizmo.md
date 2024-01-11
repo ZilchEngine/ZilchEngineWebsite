@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.md#squaregizmo-void)|[ Bordered](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.md#bordered-zilch-engine-doc)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.md)| |
-| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.md#filled-zilch-engine-docum)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.md#size-zilch-engine-documen)| | |
-| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.md#snapdistance-zilch-engine)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/squaregizmo.md#viewaligned-zilch-engine)| | |
+|[ Constructor](squaregizmo.md#squaregizmo-void)|[ Bordered](squaregizmo.md#bordered-zilch-engine-doc)|[simplegizmobase](simplegizmobase.md)| |
+| |[ Filled](squaregizmo.md#filled-zilch-engine-docum)| | |
+| |[ Size](squaregizmo.md#size-zilch-engine-documen)| | |
+| |[ SnapDistance](squaregizmo.md#snapdistance-zilch-engine)| | |
+| |[ ViewAligned](squaregizmo.md#viewaligned-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Bordered : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Bordered : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Filled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Filled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Size : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Size : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  SnapDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SnapDistance : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  ViewAligned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

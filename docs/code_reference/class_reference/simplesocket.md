@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesocket.md#simplesocket-void)|[ Socket](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesocket.md#socket-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
+|[ Constructor](simplesocket.md#simplesocket-void)|[ Socket](simplesocket.md#socket-zilch-engine-docum)|[component](component.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Socket : [tcpsocket](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md)
+ #  Socket : [tcpsocket](tcpsocket.md)
 
  `read-only`
 

@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Release](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md#release-void)|[ Texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md#texture-zilch-engine-docu)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.md)| |
+|[ Release](rendertarget.md#release-void)|[ Texture](rendertarget.md#texture-zilch-engine-docu)|[safeid32](safeid32.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Texture : [texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md)
+ #  Texture : [texture](texture.md)
 
  `read-only`
 

@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NewScreenPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindowtransformevent.md#newscreenposition-zilch-e)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ NewScreenSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindowtransformevent.md#newscreensize-zilch-engin)| | |
-| |[ OldScreenPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindowtransformevent.md#oldscreenposition-zilch-e)| | |
-| |[ OldScreenSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindowtransformevent.md#oldscreensize-zilch-engin)| | |
-| |[ TargetWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindowtransformevent.md#targetwindow-zilch-engine)| | |
+| |[ NewScreenPosition](mainwindowtransformevent.md#newscreenposition-zilch-e)|[event](event.md)| |
+| |[ NewScreenSize](mainwindowtransformevent.md#newscreensize-zilch-engin)| | |
+| |[ OldScreenPosition](mainwindowtransformevent.md#oldscreenposition-zilch-e)| | |
+| |[ OldScreenSize](mainwindowtransformevent.md#oldscreensize-zilch-engin)| | |
+| |[ TargetWindow](mainwindowtransformevent.md#targetwindow-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  NewScreenPosition : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  NewScreenPosition : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  NewScreenSize : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  NewScreenSize : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  OldScreenPosition : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  OldScreenPosition : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  OldScreenSize : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  OldScreenSize : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  TargetWindow : [oswindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md)
+ #  TargetWindow : [oswindow](oswindow.md)
 
  `read-only`
 

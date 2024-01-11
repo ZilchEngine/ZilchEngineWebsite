@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Cursor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsercursorevent.md#cursor-zilch-engine-docum)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.md)| |
+| |[ Cursor](webbrowsercursorevent.md#cursor-zilch-engine-docum)|[webbrowserevent](webbrowserevent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Cursor : [Cursor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#cursor)
+ #  Cursor : [Cursor](../enum_reference.md#cursor)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -39,7 +39,7 @@ When you export your game, your new banner will replace the default one.
 To give your exported game a custom icon:
 
  - Create a .ico image file using a tool or website (we recommend [converticon ](http://converticon.com/))
-  - Place in the same directory as your project file - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ ShowProjectFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#showprojectfolder)
+  - Place in the same directory as your project file - [ Command](commands.md) : [ ShowProjectFolder](../../../../code_reference/command_reference.md#showprojectfolder)
    - Rename it to: `Icon.ico`
 
 

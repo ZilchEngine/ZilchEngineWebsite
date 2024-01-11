@@ -21,12 +21,12 @@ Physically-based rendering (PBR) is a relatively recent rendering technique and 
 
  # Implementation in Zilch
 
-The [DeferredRenderer and ForwardRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer/deferred_renderer.md) follow a metallic-roughness workflow (as opposed to metallic-glossiness) and expects inputs for albedo (referred to as "base color" in other workflows), metallic, roughness, and specular in the form of texture maps or uniform values. These maps or values are set via NadaFragments and applied to a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md). 
+The [DeferredRenderer and ForwardRenderer](renderer/deferred_renderer.md) follow a metallic-roughness workflow (as opposed to metallic-glossiness) and expects inputs for albedo (referred to as "base color" in other workflows), metallic, roughness, and specular in the form of texture maps or uniform values. These maps or values are set via NadaFragments and applied to a [Material](materials/materials_overview.md). 
 
  # Related Materials
  ## Manual
 
-- [DeferredRenderer and ForwardRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer/deferred_renderer.md)
-- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md) 
+- [DeferredRenderer and ForwardRenderer](renderer/deferred_renderer.md)
+- [Material](materials/materials_overview.md) 
 
  

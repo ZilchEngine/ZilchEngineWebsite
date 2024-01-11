@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/richanimationbuilder.md#richanimationbuilder-voi)|[ PreviewArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/richanimationbuilder.md#previewarchetype-zilch-en)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.md)| |
+|[ Constructor](richanimationbuilder.md#richanimationbuilder-voi)|[ PreviewArchetype](richanimationbuilder.md#previewarchetype-zilch-en)|[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  PreviewArchetype : [archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.md)
+ #  PreviewArchetype : [archetype](archetype.md)
 
 > 
 > ``` lang=cpp, name=Nada

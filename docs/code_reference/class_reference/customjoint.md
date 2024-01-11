@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md#addconstraint-void)|[ ConstraintCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md#constraintcount-zilch-eng)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-|[ ClearConstraints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md#clearconstraints-void)| | | |
-|[ CreateConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md#createconstraint-zilch-en)| | | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md#customjoint-void)| | | |
-|[ GetConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md#getconstraint-zilch-engin)| | | |
-|[ RemoveConstraint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md#removeconstraint-void)| | | |
+|[ AddConstraint](customjoint.md#addconstraint-void)|[ ConstraintCount](customjoint.md#constraintcount-zilch-eng)|[joint](joint.md)| |
+|[ ClearConstraints](customjoint.md#clearconstraints-void)| | | |
+|[ CreateConstraint](customjoint.md#createconstraint-zilch-en)| | | |
+|[ Constructor](customjoint.md#customjoint-void)| | | |
+|[ GetConstraint](customjoint.md#getconstraint-zilch-engin)| | | |
+|[ RemoveConstraint](customjoint.md#removeconstraint-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  ConstraintCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ConstraintCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 > Add a constraint to this joint. This will assert if a joint already owns this constraint.
 > |Name|Type|Description|
 > |---|---|---|
-> |constraint|[customconstraintinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md)| |
+> |constraint|[customconstraintinfo](customconstraintinfo.md)| |
 > ``` lang=cpp, name=Nada
 > function AddConstraint(constraint : CustomConstraintInfo)
 > ``` 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  CreateConstraint : [customconstraintinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md)
+ #  CreateConstraint : [customconstraintinfo](customconstraintinfo.md)
 
 > Create a constraint that is attached to this joint.
 > |Name|Type|Description|
@@ -79,12 +79,12 @@
 
 
 ---  
- #  GetConstraint : [customconstraintinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md)
+ #  GetConstraint : [customconstraintinfo](customconstraintinfo.md)
 
 > Returns the constraint at the given index. Will assert if the index is outside the constraint count range.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetConstraint(index : Integer) : CustomConstraintInfo
 > ``` 
@@ -96,7 +96,7 @@
 > If the given constraint belongs to this joint then remove it from the constraints to solve.
 > |Name|Type|Description|
 > |---|---|---|
-> |constraint|[customconstraintinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md)| |
+> |constraint|[customconstraintinfo](customconstraintinfo.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveConstraint(constraint : CustomConstraintInfo)
 > ``` 

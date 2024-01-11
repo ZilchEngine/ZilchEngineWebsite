@@ -2,33 +2,33 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetOffsetX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#getoffsetx-zilch-engine-d)|[ AlphaColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#alphacolor-zilch-engine-d)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.md)| |
-|[ GetOffsetY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#getoffsety-zilch-engine-d)|[ CreatePalette](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#createpalette-zilch-engin)| | |
-|[ SetOffsetX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#setoffsetx-void)|[ FrameCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#framecount-zilch-engine-d)| | |
-|[ SetOffsetY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#setoffsety-void)|[ FrameHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#frameheight-zilch-engine)| | |
-| |[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#framerate-zilch-engine-do)| | |
-| |[ FramesPerRow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#framesperrow-zilch-engine)| | |
-| |[ FrameWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#framewidth-zilch-engine-d)| | |
-| |[ ImportFrames](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#importframes-zilch-engine)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#name-zilch-engine-documen)| | |
-| |[ NumberOfRows](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#numberofrows-zilch-engine)| | |
-| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#origin-zilch-engine-docum)| | |
-| |[ PixelsPerUnit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#pixelsperunit-zilch-engin)| | |
-| |[ PreviewAnimate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#previewanimate-zilch-engi)| | |
-| |[ PreviewFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#previewframe-zilch-engine)| | |
-| |[ Smoothing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#smoothing-zilch-engine-do)| | |
-| |[ SourceSizeX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#sourcesizex-zilch-engine)| | |
-| |[ SourceSizeY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#sourcesizey-zilch-engine)| | |
-| |[ SpacingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#spacingx-zilch-engine-doc)| | |
-| |[ SpacingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#spacingy-zilch-engine-doc)| | |
-| |[ UseAlphaColorKey](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesheetimporter.md#usealphacolorkey-zilch-en)| | |
+|[ GetOffsetX](spritesheetimporter.md#getoffsetx-zilch-engine-d)|[ AlphaColor](spritesheetimporter.md#alphacolor-zilch-engine-d)|[composite](composite.md)| |
+|[ GetOffsetY](spritesheetimporter.md#getoffsety-zilch-engine-d)|[ CreatePalette](spritesheetimporter.md#createpalette-zilch-engin)| | |
+|[ SetOffsetX](spritesheetimporter.md#setoffsetx-void)|[ FrameCount](spritesheetimporter.md#framecount-zilch-engine-d)| | |
+|[ SetOffsetY](spritesheetimporter.md#setoffsety-void)|[ FrameHeight](spritesheetimporter.md#frameheight-zilch-engine)| | |
+| |[ FrameRate](spritesheetimporter.md#framerate-zilch-engine-do)| | |
+| |[ FramesPerRow](spritesheetimporter.md#framesperrow-zilch-engine)| | |
+| |[ FrameWidth](spritesheetimporter.md#framewidth-zilch-engine-d)| | |
+| |[ ImportFrames](spritesheetimporter.md#importframes-zilch-engine)| | |
+| |[ Name](spritesheetimporter.md#name-zilch-engine-documen)| | |
+| |[ NumberOfRows](spritesheetimporter.md#numberofrows-zilch-engine)| | |
+| |[ Origin](spritesheetimporter.md#origin-zilch-engine-docum)| | |
+| |[ PixelsPerUnit](spritesheetimporter.md#pixelsperunit-zilch-engin)| | |
+| |[ PreviewAnimate](spritesheetimporter.md#previewanimate-zilch-engi)| | |
+| |[ PreviewFrame](spritesheetimporter.md#previewframe-zilch-engine)| | |
+| |[ Smoothing](spritesheetimporter.md#smoothing-zilch-engine-do)| | |
+| |[ SourceSizeX](spritesheetimporter.md#sourcesizex-zilch-engine)| | |
+| |[ SourceSizeY](spritesheetimporter.md#sourcesizey-zilch-engine)| | |
+| |[ SpacingX](spritesheetimporter.md#spacingx-zilch-engine-doc)| | |
+| |[ SpacingY](spritesheetimporter.md#spacingy-zilch-engine-doc)| | |
+| |[ UseAlphaColorKey](spritesheetimporter.md#usealphacolorkey-zilch-en)| | |
 
 
  #  Properties
 
 
 ---  
- #  AlphaColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  AlphaColor : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  CreatePalette : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CreatePalette : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  FrameCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FrameCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -54,7 +54,7 @@
 
 
 ---  
- #  FrameHeight : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FrameHeight : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -62,7 +62,7 @@
 
 
 ---  
- #  FrameRate : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FrameRate : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -70,7 +70,7 @@
 
 
 ---  
- #  FramesPerRow : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FramesPerRow : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -78,7 +78,7 @@
 
 
 ---  
- #  FrameWidth : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FrameWidth : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -86,7 +86,7 @@
 
 
 ---  
- #  ImportFrames : [ImportFrames](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#importframes)
+ #  ImportFrames : [ImportFrames](../enum_reference.md#importframes)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -94,7 +94,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -102,7 +102,7 @@
 
 
 ---  
- #  NumberOfRows : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NumberOfRows : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -110,7 +110,7 @@
 
 
 ---  
- #  Origin : [SpriteOrigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteorigin)
+ #  Origin : [SpriteOrigin](../enum_reference.md#spriteorigin)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -118,7 +118,7 @@
 
 
 ---  
- #  PixelsPerUnit : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  PixelsPerUnit : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -126,7 +126,7 @@
 
 
 ---  
- #  PreviewAnimate : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  PreviewAnimate : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -134,7 +134,7 @@
 
 
 ---  
- #  PreviewFrame : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  PreviewFrame : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -142,7 +142,7 @@
 
 
 ---  
- #  Smoothing : [SpriteSampling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spritesampling)
+ #  Smoothing : [SpriteSampling](../enum_reference.md#spritesampling)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -150,7 +150,7 @@
 
 
 ---  
- #  SourceSizeX : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SourceSizeX : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -158,7 +158,7 @@
 
 
 ---  
- #  SourceSizeY : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SourceSizeY : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -166,7 +166,7 @@
 
 
 ---  
- #  SpacingX : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SpacingX : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -174,7 +174,7 @@
 
 
 ---  
- #  SpacingY : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SpacingY : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -182,7 +182,7 @@
 
 
 ---  
- #  UseAlphaColorKey : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseAlphaColorKey : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -194,7 +194,7 @@
 
 
 ---  
- #  GetOffsetX : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetOffsetX : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|
@@ -205,7 +205,7 @@
 
 
 ---  
- #  GetOffsetY : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetOffsetY : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|
@@ -221,7 +221,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |value|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SetOffsetX(value : Integer)
 > ``` 
@@ -233,7 +233,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |value|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SetOffsetY(value : Integer)
 > ``` 

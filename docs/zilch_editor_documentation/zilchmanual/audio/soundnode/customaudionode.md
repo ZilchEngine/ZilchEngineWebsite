@@ -1,4 +1,4 @@
-The [ CustomAudioNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md) allows the user to provide buffers of custom audio data to the system for output, using a [ SoundBuffer ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md) object. 
+The [ CustomAudioNode ](../../../../code_reference/class_reference/customaudionode.md) allows the user to provide buffers of custom audio data to the system for output, using a [ SoundBuffer ](../../../../code_reference/class_reference/soundbuffer.md) object. 
 
  # Common Uses
 
@@ -50,10 +50,10 @@ function OnSoundEvent(event : SoundEvent)
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
+- [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ CustomAudioNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md)
-- [ SoundBuffer ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md) 
+- [ CustomAudioNode ](../../../../code_reference/class_reference/customaudionode.md)
+- [ SoundBuffer ](../../../../code_reference/class_reference/soundbuffer.md) 
 
  

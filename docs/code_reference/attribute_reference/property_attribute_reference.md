@@ -1,24 +1,24 @@
 |Nada Attributes|C++ Attributes|
 |---|---|
-|[ Dependency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#dependency)| |
-|[ Display](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#display)| |
-|[ Editable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#editable)| |
-|[ Group](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#group)| |
-|[ LocalModificationOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#localmodificationoverrid)| |
-|[ NetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#netpeerid)| |
-|[ NetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#netproperty)| |
-|[ Override](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#override)| |
-|[ Property](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#property)| |
-|[ Range](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#range)| |
-|[ RenamedFrom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#renamedfrom)| |
-|[ ResourceProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#resourceproperty)| |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#runtimeclone)| |
-|[ Serialize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#serialize)| |
-|[ Serialized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#serialized)| |
-|[ ShaderInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#shaderinput)| |
-|[ Slider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#slider)| |
-|[ Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#static)| |
-|[ Virtual](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/property_attribute_reference.md#virtual)| |
+|[ Dependency](property_attribute_reference.md#dependency)| |
+|[ Display](property_attribute_reference.md#display)| |
+|[ Editable](property_attribute_reference.md#editable)| |
+|[ Group](property_attribute_reference.md#group)| |
+|[ LocalModificationOverride](property_attribute_reference.md#localmodificationoverrid)| |
+|[ NetPeerId](property_attribute_reference.md#netpeerid)| |
+|[ NetProperty](property_attribute_reference.md#netproperty)| |
+|[ Override](property_attribute_reference.md#override)| |
+|[ Property](property_attribute_reference.md#property)| |
+|[ Range](property_attribute_reference.md#range)| |
+|[ RenamedFrom](property_attribute_reference.md#renamedfrom)| |
+|[ ResourceProperty](property_attribute_reference.md#resourceproperty)| |
+|[ RuntimeClone](property_attribute_reference.md#runtimeclone)| |
+|[ Serialize](property_attribute_reference.md#serialize)| |
+|[ Serialized](property_attribute_reference.md#serialized)| |
+|[ ShaderInput](property_attribute_reference.md#shaderinput)| |
+|[ Slider](property_attribute_reference.md#slider)| |
+|[ Static](property_attribute_reference.md#static)| |
+|[ Virtual](property_attribute_reference.md#virtual)| |
 
 
 

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentrydivider.md#contextmenuentrydivider)| |[contextmenuentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md)| |
+|[ Constructor](contextmenuentrydivider.md#contextmenuentrydivider)| |[contextmenuentry](contextmenuentry.md)| |
 
 
  #  Properties

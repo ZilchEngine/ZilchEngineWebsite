@@ -1,4 +1,4 @@
-The [ BandPassNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.md) collects audio data from all of its inputs and applies a band pass filter to it before passing it along to its outputs. 
+The [ BandPassNode ](../../../../code_reference/class_reference/bandpassnode.md) collects audio data from all of its inputs and applies a band pass filter to it before passing it along to its outputs. 
 
  # Using the BandPassNode
 
@@ -7,11 +7,11 @@ Band pass filters are a combination of low pass and high pass filtering which al
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
-- [lowpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/lowpassnode.md)
-- [highpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/highpassnode.md)
+- [soudnode_overview](soudnode_overview.md)
+- [lowpassnode](lowpassnode.md)
+- [highpassnode](highpassnode.md)
 
  ## Code Reference
-- [ BandPassNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.md) 
+- [ BandPassNode ](../../../../code_reference/class_reference/bandpassnode.md) 
 
  

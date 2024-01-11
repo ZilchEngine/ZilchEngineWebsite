@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Debug](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilayout.md#debug-void)|[ PaddingBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilayout.md#paddingbottom-zilch-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)|[uidocklayout](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uidocklayout.md)|
-| |[ PaddingLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilayout.md#paddingleft-zilch-engine)| |[uifilllayout](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uifilllayout.md)|
-| |[ PaddingRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilayout.md#paddingright-zilch-engine)| |[uistacklayout](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uistacklayout.md)|
-| |[ PaddingTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uilayout.md#paddingtop-zilch-engine-d)| | |
+|[ Debug](uilayout.md#debug-void)|[ PaddingBottom](uilayout.md#paddingbottom-zilch-engin)|[component](component.md)|[uidocklayout](uidocklayout.md)|
+| |[ PaddingLeft](uilayout.md#paddingleft-zilch-engine)| |[uifilllayout](uifilllayout.md)|
+| |[ PaddingRight](uilayout.md#paddingright-zilch-engine)| |[uistacklayout](uistacklayout.md)|
+| |[ PaddingTop](uilayout.md#paddingtop-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  PaddingBottom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PaddingBottom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  PaddingLeft : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PaddingLeft : [real](../nada_base_types/real.md)
 
 > Padding getter / setters for binding until we have Thickness binding.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  PaddingRight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PaddingRight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  PaddingTop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PaddingTop : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

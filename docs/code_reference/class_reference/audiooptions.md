@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GenerateCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.md#generatecue-zilch-engine)|Object| |
-| |[ GroupCueName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.md#groupcuename-zilch-engine)| | |
-| |[ StreamingMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.md#streamingmode-zilch-engin)| | |
+| |[ GenerateCue](audiooptions.md#generatecue-zilch-engine)|Object| |
+| |[ GroupCueName](audiooptions.md#groupcuename-zilch-engine)| | |
+| |[ StreamingMode](audiooptions.md#streamingmode-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  GenerateCue : [AudioCueImport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#audiocueimport)
+ #  GenerateCue : [AudioCueImport](../enum_reference.md#audiocueimport)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -19,7 +19,7 @@
 
 
 ---  
- #  GroupCueName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GroupCueName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  StreamingMode : [AudioFileLoadType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#audiofileloadtype)
+ #  StreamingMode : [AudioFileLoadType](../enum_reference.md#audiofileloadtype)
 
 > 
 > ``` lang=cpp, name=Nada

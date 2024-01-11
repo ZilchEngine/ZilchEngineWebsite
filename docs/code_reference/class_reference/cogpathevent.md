@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CogPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpathevent.md#cogpath-zilch-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ CogPath](cogpathevent.md#cogpath-zilch-engine-docu)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  CogPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  CogPath : [cogpath](cogpath.md)
 
 > 
 > ``` lang=cpp, name=Nada

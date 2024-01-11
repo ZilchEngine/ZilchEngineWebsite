@@ -4,22 +4,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#splineparticleanimator-v)|[ AutoCalculateLifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#autocalculatelifetime-ze)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.md)| |
-| |[ Helix](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#helix-zilch-engine-docume)| | |
-| |[ HelixOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#helixoffset-zilch-engine)| | |
-| |[ HelixRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#helixradius-zilch-engine)| | |
-| |[ HelixWaveLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#helixwavelength-zilch-eng)| | |
-| |[ Mode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#mode-zilch-engine-documen)| | |
-| |[ Speed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#speed-zilch-engine-docume)| | |
-| |[ SpringDampingRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#springdampingratio-zero)| | |
-| |[ SpringFrequencyHz](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleanimator.md#springfrequencyhz-zilch-e)| | |
+|[ Constructor](splineparticleanimator.md#splineparticleanimator-v)|[ AutoCalculateLifetime](splineparticleanimator.md#autocalculatelifetime-ze)|[particleanimator](particleanimator.md)| |
+| |[ Helix](splineparticleanimator.md#helix-zilch-engine-docume)| | |
+| |[ HelixOffset](splineparticleanimator.md#helixoffset-zilch-engine)| | |
+| |[ HelixRadius](splineparticleanimator.md#helixradius-zilch-engine)| | |
+| |[ HelixWaveLength](splineparticleanimator.md#helixwavelength-zilch-eng)| | |
+| |[ Mode](splineparticleanimator.md#mode-zilch-engine-documen)| | |
+| |[ Speed](splineparticleanimator.md#speed-zilch-engine-docume)| | |
+| |[ SpringDampingRatio](splineparticleanimator.md#springdampingratio-zero)| | |
+| |[ SpringFrequencyHz](splineparticleanimator.md#springfrequencyhz-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  AutoCalculateLifetime : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoCalculateLifetime : [boolean](../nada_base_types/boolean.md)
 
 > If checked, the lifetime on the SplineParticleEmitter will be updated to the time it would take to travel the entire path at the current speed.
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  Helix : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Helix : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  HelixOffset : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  HelixOffset : [real](../nada_base_types/real.md)
 
 > Offset in radians for where the helix starts.
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  HelixRadius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  HelixRadius : [real](../nada_base_types/real.md)
 
 > The radius of the helix.
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  HelixWaveLength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  HelixWaveLength : [real](../nada_base_types/real.md)
 
 > How fast the helix rotates in radians / second.
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  Mode : [SplineAnimatorMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#splineanimatormode)
+ #  Mode : [SplineAnimatorMode](../enum_reference.md#splineanimatormode)
 
 > The current animate mode.
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  Speed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Speed : [real](../nada_base_types/real.md)
 
 > The speed at which the particles move in meters / second.
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  SpringDampingRatio : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpringDampingRatio : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  SpringFrequencyHz : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpringFrequencyHz : [real](../nada_base_types/real.md)
 
 > Spring properties.
 > ``` lang=cpp, name=Nada

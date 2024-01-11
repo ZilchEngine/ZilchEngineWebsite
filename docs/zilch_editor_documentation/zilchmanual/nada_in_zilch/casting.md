@@ -1,4 +1,4 @@
-Fundamentally, casting is converting from one type to another.  As demonstrated in the code snippet below, a [Function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md) that takes a grade and returns pass/fail can be thought of as a conversion from a [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) to a [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md).
+Fundamentally, casting is converting from one type to another.  As demonstrated in the code snippet below, a [Function](functions.md) that takes a grade and returns pass/fail can be thought of as a conversion from a [real](../../../code_reference/nada_base_types/real.md) to a [boolean](../../../code_reference/nada_base_types/boolean.md).
 ```lang=csharp, name=Conversion Function
 function IsPassing(grade : Real) : Boolean
 {
@@ -12,7 +12,7 @@ function IsPassing(grade : Real) : Boolean
 The logic of that particular conversion is defined as a function and intended for a specific situation, but *cast operations* are more general-case and defined by Nada.
 
  # Implicit and Explicit
-There are two types of casting, implicit and explicit.  Implicit casting occurs during the assignment of a variable of one type, with a value of a *different* type.  Implicit casting is a mechanism that Nada uses when a [Variable](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md) of one type is set to data of another type.  Explicit casting is a mechanic used by the user with the `as` keyword.  Any cast that can happen implicitly can be done explicitly.
+There are two types of casting, implicit and explicit.  Implicit casting occurs during the assignment of a variable of one type, with a value of a *different* type.  Implicit casting is a mechanism that Nada uses when a [Variable](variables_and_data_types.md) of one type is set to data of another type.  Explicit casting is a mechanic used by the user with the `as` keyword.  Any cast that can happen implicitly can be done explicitly.
 
 WARNING: Even with explicit casting, there are still *cast operations* that are invalid and will trigger compile-time exceptions.
 
@@ -21,17 +21,17 @@ var myReal : Real = 1.0;
 var myDoubleReal : DoubleReal = myReal; // implicit casting
 var myInteger : Integer = myReal as Integer; // explicit casting
 ```
-In the example above, `myDoubleReal` is being set to `myReal`, which invokes an implicit cast from [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) to [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md).  When `myReal as Integer` is evaluated, explicit casting is invoked to convert a [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) to an [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md).  The format for explicit casting is `<value> as <new type>`.
+In the example above, `myDoubleReal` is being set to `myReal`, which invokes an implicit cast from [real](../../../code_reference/nada_base_types/real.md) to [doublereal](../../../code_reference/nada_base_types/doublereal.md).  When `myReal as Integer` is evaluated, explicit casting is invoked to convert a [real](../../../code_reference/nada_base_types/real.md) to an [integer](../../../code_reference/nada_base_types/integer.md).  The format for explicit casting is `<value> as <new type>`.
 
 NOTE: Explicit casting should only be used when one is aware of all of the nuances of the cast.
 
  # Casting Between Numeric and Boolean Types
 The following base data types are considerered Numeric and Boolean:
-| [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) |
-| [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md) |
-| [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) |
-| [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md) |
-| [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md) |
+| [integer](../../../code_reference/nada_base_types/integer.md) |
+| [doubleinteger](../../../code_reference/nada_base_types/doubleinteger.md) |
+| [real](../../../code_reference/nada_base_types/real.md) |
+| [doublereal](../../../code_reference/nada_base_types/doublereal.md) |
+| [boolean](../../../code_reference/nada_base_types/boolean.md) |
 
 All *cast operations* using only these types are valid, meaning either explicit or implicit.  The code snippit below demonstates implicit casting between numeric types.
 
@@ -45,7 +45,7 @@ var myDoubleReal1 : DoubleReal = myInteger;
 var myDoubleReal2 : DoubleReal = myDoubleInteger;
 var myDoubleReal3 : DoubleReal = myReal;
 ```
-Notice that implicit casting is allowed when converting to a numeric set, from a smaller data size to a larger one.  The value of `myInteger` can be implicitly casted to a [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md), which holds twice the number of bits as an [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md).  The value of `myInteger` can also be implicitly casted to a [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md).  Real values can hold whole numbers and a decimal portion, whereas integers can only be whole numbers.
+Notice that implicit casting is allowed when converting to a numeric set, from a smaller data size to a larger one.  The value of `myInteger` can be implicitly casted to a [doubleinteger](../../../code_reference/nada_base_types/doubleinteger.md), which holds twice the number of bits as an [integer](../../../code_reference/nada_base_types/integer.md).  The value of `myInteger` can also be implicitly casted to a [real](../../../code_reference/nada_base_types/real.md).  Real values can hold whole numbers and a decimal portion, whereas integers can only be whole numbers.
 
 (NOTE)**From a Mathematics Perspective** The integer set is a subset of the real set.  For more information on mathematical sets, visit the [Wikipedia Set (Mathematics)](https://en.wikipedia.org/wiki/Set_(mathematics)) page.
 
@@ -64,7 +64,7 @@ Console.WriteLine(-3.99 as Integer);
 ```
 
  # Upcasting and Downcasting
-When casting between classes related through [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md), one class must be a base class of the other.
+When casting between classes related through [inheritance](inheritance.md), one class must be a base class of the other.
 
 ```lang=csharp, name=Classes with Inheritance
 class A {}
@@ -116,13 +116,13 @@ var a2 : A = null as A; // explicit cast (unnecessary)
 NOTE: Interpreting `null` as an invalid state for object references is a common pattern in programming.
 
  # Any Casts
-Any type can be cast implicitly to an [any](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/any.md), and an [any](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/any.md) value can be implicitly cast to any type.  The [any](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/any.md) type is used as a generic reference to any instantiated class or struct.
+Any type can be cast implicitly to an [any](../../../code_reference/nada_base_types/any.md), and an [any](../../../code_reference/nada_base_types/any.md) value can be implicitly cast to any type.  The [any](../../../code_reference/nada_base_types/any.md) type is used as a generic reference to any instantiated class or struct.
 ```lang=csharp, name=Any Casting
 var integerOne : any = 1;
 var myInteger : Integer = integerOne; // any cast
 var myReal : Real = integerOne; // runtime exception
 ```
-Notice how the attempt to cast `integerOne`, which is an [any](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/any.md), to a [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) results in a runtime exception.  An [any](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/any.md) must first be cast to the type of the value it holds, even before other implicit conversions.
+Notice how the attempt to cast `integerOne`, which is an [any](../../../code_reference/nada_base_types/any.md), to a [real](../../../code_reference/nada_base_types/real.md) results in a runtime exception.  An [any](../../../code_reference/nada_base_types/any.md) must first be cast to the type of the value it holds, even before other implicit conversions.
 
  # Same Casts
 Same casts are casts that convert a value of one type to the same type.  All same casts can be done implicitly and are unnecessary.
@@ -133,16 +133,16 @@ var myInteger : Integer = 1 as Integer; // explicit same cast
 
  # Related Materials
  ## Manual
-- [Function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
-- [Variable](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
-- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md)
+- [Function](functions.md)
+- [Variable](variables_and_data_types.md)
+- [inheritance](inheritance.md)
 
  ## Code Reference
-- [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
-- [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
-- [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
-- [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
-- [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
-- [any](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/any.md) 
+- [integer](../../../code_reference/nada_base_types/integer.md)
+- [doubleinteger](../../../code_reference/nada_base_types/doubleinteger.md)
+- [real](../../../code_reference/nada_base_types/real.md)
+- [doublereal](../../../code_reference/nada_base_types/doublereal.md)
+- [boolean](../../../code_reference/nada_base_types/boolean.md)
+- [any](../../../code_reference/nada_base_types/any.md) 
 
  

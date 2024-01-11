@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/positionjointblock.md#positionjointblock-void)| |[constraintconfigblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/constraintconfigblock.md)| |
+|[ Constructor](positionjointblock.md#positionjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md#multispriteentryrange-vo)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](multispriteentryrange.md#movenext-void)|[ All](multispriteentryrange.md#all-zilch-engine-document)| | |
+|[ Constructor](multispriteentryrange.md#multispriteentryrange-vo)|[ Current](multispriteentryrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](multispriteentryrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](multispriteentryrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [multispriteentryrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md)
+ #  All : [multispriteentryrange](multispriteentryrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [multispriteentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentry.md)
+ #  Current : [multispriteentry](multispriteentry.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[multispriteentryrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multispriteentryrange.md)| |
+> |p0|[multispriteentryrange](multispriteentryrange.md)| |
 > ``` lang=cpp, name=Nada
 > function MultiSpriteEntryRange(p0 : MultiSpriteEntryRange)
 > ``` 

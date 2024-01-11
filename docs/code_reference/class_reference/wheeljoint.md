@@ -6,24 +6,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#setworldpoints-void)|[ LocalAxisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#localaxisa-zilch-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#wheeljoint-void)|[ LocalAxisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#localaxisb-zilch-engine-d)| | |
-| |[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#localbasisa-zilch-engine)| | |
-| |[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#localbasisb-zilch-engine)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#localpointb-zilch-engine)| | |
-| |[ ShockAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#shockaxis-zilch-engine-do)| | |
-| |[ WorldAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#worldaxis-zilch-engine-do)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#worldpointb-zilch-engine)| | |
-| |[ WorldShockAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md#worldshockaxis-zilch-engi)| | |
+|[ SetWorldPoints](wheeljoint.md#setworldpoints-void)|[ LocalAxisA](wheeljoint.md#localaxisa-zilch-engine-d)|[joint](joint.md)| |
+|[ Constructor](wheeljoint.md#wheeljoint-void)|[ LocalAxisB](wheeljoint.md#localaxisb-zilch-engine-d)| | |
+| |[ LocalBasisA](wheeljoint.md#localbasisa-zilch-engine)| | |
+| |[ LocalBasisB](wheeljoint.md#localbasisb-zilch-engine)| | |
+| |[ LocalPointA](wheeljoint.md#localpointa-zilch-engine)| | |
+| |[ LocalPointB](wheeljoint.md#localpointb-zilch-engine)| | |
+| |[ ShockAxis](wheeljoint.md#shockaxis-zilch-engine-do)| | |
+| |[ WorldAxis](wheeljoint.md#worldaxis-zilch-engine-do)| | |
+| |[ WorldPointA](wheeljoint.md#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](wheeljoint.md#worldpointb-zilch-engine)| | |
+| |[ WorldShockAxis](wheeljoint.md#worldshockaxis-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  LocalAxisA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxisA : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object A . 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  LocalAxisB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxisB : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object B . 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  LocalBasisA : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalBasisA : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object A . This frame is transformed to world space and then aligned with object B s frame . 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  LocalBasisB : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalBasisB : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object B . This frame is transformed to world space and then aligned with object A s frame . 
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  LocalPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object A . 
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  LocalPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object B . 
 > ``` lang=cpp, name=Nada
@@ -71,7 +71,7 @@
 
 
 ---  
- #  ShockAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ShockAxis : [real3](../nada_base_types/real3.md)
 
 > The shock axis in the local space of body A.
 > ``` lang=cpp, name=Nada
@@ -79,7 +79,7 @@
 
 
 ---  
- #  WorldAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldAxis : [real3](../nada_base_types/real3.md)
 
 > The axis in world space that is being rotated about . 
 > ``` lang=cpp, name=Nada
@@ -87,7 +87,7 @@
 
 
 ---  
- #  WorldPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object A given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -95,7 +95,7 @@
 
 
 ---  
- #  WorldPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object B given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -103,7 +103,7 @@
 
 
 ---  
- #  WorldShockAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldShockAxis : [real3](../nada_base_types/real3.md)
 
 > The shock axis after it has been translated into world space.
 > ``` lang=cpp, name=Nada
@@ -120,7 +120,7 @@
 > Sets the position of the anchor on object A and B given a position in world space 
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldPoints(point : Real3)
 > ``` 

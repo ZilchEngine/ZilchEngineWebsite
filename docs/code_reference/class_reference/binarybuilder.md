@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/binarybuilder.md#binarybuilder-void)| |[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.md)| |
+|[ Constructor](binarybuilder.md#binarybuilder-void)| |[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties

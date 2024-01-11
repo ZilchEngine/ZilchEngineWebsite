@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.md#netspace-void)|[ NetObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.md#netobjectcount-zilch-engi)|[netobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobject.md)| |
-| |[ NetUserCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netspace.md#netusercount-zilch-engine)| | |
+|[ Constructor](netspace.md#netspace-void)|[ NetObjectCount](netspace.md#netobjectcount-zilch-engi)|[netobject](netobject.md)| |
+| |[ NetUserCount](netspace.md#netusercount-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  NetObjectCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetObjectCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  NetUserCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetUserCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 

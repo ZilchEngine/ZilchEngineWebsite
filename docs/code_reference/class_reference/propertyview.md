@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ActivateAutoUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyview.md#activateautoupdate-void)| |[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.md)| |
-|[ Invalidate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyview.md#invalidate-void)| | | |
-|[ Refresh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyview.md#refresh-void)| | | |
-|[ SetObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyview.md#setobject-void)| | | |
+|[ ActivateAutoUpdate](propertyview.md#activateautoupdate-void)| |[composite](composite.md)| |
+|[ Invalidate](propertyview.md#invalidate-void)| | | |
+|[ Refresh](propertyview.md#refresh-void)| | | |
+|[ SetObject](propertyview.md#setobject-void)| | | |
 
 
  #  Properties

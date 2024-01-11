@@ -6,20 +6,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#massoverride-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ RecomputeMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#recomputemass-void)|[ AutoComputeCenterOfMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#autocomputecenterofmass)| | |
-| |[ AutoComputeInertia](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#autocomputeinertia-zero)| | |
-| |[ InverseMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#inversemass-zilch-engine)| | |
-| |[ LocalCenterOfMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#localcenterofmass-zilch-e)| | |
-| |[ LocalInverseInertiaTensor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#localinverseinertiatenso)| | |
-| |[ Mass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/massoverride.md#mass-zilch-engine-documen)| | |
+|[ Constructor](massoverride.md#massoverride-void)|[ Active](massoverride.md#active-zilch-engine-docum)|[component](component.md)| |
+|[ RecomputeMass](massoverride.md#recomputemass-void)|[ AutoComputeCenterOfMass](massoverride.md#autocomputecenterofmass)| | |
+| |[ AutoComputeInertia](massoverride.md#autocomputeinertia-zero)| | |
+| |[ InverseMass](massoverride.md#inversemass-zilch-engine)| | |
+| |[ LocalCenterOfMass](massoverride.md#localcenterofmass-zilch-e)| | |
+| |[ LocalInverseInertiaTensor](massoverride.md#localinverseinertiatenso)| | |
+| |[ Mass](massoverride.md#mass-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Determines whether the RigidBody on this Cog will use the cached or actual mass and inertia.
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  AutoComputeCenterOfMass : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoComputeCenterOfMass : [boolean](../nada_base_types/boolean.md)
 
 > Should the center of mass be auto computed or overwritten (via script).
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  AutoComputeInertia : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoComputeInertia : [boolean](../nada_base_types/boolean.md)
 
 > Should the inertia tensor be auto computed or overwritten (via script).
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  InverseMass : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  InverseMass : [real](../nada_base_types/real.md)
 
 > The cached inverse mass of this object.
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  LocalCenterOfMass : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalCenterOfMass : [real3](../nada_base_types/real3.md)
 
 > The center of mass in local space to override with. When set, the center of mass will be locked to this value until AutoComputeCenterOfMass is set to true.
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  LocalInverseInertiaTensor : [real3x3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md)
+ #  LocalInverseInertiaTensor : [real3x3](../nada_base_types/real3x3.md)
 
 > The inverse inertia tensor this object is saved with.
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  Mass : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Mass : [real](../nada_base_types/real.md)
 
 > Overrides the mass of this body. Inertia is updated as a ratio of the new mass to the old mass.
 > ``` lang=cpp, name=Nada

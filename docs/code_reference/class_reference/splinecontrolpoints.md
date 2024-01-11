@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoints.md#add-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoints.md#count-zilch-engine-docume)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoints.md#clear-void)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoints.md#get-zilch-engine-document)| | | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoints.md#set-void)| | | |
+|[ Add](splinecontrolpoints.md#add-void)|[ Count](splinecontrolpoints.md#count-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
+|[ Clear](splinecontrolpoints.md#clear-void)| | | |
+|[ Get](splinecontrolpoints.md#get-zilch-engine-document)| | | |
+|[ Set](splinecontrolpoints.md#set-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 > Add a new point to the end of the array.
 > |Name|Type|Description|
 > |---|---|---|
-> |controlPoint|[splinecontrolpoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.md)| |
+> |controlPoint|[splinecontrolpoint](splinecontrolpoint.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(controlPoint : SplineControlPoint)
 > ``` 
@@ -51,12 +51,12 @@
 
 
 ---  
- #  Get : [splinecontrolpoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.md)
+ #  Get : [splinecontrolpoint](splinecontrolpoint.md)
 
 > Get the control point at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : SplineControlPoint
 > ``` 
@@ -68,8 +68,8 @@
 > Sets the control point at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[splinecontrolpoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
+> |value|[splinecontrolpoint](splinecontrolpoint.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : SplineControlPoint)
 > ``` 

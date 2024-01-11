@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsSubRenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md#issubrendergroup-zilch-en)|[ ChildRenderGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md#childrendergroups-zilch-e)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.md)| |
-|[ IsSubRenderGroupOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md#issubrendergroupof-zero)|[ GraphicalSortMethod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md#graphicalsortmethod-zero)| | |
-| |[ Materials](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md#materials-zilch-engine-do)| | |
-| |[ ParentRenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md#parentrendergroup-zilch-e)| | |
-| |[ ReferencedByList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md#referencedbylist-zilch-en)| | |
+|[ IsSubRenderGroup](rendergroup.md#issubrendergroup-zilch-en)|[ ChildRenderGroups](rendergroup.md#childrendergroups-zilch-e)|[dataresource](dataresource.md)| |
+|[ IsSubRenderGroupOf](rendergroup.md#issubrendergroupof-zero)|[ GraphicalSortMethod](rendergroup.md#graphicalsortmethod-zero)| | |
+| |[ Materials](rendergroup.md#materials-zilch-engine-do)| | |
+| |[ ParentRenderGroup](rendergroup.md#parentrendergroup-zilch-e)| | |
+| |[ ReferencedByList](rendergroup.md#referencedbylist-zilch-en)| | |
 
 
  #  Properties
 
 
 ---  
- #  ChildRenderGroups : [childrendergrouplist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/childrendergrouplist.md)
+ #  ChildRenderGroups : [childrendergrouplist](childrendergrouplist.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  GraphicalSortMethod : [GraphicalSortMethod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#graphicalsortmethod)
+ #  GraphicalSortMethod : [GraphicalSortMethod](../enum_reference.md#graphicalsortmethod)
 
 > Determines the order that graphicals will be drawn when processed as this RenderGroup.
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  Materials : [materiallist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materiallist.md)
+ #  Materials : [materiallist](materiallist.md)
 
  `read-only`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  ParentRenderGroup : [rendergroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md)
+ #  ParentRenderGroup : [rendergroup](rendergroup.md)
 
 > RenderGroup that this is a sub group of. Also a sub group of all of its parents.
 > ``` lang=cpp, name=Nada
@@ -53,7 +53,7 @@
 
 
 ---  
- #  ReferencedByList : [materiallist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materiallist.md)
+ #  ReferencedByList : [materiallist](materiallist.md)
 
  `read-only`
 
@@ -67,24 +67,24 @@
 
 
 ---  
- #  IsSubRenderGroup : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsSubRenderGroup : [boolean](../nada_base_types/boolean.md)
 
 > Returns whether or not the given RenderGroup is a sub group of this.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderGroup|[rendergroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md)| |
+> |renderGroup|[rendergroup](rendergroup.md)| |
 > ``` lang=cpp, name=Nada
 > function IsSubRenderGroup(renderGroup : RenderGroup) : Boolean
 > ``` 
 
 
 ---  
- #  IsSubRenderGroupOf : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsSubRenderGroupOf : [boolean](../nada_base_types/boolean.md)
 
 > Returns whether or not this is a sub group of the given RenderGroup.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderGroup|[rendergroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md)| |
+> |renderGroup|[rendergroup](rendergroup.md)| |
 > ``` lang=cpp, name=Nada
 > function IsSubRenderGroupOf(renderGroup : RenderGroup) : Boolean
 > ``` 

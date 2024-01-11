@@ -1,4 +1,4 @@
-This lesson covers the basics of using Functions in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md).
+This lesson covers the basics of using Functions in [Nada](../../zilchmanual/nada_in_zilch.md).
 
 
  # Learning Objectives
@@ -9,16 +9,16 @@ This lesson covers the basics of using Functions in [Nada](https://github.com/Zi
 
  # Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../code_reference/command_reference.md#add)
  - Create a NadaScript resource using the Component template template and name it `MyBehavior`
 - In the `Object Window`
- - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+ - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Square`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `MyBehavior`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MyBehavior`
 
  # Custom Functions
 
@@ -132,23 +132,23 @@ WARNING: Functions may use conditionals; however, when a Return Type is declared
  # Related Materials
 
  ## Manual
-- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.md)
-- [ Nada User Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
-- [ Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
-- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.md)
+- [Components](../../zilchmanual/architecture/components.md)
+- [ Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
+- [ Functions](../../zilchmanual/nada_in_zilch/functions.md)
+- [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
 
  ##  Tutorials
-- [CustomComponents](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/customcomponents.md)
+- [CustomComponents](customcomponents.md)
 
  ## Reference
  ### Classes
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [NadaScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadascript.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [Sprite](../../../code_reference/class_reference/sprite.md)
+- [NadaScript](../../../code_reference/class_reference/nadascript.md)
 
  ### Commands
-- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Add Resource](../../../code_reference/command_reference.md#add)
  
 
  

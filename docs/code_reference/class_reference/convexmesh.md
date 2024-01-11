@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.md#convexmesh-void)| |[genericphysicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.md)| |
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.md#createruntime-zilch-engin)| | | |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.md#runtimeclone-zilch-engine)| | | |
+|[ Constructor](convexmesh.md#convexmesh-void)| |[genericphysicsmesh](genericphysicsmesh.md)| |
+|[ CreateRuntime](convexmesh.md#createruntime-zilch-engin)| | | |
+|[ RuntimeClone](convexmesh.md#runtimeclone-zilch-engine)| | | |
 
 
  #  Properties
@@ -32,7 +32,7 @@
 
 
 ---  
- #  CreateRuntime : [convexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.md)
+ #  CreateRuntime : [convexmesh](convexmesh.md)
 
  `static`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  RuntimeClone : [convexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.md)
+ #  RuntimeClone : [convexmesh](convexmesh.md)
 
 > Creates a clone of this mesh for run-time modifications.
 > |Name|Type|Description|

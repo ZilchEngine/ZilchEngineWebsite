@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FirstPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.md#firstpoint-zilch-engine-d)|[basecollisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md)| |
+| |[ FirstPoint](collisionevent.md#firstpoint-zilch-engine-d)|[basecollisionevent](basecollisionevent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  FirstPoint : [contactpoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md)
+ #  FirstPoint : [contactpoint](contactpoint.md)
 
  `read-only`
 

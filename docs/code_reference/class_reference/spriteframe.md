@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteframe.md#spriteframe-void)| | | |
+|[ Constructor](spriteframe.md#spriteframe-void)| | | |
 
 
  #  Properties
@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[spriteframe](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteframe.md)| |
+> |p0|[spriteframe](spriteframe.md)| |
 > ``` lang=cpp, name=Nada
 > function SpriteFrame(p0 : SpriteFrame)
 > ``` 

@@ -2,19 +2,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.md#meshbuilder-void)|[ FlipNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.md#flipnormals-zilch-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.md)| |
-| |[ FlipWindingOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.md#flipwindingorder-zilch-en)| | |
-| |[ GenerateSmoothNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.md#generatesmoothnormals-ze)| | |
-| |[ GenerateTangentSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.md#generatetangentspace-zer)| | |
-| |[ InvertUvYAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.md#invertuvyaxis-zilch-engin)| | |
-| |[ SmoothingAngleDegreesThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshbuilder.md#smoothingangledegreesthr)| | |
+|[ Constructor](meshbuilder.md#meshbuilder-void)|[ FlipNormals](meshbuilder.md#flipnormals-zilch-engine)|[buildercomponent](buildercomponent.md)| |
+| |[ FlipWindingOrder](meshbuilder.md#flipwindingorder-zilch-en)| | |
+| |[ GenerateSmoothNormals](meshbuilder.md#generatesmoothnormals-ze)| | |
+| |[ GenerateTangentSpace](meshbuilder.md#generatetangentspace-zer)| | |
+| |[ InvertUvYAxis](meshbuilder.md#invertuvyaxis-zilch-engin)| | |
+| |[ SmoothingAngleDegreesThreshold](meshbuilder.md#smoothingangledegreesthr)| | |
 
 
  #  Properties
 
 
 ---  
- #  FlipNormals : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  FlipNormals : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  FlipWindingOrder : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  FlipWindingOrder : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  GenerateSmoothNormals : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GenerateSmoothNormals : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  GenerateTangentSpace : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GenerateTangentSpace : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -46,7 +46,7 @@
 
 
 ---  
- #  InvertUvYAxis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  InvertUvYAxis : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -54,7 +54,7 @@
 
 
 ---  
- #  SmoothingAngleDegreesThreshold : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SmoothingAngleDegreesThreshold : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

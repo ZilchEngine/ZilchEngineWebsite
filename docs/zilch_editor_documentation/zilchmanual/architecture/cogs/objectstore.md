@@ -1,5 +1,5 @@
 
-[objectstore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.md) saves an object to a persistent local store.  All properties that are normally saved on the object are saved with ObjectStore.  The data is stored on the local computer and will be saved between runs of the game.  Can be used for progress, game saving, or preferences. 
+[objectstore](../../../../code_reference/class_reference/objectstore.md) saves an object to a persistent local store.  All properties that are normally saved on the object are saved with ObjectStore.  The data is stored on the local computer and will be saved between runs of the game.  Can be used for progress, game saving, or preferences. 
 
 When used with Nada, make sure you mark the data to be saved with either `[Serialized]` or `[Property]` attributes. 
 
@@ -26,14 +26,14 @@ class ObjectStoreTest : NadaComponent
     }
 }
 ```
-To clear all stored objects on a computer you can use the [ ClearStore ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#clearobjectstore) command.
+To clear all stored objects on a computer you can use the [ ClearStore ](../../../../code_reference/command_reference.md#clearobjectstore) command.
 
 ---
 
  # Related Materials
  ## Code Reference
-- [ ClearStore ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#clearobjectstore) 
+- [ ClearStore ](../../../../code_reference/command_reference.md#clearobjectstore) 
  ## Tutorial
-- [Loading and Saving Data](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/architecture/objectstore.md) 
+- [Loading and Saving Data](../../../tutorials/architecture/objectstore.md) 
 
  

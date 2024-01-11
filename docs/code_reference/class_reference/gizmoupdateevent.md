@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ConstrainedWorldDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md#constrainedworlddelta-ze)|[gizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.md)|[ringgizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.md)|
-| |[ ConstrainedWorldMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md#constrainedworldmovement)| |[rotategizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmoupdateevent.md)|
-| |[ InitialGrabPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md#initialgrabpoint-zilch-en)| |[scalegizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/scalegizmoupdateevent.md)|
-| |[ MouseWorldDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md#mouseworlddelta-zilch-eng)| |[translategizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmoupdateevent.md)|
-| |[ MouseWorldMovement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md#mouseworldmovement-zero)| | |
+| |[ ConstrainedWorldDelta](gizmoupdateevent.md#constrainedworlddelta-ze)|[gizmoevent](gizmoevent.md)|[ringgizmoevent](ringgizmoevent.md)|
+| |[ ConstrainedWorldMovement](gizmoupdateevent.md#constrainedworldmovement)| |[rotategizmoupdateevent](rotategizmoupdateevent.md)|
+| |[ InitialGrabPoint](gizmoupdateevent.md#initialgrabpoint-zilch-en)| |[scalegizmoupdateevent](scalegizmoupdateevent.md)|
+| |[ MouseWorldDelta](gizmoupdateevent.md#mouseworlddelta-zilch-eng)| |[translategizmoupdateevent](translategizmoupdateevent.md)|
+| |[ MouseWorldMovement](gizmoupdateevent.md#mouseworldmovement-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  ConstrainedWorldDelta : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ConstrainedWorldDelta : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  ConstrainedWorldMovement : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ConstrainedWorldMovement : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  InitialGrabPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  InitialGrabPoint : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  MouseWorldDelta : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  MouseWorldDelta : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  MouseWorldMovement : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  MouseWorldMovement : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md#setworldpoints-void)|[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md#length-zilch-engine-docum)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md#stickjoint-void)|[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md#localpointb-zilch-engine)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md#worldpointb-zilch-engine)| | |
+|[ SetWorldPoints](stickjoint.md#setworldpoints-void)|[ Length](stickjoint.md#length-zilch-engine-docum)|[joint](joint.md)| |
+|[ Constructor](stickjoint.md#stickjoint-void)|[ LocalPointA](stickjoint.md#localpointa-zilch-engine)| | |
+| |[ LocalPointB](stickjoint.md#localpointb-zilch-engine)| | |
+| |[ WorldPointA](stickjoint.md#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](stickjoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Length : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Length : [real](../nada_base_types/real.md)
 
 > The desired length between the anchor points of object A and B.
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  LocalPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object A . 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  LocalPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object B . 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  WorldPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object A given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  WorldPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object B given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 > Sets the position of the anchor on object A and B given a position in world space 
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldPoints(point : Real3)
 > ``` 

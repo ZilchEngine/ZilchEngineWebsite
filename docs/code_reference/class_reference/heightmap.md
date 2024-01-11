@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.md#heightmap-void)|[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.md#source-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ UnitsPerPatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmap.md#unitsperpatch-zilch-engin)| | |
+|[ Constructor](heightmap.md#heightmap-void)|[ Source](heightmap.md#source-zilch-engine-docum)|[component](component.md)| |
+| |[ UnitsPerPatch](heightmap.md#unitsperpatch-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  Source : [heightmapsource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapsource.md)
+ #  Source : [heightmapsource](heightmapsource.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  UnitsPerPatch : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  UnitsPerPatch : [real](../nada_base_types/real.md)
 
 > Gets/sets the number of units per patch.
 > ``` lang=cpp, name=Nada

@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineevent.md#splineevent-void)|[ Spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineevent.md#spline-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+|[ Constructor](splineevent.md#splineevent-void)|[ Spline](splineevent.md#spline-zilch-engine-docum)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Spline : [spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md)
+ #  Spline : [spline](spline.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -45,7 +45,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |spline|[spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md)| |
+> |spline|[spline](spline.md)| |
 > ``` lang=cpp, name=Nada
 > function SplineEvent(spline : Spline)
 > ``` 
@@ -59,7 +59,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[splineevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineevent.md)| |
+> ||[splineevent](splineevent.md)| |
 > ``` lang=cpp, name=Nada
 > function SplineEvent( : SplineEvent)
 > ``` 

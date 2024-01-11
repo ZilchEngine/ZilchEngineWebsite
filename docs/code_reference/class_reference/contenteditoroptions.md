@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenteditoroptions.md#contenteditoroptions-voi)|[ ShowInEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenteditoroptions.md#showineditor-zilch-engine)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.md)| |
+|[ Constructor](contenteditoroptions.md#contenteditoroptions-voi)|[ ShowInEditor](contenteditoroptions.md#showineditor-zilch-engine)|[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  ShowInEditor : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowInEditor : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

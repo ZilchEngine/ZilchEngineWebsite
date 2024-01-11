@@ -49,7 +49,7 @@ namespace Zilch
 
 The inclusion of `Precompiled.hpp` is only required if your project is using precompiled headers. All projects within Zilch have this option enabled.
 
-The `ZilchDeclareType` macro within the hpp file must be matched by `ZilchDefineType` in the cpp file. These macros create a reflection `MetaType` for your class so that we can use it within script, create it via a factory, and display it in a property grid. For more information on meta binding, visit the [meta_binding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_source_documentation/meta_binding.md) section.
+The `ZilchDeclareType` macro within the hpp file must be matched by `ZilchDefineType` in the cpp file. These macros create a reflection `MetaType` for your class so that we can use it within script, create it via a factory, and display it in a property grid. For more information on meta binding, visit the [meta_binding](meta_binding.md) section.
 
 `InitializeMeta` is called once when your component's `MetaType` gets initialized. `BindBase` tells your type that it inherits from the Component class. The `BindSetup` call with `DefaultSerialization` lets the engine know that when we create your component from a factory we'll immediately set all your member variables to their default values via the SerializeNameDefault macro (see Serialization below).
 

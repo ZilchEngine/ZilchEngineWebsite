@@ -6,21 +6,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#floweffect-void)|[ AttractSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#attractspeed-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)| |
-| |[ AttractToFlowCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#attracttoflowcenter-zero)| | |
-| |[ FlowDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#flowdirection-zilch-engin)| | |
-| |[ FlowSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#flowspeed-zilch-engine-do)| | |
-| |[ LocalForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#localforce-zilch-engine-d)| | |
-| |[ MaxAttractForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#maxattractforce-zilch-eng)| | |
-| |[ MaxFlowForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#maxflowforce-zilch-engine)| | |
-| |[ WorldFlowDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md#worldflowdirection-zero)| | |
+|[ Constructor](floweffect.md#floweffect-void)|[ AttractSpeed](floweffect.md#attractspeed-zilch-engine)|[physicseffect](physicseffect.md)| |
+| |[ AttractToFlowCenter](floweffect.md#attracttoflowcenter-zero)| | |
+| |[ FlowDirection](floweffect.md#flowdirection-zilch-engin)| | |
+| |[ FlowSpeed](floweffect.md#flowspeed-zilch-engine-do)| | |
+| |[ LocalForce](floweffect.md#localforce-zilch-engine-d)| | |
+| |[ MaxAttractForce](floweffect.md#maxattractforce-zilch-eng)| | |
+| |[ MaxFlowForce](floweffect.md#maxflowforce-zilch-engine)| | |
+| |[ WorldFlowDirection](floweffect.md#worldflowdirection-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  AttractSpeed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AttractSpeed : [real](../nada_base_types/real.md)
 
 > The target speed for an object to be pulled towards the center of the flow.
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  AttractToFlowCenter : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AttractToFlowCenter : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the flow field will attract objects towards the center of the field. This can be used to create a tractor beam effect that will keep the object inside of the flow field.
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  FlowDirection : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  FlowDirection : [real3](../nada_base_types/real3.md)
 
 > The direction that the field is flowing. This can be defined in world or local space.
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  FlowSpeed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FlowSpeed : [real](../nada_base_types/real.md)
 
 > The target speed of objects in the flow field.
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 
 
 ---  
- #  LocalForce : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LocalForce : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the flow direction is in the local space of the object.
 > ``` lang=cpp, name=Nada
@@ -60,7 +60,7 @@
 
 
 ---  
- #  MaxAttractForce : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxAttractForce : [real](../nada_base_types/real.md)
 
 > The max force that can be used to reach the target attract speed.
 > ``` lang=cpp, name=Nada
@@ -68,7 +68,7 @@
 
 
 ---  
- #  MaxFlowForce : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxFlowForce : [real](../nada_base_types/real.md)
 
 > The max force that can be used to reach the target flow speed.
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  WorldFlowDirection : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldFlowDirection : [real3](../nada_base_types/real3.md)
 
  `read-only`
 

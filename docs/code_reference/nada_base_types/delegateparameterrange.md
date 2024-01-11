@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.md#delegateparameterrange-v)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#all-delegate() | All]]| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.md#movenext-void)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#current-delegate() | Current]]| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameterrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](delegateparameterrange.md#delegateparameterrange-v)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#all-delegate() | All]]| | |
+|[ MoveNext](delegateparameterrange.md#movenext-void)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#current-delegate() | Current]]| | |
+| |[ IsEmpty](delegateparameterrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](delegateparameterrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 

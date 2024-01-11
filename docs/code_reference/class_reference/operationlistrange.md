@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md#operationlistrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](operationlistrange.md#movenext-void)|[ All](operationlistrange.md#all-zilch-engine-document)| | |
+|[ Constructor](operationlistrange.md#operationlistrange-void)|[ Current](operationlistrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](operationlistrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](operationlistrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [operationlistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md)
+ #  All : [operationlistrange](operationlistrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [operation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.md)
+ #  Current : [operation](operation.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[operationlistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md)| |
+> |p0|[operationlistrange](operationlistrange.md)| |
 > ``` lang=cpp, name=Nada
 > function OperationListRange(p0 : OperationListRange)
 > ``` 

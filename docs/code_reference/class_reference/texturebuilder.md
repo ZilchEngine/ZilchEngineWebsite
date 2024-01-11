@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#texturebuilder-void)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#addressingx-zilch-engine)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.md)| |
-| |[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#addressingy-zilch-engine)| | |
-| |[ Anisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#anisotropy-zilch-engine-d)| | |
-| |[ Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#compression-zilch-engine)| | |
-| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#filtering-zilch-engine-do)| | |
-| |[ GammaCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#gammacorrection-zilch-eng)| | |
-| |[ HalfScaleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#halfscalecount-zilch-engi)| | |
-| |[ MipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#mipmapping-zilch-engine-d)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#name-zilch-engine-documen)| | |
-| |[ PremultipliedAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#premultipliedalpha-zero)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturebuilder.md#type-zilch-engine-documen)| | |
+|[ Constructor](texturebuilder.md#texturebuilder-void)|[ AddressingX](texturebuilder.md#addressingx-zilch-engine)|[buildercomponent](buildercomponent.md)| |
+| |[ AddressingY](texturebuilder.md#addressingy-zilch-engine)| | |
+| |[ Anisotropy](texturebuilder.md#anisotropy-zilch-engine-d)| | |
+| |[ Compression](texturebuilder.md#compression-zilch-engine)| | |
+| |[ Filtering](texturebuilder.md#filtering-zilch-engine-do)| | |
+| |[ GammaCorrection](texturebuilder.md#gammacorrection-zilch-eng)| | |
+| |[ HalfScaleCount](texturebuilder.md#halfscalecount-zilch-engi)| | |
+| |[ MipMapping](texturebuilder.md#mipmapping-zilch-engine-d)| | |
+| |[ Name](texturebuilder.md#name-zilch-engine-documen)| | |
+| |[ PremultipliedAlpha](texturebuilder.md#premultipliedalpha-zero)| | |
+| |[ Type](texturebuilder.md#type-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  AddressingX : [TextureAddressing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureaddressing)
+ #  AddressingX : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  AddressingY : [TextureAddressing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureaddressing)
+ #  AddressingY : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  Anisotropy : [TextureAnisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureanisotropy)
+ #  Anisotropy : [TextureAnisotropy](../enum_reference.md#textureanisotropy)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  Compression : [TextureCompression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecompression)
+ #  Compression : [TextureCompression](../enum_reference.md#texturecompression)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  Filtering : [TextureFiltering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturefiltering)
+ #  Filtering : [TextureFiltering](../enum_reference.md#texturefiltering)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  GammaCorrection : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GammaCorrection : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  HalfScaleCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  HalfScaleCount : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  MipMapping : [TextureMipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturemipmapping)
+ #  MipMapping : [TextureMipMapping](../enum_reference.md#texturemipmapping)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -91,7 +91,7 @@
 
 
 ---  
- #  PremultipliedAlpha : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  PremultipliedAlpha : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -99,7 +99,7 @@
 
 
 ---  
- #  Type : [TextureType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturetype)
+ #  Type : [TextureType](../enum_reference.md#texturetype)
 
 > 
 > ``` lang=cpp, name=Nada

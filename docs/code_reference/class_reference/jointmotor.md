@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md#jointmotor-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md#atomids-zilch-engine-docu)| | |
-| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md#maximpulse-zilch-engine-d)| | |
-| |[ Reverse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md#reverse-zilch-engine-docu)| | |
-| |[ Speed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md#speed-zilch-engine-docume)| | |
+|[ Constructor](jointmotor.md#jointmotor-void)|[ Active](jointmotor.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[ AtomIds](jointmotor.md#atomids-zilch-engine-docu)| | |
+| |[ MaxImpulse](jointmotor.md#maximpulse-zilch-engine-d)| | |
+| |[ Reverse](jointmotor.md#reverse-zilch-engine-docu)| | |
+| |[ Speed](jointmotor.md#speed-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this motor is currently active.
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  AtomIds : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  AtomIds : [integer](../nada_base_types/integer.md)
 
 > Signifies what atoms on the joint this affects. For internal use.
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  MaxImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxImpulse : [real](../nada_base_types/real.md)
 
 > The maximum impulse that the motor can apply each frame to reach the target speed.
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Reverse : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Reverse : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this motor should move in reverse. This is a convenient way to reverse a motor without having to negate the speed.
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Speed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Speed : [real](../nada_base_types/real.md)
 
 > The desired speed for this motor.
 > ``` lang=cpp, name=Nada

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2dblock.md#revolutejoint2dblock-voi)| |[constraintconfigblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/constraintconfigblock.md)| |
+|[ Constructor](revolutejoint2dblock.md#revolutejoint2dblock-voi)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

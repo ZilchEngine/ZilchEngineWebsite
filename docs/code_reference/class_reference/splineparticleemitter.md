@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md#splineparticleemitter-vo)|[ ClampT](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md#clampt-zilch-engine-docum)|[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md)| |
-| |[ EmitRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md#emitradius-zilch-engine-d)| | |
-| |[ SpawnT](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md#spawnt-zilch-engine-docum)| | |
-| |[ SpawnTVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md#spawntvariance-zilch-engi)| | |
-| |[ Spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md#spline-zilch-engine-docum)| | |
-| |[ TargetSplineCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md#targetsplinecog-zilch-eng)| | |
+|[ Constructor](splineparticleemitter.md#splineparticleemitter-vo)|[ ClampT](splineparticleemitter.md#clampt-zilch-engine-docum)|[particleemittershared](particleemittershared.md)| |
+| |[ EmitRadius](splineparticleemitter.md#emitradius-zilch-engine-d)| | |
+| |[ SpawnT](splineparticleemitter.md#spawnt-zilch-engine-docum)| | |
+| |[ SpawnTVariance](splineparticleemitter.md#spawntvariance-zilch-engi)| | |
+| |[ Spline](splineparticleemitter.md#spline-zilch-engine-docum)| | |
+| |[ TargetSplineCog](splineparticleemitter.md#targetsplinecog-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  ClampT : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ClampT : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  EmitRadius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  EmitRadius : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  SpawnT : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpawnT : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  SpawnTVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpawnTVariance : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  Spline : [spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md)
+ #  Spline : [spline](spline.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  TargetSplineCog : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  TargetSplineCog : [cogpath](cogpath.md)
 
 > 
 > ``` lang=cpp, name=Nada

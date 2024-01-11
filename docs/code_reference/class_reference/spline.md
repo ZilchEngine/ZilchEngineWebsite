@@ -4,20 +4,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#clone-zilch-engine-docume)|[ BakedPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#bakedpoints-zilch-engine)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.md)| |
-|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#create-zilch-engine-docum)|[ Closed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#closed-zilch-engine-docum)| | |
-|[ DebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#debugdraw-void)|[ ControlPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#controlpoints-zilch-engin)| | |
-|[ ForceRebuild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#forcerebuild-void)|[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#error-zilch-engine-docume)| | |
-|[ RebuildIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#rebuildifmodified-void)|[ SplineType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#splinetype-zilch-engine-d)| | |
-|[ SampleDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#sampledistance-zilch-engi)|[ TotalDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#totaldistance-zilch-engin)| | |
-|[ SampleNormalized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md#samplenormalized-zilch-en)| | | |
+|[ Clone](spline.md#clone-zilch-engine-docume)|[ BakedPoints](spline.md#bakedpoints-zilch-engine)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ Create](spline.md#create-zilch-engine-docum)|[ Closed](spline.md#closed-zilch-engine-docum)| | |
+|[ DebugDraw](spline.md#debugdraw-void)|[ ControlPoints](spline.md#controlpoints-zilch-engin)| | |
+|[ ForceRebuild](spline.md#forcerebuild-void)|[ Error](spline.md#error-zilch-engine-docume)| | |
+|[ RebuildIfModified](spline.md#rebuildifmodified-void)|[ SplineType](spline.md#splinetype-zilch-engine-d)| | |
+|[ SampleDistance](spline.md#sampledistance-zilch-engi)|[ TotalDistance](spline.md#totaldistance-zilch-engin)| | |
+|[ SampleNormalized](spline.md#samplenormalized-zilch-en)| | | |
 
 
  #  Properties
 
 
 ---  
- #  BakedPoints : [splinebakedpoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinebakedpoints.md)
+ #  BakedPoints : [splinebakedpoints](splinebakedpoints.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  Closed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Closed : [boolean](../nada_base_types/boolean.md)
 
 > Does the spline loop back on itself?
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  ControlPoints : [splinecontrolpoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoints.md)
+ #  ControlPoints : [splinecontrolpoints](splinecontrolpoints.md)
 
  `read-only`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  Error : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Error : [real](../nada_base_types/real.md)
 
 > The max number of units that a line segment is allowed to deviate from the curve.
 > ``` lang=cpp, name=Nada
@@ -53,7 +53,7 @@
 
 
 ---  
- #  SplineType : [SplineType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#splinetype)
+ #  SplineType : [SplineType](../enum_reference.md#splinetype)
 
 > The kind of spline (Linear, BSpline, CatmullRom). Determines how the control points affect the curve.
 > ``` lang=cpp, name=Nada
@@ -61,7 +61,7 @@
 
 
 ---  
- #  TotalDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TotalDistance : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -75,7 +75,7 @@
 
 
 ---  
- #  Clone : [spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md)
+ #  Clone : [spline](spline.md)
 
 > Create a new copy of this spline.
 > |Name|Type|Description|
@@ -86,7 +86,7 @@
 
 
 ---  
- #  Create : [spline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spline.md)
+ #  Create : [spline](spline.md)
 
  `static`
 
@@ -104,7 +104,7 @@
 > Draw the baked points of the curve with the provided color.
 > |Name|Type|Description|
 > |---|---|---|
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugDraw(color : Real4)
 > ``` 
@@ -133,24 +133,24 @@
 
 
 ---  
- #  SampleDistance : [splinesampledata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.md)
+ #  SampleDistance : [splinesampledata](splinesampledata.md)
 
 > Samples the curve at a given arc-length distance.
 > |Name|Type|Description|
 > |---|---|---|
-> |distance|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |distance|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function SampleDistance(distance : Real) : SplineSampleData
 > ``` 
 
 
 ---  
- #  SampleNormalized : [splinesampledata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.md)
+ #  SampleNormalized : [splinesampledata](splinesampledata.md)
 
 > Samples the curve with a time in the range of [0, 1].
 > |Name|Type|Description|
 > |---|---|---|
-> |time|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |time|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function SampleNormalized(time : Real) : SplineSampleData
 > ``` 

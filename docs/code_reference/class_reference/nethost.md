@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BasicHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md#basichostinfo-zilch-engin)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.md)| |
-| |[ ExtraHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md#extrahostinfo-zilch-engin)| | |
-| |[ IpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md#ipaddress-zilch-engine-do)| | |
-| |[ Latency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md#latency-zilch-engine-docu)| | |
-| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md#network-zilch-engine-docu)| | |
-| |[ RoundTripTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md#roundtriptime-zilch-engin)| | |
+| |[ BasicHostInfo](nethost.md#basichostinfo-zilch-engin)|[safeid32](safeid32.md)| |
+| |[ ExtraHostInfo](nethost.md#extrahostinfo-zilch-engin)| | |
+| |[ IpAddress](nethost.md#ipaddress-zilch-engine-do)| | |
+| |[ Latency](nethost.md#latency-zilch-engine-docu)| | |
+| |[ Network](nethost.md#network-zilch-engine-docu)| | |
+| |[ RoundTripTime](nethost.md#roundtriptime-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  BasicHostInfo : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  BasicHostInfo : [eventbundle](eventbundle.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  ExtraHostInfo : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  ExtraHostInfo : [eventbundle](eventbundle.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  IpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  IpAddress : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  Latency : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Latency : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -56,7 +56,7 @@
 
 
 ---  
- #  Network : [Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)
+ #  Network : [Network](../enum_reference.md#network)
 
  `read-only`
 
@@ -66,7 +66,7 @@
 
 
 ---  
- #  RoundTripTime : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RoundTripTime : [integer](../nada_base_types/integer.md)
 
  `read-only`
 

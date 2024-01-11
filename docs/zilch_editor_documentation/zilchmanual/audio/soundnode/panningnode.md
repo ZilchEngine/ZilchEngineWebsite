@@ -1,9 +1,9 @@
-The [ PanningNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.md) collects audio data from all of its inputs and applies a volume modification to the left and right channels separately. 
+The [ PanningNode ](../../../../code_reference/class_reference/panningnode.md) collects audio data from all of its inputs and applies a volume modification to the left and right channels separately. 
 
  # Common Uses
 
 - Moving sounds from left to right and right to left (such as an ambient wind sound)
-- Positioning sounds without using a [SoundEmitter ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soundemitter.md)
+- Positioning sounds without using a [SoundEmitter ](soundemitter.md)
 
  # Using the PanningNode
 
@@ -80,9 +80,9 @@ class MovingNoise : NadaComponent
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
+- [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ PanningNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.md) 
+- [ PanningNode ](../../../../code_reference/class_reference/panningnode.md) 
 
  

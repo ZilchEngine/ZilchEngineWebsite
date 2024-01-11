@@ -6,21 +6,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#setworldpoints-void)|[ LocalAxis0OfBodyA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#localaxis0ofbodya-zilch-e)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#universaljoint-void)|[ LocalAxis0OfBodyB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#localaxis0ofbodyb-zilch-e)| | |
-| |[ LocalAxis1OfBodyA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#localaxis1ofbodya-zilch-e)| | |
-| |[ LocalAxis1OfBodyB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#localaxis1ofbodyb-zilch-e)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#localpointb-zilch-engine)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md#worldpointb-zilch-engine)| | |
+|[ SetWorldPoints](universaljoint.md#setworldpoints-void)|[ LocalAxis0OfBodyA](universaljoint.md#localaxis0ofbodya-zilch-e)|[joint](joint.md)| |
+|[ Constructor](universaljoint.md#universaljoint-void)|[ LocalAxis0OfBodyB](universaljoint.md#localaxis0ofbodyb-zilch-e)| | |
+| |[ LocalAxis1OfBodyA](universaljoint.md#localaxis1ofbodya-zilch-e)| | |
+| |[ LocalAxis1OfBodyB](universaljoint.md#localaxis1ofbodyb-zilch-e)| | |
+| |[ LocalPointA](universaljoint.md#localpointa-zilch-engine)| | |
+| |[ LocalPointB](universaljoint.md#localpointb-zilch-engine)| | |
+| |[ WorldPointA](universaljoint.md#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](universaljoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  LocalAxis0OfBodyA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxis0OfBodyA : [real3](../nada_base_types/real3.md)
 
 > One of the two axes in local space of object A that the objects are allowed to rotate about.
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  LocalAxis0OfBodyB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxis0OfBodyB : [real3](../nada_base_types/real3.md)
 
 > One of the two axes in local space of object B that the objects are allowed to rotate about.
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  LocalAxis1OfBodyA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxis1OfBodyA : [real3](../nada_base_types/real3.md)
 
 > One of the two axes in local space of object A that the objects are allowed to rotate about.
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  LocalAxis1OfBodyB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxis1OfBodyB : [real3](../nada_base_types/real3.md)
 
 > One of the two axes in local space of object B that the objects are allowed to rotate about.
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 
 
 ---  
- #  LocalPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object A . 
 > ``` lang=cpp, name=Nada
@@ -60,7 +60,7 @@
 
 
 ---  
- #  LocalPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object B . 
 > ``` lang=cpp, name=Nada
@@ -68,7 +68,7 @@
 
 
 ---  
- #  WorldPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object A given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  WorldPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object B given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -93,7 +93,7 @@
 > Sets the position of the anchor on object A and B given a position in world space 
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldPoints(point : Real3)
 > ``` 

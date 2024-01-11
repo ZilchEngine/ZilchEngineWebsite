@@ -1,4 +1,4 @@
-The [ ModulationNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md) collects audio data from all of its inputs and applies either amplitude or ring modulation to the audio before passing it along to its outputs. 
+The [ ModulationNode ](../../../../code_reference/class_reference/modulationnode.md) collects audio data from all of its inputs and applies either amplitude or ring modulation to the audio before passing it along to its outputs. 
 
  # Common Uses
 
@@ -14,9 +14,9 @@ Ring modulation will directly alter the frequencies of the sound, with stronger 
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
+- [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ ModulationNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md) 
+- [ ModulationNode ](../../../../code_reference/class_reference/modulationnode.md) 
 
  

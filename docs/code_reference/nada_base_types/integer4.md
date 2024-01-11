@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#get-zilch-engine-document)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#count-zilch-engine-docume)| | |
-|[ GetAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#getaxis-zilch-engine-docu)|[ NegativeMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#negativemin-zilch-engine)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#integer4-void)|[ NegativeValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#negativevalueclosesttoze)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#set-void)|[ One](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#one-zilch-engine-document)| | |
-| |[ PositiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#positivevalueclosesttoze)| | |
-| |[ WAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#waxis-zilch-engine-docume)| | |
-| |[ XAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#xaxis-zilch-engine-docume)| | |
-| |[ YAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#yaxis-zilch-engine-docume)| | |
-| |[ ZAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#zaxis-zilch-engine-docume)| | |
-| |[ Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md#zilch-zilch-engine-documen)| | |
+|[ Get](integer4.md#get-zilch-engine-document)|[ Count](integer4.md#count-zilch-engine-docume)| | |
+|[ GetAxis](integer4.md#getaxis-zilch-engine-docu)|[ NegativeMin](integer4.md#negativemin-zilch-engine)| | |
+|[ Constructor](integer4.md#integer4-void)|[ NegativeValueClosestToZero](integer4.md#negativevalueclosesttoze)| | |
+|[ Set](integer4.md#set-void)|[ One](integer4.md#one-zilch-engine-document)| | |
+| |[ PositiveMax](integer4.md#positivemax-zilch-engine)| | |
+| |[ PositiveValueClosestToZero](integer4.md#positivevalueclosesttoze)| | |
+| |[ WAxis](integer4.md#waxis-zilch-engine-docume)| | |
+| |[ XAxis](integer4.md#xaxis-zilch-engine-docume)| | |
+| |[ YAxis](integer4.md#yaxis-zilch-engine-docume)| | |
+| |[ ZAxis](integer4.md#zaxis-zilch-engine-docume)| | |
+| |[ Zero](integer4.md#zilch-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -29,7 +29,7 @@
 
 
 ---  
- #  NegativeMin : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  NegativeMin : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -39,7 +39,7 @@
 
 
 ---  
- #  NegativeValueClosestToZero : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  NegativeValueClosestToZero : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -49,7 +49,7 @@
 
 
 ---  
- #  One : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  One : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -59,7 +59,7 @@
 
 
 ---  
- #  PositiveMax : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  PositiveMax : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -69,7 +69,7 @@
 
 
 ---  
- #  PositiveValueClosestToZero : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  PositiveValueClosestToZero : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -79,7 +79,7 @@
 
 
 ---  
- #  WAxis : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  WAxis : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -89,7 +89,7 @@
 
 
 ---  
- #  XAxis : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  XAxis : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -99,7 +99,7 @@
 
 
 ---  
- #  YAxis : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  YAxis : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -109,7 +109,7 @@
 
 
 ---  
- #  ZAxis : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  ZAxis : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -119,7 +119,7 @@
 
 
 ---  
- #  Zero : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  Zero : [integer4](integer4.md)
 
  `read-only` `static`
 
@@ -133,26 +133,26 @@
 
 
 ---  
- #  Get : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Get : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(p0 : Integer) : Integer
 > ``` 
 
 
 ---  
- #  GetAxis : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  GetAxis : [integer4](integer4.md)
 
  `static`
 
 > Returns an axis vector from the given index (ie. 0 is XAxis, 1 is YAxis, etc...
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetAxis(p0 : Integer) : Integer4
 > ``` 
@@ -179,7 +179,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |scalar|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |scalar|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(scalar : Integer)
 > ``` 
@@ -193,10 +193,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p2|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p3|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[integer](integer.md)| |
+> |p2|[integer](integer.md)| |
+> |p3|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(p0 : Integer, p1 : Integer, p2 : Integer, p3 : Integer)
 > ``` 
@@ -210,9 +210,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p2|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[integer](integer.md)| |
+> |p2|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(p0 : Integer, p1 : Integer, p2 : Integer2)
 > ``` 
@@ -226,9 +226,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> |p2|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[integer2](integer2.md)| |
+> |p2|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(p0 : Integer, p1 : Integer2, p2 : Integer)
 > ``` 
@@ -242,8 +242,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(p0 : Integer, p1 : Integer3)
 > ``` 
@@ -257,9 +257,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> |p1|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p2|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer2](integer2.md)| |
+> |p1|[integer](integer.md)| |
+> |p2|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(p0 : Integer2, p1 : Integer, p2 : Integer)
 > ``` 
@@ -273,8 +273,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> |p1|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |p0|[integer2](integer2.md)| |
+> |p1|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(p0 : Integer2, p1 : Integer2)
 > ``` 
@@ -288,8 +288,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> |p1|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer3](integer3.md)| |
+> |p1|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Integer4(p0 : Integer3, p1 : Integer)
 > ``` 
@@ -301,8 +301,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(p0 : Integer, p1 : Integer)
 > ``` 

@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobjectonline.md#gamesession-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ IsStartOfLifespan](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobjectonline.md#isstartoflifespan-zilch-e)| | |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobjectonline.md#object-zilch-engine-docum)| | |
-| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobjectonline.md#space-zilch-engine-docume)| | |
+| |[ GameSession](netobjectonline.md#gamesession-zilch-engine)|[event](event.md)| |
+| |[ IsStartOfLifespan](netobjectonline.md#isstartoflifespan-zilch-e)| | |
+| |[ Object](netobjectonline.md#object-zilch-engine-docum)| | |
+| |[ Space](netobjectonline.md#space-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  GameSession : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  GameSession : [gamesession](gamesession.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  IsStartOfLifespan : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsStartOfLifespan : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Object : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Object : [cog](cog.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  Space : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  Space : [space](space.md)
 
  `read-only`
 

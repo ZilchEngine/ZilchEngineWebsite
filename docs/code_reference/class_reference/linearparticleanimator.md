@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md#linearparticleanimator-v)|[ Dampening](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md#dampening-zilch-engine-do)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.md)| |
-| |[ Force](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md#force-zilch-engine-docume)| | |
-| |[ Growth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md#growth-zilch-engine-docum)| | |
-| |[ RandomForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md#randomforce-zilch-engine)| | |
-| |[ Torque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md#torque-zilch-engine-docum)| | |
-| |[ Twist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md#twist-zilch-engine-docume)| | |
+|[ Constructor](linearparticleanimator.md#linearparticleanimator-v)|[ Dampening](linearparticleanimator.md#dampening-zilch-engine-do)|[particleanimator](particleanimator.md)| |
+| |[ Force](linearparticleanimator.md#force-zilch-engine-docume)| | |
+| |[ Growth](linearparticleanimator.md#growth-zilch-engine-docum)| | |
+| |[ RandomForce](linearparticleanimator.md#randomforce-zilch-engine)| | |
+| |[ Torque](linearparticleanimator.md#torque-zilch-engine-docum)| | |
+| |[ Twist](linearparticleanimator.md#twist-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Dampening : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Dampening : [real](../nada_base_types/real.md)
 
 > Velocity dampening.
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  Force : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Force : [real3](../nada_base_types/real3.md)
 
 > Constance force applied to particles.
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  Growth : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Growth : [real](../nada_base_types/real.md)
 
 > Rate of particle size growth.
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  RandomForce : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  RandomForce : [real3](../nada_base_types/real3.md)
 
 > Random force applied to particles.
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  Torque : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Torque : [real](../nada_base_types/real.md)
 
 > Force that applies spin.
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  Twist : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Twist : [real3](../nada_base_types/real3.md)
 
 > Twist applies a twisting/tornado force to the particles.
 > ``` lang=cpp, name=Nada

@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OsWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rootwidget.md#oswindow-zilch-engine-doc)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.md)|[mainwindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainwindow.md)|
+| |[ OsWindow](rootwidget.md#oswindow-zilch-engine-doc)|[composite](composite.md)|[mainwindow](mainwindow.md)|
 
 
  #  Properties
 
 
 ---  
- #  OsWindow : [oswindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md)
+ #  OsWindow : [oswindow](oswindow.md)
 
  `read-only`
 

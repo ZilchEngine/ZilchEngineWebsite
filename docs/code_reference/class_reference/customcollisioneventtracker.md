@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddCollision](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.md#addcollision-void)| |[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.md#customcollisioneventtrac)| | | |
-|[ SendEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.md#sendevents-void)| | | |
+|[ AddCollision](customcollisioneventtracker.md#addcollision-void)| |[component](component.md)| |
+|[ Constructor](customcollisioneventtracker.md#customcollisioneventtrac)| | | |
+|[ SendEvents](customcollisioneventtracker.md#sendevents-void)| | | |
 
 
  #  Properties
@@ -24,9 +24,9 @@
 > Add a collision for this frame between ourself and the passed in collider.
 > |Name|Type|Description|
 > |---|---|---|
-> |otherCollider|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)| |
-> |worldPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |worldNormalTowardsOther|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |otherCollider|[collider](collider.md)| |
+> |worldPoint|[real3](../nada_base_types/real3.md)| |
+> |worldNormalTowardsOther|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function AddCollision(otherCollider : Collider, worldPoint : Real3, worldNormalTowardsOther : Real3)
 > ``` 
@@ -51,7 +51,7 @@
 > Send out all of the events that have been queued up. This includes determining what should be started/persisted/ended events. These events are sent with the prefix that is passed in, e.g. if you pass in 'Collision' then CollisionStarted, CollisionPersisted, and CollisionEnded will be the event names.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventPrefix|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |eventPrefix|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function SendEvents(eventPrefix : String)
 > ``` 

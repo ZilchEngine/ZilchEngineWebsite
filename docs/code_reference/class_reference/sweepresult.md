@@ -4,20 +4,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#sweepresult-void)|[ OtherCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#othercollider-zilch-engin)| | |
-| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#otherobject-zilch-engine)| | |
-| |[ Penetration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#penetration-zilch-engine)| | |
-| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#time-zilch-engine-documen)| | |
-| |[ WorldNormalTowardsOther](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#worldnormaltowardsother)| | |
-| |[ WorldNormalTowardsSelf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#worldnormaltowardsself-z)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md#worldpoint-zilch-engine-d)| | |
+|[ Constructor](sweepresult.md#sweepresult-void)|[ OtherCollider](sweepresult.md#othercollider-zilch-engin)| | |
+| |[ OtherObject](sweepresult.md#otherobject-zilch-engine)| | |
+| |[ Penetration](sweepresult.md#penetration-zilch-engine)| | |
+| |[ Time](sweepresult.md#time-zilch-engine-documen)| | |
+| |[ WorldNormalTowardsOther](sweepresult.md#worldnormaltowardsother)| | |
+| |[ WorldNormalTowardsSelf](sweepresult.md#worldnormaltowardsself-z)| | |
+| |[ WorldPoint](sweepresult.md#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  OtherCollider : [collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
+ #  OtherCollider : [collider](collider.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  OtherObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  OtherObject : [cog](cog.md)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  Penetration : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Penetration : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  Time : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Time : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  WorldNormalTowardsOther : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldNormalTowardsOther : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -67,7 +67,7 @@
 
 
 ---  
- #  WorldNormalTowardsSelf : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldNormalTowardsSelf : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -77,7 +77,7 @@
 
 
 ---  
- #  WorldPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPoint : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -111,7 +111,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[sweepresult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md)| |
+> ||[sweepresult](sweepresult.md)| |
 > ``` lang=cpp, name=Nada
 > function SweepResult( : SweepResult)
 > ``` 

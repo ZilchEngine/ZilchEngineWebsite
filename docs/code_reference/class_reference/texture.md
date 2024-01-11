@@ -6,26 +6,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#createruntime-zilch-engin)|[ AddressingX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#addressingx-zilch-engine)|Resource| |
-|[ SubUpload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#subupload-void)|[ AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#addressingy-zilch-engine)| | |
-|[ Upload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#upload-void)|[ Anisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#anisotropy-zilch-engine-d)| | |
-| |[ CompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#comparefunc-zilch-engine)| | |
-| |[ CompareMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#comparemode-zilch-engine)| | |
-| |[ Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#compression-zilch-engine)| | |
-| |[ Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#filtering-zilch-engine-do)| | |
-| |[ Format](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#format-zilch-engine-docum)| | |
-| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#height-zilch-engine-docum)| | |
-| |[ MipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#mipmapping-zilch-engine-d)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#size-zilch-engine-documen)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#type-zilch-engine-documen)| | |
-| |[ Width](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md#width-zilch-engine-docume)| | |
+|[ CreateRuntime](texture.md#createruntime-zilch-engin)|[ AddressingX](texture.md#addressingx-zilch-engine)|Resource| |
+|[ SubUpload](texture.md#subupload-void)|[ AddressingY](texture.md#addressingy-zilch-engine)| | |
+|[ Upload](texture.md#upload-void)|[ Anisotropy](texture.md#anisotropy-zilch-engine-d)| | |
+| |[ CompareFunc](texture.md#comparefunc-zilch-engine)| | |
+| |[ CompareMode](texture.md#comparemode-zilch-engine)| | |
+| |[ Compression](texture.md#compression-zilch-engine)| | |
+| |[ Filtering](texture.md#filtering-zilch-engine-do)| | |
+| |[ Format](texture.md#format-zilch-engine-docum)| | |
+| |[ Height](texture.md#height-zilch-engine-docum)| | |
+| |[ MipMapping](texture.md#mipmapping-zilch-engine-d)| | |
+| |[ Size](texture.md#size-zilch-engine-documen)| | |
+| |[ Type](texture.md#type-zilch-engine-documen)| | |
+| |[ Width](texture.md#width-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  AddressingX : [TextureAddressing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureaddressing)
+ #  AddressingX : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > How to treat uv coordinates outside of [0, 1] along the Texture's width.
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  AddressingY : [TextureAddressing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureaddressing)
+ #  AddressingY : [TextureAddressing](../enum_reference.md#textureaddressing)
 
 > How to treat uv coordinates outside of [0, 1] along the Texture's height.
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Anisotropy : [TextureAnisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureanisotropy)
+ #  Anisotropy : [TextureAnisotropy](../enum_reference.md#textureanisotropy)
 
 > Max ratio of anisotropy that filtering will account for at oblique viewing angles.
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  CompareFunc : [TextureCompareFunc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecomparefunc)
+ #  CompareFunc : [TextureCompareFunc](../enum_reference.md#texturecomparefunc)
 
 > Which method of comparison should be used if CompareMode is set to Enable.
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  CompareMode : [TextureCompareMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecomparemode)
+ #  CompareMode : [TextureCompareMode](../enum_reference.md#texturecomparemode)
 
 > If sampling in hardware should perform comparison instead of fetching. Requires using SamplerShadow2d in the shader.
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  Compression : [TextureCompression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecompression)
+ #  Compression : [TextureCompression](../enum_reference.md#texturecompression)
 
  `read-only`
 
@@ -75,7 +75,7 @@
 
 
 ---  
- #  Filtering : [TextureFiltering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturefiltering)
+ #  Filtering : [TextureFiltering](../enum_reference.md#texturefiltering)
 
 > How samples should be blended under minification/magnification.
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  Format : [TextureFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureformat)
+ #  Format : [TextureFormat](../enum_reference.md#textureformat)
 
  `read-only`
 
@@ -93,7 +93,7 @@
 
 
 ---  
- #  Height : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Height : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -103,7 +103,7 @@
 
 
 ---  
- #  MipMapping : [TextureMipMapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturemipmapping)
+ #  MipMapping : [TextureMipMapping](../enum_reference.md#texturemipmapping)
 
 > If downsampled versions of the texture (mip maps) should be generated. PreGenerated is not valid for runtime Textures.
 > ``` lang=cpp, name=Nada
@@ -111,7 +111,7 @@
 
 
 ---  
- #  Size : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  Size : [integer2](../nada_base_types/integer2.md)
 
  `read-only`
 
@@ -121,7 +121,7 @@
 
 
 ---  
- #  Type : [TextureType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturetype)
+ #  Type : [TextureType](../enum_reference.md#texturetype)
 
  `read-only`
 
@@ -131,7 +131,7 @@
 
 
 ---  
- #  Width : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Width : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -145,7 +145,7 @@
 
 
 ---  
- #  CreateRuntime : [texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md)
+ #  CreateRuntime : [texture](texture.md)
 
  `static`
 
@@ -163,9 +163,9 @@
 > Uploads the given texture data, overwriting a sub region of the texture data that is already on the gpu.
 > |Name|Type|Description|
 > |---|---|---|
-> |textureData|[texturedata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md)| |
-> |xOffset|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |yOffset|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |textureData|[texturedata](texturedata.md)| |
+> |xOffset|[integer](../nada_base_types/integer.md)| |
+> |yOffset|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SubUpload(textureData : TextureData, xOffset : Integer, yOffset : Integer)
 > ``` 
@@ -177,7 +177,7 @@
 > Uploads the given texture data to the gpu, configured with the current settings of this Texture.
 > |Name|Type|Description|
 > |---|---|---|
-> |textureData|[texturedata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md)| |
+> |textureData|[texturedata](texturedata.md)| |
 > ``` lang=cpp, name=Nada
 > function Upload(textureData : TextureData)
 > ``` 

@@ -2,23 +2,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#debugtext-void)|[ Centered](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#centered-zilch-engine-doc)| | |
-| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#color-zilch-engine-docume)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#ontop-zilch-engine-docume)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#position-zilch-engine-doc)| | |
-| |[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#rotation-zilch-engine-doc)| | |
-| |[ Text](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#text-zilch-engine-documen)| | |
-| |[ TextHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#textheight-zilch-engine-d)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md#viewscaleoffset-zilch-eng)| | |
+|[ Constructor](debugtext.md#debugtext-void)|[ Centered](debugtext.md#centered-zilch-engine-doc)| | |
+| |[ Color](debugtext.md#color-zilch-engine-docume)| | |
+| |[ OnTop](debugtext.md#ontop-zilch-engine-docume)| | |
+| |[ Position](debugtext.md#position-zilch-engine-doc)| | |
+| |[ Rotation](debugtext.md#rotation-zilch-engine-doc)| | |
+| |[ Text](debugtext.md#text-zilch-engine-documen)| | |
+| |[ TextHeight](debugtext.md#textheight-zilch-engine-d)| | |
+| |[ ViewAligned](debugtext.md#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](debugtext.md#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](debugtext.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  Centered : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Centered : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  Color : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Color : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  OnTop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  Position : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Position : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  Rotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  Rotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  Text : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Text : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  TextHeight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TextHeight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  ViewAligned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -82,7 +82,7 @@
 
 
 ---  
- #  ViewScaled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -90,7 +90,7 @@
 
 
 ---  
- #  ViewScaleOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -122,9 +122,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |position|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |textHeight|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |text|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |position|[real3](../nada_base_types/real3.md)| |
+> |textHeight|[real](../nada_base_types/real.md)| |
+> |text|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugText(position : Real3, textHeight : Real, text : String)
 > ``` 

@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CurrentNetUserOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserlostobjectownership.md#currentnetuserowner-zero)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ LostObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserlostobjectownership.md#lostobject-zilch-engine-d)| | |
+| |[ CurrentNetUserOwner](netuserlostobjectownership.md#currentnetuserowner-zero)|[event](event.md)| |
+| |[ LostObject](netuserlostobjectownership.md#lostobject-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  CurrentNetUserOwner : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  CurrentNetUserOwner : [cog](cog.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  LostObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  LostObject : [cog](cog.md)
 
  `read-only`
 

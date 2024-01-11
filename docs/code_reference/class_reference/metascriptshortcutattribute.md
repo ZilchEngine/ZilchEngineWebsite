@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Alt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.md#alt-zilch-engine-document)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.md)| |
-| |[ Ctrl](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.md#ctrl-zilch-engine-documen)| | |
-| |[ Key](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.md#key-zilch-engine-document)| | |
-| |[ Shift](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metascriptshortcutattribute.md#shift-zilch-engine-docume)| | |
+| |[ Alt](metascriptshortcutattribute.md#alt-zilch-engine-document)|[metaattribute](metaattribute.md)| |
+| |[ Ctrl](metascriptshortcutattribute.md#ctrl-zilch-engine-documen)| | |
+| |[ Key](metascriptshortcutattribute.md#key-zilch-engine-document)| | |
+| |[ Shift](metascriptshortcutattribute.md#shift-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Alt : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Alt : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Ctrl : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Ctrl : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  Key : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Key : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Shift : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Shift : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Finished](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.md#finished-zilch-engine-doc)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md)|
-| |[ Gizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.md#gizmo-zilch-engine-docume)| |[objecttransformgizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.md)|
-| |[ OperationQueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.md#operationqueue-zilch-engi)| | |
-| |[ Source](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.md#source-zilch-engine-docum)| | |
-| |[ ViewportMouseEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.md#viewportmouseevent-zero)| | |
+| |[ Finished](gizmoevent.md#finished-zilch-engine-doc)|[event](event.md)|[gizmoupdateevent](gizmoupdateevent.md)|
+| |[ Gizmo](gizmoevent.md#gizmo-zilch-engine-docume)| |[objecttransformgizmoevent](objecttransformgizmoevent.md)|
+| |[ OperationQueue](gizmoevent.md#operationqueue-zilch-engi)| | |
+| |[ Source](gizmoevent.md#source-zilch-engine-docum)| | |
+| |[ ViewportMouseEvent](gizmoevent.md#viewportmouseevent-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  Finished : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Finished : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  Gizmo : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Gizmo : [cog](cog.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  OperationQueue : [operationqueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md)
+ #  OperationQueue : [operationqueue](operationqueue.md)
 
  `read-only`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  Source : [component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)
+ #  Source : [component](component.md)
 
  `read-only`
 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  ViewportMouseEvent : [viewportmouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewportmouseevent.md)
+ #  ViewportMouseEvent : [viewportmouseevent](viewportmouseevent.md)
 
  `read-only`
 

@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md#frustum-void)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md#get-zilch-engine-document)| | | |
-|[ GetAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md#getaabb-zilch-engine-docu)| | | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md#set-void)| | | |
+|[ Constructor](frustum.md#frustum-void)| | | |
+|[ Get](frustum.md#get-zilch-engine-document)| | | |
+|[ GetAabb](frustum.md#getaabb-zilch-engine-docu)| | | |
+|[ Set](frustum.md#set-void)| | | |
 
 
  #  Properties
@@ -36,26 +36,26 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[frustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md)| |
+> |p0|[frustum](frustum.md)| |
 > ``` lang=cpp, name=Nada
 > function Frustum(p0 : Frustum)
 > ``` 
 
 
 ---  
- #  Get : [plane](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md)
+ #  Get : [plane](plane.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(p0 : Integer) : Plane
 > ``` 
 
 
 ---  
- #  GetAabb : [aabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/aabb.md)
+ #  GetAabb : [aabb](aabb.md)
 
 > 
 > |Name|Type|Description|
@@ -71,8 +71,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[plane](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md)| |
+> |p0|[integer](../nada_base_types/integer.md)| |
+> |p1|[plane](plane.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(p0 : Integer, p1 : Plane)
 > ``` 

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.md#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.md#all-zilch-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.md#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.md#count-zilch-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.md#get-zilch-engine-document)| | | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.md#set-void)| | | |
+|[ Add](physicsmeshindexdata.md#add-void)|[ All](physicsmeshindexdata.md#all-zilch-engine-document)|[safeid32object](safeid32object.md)| |
+|[ Clear](physicsmeshindexdata.md#clear-void)|[ Count](physicsmeshindexdata.md#count-zilch-engine-docume)| | |
+|[ Get](physicsmeshindexdata.md#get-zilch-engine-document)| | | |
+|[ Set](physicsmeshindexdata.md#set-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  All : [physicsmeshindexrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexrange.md)
+ #  All : [physicsmeshindexrange](physicsmeshindexrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Integer)
 > ``` 
@@ -59,12 +59,12 @@
 
 
 ---  
- #  Get : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Get : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get( : Integer) : Integer
 > ``` 
@@ -76,8 +76,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Set( : Integer,  : Integer)
 > ``` 

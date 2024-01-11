@@ -1,4 +1,4 @@
-Emitters are necessary components for a particle system that define the properties of a particle as it's created.  One of those properties is the spawn position, which is in part defined by the component itself.  The emitter types are [BoxParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxparticleemitter.md), [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md), and [MeshParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.md), and each one defines a surface or curve that particles emit from.
+Emitters are necessary components for a particle system that define the properties of a particle as it's created.  One of those properties is the spawn position, which is in part defined by the component itself.  The emitter types are [BoxParticleEmitter](../../../../code_reference/class_reference/boxparticleemitter.md), [SphericalParticleEmitter](../../../../code_reference/class_reference/sphericalparticleemitter.md), and [MeshParticleEmitter](../../../../code_reference/class_reference/meshparticleemitter.md), and each one defines a surface or curve that particles emit from.
 
 
 
@@ -20,13 +20,13 @@ When an object is moving fast, the fact that its motion is an illusion becomes m
 
  # Related Material
  ## Manual
-- [Color Gradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/colorgradient.md)
+- [Color Gradient](../../architecture/resources/colorgradient.md)
 
  ## Code Reference
-- [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/spriteparticlesystem.md)
-- [BoxParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxparticleemitter.md)
-- [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)
-- [MeshParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.md)
+- [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
+- [BoxParticleEmitter](../../../../code_reference/class_reference/boxparticleemitter.md)
+- [SphericalParticleEmitter](../../../../code_reference/class_reference/sphericalparticleemitter.md)
+- [MeshParticleEmitter](../../../../code_reference/class_reference/meshparticleemitter.md)
  
 
  

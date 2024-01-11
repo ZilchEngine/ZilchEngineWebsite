@@ -2,31 +2,31 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChangeBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#changebasis-zilch-engine)|Object| |
-| |[ CollapsePivots](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#collapsepivots-zilch-engi)| | |
-| |[ CreateArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#createarchetype-zilch-eng)| | |
-| |[ FlipWindingOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#flipwindingorder-zilch-en)| | |
-| |[ GenerateSmoothNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#generatesmoothnormals-ze)| | |
-| |[ GenerateTangentSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#generatetangentspace-zer)| | |
-| |[ ImportAnimations](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#importanimations-zilch-en)| | |
-| |[ ImportMeshes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#importmeshes-zilch-engine)| | |
-| |[ ImportTextures](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#importtextures-zilch-engi)| | |
-| |[ InvertUvYAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#invertuvyaxis-zilch-engin)| | |
-| |[ OriginOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#originoffset-zilch-engine)| | |
-| |[ PhysicsImport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#physicsimport-zilch-engin)| | |
-| |[ ScaleConversion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#scaleconversion-zilch-eng)| | |
-| |[ ScaleFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#scalefactor-zilch-engine)| | |
-| |[ SmoothingAngleDegreesThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#smoothingangledegreesthr)| | |
-| |[ XBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#xbasisto-zilch-engine-doc)| | |
-| |[ YBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#ybasisto-zilch-engine-doc)| | |
-| |[ ZBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md#zbasisto-zilch-engine-doc)| | |
+| |[ ChangeBasis](geometryoptions.md#changebasis-zilch-engine)|Object| |
+| |[ CollapsePivots](geometryoptions.md#collapsepivots-zilch-engi)| | |
+| |[ CreateArchetype](geometryoptions.md#createarchetype-zilch-eng)| | |
+| |[ FlipWindingOrder](geometryoptions.md#flipwindingorder-zilch-en)| | |
+| |[ GenerateSmoothNormals](geometryoptions.md#generatesmoothnormals-ze)| | |
+| |[ GenerateTangentSpace](geometryoptions.md#generatetangentspace-zer)| | |
+| |[ ImportAnimations](geometryoptions.md#importanimations-zilch-en)| | |
+| |[ ImportMeshes](geometryoptions.md#importmeshes-zilch-engine)| | |
+| |[ ImportTextures](geometryoptions.md#importtextures-zilch-engi)| | |
+| |[ InvertUvYAxis](geometryoptions.md#invertuvyaxis-zilch-engin)| | |
+| |[ OriginOffset](geometryoptions.md#originoffset-zilch-engine)| | |
+| |[ PhysicsImport](geometryoptions.md#physicsimport-zilch-engin)| | |
+| |[ ScaleConversion](geometryoptions.md#scaleconversion-zilch-eng)| | |
+| |[ ScaleFactor](geometryoptions.md#scalefactor-zilch-engine)| | |
+| |[ SmoothingAngleDegreesThreshold](geometryoptions.md#smoothingangledegreesthr)| | |
+| |[ XBasisTo](geometryoptions.md#xbasisto-zilch-engine-doc)| | |
+| |[ YBasisTo](geometryoptions.md#ybasisto-zilch-engine-doc)| | |
+| |[ ZBasisTo](geometryoptions.md#zbasisto-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  ChangeBasis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ChangeBasis : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  CollapsePivots : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CollapsePivots : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  CreateArchetype : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CreateArchetype : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  FlipWindingOrder : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  FlipWindingOrder : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  GenerateSmoothNormals : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GenerateSmoothNormals : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  GenerateTangentSpace : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GenerateTangentSpace : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  ImportAnimations : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ImportAnimations : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -82,7 +82,7 @@
 
 
 ---  
- #  ImportMeshes : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ImportMeshes : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -90,7 +90,7 @@
 
 
 ---  
- #  ImportTextures : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ImportTextures : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -98,7 +98,7 @@
 
 
 ---  
- #  InvertUvYAxis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  InvertUvYAxis : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -106,7 +106,7 @@
 
 
 ---  
- #  OriginOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  OriginOffset : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -114,7 +114,7 @@
 
 
 ---  
- #  PhysicsImport : [PhysicsImport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicsimport)
+ #  PhysicsImport : [PhysicsImport](../enum_reference.md#physicsimport)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -122,7 +122,7 @@
 
 
 ---  
- #  ScaleConversion : [ScaleConversion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#scaleconversion)
+ #  ScaleConversion : [ScaleConversion](../enum_reference.md#scaleconversion)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -130,7 +130,7 @@
 
 
 ---  
- #  ScaleFactor : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ScaleFactor : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -138,7 +138,7 @@
 
 
 ---  
- #  SmoothingAngleDegreesThreshold : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SmoothingAngleDegreesThreshold : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -146,7 +146,7 @@
 
 
 ---  
- #  XBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#basistype)
+ #  XBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -154,7 +154,7 @@
 
 
 ---  
- #  YBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#basistype)
+ #  YBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -162,7 +162,7 @@
 
 
 ---  
- #  ZBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#basistype)
+ #  ZBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -11,11 +11,11 @@ For example:
 
 
 > - In the `Object Window`
->  - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) the Player object object
+>  - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) the Player object object
 > - In the `Properties Window`
->  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md):
->  [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
->  - Under [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
+>  - [Add Component](../../zilchmanual/editor/addremovecomponent.md):
+>  [RigidBody](../../../code_reference/class_reference/rigidbody.md)
+>  - Under [RigidBody](../../../code_reference/class_reference/rigidbody.md)
 >   - Set AllowSleep button to `false`
 
 
@@ -33,7 +33,7 @@ Each level of indentation represents a subsection of the window you are already 
 
 
 will be shortened to:
-    - [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md): [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+    - [Command](../../zilchmanual/editor/editorcommands/commands.md): [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
 This significantly reduces the amount of reading, and while still providing a reference to the full process should you need a refresher.
 
@@ -53,10 +53,10 @@ It is recommended that you create a new project. If this is the first time you h
  - Enter a Project Folder directory (if the default is not sufficient) by either typing or left clicking the browse button on the right of the field.
  - Left Click the `Create Project` button
 
-Alternatively, you can create a new project from within the editor by using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+Alternatively, you can create a new project from within the editor by using [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
 
 NOTE:   
- [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) represent all actions you can perform as a user in the Zilch Editor. Page numbers are listed throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zilch by going to the page number provided in the tutorial!
+ [Commands](../../zilchmanual/editor/editorcommands/commands.md) represent all actions you can perform as a user in the Zilch Editor. Page numbers are listed throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zilch by going to the page number provided in the tutorial!
 
  # Windows Overview
 
@@ -132,11 +132,11 @@ NOTE: **Component** is a chunk of functionality or small bucket of data. An obje
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47221.png)
 
 
-Anything you add to the game using [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md) or through drag-and-drop importing is stored as a resource. All resources added to your project can be found in the `Library Window`. You'll learn more details about resources in future lessons.
+Anything you add to the game using [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add](../../zilchmanual/editor/editorcommands/resourceadding.md) or through drag-and-drop importing is stored as a resource. All resources added to your project can be found in the `Library Window`. You'll learn more details about resources in future lessons.
 
  # Search Window
 
-This powerful tool allows you to search nearly anything within the editor. Perhaps its most important use is executing [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md).
+This powerful tool allows you to search nearly anything within the editor. Perhaps its most important use is executing [Commands](../../zilchmanual/editor/editorcommands/commands.md).
 
 
 
@@ -192,7 +192,7 @@ NOTE: To be "in" a window requires that the window has "focus". To gain focus yo
   - Press `Ctrl + Delete` to clear the console
 - In the `Level Window`
   - Press `Space`
- - Type the [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [SaveProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#saveproject)
+ - Type the [Command](../../zilchmanual/editor/editorcommands/commands.md) : [SaveProject](../../../code_reference/command_reference.md#saveproject)
  - Press `Enter`
 A message telling you the project was saved is displayed in the `Console Window`.
 When console output is referenced in future lessons it will be shown like this:
@@ -206,12 +206,12 @@ Saved : Project and all scripts saved.
  # Game Window
 
 The `Game Window` is where your game actually runs inside the Zilch Engine editor. You can test or play your game (or specific levels) here without having to create an executable. 
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md): [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md): [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 There are multiple ways to run the game in the editor.
  - Press key `F5` on the keyboard 
  - Press the Play button button in the `Tool Bar`
- - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+ - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - `Project Menu  > Play Game`
 
 The `Game Window` tab should appear in a tab next to the Level Window tab:
@@ -227,7 +227,7 @@ The `Game Window` should not show anything but a blank screen right now because 
 
 
 -  Close the `Game Window` by pressing the `X` button on the Game tab
-- You can also press `Esc` or use [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md): [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- You can also press `Esc` or use [Command](../../zilchmanual/editor/editorcommands/commands.md): [ StopGame](../../../code_reference/command_reference.md#stopgame)
   It is a good practice to close your game window promptly. Editing levels while the `Game Window` is open can cause erratic behavior, undefined behavior, or errors. 
 - Click on the Level tab to return to the `Level Window`
 
@@ -280,30 +280,30 @@ You may have noticed that you can play, pause, step through, and stop your game 
 ![menubar](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/1436.png)
 
 The menu bar includes commands for project manipulation and exporting your game under `File`, quick create options for getting things on the screen fast under `Create`, and the ability to reopen closed windows via `Windows`.
-See [Executing Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) for information.
+See [Executing Commands](../../zilchmanual/editor/editorcommands/commands.md) for information.
 
  # Related Materials
 
  ## Manual
-- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.md)
-- [ Nada User Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+- [Components](../../zilchmanual/architecture/components.md)
+- [ Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
 
  ##  Tutorials
-- [BasicComponents](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/architecture/basiccomponents.md)
-- [CustomComponents](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/customcomponents.md)
+- [BasicComponents](../architecture/basiccomponents.md)
+- [CustomComponents](../scripting/customcomponents.md)
 
  ## Reference
  ### Classes
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [NadaScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadascript.md)
-- [ Console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [Sprite](../../../code_reference/class_reference/sprite.md)
+- [NadaScript](../../../code_reference/class_reference/nadascript.md)
+- [ Console](../../../code_reference/nada_base_types/console.md)
 
  ### Commands
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
-- [New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
-- [SaveProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#saveproject)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [New Project](../../../code_reference/command_reference.md#newproject)
+- [SaveProject](../../../code_reference/command_reference.md#saveproject)
  
 
  

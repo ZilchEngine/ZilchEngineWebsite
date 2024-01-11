@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChangeSet](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revision.md#changeset-zilch-engine-do)| | |
-| |[ Date](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revision.md#date-zilch-engine-documen)| | |
-| |[ Summary](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revision.md#summary-zilch-engine-docu)| | |
-| |[ User](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revision.md#user-zilch-engine-documen)| | |
+| |[ ChangeSet](revision.md#changeset-zilch-engine-do)| | |
+| |[ Date](revision.md#date-zilch-engine-documen)| | |
+| |[ Summary](revision.md#summary-zilch-engine-docu)| | |
+| |[ User](revision.md#user-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  ChangeSet : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ChangeSet : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Date : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Date : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  Summary : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Summary : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  User : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  User : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

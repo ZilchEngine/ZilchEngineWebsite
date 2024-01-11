@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/events.md#connect-void)| | | |
-|[ Send](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/events.md#send-zilch-engine-documen)| | | |
+|[ Connect](events.md#connect-void)| | | |
+|[ Send](events.md#send-zilch-engine-documen)| | | |
 
 
  #  Properties
@@ -21,8 +21,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |sender|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
-> |eventName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |sender|[anyhandle](anyhandle.md)| |
+> |eventName|[string](string.md)| |
 > |callback|delegate()| |
 > ``` lang=cpp, name=Nada
 > function Connect(sender : AnyHandle, eventName : String, callback : delegate())
@@ -30,16 +30,16 @@
 
 
 ---  
- #  Send : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Send : [integer](integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |sender|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
-> |eventName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[eventdata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/eventdata.md)| |
+> |sender|[anyhandle](anyhandle.md)| |
+> |eventName|[string](string.md)| |
+> |event|[eventdata](eventdata.md)| |
 > ``` lang=cpp, name=Nada
 > function Send(sender : AnyHandle, eventName : String, event : EventData) : Integer
 > ``` 

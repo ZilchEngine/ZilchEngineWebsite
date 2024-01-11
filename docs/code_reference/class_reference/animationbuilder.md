@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationbuilder.md#animationbuilder-void)|[ Clips](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationbuilder.md#clips-zilch-engine-docume)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.md)| |
+|[ Constructor](animationbuilder.md#animationbuilder-void)|[ Clips](animationbuilder.md#clips-zilch-engine-docume)|[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Clips : [animationclips](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationclips.md)
+ #  Clips : [animationclips](animationclips.md)
 
 > 
 > ``` lang=cpp, name=Nada

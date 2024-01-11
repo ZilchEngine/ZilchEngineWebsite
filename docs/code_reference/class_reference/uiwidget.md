@@ -4,69 +4,69 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CastPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#castpoint-zilch-engine-do)|[ AbsoluteMinSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#absoluteminsize-zilch-eng)|[uiwidgetcomponenthierarchy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md)|[uirootwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md)|
-|[ CastRect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#castrect-zilch-engine-doc)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#active-zilch-engine-docum)| | |
-|[ LoseFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#losefocus-void)|[ CanTakeFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#cantakefocus-zilch-engine)| | |
-|[ MarkAsNeedsUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#markasneedsupdate-void)|[ ClipChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#clipchildren-zilch-engine)| | |
-|[ SetLocalLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#setlocallocation-void)|[ DockMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#dockmode-zilch-engine-doc)| | |
-|[ SetWorldLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#setworldlocation-void)|[ FlexSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#flexsize-zilch-engine-doc)| | |
-|[ SizeToContents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#sizetocontents-void)|[ HasFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#hasfocus-zilch-engine-doc)| | |
-|[ TabJump](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#tabjump-zilch-engine-docu)|[ HierarchyColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#hierarchycolor-zilch-engi)| | |
-|[ TabJumpDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#tabjumpdirection-void)|[ HierarchyHasFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#hierarchyhasfocus-zilch-e)| | |
-|[ TakeFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#takefocus-void)|[ HorizontalAlignment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#horizontalalignment-zero)| | |
-|[ TransformPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#transformpoint-zilch-engi)|[ InLayout](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#inlayout-zilch-engine-doc)| | |
-|[ TransformPointInverse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#transformpointinverse-ze)|[ Interactive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#interactive-zilch-engine)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#uiwidget-void)|[ LocalBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localbottom-zilch-engine)| | |
-|[ Update](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#update-void)|[ LocalBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localbottomcenter-zilch-e)| | |
-| |[ LocalBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localbottomleft-zilch-eng)| | |
-| |[ LocalBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localbottomright-zilch-en)| | |
-| |[ LocalCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localcenter-zilch-engine)| | |
-| |[ LocalCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localcenterleft-zilch-eng)| | |
-| |[ LocalCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localcenterright-zilch-en)| | |
-| |[ LocalColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localcolor-zilch-engine-d)| | |
-| |[ LocalLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localleft-zilch-engine-do)| | |
-| |[ LocalRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localrectangle-zilch-engi)| | |
-| |[ LocalRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localright-zilch-engine-d)| | |
-| |[ LocalTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localtop-zilch-engine-doc)| | |
-| |[ LocalTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localtopcenter-zilch-engi)| | |
-| |[ LocalTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localtopleft-zilch-engine)| | |
-| |[ LocalTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localtopright-zilch-engin)| | |
-| |[ LocalTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#localtranslation-zilch-en)| | |
-| |[ MarginBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#marginbottom-zilch-engine)| | |
-| |[ MarginLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#marginleft-zilch-engine-d)| | |
-| |[ MarginRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#marginright-zilch-engine)| | |
-| |[ MarginTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#margintop-zilch-engine-do)| | |
-| |[ MouseOver](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#mouseover-zilch-engine-do)| | |
-| |[ MouseOverHierarchy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#mouseoverhierarchy-zero)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#ontop-zilch-engine-docume)| | |
-| |[ Root](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#root-zilch-engine-documen)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#size-zilch-engine-documen)| | |
-| |[ SizePolicyX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#sizepolicyx-zilch-engine)| | |
-| |[ SizePolicyY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#sizepolicyy-zilch-engine)| | |
-| |[ VerticalAlignment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#verticalalignment-zilch-e)| | |
-| |[ Visible](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#visible-zilch-engine-docu)| | |
-| |[ WorldBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldbottom-zilch-engine)| | |
-| |[ WorldBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldbottomcenter-zilch-e)| | |
-| |[ WorldBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldbottomleft-zilch-eng)| | |
-| |[ WorldBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldbottomright-zilch-en)| | |
-| |[ WorldCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldcenter-zilch-engine)| | |
-| |[ WorldCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldcenterleft-zilch-eng)| | |
-| |[ WorldCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldcenterright-zilch-en)| | |
-| |[ WorldLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldleft-zilch-engine-do)| | |
-| |[ WorldRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldrectangle-zilch-engi)| | |
-| |[ WorldRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldright-zilch-engine-d)| | |
-| |[ WorldTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldtop-zilch-engine-doc)| | |
-| |[ WorldTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldtopcenter-zilch-engi)| | |
-| |[ WorldTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldtopleft-zilch-engine)| | |
-| |[ WorldTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldtopright-zilch-engin)| | |
-| |[ WorldTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md#worldtranslation-zilch-en)| | |
+|[ CastPoint](uiwidget.md#castpoint-zilch-engine-do)|[ AbsoluteMinSize](uiwidget.md#absoluteminsize-zilch-eng)|[uiwidgetcomponenthierarchy](uiwidgetcomponenthierarchy.md)|[uirootwidget](uirootwidget.md)|
+|[ CastRect](uiwidget.md#castrect-zilch-engine-doc)|[ Active](uiwidget.md#active-zilch-engine-docum)| | |
+|[ LoseFocus](uiwidget.md#losefocus-void)|[ CanTakeFocus](uiwidget.md#cantakefocus-zilch-engine)| | |
+|[ MarkAsNeedsUpdate](uiwidget.md#markasneedsupdate-void)|[ ClipChildren](uiwidget.md#clipchildren-zilch-engine)| | |
+|[ SetLocalLocation](uiwidget.md#setlocallocation-void)|[ DockMode](uiwidget.md#dockmode-zilch-engine-doc)| | |
+|[ SetWorldLocation](uiwidget.md#setworldlocation-void)|[ FlexSize](uiwidget.md#flexsize-zilch-engine-doc)| | |
+|[ SizeToContents](uiwidget.md#sizetocontents-void)|[ HasFocus](uiwidget.md#hasfocus-zilch-engine-doc)| | |
+|[ TabJump](uiwidget.md#tabjump-zilch-engine-docu)|[ HierarchyColor](uiwidget.md#hierarchycolor-zilch-engi)| | |
+|[ TabJumpDirection](uiwidget.md#tabjumpdirection-void)|[ HierarchyHasFocus](uiwidget.md#hierarchyhasfocus-zilch-e)| | |
+|[ TakeFocus](uiwidget.md#takefocus-void)|[ HorizontalAlignment](uiwidget.md#horizontalalignment-zero)| | |
+|[ TransformPoint](uiwidget.md#transformpoint-zilch-engi)|[ InLayout](uiwidget.md#inlayout-zilch-engine-doc)| | |
+|[ TransformPointInverse](uiwidget.md#transformpointinverse-ze)|[ Interactive](uiwidget.md#interactive-zilch-engine)| | |
+|[ Constructor](uiwidget.md#uiwidget-void)|[ LocalBottom](uiwidget.md#localbottom-zilch-engine)| | |
+|[ Update](uiwidget.md#update-void)|[ LocalBottomCenter](uiwidget.md#localbottomcenter-zilch-e)| | |
+| |[ LocalBottomLeft](uiwidget.md#localbottomleft-zilch-eng)| | |
+| |[ LocalBottomRight](uiwidget.md#localbottomright-zilch-en)| | |
+| |[ LocalCenter](uiwidget.md#localcenter-zilch-engine)| | |
+| |[ LocalCenterLeft](uiwidget.md#localcenterleft-zilch-eng)| | |
+| |[ LocalCenterRight](uiwidget.md#localcenterright-zilch-en)| | |
+| |[ LocalColor](uiwidget.md#localcolor-zilch-engine-d)| | |
+| |[ LocalLeft](uiwidget.md#localleft-zilch-engine-do)| | |
+| |[ LocalRectangle](uiwidget.md#localrectangle-zilch-engi)| | |
+| |[ LocalRight](uiwidget.md#localright-zilch-engine-d)| | |
+| |[ LocalTop](uiwidget.md#localtop-zilch-engine-doc)| | |
+| |[ LocalTopCenter](uiwidget.md#localtopcenter-zilch-engi)| | |
+| |[ LocalTopLeft](uiwidget.md#localtopleft-zilch-engine)| | |
+| |[ LocalTopRight](uiwidget.md#localtopright-zilch-engin)| | |
+| |[ LocalTranslation](uiwidget.md#localtranslation-zilch-en)| | |
+| |[ MarginBottom](uiwidget.md#marginbottom-zilch-engine)| | |
+| |[ MarginLeft](uiwidget.md#marginleft-zilch-engine-d)| | |
+| |[ MarginRight](uiwidget.md#marginright-zilch-engine)| | |
+| |[ MarginTop](uiwidget.md#margintop-zilch-engine-do)| | |
+| |[ MouseOver](uiwidget.md#mouseover-zilch-engine-do)| | |
+| |[ MouseOverHierarchy](uiwidget.md#mouseoverhierarchy-zero)| | |
+| |[ OnTop](uiwidget.md#ontop-zilch-engine-docume)| | |
+| |[ Root](uiwidget.md#root-zilch-engine-documen)| | |
+| |[ Size](uiwidget.md#size-zilch-engine-documen)| | |
+| |[ SizePolicyX](uiwidget.md#sizepolicyx-zilch-engine)| | |
+| |[ SizePolicyY](uiwidget.md#sizepolicyy-zilch-engine)| | |
+| |[ VerticalAlignment](uiwidget.md#verticalalignment-zilch-e)| | |
+| |[ Visible](uiwidget.md#visible-zilch-engine-docu)| | |
+| |[ WorldBottom](uiwidget.md#worldbottom-zilch-engine)| | |
+| |[ WorldBottomCenter](uiwidget.md#worldbottomcenter-zilch-e)| | |
+| |[ WorldBottomLeft](uiwidget.md#worldbottomleft-zilch-eng)| | |
+| |[ WorldBottomRight](uiwidget.md#worldbottomright-zilch-en)| | |
+| |[ WorldCenter](uiwidget.md#worldcenter-zilch-engine)| | |
+| |[ WorldCenterLeft](uiwidget.md#worldcenterleft-zilch-eng)| | |
+| |[ WorldCenterRight](uiwidget.md#worldcenterright-zilch-en)| | |
+| |[ WorldLeft](uiwidget.md#worldleft-zilch-engine-do)| | |
+| |[ WorldRectangle](uiwidget.md#worldrectangle-zilch-engi)| | |
+| |[ WorldRight](uiwidget.md#worldright-zilch-engine-d)| | |
+| |[ WorldTop](uiwidget.md#worldtop-zilch-engine-doc)| | |
+| |[ WorldTopCenter](uiwidget.md#worldtopcenter-zilch-engi)| | |
+| |[ WorldTopLeft](uiwidget.md#worldtopleft-zilch-engine)| | |
+| |[ WorldTopRight](uiwidget.md#worldtopright-zilch-engin)| | |
+| |[ WorldTranslation](uiwidget.md#worldtranslation-zilch-en)| | |
 
 
  #  Properties
 
 
 ---  
- #  AbsoluteMinSize : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  AbsoluteMinSize : [real2](../nada_base_types/real2.md)
 
 > The minimum size this widget has to be when being laid out.
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Active getter / setter.
 > ``` lang=cpp, name=Nada
@@ -82,7 +82,7 @@
 
 
 ---  
- #  CanTakeFocus : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanTakeFocus : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -90,7 +90,7 @@
 
 
 ---  
- #  ClipChildren : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ClipChildren : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -98,7 +98,7 @@
 
 
 ---  
- #  DockMode : [UiDockMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#uidockmode)
+ #  DockMode : [UiDockMode](../enum_reference.md#uidockmode)
 
 > Used in the dock layout.
 > ``` lang=cpp, name=Nada
@@ -106,7 +106,7 @@
 
 
 ---  
- #  FlexSize : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  FlexSize : [real2](../nada_base_types/real2.md)
 
 > Flex size used in conjunction with mSizePolicy (if FlexSize is set).
 > ``` lang=cpp, name=Nada
@@ -114,7 +114,7 @@
 
 
 ---  
- #  HasFocus : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HasFocus : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -124,7 +124,7 @@
 
 
 ---  
- #  HierarchyColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  HierarchyColor : [real4](../nada_base_types/real4.md)
 
 > Color that cascades down to children.
 > ``` lang=cpp, name=Nada
@@ -132,7 +132,7 @@
 
 
 ---  
- #  HierarchyHasFocus : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HierarchyHasFocus : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -142,7 +142,7 @@
 
 
 ---  
- #  HorizontalAlignment : [UiHorizontalAlignment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#uihorizontalalignment)
+ #  HorizontalAlignment : [UiHorizontalAlignment](../enum_reference.md#uihorizontalalignment)
 
 > Alignments used to shift widgets when in a layout.
 > ``` lang=cpp, name=Nada
@@ -150,7 +150,7 @@
 
 
 ---  
- #  InLayout : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  InLayout : [boolean](../nada_base_types/boolean.md)
 
 > If true, we will be ignored when our parent updates the layout. Disable this if you want to manually place this widget.
 > ``` lang=cpp, name=Nada
@@ -158,7 +158,7 @@
 
 
 ---  
- #  Interactive : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Interactive : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -166,7 +166,7 @@
 
 
 ---  
- #  LocalBottom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalBottom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -174,7 +174,7 @@
 
 
 ---  
- #  LocalBottomCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalBottomCenter : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -182,7 +182,7 @@
 
 
 ---  
- #  LocalBottomLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalBottomLeft : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -190,7 +190,7 @@
 
 
 ---  
- #  LocalBottomRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalBottomRight : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -198,7 +198,7 @@
 
 
 ---  
- #  LocalCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalCenter : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -206,7 +206,7 @@
 
 
 ---  
- #  LocalCenterLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalCenterLeft : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -214,7 +214,7 @@
 
 
 ---  
- #  LocalCenterRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalCenterRight : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -222,7 +222,7 @@
 
 
 ---  
- #  LocalColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LocalColor : [real4](../nada_base_types/real4.md)
 
 > Color that does not cascade to children. It is, however, affected by the parents color.
 > ``` lang=cpp, name=Nada
@@ -230,7 +230,7 @@
 
 
 ---  
- #  LocalLeft : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalLeft : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -238,7 +238,7 @@
 
 
 ---  
- #  LocalRectangle : [rectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rectangle.md)
+ #  LocalRectangle : [rectangle](rectangle.md)
 
 > Returns our rect relative to parent. The origin of this Rect is bottom left.
 > ``` lang=cpp, name=Nada
@@ -246,7 +246,7 @@
 
 
 ---  
- #  LocalRight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalRight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -254,7 +254,7 @@
 
 
 ---  
- #  LocalTop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalTop : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -262,7 +262,7 @@
 
 
 ---  
- #  LocalTopCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalTopCenter : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -270,7 +270,7 @@
 
 
 ---  
- #  LocalTopLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalTopLeft : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -278,7 +278,7 @@
 
 
 ---  
- #  LocalTopRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalTopRight : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -286,7 +286,7 @@
 
 
 ---  
- #  LocalTranslation : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalTranslation : [real2](../nada_base_types/real2.md)
 
 > Local Translation relative to parent.
 > ``` lang=cpp, name=Nada
@@ -294,7 +294,7 @@
 
 
 ---  
- #  MarginBottom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MarginBottom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -302,7 +302,7 @@
 
 
 ---  
- #  MarginLeft : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MarginLeft : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -310,7 +310,7 @@
 
 
 ---  
- #  MarginRight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MarginRight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -318,7 +318,7 @@
 
 
 ---  
- #  MarginTop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MarginTop : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -326,7 +326,7 @@
 
 
 ---  
- #  MouseOver : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MouseOver : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -336,7 +336,7 @@
 
 
 ---  
- #  MouseOverHierarchy : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MouseOverHierarchy : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -346,7 +346,7 @@
 
 
 ---  
- #  OnTop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -354,7 +354,7 @@
 
 
 ---  
- #  Root : [uirootwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uirootwidget.md)
+ #  Root : [uirootwidget](uirootwidget.md)
 
  `read-only`
 
@@ -364,7 +364,7 @@
 
 
 ---  
- #  Size : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Size : [real2](../nada_base_types/real2.md)
 
 > Size getter / setter. This acts as a shortcut to the Area Component.
 > ``` lang=cpp, name=Nada
@@ -372,7 +372,7 @@
 
 
 ---  
- #  SizePolicyX : [UiSizePolicy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#uisizepolicy)
+ #  SizePolicyX : [UiSizePolicy](../enum_reference.md#uisizepolicy)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -380,7 +380,7 @@
 
 
 ---  
- #  SizePolicyY : [UiSizePolicy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#uisizepolicy)
+ #  SizePolicyY : [UiSizePolicy](../enum_reference.md#uisizepolicy)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -388,7 +388,7 @@
 
 
 ---  
- #  VerticalAlignment : [UiVerticalAlignment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#uiverticalalignment)
+ #  VerticalAlignment : [UiVerticalAlignment](../enum_reference.md#uiverticalalignment)
 
 > Alignments used to shift widgets when in a layout.
 > ``` lang=cpp, name=Nada
@@ -396,7 +396,7 @@
 
 
 ---  
- #  Visible : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Visible : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -404,7 +404,7 @@
 
 
 ---  
- #  WorldBottom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldBottom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -412,7 +412,7 @@
 
 
 ---  
- #  WorldBottomCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldBottomCenter : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -420,7 +420,7 @@
 
 
 ---  
- #  WorldBottomLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldBottomLeft : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -428,7 +428,7 @@
 
 
 ---  
- #  WorldBottomRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldBottomRight : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -436,7 +436,7 @@
 
 
 ---  
- #  WorldCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldCenter : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -444,7 +444,7 @@
 
 
 ---  
- #  WorldCenterLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldCenterLeft : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -452,7 +452,7 @@
 
 
 ---  
- #  WorldCenterRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldCenterRight : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -460,7 +460,7 @@
 
 
 ---  
- #  WorldLeft : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldLeft : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -468,7 +468,7 @@
 
 
 ---  
- #  WorldRectangle : [rectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rectangle.md)
+ #  WorldRectangle : [rectangle](rectangle.md)
 
 > Returns our world rect. The origin of this Rect is bottom left.
 > ``` lang=cpp, name=Nada
@@ -476,7 +476,7 @@
 
 
 ---  
- #  WorldRight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldRight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -484,7 +484,7 @@
 
 
 ---  
- #  WorldTop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldTop : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -492,7 +492,7 @@
 
 
 ---  
- #  WorldTopCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldTopCenter : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -500,7 +500,7 @@
 
 
 ---  
- #  WorldTopLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldTopLeft : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -508,7 +508,7 @@
 
 
 ---  
- #  WorldTopRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldTopRight : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -516,7 +516,7 @@
 
 
 ---  
- #  WorldTranslation : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldTranslation : [real2](../nada_base_types/real2.md)
 
 > Translation in world space.
 > ``` lang=cpp, name=Nada
@@ -528,28 +528,28 @@
 
 
 ---  
- #  CastPoint : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  CastPoint : [uiwidget](uiwidget.md)
 
 > Finds the Widget at the given point. All Widgets bellow and including the 'ignore' widget will not be included. The ignore was added for trying to find the widget underneath a dragging window. The window is directly under the mouse, so we want to ignore it.
 > |Name|Type|Description|
 > |---|---|---|
-> |worldPoint|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> |ignore|[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)| |
-> |interactiveOnly|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |worldPoint|[real2](../nada_base_types/real2.md)| |
+> |ignore|[uiwidget](uiwidget.md)| |
+> |interactiveOnly|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function CastPoint(worldPoint : Real2, ignore : UiWidget, interactiveOnly : Boolean) : UiWidget
 > ``` 
 
 
 ---  
- #  CastRect : [uiwidgetcastresultsrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.md)
+ #  CastRect : [uiwidgetcastresultsrange](uiwidgetcastresultsrange.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |worldRect|[rectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rectangle.md)| |
-> |ignore|[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)| |
-> |interactiveOnly|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |worldRect|[rectangle](rectangle.md)| |
+> |ignore|[uiwidget](uiwidget.md)| |
+> |interactiveOnly|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function CastRect(worldRect : Rectangle, ignore : UiWidget, interactiveOnly : Boolean) : UiWidgetCastResultsRange
 > ``` 
@@ -583,8 +583,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |location|[Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)| |
-> |localTranslation|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |location|[Location](../enum_reference.md#location)| |
+> |localTranslation|[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function SetLocalLocation(location : Location, localTranslation : Real2)
 > ``` 
@@ -596,8 +596,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |location|[Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)| |
-> |worldTranslation|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |location|[Location](../enum_reference.md#location)| |
+> |worldTranslation|[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldLocation(location : Location, worldTranslation : Real2)
 > ``` 
@@ -615,12 +615,12 @@
 
 
 ---  
- #  TabJump : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  TabJump : [boolean](../nada_base_types/boolean.md)
 
 > Changes focus to the next applicable widget in the direction based on the key pressed in the given keyboard event.
 > |Name|Type|Description|
 > |---|---|---|
-> |e|[keyboardevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md)| |
+> |e|[keyboardevent](keyboardevent.md)| |
 > ``` lang=cpp, name=Nada
 > function TabJump(e : KeyboardEvent) : Boolean
 > ``` 
@@ -632,7 +632,7 @@
 > Changes focus to the next applicable widget in the given direction.
 > |Name|Type|Description|
 > |---|---|---|
-> |direction|[UiFocusDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#uifocusdirection)| |
+> |direction|[UiFocusDirection](../enum_reference.md#uifocusdirection)| |
 > ``` lang=cpp, name=Nada
 > function TabJumpDirection(direction : UiFocusDirection)
 > ``` 
@@ -650,24 +650,24 @@
 
 
 ---  
- #  TransformPoint : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  TransformPoint : [real2](../nada_base_types/real2.md)
 
 > Transforms a local point into world space.
 > |Name|Type|Description|
 > |---|---|---|
-> |localPosition|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |localPosition|[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformPoint(localPosition : Real2) : Real2
 > ``` 
 
 
 ---  
- #  TransformPointInverse : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  TransformPointInverse : [real2](../nada_base_types/real2.md)
 
 > Transforms a world point into this Widget's local space. Note, this is not the same space as LocalTranslation. LocalTranslation is in this Widget's parent space.
 > |Name|Type|Description|
 > |---|---|---|
-> |worldPosition|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |worldPosition|[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformPointInverse(worldPosition : Real2) : Real2
 > ``` 
@@ -692,7 +692,7 @@
 > Handles the updating of this Widget and the child Widgets. Once called, it will update the internal TransformUpdateState.
 > |Name|Type|Description|
 > |---|---|---|
-> |e|[uitransformupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uitransformupdateevent.md)| |
+> |e|[uitransformupdateevent](uitransformupdateevent.md)| |
 > ``` lang=cpp, name=Nada
 > function Update(e : UiTransformUpdateEvent)
 > ``` 

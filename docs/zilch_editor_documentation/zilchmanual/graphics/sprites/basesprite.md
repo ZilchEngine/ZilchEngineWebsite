@@ -1,7 +1,7 @@
-While not being a class that is directly accessed by the User, both the Sprite class and the [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.md) class inherit directly from the BaseSprite class, making it an important class on its own. Any of the Properties of the BaseSprite class can be directly used by either Sprites or SpriteText, changing many of the visual aspects of the Object. 
+While not being a class that is directly accessed by the User, both the Sprite class and the [SpriteText](spritetext.md) class inherit directly from the BaseSprite class, making it an important class on its own. Any of the Properties of the BaseSprite class can be directly used by either Sprites or SpriteText, changing many of the visual aspects of the Object. 
 
  # Using the Color Picker
-The base color of a  [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/sprite.md)  can be changed in several different methods:
+The base color of a  [Sprite](../../../code_reference/class_reference/sprite.md)  can be changed in several different methods:
 
  - Entering the Hex Code of the desired color into the Color Picker. For example, `FF0000` for Red. 
  - Click and Drag the Eye Dropper tool onto the desired color on screen.
@@ -37,7 +37,7 @@ Depending on the current parameter chosen the Color Picker will change how it lo
 Using these the color can be changed to any shade needed. Alternately if either the HSV or RGB values are known, they can also simply be typed in. 
 
  # Alpha Blending
-When using alpha blending, a renderpass must be performed with the appropriate blendsettings set.  The [DeferredRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer.md) performs an linearly interpolating blend by default using the AlphaBlend resource [RenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/rendergroups.md).  Since the AlphaSprite resource [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md) is already in AlphaBlend resource, setting the alpha value of the VertexColor  is sufficient in making transparent sprites.  Additive blending is also available through the alternative AdditiveBlend resource RenderGroup.
+When using alpha blending, a renderpass must be performed with the appropriate blendsettings set.  The [DeferredRenderer](../renderer.md) performs an linearly interpolating blend by default using the AlphaBlend resource [RenderGroup](../rendergroups.md).  Since the AlphaSprite resource [Material](../materials/materials_overview.md) is already in AlphaBlend resource, setting the alpha value of the VertexColor  is sufficient in making transparent sprites.  Additive blending is also available through the alternative AdditiveBlend resource RenderGroup.
 
 
 
@@ -53,14 +53,14 @@ When using alpha blending, a renderpass must be performed with the appropriate b
  # Related Materials
  ## Manual
 
-- {icon university}[[[Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/sprite.md)
-- [spritetext](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.md)
-- [DeferredRenderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer.md)
-- [RenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/rendergroups.md)
-- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md)
+- {icon university}[[[Sprite](../../../code_reference/class_reference/sprite.md)
+- [spritetext](spritetext.md)
+- [DeferredRenderer](../renderer.md)
+- [RenderGroup](../rendergroups.md)
+- [Material](../materials/materials_overview.md)
 
  ## Code Reference
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/sprite.md)
-- [BaseSprite Code Reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/basesprite.md) 
+- [Sprite](../../../code_reference/class_reference/sprite.md)
+- [BaseSprite Code Reference](../../../code_reference/class_reference/basesprite.md) 
 
  

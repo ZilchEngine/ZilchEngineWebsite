@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuggraphicaltext.md#debuggraphicaltext-void)| |[debuggraphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuggraphical.md)| |
+|[ Constructor](debuggraphicaltext.md#debuggraphicaltext-void)| |[debuggraphical](debuggraphical.md)| |
 
 
  #  Properties

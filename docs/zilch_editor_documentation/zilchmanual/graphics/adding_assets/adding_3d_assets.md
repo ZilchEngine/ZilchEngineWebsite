@@ -1,4 +1,4 @@
-3D assets, such as models, model animations, and images to be used on a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md), are added as [Resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.md) in the form of [meshes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md), [animations](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.md), and [textures](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md). The preferred file format for 3D assets is `.fbx` for models and animations (though Zilch does accept a number of other formats such as`.obj`, `.3ds`, `.blend`, etc...) and `.png` for textures. See [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md) for how to import data files into Zilch.
+3D assets, such as models, model animations, and images to be used on a [Material](../materials/materials_overview.md), are added as [Resources](../../architecture/resources.md) in the form of [meshes](../../../../code_reference/class_reference/mesh.md), [animations](../../../../code_reference/class_reference/animation.md), and [textures](../../../../code_reference/class_reference/texture.md). The preferred file format for 3D assets is `.fbx` for models and animations (though Zilch does accept a number of other formats such as`.obj`, `.3ds`, `.blend`, etc...) and `.png` for textures. See [resourceadding](../../editor/editorcommands/resourceadding.md) for how to import data files into Zilch.
 
  # Models and Model Animations
 
@@ -41,7 +41,7 @@ Setting this property will offset the mesh from it's origin by the value specifi
 
  ### ScaleConversion and ScaleFactor
 
-[ScaleConversion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#scaleconversion) changes the mesh's scaling convention from one unit of measurement to another. For example, if a modeling program exported using centimeters as the unit of measurement, but the rest of the game has been using meters, choosing `CentimetersToMeters` would scale the mesh to match the units of measurement used throughout the game. The factor by which each option scales an incoming mesh are listed here:
+[ScaleConversion](../../../../code_reference/enum_reference.md#scaleconversion) changes the mesh's scaling convention from one unit of measurement to another. For example, if a modeling program exported using centimeters as the unit of measurement, but the rest of the game has been using meters, choosing `CentimetersToMeters` would scale the mesh to match the units of measurement used throughout the game. The factor by which each option scales an incoming mesh are listed here:
 
 | ScaleConversion | Factor |
 |---|---|
@@ -90,15 +90,15 @@ TextureBuilder, on the other hand, is comprised of a number of modifiable proper
 
  ### Interpretation
 
-[Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturetype) sets whether a texture should be interpreted as a `Texture2D` or as a `TextureCube`. `TextureCube` is the [TextureType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturetype) that should be chosen when the image should be used as a skybox in the [renderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer.md). For any possible use, `Texture2D` should be chosen.
+[Type](../../../../code_reference/enum_reference.md#texturetype) sets whether a texture should be interpreted as a `Texture2D` or as a `TextureCube`. `TextureCube` is the [TextureType](../../../../code_reference/enum_reference.md#texturetype) that should be chosen when the image should be used as a skybox in the [renderer](../renderer.md). For any possible use, `Texture2D` should be chosen.
 
  ### Compression
 
-[Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecompression) sets the lossy, hardware-supported format to convert the texture to, if any. For a more detailed explanation, see [compression.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_3d_assets/compression.md).
+[Compression](../../../../code_reference/enum_reference.md#texturecompression) sets the lossy, hardware-supported format to convert the texture to, if any. For a more detailed explanation, see [compression.md](adding_3d_assets/compression.md).
 
  ### Addressing
 
-[AddressingX and AddressingY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureaddressing) set how to address the texture whose uv fall outside of the range [0, 1]. The choices available are described in the table below:
+[AddressingX and AddressingY](../../../../code_reference/enum_reference.md#textureaddressing) set how to address the texture whose uv fall outside of the range [0, 1]. The choices available are described in the table below:
 
 | Enum Value | Description
 | -- | --
@@ -106,13 +106,13 @@ TextureBuilder, on the other hand, is comprised of a number of modifiable proper
 | Repeat | Wraps to the other side and continues to sample the image
 | Mirror | The texture is mirrored at the range boundaries
 
-[Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecompression), [Anisotropy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureanisotropy), and so on. Once imported, check these settings to make sure they have been set correctly.
+[Compression](../../../../code_reference/enum_reference.md#texturecompression), [Anisotropy](../../../../code_reference/enum_reference.md#textureanisotropy), and so on. Once imported, check these settings to make sure they have been set correctly.
 
  ### Sampling and Filtering
 
 Texture sampling is the process by which data is accessed from a texture. Given the near-infinite amount of positions, angles, and distance a texture may be viewed when placed on mesh within a level, as well as the computational limits of a real-time simulation, a number of different algorithms for how this data is accessed have been developed. These algorithms are the different methods of texture filtering.
 
-[Filtering](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturefiltering) describes how pixels from the texture are sampled when viewing the texture from different sizes. Filtering enum sets the algorithm by which to sample the texture. The choices available are:
+[Filtering](../../../../code_reference/enum_reference.md#texturefiltering) describes how pixels from the texture are sampled when viewing the texture from different sizes. Filtering enum sets the algorithm by which to sample the texture. The choices available are:
  - `Nearest` - Gets the closest pixel 
  - `Bilinear` - Get the four closest pixels and linearly blends between them
  - `Trilinear` - The same as Bilinear, but with an additional linear blend between mip levels.
@@ -127,13 +127,13 @@ GammaCorrection checkBox, when set to `true`, will correct the values of each in
  # Related Material
  ## Manual
 
-- [Models and Skinned Models](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md)
+- [Models and Skinned Models](../models/model_component.md)
 
  ## Code Reference
 
-- [Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/mesh.md)
-- [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/model.md)
-- [Skinned Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/skinnedmodel.md)
-- [Simple Animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/simpleanimation.md) 
+- [Mesh](../../../code_reference/class_reference/mesh.md)
+- [Model](../../../code_reference/class_reference/model.md)
+- [Skinned Model](../../../code_reference/class_reference/skinnedmodel.md)
+- [Simple Animation](../../../code_reference/class_reference/simpleanimation.md) 
 
  

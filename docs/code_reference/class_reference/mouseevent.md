@@ -6,23 +6,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsButtonUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#isbuttonup-zilch-engine-d)|[ AltPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#altpressed-zilch-engine-d)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)|[mousedragevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousedragevent.md)|
-| |[ Button](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#button-zilch-engine-docum)| |[mousefiledropevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousefiledropevent.md)|
-| |[ ButtonDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#buttondown-zilch-engine-d)| |[viewportmouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewportmouseevent.md)|
-| |[ CtrlPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#ctrlpressed-zilch-engine)| | |
-| |[ HandledEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#handledevent-zilch-engine)| | |
-| |[ Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#mouse-zilch-engine-docume)| | |
-| |[ Movement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#movement-zilch-engine-doc)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#position-zilch-engine-doc)| | |
-| |[ Scroll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#scroll-zilch-engine-docum)| | |
-| |[ ShiftPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md#shiftpressed-zilch-engine)| | |
+|[ IsButtonUp](mouseevent.md#isbuttonup-zilch-engine-d)|[ AltPressed](mouseevent.md#altpressed-zilch-engine-d)|[event](event.md)|[mousedragevent](mousedragevent.md)|
+| |[ Button](mouseevent.md#button-zilch-engine-docum)| |[mousefiledropevent](mousefiledropevent.md)|
+| |[ ButtonDown](mouseevent.md#buttondown-zilch-engine-d)| |[viewportmouseevent](viewportmouseevent.md)|
+| |[ CtrlPressed](mouseevent.md#ctrlpressed-zilch-engine)| | |
+| |[ HandledEvent](mouseevent.md#handledevent-zilch-engine)| | |
+| |[ Mouse](mouseevent.md#mouse-zilch-engine-docume)| | |
+| |[ Movement](mouseevent.md#movement-zilch-engine-doc)| | |
+| |[ Position](mouseevent.md#position-zilch-engine-doc)| | |
+| |[ Scroll](mouseevent.md#scroll-zilch-engine-docum)| | |
+| |[ ShiftPressed](mouseevent.md#shiftpressed-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  AltPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AltPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  Button : [MouseButtons](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#mousebuttons)
+ #  Button : [MouseButtons](../enum_reference.md#mousebuttons)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  ButtonDown : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ButtonDown : [boolean](../nada_base_types/boolean.md)
 
 > State of all the mouse buttons.
 > ``` lang=cpp, name=Nada
@@ -46,7 +46,7 @@
 
 
 ---  
- #  CtrlPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CtrlPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -54,7 +54,7 @@
 
 
 ---  
- #  HandledEvent : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HandledEvent : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -62,7 +62,7 @@
 
 
 ---  
- #  Mouse : [mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.md)
+ #  Mouse : [mouse](mouse.md)
 
  `read-only`
 
@@ -72,7 +72,7 @@
 
 
 ---  
- #  Movement : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Movement : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -80,7 +80,7 @@
 
 
 ---  
- #  Position : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Position : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -88,7 +88,7 @@
 
 
 ---  
- #  Scroll : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Scroll : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -96,7 +96,7 @@
 
 
 ---  
- #  ShiftPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShiftPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -108,12 +108,12 @@
 
 
 ---  
- #  IsButtonUp : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsButtonUp : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |button|[MouseButtons](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#mousebuttons)| |
+> |button|[MouseButtons](../enum_reference.md#mousebuttons)| |
 > ``` lang=cpp, name=Nada
 > function IsButtonUp(button : MouseButtons) : Boolean
 > ``` 

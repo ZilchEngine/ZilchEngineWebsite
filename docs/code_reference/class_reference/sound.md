@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Channels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.md#channels-zilch-engine-doc)|Resource| |
-| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.md#length-zilch-engine-docum)| | |
+| |[ Channels](sound.md#channels-zilch-engine-doc)|Resource| |
+| |[ Length](sound.md#length-zilch-engine-docum)| | |
 
 
  #  Properties
 
 
 ---  
- #  Channels : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Channels : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  Length : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Length : [real](../nada_base_types/real.md)
 
  `read-only`
 

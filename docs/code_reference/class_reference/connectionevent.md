@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Address](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.md#address-zilch-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)|[receiveddataevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/receiveddataevent.md)|
-| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.md#host-zilch-engine-documen)| | |
-| |[ Incoming](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.md#incoming-zilch-engine-doc)| | |
-| |[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.md#index-zilch-engine-docume)| | |
-| |[ Port](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/connectionevent.md#port-zilch-engine-documen)| | |
+| |[ Address](connectionevent.md#address-zilch-engine-docu)|[event](event.md)|[receiveddataevent](receiveddataevent.md)|
+| |[ Host](connectionevent.md#host-zilch-engine-documen)| | |
+| |[ Incoming](connectionevent.md#incoming-zilch-engine-doc)| | |
+| |[ Index](connectionevent.md#index-zilch-engine-docume)| | |
+| |[ Port](connectionevent.md#port-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Address : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Address : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Host : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Host : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Incoming : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Incoming : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  Index : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Index : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  Port : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Port : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

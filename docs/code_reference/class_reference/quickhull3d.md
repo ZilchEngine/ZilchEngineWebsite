@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#add-void)|[ Index](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#index-zilch-engine-docume)| | |
-|[ Build](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#build-zilch-engine-docume)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#mesh-zilch-engine-documen)| | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#clear-void)|[ ShowDebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#showdebugdraw-zilch-engin)| | |
-|[ Draw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#draw-void)| | | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md#quickhull3d-void)| | | |
+|[ Add](quickhull3d.md#add-void)|[ Index](quickhull3d.md#index-zilch-engine-docume)| | |
+|[ Build](quickhull3d.md#build-zilch-engine-docume)|[ Mesh](quickhull3d.md#mesh-zilch-engine-documen)| | |
+|[ Clear](quickhull3d.md#clear-void)|[ ShowDebugDraw](quickhull3d.md#showdebugdraw-zilch-engin)| | |
+|[ Draw](quickhull3d.md#draw-void)| | | |
+|[ Constructor](quickhull3d.md#quickhull3d-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Index : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Index : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Mesh : [indexedhalfedgemesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.md)
+ #  Mesh : [indexedhalfedgemesh](indexedhalfedgemesh.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  ShowDebugDraw : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowDebugDraw : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -46,14 +46,14 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |p0|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Real3)
 > ``` 
 
 
 ---  
- #  Build : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Build : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -106,7 +106,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[quickhull3d](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/quickhull3d.md)| |
+> |p0|[quickhull3d](quickhull3d.md)| |
 > ``` lang=cpp, name=Nada
 > function QuickHull3D(p0 : QuickHull3D)
 > ``` 

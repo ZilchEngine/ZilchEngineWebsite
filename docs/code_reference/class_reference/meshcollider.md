@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.md#meshcollider-void)|[ DrawEdges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.md#drawedges-zilch-engine-do)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)| |
-| |[ DrawFaceNormals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.md#drawfacenormals-zilch-eng)| | |
-| |[ DrawFaces](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.md#drawfaces-zilch-engine-do)| | |
-| |[ PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.md#physicsmesh-zilch-engine)| | |
+|[ Constructor](meshcollider.md#meshcollider-void)|[ DrawEdges](meshcollider.md#drawedges-zilch-engine-do)|[collider](collider.md)| |
+| |[ DrawFaceNormals](meshcollider.md#drawfacenormals-zilch-eng)| | |
+| |[ DrawFaces](meshcollider.md#drawfaces-zilch-engine-do)| | |
+| |[ PhysicsMesh](meshcollider.md#physicsmesh-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  DrawEdges : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DrawEdges : [boolean](../nada_base_types/boolean.md)
 
 > Whether to debug draw the edges of each triangle.
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  DrawFaceNormals : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DrawFaceNormals : [boolean](../nada_base_types/boolean.md)
 
 > Whether to debug draw the normals of each triangle.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  DrawFaces : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DrawFaces : [boolean](../nada_base_types/boolean.md)
 
 > Whether to debug draw the faces of each triangle.
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  PhysicsMesh : [physicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md)
+ #  PhysicsMesh : [physicsmesh](physicsmesh.md)
 
 > The mesh resource used to define collision. This mesh is just a surface mesh of triangles (no volume is defined).
 > ``` lang=cpp, name=Nada

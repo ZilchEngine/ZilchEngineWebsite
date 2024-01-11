@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md#runtimeclone-zilch-engine)|[ CompositionLabel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md#compositionlabel-zilch-en)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.md)| |
-| |[ ReferencedByList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md#referencedbylist-zilch-en)| | |
-| |[ RenderGroups](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md#rendergroups-zilch-engine)| | |
+|[ RuntimeClone](material.md#runtimeclone-zilch-engine)|[ CompositionLabel](material.md#compositionlabel-zilch-en)|[dataresource](dataresource.md)| |
+| |[ ReferencedByList](material.md#referencedbylist-zilch-en)| | |
+| |[ RenderGroups](material.md#rendergroups-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  CompositionLabel : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  CompositionLabel : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  ReferencedByList : [rendergrouplist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergrouplist.md)
+ #  ReferencedByList : [rendergrouplist](rendergrouplist.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  RenderGroups : [rendergrouplist](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergrouplist.md)
+ #  RenderGroups : [rendergrouplist](rendergrouplist.md)
 
  `read-only`
 
@@ -49,7 +49,7 @@
 
 
 ---  
- #  RuntimeClone : [material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md)
+ #  RuntimeClone : [material](material.md)
 
 > Creates an anonymous copy that can be independently modified, destroyed when all references are gone.
 > |Name|Type|Description|

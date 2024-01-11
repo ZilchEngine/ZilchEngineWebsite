@@ -7,7 +7,7 @@ The `Add a Resource` window is the interface by which all new Resources added. T
 
 The Add command can be invoked in two different ways:
 
-1. [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add)
+1. [ Command](commands.md) : [ Add Resource](../../../../code_reference/command_reference.md#add)
 
 2. In the Menu bar `Resource  > Add`
 
@@ -40,10 +40,10 @@ When using the Add Command, however, the type of Resource desired must first be 
 
  # Related Materials
  ## Manual
-- [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands.md)
+- [Command](../editorcommands.md)
 
  ## Reference
  ### Commands
-- [ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add) 
+- [ Add](../../../../code_reference/command_reference.md#add) 
 
  

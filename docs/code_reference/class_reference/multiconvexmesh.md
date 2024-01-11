@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#createruntime-zilch-engin)|[ Modified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#modified-zilch-engine-doc)|Resource| |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#runtimeclone-zilch-engine)|[ SubMeshes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#submeshes-zilch-engine-do)| | |
-|[ UpdateAndNotifyIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#updateandnotifyifmodifie)|[ Valid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#valid-zilch-engine-docume)| | |
-|[ Validate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#validate-zilch-engine-doc)|[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md#vertices-zilch-engine-doc)| | |
+|[ CreateRuntime](multiconvexmesh.md#createruntime-zilch-engin)|[ Modified](multiconvexmesh.md#modified-zilch-engine-doc)|Resource| |
+|[ RuntimeClone](multiconvexmesh.md#runtimeclone-zilch-engine)|[ SubMeshes](multiconvexmesh.md#submeshes-zilch-engine-do)| | |
+|[ UpdateAndNotifyIfModified](multiconvexmesh.md#updateandnotifyifmodifie)|[ Valid](multiconvexmesh.md#valid-zilch-engine-docume)| | |
+|[ Validate](multiconvexmesh.md#validate-zilch-engine-doc)|[ Vertices](multiconvexmesh.md#vertices-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  Modified : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Modified : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  SubMeshes : [multiconvexmeshsubmeshdata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.md)
+ #  SubMeshes : [multiconvexmeshsubmeshdata](multiconvexmeshsubmeshdata.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Valid : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Valid : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  Vertices : [multiconvexmeshvertexdata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexdata.md)
+ #  Vertices : [multiconvexmeshvertexdata](multiconvexmeshvertexdata.md)
 
  `read-only`
 
@@ -60,7 +60,7 @@
 
 
 ---  
- #  CreateRuntime : [multiconvexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md)
+ #  CreateRuntime : [multiconvexmesh](multiconvexmesh.md)
 
  `static`
 
@@ -73,7 +73,7 @@
 
 
 ---  
- #  RuntimeClone : [multiconvexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md)
+ #  RuntimeClone : [multiconvexmesh](multiconvexmesh.md)
 
 > Creates a clone of this mesh for run-time modifications.
 > |Name|Type|Description|
@@ -95,12 +95,12 @@
 
 
 ---  
- #  Validate : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Validate : [boolean](../nada_base_types/boolean.md)
 
 > Check if the mesh is valid. Optionally throw a script exception if it is invalid.
 > |Name|Type|Description|
 > |---|---|---|
-> |throwExceptionIfInvalid|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |throwExceptionIfInvalid|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Validate(throwExceptionIfInvalid : Boolean) : Boolean
 > ``` 

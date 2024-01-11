@@ -4,21 +4,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsButtonHeld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#isbuttonheld-zilch-engine)|[ GamepadIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#gamepadindex-zilch-engine)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-|[ IsButtonPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#isbuttonpressed-zilch-eng)|[ IsActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#isactive-zilch-engine-doc)| | |
-|[ IsButtonReleased](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#isbuttonreleased-zilch-en)|[ LeftStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#leftstick-zilch-engine-do)| | |
-|[ TimeButtonHeld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#timebuttonheld-zilch-engi)|[ LeftStickDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#leftstickdelta-zilch-engi)| | |
-|[ Vibrate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#vibrate-void)|[ LeftTrigger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#lefttrigger-zilch-engine)| | |
-| |[ RightStick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#rightstick-zilch-engine-d)| | |
-| |[ RightStickDelta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#rightstickdelta-zilch-eng)| | |
-| |[ RightTrigger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md#righttrigger-zilch-engine)| | |
+|[ IsButtonHeld](gamepad.md#isbuttonheld-zilch-engine)|[ GamepadIndex](gamepad.md#gamepadindex-zilch-engine)|[eventobject](eventobject.md)| |
+|[ IsButtonPressed](gamepad.md#isbuttonpressed-zilch-eng)|[ IsActive](gamepad.md#isactive-zilch-engine-doc)| | |
+|[ IsButtonReleased](gamepad.md#isbuttonreleased-zilch-en)|[ LeftStick](gamepad.md#leftstick-zilch-engine-do)| | |
+|[ TimeButtonHeld](gamepad.md#timebuttonheld-zilch-engi)|[ LeftStickDelta](gamepad.md#leftstickdelta-zilch-engi)| | |
+|[ Vibrate](gamepad.md#vibrate-void)|[ LeftTrigger](gamepad.md#lefttrigger-zilch-engine)| | |
+| |[ RightStick](gamepad.md#rightstick-zilch-engine-d)| | |
+| |[ RightStickDelta](gamepad.md#rightstickdelta-zilch-eng)| | |
+| |[ RightTrigger](gamepad.md#righttrigger-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  GamepadIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GamepadIndex : [integer](../nada_base_types/integer.md)
 
 > Index of this gamepad.
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  IsActive : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsActive : [boolean](../nada_base_types/boolean.md)
 
 > Is this controller turned on and plugged in.
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  LeftStick : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LeftStick : [real2](../nada_base_types/real2.md)
 
 > Current offset [-1,1] from the center of the left stick.
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  LeftStickDelta : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LeftStickDelta : [real2](../nada_base_types/real2.md)
 
 > Change in the left stick this frame.
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  LeftTrigger : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LeftTrigger : [real](../nada_base_types/real.md)
 
 > Value of how much the Left Trigger is down. Range [0,1].
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  RightStick : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  RightStick : [real2](../nada_base_types/real2.md)
 
 > Current offset [-1,1] from the center of the right stick.
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  RightStickDelta : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  RightStickDelta : [real2](../nada_base_types/real2.md)
 
 > Change in the right stick this frame.
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  RightTrigger : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RightTrigger : [real](../nada_base_types/real.md)
 
 > Value of how much the Right Trigger is down. Range [0,1].
 > ``` lang=cpp, name=Nada
@@ -86,48 +86,48 @@
 
 
 ---  
- #  IsButtonHeld : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsButtonHeld : [boolean](../nada_base_types/boolean.md)
 
 > Is the button currently being held down.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function IsButtonHeld(index : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  IsButtonPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsButtonPressed : [boolean](../nada_base_types/boolean.md)
 
 > Has the button just been pressed this frame.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function IsButtonPressed(index : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  IsButtonReleased : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsButtonReleased : [boolean](../nada_base_types/boolean.md)
 
 > Is the button just been released.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function IsButtonReleased(index : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  TimeButtonHeld : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TimeButtonHeld : [real](../nada_base_types/real.md)
 
 > How long has this button been held down.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function TimeButtonHeld(index : Integer) : Real
 > ``` 
@@ -139,9 +139,9 @@
 > Vibrate this controller for a given time. Speed is a value between zero and one.
 > |Name|Type|Description|
 > |---|---|---|
-> |time|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |LeftSpeed|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |RightSpeed|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |time|[real](../nada_base_types/real.md)| |
+> |LeftSpeed|[real](../nada_base_types/real.md)| |
+> |RightSpeed|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function Vibrate(time : Real, LeftSpeed : Real, RightSpeed : Real)
 > ``` 

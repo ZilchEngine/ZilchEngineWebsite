@@ -1,4 +1,4 @@
-The [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md) Component is a very powerful tool when working with [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/sprite.md) or [SpriteTexts](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.md), allowing for the manipulation of sizes without losing visual acuity. It is able to work in conjunction with the [SpriteSourceEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.md) in order to define the Area that the Sprite or SpriteText cover.
+The [Area](../../../../code_reference/class_reference/area.md) Component is a very powerful tool when working with [Sprites](sprite.md) or [SpriteTexts](spritetext.md), allowing for the manipulation of sizes without losing visual acuity. It is able to work in conjunction with the [SpriteSourceEditor](spritesourceeditor.md) in order to define the Area that the Sprite or SpriteText cover.
 
  # Nine-Slicing Sprites
 Often when scaling Sprites (particularly UI sprites) the edges of the sprite will be stretched causing undesirable results as can be seen here:
@@ -53,7 +53,7 @@ This will allow the Area component to properly adjust and repeat the image as Si
 
  # Organizing Text
 
-By utilizing the Area Component alongside the [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.md) componet, it becomes possible to gain a large amount of control over how the SpriteText is displayed.
+By utilizing the Area Component alongside the [SpriteText](spritetext.md) componet, it becomes possible to gain a large amount of control over how the SpriteText is displayed.
 
 Adding the Area Component will give the ability to define the area the text is displayed in, while retaining the alignment set in the SpriteText component. It also will use word wrapping to make sure no text spills outside of the defined area.
 
@@ -64,13 +64,13 @@ Adding the Area Component will give the ability to define the area the text is d
 
  # Related Materials
  ## Manual Pages
-- [sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/sprite.md)
-- [spritetext](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.md)
-- [spritesourceeditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.md)
+- [sprite](sprite.md)
+- [spritetext](spritetext.md)
+- [spritesourceeditor](spritesourceeditor.md)
 
  ## Reference Pages
-- [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md) 
-- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.md) 
+- [Area](../../../../code_reference/class_reference/area.md)
+- [Sprite](../../../../code_reference/class_reference/sprite.md) 
+- [SpriteText](../../../../code_reference/class_reference/spritetext.md) 
 
  

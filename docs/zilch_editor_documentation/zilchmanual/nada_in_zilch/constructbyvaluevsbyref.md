@@ -1,4 +1,4 @@
-(NOTE)**Advanced Users Only**: The use of the **new** and **local** [keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md) __**is not something most users need to be concerned with**__, as it is almost entirely #deprecated. Heap or stack allocation is almost always handled automatically by the engine based off whether the constructed type is a class or struct, however, **new** and **local** still remain in the language for explicit allocation practices. Users attemptting to use **new** or **local** keywords should be aware that they override the standard allocation functionality of Nada, but reference counted garbage collection will still happen for objects explicitly constructed with **new** and **local**.
+(NOTE)**Advanced Users Only**: The use of the **new** and **local** [keywords](keywords.md) __**is not something most users need to be concerned with**__, as it is almost entirely #deprecated. Heap or stack allocation is almost always handled automatically by the engine based off whether the constructed type is a class or struct, however, **new** and **local** still remain in the language for explicit allocation practices. Users attemptting to use **new** or **local** keywords should be aware that they override the standard allocation functionality of Nada, but reference counted garbage collection will still happen for objects explicitly constructed with **new** and **local**.
 
  # Local
 
@@ -18,7 +18,7 @@ The compiler will infer the use of local for by-value types:
 
  # New
 
-When working with [classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md), references, or other or anything located on the heap with a constructor, use the **new** keyword:
+When working with [classes](classes.md), references, or other or anything located on the heap with a constructor, use the **new** keyword:
 
 ```lang=csharp
   var heapObject : CustomClass = new CustomClass();
@@ -45,8 +45,8 @@ Since structs are by-value, in order to get a reference you **must** specify new
 
  # Related Material
  ## Manual
-- [keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md)
-- [classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md)
-- [memory_management](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md) 
+- [keywords](keywords.md)
+- [classes](classes.md)
+- [memory_management](memory_management.md) 
 
  

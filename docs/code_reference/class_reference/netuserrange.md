@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md#netuserrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](netuserrange.md#movenext-void)|[ All](netuserrange.md#all-zilch-engine-document)| | |
+|[ Constructor](netuserrange.md#netuserrange-void)|[ Current](netuserrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](netuserrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](netuserrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [netuserrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md)
+ #  All : [netuserrange](netuserrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Current : [cog](cog.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[netuserrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md)| |
+> |p0|[netuserrange](netuserrange.md)| |
 > ``` lang=cpp, name=Nada
 > function NetUserRange(p0 : NetUserRange)
 > ``` 

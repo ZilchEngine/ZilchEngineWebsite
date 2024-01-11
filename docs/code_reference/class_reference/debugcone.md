@@ -2,22 +2,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#debugcone-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#color-zilch-engine-docume)| | |
-| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#direction-zilch-engine-do)| | |
-| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#length-zilch-engine-docum)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#ontop-zilch-engine-docume)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#position-zilch-engine-doc)| | |
-| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#radius-zilch-engine-docum)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md#viewscaleoffset-zilch-eng)| | |
+|[ Constructor](debugcone.md#debugcone-void)|[ Color](debugcone.md#color-zilch-engine-docume)| | |
+| |[ Direction](debugcone.md#direction-zilch-engine-do)| | |
+| |[ Length](debugcone.md#length-zilch-engine-docum)| | |
+| |[ OnTop](debugcone.md#ontop-zilch-engine-docume)| | |
+| |[ Position](debugcone.md#position-zilch-engine-doc)| | |
+| |[ Radius](debugcone.md#radius-zilch-engine-docum)| | |
+| |[ ViewAligned](debugcone.md#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](debugcone.md#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](debugcone.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  Color : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Color : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  Direction : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Direction : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Length : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Length : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  OnTop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Position : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Position : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  Radius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Radius : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  ViewAligned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -73,7 +73,7 @@
 
 
 ---  
- #  ViewScaled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -81,7 +81,7 @@
 
 
 ---  
- #  ViewScaleOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -113,10 +113,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |position|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |direction|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |length|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |radius|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |position|[real3](../nada_base_types/real3.md)| |
+> |direction|[real3](../nada_base_types/real3.md)| |
+> |length|[real](../nada_base_types/real.md)| |
+> |radius|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugCone(position : Real3, direction : Real3, length : Real, radius : Real)
 > ``` 

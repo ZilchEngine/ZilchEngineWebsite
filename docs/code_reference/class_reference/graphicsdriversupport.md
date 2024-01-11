@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ MultiTargetBlend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.md#multitargetblend-zilch-en)| | |
-| |[ SamplerObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.md#samplerobjects-zilch-engi)| | |
-| |[ TextureCompression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsdriversupport.md#texturecompression-zero)| | |
+| |[ MultiTargetBlend](graphicsdriversupport.md#multitargetblend-zilch-en)| | |
+| |[ SamplerObjects](graphicsdriversupport.md#samplerobjects-zilch-engi)| | |
+| |[ TextureCompression](graphicsdriversupport.md#texturecompression-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  MultiTargetBlend : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MultiTargetBlend : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -21,7 +21,7 @@
 
 
 ---  
- #  SamplerObjects : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SamplerObjects : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  TextureCompression : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  TextureCompression : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 

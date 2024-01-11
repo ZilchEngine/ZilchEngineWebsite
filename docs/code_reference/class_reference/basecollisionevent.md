@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ContactPointCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md#contactpointcount-zilch-e)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)|[collisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.md)|
-| |[ ContactPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md#contactpoints-zilch-engin)| |[collisiongroupevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroupevent.md)|
-| |[ IsGhost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md#isghost-zilch-engine-docu)| |[presolveevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveevent.md)|
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md#object-zilch-engine-docum)| | |
-| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md#otherobject-zilch-engine)| | |
+| |[ ContactPointCount](basecollisionevent.md#contactpointcount-zilch-e)|[event](event.md)|[collisionevent](collisionevent.md)|
+| |[ ContactPoints](basecollisionevent.md#contactpoints-zilch-engin)| |[collisiongroupevent](collisiongroupevent.md)|
+| |[ IsGhost](basecollisionevent.md#isghost-zilch-engine-docu)| |[presolveevent](presolveevent.md)|
+| |[ Object](basecollisionevent.md#object-zilch-engine-docum)| | |
+| |[ OtherObject](basecollisionevent.md#otherobject-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  ContactPointCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ContactPointCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  ContactPoints : [contactpointrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpointrange.md)
+ #  ContactPoints : [contactpointrange](contactpointrange.md)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  IsGhost : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsGhost : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  Object : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Object : [cog](cog.md)
 
  `read-only`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  OtherObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  OtherObject : [cog](cog.md)
 
  `read-only`
 

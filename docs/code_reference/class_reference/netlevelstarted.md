@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.md#gamesession-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ LevelName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.md#levelname-zilch-engine-do)| | |
-| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlevelstarted.md#space-zilch-engine-docume)| | |
+| |[ GameSession](netlevelstarted.md#gamesession-zilch-engine)|[event](event.md)| |
+| |[ LevelName](netlevelstarted.md#levelname-zilch-engine-do)| | |
+| |[ Space](netlevelstarted.md#space-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  GameSession : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  GameSession : [gamesession](gamesession.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  LevelName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  LevelName : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  Space : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  Space : [space](space.md)
 
  `read-only`
 

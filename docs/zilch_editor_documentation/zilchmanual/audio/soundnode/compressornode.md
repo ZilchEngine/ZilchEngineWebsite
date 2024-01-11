@@ -1,4 +1,4 @@
-The [ CompressorNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/compressornode.md) collects audio data from all of its inputs and applies a compressor filter before passing the data along to its outputs. 
+The [ CompressorNode ](../../../../code_reference/class_reference/compressornode.md) collects audio data from all of its inputs and applies a compressor filter before passing the data along to its outputs. 
 
  # Common Uses
 
@@ -17,10 +17,10 @@ The `AttackMillisec` and `ReleaseMillisec` properties control how quickly the fi
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
-- [expandernode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/expandernode.md)
+- [soudnode_overview](soudnode_overview.md)
+- [expandernode](expandernode.md)
 
  ## Code Reference
-- [ CompressorNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/compressornode.md) 
+- [ CompressorNode ](../../../../code_reference/class_reference/compressornode.md) 
 
  

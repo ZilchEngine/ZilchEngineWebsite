@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CutoffFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/highpassnode.md#cutofffrequency-zilch-eng)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
+| |[ CutoffFrequency](highpassnode.md#cutofffrequency-zilch-eng)|[soundnode](soundnode.md)| |
 
 
  #  Properties
 
 
 ---  
- #  CutoffFrequency : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  CutoffFrequency : [real](../nada_base_types/real.md)
 
 > Frequencies below this number in the node's input will be attenuated. Setting this value to 20.0 or lower will skip all filter calculations.
 > ``` lang=cpp, name=Nada

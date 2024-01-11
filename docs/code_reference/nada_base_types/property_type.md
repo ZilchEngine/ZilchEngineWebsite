@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .md#getvalue-zilch-engine-doc)|[[zilch_engine_documentation/code_reference/nada_base_types/property_type /#get-delegate () : key | Get]]| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .md#property-type-void)|[ Getter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .md#getter-zilch-engine-docum)| | |
-|[ SetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .md#setvalue-void)|[ Instance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .md#instance-t)| | |
-| |[ Property](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .md#property-zilch-engine-doc)| | |
+|[ GetValue](property_type .md#getvalue-zilch-engine-doc)|[[zilch_engine_documentation/code_reference/nada_base_types/property_type /#get-delegate () : key | Get]]| | |
+|[ Constructor](property_type .md#property-type-void)|[ Getter](property_type .md#getter-zilch-engine-docum)| | |
+|[ SetValue](property_type .md#setvalue-void)|[ Instance](property_type .md#instance-t)| | |
+| |[ Property](property_type .md#property-zilch-engine-doc)| | |
 | |[[zilch_engine_documentation/code_reference/nada_base_types/property_type /#set-delegate (value : ke | Set]]| | |
-| |[ Setter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property_type .md#setter-zilch-engine-docum)| | |
+| |[ Setter](property_type .md#setter-zilch-engine-docum)| | |
 
 
  #  Properties
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Getter : [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.md)
+ #  Getter : [function](function.md)
 
  `read-only`
 
@@ -40,7 +40,7 @@
 
 
 ---  
- #  Property : Property[[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)]
+ #  Property : Property[[type](type.md)]
 
 > 
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  Setter : [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.md)
+ #  Setter : [function](function.md)
 
  `read-only`
 

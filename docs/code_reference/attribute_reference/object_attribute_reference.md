@@ -1,12 +1,12 @@
 |Nada Attributes|C++ Attributes|
 |---|---|
-|[ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.md#command)| |
-|[ ComponentInterface](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.md#componentinterface)| |
-|[ Gizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.md#gizmo)| |
-|[ RunInEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.md#runineditor)| |
-|[ Shortcut](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.md#shortcut)| |
-|[ Tags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.md#tags)| |
-|[ Tool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/attribute_reference/object_attribute_reference.md#tool)| |
+|[ Command](object_attribute_reference.md#command)| |
+|[ ComponentInterface](object_attribute_reference.md#componentinterface)| |
+|[ Gizmo](object_attribute_reference.md#gizmo)| |
+|[ RunInEditor](object_attribute_reference.md#runineditor)| |
+|[ Shortcut](object_attribute_reference.md#shortcut)| |
+|[ Tags](object_attribute_reference.md#tags)| |
+|[ Tool](object_attribute_reference.md#tool)| |
 
 
 

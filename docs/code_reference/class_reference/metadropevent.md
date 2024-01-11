@@ -6,22 +6,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Failed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#failed-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ Handled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#handled-zilch-engine-docu)| | |
-| |[ MouseEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#mouseevent-zilch-engine-d)| | |
-| |[ MouseOverObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#mouseoverobject-zilch-eng)| | |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#object-zilch-engine-docum)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#position-zilch-engine-doc)| | |
-| |[ Result](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#result-zilch-engine-docum)| | |
-| |[ Testing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#testing-zilch-engine-docu)| | |
-| |[ ViewportMouseEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metadropevent.md#viewportmouseevent-zero)| | |
+| |[ Failed](metadropevent.md#failed-zilch-engine-docum)|[event](event.md)| |
+| |[ Handled](metadropevent.md#handled-zilch-engine-docu)| | |
+| |[ MouseEvent](metadropevent.md#mouseevent-zilch-engine-d)| | |
+| |[ MouseOverObject](metadropevent.md#mouseoverobject-zilch-eng)| | |
+| |[ Object](metadropevent.md#object-zilch-engine-docum)| | |
+| |[ Position](metadropevent.md#position-zilch-engine-doc)| | |
+| |[ Result](metadropevent.md#result-zilch-engine-docum)| | |
+| |[ Testing](metadropevent.md#testing-zilch-engine-docu)| | |
+| |[ ViewportMouseEvent](metadropevent.md#viewportmouseevent-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  Failed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Failed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  Handled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Handled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -37,7 +37,7 @@
 
 
 ---  
- #  MouseEvent : [mouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md)
+ #  MouseEvent : [mouseevent](mouseevent.md)
 
  `read-only`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  MouseOverObject : [anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)
+ #  MouseOverObject : [anyhandle](../nada_base_types/anyhandle.md)
 
  `read-only`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  Object : [anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)
+ #  Object : [anyhandle](../nada_base_types/anyhandle.md)
 
  `read-only`
 
@@ -67,7 +67,7 @@
 
 
 ---  
- #  Position : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Position : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  Result : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Result : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  Testing : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Testing : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -91,7 +91,7 @@
 
 
 ---  
- #  ViewportMouseEvent : [viewportmouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewportmouseevent.md)
+ #  ViewportMouseEvent : [viewportmouseevent](viewportmouseevent.md)
 
  `read-only`
 

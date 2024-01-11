@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#debugarc-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#color-zilch-engine-docume)| | |
-| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#end-zilch-engine-document)| | |
-| |[ Mid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#mid-zilch-engine-document)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#ontop-zilch-engine-docume)| | |
-| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#start-zilch-engine-docume)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md#viewscaleoffset-zilch-eng)| | |
+|[ Constructor](debugarc.md#debugarc-void)|[ Color](debugarc.md#color-zilch-engine-docume)| | |
+| |[ End](debugarc.md#end-zilch-engine-document)| | |
+| |[ Mid](debugarc.md#mid-zilch-engine-document)| | |
+| |[ OnTop](debugarc.md#ontop-zilch-engine-docume)| | |
+| |[ Start](debugarc.md#start-zilch-engine-docume)| | |
+| |[ ViewAligned](debugarc.md#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](debugarc.md#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](debugarc.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  Color : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Color : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  End : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  End : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  Mid : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Mid : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  OnTop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  Start : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Start : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  ViewAligned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -64,7 +64,7 @@
 
 
 ---  
- #  ViewScaled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -72,7 +72,7 @@
 
 
 ---  
- #  ViewScaleOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -104,9 +104,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |mid|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |end|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |start|[real3](../nada_base_types/real3.md)| |
+> |mid|[real3](../nada_base_types/real3.md)| |
+> |end|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugArc(start : Real3, mid : Real3, end : Real3)
 > ``` 

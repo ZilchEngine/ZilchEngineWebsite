@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ReferencedType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/indirectiontype.md#referencedtype-zilch-engi)|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)| |
+| |[ ReferencedType](indirectiontype.md#referencedtype-zilch-engi)|[type](type.md)| |
 
 
  #  Properties
 
 
 ---  
- #  ReferencedType : [boundtype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.md)
+ #  ReferencedType : [boundtype](boundtype.md)
 
  `read-only`
 

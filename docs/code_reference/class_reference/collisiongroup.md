@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md#createruntime-zilch-engin)| |[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.md)| |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md#runtimeclone-zilch-engine)| | | |
+|[ CreateRuntime](collisiongroup.md#createruntime-zilch-engin)| |[dataresource](dataresource.md)| |
+|[ RuntimeClone](collisiongroup.md#runtimeclone-zilch-engine)| | | |
 
 
  #  Properties
@@ -18,7 +18,7 @@
 
 
 ---  
- #  CreateRuntime : [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)
+ #  CreateRuntime : [collisiongroup](collisiongroup.md)
 
  `static`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  RuntimeClone : [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)
+ #  RuntimeClone : [collisiongroup](collisiongroup.md)
 
 > Creates a clone of this CollisionGroup for run-time modifications.
 > |Name|Type|Description|

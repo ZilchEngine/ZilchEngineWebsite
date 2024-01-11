@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reactivespace.md#reactivespace-void)|[ Over](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reactivespace.md#over-zilch-engine-documen)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ Raycaster](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reactivespace.md#raycaster-zilch-engine-do)| | |
+|[ Constructor](reactivespace.md#reactivespace-void)|[ Over](reactivespace.md#over-zilch-engine-documen)|[component](component.md)| |
+| |[ Raycaster](reactivespace.md#raycaster-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  Over : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Over : [cog](cog.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Raycaster : [raycaster](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raycaster.md)
+ #  Raycaster : [raycaster](raycaster.md)
 
 > 
 > ``` lang=cpp, name=Nada

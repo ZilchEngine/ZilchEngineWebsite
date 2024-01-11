@@ -2,35 +2,35 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Save](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#save-void)|[ ActiveScheme](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#activescheme-zilch-engine)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-| |[ Background](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#background-zilch-engine-d)| | |
-| |[ ClassName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#classname-zilch-engine-do)| | |
-| |[ Comment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#comment-zilch-engine-docu)| | |
-| |[ Default](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#default-zilch-engine-docu)| | |
-| |[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#error-zilch-engine-docume)| | |
-| |[ FunctionName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#functionname-zilch-engine)| | |
-| |[ Gutter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#gutter-zilch-engine-docum)| | |
-| |[ GutterText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#guttertext-zilch-engine-d)| | |
-| |[ Keyword](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#keyword-zilch-engine-docu)| | |
-| |[ LineSelection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#lineselection-zilch-engin)| | |
-| |[ Link](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#link-zilch-engine-documen)| | |
-| |[ Number](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#number-zilch-engine-docum)| | |
-| |[ Operator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#operator-zilch-engine-doc)| | |
-| |[ SaveName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#savename-zilch-engine-doc)| | |
-| |[ Selection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#selection-zilch-engine-do)| | |
-| |[ SpecialWords](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#specialwords-zilch-engine)| | |
-| |[ StringLiteral](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#stringliteral-zilch-engin)| | |
-| |[ TextMatchHighlight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#textmatchhighlight-zero)| | |
-| |[ TextMatchIndicator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#textmatchindicator-zero)| | |
-| |[ TextMatchOutlineAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#textmatchoutlinealpha-ze)| | |
-| |[ Whitespace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorscheme.md#whitespace-zilch-engine-d)| | |
+|[ Save](colorscheme.md#save-void)|[ ActiveScheme](colorscheme.md#activescheme-zilch-engine)|[eventobject](eventobject.md)| |
+| |[ Background](colorscheme.md#background-zilch-engine-d)| | |
+| |[ ClassName](colorscheme.md#classname-zilch-engine-do)| | |
+| |[ Comment](colorscheme.md#comment-zilch-engine-docu)| | |
+| |[ Default](colorscheme.md#default-zilch-engine-docu)| | |
+| |[ Error](colorscheme.md#error-zilch-engine-docume)| | |
+| |[ FunctionName](colorscheme.md#functionname-zilch-engine)| | |
+| |[ Gutter](colorscheme.md#gutter-zilch-engine-docum)| | |
+| |[ GutterText](colorscheme.md#guttertext-zilch-engine-d)| | |
+| |[ Keyword](colorscheme.md#keyword-zilch-engine-docu)| | |
+| |[ LineSelection](colorscheme.md#lineselection-zilch-engin)| | |
+| |[ Link](colorscheme.md#link-zilch-engine-documen)| | |
+| |[ Number](colorscheme.md#number-zilch-engine-docum)| | |
+| |[ Operator](colorscheme.md#operator-zilch-engine-doc)| | |
+| |[ SaveName](colorscheme.md#savename-zilch-engine-doc)| | |
+| |[ Selection](colorscheme.md#selection-zilch-engine-do)| | |
+| |[ SpecialWords](colorscheme.md#specialwords-zilch-engine)| | |
+| |[ StringLiteral](colorscheme.md#stringliteral-zilch-engin)| | |
+| |[ TextMatchHighlight](colorscheme.md#textmatchhighlight-zero)| | |
+| |[ TextMatchIndicator](colorscheme.md#textmatchindicator-zero)| | |
+| |[ TextMatchOutlineAlpha](colorscheme.md#textmatchoutlinealpha-ze)| | |
+| |[ Whitespace](colorscheme.md#whitespace-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  ActiveScheme : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ActiveScheme : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  Background : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Background : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -46,7 +46,7 @@
 
 
 ---  
- #  ClassName : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ClassName : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -54,7 +54,7 @@
 
 
 ---  
- #  Comment : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Comment : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -62,7 +62,7 @@
 
 
 ---  
- #  Default : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Default : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -70,7 +70,7 @@
 
 
 ---  
- #  Error : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Error : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -78,7 +78,7 @@
 
 
 ---  
- #  FunctionName : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  FunctionName : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -86,7 +86,7 @@
 
 
 ---  
- #  Gutter : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Gutter : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -94,7 +94,7 @@
 
 
 ---  
- #  GutterText : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  GutterText : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -102,7 +102,7 @@
 
 
 ---  
- #  Keyword : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Keyword : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -110,7 +110,7 @@
 
 
 ---  
- #  LineSelection : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LineSelection : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -118,7 +118,7 @@
 
 
 ---  
- #  Link : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Link : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -126,7 +126,7 @@
 
 
 ---  
- #  Number : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Number : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -134,7 +134,7 @@
 
 
 ---  
- #  Operator : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Operator : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -142,7 +142,7 @@
 
 
 ---  
- #  SaveName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  SaveName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -150,7 +150,7 @@
 
 
 ---  
- #  Selection : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Selection : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -158,7 +158,7 @@
 
 
 ---  
- #  SpecialWords : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SpecialWords : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -166,7 +166,7 @@
 
 
 ---  
- #  StringLiteral : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  StringLiteral : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -174,7 +174,7 @@
 
 
 ---  
- #  TextMatchHighlight : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  TextMatchHighlight : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -182,7 +182,7 @@
 
 
 ---  
- #  TextMatchIndicator : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  TextMatchIndicator : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -190,7 +190,7 @@
 
 
 ---  
- #  TextMatchOutlineAlpha : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TextMatchOutlineAlpha : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -198,7 +198,7 @@
 
 
 ---  
- #  Whitespace : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Whitespace : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscalegizmo.md#objectscalegizmo-void)|[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectscalegizmo.md#affecttranslation-zilch-e)|[objecttransformgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmo.md)| |
+|[ Constructor](objectscalegizmo.md#objectscalegizmo-void)|[ AffectTranslation](objectscalegizmo.md#affecttranslation-zilch-e)|[objecttransformgizmo](objecttransformgizmo.md)| |
 
 
  #  Properties
 
 
 ---  
- #  AffectTranslation : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AffectTranslation : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

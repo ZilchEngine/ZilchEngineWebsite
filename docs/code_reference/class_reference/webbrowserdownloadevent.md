@@ -4,26 +4,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Cancel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#cancel-zilch-engine-docum)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.md)| |
-| |[ ContentDisposition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#contentdisposition-zero)| | |
-| |[ CurrentSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#currentspeed-zilch-engine)| | |
-| |[ FilePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#filepath-zilch-engine-doc)| | |
-| |[ Id](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#id-zilch-engine-documenta)| | |
-| |[ IsComplete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#iscomplete-zilch-engine-d)| | |
-| |[ IsInProgress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#isinprogress-zilch-engine)| | |
-| |[ MimeType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#mimetype-zilch-engine-doc)| | |
-| |[ OriginalUrl](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#originalurl-zilch-engine)| | |
-| |[ ReceivedBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#receivedbytes-zilch-engin)| | |
-| |[ SuggestedFileName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#suggestedfilename-zilch-e)| | |
-| |[ TotalBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#totalbytes-zilch-engine-d)| | |
-| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserdownloadevent.md#url-zilch-engine-document)| | |
+| |[ Cancel](webbrowserdownloadevent.md#cancel-zilch-engine-docum)|[webbrowserevent](webbrowserevent.md)| |
+| |[ ContentDisposition](webbrowserdownloadevent.md#contentdisposition-zero)| | |
+| |[ CurrentSpeed](webbrowserdownloadevent.md#currentspeed-zilch-engine)| | |
+| |[ FilePath](webbrowserdownloadevent.md#filepath-zilch-engine-doc)| | |
+| |[ Id](webbrowserdownloadevent.md#id-zilch-engine-documenta)| | |
+| |[ IsComplete](webbrowserdownloadevent.md#iscomplete-zilch-engine-d)| | |
+| |[ IsInProgress](webbrowserdownloadevent.md#isinprogress-zilch-engine)| | |
+| |[ MimeType](webbrowserdownloadevent.md#mimetype-zilch-engine-doc)| | |
+| |[ OriginalUrl](webbrowserdownloadevent.md#originalurl-zilch-engine)| | |
+| |[ ReceivedBytes](webbrowserdownloadevent.md#receivedbytes-zilch-engin)| | |
+| |[ SuggestedFileName](webbrowserdownloadevent.md#suggestedfilename-zilch-e)| | |
+| |[ TotalBytes](webbrowserdownloadevent.md#totalbytes-zilch-engine-d)| | |
+| |[ Url](webbrowserdownloadevent.md#url-zilch-engine-document)| | |
 
 
  #  Properties
 
 
 ---  
- #  Cancel : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Cancel : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  ContentDisposition : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ContentDisposition : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  CurrentSpeed : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  CurrentSpeed : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  FilePath : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  FilePath : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  Id : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Id : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  IsComplete : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsComplete : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -71,7 +71,7 @@
 
 
 ---  
- #  IsInProgress : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsInProgress : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -79,7 +79,7 @@
 
 
 ---  
- #  MimeType : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  MimeType : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -87,7 +87,7 @@
 
 
 ---  
- #  OriginalUrl : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  OriginalUrl : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -95,7 +95,7 @@
 
 
 ---  
- #  ReceivedBytes : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  ReceivedBytes : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -103,7 +103,7 @@
 
 
 ---  
- #  SuggestedFileName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  SuggestedFileName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -111,7 +111,7 @@
 
 
 ---  
- #  TotalBytes : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  TotalBytes : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -119,7 +119,7 @@
 
 
 ---  
- #  Url : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Url : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

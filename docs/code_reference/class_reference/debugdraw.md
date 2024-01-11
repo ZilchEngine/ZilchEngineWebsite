@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugdraw.md#add-void)| | | |
+|[ Add](debugdraw.md#add-void)| | | |
 
 
  #  Properties
@@ -20,7 +20,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugarc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md)| |
+> ||[debugarc](debugarc.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugArc)
 > ``` 
@@ -34,7 +34,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugbox](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugbox.md)| |
+> ||[debugbox](debugbox.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugBox)
 > ``` 
@@ -48,7 +48,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugcapsule](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcapsule.md)| |
+> ||[debugcapsule](debugcapsule.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugCapsule)
 > ``` 
@@ -62,7 +62,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugcircle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcircle.md)| |
+> ||[debugcircle](debugcircle.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugCircle)
 > ``` 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugcone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md)| |
+> ||[debugcone](debugcone.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugCone)
 > ``` 
@@ -90,7 +90,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugcylinder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcylinder.md)| |
+> ||[debugcylinder](debugcylinder.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugCylinder)
 > ``` 
@@ -104,7 +104,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugfrustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugfrustum.md)| |
+> ||[debugfrustum](debugfrustum.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugFrustum)
 > ``` 
@@ -118,7 +118,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md)| |
+> ||[debugline](debugline.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugLine)
 > ``` 
@@ -132,7 +132,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debuglinecross](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.md)| |
+> ||[debuglinecross](debuglinecross.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugLineCross)
 > ``` 
@@ -146,7 +146,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugobb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugobb.md)| |
+> ||[debugobb](debugobb.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugObb)
 > ``` 
@@ -160,7 +160,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugsphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsphere.md)| |
+> ||[debugsphere](debugsphere.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugSphere)
 > ``` 
@@ -174,7 +174,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugtext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md)| |
+> ||[debugtext](debugtext.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugText)
 > ``` 
@@ -188,7 +188,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[debugtriangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md)| |
+> ||[debugtriangle](debugtriangle.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : DebugTriangle)
 > ``` 
@@ -202,8 +202,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugarc](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugarc.md)| |
+> ||[space](space.md)| |
+> ||[debugarc](debugarc.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugArc)
 > ``` 
@@ -217,8 +217,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugbox](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugbox.md)| |
+> ||[space](space.md)| |
+> ||[debugbox](debugbox.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugBox)
 > ``` 
@@ -232,8 +232,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugcapsule](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcapsule.md)| |
+> ||[space](space.md)| |
+> ||[debugcapsule](debugcapsule.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugCapsule)
 > ``` 
@@ -247,8 +247,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugcircle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcircle.md)| |
+> ||[space](space.md)| |
+> ||[debugcircle](debugcircle.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugCircle)
 > ``` 
@@ -262,8 +262,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugcone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcone.md)| |
+> ||[space](space.md)| |
+> ||[debugcone](debugcone.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugCone)
 > ``` 
@@ -277,8 +277,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugcylinder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugcylinder.md)| |
+> ||[space](space.md)| |
+> ||[debugcylinder](debugcylinder.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugCylinder)
 > ``` 
@@ -292,8 +292,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugfrustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugfrustum.md)| |
+> ||[space](space.md)| |
+> ||[debugfrustum](debugfrustum.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugFrustum)
 > ``` 
@@ -307,8 +307,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md)| |
+> ||[space](space.md)| |
+> ||[debugline](debugline.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugLine)
 > ``` 
@@ -322,8 +322,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debuglinecross](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuglinecross.md)| |
+> ||[space](space.md)| |
+> ||[debuglinecross](debuglinecross.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugLineCross)
 > ``` 
@@ -337,8 +337,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugobb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugobb.md)| |
+> ||[space](space.md)| |
+> ||[debugobb](debugobb.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugObb)
 > ``` 
@@ -352,8 +352,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugsphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsphere.md)| |
+> ||[space](space.md)| |
+> ||[debugsphere](debugsphere.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugSphere)
 > ``` 
@@ -367,8 +367,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugtext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtext.md)| |
+> ||[space](space.md)| |
+> ||[debugtext](debugtext.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugText)
 > ``` 
@@ -382,8 +382,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
-> ||[debugtriangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md)| |
+> ||[space](space.md)| |
+> ||[debugtriangle](debugtriangle.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Space,  : DebugTriangle)
 > ``` 

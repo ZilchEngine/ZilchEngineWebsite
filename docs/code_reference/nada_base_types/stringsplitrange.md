@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringsplitrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringsplitrange.md#all-zilch-engine-document)| | |
-| |[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringsplitrange.md#current-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringsplitrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](stringsplitrange.md#movenext-void)|[ All](stringsplitrange.md#all-zilch-engine-document)| | |
+| |[ Current](stringsplitrange.md#current-zilch-engine-docu)| | |
+| |[ IsNotEmpty](stringsplitrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [stringsplitrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringsplitrange.md)
+ #  All : [stringsplitrange](stringsplitrange.md)
 
  `read-only`
 
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Current : [stringrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringrange.md)
+ #  Current : [stringrange](stringrange.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 

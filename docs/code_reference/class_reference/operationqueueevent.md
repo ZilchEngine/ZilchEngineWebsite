@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Operation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueueevent.md#operation-zilch-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ Operation](operationqueueevent.md#operation-zilch-engine-do)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Operation : [operation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.md)
+ #  Operation : [operation](operation.md)
 
 > 
 > ``` lang=cpp, name=Nada

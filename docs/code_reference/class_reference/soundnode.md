@@ -2,35 +2,35 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddInputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#addinputnode-void)|[ AutoCollapse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#autocollapse-zilch-engine)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.md)|[additivesynthnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/additivesynthnode.md)|
-|[ InsertNodeAfter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#insertnodeafter-void)|[ BypassPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#bypasspercent-zilch-engin)| |[addnoisenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.md)|
-|[ InsertNodeBefore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#insertnodebefore-void)|[ BypassValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#bypassvalue-zilch-engine)| |[bandpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.md)|
-|[ RemoveAllInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#removeallinputs-void)|[ HasInputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#hasinputs-zilch-engine-do)| |[chorusnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.md)|
-|[ RemoveAllOutputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#removealloutputs-void)|[ HasOutputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#hasoutputs-zilch-engine-d)| |[compressornode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/compressornode.md)|
-|[ RemoveAndAttachInputsToOutputs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#removeandattachinputstoo)|[ InputCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#inputcount-zilch-engine-d)| |[customaudionode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md)|
-|[ RemoveInputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#removeinputnode-void)|[ OutputCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#outputcount-zilch-engine)| |[delaynode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.md)|
-|[ ReplaceWith](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md#replacewith-void)| | |[equalizernode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md)|
-| | | |[expandernode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md)|
-| | | |[flangernode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.md)|
-| | | |[generatedwavenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.md)|
-| | | |[granularsynthnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md)|
-| | | |[highpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/highpassnode.md)|
-| | | |[lowpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/lowpassnode.md)|
-| | | |[microphoneinputnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/microphoneinputnode.md)|
-| | | |[modulationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md)|
-| | | |[panningnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.md)|
-| | | |[pitchnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.md)|
-| | | |[recordingnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/recordingnode.md)|
-| | | |[reverbnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.md)|
-| | | |[saveaudionode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/saveaudionode.md)|
-| | | |[volumenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.md)|
+|[ AddInputNode](soundnode.md#addinputnode-void)|[ AutoCollapse](soundnode.md#autocollapse-zilch-engine)|[referencecountedeventobject](referencecountedeventobject.md)|[additivesynthnode](additivesynthnode.md)|
+|[ InsertNodeAfter](soundnode.md#insertnodeafter-void)|[ BypassPercent](soundnode.md#bypasspercent-zilch-engin)| |[addnoisenode](addnoisenode.md)|
+|[ InsertNodeBefore](soundnode.md#insertnodebefore-void)|[ BypassValue](soundnode.md#bypassvalue-zilch-engine)| |[bandpassnode](bandpassnode.md)|
+|[ RemoveAllInputs](soundnode.md#removeallinputs-void)|[ HasInputs](soundnode.md#hasinputs-zilch-engine-do)| |[chorusnode](chorusnode.md)|
+|[ RemoveAllOutputs](soundnode.md#removealloutputs-void)|[ HasOutputs](soundnode.md#hasoutputs-zilch-engine-d)| |[compressornode](compressornode.md)|
+|[ RemoveAndAttachInputsToOutputs](soundnode.md#removeandattachinputstoo)|[ InputCount](soundnode.md#inputcount-zilch-engine-d)| |[customaudionode](customaudionode.md)|
+|[ RemoveInputNode](soundnode.md#removeinputnode-void)|[ OutputCount](soundnode.md#outputcount-zilch-engine)| |[delaynode](delaynode.md)|
+|[ ReplaceWith](soundnode.md#replacewith-void)| | |[equalizernode](equalizernode.md)|
+| | | |[expandernode](expandernode.md)|
+| | | |[flangernode](flangernode.md)|
+| | | |[generatedwavenode](generatedwavenode.md)|
+| | | |[granularsynthnode](granularsynthnode.md)|
+| | | |[highpassnode](highpassnode.md)|
+| | | |[lowpassnode](lowpassnode.md)|
+| | | |[microphoneinputnode](microphoneinputnode.md)|
+| | | |[modulationnode](modulationnode.md)|
+| | | |[panningnode](panningnode.md)|
+| | | |[pitchnode](pitchnode.md)|
+| | | |[recordingnode](recordingnode.md)|
+| | | |[reverbnode](reverbnode.md)|
+| | | |[saveaudionode](saveaudionode.md)|
+| | | |[volumenode](volumenode.md)|
 
 
  #  Properties
 
 
 ---  
- #  AutoCollapse : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoCollapse : [boolean](../nada_base_types/boolean.md)
 
 > If true, this node will automatically remove itself from the graph when its last input node is removed.
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  BypassPercent : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BypassPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The BypassValue property should be used instead.
 > ``` lang=cpp, name=Nada
@@ -46,7 +46,7 @@
 
 
 ---  
- #  BypassValue : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BypassValue : [real](../nada_base_types/real.md)
 
 > The percentage of output (0 to 1.0) that should skip whatever processing the node does.
 > ``` lang=cpp, name=Nada
@@ -54,7 +54,7 @@
 
 
 ---  
- #  HasInputs : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HasInputs : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -64,7 +64,7 @@
 
 
 ---  
- #  HasOutputs : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HasOutputs : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -74,7 +74,7 @@
 
 
 ---  
- #  InputCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  InputCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -84,7 +84,7 @@
 
 
 ---  
- #  OutputCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  OutputCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -103,7 +103,7 @@
 > Adds the passed in node to this node's inputs.
 > |Name|Type|Description|
 > |---|---|---|
-> |node|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
+> |node|[soundnode](soundnode.md)| |
 > ``` lang=cpp, name=Nada
 > function AddInputNode(node : SoundNode)
 > ``` 
@@ -115,7 +115,7 @@
 > Inserts the passed in node after this node in the signal path, placing it between this node and any nodes which were connected to this node's output.
 > |Name|Type|Description|
 > |---|---|---|
-> |node|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
+> |node|[soundnode](soundnode.md)| |
 > ``` lang=cpp, name=Nada
 > function InsertNodeAfter(node : SoundNode)
 > ``` 
@@ -127,7 +127,7 @@
 > Inserts the passed in node before this node in the signal path, placing it between this node and any nodes which were connected to this node as inputs.
 > |Name|Type|Description|
 > |---|---|---|
-> |node|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
+> |node|[soundnode](soundnode.md)| |
 > ``` lang=cpp, name=Nada
 > function InsertNodeBefore(node : SoundNode)
 > ``` 
@@ -172,7 +172,7 @@
 > Removes the node passed in as a parameter from this node's inputs.
 > |Name|Type|Description|
 > |---|---|---|
-> |node|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
+> |node|[soundnode](soundnode.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveInputNode(node : SoundNode)
 > ``` 
@@ -184,7 +184,7 @@
 > Replaces this node in the graph with the node passed in as a parameter. This node will be deleted when it is no longer referenced.
 > |Name|Type|Description|
 > |---|---|---|
-> |node|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
+> |node|[soundnode](soundnode.md)| |
 > ``` lang=cpp, name=Nada
 > function ReplaceWith(node : SoundNode)
 > ``` 

@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.md#resourcetemplate-void)|[ Category](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.md#category-zilch-engine-doc)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.md)| |
-| |[ CategorySortWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.md#categorysortweight-zero)| | |
-| |[ Description](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.md#description-zilch-engine)| | |
-| |[ DisplayName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.md#displayname-zilch-engine)| | |
-| |[ SortWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetemplate.md#sortweight-zilch-engine-d)| | |
+|[ Constructor](resourcetemplate.md#resourcetemplate-void)|[ Category](resourcetemplate.md#category-zilch-engine-doc)|[contentcomponent](contentcomponent.md)| |
+| |[ CategorySortWeight](resourcetemplate.md#categorysortweight-zero)| | |
+| |[ Description](resourcetemplate.md#description-zilch-engine)| | |
+| |[ DisplayName](resourcetemplate.md#displayname-zilch-engine)| | |
+| |[ SortWeight](resourcetemplate.md#sortweight-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  Category : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Category : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  CategorySortWeight : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  CategorySortWeight : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  Description : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Description : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -37,7 +37,7 @@
 
 
 ---  
- #  DisplayName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  DisplayName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -45,7 +45,7 @@
 
 
 ---  
- #  SortWeight : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SortWeight : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

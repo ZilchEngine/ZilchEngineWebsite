@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Parse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md#parse-zilch-engine-docume)|[ NegativeMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md#negativemin-zilch-engine)| | |
-| |[ NegativeValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md#negativevalueclosesttoze)| | |
-| |[ PositiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md#positivevalueclosesttoze)| | |
+|[ Parse](doublereal.md#parse-zilch-engine-docume)|[ NegativeMin](doublereal.md#negativemin-zilch-engine)| | |
+| |[ NegativeValueClosestToZero](doublereal.md#negativevalueclosesttoze)| | |
+| |[ PositiveMax](doublereal.md#positivemax-zilch-engine)| | |
+| |[ PositiveValueClosestToZero](doublereal.md#positivevalueclosesttoze)| | |
 
 
  #  Properties
 
 
 ---  
- #  NegativeMin : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  NegativeMin : [doublereal](doublereal.md)
 
  `read-only` `static`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  NegativeValueClosestToZero : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  NegativeValueClosestToZero : [doublereal](doublereal.md)
 
  `read-only` `static`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  PositiveMax : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  PositiveMax : [doublereal](doublereal.md)
 
  `read-only` `static`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  PositiveValueClosestToZero : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  PositiveValueClosestToZero : [doublereal](doublereal.md)
 
  `read-only` `static`
 
@@ -56,14 +56,14 @@
 
 
 ---  
- #  Parse : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  Parse : [doublereal](doublereal.md)
 
  `static`
 
 > Attempt to convert the given StringRange to a DoubleReal. If parsing fails 0 is returned.
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[stringrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringrange.md)| |
+> |p0|[stringrange](stringrange.md)| |
 > ``` lang=cpp, name=Nada
 > function Parse(p0 : StringRange) : DoubleReal
 > ``` 

@@ -2,19 +2,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GetCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md#getcount-zilch-engine-doc)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.md)| |
-| |[ None](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md#none-zilch-engine-documen)| | |
-| |[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md#read-zilch-engine-documen)| | |
-| |[ Seek](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md#seek-zilch-engine-documen)| | |
-| |[ SetCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md#setcount-zilch-engine-doc)| | |
-| |[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md#write-zilch-engine-docume)| | |
+| |[ GetCount](streamcapabilities.md#getcount-zilch-engine-doc)|[enum](enum.md)| |
+| |[ None](streamcapabilities.md#none-zilch-engine-documen)| | |
+| |[ Read](streamcapabilities.md#read-zilch-engine-documen)| | |
+| |[ Seek](streamcapabilities.md#seek-zilch-engine-documen)| | |
+| |[ SetCount](streamcapabilities.md#setcount-zilch-engine-doc)| | |
+| |[ Write](streamcapabilities.md#write-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  GetCount : [streamcapabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md)
+ #  GetCount : [streamcapabilities](streamcapabilities.md)
 
  `read-only` `static`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  None : [streamcapabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md)
+ #  None : [streamcapabilities](streamcapabilities.md)
 
  `read-only` `static`
 
@@ -34,7 +34,7 @@
 
 
 ---  
- #  Read : [streamcapabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md)
+ #  Read : [streamcapabilities](streamcapabilities.md)
 
  `read-only` `static`
 
@@ -44,7 +44,7 @@
 
 
 ---  
- #  Seek : [streamcapabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md)
+ #  Seek : [streamcapabilities](streamcapabilities.md)
 
  `read-only` `static`
 
@@ -54,7 +54,7 @@
 
 
 ---  
- #  SetCount : [streamcapabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md)
+ #  SetCount : [streamcapabilities](streamcapabilities.md)
 
  `read-only` `static`
 
@@ -64,7 +64,7 @@
 
 
 ---  
- #  Write : [streamcapabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamcapabilities.md)
+ #  Write : [streamcapabilities](streamcapabilities.md)
 
  `read-only` `static`
 

@@ -1,7 +1,7 @@
-While Zilch provides a number of pre-defined Eases (e.g., `QuadIn`, `QuadOut`, `SinIn`, `SinOut`), these may not cover all situations that may arise. In those cases, a custom ease may be created by adding a [samplecurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/samplecurve.md).
+While Zilch provides a number of pre-defined Eases (e.g., `QuadIn`, `QuadOut`, `SinIn`, `SinOut`), these may not cover all situations that may arise. In those cases, a custom ease may be created by adding a [samplecurve](../architecture/resources/samplecurve.md).
 
  # A Closer Look at Easing Functions
-Eases are used primarily in what is called "tweening", short for *in-betweening* (and [Actions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/action.md) are Zilch Engine's form of tweening). Tweening is a procedure for interpolation between two values that can provide animation through the use of mathematical functions without the user having to adjust any frames. Eases are functions that control the rate of acceleration of the change in value. Usually, eases are used to make animations look more natural or "life-like", though the most basic of eases--`Linear`--is decidedly sterile-looking or robotic, as can be seen in this example of a simple moving platform:
+Eases are used primarily in what is called "tweening", short for *in-betweening* (and [Actions](../../../code_reference/class_reference/action.md) are Zilch Engine's form of tweening). Tweening is a procedure for interpolation between two values that can provide animation through the use of mathematical functions without the user having to adjust any frames. Eases are functions that control the rate of acceleration of the change in value. Usually, eases are used to make animations look more natural or "life-like", though the most basic of eases--`Linear`--is decidedly sterile-looking or robotic, as can be seen in this example of a simple moving platform:
 
 
 
@@ -109,7 +109,7 @@ function QuadEaseInOut(beginningVal, changeToVal, currentTime, totalTime, easePo
 }
 ```
 
-All of these eases can be visualized on a graph. In Zilch, graphs like this may be plotted on a [SampleCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/samplecurve.md), allowing their use as the ease parameter in Actions.
+All of these eases can be visualized on a graph. In Zilch, graphs like this may be plotted on a [SampleCurve](../architecture/resources/samplecurve.md), allowing their use as the ease parameter in Actions.
 
  # Applying a Custom Ease
 
@@ -162,10 +162,10 @@ class EasedMovement : NadaComponent
 
  # Related Materials
  ## Manual
-- [ResourceAdding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
-- [samplecurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/samplecurve.md)
+- [ResourceAdding](editorcommands/resourceadding.md)
+- [samplecurve](../architecture/resources/samplecurve.md)
 
  ## Code Reference
-- [action](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/action.md) 
+- [action](../../../code_reference/class_reference/action.md) 
 
  

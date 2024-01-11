@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.md#splinesampledata-void)|[ Point](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.md#point-zilch-engine-docume)| | |
-| |[ Tangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.md#tangent-zilch-engine-docu)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.md#worldpoint-zilch-engine-d)| | |
-| |[ WorldTangent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinesampledata.md#worldtangent-zilch-engine)| | |
+|[ Constructor](splinesampledata.md#splinesampledata-void)|[ Point](splinesampledata.md#point-zilch-engine-docume)| | |
+| |[ Tangent](splinesampledata.md#tangent-zilch-engine-docu)| | |
+| |[ WorldPoint](splinesampledata.md#worldpoint-zilch-engine-d)| | |
+| |[ WorldTangent](splinesampledata.md#worldtangent-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Point : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Point : [real3](../nada_base_types/real3.md)
 
 > The point on the curve.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Tangent : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Tangent : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  WorldPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPoint : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  WorldTangent : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldTangent : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

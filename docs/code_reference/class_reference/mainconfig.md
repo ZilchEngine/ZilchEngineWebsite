@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.md#mainconfig-void)|[ ApplicationName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.md#applicationname-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ BuildDate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.md#builddate-zilch-engine-do)| | |
-| |[ BuildVersion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.md#buildversion-zilch-engine)| | |
+|[ Constructor](mainconfig.md#mainconfig-void)|[ ApplicationName](mainconfig.md#applicationname-zilch-eng)|[component](component.md)| |
+| |[ BuildDate](mainconfig.md#builddate-zilch-engine-do)| | |
+| |[ BuildVersion](mainconfig.md#buildversion-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  ApplicationName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ApplicationName : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  BuildDate : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  BuildDate : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  BuildVersion : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  BuildVersion : [string](../nada_base_types/string.md)
 
  `read-only`
 

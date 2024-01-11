@@ -4,51 +4,51 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddComponentByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#addcomponentbyname-zero)|[ Actions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#actions-zilch-engine-docu)|Object|[gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)|
-|[ AddComponentByType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#addcomponentbytype-zero)|[ Archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#archetype-zilch-engine-do)| |[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)|
-|[ AttachTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#attachto-zilch-engine-doc)|[ BaseArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#basearchetype-zilch-engin)| | |
-|[ AttachToPreserveLocal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#attachtopreservelocal-ze)|[ ChildCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#childcount-zilch-engine-d)| | |
-|[ ClearArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#cleararchetype-void)|[ Children](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#children-zilch-engine-doc)| | |
-|[ Clone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#clone-zilch-engine-docume)|[ ComponentCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#componentcount-zilch-engi)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#cog-void)|[ EditorViewportHidden](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#editorviewporthidden-zer)| | |
-|[ DebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#debugdraw-void)|[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#gamesession-zilch-engine)| | |
-|[ Destroy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#destroy-void)|[ LevelSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#levelsettings-zilch-engin)| | |
-|[ Detach](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#detach-void)|[ Locked](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#locked-zilch-engine-docum)| | |
-|[ DetachPreserveLocal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#detachpreservelocal-void)|[ MarkedForDestruction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#markedfordestruction-zer)| | |
-|[ DispatchDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#dispatchdown-void)|[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#name-zilch-engine-documen)| | |
-|[ DispatchEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#dispatchevent-void)|[ ObjectViewHidden](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#objectviewhidden-zilch-en)| | |
-|[ DispatchUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#dispatchup-void)|[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#parent-zilch-engine-docum)| | |
-|[ FindAllChildrenByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findallchildrenbyname-ze)|[ Persistent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#persistent-zilch-engine-d)| | |
-|[ FindChildByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findchildbyname-zilch-eng)|[ RuntimeId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#runtimeid-zilch-engine-do)| | |
-|[ FindDirectChildByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#finddirectchildbyname-ze)|[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#space-zilch-engine-docume)| | |
-|[ FindNearestArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findnearestarchetype-zer)|[ Transient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#transient-zilch-engine-do)| | |
-|[ FindNextInOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findnextinorder-zilch-eng)| | | |
-|[ FindNextSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findnextsibling-zilch-eng)| | | |
-|[ FindPreviousInOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findpreviousinorder-zero)| | | |
-|[ FindPreviousSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findprevioussibling-zero)| | | |
-|[ FindRoot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findroot-zilch-engine-doc)| | | |
-|[ FindRootArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#findrootarchetype-zilch-e)| | | |
-|[ GetComponentByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#getcomponentbyindex-zero)| | | |
-|[ GetComponentByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#getcomponentbyname-zero)| | | |
-|[ GetComponentIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#getcomponentindex-zilch-e)| | | |
-|[ IsAncestorOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#isancestorof-zilch-engine)| | | |
-|[ IsDescendant](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#isdescendant-zilch-engine)| | | |
-|[ IsDescendantOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#isdescendantof-zilch-engi)| | | |
-|[ IsModifiedFromArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#ismodifiedfromarchetype)| | | |
-|[ PlaceAfterSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#placeaftersibling-void)| | | |
-|[ PlaceBeforeSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#placebeforesibling-void)| | | |
-|[ RemoveComponentByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#removecomponentbyname-ze)| | | |
-|[ RemoveComponentByType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#removecomponentbytype-ze)| | | |
-|[ ReplaceChild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#replacechild-void)| | | |
-|[ SanitizeName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#sanitizename-zilch-engine)| | | |
-|[ UploadToArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md#uploadtoarchetype-void)| | | |
+|[ AddComponentByName](cog.md#addcomponentbyname-zero)|[ Actions](cog.md#actions-zilch-engine-docu)|Object|[gamesession](gamesession.md)|
+|[ AddComponentByType](cog.md#addcomponentbytype-zero)|[ Archetype](cog.md#archetype-zilch-engine-do)| |[space](space.md)|
+|[ AttachTo](cog.md#attachto-zilch-engine-doc)|[ BaseArchetype](cog.md#basearchetype-zilch-engin)| | |
+|[ AttachToPreserveLocal](cog.md#attachtopreservelocal-ze)|[ ChildCount](cog.md#childcount-zilch-engine-d)| | |
+|[ ClearArchetype](cog.md#cleararchetype-void)|[ Children](cog.md#children-zilch-engine-doc)| | |
+|[ Clone](cog.md#clone-zilch-engine-docume)|[ ComponentCount](cog.md#componentcount-zilch-engi)| | |
+|[ Constructor](cog.md#cog-void)|[ EditorViewportHidden](cog.md#editorviewporthidden-zer)| | |
+|[ DebugDraw](cog.md#debugdraw-void)|[ GameSession](cog.md#gamesession-zilch-engine)| | |
+|[ Destroy](cog.md#destroy-void)|[ LevelSettings](cog.md#levelsettings-zilch-engin)| | |
+|[ Detach](cog.md#detach-void)|[ Locked](cog.md#locked-zilch-engine-docum)| | |
+|[ DetachPreserveLocal](cog.md#detachpreservelocal-void)|[ MarkedForDestruction](cog.md#markedfordestruction-zer)| | |
+|[ DispatchDown](cog.md#dispatchdown-void)|[ Name](cog.md#name-zilch-engine-documen)| | |
+|[ DispatchEvent](cog.md#dispatchevent-void)|[ ObjectViewHidden](cog.md#objectviewhidden-zilch-en)| | |
+|[ DispatchUp](cog.md#dispatchup-void)|[ Parent](cog.md#parent-zilch-engine-docum)| | |
+|[ FindAllChildrenByName](cog.md#findallchildrenbyname-ze)|[ Persistent](cog.md#persistent-zilch-engine-d)| | |
+|[ FindChildByName](cog.md#findchildbyname-zilch-eng)|[ RuntimeId](cog.md#runtimeid-zilch-engine-do)| | |
+|[ FindDirectChildByName](cog.md#finddirectchildbyname-ze)|[ Space](cog.md#space-zilch-engine-docume)| | |
+|[ FindNearestArchetype](cog.md#findnearestarchetype-zer)|[ Transient](cog.md#transient-zilch-engine-do)| | |
+|[ FindNextInOrder](cog.md#findnextinorder-zilch-eng)| | | |
+|[ FindNextSibling](cog.md#findnextsibling-zilch-eng)| | | |
+|[ FindPreviousInOrder](cog.md#findpreviousinorder-zero)| | | |
+|[ FindPreviousSibling](cog.md#findprevioussibling-zero)| | | |
+|[ FindRoot](cog.md#findroot-zilch-engine-doc)| | | |
+|[ FindRootArchetype](cog.md#findrootarchetype-zilch-e)| | | |
+|[ GetComponentByIndex](cog.md#getcomponentbyindex-zero)| | | |
+|[ GetComponentByName](cog.md#getcomponentbyname-zero)| | | |
+|[ GetComponentIndex](cog.md#getcomponentindex-zilch-e)| | | |
+|[ IsAncestorOf](cog.md#isancestorof-zilch-engine)| | | |
+|[ IsDescendant](cog.md#isdescendant-zilch-engine)| | | |
+|[ IsDescendantOf](cog.md#isdescendantof-zilch-engi)| | | |
+|[ IsModifiedFromArchetype](cog.md#ismodifiedfromarchetype)| | | |
+|[ PlaceAfterSibling](cog.md#placeaftersibling-void)| | | |
+|[ PlaceBeforeSibling](cog.md#placebeforesibling-void)| | | |
+|[ RemoveComponentByName](cog.md#removecomponentbyname-ze)| | | |
+|[ RemoveComponentByType](cog.md#removecomponentbytype-ze)| | | |
+|[ ReplaceChild](cog.md#replacechild-void)| | | |
+|[ SanitizeName](cog.md#sanitizename-zilch-engine)| | | |
+|[ UploadToArchetype](cog.md#uploadtoarchetype-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Actions : [actions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actions.md)
+ #  Actions : [actions](actions.md)
 
  `read-only`
 
@@ -58,7 +58,7 @@
 
 
 ---  
- #  Archetype : [archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.md)
+ #  Archetype : [archetype](archetype.md)
 
 > Getter / setter for Archetype.
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  BaseArchetype : [archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.md)
+ #  BaseArchetype : [archetype](archetype.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 
 
 ---  
- #  ChildCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ChildCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -86,7 +86,7 @@
 
 
 ---  
- #  Children : [hierarchylistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistrange.md)
+ #  Children : [hierarchylistrange](hierarchylistrange.md)
 
  `read-only`
 
@@ -96,7 +96,7 @@
 
 
 ---  
- #  ComponentCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ComponentCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -106,7 +106,7 @@
 
 
 ---  
- #  EditorViewportHidden : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  EditorViewportHidden : [boolean](../nada_base_types/boolean.md)
 
 > Hidden from view used for editor.
 > ``` lang=cpp, name=Nada
@@ -114,7 +114,7 @@
 
 
 ---  
- #  GameSession : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  GameSession : [gamesession](gamesession.md)
 
  `read-only`
 
@@ -124,7 +124,7 @@
 
 
 ---  
- #  LevelSettings : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  LevelSettings : [cog](cog.md)
 
  `read-only`
 
@@ -134,7 +134,7 @@
 
 
 ---  
- #  Locked : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Locked : [boolean](../nada_base_types/boolean.md)
 
 > Not able to be modified or selected in the viewport.
 > ``` lang=cpp, name=Nada
@@ -142,7 +142,7 @@
 
 
 ---  
- #  MarkedForDestruction : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MarkedForDestruction : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -152,7 +152,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > Name of the Object.
 > ``` lang=cpp, name=Nada
@@ -160,7 +160,7 @@
 
 
 ---  
- #  ObjectViewHidden : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ObjectViewHidden : [boolean](../nada_base_types/boolean.md)
 
 > If the object needs to not show up in the object view.
 > ``` lang=cpp, name=Nada
@@ -168,7 +168,7 @@
 
 
 ---  
- #  Parent : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Parent : [cog](cog.md)
 
  `read-only`
 
@@ -178,7 +178,7 @@
 
 
 ---  
- #  Persistent : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Persistent : [boolean](../nada_base_types/boolean.md)
 
 > Object will not be destroyed on level load or change.
 > ``` lang=cpp, name=Nada
@@ -186,7 +186,7 @@
 
 
 ---  
- #  RuntimeId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RuntimeId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -196,7 +196,7 @@
 
 
 ---  
- #  Space : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  Space : [space](space.md)
 
  `read-only`
 
@@ -206,7 +206,7 @@
 
 
 ---  
- #  Transient : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Transient : [boolean](../nada_base_types/boolean.md)
 
 > Object will not be saved.
 > ``` lang=cpp, name=Nada
@@ -218,48 +218,48 @@
 
 
 ---  
- #  AddComponentByName : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddComponentByName : [boolean](../nada_base_types/boolean.md)
 
 > Add a component by name.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function AddComponentByName(name : String) : Boolean
 > ``` 
 
 
 ---  
- #  AddComponentByType : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddComponentByType : [boolean](../nada_base_types/boolean.md)
 
 > Add a component of the given type.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentType|[boundtype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.md)| |
+> |componentType|[boundtype](../nada_base_types/boundtype.md)| |
 > ``` lang=cpp, name=Nada
 > function AddComponentByType(componentType : BoundType) : Boolean
 > ``` 
 
 
 ---  
- #  AttachTo : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AttachTo : [boolean](../nada_base_types/boolean.md)
 
 > Attach to a parent object and compute the new transform so that the objects are relative.
 > |Name|Type|Description|
 > |---|---|---|
-> |parent|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |parent|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function AttachTo(parent : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  AttachToPreserveLocal : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AttachToPreserveLocal : [boolean](../nada_base_types/boolean.md)
 
 > Attach to a parent object.
 > |Name|Type|Description|
 > |---|---|---|
-> |parent|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |parent|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function AttachToPreserveLocal(parent : Cog) : Boolean
 > ``` 
@@ -277,7 +277,7 @@
 
 
 ---  
- #  Clone : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Clone : [cog](cog.md)
 
 > Clones this cog. The cloned object will be parented to this objects parent (if it exists).
 > |Name|Type|Description|
@@ -350,8 +350,8 @@
 > Dispatches an event down the tree on all children recursively (pre-order traversal)
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |event|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DispatchDown(eventId : String, event : Event)
 > ``` 
@@ -363,8 +363,8 @@
 > Dispatches an event on this object.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |event|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DispatchEvent(eventId : String, event : Event)
 > ``` 
@@ -376,51 +376,51 @@
 > Dispatches an event up the tree on each parent recursively (pre-order traversal)
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |event|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DispatchUp(eventId : String, event : Event)
 > ``` 
 
 
 ---  
- #  FindAllChildrenByName : [hierarchynamerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md)
+ #  FindAllChildrenByName : [hierarchynamerange](hierarchynamerange.md)
 
 > Returns a range of all children with the given name.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function FindAllChildrenByName(name : String) : HierarchyNameRange
 > ``` 
 
 
 ---  
- #  FindChildByName : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindChildByName : [cog](cog.md)
 
 > Depth first search of all children.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function FindChildByName(name : String) : Cog
 > ``` 
 
 
 ---  
- #  FindDirectChildByName : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindDirectChildByName : [cog](cog.md)
 
 > Checks only direct children.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function FindDirectChildByName(name : String) : Cog
 > ``` 
 
 
 ---  
- #  FindNearestArchetype : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindNearestArchetype : [cog](cog.md)
 
 > Same as FindNearestParentArchetype except that it includes this Cog.
 > |Name|Type|Description|
@@ -431,7 +431,7 @@
 
 
 ---  
- #  FindNextInOrder : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindNextInOrder : [cog](cog.md)
 
 > Finds the next Cog in depth first post-order.
 > |Name|Type|Description|
@@ -442,7 +442,7 @@
 
 
 ---  
- #  FindNextSibling : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindNextSibling : [cog](cog.md)
 
 > Returns the sibling Cog after this in the parents child list. Returns null if it's the last child. If the Cog doesn't have a parent, it will return the Cog after it in the Space.
 > |Name|Type|Description|
@@ -453,7 +453,7 @@
 
 
 ---  
- #  FindPreviousInOrder : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindPreviousInOrder : [cog](cog.md)
 
 > Finds the previous Cog in reverse depth first post-order (the opposite of FindNextInOrder).
 > |Name|Type|Description|
@@ -464,7 +464,7 @@
 
 
 ---  
- #  FindPreviousSibling : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindPreviousSibling : [cog](cog.md)
 
 > Returns the sibling Cog before this in the parents child list. Returns null if it's the first child. If the Cog doesn't have a parent, it will return the Cog before it in the Space.
 > |Name|Type|Description|
@@ -475,7 +475,7 @@
 
 
 ---  
- #  FindRoot : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindRoot : [cog](cog.md)
 
 > Searches up the hierarchy for the root Cog.
 > |Name|Type|Description|
@@ -486,7 +486,7 @@
 
 
 ---  
- #  FindRootArchetype : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindRootArchetype : [cog](cog.md)
 
 > Finds the top most Archetype in the Hierarchy.
 > |Name|Type|Description|
@@ -497,79 +497,79 @@
 
 
 ---  
- #  GetComponentByIndex : [component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)
+ #  GetComponentByIndex : [component](component.md)
 
 > Returns the Component at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetComponentByIndex(index : Integer) : Component
 > ``` 
 
 
 ---  
- #  GetComponentByName : [component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)
+ #  GetComponentByName : [component](component.md)
 
 > Finds the Components with the given type name.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentTypeName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |componentTypeName|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetComponentByName(componentTypeName : String) : Component
 > ``` 
 
 
 ---  
- #  GetComponentIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetComponentIndex : [integer](../nada_base_types/integer.md)
 
 > Finds the index of the given Component type. Returns uint max if the Component didn't exist.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentType|[boundtype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.md)| |
+> |componentType|[boundtype](../nada_base_types/boundtype.md)| |
 > ``` lang=cpp, name=Nada
 > function GetComponentIndex(componentType : BoundType) : Integer
 > ``` 
 
 
 ---  
- #  IsAncestorOf : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsAncestorOf : [boolean](../nada_base_types/boolean.md)
 
 > Returns whether or not we are an ancestor of the given Cog.
 > |Name|Type|Description|
 > |---|---|---|
-> |descendant|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |descendant|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function IsAncestorOf(descendant : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  IsDescendant : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsDescendant : [boolean](../nada_base_types/boolean.md)
 
 > Returns whether or not the given cog is a descendant of us.
 > |Name|Type|Description|
 > |---|---|---|
-> |cog|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |cog|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function IsDescendant(cog : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  IsDescendantOf : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsDescendantOf : [boolean](../nada_base_types/boolean.md)
 
 > Returns whether or not we are a descendant of the given Cog.
 > |Name|Type|Description|
 > |---|---|---|
-> |ancestor|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |ancestor|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function IsDescendantOf(ancestor : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  IsModifiedFromArchetype : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsModifiedFromArchetype : [boolean](../nada_base_types/boolean.md)
 
 > Returns whether or not we have any local modifications from our Archetype. This does not account for properties with LocalModificationOverride (such as Transform modifications).
 > |Name|Type|Description|
@@ -585,7 +585,7 @@
 > Moves this Cog after the given sibling. Assumes they have the same parent.
 > |Name|Type|Description|
 > |---|---|---|
-> |sibling|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |sibling|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function PlaceAfterSibling(sibling : Cog)
 > ``` 
@@ -597,31 +597,31 @@
 > Moves this Cog before the given sibling. Assumes they have the same parent.
 > |Name|Type|Description|
 > |---|---|---|
-> |sibling|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |sibling|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function PlaceBeforeSibling(sibling : Cog)
 > ``` 
 
 
 ---  
- #  RemoveComponentByName : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveComponentByName : [boolean](../nada_base_types/boolean.md)
 
 > Remove a component by name. Returns true if the component existed.
 > |Name|Type|Description|
 > |---|---|---|
-> |typeName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |typeName|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveComponentByName(typeName : String) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveComponentByType : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveComponentByType : [boolean](../nada_base_types/boolean.md)
 
 > Remove a component by type. Returns true if the component existed.
 > |Name|Type|Description|
 > |---|---|---|
-> |componentType|[boundtype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.md)| |
+> |componentType|[boundtype](../nada_base_types/boundtype.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveComponentByType(componentType : BoundType) : Boolean
 > ``` 
@@ -633,22 +633,22 @@
 > Places the new child at the same place as the old child in the Hierarchy. This detaches but does not destroy the old child.
 > |Name|Type|Description|
 > |---|---|---|
-> |oldChild|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
-> |newChild|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |oldChild|[cog](cog.md)| |
+> |newChild|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function ReplaceChild(oldChild : Cog, newChild : Cog)
 > ``` 
 
 
 ---  
- #  SanitizeName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  SanitizeName : [string](../nada_base_types/string.md)
 
  `static`
 
 > Cleans an object name of invalid runes.
 > |Name|Type|Description|
 > |---|---|---|
-> |newName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |newName|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function SanitizeName(newName : String) : String
 > ``` 

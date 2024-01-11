@@ -1,4 +1,4 @@
-[ Joints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md) are a representation of a physics concept known as [constraints](https://en.wikipedia.org/wiki/Constraint_(mathematics) ). A constraint is a mathematical rule that defines (or constrains) how objects are allowed to move. A Joint is a collection of one or more constraints that define a more common interaction. In Zilch, a Joint is typically an independent object that connects two [ObjectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md).
+[ Joints](../../../code_reference/class_reference/joint.md) are a representation of a physics concept known as [constraints](https://en.wikipedia.org/wiki/Constraint_(mathematics) ). A constraint is a mathematical rule that defines (or constrains) how objects are allowed to move. A Joint is a collection of one or more constraints that define a more common interaction. In Zilch, a Joint is typically an independent object that connects two [ObjectLink](../../../code_reference/class_reference/objectlink.md).
 
  #  Shared Properties
 Before looking at individual joints, there's a few useful shared properties:
@@ -10,23 +10,23 @@ Before looking at individual joints, there's a few useful shared properties:
  #  Joint Add-ons
 Before discussing each individual Joint, there's several helper components that are important to understand. These components affect how a joint will affect the connected objects. These components can be added to any Joint, but may not always make sense for a specific one.
 
- ###  [JointLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.md)
+ ###  [JointLimit](../../../code_reference/class_reference/jointlimit.md)
 A limit restricts a certain portion of the joint to only be active part of the time. This is typically sets some min/max distance/angle where the joint will allow free movement.
 NOTE: When the limit is for angles it is specified in radians.
 
- ###  [JointMotor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md)
+ ###  [JointMotor](../../../code_reference/class_reference/jointmotor.md)
 A motor takes a portion of the joint and adds energy to it. This is often used to drive a portion of the joint when no external forces are acting upon it. A motor allows setting a target speed and a max impulse it can use to try and achieve this.
 
- ###  [JointSpring](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.md)
+ ###  [JointSpring](../../../code_reference/class_reference/jointspring.md)
 A spring takes a portion of the joint and makes it soft, or non-rigid. This can be useful to simulate a spring or make the limits of a joint springy. Springs are defined by a frequency in Hertz (oscillations per second) and a damping ratio. The damping ratio defines how much energy should be damped out of the system where 0 means no damping and 1 is critical (perfect) damping.
 
  ##  Extra AddOns
 There are a few extra joint add-ons that are less frequently used.
 
- ###  [JointConfigOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md)
+ ###  [JointConfigOverride](../../../code_reference/class_reference/jointconfigoverride.md)
 This allows configuring individual joint properties for solving. Typically you shouldn't touch this if you don't understand it.
 
- ###  [JointDebugDrawConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.md)
+ ###  [JointDebugDrawConfig](../../../code_reference/class_reference/jointdebugdrawconfig.md)
 The debug draw config is used to give additional debug drawing information to the joint. This is mostly to allow configuring which object's perspective to draw information from. Not all joints currently observe this component.
 
  #  JointTypes
@@ -39,7 +39,7 @@ A stick joint, or distance joint, defines that two points on the objects should 
 A position joint locks two points on the objects to be at the same position. This is common for a ball-and-socket like joint.
 
  ###  WeldJoint
-A weld joint locks the the relative position and rotation of two objects together. For a rigid connection, [hierarchies](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/hierarchies.md) should be used instead as joints are not completely stiff. If run-time behaviors, such as auto-snapping with a max impulse, are desired then using a weld is easier than hierarchies.
+A weld joint locks the the relative position and rotation of two objects together. For a rigid connection, [hierarchies](hierarchies.md) should be used instead as joints are not completely stiff. If run-time behaviors, such as auto-snapping with a max impulse, are desired then using a weld is easier than hierarchies.
 
  ###  PrismaticJoint
 A prismatic joint (or slider) locks the rotation of two objects together and two of the linear axes. This allows relative translation of the objects along one axis. This is often used to create pistons or sliders.
@@ -71,33 +71,33 @@ A few joints have 2D versions that should be used when making a 2D game instead 
 ---
  ##  Related Materials
  ###  Manual
-- [colliders.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md)
+- [colliders.md](colliders.md)
 
  ###  Reference
- - [Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)
- - [StickJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stickjoint.md)
- - [PositionJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/positionjoint.md)
- - [WeldJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/weldjoint.md)
- - [PrismaticJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md)
- - [PrismaticJoint2d](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint2d.md)
- - [RevoluteJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md)
- - [RevoluteJoint2d](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint2d.md)
- - [WheelJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint.md)
- - [WheelJoint2d](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/wheeljoint2d.md)
- - [UniversalJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/universaljoint.md)
- - [UprightJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uprightjoint.md)
- - [GearJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md)
- - [PulleyJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.md)
- - [CustomJoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md)
- - [JointEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.md)
- - [CustomJointEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjointevent.md)
- - [JointLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointlimit.md)
- - [JointMotor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointmotor.md)
- - [JointSpring](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.md)
- - [JointDebugDrawConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointdebugdrawconfig.md)
- - [JointConfigOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md)
- - [CustomConstraintInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md)
- - [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
+ - [Joint](../../../code_reference/class_reference/joint.md)
+ - [StickJoint](../../../code_reference/class_reference/stickjoint.md)
+ - [PositionJoint](../../../code_reference/class_reference/positionjoint.md)
+ - [WeldJoint](../../../code_reference/class_reference/weldjoint.md)
+ - [PrismaticJoint](../../../code_reference/class_reference/prismaticjoint.md)
+ - [PrismaticJoint2d](../../../code_reference/class_reference/prismaticjoint2d.md)
+ - [RevoluteJoint](../../../code_reference/class_reference/revolutejoint.md)
+ - [RevoluteJoint2d](../../../code_reference/class_reference/revolutejoint2d.md)
+ - [WheelJoint](../../../code_reference/class_reference/wheeljoint.md)
+ - [WheelJoint2d](../../../code_reference/class_reference/wheeljoint2d.md)
+ - [UniversalJoint](../../../code_reference/class_reference/universaljoint.md)
+ - [UprightJoint](../../../code_reference/class_reference/uprightjoint.md)
+ - [GearJoint](../../../code_reference/class_reference/gearjoint.md)
+ - [PulleyJoint](../../../code_reference/class_reference/pulleyjoint.md)
+ - [CustomJoint](../../../code_reference/class_reference/customjoint.md)
+ - [JointEvent](../../../code_reference/class_reference/jointevent.md)
+ - [CustomJointEvent](../../../code_reference/class_reference/customjointevent.md)
+ - [JointLimit](../../../code_reference/class_reference/jointlimit.md)
+ - [JointMotor](../../../code_reference/class_reference/jointmotor.md)
+ - [JointSpring](../../../code_reference/class_reference/jointspring.md)
+ - [JointDebugDrawConfig](../../../code_reference/class_reference/jointdebugdrawconfig.md)
+ - [JointConfigOverride](../../../code_reference/class_reference/jointconfigoverride.md)
+ - [CustomConstraintInfo](../../../code_reference/class_reference/customconstraintinfo.md)
+ - [Collider](../../../code_reference/class_reference/collider.md)
  
 
  

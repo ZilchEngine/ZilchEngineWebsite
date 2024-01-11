@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md#multiconvexmeshsubmeshra)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](multiconvexmeshsubmeshrange.md#movenext-void)|[ All](multiconvexmeshsubmeshrange.md#all-zilch-engine-document)| | |
+|[ Constructor](multiconvexmeshsubmeshrange.md#multiconvexmeshsubmeshra)|[ Current](multiconvexmeshsubmeshrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](multiconvexmeshsubmeshrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](multiconvexmeshsubmeshrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [multiconvexmeshsubmeshrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md)
+ #  All : [multiconvexmeshsubmeshrange](multiconvexmeshsubmeshrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [subconvexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.md)
+ #  Current : [subconvexmesh](subconvexmesh.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[multiconvexmeshsubmeshrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md)| |
+> |p0|[multiconvexmeshsubmeshrange](multiconvexmeshsubmeshrange.md)| |
 > ``` lang=cpp, name=Nada
 > function MultiConvexMeshSubMeshRange(p0 : MultiConvexMeshSubMeshRange)
 > ``` 

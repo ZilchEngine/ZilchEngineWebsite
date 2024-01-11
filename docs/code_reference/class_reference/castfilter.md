@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md#castfilter-void)|[ CallbackEventName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md#callbackeventname-zilch-e)|[basecastfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecastfilter.md)| |
-| |[ CallbackObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md#callbackobject-object)| | |
-| |[ CollisionGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md#collisiongroup-zilch-engi)| | |
-| |[ IgnoreCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md#ignorecog-zilch-engine-do)| | |
+|[ Constructor](castfilter.md#castfilter-void)|[ CallbackEventName](castfilter.md#callbackeventname-zilch-e)|[basecastfilter](basecastfilter.md)| |
+| |[ CallbackObject](castfilter.md#callbackobject-object)| | |
+| |[ CollisionGroup](castfilter.md#collisiongroup-zilch-engi)| | |
+| |[ IgnoreCog](castfilter.md#ignorecog-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  CallbackEventName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CallbackEventName : [string](../nada_base_types/string.md)
 
 > The name of the event to invoke on the callback object.
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  CollisionGroup : [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)
+ #  CollisionGroup : [collisiongroup](collisiongroup.md)
 
 > Should this cast behave like it belongs to a collision group? Uses the current space's CollisionTable for filtering logic.
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  IgnoreCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  IgnoreCog : [cog](cog.md)
 
 > A cog to ignore during casts.
 > ``` lang=cpp, name=Nada
@@ -70,7 +70,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[castfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilter.md)| |
+> ||[castfilter](castfilter.md)| |
 > ``` lang=cpp, name=Nada
 > function CastFilter( : CastFilter)
 > ``` 

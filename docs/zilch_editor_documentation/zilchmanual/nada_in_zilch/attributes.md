@@ -235,7 +235,7 @@ class CreateArchetype : NadaComponent
 
 
  ## [ComponentInterface]
-The ComponentInterface attribute allows the user to define a class as a generic interface for its derived types. One common example of this is [collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md), which acts as a component interface for all collider types, such as [boxcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md), [capsulecollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.md), and more. Defining an interface using this attribute allows the user to access the members of a derived class using the component name of the base class.
+The ComponentInterface attribute allows the user to define a class as a generic interface for its derived types. One common example of this is [collider](../../../code_reference/class_reference/collider.md), which acts as a component interface for all collider types, such as [boxcollider](../../../code_reference/class_reference/boxcollider.md), [capsulecollider](../../../code_reference/class_reference/capsulecollider.md), and more. Defining an interface using this attribute allows the user to access the members of a derived class using the component name of the base class.
 
 ```name=Component Interface Access Example, lang=csharp
 var collisionGroup = this.Owner.BoxCollider.CollisionGroup;
@@ -245,7 +245,7 @@ if(collisionGroup == collisionGroupAccessedByInterface)
   Console.WriteLine("These variables reference the same component");
 ```
 
-Using a component interface does not mean that the property and methods of a derived class need to be exactly the same as the base class. What would be the point? Using the [ Virtual](https://github.com/ZilchEngine/ZilchDocs/blob/master/sandbox/arend_danielek/attributes.md#virtual) and [ Override ](https://github.com/ZilchEngine/ZilchDocs/blob/master/sandbox/arend_danielek/attributes.md#override) attributes, we can modify the interface of derived classes.
+Using a component interface does not mean that the property and methods of a derived class need to be exactly the same as the base class. What would be the point? Using the [ Virtual](../../../sandbox/arend_danielek/attributes.md#virtual) and [ Override ](../../../sandbox/arend_danielek/attributes.md#override) attributes, we can modify the interface of derived classes.
 
 ```name=Component Interface Example, lang=csharp
 [ComponentInterface]
@@ -308,8 +308,8 @@ To manually register, you would add these components to an archetype and then ad
 
  # Related Materials
  ## Manual
-- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md)
-- [variables_and_data_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
-- [wysiwyg](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting/wysiwyg.md) 
+- [inheritance](inheritance.md)
+- [variables_and_data_types](variables_and_data_types.md)
+- [wysiwyg](../scripting/wysiwyg.md) 
 
  

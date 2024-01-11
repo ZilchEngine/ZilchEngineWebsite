@@ -2,23 +2,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#get-zilch-engine-document)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#count-zilch-engine-docume)| | |
-|[ GetAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#getaxis-zilch-engine-docu)|[ NegativeMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#negativemin-zilch-engine)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#real3-void)|[ NegativeValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#negativevalueclosesttoze)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#set-void)|[ One](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#one-zilch-engine-document)| | |
-| |[ PositiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#positivevalueclosesttoze)| | |
-| |[ XAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#xaxis-zilch-engine-docume)| | |
-| |[ YAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#yaxis-zilch-engine-docume)| | |
-| |[ ZAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#zaxis-zilch-engine-docume)| | |
-| |[ Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md#zilch-zilch-engine-documen)| | |
+|[ Get](real3.md#get-zilch-engine-document)|[ Count](real3.md#count-zilch-engine-docume)| | |
+|[ GetAxis](real3.md#getaxis-zilch-engine-docu)|[ NegativeMin](real3.md#negativemin-zilch-engine)| | |
+|[ Constructor](real3.md#real3-void)|[ NegativeValueClosestToZero](real3.md#negativevalueclosesttoze)| | |
+|[ Set](real3.md#set-void)|[ One](real3.md#one-zilch-engine-document)| | |
+| |[ PositiveMax](real3.md#positivemax-zilch-engine)| | |
+| |[ PositiveValueClosestToZero](real3.md#positivevalueclosesttoze)| | |
+| |[ XAxis](real3.md#xaxis-zilch-engine-docume)| | |
+| |[ YAxis](real3.md#yaxis-zilch-engine-docume)| | |
+| |[ ZAxis](real3.md#zaxis-zilch-engine-docume)| | |
+| |[ Zero](real3.md#zilch-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -28,7 +28,7 @@
 
 
 ---  
- #  NegativeMin : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  NegativeMin : [real3](real3.md)
 
  `read-only` `static`
 
@@ -38,7 +38,7 @@
 
 
 ---  
- #  NegativeValueClosestToZero : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  NegativeValueClosestToZero : [real3](real3.md)
 
  `read-only` `static`
 
@@ -48,7 +48,7 @@
 
 
 ---  
- #  One : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  One : [real3](real3.md)
 
  `read-only` `static`
 
@@ -58,7 +58,7 @@
 
 
 ---  
- #  PositiveMax : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  PositiveMax : [real3](real3.md)
 
  `read-only` `static`
 
@@ -68,7 +68,7 @@
 
 
 ---  
- #  PositiveValueClosestToZero : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  PositiveValueClosestToZero : [real3](real3.md)
 
  `read-only` `static`
 
@@ -78,7 +78,7 @@
 
 
 ---  
- #  XAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  XAxis : [real3](real3.md)
 
  `read-only` `static`
 
@@ -88,7 +88,7 @@
 
 
 ---  
- #  YAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  YAxis : [real3](real3.md)
 
  `read-only` `static`
 
@@ -98,7 +98,7 @@
 
 
 ---  
- #  ZAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ZAxis : [real3](real3.md)
 
  `read-only` `static`
 
@@ -108,7 +108,7 @@
 
 
 ---  
- #  Zero : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Zero : [real3](real3.md)
 
  `read-only` `static`
 
@@ -122,26 +122,26 @@
 
 
 ---  
- #  Get : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Get : [real](real.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(p0 : Integer) : Real
 > ``` 
 
 
 ---  
- #  GetAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  GetAxis : [real3](real3.md)
 
  `static`
 
 > Returns an axis vector from the given index (ie. 0 is XAxis, 1 is YAxis, etc...
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetAxis(p0 : Integer) : Real3
 > ``` 
@@ -168,7 +168,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |scalar|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |scalar|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Real3(scalar : Real)
 > ``` 
@@ -182,9 +182,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](real.md)| |
+> |p1|[real](real.md)| |
+> |p2|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Real3(p0 : Real, p1 : Real, p2 : Real)
 > ``` 
@@ -198,8 +198,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |p0|[real](real.md)| |
+> |p1|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Real3(p0 : Real, p1 : Real2)
 > ``` 
@@ -213,8 +213,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real2](real2.md)| |
+> |p1|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Real3(p0 : Real2, p1 : Real)
 > ``` 
@@ -226,8 +226,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(p0 : Integer, p1 : Real)
 > ``` 

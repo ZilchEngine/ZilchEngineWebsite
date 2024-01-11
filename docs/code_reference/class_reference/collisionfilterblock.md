@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BlockType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilterblock.md#blocktype-zilch-engine-do)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)|[collisionendblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionendblock.md)|
-| |[ EventOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilterblock.md#eventoverride-zilch-engin)| |[collisionpersistedblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionpersistedblock.md)|
-| |[ SendEventsToA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilterblock.md#sendeventstoa-zilch-engin)| |[collisionstartblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionstartblock.md)|
-| |[ SendEventsToB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilterblock.md#sendeventstob-zilch-engin)| |[presolveblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveblock.md)|
-| |[ SendEventsToSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilterblock.md#sendeventstospace-zilch-e)| | |
+| |[ BlockType](collisionfilterblock.md#blocktype-zilch-engine-do)|[safeid32object](safeid32object.md)|[collisionendblock](collisionendblock.md)|
+| |[ EventOverride](collisionfilterblock.md#eventoverride-zilch-engin)| |[collisionpersistedblock](collisionpersistedblock.md)|
+| |[ SendEventsToA](collisionfilterblock.md#sendeventstoa-zilch-engin)| |[collisionstartblock](collisionstartblock.md)|
+| |[ SendEventsToB](collisionfilterblock.md#sendeventstob-zilch-engin)| |[presolveblock](presolveblock.md)|
+| |[ SendEventsToSpace](collisionfilterblock.md#sendeventstospace-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  BlockType : [CollisionFilterBlockType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#collisionfilterblocktype)
+ #  BlockType : [CollisionFilterBlockType](../enum_reference.md#collisionfilterblocktype)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  EventOverride : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  EventOverride : [string](../nada_base_types/string.md)
 
 > What event name to send out when this block triggers. If left empty the default name will be used (e.g. GroupCollisionStarted).
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  SendEventsToA : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SendEventsToA : [boolean](../nada_base_types/boolean.md)
 
 > Does the first object in the filter get this event type sent to it?
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  SendEventsToB : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SendEventsToB : [boolean](../nada_base_types/boolean.md)
 
 > Does the second object in the filter get this event type sent to it?
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  SendEventsToSpace : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SendEventsToSpace : [boolean](../nada_base_types/boolean.md)
 
 > Does the active space of the objects get this event type sent to it?
 > ``` lang=cpp, name=Nada

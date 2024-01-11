@@ -7,12 +7,12 @@ This lesson covers creating a custom mouse cursor in the Zilch Engine.
 
  #  Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ CreateSphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsphere)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSphere](../../../code_reference/command_reference.md#createsphere)
 - In the `Properties Window`
- - [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [ RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
- - [ Remove Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [ SphereCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.md)
+ - [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [ RigidBody](../../../code_reference/class_reference/rigidbody.md)
+ - [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [ SphereCollider](../../../code_reference/class_reference/spherecollider.md)
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/105388.png)
@@ -33,7 +33,7 @@ Making a custom mouse cursor in the Zilch Engine is as simple as making a sprite
   - Set ImportImages enum to `Sprites`
  - Press the `Import All` button
 
-The apparent "point" of this particular [ SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.md) is not at its center or one of its corners, so we should adjust its Origin  properties a bit, so that its transform is in just the right spot.
+The apparent "point" of this particular [ SpriteSource](../../../code_reference/class_reference/spritesource.md) is not at its center or one of its corners, so we should adjust its Origin  properties a bit, so that its transform is in just the right spot.
 
 - In the `Library Window`
  - Under the SpriteSource  tag
@@ -47,10 +47,10 @@ The apparent "point" of this particular [ SpriteSource](https://github.com/Zilch
 
 Now that we have a SpriteSource to use, it's time to make the cursor.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Cursor`
- - Under [ Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
+ - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
   - Set SpriteSource enum to `PyramidCursor`
 
 
@@ -62,7 +62,7 @@ There's a problem here: the main game level's objects are drawn overtop of the c
 
  ##  Moving the Cursor
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `MouseFollower`
 - Update the `MouseFollower` script to the following:
 
@@ -87,17 +87,17 @@ class MouseFollower : NadaComponent
 
 This component will make whatever we attach it to set its position to the world-space coordinates of the mouse whenever the mouse moves. It also sets the mouse cursor to be invisible when it is initialized.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Cursor object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Cursor object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `MouseFollower`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MouseFollower`
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![Custom Cursor Moving Behind Sphere](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106359.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Moving the mouse now brings the cursor sprite with it.
 
@@ -105,18 +105,18 @@ Moving the mouse now brings the cursor sprite with it.
 
 - In the `Properties Window`
  - Set Archetype  to `CustomCursor`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Delete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#delete)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Delete](../../../code_reference/command_reference.md#delete)
 
 Now let's fix the fact that the cursor is not drawn on top. The problem is that the cursor is an object in the same space as the other objects in the level, which means it won't necessarily always appear on top of everything, as a proper mouse cursor should. We could move it along the Z axis to put it in front of the sphere, and that would work in this particular case, but it's not a good approach in general. What we really should do is put the cursor in its own space. Let's begin by creating a level for that space, which will contain the cursor (and not much else).
 
  ##  Cursor Space
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a Level resource using the {nav icon=clone, name=2D Level} template and name it `CursorLevel`
 
-Just as we learned in the [ tutorial on spaces](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/architecture/spaces.md), we need to tweak a few settings a bit in this level to ensure that it will layer on top of the main space properly.
+Just as we learned in the [ tutorial on spaces](../architecture/spaces.md), we need to tweak a few settings a bit in this level to ensure that it will layer on top of the main space properly.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
 - In the `Properties Window`
  - Under `ForwardRenderer`
   - Set ClearColor  to `[R:0, G:0, B:0, A:0.00]`
@@ -128,9 +128,9 @@ Just as we learned in the [ tutorial on spaces](https://github.com/ZilchEngine/Z
 
 The renderer's ClearColor  needs to be transparent, or it will be impossible to see the main game level through the overlaid cursor space.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
 - In the `Properties Window`
- - Under [ CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md)
+ - Under [ CameraViewport](../../../code_reference/class_reference/cameraviewport.md)
   - Set RenderOrder  to `1`
   - Set ForwardViewportEvents checkBox to `true`
 
@@ -139,11 +139,11 @@ The renderer's ClearColor  needs to be transparent, or it will be impossible to 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106159.png)
 
 
-The [ CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md)'s RenderOrder  in the cursor space needs to be greater than that of the main space so that it will correctly be layered on top. Also, since a mouse-driven game depends on mouse events, we need to make sure we check the ForwardViewportEvents checkBox box. Otherwise, the cursor space would block all of our attempts at mouse interaction from reaching the main space beneath it.
+The [ CameraViewport](../../../code_reference/class_reference/cameraviewport.md)'s RenderOrder  in the cursor space needs to be greater than that of the main space so that it will correctly be layered on top. Also, since a mouse-driven game depends on mouse events, we need to make sure we check the ForwardViewportEvents checkBox box. Otherwise, the cursor space would block all of our attempts at mouse interaction from reaching the main space beneath it.
 
 Next, we need a component that, when initialized, will create the cursor space, load the cursor level, and create the custom cursor.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `CustomCursor`
 - Update the `CustomCursor` script to the following:
 
@@ -182,13 +182,13 @@ When this component is initialized, it creates the cursor space and loads the cu
 - In the `Library Window`
  - Under the Level  tag
   - Open the `Level` Level resource
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `CustomCursor`
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `CustomCursor`
 
 We're finally done! Let's see it all together.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - Move the mouse to make the custom cursor move.
 
 
@@ -196,32 +196,32 @@ We're finally done! Let's see it all together.
 ![Custom Cursor Final](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106366.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  Related Materials
  ##  Tutorials
-- [spaces](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/architecture/spaces.md)
+- [spaces](../architecture/spaces.md)
  ##  Manual
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
-- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [commands](../../zilchmanual/editor/editorcommands/commands.md)
+- [addremovecomponent](../../zilchmanual/editor/addremovecomponent.md)
+- [selectobject](../../zilchmanual/editor/editorcommands/selectobject.md)
+- [resourceadding](../../zilchmanual/editor/editorcommands/resourceadding.md)
  ##  Reference
  ###  Commands
-- [ CreateSphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsphere)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
-- [ CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [ Delete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#delete)
+- [ CreateSphere](../../../code_reference/command_reference.md#createsphere)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [ Delete](../../../code_reference/command_reference.md#delete)
  ###  Classes
-- [viewportmouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewportmouseevent.md)
-- [sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [cameraviewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md)
+- [viewportmouseevent](../../../code_reference/class_reference/viewportmouseevent.md)
+- [sprite](../../../code_reference/class_reference/sprite.md)
+- [cameraviewport](../../../code_reference/class_reference/cameraviewport.md)
  ###  Events
-- [ MouseMove](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#mousemove)
+- [ MouseMove](../../../code_reference/event_reference.md#mousemove)
  ###  Enums
-- [ ImageImport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#imageimport)
-- [ SpriteOrigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteorigin)
+- [ ImageImport](../../../code_reference/enum_reference.md#imageimport)
+- [ SpriteOrigin](../../../code_reference/enum_reference.md#spriteorigin)
  ##  Development Task
 - {T2065}
  

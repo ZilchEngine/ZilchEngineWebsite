@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Friction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveevent.md#friction-zilch-engine-doc)|[basecollisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md)| |
-| |[ Restitution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/presolveevent.md#restitution-zilch-engine)| | |
+| |[ Friction](presolveevent.md#friction-zilch-engine-doc)|[basecollisionevent](basecollisionevent.md)| |
+| |[ Restitution](presolveevent.md#restitution-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Friction : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Friction : [real](../nada_base_types/real.md)
 
 > The friction to use for solving this pair. Allows custom overriding for this pair.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Restitution : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Restitution : [real](../nada_base_types/real.md)
 
 > The restitution to use for solving this pair. Allows custom overriding for this pair.
 > ``` lang=cpp, name=Nada

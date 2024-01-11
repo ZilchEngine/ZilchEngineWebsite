@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md#nethostrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](nethostrange.md#movenext-void)|[ All](nethostrange.md#all-zilch-engine-document)| | |
+|[ Constructor](nethostrange.md#nethostrange-void)|[ Current](nethostrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](nethostrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](nethostrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [nethostrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md)
+ #  All : [nethostrange](nethostrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [nethost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md)
+ #  Current : [nethost](nethost.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[nethostrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md)| |
+> |p0|[nethostrange](nethostrange.md)| |
 > ``` lang=cpp, name=Nada
 > function NetHostRange(p0 : NetHostRange)
 > ``` 

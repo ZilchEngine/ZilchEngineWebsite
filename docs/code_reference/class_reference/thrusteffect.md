@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.md#thrusteffect-void)|[ ForceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.md#forcedirection-zilch-engi)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)| |
-| |[ ForceStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.md#forcestrength-zilch-engin)| | |
-| |[ LocalSpaceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.md#localspacedirection-zero)| | |
-| |[ WorldForceDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.md#worldforcedirection-zero)| | |
+|[ Constructor](thrusteffect.md#thrusteffect-void)|[ ForceDirection](thrusteffect.md#forcedirection-zilch-engi)|[physicseffect](physicseffect.md)| |
+| |[ ForceStrength](thrusteffect.md#forcestrength-zilch-engin)| | |
+| |[ LocalSpaceDirection](thrusteffect.md#localspacedirection-zero)| | |
+| |[ WorldForceDirection](thrusteffect.md#worldforcedirection-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  ForceDirection : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ForceDirection : [real3](../nada_base_types/real3.md)
 
 > The direction that the force should be applied.
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  ForceStrength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ForceStrength : [real](../nada_base_types/real.md)
 
 > The strength of the force being applied in the force direction.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  LocalSpaceDirection : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LocalSpaceDirection : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this force is to be applied in local or world space.
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  WorldForceDirection : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldForceDirection : [real3](../nada_base_types/real3.md)
 
  `read-only`
 

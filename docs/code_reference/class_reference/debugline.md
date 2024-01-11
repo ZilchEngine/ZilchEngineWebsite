@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#debugline-void)|[ BoxHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#boxheads-zilch-engine-doc)| | |
-| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#color-zilch-engine-docume)| | |
-| |[ DualHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#dualheads-zilch-engine-do)| | |
-| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#end-zilch-engine-document)| | |
-| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#filled-zilch-engine-docum)| | |
-| |[ HeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#headsize-zilch-engine-doc)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#ontop-zilch-engine-docume)| | |
-| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#start-zilch-engine-docume)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugline.md#viewscaleoffset-zilch-eng)| | |
+|[ Constructor](debugline.md#debugline-void)|[ BoxHeads](debugline.md#boxheads-zilch-engine-doc)| | |
+| |[ Color](debugline.md#color-zilch-engine-docume)| | |
+| |[ DualHeads](debugline.md#dualheads-zilch-engine-do)| | |
+| |[ End](debugline.md#end-zilch-engine-document)| | |
+| |[ Filled](debugline.md#filled-zilch-engine-docum)| | |
+| |[ HeadSize](debugline.md#headsize-zilch-engine-doc)| | |
+| |[ OnTop](debugline.md#ontop-zilch-engine-docume)| | |
+| |[ Start](debugline.md#start-zilch-engine-docume)| | |
+| |[ ViewAligned](debugline.md#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](debugline.md#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](debugline.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  BoxHeads : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  BoxHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  Color : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Color : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  DualHeads : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DualHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  End : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  End : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  Filled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Filled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  HeadSize : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  HeadSize : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  OnTop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  Start : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Start : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  ViewAligned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -91,7 +91,7 @@
 
 
 ---  
- #  ViewScaled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -99,7 +99,7 @@
 
 
 ---  
- #  ViewScaleOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -131,7 +131,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |ray|[ray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.md)| |
+> |ray|[ray](ray.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugLine(ray : Ray)
 > ``` 
@@ -145,8 +145,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |ray|[ray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ray.md)| |
-> |t|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |ray|[ray](ray.md)| |
+> |t|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugLine(ray : Ray, t : Real)
 > ``` 
@@ -160,8 +160,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |end|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |start|[real3](../nada_base_types/real3.md)| |
+> |end|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugLine(start : Real3, end : Real3)
 > ``` 
@@ -175,9 +175,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |end|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |headSize|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |start|[real3](../nada_base_types/real3.md)| |
+> |end|[real3](../nada_base_types/real3.md)| |
+> |headSize|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugLine(start : Real3, end : Real3, headSize : Real)
 > ``` 
@@ -191,7 +191,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |segment|[segment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/segment.md)| |
+> |segment|[segment](segment.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugLine(segment : Segment)
 > ``` 

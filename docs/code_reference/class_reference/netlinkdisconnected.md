@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.md#direction-zilch-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ DisconnectReason](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.md#disconnectreason-zilch-en)| | |
-| |[ RequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.md#requestbundle-zilch-engin)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkdisconnected.md#theirnetpeerid-zilch-engi)| | |
+| |[ Direction](netlinkdisconnected.md#direction-zilch-engine-do)|[event](event.md)| |
+| |[ DisconnectReason](netlinkdisconnected.md#disconnectreason-zilch-en)| | |
+| |[ RequestBundle](netlinkdisconnected.md#requestbundle-zilch-engin)| | |
+| |[ TheirIpAddress](netlinkdisconnected.md#theiripaddress-zilch-engi)| | |
+| |[ TheirNetPeerId](netlinkdisconnected.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  Direction : [TransmissionDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#transmissiondirection)
+ #  Direction : [TransmissionDirection](../enum_reference.md#transmissiondirection)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  DisconnectReason : [DisconnectReason](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#disconnectreason)
+ #  DisconnectReason : [DisconnectReason](../enum_reference.md#disconnectreason)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  RequestBundle : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  RequestBundle : [eventbundle](eventbundle.md)
 
  `read-only`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  TheirIpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  TheirIpAddress : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  TheirNetPeerId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 

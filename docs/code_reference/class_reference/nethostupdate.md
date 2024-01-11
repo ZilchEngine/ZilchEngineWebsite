@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.md#host-zilch-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.md#network-zilch-engine-docu)| | |
-| |[ RefreshResult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.md#refreshresult-zilch-engin)| | |
-| |[ ResponseTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostupdate.md#responsetime-zilch-engine)| | |
+| |[ Host](nethostupdate.md#host-zilch-engine-documen)|[event](event.md)| |
+| |[ Network](nethostupdate.md#network-zilch-engine-docu)| | |
+| |[ RefreshResult](nethostupdate.md#refreshresult-zilch-engin)| | |
+| |[ ResponseTime](nethostupdate.md#responsetime-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Host : [nethost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md)
+ #  Host : [nethost](nethost.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  Network : [Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)
+ #  Network : [Network](../enum_reference.md#network)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  RefreshResult : [NetRefreshResult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#netrefreshresult)
+ #  RefreshResult : [NetRefreshResult](../enum_reference.md#netrefreshresult)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  ResponseTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ResponseTime : [real](../nada_base_types/real.md)
 
  `read-only`
 

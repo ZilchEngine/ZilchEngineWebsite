@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.md#manipulatorjoint-void)|[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.md#localpoint-zilch-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-| |[ TargetPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.md#targetpoint-zilch-engine)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjoint.md#worldpoint-zilch-engine-d)| | |
+|[ Constructor](manipulatorjoint.md#manipulatorjoint-void)|[ LocalPoint](manipulatorjoint.md#localpoint-zilch-engine-d)|[joint](joint.md)| |
+| |[ TargetPoint](manipulatorjoint.md#targetpoint-zilch-engine)| | |
+| |[ WorldPoint](manipulatorjoint.md#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  LocalPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPoint : [real3](../nada_base_types/real3.md)
 
 > The local space point on the object that the joint is connected to.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  TargetPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TargetPoint : [real3](../nada_base_types/real3.md)
 
 > The point in world space that the object's point is being moved towards.
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  WorldPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPoint : [real3](../nada_base_types/real3.md)
 
 > The world space point on the object that the joint is connected to.
 > ``` lang=cpp, name=Nada

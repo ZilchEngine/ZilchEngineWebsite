@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ SoundTag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtagentry.md#soundtag-zilch-engine-doc)|Object| |
+| |[ SoundTag](soundtagentry.md#soundtag-zilch-engine-doc)|Object| |
 
 
  #  Properties
 
 
 ---  
- #  SoundTag : [soundtag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundtag.md)
+ #  SoundTag : [soundtag](soundtag.md)
 
 > This SoundTag will be added to all SoundInstances created by the SoundCue.
 > ``` lang=cpp, name=Nada

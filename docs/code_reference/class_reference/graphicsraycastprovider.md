@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsraycastprovider.md#graphicsraycastprovider)|[ MultiSelectGraphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsraycastprovider.md#multiselectgraphical-zer)|[raycastprovider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raycastprovider.md)| |
-| |[ VisibleOnly](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsraycastprovider.md#visibleonly-zilch-engine)| | |
+|[ Constructor](graphicsraycastprovider.md#graphicsraycastprovider)|[ MultiSelectGraphical](graphicsraycastprovider.md#multiselectgraphical-zer)|[raycastprovider](raycastprovider.md)| |
+| |[ VisibleOnly](graphicsraycastprovider.md#visibleonly-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  MultiSelectGraphical : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MultiSelectGraphical : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -18,7 +18,7 @@
 
 
 ---  
- #  VisibleOnly : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  VisibleOnly : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

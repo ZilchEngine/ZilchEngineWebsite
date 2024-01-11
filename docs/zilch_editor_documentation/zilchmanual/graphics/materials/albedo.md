@@ -1,4 +1,4 @@
-In Zilch, albedo refers to the color of a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials.md) as defined by the reflected light an object should realistically reflect. In the case of non-metals, or dielectrics, the vast majority reflect almost all light as diffuse. In the case of metals, or conductors, almost all light is reflected, rendering a reflection of its surroundings if the metal is polished or smooth. The rougher the surface is, however, the more blurred the reflection will become. Metals also tint the light they reflect leading to the different colors of metals such as gold, copper, and silver.
+In Zilch, albedo refers to the color of a [Material](../materials.md) as defined by the reflected light an object should realistically reflect. In the case of non-metals, or dielectrics, the vast majority reflect almost all light as diffuse. In the case of metals, or conductors, almost all light is reflected, rendering a reflection of its surroundings if the metal is polished or smooth. The rougher the surface is, however, the more blurred the reflection will become. Metals also tint the light they reflect leading to the different colors of metals such as gold, copper, and silver.
 
 The albedo fragments in Zilch handle both of these cases depending on the values of other fragments, such as metallic, roughness, and specular. Other frameworks and engines may refer to this as the base color or diffuse map. When setting this property by map or by value, there are other considerations to take into account when visualizing how the final material will appear.
 
@@ -90,7 +90,7 @@ Note that in the previous two examples there were no other fragments on the mate
 
  # AlbedoMap
 
-An albedo map is a texture provided by an artist for use on a [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md). While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives and look completely natural. To apply an AlbedoMap fragment to a material, click on the `Add NadaFragment` button in the Properties window:
+An albedo map is a texture provided by an artist for use on a [Model](../models/model_component.md). While most of these textures will be unique to the model for which they were made, others, such as tileable textures, may be applied to the materials on a number of geometric primitives and look completely natural. To apply an AlbedoMap fragment to a material, click on the `Add NadaFragment` button in the Properties window:
 
 
 
@@ -184,11 +184,11 @@ The difference may be subtle or pronounced depending on the degree of change bet
  ## Reference Pages
 
  ### Manual
-- [model_component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md)
-- [materials](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials.md)
+- [model_component](../models/model_component.md)
+- [materials](../materials.md)
 
  ### Code Reference
-- [model](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.md)
-- [material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md) 
+- [model](../../../../code_reference/class_reference/model.md)
+- [material](../../../../code_reference/class_reference/material.md) 
 
  

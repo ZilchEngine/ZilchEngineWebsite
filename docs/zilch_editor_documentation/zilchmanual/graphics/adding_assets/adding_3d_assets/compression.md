@@ -1,4 +1,4 @@
-![Texture_ChangingBlockCompression](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46149.gif) [Block Compression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecompression) is a technique used on [Textures](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_textures_and_sprites.md) in Zilch Engine to greatly reduce texture size.  Compression takes advantage of common patterns found in an image to make assumptions, resulting in less explicit data storage.  When these assumptions are false, artifacts will appear on the image.  Whether or not the loss in quality is worth the size saved is up to the discretion of the user.  By selecting the different block compression types in the Properties window window of a `Texture`, one can see the size difference and the resultant image.  Simply select a block compression method from `BC1` to `BC6` (or `NONE`) from the Compression drop-down menu dropdown and hit the `Reload Content` button.  The table below can be used to choose the best compression technique for an image.  For more information, visit [this page](https://msdn.microsoft.com/en-us/library/windows/desktop/bb694531(v=vs.85).aspx) on the Microsoft MSDN website.
+![Texture_ChangingBlockCompression](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46149.gif) [Block Compression](../../../../../code_reference/enum_reference.md#texturecompression) is a technique used on [Textures](../adding_textures_and_sprites.md) in Zilch Engine to greatly reduce texture size.  Compression takes advantage of common patterns found in an image to make assumptions, resulting in less explicit data storage.  When these assumptions are false, artifacts will appear on the image.  Whether or not the loss in quality is worth the size saved is up to the discretion of the user.  By selecting the different block compression types in the Properties window window of a `Texture`, one can see the size difference and the resultant image.  Simply select a block compression method from `BC1` to `BC6` (or `NONE`) from the Compression drop-down menu dropdown and hit the `Reload Content` button.  The table below can be used to choose the best compression technique for an image.  For more information, visit [this page](https://msdn.microsoft.com/en-us/library/windows/desktop/bb694531(v=vs.85).aspx) on the Microsoft MSDN website.
 
 | Compression | Bytes Per Pixel | Color Format | Notes |
 | -- | -- | -- | -- |
@@ -14,10 +14,10 @@
  # Related Material
 
  ## Manual
-- [Adding Textures and Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_textures_and_sprites.md)
+- [Adding Textures and Sprites](../adding_textures_and_sprites.md)
 
  ## Code Reference
-- [BlockCompression](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#texturecompression)
+- [BlockCompression](../../../../../code_reference/enum_reference.md#texturecompression)
  
 
  

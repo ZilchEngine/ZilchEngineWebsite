@@ -1,4 +1,4 @@
-Before diving into Zilch Source, it is important to become familiar with Zilch itself as a game engine. Please visit [getting_started](https://github.com/ZilchEngine/ZilchDocs/blob/master/getting_started.md).
+Before diving into Zilch Source, it is important to become familiar with Zilch itself as a game engine. Please visit [getting_started](../getting_started.md).
 
 For more information specifically about the Nada C++ API, visit:
 

@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Dt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjointevent.md#dt-zilch-engine-documenta)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjointevent.md#owner-zilch-engine-docume)| | |
+| |[ Dt](customjointevent.md#dt-zilch-engine-documenta)|[event](event.md)| |
+| |[ Owner](customjointevent.md#owner-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Dt : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Dt : [real](../nada_base_types/real.md)
 
 > The current frame's delta time. Use to setup the constraint if necessary.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Owner : [customjoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md)
+ #  Owner : [customjoint](customjoint.md)
 
 > The joint that sent this event.
 > ``` lang=cpp, name=Nada

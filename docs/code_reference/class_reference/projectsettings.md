@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md#projectsettings-void)|[ AutoTakeProjectScreenshot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md#autotakeprojectscreensho)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ ContentFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md#contentfolder-zilch-engin)| | |
-| |[ EditorContentFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md#editorcontentfolder-zero)| | |
-| |[ ProjectFolder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md#projectfolder-zilch-engin)| | |
-| |[ ProjectName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md#projectname-zilch-engine)| | |
-| |[ ProjectOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md#projectowner-zilch-engine)| | |
+|[ Constructor](projectsettings.md#projectsettings-void)|[ AutoTakeProjectScreenshot](projectsettings.md#autotakeprojectscreensho)|[component](component.md)| |
+| |[ ContentFolder](projectsettings.md#contentfolder-zilch-engin)| | |
+| |[ EditorContentFolder](projectsettings.md#editorcontentfolder-zero)| | |
+| |[ ProjectFolder](projectsettings.md#projectfolder-zilch-engin)| | |
+| |[ ProjectName](projectsettings.md#projectname-zilch-engine)| | |
+| |[ ProjectOwner](projectsettings.md#projectowner-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  AutoTakeProjectScreenshot : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoTakeProjectScreenshot : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  ContentFolder : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ContentFolder : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  EditorContentFolder : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  EditorContentFolder : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  ProjectFolder : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ProjectFolder : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -56,7 +56,7 @@
 
 
 ---  
- #  ProjectName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ProjectName : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -66,7 +66,7 @@
 
 
 ---  
- #  ProjectOwner : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ProjectOwner : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

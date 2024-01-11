@@ -6,14 +6,14 @@ This lesson covers how to import and use sprite sheets to create sprite animatio
  - Sprite animation parameters
 
  # Level Setup
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Player`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Scale  to `[2, 2, 2]`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
  - Under `ForwardRenderer`
   - Set ClearColor  to `[R:125, G:255, B:125, A:1.00]`
 
@@ -85,21 +85,21 @@ Now that we have imported a sprite sheet, we need to separate the frames into th
 
 Now that we've generated the animation resources, we can start using them with sprites.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Player object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
 - In the `Properties Window`
- - Under [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
+ - Under [Sprite](../../../code_reference/class_reference/sprite.md)
  - Set SpriteSource enum to `Walk`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![WalkAnimatio](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106332.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
-Looking at the [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md) component on the property grid we find that the last 4 properties are dedicated to sprite animations. They are:
+Looking at the [Sprite](../../../code_reference/class_reference/sprite.md) component on the property grid we find that the last 4 properties are dedicated to sprite animations. They are:
 
 | Sprite Animation Properties |
 |--------------------|-------------------------------------------------------------------------------------|
@@ -110,7 +110,7 @@ Looking at the [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/cod
 
 Let's add a component that lets us control the animation.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `PlayerAnimationController`
 - In the `PlayerAnimationController` script
  - Update the `PlayerAnimationController` class to the following:
@@ -156,10 +156,10 @@ class PlayerAnimationController : NadaComponent
   }
 }
 ```
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Player object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `PlayerAnimationController`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `PlayerAnimationController`
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `Space`
 
@@ -168,26 +168,26 @@ class PlayerAnimationController : NadaComponent
 ![WalkAndRoll](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106395.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
  ## Manual
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/sprite.md)
-- [Sprite Source Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.md)
-- [Sprite Importer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spriteimporter.md)
+- [Sprite](../../zilchmanual/graphics/sprites/sprite.md)
+- [Sprite Source Editor](../../zilchmanual/graphics/sprites/spritesourceeditor.md)
+- [Sprite Importer](../../zilchmanual/graphics/sprites/spriteimporter.md)
 
  ## Code Reference
  ### Classes
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
-- [spritesource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [Sprite](../../../code_reference/class_reference/sprite.md)
+- [Cog](../../../code_reference/class_reference/cog.md)
+- [spritesource](../../../code_reference/class_reference/spritesource.md)
 
  ### Commands
-- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  ## Development Task

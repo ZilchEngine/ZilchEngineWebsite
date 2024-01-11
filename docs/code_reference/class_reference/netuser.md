@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddedByPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#addedbypeer-zilch-engine)|[ AddedByMyPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#addedbymypeer-zilch-engin)|[netobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobject.md)| |
-|[ FindOwnedNetObjectByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#findownednetobjectbyname)|[ NetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#netpeerid-zilch-engine-do)| | |
-|[ FindOwnedNetObjectByNameInSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#findownednetobjectbyname)|[ NetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#netuserid-zilch-engine-do)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#netuser-void)|[ OwnedNetObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#ownednetobjectcount-zero)| | |
-|[ ReleaseOwnedNetObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#releaseownednetobjects-v)|[ OwnedNetObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuser.md#ownednetobjects-zilch-eng)| | |
+|[ AddedByPeer](netuser.md#addedbypeer-zilch-engine)|[ AddedByMyPeer](netuser.md#addedbymypeer-zilch-engin)|[netobject](netobject.md)| |
+|[ FindOwnedNetObjectByName](netuser.md#findownednetobjectbyname)|[ NetPeerId](netuser.md#netpeerid-zilch-engine-do)| | |
+|[ FindOwnedNetObjectByNameInSpace](netuser.md#findownednetobjectbyname)|[ NetUserId](netuser.md#netuserid-zilch-engine-do)| | |
+|[ Constructor](netuser.md#netuser-void)|[ OwnedNetObjectCount](netuser.md#ownednetobjectcount-zero)| | |
+|[ ReleaseOwnedNetObjects](netuser.md#releaseownednetobjects-v)|[ OwnedNetObjects](netuser.md#ownednetobjects-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  AddedByMyPeer : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddedByMyPeer : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  NetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetPeerId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  NetUserId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetUserId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  OwnedNetObjectCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  OwnedNetObjectCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  OwnedNetObjects : [coghashsetrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md)
+ #  OwnedNetObjects : [coghashsetrange](coghashsetrange.md)
 
  `read-only`
 
@@ -71,37 +71,37 @@
 
 
 ---  
- #  AddedByPeer : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddedByPeer : [boolean](../nada_base_types/boolean.md)
 
 > Returns true if the user was added by the specified peer, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function AddedByPeer(netPeerId : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  FindOwnedNetObjectByName : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindOwnedNetObjectByName : [cog](cog.md)
 
 > Finds a net object with the given name owned by this user in any space, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function FindOwnedNetObjectByName(name : String) : Cog
 > ``` 
 
 
 ---  
- #  FindOwnedNetObjectByNameInSpace : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  FindOwnedNetObjectByNameInSpace : [cog](cog.md)
 
 > Finds a net object with the given name owned by this user in the specified space, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |space|[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
+> |name|[string](../nada_base_types/string.md)| |
+> |space|[space](space.md)| |
 > ``` lang=cpp, name=Nada
 > function FindOwnedNetObjectByNameInSpace(name : String, space : Space) : Cog
 > ``` 

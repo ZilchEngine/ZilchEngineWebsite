@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentrycommand.md#contextmenuentrycommand)|[ CommandName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentrycommand.md#commandname-zilch-engine)|[contextmenuentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md)| |
+|[ Constructor](contextmenuentrycommand.md#contextmenuentrycommand)|[ CommandName](contextmenuentrycommand.md#commandname-zilch-engine)|[contextmenuentry](contextmenuentry.md)| |
 
 
  #  Properties
 
 
 ---  
- #  CommandName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CommandName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |commandName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |commandName|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function ContextMenuEntryCommand(commandName : String)
 > ``` 

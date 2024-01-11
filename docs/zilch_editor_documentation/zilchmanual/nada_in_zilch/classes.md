@@ -1,7 +1,7 @@
-Classes and structs define the type of certain objects in Nada, and the `class` keyword can create user-defined data types.  The [Variables](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md) and [Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md) defined in a class or struct are all stored and referenced from instantiations.  In contrast with how Structs handle [Memory Management](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md), classes are copied `by-reference`.
+Classes and structs define the type of certain objects in Nada, and the `class` keyword can create user-defined data types.  The [Variables](variables_and_data_types.md) and [Functions](functions.md) defined in a class or struct are all stored and referenced from instantiations.  In contrast with how Structs handle [Memory Management](memory_management.md), classes are copied `by-reference`.
 
  # Class Contents
-Classes in Nada must be defined in [global scope](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md#global-scope).  The format for classes and structs are as shown below:
+Classes in Nada must be defined in [global scope](variables_and_data_types.md#global-scope).  The format for classes and structs are as shown below:
 
 ```lang=csharp, name=Simple Classes
 struct SimpleStruct {}
@@ -23,7 +23,7 @@ class ClassInClass { var MyClass : SimpleClass; }
 The class `MyClass` is a member of `ClassInStruct`, which is a struct.  Having a class in a struct will cause Nada to throw a compile-time exception.
 
  ## Static vs Non-Static Members
-Variables and functions inside a class or struct are known as members. Most member variables must be accessed through instantiations of the object.  The one exception are member variables with the [Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md#static) [Attribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md).
+Variables and functions inside a class or struct are known as members. Most member variables must be accessed through instantiations of the object.  The one exception are member variables with the [Static](attributes.md#static) [Attribute](attributes.md).
 
 ```lang=csharp, name=Static Members
 class MyClass
@@ -127,7 +127,7 @@ class Driver
 }
 ```
 
-The class `ExplicitCustom` defines a single constructor that takes a single [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md).  This means that `ExplicitCustom` cannot be default constructed, therefore the statement `ExplicitCustom();` fails to compile.  The default constructor can still be readded by explicitly defining it alongside other constructors, as shown in the class `ExplicitCustomAndDefault`.
+The class `ExplicitCustom` defines a single constructor that takes a single [real](../../../code_reference/nada_base_types/real.md).  This means that `ExplicitCustom` cannot be default constructed, therefore the statement `ExplicitCustom();` fails to compile.  The default constructor can still be readded by explicitly defining it alongside other constructors, as shown in the class `ExplicitCustomAndDefault`.
 
 NOTE: Explcitly defining a constructor is **not required** in Nada as long as every data member of the class has a default constructor.
 
@@ -168,18 +168,18 @@ class Driver2
 5
 ```
 
-In the example above, `MyClass` [inherits](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md) from `MyStruct`.  `MyClass` has the same members as `MyStruct`, and the only difference between the two is that `MyClass` is a `class`.  Observe how `3`, `4`, and `5` are printed, which means that the destructor got called on `v3`, `v4`, and `v5`.  All struct destructors were ignored, while all class destructors were called.  The one exception is `v3`, which is of the type `ref MyStruct` and has the copy `by-reference` quality.
+In the example above, `MyClass` [inherits](inheritance.md) from `MyStruct`.  `MyClass` has the same members as `MyStruct`, and the only difference between the two is that `MyClass` is a `class`.  Observe how `3`, `4`, and `5` are printed, which means that the destructor got called on `v3`, `v4`, and `v5`.  All struct destructors were ignored, while all class destructors were called.  The one exception is `v3`, which is of the type `ref MyStruct` and has the copy `by-reference` quality.
 
  # Related Materials
  ## Manual
-- [Variables](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
-- [Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
-- [memory_management](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md)
-- [attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md)
-- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md)
-- [Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md#static)
+- [Variables](variables_and_data_types.md)
+- [Functions](functions.md)
+- [memory_management](memory_management.md)
+- [attributes](attributes.md)
+- [inheritance](inheritance.md)
+- [Static](attributes.md#static)
 
  ## Code Reference
-- [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) 
+- [real](../../../code_reference/nada_base_types/real.md) 
 
  

@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#interpolatedecibels-void)|[ Decibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#decibels-zilch-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ InterpolatePitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#interpolatepitch-void)|[ InputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#inputnode-zilch-engine-do)| | |
-|[ InterpolateSemitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#interpolatesemitones-voi)|[ MuteAudio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#muteaudio-zilch-engine-do)| | |
-|[ InterpolateVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#interpolatevolume-void)|[ OutputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#outputnode-zilch-engine-d)| | |
-|[ PlayCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#playcue-zilch-engine-docu)|[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#paused-zilch-engine-docum)| | |
-|[ PlayCuePaused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#playcuepaused-zilch-engin)|[ PauseWithTimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#pausewithtimespace-zero)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#soundspace-void)|[ Pitch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#pitch-zilch-engine-docume)| | |
-| |[ PitchWithTimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#pitchwithtimespace-zero)| | |
-| |[ Semitones](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#semitones-zilch-engine-do)| | |
-| |[ SoundNodeInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#soundnodeinput-zilch-engi)| | |
-| |[ SoundNodeOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#soundnodeoutput-zilch-eng)| | |
-| |[ Volume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundspace.md#volume-zilch-engine-docum)| | |
+|[ InterpolateDecibels](soundspace.md#interpolatedecibels-void)|[ Decibels](soundspace.md#decibels-zilch-engine-doc)|[component](component.md)| |
+|[ InterpolatePitch](soundspace.md#interpolatepitch-void)|[ InputNode](soundspace.md#inputnode-zilch-engine-do)| | |
+|[ InterpolateSemitones](soundspace.md#interpolatesemitones-voi)|[ MuteAudio](soundspace.md#muteaudio-zilch-engine-do)| | |
+|[ InterpolateVolume](soundspace.md#interpolatevolume-void)|[ OutputNode](soundspace.md#outputnode-zilch-engine-d)| | |
+|[ PlayCue](soundspace.md#playcue-zilch-engine-docu)|[ Paused](soundspace.md#paused-zilch-engine-docum)| | |
+|[ PlayCuePaused](soundspace.md#playcuepaused-zilch-engin)|[ PauseWithTimeSpace](soundspace.md#pausewithtimespace-zero)| | |
+|[ Constructor](soundspace.md#soundspace-void)|[ Pitch](soundspace.md#pitch-zilch-engine-docume)| | |
+| |[ PitchWithTimeSpace](soundspace.md#pitchwithtimespace-zero)| | |
+| |[ Semitones](soundspace.md#semitones-zilch-engine-do)| | |
+| |[ SoundNodeInput](soundspace.md#soundnodeinput-zilch-engi)| | |
+| |[ SoundNodeOutput](soundspace.md#soundnodeoutput-zilch-eng)| | |
+| |[ Volume](soundspace.md#volume-zilch-engine-docum)| | |
 
 
  #  Properties
 
 
 ---  
- #  Decibels : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Decibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment, in decibels, applied to all sounds in the space. A value of 0 does nothing, 6 will double the sound's volume, -6 will halve it.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  InputNode : [soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)
+ #  InputNode : [soundnode](soundnode.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  MuteAudio : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MuteAudio : [boolean](../nada_base_types/boolean.md)
 
 > Silences all audio output from this space but processes audio normally.
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  OutputNode : [soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)
+ #  OutputNode : [soundnode](soundnode.md)
 
  `read-only`
 
@@ -60,7 +60,7 @@
 
 
 ---  
- #  Paused : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > Setting this Property to true will pause all audio in the space. Setting it to false will resume all audio.
 > ``` lang=cpp, name=Nada
@@ -68,7 +68,7 @@
 
 
 ---  
- #  PauseWithTimeSpace : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  PauseWithTimeSpace : [boolean](../nada_base_types/boolean.md)
 
 > If true, the audio of the space will pause when the space is paused.
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  Pitch : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Pitch : [real](../nada_base_types/real.md)
 
 > The pitch adjustment applied to all sounds in the space. A value of 0 will do nothing, 1 will raise the pitch by an octave and speed up the sound, -1 will lower the sound by an octave and slow it down.
 > ``` lang=cpp, name=Nada
@@ -84,7 +84,7 @@
 
 
 ---  
- #  PitchWithTimeSpace : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  PitchWithTimeSpace : [boolean](../nada_base_types/boolean.md)
 
 > If true, the audio in the SoundSpace will be pitched according to the TimeScale of the Space(if time slows down the audio will slow down and lower in pitch, if it speeds up the audio will speed up and raise in pitch).
 > ``` lang=cpp, name=Nada
@@ -92,7 +92,7 @@
 
 
 ---  
- #  Semitones : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Semitones : [real](../nada_base_types/real.md)
 
 > The pitch adjustment, in semitones (or half-steps), applied to all sounds in the space. A value of 0 will do nothing, 12 will raise the pitch by an octave and speed up the sound,.
 > ``` lang=cpp, name=Nada
@@ -100,7 +100,7 @@
 
 
 ---  
- #  SoundNodeInput : [soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)
+ #  SoundNodeInput : [soundnode](soundnode.md)
 
  `read-only`
 
@@ -110,7 +110,7 @@
 
 
 ---  
- #  SoundNodeOutput : [soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)
+ #  SoundNodeOutput : [soundnode](soundnode.md)
 
  `read-only`
 
@@ -120,7 +120,7 @@
 
 
 ---  
- #  Volume : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Volume : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to all sounds in the space. A value of 1 does nothing, 2 will double the volume, 0.5 will halve it.
 > ``` lang=cpp, name=Nada
@@ -137,8 +137,8 @@
 > Interpolates the SoundSpace's Decibels property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |decibels|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |interpolationTime|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |decibels|[real](../nada_base_types/real.md)| |
+> |interpolationTime|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function InterpolateDecibels(decibels : Real, interpolationTime : Real)
 > ``` 
@@ -150,8 +150,8 @@
 > Interpolates the SoundSpace's Pitch property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |pitch|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |time|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |pitch|[real](../nada_base_types/real.md)| |
+> |time|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function InterpolatePitch(pitch : Real, time : Real)
 > ``` 
@@ -163,8 +163,8 @@
 > Interpolates the SoundSpace's Semitones property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |pitch|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |time|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |pitch|[real](../nada_base_types/real.md)| |
+> |time|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function InterpolateSemitones(pitch : Real, time : Real)
 > ``` 
@@ -176,32 +176,32 @@
 > Interpolates the SoundSpace's Volume property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |interpolationTime|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |value|[real](../nada_base_types/real.md)| |
+> |interpolationTime|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function InterpolateVolume(value : Real, interpolationTime : Real)
 > ``` 
 
 
 ---  
- #  PlayCue : [soundinstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.md)
+ #  PlayCue : [soundinstance](soundinstance.md)
 
 > Plays the passed-in SoundCue non-positionally and returns the resulting SoundInstance.
 > |Name|Type|Description|
 > |---|---|---|
-> |cue|[soundcue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.md)| |
+> |cue|[soundcue](soundcue.md)| |
 > ``` lang=cpp, name=Nada
 > function PlayCue(cue : SoundCue) : SoundInstance
 > ``` 
 
 
 ---  
- #  PlayCuePaused : [soundinstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.md)
+ #  PlayCuePaused : [soundinstance](soundinstance.md)
 
 > Plays the passed-in SoundCue non-positionally and returns the resulting SoundInstance, which starts off paused.
 > |Name|Type|Description|
 > |---|---|---|
-> |cue|[soundcue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.md)| |
+> |cue|[soundcue](soundcue.md)| |
 > ``` lang=cpp, name=Nada
 > function PlayCuePaused(cue : SoundCue) : SoundInstance
 > ``` 

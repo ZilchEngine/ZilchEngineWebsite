@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ComputeVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#computevolume-zilch-engin)|[ ActiveBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#activebody-zilch-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)|[boxcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md)|
-|[ GetPointVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#getpointvelocity-zilch-en)|[ CollisionGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#collisiongroup-zilch-engi)| |[capsulecollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.md)|
-| |[ ContactCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#contactcount-zilch-engine)| |[convexmeshcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmeshcollider.md)|
-| |[ Contacts](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#contacts-zilch-engine-doc)| |[cylindercollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cylindercollider.md)|
-| |[ Ghost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#ghost-zilch-engine-docume)| |[ellipsoidcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.md)|
-| |[ JointCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#jointcount-zilch-engine-d)| |[heightmapcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapcollider.md)|
-| |[ Joints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#joints-zilch-engine-docum)| |[meshcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshcollider.md)|
-| |[ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#material-zilch-engine-doc)| |[multiconvexmeshcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshcollider.md)|
-| |[ Offset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#offset-zilch-engine-docum)| |[spherecollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spherecollider.md)|
-| |[ SendsEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#sendsevents-zilch-engine)| | |
-| |[ WorldAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#worldaabb-zilch-engine-do)| | |
-| |[ WorldBoundingSphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md#worldboundingsphere-zero)| | |
+|[ ComputeVolume](collider.md#computevolume-zilch-engin)|[ ActiveBody](collider.md#activebody-zilch-engine-d)|[component](component.md)|[boxcollider](boxcollider.md)|
+|[ GetPointVelocity](collider.md#getpointvelocity-zilch-en)|[ CollisionGroup](collider.md#collisiongroup-zilch-engi)| |[capsulecollider](capsulecollider.md)|
+| |[ ContactCount](collider.md#contactcount-zilch-engine)| |[convexmeshcollider](convexmeshcollider.md)|
+| |[ Contacts](collider.md#contacts-zilch-engine-doc)| |[cylindercollider](cylindercollider.md)|
+| |[ Ghost](collider.md#ghost-zilch-engine-docume)| |[ellipsoidcollider](ellipsoidcollider.md)|
+| |[ JointCount](collider.md#jointcount-zilch-engine-d)| |[heightmapcollider](heightmapcollider.md)|
+| |[ Joints](collider.md#joints-zilch-engine-docum)| |[meshcollider](meshcollider.md)|
+| |[ Material](collider.md#material-zilch-engine-doc)| |[multiconvexmeshcollider](multiconvexmeshcollider.md)|
+| |[ Offset](collider.md#offset-zilch-engine-docum)| |[spherecollider](spherecollider.md)|
+| |[ SendsEvents](collider.md#sendsevents-zilch-engine)| | |
+| |[ WorldAabb](collider.md#worldaabb-zilch-engine-do)| | |
+| |[ WorldBoundingSphere](collider.md#worldboundingsphere-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  ActiveBody : [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
+ #  ActiveBody : [rigidbody](rigidbody.md)
 
  `read-only`
 
@@ -34,7 +34,7 @@
 
 
 ---  
- #  CollisionGroup : [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)
+ #  CollisionGroup : [collisiongroup](collisiongroup.md)
 
 > The collision group is a tag used to alter collision behavior based upon the space's CollisionTable.
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  ContactCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ContactCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -52,7 +52,7 @@
 
 
 ---  
- #  Contacts : [contactrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md)
+ #  Contacts : [contactrange](contactrange.md)
 
  `read-only`
 
@@ -62,7 +62,7 @@
 
 
 ---  
- #  Ghost : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Ghost : [boolean](../nada_base_types/boolean.md)
 
 > Ghosted colliders do not resolve collision. They do still detect collisions and send events. Ghosted colliders are typically used for trigger regions.
 > ``` lang=cpp, name=Nada
@@ -70,7 +70,7 @@
 
 
 ---  
- #  JointCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  JointCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -80,7 +80,7 @@
 
 
 ---  
- #  Joints : [jointrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointrange.md)
+ #  Joints : [jointrange](jointrange.md)
 
  `read-only`
 
@@ -90,7 +90,7 @@
 
 
 ---  
- #  Material : [physicsmaterial](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.md)
+ #  Material : [physicsmaterial](physicsmaterial.md)
 
 > The material used to determine the density, restitution, and friction of this collider.
 > ``` lang=cpp, name=Nada
@@ -98,7 +98,7 @@
 
 
 ---  
- #  Offset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Offset : [real3](../nada_base_types/real3.md)
 
 > Moves the physics defined center of the object away from the transform's translation. Used to move physics to match a model.
 > ``` lang=cpp, name=Nada
@@ -106,7 +106,7 @@
 
 
 ---  
- #  SendsEvents : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SendsEvents : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this object will send collision events. Used mainly for increasing performance by not sending unnecessary collision events.
 > ``` lang=cpp, name=Nada
@@ -114,7 +114,7 @@
 
 
 ---  
- #  WorldAabb : [aabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/aabb.md)
+ #  WorldAabb : [aabb](aabb.md)
 
  `read-only`
 
@@ -124,7 +124,7 @@
 
 
 ---  
- #  WorldBoundingSphere : [sphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphere.md)
+ #  WorldBoundingSphere : [sphere](sphere.md)
 
  `read-only`
 
@@ -138,7 +138,7 @@
 
 
 ---  
- #  ComputeVolume : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ComputeVolume : [real](../nada_base_types/real.md)
 
 > Compute the world-space volume of this collider.
 > |Name|Type|Description|
@@ -149,12 +149,12 @@
 
 
 ---  
- #  GetPointVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  GetPointVelocity : [real3](../nada_base_types/real3.md)
 
 > Returns the point velocity of a world-space point with respect to the current rigid body's linear and angular velocity. If there is no rigid body this returns zero.
 > |Name|Type|Description|
 > |---|---|---|
-> |worldPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |worldPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function GetPointVelocity(worldPoint : Real3) : Real3
 > ``` 

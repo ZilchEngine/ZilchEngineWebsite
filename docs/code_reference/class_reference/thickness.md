@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#all-zilch-engine-document)|[ Bottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#bottom-zilch-engine-docum)| | |
-|[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#size-zilch-engine-documen)|[ Left](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#left-zilch-engine-documen)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#thickness-void)|[ Right](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#right-zilch-engine-docume)| | |
-|[ TopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#topleft-zilch-engine-docu)|[ Top](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#top-zilch-engine-document)| | |
-| |[ Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md#zilch-zilch-engine-documen)| | |
+|[ All](thickness.md#all-zilch-engine-document)|[ Bottom](thickness.md#bottom-zilch-engine-docum)| | |
+|[ Size](thickness.md#size-zilch-engine-documen)|[ Left](thickness.md#left-zilch-engine-documen)| | |
+|[ Constructor](thickness.md#thickness-void)|[ Right](thickness.md#right-zilch-engine-docume)| | |
+|[ TopLeft](thickness.md#topleft-zilch-engine-docu)|[ Top](thickness.md#top-zilch-engine-document)| | |
+| |[ Zero](thickness.md#zilch-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Bottom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Bottom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Left : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Left : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  Right : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Right : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -37,7 +37,7 @@
 
 
 ---  
- #  Top : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Top : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -45,7 +45,7 @@
 
 
 ---  
- #  Zero : [thickness](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md)
+ #  Zero : [thickness](thickness.md)
 
  `read-only` `static`
 
@@ -59,21 +59,21 @@
 
 
 ---  
- #  All : [thickness](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thickness.md)
+ #  All : [thickness](thickness.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function All(p0 : Real) : Thickness
 > ``` 
 
 
 ---  
- #  Size : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Size : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
@@ -91,8 +91,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](../nada_base_types/real.md)| |
+> |p1|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function Thickness(p0 : Real, p1 : Real)
 > ``` 
@@ -106,10 +106,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p3|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](../nada_base_types/real.md)| |
+> |p1|[real](../nada_base_types/real.md)| |
+> |p2|[real](../nada_base_types/real.md)| |
+> |p3|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function Thickness(p0 : Real, p1 : Real, p2 : Real, p3 : Real)
 > ``` 
@@ -123,7 +123,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |p0|[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Thickness(p0 : Real2)
 > ``` 
@@ -137,14 +137,14 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |p0|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Thickness(p0 : Real4)
 > ``` 
 
 
 ---  
- #  TopLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  TopLeft : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|

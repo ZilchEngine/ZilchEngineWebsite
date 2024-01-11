@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenthistory.md#contenthistory-void)|[ Revisions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contenthistory.md#revisions-zilch-engine-do)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.md)| |
+|[ Constructor](contenthistory.md#contenthistory-void)|[ Revisions](contenthistory.md#revisions-zilch-engine-do)|[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Revisions : [revisions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revisions.md)
+ #  Revisions : [revisions](revisions.md)
 
 > 
 > ``` lang=cpp, name=Nada

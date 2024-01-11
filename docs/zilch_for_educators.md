@@ -105,12 +105,12 @@ ZilchHub is the open source platform/site for Zilch Engine developement and educ
 
  # Tutorials
 The tutorial section is the bulk of the content intended for new students. Much of the workshop 
- ## [Tutorial Sequence](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/tutorial_sequences.md)
- ### [Beginner I](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/tutorial_sequences.md#beginner-i)
+ ## [Tutorial Sequence](zilch_editor_documentation/tutorials/tutorial_sequences.md)
+ ### [Beginner I](zilch_editor_documentation/tutorials/tutorial_sequences.md#beginner-i)
 
- ### [Beginner II](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/tutorial_sequences.md#beginner-ii)
+ ### [Beginner II](zilch_editor_documentation/tutorials/tutorial_sequences.md#beginner-ii)
 
- # [Manual](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual.md)
+ # [Manual](zilch_editor_documentation/zilchmanual.md)
 
  # Projects
 The following are suggested projects to be implemented after completing each set of the #basic_tutorials.
@@ -120,7 +120,7 @@ After completing the #beginner_i tutorials students should be able to implement 
 
 - Physics Effects
  - Applied to LevelSettings object
- - Applied to a [Region](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/region.md)
+ - Applied to a [Region](code_reference/class_reference/region.md)
 - Physics Materials
  - Restitution
  - Friction
@@ -189,6 +189,6 @@ After completing the #beginner_iv tutorials students should be able to implement
 - [MIT ](https://en.wikipedia.org/wiki/MIT_License )
 
  ## Editor Reference
-[Text Editor Hotkeys](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorhotkeys.md) 
+[Text Editor Hotkeys](zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorhotkeys.md) 
 
  

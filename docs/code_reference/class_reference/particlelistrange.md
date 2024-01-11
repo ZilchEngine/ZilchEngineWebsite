@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md#particlelistrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](particlelistrange.md#movenext-void)|[ All](particlelistrange.md#all-zilch-engine-document)| | |
+|[ Constructor](particlelistrange.md#particlelistrange-void)|[ Current](particlelistrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](particlelistrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](particlelistrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [particlelistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md)
+ #  All : [particlelistrange](particlelistrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [particle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md)
+ #  Current : [particle](particle.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[particlelistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlelistrange.md)| |
+> |p0|[particlelistrange](particlelistrange.md)| |
 > ``` lang=cpp, name=Nada
 > function ParticleListRange(p0 : ParticleListRange)
 > ``` 

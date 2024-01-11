@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.md#jointgraphedge-void)|[ Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.md#joint-zilch-engine-docume)|BaseJointGraphEdge<[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)>| |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.md#object-zilch-engine-docum)| | |
-| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.md#otherobject-zilch-engine)| | |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.md#owner-zilch-engine-docume)| | |
-| |[ Valid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.md#valid-zilch-engine-docume)| | |
+|[ Constructor](jointgraphedge.md#jointgraphedge-void)|[ Joint](jointgraphedge.md#joint-zilch-engine-docume)|BaseJointGraphEdge<[joint](joint.md)>| |
+| |[ Object](jointgraphedge.md#object-zilch-engine-docum)| | |
+| |[ OtherObject](jointgraphedge.md#otherobject-zilch-engine)| | |
+| |[ Owner](jointgraphedge.md#owner-zilch-engine-docume)| | |
+| |[ Valid](jointgraphedge.md#valid-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Joint : [joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)
+ #  Joint : [joint](joint.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  Object : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Object : [cog](cog.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  OtherObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  OtherObject : [cog](cog.md)
 
  `read-only`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  Owner : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Owner : [cog](cog.md)
 
  `read-only`
 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  Valid : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Valid : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -89,7 +89,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[jointgraphedge](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointgraphedge.md)| |
+> ||[jointgraphedge](jointgraphedge.md)| |
 > ``` lang=cpp, name=Nada
 > function JointGraphEdge( : JointGraphEdge)
 > ``` 

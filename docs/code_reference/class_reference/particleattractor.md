@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md#particleattractor-void)|[ AttractPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md#attractposition-zilch-eng)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.md)| |
-| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md#maxdistance-zilch-engine)| | |
-| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md#mindistance-zilch-engine)| | |
-| |[ PositionSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md#positionspace-zilch-engin)| | |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md#strength-zilch-engine-doc)| | |
+|[ Constructor](particleattractor.md#particleattractor-void)|[ AttractPosition](particleattractor.md#attractposition-zilch-eng)|[particleanimator](particleanimator.md)| |
+| |[ MaxDistance](particleattractor.md#maxdistance-zilch-engine)| | |
+| |[ MinDistance](particleattractor.md#mindistance-zilch-engine)| | |
+| |[ PositionSpace](particleattractor.md#positionspace-zilch-engin)| | |
+| |[ Strength](particleattractor.md#strength-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  AttractPosition : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  AttractPosition : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  MaxDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxDistance : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  MinDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MinDistance : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  PositionSpace : [SystemSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#systemspace)
+ #  PositionSpace : [SystemSpace](../enum_reference.md#systemspace)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  Strength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Strength : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

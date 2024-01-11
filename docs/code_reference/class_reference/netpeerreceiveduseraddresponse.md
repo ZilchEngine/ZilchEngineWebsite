@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurNetUserId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.md#ournetuserid-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ OurRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.md#ourrequestbundle-zilch-en)| | |
-| |[ TheirAddResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.md#theiraddresponse-zilch-en)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.md#theirnetpeerid-zilch-engi)| | |
-| |[ TheirResponseBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceiveduseraddresponse.md#theirresponsebundle-zero)| | |
+| |[ OurNetUserId](netpeerreceiveduseraddresponse.md#ournetuserid-zilch-engine)|[event](event.md)| |
+| |[ OurRequestBundle](netpeerreceiveduseraddresponse.md#ourrequestbundle-zilch-en)| | |
+| |[ TheirAddResponse](netpeerreceiveduseraddresponse.md#theiraddresponse-zilch-en)| | |
+| |[ TheirIpAddress](netpeerreceiveduseraddresponse.md#theiripaddress-zilch-engi)| | |
+| |[ TheirNetPeerId](netpeerreceiveduseraddresponse.md#theirnetpeerid-zilch-engi)| | |
+| |[ TheirResponseBundle](netpeerreceiveduseraddresponse.md#theirresponsebundle-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  OurNetUserId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  OurNetUserId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -28,7 +28,7 @@
 
 
 ---  
- #  OurRequestBundle : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  OurRequestBundle : [eventbundle](eventbundle.md)
 
  `read-only`
 
@@ -38,7 +38,7 @@
 
 
 ---  
- #  TheirAddResponse : [NetUserAddResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#netuseraddresponse)
+ #  TheirAddResponse : [NetUserAddResponse](../enum_reference.md#netuseraddresponse)
 
  `read-only`
 
@@ -48,7 +48,7 @@
 
 
 ---  
- #  TheirIpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  TheirIpAddress : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -58,7 +58,7 @@
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  TheirNetPeerId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -68,7 +68,7 @@
 
 
 ---  
- #  TheirResponseBundle : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  TheirResponseBundle : [eventbundle](eventbundle.md)
 
  `read-only`
 

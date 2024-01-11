@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ JoystickCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joysticks.md#joystickcount-zilch-engin)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joysticks.md#joysticks-zilch-engine-do)| | |
+| |[ JoystickCount](joysticks.md#joystickcount-zilch-engin)|[eventobject](eventobject.md)| |
+| |[ Joysticks](joysticks.md#joysticks-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  JoystickCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  JoystickCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Joysticks : [joystickrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joystickrange.md)
+ #  Joysticks : [joystickrange](joystickrange.md)
 
  `read-only`
 

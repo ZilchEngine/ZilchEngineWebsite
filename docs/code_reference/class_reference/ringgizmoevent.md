@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ DeltaRadiansAroundAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.md#deltaradiansaroundaxis-z)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md)| |
-| |[ RadiansAroundAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.md#radiansaroundaxis-zilch-e)| | |
-| |[ WorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.md#worldrotation-zilch-engin)| | |
-| |[ WorldRotationAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmoevent.md#worldrotationaxis-zilch-e)| | |
+| |[ DeltaRadiansAroundAxis](ringgizmoevent.md#deltaradiansaroundaxis-z)|[gizmoupdateevent](gizmoupdateevent.md)| |
+| |[ RadiansAroundAxis](ringgizmoevent.md#radiansaroundaxis-zilch-e)| | |
+| |[ WorldRotation](ringgizmoevent.md#worldrotation-zilch-engin)| | |
+| |[ WorldRotationAxis](ringgizmoevent.md#worldrotationaxis-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  DeltaRadiansAroundAxis : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DeltaRadiansAroundAxis : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  RadiansAroundAxis : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RadiansAroundAxis : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  WorldRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  WorldRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  WorldRotationAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldRotationAxis : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

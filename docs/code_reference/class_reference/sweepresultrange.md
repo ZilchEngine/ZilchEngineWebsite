@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md#sweepresultrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](sweepresultrange.md#movenext-void)|[ All](sweepresultrange.md#all-zilch-engine-document)| | |
+|[ Constructor](sweepresultrange.md#sweepresultrange-void)|[ Current](sweepresultrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](sweepresultrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](sweepresultrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [sweepresultrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md)
+ #  All : [sweepresultrange](sweepresultrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [sweepresult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresult.md)
+ #  Current : [sweepresult](sweepresult.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[sweepresultrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sweepresultrange.md)| |
+> |p0|[sweepresultrange](sweepresultrange.md)| |
 > ``` lang=cpp, name=Nada
 > function SweepResultRange(p0 : SweepResultRange)
 > ``` 

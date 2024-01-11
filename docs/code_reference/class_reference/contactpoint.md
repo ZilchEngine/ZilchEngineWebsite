@@ -6,22 +6,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#contactpoint-void)|[ ComplexImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#compleximpulse-zilch-engi)| | |
-| |[ FrictionImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#frictionimpulse-zilch-eng)| | |
-| |[ LocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#localpoint-zilch-engine-d)| | |
-| |[ NormalImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#normalimpulse-zilch-engin)| | |
-| |[ OtherLocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#otherlocalpoint-zilch-eng)| | |
-| |[ Penetration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#penetration-zilch-engine)| | |
-| |[ RelativeVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#relativevelocity-zilch-en)| | |
-| |[ WorldNormalTowardsOther](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#worldnormaltowardsother)| | |
-| |[ WorldPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md#worldpoint-zilch-engine-d)| | |
+|[ Constructor](contactpoint.md#contactpoint-void)|[ ComplexImpulse](contactpoint.md#compleximpulse-zilch-engi)| | |
+| |[ FrictionImpulse](contactpoint.md#frictionimpulse-zilch-eng)| | |
+| |[ LocalPoint](contactpoint.md#localpoint-zilch-engine-d)| | |
+| |[ NormalImpulse](contactpoint.md#normalimpulse-zilch-engin)| | |
+| |[ OtherLocalPoint](contactpoint.md#otherlocalpoint-zilch-eng)| | |
+| |[ Penetration](contactpoint.md#penetration-zilch-engine)| | |
+| |[ RelativeVelocity](contactpoint.md#relativevelocity-zilch-en)| | |
+| |[ WorldNormalTowardsOther](contactpoint.md#worldnormaltowardsother)| | |
+| |[ WorldPoint](contactpoint.md#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  ComplexImpulse : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ComplexImpulse : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  FrictionImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FrictionImpulse : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -41,7 +41,7 @@
 
 
 ---  
- #  LocalPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPoint : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -51,7 +51,7 @@
 
 
 ---  
- #  NormalImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  NormalImpulse : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -61,7 +61,7 @@
 
 
 ---  
- #  OtherLocalPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  OtherLocalPoint : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -71,7 +71,7 @@
 
 
 ---  
- #  Penetration : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Penetration : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -81,7 +81,7 @@
 
 
 ---  
- #  RelativeVelocity : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RelativeVelocity : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -91,7 +91,7 @@
 
 
 ---  
- #  WorldNormalTowardsOther : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldNormalTowardsOther : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -101,7 +101,7 @@
 
 
 ---  
- #  WorldPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPoint : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -135,7 +135,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[contactpoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md)| |
+> ||[contactpoint](contactpoint.md)| |
 > ``` lang=cpp, name=Nada
 > function ContactPoint( : ContactPoint)
 > ``` 

@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.md#current-zilch-engine-docu)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.md)| |
-| |[ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.md#end-zilch-engine-document)| | |
-| |[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.md#start-zilch-engine-docume)| | |
+| |[ Current](streamorigin.md#current-zilch-engine-docu)|[enum](enum.md)| |
+| |[ End](streamorigin.md#end-zilch-engine-document)| | |
+| |[ Start](streamorigin.md#start-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Current : [streamorigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.md)
+ #  Current : [streamorigin](streamorigin.md)
 
  `read-only` `static`
 
@@ -21,7 +21,7 @@
 
 
 ---  
- #  End : [streamorigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.md)
+ #  End : [streamorigin](streamorigin.md)
 
  `read-only` `static`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Start : [streamorigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/streamorigin.md)
+ #  Start : [streamorigin](streamorigin.md)
 
  `read-only` `static`
 

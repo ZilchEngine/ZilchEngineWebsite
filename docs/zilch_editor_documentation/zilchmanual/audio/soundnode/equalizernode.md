@@ -1,4 +1,4 @@
-The [ EqualizerNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md) collects audio data from all of its inputs and applies several filters to it before passing it along to its outputs, allowing the user to control the loudness of frequencies in specific ranges. 
+The [ EqualizerNode ](../../../../code_reference/class_reference/equalizernode.md) collects audio data from all of its inputs and applies several filters to it before passing it along to its outputs, allowing the user to control the loudness of frequencies in specific ranges. 
 
  # Common Uses
 
@@ -13,9 +13,9 @@ All five properties can be smoothly changed over time using the `InterpolateAllB
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
+- [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ EqualizerNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md) 
+- [ EqualizerNode ](../../../../code_reference/class_reference/equalizernode.md) 
 
  

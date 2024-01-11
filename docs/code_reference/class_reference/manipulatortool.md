@@ -4,21 +4,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#manipulatortool-void)|[ DuplicateOnCtrlDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#duplicateonctrldrag-zero)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ GrabMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#grabmode-zilch-engine-doc)| | |
-| |[ HoverColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#hovercolor-zilch-engine-d)| | |
-| |[ IncludeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#includemode-zilch-engine)| | |
-| |[ SizeBoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#sizeboxcollider-zilch-eng)| | |
-| |[ SnapDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#snapdistance-zilch-engine)| | |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#snapping-zilch-engine-doc)| | |
-| |[ ToolColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortool.md#toolcolor-zilch-engine-do)| | |
+|[ Constructor](manipulatortool.md#manipulatortool-void)|[ DuplicateOnCtrlDrag](manipulatortool.md#duplicateonctrldrag-zero)|[component](component.md)| |
+| |[ GrabMode](manipulatortool.md#grabmode-zilch-engine-doc)| | |
+| |[ HoverColor](manipulatortool.md#hovercolor-zilch-engine-d)| | |
+| |[ IncludeMode](manipulatortool.md#includemode-zilch-engine)| | |
+| |[ SizeBoxCollider](manipulatortool.md#sizeboxcollider-zilch-eng)| | |
+| |[ SnapDistance](manipulatortool.md#snapdistance-zilch-engine)| | |
+| |[ Snapping](manipulatortool.md#snapping-zilch-engine-doc)| | |
+| |[ ToolColor](manipulatortool.md#toolcolor-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  DuplicateOnCtrlDrag : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DuplicateOnCtrlDrag : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  GrabMode : [GizmoGrab](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#gizmograb)
+ #  GrabMode : [GizmoGrab](../enum_reference.md#gizmograb)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  HoverColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  HoverColor : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IncludeMode : [IncludeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#includemode)
+ #  IncludeMode : [IncludeMode](../enum_reference.md#includemode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  SizeBoxCollider : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SizeBoxCollider : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  SnapDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SnapDistance : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  Snapping : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  ToolColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ToolColor : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada

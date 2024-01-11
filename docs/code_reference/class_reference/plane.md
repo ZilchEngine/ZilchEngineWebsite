@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md#plane-void)|[ Data](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md#data-zilch-engine-documen)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md#set-void)|[ Distance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md#distance-zilch-engine-doc)| | |
-| |[ Normal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md#normal-zilch-engine-docum)| | |
+|[ Constructor](plane.md#plane-void)|[ Data](plane.md#data-zilch-engine-documen)| | |
+|[ Set](plane.md#set-void)|[ Distance](plane.md#distance-zilch-engine-doc)| | |
+| |[ Normal](plane.md#normal-zilch-engine-docum)| | |
 
 
  #  Properties
 
 
 ---  
- #  Data : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Data : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -19,7 +19,7 @@
 
 
 ---  
- #  Distance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Distance : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -29,7 +29,7 @@
 
 
 ---  
- #  Normal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Normal : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[plane](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/plane.md)| |
+> |p0|[plane](plane.md)| |
 > ``` lang=cpp, name=Nada
 > function Plane(p0 : Plane)
 > ``` 
@@ -77,8 +77,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |normal|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |normal|[real3](../nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Plane(normal : Real3, point : Real3)
 > ``` 
@@ -92,7 +92,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |data|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |data|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Plane(data : Real4)
 > ``` 
@@ -104,8 +104,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |normal|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |normal|[real3](../nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(normal : Real3, point : Real3)
 > ``` 
@@ -117,7 +117,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |data|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |data|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(data : Real4)
 > ``` 

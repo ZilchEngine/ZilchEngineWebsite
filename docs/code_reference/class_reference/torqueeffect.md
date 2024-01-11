@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.md#torqueeffect-void)|[ LocalTorque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.md#localtorque-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)| |
-| |[ TorqueAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.md#torqueaxis-zilch-engine-d)| | |
-| |[ TorqueStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.md#torquestrength-zilch-engi)| | |
-| |[ WorldTorqueAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.md#worldtorqueaxis-zilch-eng)| | |
+|[ Constructor](torqueeffect.md#torqueeffect-void)|[ LocalTorque](torqueeffect.md#localtorque-zilch-engine)|[physicseffect](physicseffect.md)| |
+| |[ TorqueAxis](torqueeffect.md#torqueaxis-zilch-engine-d)| | |
+| |[ TorqueStrength](torqueeffect.md#torquestrength-zilch-engi)| | |
+| |[ WorldTorqueAxis](torqueeffect.md#worldtorqueaxis-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  LocalTorque : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LocalTorque : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the torque is applied in local or world space.
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  TorqueAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TorqueAxis : [real3](../nada_base_types/real3.md)
 
 > The axis that the torque is being applied about.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  TorqueStrength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TorqueStrength : [real](../nada_base_types/real.md)
 
 > The strength of the torque being applied.
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  WorldTorqueAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldTorqueAxis : [real3](../nada_base_types/real3.md)
 
  `read-only`
 

@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/carwheelarray.md#get-zilch-engine-document)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/carwheelarray.md#count-zilch-engine-docume)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
+|[ Get](carwheelarray.md#get-zilch-engine-document)|[ Count](carwheelarray.md#count-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -25,12 +25,12 @@
 
 
 ---  
- #  Get : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Get : [cog](cog.md)
 
 > Get the cog for a wheel by index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Cog
 > ``` 

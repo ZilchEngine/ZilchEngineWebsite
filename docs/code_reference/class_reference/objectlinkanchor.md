@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkanchor.md#objectlinkanchor-void)|[ ObjectLinks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkanchor.md#objectlinks-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
+|[ Constructor](objectlinkanchor.md#objectlinkanchor-void)|[ ObjectLinks](objectlinkanchor.md#objectlinks-zilch-engine)|[component](component.md)| |
 
 
  #  Properties
 
 
 ---  
- #  ObjectLinks : [objectlinkrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md)
+ #  ObjectLinks : [objectlinkrange](objectlinkrange.md)
 
  `read-only`
 

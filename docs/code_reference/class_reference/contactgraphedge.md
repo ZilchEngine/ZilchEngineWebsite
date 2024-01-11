@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md#contactgraphedge-void)|[ ContactPointCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md#contactpointcount-zilch-e)|BaseConstraintGraphEdge<Physics::Contact,Physics::ContactEdge>| |
-| |[ ContactPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md#contactpoints-zilch-engin)| | |
-| |[ FirstPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md#firstpoint-zilch-engine-d)| | |
-| |[ IsGhost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md#isghost-zilch-engine-docu)| | |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md#object-zilch-engine-docum)| | |
-| |[ OtherObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md#otherobject-zilch-engine)| | |
+|[ Constructor](contactgraphedge.md#contactgraphedge-void)|[ ContactPointCount](contactgraphedge.md#contactpointcount-zilch-e)|BaseConstraintGraphEdge<Physics::Contact,Physics::ContactEdge>| |
+| |[ ContactPoints](contactgraphedge.md#contactpoints-zilch-engin)| | |
+| |[ FirstPoint](contactgraphedge.md#firstpoint-zilch-engine-d)| | |
+| |[ IsGhost](contactgraphedge.md#isghost-zilch-engine-docu)| | |
+| |[ Object](contactgraphedge.md#object-zilch-engine-docum)| | |
+| |[ OtherObject](contactgraphedge.md#otherobject-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  ContactPointCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ContactPointCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  ContactPoints : [contactpointrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpointrange.md)
+ #  ContactPoints : [contactpointrange](contactpointrange.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  FirstPoint : [contactpoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md)
+ #  FirstPoint : [contactpoint](contactpoint.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  IsGhost : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsGhost : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -56,7 +56,7 @@
 
 
 ---  
- #  Object : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Object : [cog](cog.md)
 
  `read-only`
 
@@ -66,7 +66,7 @@
 
 
 ---  
- #  OtherObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  OtherObject : [cog](cog.md)
 
  `read-only`
 
@@ -100,7 +100,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[contactgraphedge](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md)| |
+> ||[contactgraphedge](contactgraphedge.md)| |
 > ``` lang=cpp, name=Nada
 > function ContactGraphEdge( : ContactGraphEdge)
 > ``` 

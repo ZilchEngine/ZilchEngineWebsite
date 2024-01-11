@@ -7,27 +7,27 @@ This lesson focuses on covering the basics of audio in Zilch Engine.
 
  # Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Square`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent/) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [ SoundEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundemitter.md)
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [ SimpleSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesound.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent/) : [RigidBody]D:/Dev/CPP/ZilchEngine/ZilchEngineWebsite/docs/code_reference/class_reference/rigidbody.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ SimpleSound](../../../code_reference/class_reference/simplesound.md)
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![AudioI](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46662.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Importing Audio
 
-In Zilch Engine, you can play sound files by importing them as resources. There are two important resources to play audio; [Sound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.md) and [SoundCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.md). By default, Zilch Engine includes both a DefaultSound resource and a DefaultSoundCue resource resources, which is what we hear when running the game. Let's experiment by adding a new sound file.
+In Zilch Engine, you can play sound files by importing them as resources. There are two important resources to play audio; [Sound](../../../code_reference/class_reference/sound.md) and [SoundCue](../../../code_reference/class_reference/soundcue.md). By default, Zilch Engine includes both a DefaultSound resource and a DefaultSoundCue resource resources, which is what we hear when running the game. Let's experiment by adding a new sound file.
 
 - Download the following file:
  ![Buzz](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46672.wav)
@@ -62,7 +62,7 @@ SoundCues are resources that allow you to modify properties of a sound without a
 
 | Common Sound Cue Properties |
 |------|
-| PlayMode enum | Whether the sound should a [Single](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#soundplaymode) time or [loop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#soundplaymode) on completion |
+| PlayMode enum | Whether the sound should a [Single](../../../code_reference/enum_reference.md#soundplaymode) time or [loop](../../../code_reference/enum_reference.md#soundplaymode) on completion |
 | Volume  & Decibels  | How quiet or loud the sound should be played |
 | Pitch  & Semitones  | How high or low pitched the sound should be played |
 | VolumeVariation  | Added random volume variation within the given range when sound is played |
@@ -74,19 +74,19 @@ SoundCues are resources that allow you to modify properties of a sound without a
   - `Double-Click` Buzz 
 - In the `Properties Window`
  - Set PlayMode  to `Looping`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Square object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Square object
 - In the `Properties Window`
- - Under [ SimpleSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesound.md)
+ - Under [ SimpleSound](../../../code_reference/class_reference/simplesound.md)
   - Set SoundCue enum to `Buzz`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 You should now be hearing the Buzz  sound effect looping.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Attenuation
 
-Previously, we have played sounds that remain just as loud irrespective of the emitter's position (non-positional sounds). Zilch Engine also allows us to setup sounds to be played positionally; growing louder or quieter based on the [Sound Listener](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundlistener.md)'s position, which is added by default to the `Game Camera` object.
+Previously, we have played sounds that remain just as loud irrespective of the emitter's position (non-positional sounds). Zilch Engine also allows us to setup sounds to be played positionally; growing louder or quieter based on the [Sound Listener](../../zilchmanual/audio/soundlistener.md)'s position, which is added by default to the `Game Camera` object.
 
 
 
@@ -95,8 +95,8 @@ Previously, we have played sounds that remain just as loud irrespective of the e
 
 Let's take a look on how to play positional sounds.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : 
- [Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : 
+ [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a SoundAttenuator resource named `CustomAttenuation`
 - In the `Library Window`
  - Under SoundAttenuator 
@@ -105,43 +105,43 @@ Let's take a look on how to play positional sounds.
  - Set StartDistance  to `10`
  - Set StopDistance  to `50`
  - Set MinAttenuatedVolume  to `0`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Square object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Square object
 - In the `Properties Window`
- - Under [ SoundEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundemitter.md)
+ - Under [ SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
   - Set Attenuator  to `CustomAttenuation`
- - Under [ SimpleSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesound.md)
+ - Under [ SimpleSound](../../../code_reference/class_reference/simplesound.md)
   - Set Positional checkBox to `true`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
-If done correctly, you should notice the sound getting quieter as the Square object object falls and gets farther from the `Game Camera` which has a [SoundListener](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundlistener.md).
+If done correctly, you should notice the sound getting quieter as the Square object object falls and gets farther from the `Game Camera` which has a [SoundListener](../../zilchmanual/audio/soundlistener.md).
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
  ## Manual
-- {icon university}[[sound](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/sound.md)
-- {icon university}[[soundcue](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundcue.md)
-- {icon university}[[simplesound](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/simplesound.md)
-- {icon university}[[soundattenuator](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundattenuator.md)
-- {icon university}[[soundemitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundemitter.md)
-- {icon university}[[soundlistener](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundlistener.md)
+- {icon university}[[sound](../../zilchmanual/audio/sound.md)
+- {icon university}[[soundcue](../../zilchmanual/audio/soundcue.md)
+- {icon university}[[simplesound](../../zilchmanual/audio/simplesound.md)
+- {icon university}[[soundattenuator](../../zilchmanual/audio/soundattenuator.md)
+- {icon university}[[soundemitter](../../zilchmanual/audio/soundemitter.md)
+- {icon university}[[soundlistener](../../zilchmanual/audio/soundlistener.md)
 
  ## Code Reference
  ### Classes
-- [Sound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.md)
-- [SoundCue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundcue.md)
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [SoundEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundemitter.md)
-- [SimpleSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplesound.md)
-- [SoundListener](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.md)
-- [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
+- [Sound](../../../code_reference/class_reference/sound.md)
+- [SoundCue](../../../code_reference/class_reference/soundcue.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
+- [SimpleSound](../../../code_reference/class_reference/simplesound.md)
+- [SoundListener](../../../code_reference/class_reference/soundlistener.md)
+- [RigidBody](../../../code_reference/class_reference/rigidbody.md)
 
  ### Commands
-- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
-- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
-- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite) 
+- [Create a New 2D Project](../../../code_reference/command_reference.md#newproject)
+- [ Add Resource](../../../code_reference/command_reference.md#add)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite) 
 
  

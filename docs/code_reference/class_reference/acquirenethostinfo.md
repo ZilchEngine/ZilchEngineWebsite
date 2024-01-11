@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ReturnHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/acquirenethostinfo.md#returnhostinfo-zilch-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ ReturnHostInfo](acquirenethostinfo.md#returnhostinfo-zilch-engi)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  ReturnHostInfo : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  ReturnHostInfo : [eventbundle](eventbundle.md)
 
 > Return: Our bundled host info event data.
 > ``` lang=cpp, name=Nada

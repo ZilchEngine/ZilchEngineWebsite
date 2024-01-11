@@ -4,22 +4,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AutoCompute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#autocompute-void)|[ AutoComputeMethod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#autocomputemethod-zilch-e)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#multiconvexmeshpropertyv)|[ AutoComputeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#autocomputemode-zilch-eng)| | |
-| |[ ClearColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#clearcolor-zilch-engine-d)| | |
-| |[ DrawMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#drawmode-zilch-engine-doc)| | |
-| |[ MeshThickness](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#meshthickness-zilch-engin)| | |
-| |[ OuterContourColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#outercontourcolor-zilch-e)| | |
-| |[ SimplificationThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#simplificationthreshold)| | |
-| |[ SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#spritesource-zilch-engine)| | |
-| |[ SurfaceLevelThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshpropertyviewinfo.md#surfacelevelthreshold-ze)| | |
+|[ AutoCompute](multiconvexmeshpropertyviewinfo.md#autocompute-void)|[ AutoComputeMethod](multiconvexmeshpropertyviewinfo.md#autocomputemethod-zilch-e)|[eventobject](eventobject.md)| |
+|[ Constructor](multiconvexmeshpropertyviewinfo.md#multiconvexmeshpropertyv)|[ AutoComputeMode](multiconvexmeshpropertyviewinfo.md#autocomputemode-zilch-eng)| | |
+| |[ ClearColor](multiconvexmeshpropertyviewinfo.md#clearcolor-zilch-engine-d)| | |
+| |[ DrawMode](multiconvexmeshpropertyviewinfo.md#drawmode-zilch-engine-doc)| | |
+| |[ MeshThickness](multiconvexmeshpropertyviewinfo.md#meshthickness-zilch-engin)| | |
+| |[ OuterContourColor](multiconvexmeshpropertyviewinfo.md#outercontourcolor-zilch-e)| | |
+| |[ SimplificationThreshold](multiconvexmeshpropertyviewinfo.md#simplificationthreshold)| | |
+| |[ SpriteSource](multiconvexmeshpropertyviewinfo.md#spritesource-zilch-engine)| | |
+| |[ SurfaceLevelThreshold](multiconvexmeshpropertyviewinfo.md#surfacelevelthreshold-ze)| | |
 
 
  #  Properties
 
 
 ---  
- #  AutoComputeMethod : [MultiConvexMeshAutoComputeMethod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#multiconvexmeshautocomputemethod)
+ #  AutoComputeMethod : [MultiConvexMeshAutoComputeMethod](../enum_reference.md#multiconvexmeshautocomputemethod)
 
 > What method of auto-computing should be used? Most likely 'pixel' is the mode that should be used.
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  AutoComputeMode : [MultiConvexMeshAutoComputeMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#multiconvexmeshautocomputemode)
+ #  AutoComputeMode : [MultiConvexMeshAutoComputeMode](../enum_reference.md#multiconvexmeshautocomputemode)
 
 > Should the auto-computed mesh be calculated from the alpha or the intensity of the sprite?
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  ClearColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ClearColor : [real4](../nada_base_types/real4.md)
 
 > The clear color of the viewport used to render.
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  DrawMode : [MultiConvexMeshDrawMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#multiconvexmeshdrawmode)
+ #  DrawMode : [MultiConvexMeshDrawMode](../enum_reference.md#multiconvexmeshdrawmode)
 
 > How should the collection of meshes be drawn?
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  MeshThickness : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MeshThickness : [real](../nada_base_types/real.md)
 
 > Since the mesh is on a 2d plane, they need some thickness for their z-depth. This controls how thick the meshes are.
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  OuterContourColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  OuterContourColor : [real4](../nada_base_types/real4.md)
 
 > The color to draw edges with.
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  SimplificationThreshold : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SimplificationThreshold : [real](../nada_base_types/real.md)
 
 > A threshold to control when vertices should be removed (simplified). This value is related to the area of a triangle.
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  SpriteSource : [spritesource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.md)
+ #  SpriteSource : [spritesource](spritesource.md)
 
 > The sprite source used as a reference for drawing the mesh. Note: this is not always what's visible as the user can drag in archetypes to view as well.
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  SurfaceLevelThreshold : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SurfaceLevelThreshold : [real](../nada_base_types/real.md)
 
 > When the sprite is sampled using the AutoComputeMode, what value should be used to determine where a surface is.
 > ``` lang=cpp, name=Nada

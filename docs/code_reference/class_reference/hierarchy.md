@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchy.md#hierarchy-void)|[ Children](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchy.md#children-zilch-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
+|[ Constructor](hierarchy.md#hierarchy-void)|[ Children](hierarchy.md#children-zilch-engine-doc)|[component](component.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Children : [hierarchylistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistrange.md)
+ #  Children : [hierarchylistrange](hierarchylistrange.md)
 
  `read-only`
 

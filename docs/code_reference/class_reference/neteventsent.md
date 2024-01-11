@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Destination](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.md#destination-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ NetEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.md#netevent-zilch-engine-doc)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventsent.md#theirnetpeerid-zilch-engi)| | |
+| |[ Destination](neteventsent.md#destination-zilch-engine)|[event](event.md)| |
+| |[ NetEvent](neteventsent.md#netevent-zilch-engine-doc)| | |
+| |[ TheirNetPeerId](neteventsent.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  Destination : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Destination : [cog](cog.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  NetEvent : [event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)
+ #  NetEvent : [event](event.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  TheirNetPeerId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md#functionrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](functionrange.md#functionrange-void)|[ All](functionrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](functionrange.md#movenext-void)|[ Current](functionrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](functionrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](functionrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [functionrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md)
+ #  All : [functionrange](functionrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.md)
+ #  Current : [function](function.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[functionrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/functionrange.md)| |
+> |p0|[functionrange](functionrange.md)| |
 > ``` lang=cpp, name=Nada
 > function FunctionRange(p0 : FunctionRange)
 > ``` 

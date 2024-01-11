@@ -6,23 +6,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AltPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#altpressed-zilch-engine-d)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ CtrlPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#ctrlpressed-zilch-engine)| | |
-| |[ HandledEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#handledevent-zilch-engine)| | |
-| |[ Key](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#key-zilch-engine-document)| | |
-| |[ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#keyboard-zilch-engine-doc)| | |
-| |[ ModifierPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#modifierpressed-zilch-eng)| | |
-| |[ OsKey](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#oskey-zilch-engine-docume)| | |
-| |[ ShiftPressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#shiftpressed-zilch-engine)| | |
-| |[ SpacePressed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#spacepressed-zilch-engine)| | |
-| |[ State](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md#state-zilch-engine-docume)| | |
+| |[ AltPressed](keyboardevent.md#altpressed-zilch-engine-d)|[event](event.md)| |
+| |[ CtrlPressed](keyboardevent.md#ctrlpressed-zilch-engine)| | |
+| |[ HandledEvent](keyboardevent.md#handledevent-zilch-engine)| | |
+| |[ Key](keyboardevent.md#key-zilch-engine-document)| | |
+| |[ Keyboard](keyboardevent.md#keyboard-zilch-engine-doc)| | |
+| |[ ModifierPressed](keyboardevent.md#modifierpressed-zilch-eng)| | |
+| |[ OsKey](keyboardevent.md#oskey-zilch-engine-docume)| | |
+| |[ ShiftPressed](keyboardevent.md#shiftpressed-zilch-engine)| | |
+| |[ SpacePressed](keyboardevent.md#spacepressed-zilch-engine)| | |
+| |[ State](keyboardevent.md#state-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  AltPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AltPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  CtrlPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CtrlPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  HandledEvent : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HandledEvent : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -46,7 +46,7 @@
 
 
 ---  
- #  Key : [Keys](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#keys)
+ #  Key : [Keys](../enum_reference.md#keys)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -54,7 +54,7 @@
 
 
 ---  
- #  Keyboard : [keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.md)
+ #  Keyboard : [keyboard](keyboard.md)
 
  `read-only`
 
@@ -64,7 +64,7 @@
 
 
 ---  
- #  ModifierPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ModifierPressed : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -74,7 +74,7 @@
 
 
 ---  
- #  OsKey : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  OsKey : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -82,7 +82,7 @@
 
 
 ---  
- #  ShiftPressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShiftPressed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -90,7 +90,7 @@
 
 
 ---  
- #  SpacePressed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SpacePressed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -98,7 +98,7 @@
 
 
 ---  
- #  State : [KeyState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#keystate)
+ #  State : [KeyState](../enum_reference.md#keystate)
 
 > 
 > ``` lang=cpp, name=Nada

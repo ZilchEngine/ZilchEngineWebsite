@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ViewingObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalevent.md#viewingobject-zilch-engin)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ ViewingObject](graphicalevent.md#viewingobject-zilch-engin)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  ViewingObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ViewingObject : [cog](cog.md)
 
 > The viewing CameraViewport for EnterView/ExitView.
 > ``` lang=cpp, name=Nada

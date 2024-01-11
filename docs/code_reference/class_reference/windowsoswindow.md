@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowsoswindow.md#windowsoswindow-void)| |[oswindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md)| |
+|[ Constructor](windowsoswindow.md#windowsoswindow-void)| |[oswindow](oswindow.md)| |
 
 
  #  Properties

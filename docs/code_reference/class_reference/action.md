@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Cancel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/action.md#cancel-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/action.md#active-zilch-engine-docum)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.md)|[actiondelay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actiondelay.md)|
-| |[ Completed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/action.md#completed-zilch-engine-do)| |[actionset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actionset.md)|
-| |[ Started](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/action.md#started-zilch-engine-docu)| | |
+|[ Cancel](action.md#cancel-void)|[ Active](action.md#active-zilch-engine-docum)|[referencecountedeventobject](referencecountedeventobject.md)|[actiondelay](actiondelay.md)|
+| |[ Completed](action.md#completed-zilch-engine-do)| |[actionset](actionset.md)|
+| |[ Started](action.md#started-zilch-engine-docu)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Completed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Completed : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Started : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Started : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 

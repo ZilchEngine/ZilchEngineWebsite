@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.md#windowlaunchsettings-voi)|[ LaunchFullscreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.md#launchfullscreen-zilch-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ WindowedResolution](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.md#windowedresolution-zero)| | |
+|[ Constructor](windowlaunchsettings.md#windowlaunchsettings-voi)|[ LaunchFullscreen](windowlaunchsettings.md#launchfullscreen-zilch-en)|[component](component.md)| |
+| |[ WindowedResolution](windowlaunchsettings.md#windowedresolution-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  LaunchFullscreen : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LaunchFullscreen : [boolean](../nada_base_types/boolean.md)
 
 > If a pre-launch popup should be used to determine how application window is sized.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  WindowedResolution : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  WindowedResolution : [integer2](../nada_base_types/integer2.md)
 
 > Resolution of application when launched in windowed mode.
 > ``` lang=cpp, name=Nada

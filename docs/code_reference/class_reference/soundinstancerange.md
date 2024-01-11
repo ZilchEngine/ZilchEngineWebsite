@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md#soundinstancerange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](soundinstancerange.md#movenext-void)|[ All](soundinstancerange.md#all-zilch-engine-document)| | |
+|[ Constructor](soundinstancerange.md#soundinstancerange-void)|[ Current](soundinstancerange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](soundinstancerange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](soundinstancerange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [soundinstancerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md)
+ #  All : [soundinstancerange](soundinstancerange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [soundinstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.md)
+ #  Current : [soundinstance](soundinstance.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[soundinstancerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstancerange.md)| |
+> |p0|[soundinstancerange](soundinstancerange.md)| |
 > ``` lang=cpp, name=Nada
 > function SoundInstanceRange(p0 : SoundInstanceRange)
 > ``` 

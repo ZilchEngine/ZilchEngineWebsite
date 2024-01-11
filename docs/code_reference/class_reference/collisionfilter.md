@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.md#collisionfilter-void)|[ CollisionFlag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.md#collisionflag-zilch-engin)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.md)| |
-| |[ CollisionGroupA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.md#collisiongroupa-zilch-eng)| | |
-| |[ CollisionGroupB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilter.md#collisiongroupb-zilch-eng)| | |
+|[ Constructor](collisionfilter.md#collisionfilter-void)|[ CollisionFlag](collisionfilter.md#collisionflag-zilch-engin)|[safeid32eventobject](safeid32eventobject.md)| |
+| |[ CollisionGroupA](collisionfilter.md#collisiongroupa-zilch-eng)| | |
+| |[ CollisionGroupB](collisionfilter.md#collisiongroupb-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  CollisionFlag : [CollisionFilterCollisionFlags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#collisionfiltercollisionflags)
+ #  CollisionFlag : [CollisionFilterCollisionFlags](../enum_reference.md#collisionfiltercollisionflags)
 
 > The collision state between the two types. Controls whether the types skip detection, skip resolution, or resolve as normal.
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  CollisionGroupA : [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)
+ #  CollisionGroupA : [collisiongroup](collisiongroup.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  CollisionGroupB : [collisiongroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroup.md)
+ #  CollisionGroupB : [collisiongroup](collisiongroup.md)
 
  `read-only`
 

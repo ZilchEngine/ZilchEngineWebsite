@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md#contactrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](contactrange.md#contactrange-void)|[ All](contactrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](contactrange.md#movenext-void)|[ Current](contactrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](contactrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](contactrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [contactrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md)
+ #  All : [contactrange](contactrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [contactgraphedge](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactgraphedge.md)
+ #  Current : [contactgraphedge](contactgraphedge.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[contactrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactrange.md)| |
+> |p0|[contactrange](contactrange.md)| |
 > ``` lang=cpp, name=Nada
 > function ContactRange(p0 : ContactRange)
 > ``` 

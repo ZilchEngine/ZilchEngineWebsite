@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ActivateAsGizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmo.md#activateasgizmo-void)|[ WorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmo.md#worldrotation-zilch-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmo.md#rotationbasisgizmo-void)|[ XAxisName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmo.md#xaxisname-zilch-engine-do)| | |
-| |[ YAxisName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmo.md#yaxisname-zilch-engine-do)| | |
-| |[ ZAxisName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotationbasisgizmo.md#zaxisname-zilch-engine-do)| | |
+|[ ActivateAsGizmo](rotationbasisgizmo.md#activateasgizmo-void)|[ WorldRotation](rotationbasisgizmo.md#worldrotation-zilch-engin)|[component](component.md)| |
+|[ Constructor](rotationbasisgizmo.md#rotationbasisgizmo-void)|[ XAxisName](rotationbasisgizmo.md#xaxisname-zilch-engine-do)| | |
+| |[ YAxisName](rotationbasisgizmo.md#yaxisname-zilch-engine-do)| | |
+| |[ ZAxisName](rotationbasisgizmo.md#zaxisname-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  WorldRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  WorldRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  XAxisName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  XAxisName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  YAxisName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  YAxisName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  ZAxisName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ZAxisName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

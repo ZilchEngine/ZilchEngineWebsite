@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.md#textureinfo-void)|[ Dimensions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.md#dimensions-zilch-engine-d)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.md)| |
-| |[ FileType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.md#filetype-zilch-engine-doc)| | |
-| |[ LoadFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.md#loadformat-zilch-engine-d)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textureinfo.md#size-zilch-engine-documen)| | |
+|[ Constructor](textureinfo.md#textureinfo-void)|[ Dimensions](textureinfo.md#dimensions-zilch-engine-d)|[contentcomponent](contentcomponent.md)| |
+| |[ FileType](textureinfo.md#filetype-zilch-engine-doc)| | |
+| |[ LoadFormat](textureinfo.md#loadformat-zilch-engine-d)| | |
+| |[ Size](textureinfo.md#size-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Dimensions : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Dimensions : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  FileType : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  FileType : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  LoadFormat : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  LoadFormat : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  Size : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Size : [string](../nada_base_types/string.md)
 
  `read-only`
 

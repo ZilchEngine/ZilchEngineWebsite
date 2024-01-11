@@ -2,22 +2,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#debugtriangle-void)|[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#color-zilch-engine-docume)| | |
-| |[ Filled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#filled-zilch-engine-docum)| | |
-| |[ OnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#ontop-zilch-engine-docume)| | |
-| |[ Point0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#point0-zilch-engine-docum)| | |
-| |[ Point1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#point1-zilch-engine-docum)| | |
-| |[ Point2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#point2-zilch-engine-docum)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugtriangle.md#viewscaleoffset-zilch-eng)| | |
+|[ Constructor](debugtriangle.md#debugtriangle-void)|[ Color](debugtriangle.md#color-zilch-engine-docume)| | |
+| |[ Filled](debugtriangle.md#filled-zilch-engine-docum)| | |
+| |[ OnTop](debugtriangle.md#ontop-zilch-engine-docume)| | |
+| |[ Point0](debugtriangle.md#point0-zilch-engine-docum)| | |
+| |[ Point1](debugtriangle.md#point1-zilch-engine-docum)| | |
+| |[ Point2](debugtriangle.md#point2-zilch-engine-docum)| | |
+| |[ ViewAligned](debugtriangle.md#viewaligned-zilch-engine)| | |
+| |[ ViewScaled](debugtriangle.md#viewscaled-zilch-engine-d)| | |
+| |[ ViewScaleOffset](debugtriangle.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  Color : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Color : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  Filled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Filled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  OnTop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Point0 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Point0 : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Point1 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Point1 : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  Point2 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Point2 : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  ViewAligned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -73,7 +73,7 @@
 
 
 ---  
- #  ViewScaled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -81,7 +81,7 @@
 
 
 ---  
- #  ViewScaleOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ViewScaleOffset : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -113,9 +113,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |p1|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |p2|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |p0|[real3](../nada_base_types/real3.md)| |
+> |p1|[real3](../nada_base_types/real3.md)| |
+> |p2|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function DebugTriangle(p0 : Real3, p1 : Real3, p2 : Real3)
 > ``` 

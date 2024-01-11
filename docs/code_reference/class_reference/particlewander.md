@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.md#particlewander-void)|[ WanderAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.md#wanderangle-zilch-engine)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.md)| |
-| |[ WanderAngleVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.md#wanderanglevariance-zero)| | |
-| |[ WanderStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.md#wanderstrength-zilch-engi)| | |
+|[ Constructor](particlewander.md#particlewander-void)|[ WanderAngle](particlewander.md#wanderangle-zilch-engine)|[particleanimator](particleanimator.md)| |
+| |[ WanderAngleVariance](particlewander.md#wanderanglevariance-zero)| | |
+| |[ WanderStrength](particlewander.md#wanderstrength-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  WanderAngle : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WanderAngle : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  WanderAngleVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WanderAngleVariance : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  WanderStrength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WanderStrength : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

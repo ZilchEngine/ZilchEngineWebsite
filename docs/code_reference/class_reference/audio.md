@@ -2,37 +2,37 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AdditiveSynthNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#additivesynthnode-zilch-e)|[ DispatchMicrophoneCompressedByteData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#dispatchmicrophonecompre)|[system](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/system.md)| |
-|[ AddNoiseNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#addnoisenode-zilch-engine)|[ DispatchMicrophoneUncompressedFloatData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#dispatchmicrophoneuncomp)| | |
-|[ BandPassNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#bandpassnode-zilch-engine)|[ LatencySetting](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#latencysetting-zilch-engi)| | |
-|[ ChorusNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#chorusnode-zilch-engine-d)|[ MuteAllAudio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#muteallaudio-zilch-engine)| | |
-|[ CompressorNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#compressornode-zilch-engi)|[ OutputChannels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#outputchannels-zilch-engi)| | |
-|[ CustomAudioNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#customaudionode-zilch-eng)|[ PeakInputLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#peakinputlevel-zilch-engi)| | |
-|[ DelayNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#delaynode-zilch-engine-do)|[ PeakOutputLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#peakoutputlevel-zilch-eng)| | |
-|[ EqualizerNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#equalizernode-zilch-engin)|[ RMSOutputLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#rmsoutputlevel-zilch-engi)| | |
-|[ ExpanderNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#expandernode-zilch-engine)|[ SystemVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#systemvolume-zilch-engine)| | |
-|[ FlangerNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#flangernode-zilch-engine)| | | |
-|[ GeneratedWaveNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#generatedwavenode-zilch-e)| | | |
-|[ GetNodeGraphInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#getnodegraphinfo-zilch-en)| | | |
-|[ GranularSynthNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#granularsynthnode-zilch-e)| | | |
-|[ HighPassNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#highpassnode-zilch-engine)| | | |
-|[ LowPassNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#lowpassnode-zilch-engine)| | | |
-|[ MicrophoneInputNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#microphoneinputnode-zero)| | | |
-|[ ModulationNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#modulationnode-zilch-engi)| | | |
-|[ PanningNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#panningnode-zilch-engine)| | | |
-|[ PitchNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#pitchnode-zilch-engine-do)| | | |
-|[ RecordingNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#recordingnode-zilch-engin)| | | |
-|[ ReverbNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#reverbnode-zilch-engine-d)| | | |
-|[ SaveAudioNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#saveaudionode-zilch-engin)| | | |
-|[ SoundBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#soundbuffer-zilch-engine)| | | |
-|[ VolumeNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md#volumenode-zilch-engine-d)| | | |
+|[ AdditiveSynthNode](audio.md#additivesynthnode-zilch-e)|[ DispatchMicrophoneCompressedByteData](audio.md#dispatchmicrophonecompre)|[system](system.md)| |
+|[ AddNoiseNode](audio.md#addnoisenode-zilch-engine)|[ DispatchMicrophoneUncompressedFloatData](audio.md#dispatchmicrophoneuncomp)| | |
+|[ BandPassNode](audio.md#bandpassnode-zilch-engine)|[ LatencySetting](audio.md#latencysetting-zilch-engi)| | |
+|[ ChorusNode](audio.md#chorusnode-zilch-engine-d)|[ MuteAllAudio](audio.md#muteallaudio-zilch-engine)| | |
+|[ CompressorNode](audio.md#compressornode-zilch-engi)|[ OutputChannels](audio.md#outputchannels-zilch-engi)| | |
+|[ CustomAudioNode](audio.md#customaudionode-zilch-eng)|[ PeakInputLevel](audio.md#peakinputlevel-zilch-engi)| | |
+|[ DelayNode](audio.md#delaynode-zilch-engine-do)|[ PeakOutputLevel](audio.md#peakoutputlevel-zilch-eng)| | |
+|[ EqualizerNode](audio.md#equalizernode-zilch-engin)|[ RMSOutputLevel](audio.md#rmsoutputlevel-zilch-engi)| | |
+|[ ExpanderNode](audio.md#expandernode-zilch-engine)|[ SystemVolume](audio.md#systemvolume-zilch-engine)| | |
+|[ FlangerNode](audio.md#flangernode-zilch-engine)| | | |
+|[ GeneratedWaveNode](audio.md#generatedwavenode-zilch-e)| | | |
+|[ GetNodeGraphInfo](audio.md#getnodegraphinfo-zilch-en)| | | |
+|[ GranularSynthNode](audio.md#granularsynthnode-zilch-e)| | | |
+|[ HighPassNode](audio.md#highpassnode-zilch-engine)| | | |
+|[ LowPassNode](audio.md#lowpassnode-zilch-engine)| | | |
+|[ MicrophoneInputNode](audio.md#microphoneinputnode-zero)| | | |
+|[ ModulationNode](audio.md#modulationnode-zilch-engi)| | | |
+|[ PanningNode](audio.md#panningnode-zilch-engine)| | | |
+|[ PitchNode](audio.md#pitchnode-zilch-engine-do)| | | |
+|[ RecordingNode](audio.md#recordingnode-zilch-engin)| | | |
+|[ ReverbNode](audio.md#reverbnode-zilch-engine-d)| | | |
+|[ SaveAudioNode](audio.md#saveaudionode-zilch-engin)| | | |
+|[ SoundBuffer](audio.md#soundbuffer-zilch-engine)| | | |
+|[ VolumeNode](audio.md#volumenode-zilch-engine-d)| | | |
 
 
  #  Properties
 
 
 ---  
- #  DispatchMicrophoneCompressedByteData : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DispatchMicrophoneCompressedByteData : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  DispatchMicrophoneUncompressedFloatData : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DispatchMicrophoneUncompressedFloatData : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  LatencySetting : [AudioLatency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#audiolatency)
+ #  LatencySetting : [AudioLatency](../enum_reference.md#audiolatency)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  MuteAllAudio : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MuteAllAudio : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -64,7 +64,7 @@
 
 
 ---  
- #  OutputChannels : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  OutputChannels : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -74,7 +74,7 @@
 
 
 ---  
- #  PeakInputLevel : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PeakInputLevel : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -84,7 +84,7 @@
 
 
 ---  
- #  PeakOutputLevel : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PeakOutputLevel : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -94,7 +94,7 @@
 
 
 ---  
- #  RMSOutputLevel : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RMSOutputLevel : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -104,7 +104,7 @@
 
 
 ---  
- #  SystemVolume : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SystemVolume : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -116,7 +116,7 @@
 
 
 ---  
- #  AdditiveSynthNode : [additivesynthnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/additivesynthnode.md)
+ #  AdditiveSynthNode : [additivesynthnode](additivesynthnode.md)
 
  `static`
 
@@ -129,7 +129,7 @@
 
 
 ---  
- #  AddNoiseNode : [addnoisenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.md)
+ #  AddNoiseNode : [addnoisenode](addnoisenode.md)
 
  `static`
 
@@ -142,7 +142,7 @@
 
 
 ---  
- #  BandPassNode : [bandpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bandpassnode.md)
+ #  BandPassNode : [bandpassnode](bandpassnode.md)
 
  `static`
 
@@ -155,7 +155,7 @@
 
 
 ---  
- #  ChorusNode : [chorusnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chorusnode.md)
+ #  ChorusNode : [chorusnode](chorusnode.md)
 
  `static`
 
@@ -168,7 +168,7 @@
 
 
 ---  
- #  CompressorNode : [compressornode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/compressornode.md)
+ #  CompressorNode : [compressornode](compressornode.md)
 
  `static`
 
@@ -181,7 +181,7 @@
 
 
 ---  
- #  CustomAudioNode : [customaudionode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md)
+ #  CustomAudioNode : [customaudionode](customaudionode.md)
 
  `static`
 
@@ -194,7 +194,7 @@
 
 
 ---  
- #  DelayNode : [delaynode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/delaynode.md)
+ #  DelayNode : [delaynode](delaynode.md)
 
  `static`
 
@@ -207,7 +207,7 @@
 
 
 ---  
- #  EqualizerNode : [equalizernode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md)
+ #  EqualizerNode : [equalizernode](equalizernode.md)
 
  `static`
 
@@ -220,7 +220,7 @@
 
 
 ---  
- #  ExpanderNode : [expandernode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md)
+ #  ExpanderNode : [expandernode](expandernode.md)
 
  `static`
 
@@ -233,7 +233,7 @@
 
 
 ---  
- #  FlangerNode : [flangernode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.md)
+ #  FlangerNode : [flangernode](flangernode.md)
 
  `static`
 
@@ -246,7 +246,7 @@
 
 
 ---  
- #  GeneratedWaveNode : [generatedwavenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedwavenode.md)
+ #  GeneratedWaveNode : [generatedwavenode](generatedwavenode.md)
 
  `static`
 
@@ -259,7 +259,7 @@
 
 
 ---  
- #  GetNodeGraphInfo : [nodeinfolistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeinfolistrange.md)
+ #  GetNodeGraphInfo : [nodeinfolistrange](nodeinfolistrange.md)
 
 > 
 > |Name|Type|Description|
@@ -270,7 +270,7 @@
 
 
 ---  
- #  GranularSynthNode : [granularsynthnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md)
+ #  GranularSynthNode : [granularsynthnode](granularsynthnode.md)
 
  `static`
 
@@ -283,7 +283,7 @@
 
 
 ---  
- #  HighPassNode : [highpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/highpassnode.md)
+ #  HighPassNode : [highpassnode](highpassnode.md)
 
  `static`
 
@@ -296,7 +296,7 @@
 
 
 ---  
- #  LowPassNode : [lowpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/lowpassnode.md)
+ #  LowPassNode : [lowpassnode](lowpassnode.md)
 
  `static`
 
@@ -309,7 +309,7 @@
 
 
 ---  
- #  MicrophoneInputNode : [microphoneinputnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/microphoneinputnode.md)
+ #  MicrophoneInputNode : [microphoneinputnode](microphoneinputnode.md)
 
  `static`
 
@@ -322,7 +322,7 @@
 
 
 ---  
- #  ModulationNode : [modulationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md)
+ #  ModulationNode : [modulationnode](modulationnode.md)
 
  `static`
 
@@ -335,7 +335,7 @@
 
 
 ---  
- #  PanningNode : [panningnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/panningnode.md)
+ #  PanningNode : [panningnode](panningnode.md)
 
  `static`
 
@@ -348,7 +348,7 @@
 
 
 ---  
- #  PitchNode : [pitchnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.md)
+ #  PitchNode : [pitchnode](pitchnode.md)
 
  `static`
 
@@ -361,7 +361,7 @@
 
 
 ---  
- #  RecordingNode : [recordingnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/recordingnode.md)
+ #  RecordingNode : [recordingnode](recordingnode.md)
 
  `static`
 
@@ -374,7 +374,7 @@
 
 
 ---  
- #  ReverbNode : [reverbnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.md)
+ #  ReverbNode : [reverbnode](reverbnode.md)
 
  `static`
 
@@ -387,7 +387,7 @@
 
 
 ---  
- #  SaveAudioNode : [saveaudionode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/saveaudionode.md)
+ #  SaveAudioNode : [saveaudionode](saveaudionode.md)
 
  `static`
 
@@ -400,7 +400,7 @@
 
 
 ---  
- #  SoundBuffer : [soundbuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md)
+ #  SoundBuffer : [soundbuffer](soundbuffer.md)
 
  `static`
 
@@ -413,7 +413,7 @@
 
 
 ---  
- #  VolumeNode : [volumenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/volumenode.md)
+ #  VolumeNode : [volumenode](volumenode.md)
 
  `static`
 

@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Rune](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardtextevent.md#rune-zilch-engine-documen)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ Rune](keyboardtextevent.md#rune-zilch-engine-documen)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Rune : [rune](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.md)
+ #  Rune : [rune](../nada_base_types/rune.md)
 
 > 
 > ``` lang=cpp, name=Nada

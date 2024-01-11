@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md#uiwidgetrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](uiwidgetrange.md#movenext-void)|[ All](uiwidgetrange.md#all-zilch-engine-document)| | |
+|[ Constructor](uiwidgetrange.md#uiwidgetrange-void)|[ Current](uiwidgetrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](uiwidgetrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](uiwidgetrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [uiwidgetrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md)
+ #  All : [uiwidgetrange](uiwidgetrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  Current : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[uiwidgetrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md)| |
+> |p0|[uiwidgetrange](uiwidgetrange.md)| |
 > ``` lang=cpp, name=Nada
 > function UiWidgetRange(p0 : UiWidgetRange)
 > ``` 

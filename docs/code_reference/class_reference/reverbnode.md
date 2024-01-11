@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateWetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.md#interpolatewetpercent-vo)|[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.md#length-zilch-engine-docum)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-|[ InterpolateWetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.md#interpolatewetvalue-void)|[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.md#wetpercent-zilch-engine-d)| | |
-| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/reverbnode.md#wetvalue-zilch-engine-doc)| | |
+|[ InterpolateWetPercent](reverbnode.md#interpolatewetpercent-vo)|[ Length](reverbnode.md#length-zilch-engine-docum)|[soundnode](soundnode.md)| |
+|[ InterpolateWetValue](reverbnode.md#interpolatewetvalue-void)|[ WetPercent](reverbnode.md#wetpercent-zilch-engine-d)| | |
+| |[ WetValue](reverbnode.md#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  Length : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Length : [real](../nada_base_types/real.md)
 
 > The length of the reverb tail, in seconds. The default value is 0.1.
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  WetPercent : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WetPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The WetValue property should be used instead.
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  WetValue : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WetValue : [real](../nada_base_types/real.md)
 
 > The percentage of the node's output (0 - 1.0) which has the reverb filter applied to it. Setting this property to 0 will stop all reverb calculations.
 > ``` lang=cpp, name=Nada
@@ -46,8 +46,8 @@
 > DEPRECATED The InterpolateWetValue method should be used instead.
 > |Name|Type|Description|
 > |---|---|---|
-> |percent|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |time|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |percent|[real](../nada_base_types/real.md)| |
+> |time|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function InterpolateWetPercent(percent : Real, time : Real)
 > ``` 
@@ -59,8 +59,8 @@
 > Interpolates the WetValue property from its current value to the value passed in as the first parameter, over the number of seconds passed in as the second parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |time|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |value|[real](../nada_base_types/real.md)| |
+> |time|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function InterpolateWetValue(value : Real, time : Real)
 > ``` 

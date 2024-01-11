@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.md#clear-void)|[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.md#url-zilch-engine-document)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ Run](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.md#run-void)| | | |
-|[ SetHeader](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.md#setheader-void)| | | |
-|[ SetPostData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.md#setpostdata-void)| | | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webrequester.md#webrequester-void)| | | |
+|[ Clear](webrequester.md#clear-void)|[ Url](webrequester.md#url-zilch-engine-document)|[component](component.md)| |
+|[ Run](webrequester.md#run-void)| | | |
+|[ SetHeader](webrequester.md#setheader-void)| | | |
+|[ SetPostData](webrequester.md#setpostdata-void)| | | |
+|[ Constructor](webrequester.md#webrequester-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Url : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Url : [string](../nada_base_types/string.md)
 
 > Get and set the url that we make requests to.
 > ``` lang=cpp, name=Nada
@@ -56,8 +56,8 @@
 > Add a header to the web request .
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |data|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
+> |data|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function SetHeader(name : String, data : String)
 > ``` 
@@ -69,7 +69,7 @@
 > Add Post data to the request, this will also change the request to a post request.
 > |Name|Type|Description|
 > |---|---|---|
-> |data|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |data|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function SetPostData(data : String)
 > ``` 

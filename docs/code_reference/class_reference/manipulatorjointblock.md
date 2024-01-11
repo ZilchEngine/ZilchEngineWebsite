@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatorjointblock.md#manipulatorjointblock-vo)| |[constraintconfigblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/constraintconfigblock.md)| |
+|[ Constructor](manipulatorjointblock.md#manipulatorjointblock-vo)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

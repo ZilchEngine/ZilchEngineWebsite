@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgefaceedgeindexarray.md#get-zilch-engine-document)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgefaceedgeindexarray.md#all-zilch-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-| |[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgefaceedgeindexarray.md#count-zilch-engine-docume)| | |
+|[ Get](indexedhalfedgefaceedgeindexarray.md#get-zilch-engine-document)|[ All](indexedhalfedgefaceedgeindexarray.md#all-zilch-engine-document)|[safeid32object](safeid32object.md)| |
+| |[ Count](indexedhalfedgefaceedgeindexarray.md#count-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [indexedhalfedgefaceedgeindexarrayrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgefaceedgeindexarrayrange.md)
+ #  All : [indexedhalfedgefaceedgeindexarrayrange](indexedhalfedgefaceedgeindexarrayrange.md)
 
  `read-only`
 
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -34,12 +34,12 @@
 
 
 ---  
- #  Get : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Get : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get( : Integer) : Integer
 > ``` 

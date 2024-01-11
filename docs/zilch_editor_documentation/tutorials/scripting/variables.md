@@ -1,4 +1,4 @@
-This lesson covers the basics of using Variables in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md).
+This lesson covers the basics of using Variables in [Nada](../../zilchmanual/nada_in_zilch.md).
 
  # Learning Objectives
 
@@ -8,30 +8,30 @@ This lesson covers the basics of using Variables in [Nada](https://github.com/Zi
 
  # Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `MyBehavior`
 - In the `Level Window`
- - [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+ - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Square`
  - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent/) : `MyBehavior`
 
  # Class Variables
 
-A variable is a stored value of a given type. In order to manipulate a variable you must know its type and what values it can hold. Below is a table of the most common variable types in [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md).
+A variable is a stored value of a given type. In order to manipulate a variable you must know its type and what values it can hold. Below is a table of the most common variable types in [Nada](../../zilchmanual/nada_in_zilch.md).
 
 | Type| Acceptable Values | Common Operators|
 |---|---|---|
-| [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md) | `true` `false`| `=` |
-| [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) | `1` `-2` `100` etc| `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
-| [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) | `0.1` `-1.2` `3.1415926`, etc | `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
-| [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md) | `Real2(0.1, -2.5)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
-| [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md) | `Real3(0.1, -2.5, 19.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
-| [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md) | `Real4(0.1, -2.5, 19.0, 0.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
-| [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md) | `Hello World!` etc | `=` |
+| [boolean](../../../code_reference/nada_base_types/boolean.md) | `true` `false`| `=` |
+| [integer](../../../code_reference/nada_base_types/integer.md) | `1` `-2` `100` etc| `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
+| [real](../../../code_reference/nada_base_types/real.md) | `0.1` `-1.2` `3.1415926`, etc | `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` `++` `--` |
+| [real2](../../../code_reference/nada_base_types/real2.md) | `Real2(0.1, -2.5)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
+| [real3](../../../code_reference/nada_base_types/real3.md) | `Real3(0.1, -2.5, 19.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
+| [real4](../../../code_reference/nada_base_types/real4.md) | `Real4(0.1, -2.5, 19.0, 0.0)` etc |  `=` `+` `-` `*` `/` `+=` `-=` `*=` `/=` |
+| [string](../../../code_reference/nada_base_types/string.md) | `Hello World!` etc | `=` |
 
 Variables are used to represent values your game needs to perform its logic such as, Lives, Ammo, Run Speed and more. Let's create a new variable for our `MyBehavior` component class.
 
@@ -119,7 +119,7 @@ NOTE: Using these operators is logically equivalent to preforming the correspond
 
  ## Increment and Decrement Operators `++` `--`
 
-These are used in combination with Integer and Real types to either add or subtract `1` to the current value of the variable. In [Nada](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md), these are always used before the variable you want to increment.
+These are used in combination with Integer and Real types to either add or subtract `1` to the current value of the variable. In [Nada](../../zilchmanual/nada_in_zilch.md), these are always used before the variable you want to increment.
 
 Example:
 
@@ -133,7 +133,7 @@ NOTE: Using `++this.Speed;` is logically equivalent to `this.Speed += 1.0;` and 
 
 Up until now we have modified properties on various components through the `Properties Window`, but internally, those properties are just variables we can manipulate in code at runtime (while the game is running).
 
-Let's try and modify our Square object to move to the right based on our speed. So the value we're looking to modify is the Translation  property in the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component and we want to do that on Logic Update so that it happens every frame.
+Let's try and modify our Square object to move to the right based on our speed. So the value we're looking to modify is the Translation  property in the [Transform](../../../code_reference/class_reference/transform.md) component and we want to do that on Logic Update so that it happens every frame.
 
  - Add the following line of code inside LogicUpdate:
 
@@ -145,7 +145,7 @@ this.Owner.Transform.Translation += Real3(this.Speed, 0, 0);
 |`Transform.` | The component we're trying to access. |
 |`Translation` | The property (or variable) we want to modify. |
 
-NOTE: `this.Owner.Transform.Translation` can be interpreted as "The Translation  property of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) of the object that owns this component"
+NOTE: `this.Owner.Transform.Translation` can be interpreted as "The Translation  property of the [Transform](../../../code_reference/class_reference/transform.md) of the object that owns this component"
 
 |`+=` | Add and assign operator to add a value to the current translation. |
 |`Real3(X, Y, Z)` | Here we create a Real3 since that's the type of the Translation  property we're looking to modify. Real3s are composed of three Real values which are referred to X, Y and Z in order. |
@@ -159,14 +159,14 @@ Here's what your code should look like:
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66927.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![Game2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66929.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Dependencies
 
@@ -177,7 +177,7 @@ Previously, we demonstrated how to access a property of another component. Howev
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66931.png) 
 
 
-To prevent this, we can declare a dependency on the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component. 
+To prevent this, we can declare a dependency on the [Transform](../../../code_reference/class_reference/transform.md) component. 
 
  - Add the following line at the beginning of the class scope:
 
@@ -186,7 +186,7 @@ To prevent this, we can declare a dependency on the [Transform](https://github.c
 var Transform : Transform;
 ```
 
-By adding this we prevent the addition of the `MyBehavior` component to objects without a [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component. The `[Dependency]` part is an **attribute** that modifies the following variable; you can find more information about them in the [Attribute Manual Page](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md).
+By adding this we prevent the addition of the `MyBehavior` component to objects without a [Transform](../../../code_reference/class_reference/transform.md) component. The `[Dependency]` part is an **attribute** that modifies the following variable; you can find more information about them in the [Attribute Manual Page](../../zilchmanual/nada_in_zilch/attributes.md).
 
 
 
@@ -197,7 +197,7 @@ NOTE: This also allows us to shorten part our previous line of code `this.Owner.
 
 Once the dependency is declared, dependent components can't be removed unless no dependent components are removed first.
 
-- Attempt to remove the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component from Square object.
+- Attempt to remove the [Transform](../../../code_reference/class_reference/transform.md) component from Square object.
 
 
 
@@ -225,15 +225,15 @@ We can then find the `Speed` property and edit it in the `Properties Window`.
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66983.png)
 
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Under `MyBehavior`
   - Set Speed  to 0.02
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 Notice that the object moves a lot slower now, in accordance with the `0.02` value we set on the `Properties Window` and **NOT** the initial value of `0.1` given when the function was declared. Once a variable is given a Property attribute; its values are *serialized* and will match the one listed in the `Properties Window`.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Local Variables
 
@@ -269,44 +269,44 @@ function OnLogicUpdate(event : UpdateEvent)
 
 Here we create a local variable that is the normalized value given by the Direction property; that is, a vector that points in the same direction but of length `1.0`. We then used that normalized direction to construct a Real3 (out of a Real2 and a Real), multiplying the direction by our `Speed` property and assign it to the Square object's translation.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![SquareMoveInDirection](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89074.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
  ## Manual
-- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.md)
-- [ Nada User Documentation](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
-- [ Variables](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md)
-- [Attributes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md)
-- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [Components](../../zilchmanual/architecture/components.md)
+- [ Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
+- [ Variables](../../zilchmanual/nada_in_zilch/variables_and_data_types.md)
+- [Attributes](../../zilchmanual/nada_in_zilch/attributes.md)
+- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 
  ## Reference
  ### Classes
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [NadaScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadascript.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [Sprite](../../../code_reference/class_reference/sprite.md)
+- [NadaScript](../../../code_reference/class_reference/nadascript.md)
 
  ### Nada Base Types
-- [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
-- [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
-- [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
-- [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
-- [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
-- [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
-- [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+- [boolean](../../../code_reference/nada_base_types/boolean.md)
+- [integer](../../../code_reference/nada_base_types/integer.md)
+- [real](../../../code_reference/nada_base_types/real.md)
+- [real2](../../../code_reference/nada_base_types/real2.md)
+- [real3](../../../code_reference/nada_base_types/real3.md)
+- [real4](../../../code_reference/nada_base_types/real4.md)
+- [string](../../../code_reference/nada_base_types/string.md)
 
  ### Commands
-- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
  ## Tutorials
-- [CustomComponents](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/customcomponents.md)
+- [CustomComponents](customcomponents.md)
  
 
  

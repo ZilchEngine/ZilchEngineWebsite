@@ -6,33 +6,33 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ResetCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#resetcount-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#active-zilch-engine-docum)|[particleemitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemitter.md)|[boxparticleemitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxparticleemitter.md)|
-| |[ EmitCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#emitcount-zilch-engine-do)| |[meshparticleemitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.md)|
-| |[ EmitDelay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#emitdelay-zilch-engine-do)| |[sphericalparticleemitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)|
-| |[ EmitRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#emitrate-zilch-engine-doc)| |[splineparticleemitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splineparticleemitter.md)|
-| |[ EmitRateSoftStartTime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#emitratesoftstarttime-ze)| | |
-| |[ EmitterSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#emittersize-zilch-engine)| | |
-| |[ EmitterVelocityPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#emittervelocitypercent-z)| | |
-| |[ EmitVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#emitvariance-zilch-engine)| | |
-| |[ FastMovingEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#fastmovingemitter-zilch-e)| | |
-| |[ Fill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#fill-zilch-engine-documen)| | |
-| |[ Lifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#lifetime-zilch-engine-doc)| | |
-| |[ LifetimeVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#lifetimevariance-zilch-en)| | |
-| |[ RandomSpin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#randomspin-zilch-engine-d)| | |
-| |[ RandomVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#randomvelocity-zilch-engi)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#size-zilch-engine-documen)| | |
-| |[ SizeVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#sizevariance-zilch-engine)| | |
-| |[ Spin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#spin-zilch-engine-documen)| | |
-| |[ SpinVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#spinvariance-zilch-engine)| | |
-| |[ StartVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#startvelocity-zilch-engin)| | |
-| |[ TangentVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md#tangentvelocity-zilch-eng)| | |
+|[ ResetCount](particleemittershared.md#resetcount-void)|[ Active](particleemittershared.md#active-zilch-engine-docum)|[particleemitter](particleemitter.md)|[boxparticleemitter](boxparticleemitter.md)|
+| |[ EmitCount](particleemittershared.md#emitcount-zilch-engine-do)| |[meshparticleemitter](meshparticleemitter.md)|
+| |[ EmitDelay](particleemittershared.md#emitdelay-zilch-engine-do)| |[sphericalparticleemitter](sphericalparticleemitter.md)|
+| |[ EmitRate](particleemittershared.md#emitrate-zilch-engine-doc)| |[splineparticleemitter](splineparticleemitter.md)|
+| |[ EmitRateSoftStartTime](particleemittershared.md#emitratesoftstarttime-ze)| | |
+| |[ EmitterSize](particleemittershared.md#emittersize-zilch-engine)| | |
+| |[ EmitterVelocityPercent](particleemittershared.md#emittervelocitypercent-z)| | |
+| |[ EmitVariance](particleemittershared.md#emitvariance-zilch-engine)| | |
+| |[ FastMovingEmitter](particleemittershared.md#fastmovingemitter-zilch-e)| | |
+| |[ Fill](particleemittershared.md#fill-zilch-engine-documen)| | |
+| |[ Lifetime](particleemittershared.md#lifetime-zilch-engine-doc)| | |
+| |[ LifetimeVariance](particleemittershared.md#lifetimevariance-zilch-en)| | |
+| |[ RandomSpin](particleemittershared.md#randomspin-zilch-engine-d)| | |
+| |[ RandomVelocity](particleemittershared.md#randomvelocity-zilch-engi)| | |
+| |[ Size](particleemittershared.md#size-zilch-engine-documen)| | |
+| |[ SizeVariance](particleemittershared.md#sizevariance-zilch-engine)| | |
+| |[ Spin](particleemittershared.md#spin-zilch-engine-documen)| | |
+| |[ SpinVariance](particleemittershared.md#spinvariance-zilch-engine)| | |
+| |[ StartVelocity](particleemittershared.md#startvelocity-zilch-engin)| | |
+| |[ TangentVelocity](particleemittershared.md#tangentvelocity-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Is this emitter currently emitting particles?
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  EmitCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  EmitCount : [integer](../nada_base_types/integer.md)
 
 > Number of particles to emit per reset.
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  EmitDelay : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  EmitDelay : [real](../nada_base_types/real.md)
 
 > Time in seconds to delay the emission of particles from time of creation.
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  EmitRate : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  EmitRate : [real](../nada_base_types/real.md)
 
 > Rate that particles spawn per second.
 > ``` lang=cpp, name=Nada
@@ -64,7 +64,7 @@
 
 
 ---  
- #  EmitRateSoftStartTime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  EmitRateSoftStartTime : [real](../nada_base_types/real.md)
 
 > Slowly ramps up to EmitRate over this time.
 > ``` lang=cpp, name=Nada
@@ -72,7 +72,7 @@
 
 
 ---  
- #  EmitterSize : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  EmitterSize : [real3](../nada_base_types/real3.md)
 
 > Size of the emitter.
 > ``` lang=cpp, name=Nada
@@ -80,7 +80,7 @@
 
 
 ---  
- #  EmitterVelocityPercent : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  EmitterVelocityPercent : [real](../nada_base_types/real.md)
 
 > How much of the objects velocity is added to the particles.
 > ``` lang=cpp, name=Nada
@@ -88,7 +88,7 @@
 
 
 ---  
- #  EmitVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  EmitVariance : [real](../nada_base_types/real.md)
 
 > How much the emit can vary per sample.
 > ``` lang=cpp, name=Nada
@@ -96,7 +96,7 @@
 
 
 ---  
- #  FastMovingEmitter : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  FastMovingEmitter : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not we attempt to emit along the vector between the previous position to the current position, which looks better for fast moving particle systems Note: Particle systems that teleport will emit along the teleport line.
 > ``` lang=cpp, name=Nada
@@ -104,7 +104,7 @@
 
 
 ---  
- #  Fill : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Fill : [real](../nada_base_types/real.md)
 
 > How much area of the emitter to used 0 to 1.
 > ``` lang=cpp, name=Nada
@@ -112,7 +112,7 @@
 
 
 ---  
- #  Lifetime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Lifetime : [real](../nada_base_types/real.md)
 
 > How a particle's starting lifetime is.
 > ``` lang=cpp, name=Nada
@@ -120,7 +120,7 @@
 
 
 ---  
- #  LifetimeVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LifetimeVariance : [real](../nada_base_types/real.md)
 
 > How much lifetime can vary per particle.
 > ``` lang=cpp, name=Nada
@@ -128,7 +128,7 @@
 
 
 ---  
- #  RandomSpin : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RandomSpin : [boolean](../nada_base_types/boolean.md)
 
 > Each particle should start with random spin.
 > ``` lang=cpp, name=Nada
@@ -136,7 +136,7 @@
 
 
 ---  
- #  RandomVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  RandomVelocity : [real3](../nada_base_types/real3.md)
 
 > Random Velocity per particle.
 > ``` lang=cpp, name=Nada
@@ -144,7 +144,7 @@
 
 
 ---  
- #  Size : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Size : [real](../nada_base_types/real.md)
 
 > Size of each particle spawned.
 > ``` lang=cpp, name=Nada
@@ -152,7 +152,7 @@
 
 
 ---  
- #  SizeVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SizeVariance : [real](../nada_base_types/real.md)
 
 > How much the size can vary from the base size per particle.
 > ``` lang=cpp, name=Nada
@@ -160,7 +160,7 @@
 
 
 ---  
- #  Spin : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Spin : [real](../nada_base_types/real.md)
 
 > Speed in rads per second of the particle.
 > ``` lang=cpp, name=Nada
@@ -168,7 +168,7 @@
 
 
 ---  
- #  SpinVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpinVariance : [real](../nada_base_types/real.md)
 
 > How much spin speed can vary per particle.
 > ``` lang=cpp, name=Nada
@@ -176,7 +176,7 @@
 
 
 ---  
- #  StartVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  StartVelocity : [real3](../nada_base_types/real3.md)
 
 > Velocity of each particle at start.
 > ``` lang=cpp, name=Nada
@@ -184,7 +184,7 @@
 
 
 ---  
- #  TangentVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TangentVelocity : [real3](../nada_base_types/real3.md)
 
 > Velocity of each particle in x horizontal tangent y vertical tangent and z outward tangent.
 > ``` lang=cpp, name=Nada

@@ -6,24 +6,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#vortexeffect-void)|[ EndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#endcondition-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)| |
-| |[ InterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#interpolationtype-zilch-e)| | |
-| |[ InwardStrengthAtMaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#inwardstrengthatmaxdista)| | |
-| |[ InwardStrengthAtMinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#inwardstrengthatmindista)| | |
-| |[ LocalAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#localaxis-zilch-engine-do)| | |
-| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#maxdistance-zilch-engine)| | |
-| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#mindistance-zilch-engine)| | |
-| |[ TwistStrengthAtMaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#twiststrengthatmaxdistan)| | |
-| |[ TwistStrengthAtMinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#twiststrengthatmindistan)| | |
-| |[ VortexAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#vortexaxis-zilch-engine-d)| | |
-| |[ WorldVortexAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md#worldvortexaxis-zilch-eng)| | |
+|[ Constructor](vortexeffect.md#vortexeffect-void)|[ EndCondition](vortexeffect.md#endcondition-zilch-engine)|[physicseffect](physicseffect.md)| |
+| |[ InterpolationType](vortexeffect.md#interpolationtype-zilch-e)| | |
+| |[ InwardStrengthAtMaxDistance](vortexeffect.md#inwardstrengthatmaxdista)| | |
+| |[ InwardStrengthAtMinDistance](vortexeffect.md#inwardstrengthatmindista)| | |
+| |[ LocalAxis](vortexeffect.md#localaxis-zilch-engine-do)| | |
+| |[ MaxDistance](vortexeffect.md#maxdistance-zilch-engine)| | |
+| |[ MinDistance](vortexeffect.md#mindistance-zilch-engine)| | |
+| |[ TwistStrengthAtMaxDistance](vortexeffect.md#twiststrengthatmaxdistan)| | |
+| |[ TwistStrengthAtMinDistance](vortexeffect.md#twiststrengthatmindistan)| | |
+| |[ VortexAxis](vortexeffect.md#vortexaxis-zilch-engine-d)| | |
+| |[ WorldVortexAxis](vortexeffect.md#worldvortexaxis-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  EndCondition : [PhysicsEffectEndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicseffectendcondition)
+ #  EndCondition : [PhysicsEffectEndCondition](../enum_reference.md#physicseffectendcondition)
 
 > How the interpolation should be handled at MaxDistance. ClampToMax will clamp to the max strength values. NoEffect will ignore the effect. ContinueFalloff will continue the interpolation (this may go negative).
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  InterpolationType : [PhysicsEffectInterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicseffectinterpolationtype)
+ #  InterpolationType : [PhysicsEffectInterpolationType](../enum_reference.md#physicseffectinterpolationtype)
 
 > The type of interpolation used (e.g. Linear, Quadratic) for the forces.
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  InwardStrengthAtMaxDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  InwardStrengthAtMaxDistance : [real](../nada_base_types/real.md)
 
 > The inward strength of the vortex at the max distance.
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  InwardStrengthAtMinDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  InwardStrengthAtMinDistance : [real](../nada_base_types/real.md)
 
 > The inward strength of the vortex at the min distance.
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  LocalAxis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LocalAxis : [boolean](../nada_base_types/boolean.md)
 
 > Determines if the vortex axis is in world or local space.
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  MaxDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxDistance : [real](../nada_base_types/real.md)
 
 > The max distance that attenuation will happen at. If an object is between min and max distance, the value will be attenuated. If the object is further away, the effect strength will be determined by EndCondition.
 > ``` lang=cpp, name=Nada
@@ -71,7 +71,7 @@
 
 
 ---  
- #  MinDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MinDistance : [real](../nada_base_types/real.md)
 
 > The first distance at which attenuation will start. If an object is under the min distance, the min strength values will be used. If an object is in between min and max, then it will attenuate.
 > ``` lang=cpp, name=Nada
@@ -79,7 +79,7 @@
 
 
 ---  
- #  TwistStrengthAtMaxDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TwistStrengthAtMaxDistance : [real](../nada_base_types/real.md)
 
 > The perpendicular strength (twist) of the vortex at max distance.
 > ``` lang=cpp, name=Nada
@@ -87,7 +87,7 @@
 
 
 ---  
- #  TwistStrengthAtMinDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TwistStrengthAtMinDistance : [real](../nada_base_types/real.md)
 
 > The perpendicular strength (twist) of the vortex at min distance.
 > ``` lang=cpp, name=Nada
@@ -95,7 +95,7 @@
 
 
 ---  
- #  VortexAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  VortexAxis : [real3](../nada_base_types/real3.md)
 
 > The axis the vortex spins about.
 > ``` lang=cpp, name=Nada
@@ -103,7 +103,7 @@
 
 
 ---  
- #  WorldVortexAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldVortexAxis : [real3](../nada_base_types/real3.md)
 
  `read-only`
 

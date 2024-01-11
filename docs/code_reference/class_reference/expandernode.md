@@ -2,20 +2,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AttackMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md#attackmillisec-zilch-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-| |[ InputGainDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md#inputgaindecibels-zilch-e)| | |
-| |[ KneeWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md#kneewidth-zilch-engine-do)| | |
-| |[ OutputGainDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md#outputgaindecibels-zero)| | |
-| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md#ratio-zilch-engine-docume)| | |
-| |[ ReleaseMillisec](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md#releasemillisec-zilch-eng)| | |
-| |[ ThresholdDecibels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md#thresholddecibels-zilch-e)| | |
+| |[ AttackMillisec](expandernode.md#attackmillisec-zilch-engi)|[soundnode](soundnode.md)| |
+| |[ InputGainDecibels](expandernode.md#inputgaindecibels-zilch-e)| | |
+| |[ KneeWidth](expandernode.md#kneewidth-zilch-engine-do)| | |
+| |[ OutputGainDecibels](expandernode.md#outputgaindecibels-zero)| | |
+| |[ Ratio](expandernode.md#ratio-zilch-engine-docume)| | |
+| |[ ReleaseMillisec](expandernode.md#releasemillisec-zilch-eng)| | |
+| |[ ThresholdDecibels](expandernode.md#thresholddecibels-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  AttackMillisec : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AttackMillisec : [real](../nada_base_types/real.md)
 
 > The time for the expander to ramp to full effect after the input reaches the threshold.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  InputGainDecibels : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  InputGainDecibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to the audio input, in decibels.
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  KneeWidth : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  KneeWidth : [real](../nada_base_types/real.md)
 
 > The knee width of the expander, in decibels.
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  OutputGainDecibels : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  OutputGainDecibels : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to the expander output, in decibels.
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  Ratio : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Ratio : [real](../nada_base_types/real.md)
 
 > The ratio of the volume reduction applied by the expander.
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  ReleaseMillisec : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ReleaseMillisec : [real](../nada_base_types/real.md)
 
 > The time for the expander to ramp from full effect to off after the input goes above the threshold.
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  ThresholdDecibels : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ThresholdDecibels : [real](../nada_base_types/real.md)
 
 > The threshold, in decibels, at which the volume of the input is affected by the expander.
 > ``` lang=cpp, name=Nada

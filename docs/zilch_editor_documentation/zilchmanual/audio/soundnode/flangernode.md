@@ -1,4 +1,4 @@
-The [ FlangerNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.md) collects audio data from all of its inputs and applies a flanger filter before passing it along to its outputs. 
+The [ FlangerNode ](../../../../code_reference/class_reference/flangernode.md) collects audio data from all of its inputs and applies a flanger filter before passing it along to its outputs. 
 
  # Common Uses
 
@@ -11,9 +11,9 @@ Flanger filters apply an oscillating delay filter to the audio. The delay will i
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
+- [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ FlangerNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flangernode.md) 
+- [ FlangerNode ](../../../../code_reference/class_reference/flangernode.md) 
 
  

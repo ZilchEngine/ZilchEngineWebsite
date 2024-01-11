@@ -17,9 +17,9 @@ The Discover tab is the Launcher's information hub, featuring links to documenta
 | Link | Description |
 | -- | -- |
 | [ZEROHUB](https://dev.zeroengine.io/) | The ZilchHub homepage |
-| [ZILCH](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) | The Nada user documentation |
+| [ZILCH](../nada_in_zilch.md) | The Nada user documentation |
 | [ROADMAP](https://dev.zeroengine.io/project/board/52/) | An overview of current development on Zilch Engine |
-| [DOCUMENTATION](https://github.com/ZilchEngine/ZilchDocs/blob/master.md) | The root documentation page |
+| [DOCUMENTATION](../../../../docs.md) | The root documentation page |
 | [MARKET](https://market.zeroengine.io/) | The Zilch Market webste |
 | [Q&A](https://ask.zeroengine.io/) | The Zilch Q&A website |
 
@@ -54,14 +54,14 @@ The project templates are `EMPTY 2D PROJECT` and `EMPTY 3D PROJECT`. Both option
 NOTE: Even if a game starts with the 2D template, it can still become a 3D game or even just use 3D elements.  The template you choose simply specifies the default settings for certain properties.
 
  ### Name and Location
-The Name  of the project is required, but the `TAGS field` is optional.  Both are ways of labeling a project so that it can be searched for in the [Recent Projects](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md#recent-projects) subtab.  TAGS  will parse a comma-delimited list of strings, where each string becomes a seperate tag: `<tag1>, <tag2>, <tag3>`
+The Name  of the project is required, but the `TAGS field` is optional.  Both are ways of labeling a project so that it can be searched for in the [Recent Projects](launcher.md#recent-projects) subtab.  TAGS  will parse a comma-delimited list of strings, where each string becomes a seperate tag: `<tag1>, <tag2>, <tag3>`
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47800.png)
 
 
  ### Version
-The version can be selected from here as long as it's installed from the [Builds tab](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md#the-builds-tab).  Optionally, the latest version can be installed by selecting `the version drop-down  > INSTALL LATEST`
+The version can be selected from here as long as it's installed from the [Builds tab](launcher.md#the-builds-tab).  Optionally, the latest version can be installed by selecting `the version drop-down  > INSTALL LATEST`
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47796.png)
@@ -74,7 +74,7 @@ The version can be selected from here as long as it's installed from the [Builds
 
 
 Moving on to projects previously created, by clicking the **Recent** button you will bring up the Recent Projects subtab.
-The recent projects tab a list of the latest Zilch projects that were worked on.  The maximum number of recent projects shown can be changed through the `MAX RECENT PROJECTS` in the [Settings tab](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md#the-settings-tab).
+The recent projects tab a list of the latest Zilch projects that were worked on.  The maximum number of recent projects shown can be changed through the `MAX RECENT PROJECTS` in the [Settings tab](launcher.md#the-settings-tab).
 
  ### Project Tiles
 Each recent project will show up as a project tile, showing information relating to that project.  There is an option to remove a tile from the project list, by clicking on an X on the bottom right of the tile.
@@ -91,7 +91,7 @@ The search bar can be used to filter the project list, by name and by tag.
 
 
  ### In a Project Tile
-Once a project tile is selected, more information and a launch option are displayed.  Clicking on the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47881.png) button will open the directory of the project.  The version selector works the same as the one in the [New subtab](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md#new-project).
+Once a project tile is selected, more information and a launch option are displayed.  Clicking on the ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47881.png) button will open the directory of the project.  The version selector works the same as the one in the [New subtab](launcher.md#new-project).
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47879.png)
@@ -137,7 +137,7 @@ The settings tab has a number of different properties about how the Launcher its
 `DEFAULT PROJECT LOCATION`: Where projects are saved.
 `DEFAULT DOWNLOAD LOCATION`: Where builds are saved.
 
-`MAX RECENT PROJECTS`: The most project tiles that can show up on the [Recent Projects](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md#recent-projects) subtab.
+`MAX RECENT PROJECTS`: The most project tiles that can show up on the [Recent Projects](launcher.md#recent-projects) subtab.
 `AUTO CHECK FOR MAJOR UPDATES`:  Check for updates
 `SHOW DEVELOPMENT BUILDS`: This shows more recent and potentially unstable builds.
 `SHOW EXPERIMENTAL BRANCHES`:  This shows builds from other branches of the Zilch Engine repository.
@@ -146,6 +146,6 @@ The settings tab has a number of different properties about how the Launcher its
 
  ## Related Materials
  ### Manual
-- [launchernewproject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.md) 
+- [launchernewproject](editorcommands/launchernewproject.md) 
 
  

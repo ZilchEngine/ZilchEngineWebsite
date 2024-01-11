@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| | |[metaserialization](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaserialization.md)| |
+| | |[metaserialization](metaserialization.md)| |
 
 
  #  Properties

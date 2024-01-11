@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[[zilch_engine_documentation/code_reference/nada_base_types/delegatetype/#parameters-delegate() | Parameters]]|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)| |
-| |[ Return](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegatetype.md#return-zilch-engine-docum)| | |
-| |[ Signature](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegatetype.md#signature-zilch-engine-do)| | |
+| |[[zilch_engine_documentation/code_reference/nada_base_types/delegatetype/#parameters-delegate() | Parameters]]|[type](type.md)| |
+| |[ Return](delegatetype.md#return-zilch-engine-docum)| | |
+| |[ Signature](delegatetype.md#signature-zilch-engine-do)| | |
 
 
  #  Properties
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Return : [type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)
+ #  Return : [type](type.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Signature : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Signature : [string](string.md)
 
  `read-only`
 

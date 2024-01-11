@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ StartRecording](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/recordingnode.md#startrecording-void)|[ FileName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/recordingnode.md#filename-zilch-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-|[ StopRecording](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/recordingnode.md#stoprecording-void)|[ Paused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/recordingnode.md#paused-zilch-engine-docum)| | |
-| |[ StreamToDisk](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/recordingnode.md#streamtodisk-zilch-engine)| | |
+|[ StartRecording](recordingnode.md#startrecording-void)|[ FileName](recordingnode.md#filename-zilch-engine-doc)|[soundnode](soundnode.md)| |
+|[ StopRecording](recordingnode.md#stoprecording-void)|[ Paused](recordingnode.md#paused-zilch-engine-docum)| | |
+| |[ StreamToDisk](recordingnode.md#streamtodisk-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  FileName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  FileName : [string](../nada_base_types/string.md)
 
 > The name of the output file that will be created, including the full path. Do not include the file extension.
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Paused : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Paused : [boolean](../nada_base_types/boolean.md)
 
 > When true, recording is paused, and can be resumed by setting to false.
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  StreamToDisk : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  StreamToDisk : [boolean](../nada_base_types/boolean.md)
 
 > When false, audio data will be saved in a buffer and written to the file when StopRecording is called. When true, data will be written to the file constantly during every update frame, and nothing will be saved.
 > ``` lang=cpp, name=Nada

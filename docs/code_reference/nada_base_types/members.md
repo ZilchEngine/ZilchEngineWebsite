@@ -2,22 +2,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#all-zilch-engine-document)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.md)| |
-| |[ Extension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#extension-zilch-engine-do)| | |
-| |[ Inherited](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#inherited-zilch-engine-do)| | |
-| |[ InheritedInstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#inheritedinstance-zilch-e)| | |
-| |[ InheritedInstanceStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#inheritedinstancestatic)| | |
-| |[ InheritedStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#inheritedstatic-zilch-eng)| | |
-| |[ Instance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#instance-zilch-engine-doc)| | |
-| |[ InstanceStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#instancestatic-zilch-engi)| | |
-| |[ Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md#static-zilch-engine-docum)| | |
+| |[ All](members.md#all-zilch-engine-document)|[enum](enum.md)| |
+| |[ Extension](members.md#extension-zilch-engine-do)| | |
+| |[ Inherited](members.md#inherited-zilch-engine-do)| | |
+| |[ InheritedInstance](members.md#inheritedinstance-zilch-e)| | |
+| |[ InheritedInstanceStatic](members.md#inheritedinstancestatic)| | |
+| |[ InheritedStatic](members.md#inheritedstatic-zilch-eng)| | |
+| |[ Instance](members.md#instance-zilch-engine-doc)| | |
+| |[ InstanceStatic](members.md#instancestatic-zilch-engi)| | |
+| |[ Static](members.md#static-zilch-engine-docum)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  All : [members](members.md)
 
  `read-only` `static`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  Extension : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  Extension : [members](members.md)
 
  `read-only` `static`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  Inherited : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  Inherited : [members](members.md)
 
  `read-only` `static`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  InheritedInstance : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  InheritedInstance : [members](members.md)
 
  `read-only` `static`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  InheritedInstanceStatic : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  InheritedInstanceStatic : [members](members.md)
 
  `read-only` `static`
 
@@ -67,7 +67,7 @@
 
 
 ---  
- #  InheritedStatic : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  InheritedStatic : [members](members.md)
 
  `read-only` `static`
 
@@ -77,7 +77,7 @@
 
 
 ---  
- #  Instance : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  Instance : [members](members.md)
 
  `read-only` `static`
 
@@ -87,7 +87,7 @@
 
 
 ---  
- #  InstanceStatic : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  InstanceStatic : [members](members.md)
 
  `read-only` `static`
 
@@ -97,7 +97,7 @@
 
 
 ---  
- #  Static : [members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/members.md)
+ #  Static : [members](members.md)
 
  `read-only` `static`
 

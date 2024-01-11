@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md#objectlinkrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](objectlinkrange.md#movenext-void)|[ All](objectlinkrange.md#all-zilch-engine-document)| | |
+|[ Constructor](objectlinkrange.md#objectlinkrange-void)|[ Current](objectlinkrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](objectlinkrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](objectlinkrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [objectlinkrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md)
+ #  All : [objectlinkrange](objectlinkrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [objectlinkedge](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkedge.md)
+ #  Current : [objectlinkedge](objectlinkedge.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[objectlinkrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkrange.md)| |
+> |p0|[objectlinkrange](objectlinkrange.md)| |
 > ``` lang=cpp, name=Nada
 > function ObjectLinkRange(p0 : ObjectLinkRange)
 > ``` 

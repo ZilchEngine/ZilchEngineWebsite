@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.md#all-zilch-engine-document)| | | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.md#clear-void)| | | |
-|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresults.md#empty-zilch-engine-docume)| | | |
+|[ All](castresults.md#all-zilch-engine-document)| | | |
+|[ Clear](castresults.md#clear-void)| | | |
+|[ Empty](castresults.md#empty-zilch-engine-docume)| | | |
 
 
  #  Properties
@@ -15,7 +15,7 @@
 
 
 ---  
- #  All : [castresultsarrayrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsarrayrange.md)
+ #  All : [castresultsarrayrange](castresultsarrayrange.md)
 
 > 
 > |Name|Type|Description|
@@ -37,7 +37,7 @@
 
 
 ---  
- #  Empty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Empty : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|

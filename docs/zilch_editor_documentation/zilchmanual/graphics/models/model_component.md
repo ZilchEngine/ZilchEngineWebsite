@@ -1,4 +1,4 @@
-The Model component allows the user to assign a [Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md) and a [ Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md) to an object.
+The Model component allows the user to assign a [Mesh](../../../../code_reference/class_reference/mesh.md) and a [ Material](../materials/materials_overview.md) to an object.
 
  # Material and Mesh
 
@@ -10,10 +10,10 @@ The only property the SkinnedModel component has that the Model component does n
 
  # Related Materials
  ## Reference
-- [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/model.md)
-- [SkinnedModel](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/skinnedmodel.md)
-- [Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/mesh.md)
-- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/material.md)
+- [Model](../../../code_reference/class_reference/model.md)
+- [SkinnedModel](../../../code_reference/class_reference/skinnedmodel.md)
+- [Mesh](../../../code_reference/class_reference/mesh.md)
+- [Material](../../../code_reference/class_reference/material.md)
  
 
  

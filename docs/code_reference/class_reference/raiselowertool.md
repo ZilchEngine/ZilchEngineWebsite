@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Relative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.md#relative-zilch-engine-doc)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.md)| |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/raiselowertool.md#strength-zilch-engine-doc)| | |
+| |[ Relative](raiselowertool.md#relative-zilch-engine-doc)|[heightmanipulationtool](heightmanipulationtool.md)| |
+| |[ Strength](raiselowertool.md#strength-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  Relative : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Relative : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -18,7 +18,7 @@
 
 
 ---  
- #  Strength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Strength : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

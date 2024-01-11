@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Capture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.md#capture-zilch-engine-docu)|[ IsCaptured](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.md#iscaptured-zilch-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.md#mousecapture-void)| | | |
-|[ ReleaseCapture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mousecapture.md#releasecapture-void)| | | |
+|[ Capture](mousecapture.md#capture-zilch-engine-docu)|[ IsCaptured](mousecapture.md#iscaptured-zilch-engine-d)|[component](component.md)| |
+|[ Constructor](mousecapture.md#mousecapture-void)| | | |
+|[ ReleaseCapture](mousecapture.md#releasecapture-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  IsCaptured : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsCaptured : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -27,12 +27,12 @@
 
 
 ---  
- #  Capture : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Capture : [boolean](../nada_base_types/boolean.md)
 
 > Starts the mouse manipulation. All mouse events will now only go to the owner of this Component. Returns whether or not the manipulation can be started.
 > |Name|Type|Description|
 > |---|---|---|
-> |e|[viewportmouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewportmouseevent.md)| |
+> |e|[viewportmouseevent](viewportmouseevent.md)| |
 > ``` lang=cpp, name=Nada
 > function Capture(e : ViewportMouseEvent) : Boolean
 > ``` 
@@ -68,7 +68,7 @@
 > Releases the mouse manipulation.
 > |Name|Type|Description|
 > |---|---|---|
-> |e|[viewportmouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewportmouseevent.md)| |
+> |e|[viewportmouseevent](viewportmouseevent.md)| |
 > ``` lang=cpp, name=Nada
 > function ReleaseCapture(e : ViewportMouseEvent)
 > ``` 

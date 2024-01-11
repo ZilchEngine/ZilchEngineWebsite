@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md#coghashsetrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](coghashsetrange.md#coghashsetrange-void)|[ All](coghashsetrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](coghashsetrange.md#movenext-void)|[ Current](coghashsetrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](coghashsetrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](coghashsetrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [coghashsetrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md)
+ #  All : [coghashsetrange](coghashsetrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Current : [cog](cog.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[coghashsetrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coghashsetrange.md)| |
+> |p0|[coghashsetrange](coghashsetrange.md)| |
 > ``` lang=cpp, name=Nada
 > function CogHashSetRange(p0 : CogHashSetRange)
 > ``` 

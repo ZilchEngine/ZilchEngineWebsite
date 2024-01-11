@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Parse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md#parse-zilch-engine-docume)|[ PositiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md#positivevalueclosesttoze)| | |
+|[ Parse](byte.md#parse-zilch-engine-docume)|[ PositiveMax](byte.md#positivemax-zilch-engine)| | |
+| |[ PositiveValueClosestToZero](byte.md#positivevalueclosesttoze)| | |
 
 
  #  Properties
 
 
 ---  
- #  PositiveMax : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)
+ #  PositiveMax : [byte](byte.md)
 
  `read-only` `static`
 
@@ -20,7 +20,7 @@
 
 
 ---  
- #  PositiveValueClosestToZero : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)
+ #  PositiveValueClosestToZero : [byte](byte.md)
 
  `read-only` `static`
 
@@ -34,14 +34,14 @@
 
 
 ---  
- #  Parse : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)
+ #  Parse : [byte](byte.md)
 
  `static`
 
 > Attempt to convert the given StringRange to a Byte. If parsing fails 0 is returned.
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[stringrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringrange.md)| |
+> |p0|[stringrange](stringrange.md)| |
 > ``` lang=cpp, name=Nada
 > function Parse(p0 : StringRange) : Byte
 > ``` 

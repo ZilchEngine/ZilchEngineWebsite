@@ -1,4 +1,4 @@
-The [SampleCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/samplecurve.md) editor is Zilch's tool for creating custom curves that can be used with any value that can be normalized, such as the Ease parameter in Actions. Just as eases can be represented on a graph as a function of a change of one value given another, the same applies to the curves created with the SampleCurve editor. 
+The [SampleCurve](../../../code_reference/class_reference/samplecurve.md) editor is Zilch's tool for creating custom curves that can be used with any value that can be normalized, such as the Ease parameter in Actions. Just as eases can be represented on a graph as a function of a change of one value given another, the same applies to the curves created with the SampleCurve editor. 
 
 
 ## Common Uses
@@ -9,7 +9,7 @@ The [SampleCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_edi
 
  # Using a SampleCurve
  ## Creating a SampleCurve
-A new SampleCurve can be added by using the Add [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)  or clicking on the `Add` button, followed by selecting `SampleCurve`. By default, the initial curve shows a linear progression. To begin manipulating the curve, an anchor point will need to be added by double-clicking on the curve where the anchor point is desired. It can then be grabbed by holding down the left mouse button on top of the point, and moved around the graph, as is demonstrated below:
+A new SampleCurve can be added by using the Add [Command](../../editor/editorcommands/commands.md)  or clicking on the `Add` button, followed by selecting `SampleCurve`. By default, the initial curve shows a linear progression. To begin manipulating the curve, an anchor point will need to be added by double-clicking on the curve where the anchor point is desired. It can then be grabbed by holding down the left mouse button on top of the point, and moved around the graph, as is demonstrated below:
 
 
 
@@ -147,13 +147,13 @@ Since using `SampleCurve.Sample()` uses the full values of both axes, if they ar
 
  # Related Materials
  ## Manual
-- [Using Custom Eases in Actions ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/usingcustomeaseinactions.md)
+- [Using Custom Eases in Actions ](../../editor/usingcustomeaseinactions.md)
 
  ## Tutorials
-- [Using Actions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/actions.md)
+- [Using Actions](../../../tutorials/scripting/actions.md)
 
  ## Reference
-- [SampleCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/samplecurve.md) 
+- [SampleCurve](../../../code_reference/class_reference/samplecurve.md) 
  
 
  

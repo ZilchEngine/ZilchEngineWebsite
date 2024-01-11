@@ -324,10 +324,10 @@ The tables below are meant for both quick reference via the name column as well 
 
  # Related Materials
  ## Manual Pages
-- [Code Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/codecompletion.md)
-- [Text Editor Config](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorconfig.md)
+- [Code Completion](codecompletion.md)
+- [Text Editor Config](texteditorconfig.md)
  ## Code Reference
-- [TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/texteditorconfig.md) 
+- [TextEditorConfig](../../../code_reference/class_reference/texteditorconfig.md) 
 
  
 

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionstartblock.md#collisionstartblock-void)| |[collisionfilterblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionfilterblock.md)| |
+|[ Constructor](collisionstartblock.md#collisionstartblock-void)| |[collisionfilterblock](collisionfilterblock.md)| |
 
 
  #  Properties

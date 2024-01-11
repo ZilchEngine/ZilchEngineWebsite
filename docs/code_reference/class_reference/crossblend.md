@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetNormalizedTimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.md#setnormalizedtimescale-v)|[ Mode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.md#mode-zilch-engine-documen)|[dualblendcrossblend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dualblendcrossblend.md)| |
-|[ SyncCadence](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.md#synccadence-void)|[ TimeScaleFrom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.md#timescalefrom-zilch-engin)| | |
-| |[ TimeScaleTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.md#timescaleto-zilch-engine)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.md#type-zilch-engine-documen)| | |
+|[ SetNormalizedTimeScale](crossblend.md#setnormalizedtimescale-v)|[ Mode](crossblend.md#mode-zilch-engine-documen)|[dualblendcrossblend](dualblendcrossblend.md)| |
+|[ SyncCadence](crossblend.md#synccadence-void)|[ TimeScaleFrom](crossblend.md#timescalefrom-zilch-engin)| | |
+| |[ TimeScaleTo](crossblend.md#timescaleto-zilch-engine)| | |
+| |[ Type](crossblend.md#type-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Mode : [AnimationBlendMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#animationblendmode)
+ #  Mode : [AnimationBlendMode](../enum_reference.md#animationblendmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  TimeScaleFrom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TimeScaleFrom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  TimeScaleTo : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TimeScaleTo : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Type : [AnimationBlendType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#animationblendtype)
+ #  Type : [AnimationBlendType](../enum_reference.md#animationblendtype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -53,9 +53,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](../nada_base_types/real.md)| |
+> |p1|[real](../nada_base_types/real.md)| |
+> |p2|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function SetNormalizedTimeScale(p0 : Real, p1 : Real, p2 : Real)
 > ``` 

@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ScreenPixelPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpointqueryevent.md#screenpixelposition-zero)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.md)| |
-| |[ ViewPixelPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpointqueryevent.md#viewpixelposition-zilch-e)| | |
+| |[ ScreenPixelPosition](webbrowserpointqueryevent.md#screenpixelposition-zero)|[webbrowserevent](webbrowserevent.md)| |
+| |[ ViewPixelPosition](webbrowserpointqueryevent.md#viewpixelposition-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  ScreenPixelPosition : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ScreenPixelPosition : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  ViewPixelPosition : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ViewPixelPosition : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada

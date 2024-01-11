@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/region.md#dispatchevent-void)|[ WakeUpOnEffectChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/region.md#wakeuponeffectchange-zer)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/region.md#region-void)| | | |
+|[ DispatchEvent](region.md#dispatchevent-void)|[ WakeUpOnEffectChange](region.md#wakeuponeffectchange-zer)|[component](component.md)| |
+|[ Constructor](region.md#region-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  WakeUpOnEffectChange : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  WakeUpOnEffectChange : [boolean](../nada_base_types/boolean.md)
 
 > Determines if all objects in the region should be woken up when an effect is changed. Used to make sure that changes in effects will be applied to an object event if it is asleep.
 > ``` lang=cpp, name=Nada
@@ -31,8 +31,8 @@
 > Dispatches an event to all objects in this region.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |toSend|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |toSend|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DispatchEvent(eventId : String, toSend : Event)
 > ``` 

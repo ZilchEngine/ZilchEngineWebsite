@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointgravityeffect.md#pointgravityeffect-void)| |[basicpointeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md)| |
+|[ Constructor](pointgravityeffect.md#pointgravityeffect-void)| |[basicpointeffect](basicpointeffect.md)| |
 
 
  #  Properties

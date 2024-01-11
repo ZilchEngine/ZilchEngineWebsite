@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GraphicalEntries](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalsortevent.md#graphicalentries-zilch-en)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ RenderGroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalsortevent.md#rendergroup-zilch-engine)| | |
+| |[ GraphicalEntries](graphicalsortevent.md#graphicalentries-zilch-en)|[event](event.md)| |
+| |[ RenderGroup](graphicalsortevent.md#rendergroup-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  GraphicalEntries : [graphicalentryrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalentryrange.md)
+ #  GraphicalEntries : [graphicalentryrange](graphicalentryrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  RenderGroup : [rendergroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md)
+ #  RenderGroup : [rendergroup](rendergroup.md)
 
  `read-only`
 

@@ -2,23 +2,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Bottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#bottom-zilch-engine-docum)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.md)| |
-| |[ Fill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#fill-zilch-engine-documen)| | |
-| |[ Left](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#left-zilch-engine-documen)| | |
-| |[ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#looping-zilch-engine-docu)| | |
-| |[ OriginX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#originx-zilch-engine-docu)| | |
-| |[ OriginY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#originy-zilch-engine-docu)| | |
-| |[ PixelsPerUnit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#pixelsperunit-zilch-engin)| | |
-| |[ Right](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#right-zilch-engine-docume)| | |
-| |[ Sampling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#sampling-zilch-engine-doc)| | |
-| |[ Top](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourcebuilder.md#top-zilch-engine-document)| | |
+| |[ Bottom](spritesourcebuilder.md#bottom-zilch-engine-docum)|[buildercomponent](buildercomponent.md)| |
+| |[ Fill](spritesourcebuilder.md#fill-zilch-engine-documen)| | |
+| |[ Left](spritesourcebuilder.md#left-zilch-engine-documen)| | |
+| |[ Looping](spritesourcebuilder.md#looping-zilch-engine-docu)| | |
+| |[ OriginX](spritesourcebuilder.md#originx-zilch-engine-docu)| | |
+| |[ OriginY](spritesourcebuilder.md#originy-zilch-engine-docu)| | |
+| |[ PixelsPerUnit](spritesourcebuilder.md#pixelsperunit-zilch-engin)| | |
+| |[ Right](spritesourcebuilder.md#right-zilch-engine-docume)| | |
+| |[ Sampling](spritesourcebuilder.md#sampling-zilch-engine-doc)| | |
+| |[ Top](spritesourcebuilder.md#top-zilch-engine-document)| | |
 
 
  #  Properties
 
 
 ---  
- #  Bottom : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Bottom : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  Fill : [SpriteFill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spritefill)
+ #  Fill : [SpriteFill](../enum_reference.md#spritefill)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  Left : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Left : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  Looping : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Looping : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  OriginX : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  OriginX : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  OriginY : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  OriginY : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  PixelsPerUnit : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PixelsPerUnit : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  Right : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Right : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -82,7 +82,7 @@
 
 
 ---  
- #  Sampling : [SpriteSampling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spritesampling)
+ #  Sampling : [SpriteSampling](../enum_reference.md#spritesampling)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -90,7 +90,7 @@
 
 
 ---  
- #  Top : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Top : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

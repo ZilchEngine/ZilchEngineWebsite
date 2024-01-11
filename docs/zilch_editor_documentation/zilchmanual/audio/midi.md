@@ -1,8 +1,8 @@
-If a MIDI device is connected when the Zilch Engine starts up it will listen for messages from that device and send corresponding [ MidiEvents ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.md). It does not keep track of device changes, so if a MIDI keyboard is plugged in after the editor or the game is running it won't respond to that device.
+If a MIDI device is connected when the Zilch Engine starts up it will listen for messages from that device and send corresponding [ MidiEvents ](../../../code_reference/class_reference/midievent.md). It does not keep track of device changes, so if a MIDI keyboard is plugged in after the editor or the game is running it won't respond to that device.
 
  # Common Uses
 
-- Using a synthesizer created with the [AdditiveSynthNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/additivesynthnode.md)
+- Using a synthesizer created with the [AdditiveSynthNode ](soundnode/additivesynthnode.md)
 - Alternate game input and control 
 
  # Using the MIDI Events
@@ -36,10 +36,10 @@ The following events will be sent whenever a corresponding MIDI message is recei
 
  ## Manual
 
-- [AdditiveSynthNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/additivesynthnode.md)
+- [AdditiveSynthNode ](soundnode/additivesynthnode.md)
 
  ## Reference
 
-- [ MIDIEvent ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/midievent.md) 
+- [ MIDIEvent ](../../../code_reference/class_reference/midievent.md) 
 
  

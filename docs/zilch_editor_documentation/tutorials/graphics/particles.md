@@ -4,26 +4,26 @@ Particles are a great way to polish your game and are used for a variety of effe
  #  Learning Objectives
 
 
-- [ ParticleEmitters](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md)
-- [ ParticleAnimators](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.md)
+- [ ParticleEmitters](../../../code_reference/class_reference/particleemittershared.md)
+- [ ParticleAnimators](../../../code_reference/class_reference/particleanimator.md)
 
 
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspriteparticles)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](../../../code_reference/command_reference.md#createspriteparticles)
 
 
 
 ![BaseParticles](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94837.gif)
 
 
-The first thing to realize is that particle systems require more than just one component to actually create, animate, and render particles. Let's look at the first component on the cog we just created, [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md).
+The first thing to realize is that particle systems require more than just one component to actually create, animate, and render particles. Let's look at the first component on the cog we just created, [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md).
 
  # SpriteParticleSystem
-[SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md) handles the graphical resources for a particle system. It also allows for configuration of common properties that exist in all particle systems; this means that every particle system much have this component.
+[SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md) handles the graphical resources for a particle system. It also allows for configuration of common properties that exist in all particle systems; this means that every particle system much have this component.
 
 - Download and import this fire particle sprite:
 
@@ -35,7 +35,7 @@ The first thing to realize is that particle systems require more than just one c
   - Set ImportImages enum to `Sprites`
  - Click  the `Import All` button
 - In the `Properties Window`
- - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md)
+ - Under [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
   - Set SpriteSource enum to `Fire`
 
 At this point, the particle system does not really look like fire.
@@ -49,9 +49,9 @@ At this point, the particle system does not really look like fire.
 Particle emitters create particles and give them initial conditions such as a starting velocity, particle size, emitter size, or spin. The emitter in a particle system also contains properties for adjusting how long particles live, the rate of particle emission, and the size of the actual emitter.
 
 - In the `Properties Window`
- - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md)
+ - Under [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
   - Set VertexColor  to `[R: 251, G: 91, B: 13]`
- - Under [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)
+ - Under [SphericalParticleEmitter](../../../code_reference/class_reference/sphericalparticleemitter.md)
   - Set StartVelocity  to `[0, 1, 0]`
   - Set RandomVelocity  to `[1, 0, 0]`
   - Set EmitterSize  to `[2, 0, 0]`
@@ -67,7 +67,7 @@ By changing StartVelocity  we ensured that each particle has an upward velocity 
 This fan of fire still does not look very realistic. Let's try to make it look like a campfire.
 
 - In the `Properties Window`
- - Under [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)
+ - Under [SphericalParticleEmitter](../../../code_reference/class_reference/sphericalparticleemitter.md)
   - Set EmitRate  to `700`
   - Set EmitRateVariance  to `200`
   - Set Size  to `0.3`
@@ -85,16 +85,16 @@ You may have noticed we changed some properties that ended in the word `Variance
 In our current example, the particle system would be emitting `700` particles per second, but it has a variance value of `200`. Therefore, the emitter will randomly change its rate of emission to a value between `500` and `900`, as it subtracts and adds the variance to the base value to calculate the minimum and maximum range of the value.
 
  # Particle Attractor
-The [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md) component allows you to define a position relative to the center of the particle system to which particles are attracted. It also allows you to define the minimum and maximum distances from the point that the attraction force will apply. 
+The [ParticleAttractor](../../../code_reference/class_reference/particleattractor.md) component allows you to define a position relative to the center of the particle system to which particles are attracted. It also allows you to define the minimum and maximum distances from the point that the attraction force will apply. 
 
-Campfires generally have a wider base and have flames get higher the closer to the middle of the fire. Let's use the [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md) to make this more of a pyramid than a fan.
+Campfires generally have a wider base and have flames get higher the closer to the middle of the fire. Let's use the [ParticleAttractor](../../../code_reference/class_reference/particleattractor.md) to make this more of a pyramid than a fan.
 
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md)
- - Under [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ParticleAttractor](../../../code_reference/class_reference/particleattractor.md)
+ - Under [ParticleAttractor](../../../code_reference/class_reference/particleattractor.md)
    - Set AttractPosition  to `[0, 6, 0]`
    - Set MinDistance  to `0.5`
- - Under [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)
+ - Under [SphericalParticleEmitter](../../../code_reference/class_reference/sphericalparticleemitter.md)
   - Set StartVelocity  to `[0, 0, 0]`
   - Set RandomVelocity  to `[0, 0, 0]`
 
@@ -103,19 +103,19 @@ Campfires generally have a wider base and have flames get higher the closer to t
 ![Attractor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96226.gif)
 
 
-Our campfire is starting to look better. The [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md) is now pulling it up as well as towards the center of the fire. However, campfires are usually not hard-edged pyramids.
+Our campfire is starting to look better. The [ParticleAttractor](../../../code_reference/class_reference/particleattractor.md) is now pulling it up as well as towards the center of the fire. However, campfires are usually not hard-edged pyramids.
 
  # Particle Animator
-Particle animators such as the [LinearParticleAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md) allow the user to animate particles throughout their lifetime, instead of just at the moment the particles are created like the emitter components.
+Particle animators such as the [LinearParticleAnimator](../../../code_reference/class_reference/linearparticleanimator.md) allow the user to animate particles throughout their lifetime, instead of just at the moment the particles are created like the emitter components.
 
 Campfires tend to wander randomly in the wind. The flames also get smaller before reaching their peak and going out at the tip of the fire. These are examples of behaviors that happen throughout the lifetime of a flame as opposed to just happening once when the flame is created.
 
 
 - In the `Properties Window`
- - Under [LinearParticleAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md)
+ - Under [LinearParticleAnimator](../../../code_reference/class_reference/linearparticleanimator.md)
    - Set RandomForce  to `[2, 0, 0]`
    - Set Growth  to `-0.05`
- - Under [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)
+ - Under [SphericalParticleEmitter](../../../code_reference/class_reference/sphericalparticleemitter.md)
   - Set EmitRate  to `700`
   - Set EmitRateVariance  to `200`
   - Set Size  to `0.5`
@@ -128,9 +128,9 @@ Campfires tend to wander randomly in the wind. The flames also get smaller befor
 Adding the X-axis random force simulates air blowing our fire around a little bit. The negative growth shrinks the particles over their lifetime to simulate the flames shrinking as they get higher, we need to increase the initial particle size and emit rate to account for how much the campfire will be thinned out by the applied animations.
 
  # Particle Color Animator
-The last thing we need in this particle system is to change the color throughout each particle's lifetime. The [ParticleColorAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md) allows you to choose a gradient which will change the color of the particles throughout their lifetime.
+The last thing we need in this particle system is to change the color throughout each particle's lifetime. The [ParticleColorAnimator](../../../code_reference/class_reference/particlecoloranimator.md) allows you to choose a gradient which will change the color of the particles throughout their lifetime.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 - Create a Gradient resource using the Default template template and name it `Fire`
 - In the `Gradient Editor`
  - `Double-Left-Click` to create a new *point* in the middle of the gradient
@@ -149,9 +149,9 @@ The last thing we need in this particle system is to change the color throughout
 
 
 - In the `Properties Window`
- - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md)
+ - Under [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
   - Set VertexColor  to `[R: 255, G: 255, B: 255]`
- - Under [ParticleColorAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md)
+ - Under [ParticleColorAnimator](../../../code_reference/class_reference/particlecoloranimator.md)
    - Set TimeGradient resource to `Fire`
 
 
@@ -164,22 +164,22 @@ While the particle system looks much more like fire than what we started with, i
 
 The most common technique to conquer this issue is to create multiple particle systems that overlap. In this way, we can create distinct particle effects that layer on top of each other to create a single, complex system.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : SpriteParticle object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : SpriteParticle object
  - In the `Properties Window`
   - Set Name  to `Fire`
-  - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md)
+  - Under [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
    - Set PreviewInEditor checkBox to `True`
 
 By setting this to true, the particle system will always run and render in-editor without the game playing. So far in this lesson, the campfire particle system has always been selected so it has always been running. Now that we are creating a second system that we want to run and preview at the same time, we need to use PreviewInEditor checkBox.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspriteparticles)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](../../../code_reference/command_reference.md#createspriteparticles)
 - In the `Properties Window`
  - Rename the SpriteParticles object to `Sparks`
- - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md)
+ - Under [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
   - Set PreviewInEditor checkBox to `True`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0,0,0]`
- - Under [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)
+ - Under [SphericalParticleEmitter](../../../code_reference/class_reference/sphericalparticleemitter.md)
   - Set EmitVariance  to `25`
   - Set Size  to `0.03`
   - Set SizeVariance  to `0.01`
@@ -187,10 +187,10 @@ By setting this to true, the particle system will always run and render in-edito
   - Set LifetimeVariance  to `2`
   - Set RandomVelocity  to `[0, 0, 0]`
   - Set EmitterSize  to `[1.5, 0, 0]`
- - Under [LinearParticleAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md)
+ - Under [LinearParticleAnimator](../../../code_reference/class_reference/linearparticleanimator.md)
    - Set Force  to `[0, 2, 0]`
    - Set RandomForce  to `[0, 1, 0]`
- - Under [ParticleColorAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md)
+ - Under [ParticleColorAnimator](../../../code_reference/class_reference/particlecoloranimator.md)
   - Set TimeGradient resource to `Fire`
 
 
@@ -201,11 +201,11 @@ By setting this to true, the particle system will always run and render in-edito
 We have the particles layers, but sparks tend to be affected more by wind than flames are. Sparks also tend to leave small light trails behind.  So, let's make both of things happen.
 
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [ParticleWander](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.md)
- - Under [ParticleWander](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ParticleWander](../../../code_reference/class_reference/particlewander.md)
+ - Under [ParticleWander](../../../code_reference/class_reference/particlewander.md)
   - Set WanderStrength  to `0.5`
- - Under [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md)
-  - Set GeomteryMode enum to [Beam](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteparticlegeometrymo)
+ - Under [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
+  - Set GeomteryMode enum to [Beam](../../../code_reference/enum_reference.md#spriteparticlegeometrymo)
   - Set BeamVelocityScale  to `2`
 
 
@@ -218,27 +218,27 @@ By changing the geometry mode to beam we scale the sparks based on their individ
 
  # Related Materials
  ## Manual
-- [Create a New 2D Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.md)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
-- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)
+- [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md)
+- [Add Component](../../zilchmanual/editor/addremovecomponent.md)
+- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md)
 
  ## Reference
  ### Classes
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [SpriteParticleSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md)
-- [SphericalParticleEmitter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md)
-- [LinearParticleAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearparticleanimator.md)
-- [ParticleColorAnimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md)
-- [ParticleAttractor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleattractor.md)
-- [ParticleWander](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlewander.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
+- [SphericalParticleEmitter](../../../code_reference/class_reference/sphericalparticleemitter.md)
+- [LinearParticleAnimator](../../../code_reference/class_reference/linearparticleanimator.md)
+- [ParticleColorAnimator](../../../code_reference/class_reference/particlecoloranimator.md)
+- [ParticleAttractor](../../../code_reference/class_reference/particleattractor.md)
+- [ParticleWander](../../../code_reference/class_reference/particlewander.md)
 
  ### Commands
-- [CreateSpriteParticles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspriteparticles)
+- [CreateSpriteParticles](../../../code_reference/command_reference.md#createspriteparticles)
 
  ### Enums
-- [SpriteParticleGeometryMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteparticlegeometrymo)
+- [SpriteParticleGeometryMode](../../../code_reference/enum_reference.md#spriteparticlegeometrymo)
 
  ## Development Task
 - T1179 

@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsettings.md#debugsettings-void)|[ MaxDebugObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debugsettings.md#maxdebugobjects-zilch-eng)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
+|[ Constructor](debugsettings.md#debugsettings-void)|[ MaxDebugObjects](debugsettings.md#maxdebugobjects-zilch-eng)|[component](component.md)| |
 
 
  #  Properties
 
 
 ---  
- #  MaxDebugObjects : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MaxDebugObjects : [integer](../nada_base_types/integer.md)
 
 > Maximum number of debug objects allowed at any one time to prevent accidentally running out of memory.
 > ``` lang=cpp, name=Nada

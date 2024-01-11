@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BasicHostInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.md#basichostinfo-zilch-engin)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.md)| |
-| |[ IpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.md#ipaddress-zilch-engine-do)| | |
-| |[ Lifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.md#lifetime-zilch-engine-doc)| | |
+| |[ BasicHostInfo](nethostrecord.md#basichostinfo-zilch-engin)|[safeid32](safeid32.md)| |
+| |[ IpAddress](nethostrecord.md#ipaddress-zilch-engine-do)| | |
+| |[ Lifetime](nethostrecord.md#lifetime-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  BasicHostInfo : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  BasicHostInfo : [eventbundle](eventbundle.md)
 
  `read-only`
 
@@ -23,7 +23,7 @@
 
 
 ---  
- #  IpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  IpAddress : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Lifetime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Lifetime : [real](../nada_base_types/real.md)
 
  `read-only`
 

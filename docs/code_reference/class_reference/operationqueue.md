@@ -2,30 +2,30 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ BeginBatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#beginbatch-void)|[ ActiveBatchName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#activebatchname-zilch-eng)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.md)| |
-|[ ClearAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#clearall-void)|[ Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#commands-zilch-engine-doc)| | |
-|[ ClearRedo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#clearredo-void)|[ RedoCommands](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#redocommands-zilch-engine)| | |
-|[ ClearUndo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#clearundo-void)| | | |
-|[ DestroyObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#destroyobject-void)| | | |
-|[ EndBatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#endbatch-void)| | | |
-|[ IsListeningForSideEffects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#islisteningforsideeffect)| | | |
-|[ MarkPropertyAsModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#markpropertyasmodified-v)| | | |
-|[ ObjectCreated](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#objectcreated-void)| | | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#operationqueue-void)| | | |
-|[ PopSubPropertyContext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#popsubpropertycontext-vo)| | | |
-|[ QueueRegisteredSideEffects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#queueregisteredsideeffec)| | | |
-|[ Redo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#redo-void)| | | |
-|[ RegisterSideEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#registersideeffect-void)| | | |
-|[ SaveObjectState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#saveobjectstate-void)| | | |
-|[ StartListeningForSideEffects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#startlisteningforsideeff)| | | |
-|[ Undo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md#undo-void)| | | |
+|[ BeginBatch](operationqueue.md#beginbatch-void)|[ ActiveBatchName](operationqueue.md#activebatchname-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ ClearAll](operationqueue.md#clearall-void)|[ Commands](operationqueue.md#commands-zilch-engine-doc)| | |
+|[ ClearRedo](operationqueue.md#clearredo-void)|[ RedoCommands](operationqueue.md#redocommands-zilch-engine)| | |
+|[ ClearUndo](operationqueue.md#clearundo-void)| | | |
+|[ DestroyObject](operationqueue.md#destroyobject-void)| | | |
+|[ EndBatch](operationqueue.md#endbatch-void)| | | |
+|[ IsListeningForSideEffects](operationqueue.md#islisteningforsideeffect)| | | |
+|[ MarkPropertyAsModified](operationqueue.md#markpropertyasmodified-v)| | | |
+|[ ObjectCreated](operationqueue.md#objectcreated-void)| | | |
+|[ Constructor](operationqueue.md#operationqueue-void)| | | |
+|[ PopSubPropertyContext](operationqueue.md#popsubpropertycontext-vo)| | | |
+|[ QueueRegisteredSideEffects](operationqueue.md#queueregisteredsideeffec)| | | |
+|[ Redo](operationqueue.md#redo-void)| | | |
+|[ RegisterSideEffect](operationqueue.md#registersideeffect-void)| | | |
+|[ SaveObjectState](operationqueue.md#saveobjectstate-void)| | | |
+|[ StartListeningForSideEffects](operationqueue.md#startlisteningforsideeff)| | | |
+|[ Undo](operationqueue.md#undo-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  ActiveBatchName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ActiveBatchName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Commands : [operationlistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md)
+ #  Commands : [operationlistrange](operationlistrange.md)
 
  `read-only`
 
@@ -43,7 +43,7 @@
 
 
 ---  
- #  RedoCommands : [operationlistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationlistrange.md)
+ #  RedoCommands : [operationlistrange](operationlistrange.md)
 
  `read-only`
 
@@ -73,7 +73,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function BeginBatch(p0 : String)
 > ``` 
@@ -118,7 +118,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |p0|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function DestroyObject(p0 : Cog)
 > ``` 
@@ -136,7 +136,7 @@
 
 
 ---  
- #  IsListeningForSideEffects : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsListeningForSideEffects : [boolean](../nada_base_types/boolean.md)
 
  `static`
 
@@ -154,8 +154,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-> |p1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[component](component.md)| |
+> |p1|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function MarkPropertyAsModified(p0 : Component, p1 : String)
 > ``` 
@@ -167,7 +167,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |p0|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function ObjectCreated(p0 : Cog)
 > ``` 
@@ -222,12 +222,12 @@
 
 
 ---  
- #  Redo : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Redo : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[operation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.md)| |
+> |p0|[operation](operation.md)| |
 > ``` lang=cpp, name=Nada
 > function Redo(p0 : Operation) : Boolean
 > ``` 
@@ -241,8 +241,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
-> |p1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
+> |p1|[string](../nada_base_types/string.md)| |
 > |p2|T| |
 > ``` lang=cpp, name=Nada
 > function RegisterSideEffect(p0 : AnyHandle, p1 : String, p2 : T)
@@ -255,7 +255,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |p0|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function SaveObjectState(p0 : Cog)
 > ``` 
@@ -286,12 +286,12 @@
 
 
 ---  
- #  Undo : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Undo : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[operation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.md)| |
+> |p0|[operation](operation.md)| |
 > ``` lang=cpp, name=Nada
 > function Undo(p0 : Operation) : Boolean
 > ``` 

@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DumpMemoryDebuggerStats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.md#dumpmemorydebuggerstats)|[ ClipboardText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.md#clipboardtext-zilch-engin)|[system](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/system.md)| |
-|[ GetWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.md#getwindow-zilch-engine-do)|[ WindowCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.md#windowcount-zilch-engine)| | |
-|[ IsClipboardText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.md#isclipboardtext-zilch-eng)| | | |
+|[ DumpMemoryDebuggerStats](osshell.md#dumpmemorydebuggerstats)|[ ClipboardText](osshell.md#clipboardtext-zilch-engin)|[system](system.md)| |
+|[ GetWindow](osshell.md#getwindow-zilch-engine-do)|[ WindowCount](osshell.md#windowcount-zilch-engine)| | |
+|[ IsClipboardText](osshell.md#isclipboardtext-zilch-eng)| | | |
 
 
  #  Properties
 
 
 ---  
- #  ClipboardText : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ClipboardText : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -19,7 +19,7 @@
 
 
 ---  
- #  WindowCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  WindowCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -44,19 +44,19 @@
 
 
 ---  
- #  GetWindow : [oswindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md)
+ #  GetWindow : [oswindow](oswindow.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetWindow(p0 : Integer) : OsWindow
 > ``` 
 
 
 ---  
- #  IsClipboardText : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsClipboardText : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|

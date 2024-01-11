@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CogInitializer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializerevent.md#coginitializer-zilch-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ CogInitializer](coginitializerevent.md#coginitializer-zilch-engi)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  CogInitializer : [coginitializer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.md)
+ #  CogInitializer : [coginitializer](coginitializer.md)
 
 > 
 > ``` lang=cpp, name=Nada

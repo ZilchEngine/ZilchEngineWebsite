@@ -1,4 +1,4 @@
-Reflection describes an objects ability to "reflect" on itself, generally this means to understand it's type and relationships to other types. Although Nada does not boast a robust reflection library it does have a basic typeid for by-value types and [property_delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/property_delegates.md):
+Reflection describes an objects ability to "reflect" on itself, generally this means to understand it's type and relationships to other types. Although Nada does not boast a robust reflection library it does have a basic typeid for by-value types and [property_delegates](property_delegates.md):
 
  # typeid
 ```lang=csharp
@@ -48,7 +48,7 @@ Reflection describes an objects ability to "reflect" on itself, generally this m
 --------------------
  # String Interpolation
 
-Those types that are [memory_management](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md) or [delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/delegates.md) types can be inspected with [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/nada_base_types/string.md) Interpolation:
+Those types that are [memory_management](memory_management.md) or [delegates](delegates.md) types can be inspected with [string](nada_base_types/string.md) Interpolation:
 
 ```lang=csharp
 class Utility
@@ -103,7 +103,7 @@ ref Real3, (0.0, 1.0, 2.0) is of type: ref Real3
 
  # Console.DumpValue
 
-Useful in understanding the current state of a Nada object, Console.DumpValue prints out the names of the variables and their type, if a [class](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md), or their value if a basic, built-in data type.
+Useful in understanding the current state of a Nada object, Console.DumpValue prints out the names of the variables and their type, if a [class](classes.md), or their value if a basic, built-in data type.
 
 ```lang=csharp
 class TopLevel
@@ -170,11 +170,11 @@ BottomLevel
  # Related Materials
  ## Manual
 
-- [property_delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/property_delegates.md)
-- [memory_management](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md)
-- [delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/delegates.md)
-- [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/nada_base_types/string.md)
-- [classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md)
+- [property_delegates](property_delegates.md)
+- [memory_management](memory_management.md)
+- [delegates](delegates.md)
+- [string](nada_base_types/string.md)
+- [classes](classes.md)
  
 
  

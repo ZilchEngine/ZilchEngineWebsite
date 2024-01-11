@@ -2,27 +2,27 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddTrailingDirectorySeparator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#addtrailingdirectorysepa)|[ DirectorySeparator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#directoryseparator-zero)| | |
-|[ ChangeExtension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#changeextension-zilch-eng)|[ ExecutableDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#executabledirectory-zero)| | |
-|[ CombineDirectories](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#combinedirectories-zero)|[ ExecutableFile](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#executablefile-zilch-engi)| | |
-|[ CombineDirectoriesAndFile](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#combinedirectoriesandfil)|[ TemporaryDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#temporarydirectory-zero)| | |
-|[ GetCanonicalizedPathFromAbsolutePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getcanonicalizedpathfrom)|[ UserDocumentsDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#userdocumentsdirectory-z)| | |
-|[ GetComparablePathFromAbsolutePath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getcomparablepathfromabs)|[ UserLocalDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#userlocaldirectory-zero)| | |
-|[ GetDirectoryName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getdirectoryname-zilch-en)|[ WorkingDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#workingdirectory-zilch-en)| | |
-|[ GetDirectoryPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getdirectorypath-zilch-en)| | | |
-|[ GetExtensionWithDot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getextensionwithdot-zero)| | | |
-|[ GetExtensionWithoutDot](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getextensionwithoutdot-z)| | | |
-|[ GetFileNameWithExtension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getfilenamewithextension)| | | |
-|[ GetFileNameWithoutExtension](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#getfilenamewithoutextens)| | | |
-|[ IsRelative](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#isrelative-zilch-engine-d)| | | |
-|[ RemoveTrailingDirectorySeparator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filepath.md#removetrailingdirectorys)| | | |
+|[ AddTrailingDirectorySeparator](filepath.md#addtrailingdirectorysepa)|[ DirectorySeparator](filepath.md#directoryseparator-zero)| | |
+|[ ChangeExtension](filepath.md#changeextension-zilch-eng)|[ ExecutableDirectory](filepath.md#executabledirectory-zero)| | |
+|[ CombineDirectories](filepath.md#combinedirectories-zero)|[ ExecutableFile](filepath.md#executablefile-zilch-engi)| | |
+|[ CombineDirectoriesAndFile](filepath.md#combinedirectoriesandfil)|[ TemporaryDirectory](filepath.md#temporarydirectory-zero)| | |
+|[ GetCanonicalizedPathFromAbsolutePath](filepath.md#getcanonicalizedpathfrom)|[ UserDocumentsDirectory](filepath.md#userdocumentsdirectory-z)| | |
+|[ GetComparablePathFromAbsolutePath](filepath.md#getcomparablepathfromabs)|[ UserLocalDirectory](filepath.md#userlocaldirectory-zero)| | |
+|[ GetDirectoryName](filepath.md#getdirectoryname-zilch-en)|[ WorkingDirectory](filepath.md#workingdirectory-zilch-en)| | |
+|[ GetDirectoryPath](filepath.md#getdirectorypath-zilch-en)| | | |
+|[ GetExtensionWithDot](filepath.md#getextensionwithdot-zero)| | | |
+|[ GetExtensionWithoutDot](filepath.md#getextensionwithoutdot-z)| | | |
+|[ GetFileNameWithExtension](filepath.md#getfilenamewithextension)| | | |
+|[ GetFileNameWithoutExtension](filepath.md#getfilenamewithoutextens)| | | |
+|[ IsRelative](filepath.md#isrelative-zilch-engine-d)| | | |
+|[ RemoveTrailingDirectorySeparator](filepath.md#removetrailingdirectorys)| | | |
 
 
  #  Properties
 
 
 ---  
- #  DirectorySeparator : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  DirectorySeparator : [string](string.md)
 
  `read-only` `static`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  ExecutableDirectory : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ExecutableDirectory : [string](string.md)
 
  `read-only` `static`
 
@@ -44,7 +44,7 @@
 
 
 ---  
- #  ExecutableFile : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ExecutableFile : [string](string.md)
 
  `read-only` `static`
 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  TemporaryDirectory : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  TemporaryDirectory : [string](string.md)
 
  `read-only` `static`
 
@@ -66,7 +66,7 @@
 
 
 ---  
- #  UserDocumentsDirectory : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  UserDocumentsDirectory : [string](string.md)
 
  `read-only` `static`
 
@@ -77,7 +77,7 @@
 
 
 ---  
- #  UserLocalDirectory : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  UserLocalDirectory : [string](string.md)
 
  `read-only` `static`
 
@@ -88,7 +88,7 @@
 
 
 ---  
- #  WorkingDirectory : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  WorkingDirectory : [string](string.md)
 
  `static`
 
@@ -103,7 +103,7 @@
 
 
 ---  
- #  AddTrailingDirectorySeparator : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  AddTrailingDirectorySeparator : [string](string.md)
 
  `static`
 
@@ -113,14 +113,14 @@ Example: ('Content\Powerups\') results in 'Content\Powerups\'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function AddTrailingDirectorySeparator(p0 : String) : String
 > ``` 
 
 
 ---  
- #  ChangeExtension : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ChangeExtension : [string](string.md)
 
  `static`
 
@@ -131,15 +131,15 @@ Example: ('Content\Player.', '.jpg') results in 'Content\Player.jpg'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |p1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
+> |p1|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function ChangeExtension(p0 : String, p1 : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectories : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectories : [string](string.md)
 
  `static`
 
@@ -151,15 +151,15 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |dir1|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectories(dir0 : String, dir1 : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectories : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectories : [string](string.md)
 
  `static`
 
@@ -171,16 +171,16 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir2|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |dir1|[string](string.md)| |
+> |dir2|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectories(dir0 : String, dir1 : String, dir2 : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectories : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectories : [string](string.md)
 
  `static`
 
@@ -192,17 +192,17 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir2|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir3|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |dir1|[string](string.md)| |
+> |dir2|[string](string.md)| |
+> |dir3|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectories(dir0 : String, dir1 : String, dir2 : String, dir3 : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectories : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectories : [string](string.md)
 
  `static`
 
@@ -214,18 +214,18 @@ Example: ('C:\Sandbox\', 'Content') results in 'C:\Sandbox\Content\'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir2|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir3|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir4|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |dir1|[string](string.md)| |
+> |dir2|[string](string.md)| |
+> |dir3|[string](string.md)| |
+> |dir4|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectories(dir0 : String, dir1 : String, dir2 : String, dir3 : String, dir4 : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectoriesAndFile : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectoriesAndFile : [string](string.md)
 
  `static`
 
@@ -237,15 +237,15 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |fileName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |fileName|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectoriesAndFile(dir0 : String, fileName : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectoriesAndFile : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectoriesAndFile : [string](string.md)
 
  `static`
 
@@ -257,16 +257,16 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |fileName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |dir1|[string](string.md)| |
+> |fileName|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectoriesAndFile(dir0 : String, dir1 : String, fileName : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectoriesAndFile : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectoriesAndFile : [string](string.md)
 
  `static`
 
@@ -278,17 +278,17 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir2|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |fileName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |dir1|[string](string.md)| |
+> |dir2|[string](string.md)| |
+> |fileName|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectoriesAndFile(dir0 : String, dir1 : String, dir2 : String, fileName : String) : String
 > ``` 
 
 
 ---  
- #  CombineDirectoriesAndFile : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  CombineDirectoriesAndFile : [string](string.md)
 
  `static`
 
@@ -300,18 +300,18 @@ Example: ('C:\Sandbox\', 'Content\Player.png') results in 'C:\Sandbox\Content\Pl
 
 > |Name|Type|Description|
 > |---|---|---|
-> |dir0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir2|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |dir3|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |fileName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |dir0|[string](string.md)| |
+> |dir1|[string](string.md)| |
+> |dir2|[string](string.md)| |
+> |dir3|[string](string.md)| |
+> |fileName|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function CombineDirectoriesAndFile(dir0 : String, dir1 : String, dir2 : String, dir3 : String, fileName : String) : String
 > ``` 
 
 
 ---  
- #  GetCanonicalizedPathFromAbsolutePath : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetCanonicalizedPathFromAbsolutePath : [string](string.md)
 
  `static`
 
@@ -320,14 +320,14 @@ Example: ('C:/Sandbox//Engine/../Content/./Player.png') results in 'C:\Sandbox\C
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetCanonicalizedPathFromAbsolutePath(p0 : String) : String
 > ``` 
 
 
 ---  
- #  GetComparablePathFromAbsolutePath : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetComparablePathFromAbsolutePath : [string](string.md)
 
  `static`
 
@@ -336,14 +336,14 @@ Example: ('C:\Sandbox\Engine\..\Content\.\Player.png') results in 'c:\sandbox\co
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetComparablePathFromAbsolutePath(p0 : String) : String
 > ``` 
 
 
 ---  
- #  GetDirectoryName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetDirectoryName : [string](string.md)
 
  `static`
 
@@ -355,14 +355,14 @@ Example: ('Content') results in ''
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetDirectoryName(p0 : String) : String
 > ``` 
 
 
 ---  
- #  GetDirectoryPath : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetDirectoryPath : [string](string.md)
 
  `static`
 
@@ -374,14 +374,14 @@ Example: ('Content') results in ''
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetDirectoryPath(p0 : String) : String
 > ``` 
 
 
 ---  
- #  GetExtensionWithDot : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetExtensionWithDot : [string](string.md)
 
  `static`
 
@@ -392,14 +392,14 @@ Example: ('Parent.Directory\Log') results in ''
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetExtensionWithDot(p0 : String) : String
 > ``` 
 
 
 ---  
- #  GetExtensionWithoutDot : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetExtensionWithoutDot : [string](string.md)
 
  `static`
 
@@ -410,14 +410,14 @@ Example: ('Parent.Directory\Log') results in ''
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetExtensionWithoutDot(p0 : String) : String
 > ``` 
 
 
 ---  
- #  GetFileNameWithExtension : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetFileNameWithExtension : [string](string.md)
 
  `static`
 
@@ -428,14 +428,14 @@ Example: ('Content\Powerups') results in 'Powerups'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetFileNameWithExtension(p0 : String) : String
 > ``` 
 
 
 ---  
- #  GetFileNameWithoutExtension : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  GetFileNameWithoutExtension : [string](string.md)
 
  `static`
 
@@ -446,14 +446,14 @@ Example: ('Content\Powerups') results in 'Powerups'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetFileNameWithoutExtension(p0 : String) : String
 > ``` 
 
 
 ---  
- #  IsRelative : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsRelative : [boolean](boolean.md)
 
  `static`
 
@@ -465,14 +465,14 @@ Example: ('/usr/Content/Player.png') results in 'false'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function IsRelative(p0 : String) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveTrailingDirectorySeparator : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  RemoveTrailingDirectorySeparator : [string](string.md)
 
  `static`
 
@@ -482,7 +482,7 @@ Example: ('Content\Powerups\') results in 'Content\Powerups'
 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveTrailingDirectorySeparator(p0 : String) : String
 > ``` 

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md#indexedhalfedgemeshedgea)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](indexedhalfedgemeshedgearrayrange.md#indexedhalfedgemeshedgea)|[ All](indexedhalfedgemeshedgearrayrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](indexedhalfedgemeshedgearrayrange.md#movenext-void)|[ Current](indexedhalfedgemeshedgearrayrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](indexedhalfedgemeshedgearrayrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](indexedhalfedgemeshedgearrayrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [indexedhalfedgemeshedgearrayrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md)
+ #  All : [indexedhalfedgemeshedgearrayrange](indexedhalfedgemeshedgearrayrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [indexedhalfedge](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.md)
+ #  Current : [indexedhalfedge](indexedhalfedge.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[indexedhalfedgemeshedgearrayrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearrayrange.md)| |
+> |p0|[indexedhalfedgemeshedgearrayrange](indexedhalfedgemeshedgearrayrange.md)| |
 > ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeMeshEdgeArrayRange(p0 : IndexedHalfEdgeMeshEdgeArrayRange)
 > ``` 

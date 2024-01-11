@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettingsmrt.md#get-zilch-engine-document)| |[threadsafereferencecounted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadsafereferencecounted.md)| |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettingsmrt.md#set-void)| | | |
+|[ Get](blendsettingsmrt.md#get-zilch-engine-document)| |[threadsafereferencecounted](threadsafereferencecounted.md)| |
+|[ Set](blendsettingsmrt.md#set-void)| | | |
 
 
  #  Properties
@@ -16,12 +16,12 @@
 
 
 ---  
- #  Get : [blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)
+ #  Get : [blendsettings](blendsettings.md)
 
 > Get the current BlendSettings for a color target at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : BlendSettings
 > ``` 
@@ -33,8 +33,8 @@
 > Set the BlendSettings for a color target at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |blendSettings|[blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
+> |blendSettings|[blendsettings](blendsettings.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, blendSettings : BlendSettings)
 > ``` 

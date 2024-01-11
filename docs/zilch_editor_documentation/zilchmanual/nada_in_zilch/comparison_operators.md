@@ -1,4 +1,4 @@
-Comparison operators take two operands and evaluate to a boolean value which describes a relationship between the given values. Comparison operators are frequently used with [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md).
+Comparison operators take two operands and evaluate to a boolean value which describes a relationship between the given values. Comparison operators are frequently used with [conditionals](conditionals.md).
 
  #  `==` & `!=` Operators
 The `==` (equality) operator compares two operands and returns `true` if they are the same and `false` if they are not. The `!=` (inequality) operator performs the inverse operation, returning `false` if they are the same and `true` if they are not.
@@ -41,7 +41,7 @@ if(unknownObject != null)
  # Object Comparison
 As seen in the first code block, object comparison is fairly common. However, there are a few details to be aware of when comparing objects by value vs. by reference.
 
-NOTE: To read about the details about by-value and by-reference objects, [ read the manual page](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/constructbyvaluevsbyref.md).
+NOTE: To read about the details about by-value and by-reference objects, [ read the manual page](constructbyvaluevsbyref.md).
 
  ## Object Comparison by Value
 Take the following struct as a by-value example:
@@ -116,7 +116,7 @@ In this case, the `ReferenceObj` instances are constructed and compared by refer
 
  #  Floating-Point Comparison
 
-Due to floating-point error, it is best to avoid comparing two extremely precise or large values of floating-point types (such as [ Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)) with the `==` and `!=` operators. Consider:
+Due to floating-point error, it is best to avoid comparing two extremely precise or large values of floating-point types (such as [ Real](../../../code_reference/nada_base_types/real.md)) with the `==` and `!=` operators. Consider:
 
 ```lang=csharp, name="Floating-Point Comparison, Example 1"
 Console.WriteLine(2000000000.0 == 2000000042.0);
@@ -192,7 +192,7 @@ if(height >= 5)
 
  # Related Materials
  # Manual
-- [operators_precedence_chart](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/operators_precedence_chart.md)
+- [operators_precedence_chart](operators_precedence_chart.md)
 
  # Tasks
 - {T556} 

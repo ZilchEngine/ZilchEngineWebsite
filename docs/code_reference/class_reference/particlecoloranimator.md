@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md#particlecoloranimator-vo)|[ MaxParticleSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md#maxparticlespeed-zilch-en)|[particleanimator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleanimator.md)| |
-| |[ TimeGradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md#timegradient-zilch-engine)| | |
-| |[ VelocityGradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlecoloranimator.md#velocitygradient-zilch-en)| | |
+|[ Constructor](particlecoloranimator.md#particlecoloranimator-vo)|[ MaxParticleSpeed](particlecoloranimator.md#maxparticlespeed-zilch-en)|[particleanimator](particleanimator.md)| |
+| |[ TimeGradient](particlecoloranimator.md#timegradient-zilch-engine)| | |
+| |[ VelocityGradient](particlecoloranimator.md#velocitygradient-zilch-en)| | |
 
 
  #  Properties
 
 
 ---  
- #  MaxParticleSpeed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxParticleSpeed : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  TimeGradient : [colorgradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorgradient.md)
+ #  TimeGradient : [colorgradient](colorgradient.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  VelocityGradient : [colorgradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorgradient.md)
+ #  VelocityGradient : [colorgradient](colorgradient.md)
 
 > 
 > ``` lang=cpp, name=Nada

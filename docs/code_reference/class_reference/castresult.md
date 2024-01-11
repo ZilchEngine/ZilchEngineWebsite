@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md#castresult-void)|[ Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md#collider-zilch-engine-doc)| | |
-|[ GetLocalPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md#getlocalposition-zilch-en)|[ Distance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md#distance-zilch-engine-doc)| | |
-| |[ Normal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md#normal-zilch-engine-docum)| | |
-| |[ ObjectHit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md#objecthit-zilch-engine-do)| | |
-| |[ WorldPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md#worldposition-zilch-engin)| | |
+|[ Constructor](castresult.md#castresult-void)|[ Collider](castresult.md#collider-zilch-engine-doc)| | |
+|[ GetLocalPosition](castresult.md#getlocalposition-zilch-en)|[ Distance](castresult.md#distance-zilch-engine-doc)| | |
+| |[ Normal](castresult.md#normal-zilch-engine-docum)| | |
+| |[ ObjectHit](castresult.md#objecthit-zilch-engine-do)| | |
+| |[ WorldPosition](castresult.md#worldposition-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  Collider : [collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
+ #  Collider : [collider](collider.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  Distance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Distance : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  Normal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Normal : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  ObjectHit : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ObjectHit : [cog](cog.md)
 
  `read-only`
 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  WorldPosition : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPosition : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -89,19 +89,19 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |rhs|[castresult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md)| |
+> |rhs|[castresult](castresult.md)| |
 > ``` lang=cpp, name=Nada
 > function CastResult(rhs : CastResult)
 > ``` 
 
 
 ---  
- #  GetLocalPosition : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  GetLocalPosition : [real3](../nada_base_types/real3.md)
 
 > Returns the local-space position that the object was hit. The point index is used to get the first or last point of intersection. Invalid on volume casts.
 > |Name|Type|Description|
 > |---|---|---|
-> |pointIndex|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |pointIndex|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLocalPosition(pointIndex : Integer) : Real3
 > ``` 

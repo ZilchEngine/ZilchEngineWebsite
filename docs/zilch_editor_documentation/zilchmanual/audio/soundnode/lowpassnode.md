@@ -1,4 +1,4 @@
-The [ LowPassNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/lowpassnode.md) collects audio data from all of its inputs and applies a low pass filter to it before passing it along to its outputs.
+The [ LowPassNode ](../../../../code_reference/class_reference/lowpassnode.md) collects audio data from all of its inputs and applies a low pass filter to it before passing it along to its outputs.
 
  # Common Uses
 
@@ -12,11 +12,11 @@ Low pass filters leave low frequencies untouched while silencing high frequencie
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
-- [bandpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/bandpassnode.md)
-- [highpassnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/highpassnode.md)
+- [soudnode_overview](soudnode_overview.md)
+- [bandpassnode](bandpassnode.md)
+- [highpassnode](highpassnode.md)
 
  ## Code Reference
-- [ LowPassNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/lowpassnode.md) 
+- [ LowPassNode ](../../../../code_reference/class_reference/lowpassnode.md) 
 
  

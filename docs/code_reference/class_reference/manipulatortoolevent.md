@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EndWorldRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortoolevent.md#endworldrectangle-zilch-e)|[viewportmouseevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewportmouseevent.md)| |
-| |[ Finished](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortoolevent.md#finished-zilch-engine-doc)| | |
-| |[ GrabLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortoolevent.md#grablocation-zilch-engine)| | |
-| |[ OperationQueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortoolevent.md#operationqueue-zilch-engi)| | |
-| |[ StartWorldRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/manipulatortoolevent.md#startworldrectangle-zero)| | |
+| |[ EndWorldRectangle](manipulatortoolevent.md#endworldrectangle-zilch-e)|[viewportmouseevent](viewportmouseevent.md)| |
+| |[ Finished](manipulatortoolevent.md#finished-zilch-engine-doc)| | |
+| |[ GrabLocation](manipulatortoolevent.md#grablocation-zilch-engine)| | |
+| |[ OperationQueue](manipulatortoolevent.md#operationqueue-zilch-engi)| | |
+| |[ StartWorldRectangle](manipulatortoolevent.md#startworldrectangle-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  EndWorldRectangle : [rectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rectangle.md)
+ #  EndWorldRectangle : [rectangle](rectangle.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Finished : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Finished : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  GrabLocation : [Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)
+ #  GrabLocation : [Location](../enum_reference.md#location)
 
  `read-only`
 
@@ -43,7 +43,7 @@
 
 
 ---  
- #  OperationQueue : [operationqueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md)
+ #  OperationQueue : [operationqueue](operationqueue.md)
 
  `read-only`
 
@@ -53,7 +53,7 @@
 
 
 ---  
- #  StartWorldRectangle : [rectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rectangle.md)
+ #  StartWorldRectangle : [rectangle](rectangle.md)
 
  `read-only`
 

@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sharedcontent.md#sharedcontent-void)|[ ExtraContentLibraries](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sharedcontent.md#extracontentlibraries-ze)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
+|[ Constructor](sharedcontent.md#sharedcontent-void)|[ ExtraContentLibraries](sharedcontent.md#extracontentlibraries-ze)|[component](component.md)| |
 
 
  #  Properties
 
 
 ---  
- #  ExtraContentLibraries : [contentlibraryreferencearray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentlibraryreferencearray.md)
+ #  ExtraContentLibraries : [contentlibraryreferencearray](contentlibraryreferencearray.md)
 
 > 
 > ``` lang=cpp, name=Nada

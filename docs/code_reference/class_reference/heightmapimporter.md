@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BaseHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#baseheight-zilch-engine-d)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.md)| |
-| |[ ImportMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#importmode-zilch-engine-d)| | |
-| |[ MaxHeightRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#maxheightrange-zilch-engi)| | |
-| |[ MinHeightRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#minheightrange-zilch-engi)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#name-zilch-engine-documen)| | |
-| |[ PatchColumns](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#patchcolumns-zilch-engine)| | |
-| |[ PatchRows](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#patchrows-zilch-engine-do)| | |
-| |[ PatchSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapimporter.md#patchsize-zilch-engine-do)| | |
+| |[ BaseHeight](heightmapimporter.md#baseheight-zilch-engine-d)|[composite](composite.md)| |
+| |[ ImportMode](heightmapimporter.md#importmode-zilch-engine-d)| | |
+| |[ MaxHeightRange](heightmapimporter.md#maxheightrange-zilch-engi)| | |
+| |[ MinHeightRange](heightmapimporter.md#minheightrange-zilch-engi)| | |
+| |[ Name](heightmapimporter.md#name-zilch-engine-documen)| | |
+| |[ PatchColumns](heightmapimporter.md#patchcolumns-zilch-engine)| | |
+| |[ PatchRows](heightmapimporter.md#patchrows-zilch-engine-do)| | |
+| |[ PatchSize](heightmapimporter.md#patchsize-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  BaseHeight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BaseHeight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  ImportMode : [ImportMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#importmode)
+ #  ImportMode : [ImportMode](../enum_reference.md#importmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  MaxHeightRange : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxHeightRange : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  MinHeightRange : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MinHeightRange : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  PatchColumns : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  PatchColumns : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -64,7 +64,7 @@
 
 
 ---  
- #  PatchRows : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  PatchRows : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -72,7 +72,7 @@
 
 
 ---  
- #  PatchSize : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  PatchSize : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetGamePad](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.md#getgamepad-zilch-engine-d)|[ MaxGamepadCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.md#maxgamepadcount-zilch-eng)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-|[ PauseVibration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.md#pausevibration-void)| | | |
-|[ ResumeVibration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.md#resumevibration-void)| | | |
+|[ GetGamePad](gamepads.md#getgamepad-zilch-engine-d)|[ MaxGamepadCount](gamepads.md#maxgamepadcount-zilch-eng)|[eventobject](eventobject.md)| |
+|[ PauseVibration](gamepads.md#pausevibration-void)| | | |
+|[ ResumeVibration](gamepads.md#resumevibration-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  MaxGamepadCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MaxGamepadCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -27,12 +27,12 @@
 
 
 ---  
- #  GetGamePad : [gamepad](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepad.md)
+ #  GetGamePad : [gamepad](gamepad.md)
 
 > Get the gamepad for a given index from [0, GamepadCount].
 > |Name|Type|Description|
 > |---|---|---|
-> |gamepadIndex|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |gamepadIndex|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetGamePad(gamepadIndex : Integer) : Gamepad
 > ``` 

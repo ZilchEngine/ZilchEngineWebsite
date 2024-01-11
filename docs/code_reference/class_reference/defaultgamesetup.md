@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.md#defaultgamesetup-void)|[ LoadEditingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.md#loadeditinglevel-zilch-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ StartingLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.md#startinglevel-zilch-engin)| | |
-| |[ StartingSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/defaultgamesetup.md#startingspace-zilch-engin)| | |
+|[ Constructor](defaultgamesetup.md#defaultgamesetup-void)|[ LoadEditingLevel](defaultgamesetup.md#loadeditinglevel-zilch-en)|[component](component.md)| |
+| |[ StartingLevel](defaultgamesetup.md#startinglevel-zilch-engin)| | |
+| |[ StartingSpace](defaultgamesetup.md#startingspace-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  LoadEditingLevel : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LoadEditingLevel : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  StartingLevel : [level](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/level.md)
+ #  StartingLevel : [level](level.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  StartingSpace : [archetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/archetype.md)
+ #  StartingSpace : [archetype](archetype.md)
 
 > 
 > ``` lang=cpp, name=Nada

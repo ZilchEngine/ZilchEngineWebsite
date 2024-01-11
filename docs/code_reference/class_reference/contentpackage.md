@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Author](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentpackage.md#author-zilch-engine-docum)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-| |[ Description](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentpackage.md#description-zilch-engine)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentpackage.md#name-zilch-engine-documen)| | |
-| |[ Tags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentpackage.md#tags-zilch-engine-documen)| | |
+| |[ Author](contentpackage.md#author-zilch-engine-docum)|[eventobject](eventobject.md)| |
+| |[ Description](contentpackage.md#description-zilch-engine)| | |
+| |[ Name](contentpackage.md#name-zilch-engine-documen)| | |
+| |[ Tags](contentpackage.md#tags-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Author : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Author : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Description : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Description : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Tags : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Tags : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

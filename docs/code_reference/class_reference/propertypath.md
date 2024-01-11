@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertypath.md#propertypath-void)| | | |
+|[ Constructor](propertypath.md#propertypath-void)| | | |
 
 
  #  Properties
@@ -33,7 +33,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[propertypath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertypath.md)| |
+> |p0|[propertypath](propertypath.md)| |
 > ``` lang=cpp, name=Nada
 > function PropertyPath(p0 : PropertyPath)
 > ``` 

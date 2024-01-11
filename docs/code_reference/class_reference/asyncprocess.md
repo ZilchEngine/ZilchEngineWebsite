@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#close-void)|[ StandardError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#standarderror-zilch-engin)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.md)| |
-|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#create-zilch-engine-docum)|[ StandardInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#standardinput-zilch-engin)| | |
-|[ IsRunning](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#isrunning-zilch-engine-do)|[ StandardOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#standardoutput-zilch-engi)| | |
-|[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#start-zilch-engine-docume)|[ StoreStandardErrorData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#storestandarderrordata-z)| | |
-|[ Terminate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#terminate-void)|[ StoreStandardOutputData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#storestandardoutputdata)| | |
-|[ WaitForClose](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md#waitforclose-zilch-engine)| | | |
+|[ Close](asyncprocess.md#close-void)|[ StandardError](asyncprocess.md#standarderror-zilch-engin)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ Create](asyncprocess.md#create-zilch-engine-docum)|[ StandardInput](asyncprocess.md#standardinput-zilch-engin)| | |
+|[ IsRunning](asyncprocess.md#isrunning-zilch-engine-do)|[ StandardOutput](asyncprocess.md#standardoutput-zilch-engi)| | |
+|[ Start](asyncprocess.md#start-zilch-engine-docume)|[ StoreStandardErrorData](asyncprocess.md#storestandarderrordata-z)| | |
+|[ Terminate](asyncprocess.md#terminate-void)|[ StoreStandardOutputData](asyncprocess.md#storestandardoutputdata)| | |
+|[ WaitForClose](asyncprocess.md#waitforclose-zilch-engine)| | | |
 
 
  #  Properties
 
 
 ---  
- #  StandardError : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  StandardError : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  StandardInput : [filestream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.md)
+ #  StandardInput : [filestream](../nada_base_types/filestream.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  StandardOutput : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  StandardOutput : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -44,7 +44,7 @@
 
 
 ---  
- #  StoreStandardErrorData : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  StoreStandardErrorData : [boolean](../nada_base_types/boolean.md)
 
 > Should the results from standard error be accumulated and stored? If a lot of data is output it may be good to turn this off and use the partial data callback events instead.
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 
 
 ---  
- #  StoreStandardOutputData : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  StoreStandardOutputData : [boolean](../nada_base_types/boolean.md)
 
 > Should the results from standard output be accumulated and stored? If a lot of data is output it may be good to turn this off and use the partial data callback events instead.
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  Create : [asyncprocess](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/asyncprocess.md)
+ #  Create : [asyncprocess](asyncprocess.md)
 
  `static`
 
@@ -88,7 +88,7 @@
 
 
 ---  
- #  IsRunning : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsRunning : [boolean](../nada_base_types/boolean.md)
 
 > Returns true if the process is still running, false otherwise.
 > |Name|Type|Description|
@@ -99,12 +99,12 @@
 
 
 ---  
- #  Start : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Start : [boolean](../nada_base_types/boolean.md)
 
 > Begins the execution of another process using the given parameters. Throws an exception if the process cannot be started.
 > |Name|Type|Description|
 > |---|---|---|
-> |startInfo|[processstartinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md)| |
+> |startInfo|[processstartinfo](../nada_base_types/processstartinfo.md)| |
 > ``` lang=cpp, name=Nada
 > function Start(startInfo : ProcessStartInfo) : Boolean
 > ``` 
@@ -122,7 +122,7 @@
 
 
 ---  
- #  WaitForClose : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  WaitForClose : [integer](../nada_base_types/integer.md)
 
 > Waits for a process to close, this will block until the process closes.
 > |Name|Type|Description|
@@ -133,12 +133,12 @@
 
 
 ---  
- #  WaitForClose : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  WaitForClose : [integer](../nada_base_types/integer.md)
 
 > Waits for a process to close up to a given number of milliseconds. This can take up to 3 * milliseconds due to waiting for the output streams to close.
 > |Name|Type|Description|
 > |---|---|---|
-> |milliseconds|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |milliseconds|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function WaitForClose(milliseconds : Integer) : Integer
 > ``` 

@@ -1,4 +1,4 @@
-Add and remove [ components  ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.md) from objects to give them new functionality.
+Add and remove [ components  ](../architecture/components.md) from objects to give them new functionality.
 
  # Adding a Component
 There are multiple ways to add a component to an object:
@@ -46,6 +46,6 @@ Using the component's **Right-Click Submenu** in Properties window
 
  # Related Materials
  ## Manual
-- [components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.md) 
+- [components](../architecture/components.md) 
 
  

@@ -6,21 +6,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetNetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#getnetproperty-zilch-engi)|[ Authority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#authority-zilch-engine-do)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-|[ HasNetProperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#hasnetproperty-zilch-engi)|[ ChangeFlag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#changeflag-zilch-engine-d)| | |
-|[ ReplicateNow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#replicatenow-zilch-engine)|[ IsNapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#isnapping-zilch-engine-do)| | |
-|[ TakeNap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#takenap-void)|[ IsScheduled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#isscheduled-zilch-engine)| | |
-|[ WakeUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#wakeup-void)|[ LastChangeTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#lastchangetimepassed-zer)| | |
-| |[ LastChangeTimestamp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#lastchangetimestamp-zero)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#name-zilch-engine-documen)| | |
-| |[ NetChannelType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md#netchanneltype-zilch-engi)| | |
+|[ GetNetProperty](netchannel.md#getnetproperty-zilch-engi)|[ Authority](netchannel.md#authority-zilch-engine-do)|[safeid32object](safeid32object.md)| |
+|[ HasNetProperty](netchannel.md#hasnetproperty-zilch-engi)|[ ChangeFlag](netchannel.md#changeflag-zilch-engine-d)| | |
+|[ ReplicateNow](netchannel.md#replicatenow-zilch-engine)|[ IsNapping](netchannel.md#isnapping-zilch-engine-do)| | |
+|[ TakeNap](netchannel.md#takenap-void)|[ IsScheduled](netchannel.md#isscheduled-zilch-engine)| | |
+|[ WakeUp](netchannel.md#wakeup-void)|[ LastChangeTimePassed](netchannel.md#lastchangetimepassed-zer)| | |
+| |[ LastChangeTimestamp](netchannel.md#lastchangetimestamp-zero)| | |
+| |[ Name](netchannel.md#name-zilch-engine-documen)| | |
+| |[ NetChannelType](netchannel.md#netchanneltype-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  Authority : [Authority](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#authority)
+ #  Authority : [Authority](../enum_reference.md#authority)
 
 > Controls which peer has the authority to observe and replicate property changes. (Client: Indicates both the client and server are allowed to observe and replicate property changes) (Server: Indicates only the server is allowed to observe and replicate property changes) Only a single client, specified by NetObject::NetUserOwnerPeerId, may possess client authority at any given time. The server is still responsible for relaying contained property changes to other clients, but will not replicate contained property changes back to the authority client. However, the server is also still responsible for other replication commands (such as object creation/destruction), and these WILL be replicated to the authority client.
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  ChangeFlag : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ChangeFlag : [boolean](../nada_base_types/boolean.md)
 
 > Manual change flag (checked upon manual change observation).
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  IsNapping : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNapping : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  IsScheduled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsScheduled : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -56,7 +56,7 @@
 
 
 ---  
- #  LastChangeTimePassed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LastChangeTimePassed : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -66,7 +66,7 @@
 
 
 ---  
- #  LastChangeTimestamp : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LastChangeTimestamp : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -86,7 +86,7 @@
 
 
 ---  
- #  NetChannelType : [netchanneltype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchanneltype.md)
+ #  NetChannelType : [netchanneltype](netchanneltype.md)
 
  `read-only`
 
@@ -100,33 +100,33 @@
 
 
 ---  
- #  GetNetProperty : [netproperty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.md)
+ #  GetNetProperty : [netproperty](netproperty.md)
 
 > [Client/Server] Returns the specified net property, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |component|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-> |propertyName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |component|[component](component.md)| |
+> |propertyName|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetNetProperty(component : Component, propertyName : String) : NetProperty
 > ``` 
 
 
 ---  
- #  HasNetProperty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HasNetProperty : [boolean](../nada_base_types/boolean.md)
 
 > [Client/Server] Returns true if the net object has the specified net property, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |component|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-> |propertyName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |component|[component](component.md)| |
+> |propertyName|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function HasNetProperty(component : Component, propertyName : String) : Boolean
 > ``` 
 
 
 ---  
- #  ReplicateNow : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ReplicateNow : [boolean](../nada_base_types/boolean.md)
 
 > Replicates net property changes immediately (only if changes are detected). Will also update nap state as configured. Returns true if changes were replicated, else false.
 > |Name|Type|Description|

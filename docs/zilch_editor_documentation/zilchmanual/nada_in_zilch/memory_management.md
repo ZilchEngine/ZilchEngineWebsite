@@ -1,9 +1,9 @@
-This section covers the basics of memory management in Nada. Specifically, the topics covered include: [Types of Memory Storage](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md#types-of-memory-storage), [#allocating-memory](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md#allocating-memory), and [#freeing-memory](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/memory_management.md#freeing-memory)
+This section covers the basics of memory management in Nada. Specifically, the topics covered include: [Types of Memory Storage](memory_management.md#types-of-memory-storage), [#allocating-memory](memory_management.md#allocating-memory), and [#freeing-memory](memory_management.md#freeing-memory)
 
  # Types of Memory Storage
  ## By-Value
 
-There are two main types of storage, `by-value` and `by-reference` (or `by-ref` for short). `By-value` is stored on the local stack and the storage is cleaned up once it goes out of scope. When passed into a function it copies data `by-value`. [Structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/structs.md) and primitives are `by-value`.
+There are two main types of storage, `by-value` and `by-reference` (or `by-ref` for short). `By-value` is stored on the local stack and the storage is cleaned up once it goes out of scope. When passed into a function it copies data `by-value`. [Structs](structs.md) and primitives are `by-value`.
 
 ```lang=csharp, name=By-Value Storage in a Struct
 struct ByValue
@@ -47,7 +47,7 @@ ID: 1111111
 ```
 
  ## By-Reference
-`By-reference` is stored on the heap and the storage is cleaned up once there are no longer references to it, or the handle is explicitly deleted in code. When passed into a [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md) it copies it `by-reference`. [Classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md) and structs promoted with the `ref` keyword are `by-reference`.
+`By-reference` is stored on the heap and the storage is cleaned up once there are no longer references to it, or the handle is explicitly deleted in code. When passed into a [function](functions.md) it copies it `by-reference`. [Classes](classes.md) and structs promoted with the `ref` keyword are `by-reference`.
 
  ### By-Ref Storage in a Struct and a Class
 
@@ -145,7 +145,7 @@ NOTE: A `by-ref` type can be set to null, but a `by-value` type cannot.
 
  ## Creating variables `by-value` and `by-ref`
  ### Local
-When working with by-value types that have constructors, such as structs or more complex stack primitive data types, the [keyword](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md) **local** may be used:
+When working with by-value types that have constructors, such as structs or more complex stack primitive data types, the [keyword](keywords.md) **local** may be used:
 
 ```lang=csharp
 var up: Real3 = local Real3(0.0, 1.0, 0.0);
@@ -210,7 +210,7 @@ class MyClass
 }
 ```
 
-A class or struct may possess one or more constructors. Like [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md) they can be overloaded via their [named_parameters](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/named_parameters.md). Special syntax is also used when constructing a derived class, see [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md) for more.
+A class or struct may possess one or more constructors. Like [functions](functions.md) they can be overloaded via their [named_parameters](named_parameters.md). Special syntax is also used when constructing a derived class, see [inheritance](inheritance.md) for more.
 
  # Freeing Memory
 
@@ -282,7 +282,7 @@ Nada does not have a full-fledged garbage collector, but it does have ref-counte
   // abc, bca, and cab will leak.
 ```
 
-2. [delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/delegates.md) containing an instance member function hold the `this` handle to the object, and thus will keep ref-counted objects alive.
+2. [delegates](delegates.md) containing an instance member function hold the `this` handle to the object, and thus will keep ref-counted objects alive.
 ```lang=csharp, name=Examples of Delegate Leaking
 class Utility
 {
@@ -469,12 +469,12 @@ Destructors allow you to do any necessary clean up on your part, such as free me
 
  # Related Materials
  ## Manual
-- [Classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md)
-- [Structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/structs.md)
-- [Functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
-- [Keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md)
-- [named_parameters](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/named_parameters.md)
-- [inheritance](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/inheritance.md)
-- [delegates](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/delegates.md) 
+- [Classes](classes.md)
+- [Structs](structs.md)
+- [Functions](functions.md)
+- [Keywords](keywords.md)
+- [named_parameters](named_parameters.md)
+- [inheritance](inheritance.md)
+- [delegates](delegates.md) 
 
  

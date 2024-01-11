@@ -6,22 +6,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#prismaticjoint-void)|[ LocalAxisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#localaxisa-zilch-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#setworldpoints-void)|[ LocalAxisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#localaxisb-zilch-engine-d)| | |
-| |[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#localbasisa-zilch-engine)| | |
-| |[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#localbasisb-zilch-engine)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#localpointb-zilch-engine)| | |
-| |[ WorldAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#worldaxis-zilch-engine-do)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint.md#worldpointb-zilch-engine)| | |
+|[ Constructor](prismaticjoint.md#prismaticjoint-void)|[ LocalAxisA](prismaticjoint.md#localaxisa-zilch-engine-d)|[joint](joint.md)| |
+|[ SetWorldPoints](prismaticjoint.md#setworldpoints-void)|[ LocalAxisB](prismaticjoint.md#localaxisb-zilch-engine-d)| | |
+| |[ LocalBasisA](prismaticjoint.md#localbasisa-zilch-engine)| | |
+| |[ LocalBasisB](prismaticjoint.md#localbasisb-zilch-engine)| | |
+| |[ LocalPointA](prismaticjoint.md#localpointa-zilch-engine)| | |
+| |[ LocalPointB](prismaticjoint.md#localpointb-zilch-engine)| | |
+| |[ WorldAxis](prismaticjoint.md#worldaxis-zilch-engine-do)| | |
+| |[ WorldPointA](prismaticjoint.md#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](prismaticjoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  LocalAxisA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxisA : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object A . 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  LocalAxisB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxisB : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object B . 
 > ``` lang=cpp, name=Nada
@@ -37,7 +37,7 @@
 
 
 ---  
- #  LocalBasisA : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalBasisA : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object A . This frame is transformed to world space and then aligned with object B s frame . 
 > ``` lang=cpp, name=Nada
@@ -45,7 +45,7 @@
 
 
 ---  
- #  LocalBasisB : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalBasisB : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object B . This frame is transformed to world space and then aligned with object A s frame . 
 > ``` lang=cpp, name=Nada
@@ -53,7 +53,7 @@
 
 
 ---  
- #  LocalPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object A . 
 > ``` lang=cpp, name=Nada
@@ -61,7 +61,7 @@
 
 
 ---  
- #  LocalPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object B . 
 > ``` lang=cpp, name=Nada
@@ -69,7 +69,7 @@
 
 
 ---  
- #  WorldAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldAxis : [real3](../nada_base_types/real3.md)
 
 > The axis in world space that is being rotated about . 
 > ``` lang=cpp, name=Nada
@@ -77,7 +77,7 @@
 
 
 ---  
- #  WorldPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object A given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -85,7 +85,7 @@
 
 
 ---  
- #  WorldPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object B given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -115,7 +115,7 @@
 > Sets the position of the anchor on object A and B given a position in world space 
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldPoints(point : Real3)
 > ``` 

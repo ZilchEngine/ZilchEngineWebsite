@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md#get-zilch-engine-document)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md#count-zilch-engine-docume)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md#quaternion-void)|[ Identity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md#identity-zilch-engine-doc)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md#set-void)| | | |
+|[ Get](quaternion.md#get-zilch-engine-document)|[ Count](quaternion.md#count-zilch-engine-docume)| | |
+|[ Constructor](quaternion.md#quaternion-void)|[ Identity](quaternion.md#identity-zilch-engine-doc)| | |
+|[ Set](quaternion.md#set-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Identity : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  Identity : [quaternion](quaternion.md)
 
  `read-only` `static`
 
@@ -35,12 +35,12 @@
 
 
 ---  
- #  Get : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Get : [real](real.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(p0 : Integer) : Real
 > ``` 
@@ -67,7 +67,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |scalar|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |scalar|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(scalar : Real)
 > ``` 
@@ -81,10 +81,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p3|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](real.md)| |
+> |p1|[real](real.md)| |
+> |p2|[real](real.md)| |
+> |p3|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(p0 : Real, p1 : Real, p2 : Real, p3 : Real)
 > ``` 
@@ -98,9 +98,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p2|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |p0|[real](real.md)| |
+> |p1|[real](real.md)| |
+> |p2|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(p0 : Real, p1 : Real, p2 : Real2)
 > ``` 
@@ -114,9 +114,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> |p2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](real.md)| |
+> |p1|[real2](real2.md)| |
+> |p2|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(p0 : Real, p1 : Real2, p2 : Real)
 > ``` 
@@ -130,8 +130,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p1|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |p0|[real](real.md)| |
+> |p1|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(p0 : Real, p1 : Real3)
 > ``` 
@@ -145,9 +145,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |p2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real2](real2.md)| |
+> |p1|[real](real.md)| |
+> |p2|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(p0 : Real2, p1 : Real, p2 : Real)
 > ``` 
@@ -161,8 +161,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> |p1|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |p0|[real2](real2.md)| |
+> |p1|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(p0 : Real2, p1 : Real2)
 > ``` 
@@ -176,8 +176,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real3](real3.md)| |
+> |p1|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Quaternion(p0 : Real3, p1 : Real)
 > ``` 
@@ -189,8 +189,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(p0 : Integer, p1 : Real)
 > ``` 

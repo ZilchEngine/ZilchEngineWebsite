@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.md#gizmo-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ EditingObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.md#editingobject-zilch-engin)| | |
-| |[ ForwardEventsToChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.md#forwardeventstochildren)| | |
-| |[ MouseOver](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmo.md#mouseover-zilch-engine-do)| | |
+|[ Constructor](gizmo.md#gizmo-void)|[ Active](gizmo.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[ EditingObject](gizmo.md#editingobject-zilch-engin)| | |
+| |[ ForwardEventsToChildren](gizmo.md#forwardeventstochildren)| | |
+| |[ MouseOver](gizmo.md#mouseover-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > If set to false, it will not receive input events.
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  EditingObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  EditingObject : [cog](cog.md)
 
  `read-only`
 
@@ -34,7 +34,7 @@
 
 
 ---  
- #  ForwardEventsToChildren : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ForwardEventsToChildren : [boolean](../nada_base_types/boolean.md)
 
 > You may want to manually forward the input events to specific children.
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  MouseOver : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MouseOver : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 

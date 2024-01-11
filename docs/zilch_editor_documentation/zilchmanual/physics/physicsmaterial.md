@@ -1,4 +1,4 @@
-A [PhysicsMaterial](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.md) describes material properties to use for a [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md). These properties affect how collisions are resolved between collider types.
+A [PhysicsMaterial](../../../code_reference/class_reference/physicsmaterial.md) describes material properties to use for a [Collider](colliders.md). These properties affect how collisions are resolved between collider types.
 
 Some PhysicsMaterial properties are used to define the surface of an object. In reality, these surface properties are not defined per object, but per object pair. The physics system computes a combined value for these properties as an approximation of the real life values.
 
@@ -28,18 +28,18 @@ The **combined friction** is computed as the square-root of the product of the t
 RestitutionImportance  determines which object's restitution should be used in collision resolution. When two objects are colliding, the restitution of the object with the higher importance value will be used. If both objects have the same importance value, the max of the two restitutions is applied.
 
  #  Friction Importance
-FrictionImportance  determines which object's friction should be used in collision resolution. When two objects are colliding, the friction of the object with the higher importance value will be used. If both objects have the same importance value, the combined friction is used (see [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicsmaterial/.md#friction)).
+FrictionImportance  determines which object's friction should be used in collision resolution. When two objects are colliding, the friction of the object with the higher importance value will be used. If both objects have the same importance value, the combined friction is used (see [above](physicsmaterial/.md#friction)).
 
 ---
 
  #  Related Materials
  ##  Manual
-- [rigidbody.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/rigidbody.md)
-- [colliders.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md)
+- [rigidbody.md](rigidbody.md)
+- [colliders.md](colliders.md)
  ##  Reference
-- [PhysicsMaterial](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmaterial.md)
-- [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
-- [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
+- [PhysicsMaterial](../../../code_reference/class_reference/physicsmaterial.md)
+- [RigidBody](../../../code_reference/class_reference/rigidbody.md)
+- [Collider](../../../code_reference/class_reference/collider.md)
  
 
  

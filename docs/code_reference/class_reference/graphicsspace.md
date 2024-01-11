@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.md#graphicsspace-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ RandomSeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.md#randomseed-zilch-engine-d)| | |
-| |[ Seed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.md#seed-zilch-engine-documen)| | |
+|[ Constructor](graphicsspace.md#graphicsspace-void)|[ Active](graphicsspace.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[ RandomSeed](graphicsspace.md#randomseed-zilch-engine-d)| | |
+| |[ Seed](graphicsspace.md#seed-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > If graphics for this Space should be running.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  RandomSeed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RandomSeed : [boolean](../nada_base_types/boolean.md)
 
 > If the random number generator used by graphics objects should be seeded randomly.
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Seed : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Seed : [integer](../nada_base_types/integer.md)
 
 > Value to seed the random number generator with.
 > ``` lang=cpp, name=Nada

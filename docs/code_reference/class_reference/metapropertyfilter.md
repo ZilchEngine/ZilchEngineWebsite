@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| | |[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.md)|[cogarchetypepropertyfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogarchetypepropertyfilter.md)|
-| | | |[editingamefilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editingamefilter.md)|
-| | | |[hidebasefilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hidebasefilter.md)|
-| | | |[metapropertybasicfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metapropertybasicfilter.md)|
+| | |[metaattribute](metaattribute.md)|[cogarchetypepropertyfilter](cogarchetypepropertyfilter.md)|
+| | | |[editingamefilter](editingamefilter.md)|
+| | | |[hidebasefilter](hidebasefilter.md)|
+| | | |[metapropertybasicfilter](metapropertybasicfilter.md)|
 | | | |PropertyFilterArithmeticTypes|
 | | | |PropertyFilterBoolean|
 | | | |PropertyFilterDoubleInteger|
@@ -23,9 +23,9 @@
 | | | |PropertyFilterReal3|
 | | | |PropertyFilterReal4|
 | | | |PropertyFilterString|
-| | | |[showgammacorrectionfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/showgammacorrectionfilter.md)|
-| | | |[shownormalgenerationoptionsfilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/shownormalgenerationoptionsfilter.md)|
-| | | |[showpremultipliedalphafilter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/showpremultipliedalphafilter.md)|
+| | | |[showgammacorrectionfilter](showgammacorrectionfilter.md)|
+| | | |[shownormalgenerationoptionsfilter](shownormalgenerationoptionsfilter.md)|
+| | | |[showpremultipliedalphafilter](showpremultipliedalphafilter.md)|
 
 
  #  Properties

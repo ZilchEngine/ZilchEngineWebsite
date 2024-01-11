@@ -6,31 +6,31 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#addorerror-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#all-zilch-engine-document)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.md)| |
-|[ AddOrIgnore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#addorignore-zilch-engine)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#count-zilch-engine-docume)| | |
-|[ AddOrOverwrite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#addoroverwrite-zilch-engi)|[ MaxWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#maxweight-zilch-engine-do)| | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#clear-void)|[ ResourceType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#resourcetype-zilch-engine)| | |
-|[ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#contains-zilch-engine-doc)| | | |
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#createruntime-zilch-engin)| | | |
-|[ ForceRebuild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#forcerebuild-void)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#get-zilch-engine-document)| | | |
-|[ GetOrDefault](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#getordefault-zilch-engine)| | | |
-|[ GetOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#getorerror-zilch-engine-d)| | | |
-|[ GetOrNull](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#getornull-zilch-engine-do)| | | |
-|[ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#removeat-void)| | | |
-|[ RemoveOrError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#removeorerror-void)| | | |
-|[ RemoveOrIgnore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#removeorignore-zilch-engi)| | | |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#runtimeclone-zilch-engine)| | | |
-|[ Sample](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#sample-zilch-engine-docum)| | | |
-|[ SampleIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#sampleindex-zilch-engine)| | | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md#set-void)| | | |
+|[ AddOrError](resourcetable.md#addorerror-void)|[ All](resourcetable.md#all-zilch-engine-document)|[dataresource](dataresource.md)| |
+|[ AddOrIgnore](resourcetable.md#addorignore-zilch-engine)|[ Count](resourcetable.md#count-zilch-engine-docume)| | |
+|[ AddOrOverwrite](resourcetable.md#addoroverwrite-zilch-engi)|[ MaxWeight](resourcetable.md#maxweight-zilch-engine-do)| | |
+|[ Clear](resourcetable.md#clear-void)|[ ResourceType](resourcetable.md#resourcetype-zilch-engine)| | |
+|[ Contains](resourcetable.md#contains-zilch-engine-doc)| | | |
+|[ CreateRuntime](resourcetable.md#createruntime-zilch-engin)| | | |
+|[ ForceRebuild](resourcetable.md#forcerebuild-void)| | | |
+|[ Get](resourcetable.md#get-zilch-engine-document)| | | |
+|[ GetOrDefault](resourcetable.md#getordefault-zilch-engine)| | | |
+|[ GetOrError](resourcetable.md#getorerror-zilch-engine-d)| | | |
+|[ GetOrNull](resourcetable.md#getornull-zilch-engine-do)| | | |
+|[ RemoveAt](resourcetable.md#removeat-void)| | | |
+|[ RemoveOrError](resourcetable.md#removeorerror-void)| | | |
+|[ RemoveOrIgnore](resourcetable.md#removeorignore-zilch-engi)| | | |
+|[ RuntimeClone](resourcetable.md#runtimeclone-zilch-engine)| | | |
+|[ Sample](resourcetable.md#sample-zilch-engine-docum)| | | |
+|[ SampleIndex](resourcetable.md#sampleindex-zilch-engine)| | | |
+|[ Set](resourcetable.md#set-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  All : [resourcetableentryrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentryrange.md)
+ #  All : [resourcetableentryrange](resourcetableentryrange.md)
 
  `read-only`
 
@@ -40,7 +40,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -50,7 +50,7 @@
 
 
 ---  
- #  MaxWeight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxWeight : [real](../nada_base_types/real.md)
 
 > The maximum probability weight value that can be stored in the table. Setting this will clamp all weight values.
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  ResourceType : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ResourceType : [string](../nada_base_types/string.md)
 
 > The kind of resource contained in this table. This is either a resource type or "String".
 > ``` lang=cpp, name=Nada
@@ -75,31 +75,31 @@
 > Add the given entry. If another entry with the same name exists then an error is thrown.
 > |Name|Type|Description|
 > |---|---|---|
-> |entry|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |entry|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function AddOrError(entry : ResourceTableEntry)
 > ``` 
 
 
 ---  
- #  AddOrIgnore : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddOrIgnore : [boolean](../nada_base_types/boolean.md)
 
 > Add the given entry. If another entry with the same name exists then no operation is performed.
 > |Name|Type|Description|
 > |---|---|---|
-> |entry|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |entry|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function AddOrIgnore(entry : ResourceTableEntry) : Boolean
 > ``` 
 
 
 ---  
- #  AddOrOverwrite : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddOrOverwrite : [boolean](../nada_base_types/boolean.md)
 
 > Add the given entry. If another entry with the same name exists then it is overwritten.
 > |Name|Type|Description|
 > |---|---|---|
-> |entry|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |entry|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function AddOrOverwrite(entry : ResourceTableEntry) : Boolean
 > ``` 
@@ -117,19 +117,19 @@
 
 
 ---  
- #  Contains : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Contains : [boolean](../nada_base_types/boolean.md)
 
 > Returns if the given key is contained.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |key|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function Contains(key : String) : Boolean
 > ``` 
 
 
 ---  
- #  CreateRuntime : [resourcetable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md)
+ #  CreateRuntime : [resourcetable](resourcetable.md)
 
  `static`
 
@@ -153,73 +153,73 @@
 
 
 ---  
- #  Get : [resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)
+ #  Get : [resourcetableentry](resourcetableentry.md)
 
 > Access an item at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : ResourceTableEntry
 > ``` 
 
 
 ---  
- #  Get : [resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)
+ #  Get : [resourcetableentry](resourcetableentry.md)
 
 > Hash-Set interface. Gets the item with the same name as the entry.
 > |Name|Type|Description|
 > |---|---|---|
-> |entry|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |entry|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(entry : ResourceTableEntry) : ResourceTableEntry
 > ``` 
 
 
 ---  
- #  Get : [resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)
+ #  Get : [resourcetableentry](resourcetableentry.md)
 
 > Hash-Map interface. Gets via the provided key.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |key|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(key : String) : ResourceTableEntry
 > ``` 
 
 
 ---  
- #  GetOrDefault : [resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)
+ #  GetOrDefault : [resourcetableentry](resourcetableentry.md)
 
 > Returns the entry associated with the given key. If no entry matches the key then the provided default is returned.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |defaultValue|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |key|[string](../nada_base_types/string.md)| |
+> |defaultValue|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function GetOrDefault(key : String, defaultValue : ResourceTableEntry) : ResourceTableEntry
 > ``` 
 
 
 ---  
- #  GetOrError : [resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)
+ #  GetOrError : [resourcetableentry](resourcetableentry.md)
 
 > Returns the entry associated with the given key. If no entry matches the key then an exception is thrown.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |key|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetOrError(key : String) : ResourceTableEntry
 > ``` 
 
 
 ---  
- #  GetOrNull : [resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)
+ #  GetOrNull : [resourcetableentry](resourcetableentry.md)
 
 > Returns the entry associated with the given key. If no entry matches then null is returned.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |key|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetOrNull(key : String) : ResourceTableEntry
 > ``` 
@@ -231,7 +231,7 @@
 > Removes the item at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -243,26 +243,26 @@
 > Removes the entry associated with the given key. If no entry matches an exception is thrown.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |key|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveOrError(key : String)
 > ``` 
 
 
 ---  
- #  RemoveOrIgnore : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveOrIgnore : [boolean](../nada_base_types/boolean.md)
 
 > Removes the entry associated with the given key. If no entry matches then no operation is performed.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |key|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveOrIgnore(key : String) : Boolean
 > ``` 
 
 
 ---  
- #  RuntimeClone : [resourcetable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetable.md)
+ #  RuntimeClone : [resourcetable](resourcetable.md)
 
 > Creates a clone of this table for run-time modifications.
 > |Name|Type|Description|
@@ -273,26 +273,26 @@
 
 
 ---  
- #  Sample : [resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)
+ #  Sample : [resourcetableentry](resourcetableentry.md)
 
 > Samples the table to return a random entry. Takes two (different) random floats from [0,1) in order to sample. Returns an empty string if the table is empty.
 > |Name|Type|Description|
 > |---|---|---|
-> |random1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |random2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |random1|[real](../nada_base_types/real.md)| |
+> |random2|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function Sample(random1 : Real, random2 : Real) : ResourceTableEntry
 > ``` 
 
 
 ---  
- #  SampleIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SampleIndex : [integer](../nada_base_types/integer.md)
 
 > Samples the table to return a random index into the table. Takes two (different) random floats from [0,1) in order to sample.
 > |Name|Type|Description|
 > |---|---|---|
-> |random1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |random2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |random1|[real](../nada_base_types/real.md)| |
+> |random2|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function SampleIndex(random1 : Real, random2 : Real) : Integer
 > ``` 
@@ -304,8 +304,8 @@
 > Access an item at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |entry|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
+> |entry|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, entry : ResourceTableEntry)
 > ``` 
@@ -317,7 +317,7 @@
 > Hash-Set interface. Sets the item with the same name as the entry.
 > |Name|Type|Description|
 > |---|---|---|
-> |entry|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |entry|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(entry : ResourceTableEntry)
 > ``` 
@@ -329,8 +329,8 @@
 > Hash-Map interface. Sets via the provided key.
 > |Name|Type|Description|
 > |---|---|---|
-> |key|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |entry|[resourcetableentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcetableentry.md)| |
+> |key|[string](../nada_base_types/string.md)| |
+> |entry|[resourcetableentry](resourcetableentry.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(key : String, entry : ResourceTableEntry)
 > ``` 

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturecontent.md#texturecontent-void)| |[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.md)| |
+|[ Constructor](texturecontent.md#texturecontent-void)| |[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

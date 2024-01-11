@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md#gettersetterrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](gettersetterrange.md#gettersetterrange-void)|[ All](gettersetterrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](gettersetterrange.md#movenext-void)|[ Current](gettersetterrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](gettersetterrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](gettersetterrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [gettersetterrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md)
+ #  All : [gettersetterrange](gettersetterrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [gettersetter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetter.md)
+ #  Current : [gettersetter](gettersetter.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[gettersetterrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetterrange.md)| |
+> |p0|[gettersetterrange](gettersetterrange.md)| |
 > ``` lang=cpp, name=Nada
 > function GetterSetterRange(p0 : GetterSetterRange)
 > ``` 

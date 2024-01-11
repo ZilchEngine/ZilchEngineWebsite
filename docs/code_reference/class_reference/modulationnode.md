@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Frequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md#frequency-zilch-engine-do)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-| |[ UseAmplitudeModulation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md#useamplitudemodulation-z)| | |
-| |[ WetPercent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md#wetpercent-zilch-engine-d)| | |
-| |[ WetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/modulationnode.md#wetvalue-zilch-engine-doc)| | |
+| |[ Frequency](modulationnode.md#frequency-zilch-engine-do)|[soundnode](soundnode.md)| |
+| |[ UseAmplitudeModulation](modulationnode.md#useamplitudemodulation-z)| | |
+| |[ WetPercent](modulationnode.md#wetpercent-zilch-engine-d)| | |
+| |[ WetValue](modulationnode.md#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  Frequency : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Frequency : [real](../nada_base_types/real.md)
 
 > The frequency of the sine wave used for the modulation.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  UseAmplitudeModulation : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseAmplitudeModulation : [boolean](../nada_base_types/boolean.md)
 
 > If this property is true, the node will apply amplitude modulation (multiply the audio input with a unipolar sine wave with values from 0.0 to 1.0). If false, the node will apply ring modulation (multiply the input with a bipolar sine wave with values from -1.0 to 1.0).
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  WetPercent : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WetPercent : [real](../nada_base_types/real.md)
 
 > DEPRECATED The WetValue property should be used instead.
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  WetValue : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WetValue : [real](../nada_base_types/real.md)
 
 > The percentage of the input (0 - 1.0) which should have the modulation applied to it.
 > ``` lang=cpp, name=Nada

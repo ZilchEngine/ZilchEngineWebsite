@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.md#joint-zilch-engine-docume)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ JointCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.md#jointcog-zilch-engine-doc)| | |
-| |[ ObjectA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.md#objecta-zilch-engine-docu)| | |
-| |[ ObjectB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointevent.md#objectb-zilch-engine-docu)| | |
+| |[ Joint](jointevent.md#joint-zilch-engine-docume)|[event](event.md)| |
+| |[ JointCog](jointevent.md#jointcog-zilch-engine-doc)| | |
+| |[ ObjectA](jointevent.md#objecta-zilch-engine-docu)| | |
+| |[ ObjectB](jointevent.md#objectb-zilch-engine-docu)| | |
 
 
  #  Properties
 
 
 ---  
- #  Joint : [joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)
+ #  Joint : [joint](joint.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  JointCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  JointCog : [cog](cog.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  ObjectA : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ObjectA : [cog](cog.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  ObjectB : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ObjectB : [cog](cog.md)
 
  `read-only`
 

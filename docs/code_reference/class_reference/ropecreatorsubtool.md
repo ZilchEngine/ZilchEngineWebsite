@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NumberOfLinks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ropecreatorsubtool.md#numberoflinks-zilch-engin)|[springsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springsubtool.md)| |
+| |[ NumberOfLinks](ropecreatorsubtool.md#numberoflinks-zilch-engin)|[springsubtool](springsubtool.md)| |
 
 
  #  Properties
 
 
 ---  
- #  NumberOfLinks : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NumberOfLinks : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

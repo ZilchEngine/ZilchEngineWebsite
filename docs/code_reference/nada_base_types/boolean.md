@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#boolean-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#count-zilch-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#get-zilch-engine-document)|[ One](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#one-zilch-engine-document)| | |
-|[ GetAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#getaxis-zilch-engine-docu)|[ XAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#xaxis-zilch-engine-docume)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#set-void)|[ Zero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md#zilch-zilch-engine-documen)| | |
+|[ Constructor](boolean.md#boolean-void)|[ Count](boolean.md#count-zilch-engine-docume)| | |
+|[ Get](boolean.md#get-zilch-engine-document)|[ One](boolean.md#one-zilch-engine-document)| | |
+|[ GetAxis](boolean.md#getaxis-zilch-engine-docu)|[ XAxis](boolean.md#xaxis-zilch-engine-docume)| | |
+|[ Set](boolean.md#set-void)|[ Zero](boolean.md#zilch-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  One : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  One : [boolean](boolean.md)
 
  `read-only` `static`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  XAxis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  XAxis : [boolean](boolean.md)
 
  `read-only` `static`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  Zero : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Zero : [boolean](boolean.md)
 
  `read-only` `static`
 
@@ -76,33 +76,33 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |scalar|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |scalar|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Boolean(scalar : Boolean)
 > ``` 
 
 
 ---  
- #  Get : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Get : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(p0 : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  GetAxis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GetAxis : [boolean](boolean.md)
 
  `static`
 
 > Returns an axis vector from the given index (ie. 0 is XAxis, 1 is YAxis, etc...
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetAxis(p0 : Integer) : Boolean
 > ``` 
@@ -114,8 +114,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |p0|[integer](integer.md)| |
+> |p1|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(p0 : Integer, p1 : Boolean)
 > ``` 

@@ -1,6 +1,6 @@
-[TextBlock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textblock.md) resources are used to organize and format the visual style of SpriteText in a project. They are a very helpful resource any time more than a single sentence of text needs to be used.
+[TextBlock](../../../../code_reference/class_reference/textblock.md) resources are used to organize and format the visual style of SpriteText in a project. They are a very helpful resource any time more than a single sentence of text needs to be used.
 
-NOTE: **Recommended Reading**  This section covers topics that may not have been addressed yet. To learn or review those topics, please see: [Area component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/area.md), [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites.md), & [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites/spritetext.md)
+NOTE: **Recommended Reading**  This section covers topics that may not have been addressed yet. To learn or review those topics, please see: [Area component](../../graphics/sprites/area.md), [Sprites](../../graphics/sprites.md), & [SpriteText](../../graphics/sprites/spritetext.md)
 
  # Common Uses
 
@@ -9,7 +9,7 @@ NOTE: **Recommended Reading**  This section covers topics that may not have been
  - Easier text swapping
 
  # Using a TextBlock
-Adding Text using the TextBlock requires two elements: a TextBlock resource and a [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.md) component. To get the text from the TextBlock into the SpriteText you will need a component like this
+Adding Text using the TextBlock requires two elements: a TextBlock resource and a [SpriteText](../../../../code_reference/class_reference/spritetext.md) component. To get the text from the TextBlock into the SpriteText you will need a component like this
 
 ```lang=csharp
 [RunInEditor]
@@ -49,7 +49,7 @@ class SpriteTextBlock : NadaComponent
 
 ```
 
-The `SpriteTextBlock` component is added to the object whose SpriteText needs to be changed. These two work in tandem to change the `Text` property of the SpriteText component. To create a new TextBlock, use TextBlock requires two elements: a TextBlock resource and and a `SpriteTextBlock` component. The `SpriteTextBlock` component is added to the object whose SpriteText needs to be changed. These two work in tandem to change the `Text` property of the SpriteText component. To create a new TextBlock, use [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add) and select TextBlock from the resource list. This will open a new TextBlock in a new Tab where text may be written. After entering the desired text, simply add the `SpriteTextBlock` component to the Game Object and set the TextBlock property to the new TextBlock. 
+The `SpriteTextBlock` component is added to the object whose SpriteText needs to be changed. These two work in tandem to change the `Text` property of the SpriteText component. To create a new TextBlock, use TextBlock requires two elements: a TextBlock resource and and a `SpriteTextBlock` component. The `SpriteTextBlock` component is added to the object whose SpriteText needs to be changed. These two work in tandem to change the `Text` property of the SpriteText component. To create a new TextBlock, use [commands](../../editor/editorcommands/commands.md) : [Add](../../../../code_reference/command_reference.md#add) and select TextBlock from the resource list. This will open a new TextBlock in a new Tab where text may be written. After entering the desired text, simply add the `SpriteTextBlock` component to the Game Object and set the TextBlock property to the new TextBlock. 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47035.png)
@@ -67,13 +67,13 @@ The `Area` component can help solve this problem. While SpriteTextBlock keeps th
 
  # Related Materials
  ## Manual Pages
-- [Area component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation.md)
-- [Sprites](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation.md)
-- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation.md)
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
+- [Area component](../../../../zilch_editor_documentation.md)
+- [Sprites](../../../../zilch_editor_documentation.md)
+- [SpriteText](../../../../zilch_editor_documentation.md)
+- [commands](../../editor/editorcommands/commands.md)
 
  ## Reference Pages
-- [textblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/textblock.md)
-- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.md)  
+- [textblock](../../../../code_reference/class_reference/textblock.md)
+- [SpriteText](../../../../code_reference/class_reference/spritetext.md)  
 
  

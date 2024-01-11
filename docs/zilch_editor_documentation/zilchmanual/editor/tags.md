@@ -31,7 +31,7 @@ and
 and all other permutations of tags.
 
  # Tags in Zilch
-Tags in the Zilch Engine are used in the Library Window to organize the [Resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources/resources.md). 
+Tags in the Zilch Engine are used in the Library Window to organize the [Resources](../architecture/resources/resources.md). 
 
  ## Adding and Removing Tags
 Right-clicking on an object in the `Library Window` will give you the option to Edit Tags:

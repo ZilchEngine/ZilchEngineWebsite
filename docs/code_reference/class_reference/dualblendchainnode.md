@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ From](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dualblendchainnode.md#from-zilch-engine-documen)|[animationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationnode.md)|[chainnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chainnode.md)|
-| |[ To](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dualblendchainnode.md#to-zilch-engine-documenta)| | |
+| |[ From](dualblendchainnode.md#from-zilch-engine-documen)|[animationnode](animationnode.md)|[chainnode](chainnode.md)|
+| |[ To](dualblendchainnode.md#to-zilch-engine-documenta)| | |
 
 
  #  Properties
 
 
 ---  
- #  From : [animationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationnode.md)
+ #  From : [animationnode](animationnode.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -18,7 +18,7 @@
 
 
 ---  
- #  To : [animationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationnode.md)
+ #  To : [animationnode](animationnode.md)
 
 > 
 > ``` lang=cpp, name=Nada

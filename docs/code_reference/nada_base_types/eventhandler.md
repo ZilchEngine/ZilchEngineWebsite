@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/eventhandler.md#eventhandler-void)| | |[executablestate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/executablestate.md)|
+|[ Constructor](eventhandler.md#eventhandler-void)| | |[executablestate](executablestate.md)|
 
 
  #  Properties

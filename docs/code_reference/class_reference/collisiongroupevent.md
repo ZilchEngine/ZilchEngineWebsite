@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FirstPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroupevent.md#firstpoint-zilch-engine-d)|[basecollisionevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basecollisionevent.md)| |
-| |[ TypeAName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroupevent.md#typeaname-zilch-engine-do)| | |
-| |[ TypeBName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisiongroupevent.md#typebname-zilch-engine-do)| | |
+| |[ FirstPoint](collisiongroupevent.md#firstpoint-zilch-engine-d)|[basecollisionevent](basecollisionevent.md)| |
+| |[ TypeAName](collisiongroupevent.md#typeaname-zilch-engine-do)| | |
+| |[ TypeBName](collisiongroupevent.md#typebname-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  FirstPoint : [contactpoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contactpoint.md)
+ #  FirstPoint : [contactpoint](contactpoint.md)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  TypeAName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  TypeAName : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  TypeBName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  TypeBName : [string](../nada_base_types/string.md)
 
  `read-only`
 

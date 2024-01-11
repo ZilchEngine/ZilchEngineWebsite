@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.md#jointspring-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ AtomIds](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.md#atomids-zilch-engine-docu)| | |
-| |[ DampingRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.md#dampingratio-zilch-engine)| | |
-| |[ FrequencyHz](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointspring.md#frequencyhz-zilch-engine)| | |
+|[ Constructor](jointspring.md#jointspring-void)|[ Active](jointspring.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[ AtomIds](jointspring.md#atomids-zilch-engine-docu)| | |
+| |[ DampingRatio](jointspring.md#dampingratio-zilch-engine)| | |
+| |[ FrequencyHz](jointspring.md#frequencyhz-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Determines if this spring is active.
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  AtomIds : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  AtomIds : [integer](../nada_base_types/integer.md)
 
 > Signifies what atoms on the joint this affects. For internal use.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  DampingRatio : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DampingRatio : [real](../nada_base_types/real.md)
 
 > The damping ratio of this spring. The value should range from 0 to 1 where 0 is no damping and 1 is critical damping.
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  FrequencyHz : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FrequencyHz : [real](../nada_base_types/real.md)
 
 > The oscillation frequency of the spring in Hertz (cycles per second).
 > ``` lang=cpp, name=Nada

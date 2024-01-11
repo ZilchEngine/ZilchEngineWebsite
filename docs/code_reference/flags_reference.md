@@ -1,8 +1,8 @@
 |Flags||
 |---|
-|[ FileMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/flags_reference.md#filemode)|
-|[ Members](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/flags_reference.md#members)|
-|[ StreamCapabilities](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/flags_reference.md#streamcapabilities)|
+|[ FileMode](flags_reference.md#filemode)|
+|[ Members](flags_reference.md#members)|
+|[ StreamCapabilities](flags_reference.md#streamcapabilities)|
 
 
 

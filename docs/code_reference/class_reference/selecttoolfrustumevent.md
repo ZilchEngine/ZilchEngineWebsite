@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Frustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttoolfrustumevent.md#frustum-zilch-engine-docu)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ Handled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttoolfrustumevent.md#handled-zilch-engine-docu)| | |
-| |[ HandledEventScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttoolfrustumevent.md#handledeventscript-zero)| | |
-| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selecttoolfrustumevent.md#space-zilch-engine-docume)| | |
+| |[ Frustum](selecttoolfrustumevent.md#frustum-zilch-engine-docu)|[event](event.md)| |
+| |[ Handled](selecttoolfrustumevent.md#handled-zilch-engine-docu)| | |
+| |[ HandledEventScript](selecttoolfrustumevent.md#handledeventscript-zero)| | |
+| |[ Space](selecttoolfrustumevent.md#space-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Frustum : [frustum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frustum.md)
+ #  Frustum : [frustum](frustum.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  Handled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Handled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  HandledEventScript : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HandledEventScript : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  Space : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  Space : [space](space.md)
 
  `read-only`
 

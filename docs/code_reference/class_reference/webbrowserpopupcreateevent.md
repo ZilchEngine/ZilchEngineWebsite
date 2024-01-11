@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpopupcreateevent.md#name-zilch-engine-documen)|[webbrowserevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserevent.md)| |
-| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowserpopupcreateevent.md#url-zilch-engine-document)| | |
+| |[ Name](webbrowserpopupcreateevent.md#name-zilch-engine-documen)|[webbrowserevent](webbrowserevent.md)| |
+| |[ Url](webbrowserpopupcreateevent.md#url-zilch-engine-document)| | |
 
 
  #  Properties
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Url : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Url : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -1,4 +1,4 @@
-Flags are very similar to [enums](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/enums.md) except that they are ordered like a bit field (i.e. increasing in powers of two starting at 1 by default). Flags can be defined with the **flags** keyword:
+Flags are very similar to [enums](enums.md) except that they are ordered like a bit field (i.e. increasing in powers of two starting at 1 by default). Flags can be defined with the **flags** keyword:
 
 ```lang=csharp, name=Flags Type Defined
 flags Pizza 
@@ -113,7 +113,7 @@ Cookie.Sugar          as Integer: 3
 ```
 *Notice how after MacadamiaNuts is set to 3, the increment is no longer on powers of 2*
 
-The underlying structure is [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md); therefore, you could interpret Integers as a flags type:
+The underlying structure is [integer](../../../code_reference/nada_base_types/integer.md); therefore, you could interpret Integers as a flags type:
 
 ```lang=csharp, name=Casting Integers to Flags
 var random: Pizza = 583 as Pizza;
@@ -297,10 +297,10 @@ The binary '+' operator 'Positive / Add' is not valid with 'Pizza' and 'Cookie'.
 
  # Related Materials
  # Manual
-- [enums](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/enums.md)
+- [enums](enums.md)
 
  ## Code Reference
-- [flags_reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/flags_reference.md)
-- [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) 
+- [flags_reference](../../../code_reference/flags_reference.md)
+- [integer](../../../code_reference/nada_base_types/integer.md) 
 
  

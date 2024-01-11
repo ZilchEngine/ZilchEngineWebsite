@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GizmoWorldTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/translategizmoupdateevent.md#gizmoworldtranslation-ze)|[gizmoupdateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoupdateevent.md)| |
+| |[ GizmoWorldTranslation](translategizmoupdateevent.md#gizmoworldtranslation-ze)|[gizmoupdateevent](gizmoupdateevent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  GizmoWorldTranslation : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  GizmoWorldTranslation : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

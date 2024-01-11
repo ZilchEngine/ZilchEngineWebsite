@@ -1,4 +1,4 @@
-Having already seen [spaces](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/architecture/spaces.md) in a previous tutorial, we will now talk about a component that only appears on space objects: the [TimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md).
+Having already seen [spaces](../spaces.md) in a previous tutorial, we will now talk about a component that only appears on space objects: the [TimeSpace](../../../../code_reference/class_reference/timespace.md).
 
 
  #  Learning Objectives
@@ -11,37 +11,37 @@ Having already seen [spaces](https://github.com/ZilchEngine/ZilchDocs/blob/maste
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [BoxCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md)
- - Under [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
-  - Set `name=DynamicState,icon=list` to [Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../../code_reference/class_reference/rigidbody.md)
+ - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : [BoxCollider](../../../../code_reference/class_reference/boxcollider.md)
+ - Under [RigidBody](../../../../code_reference/class_reference/rigidbody.md)
+  - Set `name=DynamicState,icon=list` to [Static](../../../../code_reference/enum_reference.md#rigidbodydynamicstate)
+ - Under [Transform](../../../../code_reference/class_reference/transform.md)
   - Set Scale  to `[25,1,1]`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsphere)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
 - In the `Properties Window`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[-10,5,0]`
- - Under [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
+ - Under [RigidBody](../../../../code_reference/class_reference/rigidbody.md)
   - Set Velocity  to `[10,0,0]`
 
 
  #  What is the TimeSpace?
 
 
-The [TimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md) component allows for developer control over time in the space it is attached to. Time in that space can be slowed or even stopped. Let's see what the demo looks like right now to get a frame of reference.
+The [TimeSpace](../../../../code_reference/class_reference/timespace.md) component allows for developer control over time in the space it is attached to. Time in that space can be slowed or even stopped. Let's see what the demo looks like right now to get a frame of reference.
 
-  - [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+  - [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
 ![control](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94788.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 The ball falls, bounces, and rolls at a normal pace for the values it was initialized with.
 
@@ -49,17 +49,17 @@ The ball falls, bounces, and rolls at a normal pace for the values it was initia
  ##  TimeScale
 
 
-A common dramatic effect is to slow down time during some in-game event. Slow motion effects are typically implemented via the [TimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md#timescale-zilch-engine-do) property, which is a scalar for the rate at which time passes. There are also some times where running your project at a slower speed will allow you to debug issues more easily. Let's take a look at how to change TimeScale  using the UI.
+A common dramatic effect is to slow down time during some in-game event. Slow motion effects are typically implemented via the [TimeScale](../../../../code_reference/class_reference/timespace.md#timescale-zilch-engine-do) property, which is a scalar for the rate at which time passes. There are also some times where running your project at a slower speed will allow you to debug issues more easily. Let's take a look at how to change TimeScale  using the UI.
 
 (NOTE)**Space Selection**:
- The [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md) can be selected via the `Select` menu, by clicking in the viewport and then pressing `Shift + S`, by pressing `Ctrl + Shift + S` with any window in focus, or by using the [ SelectSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#selectspace) command.
+ The [Space](../../../../code_reference/class_reference/space.md) can be selected via the `Select` menu, by clicking in the viewport and then pressing `Shift + S`, by pressing `Ctrl + Shift + S` with any window in focus, or by using the [ SelectSpace](../../../../code_reference/command_reference.md#selectspace) command.
  ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94805.png)
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ SelectSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#selectspace)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
 - In the `Properties Window`
- - Under [TimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md)
+ - Under [TimeSpace](../../../../code_reference/class_reference/timespace.md)
   - Set TimeScale  to `0.5`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -69,20 +69,20 @@ A common dramatic effect is to slow down time during some in-game event. Slow mo
 *Demo running half speed with `0.5` TimeScale*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 Now we can see that the time scale directly affects the rate of time without affecting the framerate.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ SelectSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#selectspace)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
 - In the `Properties Window`
- - Under [TimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md)
+ - Under [TimeSpace](../../../../code_reference/class_reference/timespace.md)
   - Set TimeScale  to `1.0`
 
 
  ##  Adjusting TimeScale In Script
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `TimeControl`
 - Update the `TimeControl` script to the following:
 
@@ -121,11 +121,11 @@ class TimeControl : NadaComponent
 }
 ```
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+- [Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `TimeControl`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#console)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+ - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : `TimeControl`
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../../code_reference/command_reference.md#console)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
  - Adjust the time scale using the `up` and `down` keys
 
 
@@ -136,9 +136,9 @@ class TimeControl : NadaComponent
 *TimeScale  being adjusted up and down*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
 
-Above we can see the demo progressing slower and then faster as the [TimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md#timescale-zilch-engine-do) is adjusted using the keyboard.
+Above we can see the demo progressing slower and then faster as the [TimeScale](../../../../code_reference/class_reference/timespace.md#timescale-zilch-engine-do) is adjusted using the keyboard.
 
 
  #  Pausing
@@ -172,7 +172,7 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
       this.TogglePause();
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
  - Press `Space` to pause the game and then press `Space` again to attempt to unpause the game
 
 
@@ -180,9 +180,9 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
 ![stopped](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94809.gif)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
 
-You probably noticed that the game will not unpause. This is because when the [TimeSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md) is paused, [Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.md), listening for the [KeyDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#keydown) event, or to poll the keyboard input on [FrameUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#frameupdate).
+You probably noticed that the game will not unpause. This is because when the [TimeSpace](../../../../code_reference/class_reference/timespace.md) is paused, [Keyboard](../../../../code_reference/class_reference/keyboard.md), listening for the [KeyDown](../../../../code_reference/event_reference.md#keydown) event, or to poll the keyboard input on [FrameUpdate](../../../../code_reference/event_reference.md#frameupdate).
 
 - Update the `Initialize` function in `TimeControl` to the following:
 ```name=Initialize, lang=csharp
@@ -207,7 +207,7 @@ You probably noticed that the game will not unpause. This is because when the [T
   }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
  - Press `Space` to pause the game and then press `Space` again to attempt to unpause the game
 
 
@@ -215,42 +215,42 @@ You probably noticed that the game will not unpause. This is because when the [T
 ![pausing](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94811.gif)
 
 
-*Pausing with and unpausing in reaction to the [KeyDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#keydown) event*
+*Pausing with and unpausing in reaction to the [KeyDown](../../../../code_reference/event_reference.md#keydown) event*
 
 
 Now we can see the game being paused and unpaused successfully.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 
  #  Related Materials
  ##  Manual
-- [LauncherNewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/launchernewproject.md)
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)
-- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [LauncherNewProject](../../../zilchmanual/editor/editorcommands/launchernewproject.md)
+- [commands](../../../zilchmanual/editor/editorcommands/commands.md)
+- [selectobject](../../../zilchmanual/editor/editorcommands/selectobject.md)
+- [addremovecomponent](../../../zilchmanual/editor/addremovecomponent.md)
+- [resourceadding](../../../zilchmanual/editor/editorcommands/resourceadding.md)
 
  ##  Reference
  ###  Commands
-- [ CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [ CreateSphere](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsphere)
-- [ SelectSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#selectspace)
-- [ Console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#console)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ CreateSprite](../../../../code_reference/command_reference.md#createsprite)
+- [ CreateSphere](../../../../code_reference/command_reference.md#createsphere)
+- [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
+- [ Console](../../../../code_reference/command_reference.md#console)
+- [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../../code_reference/command_reference.md#stopgame)
 
  ###  Classes
-- [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [timespace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md)
-- [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
-- [boxcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md)
-- [keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.md)
+- [transform](../../../../code_reference/class_reference/transform.md)
+- [timespace](../../../../code_reference/class_reference/timespace.md)
+- [rigidbody](../../../../code_reference/class_reference/rigidbody.md)
+- [boxcollider](../../../../code_reference/class_reference/boxcollider.md)
+- [keyboard](../../../../code_reference/class_reference/keyboard.md)
 
  ###  Events
-- [ LogicUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#logicupdate)
-- [ FrameUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#frameupdate)
-- [ KeyDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#keydown)
+- [ LogicUpdate](../../../../code_reference/event_reference.md#logicupdate)
+- [ FrameUpdate](../../../../code_reference/event_reference.md#frameupdate)
+- [ KeyDown](../../../../code_reference/event_reference.md#keydown)
 
  ##  Development Tasks
 - {T1178} 

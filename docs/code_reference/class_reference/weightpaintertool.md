@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeatherRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/weightpaintertool.md#featherradius-zilch-engin)|[heightmapsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapsubtool.md)| |
-| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/weightpaintertool.md#radius-zilch-engine-docum)| | |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/weightpaintertool.md#strength-zilch-engine-doc)| | |
-| |[ TextureChannel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/weightpaintertool.md#texturechannel-zilch-engi)| | |
+| |[ FeatherRadius](weightpaintertool.md#featherradius-zilch-engin)|[heightmapsubtool](heightmapsubtool.md)| |
+| |[ Radius](weightpaintertool.md#radius-zilch-engine-docum)| | |
+| |[ Strength](weightpaintertool.md#strength-zilch-engine-doc)| | |
+| |[ TextureChannel](weightpaintertool.md#texturechannel-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  FeatherRadius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FeatherRadius : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Radius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Radius : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  Strength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Strength : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  TextureChannel : [HeightTextureSelect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#heighttextureselect)
+ #  TextureChannel : [HeightTextureSelect](../enum_reference.md#heighttextureselect)
 
 > 
 > ``` lang=cpp, name=Nada

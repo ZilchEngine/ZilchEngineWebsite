@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.md#userconfig-void)|[ UserEmail](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.md#useremail-zilch-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ UserName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/userconfig.md#username-zilch-engine-doc)| | |
+|[ Constructor](userconfig.md#userconfig-void)|[ UserEmail](userconfig.md#useremail-zilch-engine-do)|[component](component.md)| |
+| |[ UserName](userconfig.md#username-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  UserEmail : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  UserEmail : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  UserName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  UserName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

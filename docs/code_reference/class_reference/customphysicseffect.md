@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffect.md#customphysicseffect-void)| |[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)| |
+|[ Constructor](customphysicseffect.md#customphysicseffect-void)| |[physicseffect](physicseffect.md)| |
 
 
  #  Properties

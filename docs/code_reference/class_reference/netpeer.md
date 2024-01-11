@@ -6,46 +6,46 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddUser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#adduser-zilch-engine-docu)|[ BasicHostInfoTimeout](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#basichostinfotimeout-zer)|[netobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netobject.md)| |
-|[ CancelHostRequests](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#cancelhostrequests-void)|[ ExtraHostInfoTimeout](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#extrahostinfotimeout-zer)| | |
-|[ ClearHostList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#clearhostlist-void)|[ FrameFillSkip](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#framefillskip-zilch-engin)| | |
-|[ ClearHostLists](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#clearhostlists-void)|[ FrameFillWarning](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#framefillwarning-zilch-en)| | |
-|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#close-void)|[ HostPingInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#hostpinginterval-zilch-en)| | |
-|[ ConnectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#connectlink-zilch-engine)|[ HostPortRangeEnd](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#hostportrangeend-zilch-en)| | |
-|[ DisconnectAllLinks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#disconnectalllinks-zero)|[ HostPortRangeStart](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#hostportrangestart-zero)| | |
-|[ DisconnectLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#disconnectlink-zilch-engi)|[ Info](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#info-zilch-engine-documen)| | |
-|[ DiscoverHostList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#discoverhostlist-zilch-en)|[ InternetDiscoverable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#internetdiscoverable-zer)| | |
-|[ GetHostByAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#gethostbyaddress-zilch-en)|[ InternetHostListTimeout](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#internethostlisttimeout)| | |
-|[ GetHostByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#gethostbyindex-zilch-engi)|[ InternetHostPublishInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#internethostpublishinter)| | |
-|[ GetHostList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#gethostlist-zilch-engine)|[ InternetHostRecordLifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#internethostrecordlifeti)| | |
-|[ GetLinkCreationDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getlinkcreationdirection)|[ InternetSameIpHostRecordLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#internetsameiphostrecord)| | |
-|[ GetLinkInternetProtocol](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getlinkinternetprotocol)|[ Ipv4Address](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#ipv4address-zilch-engine)| | |
-|[ GetLinkIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getlinkipaddress-zilch-en)|[ Ipv4Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#ipv4host-zilch-engine-doc)| | |
-|[ GetLinkNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getlinknetpeerid-zilch-en)|[ Ipv4Port](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#ipv4port-zilch-engine-doc)| | |
-|[ GetLinkState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getlinkstate-zilch-engine)|[ IsOpen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#isopen-zilch-engine-docum)| | |
-|[ GetLinkStatus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getlinkstatus-zilch-engin)|[ LanDiscoverable](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#landiscoverable-zilch-eng)| | |
-|[ GetNetObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getnetobject-zilch-engine)|[ LinkCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#linkcount-zilch-engine-do)| | |
-|[ GetNetSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getnetspace-zilch-engine)|[ NetObjectCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#netobjectcount-zilch-engi)| | |
-|[ GetOurIpAddressFromLink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getouripaddressfromlink)|[ NetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#netpeerid-zilch-engine-do)| | |
-|[ GetUser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getuser-zilch-engine-docu)|[ NetSpaceCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#netspacecount-zilch-engin)| | |
-|[ GetUsersAddedByPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#getusersaddedbypeer-zero)|[ NetUserCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#netusercount-zilch-engine)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#netpeer-void)|[ UserCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#usercount-zilch-engine-do)| | |
-|[ Open](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#open-zilch-engine-documen)|[ Users](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#users-zilch-engine-docume)| | |
-|[ OpenClient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#openclient-zilch-engine-d)|[ UsersAddedByMyPeer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#usersaddedbymypeer-zero)| | |
-|[ OpenOffline](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#openoffline-zilch-engine)| | | |
-|[ OpenServer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#openserver-zilch-engine-d)| | | |
-|[ RefreshHost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#refreshhost-zilch-engine)| | | |
-|[ RefreshHostList](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#refreshhostlist-zilch-eng)| | | |
-|[ RemoveUser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#removeuser-zilch-engine-d)| | | |
-|[ SubscribeToMasterServer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#subscribetomasterserver)| | | |
-|[ UnsubscribeFromMasterServer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeer.md#unsubscribefrommasterser)| | | |
+|[ AddUser](netpeer.md#adduser-zilch-engine-docu)|[ BasicHostInfoTimeout](netpeer.md#basichostinfotimeout-zer)|[netobject](netobject.md)| |
+|[ CancelHostRequests](netpeer.md#cancelhostrequests-void)|[ ExtraHostInfoTimeout](netpeer.md#extrahostinfotimeout-zer)| | |
+|[ ClearHostList](netpeer.md#clearhostlist-void)|[ FrameFillSkip](netpeer.md#framefillskip-zilch-engin)| | |
+|[ ClearHostLists](netpeer.md#clearhostlists-void)|[ FrameFillWarning](netpeer.md#framefillwarning-zilch-en)| | |
+|[ Close](netpeer.md#close-void)|[ HostPingInterval](netpeer.md#hostpinginterval-zilch-en)| | |
+|[ ConnectLink](netpeer.md#connectlink-zilch-engine)|[ HostPortRangeEnd](netpeer.md#hostportrangeend-zilch-en)| | |
+|[ DisconnectAllLinks](netpeer.md#disconnectalllinks-zero)|[ HostPortRangeStart](netpeer.md#hostportrangestart-zero)| | |
+|[ DisconnectLink](netpeer.md#disconnectlink-zilch-engi)|[ Info](netpeer.md#info-zilch-engine-documen)| | |
+|[ DiscoverHostList](netpeer.md#discoverhostlist-zilch-en)|[ InternetDiscoverable](netpeer.md#internetdiscoverable-zer)| | |
+|[ GetHostByAddress](netpeer.md#gethostbyaddress-zilch-en)|[ InternetHostListTimeout](netpeer.md#internethostlisttimeout)| | |
+|[ GetHostByIndex](netpeer.md#gethostbyindex-zilch-engi)|[ InternetHostPublishInterval](netpeer.md#internethostpublishinter)| | |
+|[ GetHostList](netpeer.md#gethostlist-zilch-engine)|[ InternetHostRecordLifetime](netpeer.md#internethostrecordlifeti)| | |
+|[ GetLinkCreationDirection](netpeer.md#getlinkcreationdirection)|[ InternetSameIpHostRecordLimit](netpeer.md#internetsameiphostrecord)| | |
+|[ GetLinkInternetProtocol](netpeer.md#getlinkinternetprotocol)|[ Ipv4Address](netpeer.md#ipv4address-zilch-engine)| | |
+|[ GetLinkIpAddress](netpeer.md#getlinkipaddress-zilch-en)|[ Ipv4Host](netpeer.md#ipv4host-zilch-engine-doc)| | |
+|[ GetLinkNetPeerId](netpeer.md#getlinknetpeerid-zilch-en)|[ Ipv4Port](netpeer.md#ipv4port-zilch-engine-doc)| | |
+|[ GetLinkState](netpeer.md#getlinkstate-zilch-engine)|[ IsOpen](netpeer.md#isopen-zilch-engine-docum)| | |
+|[ GetLinkStatus](netpeer.md#getlinkstatus-zilch-engin)|[ LanDiscoverable](netpeer.md#landiscoverable-zilch-eng)| | |
+|[ GetNetObject](netpeer.md#getnetobject-zilch-engine)|[ LinkCount](netpeer.md#linkcount-zilch-engine-do)| | |
+|[ GetNetSpace](netpeer.md#getnetspace-zilch-engine)|[ NetObjectCount](netpeer.md#netobjectcount-zilch-engi)| | |
+|[ GetOurIpAddressFromLink](netpeer.md#getouripaddressfromlink)|[ NetPeerId](netpeer.md#netpeerid-zilch-engine-do)| | |
+|[ GetUser](netpeer.md#getuser-zilch-engine-docu)|[ NetSpaceCount](netpeer.md#netspacecount-zilch-engin)| | |
+|[ GetUsersAddedByPeer](netpeer.md#getusersaddedbypeer-zero)|[ NetUserCount](netpeer.md#netusercount-zilch-engine)| | |
+|[ Constructor](netpeer.md#netpeer-void)|[ UserCount](netpeer.md#usercount-zilch-engine-do)| | |
+|[ Open](netpeer.md#open-zilch-engine-documen)|[ Users](netpeer.md#users-zilch-engine-docume)| | |
+|[ OpenClient](netpeer.md#openclient-zilch-engine-d)|[ UsersAddedByMyPeer](netpeer.md#usersaddedbymypeer-zero)| | |
+|[ OpenOffline](netpeer.md#openoffline-zilch-engine)| | | |
+|[ OpenServer](netpeer.md#openserver-zilch-engine-d)| | | |
+|[ RefreshHost](netpeer.md#refreshhost-zilch-engine)| | | |
+|[ RefreshHostList](netpeer.md#refreshhostlist-zilch-eng)| | | |
+|[ RemoveUser](netpeer.md#removeuser-zilch-engine-d)| | | |
+|[ SubscribeToMasterServer](netpeer.md#subscribetomasterserver)| | | |
+|[ UnsubscribeFromMasterServer](netpeer.md#unsubscribefrommasterser)| | | |
 
 
  #  Properties
 
 
 ---  
- #  BasicHostInfoTimeout : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BasicHostInfoTimeout : [real](../nada_base_types/real.md)
 
 > [Client/Server] Determines the amount of time the client is willing to wait for.
 > ``` lang=cpp, name=Nada
@@ -53,7 +53,7 @@
 
 
 ---  
- #  ExtraHostInfoTimeout : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ExtraHostInfoTimeout : [real](../nada_base_types/real.md)
 
 > [Client/Server] Determines the amount of time the client will wait for extra host info from a server.
 > ``` lang=cpp, name=Nada
@@ -61,7 +61,7 @@
 
 
 ---  
- #  FrameFillSkip : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FrameFillSkip : [real](../nada_base_types/real.md)
 
 > Controls when to skip change replication for the current frame because of remaining outgoing bandwidth utilization ratio on any given link.
 > ``` lang=cpp, name=Nada
@@ -69,7 +69,7 @@
 
 
 ---  
- #  FrameFillWarning : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FrameFillWarning : [real](../nada_base_types/real.md)
 
 > Controls when the user will be warned of their current frame's outgoing bandwidth utilization ratio on any given link.
 > ``` lang=cpp, name=Nada
@@ -77,7 +77,7 @@
 
 
 ---  
- #  HostPingInterval : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  HostPingInterval : [real](../nada_base_types/real.md)
 
 > [Client/Server] The time between (potentially) redundant pings from a net peer.
 > ``` lang=cpp, name=Nada
@@ -85,7 +85,7 @@
 
 
 ---  
- #  HostPortRangeEnd : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  HostPortRangeEnd : [integer](../nada_base_types/integer.md)
 
 > Configures the inclusive range of ports used to host this game.
 > ``` lang=cpp, name=Nada
@@ -93,7 +93,7 @@
 
 
 ---  
- #  HostPortRangeStart : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  HostPortRangeStart : [integer](../nada_base_types/integer.md)
 
 > Configures the inclusive range of ports used to host this game.
 > ``` lang=cpp, name=Nada
@@ -101,7 +101,7 @@
 
 
 ---  
- #  Info : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Info : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -111,7 +111,7 @@
 
 
 ---  
- #  InternetDiscoverable : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  InternetDiscoverable : [boolean](../nada_base_types/boolean.md)
 
 > Configures the server peer to be discoverable on the internet.
 > ``` lang=cpp, name=Nada
@@ -119,7 +119,7 @@
 
 
 ---  
- #  InternetHostListTimeout : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  InternetHostListTimeout : [real](../nada_base_types/real.md)
 
 > [Client/Server] Determines the amount of time the client is willing to wait to get a host list from master server.
 > ``` lang=cpp, name=Nada
@@ -127,7 +127,7 @@
 
 
 ---  
- #  InternetHostPublishInterval : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  InternetHostPublishInterval : [real](../nada_base_types/real.md)
 
 > Controls how often the internet discoverable peer sends a host record message to its master server subscriptions.
 > ``` lang=cpp, name=Nada
@@ -135,7 +135,7 @@
 
 
 ---  
- #  InternetHostRecordLifetime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  InternetHostRecordLifetime : [real](../nada_base_types/real.md)
 
 > Controls the lifetime of every host record stored on the master server.
 > ``` lang=cpp, name=Nada
@@ -143,7 +143,7 @@
 
 
 ---  
- #  InternetSameIpHostRecordLimit : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  InternetSameIpHostRecordLimit : [integer](../nada_base_types/integer.md)
 
 > Controls how many host records from the same IP address may be stored on the master server (used to prevent flood attacks).
 > ``` lang=cpp, name=Nada
@@ -151,7 +151,7 @@
 
 
 ---  
- #  Ipv4Address : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  Ipv4Address : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -161,7 +161,7 @@
 
 
 ---  
- #  Ipv4Host : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Ipv4Host : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -171,7 +171,7 @@
 
 
 ---  
- #  Ipv4Port : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Ipv4Port : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -181,7 +181,7 @@
 
 
 ---  
- #  IsOpen : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsOpen : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -191,7 +191,7 @@
 
 
 ---  
- #  LanDiscoverable : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LanDiscoverable : [boolean](../nada_base_types/boolean.md)
 
 > Configures the server peer to be discoverable on the local area network.
 > ``` lang=cpp, name=Nada
@@ -199,7 +199,7 @@
 
 
 ---  
- #  LinkCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  LinkCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -209,7 +209,7 @@
 
 
 ---  
- #  NetObjectCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetObjectCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -219,7 +219,7 @@
 
 
 ---  
- #  NetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetPeerId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -229,7 +229,7 @@
 
 
 ---  
- #  NetSpaceCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetSpaceCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -239,7 +239,7 @@
 
 
 ---  
- #  NetUserCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NetUserCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -249,7 +249,7 @@
 
 
 ---  
- #  UserCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  UserCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -259,7 +259,7 @@
 
 
 ---  
- #  Users : [netuserrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md)
+ #  Users : [netuserrange](netuserrange.md)
 
  `read-only`
 
@@ -269,7 +269,7 @@
 
 
 ---  
- #  UsersAddedByMyPeer : [netuserrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md)
+ #  UsersAddedByMyPeer : [netuserrange](netuserrange.md)
 
  `read-only`
 
@@ -283,7 +283,7 @@
 
 
 ---  
- #  AddUser : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddUser : [boolean](../nada_base_types/boolean.md)
 
 > Initiates a network user add request to add a new user belonging to our local peer (delayed until end of frame). Listen to the NetUser event interface to handle the results. Returns true if the request was successfully initiated, else false.
 > |Name|Type|Description|
@@ -294,24 +294,24 @@
 
 
 ---  
- #  AddUser : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddUser : [boolean](../nada_base_types/boolean.md)
 
 > Initiates a network user add request to add a new user belonging to our local peer (delayed until end of frame). Listen to the NetUser event interface to handle the results. Returns true if the request was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |requestEvent|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |requestEvent|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function AddUser(requestEvent : Event) : Boolean
 > ``` 
 
 
 ---  
- #  AddUser : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddUser : [boolean](../nada_base_types/boolean.md)
 
 > Initiates a network user add request to add a new user belonging to our local peer (delayed until end of frame). Listen to the NetUser event interface to handle the results. Returns true if the request was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |requestBundle|[eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)| |
+> |requestBundle|[eventbundle](eventbundle.md)| |
 > ``` lang=cpp, name=Nada
 > function AddUser(requestBundle : EventBundle) : Boolean
 > ``` 
@@ -334,7 +334,7 @@
 > Clears the given network's host list.
 > |Name|Type|Description|
 > |---|---|---|
-> |network|[Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)| |
+> |network|[Network](../enum_reference.md#network)| |
 > ``` lang=cpp, name=Nada
 > function ClearHostList(network : Network)
 > ``` 
@@ -363,45 +363,45 @@
 
 
 ---  
- #  ConnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ConnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client] Initiates a connect attempt with the remote peer (delayed until end of frame). Listen to the NetLink event interface to handle the results. Returns true if a connect request was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function ConnectLink(ipAddress : IpAddress) : Boolean
 > ``` 
 
 
 ---  
- #  ConnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ConnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client] Initiates a connect attempt with the remote peer (delayed until end of frame). Listen to the NetLink event interface to handle the results. Returns true if a connect request was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
-> |requestEvent|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
+> |requestEvent|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function ConnectLink(ipAddress : IpAddress, requestEvent : Event) : Boolean
 > ``` 
 
 
 ---  
- #  ConnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ConnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client] Initiates a connect attempt with the remote peer (delayed until end of frame). Listen to the NetLink event interface to handle the results. Returns true if a connect request was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
-> |requestBundle|[eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
+> |requestBundle|[eventbundle](eventbundle.md)| |
 > ``` lang=cpp, name=Nada
 > function ConnectLink(ipAddress : IpAddress, requestBundle : EventBundle) : Boolean
 > ``` 
 
 
 ---  
- #  DisconnectAllLinks : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  DisconnectAllLinks : [integer](../nada_base_types/integer.md)
 
 > [Client/Server] Disconnects by request from all remote peers. Listen to the NetLink event interface to handle the results. Returns the number of links disconnected.
 > |Name|Type|Description|
@@ -412,295 +412,295 @@
 
 
 ---  
- #  DisconnectAllLinks : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  DisconnectAllLinks : [integer](../nada_base_types/integer.md)
 
 > [Client/Server] Disconnects by request from all remote peers. Listen to the NetLink event interface to handle the results. Returns the number of links disconnected.
 > |Name|Type|Description|
 > |---|---|---|
-> |requestEvent|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |requestEvent|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectAllLinks(requestEvent : Event) : Integer
 > ``` 
 
 
 ---  
- #  DisconnectAllLinks : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  DisconnectAllLinks : [integer](../nada_base_types/integer.md)
 
 > [Client/Server] Disconnects by request from all remote peers. Listen to the NetLink event interface to handle the results. Returns the number of links disconnected.
 > |Name|Type|Description|
 > |---|---|---|
-> |requestBundle|[eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)| |
+> |requestBundle|[eventbundle](eventbundle.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectAllLinks(requestBundle : EventBundle) : Integer
 > ``` 
 
 
 ---  
- #  DisconnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DisconnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client/Server] Disconnects by request from the remote peer. Listen to the NetLink event interface to handle the results. Returns true if a disconnect notice was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectLink(netPeerId : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  DisconnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DisconnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client/Server] Disconnects by request from the remote peer. Listen to the NetLink event interface to handle the results. Returns true if a disconnect notice was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |requestEvent|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
+> |requestEvent|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectLink(netPeerId : Integer, requestEvent : Event) : Boolean
 > ``` 
 
 
 ---  
- #  DisconnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DisconnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client/Server] Disconnects by request from the remote peer. Listen to the NetLink event interface to handle the results. Returns true if a disconnect notice was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |requestBundle|[eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
+> |requestBundle|[eventbundle](eventbundle.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectLink(netPeerId : Integer, requestBundle : EventBundle) : Boolean
 > ``` 
 
 
 ---  
- #  DisconnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DisconnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client/Server] Disconnects by request from the remote peer. Listen to the NetLink event interface to handle the results. Returns true if a disconnect notice was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectLink(ipAddress : IpAddress) : Boolean
 > ``` 
 
 
 ---  
- #  DisconnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DisconnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client/Server] Disconnects by request from the remote peer. Listen to the NetLink event interface to handle the results. Returns true if a disconnect notice was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
-> |requestEvent|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
+> |requestEvent|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectLink(ipAddress : IpAddress, requestEvent : Event) : Boolean
 > ``` 
 
 
 ---  
- #  DisconnectLink : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DisconnectLink : [boolean](../nada_base_types/boolean.md)
 
 > [Client/Server] Disconnects by request from the remote peer. Listen to the NetLink event interface to handle the results. Returns true if a disconnect notice was successfully initiated, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
-> |requestBundle|[eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
+> |requestBundle|[eventbundle](eventbundle.md)| |
 > ``` lang=cpp, name=Nada
 > function DisconnectLink(ipAddress : IpAddress, requestBundle : EventBundle) : Boolean
 > ``` 
 
 
 ---  
- #  DiscoverHostList : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DiscoverHostList : [boolean](../nada_base_types/boolean.md)
 
 > Discovers the given network's host list. Listen to the NetHost event interface to handle the results. Returns true if the discovery was successfully started, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |network|[Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)| |
-> |removeStaleHosts|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |network|[Network](../enum_reference.md#network)| |
+> |removeStaleHosts|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function DiscoverHostList(network : Network, removeStaleHosts : Boolean) : Boolean
 > ``` 
 
 
 ---  
- #  GetHostByAddress : [nethost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md)
+ #  GetHostByAddress : [nethost](nethost.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function GetHostByAddress(ipAddress : IpAddress) : NetHost
 > ``` 
 
 
 ---  
- #  GetHostByAddress : [nethost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md)
+ #  GetHostByAddress : [nethost](nethost.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |network|[Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)| |
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |network|[Network](../enum_reference.md#network)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function GetHostByAddress(network : Network, ipAddress : IpAddress) : NetHost
 > ``` 
 
 
 ---  
- #  GetHostByIndex : [nethost](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethost.md)
+ #  GetHostByIndex : [nethost](nethost.md)
 
 > Returns the first equivalent host found in the given network's host list, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |network|[Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)| |
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |network|[Network](../enum_reference.md#network)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetHostByIndex(network : Network, index : Integer) : NetHost
 > ``` 
 
 
 ---  
- #  GetHostList : [nethostrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrange.md)
+ #  GetHostList : [nethostrange](nethostrange.md)
 
 > Returns the given network's host list.
 > |Name|Type|Description|
 > |---|---|---|
-> |network|[Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)| |
+> |network|[Network](../enum_reference.md#network)| |
 > ``` lang=cpp, name=Nada
 > function GetHostList(network : Network) : NetHostRange
 > ``` 
 
 
 ---  
- #  GetLinkCreationDirection : [TransmissionDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#transmissiondirection)
+ #  GetLinkCreationDirection : [TransmissionDirection](../enum_reference.md#transmissiondirection)
 
 > [Client/Server] Returns the direction in which the link was created (which peer initiated the connection), else TransmissionDirection::Unspecified.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLinkCreationDirection(netPeerId : Integer) : TransmissionDirection
 > ``` 
 
 
 ---  
- #  GetLinkInternetProtocol : [InternetProtocol](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#internetprotocol)
+ #  GetLinkInternetProtocol : [InternetProtocol](../enum_reference.md#internetprotocol)
 
 > [Client/Server] Returns the link's IP address protocol version, else InternetProtocol::Unspecified. This IP address protocol will never change for the lifetime of this link.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLinkInternetProtocol(netPeerId : Integer) : InternetProtocol
 > ``` 
 
 
 ---  
- #  GetLinkIpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  GetLinkIpAddress : [ipaddress](ipaddress.md)
 
 > [Client/Server] Returns the remote peer's IP address (as seen from our perspective), else IpAddress(). For outgoing links this is the same IP address specified in our connect call. This IP address will never change for the lifetime of this link.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLinkIpAddress(netPeerId : Integer) : IpAddress
 > ``` 
 
 
 ---  
- #  GetLinkNetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetLinkNetPeerId : [integer](../nada_base_types/integer.md)
 
 > Returns the remote peer's unique network identifier, else 0. [Server] This will be non-zero if the client is connected, else zero. [Client] This will always be zero.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLinkNetPeerId(ipAddress : IpAddress) : Integer
 > ``` 
 
 
 ---  
- #  GetLinkState : [LinkState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#linkstate)
+ #  GetLinkState : [LinkState](../enum_reference.md#linkstate)
 
 > [Client/Server] Returns the link's specific state, else LinkState::Unspecified.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLinkState(netPeerId : Integer) : LinkState
 > ``` 
 
 
 ---  
- #  GetLinkStatus : [LinkStatus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#linkstatus)
+ #  GetLinkStatus : [LinkStatus](../enum_reference.md#linkstatus)
 
 > [Client/Server] Returns the link's overall status, else LinkStatus::Unspecified.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLinkStatus(netPeerId : Integer) : LinkStatus
 > ``` 
 
 
 ---  
- #  GetNetObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  GetNetObject : [cog](cog.md)
 
 > Returns the live net object specified if it is known locally, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |netObjectId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netObjectId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetNetObject(netObjectId : Integer) : Cog
 > ``` 
 
 
 ---  
- #  GetNetSpace : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  GetNetSpace : [space](space.md)
 
 > Returns the live net space specified if it is known locally, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |netObjectId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netObjectId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetNetSpace(netObjectId : Integer) : Space
 > ``` 
 
 
 ---  
- #  GetOurIpAddressFromLink : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  GetOurIpAddressFromLink : [ipaddress](ipaddress.md)
 
 > [Client/Server] Returns our peer's IP address (as seen from their perspective), else IpAddress(). For incoming links this is the same IP address specified in their connect call. (Available if the link is connected or incoming and attempting connection) It is absolutely possible that this does not match our local IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetOurIpAddressFromLink(netPeerId : Integer) : IpAddress
 > ``` 
 
 
 ---  
- #  GetUser : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  GetUser : [cog](cog.md)
 
 > Returns the specified network user, else nullptr.
 > |Name|Type|Description|
 > |---|---|---|
-> |netUserId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netUserId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetUser(netUserId : Integer) : Cog
 > ``` 
 
 
 ---  
- #  GetUsersAddedByPeer : [netuserrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuserrange.md)
+ #  GetUsersAddedByPeer : [netuserrange](netuserrange.md)
 
 > Returns the network users added by the specified peer.
 > |Name|Type|Description|
 > |---|---|---|
-> |netPeerId|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |netPeerId|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetUsersAddedByPeer(netPeerId : Integer) : NetUserRange
 > ``` 
@@ -720,46 +720,46 @@
 
 
 ---  
- #  Open : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Open : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer with the specified network role on any available port. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |role|[NetRole](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#netrole)| |
+> |role|[NetRole](../enum_reference.md#netrole)| |
 > ``` lang=cpp, name=Nada
 > function Open(role : NetRole) : Boolean
 > ``` 
 
 
 ---  
- #  Open : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Open : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer with the specified network role and port settings. Specify port 0 to indicate any available port should be used. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |role|[NetRole](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#netrole)| |
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |role|[NetRole](../enum_reference.md#netrole)| |
+> |port|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Open(role : NetRole, port : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  Open : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Open : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer with the specified network role, port, and retry settings. For the given number of retries, if binding is unsuccessful, the port number is incremented and binding is attempted again. Specify port 0 to indicate any available port should be used. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |role|[NetRole](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#netrole)| |
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |retries|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |role|[NetRole](../enum_reference.md#netrole)| |
+> |port|[integer](../nada_base_types/integer.md)| |
+> |retries|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Open(role : NetRole, port : Integer, retries : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  OpenClient : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OpenClient : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer as a client on any available port. Returns true if successful, else false.
 > |Name|Type|Description|
@@ -770,32 +770,32 @@
 
 
 ---  
- #  OpenClient : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OpenClient : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer as a client with the specified network port. Specify port 0 to indicate any available port should be used. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |port|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function OpenClient(port : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  OpenClient : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OpenClient : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer as a client with the specified network port and retry settings. For the given number of retries, if binding is unsuccessful, the port number is incremented and binding is attempted again. Specify port 0 to indicate any available port should be used. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |retries|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |port|[integer](../nada_base_types/integer.md)| |
+> |retries|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function OpenClient(port : Integer, retries : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  OpenOffline : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OpenOffline : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer in offline mode. In offline mode, the peer will act as a pass-through and simulate all applicable network events locally. Always succeeds and returns true.
 > |Name|Type|Description|
@@ -806,7 +806,7 @@
 
 
 ---  
- #  OpenServer : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OpenServer : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer as a server on any available port. Returns true if successful, else false.
 > |Name|Type|Description|
@@ -817,81 +817,81 @@
 
 
 ---  
- #  OpenServer : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OpenServer : [boolean](../nada_base_types/boolean.md)
 
 > Opens the peer as a server with the specified network port. Specify port 0 to indicate any available port should be used. Returns true if successful, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |port|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function OpenServer(port : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  RefreshHost : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RefreshHost : [boolean](../nada_base_types/boolean.md)
 
 > Refreshes the specified host in the given network's host list. Allowing discovery will enable the host to be discovered if it is not an already known host. Listen to the NetHost event interface to handle the results. Returns true if the host was found and the refresh successfully started, else false (the host could not be found).
 > |Name|Type|Description|
 > |---|---|---|
-> |network|[Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)| |
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
-> |getExtraHostInfo|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |allowDiscovery|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |removeStaleHosts|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |network|[Network](../enum_reference.md#network)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
+> |getExtraHostInfo|[boolean](../nada_base_types/boolean.md)| |
+> |allowDiscovery|[boolean](../nada_base_types/boolean.md)| |
+> |removeStaleHosts|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function RefreshHost(network : Network, ipAddress : IpAddress, getExtraHostInfo : Boolean, allowDiscovery : Boolean, removeStaleHosts : Boolean) : Boolean
 > ``` 
 
 
 ---  
- #  RefreshHostList : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RefreshHostList : [boolean](../nada_base_types/boolean.md)
 
 > Refreshes all hosts in the given network's host list. Allowing discovery will enable new hosts to be discovered in the process of refreshing. Listen to the NetHost event interface to handle the results. Returns true if the refresh was successfully started, else false.
 > |Name|Type|Description|
 > |---|---|---|
-> |network|[Network](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#network)| |
-> |getExtraHostInfo|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |allowDiscovery|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |removeStaleHosts|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |network|[Network](../enum_reference.md#network)| |
+> |getExtraHostInfo|[boolean](../nada_base_types/boolean.md)| |
+> |allowDiscovery|[boolean](../nada_base_types/boolean.md)| |
+> |removeStaleHosts|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function RefreshHostList(network : Network, getExtraHostInfo : Boolean, allowDiscovery : Boolean, removeStaleHosts : Boolean) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveUser : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveUser : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |cog|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |cog|[cog](cog.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveUser(cog : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveUser : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveUser : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |cog|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
-> |requestEvent|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |cog|[cog](cog.md)| |
+> |requestEvent|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveUser(cog : Cog, requestEvent : Event) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveUser : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveUser : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |cog|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
-> |requestBundle|[eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)| |
+> |cog|[cog](cog.md)| |
+> |requestBundle|[eventbundle](eventbundle.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveUser(cog : Cog, requestBundle : EventBundle) : Boolean
 > ``` 
@@ -903,7 +903,7 @@
 > Subscribes to the master server located at the specified IP address. All internet host discovery, record publishing, connection facilitation (NAT punch-through) requests are performed on these master server subscriptions in the order they were subscribed.
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function SubscribeToMasterServer(ipAddress : IpAddress)
 > ``` 
@@ -915,7 +915,7 @@
 > Unsubscribes from the master server located at the specified IP address (if subscribed).
 > |Name|Type|Description|
 > |---|---|---|
-> |ipAddress|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |ipAddress|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function UnsubscribeFromMasterServer(ipAddress : IpAddress)
 > ``` 

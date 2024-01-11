@@ -4,135 +4,135 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#bitstream-void)| | | |
-|[ CanReadBoolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadboolean-zilch-engi)| | | |
-|[ CanReadDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreaddoubleinteger-zer)| | | |
-|[ CanReadDoubleIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreaddoubleintegerquan)| | | |
-|[ CanReadDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreaddoublereal-zilch-e)| | | |
-|[ CanReadDoubleRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreaddoublerealquantiz)| | | |
-|[ CanReadInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadinteger-zilch-engi)| | | |
-|[ CanReadInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadinteger2-zilch-eng)| | | |
-|[ CanReadInteger2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadinteger2quantized)| | | |
-|[ CanReadInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadinteger3-zilch-eng)| | | |
-|[ CanReadInteger3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadinteger3quantized)| | | |
-|[ CanReadInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadinteger4-zilch-eng)| | | |
-|[ CanReadInteger4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadinteger4quantized)| | | |
-|[ CanReadIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadintegerquantized)| | | |
-|[ CanReadQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadquaternion-zilch-e)| | | |
-|[ CanReadReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal-zilch-engine)| | | |
-|[ CanReadReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal2-zilch-engine)| | | |
-|[ CanReadReal2Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal2half-zilch-en)| | | |
-|[ CanReadReal2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal2quantized-ze)| | | |
-|[ CanReadReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal3-zilch-engine)| | | |
-|[ CanReadReal3Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal3half-zilch-en)| | | |
-|[ CanReadReal3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal3quantized-ze)| | | |
-|[ CanReadReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal4-zilch-engine)| | | |
-|[ CanReadReal4Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal4half-zilch-en)| | | |
-|[ CanReadReal4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadreal4quantized-ze)| | | |
-|[ CanReadRealHalf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadrealhalf-zilch-eng)| | | |
-|[ CanReadRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadrealquantized-zer)| | | |
-|[ CanReadString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#canreadstring-zilch-engin)| | | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#clear-void)| | | |
-|[ ClearBitsRead](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#clearbitsread-void)| | | |
-|[ ClearBitsWritten](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#clearbitswritten-void)| | | |
-|[ GetBitCapacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbitcapacity-zilch-engi)| | | |
-|[ GetBitsRead](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbitsread-zilch-engine)| | | |
-|[ GetBitsUnread](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbitsunread-zilch-engin)| | | |
-|[ GetBitsUnwritten](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbitsunwritten-zilch-en)| | | |
-|[ GetBitsWritten](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbitswritten-zilch-engi)| | | |
-|[ GetByteCapacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbytecapacity-zilch-eng)| | | |
-|[ GetBytesRead](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbytesread-zilch-engine)| | | |
-|[ GetBytesUnread](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbytesunread-zilch-engi)| | | |
-|[ GetBytesUnwritten](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbytesunwritten-zilch-e)| | | |
-|[ GetBytesWritten](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#getbyteswritten-zilch-eng)| | | |
-|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#isempty-zilch-engine-docu)| | | |
-|[ MeasureBoolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureboolean-zilch-engi)| | | |
-|[ MeasureDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measuredoubleinteger-zer)| | | |
-|[ MeasureDoubleIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measuredoubleintegerquan)| | | |
-|[ MeasureDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measuredoublereal-zilch-e)| | | |
-|[ MeasureDoubleRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measuredoublerealquantiz)| | | |
-|[ MeasureInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureinteger-zilch-engi)| | | |
-|[ MeasureInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureinteger2-zilch-eng)| | | |
-|[ MeasureInteger2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureinteger2quantized)| | | |
-|[ MeasureInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureinteger3-zilch-eng)| | | |
-|[ MeasureInteger3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureinteger3quantized)| | | |
-|[ MeasureInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureinteger4-zilch-eng)| | | |
-|[ MeasureInteger4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureinteger4quantized)| | | |
-|[ MeasureIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measureintegerquantized)| | | |
-|[ MeasureQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurequaternion-zilch-e)| | | |
-|[ MeasureReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal-zilch-engine)| | | |
-|[ MeasureReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal2-zilch-engine)| | | |
-|[ MeasureReal2Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal2half-zilch-en)| | | |
-|[ MeasureReal2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal2quantized-ze)| | | |
-|[ MeasureReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal3-zilch-engine)| | | |
-|[ MeasureReal3Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal3half-zilch-en)| | | |
-|[ MeasureReal3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal3quantized-ze)| | | |
-|[ MeasureReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal4-zilch-engine)| | | |
-|[ MeasureReal4Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal4half-zilch-en)| | | |
-|[ MeasureReal4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurereal4quantized-ze)| | | |
-|[ MeasureRealHalf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurerealhalf-zilch-eng)| | | |
-|[ MeasureRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurerealquantized-zer)| | | |
-|[ MeasureString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#measurestring-zilch-engin)| | | |
-|[ ReadBoolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readboolean-zilch-engine)| | | |
-|[ ReadDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readdoubleinteger-zilch-e)| | | |
-|[ ReadDoubleIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readdoubleintegerquantiz)| | | |
-|[ ReadDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readdoublereal-zilch-engi)| | | |
-|[ ReadDoubleRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readdoublerealquantized)| | | |
-|[ ReadInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readinteger-zilch-engine)| | | |
-|[ ReadInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readinteger2-zilch-engine)| | | |
-|[ ReadInteger2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readinteger2quantized-ze)| | | |
-|[ ReadInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readinteger3-zilch-engine)| | | |
-|[ ReadInteger3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readinteger3quantized-ze)| | | |
-|[ ReadInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readinteger4-zilch-engine)| | | |
-|[ ReadInteger4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readinteger4quantized-ze)| | | |
-|[ ReadIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readintegerquantized-zer)| | | |
-|[ ReadQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readquaternion-zilch-engi)| | | |
-|[ ReadReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal-zilch-engine-doc)| | | |
-|[ ReadReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal2-zilch-engine-do)| | | |
-|[ ReadReal2Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal2half-zilch-engin)| | | |
-|[ ReadReal2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal2quantized-zero)| | | |
-|[ ReadReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal3-zilch-engine-do)| | | |
-|[ ReadReal3Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal3half-zilch-engin)| | | |
-|[ ReadReal3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal3quantized-zero)| | | |
-|[ ReadReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal4-zilch-engine-do)| | | |
-|[ ReadReal4Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal4half-zilch-engin)| | | |
-|[ ReadReal4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readreal4quantized-zero)| | | |
-|[ ReadRealHalf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readrealhalf-zilch-engine)| | | |
-|[ ReadRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readrealquantized-zilch-e)| | | |
-|[ ReadString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#readstring-zilch-engine-d)| | | |
-|[ Reserve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#reserve-void)| | | |
-|[ SetBitsRead](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#setbitsread-void)| | | |
-|[ SetBitsWritten](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#setbitswritten-void)| | | |
-|[ SetBytesRead](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#setbytesread-void)| | | |
-|[ SetBytesWritten](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#setbyteswritten-void)| | | |
-|[ Unread](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#unread-void)| | | |
-|[ WriteBoolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeboolean-void)| | | |
-|[ WriteDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writedoubleinteger-void)| | | |
-|[ WriteDoubleIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writedoubleintegerquanti)| | | |
-|[ WriteDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writedoublereal-void)| | | |
-|[ WriteDoubleRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writedoublerealquantized)| | | |
-|[ WriteInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeinteger-void)| | | |
-|[ WriteInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeinteger2-void)| | | |
-|[ WriteInteger2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeinteger2quantized-v)| | | |
-|[ WriteInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeinteger3-void)| | | |
-|[ WriteInteger3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeinteger3quantized-v)| | | |
-|[ WriteInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeinteger4-void)| | | |
-|[ WriteInteger4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeinteger4quantized-v)| | | |
-|[ WriteIntegerQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writeintegerquantized-vo)| | | |
-|[ WriteQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writequaternion-void)| | | |
-|[ WriteReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal-void)| | | |
-|[ WriteReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal2-void)| | | |
-|[ WriteReal2Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal2half-void)| | | |
-|[ WriteReal2Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal2quantized-void)| | | |
-|[ WriteReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal3-void)| | | |
-|[ WriteReal3Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal3half-void)| | | |
-|[ WriteReal3Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal3quantized-void)| | | |
-|[ WriteReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal4-void)| | | |
-|[ WriteReal4Half](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal4half-void)| | | |
-|[ WriteReal4Quantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writereal4quantized-void)| | | |
-|[ WriteRealHalf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writerealhalf-void)| | | |
-|[ WriteRealQuantized](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writerealquantized-void)| | | |
-|[ WriteString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bitstream.md#writestring-void)| | | |
+|[ Constructor](bitstream.md#bitstream-void)| | | |
+|[ CanReadBoolean](bitstream.md#canreadboolean-zilch-engi)| | | |
+|[ CanReadDoubleInteger](bitstream.md#canreaddoubleinteger-zer)| | | |
+|[ CanReadDoubleIntegerQuantized](bitstream.md#canreaddoubleintegerquan)| | | |
+|[ CanReadDoubleReal](bitstream.md#canreaddoublereal-zilch-e)| | | |
+|[ CanReadDoubleRealQuantized](bitstream.md#canreaddoublerealquantiz)| | | |
+|[ CanReadInteger](bitstream.md#canreadinteger-zilch-engi)| | | |
+|[ CanReadInteger2](bitstream.md#canreadinteger2-zilch-eng)| | | |
+|[ CanReadInteger2Quantized](bitstream.md#canreadinteger2quantized)| | | |
+|[ CanReadInteger3](bitstream.md#canreadinteger3-zilch-eng)| | | |
+|[ CanReadInteger3Quantized](bitstream.md#canreadinteger3quantized)| | | |
+|[ CanReadInteger4](bitstream.md#canreadinteger4-zilch-eng)| | | |
+|[ CanReadInteger4Quantized](bitstream.md#canreadinteger4quantized)| | | |
+|[ CanReadIntegerQuantized](bitstream.md#canreadintegerquantized)| | | |
+|[ CanReadQuaternion](bitstream.md#canreadquaternion-zilch-e)| | | |
+|[ CanReadReal](bitstream.md#canreadreal-zilch-engine)| | | |
+|[ CanReadReal2](bitstream.md#canreadreal2-zilch-engine)| | | |
+|[ CanReadReal2Half](bitstream.md#canreadreal2half-zilch-en)| | | |
+|[ CanReadReal2Quantized](bitstream.md#canreadreal2quantized-ze)| | | |
+|[ CanReadReal3](bitstream.md#canreadreal3-zilch-engine)| | | |
+|[ CanReadReal3Half](bitstream.md#canreadreal3half-zilch-en)| | | |
+|[ CanReadReal3Quantized](bitstream.md#canreadreal3quantized-ze)| | | |
+|[ CanReadReal4](bitstream.md#canreadreal4-zilch-engine)| | | |
+|[ CanReadReal4Half](bitstream.md#canreadreal4half-zilch-en)| | | |
+|[ CanReadReal4Quantized](bitstream.md#canreadreal4quantized-ze)| | | |
+|[ CanReadRealHalf](bitstream.md#canreadrealhalf-zilch-eng)| | | |
+|[ CanReadRealQuantized](bitstream.md#canreadrealquantized-zer)| | | |
+|[ CanReadString](bitstream.md#canreadstring-zilch-engin)| | | |
+|[ Clear](bitstream.md#clear-void)| | | |
+|[ ClearBitsRead](bitstream.md#clearbitsread-void)| | | |
+|[ ClearBitsWritten](bitstream.md#clearbitswritten-void)| | | |
+|[ GetBitCapacity](bitstream.md#getbitcapacity-zilch-engi)| | | |
+|[ GetBitsRead](bitstream.md#getbitsread-zilch-engine)| | | |
+|[ GetBitsUnread](bitstream.md#getbitsunread-zilch-engin)| | | |
+|[ GetBitsUnwritten](bitstream.md#getbitsunwritten-zilch-en)| | | |
+|[ GetBitsWritten](bitstream.md#getbitswritten-zilch-engi)| | | |
+|[ GetByteCapacity](bitstream.md#getbytecapacity-zilch-eng)| | | |
+|[ GetBytesRead](bitstream.md#getbytesread-zilch-engine)| | | |
+|[ GetBytesUnread](bitstream.md#getbytesunread-zilch-engi)| | | |
+|[ GetBytesUnwritten](bitstream.md#getbytesunwritten-zilch-e)| | | |
+|[ GetBytesWritten](bitstream.md#getbyteswritten-zilch-eng)| | | |
+|[ IsEmpty](bitstream.md#isempty-zilch-engine-docu)| | | |
+|[ MeasureBoolean](bitstream.md#measureboolean-zilch-engi)| | | |
+|[ MeasureDoubleInteger](bitstream.md#measuredoubleinteger-zer)| | | |
+|[ MeasureDoubleIntegerQuantized](bitstream.md#measuredoubleintegerquan)| | | |
+|[ MeasureDoubleReal](bitstream.md#measuredoublereal-zilch-e)| | | |
+|[ MeasureDoubleRealQuantized](bitstream.md#measuredoublerealquantiz)| | | |
+|[ MeasureInteger](bitstream.md#measureinteger-zilch-engi)| | | |
+|[ MeasureInteger2](bitstream.md#measureinteger2-zilch-eng)| | | |
+|[ MeasureInteger2Quantized](bitstream.md#measureinteger2quantized)| | | |
+|[ MeasureInteger3](bitstream.md#measureinteger3-zilch-eng)| | | |
+|[ MeasureInteger3Quantized](bitstream.md#measureinteger3quantized)| | | |
+|[ MeasureInteger4](bitstream.md#measureinteger4-zilch-eng)| | | |
+|[ MeasureInteger4Quantized](bitstream.md#measureinteger4quantized)| | | |
+|[ MeasureIntegerQuantized](bitstream.md#measureintegerquantized)| | | |
+|[ MeasureQuaternion](bitstream.md#measurequaternion-zilch-e)| | | |
+|[ MeasureReal](bitstream.md#measurereal-zilch-engine)| | | |
+|[ MeasureReal2](bitstream.md#measurereal2-zilch-engine)| | | |
+|[ MeasureReal2Half](bitstream.md#measurereal2half-zilch-en)| | | |
+|[ MeasureReal2Quantized](bitstream.md#measurereal2quantized-ze)| | | |
+|[ MeasureReal3](bitstream.md#measurereal3-zilch-engine)| | | |
+|[ MeasureReal3Half](bitstream.md#measurereal3half-zilch-en)| | | |
+|[ MeasureReal3Quantized](bitstream.md#measurereal3quantized-ze)| | | |
+|[ MeasureReal4](bitstream.md#measurereal4-zilch-engine)| | | |
+|[ MeasureReal4Half](bitstream.md#measurereal4half-zilch-en)| | | |
+|[ MeasureReal4Quantized](bitstream.md#measurereal4quantized-ze)| | | |
+|[ MeasureRealHalf](bitstream.md#measurerealhalf-zilch-eng)| | | |
+|[ MeasureRealQuantized](bitstream.md#measurerealquantized-zer)| | | |
+|[ MeasureString](bitstream.md#measurestring-zilch-engin)| | | |
+|[ ReadBoolean](bitstream.md#readboolean-zilch-engine)| | | |
+|[ ReadDoubleInteger](bitstream.md#readdoubleinteger-zilch-e)| | | |
+|[ ReadDoubleIntegerQuantized](bitstream.md#readdoubleintegerquantiz)| | | |
+|[ ReadDoubleReal](bitstream.md#readdoublereal-zilch-engi)| | | |
+|[ ReadDoubleRealQuantized](bitstream.md#readdoublerealquantized)| | | |
+|[ ReadInteger](bitstream.md#readinteger-zilch-engine)| | | |
+|[ ReadInteger2](bitstream.md#readinteger2-zilch-engine)| | | |
+|[ ReadInteger2Quantized](bitstream.md#readinteger2quantized-ze)| | | |
+|[ ReadInteger3](bitstream.md#readinteger3-zilch-engine)| | | |
+|[ ReadInteger3Quantized](bitstream.md#readinteger3quantized-ze)| | | |
+|[ ReadInteger4](bitstream.md#readinteger4-zilch-engine)| | | |
+|[ ReadInteger4Quantized](bitstream.md#readinteger4quantized-ze)| | | |
+|[ ReadIntegerQuantized](bitstream.md#readintegerquantized-zer)| | | |
+|[ ReadQuaternion](bitstream.md#readquaternion-zilch-engi)| | | |
+|[ ReadReal](bitstream.md#readreal-zilch-engine-doc)| | | |
+|[ ReadReal2](bitstream.md#readreal2-zilch-engine-do)| | | |
+|[ ReadReal2Half](bitstream.md#readreal2half-zilch-engin)| | | |
+|[ ReadReal2Quantized](bitstream.md#readreal2quantized-zero)| | | |
+|[ ReadReal3](bitstream.md#readreal3-zilch-engine-do)| | | |
+|[ ReadReal3Half](bitstream.md#readreal3half-zilch-engin)| | | |
+|[ ReadReal3Quantized](bitstream.md#readreal3quantized-zero)| | | |
+|[ ReadReal4](bitstream.md#readreal4-zilch-engine-do)| | | |
+|[ ReadReal4Half](bitstream.md#readreal4half-zilch-engin)| | | |
+|[ ReadReal4Quantized](bitstream.md#readreal4quantized-zero)| | | |
+|[ ReadRealHalf](bitstream.md#readrealhalf-zilch-engine)| | | |
+|[ ReadRealQuantized](bitstream.md#readrealquantized-zilch-e)| | | |
+|[ ReadString](bitstream.md#readstring-zilch-engine-d)| | | |
+|[ Reserve](bitstream.md#reserve-void)| | | |
+|[ SetBitsRead](bitstream.md#setbitsread-void)| | | |
+|[ SetBitsWritten](bitstream.md#setbitswritten-void)| | | |
+|[ SetBytesRead](bitstream.md#setbytesread-void)| | | |
+|[ SetBytesWritten](bitstream.md#setbyteswritten-void)| | | |
+|[ Unread](bitstream.md#unread-void)| | | |
+|[ WriteBoolean](bitstream.md#writeboolean-void)| | | |
+|[ WriteDoubleInteger](bitstream.md#writedoubleinteger-void)| | | |
+|[ WriteDoubleIntegerQuantized](bitstream.md#writedoubleintegerquanti)| | | |
+|[ WriteDoubleReal](bitstream.md#writedoublereal-void)| | | |
+|[ WriteDoubleRealQuantized](bitstream.md#writedoublerealquantized)| | | |
+|[ WriteInteger](bitstream.md#writeinteger-void)| | | |
+|[ WriteInteger2](bitstream.md#writeinteger2-void)| | | |
+|[ WriteInteger2Quantized](bitstream.md#writeinteger2quantized-v)| | | |
+|[ WriteInteger3](bitstream.md#writeinteger3-void)| | | |
+|[ WriteInteger3Quantized](bitstream.md#writeinteger3quantized-v)| | | |
+|[ WriteInteger4](bitstream.md#writeinteger4-void)| | | |
+|[ WriteInteger4Quantized](bitstream.md#writeinteger4quantized-v)| | | |
+|[ WriteIntegerQuantized](bitstream.md#writeintegerquantized-vo)| | | |
+|[ WriteQuaternion](bitstream.md#writequaternion-void)| | | |
+|[ WriteReal](bitstream.md#writereal-void)| | | |
+|[ WriteReal2](bitstream.md#writereal2-void)| | | |
+|[ WriteReal2Half](bitstream.md#writereal2half-void)| | | |
+|[ WriteReal2Quantized](bitstream.md#writereal2quantized-void)| | | |
+|[ WriteReal3](bitstream.md#writereal3-void)| | | |
+|[ WriteReal3Half](bitstream.md#writereal3half-void)| | | |
+|[ WriteReal3Quantized](bitstream.md#writereal3quantized-void)| | | |
+|[ WriteReal4](bitstream.md#writereal4-void)| | | |
+|[ WriteReal4Half](bitstream.md#writereal4half-void)| | | |
+|[ WriteReal4Quantized](bitstream.md#writereal4quantized-void)| | | |
+|[ WriteRealHalf](bitstream.md#writerealhalf-void)| | | |
+|[ WriteRealQuantized](bitstream.md#writerealquantized-void)| | | |
+|[ WriteString](bitstream.md#writestring-void)| | | |
 
 
  #  Properties
@@ -156,7 +156,7 @@
 
 
 ---  
- #  CanReadBoolean : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadBoolean : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -167,7 +167,7 @@
 
 
 ---  
- #  CanReadDoubleInteger : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadDoubleInteger : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -178,34 +178,34 @@
 
 
 ---  
- #  CanReadDoubleIntegerQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadDoubleIntegerQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadDoubleIntegerQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadDoubleIntegerQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadDoubleReal : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadDoubleReal : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -216,34 +216,34 @@
 
 
 ---  
- #  CanReadDoubleRealQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadDoubleRealQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadDoubleRealQuantized( : DoubleReal,  : DoubleReal) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadDoubleRealQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadDoubleRealQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadInteger : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -254,7 +254,7 @@
 
 
 ---  
- #  CanReadInteger2 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger2 : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -265,34 +265,34 @@
 
 
 ---  
- #  CanReadInteger2Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger2Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadInteger2Quantized( : Integer2,  : Integer2) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadInteger2Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger2Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadInteger2Quantized( : Integer2,  : Integer2,  : Integer2) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadInteger3 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger3 : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -303,34 +303,34 @@
 
 
 ---  
- #  CanReadInteger3Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger3Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadInteger3Quantized( : Integer3,  : Integer3) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadInteger3Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger3Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadInteger3Quantized( : Integer3,  : Integer3,  : Integer3) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadInteger4 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger4 : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -341,61 +341,61 @@
 
 
 ---  
- #  CanReadInteger4Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger4Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadInteger4Quantized( : Integer4,  : Integer4) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadInteger4Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadInteger4Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadInteger4Quantized( : Integer4,  : Integer4,  : Integer4) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadIntegerQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadIntegerQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadIntegerQuantized( : Integer,  : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadIntegerQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadIntegerQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadIntegerQuantized( : Integer,  : Integer,  : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadQuaternion : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadQuaternion : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -406,7 +406,7 @@
 
 
 ---  
- #  CanReadReal : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -417,7 +417,7 @@
 
 
 ---  
- #  CanReadReal2 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal2 : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -428,7 +428,7 @@
 
 
 ---  
- #  CanReadReal2Half : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal2Half : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -439,34 +439,34 @@
 
 
 ---  
- #  CanReadReal2Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal2Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadReal2Quantized( : Real2,  : Real2) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadReal2Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal2Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadReal2Quantized( : Real2,  : Real2,  : Real2) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadReal3 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal3 : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -477,7 +477,7 @@
 
 
 ---  
- #  CanReadReal3Half : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal3Half : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -488,34 +488,34 @@
 
 
 ---  
- #  CanReadReal3Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal3Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadReal3Quantized( : Real3,  : Real3) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadReal3Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal3Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadReal3Quantized( : Real3,  : Real3,  : Real3) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadReal4 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal4 : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -526,7 +526,7 @@
 
 
 ---  
- #  CanReadReal4Half : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal4Half : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -537,34 +537,34 @@
 
 
 ---  
- #  CanReadReal4Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal4Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadReal4Quantized( : Real4,  : Real4) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadReal4Quantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadReal4Quantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadReal4Quantized( : Real4,  : Real4,  : Real4) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadRealHalf : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadRealHalf : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -575,34 +575,34 @@
 
 
 ---  
- #  CanReadRealQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadRealQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadRealQuantized( : Real,  : Real) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadRealQuantized : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadRealQuantized : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function CanReadRealQuantized( : Real,  : Real,  : Real) : Boolean
 > ``` 
 
 
 ---  
- #  CanReadString : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanReadString : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -618,7 +618,7 @@
 > Clears all data written and resets the bitstream, optionally freeing reserved memory.
 > |Name|Type|Description|
 > |---|---|---|
-> |freeMemory|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |freeMemory|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Clear(freeMemory : Boolean)
 > ``` 
@@ -647,7 +647,7 @@
 
 
 ---  
- #  GetBitCapacity : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBitCapacity : [integer](../nada_base_types/integer.md)
 
 > Returns the data array capacity in bits.
 > |Name|Type|Description|
@@ -658,7 +658,7 @@
 
 
 ---  
- #  GetBitsRead : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBitsRead : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bits read.
 > |Name|Type|Description|
@@ -669,7 +669,7 @@
 
 
 ---  
- #  GetBitsUnread : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBitsUnread : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bits unread.
 > |Name|Type|Description|
@@ -680,7 +680,7 @@
 
 
 ---  
- #  GetBitsUnwritten : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBitsUnwritten : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bits unwritten.
 > |Name|Type|Description|
@@ -691,7 +691,7 @@
 
 
 ---  
- #  GetBitsWritten : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBitsWritten : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bits written.
 > |Name|Type|Description|
@@ -702,7 +702,7 @@
 
 
 ---  
- #  GetByteCapacity : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetByteCapacity : [integer](../nada_base_types/integer.md)
 
 > Returns the data array capacity in bytes.
 > |Name|Type|Description|
@@ -713,7 +713,7 @@
 
 
 ---  
- #  GetBytesRead : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBytesRead : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bytes read (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
@@ -724,7 +724,7 @@
 
 
 ---  
- #  GetBytesUnread : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBytesUnread : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bytes unread (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
@@ -735,7 +735,7 @@
 
 
 ---  
- #  GetBytesUnwritten : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBytesUnwritten : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bytes unwritten (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
@@ -746,7 +746,7 @@
 
 
 ---  
- #  GetBytesWritten : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GetBytesWritten : [integer](../nada_base_types/integer.md)
 
 > Returns the number of bytes written (Rounded up, ex. 12 bits = 2 bytes)
 > |Name|Type|Description|
@@ -757,7 +757,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
 > Returns true if the BitStream is empty (0 bits written), else false.
 > |Name|Type|Description|
@@ -768,7 +768,7 @@
 
 
 ---  
- #  MeasureBoolean : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureBoolean : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -781,7 +781,7 @@
 
 
 ---  
- #  MeasureDoubleInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureDoubleInteger : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -794,38 +794,38 @@
 
 
 ---  
- #  MeasureDoubleIntegerQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureDoubleIntegerQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger) : Integer
 > ``` 
 
 
 ---  
- #  MeasureDoubleIntegerQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureDoubleIntegerQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger) : Integer
 > ``` 
 
 
 ---  
- #  MeasureDoubleReal : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureDoubleReal : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -838,38 +838,38 @@
 
 
 ---  
- #  MeasureDoubleRealQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureDoubleRealQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureDoubleRealQuantized( : DoubleReal,  : DoubleReal) : Integer
 > ``` 
 
 
 ---  
- #  MeasureDoubleRealQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureDoubleRealQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal) : Integer
 > ``` 
 
 
 ---  
- #  MeasureInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -882,7 +882,7 @@
 
 
 ---  
- #  MeasureInteger2 : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger2 : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -895,38 +895,38 @@
 
 
 ---  
- #  MeasureInteger2Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger2Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureInteger2Quantized( : Integer2,  : Integer2) : Integer
 > ``` 
 
 
 ---  
- #  MeasureInteger2Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger2Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureInteger2Quantized( : Integer2,  : Integer2,  : Integer2) : Integer
 > ``` 
 
 
 ---  
- #  MeasureInteger3 : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger3 : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -939,38 +939,38 @@
 
 
 ---  
- #  MeasureInteger3Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger3Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureInteger3Quantized( : Integer3,  : Integer3) : Integer
 > ``` 
 
 
 ---  
- #  MeasureInteger3Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger3Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureInteger3Quantized( : Integer3,  : Integer3,  : Integer3) : Integer
 > ``` 
 
 
 ---  
- #  MeasureInteger4 : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger4 : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -983,69 +983,69 @@
 
 
 ---  
- #  MeasureInteger4Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger4Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureInteger4Quantized( : Integer4,  : Integer4) : Integer
 > ``` 
 
 
 ---  
- #  MeasureInteger4Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureInteger4Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureInteger4Quantized( : Integer4,  : Integer4,  : Integer4) : Integer
 > ``` 
 
 
 ---  
- #  MeasureIntegerQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureIntegerQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureIntegerQuantized( : Integer,  : Integer) : Integer
 > ``` 
 
 
 ---  
- #  MeasureIntegerQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureIntegerQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureIntegerQuantized( : Integer,  : Integer,  : Integer) : Integer
 > ``` 
 
 
 ---  
- #  MeasureQuaternion : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureQuaternion : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1058,7 +1058,7 @@
 
 
 ---  
- #  MeasureReal : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1071,7 +1071,7 @@
 
 
 ---  
- #  MeasureReal2 : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal2 : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1084,7 +1084,7 @@
 
 
 ---  
- #  MeasureReal2Half : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal2Half : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1097,38 +1097,38 @@
 
 
 ---  
- #  MeasureReal2Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal2Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureReal2Quantized( : Real2,  : Real2) : Integer
 > ``` 
 
 
 ---  
- #  MeasureReal2Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal2Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureReal2Quantized( : Real2,  : Real2,  : Real2) : Integer
 > ``` 
 
 
 ---  
- #  MeasureReal3 : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal3 : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1141,7 +1141,7 @@
 
 
 ---  
- #  MeasureReal3Half : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal3Half : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1154,38 +1154,38 @@
 
 
 ---  
- #  MeasureReal3Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal3Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureReal3Quantized( : Real3,  : Real3) : Integer
 > ``` 
 
 
 ---  
- #  MeasureReal3Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal3Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureReal3Quantized( : Real3,  : Real3,  : Real3) : Integer
 > ``` 
 
 
 ---  
- #  MeasureReal4 : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal4 : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1198,7 +1198,7 @@
 
 
 ---  
- #  MeasureReal4Half : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal4Half : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1211,38 +1211,38 @@
 
 
 ---  
- #  MeasureReal4Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal4Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureReal4Quantized( : Real4,  : Real4) : Integer
 > ``` 
 
 
 ---  
- #  MeasureReal4Quantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureReal4Quantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureReal4Quantized( : Real4,  : Real4,  : Real4) : Integer
 > ``` 
 
 
 ---  
- #  MeasureRealHalf : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureRealHalf : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1255,38 +1255,38 @@
 
 
 ---  
- #  MeasureRealQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureRealQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureRealQuantized( : Real,  : Real) : Integer
 > ``` 
 
 
 ---  
- #  MeasureRealQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureRealQuantized : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureRealQuantized( : Real,  : Real,  : Real) : Integer
 > ``` 
 
 
 ---  
- #  MeasureString : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureString : [integer](../nada_base_types/integer.md)
 
  `static`
 
@@ -1299,21 +1299,21 @@
 
 
 ---  
- #  MeasureString : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MeasureString : [integer](../nada_base_types/integer.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> ||[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function MeasureString( : String) : Integer
 > ``` 
 
 
 ---  
- #  ReadBoolean : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ReadBoolean : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -1324,7 +1324,7 @@
 
 
 ---  
- #  ReadDoubleInteger : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  ReadDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > |Name|Type|Description|
@@ -1335,34 +1335,34 @@
 
 
 ---  
- #  ReadDoubleIntegerQuantized : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  ReadDoubleIntegerQuantized : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger) : DoubleInteger
 > ``` 
 
 
 ---  
- #  ReadDoubleIntegerQuantized : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  ReadDoubleIntegerQuantized : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger) : DoubleInteger
 > ``` 
 
 
 ---  
- #  ReadDoubleReal : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  ReadDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
 > |Name|Type|Description|
@@ -1373,34 +1373,34 @@
 
 
 ---  
- #  ReadDoubleRealQuantized : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  ReadDoubleRealQuantized : [doublereal](../nada_base_types/doublereal.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadDoubleRealQuantized( : DoubleReal,  : DoubleReal) : DoubleReal
 > ``` 
 
 
 ---  
- #  ReadDoubleRealQuantized : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  ReadDoubleRealQuantized : [doublereal](../nada_base_types/doublereal.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal) : DoubleReal
 > ``` 
 
 
 ---  
- #  ReadInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ReadInteger : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|
@@ -1411,7 +1411,7 @@
 
 
 ---  
- #  ReadInteger2 : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ReadInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
 > |Name|Type|Description|
@@ -1422,34 +1422,34 @@
 
 
 ---  
- #  ReadInteger2Quantized : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ReadInteger2Quantized : [integer2](../nada_base_types/integer2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadInteger2Quantized( : Integer2,  : Integer2) : Integer2
 > ``` 
 
 
 ---  
- #  ReadInteger2Quantized : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ReadInteger2Quantized : [integer2](../nada_base_types/integer2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadInteger2Quantized( : Integer2,  : Integer2,  : Integer2) : Integer2
 > ``` 
 
 
 ---  
- #  ReadInteger3 : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  ReadInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
 > |Name|Type|Description|
@@ -1460,34 +1460,34 @@
 
 
 ---  
- #  ReadInteger3Quantized : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  ReadInteger3Quantized : [integer3](../nada_base_types/integer3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadInteger3Quantized( : Integer3,  : Integer3) : Integer3
 > ``` 
 
 
 ---  
- #  ReadInteger3Quantized : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  ReadInteger3Quantized : [integer3](../nada_base_types/integer3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadInteger3Quantized( : Integer3,  : Integer3,  : Integer3) : Integer3
 > ``` 
 
 
 ---  
- #  ReadInteger4 : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  ReadInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
 > |Name|Type|Description|
@@ -1498,61 +1498,61 @@
 
 
 ---  
- #  ReadInteger4Quantized : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  ReadInteger4Quantized : [integer4](../nada_base_types/integer4.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadInteger4Quantized( : Integer4,  : Integer4) : Integer4
 > ``` 
 
 
 ---  
- #  ReadInteger4Quantized : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  ReadInteger4Quantized : [integer4](../nada_base_types/integer4.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadInteger4Quantized( : Integer4,  : Integer4,  : Integer4) : Integer4
 > ``` 
 
 
 ---  
- #  ReadIntegerQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ReadIntegerQuantized : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadIntegerQuantized( : Integer,  : Integer) : Integer
 > ``` 
 
 
 ---  
- #  ReadIntegerQuantized : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ReadIntegerQuantized : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadIntegerQuantized( : Integer,  : Integer,  : Integer) : Integer
 > ``` 
 
 
 ---  
- #  ReadQuaternion : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  ReadQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > |Name|Type|Description|
@@ -1563,7 +1563,7 @@
 
 
 ---  
- #  ReadReal : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ReadReal : [real](../nada_base_types/real.md)
 
 > 
 > |Name|Type|Description|
@@ -1574,7 +1574,7 @@
 
 
 ---  
- #  ReadReal2 : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  ReadReal2 : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
@@ -1585,7 +1585,7 @@
 
 
 ---  
- #  ReadReal2Half : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  ReadReal2Half : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
@@ -1596,34 +1596,34 @@
 
 
 ---  
- #  ReadReal2Quantized : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  ReadReal2Quantized : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadReal2Quantized( : Real2,  : Real2) : Real2
 > ``` 
 
 
 ---  
- #  ReadReal2Quantized : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  ReadReal2Quantized : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadReal2Quantized( : Real2,  : Real2,  : Real2) : Real2
 > ``` 
 
 
 ---  
- #  ReadReal3 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ReadReal3 : [real3](../nada_base_types/real3.md)
 
 > 
 > |Name|Type|Description|
@@ -1634,7 +1634,7 @@
 
 
 ---  
- #  ReadReal3Half : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ReadReal3Half : [real3](../nada_base_types/real3.md)
 
 > 
 > |Name|Type|Description|
@@ -1645,34 +1645,34 @@
 
 
 ---  
- #  ReadReal3Quantized : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ReadReal3Quantized : [real3](../nada_base_types/real3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadReal3Quantized( : Real3,  : Real3) : Real3
 > ``` 
 
 
 ---  
- #  ReadReal3Quantized : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ReadReal3Quantized : [real3](../nada_base_types/real3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadReal3Quantized( : Real3,  : Real3,  : Real3) : Real3
 > ``` 
 
 
 ---  
- #  ReadReal4 : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ReadReal4 : [real4](../nada_base_types/real4.md)
 
 > 
 > |Name|Type|Description|
@@ -1683,7 +1683,7 @@
 
 
 ---  
- #  ReadReal4Half : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ReadReal4Half : [real4](../nada_base_types/real4.md)
 
 > 
 > |Name|Type|Description|
@@ -1694,34 +1694,34 @@
 
 
 ---  
- #  ReadReal4Quantized : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ReadReal4Quantized : [real4](../nada_base_types/real4.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadReal4Quantized( : Real4,  : Real4) : Real4
 > ``` 
 
 
 ---  
- #  ReadReal4Quantized : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ReadReal4Quantized : [real4](../nada_base_types/real4.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadReal4Quantized( : Real4,  : Real4,  : Real4) : Real4
 > ``` 
 
 
 ---  
- #  ReadRealHalf : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ReadRealHalf : [real](../nada_base_types/real.md)
 
 > 
 > |Name|Type|Description|
@@ -1732,34 +1732,34 @@
 
 
 ---  
- #  ReadRealQuantized : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ReadRealQuantized : [real](../nada_base_types/real.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadRealQuantized( : Real,  : Real) : Real
 > ``` 
 
 
 ---  
- #  ReadRealQuantized : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ReadRealQuantized : [real](../nada_base_types/real.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function ReadRealQuantized( : Real,  : Real,  : Real) : Real
 > ``` 
 
 
 ---  
- #  ReadString : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ReadString : [string](../nada_base_types/string.md)
 
 > 
 > |Name|Type|Description|
@@ -1775,7 +1775,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve( : Integer)
 > ``` 
@@ -1787,7 +1787,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SetBitsRead( : Integer)
 > ``` 
@@ -1799,7 +1799,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SetBitsWritten( : Integer)
 > ``` 
@@ -1811,7 +1811,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SetBytesRead( : Integer)
 > ``` 
@@ -1823,7 +1823,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SetBytesWritten( : Integer)
 > ``` 
@@ -1835,7 +1835,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Unread( : Integer)
 > ``` 
@@ -1847,7 +1847,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> ||[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteBoolean( : Boolean)
 > ``` 
@@ -1859,7 +1859,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteDoubleInteger( : DoubleInteger)
 > ``` 
@@ -1871,9 +1871,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger)
 > ``` 
@@ -1885,10 +1885,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
-> ||[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
+> ||[doubleinteger](../nada_base_types/doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteDoubleIntegerQuantized( : DoubleInteger,  : DoubleInteger,  : DoubleInteger,  : DoubleInteger)
 > ``` 
@@ -1900,7 +1900,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteDoubleReal( : DoubleReal)
 > ``` 
@@ -1912,9 +1912,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal)
 > ``` 
@@ -1926,10 +1926,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
-> ||[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
+> ||[doublereal](../nada_base_types/doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteDoubleRealQuantized( : DoubleReal,  : DoubleReal,  : DoubleReal,  : DoubleReal)
 > ``` 
@@ -1941,7 +1941,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger( : Integer)
 > ``` 
@@ -1953,7 +1953,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger2( : Integer2)
 > ``` 
@@ -1965,9 +1965,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger2Quantized( : Integer2,  : Integer2,  : Integer2)
 > ``` 
@@ -1979,10 +1979,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger2Quantized( : Integer2,  : Integer2,  : Integer2,  : Integer2)
 > ``` 
@@ -1994,7 +1994,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger3( : Integer3)
 > ``` 
@@ -2006,9 +2006,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger3Quantized( : Integer3,  : Integer3,  : Integer3)
 > ``` 
@@ -2020,10 +2020,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
-> ||[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
+> ||[integer3](../nada_base_types/integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger3Quantized( : Integer3,  : Integer3,  : Integer3,  : Integer3)
 > ``` 
@@ -2035,7 +2035,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger4( : Integer4)
 > ``` 
@@ -2047,9 +2047,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger4Quantized( : Integer4,  : Integer4,  : Integer4)
 > ``` 
@@ -2061,10 +2061,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
-> ||[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
+> ||[integer4](../nada_base_types/integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteInteger4Quantized( : Integer4,  : Integer4,  : Integer4,  : Integer4)
 > ``` 
@@ -2076,9 +2076,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteIntegerQuantized( : Integer,  : Integer,  : Integer)
 > ``` 
@@ -2090,10 +2090,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteIntegerQuantized( : Integer,  : Integer,  : Integer,  : Integer)
 > ``` 
@@ -2105,7 +2105,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> ||[quaternion](../nada_base_types/quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteQuaternion( : Quaternion)
 > ``` 
@@ -2117,7 +2117,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal( : Real)
 > ``` 
@@ -2129,7 +2129,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal2( : Real2)
 > ``` 
@@ -2141,7 +2141,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal2Half( : Real2)
 > ``` 
@@ -2153,9 +2153,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal2Quantized( : Real2,  : Real2,  : Real2)
 > ``` 
@@ -2167,10 +2167,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> ||[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
+> ||[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal2Quantized( : Real2,  : Real2,  : Real2,  : Real2)
 > ``` 
@@ -2182,7 +2182,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal3( : Real3)
 > ``` 
@@ -2194,7 +2194,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal3Half( : Real3)
 > ``` 
@@ -2206,9 +2206,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal3Quantized( : Real3,  : Real3,  : Real3)
 > ``` 
@@ -2220,10 +2220,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal3Quantized( : Real3,  : Real3,  : Real3,  : Real3)
 > ``` 
@@ -2235,7 +2235,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal4( : Real4)
 > ``` 
@@ -2247,7 +2247,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal4Half( : Real4)
 > ``` 
@@ -2259,9 +2259,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal4Quantized( : Real4,  : Real4,  : Real4)
 > ``` 
@@ -2273,10 +2273,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> ||[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
+> ||[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteReal4Quantized( : Real4,  : Real4,  : Real4,  : Real4)
 > ``` 
@@ -2288,7 +2288,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteRealHalf( : Real)
 > ``` 
@@ -2300,9 +2300,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteRealQuantized( : Real,  : Real,  : Real)
 > ``` 
@@ -2314,10 +2314,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> ||[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
+> ||[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteRealQuantized( : Real,  : Real,  : Real,  : Real)
 > ``` 
@@ -2329,7 +2329,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> ||[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function WriteString( : String)
 > ``` 

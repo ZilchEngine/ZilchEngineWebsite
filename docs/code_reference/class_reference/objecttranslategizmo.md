@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslategizmo.md#objecttranslategizmo-voi)|[ DuplicateOnCtrlDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttranslategizmo.md#duplicateonctrldrag-zero)|[objecttransformgizmo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmo.md)| |
+|[ Constructor](objecttranslategizmo.md#objecttranslategizmo-voi)|[ DuplicateOnCtrlDrag](objecttranslategizmo.md#duplicateonctrldrag-zero)|[objecttransformgizmo](objecttransformgizmo.md)| |
 
 
  #  Properties
 
 
 ---  
- #  DuplicateOnCtrlDrag : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DuplicateOnCtrlDrag : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

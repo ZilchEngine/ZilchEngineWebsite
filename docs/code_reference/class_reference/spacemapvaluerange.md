@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md#spacemapvaluerange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](spacemapvaluerange.md#movenext-void)|[ All](spacemapvaluerange.md#all-zilch-engine-document)| | |
+|[ Constructor](spacemapvaluerange.md#spacemapvaluerange-void)|[ Current](spacemapvaluerange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](spacemapvaluerange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](spacemapvaluerange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [spacemapvaluerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md)
+ #  All : [spacemapvaluerange](spacemapvaluerange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  Current : [space](space.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[spacemapvaluerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacemapvaluerange.md)| |
+> |p0|[spacemapvaluerange](spacemapvaluerange.md)| |
 > ``` lang=cpp, name=Nada
 > function SpaceMapValueRange(p0 : SpaceMapValueRange)
 > ``` 

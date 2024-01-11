@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sphericalparticleemitter.md#sphericalparticleemitter)| |[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md)| |
+|[ Constructor](sphericalparticleemitter.md#sphericalparticleemitter)| |[particleemittershared](particleemittershared.md)| |
 
 
  #  Properties

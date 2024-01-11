@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.md#component-zilch-engine-do)|[safeid32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32.md)| |
-| |[ NetChannelConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.md#netchannelconfig-zilch-en)| | |
-| |[ NetPropertyConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.md#netpropertyconfig-zilch-e)| | |
-| |[ Property](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyinfo.md#property-zilch-engine-doc)| | |
+| |[ Component](netpropertyinfo.md#component-zilch-engine-do)|[safeid32](safeid32.md)| |
+| |[ NetChannelConfig](netpropertyinfo.md#netchannelconfig-zilch-en)| | |
+| |[ NetPropertyConfig](netpropertyinfo.md#netpropertyconfig-zilch-e)| | |
+| |[ Property](netpropertyinfo.md#property-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  Component : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Component : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  NetChannelConfig : [netchannelconfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelconfig.md)
+ #  NetChannelConfig : [netchannelconfig](netchannelconfig.md)
 
 > Network channel configuration resource.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  NetPropertyConfig : [netpropertyconfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md)
+ #  NetPropertyConfig : [netpropertyconfig](netpropertyconfig.md)
 
 > Network property configuration resource.
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  Property : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Property : [string](../nada_base_types/string.md)
 
  `read-only`
 

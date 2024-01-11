@@ -1,6 +1,6 @@
-Roughness quite simply defines how rough--or conversely, how smooth--a particular material is. The greater the roughness of a surface, the greater the diffusion of light that hit that surface. Roughness can be defined either by value, which is uniformly applied across the surface of a [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md), or by texture map, which defines the roughness value for each discrete part of the Material.
+Roughness quite simply defines how rough--or conversely, how smooth--a particular material is. The greater the roughness of a surface, the greater the diffusion of light that hit that surface. Roughness can be defined either by value, which is uniformly applied across the surface of a [Material](materials_overview.md), or by texture map, which defines the roughness value for each discrete part of the Material.
 
-Roughness as defined in the [deferred renderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer/deferred_renderer.md) follow microfacet theory, in which surface irregularities on the Material cause reflected light to "blur". The higher the Roughness value, the greater the blurring effect will be. For a quick look at how increasing roughness corresponds to increased blur, the following screenshot shows spheres with constant albedo and metallic , but an increasing value of roughness from 0 to 1:
+Roughness as defined in the [deferred renderer](../renderer/deferred_renderer.md) follow microfacet theory, in which surface irregularities on the Material cause reflected light to "blur". The higher the Roughness value, the greater the blurring effect will be. For a quick look at how increasing roughness corresponds to increased blur, the following screenshot shows spheres with constant albedo and metallic , but an increasing value of roughness from 0 to 1:
 
 
 
@@ -36,8 +36,8 @@ RoughnessMaps may be broken down into two broad categories: tileable roughness m
  # Related Materials
  ## Manual
 
-- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/materials/materials_overview.md)
-- [deferred_renderer](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/renderer/deferred_renderer.md)
+- [Material](materials_overview.md)
+- [deferred_renderer](../renderer/deferred_renderer.md)
  
 
  

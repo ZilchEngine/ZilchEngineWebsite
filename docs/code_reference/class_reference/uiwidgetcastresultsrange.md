@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.md#empty-zilch-engine-docume)| | | |
-|[ Front](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.md#front-zilch-engine-docume)| | | |
-|[ PopFront](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.md#popfront-void)| | | |
-|[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcastresultsrange.md#size-zilch-engine-documen)| | | |
+|[ Empty](uiwidgetcastresultsrange.md#empty-zilch-engine-docume)| | | |
+|[ Front](uiwidgetcastresultsrange.md#front-zilch-engine-docume)| | | |
+|[ PopFront](uiwidgetcastresultsrange.md#popfront-void)| | | |
+|[ Size](uiwidgetcastresultsrange.md#size-zilch-engine-documen)| | | |
 
 
  #  Properties
@@ -16,7 +16,7 @@
 
 
 ---  
- #  Empty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Empty : [boolean](../nada_base_types/boolean.md)
 
 > Range Interface.
 > |Name|Type|Description|
@@ -27,7 +27,7 @@
 
 
 ---  
- #  Front : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  Front : [uiwidget](uiwidget.md)
 
 > 
 > |Name|Type|Description|
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Size : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Size : [integer](../nada_base_types/integer.md)
 
 > 
 > |Name|Type|Description|

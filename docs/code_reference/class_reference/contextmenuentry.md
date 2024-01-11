@@ -2,20 +2,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddCommandByName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#addcommandbyname-zilch-en)|[ Icon](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#icon-zilch-engine-documen)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.md)|[contextmenuentrycommand](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentrycommand.md)|
-|[ AddDivider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#adddivider-zilch-engine-d)|[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#name-zilch-engine-documen)| |[contextmenuentrydivider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentrydivider.md)|
-|[ AddEntry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#addentry-zilch-engine-doc)| | |[contextmenuentrymenu](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentrymenu.md)|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#contextmenuentry-void)| | | |
-|[ Entries](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#entries-zilch-engine-docu)| | | |
-|[ GetEntry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#getentry-zilch-engine-doc)| | | |
-|[ RemoveEntry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md#removeentry-void)| | | |
+|[ AddCommandByName](contextmenuentry.md#addcommandbyname-zilch-en)|[ Icon](contextmenuentry.md#icon-zilch-engine-documen)|[safeid32eventobject](safeid32eventobject.md)|[contextmenuentrycommand](contextmenuentrycommand.md)|
+|[ AddDivider](contextmenuentry.md#adddivider-zilch-engine-d)|[ Name](contextmenuentry.md#name-zilch-engine-documen)| |[contextmenuentrydivider](contextmenuentrydivider.md)|
+|[ AddEntry](contextmenuentry.md#addentry-zilch-engine-doc)| | |[contextmenuentrymenu](contextmenuentrymenu.md)|
+|[ Constructor](contextmenuentry.md#contextmenuentry-void)| | | |
+|[ Entries](contextmenuentry.md#entries-zilch-engine-docu)| | | |
+|[ GetEntry](contextmenuentry.md#getentry-zilch-engine-doc)| | | |
+|[ RemoveEntry](contextmenuentry.md#removeentry-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Icon : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Icon : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -35,19 +35,19 @@
 
 
 ---  
- #  AddCommandByName : [contextmenuentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md)
+ #  AddCommandByName : [contextmenuentry](contextmenuentry.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |commandName|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |commandName|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function AddCommandByName(commandName : String) : ContextMenuEntry
 > ``` 
 
 
 ---  
- #  AddDivider : [contextmenuentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md)
+ #  AddDivider : [contextmenuentry](contextmenuentry.md)
 
 > 
 > |Name|Type|Description|
@@ -58,12 +58,12 @@
 
 
 ---  
- #  AddEntry : [contextmenuentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md)
+ #  AddEntry : [contextmenuentry](contextmenuentry.md)
 
 > Adds a new entry with the provided name with an icon if one is provided to this menu entries children.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function AddEntry(name : String) : ContextMenuEntry
 > ``` 
@@ -83,7 +83,7 @@
 
 
 ---  
- #  Entries : [contextmenuentrychildrenrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentrychildrenrange.md)
+ #  Entries : [contextmenuentrychildrenrange](contextmenuentrychildrenrange.md)
 
 > 
 > |Name|Type|Description|
@@ -94,12 +94,12 @@
 
 
 ---  
- #  GetEntry : [contextmenuentry](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contextmenuentry.md)
+ #  GetEntry : [contextmenuentry](contextmenuentry.md)
 
 > Returns the children entry with the provided name if it exists and null otherwise.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function GetEntry(name : String) : ContextMenuEntry
 > ``` 
@@ -111,7 +111,7 @@
 > Remove the entry with the provided name from this menu entries children.
 > |Name|Type|Description|
 > |---|---|---|
-> |name|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |name|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveEntry(name : String)
 > ``` 

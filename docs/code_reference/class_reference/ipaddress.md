@@ -4,20 +4,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#clear-void)|[ Hash](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#hash-zilch-engine-documen)|SocketAddress| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#ipaddress-void)|[ Host](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#host-zilch-engine-documen)| | |
-| |[ InternetProtocol](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#internetprotocol-zilch-en)| | |
-| |[ IsValid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#isvalid-zilch-engine-docu)| | |
-| |[ Port](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#port-zilch-engine-documen)| | |
-| |[ PortString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#portstring-zilch-engine-d)| | |
-| |[ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md#string-zilch-engine-docum)| | |
+|[ Clear](ipaddress.md#clear-void)|[ Hash](ipaddress.md#hash-zilch-engine-documen)|SocketAddress| |
+|[ Constructor](ipaddress.md#ipaddress-void)|[ Host](ipaddress.md#host-zilch-engine-documen)| | |
+| |[ InternetProtocol](ipaddress.md#internetprotocol-zilch-en)| | |
+| |[ IsValid](ipaddress.md#isvalid-zilch-engine-docu)| | |
+| |[ Port](ipaddress.md#port-zilch-engine-documen)| | |
+| |[ PortString](ipaddress.md#portstring-zilch-engine-d)| | |
+| |[ String](ipaddress.md#string-zilch-engine-docum)| | |
 
 
  #  Properties
 
 
 ---  
- #  Hash : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Hash : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  Host : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Host : [string](../nada_base_types/string.md)
 
 > Returns the valid IP address host as a numeric string, else String()
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  InternetProtocol : [InternetProtocol](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#internetprotocol)
+ #  InternetProtocol : [InternetProtocol](../enum_reference.md#internetprotocol)
 
  `read-only`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  IsValid : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsValid : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  Port : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Port : [integer](../nada_base_types/integer.md)
 
 > Returns the valid IP address port, else 0.
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  PortString : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  PortString : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -73,7 +73,7 @@
 
 
 ---  
- #  String : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  String : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -118,7 +118,7 @@
 > Copy Constructors.
 > |Name|Type|Description|
 > |---|---|---|
-> |rhs|[ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)| |
+> |rhs|[ipaddress](ipaddress.md)| |
 > ``` lang=cpp, name=Nada
 > function IpAddress(rhs : IpAddress)
 > ``` 
@@ -132,8 +132,8 @@
 > Creates an empty IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> |host|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |host|[string](../nada_base_types/string.md)| |
+> |port|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function IpAddress(host : String, port : Integer)
 > ``` 
@@ -147,9 +147,9 @@
 > Creates an empty IP address.
 > |Name|Type|Description|
 > |---|---|---|
-> |host|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |internetProtocol|[InternetProtocol](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#internetprotocol)| |
+> |host|[string](../nada_base_types/string.md)| |
+> |port|[integer](../nada_base_types/integer.md)| |
+> |internetProtocol|[InternetProtocol](../enum_reference.md#internetprotocol)| |
 > ``` lang=cpp, name=Nada
 > function IpAddress(host : String, port : Integer, internetProtocol : InternetProtocol)
 > ``` 

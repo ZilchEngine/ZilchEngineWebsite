@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.md#meshparticleemitter-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.md#mesh-zilch-engine-documen)|[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md)| |
-| |[ MeshEmitMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.md#meshemitmode-zilch-engine)| | |
-| |[ NormalExtrude](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/meshparticleemitter.md#normalextrude-zilch-engin)| | |
+|[ Constructor](meshparticleemitter.md#meshparticleemitter-void)|[ Mesh](meshparticleemitter.md#mesh-zilch-engine-documen)|[particleemittershared](particleemittershared.md)| |
+| |[ MeshEmitMode](meshparticleemitter.md#meshemitmode-zilch-engine)| | |
+| |[ NormalExtrude](meshparticleemitter.md#normalextrude-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  Mesh : [mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md)
+ #  Mesh : [mesh](mesh.md)
 
 > Mesh used for this Model.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  MeshEmitMode : [MeshEmitMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#meshemitmode)
+ #  MeshEmitMode : [MeshEmitMode](../enum_reference.md#meshemitmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  NormalExtrude : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  NormalExtrude : [real](../nada_base_types/real.md)
 
 > Moved the spawn position along the normal scaled by this amount.
 > ``` lang=cpp, name=Nada

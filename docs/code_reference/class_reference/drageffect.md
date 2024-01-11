@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md#drageffect-void)|[ AngularDamping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md#angulardamping-zilch-engi)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)| |
-| |[ AngularDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md#angulardrag-zilch-engine)| | |
-| |[ LinearDamping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md#lineardamping-zilch-engin)| | |
-| |[ LinearDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md#lineardrag-zilch-engine-d)| | |
+|[ Constructor](drageffect.md#drageffect-void)|[ AngularDamping](drageffect.md#angulardamping-zilch-engi)|[physicseffect](physicseffect.md)| |
+| |[ AngularDrag](drageffect.md#angulardrag-zilch-engine)| | |
+| |[ LinearDamping](drageffect.md#lineardamping-zilch-engin)| | |
+| |[ LinearDrag](drageffect.md#lineardrag-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  AngularDamping : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AngularDamping : [real](../nada_base_types/real.md)
 
 > Angular damping coefficient for applying an angular drag acceleration (accel = -kw). Note: this affects objects the same regardless of mass.
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  AngularDrag : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AngularDrag : [real](../nada_base_types/real.md)
 
 > The angular drag coefficient for applying an angular drag force (T = -kw).
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  LinearDamping : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LinearDamping : [real](../nada_base_types/real.md)
 
 > Linear damping coefficient for applying a linear drag acceleration (accel = -bv). Note: this affects objects the same regardless of mass.
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  LinearDrag : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LinearDrag : [real](../nada_base_types/real.md)
 
 > The linear drag coefficient for applying a linear drag force (F = -bv).
 > ``` lang=cpp, name=Nada

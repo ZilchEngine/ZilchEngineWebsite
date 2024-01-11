@@ -2,14 +2,14 @@ Properties are one of the easiest ways to make components more reusable. While s
 
 One can see the WYSIWYG (what-you-see-is-what-you-get) effect with some of the built-in components.
 
-Here the [ Sprite ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites.md)'s orientation is changed the moment the FlipX checkBox box is checked in the editor. 
+Here the [ Sprite ](../graphics/sprites.md)'s orientation is changed the moment the FlipX checkBox box is checked in the editor. 
 
 
 
 ![flipped](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47657.gif)
 
 
-As a demonstration, the following custom [ NadaScript ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md) will emulateFlipX checkBox while using a Property:
+As a demonstration, the following custom [ NadaScript ](../nada_in_zilch.md) will emulateFlipX checkBox while using a Property:
 
 ```
 class Flipper : NadaComponent
@@ -49,7 +49,7 @@ class Flipper : NadaComponent
 While this works, it doesn't flip when FlipX checkBox is altered at runtime. By only 
 calling `Flip()` during initialization, it runs once and then never again. Although other scripts can access and call `Flip()` themselves, this function doesn't update FlipX checkBox, which means it doesn't represent the state of the object, like it does in the  Sprite component. 
 
-To link the call of flip with the setting of the variable, we'll use a [Get-Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/properties.md) for editing and a field for the backing variable. i.e.
+To link the call of flip with the setting of the variable, we'll use a [Get-Set](../nada_in_zilch/properties.md) for editing and a field for the backing variable. i.e.
 
 Update `Flipper.z` to the following:
 ```
@@ -102,17 +102,17 @@ class Flipper : NadaComponent
 ![flippereditorruntime](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47671.gif)
 
 
-Employing [ RunInEditor ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md), [ Serialized ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md), and [ Editable ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md) we've created the WYSIWYG feel, and the sprite can now be flipped at editor runtime. This design pattern can be reused to create the polished WYSIWYG feel with most scripted components.
+Employing [ RunInEditor ](../nada_in_zilch/attributes.md), [ Serialized ](../nada_in_zilch/attributes.md), and [ Editable ](../nada_in_zilch/attributes.md) we've created the WYSIWYG feel, and the sprite can now be flipped at editor runtime. This design pattern can be reused to create the polished WYSIWYG feel with most scripted components.
 
 ---
  # Related Materials
  ## Manual
- [ NadaScript ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
-- [ Sprites ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/sprites.md)
-- [RunInEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md)
-- [Get-Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/properties.md)
-- [ RunInEditor ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md)
-- [ Serialized ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md)
-- [ Editable ](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md) 
+ [ NadaScript ](../nada_in_zilch.md)
+- [ Sprites ](../graphics/sprites.md)
+- [RunInEditor](../nada_in_zilch/attributes.md)
+- [Get-Set](../nada_in_zilch/properties.md)
+- [ RunInEditor ](../nada_in_zilch/attributes.md)
+- [ Serialized ](../nada_in_zilch/attributes.md)
+- [ Editable ](../nada_in_zilch/attributes.md) 
 
  

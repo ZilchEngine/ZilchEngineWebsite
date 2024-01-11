@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md#jointconfigoverride-void)|[ AngularBaumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md#angularbaumgarte-zilch-en)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ AngularErrorCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md#angularerrorcorrection-z)| | |
-| |[ LinearBaumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md#linearbaumgarte-zilch-eng)| | |
-| |[ LinearErrorCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md#linearerrorcorrection-ze)| | |
-| |[ PositionCorrectionType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md#positioncorrectiontype-z)| | |
-| |[ Slop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md#slop-zilch-engine-documen)| | |
+|[ Constructor](jointconfigoverride.md#jointconfigoverride-void)|[ AngularBaumgarte](jointconfigoverride.md#angularbaumgarte-zilch-en)|[component](component.md)| |
+| |[ AngularErrorCorrection](jointconfigoverride.md#angularerrorcorrection-z)| | |
+| |[ LinearBaumgarte](jointconfigoverride.md#linearbaumgarte-zilch-eng)| | |
+| |[ LinearErrorCorrection](jointconfigoverride.md#linearerrorcorrection-ze)| | |
+| |[ PositionCorrectionType](jointconfigoverride.md#positioncorrectiontype-z)| | |
+| |[ Slop](jointconfigoverride.md#slop-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  AngularBaumgarte : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AngularBaumgarte : [real](../nada_base_types/real.md)
 
 > The exponential constant for correcting angular error with a penalty impulse.
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  AngularErrorCorrection : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AngularErrorCorrection : [real](../nada_base_types/real.md)
 
 > The max amount of error that can be corrected by the angular portion of any constraint in one frame (only for PostStabilization).
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  LinearBaumgarte : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LinearBaumgarte : [real](../nada_base_types/real.md)
 
 > The exponential constant for correcting linear error with a penalty impulse.
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  LinearErrorCorrection : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LinearErrorCorrection : [real](../nada_base_types/real.md)
 
 > The max amount of error that can be corrected by the linear portion of any constraint in one frame (only for PostStabilization).
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  PositionCorrectionType : [ConstraintPositionCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#constraintpositioncorrection)
+ #  PositionCorrectionType : [ConstraintPositionCorrection](../enum_reference.md#constraintpositioncorrection)
 
 > The kind of position correction that this joint should use.
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  Slop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Slop : [real](../nada_base_types/real.md)
 
 > The amount of error allowed before position correction takes effect.
 > ``` lang=cpp, name=Nada

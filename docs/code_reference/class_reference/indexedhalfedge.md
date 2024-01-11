@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.md#indexedhalfedge-void)|[ FaceIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.md#faceindex-zilch-engine-do)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-| |[ TwinIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.md#twinindex-zilch-engine-do)| | |
-| |[ VertexIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.md#vertexindex-zilch-engine)| | |
+|[ Constructor](indexedhalfedge.md#indexedhalfedge-void)|[ FaceIndex](indexedhalfedge.md#faceindex-zilch-engine-do)|[safeid32object](safeid32object.md)| |
+| |[ TwinIndex](indexedhalfedge.md#twinindex-zilch-engine-do)| | |
+| |[ VertexIndex](indexedhalfedge.md#vertexindex-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  FaceIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FaceIndex : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -21,7 +21,7 @@
 
 
 ---  
- #  TwinIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  TwinIndex : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  VertexIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  VertexIndex : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -65,7 +65,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[indexedhalfedge](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedge.md)| |
+> |p0|[indexedhalfedge](indexedhalfedge.md)| |
 > ``` lang=cpp, name=Nada
 > function IndexedHalfEdge(p0 : IndexedHalfEdge)
 > ``` 

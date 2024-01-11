@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.md#indices-zilch-engine-docu)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-| |[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.md#mesh-zilch-engine-documen)| | |
-| |[ TriangleIndices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.md#triangleindices-zilch-eng)| | |
-| |[ Valid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.md#valid-zilch-engine-docume)| | |
+| |[ Indices](subconvexmesh.md#indices-zilch-engine-docu)|[safeid32object](safeid32object.md)| |
+| |[ Mesh](subconvexmesh.md#mesh-zilch-engine-documen)| | |
+| |[ TriangleIndices](subconvexmesh.md#triangleindices-zilch-eng)| | |
+| |[ Valid](subconvexmesh.md#valid-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Indices : [multiconvexmeshindexdata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshindexdata.md)
+ #  Indices : [multiconvexmeshindexdata](multiconvexmeshindexdata.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  Mesh : [multiconvexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md)
+ #  Mesh : [multiconvexmesh](multiconvexmesh.md)
 
 > The MultiConvexMesh that owns this sub-mesh.
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  TriangleIndices : [multiconvexmeshindexdata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshindexdata.md)
+ #  TriangleIndices : [multiconvexmeshindexdata](multiconvexmeshindexdata.md)
 
  `read-only`
 
@@ -44,7 +44,7 @@
 
 
 ---  
- #  Valid : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Valid : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 

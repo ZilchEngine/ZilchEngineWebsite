@@ -1,4 +1,4 @@
-The [BuoyancyEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.md) component applies a [buoyancy force](https://en.wikipedia.org/wiki/Buoyancy ) to an object. Buoyancy is approximately defined as: 
+The [BuoyancyEffect](../../../../code_reference/class_reference/buoyancyeffect.md) component applies a [buoyancy force](https://en.wikipedia.org/wiki/Buoyancy ) to an object. Buoyancy is approximately defined as: 
 
 (NOTE) F = -G * (V/p)
 
@@ -10,11 +10,11 @@ BuoyancyEffect can only be applied as a Region effect.
 ---
  #  Related Materials
  ##  Manual
-- [physicseffectsandregions.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.md)
+- [physicseffectsandregions.md](../physicseffectsandregions.md)
 
  ##  Reference
-- [BuoyancyEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.md)
-- [PhysicsEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)
-- [Region](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/region.md) 
+- [BuoyancyEffect](../../../../code_reference/class_reference/buoyancyeffect.md)
+- [PhysicsEffect](../../../../code_reference/class_reference/physicseffect.md)
+- [Region](../../../../code_reference/class_reference/region.md) 
 
  

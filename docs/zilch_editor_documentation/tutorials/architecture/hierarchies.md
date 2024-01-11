@@ -13,19 +13,19 @@ This lesson focuses on covering the basics of how object hierarchies work in Zil
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `ParentSquare`
- - Under [ Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
+ - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `[R:255, G:0, B:0, A:1.00]`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `ChildSquare`
- - Under [ Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [ Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[1, -1, 0]`
- - Under [ Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
+ - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `[R:0, G:0, B:255, A:1.00]`
 - In the `Objects Window`
  - `Drag and drop` ChildSquare object on top of ParentSquare object
@@ -37,7 +37,7 @@ This lesson focuses on covering the basics of how object hierarchies work in Zil
 
 As you have probably noticed, by dragging and dropping an object onto another, we've **attached** the former to the latter in a process called **parenting**. We then refer to this group of objects as a **hierarchy**, and it adopts new behaviors, most notably with respect to transformations. Let's take a look:
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : ParentSquare object
+- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : ParentSquare object
 - Experiment with Translation , Rotation and Scale 
 
 
@@ -58,7 +58,7 @@ Notice that, when we apply a transformation to the **parent object**, it is prop
 *Transforming the ChildSquare object*
 
 
-If we look at the [ Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component (in the `Properties Window`) of both objects while applying transformations to the ParentSquare object, we notice that while its transform values are modified, the ChildSquare object's values remain the same. In Zilch Engine, the [ Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) values displayed on a **root object** (top parent of a hierarchy) correspond to their **world values**; that is, the transform values relative to the space's origin at `[0, 0, 0]`. Meanwhile, transform values for **child objects** are displayed as **local values**; that is, the offset modifications relative to the **parent object**'s values.
+If we look at the [ Transform](../../../code_reference/class_reference/transform.md) component (in the `Properties Window`) of both objects while applying transformations to the ParentSquare object, we notice that while its transform values are modified, the ChildSquare object's values remain the same. In Zilch Engine, the [ Transform](../../../code_reference/class_reference/transform.md) values displayed on a **root object** (top parent of a hierarchy) correspond to their **world values**; that is, the transform values relative to the space's origin at `[0, 0, 0]`. Meanwhile, transform values for **child objects** are displayed as **local values**; that is, the offset modifications relative to the **parent object**'s values.
 
 
 
@@ -79,24 +79,24 @@ When dealing with object Hierarchies, one can accidentally stumble on the proble
 
 ![NonUniformScale](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46821.gif)
 
-This produces an often undesired **shear** effect, and is usually best avoided by making sure the **parent object** is always uniformly scaled. It should be noted that shearing does not affect the shape of [ colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md).
+This produces an often undesired **shear** effect, and is usually best avoided by making sure the **parent object** is always uniformly scaled. It should be noted that shearing does not affect the shape of [ colliders](../../zilchmanual/physics/colliders.md).
 
 
  #  Related Materials
  ##  Manual
-- [gameobjectsconcept](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs/gameobjectsconcept.md)
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)
-- [colliders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md)
+- [gameobjectsconcept](../../zilchmanual/architecture/cogs/gameobjectsconcept.md)
+- [commands](../../zilchmanual/editor/editorcommands/commands.md)
+- [selectobject](../../zilchmanual/editor/editorcommands/selectobject.md)
+- [colliders](../../zilchmanual/physics/colliders.md)
 
  ##  Code Reference
  ###  Commands
-- [ NewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
-- [ CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ NewProject](../../../code_reference/command_reference.md#newproject)
+- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
  ###  Classes
-- [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
-- [sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) 
+- [cog](../../../code_reference/class_reference/cog.md)
+- [sprite](../../../code_reference/class_reference/sprite.md)
+- [transform](../../../code_reference/class_reference/transform.md) 
 
  

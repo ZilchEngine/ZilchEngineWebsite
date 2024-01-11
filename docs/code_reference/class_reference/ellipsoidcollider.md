@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.md#ellipsoidcollider-void)|[ Radii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.md#radii-zilch-engine-docume)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)| |
-| |[ WorldRadii](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.md#worldradii-zilch-engine-d)| | |
+|[ Constructor](ellipsoidcollider.md#ellipsoidcollider-void)|[ Radii](ellipsoidcollider.md#radii-zilch-engine-docume)|[collider](collider.md)| |
+| |[ WorldRadii](ellipsoidcollider.md#worldradii-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  Radii : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Radii : [real3](../nada_base_types/real3.md)
 
 > The x, y, and z radius of the ellipsoid.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  WorldRadii : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldRadii : [real3](../nada_base_types/real3.md)
 
  `read-only`
 

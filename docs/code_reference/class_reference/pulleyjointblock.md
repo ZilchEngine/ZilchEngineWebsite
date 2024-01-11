@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjointblock.md#pulleyjointblock-void)| |[constraintconfigblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/constraintconfigblock.md)| |
+|[ Constructor](pulleyjointblock.md#pulleyjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

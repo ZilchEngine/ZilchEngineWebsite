@@ -4,20 +4,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateTileMap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#createtilemap-void)|[ ShowArchetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#showarchetype-zilch-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#tileeditor2d-void)|[ ShowCollision](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#showcollision-zilch-engin)| | |
-| |[ ShowCoordinates](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#showcoordinates-zilch-eng)| | |
-| |[ ShowGrid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#showgrid-zilch-engine-doc)| | |
-| |[ ShowInvalid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#showinvalid-zilch-engine)| | |
-| |[ TiledDrawing](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#tileddrawing-zilch-engine)| | |
-| |[ ToolType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tileeditor2d.md#tooltype-zilch-engine-doc)| | |
+|[ CreateTileMap](tileeditor2d.md#createtilemap-void)|[ ShowArchetype](tileeditor2d.md#showarchetype-zilch-engin)|[component](component.md)| |
+|[ Constructor](tileeditor2d.md#tileeditor2d-void)|[ ShowCollision](tileeditor2d.md#showcollision-zilch-engin)| | |
+| |[ ShowCoordinates](tileeditor2d.md#showcoordinates-zilch-eng)| | |
+| |[ ShowGrid](tileeditor2d.md#showgrid-zilch-engine-doc)| | |
+| |[ ShowInvalid](tileeditor2d.md#showinvalid-zilch-engine)| | |
+| |[ TiledDrawing](tileeditor2d.md#tileddrawing-zilch-engine)| | |
+| |[ ToolType](tileeditor2d.md#tooltype-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  ShowArchetype : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowArchetype : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  ShowCollision : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowCollision : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  ShowCoordinates : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowCoordinates : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  ShowGrid : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowGrid : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  ShowInvalid : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowInvalid : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  TiledDrawing : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  TiledDrawing : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  ToolType : [TileEditor2DSubToolType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#tileeditor2dsubtooltype)
+ #  ToolType : [TileEditor2DSubToolType](../enum_reference.md#tileeditor2dsubtooltype)
 
 > 
 > ``` lang=cpp, name=Nada

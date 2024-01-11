@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FilterState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilterevent.md#filterstate-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castfilterevent.md#object-zilch-engine-docum)| | |
+| |[ FilterState](castfilterevent.md#filterstate-zilch-engine)|[event](event.md)| |
+| |[ Object](castfilterevent.md#object-zilch-engine-docum)| | |
 
 
  #  Properties
 
 
 ---  
- #  FilterState : [CastFilterState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#castfilterstate)
+ #  FilterState : [CastFilterState](../enum_reference.md#castfilterstate)
 
 > When filtering should we accept or reject this cog? Alternatively we can let the default cast filter logic run.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Object : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Object : [cog](cog.md)
 
  `read-only`
 

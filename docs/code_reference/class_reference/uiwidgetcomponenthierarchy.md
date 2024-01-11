@@ -4,22 +4,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetChildren](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#getchildren-zilch-engine)|[ ChildCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#childcount-zilch-engine-d)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)|[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)|
-|[ IsAncestorOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#isancestorof-zilch-engine)|[ LastDeepestChild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#lastdeepestchild-zilch-en)| | |
-|[ IsDescendantOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#isdescendantof-zilch-engi)|[ LastDirectChild](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#lastdirectchild-zilch-eng)| | |
-| |[ NextInHierarchyOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#nextinhierarchyorder-zer)| | |
-| |[ NextSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#nextsibling-zilch-engine)| | |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#parent-zilch-engine-docum)| | |
-| |[ PreviousInHierarchyOrder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#previousinhierarchyorder)| | |
-| |[ PreviousSibling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#previoussibling-zilch-eng)| | |
-| |[ Root](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetcomponenthierarchy.md#root-zilch-engine-documen)| | |
+|[ GetChildren](uiwidgetcomponenthierarchy.md#getchildren-zilch-engine)|[ ChildCount](uiwidgetcomponenthierarchy.md#childcount-zilch-engine-d)|[component](component.md)|[uiwidget](uiwidget.md)|
+|[ IsAncestorOf](uiwidgetcomponenthierarchy.md#isancestorof-zilch-engine)|[ LastDeepestChild](uiwidgetcomponenthierarchy.md#lastdeepestchild-zilch-en)| | |
+|[ IsDescendantOf](uiwidgetcomponenthierarchy.md#isdescendantof-zilch-engi)|[ LastDirectChild](uiwidgetcomponenthierarchy.md#lastdirectchild-zilch-eng)| | |
+| |[ NextInHierarchyOrder](uiwidgetcomponenthierarchy.md#nextinhierarchyorder-zer)| | |
+| |[ NextSibling](uiwidgetcomponenthierarchy.md#nextsibling-zilch-engine)| | |
+| |[ Parent](uiwidgetcomponenthierarchy.md#parent-zilch-engine-docum)| | |
+| |[ PreviousInHierarchyOrder](uiwidgetcomponenthierarchy.md#previousinhierarchyorder)| | |
+| |[ PreviousSibling](uiwidgetcomponenthierarchy.md#previoussibling-zilch-eng)| | |
+| |[ Root](uiwidgetcomponenthierarchy.md#root-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  ChildCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ChildCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -29,7 +29,7 @@
 
 
 ---  
- #  LastDeepestChild : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  LastDeepestChild : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -39,7 +39,7 @@
 
 
 ---  
- #  LastDirectChild : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  LastDirectChild : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -49,7 +49,7 @@
 
 
 ---  
- #  NextInHierarchyOrder : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  NextInHierarchyOrder : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -59,7 +59,7 @@
 
 
 ---  
- #  NextSibling : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  NextSibling : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -69,7 +69,7 @@
 
 
 ---  
- #  Parent : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  Parent : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -79,7 +79,7 @@
 
 
 ---  
- #  PreviousInHierarchyOrder : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  PreviousInHierarchyOrder : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -89,7 +89,7 @@
 
 
 ---  
- #  PreviousSibling : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  PreviousSibling : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -99,7 +99,7 @@
 
 
 ---  
- #  Root : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  Root : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -113,7 +113,7 @@
 
 
 ---  
- #  GetChildren : [uiwidgetrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidgetrange.md)
+ #  GetChildren : [uiwidgetrange](uiwidgetrange.md)
 
 > 
 > |Name|Type|Description|
@@ -124,24 +124,24 @@
 
 
 ---  
- #  IsAncestorOf : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsAncestorOf : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)| |
+> ||[uiwidget](uiwidget.md)| |
 > ``` lang=cpp, name=Nada
 > function IsAncestorOf( : UiWidget) : Boolean
 > ``` 
 
 
 ---  
- #  IsDescendantOf : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsDescendantOf : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)| |
+> ||[uiwidget](uiwidget.md)| |
 > ``` lang=cpp, name=Nada
 > function IsDescendantOf( : UiWidget) : Boolean
 > ``` 

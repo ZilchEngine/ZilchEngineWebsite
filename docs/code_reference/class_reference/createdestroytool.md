@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BaseHeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.md#baseheight-zilch-engine-d)|[heightmapsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapsubtool.md)| |
-| |[ PerlinAmplitude](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.md#perlinamplitude-zilch-eng)| | |
-| |[ PerlinFrequency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.md#perlinfrequency-zilch-eng)| | |
-| |[ UsePerlinNoise](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/createdestroytool.md#useperlinnoise-zilch-engi)| | |
+| |[ BaseHeight](createdestroytool.md#baseheight-zilch-engine-d)|[heightmapsubtool](heightmapsubtool.md)| |
+| |[ PerlinAmplitude](createdestroytool.md#perlinamplitude-zilch-eng)| | |
+| |[ PerlinFrequency](createdestroytool.md#perlinfrequency-zilch-eng)| | |
+| |[ UsePerlinNoise](createdestroytool.md#useperlinnoise-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  BaseHeight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BaseHeight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  PerlinAmplitude : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PerlinAmplitude : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  PerlinFrequency : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PerlinFrequency : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  UsePerlinNoise : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UsePerlinNoise : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

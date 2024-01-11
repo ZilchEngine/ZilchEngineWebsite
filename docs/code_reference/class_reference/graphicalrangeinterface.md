@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.md#add-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.md#count-zilch-engine-docume)| | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.md#clear-void)| | | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.md#graphicalrangeinterface)| | | |
+|[ Add](graphicalrangeinterface.md#add-void)|[ Count](graphicalrangeinterface.md#count-zilch-engine-docume)| | |
+|[ Clear](graphicalrangeinterface.md#clear-void)| | | |
+|[ Constructor](graphicalrangeinterface.md#graphicalrangeinterface)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 > Add a Graphical to the list.
 > |Name|Type|Description|
 > |---|---|---|
-> |graphical|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.md)| |
+> |graphical|[graphical](graphical.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(graphical : Graphical)
 > ``` 
@@ -70,7 +70,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[graphicalrangeinterface](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.md)| |
+> ||[graphicalrangeinterface](graphicalrangeinterface.md)| |
 > ``` lang=cpp, name=Nada
 > function GraphicalRangeInterface( : GraphicalRangeInterface)
 > ``` 

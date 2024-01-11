@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EdgeId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkpointchangedevent.md#edgeid-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ NewLocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkpointchangedevent.md#newlocalpoint-zilch-engin)| | |
-| |[ OldLocalPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkpointchangedevent.md#oldlocalpoint-zilch-engin)| | |
+| |[ EdgeId](objectlinkpointchangedevent.md#edgeid-zilch-engine-docum)|[event](event.md)| |
+| |[ NewLocalPoint](objectlinkpointchangedevent.md#newlocalpoint-zilch-engin)| | |
+| |[ OldLocalPoint](objectlinkpointchangedevent.md#oldlocalpoint-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  EdgeId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  EdgeId : [integer](../nada_base_types/integer.md)
 
 > The index on the edge that is being overridden.
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  NewLocalPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  NewLocalPoint : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  OldLocalPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  OldLocalPoint : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

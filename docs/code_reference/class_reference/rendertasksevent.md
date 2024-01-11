@@ -6,20 +6,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddRenderTaskClearTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#addrendertaskcleartarget)|[ CameraViewportCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#cameraviewportcog-zilch-e)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-|[ AddRenderTaskPostProcess](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#addrendertaskpostprocess)|[ ViewportSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#viewportsize-zilch-engine)| | |
-|[ AddRenderTaskRenderPass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#addrendertaskrenderpass)| | | |
-|[ AddRenderTaskSubRenderGroupPass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#addrendertasksubrendergr)| | | |
-|[ CreateSubRenderGroupPass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#createsubrendergrouppass)| | | |
-|[ GetFinalTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#getfinaltarget-zilch-engi)| | | |
-|[ GetRenderTarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertasksevent.md#getrendertarget-zilch-eng)| | | |
+|[ AddRenderTaskClearTarget](rendertasksevent.md#addrendertaskcleartarget)|[ CameraViewportCog](rendertasksevent.md#cameraviewportcog-zilch-e)|[event](event.md)| |
+|[ AddRenderTaskPostProcess](rendertasksevent.md#addrendertaskpostprocess)|[ ViewportSize](rendertasksevent.md#viewportsize-zilch-engine)| | |
+|[ AddRenderTaskRenderPass](rendertasksevent.md#addrendertaskrenderpass)| | | |
+|[ AddRenderTaskSubRenderGroupPass](rendertasksevent.md#addrendertasksubrendergr)| | | |
+|[ CreateSubRenderGroupPass](rendertasksevent.md#createsubrendergrouppass)| | | |
+|[ GetFinalTarget](rendertasksevent.md#getfinaltarget-zilch-engi)| | | |
+|[ GetRenderTarget](rendertasksevent.md#getrendertarget-zilch-eng)| | | |
 
 
  #  Properties
 
 
 ---  
- #  CameraViewportCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  CameraViewportCog : [cog](cog.md)
 
  `read-only`
 
@@ -29,7 +29,7 @@
 
 
 ---  
- #  ViewportSize : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ViewportSize : [integer2](../nada_base_types/integer2.md)
 
  `read-only`
 
@@ -48,8 +48,8 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4)
 > ``` 
@@ -61,9 +61,9 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4, depth : Real)
 > ``` 
@@ -75,10 +75,10 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |stencil|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
+> |stencil|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4, depth : Real, stencil : Integer)
 > ``` 
@@ -90,11 +90,11 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |stencil|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |stencilWriteMask|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
+> |stencil|[integer](../nada_base_types/integer.md)| |
+> |stencilWriteMask|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(renderSettings : RenderSettings, color : Real4, depth : Real, stencil : Integer, stencilWriteMask : Integer)
 > ``` 
@@ -106,8 +106,8 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |depthTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |depthTarget|[rendertarget](rendertarget.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(depthTarget : RenderTarget, depth : Real)
 > ``` 
@@ -119,9 +119,9 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |depthTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |stencil|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |depthTarget|[rendertarget](rendertarget.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
+> |stencil|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(depthTarget : RenderTarget, depth : Real, stencil : Integer)
 > ``` 
@@ -133,10 +133,10 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |depthTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |stencil|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |stencilWriteMask|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |depthTarget|[rendertarget](rendertarget.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
+> |stencil|[integer](../nada_base_types/integer.md)| |
+> |stencilWriteMask|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(depthTarget : RenderTarget, depth : Real, stencil : Integer, stencilWriteMask : Integer)
 > ``` 
@@ -148,8 +148,8 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |colorTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |colorTarget|[rendertarget](rendertarget.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, color : Real4)
 > ``` 
@@ -161,10 +161,10 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |colorTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |depthTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |colorTarget|[rendertarget](rendertarget.md)| |
+> |depthTarget|[rendertarget](rendertarget.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, depthTarget : RenderTarget, color : Real4, depth : Real)
 > ``` 
@@ -176,11 +176,11 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |colorTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |depthTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |stencil|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |colorTarget|[rendertarget](rendertarget.md)| |
+> |depthTarget|[rendertarget](rendertarget.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
+> |stencil|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, depthTarget : RenderTarget, color : Real4, depth : Real, stencil : Integer)
 > ``` 
@@ -192,12 +192,12 @@
 > Initializes all the internal texture data for the given RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |colorTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |depthTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |color|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
-> |depth|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |stencil|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |stencilWriteMask|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |colorTarget|[rendertarget](rendertarget.md)| |
+> |depthTarget|[rendertarget](rendertarget.md)| |
+> |color|[real4](../nada_base_types/real4.md)| |
+> |depth|[real](../nada_base_types/real.md)| |
+> |stencil|[integer](../nada_base_types/integer.md)| |
+> |stencilWriteMask|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskClearTarget(colorTarget : RenderTarget, depthTarget : RenderTarget, color : Real4, depth : Real, stencil : Integer, stencilWriteMask : Integer)
 > ``` 
@@ -209,8 +209,8 @@
 > Invokes the pixel shader for every pixel of the RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |material|[material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |material|[material](material.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskPostProcess(renderSettings : RenderSettings, material : Material)
 > ``` 
@@ -222,8 +222,8 @@
 > Invokes the pixel shader for every pixel of the RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |postProcess|[materialblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materialblock.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |postProcess|[materialblock](materialblock.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskPostProcess(renderSettings : RenderSettings, postProcess : MaterialBlock)
 > ``` 
@@ -235,8 +235,8 @@
 > Invokes the pixel shader for every pixel of the RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |material|[material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md)| |
+> |renderTarget|[rendertarget](rendertarget.md)| |
+> |material|[material](material.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskPostProcess(renderTarget : RenderTarget, material : Material)
 > ``` 
@@ -248,8 +248,8 @@
 > Invokes the pixel shader for every pixel of the RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
-> |postProcess|[materialblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materialblock.md)| |
+> |renderTarget|[rendertarget](rendertarget.md)| |
+> |postProcess|[materialblock](materialblock.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskPostProcess(renderTarget : RenderTarget, postProcess : MaterialBlock)
 > ``` 
@@ -261,9 +261,9 @@
 > Renders a group of objects with the given settings. The RenderPass fragment defines what data is written to RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |graphicalRange|[graphicalrangeinterface](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicalrangeinterface.md)| |
-> |renderPass|[materialblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materialblock.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |graphicalRange|[graphicalrangeinterface](graphicalrangeinterface.md)| |
+> |renderPass|[materialblock](materialblock.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskRenderPass(renderSettings : RenderSettings, graphicalRange : GraphicalRangeInterface, renderPass : MaterialBlock)
 > ``` 
@@ -275,9 +275,9 @@
 > Renders a group of objects with the given settings. The RenderPass fragment defines what data is written to RenderTargets.
 > |Name|Type|Description|
 > |---|---|---|
-> |renderSettings|[rendersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendersettings.md)| |
-> |renderGroup|[rendergroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md)| |
-> |renderPass|[materialblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/materialblock.md)| |
+> |renderSettings|[rendersettings](rendersettings.md)| |
+> |renderGroup|[rendergroup](rendergroup.md)| |
+> |renderPass|[materialblock](materialblock.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskRenderPass(renderSettings : RenderSettings, renderGroup : RenderGroup, renderPass : MaterialBlock)
 > ``` 
@@ -289,85 +289,85 @@
 > Renders all objects within a RenderGroup hierarchy, sorted in the order defined by the base RenderGroup, and can use unique render settings for each RenderGroup in the hierarchy.
 > |Name|Type|Description|
 > |---|---|---|
-> |subRenderGroupPass|[subrendergrouppass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subrendergrouppass.md)| |
+> |subRenderGroupPass|[subrendergrouppass](subrendergrouppass.md)| |
 > ``` lang=cpp, name=Nada
 > function AddRenderTaskSubRenderGroupPass(subRenderGroupPass : SubRenderGroupPass)
 > ``` 
 
 
 ---  
- #  CreateSubRenderGroupPass : [subrendergrouppass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subrendergrouppass.md)
+ #  CreateSubRenderGroupPass : [subrendergrouppass](subrendergrouppass.md)
 
 > Creates the interface used to define unique render settings for a base RenderGroup and its sub RenderGroups. The given RenderGroup is used to define the hierarchy, or sub hierarchy, that should be rendered. The given RenderGroup also defines the sort order for all objects that are within its hierarchy. Returned SubRenderGroupPass is only valid during this event.
 > |Name|Type|Description|
 > |---|---|---|
-> |baseGroup|[rendergroup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendergroup.md)| |
+> |baseGroup|[rendergroup](rendergroup.md)| |
 > ``` lang=cpp, name=Nada
 > function CreateSubRenderGroupPass(baseGroup : RenderGroup) : SubRenderGroupPass
 > ``` 
 
 
 ---  
- #  GetFinalTarget : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  GetFinalTarget : [rendertarget](rendertarget.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[TextureFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureformat)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[TextureFormat](../enum_reference.md#textureformat)| |
 > ``` lang=cpp, name=Nada
 > function GetFinalTarget( : Integer2,  : TextureFormat) : RenderTarget
 > ``` 
 
 
 ---  
- #  GetFinalTarget : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  GetFinalTarget : [rendertarget](rendertarget.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[TextureFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureformat)| |
-> ||[samplersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[TextureFormat](../enum_reference.md#textureformat)| |
+> ||[samplersettings](samplersettings.md)| |
 > ``` lang=cpp, name=Nada
 > function GetFinalTarget( : Integer2,  : TextureFormat,  : SamplerSettings) : RenderTarget
 > ``` 
 
 
 ---  
- #  GetRenderTarget : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  GetRenderTarget : [rendertarget](rendertarget.md)
 
 > Returns a RenderTarget for use when adding render tasks. Target only valid during this event. Will render to the given texture instead of an internally managed texture.
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[TextureFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureformat)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[TextureFormat](../enum_reference.md#textureformat)| |
 > ``` lang=cpp, name=Nada
 > function GetRenderTarget( : Integer2,  : TextureFormat) : RenderTarget
 > ``` 
 
 
 ---  
- #  GetRenderTarget : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  GetRenderTarget : [rendertarget](rendertarget.md)
 
 > Returns a RenderTarget for use when adding render tasks. Target only valid during this event. Will render to the given texture instead of an internally managed texture.
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> ||[TextureFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureformat)| |
-> ||[samplersettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/samplersettings.md)| |
+> ||[integer2](../nada_base_types/integer2.md)| |
+> ||[TextureFormat](../enum_reference.md#textureformat)| |
+> ||[samplersettings](samplersettings.md)| |
 > ``` lang=cpp, name=Nada
 > function GetRenderTarget( : Integer2,  : TextureFormat,  : SamplerSettings) : RenderTarget
 > ``` 
 
 
 ---  
- #  GetRenderTarget : [rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)
+ #  GetRenderTarget : [rendertarget](rendertarget.md)
 
 > Returns a RenderTarget for use when adding render tasks. Target only valid during this event. Will render to the given texture instead of an internally managed texture.
 > |Name|Type|Description|
 > |---|---|---|
-> |texture|[texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md)| |
+> |texture|[texture](texture.md)| |
 > ``` lang=cpp, name=Nada
 > function GetRenderTarget(texture : Texture) : RenderTarget
 > ``` 

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| | |[iconbutton](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/iconbutton.md)| |
+| | |[iconbutton](iconbutton.md)| |
 
 
  #  Properties

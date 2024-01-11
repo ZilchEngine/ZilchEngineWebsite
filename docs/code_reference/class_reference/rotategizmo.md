@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.md#rotategizmo-void)|[ SnapAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.md#snapangle-zilch-engine-do)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rotategizmo.md#snapping-zilch-engine-doc)| | |
+|[ Constructor](rotategizmo.md#rotategizmo-void)|[ SnapAngle](rotategizmo.md#snapangle-zilch-engine-do)|[component](component.md)| |
+| |[ Snapping](rotategizmo.md#snapping-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  SnapAngle : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SnapAngle : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Snapping : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > Snapping.
 > ``` lang=cpp, name=Nada

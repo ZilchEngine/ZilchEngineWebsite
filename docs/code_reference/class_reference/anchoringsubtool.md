@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AnchoredPointMassColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/anchoringsubtool.md#anchoredpointmasscolor-z)|[pointmassselectorsubtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointmassselectorsubtool.md)| |
-| |[ DrawAnchoredPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/anchoringsubtool.md#drawanchoredpoints-zero)| | |
+| |[ AnchoredPointMassColor](anchoringsubtool.md#anchoredpointmasscolor-z)|[pointmassselectorsubtool](pointmassselectorsubtool.md)| |
+| |[ DrawAnchoredPoints](anchoringsubtool.md#drawanchoredpoints-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  AnchoredPointMassColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  AnchoredPointMassColor : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -18,7 +18,7 @@
 
 
 ---  
- #  DrawAnchoredPoints : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DrawAnchoredPoints : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

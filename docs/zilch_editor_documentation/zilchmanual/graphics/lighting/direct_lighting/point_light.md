@@ -1,4 +1,4 @@
-A point light is a light that has a defined shape, exists at particular point in space, and sends light out equally from all points on that shape. It uses a sphere [mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md) to define its volume, as can be seen on the [Model component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md). The light that is emitted will only be processed on geometry that the light overlaps, which is found using a special depth test unique to the point light.
+A point light is a light that has a defined shape, exists at particular point in space, and sends light out equally from all points on that shape. It uses a sphere [mesh](../../../../../code_reference/class_reference/mesh.md) to define its volume, as can be seen on the [Model component](../../models/model_component.md). The light that is emitted will only be processed on geometry that the light overlaps, which is found using a special depth test unique to the point light.
 
  # LightIntensity and LightRadius
 
@@ -24,9 +24,9 @@ FalloffRadius  defines the size of the sphere mesh that acts as the volume in wh
 
  # Related Materials
  ## Manual
-- [Model component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md)
+- [Model component](../../models/model_component.md)
 
  ## Code Reference
-- [Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md) 
+- [Mesh](../../../../../code_reference/class_reference/mesh.md) 
 
  

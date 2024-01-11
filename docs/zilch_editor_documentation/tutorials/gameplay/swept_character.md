@@ -1,4 +1,4 @@
-The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zilch Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/external_zilch_engine_tools/the_market.md) contains 2D and 3D input scripts that work with the `SweptController` component also included in the package. The `SweptController` is a generic kinematic character controller that is useful when prototyping many 2D and 3D game concepts.
+The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zilch Market](../external_zilch_engine_tools/the_market.md) contains 2D and 3D input scripts that work with the `SweptController` component also included in the package. The `SweptController` is a generic kinematic character controller that is useful when prototyping many 2D and 3D game concepts.
 
 
  #  Learning Objectives
@@ -12,7 +12,7 @@ The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zilch Market](https://git
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - Click  the market button in the top right of the editor window
   ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106205.png)
@@ -24,17 +24,17 @@ The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zilch Market](https://git
   ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106211.png)
 - Close the `Market Browser`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ CreateCube](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createcube)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateCube](../../../code_reference/command_reference.md#createcube)
 - In the `Properties Window`
- - Under [ Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [ Transform](../../../code_reference/class_reference/transform.md)
   - Set Scale  to `[50,1,1]`
- - Under [ RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
-  - Set DynamicState enum to [Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)
+ - Under [ RigidBody](../../../code_reference/class_reference/rigidbody.md)
+  - Set DynamicState enum to [Static](../../../code_reference/enum_reference.md#rigidbodydynamicstate)
 - In the `Library Window`
  - Under Archetype 
   - `Click and drag` {nav icon=wrench, name=SweptPlayer2_5D} into the `Level Window`
     ![SweptArchetype](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106215.gif)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
  - Move left with `A` and right with `D`
  - Jump with `Space`
@@ -47,7 +47,7 @@ The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zilch Market](https://git
 *The Player object moving and jumping*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  SweptInput
@@ -89,7 +89,7 @@ class SweptInput2D : NadaComponent
 }
 ```
 
-Very similar to our dynamic character controller from the [first input tutorial](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/gameplay/input1.md), we need to calculate a direction in which to move and whether the character should jump. Using the input properties, we can configure which inputs drive the `SweptController`.
+Very similar to our dynamic character controller from the [first input tutorial](input1.md), we need to calculate a direction in which to move and whether the character should jump. Using the input properties, we can configure which inputs drive the `SweptController`.
 
 The important line to note in `SweptInput2D` is `this.SweptController.Update(movement, event.Dt);`. `SweptController.Update` must be called every frame on which the character should be moving. This function handles much of the behavior of the SweptController and should always be called at the end of the input detection update function in order to apply any changes that were made to SweptController properties that frame.
 
@@ -103,7 +103,7 @@ Because the SweptCharacter uses a `Kinematic` object, it must handle its own gra
  - Under `SweptController`
   - Set Gravity  to `50`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - Jump with `Space`
 
 
@@ -116,7 +116,7 @@ Because the SweptCharacter uses a `Kinematic` object, it must handle its own gra
 
 Notice that the acceleration of gravity is now more powerful. 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 The jump velocity is also adjustable. 
 
@@ -124,7 +124,7 @@ The jump velocity is also adjustable.
  - Under `SweptController`
   - Set JumpSpeed  to `25`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -134,7 +134,7 @@ The jump velocity is also adjustable.
 *The Player object jumping with increased Gravity  and increased JumpSpeed *
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Using these values alongside MaxFallSpeed  allows you determine how fast your character rises and falls with each jump.
 
@@ -144,7 +144,7 @@ Using these values alongside MaxFallSpeed  allows you determine how fast your ch
 
 When the swept character is in the air, it has slight control by default. The SweptController allows you to modify the strength of that control.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - Jump and then move side to side while in the air
 
 
@@ -155,7 +155,7 @@ When the swept character is in the air, it has slight control by default. The Sw
 *The Player object jumping and moving with default AirAcceleration *
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now let's try increasing the air control.
 
@@ -163,7 +163,7 @@ Now let's try increasing the air control.
   - Under `SweptController`
    - Set AirAcceleration  to `25`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - Jump and then move side to side while in the air
 
 
@@ -174,7 +174,7 @@ Now let's try increasing the air control.
 *The Player object jumping and moving with increased AirAcceleration *
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 In addition to changing the rate of acceleration in the air, you can also modify the GroundAcceleration  to similarly affect the SweptCharacter's acceleration when not in the air.
 
@@ -184,20 +184,20 @@ In addition to changing the rate of acceleration in the air, you can also modify
 
 Something you may not have thought about yet is how the `SweptController` detects whether it is *on ground// or not. There are certain behaviors, such as jumping, that should only occur when the object is //on ground//. This //ground detection* is done through a technique called //swept collision//, which is too advanced to cover in this tutorial. The final step of ground detection, though, is to check the angle of the slope that the character is on. If the slope is too steep, the SweptController will cause the character to slide down it instead of being able to move up it.
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Cube object
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Duplicate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#duplicate)
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Cube object
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [Duplicate](../../../code_reference/command_reference.md#duplicate)
 
 - In the `Properties Window`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[5,0,0]`
   - Set Rotation  to `[0,0,25]`
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Duplicate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#duplicate)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [Duplicate](../../../code_reference/command_reference.md#duplicate)
 - In the `Properties Window`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[-5,0,0]`
   - Set Rotation  to `[0,0,-50]`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - Attempt to move onto all 3 platforms
 
 
@@ -210,16 +210,16 @@ Something you may not have thought about yet is how the `SweptController` detect
 
 Notice how the Player object object can move freely on the platform with a rotation of `[0,0,25]`, but when it attempts to move onto the platform with a rotation of `[0,0,-50]`, it slides off. This is due to the Z-Axis rotation of the lefthand platform having a greater magnitude than the MaxGroundSlope  of the Player object's SweptController.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Swept Collision
 
 
-Collision events were covered in [the events tutorial](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/events.md#collision-events). Now let's take a look at how they interact with the SweptController.
+Collision events were covered in [the events tutorial](../scripting/events.md#collision-events). Now let's take a look at how they interact with the SweptController.
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `CollisionDetector`
 - Update the `CollisionDetector` script to the following:
 
@@ -237,10 +237,10 @@ class CollisionDetector : NadaComponent
   }
 }
 ```
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Player object
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `CollisionDetector`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#console)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `CollisionDetector`
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Console](../../../code_reference/command_reference.md#console)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -251,7 +251,7 @@ Loaded level 0.00s
 ```
 Notice how our print statement from the `CollisionDetector` component is not executed. This is due to the fact that no standard collision is actually occurring here. The SweptController moves the player by predicting collision based on input and then translating to the correct point to simulate collision resolution. The result is that the kinematic collider of the Player object never actually touches the static colliders of the platforms.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 - In the `Properties Window`
  - Under `SweptController`
   - Set ForwardEvents checkBox to `true`
@@ -259,12 +259,12 @@ Notice how our print statement from the `CollisionDetector` component is not exe
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/105946.png)
 
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Player object
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [customcollisioneventtracker](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.md)
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [customcollisioneventtracker](../../../code_reference/class_reference/customcollisioneventtracker.md)
 
-The [customcollisioneventtracker](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.md) detects circumstances where standard [CollisionEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.md) would be sent out and dispatches them when a [collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md) component would be involved in a standard collision.
+The [customcollisioneventtracker](../../../code_reference/class_reference/customcollisioneventtracker.md) detects circumstances where standard [CollisionEvents](../../../code_reference/class_reference/collisionevent.md) would be sent out and dispatches them when a [collider](../../../code_reference/class_reference/collider.md) component would be involved in a standard collision.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console Output"
 ---------------- Begin Game ----------------
@@ -275,37 +275,37 @@ Loaded level 0.00s
 ----------------  End Game  ----------------
 ```
 
-Now we can detect and react to the [CollisionEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.md) sent by the [customcollisioneventtracker](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.md).
+Now we can detect and react to the [CollisionEvents](../../../code_reference/class_reference/collisionevent.md) sent by the [customcollisioneventtracker](../../../code_reference/class_reference/customcollisioneventtracker.md).
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Related Materials
  ##  Tutorials
-- [input1](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/gameplay/input1.md)
-- [#collision-events](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting/events.md#collision-events)
+- [input1](input1.md)
+- [#collision-events](../scripting/events.md#collision-events)
 
  ##  Manual
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [selectobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)
+- [commands](../../zilchmanual/editor/editorcommands/commands.md)
+- [selectobject](../../zilchmanual/editor/editorcommands/selectobject.md)
 
  ##  Reference
  ### Commands
-- [ NewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
-- [ CreateCube](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createcube)
-- [ Duplicate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#duplicate)
+- [ NewProject](../../../code_reference/command_reference.md#newproject)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [ CreateCube](../../../code_reference/command_reference.md#createcube)
+- [ Duplicate](../../../code_reference/command_reference.md#duplicate)
 
  ###  Classes
-- [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [customcollisioneventtracker](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customcollisioneventtracker.md)
+- [transform](../../../code_reference/class_reference/transform.md)
+- [customcollisioneventtracker](../../../code_reference/class_reference/customcollisioneventtracker.md)
 
  ###  Events
-- [ CollisionStarted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#collisionstarted)
+- [ CollisionStarted](../../../code_reference/event_reference.md#collisionstarted)
 
  ###  Enums
-- [ RigidBodyDynamicState.Static](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#rigidbodydynamicstate)
+- [ RigidBodyDynamicState.Static](../../../code_reference/enum_reference.md#rigidbodydynamicstate)
 
  ## Tasks
 - T1181 

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ BeginDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tool.md#begindrag-void)| |[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
+|[ BeginDrag](tool.md#begindrag-void)| |[eventobject](eventobject.md)| |
 
 
  #  Properties
@@ -18,7 +18,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[viewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/viewport.md)| |
+> |p0|[viewport](viewport.md)| |
 > ``` lang=cpp, name=Nada
 > function BeginDrag(p0 : Viewport)
 > ``` 

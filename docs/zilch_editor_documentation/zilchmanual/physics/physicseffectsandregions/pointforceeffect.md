@@ -1,4 +1,4 @@
-[PointGravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointgravityeffect.md) and [PointForceEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointforceeffect.md) are effects that apply linear forces towards a central point based upon an inner and outer strength. This is commonly used to create spherical effects such as planetary gravity or explosive shockwaves.
+[PointGravityEffect](../../../../code_reference/class_reference/pointgravityeffect.md) and [PointForceEffect](../../../../code_reference/class_reference/pointforceeffect.md) are effects that apply linear forces towards a central point based upon an inner and outer strength. This is commonly used to create spherical effects such as planetary gravity or explosive shockwaves.
 
 
 
@@ -54,12 +54,12 @@ Point effects are only expected to be used as Region effects. Other application 
 ---
  #  Related Materials
  ###  Manual
-- [physicseffectsandregions.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.md)
+- [physicseffectsandregions.md](../physicseffectsandregions.md)
  ##  Reference
-- [PointForceEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointforceeffect.md)
-- [PointGravityEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointgravityeffect.md)
-- [PhysicsEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)
-- [Region](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/region.md)
-- [PhysicsEffectInterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicseffectinterpolationtype) 
+- [PointForceEffect](../../../../code_reference/class_reference/pointforceeffect.md)
+- [PointGravityEffect](../../../../code_reference/class_reference/pointgravityeffect.md)
+- [PhysicsEffect](../../../../code_reference/class_reference/physicseffect.md)
+- [Region](../../../../code_reference/class_reference/region.md)
+- [PhysicsEffectInterpolationType](../../../../code_reference/enum_reference.md#physicseffectinterpolationtype) 
 
  

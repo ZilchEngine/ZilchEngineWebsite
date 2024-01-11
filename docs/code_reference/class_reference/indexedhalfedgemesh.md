@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.md#indexedhalfedgemesh-void)|[ Edges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.md#edges-zilch-engine-docume)|[referencecountedobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedobject.md)| |
-| |[ Faces](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.md#faces-zilch-engine-docume)| | |
-| |[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.md#vertices-zilch-engine-doc)| | |
+|[ Constructor](indexedhalfedgemesh.md#indexedhalfedgemesh-void)|[ Edges](indexedhalfedgemesh.md#edges-zilch-engine-docume)|[referencecountedobject](referencecountedobject.md)| |
+| |[ Faces](indexedhalfedgemesh.md#faces-zilch-engine-docume)| | |
+| |[ Vertices](indexedhalfedgemesh.md#vertices-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  Edges : [indexedhalfedgemeshedgearray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshedgearray.md)
+ #  Edges : [indexedhalfedgemeshedgearray](indexedhalfedgemeshedgearray.md)
 
  `read-only`
 
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Faces : [indexedhalfedgemeshfacearray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearray.md)
+ #  Faces : [indexedhalfedgemeshfacearray](indexedhalfedgemeshfacearray.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Vertices : [indexedhalfedgemeshvertexarray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshvertexarray.md)
+ #  Vertices : [indexedhalfedgemeshvertexarray](indexedhalfedgemeshvertexarray.md)
 
  `read-only`
 
@@ -65,7 +65,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[indexedhalfedgemesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemesh.md)| |
+> |p0|[indexedhalfedgemesh](indexedhalfedgemesh.md)| |
 > ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeMesh(p0 : IndexedHalfEdgeMesh)
 > ``` 

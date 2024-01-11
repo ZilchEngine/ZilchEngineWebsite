@@ -22,29 +22,29 @@ Components found on the Project object cog are unique to it, and cannot be attac
 
  ##  ProjectSettings
 
-The [ ProjectSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md) component allows the user to specify an owner for the project.
+The [ ProjectSettings](../../../code_reference/class_reference/projectsettings.md) component allows the user to specify an owner for the project.
 
  ##  WindowLaunchSettings
 
-The [ WindowLaunchSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.md) component allows the user to specify settings pertinent to the window and resolution of the exported executable of the project.
+The [ WindowLaunchSettings](../../../code_reference/class_reference/windowlaunchsettings.md) component allows the user to specify settings pertinent to the window and resolution of the exported executable of the project.
 
  ##  FrameRateSettings
 
-The [ FrameRateSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.md) component allows the user to configure settings related to the project's frame rate.
+The [ FrameRateSettings](../../../code_reference/class_reference/frameratesettings.md) component allows the user to configure settings related to the project's frame rate.
 
  ##  LauncherProjectInfo
 
-The **LauncherProjectInfo** component is a proxy of a component used by the [ Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md), and is not accessible from within the Zilch Editor.
+The **LauncherProjectInfo** component is a proxy of a component used by the [ Zilch Launcher](launcher.md), and is not accessible from within the Zilch Editor.
 
  #  Related Materials
 
  ##  Manual
-- [Editor Configuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editor_configuration.md)
-- [ The Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md)
+- [Editor Configuration](editor_configuration.md)
+- [ The Zilch Launcher](launcher.md)
 
  ##  Code Reference
-- [ ProjectSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/projectsettings.md)
-- [ WindowLaunchSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowlaunchsettings.md)
-- [ FrameRateSettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/frameratesettings.md) 
+- [ ProjectSettings](../../../code_reference/class_reference/projectsettings.md)
+- [ WindowLaunchSettings](../../../code_reference/class_reference/windowlaunchsettings.md)
+- [ FrameRateSettings](../../../code_reference/class_reference/frameratesettings.md) 
 
  

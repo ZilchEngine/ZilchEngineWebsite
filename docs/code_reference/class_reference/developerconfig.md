@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.md#developerconfig-void)|[ CanModifyReadOnlyResources](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.md#canmodifyreadonlyresourc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ DoubleEscapeQuit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.md#doubleescapequit-zilch-en)| | |
-| |[ ProxyObjectsInPreviews](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/developerconfig.md#proxyobjectsinpreviews-z)| | |
+|[ Constructor](developerconfig.md#developerconfig-void)|[ CanModifyReadOnlyResources](developerconfig.md#canmodifyreadonlyresourc)|[component](component.md)| |
+| |[ DoubleEscapeQuit](developerconfig.md#doubleescapequit-zilch-en)| | |
+| |[ ProxyObjectsInPreviews](developerconfig.md#proxyobjectsinpreviews-z)| | |
 
 
  #  Properties
 
 
 ---  
- #  CanModifyReadOnlyResources : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanModifyReadOnlyResources : [boolean](../nada_base_types/boolean.md)
 
 > Allows editing and saving of read only resources.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  DoubleEscapeQuit : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DoubleEscapeQuit : [boolean](../nada_base_types/boolean.md)
 
 > Double escape to close the engine.
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  ProxyObjectsInPreviews : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ProxyObjectsInPreviews : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not script objects are proxied in the preview windows.
 > ``` lang=cpp, name=Nada

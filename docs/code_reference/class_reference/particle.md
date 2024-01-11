@@ -2,22 +2,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Color](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#color-zilch-engine-docume)| | |
-| |[ Lifetime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#lifetime-zilch-engine-doc)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#position-zilch-engine-doc)| | |
-| |[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#rotation-zilch-engine-doc)| | |
-| |[ RotationalVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#rotationalvelocity-zero)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#size-zilch-engine-documen)| | |
-| |[ Time](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#time-zilch-engine-documen)| | |
-| |[ Velocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#velocity-zilch-engine-doc)| | |
-| |[ WanderAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particle.md#wanderangle-zilch-engine)| | |
+| |[ Color](particle.md#color-zilch-engine-docume)| | |
+| |[ Lifetime](particle.md#lifetime-zilch-engine-doc)| | |
+| |[ Position](particle.md#position-zilch-engine-doc)| | |
+| |[ Rotation](particle.md#rotation-zilch-engine-doc)| | |
+| |[ RotationalVelocity](particle.md#rotationalvelocity-zero)| | |
+| |[ Size](particle.md#size-zilch-engine-documen)| | |
+| |[ Time](particle.md#time-zilch-engine-documen)| | |
+| |[ Velocity](particle.md#velocity-zilch-engine-doc)| | |
+| |[ WanderAngle](particle.md#wanderangle-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Color : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Color : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  Lifetime : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Lifetime : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Position : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Position : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Rotation : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Rotation : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  RotationalVelocity : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RotationalVelocity : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  Size : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Size : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  Time : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Time : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -73,7 +73,7 @@
 
 
 ---  
- #  Velocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Velocity : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -81,7 +81,7 @@
 
 
 ---  
- #  WanderAngle : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WanderAngle : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

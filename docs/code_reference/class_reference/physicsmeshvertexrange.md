@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md#physicsmeshvertexrange-v)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](physicsmeshvertexrange.md#movenext-void)|[ All](physicsmeshvertexrange.md#all-zilch-engine-document)| | |
+|[ Constructor](physicsmeshvertexrange.md#physicsmeshvertexrange-v)|[ Current](physicsmeshvertexrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](physicsmeshvertexrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](physicsmeshvertexrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [physicsmeshvertexrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md)
+ #  All : [physicsmeshvertexrange](physicsmeshvertexrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Current : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[physicsmeshvertexrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexrange.md)| |
+> |p0|[physicsmeshvertexrange](physicsmeshvertexrange.md)| |
 > ``` lang=cpp, name=Nada
 > function PhysicsMeshVertexRange(p0 : PhysicsMeshVertexRange)
 > ``` 

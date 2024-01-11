@@ -2,25 +2,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#get-zilch-engine-document)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#count-zilch-engine-docume)| | |
-|[ GetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#getbyindex-zilch-engine-d)|[ CountX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#countx-zilch-engine-docum)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#real3x3-void)|[ CountY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#county-zilch-engine-docum)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#set-void)|[ M00](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m00-zilch-engine-document)| | |
-|[ SetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#setbyindex-void)|[ M01](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m01-zilch-engine-document)| | |
-| |[ M02](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m02-zilch-engine-document)| | |
-| |[ M10](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m10-zilch-engine-document)| | |
-| |[ M11](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m11-zilch-engine-document)| | |
-| |[ M12](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m12-zilch-engine-document)| | |
-| |[ M20](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m20-zilch-engine-document)| | |
-| |[ M21](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m21-zilch-engine-document)| | |
-| |[ M22](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3x3.md#m22-zilch-engine-document)| | |
+|[ Get](real3x3.md#get-zilch-engine-document)|[ Count](real3x3.md#count-zilch-engine-docume)| | |
+|[ GetByIndex](real3x3.md#getbyindex-zilch-engine-d)|[ CountX](real3x3.md#countx-zilch-engine-docum)| | |
+|[ Constructor](real3x3.md#real3x3-void)|[ CountY](real3x3.md#county-zilch-engine-docum)| | |
+|[ Set](real3x3.md#set-void)|[ M00](real3x3.md#m00-zilch-engine-document)| | |
+|[ SetByIndex](real3x3.md#setbyindex-void)|[ M01](real3x3.md#m01-zilch-engine-document)| | |
+| |[ M02](real3x3.md#m02-zilch-engine-document)| | |
+| |[ M10](real3x3.md#m10-zilch-engine-document)| | |
+| |[ M11](real3x3.md#m11-zilch-engine-document)| | |
+| |[ M12](real3x3.md#m12-zilch-engine-document)| | |
+| |[ M20](real3x3.md#m20-zilch-engine-document)| | |
+| |[ M21](real3x3.md#m21-zilch-engine-document)| | |
+| |[ M22](real3x3.md#m22-zilch-engine-document)| | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -30,7 +30,7 @@
 
 
 ---  
- #  CountX : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  CountX : [integer](integer.md)
 
  `read-only`
 
@@ -40,7 +40,7 @@
 
 
 ---  
- #  CountY : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  CountY : [integer](integer.md)
 
  `read-only`
 
@@ -50,7 +50,7 @@
 
 
 ---  
- #  M00 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M00 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  M01 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M01 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  M02 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M02 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  M10 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M10 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -82,7 +82,7 @@
 
 
 ---  
- #  M11 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M11 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -90,7 +90,7 @@
 
 
 ---  
- #  M12 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M12 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -98,7 +98,7 @@
 
 
 ---  
- #  M20 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M20 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -106,7 +106,7 @@
 
 
 ---  
- #  M21 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M21 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -114,7 +114,7 @@
 
 
 ---  
- #  M22 : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  M22 : [real](real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -126,37 +126,37 @@
 
 
 ---  
- #  Get : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Get : [real3](real3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |y|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(y : Integer) : Real3
 > ``` 
 
 
 ---  
- #  Get : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Get : [real](real.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |x|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |y|[integer](integer.md)| |
+> |x|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(y : Integer, x : Integer) : Real
 > ``` 
 
 
 ---  
- #  GetByIndex : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GetByIndex : [real](real.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetByIndex(index : Integer) : Real
 > ``` 
@@ -183,7 +183,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Real3x3(p0 : Real)
 > ``` 
@@ -197,15 +197,15 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |m00|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m01|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m02|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m10|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m11|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m12|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m20|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m21|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |m22|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |m00|[real](real.md)| |
+> |m01|[real](real.md)| |
+> |m02|[real](real.md)| |
+> |m10|[real](real.md)| |
+> |m11|[real](real.md)| |
+> |m12|[real](real.md)| |
+> |m20|[real](real.md)| |
+> |m21|[real](real.md)| |
+> |m22|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Real3x3(m00 : Real, m01 : Real, m02 : Real, m10 : Real, m11 : Real, m12 : Real, m20 : Real, m21 : Real, m22 : Real)
 > ``` 
@@ -217,9 +217,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |x|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |y|[integer](integer.md)| |
+> |x|[integer](integer.md)| |
+> |value|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(y : Integer, x : Integer, value : Real)
 > ``` 
@@ -231,8 +231,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |y|[integer](integer.md)| |
+> |value|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(y : Integer, value : Real3)
 > ``` 
@@ -244,8 +244,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function SetByIndex(index : Integer, value : Real)
 > ``` 

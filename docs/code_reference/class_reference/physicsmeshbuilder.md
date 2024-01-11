@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshbuilder.md#physicsmeshbuilder-void)|[ MeshBuilt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshbuilder.md#meshbuilt-zilch-engine-do)|[buildercomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildercomponent.md)| |
+|[ Constructor](physicsmeshbuilder.md#physicsmeshbuilder-void)|[ MeshBuilt](physicsmeshbuilder.md#meshbuilt-zilch-engine-do)|[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties
 
 
 ---  
- #  MeshBuilt : [PhysicsMeshType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicsmeshtype)
+ #  MeshBuilt : [PhysicsMeshType](../enum_reference.md#physicsmeshtype)
 
 > 
 > ``` lang=cpp, name=Nada

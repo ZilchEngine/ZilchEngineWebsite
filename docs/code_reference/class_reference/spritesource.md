@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetOrigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.md#getorigin-zilch-engine-do)|[ FrameCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.md#framecount-zilch-engine-d)|Resource| |
-|[ GetSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.md#getsize-zilch-engine-docu)| | | |
+|[ GetOrigin](spritesource.md#getorigin-zilch-engine-do)|[ FrameCount](spritesource.md#framecount-zilch-engine-d)|Resource| |
+|[ GetSize](spritesource.md#getsize-zilch-engine-docu)| | | |
 
 
  #  Properties
 
 
 ---  
- #  FrameCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FrameCount : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  GetOrigin : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  GetOrigin : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
@@ -35,7 +35,7 @@
 
 
 ---  
- #  GetSize : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  GetSize : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|

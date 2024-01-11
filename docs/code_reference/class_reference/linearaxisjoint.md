@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearaxisjoint.md#linearaxisjoint-void)|[ WorldAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/linearaxisjoint.md#worldaxis-zilch-engine-do)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
+|[ Constructor](linearaxisjoint.md#linearaxisjoint-void)|[ WorldAxis](linearaxisjoint.md#worldaxis-zilch-engine-do)|[joint](joint.md)| |
 
 
  #  Properties
 
 
 ---  
- #  WorldAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldAxis : [real3](../nada_base_types/real3.md)
 
 > The axis in world space that is constrained.
 > ``` lang=cpp, name=Nada

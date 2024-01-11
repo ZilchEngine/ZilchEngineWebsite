@@ -1,10 +1,10 @@
-[CapsuleCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.md) defines a [capsule](https://en.wikipedia.org/wiki/Capsule_(geometry) ) shape for collision. The base size of the capsule is determined by the Radius  and Height  properties. Scale is applied afterwards to determine the final capsule's size.
+[CapsuleCollider](../../../../code_reference/class_reference/capsulecollider.md) defines a [capsule](https://en.wikipedia.org/wiki/Capsule_(geometry) ) shape for collision. The base size of the capsule is determined by the Radius  and Height  properties. Scale is applied afterwards to determine the final capsule's size.
 
-Capsules are often used as a combination of [cylinders](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/cylindercollider.md) and [ellipsoids](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/ellipsoidcollider.md) for collision, primarily for long thin shapes.  An ellipsoid tends to be undesired when stretched on one axis due its curved sides. A cylinder fixes this but loses the curved caps of the ellipsoid. A capsule combines these by having a cylinder that can be scaled in one axis while containing smooth edge caps.
+Capsules are often used as a combination of [cylinders](cylindercollider.md) and [ellipsoids](ellipsoidcollider.md) for collision, primarily for long thin shapes.  An ellipsoid tends to be undesired when stretched on one axis due its curved sides. A cylinder fixes this but loses the curved caps of the ellipsoid. A capsule combines these by having a cylinder that can be scaled in one axis while containing smooth edge caps.
 
-Capsules are also commonly used for a player. The player's height can be scaled without affecting its width. Additionally, the curved caps help to avoid [edge catching](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/physicstroubleshooting/edgecatching.md) issues.
+Capsules are also commonly used for a player. The player's height can be scaled without affecting its width. Additionally, the curved caps help to avoid [edge catching](physicstroubleshooting/edgecatching.md) issues.
 
-(NOTE) **Recommended Reading:** The [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md) page should be read before this page.
+(NOTE) **Recommended Reading:** The [Collider](../colliders.md) page should be read before this page.
 
 
  #  Radius
@@ -43,16 +43,16 @@ This mode is often desired when a model is attached to a cog that should match t
 ---
  #  Related Materials
  ##  Manual
-- [colliders.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md)
-- [cylindercollider.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/cylindercollider.md)
-- [ellipsoidcollider.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/ellipsoidcollider.md)
-- [edgecatching.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders/physicstroubleshooting/edgecatching.md)
+- [colliders.md](../colliders.md)
+- [cylindercollider.md](cylindercollider.md)
+- [ellipsoidcollider.md](ellipsoidcollider.md)
+- [edgecatching.md](physicstroubleshooting/edgecatching.md)
 
  ##  Reference
-- [CapsuleCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/capsulecollider.md)
-- [CylinderCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cylindercollider.md)
-- [EllipsoidCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.md)
-- [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
+- [CapsuleCollider](../../../../code_reference/class_reference/capsulecollider.md)
+- [CylinderCollider](../../../../code_reference/class_reference/cylindercollider.md)
+- [EllipsoidCollider](../../../../code_reference/class_reference/ellipsoidcollider.md)
+- [Collider](../../../../code_reference/class_reference/collider.md)
  
 
  

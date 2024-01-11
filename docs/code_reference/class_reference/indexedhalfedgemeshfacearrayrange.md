@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md#indexedhalfedgemeshfacea)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](indexedhalfedgemeshfacearrayrange.md#indexedhalfedgemeshfacea)|[ All](indexedhalfedgemeshfacearrayrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](indexedhalfedgemeshfacearrayrange.md#movenext-void)|[ Current](indexedhalfedgemeshfacearrayrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](indexedhalfedgemeshfacearrayrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](indexedhalfedgemeshfacearrayrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [indexedhalfedgemeshfacearrayrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md)
+ #  All : [indexedhalfedgemeshfacearrayrange](indexedhalfedgemeshfacearrayrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [indexedhalfedgeface](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgeface.md)
+ #  Current : [indexedhalfedgeface](indexedhalfedgeface.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[indexedhalfedgemeshfacearrayrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgemeshfacearrayrange.md)| |
+> |p0|[indexedhalfedgemeshfacearrayrange](indexedhalfedgemeshfacearrayrange.md)| |
 > ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeMeshFaceArrayRange(p0 : IndexedHalfEdgeMeshFaceArrayRange)
 > ``` 

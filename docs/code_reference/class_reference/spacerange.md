@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md#spacerange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](spacerange.md#movenext-void)|[ All](spacerange.md#all-zilch-engine-document)| | |
+|[ Constructor](spacerange.md#spacerange-void)|[ Current](spacerange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](spacerange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](spacerange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [spacerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md)
+ #  All : [spacerange](spacerange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Current : [cog](cog.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[spacerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spacerange.md)| |
+> |p0|[spacerange](spacerange.md)| |
 > ``` lang=cpp, name=Nada
 > function SpaceRange(p0 : SpaceRange)
 > ``` 

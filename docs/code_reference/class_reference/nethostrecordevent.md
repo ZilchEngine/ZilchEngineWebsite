@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ HostRecord](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecordevent.md#hostrecord-zilch-engine-d)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ HostRecord](nethostrecordevent.md#hostrecord-zilch-engine-d)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  HostRecord : [nethostrecord](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nethostrecord.md)
+ #  HostRecord : [nethostrecord](nethostrecord.md)
 
  `read-only`
 

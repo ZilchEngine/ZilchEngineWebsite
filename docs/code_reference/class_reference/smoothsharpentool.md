@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AutoDetermineSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.md#autodeterminesamples-zer)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.md)| |
-| |[ RandomSampleDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.md#randomsampledistance-zer)| | |
-| |[ RandomSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.md#randomsamples-zilch-engin)| | |
-| |[ Strength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.md#strength-zilch-engine-doc)| | |
-| |[ UniformSamples](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/smoothsharpentool.md#uniformsamples-zilch-engi)| | |
+| |[ AutoDetermineSamples](smoothsharpentool.md#autodeterminesamples-zer)|[heightmanipulationtool](heightmanipulationtool.md)| |
+| |[ RandomSampleDistance](smoothsharpentool.md#randomsampledistance-zer)| | |
+| |[ RandomSamples](smoothsharpentool.md#randomsamples-zilch-engin)| | |
+| |[ Strength](smoothsharpentool.md#strength-zilch-engine-doc)| | |
+| |[ UniformSamples](smoothsharpentool.md#uniformsamples-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  AutoDetermineSamples : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoDetermineSamples : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  RandomSampleDistance : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RandomSampleDistance : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  RandomSamples : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RandomSamples : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -37,7 +37,7 @@
 
 
 ---  
- #  Strength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Strength : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -45,7 +45,7 @@
 
 
 ---  
- #  UniformSamples : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  UniformSamples : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

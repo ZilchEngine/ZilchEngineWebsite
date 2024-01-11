@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NeedsPropertyGrid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.md#needspropertygrid-zilch-e)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.md#parent-zilch-engine-docum)| | |
-| |[ SelectTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tooluievent.md#selecttool-zilch-engine-d)| | |
+| |[ NeedsPropertyGrid](tooluievent.md#needspropertygrid-zilch-e)|[event](event.md)| |
+| |[ Parent](tooluievent.md#parent-zilch-engine-docum)| | |
+| |[ SelectTool](tooluievent.md#selecttool-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  NeedsPropertyGrid : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  NeedsPropertyGrid : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not to force show the tools window when switched to this tool.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Parent : [composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.md)
+ #  Parent : [composite](composite.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  SelectTool : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  SelectTool : [cog](cog.md)
 
  `read-only`
 

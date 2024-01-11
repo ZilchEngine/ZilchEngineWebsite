@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md#gamesessionrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](gamesessionrange.md#gamesessionrange-void)|[ All](gamesessionrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](gamesessionrange.md#movenext-void)|[ Current](gamesessionrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](gamesessionrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](gamesessionrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [gamesessionrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md)
+ #  All : [gamesessionrange](gamesessionrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  Current : [gamesession](gamesession.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[gamesessionrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesessionrange.md)| |
+> |p0|[gamesessionrange](gamesessionrange.md)| |
 > ``` lang=cpp, name=Nada
 > function GameSessionRange(p0 : GameSessionRange)
 > ``` 

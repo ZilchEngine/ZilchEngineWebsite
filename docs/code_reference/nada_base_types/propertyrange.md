@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md#propertyrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md#current-property)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](propertyrange.md#movenext-void)|[ All](propertyrange.md#all-zilch-engine-document)| | |
+|[ Constructor](propertyrange.md#propertyrange-void)|[ Current](propertyrange.md#current-property)| | |
+| |[ IsEmpty](propertyrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](propertyrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [propertyrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md)
+ #  All : [propertyrange](propertyrange.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[propertyrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/propertyrange.md)| |
+> |p0|[propertyrange](propertyrange.md)| |
 > ``` lang=cpp, name=Nada
 > function PropertyRange(p0 : PropertyRange)
 > ``` 

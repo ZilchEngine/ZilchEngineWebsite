@@ -4,28 +4,28 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ComputeMotor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#computemotor-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#active-zilch-engine-docum)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.md)| |
-|[ ComputeSpring](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#computespring-void)|[ Angular0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#angular0-zilch-engine-doc)| | |
-|[ DetachFromOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#detachfromowner-void)|[ Angular1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#angular1-zilch-engine-doc)| | |
-|[ IsOwned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#isowned-zilch-engine-docu)|[ Baumgarte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#baumgarte-zilch-engine-do)| | |
-|[ SetErrorAndBias](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#seterrorandbias-void)|[ Bias](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#bias-zilch-engine-documen)| | |
-|[ SetJacobian](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#setjacobian-void)|[ EffectiveMass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#effectivemass-zilch-engin)| | |
-| |[ Error](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#error-zilch-engine-docume)| | |
-| |[ Gamma](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#gamma-zilch-engine-docume)| | |
-| |[ Impulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#impulse-zilch-engine-docu)| | |
-| |[ Linear0](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#linear0-zilch-engine-docu)| | |
-| |[ Linear1](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#linear1-zilch-engine-docu)| | |
-| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#maximpulse-zilch-engine-d)| | |
-| |[ MinImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#minimpulse-zilch-engine-d)| | |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#owner-zilch-engine-docume)| | |
-| |[ SolvePosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customconstraintinfo.md#solveposition-zilch-engin)| | |
+|[ ComputeMotor](customconstraintinfo.md#computemotor-void)|[ Active](customconstraintinfo.md#active-zilch-engine-docum)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ ComputeSpring](customconstraintinfo.md#computespring-void)|[ Angular0](customconstraintinfo.md#angular0-zilch-engine-doc)| | |
+|[ DetachFromOwner](customconstraintinfo.md#detachfromowner-void)|[ Angular1](customconstraintinfo.md#angular1-zilch-engine-doc)| | |
+|[ IsOwned](customconstraintinfo.md#isowned-zilch-engine-docu)|[ Baumgarte](customconstraintinfo.md#baumgarte-zilch-engine-do)| | |
+|[ SetErrorAndBias](customconstraintinfo.md#seterrorandbias-void)|[ Bias](customconstraintinfo.md#bias-zilch-engine-documen)| | |
+|[ SetJacobian](customconstraintinfo.md#setjacobian-void)|[ EffectiveMass](customconstraintinfo.md#effectivemass-zilch-engin)| | |
+| |[ Error](customconstraintinfo.md#error-zilch-engine-docume)| | |
+| |[ Gamma](customconstraintinfo.md#gamma-zilch-engine-docume)| | |
+| |[ Impulse](customconstraintinfo.md#impulse-zilch-engine-docu)| | |
+| |[ Linear0](customconstraintinfo.md#linear0-zilch-engine-docu)| | |
+| |[ Linear1](customconstraintinfo.md#linear1-zilch-engine-docu)| | |
+| |[ MaxImpulse](customconstraintinfo.md#maximpulse-zilch-engine-d)| | |
+| |[ MinImpulse](customconstraintinfo.md#minimpulse-zilch-engine-d)| | |
+| |[ Owner](customconstraintinfo.md#owner-zilch-engine-docume)| | |
+| |[ SolvePosition](customconstraintinfo.md#solveposition-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Is this constraint currently active?
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Angular0 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Angular0 : [real3](../nada_base_types/real3.md)
 
 > Angular portion of objectA's Jacobian.
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Angular1 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Angular1 : [real3](../nada_base_types/real3.md)
 
 > Angular portion of objectB's Jacobian.
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Baumgarte : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Baumgarte : [real](../nada_base_types/real.md)
 
 > The baumgarte term used to correct error. This should typically be set in initialization (per constraint) and then left alone. Default value is 5.
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  Bias : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Bias : [real](../nada_base_types/real.md)
 
 > The bias is used to apply energy into the system. Typically, bias is combined with Error and Baumgarte to fix error. Bias is also used for motors and springs to drive the constraint.
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  EffectiveMass : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  EffectiveMass : [real](../nada_base_types/real.md)
 
 > The effective mass of the constraint. This is typically set by calling SetJacobian.
 > ``` lang=cpp, name=Nada
@@ -73,7 +73,7 @@
 
 
 ---  
- #  Error : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Error : [real](../nada_base_types/real.md)
 
 > The error of the constraint. This should typically be set via the SetError function.
 > ``` lang=cpp, name=Nada
@@ -81,7 +81,7 @@
 
 
 ---  
- #  Gamma : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Gamma : [real](../nada_base_types/real.md)
 
 > Gamma is used to soften constraints. This should typically never be manually set. Instead, it is set when configuring the constraint to act like a spring.
 > ``` lang=cpp, name=Nada
@@ -89,7 +89,7 @@
 
 
 ---  
- #  Impulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Impulse : [real](../nada_base_types/real.md)
 
 > The total accumulated impulse of this constraint. If you want to not use warm-starting then clear this value every frame.
 > ``` lang=cpp, name=Nada
@@ -97,7 +97,7 @@
 
 
 ---  
- #  Linear0 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Linear0 : [real3](../nada_base_types/real3.md)
 
 > Linear portion of objectA's Jacobian.
 > ``` lang=cpp, name=Nada
@@ -105,7 +105,7 @@
 
 
 ---  
- #  Linear1 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Linear1 : [real3](../nada_base_types/real3.md)
 
 > Linear portion of objectB's Jacobian.
 > ``` lang=cpp, name=Nada
@@ -113,7 +113,7 @@
 
 
 ---  
- #  MaxImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxImpulse : [real](../nada_base_types/real.md)
 
 > The max impulse magnitude allowed for the constraint.
 > ``` lang=cpp, name=Nada
@@ -121,7 +121,7 @@
 
 
 ---  
- #  MinImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MinImpulse : [real](../nada_base_types/real.md)
 
 > The min impulse magnitude allowed for the constraint.
 > ``` lang=cpp, name=Nada
@@ -129,7 +129,7 @@
 
 
 ---  
- #  Owner : [customjoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customjoint.md)
+ #  Owner : [customjoint](customjoint.md)
 
  `read-only`
 
@@ -139,7 +139,7 @@
 
 
 ---  
- #  SolvePosition : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SolvePosition : [boolean](../nada_base_types/boolean.md)
 
 > Should this constraint solve position directly or use baumgarte correction? Toggling SolvePosition should be done before setting any other values (ideally in initialization). Setting a constraint to be a motor or a spring will turn off position correction as an error bias must be used to solve those scenarios.
 > ``` lang=cpp, name=Nada
@@ -156,9 +156,9 @@
 > Sets this constraint as a motor (i.e. a constraint that drives movement along the Jacobian direction at a certain speed). The motor has a min and max impulse value that can be solved (typically -value, +value). If you set this as a motor, you should do so last. Motors should typically be their own constraint unlike springs.
 > |Name|Type|Description|
 > |---|---|---|
-> |targetSpeed|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |minImpulse|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |maxImpulse|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |targetSpeed|[real](../nada_base_types/real.md)| |
+> |minImpulse|[real](../nada_base_types/real.md)| |
+> |maxImpulse|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function ComputeMotor(targetSpeed : Real, minImpulse : Real, maxImpulse : Real)
 > ``` 
@@ -170,8 +170,8 @@
 > Given the currently set mass and error, fix the constraint to be soft (i.e. solve the constraint like a spring). The spring fixes the constraint using the given frequency (oscillations per second) and damping ratio (0 is no damping, 1 is critical damping).
 > |Name|Type|Description|
 > |---|---|---|
-> |frequencyHz|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |dampRatio|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |frequencyHz|[real](../nada_base_types/real.md)| |
+> |dampRatio|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function ComputeSpring(frequencyHz : Real, dampRatio : Real)
 > ``` 
@@ -189,7 +189,7 @@
 
 
 ---  
- #  IsOwned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsOwned : [boolean](../nada_base_types/boolean.md)
 
 > Is this constraint currently owned by a joint? (Equivalent to "this.Owner != null").
 > |Name|Type|Description|
@@ -205,7 +205,7 @@
 > Set the position error of the constraint. This also sets the bias of the constraint (used to actually correct the error). If you want to set this constraint as a motor you should not call this function (or call it first). If you want to set this as a spring then make sure you call this first.
 > |Name|Type|Description|
 > |---|---|---|
-> |error|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |error|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function SetErrorAndBias(error : Real)
 > ``` 
@@ -217,10 +217,10 @@
 > Set the Jacobian of this constraint (and the effective mass).
 > |Name|Type|Description|
 > |---|---|---|
-> |linear0|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |angular0|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |linear1|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |angular1|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |linear0|[real3](../nada_base_types/real3.md)| |
+> |angular0|[real3](../nada_base_types/real3.md)| |
+> |linear1|[real3](../nada_base_types/real3.md)| |
+> |angular1|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SetJacobian(linear0 : Real3, angular0 : Real3, linear1 : Real3, angular1 : Real3)
 > ``` 

@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgeface.md#indexedhalfedgeface-void)|[ Edges](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgeface.md#edges-zilch-engine-docume)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
+|[ Constructor](indexedhalfedgeface.md#indexedhalfedgeface-void)|[ Edges](indexedhalfedgeface.md#edges-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Edges : [indexedhalfedgefaceedgeindexarray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgefaceedgeindexarray.md)
+ #  Edges : [indexedhalfedgefaceedgeindexarray](indexedhalfedgefaceedgeindexarray.md)
 
  `read-only`
 
@@ -43,7 +43,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[indexedhalfedgeface](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexedhalfedgeface.md)| |
+> |p0|[indexedhalfedgeface](indexedhalfedgeface.md)| |
 > ``` lang=cpp, name=Nada
 > function IndexedHalfEdgeFace(p0 : IndexedHalfEdgeFace)
 > ``` 

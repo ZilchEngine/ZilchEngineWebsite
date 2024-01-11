@@ -4,23 +4,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#ringgizmo-void)|[ BackShade](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#backshade-zilch-engine-do)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.md)| |
-| |[ DragRadiansPerPixel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#dragradiansperpixel-zero)| | |
-| |[ GrabArrowColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#grabarrowcolor-zilch-engi)| | |
-| |[ GrabArrowHeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#grabarrowheadsize-zilch-e)| | |
-| |[ GrabArrowLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#grabarrowlength-zilch-eng)| | |
-| |[ GrabArrowOnTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#grabarrowontop-zilch-engi)| | |
-| |[ GrabArrowViewScaled](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#grabarrowviewscaled-zero)| | |
-| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#radius-zilch-engine-docum)| | |
-| |[ SelectRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#selectradius-zilch-engine)| | |
-| |[ ViewAligned](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ringgizmo.md#viewaligned-zilch-engine)| | |
+|[ Constructor](ringgizmo.md#ringgizmo-void)|[ BackShade](ringgizmo.md#backshade-zilch-engine-do)|[simplegizmobase](simplegizmobase.md)| |
+| |[ DragRadiansPerPixel](ringgizmo.md#dragradiansperpixel-zero)| | |
+| |[ GrabArrowColor](ringgizmo.md#grabarrowcolor-zilch-engi)| | |
+| |[ GrabArrowHeadSize](ringgizmo.md#grabarrowheadsize-zilch-e)| | |
+| |[ GrabArrowLength](ringgizmo.md#grabarrowlength-zilch-eng)| | |
+| |[ GrabArrowOnTop](ringgizmo.md#grabarrowontop-zilch-engi)| | |
+| |[ GrabArrowViewScaled](ringgizmo.md#grabarrowviewscaled-zero)| | |
+| |[ Radius](ringgizmo.md#radius-zilch-engine-docum)| | |
+| |[ SelectRadius](ringgizmo.md#selectradius-zilch-engine)| | |
+| |[ ViewAligned](ringgizmo.md#viewaligned-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  BackShade : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  BackShade : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  DragRadiansPerPixel : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DragRadiansPerPixel : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  GrabArrowColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  GrabArrowColor : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  GrabArrowHeadSize : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrabArrowHeadSize : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 
 
 ---  
- #  GrabArrowLength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrabArrowLength : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -60,7 +60,7 @@
 
 
 ---  
- #  GrabArrowOnTop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GrabArrowOnTop : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -68,7 +68,7 @@
 
 
 ---  
- #  GrabArrowViewScaled : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GrabArrowViewScaled : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  Radius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Radius : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -84,7 +84,7 @@
 
 
 ---  
- #  SelectRadius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SelectRadius : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -92,7 +92,7 @@
 
 
 ---  
- #  ViewAligned : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ViewAligned : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

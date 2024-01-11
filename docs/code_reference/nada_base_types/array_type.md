@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#all-arrayrange)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#array-type-void)|[ Capacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#capacity-zilch-engine-doc)| | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#count-zilch-engine-docume)| | |
-|[ Copy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#copy-zilch-engine-documen)|[ LastIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#lastindex-zilch-engine-do)| | |
-|[ FindFirstIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#findfirstindex-zilch-engi)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#get-zilch-engine-document)| | | |
-|[ Insert](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#insert-void)| | | |
-|[ Pop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#pop-zilch-engine-document)| | | |
-|[ Push](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#push-void)| | | |
-|[ Range](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#range-zilch-engine-docume)| | | |
-|[ RemoveAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#removeall-zilch-engine-do)| | | |
-|[ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#removeat-void)| | | |
-|[ RemoveFirst](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#removefirst-zilch-engine)| | | |
-|[ RemoveSwap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#removeswap-void)| | | |
-|[ Reserve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#reserve-void)| | | |
-|[ Resize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#resize-void)| | | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#set-void)| | | |
-|[ Sort](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_type .md#sort-void)| | | |
+|[ Add](array_type .md#add-void)|[ All](array_type .md#all-arrayrange)| | |
+|[ Constructor](array_type .md#array-type-void)|[ Capacity](array_type .md#capacity-zilch-engine-doc)| | |
+|[ Clear](array_type .md#clear-void)|[ Count](array_type .md#count-zilch-engine-docume)| | |
+|[ Copy](array_type .md#copy-zilch-engine-documen)|[ LastIndex](array_type .md#lastindex-zilch-engine-do)| | |
+|[ FindFirstIndex](array_type .md#findfirstindex-zilch-engi)| | | |
+|[ Get](array_type .md#get-zilch-engine-document)| | | |
+|[ Insert](array_type .md#insert-void)| | | |
+|[ Pop](array_type .md#pop-zilch-engine-document)| | | |
+|[ Push](array_type .md#push-void)| | | |
+|[ Range](array_type .md#range-zilch-engine-docume)| | | |
+|[ RemoveAll](array_type .md#removeall-zilch-engine-do)| | | |
+|[ RemoveAt](array_type .md#removeat-void)| | | |
+|[ RemoveFirst](array_type .md#removefirst-zilch-engine)| | | |
+|[ RemoveSwap](array_type .md#removeswap-void)| | | |
+|[ Reserve](array_type .md#reserve-void)| | | |
+|[ Resize](array_type .md#resize-void)| | | |
+|[ Set](array_type .md#set-void)| | | |
+|[ Sort](array_type .md#sort-void)| | | |
 
 
  #  Properties
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Capacity : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Capacity : [integer](integer.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -56,7 +56,7 @@
 
 
 ---  
- #  LastIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  LastIndex : [integer](integer.md)
 
  `read-only`
 
@@ -75,7 +75,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |p0|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : AnyHandle)
 > ``` 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |p0|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Boolean)
 > ``` 
@@ -99,7 +99,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |p0|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Boolean2)
 > ``` 
@@ -111,7 +111,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |p0|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Boolean3)
 > ``` 
@@ -123,7 +123,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |p0|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Boolean4)
 > ``` 
@@ -135,7 +135,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |p0|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Byte)
 > ``` 
@@ -147,7 +147,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |p0|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Cog)
 > ``` 
@@ -171,7 +171,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |p0|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : DoubleInteger)
 > ``` 
@@ -183,7 +183,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |p0|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : DoubleReal)
 > ``` 
@@ -195,7 +195,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Integer)
 > ``` 
@@ -207,7 +207,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |p0|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Integer2)
 > ``` 
@@ -219,7 +219,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |p0|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Integer3)
 > ``` 
@@ -231,7 +231,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |p0|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Integer4)
 > ``` 
@@ -255,7 +255,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |p0|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Quaternion)
 > ``` 
@@ -267,7 +267,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Real)
 > ``` 
@@ -279,7 +279,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |p0|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Real2)
 > ``` 
@@ -291,7 +291,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |p0|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Real3)
 > ``` 
@@ -303,7 +303,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |p0|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : Real4)
 > ``` 
@@ -315,7 +315,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function Add(p0 : String)
 > ``` 
@@ -627,7 +627,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -641,7 +641,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -655,7 +655,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -669,7 +669,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -683,7 +683,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -697,7 +697,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -711,7 +711,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -725,7 +725,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -739,7 +739,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -753,7 +753,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -767,7 +767,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -781,7 +781,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -795,7 +795,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -809,7 +809,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -823,7 +823,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -837,7 +837,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -851,7 +851,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -865,7 +865,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -879,7 +879,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -893,7 +893,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -907,7 +907,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -921,7 +921,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer)
 > ``` 
@@ -935,8 +935,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : AnyHandle)
 > ``` 
@@ -950,8 +950,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Boolean)
 > ``` 
@@ -965,8 +965,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Boolean2)
 > ``` 
@@ -980,8 +980,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Boolean3)
 > ``` 
@@ -995,8 +995,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Boolean4)
 > ``` 
@@ -1010,8 +1010,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Byte)
 > ``` 
@@ -1025,8 +1025,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Cog)
 > ``` 
@@ -1040,7 +1040,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|delegate()| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : delegate())
@@ -1055,8 +1055,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : DoubleInteger)
 > ``` 
@@ -1070,8 +1070,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : DoubleReal)
 > ``` 
@@ -1085,8 +1085,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Integer)
 > ``` 
@@ -1100,8 +1100,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Integer2)
 > ``` 
@@ -1115,8 +1115,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Integer3)
 > ``` 
@@ -1130,8 +1130,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Integer4)
 > ``` 
@@ -1145,7 +1145,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|Key| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Key)
@@ -1160,8 +1160,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Quaternion)
 > ``` 
@@ -1175,8 +1175,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Real)
 > ``` 
@@ -1190,8 +1190,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Real2)
 > ``` 
@@ -1205,8 +1205,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Real3)
 > ``` 
@@ -1220,8 +1220,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : Real4)
 > ``` 
@@ -1235,8 +1235,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : String)
 > ``` 
@@ -1250,7 +1250,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|T| |
 > ``` lang=cpp, name=Nada
 > function Array[Type](size : Integer, defaultValue : T)
@@ -1500,7 +1500,7 @@
 
 
 ---  
- #  Copy : Array[[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)]
+ #  Copy : Array[[integer2](integer2.md)]
 
 > 
 > |Name|Type|Description|
@@ -1511,7 +1511,7 @@
 
 
 ---  
- #  Copy : Array[[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)]
+ #  Copy : Array[[boolean4](boolean4.md)]
 
 > 
 > |Name|Type|Description|
@@ -1522,7 +1522,7 @@
 
 
 ---  
- #  Copy : Array[[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)]
+ #  Copy : Array[[cog](../class_reference/cog.md)]
 
 > 
 > |Name|Type|Description|
@@ -1533,7 +1533,7 @@
 
 
 ---  
- #  Copy : Array[[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)]
+ #  Copy : Array[[integer4](integer4.md)]
 
 > 
 > |Name|Type|Description|
@@ -1544,7 +1544,7 @@
 
 
 ---  
- #  Copy : Array[[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)]
+ #  Copy : Array[[byte](byte.md)]
 
 > 
 > |Name|Type|Description|
@@ -1555,7 +1555,7 @@
 
 
 ---  
- #  Copy : Array[[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)]
+ #  Copy : Array[[integer](integer.md)]
 
 > 
 > |Name|Type|Description|
@@ -1566,7 +1566,7 @@
 
 
 ---  
- #  Copy : Array[[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)]
+ #  Copy : Array[[anyhandle](anyhandle.md)]
 
 > 
 > |Name|Type|Description|
@@ -1588,7 +1588,7 @@
 
 
 ---  
- #  Copy : Array[[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)]
+ #  Copy : Array[[string](string.md)]
 
 > 
 > |Name|Type|Description|
@@ -1599,7 +1599,7 @@
 
 
 ---  
- #  Copy : Array[[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)]
+ #  Copy : Array[[real3](real3.md)]
 
 > 
 > |Name|Type|Description|
@@ -1610,7 +1610,7 @@
 
 
 ---  
- #  Copy : Array[[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)]
+ #  Copy : Array[[real4](real4.md)]
 
 > 
 > |Name|Type|Description|
@@ -1621,7 +1621,7 @@
 
 
 ---  
- #  Copy : Array[[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)]
+ #  Copy : Array[[type](type.md)]
 
 > 
 > |Name|Type|Description|
@@ -1632,7 +1632,7 @@
 
 
 ---  
- #  Copy : Array[[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)]
+ #  Copy : Array[[real](real.md)]
 
 > 
 > |Name|Type|Description|
@@ -1643,7 +1643,7 @@
 
 
 ---  
- #  Copy : Array[[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)]
+ #  Copy : Array[[quaternion](quaternion.md)]
 
 > 
 > |Name|Type|Description|
@@ -1654,7 +1654,7 @@
 
 
 ---  
- #  Copy : Array[[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)]
+ #  Copy : Array[[boolean3](boolean3.md)]
 
 > 
 > |Name|Type|Description|
@@ -1665,7 +1665,7 @@
 
 
 ---  
- #  Copy : Array[[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)]
+ #  Copy : Array[[doubleinteger](doubleinteger.md)]
 
 > 
 > |Name|Type|Description|
@@ -1676,7 +1676,7 @@
 
 
 ---  
- #  Copy : Array[[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)]
+ #  Copy : Array[[integer3](integer3.md)]
 
 > 
 > |Name|Type|Description|
@@ -1698,7 +1698,7 @@
 
 
 ---  
- #  Copy : Array[[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)]
+ #  Copy : Array[[boolean](boolean.md)]
 
 > 
 > |Name|Type|Description|
@@ -1709,7 +1709,7 @@
 
 
 ---  
- #  Copy : Array[[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)]
+ #  Copy : Array[[real2](real2.md)]
 
 > 
 > |Name|Type|Description|
@@ -1720,7 +1720,7 @@
 
 
 ---  
- #  Copy : Array[[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)]
+ #  Copy : Array[[doublereal](doublereal.md)]
 
 > 
 > |Name|Type|Description|
@@ -1731,7 +1731,7 @@
 
 
 ---  
- #  Copy : Array[[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)]
+ #  Copy : Array[[boolean2](boolean2.md)]
 
 > 
 > |Name|Type|Description|
@@ -1742,91 +1742,91 @@
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |value|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : AnyHandle) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |value|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Boolean) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |value|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Boolean2) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |value|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Boolean3) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |value|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Boolean4) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |value|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Byte) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |value|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Cog) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -1838,79 +1838,79 @@
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |value|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : DoubleInteger) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |value|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : DoubleReal) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |value|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Integer) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |value|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Integer2) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |value|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Integer3) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |value|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Integer4) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -1922,79 +1922,79 @@
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |value|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Quaternion) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |value|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Real) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |value|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Real2) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |value|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Real3) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |value|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : Real4) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |value|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function FindFirstIndex(value : String) : Integer
 > ``` 
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -2011,91 +2011,91 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Key
 > ``` 
 
 
 ---  
- #  Get : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  Get : [quaternion](quaternion.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Quaternion
 > ``` 
 
 
 ---  
- #  Get : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Get : [cog](../class_reference/cog.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Cog
 > ``` 
 
 
 ---  
- #  Get : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Get : [real2](real2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Real2
 > ``` 
 
 
 ---  
- #  Get : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Get : [real3](real3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Real3
 > ``` 
 
 
 ---  
- #  Get : [boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)
+ #  Get : [boolean2](boolean2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Boolean2
 > ``` 
 
 
 ---  
- #  Get : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Get : [real](real.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Real
 > ``` 
 
 
 ---  
- #  Get : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  Get : [integer4](integer4.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Integer4
 > ``` 
@@ -2107,139 +2107,139 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : delegate()
 > ``` 
 
 
 ---  
- #  Get : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)
+ #  Get : [byte](byte.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Byte
 > ``` 
 
 
 ---  
- #  Get : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  Get : [doublereal](doublereal.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : DoubleReal
 > ``` 
 
 
 ---  
- #  Get : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Get : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Integer
 > ``` 
 
 
 ---  
- #  Get : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Get : [string](string.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : String
 > ``` 
 
 
 ---  
- #  Get : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Get : [real4](real4.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Real4
 > ``` 
 
 
 ---  
- #  Get : [boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)
+ #  Get : [boolean3](boolean3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Boolean3
 > ``` 
 
 
 ---  
- #  Get : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  Get : [doubleinteger](doubleinteger.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : DoubleInteger
 > ``` 
 
 
 ---  
- #  Get : [boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)
+ #  Get : [boolean4](boolean4.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Boolean4
 > ``` 
 
 
 ---  
- #  Get : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  Get : [integer2](integer2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Integer2
 > ``` 
 
 
 ---  
- #  Get : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  Get : [integer3](integer3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Integer3
 > ``` 
 
 
 ---  
- #  Get : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Get : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Boolean
 > ``` 
@@ -2251,19 +2251,19 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : T
 > ``` 
 
 
 ---  
- #  Get : [anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)
+ #  Get : [anyhandle](anyhandle.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : AnyHandle
 > ``` 
@@ -2275,8 +2275,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |index|[integer](integer.md)| |
+> |value|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : AnyHandle)
 > ``` 
@@ -2288,8 +2288,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Boolean)
 > ``` 
@@ -2301,8 +2301,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Boolean2)
 > ``` 
@@ -2314,8 +2314,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Boolean3)
 > ``` 
@@ -2327,8 +2327,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Boolean4)
 > ``` 
@@ -2340,8 +2340,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |index|[integer](integer.md)| |
+> |value|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Byte)
 > ``` 
@@ -2353,8 +2353,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |index|[integer](integer.md)| |
+> |value|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Cog)
 > ``` 
@@ -2366,7 +2366,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|delegate()| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : delegate())
@@ -2379,8 +2379,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |index|[integer](integer.md)| |
+> |value|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : DoubleInteger)
 > ``` 
@@ -2392,8 +2392,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |index|[integer](integer.md)| |
+> |value|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : DoubleReal)
 > ``` 
@@ -2405,8 +2405,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Integer)
 > ``` 
@@ -2418,8 +2418,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Integer2)
 > ``` 
@@ -2431,8 +2431,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Integer3)
 > ``` 
@@ -2444,8 +2444,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Integer4)
 > ``` 
@@ -2457,7 +2457,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|Key| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Key)
@@ -2470,8 +2470,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |index|[integer](integer.md)| |
+> |value|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Quaternion)
 > ``` 
@@ -2483,8 +2483,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Real)
 > ``` 
@@ -2496,8 +2496,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Real2)
 > ``` 
@@ -2509,8 +2509,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Real3)
 > ``` 
@@ -2522,8 +2522,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : Real4)
 > ``` 
@@ -2535,8 +2535,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |index|[integer](integer.md)| |
+> |value|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : String)
 > ``` 
@@ -2548,7 +2548,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|T| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : T)
@@ -2556,7 +2556,7 @@
 
 
 ---  
- #  Pop : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  Pop : [integer4](integer4.md)
 
 > 
 > |Name|Type|Description|
@@ -2567,7 +2567,7 @@
 
 
 ---  
- #  Pop : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Pop : [string](string.md)
 
 > 
 > |Name|Type|Description|
@@ -2578,7 +2578,7 @@
 
 
 ---  
- #  Pop : [boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)
+ #  Pop : [boolean2](boolean2.md)
 
 > 
 > |Name|Type|Description|
@@ -2611,7 +2611,7 @@
 
 
 ---  
- #  Pop : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Pop : [real3](real3.md)
 
 > 
 > |Name|Type|Description|
@@ -2633,7 +2633,7 @@
 
 
 ---  
- #  Pop : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  Pop : [doublereal](doublereal.md)
 
 > 
 > |Name|Type|Description|
@@ -2644,7 +2644,7 @@
 
 
 ---  
- #  Pop : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Pop : [real4](real4.md)
 
 > 
 > |Name|Type|Description|
@@ -2655,7 +2655,7 @@
 
 
 ---  
- #  Pop : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  Pop : [integer3](integer3.md)
 
 > 
 > |Name|Type|Description|
@@ -2666,7 +2666,7 @@
 
 
 ---  
- #  Pop : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Pop : [real2](real2.md)
 
 > 
 > |Name|Type|Description|
@@ -2677,7 +2677,7 @@
 
 
 ---  
- #  Pop : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Pop : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -2688,7 +2688,7 @@
 
 
 ---  
- #  Pop : [boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)
+ #  Pop : [boolean3](boolean3.md)
 
 > 
 > |Name|Type|Description|
@@ -2699,7 +2699,7 @@
 
 
 ---  
- #  Pop : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Pop : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -2710,7 +2710,7 @@
 
 
 ---  
- #  Pop : [anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)
+ #  Pop : [anyhandle](anyhandle.md)
 
 > 
 > |Name|Type|Description|
@@ -2721,7 +2721,7 @@
 
 
 ---  
- #  Pop : [boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)
+ #  Pop : [boolean4](boolean4.md)
 
 > 
 > |Name|Type|Description|
@@ -2732,7 +2732,7 @@
 
 
 ---  
- #  Pop : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Pop : [cog](../class_reference/cog.md)
 
 > 
 > |Name|Type|Description|
@@ -2743,7 +2743,7 @@
 
 
 ---  
- #  Pop : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  Pop : [doubleinteger](doubleinteger.md)
 
 > 
 > |Name|Type|Description|
@@ -2754,7 +2754,7 @@
 
 
 ---  
- #  Pop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Pop : [real](real.md)
 
 > 
 > |Name|Type|Description|
@@ -2765,7 +2765,7 @@
 
 
 ---  
- #  Pop : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  Pop : [integer2](integer2.md)
 
 > 
 > |Name|Type|Description|
@@ -2776,7 +2776,7 @@
 
 
 ---  
- #  Pop : [byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)
+ #  Pop : [byte](byte.md)
 
 > 
 > |Name|Type|Description|
@@ -2787,7 +2787,7 @@
 
 
 ---  
- #  Pop : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  Pop : [quaternion](quaternion.md)
 
 > 
 > |Name|Type|Description|
@@ -2803,7 +2803,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |p0|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : AnyHandle)
 > ``` 
@@ -2815,7 +2815,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |p0|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Boolean)
 > ``` 
@@ -2827,7 +2827,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |p0|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Boolean2)
 > ``` 
@@ -2839,7 +2839,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |p0|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Boolean3)
 > ``` 
@@ -2851,7 +2851,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |p0|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Boolean4)
 > ``` 
@@ -2863,7 +2863,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |p0|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Byte)
 > ``` 
@@ -2875,7 +2875,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |p0|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Cog)
 > ``` 
@@ -2899,7 +2899,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |p0|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : DoubleInteger)
 > ``` 
@@ -2911,7 +2911,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |p0|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : DoubleReal)
 > ``` 
@@ -2923,7 +2923,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Integer)
 > ``` 
@@ -2935,7 +2935,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |p0|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Integer2)
 > ``` 
@@ -2947,7 +2947,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |p0|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Integer3)
 > ``` 
@@ -2959,7 +2959,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |p0|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Integer4)
 > ``` 
@@ -2983,7 +2983,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |p0|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Quaternion)
 > ``` 
@@ -2995,7 +2995,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |p0|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Real)
 > ``` 
@@ -3007,7 +3007,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |p0|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Real2)
 > ``` 
@@ -3019,7 +3019,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |p0|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Real3)
 > ``` 
@@ -3031,7 +3031,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |p0|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : Real4)
 > ``` 
@@ -3043,7 +3043,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function Push(p0 : String)
 > ``` 
@@ -3062,13 +3062,13 @@
 
 
 ---  
- #  Range : ArrayRange[[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)]
+ #  Range : ArrayRange[[real](real.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real]
 > ``` 
@@ -3080,60 +3080,60 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)]
+ #  Range : ArrayRange[[integer3](integer3.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer3]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)]
+ #  Range : ArrayRange[[doublereal](doublereal.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[DoubleReal]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)]
+ #  Range : ArrayRange[[real3](real3.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real3]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)]
+ #  Range : ArrayRange[[boolean](boolean.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean]
 > ``` 
@@ -3145,164 +3145,164 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[any]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)]
+ #  Range : ArrayRange[[integer](integer.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)]
+ #  Range : ArrayRange[[byte](byte.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Byte]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)]
+ #  Range : ArrayRange[[boolean3](boolean3.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean3]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)]
+ #  Range : ArrayRange[[cog](../class_reference/cog.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Cog]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)]
+ #  Range : ArrayRange[[real4](real4.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real4]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)]
+ #  Range : ArrayRange[[doubleinteger](doubleinteger.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[DoubleInteger]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)]
+ #  Range : ArrayRange[[anyhandle](anyhandle.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[AnyHandle]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)]
+ #  Range : ArrayRange[[real2](real2.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Real2]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)]
+ #  Range : ArrayRange[[boolean2](boolean2.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean2]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)]
+ #  Range : ArrayRange[[string](string.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[String]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)]
+ #  Range : ArrayRange[[integer2](integer2.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer2]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)]
+ #  Range : ArrayRange[[integer4](integer4.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Integer4]
 > ``` 
@@ -3314,125 +3314,125 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[delegate()]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)]
+ #  Range : ArrayRange[[quaternion](quaternion.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Quaternion]
 > ``` 
 
 
 ---  
- #  Range : ArrayRange[[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)]
+ #  Range : ArrayRange[[boolean4](boolean4.md)]
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[Boolean4]
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |value|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : AnyHandle) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |value|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Boolean) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |value|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Boolean2) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |value|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Boolean3) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |value|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Boolean4) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |value|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Byte) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |value|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Cog) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -3444,79 +3444,79 @@
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |value|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : DoubleInteger) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |value|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : DoubleReal) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |value|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Integer) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |value|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Integer2) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |value|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Integer3) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |value|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Integer4) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -3528,79 +3528,79 @@
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |value|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Quaternion) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |value|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Real) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |value|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Real2) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |value|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Real3) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |value|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : Real4) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |value|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAll(value : String) : Integer
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -3617,7 +3617,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3629,7 +3629,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3641,7 +3641,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3653,7 +3653,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3665,7 +3665,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3677,7 +3677,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3689,7 +3689,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3701,7 +3701,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3713,7 +3713,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3725,7 +3725,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3737,7 +3737,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3749,7 +3749,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3761,7 +3761,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3773,7 +3773,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3785,7 +3785,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3797,7 +3797,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3809,7 +3809,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3821,7 +3821,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3833,7 +3833,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3845,7 +3845,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3857,7 +3857,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
@@ -3869,98 +3869,98 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |value|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : AnyHandle) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |value|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Boolean) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |value|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Boolean2) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |value|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Boolean3) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |value|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Boolean4) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |value|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Byte) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |value|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Cog) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -3972,79 +3972,79 @@
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |value|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : DoubleInteger) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |value|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : DoubleReal) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |value|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |value|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Integer2) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |value|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Integer3) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |value|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Integer4) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -4056,79 +4056,79 @@
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |value|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Quaternion) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |value|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Real) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |value|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Real2) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |value|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Real3) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |value|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : Real4) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |value|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveFirst(value : String) : Boolean
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -4145,7 +4145,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4157,7 +4157,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4169,7 +4169,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4181,7 +4181,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4193,7 +4193,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4205,7 +4205,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4217,7 +4217,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4229,7 +4229,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4241,7 +4241,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4253,7 +4253,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4265,7 +4265,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4277,7 +4277,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4289,7 +4289,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4301,7 +4301,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4313,7 +4313,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4325,7 +4325,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4337,7 +4337,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4349,7 +4349,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4361,7 +4361,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4373,7 +4373,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4385,7 +4385,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4397,7 +4397,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -4409,7 +4409,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4421,7 +4421,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4433,7 +4433,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4445,7 +4445,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4457,7 +4457,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4469,7 +4469,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4481,7 +4481,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4493,7 +4493,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4505,7 +4505,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4517,7 +4517,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4529,7 +4529,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4541,7 +4541,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4553,7 +4553,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4565,7 +4565,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4577,7 +4577,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4589,7 +4589,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4601,7 +4601,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4613,7 +4613,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4625,7 +4625,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4637,7 +4637,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4649,7 +4649,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4661,7 +4661,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -4673,7 +4673,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4685,7 +4685,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4697,7 +4697,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4709,7 +4709,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4721,7 +4721,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4733,7 +4733,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4745,7 +4745,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4757,7 +4757,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4769,7 +4769,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4781,7 +4781,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4793,7 +4793,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4805,7 +4805,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4817,7 +4817,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4829,7 +4829,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4841,7 +4841,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4853,7 +4853,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4865,7 +4865,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4877,7 +4877,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4889,7 +4889,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4901,7 +4901,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4913,7 +4913,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4925,7 +4925,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -4937,8 +4937,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : AnyHandle)
 > ``` 
@@ -4950,8 +4950,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Boolean)
 > ``` 
@@ -4963,8 +4963,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Boolean2)
 > ``` 
@@ -4976,8 +4976,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Boolean3)
 > ``` 
@@ -4989,8 +4989,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Boolean4)
 > ``` 
@@ -5002,8 +5002,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Byte)
 > ``` 
@@ -5015,8 +5015,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Cog)
 > ``` 
@@ -5028,7 +5028,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|delegate()| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : delegate())
@@ -5041,8 +5041,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : DoubleInteger)
 > ``` 
@@ -5054,8 +5054,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : DoubleReal)
 > ``` 
@@ -5067,8 +5067,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Integer)
 > ``` 
@@ -5080,8 +5080,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Integer2)
 > ``` 
@@ -5093,8 +5093,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Integer3)
 > ``` 
@@ -5106,8 +5106,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Integer4)
 > ``` 
@@ -5119,7 +5119,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|Key| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Key)
@@ -5132,8 +5132,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Quaternion)
 > ``` 
@@ -5145,8 +5145,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Real)
 > ``` 
@@ -5158,8 +5158,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Real2)
 > ``` 
@@ -5171,8 +5171,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Real3)
 > ``` 
@@ -5184,8 +5184,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : Real4)
 > ``` 
@@ -5197,8 +5197,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |defaultValue|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |size|[integer](integer.md)| |
+> |defaultValue|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : String)
 > ``` 
@@ -5210,7 +5210,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|T| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : T)
@@ -5223,8 +5223,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |index|[integer](integer.md)| |
+> |value|[anyhandle](anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : AnyHandle)
 > ``` 
@@ -5236,8 +5236,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Boolean)
 > ``` 
@@ -5249,8 +5249,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean2](boolean2.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Boolean2)
 > ``` 
@@ -5262,8 +5262,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Boolean3)
 > ``` 
@@ -5275,8 +5275,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean4](boolean4.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Boolean4)
 > ``` 
@@ -5288,8 +5288,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)| |
+> |index|[integer](integer.md)| |
+> |value|[byte](byte.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Byte)
 > ``` 
@@ -5301,8 +5301,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)| |
+> |index|[integer](integer.md)| |
+> |value|[cog](../class_reference/cog.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Cog)
 > ``` 
@@ -5314,7 +5314,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|delegate()| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : delegate())
@@ -5327,8 +5327,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)| |
+> |index|[integer](integer.md)| |
+> |value|[doubleinteger](doubleinteger.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : DoubleInteger)
 > ``` 
@@ -5340,8 +5340,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)| |
+> |index|[integer](integer.md)| |
+> |value|[doublereal](doublereal.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : DoubleReal)
 > ``` 
@@ -5353,8 +5353,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Integer)
 > ``` 
@@ -5366,8 +5366,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer2](integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Integer2)
 > ``` 
@@ -5379,8 +5379,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer3](integer3.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Integer3)
 > ``` 
@@ -5392,8 +5392,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)| |
+> |index|[integer](integer.md)| |
+> |value|[integer4](integer4.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Integer4)
 > ``` 
@@ -5405,7 +5405,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|Key| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Key)
@@ -5418,8 +5418,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |index|[integer](integer.md)| |
+> |value|[quaternion](quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Quaternion)
 > ``` 
@@ -5431,8 +5431,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real](real.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Real)
 > ``` 
@@ -5444,8 +5444,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real2](real2.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Real2)
 > ``` 
@@ -5457,8 +5457,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real3](real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Real3)
 > ``` 
@@ -5470,8 +5470,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |index|[integer](integer.md)| |
+> |value|[real4](real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Real4)
 > ``` 
@@ -5483,8 +5483,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |index|[integer](integer.md)| |
+> |value|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : String)
 > ``` 
@@ -5496,7 +5496,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|T| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : T)
@@ -5509,7 +5509,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:any,right:any):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:any,right:any):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:any,right:any):Boolean)
 > ``` 
@@ -5521,7 +5521,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:any,right:any):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:any,right:any):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:any,right:any):Integer)
 > ``` 
@@ -5533,7 +5533,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md),right:[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[anyhandle](anyhandle.md),right:[anyhandle](anyhandle.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:AnyHandle,right:AnyHandle):Boolean)
 > ``` 
@@ -5545,7 +5545,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md),right:[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[anyhandle](anyhandle.md),right:[anyhandle](anyhandle.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:AnyHandle,right:AnyHandle):Integer)
 > ``` 
@@ -5557,7 +5557,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md),right:[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[boolean](boolean.md),right:[boolean](boolean.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean,right:Boolean):Boolean)
 > ``` 
@@ -5569,7 +5569,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md),right:[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[boolean](boolean.md),right:[boolean](boolean.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean,right:Boolean):Integer)
 > ``` 
@@ -5581,7 +5581,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md),right:[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[boolean2](boolean2.md),right:[boolean2](boolean2.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean2,right:Boolean2):Boolean)
 > ``` 
@@ -5593,7 +5593,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md),right:[boolean2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean2.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[boolean2](boolean2.md),right:[boolean2](boolean2.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean2,right:Boolean2):Integer)
 > ``` 
@@ -5605,7 +5605,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md),right:[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[boolean3](boolean3.md),right:[boolean3](boolean3.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean3,right:Boolean3):Boolean)
 > ``` 
@@ -5617,7 +5617,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md),right:[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[boolean3](boolean3.md),right:[boolean3](boolean3.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean3,right:Boolean3):Integer)
 > ``` 
@@ -5629,7 +5629,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md),right:[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[boolean4](boolean4.md),right:[boolean4](boolean4.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean4,right:Boolean4):Boolean)
 > ``` 
@@ -5641,7 +5641,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md),right:[boolean4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[boolean4](boolean4.md),right:[boolean4](boolean4.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Boolean4,right:Boolean4):Integer)
 > ``` 
@@ -5653,7 +5653,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md),right:[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[byte](byte.md),right:[byte](byte.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Byte,right:Byte):Boolean)
 > ``` 
@@ -5665,7 +5665,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md),right:[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[byte](byte.md),right:[byte](byte.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Byte,right:Byte):Integer)
 > ``` 
@@ -5677,7 +5677,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md),right:[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[cog](../class_reference/cog.md),right:[cog](../class_reference/cog.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Cog,right:Cog):Boolean)
 > ``` 
@@ -5689,7 +5689,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md),right:[cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[cog](../class_reference/cog.md),right:[cog](../class_reference/cog.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Cog,right:Cog):Integer)
 > ``` 
@@ -5701,7 +5701,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:delegate(),right:delegate()):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:delegate(),right:delegate()):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:delegate(),right:delegate()):Boolean)
 > ``` 
@@ -5713,7 +5713,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:delegate(),right:delegate()):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:delegate(),right:delegate()):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:delegate(),right:delegate()):Integer)
 > ``` 
@@ -5725,7 +5725,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md),right:[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[doubleinteger](doubleinteger.md),right:[doubleinteger](doubleinteger.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:DoubleInteger,right:DoubleInteger):Boolean)
 > ``` 
@@ -5737,7 +5737,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md),right:[doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[doubleinteger](doubleinteger.md),right:[doubleinteger](doubleinteger.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:DoubleInteger,right:DoubleInteger):Integer)
 > ``` 
@@ -5749,7 +5749,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md),right:[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[doublereal](doublereal.md),right:[doublereal](doublereal.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:DoubleReal,right:DoubleReal):Boolean)
 > ``` 
@@ -5761,7 +5761,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md),right:[doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[doublereal](doublereal.md),right:[doublereal](doublereal.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:DoubleReal,right:DoubleReal):Integer)
 > ``` 
@@ -5773,7 +5773,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md),right:[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[integer](integer.md),right:[integer](integer.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer,right:Integer):Boolean)
 > ``` 
@@ -5785,7 +5785,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md),right:[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[integer](integer.md),right:[integer](integer.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer,right:Integer):Integer)
 > ``` 
@@ -5797,7 +5797,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md),right:[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[integer2](integer2.md),right:[integer2](integer2.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer2,right:Integer2):Boolean)
 > ``` 
@@ -5809,7 +5809,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md),right:[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[integer2](integer2.md),right:[integer2](integer2.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer2,right:Integer2):Integer)
 > ``` 
@@ -5821,7 +5821,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md),right:[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[integer3](integer3.md),right:[integer3](integer3.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer3,right:Integer3):Boolean)
 > ``` 
@@ -5833,7 +5833,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md),right:[integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[integer3](integer3.md),right:[integer3](integer3.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer3,right:Integer3):Integer)
 > ``` 
@@ -5845,7 +5845,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md),right:[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[integer4](integer4.md),right:[integer4](integer4.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer4,right:Integer4):Boolean)
 > ``` 
@@ -5857,7 +5857,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md),right:[integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[integer4](integer4.md),right:[integer4](integer4.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Integer4,right:Integer4):Integer)
 > ``` 
@@ -5869,7 +5869,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:Key,right:Key):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:Key,right:Key):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Key,right:Key):Boolean)
 > ``` 
@@ -5881,7 +5881,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:Key,right:Key):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:Key,right:Key):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Key,right:Key):Integer)
 > ``` 
@@ -5893,7 +5893,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md),right:[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[quaternion](quaternion.md),right:[quaternion](quaternion.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Quaternion,right:Quaternion):Boolean)
 > ``` 
@@ -5905,7 +5905,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md),right:[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[quaternion](quaternion.md),right:[quaternion](quaternion.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Quaternion,right:Quaternion):Integer)
 > ``` 
@@ -5917,7 +5917,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md),right:[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[real](real.md),right:[real](real.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real,right:Real):Boolean)
 > ``` 
@@ -5929,7 +5929,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md),right:[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[real](real.md),right:[real](real.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real,right:Real):Integer)
 > ``` 
@@ -5941,7 +5941,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md),right:[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[real2](real2.md),right:[real2](real2.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real2,right:Real2):Boolean)
 > ``` 
@@ -5953,7 +5953,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md),right:[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[real2](real2.md),right:[real2](real2.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real2,right:Real2):Integer)
 > ``` 
@@ -5965,7 +5965,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md),right:[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[real3](real3.md),right:[real3](real3.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real3,right:Real3):Boolean)
 > ``` 
@@ -5977,7 +5977,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md),right:[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[real3](real3.md),right:[real3](real3.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real3,right:Real3):Integer)
 > ``` 
@@ -5989,7 +5989,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md),right:[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[real4](real4.md),right:[real4](real4.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real4,right:Real4):Boolean)
 > ``` 
@@ -6001,7 +6001,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md),right:[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[real4](real4.md),right:[real4](real4.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:Real4,right:Real4):Integer)
 > ``` 
@@ -6013,7 +6013,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md),right:[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:[string](string.md),right:[string](string.md)):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:String,right:String):Boolean)
 > ``` 
@@ -6025,7 +6025,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md),right:[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:[string](string.md),right:[string](string.md)):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:String,right:String):Integer)
 > ``` 

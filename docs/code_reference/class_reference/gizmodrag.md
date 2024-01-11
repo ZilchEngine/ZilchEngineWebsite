@@ -4,22 +4,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#gizmodrag-void)|[ AutoDrag](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#autodrag-zilch-engine-doc)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ DragActive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#dragactive-zilch-engine-d)| | |
-| |[ DragDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#dragdistance-zilch-engine)| | |
-| |[ DragMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#dragmode-zilch-engine-doc)| | |
-| |[ GrabMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#grabmode-zilch-engine-doc)| | |
-| |[ GrabPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#grabpoint-zilch-engine-do)| | |
-| |[ LineDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#linedirection-zilch-engin)| | |
-| |[ NormalInWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#normalinworld-zilch-engin)| | |
-| |[ PlaneNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmodrag.md#planenormal-zilch-engine)| | |
+|[ Constructor](gizmodrag.md#gizmodrag-void)|[ AutoDrag](gizmodrag.md#autodrag-zilch-engine-doc)|[component](component.md)| |
+| |[ DragActive](gizmodrag.md#dragactive-zilch-engine-d)| | |
+| |[ DragDistance](gizmodrag.md#dragdistance-zilch-engine)| | |
+| |[ DragMode](gizmodrag.md#dragmode-zilch-engine-doc)| | |
+| |[ GrabMode](gizmodrag.md#grabmode-zilch-engine-doc)| | |
+| |[ GrabPoint](gizmodrag.md#grabpoint-zilch-engine-do)| | |
+| |[ LineDirection](gizmodrag.md#linedirection-zilch-engin)| | |
+| |[ NormalInWorld](gizmodrag.md#normalinworld-zilch-engin)| | |
+| |[ PlaneNormal](gizmodrag.md#planenormal-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  AutoDrag : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoDrag : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  DragActive : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DragActive : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  DragDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DragDistance : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -45,7 +45,7 @@
 
 
 ---  
- #  DragMode : [GizmoDragMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#gizmodragmode)
+ #  DragMode : [GizmoDragMode](../enum_reference.md#gizmodragmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -53,7 +53,7 @@
 
 
 ---  
- #  GrabMode : [GizmoGrabMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#gizmograbmode)
+ #  GrabMode : [GizmoGrabMode](../enum_reference.md#gizmograbmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -61,7 +61,7 @@
 
 
 ---  
- #  GrabPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  GrabPoint : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -71,7 +71,7 @@
 
 
 ---  
- #  LineDirection : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LineDirection : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -79,7 +79,7 @@
 
 
 ---  
- #  NormalInWorld : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  NormalInWorld : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -87,7 +87,7 @@
 
 
 ---  
- #  PlaneNormal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  PlaneNormal : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

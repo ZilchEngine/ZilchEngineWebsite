@@ -6,26 +6,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ NumberOfWheelsInContact](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#numberofwheelsincontact)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#physicscar-void)|[ AntiLockBrakes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#antilockbrakes-zilch-engi)| | |
-| |[ Brake](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#brake-zilch-engine-docume)| | |
-| |[ DebugDraw](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#debugdraw-zilch-engine-do)| | |
-| |[ Gas](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#gas-zilch-engine-document)| | |
-| |[ GripScalar](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#gripscalar-zilch-engine-d)| | |
-| |[ MaxSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#maxspeed-zilch-engine-doc)| | |
-| |[ MaxTorque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#maxtorque-zilch-engine-do)| | |
-| |[ Steer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#steer-zilch-engine-docume)| | |
-| |[ TorqueGovernor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#torquegovernor-zilch-engi)| | |
-| |[ WheelCogs](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#wheelcogs-zilch-engine-do)| | |
-| |[ WheelFrictionFrontRollCoef](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#wheelfrictionfrontrollco)| | |
-| |[ WheelFrictionSideRollCoef](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscar.md#wheelfrictionsiderollcoe)| | |
+|[ NumberOfWheelsInContact](physicscar.md#numberofwheelsincontact)|[ Active](physicscar.md#active-zilch-engine-docum)|[component](component.md)| |
+|[ Constructor](physicscar.md#physicscar-void)|[ AntiLockBrakes](physicscar.md#antilockbrakes-zilch-engi)| | |
+| |[ Brake](physicscar.md#brake-zilch-engine-docume)| | |
+| |[ DebugDraw](physicscar.md#debugdraw-zilch-engine-do)| | |
+| |[ Gas](physicscar.md#gas-zilch-engine-document)| | |
+| |[ GripScalar](physicscar.md#gripscalar-zilch-engine-d)| | |
+| |[ MaxSpeed](physicscar.md#maxspeed-zilch-engine-doc)| | |
+| |[ MaxTorque](physicscar.md#maxtorque-zilch-engine-do)| | |
+| |[ Steer](physicscar.md#steer-zilch-engine-docume)| | |
+| |[ TorqueGovernor](physicscar.md#torquegovernor-zilch-engi)| | |
+| |[ WheelCogs](physicscar.md#wheelcogs-zilch-engine-do)| | |
+| |[ WheelFrictionFrontRollCoef](physicscar.md#wheelfrictionfrontrollco)| | |
+| |[ WheelFrictionSideRollCoef](physicscar.md#wheelfrictionsiderollcoe)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not the car will run any logic at all. If this is false wheels will not work, they will not behave as springs, drive, or anything else.
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  AntiLockBrakes : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AntiLockBrakes : [boolean](../nada_base_types/boolean.md)
 
 > Prevents the car from entering dynamic friction when applying brakes. If the brake would start to skid, the brake force is clamped to the max amount that will not slip.
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Brake : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Brake : [real](../nada_base_types/real.md)
 
 > How much the brake is being pressed [0,1] where 1 is full brake.
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  DebugDraw : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DebugDraw : [boolean](../nada_base_types/boolean.md)
 
 > Whether or not the car should debug draw.
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  Gas : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Gas : [real](../nada_base_types/real.md)
 
 > How much the gas is being pressed [-1,1] where -1 is full reverse.
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  GripScalar : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GripScalar : [real](../nada_base_types/real.md)
 
 > Artificially increases the grip of the car (where 2 is twice the grip). The total grip scalar is computed as CarGripScalar * WheelGripScalar so the total car can be easily tweaked while allowing individual wheel tweaks.
 > ``` lang=cpp, name=Nada
@@ -73,7 +73,7 @@
 
 
 ---  
- #  MaxSpeed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxSpeed : [real](../nada_base_types/real.md)
 
 > The desired maximum speed of the car. Similar to a speed governor.
 > ``` lang=cpp, name=Nada
@@ -81,7 +81,7 @@
 
 
 ---  
- #  MaxTorque : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxTorque : [real](../nada_base_types/real.md)
 
 > The maximum torque the engine can apply to try to reach the max speed.
 > ``` lang=cpp, name=Nada
@@ -89,7 +89,7 @@
 
 
 ---  
- #  Steer : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Steer : [real](../nada_base_types/real.md)
 
 > How much the wheel is being steered. This is measured in radians about this object's y-axis.
 > ``` lang=cpp, name=Nada
@@ -97,7 +97,7 @@
 
 
 ---  
- #  TorqueGovernor : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  TorqueGovernor : [boolean](../nada_base_types/boolean.md)
 
 > Governs the max torque that the engine can apply. This is used to keep the wheels from spinning out (slipping) when too high of a torque is applied. If the tires would slip, the engine will apply the maximum torque for the tires to not slip.
 > ``` lang=cpp, name=Nada
@@ -105,7 +105,7 @@
 
 
 ---  
- #  WheelCogs : [carwheelarray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/carwheelarray.md)
+ #  WheelCogs : [carwheelarray](carwheelarray.md)
 
  `read-only`
 
@@ -115,7 +115,7 @@
 
 
 ---  
- #  WheelFrictionFrontRollCoef : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WheelFrictionFrontRollCoef : [real](../nada_base_types/real.md)
 
 > Coefficient used to apply the forward friction force closer to the car's center of mass. 1 applies the force at the wheel position, 0 applies the force at the point along the contact normal closest to the center of mass.
 > ``` lang=cpp, name=Nada
@@ -123,7 +123,7 @@
 
 
 ---  
- #  WheelFrictionSideRollCoef : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WheelFrictionSideRollCoef : [real](../nada_base_types/real.md)
 
 > Coefficient used to apply the side friction force closer to the car's center of mass. 1 applies the force at the wheel position, 0 applies the force at the point along the contact normal closest to the center of mass.
 > ``` lang=cpp, name=Nada
@@ -135,7 +135,7 @@
 
 
 ---  
- #  NumberOfWheelsInContact : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  NumberOfWheelsInContact : [integer](../nada_base_types/integer.md)
 
 > The number of wheels currently in contact with an object.
 > |Name|Type|Description|

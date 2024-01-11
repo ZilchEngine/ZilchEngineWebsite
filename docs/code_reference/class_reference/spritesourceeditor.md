@@ -2,28 +2,28 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Bottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#bottom-zilch-engine-docum)|[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.md)| |
-| |[ CurrentFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#currentframe-zilch-engine)| | |
-| |[ FrameRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#framerate-zilch-engine-do)| | |
-| |[ Left](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#left-zilch-engine-documen)| | |
-| |[ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#looping-zilch-engine-docu)| | |
-| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#origin-zilch-engine-docum)| | |
-| |[ OriginX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#originx-zilch-engine-docu)| | |
-| |[ OriginY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#originy-zilch-engine-docu)| | |
-| |[ PixelsPerUnit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#pixelsperunit-zilch-engin)| | |
-| |[ PreviewAnimation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#previewanimation-zilch-en)| | |
-| |[ Right](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#right-zilch-engine-docume)| | |
-| |[ Sampling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#sampling-zilch-engine-doc)| | |
-| |[ SpriteFill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#spritefill-zilch-engine-d)| | |
-| |[ SpriteName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#spritename-zilch-engine-d)| | |
-| |[ Top](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesourceeditor.md#top-zilch-engine-document)| | |
+| |[ Bottom](spritesourceeditor.md#bottom-zilch-engine-docum)|[composite](composite.md)| |
+| |[ CurrentFrame](spritesourceeditor.md#currentframe-zilch-engine)| | |
+| |[ FrameRate](spritesourceeditor.md#framerate-zilch-engine-do)| | |
+| |[ Left](spritesourceeditor.md#left-zilch-engine-documen)| | |
+| |[ Looping](spritesourceeditor.md#looping-zilch-engine-docu)| | |
+| |[ Origin](spritesourceeditor.md#origin-zilch-engine-docum)| | |
+| |[ OriginX](spritesourceeditor.md#originx-zilch-engine-docu)| | |
+| |[ OriginY](spritesourceeditor.md#originy-zilch-engine-docu)| | |
+| |[ PixelsPerUnit](spritesourceeditor.md#pixelsperunit-zilch-engin)| | |
+| |[ PreviewAnimation](spritesourceeditor.md#previewanimation-zilch-en)| | |
+| |[ Right](spritesourceeditor.md#right-zilch-engine-docume)| | |
+| |[ Sampling](spritesourceeditor.md#sampling-zilch-engine-doc)| | |
+| |[ SpriteFill](spritesourceeditor.md#spritefill-zilch-engine-d)| | |
+| |[ SpriteName](spritesourceeditor.md#spritename-zilch-engine-d)| | |
+| |[ Top](spritesourceeditor.md#top-zilch-engine-document)| | |
 
 
  #  Properties
 
 
 ---  
- #  Bottom : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Bottom : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  CurrentFrame : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  CurrentFrame : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  FrameRate : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FrameRate : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  Left : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Left : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  Looping : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Looping : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  Origin : [SpriteOrigin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteorigin)
+ #  Origin : [SpriteOrigin](../enum_reference.md#spriteorigin)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -71,7 +71,7 @@
 
 
 ---  
- #  OriginX : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  OriginX : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -79,7 +79,7 @@
 
 
 ---  
- #  OriginY : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  OriginY : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -87,7 +87,7 @@
 
 
 ---  
- #  PixelsPerUnit : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  PixelsPerUnit : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -95,7 +95,7 @@
 
 
 ---  
- #  PreviewAnimation : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  PreviewAnimation : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -103,7 +103,7 @@
 
 
 ---  
- #  Right : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Right : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -111,7 +111,7 @@
 
 
 ---  
- #  Sampling : [SpriteSampling](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spritesampling)
+ #  Sampling : [SpriteSampling](../enum_reference.md#spritesampling)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -119,7 +119,7 @@
 
 
 ---  
- #  SpriteFill : [SpriteFill](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spritefill)
+ #  SpriteFill : [SpriteFill](../enum_reference.md#spritefill)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -127,7 +127,7 @@
 
 
 ---  
- #  SpriteName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  SpriteName : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -135,7 +135,7 @@
 
 
 ---  
- #  Top : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Top : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

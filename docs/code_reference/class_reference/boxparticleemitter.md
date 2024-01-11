@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxparticleemitter.md#boxparticleemitter-void)| |[particleemittershared](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particleemittershared.md)| |
+|[ Constructor](boxparticleemitter.md#boxparticleemitter-void)| |[particleemittershared](particleemittershared.md)| |
 
 
  #  Properties

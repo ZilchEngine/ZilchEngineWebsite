@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheelbasisgizmo.md#physicscarwheelbasisgizm)| |[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
+|[ Constructor](physicscarwheelbasisgizmo.md#physicscarwheelbasisgizm)| |[component](component.md)| |
 
 
  #  Properties

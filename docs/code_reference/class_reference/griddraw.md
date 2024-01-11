@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#griddraw-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ AlwaysDrawInEditor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#alwaysdrawineditor-zero)| | |
-| |[ Axis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#axis-zilch-engine-documen)| | |
-| |[ CellSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#cellsize-zilch-engine-doc)| | |
-| |[ DrawAxisOrigins](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#drawaxisorigins-zilch-eng)| | |
-| |[ DrawInGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#drawingame-zilch-engine-d)| | |
-| |[ FollowEditorCamera](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#followeditorcamera-zero)| | |
-| |[ GridColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#gridcolor-zilch-engine-do)| | |
-| |[ GridHighlight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#gridhighlight-zilch-engin)| | |
-| |[ HalfCellOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#halfcelloffset-zilch-engi)| | |
-| |[ HighlightInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#highlightinterval-zilch-e)| | |
-| |[ Lines](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/griddraw.md#lines-zilch-engine-docume)| | |
+|[ Constructor](griddraw.md#griddraw-void)|[ Active](griddraw.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[ AlwaysDrawInEditor](griddraw.md#alwaysdrawineditor-zero)| | |
+| |[ Axis](griddraw.md#axis-zilch-engine-documen)| | |
+| |[ CellSize](griddraw.md#cellsize-zilch-engine-doc)| | |
+| |[ DrawAxisOrigins](griddraw.md#drawaxisorigins-zilch-eng)| | |
+| |[ DrawInGame](griddraw.md#drawingame-zilch-engine-d)| | |
+| |[ FollowEditorCamera](griddraw.md#followeditorcamera-zero)| | |
+| |[ GridColor](griddraw.md#gridcolor-zilch-engine-do)| | |
+| |[ GridHighlight](griddraw.md#gridhighlight-zilch-engin)| | |
+| |[ HalfCellOffset](griddraw.md#halfcelloffset-zilch-engi)| | |
+| |[ HighlightInterval](griddraw.md#highlightinterval-zilch-e)| | |
+| |[ Lines](griddraw.md#lines-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  AlwaysDrawInEditor : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AlwaysDrawInEditor : [boolean](../nada_base_types/boolean.md)
 
 > Always draw the grid in editor (not just when it's selected)
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  Axis : [AxisDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#axisdirection)
+ #  Axis : [AxisDirection](../enum_reference.md#axisdirection)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  CellSize : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  CellSize : [real](../nada_base_types/real.md)
 
 > The deltas in the grid (how far apart we draw grid lines)
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  DrawAxisOrigins : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DrawAxisOrigins : [boolean](../nada_base_types/boolean.md)
 
 > Changes the line color to.
 > ``` lang=cpp, name=Nada
@@ -64,7 +64,7 @@
 
 
 ---  
- #  DrawInGame : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DrawInGame : [boolean](../nada_base_types/boolean.md)
 
 > Draw the grid in the game.
 > ``` lang=cpp, name=Nada
@@ -72,7 +72,7 @@
 
 
 ---  
- #  FollowEditorCamera : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  FollowEditorCamera : [boolean](../nada_base_types/boolean.md)
 
 > Move with the editor camera?
 > ``` lang=cpp, name=Nada
@@ -80,7 +80,7 @@
 
 
 ---  
- #  GridColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  GridColor : [real4](../nada_base_types/real4.md)
 
 > Color of grid lines.
 > ``` lang=cpp, name=Nada
@@ -88,7 +88,7 @@
 
 
 ---  
- #  GridHighlight : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  GridHighlight : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -96,7 +96,7 @@
 
 
 ---  
- #  HalfCellOffset : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HalfCellOffset : [boolean](../nada_base_types/boolean.md)
 
 > Is the grid offset by half a unit?
 > ``` lang=cpp, name=Nada
@@ -104,7 +104,7 @@
 
 
 ---  
- #  HighlightInterval : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  HighlightInterval : [integer](../nada_base_types/integer.md)
 
 > How often should cells be activated.
 > ``` lang=cpp, name=Nada
@@ -112,7 +112,7 @@
 
 
 ---  
- #  Lines : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Lines : [integer](../nada_base_types/integer.md)
 
 > The number of lines to draw.
 > ``` lang=cpp, name=Nada

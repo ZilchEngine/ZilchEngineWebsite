@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/generatedarchetype.md#generatedarchetype-void)| |[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.md)| |
+|[ Constructor](generatedarchetype.md#generatedarchetype-void)| |[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkconnected.md#direction-zilch-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkconnected.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netlinkconnected.md#theirnetpeerid-zilch-engi)| | |
+| |[ Direction](netlinkconnected.md#direction-zilch-engine-do)|[event](event.md)| |
+| |[ TheirIpAddress](netlinkconnected.md#theiripaddress-zilch-engi)| | |
+| |[ TheirNetPeerId](netlinkconnected.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  Direction : [TransmissionDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#transmissiondirection)
+ #  Direction : [TransmissionDirection](../enum_reference.md#transmissiondirection)
 
  `read-only`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  TheirIpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  TheirIpAddress : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  TheirNetPeerId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 

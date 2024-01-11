@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md#castresultsrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](castresultsrange.md#castresultsrange-void)|[ All](castresultsrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](castresultsrange.md#movenext-void)|[ Current](castresultsrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](castresultsrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](castresultsrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [castresultsrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md)
+ #  All : [castresultsrange](castresultsrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [castresult](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresult.md)
+ #  Current : [castresult](castresult.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[castresultsrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/castresultsrange.md)| |
+> |p0|[castresultsrange](castresultsrange.md)| |
 > ``` lang=cpp, name=Nada
 > function CastResultsRange(p0 : CastResultsRange)
 > ``` 

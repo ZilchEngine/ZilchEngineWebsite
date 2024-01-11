@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AcquiredObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuseracquiredobjectownership.md#acquiredobject-zilch-engi)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ PreviousNetUserOwner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netuseracquiredobjectownership.md#previousnetuserowner-zer)| | |
+| |[ AcquiredObject](netuseracquiredobjectownership.md#acquiredobject-zilch-engi)|[event](event.md)| |
+| |[ PreviousNetUserOwner](netuseracquiredobjectownership.md#previousnetuserowner-zer)| | |
 
 
  #  Properties
 
 
 ---  
- #  AcquiredObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  AcquiredObject : [cog](cog.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  PreviousNetUserOwner : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  PreviousNetUserOwner : [cog](cog.md)
 
  `read-only`
 

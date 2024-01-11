@@ -1,6 +1,6 @@
-[CylinderCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cylindercollider.md) defines a [cylindrical](https://en.wikipedia.org/wiki/Cylinder ) shape for collision. The base size of the cylinder is determined by the Radius  and Height  properties. Scale is applied afterwards to determine the final cylinder's size.
+[CylinderCollider](../../../../code_reference/class_reference/cylindercollider.md) defines a [cylindrical](https://en.wikipedia.org/wiki/Cylinder ) shape for collision. The base size of the cylinder is determined by the Radius  and Height  properties. Scale is applied afterwards to determine the final cylinder's size.
 
-(NOTE) **Recommended Reading:** The [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md) page should be read before this page.
+(NOTE) **Recommended Reading:** The [Collider](../colliders.md) page should be read before this page.
 
 
  #  Radius
@@ -19,10 +19,10 @@ When non-uniform scale is applied, the CylinderCollider will always stay a perfe
 ---
  #  Related Materials
  ##  Manual
-- [colliders.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md)
+- [colliders.md](../colliders.md)
 
  ##  Reference
-- [CylinderCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cylindercollider.md)
-- [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md) 
+- [CylinderCollider](../../../../code_reference/class_reference/cylindercollider.md)
+- [Collider](../../../../code_reference/class_reference/collider.md) 
 
  

@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NetChannelConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metanetproperty.md#netchannelconfig-zilch-en)|[metaattribute](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaattribute.md)| |
-| |[ NetPropertyConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metanetproperty.md#netpropertyconfig-zilch-e)| | |
+| |[ NetChannelConfig](metanetproperty.md#netchannelconfig-zilch-en)|[metaattribute](metaattribute.md)| |
+| |[ NetPropertyConfig](metanetproperty.md#netpropertyconfig-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  NetChannelConfig : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  NetChannelConfig : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -18,7 +18,7 @@
 
 
 ---  
- #  NetPropertyConfig : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  NetPropertyConfig : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -33,7 +33,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -91,7 +91,7 @@
 
 
 ---  
- #  Contains : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Contains : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -177,7 +177,7 @@
 
 
 ---  
- #  RemoveOrIgnore : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveOrIgnore : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -189,7 +189,7 @@
 
 
 ---  
- #  Set : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Set : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -215,7 +215,7 @@
 
 
 ---  
- #  SetOrIgnore : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SetOrIgnore : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -228,7 +228,7 @@
 
 
 ---  
- #  SetOrOverwrite : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SetOrOverwrite : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|

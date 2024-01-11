@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Parse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md#parse-zilch-engine-docume)|[ NegativeMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md#negativemin-zilch-engine)| | |
-| |[ NegativeValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md#negativevalueclosesttoze)| | |
-| |[ PositiveMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md#positivevalueclosesttoze)| | |
+|[ Parse](doubleinteger.md#parse-zilch-engine-docume)|[ NegativeMin](doubleinteger.md#negativemin-zilch-engine)| | |
+| |[ NegativeValueClosestToZero](doubleinteger.md#negativevalueclosesttoze)| | |
+| |[ PositiveMax](doubleinteger.md#positivemax-zilch-engine)| | |
+| |[ PositiveValueClosestToZero](doubleinteger.md#positivevalueclosesttoze)| | |
 
 
  #  Properties
 
 
 ---  
- #  NegativeMin : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  NegativeMin : [doubleinteger](doubleinteger.md)
 
  `read-only` `static`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  NegativeValueClosestToZero : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  NegativeValueClosestToZero : [doubleinteger](doubleinteger.md)
 
  `read-only` `static`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  PositiveMax : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  PositiveMax : [doubleinteger](doubleinteger.md)
 
  `read-only` `static`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  PositiveValueClosestToZero : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  PositiveValueClosestToZero : [doubleinteger](doubleinteger.md)
 
  `read-only` `static`
 
@@ -56,14 +56,14 @@
 
 
 ---  
- #  Parse : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  Parse : [doubleinteger](doubleinteger.md)
 
  `static`
 
 > Attempt to convert the given StringRange to a DoubleInteger. If parsing fails 0 is returned.
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[stringrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringrange.md)| |
+> |p0|[stringrange](stringrange.md)| |
 > ``` lang=cpp, name=Nada
 > function Parse(p0 : StringRange) : DoubleInteger
 > ``` 

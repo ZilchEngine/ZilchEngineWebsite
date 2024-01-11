@@ -6,21 +6,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#objectlink-void)|[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#localpointa-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#localpointb-zilch-engine)| | |
-| |[ ObjectA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#objecta-zilch-engine-docu)| | |
-| |[ ObjectAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#objectapath-zilch-engine)| | |
-| |[ ObjectB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#objectb-zilch-engine-docu)| | |
-| |[ ObjectBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#objectbpath-zilch-engine)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlink.md#worldpointb-zilch-engine)| | |
+|[ Constructor](objectlink.md#objectlink-void)|[ LocalPointA](objectlink.md#localpointa-zilch-engine)|[component](component.md)| |
+| |[ LocalPointB](objectlink.md#localpointb-zilch-engine)| | |
+| |[ ObjectA](objectlink.md#objecta-zilch-engine-docu)| | |
+| |[ ObjectAPath](objectlink.md#objectapath-zilch-engine)| | |
+| |[ ObjectB](objectlink.md#objectb-zilch-engine-docu)| | |
+| |[ ObjectBPath](objectlink.md#objectbpath-zilch-engine)| | |
+| |[ WorldPointA](objectlink.md#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](objectlink.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  LocalPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The Point on Object A in local space.
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  LocalPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The Point on Object B in local space.
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  ObjectA : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ObjectA : [cog](cog.md)
 
 > The first object that is being connected to. Set this to null to clear the link.
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  ObjectAPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  ObjectAPath : [cogpath](cogpath.md)
 
 > CogPath to object A.
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 
 
 ---  
- #  ObjectB : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ObjectB : [cog](cog.md)
 
 > The second object that is being connected to. Set this to null to clear the link.
 > ``` lang=cpp, name=Nada
@@ -60,7 +60,7 @@
 
 
 ---  
- #  ObjectBPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  ObjectBPath : [cogpath](cogpath.md)
 
 > CogPath to object B.
 > ``` lang=cpp, name=Nada
@@ -68,7 +68,7 @@
 
 
 ---  
- #  WorldPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The point on object A in world space.
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  WorldPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The point on object B in world space.
 > ``` lang=cpp, name=Nada

@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.md#model-void)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.md#mesh-zilch-engine-documen)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.md)| |
+|[ Constructor](model.md#model-void)|[ Mesh](model.md#mesh-zilch-engine-documen)|[graphical](graphical.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Mesh : [mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md)
+ #  Mesh : [mesh](mesh.md)
 
 > Mesh that the graphical will render.
 > ``` lang=cpp, name=Nada

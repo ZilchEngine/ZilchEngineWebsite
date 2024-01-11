@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md#createruntime-zilch-engin)| |[genericphysicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md#physicsmesh-void)| | | |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md#runtimeclone-zilch-engine)| | | |
+|[ CreateRuntime](physicsmesh.md#createruntime-zilch-engin)| |[genericphysicsmesh](genericphysicsmesh.md)| |
+|[ Constructor](physicsmesh.md#physicsmesh-void)| | | |
+|[ RuntimeClone](physicsmesh.md#runtimeclone-zilch-engine)| | | |
 
 
  #  Properties
@@ -19,7 +19,7 @@
 
 
 ---  
- #  CreateRuntime : [physicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md)
+ #  CreateRuntime : [physicsmesh](physicsmesh.md)
 
  `static`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  RuntimeClone : [physicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md)
+ #  RuntimeClone : [physicsmesh](physicsmesh.md)
 
 > Creates a clone of this mesh for run-time modifications.
 > |Name|Type|Description|

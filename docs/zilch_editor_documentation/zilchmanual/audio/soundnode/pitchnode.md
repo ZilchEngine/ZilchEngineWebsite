@@ -1,4 +1,4 @@
-The [ PitchNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.md) collects audio data from all of its inputs and applies a pitch modification to the samples before passing them off to its output nodes.
+The [ PitchNode ](../../../../code_reference/class_reference/pitchnode.md) collects audio data from all of its inputs and applies a pitch modification to the samples before passing them off to its output nodes.
 
  # Common Uses
 
@@ -23,9 +23,9 @@ The `AudioInterpolationDone` event will be sent when a pitch interpolation has f
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
+- [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ PitchNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pitchnode.md) 
+- [ PitchNode ](../../../../code_reference/class_reference/pitchnode.md) 
 
  

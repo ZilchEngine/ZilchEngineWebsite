@@ -6,56 +6,56 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#physicscarwheel-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ ContactedObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#contactedobject-zilch-eng)| | |
-| |[ ContactNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#contactnormal-zilch-engin)| | |
-| |[ ContactPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#contactpoint-zilch-engine)| | |
-| |[ DampingCompressionRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#dampingcompressionratio)| | |
-| |[ DampingRelaxationRatio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#dampingrelaxationratio-z)| | |
-| |[ DriveFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#drivefactor-zilch-engine)| | |
-| |[ ForwardDynamicFriction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#forwarddynamicfriction-z)| | |
-| |[ ForwardImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#forwardimpulse-zilch-engi)| | |
-| |[ ForwardStaticFriction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#forwardstaticfriction-ze)| | |
-| |[ FrequencyHz](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#frequencyhz-zilch-engine)| | |
-| |[ Grip](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#grip-zilch-engine-documen)| | |
-| |[ GripScalar](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#gripscalar-zilch-engine-d)| | |
-| |[ Is2DWheel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#is2dwheel-zilch-engine-do)| | |
-| |[ IsDriveWheel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#isdrivewheel-zilch-engine)| | |
-| |[ IsInContact](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#isincontact-zilch-engine)| | |
-| |[ IsSliding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#issliding-zilch-engine-do)| | |
-| |[ MaxBrakeStrength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#maxbrakestrength-zilch-en)| | |
-| |[ MaxSpringCompressionDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#maxspringcompressiondist)| | |
-| |[ MaxSpringForce](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#maxspringforce-zilch-engi)| | |
-| |[ MaxSpringRelaxationDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#maxspringrelaxationdista)| | |
-| |[ NormalImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#normalimpulse-zilch-engin)| | |
-| |[ PhysicsCarPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#physicscarpath-zilch-engi)| | |
-| |[ PreRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#prerotation-zilch-engine)| | |
-| |[ Radius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#radius-zilch-engine-docum)| | |
-| |[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#rotation-zilch-engine-doc)| | |
-| |[ RotationalVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#rotationalvelocity-zero)| | |
-| |[ SideDynamicFriction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#sidedynamicfriction-zero)| | |
-| |[ SideImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#sideimpulse-zilch-engine)| | |
-| |[ SideStaticFriction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#sidestaticfriction-zero)| | |
-| |[ SpringLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#springlength-zilch-engine)| | |
-| |[ SpringMaxLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#springmaxlength-zilch-eng)| | |
-| |[ SpringMinLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#springminlength-zilch-eng)| | |
-| |[ SpringRestLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#springrestlength-zilch-en)| | |
-| |[ SpringStartLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#springstartlength-zilch-e)| | |
-| |[ SteerFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#steerfactor-zilch-engine)| | |
-| |[ WheelLocalStartPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#wheellocalstartposition)| | |
-| |[ WorldAngularVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#worldangularvelocity-zer)| | |
-| |[ WorldAxleAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#worldaxleaxis-zilch-engin)| | |
-| |[ WorldForwardAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#worldforwardaxis-zilch-en)| | |
-| |[ WorldLinearVelocity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#worldlinearvelocity-zero)| | |
-| |[ WorldSpringAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#worldspringaxis-zilch-eng)| | |
-| |[ WorldWheelBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicscarwheel.md#worldwheelbasis-zilch-eng)| | |
+|[ Constructor](physicscarwheel.md#physicscarwheel-void)|[ Active](physicscarwheel.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[ ContactedObject](physicscarwheel.md#contactedobject-zilch-eng)| | |
+| |[ ContactNormal](physicscarwheel.md#contactnormal-zilch-engin)| | |
+| |[ ContactPoint](physicscarwheel.md#contactpoint-zilch-engine)| | |
+| |[ DampingCompressionRatio](physicscarwheel.md#dampingcompressionratio)| | |
+| |[ DampingRelaxationRatio](physicscarwheel.md#dampingrelaxationratio-z)| | |
+| |[ DriveFactor](physicscarwheel.md#drivefactor-zilch-engine)| | |
+| |[ ForwardDynamicFriction](physicscarwheel.md#forwarddynamicfriction-z)| | |
+| |[ ForwardImpulse](physicscarwheel.md#forwardimpulse-zilch-engi)| | |
+| |[ ForwardStaticFriction](physicscarwheel.md#forwardstaticfriction-ze)| | |
+| |[ FrequencyHz](physicscarwheel.md#frequencyhz-zilch-engine)| | |
+| |[ Grip](physicscarwheel.md#grip-zilch-engine-documen)| | |
+| |[ GripScalar](physicscarwheel.md#gripscalar-zilch-engine-d)| | |
+| |[ Is2DWheel](physicscarwheel.md#is2dwheel-zilch-engine-do)| | |
+| |[ IsDriveWheel](physicscarwheel.md#isdrivewheel-zilch-engine)| | |
+| |[ IsInContact](physicscarwheel.md#isincontact-zilch-engine)| | |
+| |[ IsSliding](physicscarwheel.md#issliding-zilch-engine-do)| | |
+| |[ MaxBrakeStrength](physicscarwheel.md#maxbrakestrength-zilch-en)| | |
+| |[ MaxSpringCompressionDistance](physicscarwheel.md#maxspringcompressiondist)| | |
+| |[ MaxSpringForce](physicscarwheel.md#maxspringforce-zilch-engi)| | |
+| |[ MaxSpringRelaxationDistance](physicscarwheel.md#maxspringrelaxationdista)| | |
+| |[ NormalImpulse](physicscarwheel.md#normalimpulse-zilch-engin)| | |
+| |[ PhysicsCarPath](physicscarwheel.md#physicscarpath-zilch-engi)| | |
+| |[ PreRotation](physicscarwheel.md#prerotation-zilch-engine)| | |
+| |[ Radius](physicscarwheel.md#radius-zilch-engine-docum)| | |
+| |[ Rotation](physicscarwheel.md#rotation-zilch-engine-doc)| | |
+| |[ RotationalVelocity](physicscarwheel.md#rotationalvelocity-zero)| | |
+| |[ SideDynamicFriction](physicscarwheel.md#sidedynamicfriction-zero)| | |
+| |[ SideImpulse](physicscarwheel.md#sideimpulse-zilch-engine)| | |
+| |[ SideStaticFriction](physicscarwheel.md#sidestaticfriction-zero)| | |
+| |[ SpringLength](physicscarwheel.md#springlength-zilch-engine)| | |
+| |[ SpringMaxLength](physicscarwheel.md#springmaxlength-zilch-eng)| | |
+| |[ SpringMinLength](physicscarwheel.md#springminlength-zilch-eng)| | |
+| |[ SpringRestLength](physicscarwheel.md#springrestlength-zilch-en)| | |
+| |[ SpringStartLength](physicscarwheel.md#springstartlength-zilch-e)| | |
+| |[ SteerFactor](physicscarwheel.md#steerfactor-zilch-engine)| | |
+| |[ WheelLocalStartPosition](physicscarwheel.md#wheellocalstartposition)| | |
+| |[ WorldAngularVelocity](physicscarwheel.md#worldangularvelocity-zer)| | |
+| |[ WorldAxleAxis](physicscarwheel.md#worldaxleaxis-zilch-engin)| | |
+| |[ WorldForwardAxis](physicscarwheel.md#worldforwardaxis-zilch-en)| | |
+| |[ WorldLinearVelocity](physicscarwheel.md#worldlinearvelocity-zero)| | |
+| |[ WorldSpringAxis](physicscarwheel.md#worldspringaxis-zilch-eng)| | |
+| |[ WorldWheelBasis](physicscarwheel.md#worldwheelbasis-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Should this wheel calculate forces for the current PhysicsCar.
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  ContactedObject : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ContactedObject : [cog](cog.md)
 
  `read-only`
 
@@ -73,7 +73,7 @@
 
 
 ---  
- #  ContactNormal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ContactNormal : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -83,7 +83,7 @@
 
 
 ---  
- #  ContactPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  ContactPoint : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -93,7 +93,7 @@
 
 
 ---  
- #  DampingCompressionRatio : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DampingCompressionRatio : [real](../nada_base_types/real.md)
 
 > The damping ratio when the spring is compressing (0: no damping, 1 critical damping)
 > ``` lang=cpp, name=Nada
@@ -101,7 +101,7 @@
 
 
 ---  
- #  DampingRelaxationRatio : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DampingRelaxationRatio : [real](../nada_base_types/real.md)
 
 > The damping ratio when the spring is relaxing (0: no damping, 1 critical damping)
 > ``` lang=cpp, name=Nada
@@ -109,7 +109,7 @@
 
 
 ---  
- #  DriveFactor : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DriveFactor : [real](../nada_base_types/real.md)
 
 > Used to alter the direction this wheel turns when the motor receives power. Typically set to 1 or -1. Useful to cause a wheel to temporarily rotate backwards without having to change its basis.
 > ``` lang=cpp, name=Nada
@@ -117,7 +117,7 @@
 
 
 ---  
- #  ForwardDynamicFriction : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ForwardDynamicFriction : [real](../nada_base_types/real.md)
 
 > Determines the force applied in the forward direction when the wheel is in dynamic friction and therefore slipping. (i.e. force = muK * Fnormal)
 > ``` lang=cpp, name=Nada
@@ -125,7 +125,7 @@
 
 
 ---  
- #  ForwardImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ForwardImpulse : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -135,7 +135,7 @@
 
 
 ---  
- #  ForwardStaticFriction : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ForwardStaticFriction : [real](../nada_base_types/real.md)
 
 > Used with Coulomb's friction to determine when the wheel will start slipping in the forward direction. (i.e. the friction is bound by muS * Fnormal).
 > ``` lang=cpp, name=Nada
@@ -143,7 +143,7 @@
 
 
 ---  
- #  FrequencyHz : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  FrequencyHz : [real](../nada_base_types/real.md)
 
 > The frequency at which the spring of this wheel oscillates per second.
 > ``` lang=cpp, name=Nada
@@ -151,7 +151,7 @@
 
 
 ---  
- #  Grip : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Grip : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -161,7 +161,7 @@
 
 
 ---  
- #  GripScalar : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GripScalar : [real](../nada_base_types/real.md)
 
 > Artificially increases the grip of the car (where 2 is twice the grip). The total grip scalar is computed as CarGripScalar * WheelGripScalar so the total car can be easily tweaked while allowing individual wheel tweaks.
 > ``` lang=cpp, name=Nada
@@ -169,7 +169,7 @@
 
 
 ---  
- #  Is2DWheel : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Is2DWheel : [boolean](../nada_base_types/boolean.md)
 
 > Does this wheel only operate in 2D? Ignores the side friction axis.
 > ``` lang=cpp, name=Nada
@@ -177,7 +177,7 @@
 
 
 ---  
- #  IsDriveWheel : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsDriveWheel : [boolean](../nada_base_types/boolean.md)
 
 > Drive wheels turn when the car body has gas pressed.
 > ``` lang=cpp, name=Nada
@@ -185,7 +185,7 @@
 
 
 ---  
- #  IsInContact : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsInContact : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -195,7 +195,7 @@
 
 
 ---  
- #  IsSliding : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsSliding : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -205,7 +205,7 @@
 
 
 ---  
- #  MaxBrakeStrength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxBrakeStrength : [real](../nada_base_types/real.md)
 
 > The max force that this wheel can exert to break.
 > ``` lang=cpp, name=Nada
@@ -213,7 +213,7 @@
 
 
 ---  
- #  MaxSpringCompressionDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxSpringCompressionDistance : [real](../nada_base_types/real.md)
 
 > The max distance that a spring can compress in one frame.
 > ``` lang=cpp, name=Nada
@@ -221,7 +221,7 @@
 
 
 ---  
- #  MaxSpringForce : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxSpringForce : [real](../nada_base_types/real.md)
 
 > The maximum force that the wheel's spring can exert.
 > ``` lang=cpp, name=Nada
@@ -229,7 +229,7 @@
 
 
 ---  
- #  MaxSpringRelaxationDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxSpringRelaxationDistance : [real](../nada_base_types/real.md)
 
 > The max distance that a spring can relax in one frame.
 > ``` lang=cpp, name=Nada
@@ -237,7 +237,7 @@
 
 
 ---  
- #  NormalImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  NormalImpulse : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -247,7 +247,7 @@
 
 
 ---  
- #  PhysicsCarPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  PhysicsCarPath : [cogpath](cogpath.md)
 
 > The path to the car that this is a wheel for.
 > ``` lang=cpp, name=Nada
@@ -255,7 +255,7 @@
 
 
 ---  
- #  PreRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  PreRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Used to rotate the wheel before taking into account it's transform. Typically used to rotate a cylinder to align with a model.
 > ``` lang=cpp, name=Nada
@@ -263,7 +263,7 @@
 
 
 ---  
- #  Radius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Radius : [real](../nada_base_types/real.md)
 
 > The radius of the wheel.
 > ``` lang=cpp, name=Nada
@@ -271,7 +271,7 @@
 
 
 ---  
- #  Rotation : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Rotation : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -281,7 +281,7 @@
 
 
 ---  
- #  RotationalVelocity : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RotationalVelocity : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -291,7 +291,7 @@
 
 
 ---  
- #  SideDynamicFriction : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SideDynamicFriction : [real](../nada_base_types/real.md)
 
 > Same as ForwardDynamicFriction, but in the side direction. See SideStaticFriction for a why these are separated.
 > ``` lang=cpp, name=Nada
@@ -299,7 +299,7 @@
 
 
 ---  
- #  SideImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SideImpulse : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -309,7 +309,7 @@
 
 
 ---  
- #  SideStaticFriction : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SideStaticFriction : [real](../nada_base_types/real.md)
 
 > Same as ForwardStaticFriction, but in the side direction. Forward and side friction are separated since the forward direction is rolling friction and the side direction is sliding friction.
 > ``` lang=cpp, name=Nada
@@ -317,7 +317,7 @@
 
 
 ---  
- #  SpringLength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpringLength : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -327,7 +327,7 @@
 
 
 ---  
- #  SpringMaxLength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpringMaxLength : [real](../nada_base_types/real.md)
 
 > The maximum length of the spring of the wheel. If the wheel hits something further away than this length (plus the wheel radius) then that object will be ignored.
 > ``` lang=cpp, name=Nada
@@ -335,7 +335,7 @@
 
 
 ---  
- #  SpringMinLength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpringMinLength : [real](../nada_base_types/real.md)
 
 > The minimum length of the spring of the wheel. If a wheel cast hits an object at a time before min but after start then the wheel will still collide with this object but the spring forces and visuals will be at the min spring length. This is useful for putting the starting raycast position inside of the object so as to avoid tunneling but still having the wheel only visually display where it should.
 > ``` lang=cpp, name=Nada
@@ -343,7 +343,7 @@
 
 
 ---  
- #  SpringRestLength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpringRestLength : [real](../nada_base_types/real.md)
 
 > The rest length of the spring.
 > ``` lang=cpp, name=Nada
@@ -351,7 +351,7 @@
 
 
 ---  
- #  SpringStartLength : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SpringStartLength : [real](../nada_base_types/real.md)
 
 > The t value to start the raycast at. This t value is 0 at the wheel position and travels in the direction of the wheel spring direction. This value is used to modify where the raycast actually starts relative to the start position.
 > ``` lang=cpp, name=Nada
@@ -359,7 +359,7 @@
 
 
 ---  
- #  SteerFactor : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SteerFactor : [real](../nada_base_types/real.md)
 
 > How much this wheel steers. [0, 1] where 1 is the max steering of the car.
 > ``` lang=cpp, name=Nada
@@ -367,7 +367,7 @@
 
 
 ---  
- #  WheelLocalStartPosition : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WheelLocalStartPosition : [real3](../nada_base_types/real3.md)
 
 > The local position on the car body that the wheel starts at (raycasts from).
 > ``` lang=cpp, name=Nada
@@ -375,7 +375,7 @@
 
 
 ---  
- #  WorldAngularVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldAngularVelocity : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -385,7 +385,7 @@
 
 
 ---  
- #  WorldAxleAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldAxleAxis : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -395,7 +395,7 @@
 
 
 ---  
- #  WorldForwardAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldForwardAxis : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -405,7 +405,7 @@
 
 
 ---  
- #  WorldLinearVelocity : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldLinearVelocity : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -415,7 +415,7 @@
 
 
 ---  
- #  WorldSpringAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldSpringAxis : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -425,7 +425,7 @@
 
 
 ---  
- #  WorldWheelBasis : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  WorldWheelBasis : [quaternion](../nada_base_types/quaternion.md)
 
 > Determines what directions the forward, axle, and spring are on the wheel. The forward direction is taken from the x-axis of the basis. Likewise the axle is from the y-axis and the spring is from the z-axis. Use ToQuaternion to construct this.
 > ``` lang=cpp, name=Nada

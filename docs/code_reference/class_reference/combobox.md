@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| | |[composite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/composite.md)|[stringcombobox](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stringcombobox.md)|
+| | |[composite](composite.md)|[stringcombobox](stringcombobox.md)|
 
 
  #  Properties

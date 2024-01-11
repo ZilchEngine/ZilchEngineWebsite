@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.md#webbrowsersetup-void)|[ BackgroundColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.md#backgroundcolor-zilch-eng)|Object| |
-| |[ ScrollSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.md#scrollspeed-zilch-engine)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.md#size-zilch-engine-documen)| | |
-| |[ Transparent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.md#transparent-zilch-engine)| | |
-| |[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.md#url-zilch-engine-document)| | |
+|[ Constructor](webbrowsersetup.md#webbrowsersetup-void)|[ BackgroundColor](webbrowsersetup.md#backgroundcolor-zilch-eng)|Object| |
+| |[ ScrollSpeed](webbrowsersetup.md#scrollspeed-zilch-engine)| | |
+| |[ Size](webbrowsersetup.md#size-zilch-engine-documen)| | |
+| |[ Transparent](webbrowsersetup.md#transparent-zilch-engine)| | |
+| |[ Url](webbrowsersetup.md#url-zilch-engine-document)| | |
 
 
  #  Properties
 
 
 ---  
- #  BackgroundColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  BackgroundColor : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  ScrollSpeed : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  ScrollSpeed : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  Size : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  Size : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -37,7 +37,7 @@
 
 
 ---  
- #  Transparent : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Transparent : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -45,7 +45,7 @@
 
 
 ---  
- #  Url : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Url : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

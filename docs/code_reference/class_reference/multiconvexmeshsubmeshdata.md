@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.md#add-zilch-engine-document)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.md#all-zilch-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.md#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.md#count-zilch-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.md#get-zilch-engine-document)| | | |
-|[ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshdata.md#removeat-void)| | | |
+|[ Add](multiconvexmeshsubmeshdata.md#add-zilch-engine-document)|[ All](multiconvexmeshsubmeshdata.md#all-zilch-engine-document)|[safeid32object](safeid32object.md)| |
+|[ Clear](multiconvexmeshsubmeshdata.md#clear-void)|[ Count](multiconvexmeshsubmeshdata.md#count-zilch-engine-docume)| | |
+|[ Get](multiconvexmeshsubmeshdata.md#get-zilch-engine-document)| | | |
+|[ RemoveAt](multiconvexmeshsubmeshdata.md#removeat-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  All : [multiconvexmeshsubmeshrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshsubmeshrange.md)
+ #  All : [multiconvexmeshsubmeshrange](multiconvexmeshsubmeshrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Add : [subconvexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.md)
+ #  Add : [subconvexmesh](subconvexmesh.md)
 
 > Create and add a new SubConvexMesh. Returns the new mesh for modification.
 > |Name|Type|Description|
@@ -58,12 +58,12 @@
 
 
 ---  
- #  Get : [subconvexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/subconvexmesh.md)
+ #  Get : [subconvexmesh](subconvexmesh.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get( : Integer) : SubConvexMesh
 > ``` 
@@ -75,7 +75,7 @@
 > Remove the sub-mesh at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |arrayIndex|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |arrayIndex|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(arrayIndex : Integer)
 > ``` 

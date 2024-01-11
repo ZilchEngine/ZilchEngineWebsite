@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/exception.md#exception-void)|[ Message](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/exception.md#message-zilch-engine-docu)| | |
+|[ Constructor](exception.md#exception-void)|[ Message](exception.md#message-zilch-engine-docu)| | |
 
 
  #  Properties
 
 
 ---  
- #  Message : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Message : [string](string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](string.md)| |
 > ``` lang=cpp, name=Nada
 > function Exception(p0 : String)
 > ``` 

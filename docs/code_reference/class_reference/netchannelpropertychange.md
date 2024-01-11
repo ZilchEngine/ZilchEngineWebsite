@@ -6,20 +6,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChannelName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.md#channelname-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ ComponentName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.md#componentname-zilch-engin)| | |
-| |[ Direction](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.md#direction-zilch-engine-do)| | |
-| |[ Object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.md#object-zilch-engine-docum)| | |
-| |[ PropertyName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.md#propertyname-zilch-engine)| | |
-| |[ ReplicationPhase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.md#replicationphase-zilch-en)| | |
-| |[ Timestamp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannelpropertychange.md#timestamp-zilch-engine-do)| | |
+| |[ ChannelName](netchannelpropertychange.md#channelname-zilch-engine)|[event](event.md)| |
+| |[ ComponentName](netchannelpropertychange.md#componentname-zilch-engin)| | |
+| |[ Direction](netchannelpropertychange.md#direction-zilch-engine-do)| | |
+| |[ Object](netchannelpropertychange.md#object-zilch-engine-docum)| | |
+| |[ PropertyName](netchannelpropertychange.md#propertyname-zilch-engine)| | |
+| |[ ReplicationPhase](netchannelpropertychange.md#replicationphase-zilch-en)| | |
+| |[ Timestamp](netchannelpropertychange.md#timestamp-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  ChannelName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ChannelName : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -29,7 +29,7 @@
 
 
 ---  
- #  ComponentName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ComponentName : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -39,7 +39,7 @@
 
 
 ---  
- #  Direction : [TransmissionDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#transmissiondirection)
+ #  Direction : [TransmissionDirection](../enum_reference.md#transmissiondirection)
 
  `read-only`
 
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Object : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Object : [cog](cog.md)
 
  `read-only`
 
@@ -59,7 +59,7 @@
 
 
 ---  
- #  PropertyName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  PropertyName : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -69,7 +69,7 @@
 
 
 ---  
- #  ReplicationPhase : [ReplicationPhase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#replicationphase)
+ #  ReplicationPhase : [ReplicationPhase](../enum_reference.md#replicationphase)
 
  `read-only`
 
@@ -79,7 +79,7 @@
 
 
 ---  
- #  Timestamp : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Timestamp : [real](../nada_base_types/real.md)
 
  `read-only`
 

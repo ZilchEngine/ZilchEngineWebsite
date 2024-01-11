@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ClearCachedEdgeAdjacency](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapcollider.md#clearcachededgeadjacency)|[ Thickness](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapcollider.md#thickness-zilch-engine-do)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmapcollider.md#heightmapcollider-void)| | | |
+|[ ClearCachedEdgeAdjacency](heightmapcollider.md#clearcachededgeadjacency)|[ Thickness](heightmapcollider.md#thickness-zilch-engine-do)|[collider](collider.md)| |
+|[ Constructor](heightmapcollider.md#heightmapcollider-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Thickness : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Thickness : [real](../nada_base_types/real.md)
 
 > How thick the surface of the height map is. Used to avoid tunneling problems.
 > ``` lang=cpp, name=Nada

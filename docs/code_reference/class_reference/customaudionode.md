@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SendBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md#sendbuffer-void)|[ Channels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md#channels-zilch-engine-doc)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-|[ SendMicCompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md#sendmiccompresseddata-vo)|[ MinimumBufferSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md#minimumbuffersize-zilch-e)| | |
-|[ SendMicUncompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md#sendmicuncompresseddata)|[ SystemSampleRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md#systemsamplerate-zilch-en)| | |
-|[ SendPartialBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customaudionode.md#sendpartialbuffer-void)| | | |
+|[ SendBuffer](customaudionode.md#sendbuffer-void)|[ Channels](customaudionode.md#channels-zilch-engine-doc)|[soundnode](soundnode.md)| |
+|[ SendMicCompressedData](customaudionode.md#sendmiccompresseddata-vo)|[ MinimumBufferSize](customaudionode.md#minimumbuffersize-zilch-e)| | |
+|[ SendMicUncompressedData](customaudionode.md#sendmicuncompresseddata)|[ SystemSampleRate](customaudionode.md#systemsamplerate-zilch-en)| | |
+|[ SendPartialBuffer](customaudionode.md#sendpartialbuffer-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Channels : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Channels : [integer](../nada_base_types/integer.md)
 
 > The number of audio channels that will be in the buffer.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  MinimumBufferSize : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  MinimumBufferSize : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  SystemSampleRate : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SystemSampleRate : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -51,7 +51,7 @@
 > Sends a buffer of audio samples to the audio system for output.
 > |Name|Type|Description|
 > |---|---|---|
-> |buffer|[soundbuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md)| |
+> |buffer|[soundbuffer](soundbuffer.md)| |
 > ``` lang=cpp, name=Nada
 > function SendBuffer(buffer : SoundBuffer)
 > ``` 
@@ -63,7 +63,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||Array[[byte](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/byte.md)]| |
+> ||Array[[byte](../nada_base_types/byte.md)]| |
 > ``` lang=cpp, name=Nada
 > function SendMicCompressedData( : Array[Byte])
 > ``` 
@@ -75,7 +75,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||Array[[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)]| |
+> ||Array[[real](../nada_base_types/real.md)]| |
 > ``` lang=cpp, name=Nada
 > function SendMicUncompressedData( : Array[Real])
 > ``` 
@@ -87,9 +87,9 @@
 > Sends a partial buffer of audio samples to the audio system for output.
 > |Name|Type|Description|
 > |---|---|---|
-> |buffer|[soundbuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md)| |
-> |startAtIndex|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |howManySamples|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |buffer|[soundbuffer](soundbuffer.md)| |
+> |startAtIndex|[integer](../nada_base_types/integer.md)| |
+> |howManySamples|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SendPartialBuffer(buffer : SoundBuffer, startAtIndex : Integer, howManySamples : Integer)
 > ``` 

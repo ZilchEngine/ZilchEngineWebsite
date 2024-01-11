@@ -1,8 +1,8 @@
-Events are the main way that objects and components talk to each other in the Zilch Engine. When a component has information that it wants to share, the easiest way is to package the information into an Event, and then dispatch it.  Then, any component that wants to have that information can listen for it by connecting a member function to the event. In the Zilch Engine, there are two main categories of events: the pre-defined Engine events (such as as an Update event or a Collision event) that are that ready-made for you to connect to, and Custom NadaScript Events that the user creates. The Custom Events allow the user to decide when and where to send them out, what information is sent with them, and what listens for the event after it's sent. This page will briefly cover each of the two categories, but will focus specifically on Custom Events(see [event_reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md) for built-in events).
+Events are the main way that objects and components talk to each other in the Zilch Engine. When a component has information that it wants to share, the easiest way is to package the information into an Event, and then dispatch it.  Then, any component that wants to have that information can listen for it by connecting a member function to the event. In the Zilch Engine, there are two main categories of events: the pre-defined Engine events (such as as an Update event or a Collision event) that are that ready-made for you to connect to, and Custom NadaScript Events that the user creates. The Custom Events allow the user to decide when and where to send them out, what information is sent with them, and what listens for the event after it's sent. This page will briefly cover each of the two categories, but will focus specifically on Custom Events(see [event_reference](../../../code_reference/event_reference.md) for built-in events).
 
  # Pre-Defined Engine Events
 
-At the bottom of this page is a comprehensive list of the pre-defined engine events. The [LogicUpdate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md#logicupdate) Event, [Collision Events](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.md) (which comes in three variations: Started, Ended, and Persisted), [Keyboard Events](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md), and [Mouse Events](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md).
+At the bottom of this page is a comprehensive list of the pre-defined engine events. The [LogicUpdate](../../../code_reference/event_reference.md#logicupdate) Event, [Collision Events](../../../code_reference/class_reference/collisionevent.md) (which comes in three variations: Started, Ended, and Persisted), [Keyboard Events](../../../code_reference/class_reference/keyboardevent.md), and [Mouse Events](../../../code_reference/class_reference/mouseevent.md).
 
  # Custom NadaScript Events
 
@@ -277,9 +277,9 @@ Another important thing to keep in mind regarding Disconnecting is that is objec
  # Related Material
 
  ## Reference
-- [event_reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/event_reference.md)
-- [Collision Events](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collisionevent.md)
-- [Keyboard Events](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboardevent.md)
-- [Mouse Events](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouseevent.md) 
+- [event_reference](../../../code_reference/event_reference.md)
+- [Collision Events](../../../code_reference/class_reference/collisionevent.md)
+- [Keyboard Events](../../../code_reference/class_reference/keyboardevent.md)
+- [Mouse Events](../../../code_reference/class_reference/mouseevent.md) 
 
  

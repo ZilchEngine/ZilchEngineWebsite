@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexdata.md#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexdata.md#all-zilch-engine-document)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexdata.md#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexdata.md#count-zilch-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexdata.md#get-zilch-engine-document)| | | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexdata.md#set-void)| | | |
+|[ Add](multiconvexmeshvertexdata.md#add-void)|[ All](multiconvexmeshvertexdata.md#all-zilch-engine-document)|[safeid32object](safeid32object.md)| |
+|[ Clear](multiconvexmeshvertexdata.md#clear-void)|[ Count](multiconvexmeshvertexdata.md#count-zilch-engine-docume)| | |
+|[ Get](multiconvexmeshvertexdata.md#get-zilch-engine-document)| | | |
+|[ Set](multiconvexmeshvertexdata.md#set-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  All : [multiconvexmeshvertexrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshvertexrange.md)
+ #  All : [multiconvexmeshvertexrange](multiconvexmeshvertexrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Add( : Real3)
 > ``` 
@@ -59,12 +59,12 @@
 
 
 ---  
- #  Get : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Get : [real3](../nada_base_types/real3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get( : Integer) : Real3
 > ``` 
@@ -76,8 +76,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> ||[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> ||[integer](../nada_base_types/integer.md)| |
+> ||[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function Set( : Integer,  : Real3)
 > ``` 

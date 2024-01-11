@@ -1,8 +1,8 @@
-Imported meshes may be used to apply to a [Model](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md) or [SkinnedModel](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md#skinned-model) component as well as to create a [PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md) for that object. This page focuses solely on using a mesh for a Model and SkinnedModel. Clicking on a particular mesh in the Library window will open up the ContentComponents of that mesh in the Properties window:
+Imported meshes may be used to apply to a [Model](model_component.md) or [SkinnedModel](model_component.md#skinned-model) component as well as to create a [PhysicsMesh](../../../../code_reference/class_reference/physicsmesh.md) for that object. This page focuses solely on using a mesh for a Model and SkinnedModel. Clicking on a particular mesh in the Library window will open up the ContentComponents of that mesh in the Properties window:
 
  # ContentComponents for a Sample Mesh
 
-The properties in the ContentComponents are the same as those found in the [Group Import Options](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_scene_assets.md#group-import-options), along with a few additional properties. One can fix incorrect values set during import as well as add or remove automatic resource generation (e.g. importing textures and animations from the same .fbx that included the base mesh).
+The properties in the ContentComponents are the same as those found in the [Group Import Options](../adding_assets/adding_scene_assets.md#group-import-options), along with a few additional properties. One can fix incorrect values set during import as well as add or remove automatic resource generation (e.g. importing textures and animations from the same .fbx that included the base mesh).
 
 WARNING: All meshes imported from a single .fbx or other scene asset file will have the same values in the properties of the ContentComponents. It is therefore recommended to only import one object per scene asset file.
 
@@ -25,12 +25,12 @@ These components have no properties and are there only if `ImportTextures` and `
  # Related Materials
 
  ## Manual
-- [model_component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/models/model_component.md)
-- [adding_scene_assets](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/graphics/adding_assets/adding_scene_assets.md)
+- [model_component](model_component.md)
+- [adding_scene_assets](../adding_assets/adding_scene_assets.md)
 
  ## Reference
-- [model](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/model.md)
-- [skinnedmodel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/skinnedmodel.md)
-- [PhysicsMesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md) 
+- [model](../../../../code_reference/class_reference/model.md)
+- [skinnedmodel](../../../../code_reference/class_reference/skinnedmodel.md)
+- [PhysicsMesh](../../../../code_reference/class_reference/physicsmesh.md) 
 
  

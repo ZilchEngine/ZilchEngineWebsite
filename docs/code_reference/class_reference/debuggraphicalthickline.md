@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuggraphicalthickline.md#debuggraphicalthickline)| |[debuggraphicalprimitive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/debuggraphicalprimitive.md)| |
+|[ Constructor](debuggraphicalthickline.md#debuggraphicalthickline)| |[debuggraphicalprimitive](debuggraphicalprimitive.md)| |
 
 
  #  Properties

@@ -6,27 +6,27 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ RotateAnglesLocal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#rotateangleslocal-void)|[ EulerAngles](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#eulerangles-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ RotateAnglesWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#rotateanglesworld-void)|[ LocalRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#localrotation-zilch-engin)| | |
-|[ RotateAround](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#rotatearound-void)|[ LocalScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#localscale-zilch-engine-d)| | |
-|[ RotateLocal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#rotatelocal-void)|[ LocalTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#localtranslation-zilch-en)| | |
-|[ RotateWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#rotateworld-void)|[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#parent-zilch-engine-docum)| | |
-|[ SetEulerAnglesXYZ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#seteuleranglesxyz-void)|[ Rotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#rotation-zilch-engine-doc)| | |
-|[ SetRotationBases](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#setrotationbases-void)|[ Scale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#scale-zilch-engine-docume)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#transform-void)|[ Translation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#translation-zilch-engine)| | |
-|[ TransformNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#transformnormal-zilch-eng)|[ WorldMatrix](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#worldmatrix-zilch-engine)| | |
-|[ TransformNormalInverse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#transformnormalinverse-z)|[ WorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#worldrotation-zilch-engin)| | |
-|[ TransformNormalLocal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#transformnormallocal-zer)|[ WorldScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#worldscale-zilch-engine-d)| | |
-|[ TransformPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#transformpoint-zilch-engi)|[ WorldTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#worldtranslation-zilch-en)| | |
-|[ TransformPointInverse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#transformpointinverse-ze)| | | |
-|[ TransformPointLocal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md#transformpointlocal-zero)| | | |
+|[ RotateAnglesLocal](transform.md#rotateangleslocal-void)|[ EulerAngles](transform.md#eulerangles-zilch-engine)|[component](component.md)| |
+|[ RotateAnglesWorld](transform.md#rotateanglesworld-void)|[ LocalRotation](transform.md#localrotation-zilch-engin)| | |
+|[ RotateAround](transform.md#rotatearound-void)|[ LocalScale](transform.md#localscale-zilch-engine-d)| | |
+|[ RotateLocal](transform.md#rotatelocal-void)|[ LocalTranslation](transform.md#localtranslation-zilch-en)| | |
+|[ RotateWorld](transform.md#rotateworld-void)|[ Parent](transform.md#parent-zilch-engine-docum)| | |
+|[ SetEulerAnglesXYZ](transform.md#seteuleranglesxyz-void)|[ Rotation](transform.md#rotation-zilch-engine-doc)| | |
+|[ SetRotationBases](transform.md#setrotationbases-void)|[ Scale](transform.md#scale-zilch-engine-docume)| | |
+|[ Constructor](transform.md#transform-void)|[ Translation](transform.md#translation-zilch-engine)| | |
+|[ TransformNormal](transform.md#transformnormal-zilch-eng)|[ WorldMatrix](transform.md#worldmatrix-zilch-engine)| | |
+|[ TransformNormalInverse](transform.md#transformnormalinverse-z)|[ WorldRotation](transform.md#worldrotation-zilch-engin)| | |
+|[ TransformNormalLocal](transform.md#transformnormallocal-zer)|[ WorldScale](transform.md#worldscale-zilch-engine-d)| | |
+|[ TransformPoint](transform.md#transformpoint-zilch-engi)|[ WorldTranslation](transform.md#worldtranslation-zilch-en)| | |
+|[ TransformPointInverse](transform.md#transformpointinverse-ze)| | | |
+|[ TransformPointLocal](transform.md#transformpointlocal-zero)| | | |
 
 
  #  Properties
 
 
 ---  
- #  EulerAngles : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  EulerAngles : [real3](../nada_base_types/real3.md)
 
 > The rotation of the transform as an Euler angle vector in radians.
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  LocalRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Local rotation relative to parent.
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  LocalScale : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalScale : [real3](../nada_base_types/real3.md)
 
 > Local Scale relative to parent.
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  LocalTranslation : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalTranslation : [real3](../nada_base_types/real3.md)
 
 > Local Translation relative to parent.
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  Parent : [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ #  Parent : [transform](transform.md)
 
  `read-only`
 
@@ -68,7 +68,7 @@
 
 
 ---  
- #  Rotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  Rotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Local rotation relative to parent.
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  Scale : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Scale : [real3](../nada_base_types/real3.md)
 
 > Local Scale relative to parent.
 > ``` lang=cpp, name=Nada
@@ -84,7 +84,7 @@
 
 
 ---  
- #  Translation : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Translation : [real3](../nada_base_types/real3.md)
 
 > Local Translation relative to parent.
 > ``` lang=cpp, name=Nada
@@ -92,7 +92,7 @@
 
 
 ---  
- #  WorldMatrix : [real4x4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4x4.md)
+ #  WorldMatrix : [real4x4](../nada_base_types/real4x4.md)
 
  `read-only`
 
@@ -102,7 +102,7 @@
 
 
 ---  
- #  WorldRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  WorldRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Rotation in World Space.
 > ``` lang=cpp, name=Nada
@@ -110,7 +110,7 @@
 
 
 ---  
- #  WorldScale : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldScale : [real3](../nada_base_types/real3.md)
 
 > Scale in World Space.
 > ``` lang=cpp, name=Nada
@@ -118,7 +118,7 @@
 
 
 ---  
- #  WorldTranslation : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldTranslation : [real3](../nada_base_types/real3.md)
 
 > Translation in World Space.
 > ``` lang=cpp, name=Nada
@@ -135,7 +135,7 @@
 > Rotate object in local space by the given Euler angle vector (in radians).
 > |Name|Type|Description|
 > |---|---|---|
-> |angles|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |angles|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function RotateAnglesLocal(angles : Real3)
 > ``` 
@@ -147,7 +147,7 @@
 > Rotate object in world space by the given Euler angle vector (in radians).
 > |Name|Type|Description|
 > |---|---|---|
-> |angles|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |angles|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function RotateAnglesWorld(angles : Real3)
 > ``` 
@@ -159,8 +159,8 @@
 > Rotate around a given point with the given rotation.
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |rotation|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
+> |rotation|[quaternion](../nada_base_types/quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function RotateAround(point : Real3, rotation : Quaternion)
 > ``` 
@@ -172,7 +172,7 @@
 > Rotate object in local space.
 > |Name|Type|Description|
 > |---|---|---|
-> |rotation|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |rotation|[quaternion](../nada_base_types/quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function RotateLocal(rotation : Quaternion)
 > ``` 
@@ -184,7 +184,7 @@
 > Rotate object in world space.
 > |Name|Type|Description|
 > |---|---|---|
-> |rotation|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |rotation|[quaternion](../nada_base_types/quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function RotateWorld(rotation : Quaternion)
 > ``` 
@@ -196,9 +196,9 @@
 > Sets the rotation of the transform by the given Euler angles in radians.
 > |Name|Type|Description|
 > |---|---|---|
-> |xRadians|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |yRadians|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |zRadians|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |xRadians|[real](../nada_base_types/real.md)| |
+> |yRadians|[real](../nada_base_types/real.md)| |
+> |zRadians|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function SetEulerAnglesXYZ(xRadians : Real, yRadians : Real, zRadians : Real)
 > ``` 
@@ -210,9 +210,9 @@
 > Generates a rotation matrix from the given bases.
 > |Name|Type|Description|
 > |---|---|---|
-> |facing|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |up|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |right|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |facing|[real3](../nada_base_types/real3.md)| |
+> |up|[real3](../nada_base_types/real3.md)| |
+> |right|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SetRotationBases(facing : Real3, up : Real3, right : Real3)
 > ``` 
@@ -232,72 +232,72 @@
 
 
 ---  
- #  TransformNormal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TransformNormal : [real3](../nada_base_types/real3.md)
 
 > Transforms a local normal (direction) into world space.
 > |Name|Type|Description|
 > |---|---|---|
-> |normal|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |normal|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformNormal(normal : Real3) : Real3
 > ``` 
 
 
 ---  
- #  TransformNormalInverse : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TransformNormalInverse : [real3](../nada_base_types/real3.md)
 
 > Transforms a world normal (direction) into local space.
 > |Name|Type|Description|
 > |---|---|---|
-> |normal|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |normal|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformNormalInverse(normal : Real3) : Real3
 > ``` 
 
 
 ---  
- #  TransformNormalLocal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TransformNormalLocal : [real3](../nada_base_types/real3.md)
 
 > Transforms a normal by the local matrix (ignores parent's transform) Needed now because there is no quaternion times vector in script.
 > |Name|Type|Description|
 > |---|---|---|
-> |normal|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |normal|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformNormalLocal(normal : Real3) : Real3
 > ``` 
 
 
 ---  
- #  TransformPoint : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TransformPoint : [real3](../nada_base_types/real3.md)
 
 > Transforms a local point into world space.
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformPoint(point : Real3) : Real3
 > ``` 
 
 
 ---  
- #  TransformPointInverse : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TransformPointInverse : [real3](../nada_base_types/real3.md)
 
 > Transforms a world point into local space.
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformPointInverse(point : Real3) : Real3
 > ``` 
 
 
 ---  
- #  TransformPointLocal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  TransformPointLocal : [real3](../nada_base_types/real3.md)
 
 > Transforms a point by the local matrix (ignores parent's transform)
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function TransformPointLocal(point : Real3) : Real3
 > ``` 

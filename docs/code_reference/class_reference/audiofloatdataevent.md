@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[[zilch_engine_documentation/code_reference/class_reference/audiofloatdataevent/#audiodata-array[real] | AudioData]]|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ Channels](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiofloatdataevent.md#channels-zilch-engine-doc)| | |
+| |[[zilch_engine_documentation/code_reference/class_reference/audiofloatdataevent/#audiodata-array[real] | AudioData]]|[event](event.md)| |
+| |[ Channels](audiofloatdataevent.md#channels-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  AudioData : Array[[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)]
+ #  AudioData : Array[[real](../nada_base_types/real.md)]
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Channels : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Channels : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada

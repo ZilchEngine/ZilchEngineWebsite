@@ -1,6 +1,6 @@
-[EllipsoidCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.md) defines an [ellipsoid](https://en.wikipedia.org/wiki/Ellipsoid ) shape for collision. The base size of the ellipsoid is determined by three radius values. Scale is applied afterwards to determine the final ellipsoid's size.
+[EllipsoidCollider](../../../../code_reference/class_reference/ellipsoidcollider.md) defines an [ellipsoid](https://en.wikipedia.org/wiki/Ellipsoid ) shape for collision. The base size of the ellipsoid is determined by three radius values. Scale is applied afterwards to determine the final ellipsoid's size.
 
-(NOTE) **Recommended Reading:** The [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md) page should be read before this page.
+(NOTE) **Recommended Reading:** The [Collider](../colliders.md) page should be read before this page.
 
 
  #  Radii
@@ -13,10 +13,10 @@ EllipsoidCollider fully respects non-uniform scale (sheer aside).
 ---
  #  Related Materials
  ##  Manual
-- [colliders.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/colliders.md)
+- [colliders.md](../colliders.md)
 
  ##  Reference
-- [EllipsoidCollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ellipsoidcollider.md)
-- [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md) 
+- [EllipsoidCollider](../../../../code_reference/class_reference/ellipsoidcollider.md)
+- [Collider](../../../../code_reference/class_reference/collider.md) 
 
  

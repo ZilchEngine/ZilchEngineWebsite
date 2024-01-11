@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.md#splinecontrolpoint-void)|[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.md#position-zilch-engine-doc)| | |
-| |[ WorldPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/splinecontrolpoint.md#worldposition-zilch-engin)| | |
+|[ Constructor](splinecontrolpoint.md#splinecontrolpoint-void)|[ Position](splinecontrolpoint.md#position-zilch-engine-doc)| | |
+| |[ WorldPosition](splinecontrolpoint.md#worldposition-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  Position : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  Position : [real3](../nada_base_types/real3.md)
 
 > The position of a control point.
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  WorldPosition : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPosition : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |position|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |position|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SplineControlPoint(position : Real3)
 > ``` 

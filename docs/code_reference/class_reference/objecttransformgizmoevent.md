@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FinalLocalRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.md#finallocalrotation-zero)|[gizmoevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gizmoevent.md)| |
-| |[ FinalLocalScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.md#finallocalscale-zilch-eng)| | |
-| |[ FinalLocalTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformgizmoevent.md#finallocaltranslation-ze)| | |
+| |[ FinalLocalRotation](objecttransformgizmoevent.md#finallocalrotation-zero)|[gizmoevent](gizmoevent.md)| |
+| |[ FinalLocalScale](objecttransformgizmoevent.md#finallocalscale-zilch-eng)| | |
+| |[ FinalLocalTranslation](objecttransformgizmoevent.md#finallocaltranslation-ze)| | |
 
 
  #  Properties
 
 
 ---  
- #  FinalLocalRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  FinalLocalRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -21,7 +21,7 @@
 
 
 ---  
- #  FinalLocalScale : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  FinalLocalScale : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  FinalLocalTranslation : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  FinalLocalTranslation : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

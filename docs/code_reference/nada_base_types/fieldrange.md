@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md#fieldrange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](fieldrange.md#fieldrange-void)|[ All](fieldrange.md#all-zilch-engine-document)| | |
+|[ MoveNext](fieldrange.md#movenext-void)|[ Current](fieldrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](fieldrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](fieldrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [fieldrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md)
+ #  All : [fieldrange](fieldrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [field](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/field.md)
+ #  Current : [field](field.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[fieldrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/fieldrange.md)| |
+> |p0|[fieldrange](fieldrange.md)| |
 > ``` lang=cpp, name=Nada
 > function FieldRange(p0 : FieldRange)
 > ``` 

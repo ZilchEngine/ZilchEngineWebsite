@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EdgeId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.md#edgeid-zilch-engine-docum)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ NewCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.md#newcog-zilch-engine-docum)| | |
-| |[ OldCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectlinkevent.md#oldcog-zilch-engine-docum)| | |
+| |[ EdgeId](objectlinkevent.md#edgeid-zilch-engine-docum)|[event](event.md)| |
+| |[ NewCog](objectlinkevent.md#newcog-zilch-engine-docum)| | |
+| |[ OldCog](objectlinkevent.md#oldcog-zilch-engine-docum)| | |
 
 
  #  Properties
 
 
 ---  
- #  EdgeId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  EdgeId : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  NewCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  NewCog : [cog](cog.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  OldCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  OldCog : [cog](cog.md)
 
 > 
 > ``` lang=cpp, name=Nada

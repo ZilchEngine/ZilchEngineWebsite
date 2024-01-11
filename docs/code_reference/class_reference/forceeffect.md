@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/forceeffect.md#forceeffect-void)| |[basicdirectioneffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.md)| |
+|[ Constructor](forceeffect.md#forceeffect-void)| |[basicdirectioneffect](basicdirectioneffect.md)| |
 
 
  #  Properties

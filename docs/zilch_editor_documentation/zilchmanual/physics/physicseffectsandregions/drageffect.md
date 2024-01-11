@@ -1,4 +1,4 @@
-The [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md) component applies forces to slow down the linear and angular velocity of an object. This is often used globally on the space to simulate air resistance, but can also be used for slowing movement in a water region, making one object slow down quickly, etc...
+The [DragEffect](../../../../code_reference/class_reference/drageffect.md) component applies forces to slow down the linear and angular velocity of an object. This is often used globally on the space to simulate air resistance, but can also be used for slowing movement in a water region, making one object slow down quickly, etc...
 
  #  Drag vs. Damping
 DragEffect exposes properties for setting both drag and damping coefficients.
@@ -22,20 +22,20 @@ Angular drag is defined similarly to linear drag as:
 where `w` is the angular velocity, `k` is the angular drag coefficient, and `T` is the resultant torque. Angular damping similarly defines an angular acceleration instead of force.
 
  #  Application Modes
-The DragEffect component is expected to work with all application modes. Drag applied to the space or level will affect all objects within. Used as a Region effect, drag will slow down all objects in contact with the Region. On a [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions/rigidbody.md) the effect will slow down that object alone. [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions/colliders.md) and Hierarchy effects will behave the same as a RigidBody effect.
+The DragEffect component is expected to work with all application modes. Drag applied to the space or level will affect all objects within. Used as a Region effect, drag will slow down all objects in contact with the Region. On a [RigidBody](rigidbody.md) the effect will slow down that object alone. [Collider](colliders.md) and Hierarchy effects will behave the same as a RigidBody effect.
 
 ---
  #  Related Materials
  ##  Manual
-- [physicseffectsandregions.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions.md)
-- [rigidbody.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions/rigidbody.md)
-- [colliders.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicseffectsandregions/colliders.md)
+- [physicseffectsandregions.md](../physicseffectsandregions.md)
+- [rigidbody.md](rigidbody.md)
+- [colliders.md](colliders.md)
 
  ##  Reference
-- [DragEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md)
-- [PhysicsEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)
-- [RigidBody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
-- [Collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)
-- [Region](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/region.md) 
+- [DragEffect](../../../../code_reference/class_reference/drageffect.md)
+- [PhysicsEffect](../../../../code_reference/class_reference/physicseffect.md)
+- [RigidBody](../../../../code_reference/class_reference/rigidbody.md)
+- [Collider](../../../../code_reference/class_reference/collider.md)
+- [Region](../../../../code_reference/class_reference/region.md) 
 
  

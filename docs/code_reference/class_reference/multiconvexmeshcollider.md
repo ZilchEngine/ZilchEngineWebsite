@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshcollider.md#multiconvexmeshcollider)|[ Mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmeshcollider.md#mesh-zilch-engine-documen)|[collider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/collider.md)| |
+|[ Constructor](multiconvexmeshcollider.md#multiconvexmeshcollider)|[ Mesh](multiconvexmeshcollider.md#mesh-zilch-engine-documen)|[collider](collider.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Mesh : [multiconvexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multiconvexmesh.md)
+ #  Mesh : [multiconvexmesh](multiconvexmesh.md)
 
 > The MultiConvexMesh resource that defines collision.
 > ``` lang=cpp, name=Nada

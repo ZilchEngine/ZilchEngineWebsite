@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadaobject.md#dispatchevent-void)| |[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadaobject.md#nadaobject-void)| | | |
+|[ DispatchEvent](nadaobject.md#dispatchevent-void)| |[eventobject](eventobject.md)| |
+|[ Constructor](nadaobject.md#nadaobject-void)| | | |
 
 
  #  Properties
@@ -19,8 +19,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |p1|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
+> |p1|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DispatchEvent(p0 : String, p1 : Event)
 > ``` 

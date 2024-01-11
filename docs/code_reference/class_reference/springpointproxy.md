@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Anchor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.md#anchor-zilch-engine-docum)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-| |[ Fixed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.md#fixed-zilch-engine-docume)| | |
-| |[ Mass](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/springpointproxy.md#mass-zilch-engine-documen)| | |
+| |[ Anchor](springpointproxy.md#anchor-zilch-engine-docum)|[eventobject](eventobject.md)| |
+| |[ Fixed](springpointproxy.md#fixed-zilch-engine-docume)| | |
+| |[ Mass](springpointproxy.md#mass-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Anchor : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Anchor : [cog](cog.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -19,7 +19,7 @@
 
 
 ---  
- #  Fixed : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Fixed : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  Mass : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Mass : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -2,20 +2,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#geometryimport-void)|[ ChangeBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#changebasis-zilch-engine)|[contentcomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/contentcomponent.md)| |
-| |[ CollapsePivots](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#collapsepivots-zilch-engi)| | |
-| |[ OriginOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#originoffset-zilch-engine)| | |
-| |[ ScaleFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#scalefactor-zilch-engine)| | |
-| |[ XBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#xbasisto-zilch-engine-doc)| | |
-| |[ YBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#ybasisto-zilch-engine-doc)| | |
-| |[ ZBasisTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryimport.md#zbasisto-zilch-engine-doc)| | |
+|[ Constructor](geometryimport.md#geometryimport-void)|[ ChangeBasis](geometryimport.md#changebasis-zilch-engine)|[contentcomponent](contentcomponent.md)| |
+| |[ CollapsePivots](geometryimport.md#collapsepivots-zilch-engi)| | |
+| |[ OriginOffset](geometryimport.md#originoffset-zilch-engine)| | |
+| |[ ScaleFactor](geometryimport.md#scalefactor-zilch-engine)| | |
+| |[ XBasisTo](geometryimport.md#xbasisto-zilch-engine-doc)| | |
+| |[ YBasisTo](geometryimport.md#ybasisto-zilch-engine-doc)| | |
+| |[ ZBasisTo](geometryimport.md#zbasisto-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  ChangeBasis : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ChangeBasis : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  CollapsePivots : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CollapsePivots : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  OriginOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  OriginOffset : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  ScaleFactor : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ScaleFactor : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  XBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#basistype)
+ #  XBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  YBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#basistype)
+ #  YBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  ZBasisTo : [BasisType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#basistype)
+ #  ZBasisTo : [BasisType](../enum_reference.md#basistype)
 
 > 
 > ``` lang=cpp, name=Nada

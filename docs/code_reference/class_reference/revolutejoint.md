@@ -6,21 +6,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#revolutejoint-void)|[ FrameOfReference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#frameofreference-zilch-en)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-|[ SetWorldFrame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#setworldframe-void)|[ LocalBasisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#localbasisa-zilch-engine)| | |
-|[ SetWorldPoints](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#setworldpoints-void)|[ LocalBasisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#localbasisb-zilch-engine)| | |
-| |[ LocalPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#localpointb-zilch-engine)| | |
-| |[ WorldBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#worldbasis-zilch-engine-d)| | |
-| |[ WorldPointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/revolutejoint.md#worldpointb-zilch-engine)| | |
+|[ Constructor](revolutejoint.md#revolutejoint-void)|[ FrameOfReference](revolutejoint.md#frameofreference-zilch-en)|[joint](joint.md)| |
+|[ SetWorldFrame](revolutejoint.md#setworldframe-void)|[ LocalBasisA](revolutejoint.md#localbasisa-zilch-engine)| | |
+|[ SetWorldPoints](revolutejoint.md#setworldpoints-void)|[ LocalBasisB](revolutejoint.md#localbasisb-zilch-engine)| | |
+| |[ LocalPointA](revolutejoint.md#localpointa-zilch-engine)| | |
+| |[ LocalPointB](revolutejoint.md#localpointb-zilch-engine)| | |
+| |[ WorldBasis](revolutejoint.md#worldbasis-zilch-engine-d)| | |
+| |[ WorldPointA](revolutejoint.md#worldpointa-zilch-engine)| | |
+| |[ WorldPointB](revolutejoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  FrameOfReference : [JointFrameOfReference](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#jointframeofreference)
+ #  FrameOfReference : [JointFrameOfReference](../enum_reference.md#jointframeofreference)
 
 > Should the default basis of the constraint be object A or B? This determines which object's world axis is used when constructing the basis for the constraint. In the case of a dynamic and static object, the static object is generally the better choice. As a general rule of thumb, it should be the heavier/most important object.
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  LocalBasisA : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalBasisA : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object A . This frame is transformed to world space and then aligned with object B s frame . 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  LocalBasisB : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalBasisB : [quaternion](../nada_base_types/quaternion.md)
 
 > The local space reference frame of object B . This frame is transformed to world space and then aligned with object A s frame . 
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  LocalPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointA : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object A . 
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 
 
 ---  
- #  LocalPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPointB : [real3](../nada_base_types/real3.md)
 
 > The local point of the anchor on object B . 
 > ``` lang=cpp, name=Nada
@@ -60,7 +60,7 @@
 
 
 ---  
- #  WorldBasis : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  WorldBasis : [quaternion](../nada_base_types/quaternion.md)
 
 > The basis of the joint in world-space. This basis will come object specified by FrameOfReference. The basis is constructed such that the x-axis is the primary axis while the z-axis is the hinge axis.
 > ``` lang=cpp, name=Nada
@@ -68,7 +68,7 @@
 
 
 ---  
- #  WorldPointA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointA : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object A given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  WorldPointB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldPointB : [real3](../nada_base_types/real3.md)
 
 > The position of the anchor on object B given a position in world space 
 > ``` lang=cpp, name=Nada
@@ -106,7 +106,7 @@
 > Legacy. Used to set the entire frame in world space for this joint. The x and y axes are used as a basis for limiting the joint. The x axis is at angle 0 and the y axis is at angle 90. The z axis is the axis of rotational freedom.
 > |Name|Type|Description|
 > |---|---|---|
-> |rot|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |rot|[quaternion](../nada_base_types/quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldFrame(rot : Quaternion)
 > ``` 
@@ -118,7 +118,7 @@
 > Sets the position of the anchor on object A and B given a position in world space 
 > |Name|Type|Description|
 > |---|---|---|
-> |point|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |point|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldPoints(point : Real3)
 > ``` 

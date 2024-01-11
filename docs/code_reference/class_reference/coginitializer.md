@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.md#dispatchevent-void)|[ GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.md#gamesession-zilch-engine)|[safeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32eventobject.md)| |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.md#parent-zilch-engine-docum)| | |
-| |[ Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/coginitializer.md#space-zilch-engine-docume)| | |
+|[ DispatchEvent](coginitializer.md#dispatchevent-void)|[ GameSession](coginitializer.md#gamesession-zilch-engine)|[safeid32eventobject](safeid32eventobject.md)| |
+| |[ Parent](coginitializer.md#parent-zilch-engine-docum)| | |
+| |[ Space](coginitializer.md#space-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  GameSession : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  GameSession : [gamesession](gamesession.md)
 
  `read-only`
 
@@ -21,7 +21,7 @@
 
 
 ---  
- #  Parent : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Parent : [cog](cog.md)
 
  `read-only`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Space : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  Space : [space](space.md)
 
  `read-only`
 
@@ -50,8 +50,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |p1|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
+> |p1|[event](event.md)| |
 > ``` lang=cpp, name=Nada
 > function DispatchEvent(p0 : String, p1 : Event)
 > ``` 

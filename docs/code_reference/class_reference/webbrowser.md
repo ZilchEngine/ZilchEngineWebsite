@@ -2,26 +2,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Create](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#create-zilch-engine-docum)|[ BackgroundColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#backgroundcolor-zilch-eng)|[referencecountedeventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedeventobject.md)| |
-|[ ExecuteScript](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#executescript-void)|[ CanGoBackward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#cangobackward-zilch-engin)| | |
-|[ ExecuteScriptFromLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#executescriptfromlocatio)|[ CanGoForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#cangoforward-zilch-engine)| | |
-|[ GoBackward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#gobackward-void)|[ Focus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#focus-zilch-engine-docume)| | |
-|[ GoForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#goforward-void)|[ IsLoading](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#isloading-zilch-engine-do)| | |
-|[ Reload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#reload-void)|[ ScrollSpeed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#scrollspeed-zilch-engine)| | |
-|[ SimulateKey](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#simulatekey-void)|[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#size-zilch-engine-documen)| | |
-|[ SimulateMouseClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#simulatemouseclick-void)|[ Status](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#status-zilch-engine-docum)| | |
-|[ SimulateMouseDoubleClick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#simulatemousedoubleclick)|[ Texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#texture-zilch-engine-docu)| | |
-|[ SimulateMouseMove](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#simulatemousemove-void)|[ Title](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#title-zilch-engine-docume)| | |
-|[ SimulateMouseScroll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#simulatemousescroll-void)|[ Transparent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#transparent-zilch-engine)| | |
-|[ SimulateTextTyped](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#simulatetexttyped-void)|[ Url](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#url-zilch-engine-document)| | |
-| |[ Visible](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md#visible-zilch-engine-docu)| | |
+|[ Create](webbrowser.md#create-zilch-engine-docum)|[ BackgroundColor](webbrowser.md#backgroundcolor-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ ExecuteScript](webbrowser.md#executescript-void)|[ CanGoBackward](webbrowser.md#cangobackward-zilch-engin)| | |
+|[ ExecuteScriptFromLocation](webbrowser.md#executescriptfromlocatio)|[ CanGoForward](webbrowser.md#cangoforward-zilch-engine)| | |
+|[ GoBackward](webbrowser.md#gobackward-void)|[ Focus](webbrowser.md#focus-zilch-engine-docume)| | |
+|[ GoForward](webbrowser.md#goforward-void)|[ IsLoading](webbrowser.md#isloading-zilch-engine-do)| | |
+|[ Reload](webbrowser.md#reload-void)|[ ScrollSpeed](webbrowser.md#scrollspeed-zilch-engine)| | |
+|[ SimulateKey](webbrowser.md#simulatekey-void)|[ Size](webbrowser.md#size-zilch-engine-documen)| | |
+|[ SimulateMouseClick](webbrowser.md#simulatemouseclick-void)|[ Status](webbrowser.md#status-zilch-engine-docum)| | |
+|[ SimulateMouseDoubleClick](webbrowser.md#simulatemousedoubleclick)|[ Texture](webbrowser.md#texture-zilch-engine-docu)| | |
+|[ SimulateMouseMove](webbrowser.md#simulatemousemove-void)|[ Title](webbrowser.md#title-zilch-engine-docume)| | |
+|[ SimulateMouseScroll](webbrowser.md#simulatemousescroll-void)|[ Transparent](webbrowser.md#transparent-zilch-engine)| | |
+|[ SimulateTextTyped](webbrowser.md#simulatetexttyped-void)|[ Url](webbrowser.md#url-zilch-engine-document)| | |
+| |[ Visible](webbrowser.md#visible-zilch-engine-docu)| | |
 
 
  #  Properties
 
 
 ---  
- #  BackgroundColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  BackgroundColor : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  CanGoBackward : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanGoBackward : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -39,7 +39,7 @@
 
 
 ---  
- #  CanGoForward : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CanGoForward : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Focus : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Focus : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  IsLoading : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsLoading : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -67,7 +67,7 @@
 
 
 ---  
- #  ScrollSpeed : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  ScrollSpeed : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  Size : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  Size : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -83,7 +83,7 @@
 
 
 ---  
- #  Status : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Status : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -93,7 +93,7 @@
 
 
 ---  
- #  Texture : [texture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texture.md)
+ #  Texture : [texture](texture.md)
 
  `read-only`
 
@@ -103,7 +103,7 @@
 
 
 ---  
- #  Title : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Title : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -113,7 +113,7 @@
 
 
 ---  
- #  Transparent : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Transparent : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -121,7 +121,7 @@
 
 
 ---  
- #  Url : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Url : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -129,7 +129,7 @@
 
 
 ---  
- #  Visible : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Visible : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -141,7 +141,7 @@
 
 
 ---  
- #  Create : [webbrowser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md)
+ #  Create : [webbrowser](webbrowser.md)
 
  `static`
 
@@ -154,14 +154,14 @@
 
 
 ---  
- #  Create : [webbrowser](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowser.md)
+ #  Create : [webbrowser](webbrowser.md)
 
  `static`
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[webbrowsersetup](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/webbrowsersetup.md)| |
+> |p0|[webbrowsersetup](webbrowsersetup.md)| |
 > ``` lang=cpp, name=Nada
 > function Create(p0 : WebBrowserSetup) : WebBrowser
 > ``` 
@@ -173,7 +173,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function ExecuteScript(p0 : String)
 > ``` 
@@ -185,9 +185,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |p1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |p2|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
+> |p1|[string](../nada_base_types/string.md)| |
+> |p2|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function ExecuteScriptFromLocation(p0 : String, p1 : String, p2 : Integer)
 > ``` 
@@ -232,7 +232,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |p0|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Reload(p0 : Boolean)
 > ``` 
@@ -244,9 +244,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |p2|[WebBrowserModifiers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#webbrowsermodifiers)| |
+> |p0|[integer](../nada_base_types/integer.md)| |
+> |p1|[boolean](../nada_base_types/boolean.md)| |
+> |p2|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
 > ``` lang=cpp, name=Nada
 > function SimulateKey(p0 : Integer, p1 : Boolean, p2 : WebBrowserModifiers)
 > ``` 
@@ -258,10 +258,10 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> |p1|[MouseButtons](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#mousebuttons)| |
-> |p2|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |p3|[WebBrowserModifiers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#webbrowsermodifiers)| |
+> |p0|[integer2](../nada_base_types/integer2.md)| |
+> |p1|[MouseButtons](../enum_reference.md#mousebuttons)| |
+> |p2|[boolean](../nada_base_types/boolean.md)| |
+> |p3|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
 > ``` lang=cpp, name=Nada
 > function SimulateMouseClick(p0 : Integer2, p1 : MouseButtons, p2 : Boolean, p3 : WebBrowserModifiers)
 > ``` 
@@ -273,9 +273,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> |p1|[MouseButtons](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#mousebuttons)| |
-> |p2|[WebBrowserModifiers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#webbrowsermodifiers)| |
+> |p0|[integer2](../nada_base_types/integer2.md)| |
+> |p1|[MouseButtons](../enum_reference.md#mousebuttons)| |
+> |p2|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
 > ``` lang=cpp, name=Nada
 > function SimulateMouseDoubleClick(p0 : Integer2, p1 : MouseButtons, p2 : WebBrowserModifiers)
 > ``` 
@@ -287,8 +287,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> |p1|[WebBrowserModifiers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#webbrowsermodifiers)| |
+> |p0|[integer2](../nada_base_types/integer2.md)| |
+> |p1|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
 > ``` lang=cpp, name=Nada
 > function SimulateMouseMove(p0 : Integer2, p1 : WebBrowserModifiers)
 > ``` 
@@ -300,9 +300,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
-> |p1|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> |p2|[WebBrowserModifiers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#webbrowsermodifiers)| |
+> |p0|[integer2](../nada_base_types/integer2.md)| |
+> |p1|[real2](../nada_base_types/real2.md)| |
+> |p2|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
 > ``` lang=cpp, name=Nada
 > function SimulateMouseScroll(p0 : Integer2, p1 : Real2, p2 : WebBrowserModifiers)
 > ``` 
@@ -314,8 +314,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |p1|[WebBrowserModifiers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#webbrowsermodifiers)| |
+> |p0|[integer](../nada_base_types/integer.md)| |
+> |p1|[WebBrowserModifiers](../enum_reference.md#webbrowsermodifiers)| |
 > ``` lang=cpp, name=Nada
 > function SimulateTextTyped(p0 : Integer, p1 : WebBrowserModifiers)
 > ``` 

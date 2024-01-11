@@ -12,7 +12,7 @@ A NadaScript resource is an in-editor representation of a NadaScript file, which
 ## Using NadaScripts
 
 ###Creating a NadaScript
-A new NadaScript can be added by using the Add command [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : `Add` or clicking on the `Add` button, followed by selecting `NadaScript`. After giving the new NadaScript a name it's also possible to choose a template to use for the NadaScript, depending on what the script will be used for. 
+A new NadaScript can be added by using the Add command [Command](../../editor/editorcommands/commands.md) : `Add` or clicking on the `Add` button, followed by selecting `NadaScript`. After giving the new NadaScript a name it's also possible to choose a template to use for the NadaScript, depending on what the script will be used for. 
 
 
 
@@ -181,13 +181,13 @@ Also a part of the Tool template is a section of comments giving the user a list
 ## Related Materials
 
 ###Manual Pages
-- [Scripting in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/scripting.md)
-- [Nada in Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch.md)
+- [Scripting in Zilch](../../scripting.md)
+- [Nada in Zilch](../../nada_in_zilch.md)
 
 
 ### Tutorial Pages
 
-- [Scripting Tutorials](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/scripting.md)
+- [Scripting Tutorials](../../../tutorials/scripting.md)
  
 
  

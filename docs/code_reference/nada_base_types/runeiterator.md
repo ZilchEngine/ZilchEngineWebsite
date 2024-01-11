@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Decrement](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#decrement-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#all-zilch-engine-document)| | |
-|[ Equals](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#equals-zilch-engine-docum)|[ ByteIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#byteindex-zilch-engine-do)| | |
-|[ Increment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#increment-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#current-zilch-engine-docu)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#movenext-void)|[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#isnotempty-zilch-engine-d)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#runeiterator-void)|[ OriginalString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md#originalstring-zilch-engi)| | |
+|[ Decrement](runeiterator.md#decrement-void)|[ All](runeiterator.md#all-zilch-engine-document)| | |
+|[ Equals](runeiterator.md#equals-zilch-engine-docum)|[ ByteIndex](runeiterator.md#byteindex-zilch-engine-do)| | |
+|[ Increment](runeiterator.md#increment-void)|[ Current](runeiterator.md#current-zilch-engine-docu)| | |
+|[ MoveNext](runeiterator.md#movenext-void)|[ IsNotEmpty](runeiterator.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](runeiterator.md#runeiterator-void)|[ OriginalString](runeiterator.md#originalstring-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [runeiterator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md)
+ #  All : [runeiterator](runeiterator.md)
 
  `read-only`
 
@@ -23,7 +23,7 @@
 
 
 ---  
- #  ByteIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ByteIndex : [integer](integer.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Current : [rune](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.md)
+ #  Current : [rune](rune.md)
 
  `read-only`
 
@@ -43,7 +43,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -53,7 +53,7 @@
 
 
 ---  
- #  OriginalString : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  OriginalString : [string](string.md)
 
  `read-only`
 
@@ -78,12 +78,12 @@
 
 
 ---  
- #  Equals : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Equals : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[runeiterator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md)| |
+> |p0|[runeiterator](runeiterator.md)| |
 > ``` lang=cpp, name=Nada
 > function Equals(p0 : RuneIterator) : Boolean
 > ``` 

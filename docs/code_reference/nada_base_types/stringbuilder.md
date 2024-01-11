@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.md#clear-void)| | | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.md#stringbuilder-void)| | | |
-|[ ToString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.md#tostring-zilch-engine-doc)| | | |
-|[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.md#write-void)| | | |
-|[ WriteLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.md#writeline-void)| | | |
+|[ Clear](stringbuilder.md#clear-void)| | | |
+|[ Constructor](stringbuilder.md#stringbuilder-void)| | | |
+|[ ToString](stringbuilder.md#tostring-zilch-engine-doc)| | | |
+|[ Write](stringbuilder.md#write-void)| | | |
+|[ WriteLine](stringbuilder.md#writeline-void)| | | |
 
 
  #  Properties
@@ -41,7 +41,7 @@
 
 
 ---  
- #  ToString : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ToString : [string](string.md)
 
 > 
 > |Name|Type|Description|

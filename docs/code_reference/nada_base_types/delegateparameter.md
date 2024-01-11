@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameter.md#name-zilch-engine-documen)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegateparameter.md#type-zilch-engine-documen)| | |
+| |[ Name](delegateparameter.md#name-zilch-engine-documen)| | |
+| |[ Type](delegateparameter.md#type-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](string.md)
 
  `read-only`
 
@@ -20,7 +20,7 @@
 
 
 ---  
- #  Type : [type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)
+ #  Type : [type](type.md)
 
  `read-only`
 

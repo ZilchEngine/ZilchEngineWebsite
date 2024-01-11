@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GeometryMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.md#geometrymode-zilch-engine)|[graphical](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphical.md)|[multisprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multisprite.md)|
-| |[ VertexColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basesprite.md#vertexcolor-zilch-engine)| |[sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)|
-| | | |[spritetext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.md)|
+| |[ GeometryMode](basesprite.md#geometrymode-zilch-engine)|[graphical](graphical.md)|[multisprite](multisprite.md)|
+| |[ VertexColor](basesprite.md#vertexcolor-zilch-engine)| |[sprite](sprite.md)|
+| | | |[spritetext](spritetext.md)|
 
 
  #  Properties
 
 
 ---  
- #  GeometryMode : [SpriteGeometryMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spritegeometrymode)
+ #  GeometryMode : [SpriteGeometryMode](../enum_reference.md#spritegeometrymode)
 
 > How the Sprite should be oriented in 3D space.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  VertexColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  VertexColor : [real4](../nada_base_types/real4.md)
 
 > Color attribute of the generated vertices accessible in the vertex shader.
 > ``` lang=cpp, name=Nada

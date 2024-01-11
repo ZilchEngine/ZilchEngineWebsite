@@ -2,19 +2,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#close-void)|[ StandardError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#standarderror-zilch-engin)| | |
-|[ IsRunning](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#isrunning-zilch-engine-do)|[ StandardInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#standardinput-zilch-engin)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#processclass-void)|[ StandardOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#standardoutput-zilch-engi)| | |
-|[ Start](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#start-void)| | | |
-|[ Terminate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#terminate-void)| | | |
-|[ WaitForClose](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processclass.md#waitforclose-zilch-engine)| | | |
+|[ Close](processclass.md#close-void)|[ StandardError](processclass.md#standarderror-zilch-engin)| | |
+|[ IsRunning](processclass.md#isrunning-zilch-engine-do)|[ StandardInput](processclass.md#standardinput-zilch-engin)| | |
+|[ Constructor](processclass.md#processclass-void)|[ StandardOutput](processclass.md#standardoutput-zilch-engi)| | |
+|[ Start](processclass.md#start-void)| | | |
+|[ Terminate](processclass.md#terminate-void)| | | |
+|[ WaitForClose](processclass.md#waitforclose-zilch-engine)| | | |
 
 
  #  Properties
 
 
 ---  
- #  StandardError : [filestream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.md)
+ #  StandardError : [filestream](filestream.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  StandardInput : [filestream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.md)
+ #  StandardInput : [filestream](filestream.md)
 
  `read-only`
 
@@ -34,7 +34,7 @@
 
 
 ---  
- #  StandardOutput : [filestream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filestream.md)
+ #  StandardOutput : [filestream](filestream.md)
 
  `read-only`
 
@@ -59,7 +59,7 @@
 
 
 ---  
- #  IsRunning : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsRunning : [boolean](boolean.md)
 
 > Returns true if the process is still running, false otherwise.
 > |Name|Type|Description|
@@ -88,7 +88,7 @@
 > Begins the execution of another process using the given parameters. 
 > |Name|Type|Description|
 > |---|---|---|
-> |startInfo|[processstartinfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md)| |
+> |startInfo|[processstartinfo](processstartinfo.md)| |
 > ``` lang=cpp, name=Nada
 > function Start(startInfo : ProcessStartInfo)
 > ``` 
@@ -106,7 +106,7 @@
 
 
 ---  
- #  WaitForClose : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  WaitForClose : [integer](integer.md)
 
 > Waits for a process to close, this will block until the process closes.
 > |Name|Type|Description|

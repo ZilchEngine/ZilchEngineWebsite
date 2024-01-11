@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ SoundInstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstanceevent.md#soundinstance-zilch-engin)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ SoundInstance](soundinstanceevent.md#soundinstance-zilch-engin)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  SoundInstance : [soundinstance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundinstance.md)
+ #  SoundInstance : [soundinstance](soundinstance.md)
 
  `read-only`
 

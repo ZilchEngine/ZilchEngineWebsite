@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uprightjoint.md#uprightjoint-void)|[ LocalAxisA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uprightjoint.md#localaxisa-zilch-engine-d)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-| |[ LocalAxisB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uprightjoint.md#localaxisb-zilch-engine-d)| | |
-| |[ WorldAxis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uprightjoint.md#worldaxis-zilch-engine-do)| | |
+|[ Constructor](uprightjoint.md#uprightjoint-void)|[ LocalAxisA](uprightjoint.md#localaxisa-zilch-engine-d)|[joint](joint.md)| |
+| |[ LocalAxisB](uprightjoint.md#localaxisb-zilch-engine-d)| | |
+| |[ WorldAxis](uprightjoint.md#worldaxis-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  LocalAxisA : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxisA : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object A . 
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  LocalAxisB : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalAxisB : [real3](../nada_base_types/real3.md)
 
 > The locally defined axis on object B . 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  WorldAxis : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldAxis : [real3](../nada_base_types/real3.md)
 
 > The axis in world space that is being rotated about . 
 > ``` lang=cpp, name=Nada

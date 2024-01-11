@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ IsStatic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.md#isstatic-zilch-engine-doc)|[reflectionobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/reflectionobject.md)|[function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.md)|
-| |[ Library](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.md#library-zilch-engine-docu)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.md#name-zilch-engine-documen)| | |
-| |[ Owner](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.md#owner-zilch-engine-docume)| | |
-| |[ Type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.md#type-zilch-engine-documen)| | |
+| |[ IsStatic](member.md#isstatic-zilch-engine-doc)|[reflectionobject](reflectionobject.md)|[function](function.md)|
+| |[ Library](member.md#library-zilch-engine-docu)| | |
+| |[ Name](member.md#name-zilch-engine-documen)| | |
+| |[ Owner](member.md#owner-zilch-engine-docume)| | |
+| |[ Type](member.md#type-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  IsStatic : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsStatic : [boolean](boolean.md)
 
  `read-only`
 
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Library : [library](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/library.md)
+ #  Library : [library](library.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](string.md)
 
  `read-only`
 
@@ -43,7 +43,7 @@
 
 
 ---  
- #  Owner : [boundtype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.md)
+ #  Owner : [boundtype](boundtype.md)
 
  `read-only`
 
@@ -53,7 +53,7 @@
 
 
 ---  
- #  Type : [type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)
+ #  Type : [type](type.md)
 
  `read-only`
 

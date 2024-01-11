@@ -10,7 +10,7 @@ var Sum : Real = 1 + 2;
 var Up : Real3 = Real3(0,1,0);
 ```
 
-`var` is the keyword used to indicate that the statement on this line declares a variable. `Greeting` is the **name** of the first variable, an identifier used to reference the [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md) type value `"Hello"`. 
+`var` is the keyword used to indicate that the statement on this line declares a variable. `Greeting` is the **name** of the first variable, an identifier used to reference the [string](../../../code_reference/nada_base_types/string.md) type value `"Hello"`. 
 
 Both `Greeting` and `Sum` follow the following format: `var` `Name` `:` `Type` `=` `"Value"``;`.
 
@@ -23,11 +23,11 @@ Both `Greeting` and `Sum` follow the following format: `var` `Name` `:` `Type` `
 | `"Value"` | Value for the variable to be initialized to. |
 | `;` | Delimiter indicating the end of the statement. |
 
-NOTE: Identifier names must be alphanumeric and may include underscores. They cannot start with a number, and no other symbols are allowed. Remember to choose identifier names that don't clash with the [Keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md) or [Nada Base Types](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types.md).
+NOTE: Identifier names must be alphanumeric and may include underscores. They cannot start with a number, and no other symbols are allowed. Remember to choose identifier names that don't clash with the [Keywords](keywords.md) or [Nada Base Types](../../../code_reference/nada_base_types.md).
 
-Depending on the context, or [Scope](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/variables_and_data_types.md#scope), the required syntax for instantiating and initializing a variable can vary.  The codeblock above will only compile if placed at the scope of a class or struct.
+Depending on the context, or [Scope](variables_and_data_types.md#scope), the required syntax for instantiating and initializing a variable can vary.  The codeblock above will only compile if placed at the scope of a class or struct.
 
-(NOTE)**Literal Types**: Literal values are values explicitly defined by the user in script.  `1 + 2` is an example of two literal values that evaluate to the non-literal value `3`.  Below is a table of more literal values and their associated [nada_base_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types.md).
+(NOTE)**Literal Types**: Literal values are values explicitly defined by the user in script.  `1 + 2` is an example of two literal values that evaluate to the non-literal value `3`.  Below is a table of more literal values and their associated [nada_base_types](../../../code_reference/nada_base_types.md).
 
  | Literal Value(s) | Type |
  | -- | -- |
@@ -48,7 +48,7 @@ A scope is a region in which certain elements of the language, such as variables
 
 
  ## Global Scope
-Everything in script exists *in// the **global scope**; however, not everything is created //at// the **global scope**. Libraries such as `Zilch` and `Math` exist //at// the **global scope** and are therefore accessible from any scope in script.  The [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md) and [Math](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.md) libraries are objects defined at the global scope. [Classes and Structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md) are the only Nada constructs that can be defined //at* the **global scope**.
+Everything in script exists *in// the **global scope**; however, not everything is created //at// the **global scope**. Libraries such as `Zilch` and `Math` exist //at// the **global scope** and are therefore accessible from any scope in script.  The [Zilch](../../../code_reference/class_reference/zero.md) and [Math](../../../code_reference/nada_base_types/math.md) libraries are objects defined at the global scope. [Classes and Structs](classes.md) are the only Nada constructs that can be defined //at* the **global scope**.
 
 ```lang=csharp, name=Global Scope
 var R1 : Real; //Error, can not declare variables at the global scope
@@ -61,7 +61,7 @@ class MyClass : NadaComponent //We can declare definitions of objects such as cl
 Notice in this example that the attempted instantiation of a variable at the **global scope** will throw an exception.
 
  ## Object Scope
-[Classes and Structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md) define their own scope and are one of the few constructs that exist *at// the **Global Scope**. Variables defined //at* the **object scope** are called **member** variables and will exist as long as the object exists.
+[Classes and Structs](classes.md) define their own scope and are one of the few constructs that exist *at// the **Global Scope**. Variables defined //at* the **object scope** are called **member** variables and will exist as long as the object exists.
 
 ```lang=csharp, name=Object Scope
 class MyClass
@@ -76,20 +76,20 @@ class MyClass
 Notice in the example above that `Math` *in// the **global scope** is accessed //from* the **class scope** while initializing `MyClass.Pi`.
 
  ### Implicit Initialization
-Notice above that `MyClass.Theta` is not given an **explicit** initial value. This means that **implicit** initialization will take place, assigning `Theta` an initial value of the default type value of the type [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md), which in this case is `0`. Implicit initialization of a variable is only possible when defining a **member** variable. The final restriction for member variables is that they must begin with an upper case letter.
+Notice above that `MyClass.Theta` is not given an **explicit** initial value. This means that **implicit** initialization will take place, assigning `Theta` an initial value of the default type value of the type [real](../../../code_reference/nada_base_types/real.md), which in this case is `0`. Implicit initialization of a variable is only possible when defining a **member** variable. The final restriction for member variables is that they must begin with an upper case letter.
 
  ### Inferred Typing
-In the code block above `MyClass.A` is not given an explcit type. In this situation the type [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) is **inferred** from the the type of its initialization value `4.0`. Only literal, type casted, or manually constructed values may be use for inferred typing when initializing a member variable. Statements such as `var B = -5.0;` will not compile because they contain an expression.
+In the code block above `MyClass.A` is not given an explcit type. In this situation the type [real](../../../code_reference/nada_base_types/real.md) is **inferred** from the the type of its initialization value `4.0`. Only literal, type casted, or manually constructed values may be use for inferred typing when initializing a member variable. Statements such as `var B = -5.0;` will not compile because they contain an expression.
 
 NOTE: You can not use implicit initialization and inferred typing on the same variable.
 
  ## Block Scope
-[functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md), [conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md), and [loops](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/looping.md) must have their scopes defined within an **object scope**. Variables defined within a **block scope** only exist until the scope is finished being executed. Variables defined within a block scope are called **local variables**.
+[functions](functions.md), [conditionals](conditionals.md), and [loops](looping.md) must have their scopes defined within an **object scope**. Variables defined within a **block scope** only exist until the scope is finished being executed. Variables defined within a block scope are called **local variables**.
 
 NOTE: Local variables can be implicitly initialized and have their types inferred just as member variables can.
 
  ### The Scope Operator
-In addition to to logical constructs defining scope, Nada allows the user to define arbitrary scopes using the [scope](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md) keyword.
+In addition to to logical constructs defining scope, Nada allows the user to define arbitrary scopes using the [scope](keywords.md) keyword.
 ```lang=csharp, name=Block Scope
 class MyClass
 {
@@ -114,7 +114,7 @@ Inside the inner block scope is the line `var r2 = r1;`. Because `r1` is declare
 
 The line `var r3 = r1;` follows the closing `}` of the inner block scope. Because `r1` was declared at the same scope as `r3`, it can be used as `r3`'s initialization value. However, the next line, `r3 = r2;`, will result in an error. `r2` was declared in the inner block scope. When that scope closes, `r2` is destroyed. As a result, `r2` is no longer a valid variable, and so it cannot be used to initialize `r3`.
 
-(NOTE)**Data Lifetimes**: It should be noted that when most variables go out of the scope they are declared in they stop existing. This is true for value types such as [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) and [Structs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md). However, if a reference type such as a constructed [Class](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md) instance still has a valid reference being held outside of the instantiation scope it will remain alive in memory.
+(NOTE)**Data Lifetimes**: It should be noted that when most variables go out of the scope they are declared in they stop existing. This is true for value types such as [real](../../../code_reference/nada_base_types/real.md) and [Structs](classes.md). However, if a reference type such as a constructed [Class](classes.md) instance still has a valid reference being held outside of the instantiation scope it will remain alive in memory.
 
  # Caching Variables
 Caching accessed data into locally scoped variables is a common practice that can improve the efficiency, readability, and flexibility of code. Often users may find themselves needing a value that will be used multiple times throughout the scope it is calculated/accessed in.
@@ -175,19 +175,19 @@ This example implements the exact same behavior as the previous `OnLogicUdpate` 
 
  # Related Materials
  ## Manual
-- [Classes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/classes.md)
-- [functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/functions.md)
-- [Keywords](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md)
-- [Scope](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/keywords.md)
-- [Conditionals](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/conditionals.md)
-- [Loops](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/looping.md)
+- [Classes](classes.md)
+- [functions](functions.md)
+- [Keywords](keywords.md)
+- [Scope](keywords.md)
+- [Conditionals](conditionals.md)
+- [Loops](looping.md)
 
  ## Code Reference
-- [nada_base_types](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types.md)
-- [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
-- [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
-- [Zilch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zilch.md)
-- [Math](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/math.md) 
+- [nada_base_types](../../../code_reference/nada_base_types.md)
+- [real](../../../code_reference/nada_base_types/real.md)
+- [string](../../../code_reference/nada_base_types/string.md)
+- [Zilch](../../../code_reference/class_reference/zilch.md)
+- [Math](../../../code_reference/nada_base_types/math.md) 
 
  ## Tasks
 - T472 

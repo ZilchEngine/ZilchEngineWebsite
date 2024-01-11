@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DumpValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md#dumpvalue-void)| | | |
-|[ ReadBoolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md#readboolean-zilch-engine)| | | |
-|[ ReadInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md#readinteger-zilch-engine)| | | |
-|[ ReadReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md#readreal-zilch-engine-doc)| | | |
-|[ ReadString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md#readstring-zilch-engine-d)| | | |
-|[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md#write-void)| | | |
-|[ WriteLine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/console.md#writeline-void)| | | |
+|[ DumpValue](console.md#dumpvalue-void)| | | |
+|[ ReadBoolean](console.md#readboolean-zilch-engine)| | | |
+|[ ReadInteger](console.md#readinteger-zilch-engine)| | | |
+|[ ReadReal](console.md#readreal-zilch-engine-doc)| | | |
+|[ ReadString](console.md#readstring-zilch-engine-d)| | | |
+|[ Write](console.md#write-void)| | | |
+|[ WriteLine](console.md#writeline-void)| | | |
 
 
  #  Properties
@@ -41,14 +41,14 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |p0|T| |
-> |p1|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |p1|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function DumpValue(p0 : T, p1 : Integer)
 > ``` 
 
 
 ---  
- #  ReadBoolean : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ReadBoolean : [boolean](boolean.md)
 
  `static`
 
@@ -61,7 +61,7 @@
 
 
 ---  
- #  ReadInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ReadInteger : [integer](integer.md)
 
  `static`
 
@@ -74,7 +74,7 @@
 
 
 ---  
- #  ReadReal : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ReadReal : [real](real.md)
 
  `static`
 
@@ -87,7 +87,7 @@
 
 
 ---  
- #  ReadString : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ReadString : [string](string.md)
 
  `static`
 

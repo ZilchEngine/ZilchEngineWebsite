@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ LostFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uifocusevent.md#lostfocus-zilch-engine-do)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ ReceivedFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uifocusevent.md#receivedfocus-zilch-engin)| | |
+| |[ LostFocus](uifocusevent.md#lostfocus-zilch-engine-do)|[event](event.md)| |
+| |[ ReceivedFocus](uifocusevent.md#receivedfocus-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  LostFocus : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  LostFocus : [uiwidget](uiwidget.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  ReceivedFocus : [uiwidget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/uiwidget.md)
+ #  ReceivedFocus : [uiwidget](uiwidget.md)
 
  `read-only`
 

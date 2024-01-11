@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md#hierarchylistreverserang)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](hierarchylistreverserange.md#hierarchylistreverserang)|[ All](hierarchylistreverserange.md#all-zilch-engine-document)| | |
+|[ MoveNext](hierarchylistreverserange.md#movenext-void)|[ Current](hierarchylistreverserange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](hierarchylistreverserange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](hierarchylistreverserange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [hierarchylistreverserange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md)
+ #  All : [hierarchylistreverserange](hierarchylistreverserange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Current : [cog](cog.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[hierarchylistreverserange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchylistreverserange.md)| |
+> |p0|[hierarchylistreverserange](hierarchylistreverserange.md)| |
 > ``` lang=cpp, name=Nada
 > function HierarchyListReverseRange(p0 : HierarchyListReverseRange)
 > ``` 

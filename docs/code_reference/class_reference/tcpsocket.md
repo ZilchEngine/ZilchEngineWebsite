@@ -4,22 +4,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#close-void)|[ ConnectionCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#connectioncount-zilch-eng)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-|[ CloseConnection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#closeconnection-void)|[ IncomingConnectionCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#incomingconnectioncount)| | |
-|[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#connect-void)|[ OutgoingConnectionCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#outgoingconnectioncount)| | |
-|[ IsConnected](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#isconnected-zilch-engine)| | | |
-|[ Listen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#listen-zilch-engine-docum)| | | |
-|[ SendTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#sendto-void)| | | |
-|[ SendToAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#sendtoall-void)| | | |
-|[ SendToAllAndSelf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#sendtoallandself-void)| | | |
-|[ SendToAllExcept](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/tcpsocket.md#sendtoallexcept-void)| | | |
+|[ Close](tcpsocket.md#close-void)|[ ConnectionCount](tcpsocket.md#connectioncount-zilch-eng)|[eventobject](eventobject.md)| |
+|[ CloseConnection](tcpsocket.md#closeconnection-void)|[ IncomingConnectionCount](tcpsocket.md#incomingconnectioncount)| | |
+|[ Connect](tcpsocket.md#connect-void)|[ OutgoingConnectionCount](tcpsocket.md#outgoingconnectioncount)| | |
+|[ IsConnected](tcpsocket.md#isconnected-zilch-engine)| | | |
+|[ Listen](tcpsocket.md#listen-zilch-engine-docum)| | | |
+|[ SendTo](tcpsocket.md#sendto-void)| | | |
+|[ SendToAll](tcpsocket.md#sendtoall-void)| | | |
+|[ SendToAllAndSelf](tcpsocket.md#sendtoallandself-void)| | | |
+|[ SendToAllExcept](tcpsocket.md#sendtoallexcept-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  ConnectionCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ConnectionCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -29,7 +29,7 @@
 
 
 ---  
- #  IncomingConnectionCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  IncomingConnectionCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -39,7 +39,7 @@
 
 
 ---  
- #  OutgoingConnectionCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  OutgoingConnectionCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -69,7 +69,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function CloseConnection(index : Integer)
 > ``` 
@@ -81,15 +81,15 @@
 > Attempt to connect to a host on the given port.
 > |Name|Type|Description|
 > |---|---|---|
-> |host|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |host|[string](../nada_base_types/string.md)| |
+> |port|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Connect(host : String, port : Integer)
 > ``` 
 
 
 ---  
- #  IsConnected : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsConnected : [boolean](../nada_base_types/boolean.md)
 
 > Check if we are currently connected to anyone.
 > |Name|Type|Description|
@@ -100,27 +100,27 @@
 
 
 ---  
- #  Listen : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Listen : [boolean](../nada_base_types/boolean.md)
 
 > Listen for incoming connections.
 > |Name|Type|Description|
 > |---|---|---|
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |maxConnections|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |port|[integer](../nada_base_types/integer.md)| |
+> |maxConnections|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Listen(port : Integer, maxConnections : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  Listen : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Listen : [boolean](../nada_base_types/boolean.md)
 
 > Listen for incoming connections.
 > |Name|Type|Description|
 > |---|---|---|
-> |port|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |maxConnections|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |bindTo|[TcpSocketBind](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#tcpsocketbind)| |
+> |port|[integer](../nada_base_types/integer.md)| |
+> |maxConnections|[integer](../nada_base_types/integer.md)| |
+> |bindTo|[TcpSocketBind](../enum_reference.md#tcpsocketbind)| |
 > ``` lang=cpp, name=Nada
 > function Listen(port : Integer, maxConnections : Integer, bindTo : TcpSocketBind) : Boolean
 > ``` 
@@ -132,9 +132,9 @@
 > Send an event to a specific connection index.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[sendableevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sendableevent.md)| |
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |event|[sendableevent](sendableevent.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SendTo(eventId : String, event : SendableEvent, index : Integer)
 > ``` 
@@ -146,8 +146,8 @@
 > Send an event to all connections.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[sendableevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sendableevent.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |event|[sendableevent](sendableevent.md)| |
 > ``` lang=cpp, name=Nada
 > function SendToAll(eventId : String, event : SendableEvent)
 > ``` 
@@ -159,8 +159,8 @@
 > Send an event to all connections and dispatch on self.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[sendableevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sendableevent.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |event|[sendableevent](sendableevent.md)| |
 > ``` lang=cpp, name=Nada
 > function SendToAllAndSelf(eventId : String, event : SendableEvent)
 > ``` 
@@ -172,9 +172,9 @@
 > Send an event to all connections except a particular connection index.
 > |Name|Type|Description|
 > |---|---|---|
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |event|[sendableevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sendableevent.md)| |
-> |exceptIndex|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
+> |event|[sendableevent](sendableevent.md)| |
+> |exceptIndex|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function SendToAllExcept(eventId : String, event : SendableEvent, exceptIndex : Integer)
 > ``` 

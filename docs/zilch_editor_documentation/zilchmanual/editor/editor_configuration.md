@@ -25,14 +25,14 @@ Components found on EditorConfig object are unique to it, and cannot be attached
 
  ##  MainConfig
 
-The [ MainConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.md) component shows details about the current version of the editor. *Its fields are read-only.*
+The [ MainConfig](../../../code_reference/class_reference/mainconfig.md) component shows details about the current version of the editor. *Its fields are read-only.*
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66647.png)
 
 
-*The [ MainConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.md) component*
+*The [ MainConfig](../../../code_reference/class_reference/mainconfig.md) component*
 
 
  ##  ContentConfig
@@ -43,7 +43,7 @@ The **ContentConfig** component contains settings controlling the loading of add
 
  ##  TextEditorConfig
 
-The [ TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md) component allows the user to view and modify various settings of Zilch's text editor.
+The [ TextEditorConfig](../../../code_reference/class_reference/texteditorconfig.md) component allows the user to view and modify various settings of Zilch's text editor.
 
  ###  TabWidth
 The text editor may be configured to insert either two or four spaces when the `Tab` key is pressed.
@@ -94,7 +94,7 @@ This defines the initial font size used for text files when they are opened in t
 
  ##  EditorSettings
 
-The [editorsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.md) component allows the user to view and modify various general editor settings.
+The [editorsettings](../../../code_reference/class_reference/editorsettings.md) component allows the user to view and modify various general editor settings.
 
 WARNING: Some of the settings in this component should not be modified by the user, as noted below.
 
@@ -125,13 +125,13 @@ NOTE: The data from EditorConfig object is read from and written to a config fil
  #  Related Materials
 
  ##  Manual
-- [Project Configuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/project_configuration.md)
-- [ Tab Completion](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/texteditor/tab_completion.md)
+- [Project Configuration](project_configuration.md)
+- [ Tab Completion](texteditor/tab_completion.md)
 
  ##  Reference
-- [ MainConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mainconfig.md)
-- [ TextEditorConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md)
-- [editorsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editorsettings.md)
-- [ TabWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#tabwidth) 
+- [ MainConfig](../../../code_reference/class_reference/mainconfig.md)
+- [ TextEditorConfig](../../../code_reference/class_reference/texteditorconfig.md)
+- [editorsettings](../../../code_reference/class_reference/editorsettings.md)
+- [ TabWidth](../../../code_reference/enum_reference.md#tabwidth) 
 
  

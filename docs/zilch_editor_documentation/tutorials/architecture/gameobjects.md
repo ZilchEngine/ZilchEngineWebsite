@@ -13,7 +13,7 @@ This lesson focuses on teaching the very basics of the engine: creating objects,
  # Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 
 Here is a new empty level:
@@ -39,7 +39,7 @@ We'll cover these in more detail in future tutorials.
 
  # Create a Game Object
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
 
 
@@ -58,12 +58,12 @@ The Sprite object object can now be found in the `Objects Window`:
 *The Sprite object listed in the `Objects Window`*
 
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 
 NOTE:
- If the `Properties Window` is not visible, then enter the [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Properties](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#properties) in the `Search Window`. (Remember you can open the ` Search Window` from any where in the engine using `Ctrl + Shift + Space`.)
+ If the `Properties Window` is not visible, then enter the [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Properties](../../../code_reference/command_reference.md#properties) in the `Search Window`. (Remember you can open the ` Search Window` from any where in the engine using `Ctrl + Shift + Space`.)
 
-The properties of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component attached to the object can be found in the `Properties Window`:
+The properties of the [Transform](../../../code_reference/class_reference/transform.md) component attached to the object can be found in the `Properties Window`:
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46950.png)
@@ -72,23 +72,23 @@ The properties of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/
 *The properties of the Sprite object in the `Properties Window`*
 
 - In the `Properties Window`
- - Click  on the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component
+ - Click  on the [Transform](../../../code_reference/class_reference/transform.md) component
 
 
 
 ![Under](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/85621.gif)
 
 
-*Expanding the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component in the `Properties Window`*
+*Expanding the [Transform](../../../code_reference/class_reference/transform.md) component in the `Properties Window`*
 
 
-(NOTE)**Under**: When accessing properties of a paticular component we use the term **Under**, as the properties are found **under** the component title in the `Properties Window`. For instance, *Under the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md) component* {icon long-arrow-right} //Set Scale  to `[2, 2, 1]`//.
+(NOTE)**Under**: When accessing properties of a paticular component we use the term **Under**, as the properties are found **under** the component title in the `Properties Window`. For instance, *Under the [Transform](../../../code_reference/class_reference/transform.md) component* {icon long-arrow-right} //Set Scale  to `[2, 2, 1]`//.
 
 
  #  Renaming an Object
 
 
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Square`
 
@@ -99,7 +99,7 @@ The properties of the [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/
 *Renaming the Sprite object*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 Here is how the game should look:
 
@@ -110,7 +110,7 @@ Here is how the game should look:
 *The `Game Window`*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Tools
@@ -205,11 +205,11 @@ NOTE: Zilch Engine does **not** support negative scale for objects.
  # Related Materials
 
  ## Manual
-- [COGs](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/cogs/gameobjectsconcept.md)
-- [Editor Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands.md)
+- [COGs](../../zilchmanual/architecture/cogs/gameobjectsconcept.md)
+- [Editor Commands](../../zilchmanual/editor/editorcommands.md)
 
  ## Code Reference
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
  
 
  

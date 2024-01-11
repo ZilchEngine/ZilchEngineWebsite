@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/formattedinplacetext.md#formattedinplacetext-voi)| | | |
+|[ Constructor](formattedinplacetext.md#formattedinplacetext-voi)| | | |
 
 
  #  Properties
@@ -33,7 +33,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[formattedinplacetext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/formattedinplacetext.md)| |
+> |p0|[formattedinplacetext](formattedinplacetext.md)| |
 > ``` lang=cpp, name=Nada
 > function FormattedInPlaceText(p0 : FormattedInPlaceText)
 > ``` 

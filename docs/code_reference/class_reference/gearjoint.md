@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md#gearjoint-void)|[ Constant](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md#constant-zilch-engine-doc)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-| |[ JointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md#jointa-zilch-engine-docum)| | |
-| |[ JointAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md#jointapath-zilch-engine-d)| | |
-| |[ JointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md#jointb-zilch-engine-docum)| | |
-| |[ JointBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md#jointbpath-zilch-engine-d)| | |
-| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gearjoint.md#ratio-zilch-engine-docume)| | |
+|[ Constructor](gearjoint.md#gearjoint-void)|[ Constant](gearjoint.md#constant-zilch-engine-doc)|[joint](joint.md)| |
+| |[ JointA](gearjoint.md#jointa-zilch-engine-docum)| | |
+| |[ JointAPath](gearjoint.md#jointapath-zilch-engine-d)| | |
+| |[ JointB](gearjoint.md#jointb-zilch-engine-docum)| | |
+| |[ JointBPath](gearjoint.md#jointbpath-zilch-engine-d)| | |
+| |[ Ratio](gearjoint.md#ratio-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Constant : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Constant : [real](../nada_base_types/real.md)
 
 > The initial offset of the gear ratio.
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  JointA : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  JointA : [cog](cog.md)
 
 > The joint connected to ObjectA that the gear operates on.
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  JointAPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  JointAPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectA that the gear operates on.
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  JointB : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  JointB : [cog](cog.md)
 
 > The joint connected to ObjectB that the gear operates on.
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  JointBPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  JointBPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectB that the gear operates on.
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  Ratio : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Ratio : [real](../nada_base_types/real.md)
 
 > The gear ratio that the two constraints are bound with.
 > ``` lang=cpp, name=Nada

@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Connections](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.md#connections-zilch-engine)| | |
-| |[ HasOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.md#hasoutput-zilch-engine-do)| | |
-| |[ ID](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.md#id-zilch-engine-documenta)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.md#name-zilch-engine-documen)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeprintinfo.md#position-zilch-engine-doc)| | |
+| |[ Connections](nodeprintinfo.md#connections-zilch-engine)| | |
+| |[ HasOutput](nodeprintinfo.md#hasoutput-zilch-engine-do)| | |
+| |[ ID](nodeprintinfo.md#id-zilch-engine-documenta)| | |
+| |[ Name](nodeprintinfo.md#name-zilch-engine-documen)| | |
+| |[ Position](nodeprintinfo.md#position-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  Connections : [nodeinfolistrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nodeinfolistrange.md)
+ #  Connections : [nodeinfolistrange](nodeinfolistrange.md)
 
  `read-only`
 
@@ -23,7 +23,7 @@
 
 
 ---  
- #  HasOutput : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HasOutput : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  ID : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ID : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  Position : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Position : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada

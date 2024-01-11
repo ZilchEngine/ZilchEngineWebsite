@@ -1,14 +1,14 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.md#getvalue-zilch-engine-doc)|[ Getter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.md#getter-zilch-engine-docum)|[member](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/member.md)|[field](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/field.md)|
-|[ SetValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.md#setvalue-void)|[ Setter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/property.md#setter-zilch-engine-docum)| |[gettersetter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/gettersetter.md)|
+|[ GetValue](property.md#getvalue-zilch-engine-doc)|[ Getter](property.md#getter-zilch-engine-docum)|[member](member.md)|[field](field.md)|
+|[ SetValue](property.md#setvalue-void)|[ Setter](property.md#setter-zilch-engine-docum)| |[gettersetter](gettersetter.md)|
 
 
  #  Properties
 
 
 ---  
- #  Getter : [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.md)
+ #  Getter : [function](function.md)
 
  `read-only`
 
@@ -18,7 +18,7 @@
 
 
 ---  
- #  Setter : [function](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/function.md)
+ #  Setter : [function](function.md)
 
  `read-only`
 

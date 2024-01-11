@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colortargetmrt.md#set-void)| |[threadsafereferencecounted](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadsafereferencecounted.md)| |
+|[ Set](colortargetmrt.md#set-void)| |[threadsafereferencecounted](threadsafereferencecounted.md)| |
 
 
  #  Properties
@@ -20,8 +20,8 @@
 > Set the RenderTarget to use for the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |colorTarget|[rendertarget](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rendertarget.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
+> |colorTarget|[rendertarget](rendertarget.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, colorTarget : RenderTarget)
 > ``` 

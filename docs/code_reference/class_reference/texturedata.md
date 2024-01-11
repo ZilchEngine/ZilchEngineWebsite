@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md#get-zilch-engine-document)|[ Format](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md#format-zilch-engine-docum)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md#set-void)|[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md#height-zilch-engine-docum)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md#texturedata-void)|[ PixelCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md#pixelcount-zilch-engine-d)| | |
-| |[ Width](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texturedata.md#width-zilch-engine-docume)| | |
+|[ Get](texturedata.md#get-zilch-engine-document)|[ Format](texturedata.md#format-zilch-engine-docum)| | |
+|[ Set](texturedata.md#set-void)|[ Height](texturedata.md#height-zilch-engine-docum)| | |
+|[ Constructor](texturedata.md#texturedata-void)|[ PixelCount](texturedata.md#pixelcount-zilch-engine-d)| | |
+| |[ Width](texturedata.md#width-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Format : [TextureFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureformat)
+ #  Format : [TextureFormat](../enum_reference.md#textureformat)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  Height : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Height : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -34,7 +34,7 @@
 
 
 ---  
- #  PixelCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  PixelCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -44,7 +44,7 @@
 
 
 ---  
- #  Width : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Width : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -58,25 +58,25 @@
 
 
 ---  
- #  Get : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Get : [real4](../nada_base_types/real4.md)
 
 > Returns the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : Real4
 > ``` 
 
 
 ---  
- #  Get : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Get : [real4](../nada_base_types/real4.md)
 
 > Returns the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |x|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |x|[integer](../nada_base_types/integer.md)| |
+> |y|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(x : Integer, y : Integer) : Real4
 > ``` 
@@ -88,9 +88,9 @@
 > Sets the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |x|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |x|[integer](../nada_base_types/integer.md)| |
+> |y|[integer](../nada_base_types/integer.md)| |
+> |value|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(x : Integer, y : Integer, value : Real4)
 > ``` 
@@ -102,8 +102,8 @@
 > Sets the pixel values at the given index.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
+> |value|[real4](../nada_base_types/real4.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : Real4)
 > ``` 
@@ -117,9 +117,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |format|[TextureFormat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#textureformat)| |
-> |width|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |height|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |format|[TextureFormat](../enum_reference.md#textureformat)| |
+> |width|[integer](../nada_base_types/integer.md)| |
+> |height|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function TextureData(format : TextureFormat, width : Integer, height : Integer)
 > ``` 

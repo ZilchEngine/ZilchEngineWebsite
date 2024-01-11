@@ -2,152 +2,152 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AliceBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#aliceblue-zilch-engine-do)| | |
-| |[ AntiqueWhite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#antiquewhite-zilch-engine)| | |
-| |[ Aqua](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#aqua-zilch-engine-documen)| | |
-| |[ Aquamarine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#aquamarine-zilch-engine-d)| | |
-| |[ Azure](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#azure-zilch-engine-docume)| | |
-| |[ Beige](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#beige-zilch-engine-docume)| | |
-| |[ Bisque](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#bisque-zilch-engine-docum)| | |
-| |[ Black](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#black-zilch-engine-docume)| | |
-| |[ BlanchedAlmond](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#blanchedalmond-zilch-engi)| | |
-| |[ Blue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#blue-zilch-engine-documen)| | |
-| |[ BlueViolet](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#blueviolet-zilch-engine-d)| | |
-| |[ Brown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#brown-zilch-engine-docume)| | |
-| |[ Burlywood](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#burlywood-zilch-engine-do)| | |
-| |[ CadetBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#cadetblue-zilch-engine-do)| | |
-| |[ Chartreuse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#chartreuse-zilch-engine-d)| | |
-| |[ Chocolate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#chocolate-zilch-engine-do)| | |
-| |[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#clear-zilch-engine-docume)| | |
-| |[ Coral](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#coral-zilch-engine-docume)| | |
-| |[ Cornflower](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#cornflower-zilch-engine-d)| | |
-| |[ Cornsilk](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#cornsilk-zilch-engine-doc)| | |
-| |[ Crimson](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#crimson-zilch-engine-docu)| | |
-| |[ Cyan](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#cyan-zilch-engine-documen)| | |
-| |[ DarkGoldenrod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkgoldenrod-zilch-engin)| | |
-| |[ DarkGray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkgray-zilch-engine-doc)| | |
-| |[ DarkKhaki](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkkhaki-zilch-engine-do)| | |
-| |[ DarkMagenta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkmagenta-zilch-engine)| | |
-| |[ DarkOliveGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkolivegreen-zilch-engi)| | |
-| |[ DarkOrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkorange-zilch-engine-d)| | |
-| |[ DarkOrchid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkorchid-zilch-engine-d)| | |
-| |[ DarkSalmon](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darksalmon-zilch-engine-d)| | |
-| |[ DarkSeaGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkseagreen-zilch-engine)| | |
-| |[ DarkSlateBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkslateblue-zilch-engin)| | |
-| |[ DarkSlateGray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkslategray-zilch-engin)| | |
-| |[ DarkTurquoise](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkturquoise-zilch-engin)| | |
-| |[ DarkViolet](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#darkviolet-zilch-engine-d)| | |
-| |[ DeepGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#deepgreen-zilch-engine-do)| | |
-| |[ DeepPink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#deeppink-zilch-engine-doc)| | |
-| |[ DeepSkyBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#deepskyblue-zilch-engine)| | |
-| |[ DimGray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#dimgray-zilch-engine-docu)| | |
-| |[ DodgerBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#dodgerblue-zilch-engine-d)| | |
-| |[ Firebrick](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#firebrick-zilch-engine-do)| | |
-| |[ FloralWhite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#floralwhite-zilch-engine)| | |
-| |[ ForestGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#forestgreen-zilch-engine)| | |
-| |[ Fuchsia](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#fuchsia-zilch-engine-docu)| | |
-| |[ Gainsboro](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#gainsboro-zilch-engine-do)| | |
-| |[ GhostWhite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#ghostwhite-zilch-engine-d)| | |
-| |[ Gold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#gold-zilch-engine-documen)| | |
-| |[ Goldenrod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#goldenrod-zilch-engine-do)| | |
-| |[ Gray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#gray-zilch-engine-documen)| | |
-| |[ Green](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#green-zilch-engine-docume)| | |
-| |[ GreenYellow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#greenyellow-zilch-engine)| | |
-| |[ Honeydew](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#honeydew-zilch-engine-doc)| | |
-| |[ HotPink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#hotpink-zilch-engine-docu)| | |
-| |[ IndianRed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#indianred-zilch-engine-do)| | |
-| |[ Indigo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#indigo-zilch-engine-docum)| | |
-| |[ Ivory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#ivory-zilch-engine-docume)| | |
-| |[ Khaki](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#khaki-zilch-engine-docume)| | |
-| |[ Lavender](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lavender-zilch-engine-doc)| | |
-| |[ LavenderBlush](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lavenderblush-zilch-engin)| | |
-| |[ LawnGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lawngreen-zilch-engine-do)| | |
-| |[ LemonChiffon](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lemonchiffon-zilch-engine)| | |
-| |[ LightBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightblue-zilch-engine-do)| | |
-| |[ LightCoral](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightcoral-zilch-engine-d)| | |
-| |[ LightCyan](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightcyan-zilch-engine-do)| | |
-| |[ LightGoldenrod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightgoldenrod-zilch-engi)| | |
-| |[ LightGray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightgray-zilch-engine-do)| | |
-| |[ LightGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightgreen-zilch-engine-d)| | |
-| |[ LightPink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightpink-zilch-engine-do)| | |
-| |[ LightSalmon](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightsalmon-zilch-engine)| | |
-| |[ LightSeaGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightseagreen-zilch-engin)| | |
-| |[ LightSkyBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightskyblue-zilch-engine)| | |
-| |[ LightSlateGray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightslategray-zilch-engi)| | |
-| |[ LightSteelBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightsteelblue-zilch-engi)| | |
-| |[ LightYellow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lightyellow-zilch-engine)| | |
-| |[ Lime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#lime-zilch-engine-documen)| | |
-| |[ LimeGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#limegreen-zilch-engine-do)| | |
-| |[ Linen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#linen-zilch-engine-docume)| | |
-| |[ Magenta](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#magenta-zilch-engine-docu)| | |
-| |[ Maroon](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#maroon-zilch-engine-docum)| | |
-| |[ MediumAquamarine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumaquamarine-zilch-en)| | |
-| |[ MediumBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumblue-zilch-engine-d)| | |
-| |[ MediumOrchid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumorchid-zilch-engine)| | |
-| |[ MediumPurple](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumpurple-zilch-engine)| | |
-| |[ MediumSeaGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumseagreen-zilch-engi)| | |
-| |[ MediumSlateBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumslateblue-zilch-eng)| | |
-| |[ MediumSpringGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumspringgreen-zilch-e)| | |
-| |[ MediumTurquoise](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumturquoise-zilch-eng)| | |
-| |[ MediumVioletRed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mediumvioletred-zilch-eng)| | |
-| |[ MidnightBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#midnightblue-zilch-engine)| | |
-| |[ MintCream](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mintcream-zilch-engine-do)| | |
-| |[ MistyRose](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#mistyrose-zilch-engine-do)| | |
-| |[ Moccasin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#moccasin-zilch-engine-doc)| | |
-| |[ NavajoWhite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#navajowhite-zilch-engine)| | |
-| |[ Navy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#navy-zilch-engine-documen)| | |
-| |[ OldLace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#oldlace-zilch-engine-docu)| | |
-| |[ Olive](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#olive-zilch-engine-docume)| | |
-| |[ OliveDrab](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#olivedrab-zilch-engine-do)| | |
-| |[ Orange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#orange-zilch-engine-docum)| | |
-| |[ OrangeRed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#orangered-zilch-engine-do)| | |
-| |[ Orchid](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#orchid-zilch-engine-docum)| | |
-| |[ PaleGoldenrod](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#palegoldenrod-zilch-engin)| | |
-| |[ PaleGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#palegreen-zilch-engine-do)| | |
-| |[ PaleTurquoise](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#paleturquoise-zilch-engin)| | |
-| |[ PaleVioletRed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#palevioletred-zilch-engin)| | |
-| |[ PapayaWhip](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#papayawhip-zilch-engine-d)| | |
-| |[ PeachPuff](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#peachpuff-zilch-engine-do)| | |
-| |[ Peru](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#peru-zilch-engine-documen)| | |
-| |[ Pink](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#pink-zilch-engine-documen)| | |
-| |[ Plum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#plum-zilch-engine-documen)| | |
-| |[ PowderBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#powderblue-zilch-engine-d)| | |
-| |[ Purple](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#purple-zilch-engine-docum)| | |
-| |[ RebeccaPurple](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#rebeccapurple-zilch-engin)| | |
-| |[ Red](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#red-zilch-engine-document)| | |
-| |[ RosyBrown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#rosybrown-zilch-engine-do)| | |
-| |[ RoyalBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#royalblue-zilch-engine-do)| | |
-| |[ SaddleBrown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#saddlebrown-zilch-engine)| | |
-| |[ Salmon](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#salmon-zilch-engine-docum)| | |
-| |[ SandyBrown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#sandybrown-zilch-engine-d)| | |
-| |[ SeaGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#seagreen-zilch-engine-doc)| | |
-| |[ Seashell](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#seashell-zilch-engine-doc)| | |
-| |[ Sienna](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#sienna-zilch-engine-docum)| | |
-| |[ Silver](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#silver-zilch-engine-docum)| | |
-| |[ SkyBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#skyblue-zilch-engine-docu)| | |
-| |[ SlateBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#slateblue-zilch-engine-do)| | |
-| |[ SlateGray](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#slategray-zilch-engine-do)| | |
-| |[ Snow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#snow-zilch-engine-documen)| | |
-| |[ SpringGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#springgreen-zilch-engine)| | |
-| |[ SteelBlue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#steelblue-zilch-engine-do)| | |
-| |[ Tan](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#tan-zilch-engine-document)| | |
-| |[ Teal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#teal-zilch-engine-documen)| | |
-| |[ Thistle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#thistle-zilch-engine-docu)| | |
-| |[ Tomato](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#tomato-zilch-engine-docum)| | |
-| |[ Turquoise](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#turquoise-zilch-engine-do)| | |
-| |[ Violet](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#violet-zilch-engine-docum)| | |
-| |[ Wheat](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#wheat-zilch-engine-docume)| | |
-| |[ White](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#white-zilch-engine-docume)| | |
-| |[ WhiteSmoke](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#whitesmoke-zilch-engine-d)| | |
-| |[ Yellow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#yellow-zilch-engine-docum)| | |
-| |[ YellowGreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/colors.md#yellowgreen-zilch-engine)| | |
+| |[ AliceBlue](colors.md#aliceblue-zilch-engine-do)| | |
+| |[ AntiqueWhite](colors.md#antiquewhite-zilch-engine)| | |
+| |[ Aqua](colors.md#aqua-zilch-engine-documen)| | |
+| |[ Aquamarine](colors.md#aquamarine-zilch-engine-d)| | |
+| |[ Azure](colors.md#azure-zilch-engine-docume)| | |
+| |[ Beige](colors.md#beige-zilch-engine-docume)| | |
+| |[ Bisque](colors.md#bisque-zilch-engine-docum)| | |
+| |[ Black](colors.md#black-zilch-engine-docume)| | |
+| |[ BlanchedAlmond](colors.md#blanchedalmond-zilch-engi)| | |
+| |[ Blue](colors.md#blue-zilch-engine-documen)| | |
+| |[ BlueViolet](colors.md#blueviolet-zilch-engine-d)| | |
+| |[ Brown](colors.md#brown-zilch-engine-docume)| | |
+| |[ Burlywood](colors.md#burlywood-zilch-engine-do)| | |
+| |[ CadetBlue](colors.md#cadetblue-zilch-engine-do)| | |
+| |[ Chartreuse](colors.md#chartreuse-zilch-engine-d)| | |
+| |[ Chocolate](colors.md#chocolate-zilch-engine-do)| | |
+| |[ Clear](colors.md#clear-zilch-engine-docume)| | |
+| |[ Coral](colors.md#coral-zilch-engine-docume)| | |
+| |[ Cornflower](colors.md#cornflower-zilch-engine-d)| | |
+| |[ Cornsilk](colors.md#cornsilk-zilch-engine-doc)| | |
+| |[ Crimson](colors.md#crimson-zilch-engine-docu)| | |
+| |[ Cyan](colors.md#cyan-zilch-engine-documen)| | |
+| |[ DarkGoldenrod](colors.md#darkgoldenrod-zilch-engin)| | |
+| |[ DarkGray](colors.md#darkgray-zilch-engine-doc)| | |
+| |[ DarkKhaki](colors.md#darkkhaki-zilch-engine-do)| | |
+| |[ DarkMagenta](colors.md#darkmagenta-zilch-engine)| | |
+| |[ DarkOliveGreen](colors.md#darkolivegreen-zilch-engi)| | |
+| |[ DarkOrange](colors.md#darkorange-zilch-engine-d)| | |
+| |[ DarkOrchid](colors.md#darkorchid-zilch-engine-d)| | |
+| |[ DarkSalmon](colors.md#darksalmon-zilch-engine-d)| | |
+| |[ DarkSeaGreen](colors.md#darkseagreen-zilch-engine)| | |
+| |[ DarkSlateBlue](colors.md#darkslateblue-zilch-engin)| | |
+| |[ DarkSlateGray](colors.md#darkslategray-zilch-engin)| | |
+| |[ DarkTurquoise](colors.md#darkturquoise-zilch-engin)| | |
+| |[ DarkViolet](colors.md#darkviolet-zilch-engine-d)| | |
+| |[ DeepGreen](colors.md#deepgreen-zilch-engine-do)| | |
+| |[ DeepPink](colors.md#deeppink-zilch-engine-doc)| | |
+| |[ DeepSkyBlue](colors.md#deepskyblue-zilch-engine)| | |
+| |[ DimGray](colors.md#dimgray-zilch-engine-docu)| | |
+| |[ DodgerBlue](colors.md#dodgerblue-zilch-engine-d)| | |
+| |[ Firebrick](colors.md#firebrick-zilch-engine-do)| | |
+| |[ FloralWhite](colors.md#floralwhite-zilch-engine)| | |
+| |[ ForestGreen](colors.md#forestgreen-zilch-engine)| | |
+| |[ Fuchsia](colors.md#fuchsia-zilch-engine-docu)| | |
+| |[ Gainsboro](colors.md#gainsboro-zilch-engine-do)| | |
+| |[ GhostWhite](colors.md#ghostwhite-zilch-engine-d)| | |
+| |[ Gold](colors.md#gold-zilch-engine-documen)| | |
+| |[ Goldenrod](colors.md#goldenrod-zilch-engine-do)| | |
+| |[ Gray](colors.md#gray-zilch-engine-documen)| | |
+| |[ Green](colors.md#green-zilch-engine-docume)| | |
+| |[ GreenYellow](colors.md#greenyellow-zilch-engine)| | |
+| |[ Honeydew](colors.md#honeydew-zilch-engine-doc)| | |
+| |[ HotPink](colors.md#hotpink-zilch-engine-docu)| | |
+| |[ IndianRed](colors.md#indianred-zilch-engine-do)| | |
+| |[ Indigo](colors.md#indigo-zilch-engine-docum)| | |
+| |[ Ivory](colors.md#ivory-zilch-engine-docume)| | |
+| |[ Khaki](colors.md#khaki-zilch-engine-docume)| | |
+| |[ Lavender](colors.md#lavender-zilch-engine-doc)| | |
+| |[ LavenderBlush](colors.md#lavenderblush-zilch-engin)| | |
+| |[ LawnGreen](colors.md#lawngreen-zilch-engine-do)| | |
+| |[ LemonChiffon](colors.md#lemonchiffon-zilch-engine)| | |
+| |[ LightBlue](colors.md#lightblue-zilch-engine-do)| | |
+| |[ LightCoral](colors.md#lightcoral-zilch-engine-d)| | |
+| |[ LightCyan](colors.md#lightcyan-zilch-engine-do)| | |
+| |[ LightGoldenrod](colors.md#lightgoldenrod-zilch-engi)| | |
+| |[ LightGray](colors.md#lightgray-zilch-engine-do)| | |
+| |[ LightGreen](colors.md#lightgreen-zilch-engine-d)| | |
+| |[ LightPink](colors.md#lightpink-zilch-engine-do)| | |
+| |[ LightSalmon](colors.md#lightsalmon-zilch-engine)| | |
+| |[ LightSeaGreen](colors.md#lightseagreen-zilch-engin)| | |
+| |[ LightSkyBlue](colors.md#lightskyblue-zilch-engine)| | |
+| |[ LightSlateGray](colors.md#lightslategray-zilch-engi)| | |
+| |[ LightSteelBlue](colors.md#lightsteelblue-zilch-engi)| | |
+| |[ LightYellow](colors.md#lightyellow-zilch-engine)| | |
+| |[ Lime](colors.md#lime-zilch-engine-documen)| | |
+| |[ LimeGreen](colors.md#limegreen-zilch-engine-do)| | |
+| |[ Linen](colors.md#linen-zilch-engine-docume)| | |
+| |[ Magenta](colors.md#magenta-zilch-engine-docu)| | |
+| |[ Maroon](colors.md#maroon-zilch-engine-docum)| | |
+| |[ MediumAquamarine](colors.md#mediumaquamarine-zilch-en)| | |
+| |[ MediumBlue](colors.md#mediumblue-zilch-engine-d)| | |
+| |[ MediumOrchid](colors.md#mediumorchid-zilch-engine)| | |
+| |[ MediumPurple](colors.md#mediumpurple-zilch-engine)| | |
+| |[ MediumSeaGreen](colors.md#mediumseagreen-zilch-engi)| | |
+| |[ MediumSlateBlue](colors.md#mediumslateblue-zilch-eng)| | |
+| |[ MediumSpringGreen](colors.md#mediumspringgreen-zilch-e)| | |
+| |[ MediumTurquoise](colors.md#mediumturquoise-zilch-eng)| | |
+| |[ MediumVioletRed](colors.md#mediumvioletred-zilch-eng)| | |
+| |[ MidnightBlue](colors.md#midnightblue-zilch-engine)| | |
+| |[ MintCream](colors.md#mintcream-zilch-engine-do)| | |
+| |[ MistyRose](colors.md#mistyrose-zilch-engine-do)| | |
+| |[ Moccasin](colors.md#moccasin-zilch-engine-doc)| | |
+| |[ NavajoWhite](colors.md#navajowhite-zilch-engine)| | |
+| |[ Navy](colors.md#navy-zilch-engine-documen)| | |
+| |[ OldLace](colors.md#oldlace-zilch-engine-docu)| | |
+| |[ Olive](colors.md#olive-zilch-engine-docume)| | |
+| |[ OliveDrab](colors.md#olivedrab-zilch-engine-do)| | |
+| |[ Orange](colors.md#orange-zilch-engine-docum)| | |
+| |[ OrangeRed](colors.md#orangered-zilch-engine-do)| | |
+| |[ Orchid](colors.md#orchid-zilch-engine-docum)| | |
+| |[ PaleGoldenrod](colors.md#palegoldenrod-zilch-engin)| | |
+| |[ PaleGreen](colors.md#palegreen-zilch-engine-do)| | |
+| |[ PaleTurquoise](colors.md#paleturquoise-zilch-engin)| | |
+| |[ PaleVioletRed](colors.md#palevioletred-zilch-engin)| | |
+| |[ PapayaWhip](colors.md#papayawhip-zilch-engine-d)| | |
+| |[ PeachPuff](colors.md#peachpuff-zilch-engine-do)| | |
+| |[ Peru](colors.md#peru-zilch-engine-documen)| | |
+| |[ Pink](colors.md#pink-zilch-engine-documen)| | |
+| |[ Plum](colors.md#plum-zilch-engine-documen)| | |
+| |[ PowderBlue](colors.md#powderblue-zilch-engine-d)| | |
+| |[ Purple](colors.md#purple-zilch-engine-docum)| | |
+| |[ RebeccaPurple](colors.md#rebeccapurple-zilch-engin)| | |
+| |[ Red](colors.md#red-zilch-engine-document)| | |
+| |[ RosyBrown](colors.md#rosybrown-zilch-engine-do)| | |
+| |[ RoyalBlue](colors.md#royalblue-zilch-engine-do)| | |
+| |[ SaddleBrown](colors.md#saddlebrown-zilch-engine)| | |
+| |[ Salmon](colors.md#salmon-zilch-engine-docum)| | |
+| |[ SandyBrown](colors.md#sandybrown-zilch-engine-d)| | |
+| |[ SeaGreen](colors.md#seagreen-zilch-engine-doc)| | |
+| |[ Seashell](colors.md#seashell-zilch-engine-doc)| | |
+| |[ Sienna](colors.md#sienna-zilch-engine-docum)| | |
+| |[ Silver](colors.md#silver-zilch-engine-docum)| | |
+| |[ SkyBlue](colors.md#skyblue-zilch-engine-docu)| | |
+| |[ SlateBlue](colors.md#slateblue-zilch-engine-do)| | |
+| |[ SlateGray](colors.md#slategray-zilch-engine-do)| | |
+| |[ Snow](colors.md#snow-zilch-engine-documen)| | |
+| |[ SpringGreen](colors.md#springgreen-zilch-engine)| | |
+| |[ SteelBlue](colors.md#steelblue-zilch-engine-do)| | |
+| |[ Tan](colors.md#tan-zilch-engine-document)| | |
+| |[ Teal](colors.md#teal-zilch-engine-documen)| | |
+| |[ Thistle](colors.md#thistle-zilch-engine-docu)| | |
+| |[ Tomato](colors.md#tomato-zilch-engine-docum)| | |
+| |[ Turquoise](colors.md#turquoise-zilch-engine-do)| | |
+| |[ Violet](colors.md#violet-zilch-engine-docum)| | |
+| |[ Wheat](colors.md#wheat-zilch-engine-docume)| | |
+| |[ White](colors.md#white-zilch-engine-docume)| | |
+| |[ WhiteSmoke](colors.md#whitesmoke-zilch-engine-d)| | |
+| |[ Yellow](colors.md#yellow-zilch-engine-docum)| | |
+| |[ YellowGreen](colors.md#yellowgreen-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  AliceBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  AliceBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -157,7 +157,7 @@
 
 
 ---  
- #  AntiqueWhite : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  AntiqueWhite : [real4](real4.md)
 
  `read-only` `static`
 
@@ -167,7 +167,7 @@
 
 
 ---  
- #  Aqua : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Aqua : [real4](real4.md)
 
  `read-only` `static`
 
@@ -177,7 +177,7 @@
 
 
 ---  
- #  Aquamarine : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Aquamarine : [real4](real4.md)
 
  `read-only` `static`
 
@@ -187,7 +187,7 @@
 
 
 ---  
- #  Azure : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Azure : [real4](real4.md)
 
  `read-only` `static`
 
@@ -197,7 +197,7 @@
 
 
 ---  
- #  Beige : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Beige : [real4](real4.md)
 
  `read-only` `static`
 
@@ -207,7 +207,7 @@
 
 
 ---  
- #  Bisque : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Bisque : [real4](real4.md)
 
  `read-only` `static`
 
@@ -217,7 +217,7 @@
 
 
 ---  
- #  Black : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Black : [real4](real4.md)
 
  `read-only` `static`
 
@@ -227,7 +227,7 @@
 
 
 ---  
- #  BlanchedAlmond : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  BlanchedAlmond : [real4](real4.md)
 
  `read-only` `static`
 
@@ -237,7 +237,7 @@
 
 
 ---  
- #  Blue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Blue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -247,7 +247,7 @@
 
 
 ---  
- #  BlueViolet : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  BlueViolet : [real4](real4.md)
 
  `read-only` `static`
 
@@ -257,7 +257,7 @@
 
 
 ---  
- #  Brown : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Brown : [real4](real4.md)
 
  `read-only` `static`
 
@@ -267,7 +267,7 @@
 
 
 ---  
- #  Burlywood : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Burlywood : [real4](real4.md)
 
  `read-only` `static`
 
@@ -277,7 +277,7 @@
 
 
 ---  
- #  CadetBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  CadetBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -287,7 +287,7 @@
 
 
 ---  
- #  Chartreuse : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Chartreuse : [real4](real4.md)
 
  `read-only` `static`
 
@@ -297,7 +297,7 @@
 
 
 ---  
- #  Chocolate : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Chocolate : [real4](real4.md)
 
  `read-only` `static`
 
@@ -307,7 +307,7 @@
 
 
 ---  
- #  Clear : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Clear : [real4](real4.md)
 
  `read-only` `static`
 
@@ -317,7 +317,7 @@
 
 
 ---  
- #  Coral : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Coral : [real4](real4.md)
 
  `read-only` `static`
 
@@ -327,7 +327,7 @@
 
 
 ---  
- #  Cornflower : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Cornflower : [real4](real4.md)
 
  `read-only` `static`
 
@@ -337,7 +337,7 @@
 
 
 ---  
- #  Cornsilk : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Cornsilk : [real4](real4.md)
 
  `read-only` `static`
 
@@ -347,7 +347,7 @@
 
 
 ---  
- #  Crimson : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Crimson : [real4](real4.md)
 
  `read-only` `static`
 
@@ -357,7 +357,7 @@
 
 
 ---  
- #  Cyan : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Cyan : [real4](real4.md)
 
  `read-only` `static`
 
@@ -367,7 +367,7 @@
 
 
 ---  
- #  DarkGoldenrod : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkGoldenrod : [real4](real4.md)
 
  `read-only` `static`
 
@@ -377,7 +377,7 @@
 
 
 ---  
- #  DarkGray : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkGray : [real4](real4.md)
 
  `read-only` `static`
 
@@ -387,7 +387,7 @@
 
 
 ---  
- #  DarkKhaki : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkKhaki : [real4](real4.md)
 
  `read-only` `static`
 
@@ -397,7 +397,7 @@
 
 
 ---  
- #  DarkMagenta : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkMagenta : [real4](real4.md)
 
  `read-only` `static`
 
@@ -407,7 +407,7 @@
 
 
 ---  
- #  DarkOliveGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkOliveGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -417,7 +417,7 @@
 
 
 ---  
- #  DarkOrange : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkOrange : [real4](real4.md)
 
  `read-only` `static`
 
@@ -427,7 +427,7 @@
 
 
 ---  
- #  DarkOrchid : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkOrchid : [real4](real4.md)
 
  `read-only` `static`
 
@@ -437,7 +437,7 @@
 
 
 ---  
- #  DarkSalmon : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkSalmon : [real4](real4.md)
 
  `read-only` `static`
 
@@ -447,7 +447,7 @@
 
 
 ---  
- #  DarkSeaGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkSeaGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -457,7 +457,7 @@
 
 
 ---  
- #  DarkSlateBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkSlateBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -467,7 +467,7 @@
 
 
 ---  
- #  DarkSlateGray : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkSlateGray : [real4](real4.md)
 
  `read-only` `static`
 
@@ -477,7 +477,7 @@
 
 
 ---  
- #  DarkTurquoise : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkTurquoise : [real4](real4.md)
 
  `read-only` `static`
 
@@ -487,7 +487,7 @@
 
 
 ---  
- #  DarkViolet : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DarkViolet : [real4](real4.md)
 
  `read-only` `static`
 
@@ -497,7 +497,7 @@
 
 
 ---  
- #  DeepGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DeepGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -507,7 +507,7 @@
 
 
 ---  
- #  DeepPink : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DeepPink : [real4](real4.md)
 
  `read-only` `static`
 
@@ -517,7 +517,7 @@
 
 
 ---  
- #  DeepSkyBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DeepSkyBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -527,7 +527,7 @@
 
 
 ---  
- #  DimGray : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DimGray : [real4](real4.md)
 
  `read-only` `static`
 
@@ -537,7 +537,7 @@
 
 
 ---  
- #  DodgerBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DodgerBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -547,7 +547,7 @@
 
 
 ---  
- #  Firebrick : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Firebrick : [real4](real4.md)
 
  `read-only` `static`
 
@@ -557,7 +557,7 @@
 
 
 ---  
- #  FloralWhite : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  FloralWhite : [real4](real4.md)
 
  `read-only` `static`
 
@@ -567,7 +567,7 @@
 
 
 ---  
- #  ForestGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  ForestGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -577,7 +577,7 @@
 
 
 ---  
- #  Fuchsia : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Fuchsia : [real4](real4.md)
 
  `read-only` `static`
 
@@ -587,7 +587,7 @@
 
 
 ---  
- #  Gainsboro : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Gainsboro : [real4](real4.md)
 
  `read-only` `static`
 
@@ -597,7 +597,7 @@
 
 
 ---  
- #  GhostWhite : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  GhostWhite : [real4](real4.md)
 
  `read-only` `static`
 
@@ -607,7 +607,7 @@
 
 
 ---  
- #  Gold : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Gold : [real4](real4.md)
 
  `read-only` `static`
 
@@ -617,7 +617,7 @@
 
 
 ---  
- #  Goldenrod : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Goldenrod : [real4](real4.md)
 
  `read-only` `static`
 
@@ -627,7 +627,7 @@
 
 
 ---  
- #  Gray : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Gray : [real4](real4.md)
 
  `read-only` `static`
 
@@ -637,7 +637,7 @@
 
 
 ---  
- #  Green : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Green : [real4](real4.md)
 
  `read-only` `static`
 
@@ -647,7 +647,7 @@
 
 
 ---  
- #  GreenYellow : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  GreenYellow : [real4](real4.md)
 
  `read-only` `static`
 
@@ -657,7 +657,7 @@
 
 
 ---  
- #  Honeydew : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Honeydew : [real4](real4.md)
 
  `read-only` `static`
 
@@ -667,7 +667,7 @@
 
 
 ---  
- #  HotPink : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  HotPink : [real4](real4.md)
 
  `read-only` `static`
 
@@ -677,7 +677,7 @@
 
 
 ---  
- #  IndianRed : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  IndianRed : [real4](real4.md)
 
  `read-only` `static`
 
@@ -687,7 +687,7 @@
 
 
 ---  
- #  Indigo : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Indigo : [real4](real4.md)
 
  `read-only` `static`
 
@@ -697,7 +697,7 @@
 
 
 ---  
- #  Ivory : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Ivory : [real4](real4.md)
 
  `read-only` `static`
 
@@ -707,7 +707,7 @@
 
 
 ---  
- #  Khaki : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Khaki : [real4](real4.md)
 
  `read-only` `static`
 
@@ -717,7 +717,7 @@
 
 
 ---  
- #  Lavender : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Lavender : [real4](real4.md)
 
  `read-only` `static`
 
@@ -727,7 +727,7 @@
 
 
 ---  
- #  LavenderBlush : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LavenderBlush : [real4](real4.md)
 
  `read-only` `static`
 
@@ -737,7 +737,7 @@
 
 
 ---  
- #  LawnGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LawnGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -747,7 +747,7 @@
 
 
 ---  
- #  LemonChiffon : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LemonChiffon : [real4](real4.md)
 
  `read-only` `static`
 
@@ -757,7 +757,7 @@
 
 
 ---  
- #  LightBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -767,7 +767,7 @@
 
 
 ---  
- #  LightCoral : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightCoral : [real4](real4.md)
 
  `read-only` `static`
 
@@ -777,7 +777,7 @@
 
 
 ---  
- #  LightCyan : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightCyan : [real4](real4.md)
 
  `read-only` `static`
 
@@ -787,7 +787,7 @@
 
 
 ---  
- #  LightGoldenrod : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightGoldenrod : [real4](real4.md)
 
  `read-only` `static`
 
@@ -797,7 +797,7 @@
 
 
 ---  
- #  LightGray : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightGray : [real4](real4.md)
 
  `read-only` `static`
 
@@ -807,7 +807,7 @@
 
 
 ---  
- #  LightGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -817,7 +817,7 @@
 
 
 ---  
- #  LightPink : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightPink : [real4](real4.md)
 
  `read-only` `static`
 
@@ -827,7 +827,7 @@
 
 
 ---  
- #  LightSalmon : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightSalmon : [real4](real4.md)
 
  `read-only` `static`
 
@@ -837,7 +837,7 @@
 
 
 ---  
- #  LightSeaGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightSeaGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -847,7 +847,7 @@
 
 
 ---  
- #  LightSkyBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightSkyBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -857,7 +857,7 @@
 
 
 ---  
- #  LightSlateGray : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightSlateGray : [real4](real4.md)
 
  `read-only` `static`
 
@@ -867,7 +867,7 @@
 
 
 ---  
- #  LightSteelBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightSteelBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -877,7 +877,7 @@
 
 
 ---  
- #  LightYellow : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LightYellow : [real4](real4.md)
 
  `read-only` `static`
 
@@ -887,7 +887,7 @@
 
 
 ---  
- #  Lime : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Lime : [real4](real4.md)
 
  `read-only` `static`
 
@@ -897,7 +897,7 @@
 
 
 ---  
- #  LimeGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  LimeGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -907,7 +907,7 @@
 
 
 ---  
- #  Linen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Linen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -917,7 +917,7 @@
 
 
 ---  
- #  Magenta : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Magenta : [real4](real4.md)
 
  `read-only` `static`
 
@@ -927,7 +927,7 @@
 
 
 ---  
- #  Maroon : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Maroon : [real4](real4.md)
 
  `read-only` `static`
 
@@ -937,7 +937,7 @@
 
 
 ---  
- #  MediumAquamarine : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumAquamarine : [real4](real4.md)
 
  `read-only` `static`
 
@@ -947,7 +947,7 @@
 
 
 ---  
- #  MediumBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -957,7 +957,7 @@
 
 
 ---  
- #  MediumOrchid : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumOrchid : [real4](real4.md)
 
  `read-only` `static`
 
@@ -967,7 +967,7 @@
 
 
 ---  
- #  MediumPurple : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumPurple : [real4](real4.md)
 
  `read-only` `static`
 
@@ -977,7 +977,7 @@
 
 
 ---  
- #  MediumSeaGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumSeaGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -987,7 +987,7 @@
 
 
 ---  
- #  MediumSlateBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumSlateBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -997,7 +997,7 @@
 
 
 ---  
- #  MediumSpringGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumSpringGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1007,7 +1007,7 @@
 
 
 ---  
- #  MediumTurquoise : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumTurquoise : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1017,7 +1017,7 @@
 
 
 ---  
- #  MediumVioletRed : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MediumVioletRed : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1027,7 +1027,7 @@
 
 
 ---  
- #  MidnightBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MidnightBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1037,7 +1037,7 @@
 
 
 ---  
- #  MintCream : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MintCream : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1047,7 +1047,7 @@
 
 
 ---  
- #  MistyRose : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  MistyRose : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1057,7 +1057,7 @@
 
 
 ---  
- #  Moccasin : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Moccasin : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1067,7 +1067,7 @@
 
 
 ---  
- #  NavajoWhite : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  NavajoWhite : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1077,7 +1077,7 @@
 
 
 ---  
- #  Navy : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Navy : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1087,7 +1087,7 @@
 
 
 ---  
- #  OldLace : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  OldLace : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1097,7 +1097,7 @@
 
 
 ---  
- #  Olive : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Olive : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1107,7 +1107,7 @@
 
 
 ---  
- #  OliveDrab : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  OliveDrab : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1117,7 +1117,7 @@
 
 
 ---  
- #  Orange : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Orange : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1127,7 +1127,7 @@
 
 
 ---  
- #  OrangeRed : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  OrangeRed : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1137,7 +1137,7 @@
 
 
 ---  
- #  Orchid : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Orchid : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1147,7 +1147,7 @@
 
 
 ---  
- #  PaleGoldenrod : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  PaleGoldenrod : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1157,7 +1157,7 @@
 
 
 ---  
- #  PaleGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  PaleGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1167,7 +1167,7 @@
 
 
 ---  
- #  PaleTurquoise : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  PaleTurquoise : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1177,7 +1177,7 @@
 
 
 ---  
- #  PaleVioletRed : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  PaleVioletRed : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1187,7 +1187,7 @@
 
 
 ---  
- #  PapayaWhip : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  PapayaWhip : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1197,7 +1197,7 @@
 
 
 ---  
- #  PeachPuff : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  PeachPuff : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1207,7 +1207,7 @@
 
 
 ---  
- #  Peru : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Peru : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1217,7 +1217,7 @@
 
 
 ---  
- #  Pink : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Pink : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1227,7 +1227,7 @@
 
 
 ---  
- #  Plum : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Plum : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1237,7 +1237,7 @@
 
 
 ---  
- #  PowderBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  PowderBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1247,7 +1247,7 @@
 
 
 ---  
- #  Purple : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Purple : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1257,7 +1257,7 @@
 
 
 ---  
- #  RebeccaPurple : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  RebeccaPurple : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1267,7 +1267,7 @@
 
 
 ---  
- #  Red : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Red : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1277,7 +1277,7 @@
 
 
 ---  
- #  RosyBrown : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  RosyBrown : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1287,7 +1287,7 @@
 
 
 ---  
- #  RoyalBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  RoyalBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1297,7 +1297,7 @@
 
 
 ---  
- #  SaddleBrown : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SaddleBrown : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1307,7 +1307,7 @@
 
 
 ---  
- #  Salmon : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Salmon : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1317,7 +1317,7 @@
 
 
 ---  
- #  SandyBrown : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SandyBrown : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1327,7 +1327,7 @@
 
 
 ---  
- #  SeaGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SeaGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1337,7 +1337,7 @@
 
 
 ---  
- #  Seashell : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Seashell : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1347,7 +1347,7 @@
 
 
 ---  
- #  Sienna : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Sienna : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1357,7 +1357,7 @@
 
 
 ---  
- #  Silver : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Silver : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1367,7 +1367,7 @@
 
 
 ---  
- #  SkyBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SkyBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1377,7 +1377,7 @@
 
 
 ---  
- #  SlateBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SlateBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1387,7 +1387,7 @@
 
 
 ---  
- #  SlateGray : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SlateGray : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1397,7 +1397,7 @@
 
 
 ---  
- #  Snow : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Snow : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1407,7 +1407,7 @@
 
 
 ---  
- #  SpringGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SpringGreen : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1417,7 +1417,7 @@
 
 
 ---  
- #  SteelBlue : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SteelBlue : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1427,7 +1427,7 @@
 
 
 ---  
- #  Tan : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Tan : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1437,7 +1437,7 @@
 
 
 ---  
- #  Teal : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Teal : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1447,7 +1447,7 @@
 
 
 ---  
- #  Thistle : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Thistle : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1457,7 +1457,7 @@
 
 
 ---  
- #  Tomato : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Tomato : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1467,7 +1467,7 @@
 
 
 ---  
- #  Turquoise : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Turquoise : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1477,7 +1477,7 @@
 
 
 ---  
- #  Violet : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Violet : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1487,7 +1487,7 @@
 
 
 ---  
- #  Wheat : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Wheat : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1497,7 +1497,7 @@
 
 
 ---  
- #  White : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  White : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1507,7 +1507,7 @@
 
 
 ---  
- #  WhiteSmoke : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  WhiteSmoke : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1517,7 +1517,7 @@
 
 
 ---  
- #  Yellow : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  Yellow : [real4](real4.md)
 
  `read-only` `static`
 
@@ -1527,7 +1527,7 @@
 
 
 ---  
- #  YellowGreen : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  YellowGreen : [real4](real4.md)
 
  `read-only` `static`
 

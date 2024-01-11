@@ -6,23 +6,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Toggle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md#toggle-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)|[basicdirectioneffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicdirectioneffect.md)|
-| |[ DebugDrawEffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md#debugdraweffect-zilch-eng)| |[basicpointeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md)|
-| |[ EffectType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md#effecttype-zilch-engine-d)| |[buoyancyeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buoyancyeffect.md)|
-| |[ WakeUpOnChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md#wakeuponchange-zilch-engi)| |[customphysicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/customphysicseffect.md)|
-| | | |[drageffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/drageffect.md)|
-| | | |[floweffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/floweffect.md)|
-| | | |[thrusteffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/thrusteffect.md)|
-| | | |[torqueeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/torqueeffect.md)|
-| | | |[vortexeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vortexeffect.md)|
-| | | |[windeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windeffect.md)|
+|[ Toggle](physicseffect.md#toggle-void)|[ Active](physicseffect.md#active-zilch-engine-docum)|[component](component.md)|[basicdirectioneffect](basicdirectioneffect.md)|
+| |[ DebugDrawEffect](physicseffect.md#debugdraweffect-zilch-eng)| |[basicpointeffect](basicpointeffect.md)|
+| |[ EffectType](physicseffect.md#effecttype-zilch-engine-d)| |[buoyancyeffect](buoyancyeffect.md)|
+| |[ WakeUpOnChange](physicseffect.md#wakeuponchange-zilch-engi)| |[customphysicseffect](customphysicseffect.md)|
+| | | |[drageffect](drageffect.md)|
+| | | |[floweffect](floweffect.md)|
+| | | |[thrusteffect](thrusteffect.md)|
+| | | |[torqueeffect](torqueeffect.md)|
+| | | |[vortexeffect](vortexeffect.md)|
+| | | |[windeffect](windeffect.md)|
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Enable/disable this effect.
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  DebugDrawEffect : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DebugDrawEffect : [boolean](../nada_base_types/boolean.md)
 
 > Should the effect debug draw.
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  EffectType : [PhysicsEffectType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicseffecttype)
+ #  EffectType : [PhysicsEffectType](../enum_reference.md#physicseffecttype)
 
  `read-only`
 
@@ -48,7 +48,7 @@
 
 
 ---  
- #  WakeUpOnChange : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  WakeUpOnChange : [boolean](../nada_base_types/boolean.md)
 
 > Whether the object associated with this is woken up when any property is changed.
 > ``` lang=cpp, name=Nada

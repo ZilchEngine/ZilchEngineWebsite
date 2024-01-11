@@ -6,71 +6,71 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ActiveConvergenceWeight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#activeconvergenceweight)|[dataresource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/dataresource.md)| |
-| |[ BasicNetType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#basicnettype-zilch-engine)| | |
-| |[ ConvergenceInterval](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#convergenceinterval-zero)| | |
-| |[ DeltaThresholdDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholddoubleinte)| | |
-| |[ DeltaThresholdDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholddoublereal)| | |
-| |[ DeltaThresholdInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdinteger-ze)| | |
-| |[ DeltaThresholdInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdinteger2-z)| | |
-| |[ DeltaThresholdInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdinteger3-z)| | |
-| |[ DeltaThresholdInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdinteger4-z)| | |
-| |[ DeltaThresholdQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdquaternion)| | |
-| |[ DeltaThresholdReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdreal-zero)| | |
-| |[ DeltaThresholdReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdreal2-zero)| | |
-| |[ DeltaThresholdReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdreal3-zero)| | |
-| |[ DeltaThresholdReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#deltathresholdreal4-zero)| | |
-| |[ EventOnConvergenceStateChange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#eventonconvergencestatec)| | |
-| |[ ExtrapolationLimit](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#extrapolationlimit-zero)| | |
-| |[ InterpolationCurve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#interpolationcurve-zero)| | |
-| |[ QuantizationRangeMaxDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxdoub)| | |
-| |[ QuantizationRangeMaxDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxdoub)| | |
-| |[ QuantizationRangeMaxInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxquat)| | |
-| |[ QuantizationRangeMaxReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMaxReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMaxReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMaxReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMinDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemindoub)| | |
-| |[ QuantizationRangeMinDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemindoub)| | |
-| |[ QuantizationRangeMinInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangeminquat)| | |
-| |[ QuantizationRangeMinReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ QuantizationRangeMinReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ QuantizationRangeMinReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ QuantizationRangeMinReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ RestingConvergenceDuration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#restingconvergencedurati)| | |
-| |[ SampleTimeOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#sampletimeoffset-zilch-en)| | |
-| |[ SerializationMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#serializationmode-zilch-e)| | |
-| |[ SnapThresholdDoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholddoubleinteg)| | |
-| |[ SnapThresholdDoubleReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholddoublereal)| | |
-| |[ SnapThresholdInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdinteger-zer)| | |
-| |[ SnapThresholdInteger2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdinteger2-ze)| | |
-| |[ SnapThresholdInteger3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdinteger3-ze)| | |
-| |[ SnapThresholdInteger4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdinteger4-ze)| | |
-| |[ SnapThresholdQuaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdquaternion)| | |
-| |[ SnapThresholdReal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdreal-zilch-e)| | |
-| |[ SnapThresholdReal2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdreal2-zero)| | |
-| |[ SnapThresholdReal3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdreal3-zero)| | |
-| |[ SnapThresholdReal4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#snapthresholdreal4-zero)| | |
-| |[ UseConvergence](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#useconvergence-zilch-engi)| | |
-| |[ UseDeltaThreshold](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#usedeltathreshold-zilch-e)| | |
-| |[ UseHalfFloats](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#usehalffloats-zilch-engin)| | |
-| |[ UseInterpolation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#useinterpolation-zilch-en)| | |
-| |[ UseQuantization](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertyconfig.md#usequantization-zilch-eng)| | |
+| |[ ActiveConvergenceWeight](netpropertyconfig.md#activeconvergenceweight)|[dataresource](dataresource.md)| |
+| |[ BasicNetType](netpropertyconfig.md#basicnettype-zilch-engine)| | |
+| |[ ConvergenceInterval](netpropertyconfig.md#convergenceinterval-zero)| | |
+| |[ DeltaThresholdDoubleInteger](netpropertyconfig.md#deltathresholddoubleinte)| | |
+| |[ DeltaThresholdDoubleReal](netpropertyconfig.md#deltathresholddoublereal)| | |
+| |[ DeltaThresholdInteger](netpropertyconfig.md#deltathresholdinteger-ze)| | |
+| |[ DeltaThresholdInteger2](netpropertyconfig.md#deltathresholdinteger2-z)| | |
+| |[ DeltaThresholdInteger3](netpropertyconfig.md#deltathresholdinteger3-z)| | |
+| |[ DeltaThresholdInteger4](netpropertyconfig.md#deltathresholdinteger4-z)| | |
+| |[ DeltaThresholdQuaternion](netpropertyconfig.md#deltathresholdquaternion)| | |
+| |[ DeltaThresholdReal](netpropertyconfig.md#deltathresholdreal-zero)| | |
+| |[ DeltaThresholdReal2](netpropertyconfig.md#deltathresholdreal2-zero)| | |
+| |[ DeltaThresholdReal3](netpropertyconfig.md#deltathresholdreal3-zero)| | |
+| |[ DeltaThresholdReal4](netpropertyconfig.md#deltathresholdreal4-zero)| | |
+| |[ EventOnConvergenceStateChange](netpropertyconfig.md#eventonconvergencestatec)| | |
+| |[ ExtrapolationLimit](netpropertyconfig.md#extrapolationlimit-zero)| | |
+| |[ InterpolationCurve](netpropertyconfig.md#interpolationcurve-zero)| | |
+| |[ QuantizationRangeMaxDoubleInteger](netpropertyconfig.md#quantizationrangemaxdoub)| | |
+| |[ QuantizationRangeMaxDoubleReal](netpropertyconfig.md#quantizationrangemaxdoub)| | |
+| |[ QuantizationRangeMaxInteger](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[ QuantizationRangeMaxInteger2](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[ QuantizationRangeMaxInteger3](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[ QuantizationRangeMaxInteger4](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[ QuantizationRangeMaxQuaternion](netpropertyconfig.md#quantizationrangemaxquat)| | |
+| |[ QuantizationRangeMaxReal](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[ QuantizationRangeMaxReal2](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[ QuantizationRangeMaxReal3](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[ QuantizationRangeMaxReal4](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[ QuantizationRangeMinDoubleInteger](netpropertyconfig.md#quantizationrangemindoub)| | |
+| |[ QuantizationRangeMinDoubleReal](netpropertyconfig.md#quantizationrangemindoub)| | |
+| |[ QuantizationRangeMinInteger](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[ QuantizationRangeMinInteger2](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[ QuantizationRangeMinInteger3](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[ QuantizationRangeMinInteger4](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[ QuantizationRangeMinQuaternion](netpropertyconfig.md#quantizationrangeminquat)| | |
+| |[ QuantizationRangeMinReal](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[ QuantizationRangeMinReal2](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[ QuantizationRangeMinReal3](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[ QuantizationRangeMinReal4](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[ RestingConvergenceDuration](netpropertyconfig.md#restingconvergencedurati)| | |
+| |[ SampleTimeOffset](netpropertyconfig.md#sampletimeoffset-zilch-en)| | |
+| |[ SerializationMode](netpropertyconfig.md#serializationmode-zilch-e)| | |
+| |[ SnapThresholdDoubleInteger](netpropertyconfig.md#snapthresholddoubleinteg)| | |
+| |[ SnapThresholdDoubleReal](netpropertyconfig.md#snapthresholddoublereal)| | |
+| |[ SnapThresholdInteger](netpropertyconfig.md#snapthresholdinteger-zer)| | |
+| |[ SnapThresholdInteger2](netpropertyconfig.md#snapthresholdinteger2-ze)| | |
+| |[ SnapThresholdInteger3](netpropertyconfig.md#snapthresholdinteger3-ze)| | |
+| |[ SnapThresholdInteger4](netpropertyconfig.md#snapthresholdinteger4-ze)| | |
+| |[ SnapThresholdQuaternion](netpropertyconfig.md#snapthresholdquaternion)| | |
+| |[ SnapThresholdReal](netpropertyconfig.md#snapthresholdreal-zilch-e)| | |
+| |[ SnapThresholdReal2](netpropertyconfig.md#snapthresholdreal2-zero)| | |
+| |[ SnapThresholdReal3](netpropertyconfig.md#snapthresholdreal3-zero)| | |
+| |[ SnapThresholdReal4](netpropertyconfig.md#snapthresholdreal4-zero)| | |
+| |[ UseConvergence](netpropertyconfig.md#useconvergence-zilch-engi)| | |
+| |[ UseDeltaThreshold](netpropertyconfig.md#usedeltathreshold-zilch-e)| | |
+| |[ UseHalfFloats](netpropertyconfig.md#usehalffloats-zilch-engin)| | |
+| |[ UseInterpolation](netpropertyconfig.md#useinterpolation-zilch-en)| | |
+| |[ UseQuantization](netpropertyconfig.md#usequantization-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  ActiveConvergenceWeight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ActiveConvergenceWeight : [real](../nada_base_types/real.md)
 
 > Active convergence weight applied every convergence interval.
 > ``` lang=cpp, name=Nada
@@ -78,7 +78,7 @@
 
 
 ---  
- #  BasicNetType : [BasicNetType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#basicnettype)
+ #  BasicNetType : [BasicNetType](../enum_reference.md#basicnettype)
 
 > Target basic property type.
 > ``` lang=cpp, name=Nada
@@ -86,7 +86,7 @@
 
 
 ---  
- #  ConvergenceInterval : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  ConvergenceInterval : [integer](../nada_base_types/integer.md)
 
 > Convergence interval.
 > ``` lang=cpp, name=Nada
@@ -94,7 +94,7 @@
 
 
 ---  
- #  DeltaThresholdDoubleInteger : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  DeltaThresholdDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -102,7 +102,7 @@
 
 
 ---  
- #  DeltaThresholdDoubleReal : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  DeltaThresholdDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -110,7 +110,7 @@
 
 
 ---  
- #  DeltaThresholdInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  DeltaThresholdInteger : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -118,7 +118,7 @@
 
 
 ---  
- #  DeltaThresholdInteger2 : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  DeltaThresholdInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -126,7 +126,7 @@
 
 
 ---  
- #  DeltaThresholdInteger3 : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  DeltaThresholdInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -134,7 +134,7 @@
 
 
 ---  
- #  DeltaThresholdInteger4 : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  DeltaThresholdInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -142,7 +142,7 @@
 
 
 ---  
- #  DeltaThresholdQuaternion : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  DeltaThresholdQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -150,7 +150,7 @@
 
 
 ---  
- #  DeltaThresholdReal : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  DeltaThresholdReal : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -158,7 +158,7 @@
 
 
 ---  
- #  DeltaThresholdReal2 : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  DeltaThresholdReal2 : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -166,7 +166,7 @@
 
 
 ---  
- #  DeltaThresholdReal3 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  DeltaThresholdReal3 : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -174,7 +174,7 @@
 
 
 ---  
- #  DeltaThresholdReal4 : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  DeltaThresholdReal4 : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -182,7 +182,7 @@
 
 
 ---  
- #  EventOnConvergenceStateChange : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  EventOnConvergenceStateChange : [boolean](../nada_base_types/boolean.md)
 
 > Event on convergence state change?
 > ``` lang=cpp, name=Nada
@@ -190,7 +190,7 @@
 
 
 ---  
- #  ExtrapolationLimit : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ExtrapolationLimit : [real](../nada_base_types/real.md)
 
 > Extrapolation time limit.
 > ``` lang=cpp, name=Nada
@@ -198,7 +198,7 @@
 
 
 ---  
- #  InterpolationCurve : [CurveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#curvetype)
+ #  InterpolationCurve : [CurveType](../enum_reference.md#curvetype)
 
 > Interpolation curve type.
 > ``` lang=cpp, name=Nada
@@ -206,7 +206,7 @@
 
 
 ---  
- #  QuantizationRangeMaxDoubleInteger : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  QuantizationRangeMaxDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -214,7 +214,7 @@
 
 
 ---  
- #  QuantizationRangeMaxDoubleReal : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  QuantizationRangeMaxDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -222,7 +222,7 @@
 
 
 ---  
- #  QuantizationRangeMaxInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  QuantizationRangeMaxInteger : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -230,7 +230,7 @@
 
 
 ---  
- #  QuantizationRangeMaxInteger2 : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  QuantizationRangeMaxInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -238,7 +238,7 @@
 
 
 ---  
- #  QuantizationRangeMaxInteger3 : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  QuantizationRangeMaxInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -246,7 +246,7 @@
 
 
 ---  
- #  QuantizationRangeMaxInteger4 : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  QuantizationRangeMaxInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -254,7 +254,7 @@
 
 
 ---  
- #  QuantizationRangeMaxQuaternion : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  QuantizationRangeMaxQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -262,7 +262,7 @@
 
 
 ---  
- #  QuantizationRangeMaxReal : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  QuantizationRangeMaxReal : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -270,7 +270,7 @@
 
 
 ---  
- #  QuantizationRangeMaxReal2 : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  QuantizationRangeMaxReal2 : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -278,7 +278,7 @@
 
 
 ---  
- #  QuantizationRangeMaxReal3 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  QuantizationRangeMaxReal3 : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -286,7 +286,7 @@
 
 
 ---  
- #  QuantizationRangeMaxReal4 : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  QuantizationRangeMaxReal4 : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -294,7 +294,7 @@
 
 
 ---  
- #  QuantizationRangeMinDoubleInteger : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  QuantizationRangeMinDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -302,7 +302,7 @@
 
 
 ---  
- #  QuantizationRangeMinDoubleReal : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  QuantizationRangeMinDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -310,7 +310,7 @@
 
 
 ---  
- #  QuantizationRangeMinInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  QuantizationRangeMinInteger : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -318,7 +318,7 @@
 
 
 ---  
- #  QuantizationRangeMinInteger2 : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  QuantizationRangeMinInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -326,7 +326,7 @@
 
 
 ---  
- #  QuantizationRangeMinInteger3 : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  QuantizationRangeMinInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -334,7 +334,7 @@
 
 
 ---  
- #  QuantizationRangeMinInteger4 : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  QuantizationRangeMinInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -342,7 +342,7 @@
 
 
 ---  
- #  QuantizationRangeMinQuaternion : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  QuantizationRangeMinQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -350,7 +350,7 @@
 
 
 ---  
- #  QuantizationRangeMinReal : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  QuantizationRangeMinReal : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -358,7 +358,7 @@
 
 
 ---  
- #  QuantizationRangeMinReal2 : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  QuantizationRangeMinReal2 : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -366,7 +366,7 @@
 
 
 ---  
- #  QuantizationRangeMinReal3 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  QuantizationRangeMinReal3 : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -374,7 +374,7 @@
 
 
 ---  
- #  QuantizationRangeMinReal4 : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  QuantizationRangeMinReal4 : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -382,7 +382,7 @@
 
 
 ---  
- #  RestingConvergenceDuration : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RestingConvergenceDuration : [real](../nada_base_types/real.md)
 
 > Resting convergence duration handled every convergence interval.
 > ``` lang=cpp, name=Nada
@@ -390,7 +390,7 @@
 
 
 ---  
- #  SampleTimeOffset : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SampleTimeOffset : [real](../nada_base_types/real.md)
 
 > Sample time offset from now.
 > ``` lang=cpp, name=Nada
@@ -398,7 +398,7 @@
 
 
 ---  
- #  SerializationMode : [SerializationMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#serializationmode)
+ #  SerializationMode : [SerializationMode](../enum_reference.md#serializationmode)
 
 > Serialization mode.
 > ``` lang=cpp, name=Nada
@@ -406,7 +406,7 @@
 
 
 ---  
- #  SnapThresholdDoubleInteger : [doubleinteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md)
+ #  SnapThresholdDoubleInteger : [doubleinteger](../nada_base_types/doubleinteger.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -414,7 +414,7 @@
 
 
 ---  
- #  SnapThresholdDoubleReal : [doublereal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doublereal.md)
+ #  SnapThresholdDoubleReal : [doublereal](../nada_base_types/doublereal.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -422,7 +422,7 @@
 
 
 ---  
- #  SnapThresholdInteger : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SnapThresholdInteger : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -430,7 +430,7 @@
 
 
 ---  
- #  SnapThresholdInteger2 : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  SnapThresholdInteger2 : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -438,7 +438,7 @@
 
 
 ---  
- #  SnapThresholdInteger3 : [integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md)
+ #  SnapThresholdInteger3 : [integer3](../nada_base_types/integer3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -446,7 +446,7 @@
 
 
 ---  
- #  SnapThresholdInteger4 : [integer4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer4.md)
+ #  SnapThresholdInteger4 : [integer4](../nada_base_types/integer4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -454,7 +454,7 @@
 
 
 ---  
- #  SnapThresholdQuaternion : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  SnapThresholdQuaternion : [quaternion](../nada_base_types/quaternion.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -462,7 +462,7 @@
 
 
 ---  
- #  SnapThresholdReal : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SnapThresholdReal : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -470,7 +470,7 @@
 
 
 ---  
- #  SnapThresholdReal2 : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  SnapThresholdReal2 : [real2](../nada_base_types/real2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -478,7 +478,7 @@
 
 
 ---  
- #  SnapThresholdReal3 : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  SnapThresholdReal3 : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -486,7 +486,7 @@
 
 
 ---  
- #  SnapThresholdReal4 : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  SnapThresholdReal4 : [real4](../nada_base_types/real4.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -494,7 +494,7 @@
 
 
 ---  
- #  UseConvergence : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseConvergence : [boolean](../nada_base_types/boolean.md)
 
 > Use convergence?
 > ``` lang=cpp, name=Nada
@@ -502,7 +502,7 @@
 
 
 ---  
- #  UseDeltaThreshold : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseDeltaThreshold : [boolean](../nada_base_types/boolean.md)
 
 > Use delta threshold?
 > ``` lang=cpp, name=Nada
@@ -510,7 +510,7 @@
 
 
 ---  
- #  UseHalfFloats : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseHalfFloats : [boolean](../nada_base_types/boolean.md)
 
 > Use half floats?
 > ``` lang=cpp, name=Nada
@@ -518,7 +518,7 @@
 
 
 ---  
- #  UseInterpolation : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseInterpolation : [boolean](../nada_base_types/boolean.md)
 
 > Use interpolation?
 > ``` lang=cpp, name=Nada
@@ -526,7 +526,7 @@
 
 
 ---  
- #  UseQuantization : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseQuantization : [boolean](../nada_base_types/boolean.md)
 
 > Use quantization?
 > ``` lang=cpp, name=Nada

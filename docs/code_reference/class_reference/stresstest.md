@@ -2,33 +2,33 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AddComponents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#addcomponents-zilch-engin)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-| |[ ChangeSelection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#changeselection-zilch-eng)| | |
-| |[ ChangeTools](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#changetools-zilch-engine)| | |
-| |[ CreateObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#createobjects-zilch-engin)| | |
-| |[ DestroyObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#destroyobjects-zilch-engi)| | |
-| |[ Frames](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#frames-zilch-engine-docum)| | |
-| |[ KeyEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#keyevents-zilch-engine-do)| | |
-| |[ LogFile](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#logfile-zilch-engine-docu)| | |
-| |[ MouseEvents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#mouseevents-zilch-engine)| | |
-| |[ ParentObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#parentobjects-zilch-engin)| | |
-| |[ RayCasts](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#raycasts-zilch-engine-doc)| | |
-| |[ Redo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#redo-zilch-engine-documen)| | |
-| |[ RemoveComponents](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#removecomponents-zilch-en)| | |
-| |[ Seed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#seed-zilch-engine-documen)| | |
-| |[ SetProperties](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#setproperties-zilch-engin)| | |
-| |[ StartGameInstances](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#startgameinstances-zero)| | |
-| |[ StopGameInstances](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#stopgameinstances-zilch-e)| | |
-| |[ SwitchViewports](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#switchviewports-zilch-eng)| | |
-| |[ Undo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#undo-zilch-engine-documen)| | |
-| |[ UnparentObjects](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/stresstest.md#unparentobjects-zilch-eng)| | |
+| |[ AddComponents](stresstest.md#addcomponents-zilch-engin)|[eventobject](eventobject.md)| |
+| |[ ChangeSelection](stresstest.md#changeselection-zilch-eng)| | |
+| |[ ChangeTools](stresstest.md#changetools-zilch-engine)| | |
+| |[ CreateObjects](stresstest.md#createobjects-zilch-engin)| | |
+| |[ DestroyObjects](stresstest.md#destroyobjects-zilch-engi)| | |
+| |[ Frames](stresstest.md#frames-zilch-engine-docum)| | |
+| |[ KeyEvents](stresstest.md#keyevents-zilch-engine-do)| | |
+| |[ LogFile](stresstest.md#logfile-zilch-engine-docu)| | |
+| |[ MouseEvents](stresstest.md#mouseevents-zilch-engine)| | |
+| |[ ParentObjects](stresstest.md#parentobjects-zilch-engin)| | |
+| |[ RayCasts](stresstest.md#raycasts-zilch-engine-doc)| | |
+| |[ Redo](stresstest.md#redo-zilch-engine-documen)| | |
+| |[ RemoveComponents](stresstest.md#removecomponents-zilch-en)| | |
+| |[ Seed](stresstest.md#seed-zilch-engine-documen)| | |
+| |[ SetProperties](stresstest.md#setproperties-zilch-engin)| | |
+| |[ StartGameInstances](stresstest.md#startgameinstances-zero)| | |
+| |[ StopGameInstances](stresstest.md#stopgameinstances-zilch-e)| | |
+| |[ SwitchViewports](stresstest.md#switchviewports-zilch-eng)| | |
+| |[ Undo](stresstest.md#undo-zilch-engine-documen)| | |
+| |[ UnparentObjects](stresstest.md#unparentobjects-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  AddComponents : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AddComponents : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  ChangeSelection : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ChangeSelection : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  ChangeTools : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ChangeTools : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -52,7 +52,7 @@
 
 
 ---  
- #  CreateObjects : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CreateObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -60,7 +60,7 @@
 
 
 ---  
- #  DestroyObjects : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DestroyObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -68,7 +68,7 @@
 
 
 ---  
- #  Frames : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Frames : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -76,7 +76,7 @@
 
 
 ---  
- #  KeyEvents : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  KeyEvents : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -84,7 +84,7 @@
 
 
 ---  
- #  LogFile : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  LogFile : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -92,7 +92,7 @@
 
 
 ---  
- #  MouseEvents : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MouseEvents : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -100,7 +100,7 @@
 
 
 ---  
- #  ParentObjects : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ParentObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -108,7 +108,7 @@
 
 
 ---  
- #  RayCasts : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RayCasts : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -116,7 +116,7 @@
 
 
 ---  
- #  Redo : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Redo : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -124,7 +124,7 @@
 
 
 ---  
- #  RemoveComponents : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveComponents : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -132,7 +132,7 @@
 
 
 ---  
- #  Seed : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Seed : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -140,7 +140,7 @@
 
 
 ---  
- #  SetProperties : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SetProperties : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -148,7 +148,7 @@
 
 
 ---  
- #  StartGameInstances : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  StartGameInstances : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -156,7 +156,7 @@
 
 
 ---  
- #  StopGameInstances : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  StopGameInstances : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -164,7 +164,7 @@
 
 
 ---  
- #  SwitchViewports : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SwitchViewports : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -172,7 +172,7 @@
 
 
 ---  
- #  Undo : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Undo : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -180,7 +180,7 @@
 
 
 ---  
- #  UnparentObjects : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UnparentObjects : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

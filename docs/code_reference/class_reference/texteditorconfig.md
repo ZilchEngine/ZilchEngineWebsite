@@ -4,25 +4,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#texteditorconfig-void)|[ AutoCompleteOnEnter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#autocompleteonenter-zero)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ CodeFolding](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#codefolding-zilch-engine)| | |
-| |[ ColorScheme](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#colorscheme-zilch-engine)| | |
-| |[ ConfidentAutoCompleteOnSymbols](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#confidentautocompleteons)| | |
-| |[ FontSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#fontsize-zilch-engine-doc)| | |
-| |[ HighlightPartialTextMatch](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#highlightpartialtextmatc)| | |
-| |[ KeywordAndTypeCompletion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#keywordandtypecompletion)| | |
-| |[ LineNumbers](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#linenumbers-zilch-engine)| | |
-| |[ LocalWordCompletion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#localwordcompletion-zero)| | |
-| |[ ShowWhiteSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#showwhitespace-zilch-engi)| | |
-| |[ TabWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#tabwidth-zilch-engine-doc)| | |
-| |[ TextMatchHighlighting](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/texteditorconfig.md#textmatchhighlighting-ze)| | |
+|[ Constructor](texteditorconfig.md#texteditorconfig-void)|[ AutoCompleteOnEnter](texteditorconfig.md#autocompleteonenter-zero)|[component](component.md)| |
+| |[ CodeFolding](texteditorconfig.md#codefolding-zilch-engine)| | |
+| |[ ColorScheme](texteditorconfig.md#colorscheme-zilch-engine)| | |
+| |[ ConfidentAutoCompleteOnSymbols](texteditorconfig.md#confidentautocompleteons)| | |
+| |[ FontSize](texteditorconfig.md#fontsize-zilch-engine-doc)| | |
+| |[ HighlightPartialTextMatch](texteditorconfig.md#highlightpartialtextmatc)| | |
+| |[ KeywordAndTypeCompletion](texteditorconfig.md#keywordandtypecompletion)| | |
+| |[ LineNumbers](texteditorconfig.md#linenumbers-zilch-engine)| | |
+| |[ LocalWordCompletion](texteditorconfig.md#localwordcompletion-zero)| | |
+| |[ ShowWhiteSpace](texteditorconfig.md#showwhitespace-zilch-engi)| | |
+| |[ TabWidth](texteditorconfig.md#tabwidth-zilch-engine-doc)| | |
+| |[ TextMatchHighlighting](texteditorconfig.md#textmatchhighlighting-ze)| | |
 
 
  #  Properties
 
 
 ---  
- #  AutoCompleteOnEnter : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoCompleteOnEnter : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  CodeFolding : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  CodeFolding : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  ColorScheme : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ColorScheme : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -46,7 +46,7 @@
 
 
 ---  
- #  ConfidentAutoCompleteOnSymbols : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ConfidentAutoCompleteOnSymbols : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -54,7 +54,7 @@
 
 
 ---  
- #  FontSize : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FontSize : [integer](../nada_base_types/integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -62,7 +62,7 @@
 
 
 ---  
- #  HighlightPartialTextMatch : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HighlightPartialTextMatch : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -70,7 +70,7 @@
 
 
 ---  
- #  KeywordAndTypeCompletion : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  KeywordAndTypeCompletion : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -78,7 +78,7 @@
 
 
 ---  
- #  LineNumbers : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LineNumbers : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -86,7 +86,7 @@
 
 
 ---  
- #  LocalWordCompletion : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  LocalWordCompletion : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -94,7 +94,7 @@
 
 
 ---  
- #  ShowWhiteSpace : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowWhiteSpace : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -102,7 +102,7 @@
 
 
 ---  
- #  TabWidth : [TabWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#tabwidth)
+ #  TabWidth : [TabWidth](../enum_reference.md#tabwidth)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -110,7 +110,7 @@
 
 
 ---  
- #  TextMatchHighlighting : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  TextMatchHighlighting : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

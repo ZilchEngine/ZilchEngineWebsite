@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/unittestmouseevent.md#unittestmouseevent-void)| |UnitTestBaseMouseEvent| |
+|[ Constructor](unittestmouseevent.md#unittestmouseevent-void)| |UnitTestBaseMouseEvent| |
 
 
  #  Properties

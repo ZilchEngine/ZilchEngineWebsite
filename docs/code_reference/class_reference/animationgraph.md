@@ -6,22 +6,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#animationgraph-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ CreateBasicNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#createbasicnode-zilch-eng)|[ ActiveNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#activenode-zilch-engine-d)| | |
-|[ CreateChainNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#createchainnode-zilch-eng)|[ TimeScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#timescale-zilch-engine-do)| | |
-|[ CreateCrossBlendNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#createcrossblendnode-zer)| | | |
-|[ CreateDirectBlendNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#createdirectblendnode-ze)| | | |
-|[ CreateSelectiveNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#createselectivenode-zero)| | | |
-|[ IsPlayingInGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#isplayingingraph-zilch-en)| | | |
-|[ PrintGraph](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#printgraph-void)| | | |
-|[ Update](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationgraph.md#update-void)| | | |
+|[ Constructor](animationgraph.md#animationgraph-void)|[ Active](animationgraph.md#active-zilch-engine-docum)|[component](component.md)| |
+|[ CreateBasicNode](animationgraph.md#createbasicnode-zilch-eng)|[ ActiveNode](animationgraph.md#activenode-zilch-engine-d)| | |
+|[ CreateChainNode](animationgraph.md#createchainnode-zilch-eng)|[ TimeScale](animationgraph.md#timescale-zilch-engine-do)| | |
+|[ CreateCrossBlendNode](animationgraph.md#createcrossblendnode-zer)| | | |
+|[ CreateDirectBlendNode](animationgraph.md#createdirectblendnode-ze)| | | |
+|[ CreateSelectiveNode](animationgraph.md#createselectivenode-zero)| | | |
+|[ IsPlayingInGraph](animationgraph.md#isplayingingraph-zilch-en)| | | |
+|[ PrintGraph](animationgraph.md#printgraph-void)| | | |
+|[ Update](animationgraph.md#update-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > Is the animGraph animating?
 > ``` lang=cpp, name=Nada
@@ -29,7 +29,7 @@
 
 
 ---  
- #  ActiveNode : [animationnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animationnode.md)
+ #  ActiveNode : [animationnode](animationnode.md)
 
 > The current root animation node.
 > ``` lang=cpp, name=Nada
@@ -37,7 +37,7 @@
 
 
 ---  
- #  TimeScale : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  TimeScale : [real](../nada_base_types/real.md)
 
 > A scalar to the entire animation graph.
 > ``` lang=cpp, name=Nada
@@ -62,20 +62,20 @@
 
 
 ---  
- #  CreateBasicNode : [basicanimation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicanimation.md)
+ #  CreateBasicNode : [basicanimation](basicanimation.md)
 
 > Node creation functions.
 > |Name|Type|Description|
 > |---|---|---|
-> |animation|[animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.md)| |
-> |mode|[AnimationPlayMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#animationplaymode)| |
+> |animation|[animation](animation.md)| |
+> |mode|[AnimationPlayMode](../enum_reference.md#animationplaymode)| |
 > ``` lang=cpp, name=Nada
 > function CreateBasicNode(animation : Animation, mode : AnimationPlayMode) : BasicAnimation
 > ``` 
 
 
 ---  
- #  CreateChainNode : [chainnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/chainnode.md)
+ #  CreateChainNode : [chainnode](chainnode.md)
 
 > 
 > |Name|Type|Description|
@@ -86,7 +86,7 @@
 
 
 ---  
- #  CreateCrossBlendNode : [crossblend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/crossblend.md)
+ #  CreateCrossBlendNode : [crossblend](crossblend.md)
 
 > 
 > |Name|Type|Description|
@@ -97,7 +97,7 @@
 
 
 ---  
- #  CreateDirectBlendNode : [directblend](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/directblend.md)
+ #  CreateDirectBlendNode : [directblend](directblend.md)
 
 > 
 > |Name|Type|Description|
@@ -108,7 +108,7 @@
 
 
 ---  
- #  CreateSelectiveNode : [selectivenode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/selectivenode.md)
+ #  CreateSelectiveNode : [selectivenode](selectivenode.md)
 
 > 
 > |Name|Type|Description|
@@ -119,12 +119,12 @@
 
 
 ---  
- #  IsPlayingInGraph : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsPlayingInGraph : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |animation|[animation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.md)| |
+> |animation|[animation](animation.md)| |
 > ``` lang=cpp, name=Nada
 > function IsPlayingInGraph(animation : Animation) : Boolean
 > ``` 
@@ -147,7 +147,7 @@
 > Updates the root node on each from and applies it to the object tree.
 > |Name|Type|Description|
 > |---|---|---|
-> |dt|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |dt|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function Update(dt : Real)
 > ``` 

@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Duration](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/animation.md#duration-zilch-engine-doc)|Resource| |
+| |[ Duration](animation.md#duration-zilch-engine-doc)|Resource| |
 
 
  #  Properties
 
 
 ---  
- #  Duration : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Duration : [real](../nada_base_types/real.md)
 
  `read-only`
 

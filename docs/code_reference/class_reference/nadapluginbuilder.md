@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/nadapluginbuilder.md#nadapluginbuilder-void)| |[databuilder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/databuilder.md)| |
+|[ Constructor](nadapluginbuilder.md#nadapluginbuilder-void)| |[databuilder](databuilder.md)| |
 
 
  #  Properties

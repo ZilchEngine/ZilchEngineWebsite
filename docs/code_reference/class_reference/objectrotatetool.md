@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.md#objectrotatetool-void)|[ AffectRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.md#affectrotation-zilch-engi)|[objecttransformtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objecttransformtool.md)| |
-| |[ AffectTranslation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.md#affecttranslation-zilch-e)| | |
-| |[ SnapAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.md#snapangle-zilch-engine-do)| | |
-| |[ Snapping](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectrotatetool.md#snapping-zilch-engine-doc)| | |
+|[ Constructor](objectrotatetool.md#objectrotatetool-void)|[ AffectRotation](objectrotatetool.md#affectrotation-zilch-engi)|[objecttransformtool](objecttransformtool.md)| |
+| |[ AffectTranslation](objectrotatetool.md#affecttranslation-zilch-e)| | |
+| |[ SnapAngle](objectrotatetool.md#snapangle-zilch-engine-do)| | |
+| |[ Snapping](objectrotatetool.md#snapping-zilch-engine-doc)| | |
 
 
  #  Properties
 
 
 ---  
- #  AffectRotation : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AffectRotation : [boolean](../nada_base_types/boolean.md)
 
 > With multiple objects selected, allow their local rotation to be affected while being spacially-rotated (with 'AffectTranslation') about the chosen pivot point.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  AffectTranslation : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AffectTranslation : [boolean](../nada_base_types/boolean.md)
 
 > With multiple objects selected, allow their spacial-offest to be rotated about the chosen pivot point, while being locally rotated with 'mAffectRotation'.
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  SnapAngle : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SnapAngle : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  Snapping : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Snapping : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

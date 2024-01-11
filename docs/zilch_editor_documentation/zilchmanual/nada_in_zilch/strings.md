@@ -1,4 +1,4 @@
-[ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md) is a Nada type used to represent text as a sequence of characters.
+[ String](../../../code_reference/nada_base_types/string.md) is a Nada type used to represent text as a sequence of characters.
 
  #  Making Strings
 
@@ -66,7 +66,7 @@ Odd base-ten digits:  1 3 5 7 9
 
 Note that strings in Nada are **immutable**, which means they cannot be altered after they have been created. Thus, strictly speaking, no true *appending* takes place. In the above code block, where it appears that `evenDigits` is being appended via string interpolation, a new string is actually created using the previous value of `evenDigits` and the value of `i`, and that new string is assigned back to the `evenDigits` variable.
 
-(NOTE) Since this means of string appending involves the creation of another new string each time it occurs, it is less efficient than using a [ StringBuilder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.md), which is intended for just this purpose. In certain situations, such as a deeply nested loop, this performance difference may be significant.
+(NOTE) Since this means of string appending involves the creation of another new string each time it occurs, it is less efficient than using a [ StringBuilder](../../../code_reference/nada_base_types/stringbuilder.md), which is intended for just this purpose. In certain situations, such as a deeply nested loop, this performance difference may be significant.
 
  #  Escape Sequences
 
@@ -112,7 +112,7 @@ BEWARE
 
  #  Strings and StringRanges
 
-[ StringRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringrange.md) is a separate but related class to **String**. It is an iterable range that can be used in a [ For Each loop](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/looping.md#for-each-loop). A string can be **implicitly cast** to StringRange, so a string can be passed into any function that expects a StringRange. However, a StringRange *cannot* be implicitly cast to String:
+[ StringRange](../../../code_reference/nada_base_types/stringrange.md) is a separate but related class to **String**. It is an iterable range that can be used in a [ For Each loop](looping.md#for-each-loop). A string can be **implicitly cast** to StringRange, so a string can be passed into any function that expects a StringRange. However, a StringRange *cannot* be implicitly cast to String:
 
 ```lang=csharp, name=String and StringRange Implicit Casting Examples
   var string = "";
@@ -127,11 +127,11 @@ BEWARE
 
  #  Static String Functions
 
-[ As with all static functions](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/attributes.md#static), the static functions of the String class are not invoked from instances of the class, but instead are found in the String namespace itself.
+[ As with all static functions](attributes.md#static), the static functions of the String class are not invoked from instances of the class, but instead are found in the String namespace itself.
 
  ##  Compare
 
-[ Compare](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#compare-zilch-engine-docu) returns an Integer indicating the *relative sort order* of the two given strings; that is, whether one string would be sorted before another when comparing the character codes of the two strings:
+[ Compare](../../../code_reference/nada_base_types/string.md#compare-zilch-engine-docu) returns an Integer indicating the *relative sort order* of the two given strings; that is, whether one string would be sorted before another when comparing the character codes of the two strings:
 
 ```lang=csharp, name=Relative Sort Order Example
 var str0 = "abc";
@@ -162,7 +162,7 @@ Console.WriteLine(String.Compare(str0, str2));
 1
 ```
 
-This method is handy for sorting arrays of strings. [ Sort](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.md#sort-void) is an [ Array](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t.md) method that sorts an array in place using a given comparison function:
+This method is handy for sorting arrays of strings. [ Sort](../../../code_reference/nada_base_types/array_t.md#sort-void) is an [ Array](../../../code_reference/nada_base_types/array_t.md) method that sorts an array in place using a given comparison function:
 
 ```lang=csharp, name=Compare Sort Example
 var strings = Array[String]();
@@ -185,7 +185,7 @@ Console.WriteLine(strings);
 
  ##  Concatenate
 
-[ Concatenate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#concatenate-zilch-engine) can be used to join two existing strings:
+[ Concatenate](../../../code_reference/nada_base_types/string.md#concatenate-zilch-engine) can be used to join two existing strings:
 
 ```lang=csharp, name=Concatenate Example
 Console.WriteLine(String.Concatenate("exa", "mple"));
@@ -196,7 +196,7 @@ example
 
  ##  FormatC
 
-[ FormatC](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#formatc-zilch-engine-docu) produces a string using C-style string formatting syntax:
+[ FormatC](../../../code_reference/nada_base_types/string.md#formatc-zilch-engine-docu) produces a string using C-style string formatting syntax:
 
 ```lang=csharp, name=FormatC Example
 var score = 12340;
@@ -217,7 +217,7 @@ Hull integrity at 67.19 percent
 
  ##  FromRune
 
-[ FromRune](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#fromrune-zilch-engine-doc) returns a one-character string that consists of the given rune, which can either be passed in directly, or be specified by its code point:
+[ FromRune](../../../code_reference/nada_base_types/string.md#fromrune-zilch-engine-doc) returns a one-character string that consists of the given rune, which can either be passed in directly, or be specified by its code point:
 
 ```lang=csharp, name=FromRune Example
 Console.WriteLine(String.FromRune(65));
@@ -230,7 +230,7 @@ Z
 
  ##  IsNullOrEmpty and IsNullOrWhitespace
 
-[ IsNullOrEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#isnullorempty-zilch-engin) returns true if the given string is either **null** or the empty string, `""`, and false otherwise. [ IsNullOrWhitespace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#isnullorwhitespace-zero) works just the same way, except that it also returns true if the given string consists only of **whitespace** characters:
+[ IsNullOrEmpty](../../../code_reference/nada_base_types/string.md#isnullorempty-zilch-engin) returns true if the given string is either **null** or the empty string, `""`, and false otherwise. [ IsNullOrWhitespace](../../../code_reference/nada_base_types/string.md#isnullorwhitespace-zero) works just the same way, except that it also returns true if the given string consists only of **whitespace** characters:
 
 ```lang=csharp, name=IsNullOrWhitespace Example
 Console.WriteLine(String.IsNullOrWhitespace("  \n  \t  "));
@@ -241,7 +241,7 @@ true
 
  ##  Join
 
-[ Join](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#join-zilch-engine-documen) combines two, three, or four strings into one, placing a given separator string between them in the result:
+[ Join](../../../code_reference/nada_base_types/string.md#join-zilch-engine-documen) combines two, three, or four strings into one, placing a given separator string between them in the result:
 
 ```lang=csharp, name=Join Example
 var word0 = "Eeny";
@@ -259,7 +259,7 @@ Eeny, Meeny, Miney, Moe
 
  ##  All
 
-[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#all-zilch-engine-document) converts the string into a StringRange. In Nada, strings can be implicitly cast to StringRanges, so it is typically not necessary to use this property:
+[ All](../../../code_reference/nada_base_types/string.md#all-zilch-engine-document) converts the string into a StringRange. In Nada, strings can be implicitly cast to StringRanges, so it is typically not necessary to use this property:
 
 ```lang=csharp, name=All Example
 // Contains takes a StringRange
@@ -273,7 +273,7 @@ true
 
  ##  Begin and End
 
-[ Begin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#begin-zilch-engine-docume) gets the RuneIterator at the start of the string, and [ End](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#end-zilch-engine-document) gets the RuneIterator at the end of it:
+[ Begin](../../../code_reference/nada_base_types/string.md#begin-zilch-engine-docume) gets the RuneIterator at the start of the string, and [ End](../../../code_reference/nada_base_types/string.md#end-zilch-engine-document) gets the RuneIterator at the end of it:
 
 ```lang=csharp, name=Begin and End Example
 var fileName = "SnowLevel.Analytics.gamedata";
@@ -289,7 +289,7 @@ gamedata
 
  ##  ByteCount and Count
 
-[ ByteCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#bytecount-zilch-engine-do) gets the number of bytes in the string. For a string that contains one or more characters outside of the ASCII range, this will be different from the number of runes represented by the string (see [ComputeRuneCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings/.md#computerunecount) below). Consider the following code example, attached to a cog that has a SpriteText component whose Text property is set to the French word //gar�on//:
+[ ByteCount](../../../code_reference/nada_base_types/string.md#bytecount-zilch-engine-do) gets the number of bytes in the string. For a string that contains one or more characters outside of the ASCII range, this will be different from the number of runes represented by the string (see [ComputeRuneCount](strings/.md#computerunecount) below). Consider the following code example, attached to a cog that has a SpriteText component whose Text property is set to the French word //gar�on//:
 
 ```lang=csharp, name=ByteCount Example
 var englishString = "string";
@@ -303,11 +303,11 @@ The English string has 6 bytes
 The French string has 7 bytes
 ```
 
-The [ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#count-zilch-engine-docume) property gets the same value as **ByteCount**, and exists for legacy purposes.
+The [ Count](../../../code_reference/nada_base_types/string.md#count-zilch-engine-docume) property gets the same value as **ByteCount**, and exists for legacy purposes.
 
  ##  Empty and IsNotEmpty
 
-[ Empty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#empty-zilch-engine-docume) gets whether the string contains any characters at all:
+[ Empty](../../../code_reference/nada_base_types/string.md#empty-zilch-engine-docume) gets whether the string contains any characters at all:
 
 ```lang=csharp, name=Empty Example
 var userNameInput = "";
@@ -321,7 +321,7 @@ else
 Please enter a name.
 ```
 
-[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#isnotempty-zilch-engine-d) is always the exact opposite of **Empty**.
+[ IsNotEmpty](../../../code_reference/nada_base_types/string.md#isnotempty-zilch-engine-d) is always the exact opposite of **Empty**.
 
  #  String Methods
 
@@ -336,11 +336,11 @@ HELLO WORLD
 
  ##  CompareTo
 
-A string's [ CompareTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#compareto-zilch-engine-do) method returns an Integer indicating its relative sort order when compared with a given StringRange. It works much like the static [Compare](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings/.md#compare) function seen above, except that it compares a given StringRange to the string on which this method is being invoked.
+A string's [ CompareTo](../../../code_reference/nada_base_types/string.md#compareto-zilch-engine-do) method returns an Integer indicating its relative sort order when compared with a given StringRange. It works much like the static [Compare](strings/.md#compare) function seen above, except that it compares a given StringRange to the string on which this method is being invoked.
 
  ##  ComputeRuneCount
 
-The [ ComputeRuneCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#computerunecount-zilch-en) method calculates the number of runes represented by the string by iterating through it from its [Begin iterator to its End](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings/.md#begin-and-end). As noted [above](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings/.md#bytecount-and-count), a string that contains one or more characters outside of the ASCII range will have a different rune count from its byte count:
+The [ ComputeRuneCount](../../../code_reference/nada_base_types/string.md#computerunecount-zilch-en) method calculates the number of runes represented by the string by iterating through it from its [Begin iterator to its End](strings/.md#begin-and-end). As noted [above](strings/.md#bytecount-and-count), a string that contains one or more characters outside of the ASCII range will have a different rune count from its byte count:
 
 ```lang=csharp, name=ComputeRuneCount Example
 var englishString = "string";
@@ -356,7 +356,7 @@ The French string has 6 runes
 
  ##  Contains
 
-The [ Contains](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#contains-zilch-engine-doc) method checks whether a string contains a given substring:
+The [ Contains](../../../code_reference/nada_base_types/string.md#contains-zilch-engine-doc) method checks whether a string contains a given substring:
 
 ```lang=csharp, name=Contains Example
 var sentence = "DR. COSMO: \"I'm looking for a person named Brianna.\"";
@@ -379,7 +379,7 @@ As this example shows, **Contains** is case-sensitive, but it does *not* match o
 
  ##  EndsWith and StartsWith
 
-The [ EndsWith](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#endswith-zilch-engine-doc) method checks whether a string ends with a given substring:
+The [ EndsWith](../../../code_reference/nada_base_types/string.md#endswith-zilch-engine-doc) method checks whether a string ends with a given substring:
 
 ```lang=csharp, name=EndsWith Example
 var fileNameToOpen = "DesertLevel.Analytics.gamedata";
@@ -395,11 +395,11 @@ else
 Opening DesertLevel.Analytics.gamedata....
 ```
 
-The [ StartsWith](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#startswith-zilch-engine-d) method works the same way, except that it checks the beginning of the string instead the end.
+The [ StartsWith](../../../code_reference/nada_base_types/string.md#startswith-zilch-engine-d) method works the same way, except that it checks the beginning of the string instead the end.
 
  ##  Replace
 
-The [ Replace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#replace-zilch-engine-docu) method returns a new string, with all occurrences of a given old substring replaced with a given new substring:
+The [ Replace](../../../code_reference/nada_base_types/string.md#replace-zilch-engine-docu) method returns a new string, with all occurrences of a given old substring replaced with a given new substring:
 
 ```lang=csharp, name=Replace Example
 var dialogueFromFile = "Oh, [HERO_NAME]! Your friend [VILLAIN_NAME] was looking for you.";
@@ -418,7 +418,7 @@ Oh, Brianna! Your friend Dr. Cosmo was looking for you.
 
  ##  Split
 
-The [ Split](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#split-zilch-engine-docume) method scans a string for a given delimiter StringRange of one or more characters. The substrings that were found separated by occurrences of that delimiter, if any, are returned as an iterable range. The delimiter itself is not present in the split results:
+The [ Split](../../../code_reference/nada_base_types/string.md#split-zilch-engine-docume) method scans a string for a given delimiter StringRange of one or more characters. The substrings that were found separated by occurrences of that delimiter, if any, are returned as an iterable range. The delimiter itself is not present in the split results:
 
 ```lang=csharp, name=Split Example
 var dataFromFile = "0,0,2,0,5,4,1,1,0,0,0,1,1,3,5,1";
@@ -437,11 +437,11 @@ Console.WriteLine("Data Total: `total`");
 Data Total: 24
 ```
 
-NOTE: [ Parse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md#parse-zilch-engine-docume) is a static [ Integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md) function. It takes a StringRange and interprets it as if it were an Integer, and returns that value. Equivalent static functions exist in other classes, such as [ Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md), [ DoubleInteger](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/doubleinteger.md), etc.
+NOTE: [ Parse](../../../code_reference/nada_base_types/integer.md#parse-zilch-engine-docume) is a static [ Integer](../../../code_reference/nada_base_types/integer.md) function. It takes a StringRange and interprets it as if it were an Integer, and returns that value. Equivalent static functions exist in other classes, such as [ Real](../../../code_reference/nada_base_types/real.md), [ DoubleInteger](../../../code_reference/nada_base_types/doubleinteger.md), etc.
 
  ##  SubString, SubStringBytes, and SubStringFromRuneIndices
 
-The [ SubString](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#substring-zilch-engine-do) method returns the snippet of a string that is bounded by the two given RuneIterators. This may be the entire string itself, or it may be a smaller portion thereof:
+The [ SubString](../../../code_reference/nada_base_types/string.md#substring-zilch-engine-do) method returns the snippet of a string that is bounded by the two given RuneIterators. This may be the entire string itself, or it may be a smaller portion thereof:
 
 ```lang=csharp, name=SubString Example
 var name = "The Evil Dr. Cosmo";
@@ -468,12 +468,12 @@ Console.WriteLine(revisedName);
 The Handsome but Misunderstood Dr. Eugene Cosmo IV
 ```
 
- - See also [FindFirstOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings/.md#findfirstof)
- - See also [FindLastOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/strings/.md#findfirstof)
+ - See also [FindFirstOf](strings/.md#findfirstof)
+ - See also [FindLastOf](strings/.md#findfirstof)
 
 Besides **SubString**, there are two other String methods that return substrings:
 
-- [ SubStringBytes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#substringbytes-zilch-engi) returns a string's substring that starts at the given byte index and runs for the given byte length:
+- [ SubStringBytes](../../../code_reference/nada_base_types/string.md#substringbytes-zilch-engi) returns a string's substring that starts at the given byte index and runs for the given byte length:
 
 ```lang=csharp, name=SubStringBytes Example
 var str = "abcdefghij";
@@ -490,7 +490,7 @@ defgh
 
 IMPORTANT: A string that contains characters that are outside of the ASCII range will not have a matching rune count and byte count. Using **SubStringBytes** on such a string may produce undesired behavior.
 
-- [ SubStringFromRuneIndices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#substringfromruneindices) returns a string's substring that starts at the given starting rune index and ends one past the given ending rune index:
+- [ SubStringFromRuneIndices](../../../code_reference/nada_base_types/string.md#substringfromruneindices) returns a string's substring that starts at the given starting rune index and ends one past the given ending rune index:
 
 ```lang=csharp, name=SubStringFromRuneIndices Example
 var str = "abcdefghij";
@@ -507,7 +507,7 @@ NOTE: Finding a given rune by its index requires a linear search through a strin
 
  ##  ToLower and ToUpper
 
-The [ ToLower](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#tolower-zilch-engine-docu) method returns a copy of the original string with all of its letters converted to lowercase. Any character that is not an uppercase alphabetical character is unchanged:
+The [ ToLower](../../../code_reference/nada_base_types/string.md#tolower-zilch-engine-docu) method returns a copy of the original string with all of its letters converted to lowercase. Any character that is not an uppercase alphabetical character is unchanged:
 
 ```lang=csharp, name=ToLower Example
 var sentence = "gEt ReKT scRUb";
@@ -524,7 +524,7 @@ else
 You have been reported for bad manners.
 ```
 
-The [ ToUpper](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#toupper-zilch-engine-docu) method is just like ToLower, except that it converts letters to uppercase:
+The [ ToUpper](../../../code_reference/nada_base_types/string.md#toupper-zilch-engine-docu) method is just like ToLower, except that it converts letters to uppercase:
 
 ```lang=csharp, name=ToUpper Example
 var name = "Johnny";
@@ -538,7 +538,7 @@ JOHNNY: "This is Johnny."
 
  ##  Trim, TrimEnd, and TrimStart
 
-The [ Trim](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#trim-zilch-engine-documen) method returns a copy of the original string with all of its whitespace characters removed from its beginning and end:
+The [ Trim](../../../code_reference/nada_base_types/string.md#trim-zilch-engine-documen) method returns a copy of the original string with all of its whitespace characters removed from its beginning and end:
 
 ```lang=csharp, name=Trim Example
 var untrimmedID = "    f08b47e1            ";
@@ -552,18 +552,18 @@ Your ID is     f08b47e1            . Write it down.
 Your ID is f08b47e1. Write it down.
 ```
 
-[ TrimEnd](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#trimend-zilch-engine-docu) and [ TrimStart](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md#trimstart-zilch-engine-do) work just the same as **Trim**, except that **TrimEnd** only trims whitespace characters from the end of the string, and **TrimStart** only trims from the start of the string.
+[ TrimEnd](../../../code_reference/nada_base_types/string.md#trimend-zilch-engine-docu) and [ TrimStart](../../../code_reference/nada_base_types/string.md#trimstart-zilch-engine-do) work just the same as **Trim**, except that **TrimEnd** only trims whitespace characters from the end of the string, and **TrimStart** only trims from the start of the string.
 
  #  Related Materials
  ##  Manual
-- [ Looping](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/looping.md)
+- [ Looping](looping.md)
 
  ##  Code Reference
-- [ String](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
-- [ StringRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringrange.md)
-- [ StringBuilder](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringbuilder.md)
-- [ StringSplitRange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/stringsplitrange.md)
-- [ Rune](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.md)
-- [ RuneIterator](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/runeiterator.md) 
+- [ String](../../../code_reference/nada_base_types/string.md)
+- [ StringRange](../../../code_reference/nada_base_types/stringrange.md)
+- [ StringBuilder](../../../code_reference/nada_base_types/stringbuilder.md)
+- [ StringSplitRange](../../../code_reference/nada_base_types/stringsplitrange.md)
+- [ Rune](../../../code_reference/nada_base_types/rune.md)
+- [ RuneIterator](../../../code_reference/nada_base_types/runeiterator.md) 
 
  

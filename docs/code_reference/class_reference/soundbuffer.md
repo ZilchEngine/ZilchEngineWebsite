@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddMicUncompressedData](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md#addmicuncompresseddata-v)|[ SampleCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md#samplecount-zilch-engine)|[referencecountedobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/referencecountedobject.md)| |
-|[ AddSampleToBuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md#addsampletobuffer-void)| | | |
-|[ GetSampleAtIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md#getsampleatindex-zilch-en)| | | |
-|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundbuffer.md#reset-void)| | | |
+|[ AddMicUncompressedData](soundbuffer.md#addmicuncompresseddata-v)|[ SampleCount](soundbuffer.md#samplecount-zilch-engine)|[referencecountedobject](referencecountedobject.md)| |
+|[ AddSampleToBuffer](soundbuffer.md#addsampletobuffer-void)| | | |
+|[ GetSampleAtIndex](soundbuffer.md#getsampleatindex-zilch-en)| | | |
+|[ Reset](soundbuffer.md#reset-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  SampleCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  SampleCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> ||Array[[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)]| |
+> ||Array[[real](../nada_base_types/real.md)]| |
 > ``` lang=cpp, name=Nada
 > function AddMicUncompressedData( : Array[Real])
 > ``` 
@@ -45,19 +45,19 @@
 > Adds a new audio sample to the end of the buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |sample|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |sample|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function AddSampleToBuffer(sample : Real)
 > ``` 
 
 
 ---  
- #  GetSampleAtIndex : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GetSampleAtIndex : [real](../nada_base_types/real.md)
 
 > Returns the sample at a specific index from the beginning of the buffer.
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](../nada_base_types/integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetSampleAtIndex(index : Integer) : Real
 > ``` 

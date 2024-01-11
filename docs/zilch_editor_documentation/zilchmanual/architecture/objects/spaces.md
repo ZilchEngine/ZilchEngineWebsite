@@ -1,10 +1,10 @@
-[Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md) is the infinite three-dimensional extent in which objects and events have relative position and direction. It consists of 3 dimensional axes and time.
+[Space](../../../../code_reference/class_reference/space.md) is the infinite three-dimensional extent in which objects and events have relative position and direction. It consists of 3 dimensional axes and time.
 
 Spaces in the Zilch Engine are containers for game objects. When a level is loaded, all the game objects from that level are put into a space. Also, when you create a game object in code, you must put it into a space, usually the same one that the level was loaded into. In a simple game you only have one space, which is where all your game objects go. Each space has its own instances of the core systems of the engine: graphics, physics, etc. Because of this, game objects in two different spaces will not collide or otherwise physically interact. Game objects in different spaces are rendered separately, but can be layered, such as when using one space for level game objects and another for UI game objects. Creating a separate space for UI game objects is one of the most common uses of multiple spaces in a game.
 
  # Using the Space
  ## Creating a Space
-You can create a space through the [GameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/objects/gamesession.md) object.
+You can create a space through the [GameSession](gamesession.md) object.
 
 ```
     class SpaceCreator : NadaComponent
@@ -72,7 +72,7 @@ n some games you may have multiple spaces in order to implement certain features
  # Space Components
 Spaces have special space components that can not be removed. These are core engine components for containing different aspects of the game objects like physics, graphics, and sound.
 
-Spaces are stored as [Archetypes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes.md) and can be modified to change the properties of a space.
+Spaces are stored as [Archetypes](../archetypes.md) and can be modified to change the properties of a space.
 
 To access the space of the current level Press: 
 
@@ -101,23 +101,23 @@ NOTE: The ReactiveSpace component is deprecated and changes made to it will have
 
 | Event Name                | Type                       | Description                                                         |
 |---------------------------|----------------------------|---------------------------------------------------------------------|
-| PhysicsUpdateFinished     | [objectevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/objectevent.md) | Dispatched immediately after physics has finished updating.         |
-| LogicUpdate               | [updateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/updateevent.md) | Dispatched after the major systems's updates (doesn't run in editor)|
-| FrameUpdate               | [updateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/updateevent.md) | Dispatched after the engine update. Runs in editor.                 |
+| PhysicsUpdateFinished     | [objectevent](../../../code_reference/class_reference/objectevent.md) | Dispatched immediately after physics has finished updating.         |
+| LogicUpdate               | [updateevent](../../../code_reference/class_reference/updateevent.md) | Dispatched after the major systems's updates (doesn't run in editor)|
+| FrameUpdate               | [updateevent](../../../code_reference/class_reference/updateevent.md) | Dispatched after the engine update. Runs in editor.                 |
 
 ---
 
  # Related Materials
  ## Manual
-- [Archetypes](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/archetypes.md)
-- [GameSession object](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/objects/gamesession.md)
+- [Archetypes](../archetypes.md)
+- [GameSession object](gamesession.md)
  ## Code Reference
-- [timespace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/timespace.md)
-- [graphicsspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/graphicsspace.md)
-- [physicsspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicsspace.md)
-- [soundspace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundspace.md)
-- [objectevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/objectevent.md)
-- [updateevent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference/class_reference/updateevent.md)
+- [timespace](../../../../code_reference/class_reference/timespace.md)
+- [graphicsspace](../../../../code_reference/class_reference/graphicsspace.md)
+- [physicsspace](../../physics/physicsspace.md)
+- [soundspace](../../audio/soundspace.md)
+- [objectevent](../../../code_reference/class_reference/objectevent.md)
+- [updateevent](../../../code_reference/class_reference/updateevent.md)
  
 
  

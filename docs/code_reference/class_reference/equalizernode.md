@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateAllBands](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md#interpolateallbands-void)|[ Band1Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md#band1gain-zilch-engine-do)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-| |[ Band2Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md#band2gain-zilch-engine-do)| | |
-| |[ Band3Gain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md#band3gain-zilch-engine-do)| | |
-| |[ HighPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md#highpassgain-zilch-engine)| | |
-| |[ LowPassGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/equalizernode.md#lowpassgain-zilch-engine)| | |
+|[ InterpolateAllBands](equalizernode.md#interpolateallbands-void)|[ Band1Gain](equalizernode.md#band1gain-zilch-engine-do)|[soundnode](soundnode.md)| |
+| |[ Band2Gain](equalizernode.md#band2gain-zilch-engine-do)| | |
+| |[ Band3Gain](equalizernode.md#band3gain-zilch-engine-do)| | |
+| |[ HighPassGain](equalizernode.md#highpassgain-zilch-engine)| | |
+| |[ LowPassGain](equalizernode.md#lowpassgain-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Band1Gain : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Band1Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 150 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  Band2Gain : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Band2Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 600 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Band3Gain : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Band3Gain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies within the band centered at 2500 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  HighPassGain : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  HighPassGain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies above 5000 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  LowPassGain : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LowPassGain : [real](../nada_base_types/real.md)
 
 > The volume adjustment applied to frequencies below 80 Hz in the node's input. Values above 1.0 will boost these frequencies while values less than 1.0 will reduce them.
 > ``` lang=cpp, name=Nada
@@ -64,12 +64,12 @@
 > Sets the volume adjustment of all bands (the parameters in order are low pass, band 1, band 2, band 3, high pass) over the number of seconds passed in as the final parameter.
 > |Name|Type|Description|
 > |---|---|---|
-> |lowPass|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |band1|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |band2|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |band3|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |highPass|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |timeToInterpolate|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |lowPass|[real](../nada_base_types/real.md)| |
+> |band1|[real](../nada_base_types/real.md)| |
+> |band2|[real](../nada_base_types/real.md)| |
+> |band3|[real](../nada_base_types/real.md)| |
+> |highPass|[real](../nada_base_types/real.md)| |
+> |timeToInterpolate|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function InterpolateAllBands(lowPass : Real, band1 : Real, band2 : Real, band3 : Real, highPass : Real, timeToInterpolate : Real)
 > ``` 

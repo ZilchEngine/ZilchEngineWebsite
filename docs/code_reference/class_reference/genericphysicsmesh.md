@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ UpdateAndNotifyIfModified](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.md#updateandnotifyifmodifie)|[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.md#indices-zilch-engine-docu)|Resource|[convexmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/convexmesh.md)|
-|[ Validate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.md#validate-zilch-engine-doc)|[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/genericphysicsmesh.md#vertices-zilch-engine-doc)| |[physicsmesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmesh.md)|
+|[ UpdateAndNotifyIfModified](genericphysicsmesh.md#updateandnotifyifmodifie)|[ Indices](genericphysicsmesh.md#indices-zilch-engine-docu)|Resource|[convexmesh](convexmesh.md)|
+|[ Validate](genericphysicsmesh.md#validate-zilch-engine-doc)|[ Vertices](genericphysicsmesh.md#vertices-zilch-engine-doc)| |[physicsmesh](physicsmesh.md)|
 
 
  #  Properties
 
 
 ---  
- #  Indices : [physicsmeshindexdata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshindexdata.md)
+ #  Indices : [physicsmeshindexdata](physicsmeshindexdata.md)
 
  `read-only`
 
@@ -24,7 +24,7 @@
 
 
 ---  
- #  Vertices : [physicsmeshvertexdata](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsmeshvertexdata.md)
+ #  Vertices : [physicsmeshvertexdata](physicsmeshvertexdata.md)
 
  `read-only`
 
@@ -49,12 +49,12 @@
 
 
 ---  
- #  Validate : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Validate : [boolean](../nada_base_types/boolean.md)
 
 > Check if the mesh is valid. Optionally throw a script exception if it is invalid.
 > |Name|Type|Description|
 > |---|---|---|
-> |throwExceptionIfInvalid|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |throwExceptionIfInvalid|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Validate(throwExceptionIfInvalid : Boolean) : Boolean
 > ``` 

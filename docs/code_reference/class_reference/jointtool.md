@@ -4,21 +4,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#jointtool-void)|[ AttachToCommonParent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#attachtocommonparent-zer)|[objectconnectingtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectconnectingtool.md)| |
-| |[ AttachToWorld](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#attachtoworld-zilch-engin)| | |
-| |[ AutoSnaps](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#autosnaps-zilch-engine-do)| | |
-| |[ JointType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#jointtype-zilch-engine-do)| | |
-| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#length-zilch-engine-docum)| | |
-| |[ MaxImpulse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#maximpulse-zilch-engine-d)| | |
-| |[ OverrideLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#overridelength-zilch-engi)| | |
-| |[ UseCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointtool.md#usecenter-zilch-engine-do)| | |
+|[ Constructor](jointtool.md#jointtool-void)|[ AttachToCommonParent](jointtool.md#attachtocommonparent-zer)|[objectconnectingtool](objectconnectingtool.md)| |
+| |[ AttachToWorld](jointtool.md#attachtoworld-zilch-engin)| | |
+| |[ AutoSnaps](jointtool.md#autosnaps-zilch-engine-do)| | |
+| |[ JointType](jointtool.md#jointtype-zilch-engine-do)| | |
+| |[ Length](jointtool.md#length-zilch-engine-docum)| | |
+| |[ MaxImpulse](jointtool.md#maximpulse-zilch-engine-d)| | |
+| |[ OverrideLength](jointtool.md#overridelength-zilch-engi)| | |
+| |[ UseCenter](jointtool.md#usecenter-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  AttachToCommonParent : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AttachToCommonParent : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -26,7 +26,7 @@
 
 
 ---  
- #  AttachToWorld : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AttachToWorld : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -34,7 +34,7 @@
 
 
 ---  
- #  AutoSnaps : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  AutoSnaps : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -42,7 +42,7 @@
 
 
 ---  
- #  JointType : [JointToolTypes](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#jointtooltypes)
+ #  JointType : [JointToolTypes](../enum_reference.md#jointtooltypes)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -50,7 +50,7 @@
 
 
 ---  
- #  Length : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Length : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -58,7 +58,7 @@
 
 
 ---  
- #  MaxImpulse : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxImpulse : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -66,7 +66,7 @@
 
 
 ---  
- #  OverrideLength : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  OverrideLength : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -74,7 +74,7 @@
 
 
 ---  
- #  UseCenter : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  UseCenter : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

@@ -4,20 +4,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#blendsettings-void)|[ BlendEquation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#blendequation-zilch-engin)| | |
-| |[ BlendEquationAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#blendequationalpha-zero)| | |
-| |[ BlendMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#blendmode-zilch-engine-do)| | |
-| |[ DestFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#destfactor-zilch-engine-d)| | |
-| |[ DestFactorAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#destfactoralpha-zilch-eng)| | |
-| |[ SourceFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#sourcefactor-zilch-engine)| | |
-| |[ SourceFactorAlpha](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md#sourcefactoralpha-zilch-e)| | |
+|[ Constructor](blendsettings.md#blendsettings-void)|[ BlendEquation](blendsettings.md#blendequation-zilch-engin)| | |
+| |[ BlendEquationAlpha](blendsettings.md#blendequationalpha-zero)| | |
+| |[ BlendMode](blendsettings.md#blendmode-zilch-engine-do)| | |
+| |[ DestFactor](blendsettings.md#destfactor-zilch-engine-d)| | |
+| |[ DestFactorAlpha](blendsettings.md#destfactoralpha-zilch-eng)| | |
+| |[ SourceFactor](blendsettings.md#sourcefactor-zilch-engine)| | |
+| |[ SourceFactorAlpha](blendsettings.md#sourcefactoralpha-zilch-e)| | |
 
 
  #  Properties
 
 
 ---  
- #  BlendEquation : [BlendEquation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#blendequation)
+ #  BlendEquation : [BlendEquation](../enum_reference.md#blendequation)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  BlendEquationAlpha : [BlendEquation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#blendequation)
+ #  BlendEquationAlpha : [BlendEquation](../enum_reference.md#blendequation)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  BlendMode : [BlendMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#blendmode)
+ #  BlendMode : [BlendMode](../enum_reference.md#blendmode)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  DestFactor : [BlendFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#blendfactor)
+ #  DestFactor : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  DestFactorAlpha : [BlendFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#blendfactor)
+ #  DestFactorAlpha : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  SourceFactor : [BlendFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#blendfactor)
+ #  SourceFactor : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  SourceFactorAlpha : [BlendFactor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#blendfactor)
+ #  SourceFactorAlpha : [BlendFactor](../enum_reference.md#blendfactor)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -97,7 +97,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |other|[blendsettings](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/blendsettings.md)| |
+> |other|[blendsettings](blendsettings.md)| |
 > ``` lang=cpp, name=Nada
 > function BlendSettings(other : BlendSettings)
 > ``` 

@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AdditiveCutoff](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.md#additivecutoff-zilch-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-| |[ AdditiveGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.md#additivegain-zilch-engine)| | |
-| |[ MultiplicativeCutoff](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.md#multiplicativecutoff-zer)| | |
-| |[ MultiplicativeGain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/addnoisenode.md#multiplicativegain-zero)| | |
+| |[ AdditiveCutoff](addnoisenode.md#additivecutoff-zilch-engi)|[soundnode](soundnode.md)| |
+| |[ AdditiveGain](addnoisenode.md#additivegain-zilch-engine)| | |
+| |[ MultiplicativeCutoff](addnoisenode.md#multiplicativecutoff-zer)| | |
+| |[ MultiplicativeGain](addnoisenode.md#multiplicativegain-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  AdditiveCutoff : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AdditiveCutoff : [real](../nada_base_types/real.md)
 
 > The cutoff frequency used for the additive noise component, in Hz.
 > ``` lang=cpp, name=Nada
@@ -22,7 +22,7 @@
 
 
 ---  
- #  AdditiveGain : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AdditiveGain : [real](../nada_base_types/real.md)
 
 > The gain of the additive noise component, in decibels.
 > ``` lang=cpp, name=Nada
@@ -30,7 +30,7 @@
 
 
 ---  
- #  MultiplicativeCutoff : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MultiplicativeCutoff : [real](../nada_base_types/real.md)
 
 > The cutoff frequency used for the multiplicative noise component, in Hz.
 > ``` lang=cpp, name=Nada
@@ -38,7 +38,7 @@
 
 
 ---  
- #  MultiplicativeGain : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MultiplicativeGain : [real](../nada_base_types/real.md)
 
 > The gain of the multiplicative noise component, in decibels.
 > ``` lang=cpp, name=Nada

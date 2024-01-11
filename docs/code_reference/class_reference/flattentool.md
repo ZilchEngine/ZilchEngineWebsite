@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Height](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.md#height-zilch-engine-docum)|[heightmanipulationtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/heightmanipulationtool.md)| |
-| |[ SampleNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.md#samplenormal-zilch-engine)| | |
-| |[ SampleOnMouseDown](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.md#sampleonmousedown-zilch-e)| | |
-| |[ SlopeNormal](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/flattentool.md#slopenormal-zilch-engine)| | |
+| |[ Height](flattentool.md#height-zilch-engine-docum)|[heightmanipulationtool](heightmanipulationtool.md)| |
+| |[ SampleNormal](flattentool.md#samplenormal-zilch-engine)| | |
+| |[ SampleOnMouseDown](flattentool.md#sampleonmousedown-zilch-e)| | |
+| |[ SlopeNormal](flattentool.md#slopenormal-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  Height : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Height : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  SampleNormal : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SampleNormal : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  SampleOnMouseDown : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SampleOnMouseDown : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  SlopeNormal : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  SlopeNormal : [real3](../nada_base_types/real3.md)
 
 > 
 > ``` lang=cpp, name=Nada

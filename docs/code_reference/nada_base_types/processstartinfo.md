@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#processstartinfo-void)|[ ApplicationName](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#applicationname-zilch-eng)| | |
-| |[ Arguments](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#arguments-zilch-engine-do)| | |
-| |[ RedirectStandardError](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#redirectstandarderror-ze)| | |
-| |[ RedirectStandardInput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#redirectstandardinput-ze)| | |
-| |[ RedirectStandardOutput](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#redirectstandardoutput-z)| | |
-| |[ SearchPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#searchpath-zilch-engine-d)| | |
-| |[ ShowWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#showwindow-zilch-engine-d)| | |
-| |[ WorkingDirectory](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/processstartinfo.md#workingdirectory-zilch-en)| | |
+|[ Constructor](processstartinfo.md#processstartinfo-void)|[ ApplicationName](processstartinfo.md#applicationname-zilch-eng)| | |
+| |[ Arguments](processstartinfo.md#arguments-zilch-engine-do)| | |
+| |[ RedirectStandardError](processstartinfo.md#redirectstandarderror-ze)| | |
+| |[ RedirectStandardInput](processstartinfo.md#redirectstandardinput-ze)| | |
+| |[ RedirectStandardOutput](processstartinfo.md#redirectstandardoutput-z)| | |
+| |[ SearchPath](processstartinfo.md#searchpath-zilch-engine-d)| | |
+| |[ ShowWindow](processstartinfo.md#showwindow-zilch-engine-d)| | |
+| |[ WorkingDirectory](processstartinfo.md#workingdirectory-zilch-en)| | |
 
 
  #  Properties
 
 
 ---  
- #  ApplicationName : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  ApplicationName : [string](string.md)
 
 > Name of the application to execute. No quoting of this string is necessary.
 > ``` lang=cpp, name=Nada
@@ -24,7 +24,7 @@
 
 
 ---  
- #  Arguments : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Arguments : [string](string.md)
 
 > Arguments to pass to the application.
 > ``` lang=cpp, name=Nada
@@ -32,7 +32,7 @@
 
 
 ---  
- #  RedirectStandardError : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RedirectStandardError : [boolean](boolean.md)
 
 > Whether or not we should redirect the Standard Error of the process for capturing.
 > ``` lang=cpp, name=Nada
@@ -40,7 +40,7 @@
 
 
 ---  
- #  RedirectStandardInput : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RedirectStandardInput : [boolean](boolean.md)
 
 > Whether or not we should redirect the Standard Input of the process for writing.
 > ``` lang=cpp, name=Nada
@@ -48,7 +48,7 @@
 
 
 ---  
- #  RedirectStandardOutput : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RedirectStandardOutput : [boolean](boolean.md)
 
 > Whether or not we should redirect the Standard Output of the process for capturing.
 > ``` lang=cpp, name=Nada
@@ -56,7 +56,7 @@
 
 
 ---  
- #  SearchPath : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  SearchPath : [boolean](boolean.md)
 
 > Whether or not we should search the path for the application.
 > ``` lang=cpp, name=Nada
@@ -64,7 +64,7 @@
 
 
 ---  
- #  ShowWindow : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ShowWindow : [boolean](boolean.md)
 
 > Whether or not the window of the launched application should be shown.
 > ``` lang=cpp, name=Nada
@@ -72,7 +72,7 @@
 
 
 ---  
- #  WorkingDirectory : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  WorkingDirectory : [string](string.md)
 
 > The working directory for the process to start with. No quoting of this string is necessary.
 > ``` lang=cpp, name=Nada

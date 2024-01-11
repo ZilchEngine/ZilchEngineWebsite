@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Response](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/bugreporterresponse.md#response-zilch-engine-doc)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
+| |[ Response](bugreporterresponse.md#response-zilch-engine-doc)|[event](event.md)| |
 
 
  #  Properties
 
 
 ---  
- #  Response : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Response : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada

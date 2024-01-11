@@ -6,32 +6,32 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ComputeSignedAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#computesignedangle-zero)|[ AbsoluteAngle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#absoluteangle-zilch-engin)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ DebugDrawBases](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#debugdrawbases-void)|[ DefaultOrientationBases](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#defaultorientationbases)| | |
-|[ GetLookAtDirectionRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#getlookatdirectionrotati)|[ GlobalUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#globalup-zilch-engine-doc)| | |
-|[ GetLookAtDirectionWithUpRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#getlookatdirectionwithup)|[ LocalForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#localforward-zilch-engine)| | |
-|[ GetLookAtPointRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#getlookatpointrotation-z)|[ LocalOrientationBasis](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#localorientationbasis-ze)| | |
-|[ GetLookAtPointWithUpRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#getlookatpointwithuprota)|[ LocalRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#localright-zilch-engine-d)| | |
-|[ LookAtDirection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#lookatdirection-void)|[ LocalToOrientationRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#localtoorientationrotati)| | |
-|[ LookAtDirectionWithUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#lookatdirectionwithup-vo)|[ LocalToWorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#localtoworldrotation-zer)| | |
-|[ LookAtPoint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#lookatpoint-void)|[ LocalUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#localup-zilch-engine-docu)| | |
-|[ LookAtPointWithUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#lookatpointwithup-void)|[ OrientationForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#orientationforward-zero)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#orientation-void)|[ OrientationRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#orientationright-zilch-en)| | |
-|[ SetLocalLookAtRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#setlocallookatrotation-v)|[ OrientationToLocalRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#orientationtolocalrotati)| | |
-|[ SetWorldLookAtRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#setworldlookatrotation-v)|[ OrientationToWorldRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#orientationtoworldrotati)| | |
-| |[ OrientationUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#orientationup-zilch-engin)| | |
-| |[ WorldForward](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#worldforward-zilch-engine)| | |
-| |[ WorldRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#worldright-zilch-engine-d)| | |
-| |[ WorldToLocalRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#worldtolocalrotation-zer)| | |
-| |[ WorldToOrientationRotation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#worldtoorientationrotati)| | |
-| |[ WorldUp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/orientation.md#worldup-zilch-engine-docu)| | |
+|[ ComputeSignedAngle](orientation.md#computesignedangle-zero)|[ AbsoluteAngle](orientation.md#absoluteangle-zilch-engin)|[component](component.md)| |
+|[ DebugDrawBases](orientation.md#debugdrawbases-void)|[ DefaultOrientationBases](orientation.md#defaultorientationbases)| | |
+|[ GetLookAtDirectionRotation](orientation.md#getlookatdirectionrotati)|[ GlobalUp](orientation.md#globalup-zilch-engine-doc)| | |
+|[ GetLookAtDirectionWithUpRotation](orientation.md#getlookatdirectionwithup)|[ LocalForward](orientation.md#localforward-zilch-engine)| | |
+|[ GetLookAtPointRotation](orientation.md#getlookatpointrotation-z)|[ LocalOrientationBasis](orientation.md#localorientationbasis-ze)| | |
+|[ GetLookAtPointWithUpRotation](orientation.md#getlookatpointwithuprota)|[ LocalRight](orientation.md#localright-zilch-engine-d)| | |
+|[ LookAtDirection](orientation.md#lookatdirection-void)|[ LocalToOrientationRotation](orientation.md#localtoorientationrotati)| | |
+|[ LookAtDirectionWithUp](orientation.md#lookatdirectionwithup-vo)|[ LocalToWorldRotation](orientation.md#localtoworldrotation-zer)| | |
+|[ LookAtPoint](orientation.md#lookatpoint-void)|[ LocalUp](orientation.md#localup-zilch-engine-docu)| | |
+|[ LookAtPointWithUp](orientation.md#lookatpointwithup-void)|[ OrientationForward](orientation.md#orientationforward-zero)| | |
+|[ Constructor](orientation.md#orientation-void)|[ OrientationRight](orientation.md#orientationright-zilch-en)| | |
+|[ SetLocalLookAtRotation](orientation.md#setlocallookatrotation-v)|[ OrientationToLocalRotation](orientation.md#orientationtolocalrotati)| | |
+|[ SetWorldLookAtRotation](orientation.md#setworldlookatrotation-v)|[ OrientationToWorldRotation](orientation.md#orientationtoworldrotati)| | |
+| |[ OrientationUp](orientation.md#orientationup-zilch-engin)| | |
+| |[ WorldForward](orientation.md#worldforward-zilch-engine)| | |
+| |[ WorldRight](orientation.md#worldright-zilch-engine-d)| | |
+| |[ WorldToLocalRotation](orientation.md#worldtolocalrotation-zer)| | |
+| |[ WorldToOrientationRotation](orientation.md#worldtoorientationrotati)| | |
+| |[ WorldUp](orientation.md#worldup-zilch-engine-docu)| | |
 
 
  #  Properties
 
 
 ---  
- #  AbsoluteAngle : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AbsoluteAngle : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -41,7 +41,7 @@
 
 
 ---  
- #  DefaultOrientationBases : [OrientationBases](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#orientationbases)
+ #  DefaultOrientationBases : [OrientationBases](../enum_reference.md#orientationbases)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  GlobalUp : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  GlobalUp : [real3](../nada_base_types/real3.md)
 
 > The world-space up vector to use for LookAt operations that don't take an up vector.
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  LocalForward : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalForward : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -67,7 +67,7 @@
 
 
 ---  
- #  LocalOrientationBasis : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalOrientationBasis : [quaternion](../nada_base_types/quaternion.md)
 
 > A local-space basis that represents this orientation. If you build a basis from an up of (0, 1, 0), and a forward of (0, 0, -1) then this should result in the identity rotation.
 > ``` lang=cpp, name=Nada
@@ -75,7 +75,7 @@
 
 
 ---  
- #  LocalRight : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalRight : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -85,7 +85,7 @@
 
 
 ---  
- #  LocalToOrientationRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalToOrientationRotation : [quaternion](../nada_base_types/quaternion.md)
 
  `read-only`
 
@@ -95,7 +95,7 @@
 
 
 ---  
- #  LocalToWorldRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  LocalToWorldRotation : [quaternion](../nada_base_types/quaternion.md)
 
  `read-only`
 
@@ -105,7 +105,7 @@
 
 
 ---  
- #  LocalUp : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalUp : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -115,7 +115,7 @@
 
 
 ---  
- #  OrientationForward : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  OrientationForward : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -125,7 +125,7 @@
 
 
 ---  
- #  OrientationRight : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  OrientationRight : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -135,7 +135,7 @@
 
 
 ---  
- #  OrientationToLocalRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  OrientationToLocalRotation : [quaternion](../nada_base_types/quaternion.md)
 
  `read-only`
 
@@ -145,7 +145,7 @@
 
 
 ---  
- #  OrientationToWorldRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  OrientationToWorldRotation : [quaternion](../nada_base_types/quaternion.md)
 
  `read-only`
 
@@ -155,7 +155,7 @@
 
 
 ---  
- #  OrientationUp : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  OrientationUp : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -165,7 +165,7 @@
 
 
 ---  
- #  WorldForward : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldForward : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -175,7 +175,7 @@
 
 
 ---  
- #  WorldRight : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldRight : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -185,7 +185,7 @@
 
 
 ---  
- #  WorldToLocalRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  WorldToLocalRotation : [quaternion](../nada_base_types/quaternion.md)
 
  `read-only`
 
@@ -195,7 +195,7 @@
 
 
 ---  
- #  WorldToOrientationRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  WorldToOrientationRotation : [quaternion](../nada_base_types/quaternion.md)
 
  `read-only`
 
@@ -205,7 +205,7 @@
 
 
 ---  
- #  WorldUp : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  WorldUp : [real3](../nada_base_types/real3.md)
 
  `read-only`
 
@@ -219,14 +219,14 @@
 
 
 ---  
- #  ComputeSignedAngle : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  ComputeSignedAngle : [real](../nada_base_types/real.md)
 
 > Compute the rotation angle between two vectors (in radians)
 > |Name|Type|Description|
 > |---|---|---|
-> |up|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |forward|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |newVector|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |up|[real3](../nada_base_types/real3.md)| |
+> |forward|[real3](../nada_base_types/real3.md)| |
+> |newVector|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function ComputeSignedAngle(up : Real3, forward : Real3, newVector : Real3) : Real
 > ``` 
@@ -244,50 +244,50 @@
 
 
 ---  
- #  GetLookAtDirectionRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  GetLookAtDirectionRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Gets the forward to look in the given direction. Keeps the current world up.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookDir|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookDir|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLookAtDirectionRotation(lookDir : Real3) : Quaternion
 > ``` 
 
 
 ---  
- #  GetLookAtDirectionWithUpRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  GetLookAtDirectionWithUpRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Same as GetLookAtDirectionRotation but allows the user to specify the up vector.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookDir|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |up|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookDir|[real3](../nada_base_types/real3.md)| |
+> |up|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLookAtDirectionWithUpRotation(lookDir : Real3, up : Real3) : Quaternion
 > ``` 
 
 
 ---  
- #  GetLookAtPointRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  GetLookAtPointRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Get the rotation so that the forward will look at the given point. Keeps the current world up.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLookAtPointRotation(lookPoint : Real3) : Quaternion
 > ``` 
 
 
 ---  
- #  GetLookAtPointWithUpRotation : [quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)
+ #  GetLookAtPointWithUpRotation : [quaternion](../nada_base_types/quaternion.md)
 
 > Same as GetLookAtPointRotation but allows the user to specify the up vector.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |up|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookPoint|[real3](../nada_base_types/real3.md)| |
+> |up|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function GetLookAtPointWithUpRotation(lookPoint : Real3, up : Real3) : Quaternion
 > ``` 
@@ -299,7 +299,7 @@
 > Sets the forward to look in the given direction. Keeps the current world up.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookDir|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookDir|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function LookAtDirection(lookDir : Real3)
 > ``` 
@@ -311,8 +311,8 @@
 > Same as LookAtDirection but allows the user to specify the up vector.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookDir|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |up|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookDir|[real3](../nada_base_types/real3.md)| |
+> |up|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function LookAtDirectionWithUp(lookDir : Real3, up : Real3)
 > ``` 
@@ -324,7 +324,7 @@
 > Sets the forward to look at the given point. Keeps the current world up.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookPoint|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function LookAtPoint(lookPoint : Real3)
 > ``` 
@@ -336,8 +336,8 @@
 > Same as LookAtPoint but allows the user to specify the up vector.
 > |Name|Type|Description|
 > |---|---|---|
-> |lookPoint|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
-> |up|[real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)| |
+> |lookPoint|[real3](../nada_base_types/real3.md)| |
+> |up|[real3](../nada_base_types/real3.md)| |
 > ``` lang=cpp, name=Nada
 > function LookAtPointWithUp(lookPoint : Real3, up : Real3)
 > ``` 
@@ -362,7 +362,7 @@
 > Set the transform's local rotation such that the orientation's basis vectors will be aligned with the given rotation (assumed to be a look-at rotation constructed from a right, up, and forward)
 > |Name|Type|Description|
 > |---|---|---|
-> |localLookAtRotation|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |localLookAtRotation|[quaternion](../nada_base_types/quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function SetLocalLookAtRotation(localLookAtRotation : Quaternion)
 > ``` 
@@ -374,7 +374,7 @@
 > Set the transform's world rotation such that the orientation's basis vectors will be aligned with the given rotation (assumed to be a look-at rotation constructed from a right, up, and forward)
 > |Name|Type|Description|
 > |---|---|---|
-> |worldLookAtRotation|[quaternion](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/quaternion.md)| |
+> |worldLookAtRotation|[quaternion](../nada_base_types/quaternion.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldLookAtRotation(worldLookAtRotation : Quaternion)
 > ``` 

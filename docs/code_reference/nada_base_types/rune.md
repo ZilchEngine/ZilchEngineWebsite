@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.md#rune-void)|[ Value](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/rune.md#value-zilch-engine-docume)| | |
+|[ Constructor](rune.md#rune-void)|[ Value](rune.md#value-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Value : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Value : [integer](integer.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |value|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |value|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Rune(value : Integer)
 > ``` 

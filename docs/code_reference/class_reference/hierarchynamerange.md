@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md#hierarchynamerange-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](hierarchynamerange.md#hierarchynamerange-void)|[ All](hierarchynamerange.md#all-zilch-engine-document)| | |
+|[ MoveNext](hierarchynamerange.md#movenext-void)|[ Current](hierarchynamerange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](hierarchynamerange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](hierarchynamerange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [hierarchynamerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md)
+ #  All : [hierarchynamerange](hierarchynamerange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Current : [cog](cog.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[hierarchynamerange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/hierarchynamerange.md)| |
+> |p0|[hierarchynamerange](hierarchynamerange.md)| |
 > ``` lang=cpp, name=Nada
 > function HierarchyNameRange(p0 : HierarchyNameRange)
 > ``` 

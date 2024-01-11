@@ -1,4 +1,4 @@
-The [PhysicsSolverConfig](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicssolverconfig.md) resource allows a certain level of customization in how physics solves [PhysicsSolverPositionCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicssolverpositioncor) types.
+The [PhysicsSolverConfig](../../../code_reference/class_reference/physicssolverconfig.md) resource allows a certain level of customization in how physics solves [PhysicsSolverPositionCorrection](../../../code_reference/enum_reference.md#physicssolverpositioncor) types.
 
 
 
@@ -21,7 +21,7 @@ Physics typically solves with discrete time-steps which allows position error to
 This property configures the default solving method for all constraints unless overridden as described below.
 
  #  Joint/Contact Configurations
-[JointConfigOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md) component and uses its properties. Note that this component cannot be applied to contacts. Next, the joint will check its space's PhysicsSolverConfig to see if a block for its joint type exists. If this block exists then it'll use the specified values. Finally, any global fallback values will be used such as the position correction type. In the case of properties like slop, each joint type has its own defaults to use when no block exists.
+[JointConfigOverride](../../../code_reference/class_reference/jointconfigoverride.md) component and uses its properties. Note that this component cannot be applied to contacts. Next, the joint will check its space's PhysicsSolverConfig to see if a block for its joint type exists. If this block exists then it'll use the specified values. Finally, any global fallback values will be used such as the position correction type. In the case of properties like slop, each joint type has its own defaults to use when no block exists.
 
  #  Joint Blocks
 A configuration block can be added for any joint type that determines how the physics system solves that constraint type. This allows changing certain joint types at a global level to solve differently from others.
@@ -30,15 +30,15 @@ A configuration block can be added for any joint type that determines how the ph
 
  #  Related Materials
  ##  Manual
-- [joints.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/joints.md)
-- [collisionoverview.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/collisionoverview.md)
-- [physicsspace.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicsspace.md)
+- [joints.md](joints.md)
+- [collisionoverview.md](collisionoverview.md)
+- [physicsspace.md](physicsspace.md)
 
  ##  Code Reference
-- [Joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)
-- [JointConfigOverride](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/jointconfigoverride.md)
-- [ConstraintConfigBlock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/constraintconfigblock.md)
-- [PhysicsSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsspace.md)
-- [PhysicsSolverPositionCorrection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicssolverpositioncor) 
+- [Joint](../../../code_reference/class_reference/joint.md)
+- [JointConfigOverride](../../../code_reference/class_reference/jointconfigoverride.md)
+- [ConstraintConfigBlock](../../../code_reference/class_reference/constraintconfigblock.md)
+- [PhysicsSpace](../../../code_reference/class_reference/physicsspace.md)
+- [PhysicsSolverPositionCorrection](../../../code_reference/enum_reference.md#physicssolverpositioncor) 
 
  

@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ LastChangeTimePassed](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.md#lastchangetimepassed-zer)|[safeid32object](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/safeid32object.md)| |
-| |[ LastChangeTimestamp](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.md#lastchangetimestamp-zero)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.md#name-zilch-engine-documen)| | |
-| |[ NetChannel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.md#netchannel-zilch-engine-d)| | |
-| |[ NetPropertyType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netproperty.md#netpropertytype-zilch-eng)| | |
+| |[ LastChangeTimePassed](netproperty.md#lastchangetimepassed-zer)|[safeid32object](safeid32object.md)| |
+| |[ LastChangeTimestamp](netproperty.md#lastchangetimestamp-zero)| | |
+| |[ Name](netproperty.md#name-zilch-engine-documen)| | |
+| |[ NetChannel](netproperty.md#netchannel-zilch-engine-d)| | |
+| |[ NetPropertyType](netproperty.md#netpropertytype-zilch-eng)| | |
 
 
  #  Properties
 
 
 ---  
- #  LastChangeTimePassed : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LastChangeTimePassed : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  LastChangeTimestamp : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LastChangeTimestamp : [real](../nada_base_types/real.md)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](../nada_base_types/string.md)
 
  `read-only`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  NetChannel : [netchannel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netchannel.md)
+ #  NetChannel : [netchannel](netchannel.md)
 
  `read-only`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  NetPropertyType : [netpropertytype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpropertytype.md)
+ #  NetPropertyType : [netpropertytype](netpropertytype.md)
 
  `read-only`
 

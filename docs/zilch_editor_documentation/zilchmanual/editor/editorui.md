@@ -4,12 +4,12 @@ This page introduces the Zilch Engine editor and user interface. It covers edito
 ## Create a New Project
 
 (NOTE)**COMMANDS:**  
-[Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) represent all actions you can perform as a user in the Zilch Editor (such as [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspritetext), [BackupProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#backupproject), and [ExportGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#exportgame)).  Links are used throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zilch by following the link provided in the tutorial!
+[Commands](editorcommands/commands.md) represent all actions you can perform as a user in the Zilch Editor (such as [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext), [BackupProject](../../../code_reference/command_reference.md#backupproject), and [ExportGame](../../../code_reference/command_reference.md#exportgame)).  Links are used throughout the lesson for refreshing your knowledge on how to do common essential tasks. View how to enter Commands in Zilch by following the link provided in the tutorial!
 
-It is recommended that you create a new project. If this is the first time you have run the Zilch Engine you will already be in the Projects screen and can simply type in a name for your project.  If you are not on the new Projects screen, you can access it using the Project menu.  See the section [The Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md)) for more information.
+It is recommended that you create a new project. If this is the first time you have run the Zilch Engine you will already be in the Projects screen and can simply type in a name for your project.  If you are not on the new Projects screen, you can access it using the Project menu.  See the section [The Zilch Launcher](launcher.md)) for more information.
 
 To create a new project follow these steps:
-* [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [NewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+* [Command](editorcommands/commands.md) : [NewProject](../../../code_reference/command_reference.md#newproject)
 
 
 
@@ -62,7 +62,7 @@ When an object is selected, the properties of that object are accessible from th
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47675.png) *The `Properties Window` showing the Components of the LevelSettings object*
 
 
-The `Properties Window` is the primary means for editing or building objects and their [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.md).
+The `Properties Window` is the primary means for editing or building objects and their [Components](../architecture/components.md).
 
 
 
@@ -97,7 +97,7 @@ This window contains several useful tools for managing various objects within th
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47728.png) *`Library Window`*
 
 
-Anything you add to the game using the [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add) command or through drag-and-drop importing is stored as a [Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.md). All resources added to your project can be found in the `Library Window`.
+Anything you add to the game using the [Add](../../../code_reference/command_reference.md#add) command or through drag-and-drop importing is stored as a [Resource](../architecture/resources.md). All resources added to your project can be found in the `Library Window`.
 
 
 ### Objects Window
@@ -123,7 +123,7 @@ The objects in the `Objects Window` can be searched for by name using the search
 ## Other Windows and Bars
 
 ###Search Window
-This powerful tool allows you to search for various things within the editor.  It also has several other uses such as selecting objects, opening archetypes, viewing properties, etc., that are accessible from here. For example, if you wanted to quickly access a script file, you can just open the search view and type in the name of the script to find it and begin editing.  Another important use of the `Zilch Search Window` is for performing commands. See [Commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) for more information.
+This powerful tool allows you to search for various things within the editor.  It also has several other uses such as selecting objects, opening archetypes, viewing properties, etc., that are accessible from here. For example, if you wanted to quickly access a script file, you can just open the search view and type in the name of the script to find it and begin editing.  Another important use of the `Zilch Search Window` is for performing commands. See [Commands](editorcommands/commands.md) for more information.
 
 
 
@@ -153,7 +153,7 @@ To be "in" a window requires that the window has "focus". To gain focus you need
 ### Game Window
 
 The `Game Window` is where your game actually runs inside the editor. You can test or play your game (or specific levels) here without having to create an executable. 
-* [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md): [PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+* [Command](editorcommands/commands.md): [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 The `Game Window` should appear with its tab next to the `Level Window` tab:
 
@@ -162,7 +162,7 @@ The `Game Window` should appear with its tab next to the `Level Window` tab:
 
 
 * Close the `Game Window` by pressing the `X button` on the Game tab
-* You can also press `Esc` or use [Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md): [StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+* You can also press `Esc` or use [Command](editorcommands/commands.md): [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 WARNING:
 It is a good practice to close the game window while editing levels.  There are some assets in the Zilch Engine that can be changed by scripts running in the game session.
@@ -220,17 +220,17 @@ The `Zilch Search Window` can be used to reopen closed windows and tabs.  Once r
 
  ## Related Materials
  ### Manual
-- [The Zilch Launcher](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/launcher.md)
-- [Components](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/components.md)
-- [Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.md)
+- [The Zilch Launcher](launcher.md)
+- [Components](../architecture/components.md)
+- [Resource](../architecture/resources.md)
 
  ### Code Reference
-- [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspritetext)
-- [BackupProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#backupproject)
-- [ExportGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#exportgame)
-- [NewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
-- [Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add)
-- [PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame) 
+- [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [BackupProject](../../../code_reference/command_reference.md#backupproject)
+- [ExportGame](../../../code_reference/command_reference.md#exportgame)
+- [NewProject](../../../code_reference/command_reference.md#newproject)
+- [Add](../../../code_reference/command_reference.md#add)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame) 
 
  

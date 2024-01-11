@@ -4,20 +4,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#arrowgizmo-void)|[ DualHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#dualheads-zilch-engine-do)|[simplegizmobase](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/simplegizmobase.md)| |
-| |[ FilledHeads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#filledheads-zilch-engine)| | |
-| |[ HeadSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#headsize-zilch-engine-doc)| | |
-| |[ HeadType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#headtype-zilch-engine-doc)| | |
-| |[ Length](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#length-zilch-engine-docum)| | |
-| |[ LineDrawWidth](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#linedrawwidth-zilch-engin)| | |
-| |[ SelectRadius](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrowgizmo.md#selectradius-zilch-engine)| | |
+|[ Constructor](arrowgizmo.md#arrowgizmo-void)|[ DualHeads](arrowgizmo.md#dualheads-zilch-engine-do)|[simplegizmobase](simplegizmobase.md)| |
+| |[ FilledHeads](arrowgizmo.md#filledheads-zilch-engine)| | |
+| |[ HeadSize](arrowgizmo.md#headsize-zilch-engine-doc)| | |
+| |[ HeadType](arrowgizmo.md#headtype-zilch-engine-doc)| | |
+| |[ Length](arrowgizmo.md#length-zilch-engine-docum)| | |
+| |[ LineDrawWidth](arrowgizmo.md#linedrawwidth-zilch-engin)| | |
+| |[ SelectRadius](arrowgizmo.md#selectradius-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  DualHeads : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  DualHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  FilledHeads : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  FilledHeads : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  HeadSize : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  HeadSize : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  HeadType : [ArrowHeadType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#arrowheadtype)
+ #  HeadType : [ArrowHeadType](../enum_reference.md#arrowheadtype)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Length : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Length : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -57,7 +57,7 @@
 
 
 ---  
- #  LineDrawWidth : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LineDrawWidth : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -65,7 +65,7 @@
 
 
 ---  
- #  SelectRadius : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  SelectRadius : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada

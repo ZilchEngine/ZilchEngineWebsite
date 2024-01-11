@@ -1,4 +1,4 @@
-**Swizzling** is accessing the values within vector types ([ Real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md), [ Integer3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer3.md), etc.) in any order. The term *swizzling* originated as the name for a technique used for doing the same thing, but within shaders.
+**Swizzling** is accessing the values within vector types ([ Real2](../../../code_reference/nada_base_types/real2.md), [ Integer3](../../../code_reference/nada_base_types/integer3.md), etc.) in any order. The term *swizzling* originated as the name for a technique used for doing the same thing, but within shaders.
 
  # Understanding a Swizzle
 To swizzle a vector, refer to its values as if they were data members, using the letters `X`, `Y`, `Z`, and `W` for the corresponding elements. These can be combined in any permutation or combination.
@@ -21,14 +21,14 @@ Example 5: a.XXY: (0, 0, 1)
 Example 6: a.ZYXZ: (2, 1, 0, 2)
 ```
 
-In this example `a` is a simple [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md):
+In this example `a` is a simple [real3](../../../code_reference/nada_base_types/real3.md):
 
-- Example 1 constructs a [Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) containing the value of `a.X`
-- Example 2 constructs a [by-value](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/constructbyvaluevsbyref.md) copy of `a`.
-- Example 3 constructs a [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md) containing the `X` and `Y` values of `a`. 
-- Example 4 constructs a [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md) with `X` as the value of `a.Y`, and `Y` as the value of `a.X`.
-- Example 5 constructs a [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md) where the `X` and `Y` are set to the value of `a.X` and `Z` is set to the value of `a.Y`.
-- Example 6 constructs a [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md) with the same `X`, `Y`, and `Z` values as the original vector `a`, but whose `W` value is the value of `a.Z`.
+- Example 1 constructs a [Real](../../../code_reference/nada_base_types/real.md) containing the value of `a.X`
+- Example 2 constructs a [by-value](constructbyvaluevsbyref.md) copy of `a`.
+- Example 3 constructs a [real2](../../../code_reference/nada_base_types/real2.md) containing the `X` and `Y` values of `a`. 
+- Example 4 constructs a [real2](../../../code_reference/nada_base_types/real2.md) with `X` as the value of `a.Y`, and `Y` as the value of `a.X`.
+- Example 5 constructs a [real3](../../../code_reference/nada_base_types/real3.md) where the `X` and `Y` are set to the value of `a.X` and `Z` is set to the value of `a.Y`.
+- Example 6 constructs a [real4](../../../code_reference/nada_base_types/real4.md) with the same `X`, `Y`, and `Z` values as the original vector `a`, but whose `W` value is the value of `a.Z`.
 
  # Assigning With Swizzles
 Extracting portions of a vector as seen above is a fairly common operation even outside of shader development. An example may be centering the camera object while not affecting its zoom in a 2D game.
@@ -45,18 +45,18 @@ If we tried to assign into the swizzle constructed by-value from the member vari
 this.Camera.Transform.LocalTranslation.XY = Real2();
 ```
 
-In this example `.XY` returns a by-value copy of the `LocalTranslation`'s `X` and `Y` values as a [Real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md). So in this example when we assign the `Real2()` into it we are assigning into a copy instead of the member variable itself.
+In this example `.XY` returns a by-value copy of the `LocalTranslation`'s `X` and `Y` values as a [Real2](../../../code_reference/nada_base_types/real2.md). So in this example when we assign the `Real2()` into it we are assigning into a copy instead of the member variable itself.
 
  # Related Materials
  ## Manual
-- [constructbyvaluevsbyref](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/constructbyvaluevsbyref.md)
-- [properties](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/nada_in_zilch/properties.md)
+- [constructbyvaluevsbyref](constructbyvaluevsbyref.md)
+- [properties](properties.md)
 
  ## Reference
-- [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
-- [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
-- [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
-- [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+- [real2](../../../code_reference/nada_base_types/real2.md)
+- [real3](../../../code_reference/nada_base_types/real3.md)
+- [real4](../../../code_reference/nada_base_types/real4.md)
+- [transform](../../../code_reference/class_reference/transform.md)
 
  ## Task
 - T950 

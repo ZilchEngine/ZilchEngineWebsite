@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.md#pulleyjoint-void)|[ JointA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.md#jointa-zilch-engine-docum)|[joint](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joint.md)| |
-| |[ JointAPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.md#jointapath-zilch-engine-d)| | |
-| |[ JointB](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.md#jointb-zilch-engine-docum)| | |
-| |[ JointBPath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.md#jointbpath-zilch-engine-d)| | |
-| |[ Ratio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pulleyjoint.md#ratio-zilch-engine-docume)| | |
+|[ Constructor](pulleyjoint.md#pulleyjoint-void)|[ JointA](pulleyjoint.md#jointa-zilch-engine-docum)|[joint](joint.md)| |
+| |[ JointAPath](pulleyjoint.md#jointapath-zilch-engine-d)| | |
+| |[ JointB](pulleyjoint.md#jointb-zilch-engine-docum)| | |
+| |[ JointBPath](pulleyjoint.md#jointbpath-zilch-engine-d)| | |
+| |[ Ratio](pulleyjoint.md#ratio-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  JointA : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  JointA : [cog](cog.md)
 
 > The joint connected to ObjectA that the pulley operates on.
 > ``` lang=cpp, name=Nada
@@ -25,7 +25,7 @@
 
 
 ---  
- #  JointAPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  JointAPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectA that the pulley operates on.
 > ``` lang=cpp, name=Nada
@@ -33,7 +33,7 @@
 
 
 ---  
- #  JointB : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  JointB : [cog](cog.md)
 
 > The joint connected to ObjectB that the pulley operates on.
 > ``` lang=cpp, name=Nada
@@ -41,7 +41,7 @@
 
 
 ---  
- #  JointBPath : [cogpath](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cogpath.md)
+ #  JointBPath : [cogpath](cogpath.md)
 
 > The joint connected to ObjectB that the pulley operates on.
 > ``` lang=cpp, name=Nada
@@ -49,7 +49,7 @@
 
 
 ---  
- #  Ratio : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  Ratio : [real](../nada_base_types/real.md)
 
 > The ratio between the two stick joints. The ratio is used in the formula "length0 + ratio * length1 = 0".
 > ``` lang=cpp, name=Nada

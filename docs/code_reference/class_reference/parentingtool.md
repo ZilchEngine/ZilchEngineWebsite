@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/parentingtool.md#parentingtool-void)|[ MaintainPosition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/parentingtool.md#maintainposition-zilch-en)|[objectconnectingtool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectconnectingtool.md)| |
+|[ Constructor](parentingtool.md#parentingtool-void)|[ MaintainPosition](parentingtool.md#maintainposition-zilch-en)|[objectconnectingtool](objectconnectingtool.md)| |
 
 
  #  Properties
 
 
 ---  
- #  MaintainPosition : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MaintainPosition : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada

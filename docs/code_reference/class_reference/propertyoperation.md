@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ValueAfter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyoperation.md#valueafter-t)|[operation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operation.md)| |
-| |[ ValueBefore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/propertyoperation.md#valuebefore-t)| | |
+| |[ ValueAfter](propertyoperation.md#valueafter-t)|[operation](operation.md)| |
+| |[ ValueBefore](propertyoperation.md#valuebefore-t)| | |
 
 
  #  Properties

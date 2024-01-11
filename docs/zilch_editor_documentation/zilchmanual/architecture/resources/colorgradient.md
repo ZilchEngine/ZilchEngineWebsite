@@ -1,8 +1,8 @@
-**ColorGradiant** is a [resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.md) that allows the user to make a custom color gradient. The gradient may then be sampled from and applied as a color to any object that has a component with a color property.
+**ColorGradiant** is a [resources](../resources.md) that allows the user to make a custom color gradient. The gradient may then be sampled from and applied as a color to any object that has a component with a color property.
 
  # Using ColorGradient
  ## Creating a ColorGradient
-A new ColorGradient may be created through the [Add a Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md) window:
+A new ColorGradient may be created through the [Add a Resource](../../editor/editorcommands/resourceadding.md) window:
 
 
 
@@ -87,7 +87,7 @@ class GradDemo : NadaComponent
 The above code-block accomplishes the following things:
 
  - Initially, it sets the color of the Sprite to the value sampled at `0` on the ColorGradient.
- - It then calls a function-- `InterpolateValue()` --that uses an Action to interpolate the [Real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md) variable Value from 0 - 1 over the course of three seconds.
+ - It then calls a function-- `InterpolateValue()` --that uses an Action to interpolate the [Real](../../../../code_reference/nada_base_types/real.md) variable Value from 0 - 1 over the course of three seconds.
  - Finally, the `VertexColor` property on the Sprite component is updated every frame by the value sampled from `ColorGrad` using `Value`
 
 In the following demonstration, another, smaller Sprite has been added behind the first Sprite to show how the change in Alpha value affects the appearance of the Sprite:
@@ -101,12 +101,12 @@ In the following demonstration, another, smaller Sprite has been added behind th
 
  # Related Materials
  ## Manual Pages
-- [resources](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/architecture/resources.md)
-- [resourceadding](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [resources](../resources.md)
+- [resourceadding](../../editor/editorcommands/resourceadding.md)
  ## Reference Pages
-- [colorgradient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/colorgradient.md)
-- [Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md) 
-- [Material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md) 
+- [colorgradient](../../../../code_reference/class_reference/colorgradient.md)
+- [Sprite](../../../../code_reference/class_reference/sprite.md) 
+- [Material](../../../../code_reference/class_reference/material.md) 
 
  
 

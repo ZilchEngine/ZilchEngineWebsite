@@ -12,24 +12,24 @@ This tutorial covers the basics of what spaces are, how to create them, and how 
  #  Level Setup
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspritetext)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 - In the `Property Window`
- - Under [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.md)
+ - Under [SpriteText](../../../code_reference/class_reference/spritetext.md)
   - Set Text  to `Game Level SpriteText`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
 - In the `Properties Window`
- - Under [Camera](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.md)
+ - Under [Camera](../../../code_reference/class_reference/camera.md)
   - Set Size  to `5`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `HUDManager`
 
 
  #  What is a Space?
 
 
-There have probably been a few times while learning Zilch that you typed `this.Space` but didn't really know what exactly a [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md) was. A [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md) is a special type of object which represents the *space* occupied by objects in a Level resource. Another way to think about it is as an object that represents the dimensions of whichever level is loaded into it, or as 3D area with infinite bounds that contains a level.
+There have probably been a few times while learning Zilch that you typed `this.Space` but didn't really know what exactly a [Space](../../../code_reference/class_reference/space.md) was. A [Space](../../../code_reference/class_reference/space.md) is a special type of object which represents the *space* occupied by objects in a Level resource. Another way to think about it is as an object that represents the dimensions of whichever level is loaded into it, or as 3D area with infinite bounds that contains a level.
 
 
  ##  Space Basics
@@ -37,8 +37,8 @@ There have probably been a few times while learning Zilch that you typed `this.S
 
 - Each game can have multiple spaces
 - Objects in different spaces cannot interact graphically or physically
-- Each [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md) (usually) has its own renderer(s) that draws the loaded level to the viewport
-- Each [ Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md) and each [ Cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md) contains a member variable that is a reference to the [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md) it exists in
+- Each [Space](../../../code_reference/class_reference/space.md) (usually) has its own renderer(s) that draws the loaded level to the viewport
+- Each [ Component](../../../code_reference/class_reference/component.md) and each [ Cog](../../../code_reference/class_reference/cog.md) contains a member variable that is a reference to the [Space](../../../code_reference/class_reference/space.md) it exists in
 
 
  #  Creating a Space
@@ -46,20 +46,20 @@ There have probably been a few times while learning Zilch that you typed `this.S
 
 A very common reason for creating a second space is to implement a HUD that overlays the game. This approach takes advantage of the fact that objects in one space will not directly interact with objects in another. Let's make the level for our first HUD.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a Level resource using the {nav icon=clone, name=2D Level} template and name it `HUDLevel`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspritetext)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 - In the `Property Window`
- - Under [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.md)
+ - Under [SpriteText](../../../code_reference/class_reference/spritetext.md)
   - Set Text  to `HUD Level SpriteText`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
 - In the `Properties Window`
- - Under [Camera](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.md)
+ - Under [Camera](../../../code_reference/class_reference/camera.md)
   - Set Size  to `5`
 - Open the Level resource named `Level`
-- [ Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `HUDManager`
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `HUDManager`
 - In `HUDManager`
  - Update the `HUDManager` script to the following:
 ```name=HUDManager, lang=csharp
@@ -81,19 +81,19 @@ class HUDManager : NadaComponent
 }
 ```
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ SaveProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#saveproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ SaveProject](../../../code_reference/command_reference.md#saveproject)
 - In the `Properties Window`
  - Under `HUDManager`
   - Set HUDLevel window to HUDLevel resource
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94416.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Notice how the text from the HUDLevel Level resource is visible, but not the text from the game Level resource. This is because by default spaces are rendered as opaque.  
 
@@ -102,29 +102,29 @@ Notice how the text from the HUDLevel Level resource is visible, but not the tex
 
 
 - Open the Level resource named `HUDLevel`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
 - In the `Properties Window`
  - Under `ForwardRenderer`
   - Set ClearColor  to `[R:0, G:0, B:0, A:0.00]`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : GameCamera object
 - In the `Properties Window`
- - Under [ CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md)
+ - Under [ CameraViewport](../../../code_reference/class_reference/cameraviewport.md)
   - Set RenderOrder  to `1`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : SpriteText object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : SpriteText object
 - In the `Properties Window`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0,1,0]`
 - Open the Level resource named `Level`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94418.png)
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
-Notice that both text objects are now visible. This is because we reduced the alpha value of the HUD level clear color to `0`. The clear color is what is rendered behind everything in a level. We've also set the RenderOrder  of the HUD GameCamera object's [ CameraViewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md) to `1`, while the main space's RenderOrder  remains at its default value of `0`. This is important for layering purposes: no two overlaid [ CameraViewports](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md) should have the same RenderOrder .
+Notice that both text objects are now visible. This is because we reduced the alpha value of the HUD level clear color to `0`. The clear color is what is rendered behind everything in a level. We've also set the RenderOrder  of the HUD GameCamera object's [ CameraViewport](../../../code_reference/class_reference/cameraviewport.md) to `1`, while the main space's RenderOrder  remains at its default value of `0`. This is important for layering purposes: no two overlaid [ CameraViewports](../../../code_reference/class_reference/cameraviewport.md) should have the same RenderOrder .
 
 Now that we know how to make a space transparent, it is fairly simple to extrapolate constructing a HUD within a dedicated level and rendering it on top of a game.
 
@@ -135,7 +135,7 @@ Now that we know how to make a space transparent, it is fairly simple to extrapo
 Having multiple spaces can increase a project's complexity. It is important to know how to allow components which exists in seperate spaces to communicate with each other. Information is often sent between spaces via events. Let's make a basic meter in our HUD.
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `Meter`
 - Update the `Meter` script to the following:
 
@@ -197,7 +197,7 @@ class MeterUpdate : NadaEvent
 
 This `Meter` component will be be *communicated// with via events sent from the //GameSpace// to the //HUDSpace* by the following `Input` component.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `Input`
 - Update the `Input` script to the following:
 ```name=Input, lang=csharp
@@ -245,24 +245,24 @@ class Input : NadaComponent
 This simple input component will allow us to use the meter to simulate the game behavior of losing and gaining health without having to actually implement a game for this tutorial.
 
 - Open the Level resource named `Level`
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `Input`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `Input`
 
 - Open the Level resource named `HUDLevel`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
- - Under [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[-2.5, 0.0, 0.0]`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md)
- - Under [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md)
-  - Set Origin enum to [ BottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [Area](../../../code_reference/class_reference/area.md)
+ - Under [Area](../../../code_reference/class_reference/area.md)
+  - Set Origin enum to [ BottomLeft](../../../code_reference/enum_reference.md#location)
   - Set Size  to `[5, 0.5]`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `Meter`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `Meter`
 
 - Open the Level resource named `Level`
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Console](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#console)
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../code_reference/command_reference.md#console)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - Press key the `Up` and `Down` keys to send events between spaces.
 
 
@@ -274,35 +274,35 @@ Each time `Up` or `Down` is pressed, the `MeterUpdate` event is dispatched on th
 
 (NOTE)Notice how the meter renders over the SpriteText object in the `GameLevel`. As mentioned earlier, spaces can not interact graphically or physically (forces, collision, clipping, etc.), and this is a prime example of that behavior. 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
  ## Manual
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [ Add Resource](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
-- [Select](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/selectobject.md)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md)
+- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md)
 - {icon university}[[zilch_engine_documentation/zilch_editor_documentation/zilchmanual/editor/addremovecomponent/|Add/Remove Component]]
 
  ## Tutorial
 
  ## Reference
  ### Classes
-- [SpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritetext.md)
-- [Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [Area](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md)
-- [Camera](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/camera.md)
-- [Space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+- [SpriteText](../../../code_reference/class_reference/spritetext.md)
+- [Transform](../../../code_reference/class_reference/transform.md)
+- [Area](../../../code_reference/class_reference/area.md)
+- [Camera](../../../code_reference/class_reference/camera.md)
+- [Space](../../../code_reference/class_reference/space.md)
 
  ### Enums
-- [Location.BottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)
+- [Location.BottomLeft](../../../code_reference/enum_reference.md#location)
 
  ### Commands
-- [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#add)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
-- [CreateSpriteText](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createspritetext)
-- [CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ New Project](../../../code_reference/command_reference.md#newproject)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ Add](../../../code_reference/command_reference.md#add)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
  ## Tasks
 - T1175 

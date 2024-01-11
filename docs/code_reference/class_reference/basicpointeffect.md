@@ -6,20 +6,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md#endcondition-zilch-engine)|[physicseffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicseffect.md)|[pointforceeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointforceeffect.md)|
-| |[ InterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md#interpolationtype-zilch-e)| |[pointgravityeffect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/pointgravityeffect.md)|
-| |[ LocalPositionOffset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md#localpositionoffset-zero)| | |
-| |[ MaxDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md#maxdistance-zilch-engine)| | |
-| |[ MinDistance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md#mindistance-zilch-engine)| | |
-| |[ StrengthAtMax](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md#strengthatmax-zilch-engin)| | |
-| |[ StrengthAtMin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/basicpointeffect.md#strengthatmin-zilch-engin)| | |
+| |[ EndCondition](basicpointeffect.md#endcondition-zilch-engine)|[physicseffect](physicseffect.md)|[pointforceeffect](pointforceeffect.md)|
+| |[ InterpolationType](basicpointeffect.md#interpolationtype-zilch-e)| |[pointgravityeffect](pointgravityeffect.md)|
+| |[ LocalPositionOffset](basicpointeffect.md#localpositionoffset-zero)| | |
+| |[ MaxDistance](basicpointeffect.md#maxdistance-zilch-engine)| | |
+| |[ MinDistance](basicpointeffect.md#mindistance-zilch-engine)| | |
+| |[ StrengthAtMax](basicpointeffect.md#strengthatmax-zilch-engin)| | |
+| |[ StrengthAtMin](basicpointeffect.md#strengthatmin-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  EndCondition : [PhysicsEffectEndCondition](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicseffectendcondition)
+ #  EndCondition : [PhysicsEffectEndCondition](../enum_reference.md#physicseffectendcondition)
 
 > How the interpolation should be handled after max distance. ClampToMax will clamp to StrengthAtMax. NoEffect will ignore the effect. ContinueFalloff will continue the interpolation (this may go negative).
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  InterpolationType : [PhysicsEffectInterpolationType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#physicseffectinterpolationtype)
+ #  InterpolationType : [PhysicsEffectInterpolationType](../enum_reference.md#physicseffectinterpolationtype)
 
 > The type of interpolation used (e.g. Linear, Quadratic) for the effect.
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  LocalPositionOffset : [real3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real3.md)
+ #  LocalPositionOffset : [real3](../nada_base_types/real3.md)
 
 > The offset from the transform position (in local space) that the point effect will be applied at.
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  MaxDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MaxDistance : [real](../nada_base_types/real.md)
 
 > The max distance that attenuation will happen at. If an object is between min and max distance, the value will be attenuated. If the object is further away, the effect strength will be determined by EndCondition.
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  MinDistance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  MinDistance : [real](../nada_base_types/real.md)
 
 > The first distance at which attenuation will start. If an object is under the min distance, StrengthAtMin will be used. If an object is in between min and max, then it will attenuate.
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  StrengthAtMax : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  StrengthAtMax : [real](../nada_base_types/real.md)
 
 > The strength that this effect applies at the max distance.
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  StrengthAtMin : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  StrengthAtMin : [real](../nada_base_types/real.md)
 
 > The strength that this effect applies at the min distance.
 > ``` lang=cpp, name=Nada

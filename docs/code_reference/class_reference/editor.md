@@ -2,33 +2,33 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddResource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#addresource-void)|[ Actions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#actions-zilch-engine-docu)|[multidock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/multidock.md)|[editormain](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editormain.md)|
-|[ AddResourceType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#addresourcetype-void)|[ EditGameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#editgamesession-zilch-eng)| | |
-|[ CreateDockableWindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#createdockablewindow-voi)|[ EditLevel](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#editlevel-zilch-engine-do)| | |
-|[ DisplayGameSession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#displaygamesession-void)|[ EditSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#editspace-zilch-engine-do)| | |
-|[ EditGameSpaces](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#editgamespaces-void)|[ OperationQueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#operationqueue-zilch-engi)| | |
-|[ EditResource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#editresource-void)|[ ProjectCog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#projectcog-zilch-engine-d)| | |
-|[ ExecuteCommand](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#executecommand-void)|[ Selection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#selection-zilch-engine-do)| | |
-|[ PauseGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#pausegame-void)| | | |
-|[ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#playgame-zilch-engine-doc)| | | |
-|[ PlayNewGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#playnewgame-zilch-engine)| | | |
-|[ PlaySingleGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#playsinglegame-zilch-engi)| | | |
-|[ SelectPrimary](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#selectprimary-void)| | | |
-|[ SelectTool](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#selecttool-void)| | | |
-|[ SetFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#setfocus-void)| | | |
-|[ SetGamePaused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#setgamepaused-void)| | | |
-|[ SetMainPropertyViewObject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#setmainpropertyviewobjec)| | | |
-|[ StepGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#stepgame-void)| | | |
-|[ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#stopgame-void)| | | |
-|[ ToggleGamePaused](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#togglegamepaused-void)| | | |
-|[ ZoomOnGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md#zoomongame-void)| | | |
+|[ AddResource](editor.md#addresource-void)|[ Actions](editor.md#actions-zilch-engine-docu)|[multidock](multidock.md)|[editormain](editormain.md)|
+|[ AddResourceType](editor.md#addresourcetype-void)|[ EditGameSession](editor.md#editgamesession-zilch-eng)| | |
+|[ CreateDockableWindow](editor.md#createdockablewindow-voi)|[ EditLevel](editor.md#editlevel-zilch-engine-do)| | |
+|[ DisplayGameSession](editor.md#displaygamesession-void)|[ EditSpace](editor.md#editspace-zilch-engine-do)| | |
+|[ EditGameSpaces](editor.md#editgamespaces-void)|[ OperationQueue](editor.md#operationqueue-zilch-engi)| | |
+|[ EditResource](editor.md#editresource-void)|[ ProjectCog](editor.md#projectcog-zilch-engine-d)| | |
+|[ ExecuteCommand](editor.md#executecommand-void)|[ Selection](editor.md#selection-zilch-engine-do)| | |
+|[ PauseGame](editor.md#pausegame-void)| | | |
+|[ PlayGame](editor.md#playgame-zilch-engine-doc)| | | |
+|[ PlayNewGame](editor.md#playnewgame-zilch-engine)| | | |
+|[ PlaySingleGame](editor.md#playsinglegame-zilch-engi)| | | |
+|[ SelectPrimary](editor.md#selectprimary-void)| | | |
+|[ SelectTool](editor.md#selecttool-void)| | | |
+|[ SetFocus](editor.md#setfocus-void)| | | |
+|[ SetGamePaused](editor.md#setgamepaused-void)| | | |
+|[ SetMainPropertyViewObject](editor.md#setmainpropertyviewobjec)| | | |
+|[ StepGame](editor.md#stepgame-void)| | | |
+|[ StopGame](editor.md#stopgame-void)| | | |
+|[ ToggleGamePaused](editor.md#togglegamepaused-void)| | | |
+|[ ZoomOnGame](editor.md#zoomongame-void)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Actions : [actions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/actions.md)
+ #  Actions : [actions](actions.md)
 
  `read-only`
 
@@ -38,7 +38,7 @@
 
 
 ---  
- #  EditGameSession : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  EditGameSession : [gamesession](gamesession.md)
 
  `read-only`
 
@@ -48,7 +48,7 @@
 
 
 ---  
- #  EditLevel : [level](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/level.md)
+ #  EditLevel : [level](level.md)
 
  `read-only`
 
@@ -58,7 +58,7 @@
 
 
 ---  
- #  EditSpace : [space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)
+ #  EditSpace : [space](space.md)
 
  `read-only`
 
@@ -68,7 +68,7 @@
 
 
 ---  
- #  OperationQueue : [operationqueue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/operationqueue.md)
+ #  OperationQueue : [operationqueue](operationqueue.md)
 
  `read-only`
 
@@ -78,7 +78,7 @@
 
 
 ---  
- #  ProjectCog : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  ProjectCog : [cog](cog.md)
 
  `read-only`
 
@@ -88,7 +88,7 @@
 
 
 ---  
- #  Selection : [metaselection](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/metaselection.md)
+ #  Selection : [metaselection](metaselection.md)
 
  `read-only`
 
@@ -118,8 +118,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boundtype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.md)| |
-> |p1|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[boundtype](../nada_base_types/boundtype.md)| |
+> |p1|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function AddResourceType(p0 : BoundType, p1 : String)
 > ``` 
@@ -131,11 +131,11 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |p1|[cameraviewport](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cameraviewport.md)| |
-> |p2|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
-> |p3|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |p4|[DockArea](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#dockarea)| |
+> |p0|[string](../nada_base_types/string.md)| |
+> |p1|[cameraviewport](cameraviewport.md)| |
+> |p2|[real2](../nada_base_types/real2.md)| |
+> |p3|[boolean](../nada_base_types/boolean.md)| |
+> |p4|[DockArea](../enum_reference.md#dockarea)| |
 > ``` lang=cpp, name=Nada
 > function CreateDockableWindow(p0 : String, p1 : CameraViewport, p2 : Real2, p3 : Boolean, p4 : DockArea)
 > ``` 
@@ -147,8 +147,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
-> |p1|[gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
+> |p1|[gamesession](gamesession.md)| |
 > ``` lang=cpp, name=Nada
 > function DisplayGameSession(p0 : String, p1 : GameSession)
 > ``` 
@@ -183,7 +183,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function ExecuteCommand(p0 : String)
 > ``` 
@@ -201,21 +201,21 @@
 
 
 ---  
- #  PlayGame : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  PlayGame : [gamesession](gamesession.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[PlayGameOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#playgameoptions)| |
-> |p1|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |p2|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |p0|[PlayGameOptions](../enum_reference.md#playgameoptions)| |
+> |p1|[boolean](../nada_base_types/boolean.md)| |
+> |p2|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function PlayGame(p0 : PlayGameOptions, p1 : Boolean, p2 : Boolean) : GameSession
 > ``` 
 
 
 ---  
- #  PlayNewGame : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  PlayNewGame : [gamesession](gamesession.md)
 
 > 
 > |Name|Type|Description|
@@ -226,7 +226,7 @@
 
 
 ---  
- #  PlaySingleGame : [gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)
+ #  PlaySingleGame : [gamesession](gamesession.md)
 
 > 
 > |Name|Type|Description|
@@ -242,7 +242,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[anyhandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anyhandle.md)| |
+> |p0|[anyhandle](../nada_base_types/anyhandle.md)| |
 > ``` lang=cpp, name=Nada
 > function SelectPrimary(p0 : AnyHandle)
 > ``` 
@@ -254,7 +254,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |p0|[string](../nada_base_types/string.md)| |
 > ``` lang=cpp, name=Nada
 > function SelectTool(p0 : String)
 > ``` 
@@ -266,7 +266,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[space](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/space.md)| |
+> |p0|[space](space.md)| |
 > ``` lang=cpp, name=Nada
 > function SetFocus(p0 : Space)
 > ``` 
@@ -278,7 +278,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |p0|[boolean](../nada_base_types/boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function SetGamePaused(p0 : Boolean)
 > ``` 
@@ -335,7 +335,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[gamesession](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamesession.md)| |
+> |p0|[gamesession](gamesession.md)| |
 > ``` lang=cpp, name=Nada
 > function ZoomOnGame(p0 : GameSession)
 > ``` 

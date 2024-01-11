@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/buildinfo.md#buildinfo-void)| |Object| |
+|[ Constructor](buildinfo.md#buildinfo-void)| |Object| |
 
 
  #  Properties

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md#movenext-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md#vertexsemanticrange-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md#isnotempty-zilch-engine-d)| | |
+|[ MoveNext](vertexsemanticrange.md#movenext-void)|[ All](vertexsemanticrange.md#all-zilch-engine-document)| | |
+|[ Constructor](vertexsemanticrange.md#vertexsemanticrange-void)|[ Current](vertexsemanticrange.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](vertexsemanticrange.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](vertexsemanticrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [vertexsemanticrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md)
+ #  All : [vertexsemanticrange](vertexsemanticrange.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [VertexSemantic](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#vertexsemantic)
+ #  Current : [VertexSemantic](../enum_reference.md#vertexsemantic)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[vertexsemanticrange](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexsemanticrange.md)| |
+> |p0|[vertexsemanticrange](vertexsemanticrange.md)| |
 > ``` lang=cpp, name=Nada
 > function VertexSemanticRange(p0 : VertexSemanticRange)
 > ``` 

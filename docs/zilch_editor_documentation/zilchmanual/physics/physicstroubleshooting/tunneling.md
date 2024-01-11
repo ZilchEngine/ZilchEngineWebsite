@@ -30,7 +30,7 @@ In the above picture the ball does end up hitting the wall; however, it hits on 
  #  Fixing Tunneling
 The easiest way to fix tunneling is to limit the size and speed of an object. If an object can't move faster than its "radius" each frame then it won't tunnel.
 
-Another way to avoid tunneling is to increase the framerate of the simulation. [PhysicsSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicstroubleshooting/physicsspace.md) exposes SubStepCount  which allows the user to run physics at a higher framerate.
+Another way to avoid tunneling is to increase the framerate of the simulation. [PhysicsSpace](physicsspace.md) exposes SubStepCount  which allows the user to run physics at a higher framerate.
 
 The final way to avoid tunneling is to use continuous collision detection. Currently, continuous collision detection is only available through PhysicsSpace's `SweepCollider` function  which is meant for character controllers. See the SweptController script for an example. Future plans include making this an option on rigid bodies. 
 
@@ -39,10 +39,10 @@ NOTE: Continuous collision detection is significantly more computationally expen
 ---
  # Related Materials
  ## Manual
-- [physicstroubleshooting.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicstroubleshooting.md)
-- [collisionoverview.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicstroubleshooting/collisionoverview.md)
-- [physicsspace.md](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/physics/physicstroubleshooting/physicsspace.md)
+- [physicstroubleshooting.md](../physicstroubleshooting.md)
+- [collisionoverview.md](collisionoverview.md)
+- [physicsspace.md](physicsspace.md)
  ##  Reference
-- [PhysicsSpace](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/physicsspace.md) 
+- [PhysicsSpace](../../../../code_reference/class_reference/physicsspace.md) 
 
  

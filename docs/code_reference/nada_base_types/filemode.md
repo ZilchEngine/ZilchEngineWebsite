@@ -2,20 +2,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Append](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md#append-zilch-engine-docum)|[enum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/enum.md)| |
-| |[ Read](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md#read-zilch-engine-documen)| | |
-| |[ Sequential](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md#sequential-zilch-engine-d)| | |
-| |[ ShareDelete](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md#sharedelete-zilch-engine)| | |
-| |[ ShareRead](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md#shareread-zilch-engine-do)| | |
-| |[ ShareWrite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md#sharewrite-zilch-engine-d)| | |
-| |[ Write](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md#write-zilch-engine-docume)| | |
+| |[ Append](filemode.md#append-zilch-engine-docum)|[enum](enum.md)| |
+| |[ Read](filemode.md#read-zilch-engine-documen)| | |
+| |[ Sequential](filemode.md#sequential-zilch-engine-d)| | |
+| |[ ShareDelete](filemode.md#sharedelete-zilch-engine)| | |
+| |[ ShareRead](filemode.md#shareread-zilch-engine-do)| | |
+| |[ ShareWrite](filemode.md#sharewrite-zilch-engine-d)| | |
+| |[ Write](filemode.md#write-zilch-engine-docume)| | |
 
 
  #  Properties
 
 
 ---  
- #  Append : [filemode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md)
+ #  Append : [filemode](filemode.md)
 
  `read-only` `static`
 
@@ -25,7 +25,7 @@
 
 
 ---  
- #  Read : [filemode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md)
+ #  Read : [filemode](filemode.md)
 
  `read-only` `static`
 
@@ -35,7 +35,7 @@
 
 
 ---  
- #  Sequential : [filemode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md)
+ #  Sequential : [filemode](filemode.md)
 
  `read-only` `static`
 
@@ -45,7 +45,7 @@
 
 
 ---  
- #  ShareDelete : [filemode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md)
+ #  ShareDelete : [filemode](filemode.md)
 
  `read-only` `static`
 
@@ -55,7 +55,7 @@
 
 
 ---  
- #  ShareRead : [filemode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md)
+ #  ShareRead : [filemode](filemode.md)
 
  `read-only` `static`
 
@@ -65,7 +65,7 @@
 
 
 ---  
- #  ShareWrite : [filemode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md)
+ #  ShareWrite : [filemode](filemode.md)
 
  `read-only` `static`
 
@@ -75,7 +75,7 @@
 
 
 ---  
- #  Write : [filemode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/filemode.md)
+ #  Write : [filemode](filemode.md)
 
  `read-only` `static`
 

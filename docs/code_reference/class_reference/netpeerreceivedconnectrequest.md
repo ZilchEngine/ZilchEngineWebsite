@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectrequest.md#ouripaddress-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ ReturnOurConnectResponse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectrequest.md#returnourconnectresponse)| | |
-| |[ ReturnOurResponseBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectrequest.md#returnourresponsebundle)| | |
-| |[ TheirIpAddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectrequest.md#theiripaddress-zilch-engi)| | |
-| |[ TheirPendingUserAddRequestCount](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectrequest.md#theirpendinguseraddreque)| | |
-| |[ TheirRequestBundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/netpeerreceivedconnectrequest.md#theirrequestbundle-zero)| | |
+| |[ OurIpAddress](netpeerreceivedconnectrequest.md#ouripaddress-zilch-engine)|[event](event.md)| |
+| |[ ReturnOurConnectResponse](netpeerreceivedconnectrequest.md#returnourconnectresponse)| | |
+| |[ ReturnOurResponseBundle](netpeerreceivedconnectrequest.md#returnourresponsebundle)| | |
+| |[ TheirIpAddress](netpeerreceivedconnectrequest.md#theiripaddress-zilch-engi)| | |
+| |[ TheirPendingUserAddRequestCount](netpeerreceivedconnectrequest.md#theirpendinguseraddreque)| | |
+| |[ TheirRequestBundle](netpeerreceivedconnectrequest.md#theirrequestbundle-zero)| | |
 
 
  #  Properties
 
 
 ---  
- #  OurIpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  OurIpAddress : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -28,7 +28,7 @@
 
 
 ---  
- #  ReturnOurConnectResponse : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ReturnOurConnectResponse : [boolean](../nada_base_types/boolean.md)
 
 > Return: Our connect response (accept the connect request?).
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  ReturnOurResponseBundle : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  ReturnOurResponseBundle : [eventbundle](eventbundle.md)
 
 > Return: Our bundled response event data.
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  TheirIpAddress : [ipaddress](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/ipaddress.md)
+ #  TheirIpAddress : [ipaddress](ipaddress.md)
 
  `read-only`
 
@@ -54,7 +54,7 @@
 
 
 ---  
- #  TheirPendingUserAddRequestCount : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  TheirPendingUserAddRequestCount : [integer](../nada_base_types/integer.md)
 
  `read-only`
 
@@ -64,7 +64,7 @@
 
 
 ---  
- #  TheirRequestBundle : [eventbundle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventbundle.md)
+ #  TheirRequestBundle : [eventbundle](eventbundle.md)
 
  `read-only`
 

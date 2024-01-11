@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ClientToScreen](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#clienttoscreen-zilch-engi)|[ ClientSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#clientsize-zilch-engine-d)|[threadsafeid32eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/threadsafeid32eventobject.md)|[windowsoswindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/windowsoswindow.md)|
-|[ HasFocus](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#hasfocus-zilch-engine-doc)|[ MinSize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#minsize-zilch-engine-docu)| | |
-|[ ScreenToClient](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#screentoclient-zilch-engi)|[ MouseCapture](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#mousecapture-zilch-engine)| | |
-| |[ MouseCursor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#mousecursor-zilch-engine)| | |
-| |[ MouseTrap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#mousetrap-zilch-engine-do)| | |
-| |[ Parent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#parent-zilch-engine-docum)| | |
-| |[ Position](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#position-zilch-engine-doc)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#size-zilch-engine-documen)| | |
-| |[ State](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#state-zilch-engine-docume)| | |
-| |[ Title](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#title-zilch-engine-docume)| | |
-| |[ Visible](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md#visible-zilch-engine-docu)| | |
+|[ ClientToScreen](oswindow.md#clienttoscreen-zilch-engi)|[ ClientSize](oswindow.md#clientsize-zilch-engine-d)|[threadsafeid32eventobject](threadsafeid32eventobject.md)|[windowsoswindow](windowsoswindow.md)|
+|[ HasFocus](oswindow.md#hasfocus-zilch-engine-doc)|[ MinSize](oswindow.md#minsize-zilch-engine-docu)| | |
+|[ ScreenToClient](oswindow.md#screentoclient-zilch-engi)|[ MouseCapture](oswindow.md#mousecapture-zilch-engine)| | |
+| |[ MouseCursor](oswindow.md#mousecursor-zilch-engine)| | |
+| |[ MouseTrap](oswindow.md#mousetrap-zilch-engine-do)| | |
+| |[ Parent](oswindow.md#parent-zilch-engine-docum)| | |
+| |[ Position](oswindow.md#position-zilch-engine-doc)| | |
+| |[ Size](oswindow.md#size-zilch-engine-documen)| | |
+| |[ State](oswindow.md#state-zilch-engine-docume)| | |
+| |[ Title](oswindow.md#title-zilch-engine-docume)| | |
+| |[ Visible](oswindow.md#visible-zilch-engine-docu)| | |
 
 
  #  Properties
 
 
 ---  
- #  ClientSize : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ClientSize : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  MinSize : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  MinSize : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  MouseCapture : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MouseCapture : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  MouseCursor : [Cursor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#cursor)
+ #  MouseCursor : [Cursor](../enum_reference.md#cursor)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  MouseTrap : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  MouseTrap : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  Parent : [oswindow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/oswindow.md)
+ #  Parent : [oswindow](oswindow.md)
 
  `read-only`
 
@@ -69,7 +69,7 @@
 
 
 ---  
- #  Position : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  Position : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -77,7 +77,7 @@
 
 
 ---  
- #  Size : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  Size : [integer2](../nada_base_types/integer2.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -85,7 +85,7 @@
 
 
 ---  
- #  State : [WindowState](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#windowstate)
+ #  State : [WindowState](../enum_reference.md#windowstate)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -93,7 +93,7 @@
 
 
 ---  
- #  Title : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Title : [string](../nada_base_types/string.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -101,7 +101,7 @@
 
 
 ---  
- #  Visible : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Visible : [boolean](../nada_base_types/boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -113,19 +113,19 @@
 
 
 ---  
- #  ClientToScreen : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ClientToScreen : [integer2](../nada_base_types/integer2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |p0|[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function ClientToScreen(p0 : Integer2) : Integer2
 > ``` 
 
 
 ---  
- #  HasFocus : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  HasFocus : [boolean](../nada_base_types/boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -136,12 +136,12 @@
 
 
 ---  
- #  ScreenToClient : [integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)
+ #  ScreenToClient : [integer2](../nada_base_types/integer2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[integer2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer2.md)| |
+> |p0|[integer2](../nada_base_types/integer2.md)| |
 > ``` lang=cpp, name=Nada
 > function ScreenToClient(p0 : Integer2) : Integer2
 > ``` 

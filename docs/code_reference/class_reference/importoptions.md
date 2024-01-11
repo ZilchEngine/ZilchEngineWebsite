@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AudioOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.md#audiooptions-zilch-engine)|[eventobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/eventobject.md)| |
-| |[ ConflictOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.md#conflictoptions-zilch-eng)| | |
-| |[ GeometryOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.md#geometryoptions-zilch-eng)| | |
-| |[ ImageOptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/importoptions.md#imageoptions-zilch-engine)| | |
+| |[ AudioOptions](importoptions.md#audiooptions-zilch-engine)|[eventobject](eventobject.md)| |
+| |[ ConflictOptions](importoptions.md#conflictoptions-zilch-eng)| | |
+| |[ GeometryOptions](importoptions.md#geometryoptions-zilch-eng)| | |
+| |[ ImageOptions](importoptions.md#imageoptions-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  AudioOptions : [audiooptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audiooptions.md)
+ #  AudioOptions : [audiooptions](audiooptions.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -20,7 +20,7 @@
 
 
 ---  
- #  ConflictOptions : [conflictoptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/conflictoptions.md)
+ #  ConflictOptions : [conflictoptions](conflictoptions.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -28,7 +28,7 @@
 
 
 ---  
- #  GeometryOptions : [geometryoptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/geometryoptions.md)
+ #  GeometryOptions : [geometryoptions](geometryoptions.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -36,7 +36,7 @@
 
 
 ---  
- #  ImageOptions : [imageoptions](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/imageoptions.md)
+ #  ImageOptions : [imageoptions](imageoptions.md)
 
 > 
 > ``` lang=cpp, name=Nada

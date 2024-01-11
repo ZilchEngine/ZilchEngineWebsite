@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md#arrayhandleofmaterial-vo)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](arrayhandleofmaterial.md#arrayhandleofmaterial-vo)|[ All](arrayhandleofmaterial.md#all-zilch-engine-document)| | |
+|[ MoveNext](arrayhandleofmaterial.md#movenext-void)|[ Current](arrayhandleofmaterial.md#current-zilch-engine-docu)| | |
+| |[ IsEmpty](arrayhandleofmaterial.md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](arrayhandleofmaterial.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  All : [arrayhandleofmaterial](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md)
+ #  All : [arrayhandleofmaterial](arrayhandleofmaterial.md)
 
  `read-only`
 
@@ -22,7 +22,7 @@
 
 
 ---  
- #  Current : [material](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/material.md)
+ #  Current : [material](material.md)
 
  `read-only`
 
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](../nada_base_types/boolean.md)
 
  `read-only`
 
@@ -76,7 +76,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[arrayhandleofmaterial](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/arrayhandleofmaterial.md)| |
+> |p0|[arrayhandleofmaterial](arrayhandleofmaterial.md)| |
 > ``` lang=cpp, name=Nada
 > function ArrayHandleOfMaterial(p0 : ArrayHandleOfMaterial)
 > ``` 

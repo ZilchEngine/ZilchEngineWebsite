@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.md#soundlistener-void)|[ Active](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.md#active-zilch-engine-docum)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-| |[ AttenuationScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.md#attenuationscale-zilch-en)| | |
-| |[ SoundNode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundlistener.md#soundnode-zilch-engine-do)| | |
+|[ Constructor](soundlistener.md#soundlistener-void)|[ Active](soundlistener.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[ AttenuationScale](soundlistener.md#attenuationscale-zilch-en)| | |
+| |[ SoundNode](soundlistener.md#soundnode-zilch-engine-do)| | |
 
 
  #  Properties
 
 
 ---  
- #  Active : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Active : [boolean](../nada_base_types/boolean.md)
 
 > If this property is set to false the SoundListener will not produce any sound. All audio in the SoundSpace will continue to be processed, so this is not the same as pausing the sounds.
 > ``` lang=cpp, name=Nada
@@ -23,7 +23,7 @@
 
 
 ---  
- #  AttenuationScale : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  AttenuationScale : [real](../nada_base_types/real.md)
 
 > The scale multiplier applied to the attenuation of sounds heard by this listener. If a sound uses a SoundAttenuator StopDistance of 20, and this value is 1.5, the attenuation will stop at 30.
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  SoundNode : [soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)
+ #  SoundNode : [soundnode](soundnode.md)
 
  `read-only`
 

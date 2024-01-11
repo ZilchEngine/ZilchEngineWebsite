@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Destination](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.md#destination-zilch-engine)|[event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)| |
-| |[ NetEvent](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.md#netevent-zilch-engine-doc)| | |
-| |[ ReturnAllow](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.md#returnallow-zilch-engine)| | |
-| |[ TheirNetPeerId](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/neteventreceived.md#theirnetpeerid-zilch-engi)| | |
+| |[ Destination](neteventreceived.md#destination-zilch-engine)|[event](event.md)| |
+| |[ NetEvent](neteventreceived.md#netevent-zilch-engine-doc)| | |
+| |[ ReturnAllow](neteventreceived.md#returnallow-zilch-engine)| | |
+| |[ TheirNetPeerId](neteventreceived.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  Destination : [cog](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/cog.md)
+ #  Destination : [cog](cog.md)
 
  `read-only`
 
@@ -26,7 +26,7 @@
 
 
 ---  
- #  NetEvent : [event](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/event.md)
+ #  NetEvent : [event](event.md)
 
  `read-only`
 
@@ -36,7 +36,7 @@
 
 
 ---  
- #  ReturnAllow : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  ReturnAllow : [boolean](../nada_base_types/boolean.md)
 
 > Return: Allow the received network event to be dispatched on the destination object?
 > ``` lang=cpp, name=Nada
@@ -44,7 +44,7 @@
 
 
 ---  
- #  TheirNetPeerId : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  TheirNetPeerId : [integer](../nada_base_types/integer.md)
 
  `read-only`
 

@@ -4,52 +4,52 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#area-void)|[ BottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#bottomcenter-zilch-engine)|[component](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/component.md)| |
-|[ GetLocalLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#getlocallocation-zilch-en)|[ BottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#bottomleft-zilch-engine-d)| | |
-|[ GetWorldLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#getworldlocation-zilch-en)|[ BottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#bottomright-zilch-engine)| | |
-|[ LocalOffsetOf](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localoffsetof-zilch-engin)|[ Center](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#center-zilch-engine-docum)| | |
-|[ SetLocalLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#setlocallocation-void)|[ CenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#centerleft-zilch-engine-d)| | |
-|[ SetWorldLocation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#setworldlocation-void)|[ CenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#centerright-zilch-engine)| | |
-| |[ LocalBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localbottom-zilch-engine)| | |
-| |[ LocalBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localbottomcenter-zilch-e)| | |
-| |[ LocalBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localbottomleft-zilch-eng)| | |
-| |[ LocalBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localbottomright-zilch-en)| | |
-| |[ LocalCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localcenter-zilch-engine)| | |
-| |[ LocalCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localcenterleft-zilch-eng)| | |
-| |[ LocalCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localcenterright-zilch-en)| | |
-| |[ LocalLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localleft-zilch-engine-do)| | |
-| |[ LocalRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localrectangle-zilch-engi)| | |
-| |[ LocalRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localright-zilch-engine-d)| | |
-| |[ LocalTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localtop-zilch-engine-doc)| | |
-| |[ LocalTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localtopcenter-zilch-engi)| | |
-| |[ LocalTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localtopleft-zilch-engine)| | |
-| |[ LocalTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#localtopright-zilch-engin)| | |
-| |[ Origin](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#origin-zilch-engine-docum)| | |
-| |[ Size](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#size-zilch-engine-documen)| | |
-| |[ TopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#topcenter-zilch-engine-do)| | |
-| |[ TopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#topleft-zilch-engine-docu)| | |
-| |[ TopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#topright-zilch-engine-doc)| | |
-| |[ WorldBottom](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldbottom-zilch-engine)| | |
-| |[ WorldBottomCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldbottomcenter-zilch-e)| | |
-| |[ WorldBottomLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldbottomleft-zilch-eng)| | |
-| |[ WorldBottomRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldbottomright-zilch-en)| | |
-| |[ WorldCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldcenter-zilch-engine)| | |
-| |[ WorldCenterLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldcenterleft-zilch-eng)| | |
-| |[ WorldCenterRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldcenterright-zilch-en)| | |
-| |[ WorldLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldleft-zilch-engine-do)| | |
-| |[ WorldRectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldrectangle-zilch-engi)| | |
-| |[ WorldRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldright-zilch-engine-d)| | |
-| |[ WorldTop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldtop-zilch-engine-doc)| | |
-| |[ WorldTopCenter](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldtopcenter-zilch-engi)| | |
-| |[ WorldTopLeft](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldtopleft-zilch-engine)| | |
-| |[ WorldTopRight](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/area.md#worldtopright-zilch-engin)| | |
+|[ Constructor](area.md#area-void)|[ BottomCenter](area.md#bottomcenter-zilch-engine)|[component](component.md)| |
+|[ GetLocalLocation](area.md#getlocallocation-zilch-en)|[ BottomLeft](area.md#bottomleft-zilch-engine-d)| | |
+|[ GetWorldLocation](area.md#getworldlocation-zilch-en)|[ BottomRight](area.md#bottomright-zilch-engine)| | |
+|[ LocalOffsetOf](area.md#localoffsetof-zilch-engin)|[ Center](area.md#center-zilch-engine-docum)| | |
+|[ SetLocalLocation](area.md#setlocallocation-void)|[ CenterLeft](area.md#centerleft-zilch-engine-d)| | |
+|[ SetWorldLocation](area.md#setworldlocation-void)|[ CenterRight](area.md#centerright-zilch-engine)| | |
+| |[ LocalBottom](area.md#localbottom-zilch-engine)| | |
+| |[ LocalBottomCenter](area.md#localbottomcenter-zilch-e)| | |
+| |[ LocalBottomLeft](area.md#localbottomleft-zilch-eng)| | |
+| |[ LocalBottomRight](area.md#localbottomright-zilch-en)| | |
+| |[ LocalCenter](area.md#localcenter-zilch-engine)| | |
+| |[ LocalCenterLeft](area.md#localcenterleft-zilch-eng)| | |
+| |[ LocalCenterRight](area.md#localcenterright-zilch-en)| | |
+| |[ LocalLeft](area.md#localleft-zilch-engine-do)| | |
+| |[ LocalRectangle](area.md#localrectangle-zilch-engi)| | |
+| |[ LocalRight](area.md#localright-zilch-engine-d)| | |
+| |[ LocalTop](area.md#localtop-zilch-engine-doc)| | |
+| |[ LocalTopCenter](area.md#localtopcenter-zilch-engi)| | |
+| |[ LocalTopLeft](area.md#localtopleft-zilch-engine)| | |
+| |[ LocalTopRight](area.md#localtopright-zilch-engin)| | |
+| |[ Origin](area.md#origin-zilch-engine-docum)| | |
+| |[ Size](area.md#size-zilch-engine-documen)| | |
+| |[ TopCenter](area.md#topcenter-zilch-engine-do)| | |
+| |[ TopLeft](area.md#topleft-zilch-engine-docu)| | |
+| |[ TopRight](area.md#topright-zilch-engine-doc)| | |
+| |[ WorldBottom](area.md#worldbottom-zilch-engine)| | |
+| |[ WorldBottomCenter](area.md#worldbottomcenter-zilch-e)| | |
+| |[ WorldBottomLeft](area.md#worldbottomleft-zilch-eng)| | |
+| |[ WorldBottomRight](area.md#worldbottomright-zilch-en)| | |
+| |[ WorldCenter](area.md#worldcenter-zilch-engine)| | |
+| |[ WorldCenterLeft](area.md#worldcenterleft-zilch-eng)| | |
+| |[ WorldCenterRight](area.md#worldcenterright-zilch-en)| | |
+| |[ WorldLeft](area.md#worldleft-zilch-engine-do)| | |
+| |[ WorldRectangle](area.md#worldrectangle-zilch-engi)| | |
+| |[ WorldRight](area.md#worldright-zilch-engine-d)| | |
+| |[ WorldTop](area.md#worldtop-zilch-engine-doc)| | |
+| |[ WorldTopCenter](area.md#worldtopcenter-zilch-engi)| | |
+| |[ WorldTopLeft](area.md#worldtopleft-zilch-engine)| | |
+| |[ WorldTopRight](area.md#worldtopright-zilch-engin)| | |
 
 
  #  Properties
 
 
 ---  
- #  BottomCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  BottomCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -59,7 +59,7 @@
 
 
 ---  
- #  BottomLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  BottomLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -69,7 +69,7 @@
 
 
 ---  
- #  BottomRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  BottomRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -79,7 +79,7 @@
 
 
 ---  
- #  Center : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Center : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -89,7 +89,7 @@
 
 
 ---  
- #  CenterLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  CenterLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -99,7 +99,7 @@
 
 
 ---  
- #  CenterRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  CenterRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -109,7 +109,7 @@
 
 
 ---  
- #  LocalBottom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalBottom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -117,7 +117,7 @@
 
 
 ---  
- #  LocalBottomCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalBottomCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -127,7 +127,7 @@
 
 
 ---  
- #  LocalBottomLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalBottomLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -137,7 +137,7 @@
 
 
 ---  
- #  LocalBottomRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalBottomRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -147,7 +147,7 @@
 
 
 ---  
- #  LocalCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -157,7 +157,7 @@
 
 
 ---  
- #  LocalCenterLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalCenterLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -167,7 +167,7 @@
 
 
 ---  
- #  LocalCenterRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalCenterRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -177,7 +177,7 @@
 
 
 ---  
- #  LocalLeft : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalLeft : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -185,7 +185,7 @@
 
 
 ---  
- #  LocalRectangle : [rectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rectangle.md)
+ #  LocalRectangle : [rectangle](rectangle.md)
 
 > Rectangle representing the area relative to parent.
 > ``` lang=cpp, name=Nada
@@ -193,7 +193,7 @@
 
 
 ---  
- #  LocalRight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalRight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -201,7 +201,7 @@
 
 
 ---  
- #  LocalTop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  LocalTop : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -209,7 +209,7 @@
 
 
 ---  
- #  LocalTopCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalTopCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -219,7 +219,7 @@
 
 
 ---  
- #  LocalTopLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalTopLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -229,7 +229,7 @@
 
 
 ---  
- #  LocalTopRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalTopRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -239,7 +239,7 @@
 
 
 ---  
- #  Origin : [Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)
+ #  Origin : [Location](../enum_reference.md#location)
 
 > Location of the Origin of the Area.
 > ``` lang=cpp, name=Nada
@@ -247,7 +247,7 @@
 
 
 ---  
- #  Size : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  Size : [real2](../nada_base_types/real2.md)
 
 > Size of the Area.
 > ``` lang=cpp, name=Nada
@@ -255,7 +255,7 @@
 
 
 ---  
- #  TopCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  TopCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -265,7 +265,7 @@
 
 
 ---  
- #  TopLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  TopLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -275,7 +275,7 @@
 
 
 ---  
- #  TopRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  TopRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -285,7 +285,7 @@
 
 
 ---  
- #  WorldBottom : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldBottom : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -293,7 +293,7 @@
 
 
 ---  
- #  WorldBottomCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldBottomCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -303,7 +303,7 @@
 
 
 ---  
- #  WorldBottomLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldBottomLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -313,7 +313,7 @@
 
 
 ---  
- #  WorldBottomRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldBottomRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -323,7 +323,7 @@
 
 
 ---  
- #  WorldCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -333,7 +333,7 @@
 
 
 ---  
- #  WorldCenterLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldCenterLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -343,7 +343,7 @@
 
 
 ---  
- #  WorldCenterRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldCenterRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -353,7 +353,7 @@
 
 
 ---  
- #  WorldLeft : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldLeft : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -361,7 +361,7 @@
 
 
 ---  
- #  WorldRectangle : [rectangle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rectangle.md)
+ #  WorldRectangle : [rectangle](rectangle.md)
 
 > Rectangle representing the area in world space.
 > ``` lang=cpp, name=Nada
@@ -369,7 +369,7 @@
 
 
 ---  
- #  WorldRight : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldRight : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -377,7 +377,7 @@
 
 
 ---  
- #  WorldTop : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  WorldTop : [real](../nada_base_types/real.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -385,7 +385,7 @@
 
 
 ---  
- #  WorldTopCenter : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldTopCenter : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -395,7 +395,7 @@
 
 
 ---  
- #  WorldTopLeft : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldTopLeft : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -405,7 +405,7 @@
 
 
 ---  
- #  WorldTopRight : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  WorldTopRight : [real2](../nada_base_types/real2.md)
 
  `read-only`
 
@@ -432,36 +432,36 @@
 
 
 ---  
- #  GetLocalLocation : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  GetLocalLocation : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |location|[Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)| |
+> |location|[Location](../enum_reference.md#location)| |
 > ``` lang=cpp, name=Nada
 > function GetLocalLocation(location : Location) : Real2
 > ``` 
 
 
 ---  
- #  GetWorldLocation : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  GetWorldLocation : [real2](../nada_base_types/real2.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |location|[Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)| |
+> |location|[Location](../enum_reference.md#location)| |
 > ``` lang=cpp, name=Nada
 > function GetWorldLocation(location : Location) : Real2
 > ``` 
 
 
 ---  
- #  LocalOffsetOf : [real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)
+ #  LocalOffsetOf : [real2](../nada_base_types/real2.md)
 
 > Offset of the given location in local space.
 > |Name|Type|Description|
 > |---|---|---|
-> |location|[Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)| |
+> |location|[Location](../enum_reference.md#location)| |
 > ``` lang=cpp, name=Nada
 > function LocalOffsetOf(location : Location) : Real2
 > ``` 
@@ -473,8 +473,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |location|[Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)| |
-> |localTranslation|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |location|[Location](../enum_reference.md#location)| |
+> |localTranslation|[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function SetLocalLocation(location : Location, localTranslation : Real2)
 > ``` 
@@ -486,8 +486,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |location|[Location](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#location)| |
-> |worldTranslation|[real2](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real2.md)| |
+> |location|[Location](../enum_reference.md#location)| |
+> |worldTranslation|[real2](../nada_base_types/real2.md)| |
 > ``` lang=cpp, name=Nada
 > function SetWorldLocation(location : Location, worldTranslation : Real2)
 > ``` 

@@ -17,7 +17,7 @@ Right-clicking on a Tag in the Library window will only give a single option, `A
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47149.png)
 
 
-Left-clicking on this option will act the same as if that [Tag](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/tags.md) was typed into the Search function, or if the Tag was double left-clicked: the Library Window will show any Resources with the selected Tag. 
+Left-clicking on this option will act the same as if that [Tag](../tags.md) was typed into the Search function, or if the Tag was double left-clicked: the Library Window will show any Resources with the selected Tag. 
 
 
 
@@ -65,7 +65,7 @@ When a Component is right-clicked in the Properties Window, it is given three op
  - **Remove**: The `Remove` option will remove the selected Component from the Object. If another Component is dependent on the Component attempting to be removed, the Engine will not allow the removal to take place and will show an error message. 
  - **View Docs**: `View Docs` will open a new Editor Window that will give a Class Description of the Component, as well as the various Properties and Methods that Component has. 
 
-NOTE: Only Components supplied by the Engine will have documentation, and the documentation is the same that will appear in Nada's code-completion and the [Code Reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference.md) Section. As it is generated automatically from meta data, not all components will have docs available for viewing.
+NOTE: Only Components supplied by the Engine will have documentation, and the documentation is the same that will appear in Nada's code-completion and the [Code Reference](../../../code_reference.md) Section. As it is generated automatically from meta data, not all components will have docs available for viewing.
 
  - **Search Online Docs**: Using `Search Online Docs` will open a new page in the user's web browser, navigate to "zero.digipen.edu" and perform a search using the name of the Component as the query. 
 
@@ -96,9 +96,9 @@ When right-clicking on an open tab in the Editor Window, three options are given
  # Related Materials
 
  ## Manual
-- [Tags](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/tags.md)
+- [Tags](../tags.md)
 
  ## Reference
-- [code_reference](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/code_reference.md) 
+- [code_reference](../../../code_reference.md) 
 
  

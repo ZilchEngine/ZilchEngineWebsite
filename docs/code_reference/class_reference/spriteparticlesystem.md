@@ -6,20 +6,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#spriteparticlesystem-voi)|[ BeamBaseScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#beambasescale-zilch-engin)|[particlesystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/particlesystem.md)| |
-| |[ BeamVelocityScale](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#beamvelocityscale-zilch-e)| | |
-| |[ GeometryMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#geometrymode-zilch-engine)| | |
-| |[ ParticleAnimation](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#particleanimation-zilch-e)| | |
-| |[ ParticleSort](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#particlesort-zilch-engine)| | |
-| |[ SpriteSource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#spritesource-zilch-engine)| | |
-| |[ VertexColor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spriteparticlesystem.md#vertexcolor-zilch-engine)| | |
+|[ Constructor](spriteparticlesystem.md#spriteparticlesystem-voi)|[ BeamBaseScale](spriteparticlesystem.md#beambasescale-zilch-engin)|[particlesystem](particlesystem.md)| |
+| |[ BeamVelocityScale](spriteparticlesystem.md#beamvelocityscale-zilch-e)| | |
+| |[ GeometryMode](spriteparticlesystem.md#geometrymode-zilch-engine)| | |
+| |[ ParticleAnimation](spriteparticlesystem.md#particleanimation-zilch-e)| | |
+| |[ ParticleSort](spriteparticlesystem.md#particlesort-zilch-engine)| | |
+| |[ SpriteSource](spriteparticlesystem.md#spritesource-zilch-engine)| | |
+| |[ VertexColor](spriteparticlesystem.md#vertexcolor-zilch-engine)| | |
 
 
  #  Properties
 
 
 ---  
- #  BeamBaseScale : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BeamBaseScale : [real](../nada_base_types/real.md)
 
 > How much to scale particles along their direction of movement.
 > ``` lang=cpp, name=Nada
@@ -27,7 +27,7 @@
 
 
 ---  
- #  BeamVelocityScale : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BeamVelocityScale : [real](../nada_base_types/real.md)
 
 > How much additional scale to add to particles by how fast they are moving.
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  GeometryMode : [SpriteParticleGeometryMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteparticlegeometrymode)
+ #  GeometryMode : [SpriteParticleGeometryMode](../enum_reference.md#spriteparticlegeometrymode)
 
 > How the geometry of the particles are generated.
 > ``` lang=cpp, name=Nada
@@ -43,7 +43,7 @@
 
 
 ---  
- #  ParticleAnimation : [SpriteParticleAnimationMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteparticleanimationmode)
+ #  ParticleAnimation : [SpriteParticleAnimationMode](../enum_reference.md#spriteparticleanimationmode)
 
 > How the sprite's animation should be used.
 > ``` lang=cpp, name=Nada
@@ -51,7 +51,7 @@
 
 
 ---  
- #  ParticleSort : [SpriteParticleSortMode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#spriteparticlesortmode)
+ #  ParticleSort : [SpriteParticleSortMode](../enum_reference.md#spriteparticlesortmode)
 
 > How particles should be sorted with each other, determines draw order between particles.
 > ``` lang=cpp, name=Nada
@@ -59,7 +59,7 @@
 
 
 ---  
- #  SpriteSource : [spritesource](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/spritesource.md)
+ #  SpriteSource : [spritesource](spritesource.md)
 
 > The sprite definition to use for each particle.
 > ``` lang=cpp, name=Nada
@@ -67,7 +67,7 @@
 
 
 ---  
- #  VertexColor : [real4](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real4.md)
+ #  VertexColor : [real4](../nada_base_types/real4.md)
 
 > Color attribute of the generated vertices accessible in the vertex shader, value is multiplied with the particle color.
 > ``` lang=cpp, name=Nada

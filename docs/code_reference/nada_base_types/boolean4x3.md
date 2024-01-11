@@ -2,28 +2,28 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#boolean4x3-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#count-zilch-engine-docume)| | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#get-zilch-engine-document)|[ CountX](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#countx-zilch-engine-docum)| | |
-|[ GetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#getbyindex-zilch-engine-d)|[ CountY](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#county-zilch-engine-docum)| | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#set-void)|[ M00](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m00-zilch-engine-document)| | |
-|[ SetByIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#setbyindex-void)|[ M01](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m01-zilch-engine-document)| | |
-| |[ M02](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m02-zilch-engine-document)| | |
-| |[ M10](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m10-zilch-engine-document)| | |
-| |[ M11](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m11-zilch-engine-document)| | |
-| |[ M12](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m12-zilch-engine-document)| | |
-| |[ M20](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m20-zilch-engine-document)| | |
-| |[ M21](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m21-zilch-engine-document)| | |
-| |[ M22](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m22-zilch-engine-document)| | |
-| |[ M30](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m30-zilch-engine-document)| | |
-| |[ M31](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m31-zilch-engine-document)| | |
-| |[ M32](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean4x3.md#m32-zilch-engine-document)| | |
+|[ Constructor](boolean4x3.md#boolean4x3-void)|[ Count](boolean4x3.md#count-zilch-engine-docume)| | |
+|[ Get](boolean4x3.md#get-zilch-engine-document)|[ CountX](boolean4x3.md#countx-zilch-engine-docum)| | |
+|[ GetByIndex](boolean4x3.md#getbyindex-zilch-engine-d)|[ CountY](boolean4x3.md#county-zilch-engine-docum)| | |
+|[ Set](boolean4x3.md#set-void)|[ M00](boolean4x3.md#m00-zilch-engine-document)| | |
+|[ SetByIndex](boolean4x3.md#setbyindex-void)|[ M01](boolean4x3.md#m01-zilch-engine-document)| | |
+| |[ M02](boolean4x3.md#m02-zilch-engine-document)| | |
+| |[ M10](boolean4x3.md#m10-zilch-engine-document)| | |
+| |[ M11](boolean4x3.md#m11-zilch-engine-document)| | |
+| |[ M12](boolean4x3.md#m12-zilch-engine-document)| | |
+| |[ M20](boolean4x3.md#m20-zilch-engine-document)| | |
+| |[ M21](boolean4x3.md#m21-zilch-engine-document)| | |
+| |[ M22](boolean4x3.md#m22-zilch-engine-document)| | |
+| |[ M30](boolean4x3.md#m30-zilch-engine-document)| | |
+| |[ M31](boolean4x3.md#m31-zilch-engine-document)| | |
+| |[ M32](boolean4x3.md#m32-zilch-engine-document)| | |
 
 
  #  Properties
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -33,7 +33,7 @@
 
 
 ---  
- #  CountX : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  CountX : [integer](integer.md)
 
  `read-only`
 
@@ -43,7 +43,7 @@
 
 
 ---  
- #  CountY : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  CountY : [integer](integer.md)
 
  `read-only`
 
@@ -53,7 +53,7 @@
 
 
 ---  
- #  M00 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M00 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -61,7 +61,7 @@
 
 
 ---  
- #  M01 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M01 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -69,7 +69,7 @@
 
 
 ---  
- #  M02 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M02 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -77,7 +77,7 @@
 
 
 ---  
- #  M10 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M10 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -85,7 +85,7 @@
 
 
 ---  
- #  M11 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M11 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -93,7 +93,7 @@
 
 
 ---  
- #  M12 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M12 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -101,7 +101,7 @@
 
 
 ---  
- #  M20 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M20 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -109,7 +109,7 @@
 
 
 ---  
- #  M21 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M21 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -117,7 +117,7 @@
 
 
 ---  
- #  M22 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M22 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -125,7 +125,7 @@
 
 
 ---  
- #  M30 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M30 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -133,7 +133,7 @@
 
 
 ---  
- #  M31 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M31 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -141,7 +141,7 @@
 
 
 ---  
- #  M32 : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  M32 : [boolean](boolean.md)
 
 > 
 > ``` lang=cpp, name=Nada
@@ -173,7 +173,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |p0|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |p0|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Boolean4x3(p0 : Boolean)
 > ``` 
@@ -187,55 +187,55 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |m00|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m01|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m02|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m10|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m11|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m12|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m20|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m21|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m22|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m30|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m31|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
-> |m32|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |m00|[boolean](boolean.md)| |
+> |m01|[boolean](boolean.md)| |
+> |m02|[boolean](boolean.md)| |
+> |m10|[boolean](boolean.md)| |
+> |m11|[boolean](boolean.md)| |
+> |m12|[boolean](boolean.md)| |
+> |m20|[boolean](boolean.md)| |
+> |m21|[boolean](boolean.md)| |
+> |m22|[boolean](boolean.md)| |
+> |m30|[boolean](boolean.md)| |
+> |m31|[boolean](boolean.md)| |
+> |m32|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Boolean4x3(m00 : Boolean, m01 : Boolean, m02 : Boolean, m10 : Boolean, m11 : Boolean, m12 : Boolean, m20 : Boolean, m21 : Boolean, m22 : Boolean, m30 : Boolean, m31 : Boolean, m32 : Boolean)
 > ``` 
 
 
 ---  
- #  Get : [boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)
+ #  Get : [boolean3](boolean3.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |y|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(y : Integer) : Boolean3
 > ``` 
 
 
 ---  
- #  Get : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  Get : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |x|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |y|[integer](integer.md)| |
+> |x|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(y : Integer, x : Integer) : Boolean
 > ``` 
 
 
 ---  
- #  GetByIndex : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  GetByIndex : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function GetByIndex(index : Integer) : Boolean
 > ``` 
@@ -247,8 +247,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean3](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean3.md)| |
+> |y|[integer](integer.md)| |
+> |value|[boolean3](boolean3.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(y : Integer, value : Boolean3)
 > ``` 
@@ -260,9 +260,9 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |y|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |x|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |y|[integer](integer.md)| |
+> |x|[integer](integer.md)| |
+> |value|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Set(y : Integer, x : Integer, value : Boolean)
 > ``` 
@@ -274,8 +274,8 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |value|[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |index|[integer](integer.md)| |
+> |value|[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function SetByIndex(index : Integer, value : Boolean)
 > ``` 

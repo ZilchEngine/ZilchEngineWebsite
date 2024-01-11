@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/prismaticjoint2dblock.md#prismaticjoint2dblock-vo)| |[constraintconfigblock](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/constraintconfigblock.md)| |
+|[ Constructor](prismaticjoint2dblock.md#prismaticjoint2dblock-vo)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#createruntime-zilch-engin)|[ Indices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#indices-zilch-engine-docu)|Resource| |
-|[ RuntimeClone](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#runtimeclone-zilch-engine)|[ PrimitiveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#primitivetype-zilch-engin)| | |
-|[ Upload](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#upload-void)|[ Vertices](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#vertices-zilch-engine-doc)| | |
-|[ UploadNoRayCastInfo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#uploadnoraycastinfo-void)| | | |
-|[ UploadNoRayCastInfoOrAabb](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md#uploadnoraycastinfooraab)| | | |
+|[ CreateRuntime](mesh.md#createruntime-zilch-engin)|[ Indices](mesh.md#indices-zilch-engine-docu)|Resource| |
+|[ RuntimeClone](mesh.md#runtimeclone-zilch-engine)|[ PrimitiveType](mesh.md#primitivetype-zilch-engin)| | |
+|[ Upload](mesh.md#upload-void)|[ Vertices](mesh.md#vertices-zilch-engine-doc)| | |
+|[ UploadNoRayCastInfo](mesh.md#uploadnoraycastinfo-void)| | | |
+|[ UploadNoRayCastInfoOrAabb](mesh.md#uploadnoraycastinfooraab)| | | |
 
 
  #  Properties
 
 
 ---  
- #  Indices : [indexbuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/indexbuffer.md)
+ #  Indices : [indexbuffer](indexbuffer.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  PrimitiveType : [PrimitiveType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#primitivetype)
+ #  PrimitiveType : [PrimitiveType](../enum_reference.md#primitivetype)
 
 > The type of primitives to be made with the vertex data.
 > ``` lang=cpp, name=Nada
@@ -35,7 +35,7 @@
 
 
 ---  
- #  Vertices : [vertexbuffer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/vertexbuffer.md)
+ #  Vertices : [vertexbuffer](vertexbuffer.md)
 
  `read-only`
 
@@ -49,7 +49,7 @@
 
 
 ---  
- #  CreateRuntime : [mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md)
+ #  CreateRuntime : [mesh](mesh.md)
 
  `static`
 
@@ -62,7 +62,7 @@
 
 
 ---  
- #  RuntimeClone : [mesh](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mesh.md)
+ #  RuntimeClone : [mesh](mesh.md)
 
 > Creates a clone of this Mesh. As a clone is expected to be modified, an upload function must be called before this mesh can be used.
 > |Name|Type|Description|

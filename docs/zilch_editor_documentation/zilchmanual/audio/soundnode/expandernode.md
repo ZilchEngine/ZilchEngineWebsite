@@ -1,4 +1,4 @@
-The [ ExpanderNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md) collects audio data from all of its inputs and applies an expander filter before passing the data along to its outputs. 
+The [ ExpanderNode ](../../../../code_reference/class_reference/expandernode.md) collects audio data from all of its inputs and applies an expander filter before passing the data along to its outputs. 
 
  # Common Uses
 
@@ -18,10 +18,10 @@ The `AttackMillisec` and `ReleaseMillisec` properties control how quickly the fi
 ---
  # Related Materials
  ## Manual
-- [soudnode_overview](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/soudnode_overview.md)
-- [compressornode](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/audio/soundnode/compressornode.md)
+- [soudnode_overview](soudnode_overview.md)
+- [compressornode](compressornode.md)
 
  ## Code Reference
-- [ ExpanderNode ](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/expandernode.md) 
+- [ ExpanderNode ](../../../../code_reference/class_reference/expandernode.md) 
 
  

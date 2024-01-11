@@ -4,24 +4,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Connect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#connect-void)|[ Audio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#audio-zilch-engine-docume)| | |
-|[ Disconnect](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#disconnect-void)|[ Editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#editor-zilch-engine-docum)| | |
-|[ DisconnectAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#disconnectall-void)|[ Engine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#engine-zilch-engine-docum)| | |
-| |[ Environment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#environment-zilch-engine)| | |
-| |[ Gamepads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#gamepads-zilch-engine-doc)| | |
-| |[ Joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#joysticks-zilch-engine-do)| | |
-| |[ Keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#keyboard-zilch-engine-doc)| | |
-| |[ Mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#mouse-zilch-engine-docume)| | |
-| |[ ObjectStore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#objectstore-zilch-engine)| | |
-| |[ OsShell](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#osshell-zilch-engine-docu)| | |
-| |[ ResourceSystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/zero.md#resourcesystem-zilch-engi)| | |
+|[ Connect](zero.md#connect-void)|[ Audio](zero.md#audio-zilch-engine-docume)| | |
+|[ Disconnect](zero.md#disconnect-void)|[ Editor](zero.md#editor-zilch-engine-docum)| | |
+|[ DisconnectAll](zero.md#disconnectall-void)|[ Engine](zero.md#engine-zilch-engine-docum)| | |
+| |[ Environment](zero.md#environment-zilch-engine)| | |
+| |[ Gamepads](zero.md#gamepads-zilch-engine-doc)| | |
+| |[ Joysticks](zero.md#joysticks-zilch-engine-do)| | |
+| |[ Keyboard](zero.md#keyboard-zilch-engine-doc)| | |
+| |[ Mouse](zero.md#mouse-zilch-engine-docume)| | |
+| |[ ObjectStore](zero.md#objectstore-zilch-engine)| | |
+| |[ OsShell](zero.md#osshell-zilch-engine-docu)| | |
+| |[ ResourceSystem](zero.md#resourcesystem-zilch-engi)| | |
 
 
  #  Properties
 
 
 ---  
- #  Audio : [audio](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/audio.md)
+ #  Audio : [audio](audio.md)
 
  `read-only` `static`
 
@@ -31,7 +31,7 @@
 
 
 ---  
- #  Editor : [editor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/editor.md)
+ #  Editor : [editor](editor.md)
 
  `read-only` `static`
 
@@ -41,7 +41,7 @@
 
 
 ---  
- #  Engine : [engine](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/engine.md)
+ #  Engine : [engine](engine.md)
 
  `read-only` `static`
 
@@ -51,7 +51,7 @@
 
 
 ---  
- #  Environment : [environment](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/environment.md)
+ #  Environment : [environment](environment.md)
 
  `read-only` `static`
 
@@ -61,7 +61,7 @@
 
 
 ---  
- #  Gamepads : [gamepads](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/gamepads.md)
+ #  Gamepads : [gamepads](gamepads.md)
 
  `read-only` `static`
 
@@ -71,7 +71,7 @@
 
 
 ---  
- #  Joysticks : [joysticks](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/joysticks.md)
+ #  Joysticks : [joysticks](joysticks.md)
 
  `read-only` `static`
 
@@ -81,7 +81,7 @@
 
 
 ---  
- #  Keyboard : [keyboard](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/keyboard.md)
+ #  Keyboard : [keyboard](keyboard.md)
 
  `read-only` `static`
 
@@ -91,7 +91,7 @@
 
 
 ---  
- #  Mouse : [mouse](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/mouse.md)
+ #  Mouse : [mouse](mouse.md)
 
  `read-only` `static`
 
@@ -101,7 +101,7 @@
 
 
 ---  
- #  ObjectStore : [objectstore](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/objectstore.md)
+ #  ObjectStore : [objectstore](objectstore.md)
 
  `read-only` `static`
 
@@ -111,7 +111,7 @@
 
 
 ---  
- #  OsShell : [osshell](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/osshell.md)
+ #  OsShell : [osshell](osshell.md)
 
  `read-only` `static`
 
@@ -121,7 +121,7 @@
 
 
 ---  
- #  ResourceSystem : [resourcesystem](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/resourcesystem.md)
+ #  ResourceSystem : [resourcesystem](resourcesystem.md)
 
  `read-only` `static`
 
@@ -143,7 +143,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |sender|Object| |
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
 > |receiverDelegate|delegate()| |
 > ``` lang=cpp, name=Nada
 > function Connect(sender : Object, eventId : String, receiverDelegate : delegate())
@@ -159,7 +159,7 @@
 > |Name|Type|Description|
 > |---|---|---|
 > |sender|Object| |
-> |eventId|[string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)| |
+> |eventId|[string](../nada_base_types/string.md)| |
 > |receiver|Object| |
 > ``` lang=cpp, name=Nada
 > function Disconnect(sender : Object, eventId : String, receiver : Object)

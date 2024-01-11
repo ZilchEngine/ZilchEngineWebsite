@@ -7,23 +7,23 @@ This lesson covers the Market, and how to use it to download content for your pr
 
  #  Level Setup
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=2D Project} template
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
- - Under [ Transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
+ - Under [ Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, -3, 0]`
   - Set Scale  to `[10, 1, 1]`
- - Under [ Sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
+ - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
   - Set SpriteSource enum to `Square`
- - [ Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) : `BoxCollider`
+ - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `BoxCollider`
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101883.png) *The level so far*
 
 
-[ The Market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/using_the_market.md) is an online content collection. Users (including the #zilch_engine_developers) can upload and download assets to and from the Market for use in their projects. The Market can be accessed from within the Zilch Editor or from a web browser, but this tutorial will just use the Market's in-editor interface.
+[ The Market](../../zilchmanual/editor/using_the_market.md) is an online content collection. Users (including the #zilch_engine_developers) can upload and download assets to and from the Market for use in their projects. The Market can be accessed from within the Zilch Editor or from a web browser, but this tutorial will just use the Market's in-editor interface.
 
  #  Accessing the Market
 
@@ -94,7 +94,7 @@ This content pack includes the `SweptController` character controller component,
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101885.png) *The level with a player*
 
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
  - Use the `A` and `D` keys and the `Space` bar to move the player and jump
 
 
@@ -104,24 +104,24 @@ This content pack includes the `SweptController` character controller component,
 
 You can use the Market to add content like the SweptController to any of your future projects.
 
-- [ Command](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  Related Materials
  ##  Manual
-- [using_the_market](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/using_the_market.md)
-- [commands](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md)
-- [addremovecomponent](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
+- [using_the_market](../../zilchmanual/editor/using_the_market.md)
+- [commands](../../zilchmanual/editor/editorcommands/commands.md)
+- [addremovecomponent](../../zilchmanual/editor/addremovecomponent.md)
  ##  Reference
  ###  Commands
-- [ NewProject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#newproject)
-- [ CreateSprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#createsprite)
-- [ PlayGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#playgame)
-- [ StopGame](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/command_reference.md#stopgame)
+- [ NewProject](../../../code_reference/command_reference.md#newproject)
+- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [ StopGame](../../../code_reference/command_reference.md#stopgame)
  ###  Classes
-- [transform](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/transform.md)
-- [sprite](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sprite.md)
-- [boxcollider](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/boxcollider.md)
-- [rigidbody](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/rigidbody.md)
+- [transform](../../../code_reference/class_reference/transform.md)
+- [sprite](../../../code_reference/class_reference/sprite.md)
+- [boxcollider](../../../code_reference/class_reference/boxcollider.md)
+- [rigidbody](../../../code_reference/class_reference/rigidbody.md)
  ##  Development Task
 - {T1450}
  

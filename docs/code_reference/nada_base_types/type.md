@@ -2,22 +2,22 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsA](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#isa-zilch-engine-document)|[ IsAny](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#isany-zilch-engine-docume)|[reflectionobject](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/reflectionobject.md)|[anytype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/anytype.md)|
-|[ IsCastableTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#iscastableto-zilch-engine)|[ IsDelegate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#isdelegate-zilch-engine-d)| |[boundtype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boundtype.md)|
-|[ IsRawCastableTo](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#israwcastableto-zilch-eng)|[ IsEnum](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#isenum-zilch-engine-docum)| |[delegatetype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/delegatetype.md)|
-| |[ IsEnumOrFlags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#isenumorflags-zilch-engin)| |[indirectiontype](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/indirectiontype.md)|
-| |[ IsFlags](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#isflags-zilch-engine-docu)| | |
-| |[ IsHandle](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#ishandle-zilch-engine-doc)| | |
-| |[ IsValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#isvalue-zilch-engine-docu)| | |
-| |[ Library](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#library-zilch-engine-docu)| | |
-| |[ Name](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md#name-zilch-engine-documen)| | |
+|[ IsA](type.md#isa-zilch-engine-document)|[ IsAny](type.md#isany-zilch-engine-docume)|[reflectionobject](reflectionobject.md)|[anytype](anytype.md)|
+|[ IsCastableTo](type.md#iscastableto-zilch-engine)|[ IsDelegate](type.md#isdelegate-zilch-engine-d)| |[boundtype](boundtype.md)|
+|[ IsRawCastableTo](type.md#israwcastableto-zilch-eng)|[ IsEnum](type.md#isenum-zilch-engine-docum)| |[delegatetype](delegatetype.md)|
+| |[ IsEnumOrFlags](type.md#isenumorflags-zilch-engin)| |[indirectiontype](indirectiontype.md)|
+| |[ IsFlags](type.md#isflags-zilch-engine-docu)| | |
+| |[ IsHandle](type.md#ishandle-zilch-engine-doc)| | |
+| |[ IsValue](type.md#isvalue-zilch-engine-docu)| | |
+| |[ Library](type.md#library-zilch-engine-docu)| | |
+| |[ Name](type.md#name-zilch-engine-documen)| | |
 
 
  #  Properties
 
 
 ---  
- #  IsAny : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsAny : [boolean](boolean.md)
 
  `read-only`
 
@@ -27,7 +27,7 @@
 
 
 ---  
- #  IsDelegate : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsDelegate : [boolean](boolean.md)
 
  `read-only`
 
@@ -37,7 +37,7 @@
 
 
 ---  
- #  IsEnum : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEnum : [boolean](boolean.md)
 
  `read-only`
 
@@ -47,7 +47,7 @@
 
 
 ---  
- #  IsEnumOrFlags : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEnumOrFlags : [boolean](boolean.md)
 
  `read-only`
 
@@ -57,7 +57,7 @@
 
 
 ---  
- #  IsFlags : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsFlags : [boolean](boolean.md)
 
  `read-only`
 
@@ -67,7 +67,7 @@
 
 
 ---  
- #  IsHandle : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsHandle : [boolean](boolean.md)
 
  `read-only`
 
@@ -77,7 +77,7 @@
 
 
 ---  
- #  IsValue : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsValue : [boolean](boolean.md)
 
  `read-only`
 
@@ -87,7 +87,7 @@
 
 
 ---  
- #  Library : [library](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/library.md)
+ #  Library : [library](library.md)
 
  `read-only`
 
@@ -97,7 +97,7 @@
 
 
 ---  
- #  Name : [string](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/string.md)
+ #  Name : [string](string.md)
 
  `read-only`
 
@@ -111,36 +111,36 @@
 
 
 ---  
- #  IsA : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsA : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |baseType|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)| |
+> |baseType|[type](type.md)| |
 > ``` lang=cpp, name=Nada
 > function IsA(baseType : Type) : Boolean
 > ``` 
 
 
 ---  
- #  IsCastableTo : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsCastableTo : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |toType|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)| |
+> |toType|[type](type.md)| |
 > ``` lang=cpp, name=Nada
 > function IsCastableTo(toType : Type) : Boolean
 > ``` 
 
 
 ---  
- #  IsRawCastableTo : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsRawCastableTo : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |toType|[type](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/type.md)| |
+> |toType|[type](type.md)| |
 > ``` lang=cpp, name=Nada
 > function IsRawCastableTo(toType : Type) : Boolean
 > ``` 

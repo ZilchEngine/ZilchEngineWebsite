@@ -2,28 +2,28 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Play](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#play-void)|[ BufferScanRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#bufferscanrate-zilch-engi)|[soundnode](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/soundnode.md)| |
-|[ SetSound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#setsound-void)|[ GrainDelay](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#graindelay-zilch-engine-d)| | |
-|[ Stop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#stop-void)|[ GrainDelayVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#graindelayvariance-zero)| | |
-| |[ GrainLength](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainlength-zilch-engine)| | |
-| |[ GrainLengthVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainlengthvariance-zero)| | |
-| |[ GrainPanningValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainpanningvalue-zilch-e)| | |
-| |[ GrainPanningVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainpanningvariance-zer)| | |
-| |[ GrainResampleRate](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainresamplerate-zilch-e)| | |
-| |[ GrainResampleRateVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainresampleratevarianc)| | |
-| |[ GrainVolume](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainvolume-zilch-engine)| | |
-| |[ GrainVolumeVariance](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#grainvolumevariance-zero)| | |
-| |[ RandomLocationValue](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#randomlocationvalue-zero)| | |
-| |[ WindowAttack](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#windowattack-zilch-engine)| | |
-| |[ WindowRelease](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#windowrelease-zilch-engin)| | |
-| |[ WindowType](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/granularsynthnode.md#windowtype-zilch-engine-d)| | |
+|[ Play](granularsynthnode.md#play-void)|[ BufferScanRate](granularsynthnode.md#bufferscanrate-zilch-engi)|[soundnode](soundnode.md)| |
+|[ SetSound](granularsynthnode.md#setsound-void)|[ GrainDelay](granularsynthnode.md#graindelay-zilch-engine-d)| | |
+|[ Stop](granularsynthnode.md#stop-void)|[ GrainDelayVariance](granularsynthnode.md#graindelayvariance-zero)| | |
+| |[ GrainLength](granularsynthnode.md#grainlength-zilch-engine)| | |
+| |[ GrainLengthVariance](granularsynthnode.md#grainlengthvariance-zero)| | |
+| |[ GrainPanningValue](granularsynthnode.md#grainpanningvalue-zilch-e)| | |
+| |[ GrainPanningVariance](granularsynthnode.md#grainpanningvariance-zer)| | |
+| |[ GrainResampleRate](granularsynthnode.md#grainresamplerate-zilch-e)| | |
+| |[ GrainResampleRateVariance](granularsynthnode.md#grainresampleratevarianc)| | |
+| |[ GrainVolume](granularsynthnode.md#grainvolume-zilch-engine)| | |
+| |[ GrainVolumeVariance](granularsynthnode.md#grainvolumevariance-zero)| | |
+| |[ RandomLocationValue](granularsynthnode.md#randomlocationvalue-zero)| | |
+| |[ WindowAttack](granularsynthnode.md#windowattack-zilch-engine)| | |
+| |[ WindowRelease](granularsynthnode.md#windowrelease-zilch-engin)| | |
+| |[ WindowType](granularsynthnode.md#windowtype-zilch-engine-d)| | |
 
 
  #  Properties
 
 
 ---  
- #  BufferScanRate : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  BufferScanRate : [real](../nada_base_types/real.md)
 
 > The rate at which the synthesizer scans the buffer as it creates grains. A value of 1.0 will move through the audio data at the same rate as it would normally be played, 0.5 will move at half speed, and -1.0 will move at normal speed backward. A value of 0.0 will make the synthesizer repeat the same audio continuously.
 > ``` lang=cpp, name=Nada
@@ -31,7 +31,7 @@
 
 
 ---  
- #  GrainDelay : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GrainDelay : [integer](../nada_base_types/integer.md)
 
 > The number of milliseconds to wait before playing another grain.
 > ``` lang=cpp, name=Nada
@@ -39,7 +39,7 @@
 
 
 ---  
- #  GrainDelayVariance : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GrainDelayVariance : [integer](../nada_base_types/integer.md)
 
 > The variance for randomizing the grain delay, in milliseconds.
 > ``` lang=cpp, name=Nada
@@ -47,7 +47,7 @@
 
 
 ---  
- #  GrainLength : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GrainLength : [integer](../nada_base_types/integer.md)
 
 > The length of a grain, in milliseconds.
 > ``` lang=cpp, name=Nada
@@ -55,7 +55,7 @@
 
 
 ---  
- #  GrainLengthVariance : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  GrainLengthVariance : [integer](../nada_base_types/integer.md)
 
 > The variance for randomizing the grain length, in milliseconds.
 > ``` lang=cpp, name=Nada
@@ -63,7 +63,7 @@
 
 
 ---  
- #  GrainPanningValue : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrainPanningValue : [real](../nada_base_types/real.md)
 
 > The value used to pan the grains left or right. A value of 0 will be heard equally from the left and right, 1.0 will be heard only on the right, and -1.0 will be only left.
 > ``` lang=cpp, name=Nada
@@ -71,7 +71,7 @@
 
 
 ---  
- #  GrainPanningVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrainPanningVariance : [real](../nada_base_types/real.md)
 
 > The variance for randomizing the grain panning value.
 > ``` lang=cpp, name=Nada
@@ -79,7 +79,7 @@
 
 
 ---  
- #  GrainResampleRate : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrainResampleRate : [real](../nada_base_types/real.md)
 
 > The rate at which grains resample their audio data. A value of 1.0 will play normally, 0.5 will play at half speed, and -1.0 will play at normal speed backward. Cannot be 0.
 > ``` lang=cpp, name=Nada
@@ -87,7 +87,7 @@
 
 
 ---  
- #  GrainResampleRateVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrainResampleRateVariance : [real](../nada_base_types/real.md)
 
 > The variance for randomizing the grain resample rate.
 > ``` lang=cpp, name=Nada
@@ -95,7 +95,7 @@
 
 
 ---  
- #  GrainVolume : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrainVolume : [real](../nada_base_types/real.md)
 
 > The volume modifier applied to the grains.
 > ``` lang=cpp, name=Nada
@@ -103,7 +103,7 @@
 
 
 ---  
- #  GrainVolumeVariance : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  GrainVolumeVariance : [real](../nada_base_types/real.md)
 
 > The variance for randomizing the grain volume.
 > ``` lang=cpp, name=Nada
@@ -111,7 +111,7 @@
 
 
 ---  
- #  RandomLocationValue : [real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)
+ #  RandomLocationValue : [real](../nada_base_types/real.md)
 
 > The value for controlling how many grains have randomized starting positions in the audio. A value of 0 will be completely sequential, while 1.0 will be completely random.
 > ``` lang=cpp, name=Nada
@@ -119,7 +119,7 @@
 
 
 ---  
- #  WindowAttack : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  WindowAttack : [integer](../nada_base_types/integer.md)
 
 > The window attack time, in milliseconds. Does not have an effect on some windows.
 > ``` lang=cpp, name=Nada
@@ -127,7 +127,7 @@
 
 
 ---  
- #  WindowRelease : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  WindowRelease : [integer](../nada_base_types/integer.md)
 
 > The window release time, in milliseconds. Does not have an effect on some windows.
 > ``` lang=cpp, name=Nada
@@ -135,7 +135,7 @@
 
 
 ---  
- #  WindowType : [GranularSynthWindows](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/enum_reference.md#granularsynthwindows)
+ #  WindowType : [GranularSynthWindows](../enum_reference.md#granularsynthwindows)
 
 > The type of window, or volume envelope, used for each grain.
 > ``` lang=cpp, name=Nada
@@ -163,9 +163,9 @@
 > Sets the Sound resource that will be used for the grains, along with an optional start and stop time. If the stopTime is 0.0, all audio from the Sound will be used.
 > |Name|Type|Description|
 > |---|---|---|
-> |sound|[sound](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/class_reference/sound.md)| |
-> |startTime|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
-> |stopTime|[real](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/real.md)| |
+> |sound|[sound](sound.md)| |
+> |startTime|[real](../nada_base_types/real.md)| |
+> |stopTime|[real](../nada_base_types/real.md)| |
 > ``` lang=cpp, name=Nada
 > function SetSound(sound : Sound, startTime : Real, stopTime : Real)
 > ``` 

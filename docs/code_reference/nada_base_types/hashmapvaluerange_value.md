@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .md#hashmapvaluerange-value)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .md#all-zilch-engine-document)| | |
-|[ MoveNext](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .md#movenext-void)|[ Current](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .md#current-key)| | |
-|[ Reset](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .md#reset-void)|[ IsEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/hashmapvaluerange_value .md#isnotempty-zilch-engine-d)| | |
+|[ Constructor](hashmapvaluerange_value .md#hashmapvaluerange-value)|[ All](hashmapvaluerange_value .md#all-zilch-engine-document)| | |
+|[ MoveNext](hashmapvaluerange_value .md#movenext-void)|[ Current](hashmapvaluerange_value .md#current-key)| | |
+|[ Reset](hashmapvaluerange_value .md#reset-void)|[ IsEmpty](hashmapvaluerange_value .md#isempty-zilch-engine-docu)| | |
+| |[ IsNotEmpty](hashmapvaluerange_value .md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties
@@ -32,7 +32,7 @@
 
 
 ---  
- #  IsEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsEmpty : [boolean](boolean.md)
 
  `read-only`
 
@@ -42,7 +42,7 @@
 
 
 ---  
- #  IsNotEmpty : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  IsNotEmpty : [boolean](boolean.md)
 
  `read-only`
 

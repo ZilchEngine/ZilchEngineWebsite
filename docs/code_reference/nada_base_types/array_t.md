@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#add-void)|[ All](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#all-zilch-engine-document)| | |
-|[ Constructor](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#array-t-void)|[ Capacity](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#capacity-zilch-engine-doc)| | |
-|[ Clear](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#clear-void)|[ Count](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#count-zilch-engine-docume)| | |
-|[ Copy](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#copy-zilch-engine-documen)|[ LastIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#lastindex-zilch-engine-do)| | |
-|[ FindFirstIndex](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#findfirstindex-zilch-engi)| | | |
-|[ Get](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#get-zilch-engine-document)| | | |
-|[ Insert](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#insert-void)| | | |
-|[ Pop](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#pop-zilch-engine-document)| | | |
-|[ Push](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#push-void)| | | |
-|[ Range](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#range-zilch-engine-docume)| | | |
-|[ RemoveAll](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#removeall-zilch-engine-do)| | | |
-|[ RemoveAt](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#removeat-void)| | | |
-|[ RemoveFirst](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#removefirst-zilch-engine)| | | |
-|[ RemoveSwap](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#removeswap-void)| | | |
-|[ Reserve](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#reserve-void)| | | |
-|[ Resize](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#resize-void)| | | |
-|[ Set](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#set-void)| | | |
-|[ Sort](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/array_t .md#sort-void)| | | |
+|[ Add](array_t .md#add-void)|[ All](array_t .md#all-zilch-engine-document)| | |
+|[ Constructor](array_t .md#array-t-void)|[ Capacity](array_t .md#capacity-zilch-engine-doc)| | |
+|[ Clear](array_t .md#clear-void)|[ Count](array_t .md#count-zilch-engine-docume)| | |
+|[ Copy](array_t .md#copy-zilch-engine-documen)|[ LastIndex](array_t .md#lastindex-zilch-engine-do)| | |
+|[ FindFirstIndex](array_t .md#findfirstindex-zilch-engi)| | | |
+|[ Get](array_t .md#get-zilch-engine-document)| | | |
+|[ Insert](array_t .md#insert-void)| | | |
+|[ Pop](array_t .md#pop-zilch-engine-document)| | | |
+|[ Push](array_t .md#push-void)| | | |
+|[ Range](array_t .md#range-zilch-engine-docume)| | | |
+|[ RemoveAll](array_t .md#removeall-zilch-engine-do)| | | |
+|[ RemoveAt](array_t .md#removeat-void)| | | |
+|[ RemoveFirst](array_t .md#removefirst-zilch-engine)| | | |
+|[ RemoveSwap](array_t .md#removeswap-void)| | | |
+|[ Reserve](array_t .md#reserve-void)| | | |
+|[ Resize](array_t .md#resize-void)| | | |
+|[ Set](array_t .md#set-void)| | | |
+|[ Sort](array_t .md#sort-void)| | | |
 
 
  #  Properties
@@ -36,7 +36,7 @@
 
 
 ---  
- #  Capacity : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Capacity : [integer](integer.md)
 
  `read-only`
 
@@ -46,7 +46,7 @@
 
 
 ---  
- #  Count : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  Count : [integer](integer.md)
 
  `read-only`
 
@@ -56,7 +56,7 @@
 
 
 ---  
- #  LastIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  LastIndex : [integer](integer.md)
 
  `read-only`
 
@@ -102,7 +102,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Array[T](size : Integer)
 > ``` 
@@ -116,7 +116,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|T| |
 > ``` lang=cpp, name=Nada
 > function Array[T](size : Integer, defaultValue : T)
@@ -146,7 +146,7 @@
 
 
 ---  
- #  FindFirstIndex : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  FindFirstIndex : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -163,7 +163,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Get(index : Integer) : T
 > ``` 
@@ -175,7 +175,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|T| |
 > ``` lang=cpp, name=Nada
 > function Insert(index : Integer, value : T)
@@ -211,15 +211,15 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |start|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
-> |count|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |start|[integer](integer.md)| |
+> |count|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Range(start : Integer, count : Integer) : ArrayRange[T]
 > ``` 
 
 
 ---  
- #  RemoveAll : [integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)
+ #  RemoveAll : [integer](integer.md)
 
 > 
 > |Name|Type|Description|
@@ -236,14 +236,14 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveAt(index : Integer)
 > ``` 
 
 
 ---  
- #  RemoveFirst : [boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)
+ #  RemoveFirst : [boolean](boolean.md)
 
 > 
 > |Name|Type|Description|
@@ -260,7 +260,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function RemoveSwap(index : Integer)
 > ``` 
@@ -272,7 +272,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |capacity|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |capacity|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Reserve(capacity : Integer)
 > ``` 
@@ -284,7 +284,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer)
 > ``` 
@@ -296,7 +296,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |size|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |size|[integer](integer.md)| |
 > |defaultValue|T| |
 > ``` lang=cpp, name=Nada
 > function Resize(size : Integer, defaultValue : T)
@@ -309,7 +309,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |index|[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |index|[integer](integer.md)| |
 > |value|T| |
 > ``` lang=cpp, name=Nada
 > function Set(index : Integer, value : T)
@@ -322,7 +322,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:any,right:any):[boolean](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/boolean.md)| |
+> |compare|delegate(left:any,right:any):[boolean](boolean.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:any,right:any):Boolean)
 > ``` 
@@ -334,7 +334,7 @@
 > 
 > |Name|Type|Description|
 > |---|---|---|
-> |compare|delegate(left:any,right:any):[integer](https://github.com/ZilchEngine/ZilchDocs/blob/master/code_reference/nada_base_types/integer.md)| |
+> |compare|delegate(left:any,right:any):[integer](integer.md)| |
 > ``` lang=cpp, name=Nada
 > function Sort(compare : delegate(left:any,right:any):Integer)
 > ``` 
