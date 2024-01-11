@@ -11,7 +11,7 @@ NOTE: **Recommended Reading**  This section covers topics that may not have been
  # Using a TextBlock
 Adding Text using the TextBlock requires two elements: a TextBlock resource and a [SpriteText](../../../../code_reference/class_reference/spritetext.md) component. To get the text from the TextBlock into the SpriteText you will need a component like this
 
-```lang=csharp
+```TS
 [RunInEditor]
 class SpriteTextBlock : NadaComponent
 {

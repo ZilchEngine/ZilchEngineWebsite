@@ -20,7 +20,7 @@ In this case, the acceleration changes throughout the movement from left to righ
  # Standard Easing Classes
 There are five "standard" (and consequently, the most popular) easing types: Linear, Quadratic, Cubic, Quartic, and Quintic. These names refer to the power by which a part of the ease equation is raised. Linear has an exponent of 1, Quadratic is rasied to the 2nd power, and so on. Whether the ease is In, Out, or InOut depends on whether the animation desired starts slow and then speeds up at the end (EaseIn), starts fast and then slows down at the end (EaseOut), or starts out slow, speeds up, but then slows back down at the end (EaseInOut). When the exponent is increased, the essential part of the ease equation (the representing current percentage of completion of the tween) is multiplied by itself. For example, if there was an EaseOut that is moving to 70% of the desired value change, 0.7 would be multiplied with the exponent of the ease. For Quadratic, the exponent is two, so the result would be: 0.7 * 0.7 = .49, instead of 0.7. This means the value would move to 70% of the desired value in 49% of the time it would take linearly, moving quicker at the start and slower at the end. To make this relationship explicit, here's the function usually used for determining ease (though this one will just be a linear tween without any proper easing applied).
 
-```lang=csharp
+```TS
 function LinearTween(beginningVal, changeToVal, currentTime, totalTime)
 {
     return changeToVal * currentTime / totalTime + beginningVal;
@@ -50,7 +50,7 @@ The next case to consider is checking the value **during** the tween itself, say
 
 The portion of this equation that will be affected by the exponent associated with the standard eases is `currentTime/totalTime`. One could even substitute 0 for `beginningVal` and 1 for `changeToVal` so that the result is a **factor**, which could then be multiplied by the difference between the values, while also adding back in the original value, to end up with the same thing as the original equation, like so:
 
-```lang=csharp
+```TS
 function EasingFunction(beginningVal, changeToVal, currentTime, totalTime)
 {
     return changeToVal * currentTime / totalTime + beginningVal;
@@ -64,7 +64,7 @@ function EaseIn(beginningVal, changeToVal, currentTime, totalTime)
  ## Quadratic Ease Functions
 The Quadratic ease function includes a new argument--the exponent by which to multiply the completion percentage:
 
-```lang=csharp
+```TS
 function QuadEaseIn(0, 1, currentTime, totalTime, easePower)
 {
     easePower = 2;
@@ -74,7 +74,7 @@ function QuadEaseIn(0, 1, currentTime, totalTime, easePower)
 
 This function can be reduced by removing the value parameters from the function altogether. Doing so will work nearly identically as the equation above in all the standard eases:
 
-```lang=csharp
+```TS
 function QuadEaseIn(currentTime, totalTime, easePower)
 {
     easePower = 2;
@@ -84,7 +84,7 @@ function QuadEaseIn(currentTime, totalTime, easePower)
 
 For an EaseOut function, which starts fast and then slows down, the same equation is used but is subtracted from 1 so that it comes at the end of the tween:
 
-```lang=csharp
+```TS
 function QuadEaseOut(currentTime, totalTime, easePower)
 {
     easePower = 2;
@@ -94,7 +94,7 @@ function QuadEaseOut(currentTime, totalTime, easePower)
 
 For the EaseInOut function, the previously omitted parameters will need to be incorporated back in:
 
-```lang=csharp
+```TS
 function QuadEaseInOut(beginningVal, changeToVal, currentTime, totalTime, easePower)
 {
     easePower = 2;

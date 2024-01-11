@@ -18,7 +18,7 @@ Often when developing a game we may we run into data that is hard to interpret f
  - Create a NadaScript resource using the Component template template and name it `DebugLauncher`
 
 - Update the `DebugLauncher` class to the following:
-```name=DebugLauncher, lang=csharp
+```TS:DebugLauncher,
 class DebugLauncher : NadaComponent
 {
   [Dependency] var RigidBody : RigidBody;
@@ -92,7 +92,7 @@ One of the most common debug draw type is [DebugLine](../../../code_reference/cl
 
 - Add the following to the `DebugLauncher` class:
 
-```name=DrawDebug Function, lang=csharp
+```TS:DrawDebug Function
 function DrawDebug()
 {
   this.TargetLine.Start = this.Transform.Translation;
@@ -105,7 +105,7 @@ Here we configure the debug line for the current frame by setting a start and en
 
 - Add the following to the `OnFrameUpdate` function in the `DebugLauncher` class:
 
-```name=Adding DrawDebug to OnFrameUpdate, lang=csharp
+```TS:Adding DrawDebug to OnFrameUpdate
 this.DrawDebug();
 ```
 
@@ -127,7 +127,7 @@ There are many types that can be debug drawn, as can be seen in the [Related Mat
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `DebugClock`
 - Update the `DebugClock` class to the following:
-```name=DebugClock, lang=csharp
+```TS:DebugClock,
 class DebugClock : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -174,7 +174,7 @@ We can see the [DebugCircle](../../../code_reference/class_reference/debugcircle
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
 
 - Add the following to the `DebugClock` class:
-```name=New DebugClock Variables, lang=csharp
+```TS:New DebugClock Variables
 [Property]
 var SecondHandRadius : Real = 3.0;
 
@@ -198,7 +198,7 @@ var Seconds : Real = 0;
 Here we define the data necessary to draw the hands of the clock.
 
 - Replace the `Initialize` function in the `DebugClock` class with the following: 
-```name=DebugClock.Initialize, lang=csharp
+```TS:DebugClock.Initialize,
 function Initialize(init : CogInitializer)
 {
   this.SecondHand.Start = this.Transform.Translation;
@@ -215,7 +215,7 @@ function Initialize(init : CogInitializer)
 Unlike the `DebugLauncher` the start position of the lines are not changing so we can set up the start position of all the debug elements in `Initialize`. Now that the initial data has been defined let's implement the calculations for the rest or the line data.
 
 - Add the following to the functions in the `DebugClock` class:
-```name=DebugDraw Functions, lang=csharp
+```TS:DebugDraw Functions
 function DrawSecondHand()
 {
   //Calculate what percentage of the current minute has passed
@@ -260,7 +260,7 @@ function DrawMinuteHand()
 Every frame we need to call the function we just wrote to draw each part of the clock as well as increment the timer.
 
 - Replace the `OnFrameUpdate` function in the `DebugClock` class with the following: 
-```name=DebugClock.OnFrameUpdate, lang=csharp
+```TS:DebugClock.OnFrameUpdate,
 function OnFrameUpdate(event : UpdateEvent)
 {
   this.DrawSecondHand();

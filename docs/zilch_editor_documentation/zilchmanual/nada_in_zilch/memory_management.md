@@ -5,7 +5,7 @@ This section covers the basics of memory management in Nada. Specifically, the t
 
 There are two main types of storage, `by-value` and `by-reference` (or `by-ref` for short). `By-value` is stored on the local stack and the storage is cleaned up once it goes out of scope. When passed into a function it copies data `by-value`. [Structs](structs.md) and primitives are `by-value`.
 
-```lang=csharp, name=By-Value Storage in a Struct
+```TS:By-Value Storage in a Struct
 struct ByValue
 {
     var ID: Integer = 0;
@@ -26,7 +26,7 @@ struct ByValue
     }
 }
 ```
-```name=Usage, lang=csharp
+```TS:Usage,
 // If we were to test it:
 var byValA: ByValue = local ByValue(1111111);
       
@@ -51,7 +51,7 @@ ID: 1111111
 
  ### By-Ref Storage in a Struct and a Class
 
-```lang=csharp, name=ByValue
+```TS:ByValue
 struct ByValue
 {
     var ID: Integer = 0;
@@ -93,7 +93,7 @@ class ByRef
     }
 }
 ```
-```name=Usage, lang=csharp
+```TS:Usage,
 // If we were to test ByValue:
 var byValC: ref ByValue = new ByValue(3333333);
   
@@ -136,7 +136,7 @@ ID: 5555556
 
 Null is a special type of its own:
 
-```name=null, lang=csharp
+```TS
 Console.Write(typeid(null).Name);  // Null
 ```
 
@@ -147,13 +147,13 @@ NOTE: A `by-ref` type can be set to null, but a `by-value` type cannot.
  ### Local
 When working with by-value types that have constructors, such as structs or more complex stack primitive data types, the [keyword](keywords.md) **local** may be used:
 
-```lang=csharp
+```TS
 var up: Real3 = local Real3(0.0, 1.0, 0.0);
 var stackStructInstance: CustomStruct = local CustomStruct();
 ```
 
 The compiler will infer the use of local for by-value types:
-```lang=csharp
+```TS
 // This is also valid.
 var up: Real3 = Real3(0.0, 1.0, 0.0);
 var stackStructInstance: CustomStruct = CustomStruct();
@@ -163,21 +163,21 @@ var stackStructInstance: CustomStruct = CustomStruct();
 
 When working with classes, references, or other or anything located on the heap with a constructor, use the **new** keyword:
 
-```lang=csharp
+```TS
 var heapObject: CustomClass = new CustomClass();
 var heapStructInstance: ref CustomStruct = new CustomStruct();
 ```
 
 Once again the compiler will infer the use of new for by-ref types:
 
-```lang=csharp
+```TS
 // This is also valid.
 var heapObject: CustomClass = CustomClass();
 ```
 
 Since structs are by-value, in order to get a ref you **must** specify new.
 
-```lang=csharp
+```TS
 // This does not compile
 var heapStructInstance: ref CustomStruct = CustomStruct();
 ```
@@ -189,7 +189,7 @@ The value being assigned to 'heapStructInstance' must be of type 'ref CustomStru
 
 IMPORTANT: Nada does not currently have a dereferencing operator. Although you can still use the `ref` type with the **dot operator** to access functionality, those typed with `ref` will not be equivalent to the `non-ref` type. *Anything expecting a// `non-ref` //type will not accept a// `ref` //type without dereferencing.* Consider the following:
 
-```lang=csharp, name=Incorrect Assignment of Ref Type to Non-Ref Type
+```TS:Incorrect Assignment of Ref Type to Non-Ref Type
 var heapObject: ref CustomStruct = new CustomStruct();
 // The following will not compile because they are different types:
 //              CustomStruct != ref CustomStruct
@@ -200,7 +200,7 @@ var stackObject: CustomStruct = heapObject;
 
 Constructors are required when calling local or new. The only times you wouldn't have a constructor is when your class or struct lacks instanced data, or you are using a primitive data type that can be created from a literal.
 
-```lang=csharp
+```TS
 class MyClass
 {
   constructor()
@@ -224,7 +224,7 @@ Nada does not have a full-fledged garbage collector, but it does have ref-counte
 
 1. Nada **cannot** detect cycles. These must be deleted explicitly.
 
-```lang=csharp, name=Deleting Objects
+```TS:Deleting Objects
   // Cycles will not get cleaned up without explicitly deleting.
   var gh: ARefHolder = new ARefHolder("gh");
   var ef: ARefHolder = new ARefHolder("ef");
@@ -283,7 +283,7 @@ Nada does not have a full-fledged garbage collector, but it does have ref-counte
 ```
 
 2. [delegates](delegates.md) containing an instance member function hold the `this` handle to the object, and thus will keep ref-counted objects alive.
-```lang=csharp, name=Examples of Delegate Leaking
+```TS:Examples of Delegate Leaking
 class Utility
 {
   [Static]
@@ -358,7 +358,7 @@ class Driver
 
  ## Deleting variables
 
-```lang=csharp, name=Utility
+```TS:Utility
 // Using ByValue and ByRef as defined above & the Utility class:
 class Utility
 {
@@ -392,7 +392,7 @@ class Utility
 }
 ```
 
-```name=Examples of Deleting Variables, lang=csharp
+```TS:Examples of Deleting Variables
 // Examples of deleting:
 
 // 1. Delete a by-value struct instance:
@@ -451,7 +451,7 @@ Utility.SafeToString(byRefK, "byRefK");  // byRefK is null
 
  ## Destructors
 
-```lang=csharp
+```TS
 class MyClass
 {
   constructor()

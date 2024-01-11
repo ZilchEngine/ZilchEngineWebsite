@@ -37,7 +37,7 @@ RandomContext is a component for creating unique scenarios, such as when a rando
 
 - In the `NumberGenerator` script
  - Update the `NumberGenerator` class to the following:
-```lang=csharp, name="NumberGenerator Script"
+```TS:"NumberGenerator Script"
 class RandomGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;
@@ -74,7 +74,7 @@ Notice how a random positive integer is returned.
 - In the `NumberGenerator` script
  - Update the `NumberGenerator` class to the following:
 
-```lang=csharp, name="NumberGenerator Script"
+```TS:"NumberGenerator Script"
 class RandomGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;
@@ -117,7 +117,7 @@ Notice how the random integer given is then divided by various powers of 10 and 
 - In the `NumberGenerator` script
  - Update the `NumberGenerator` class to the following:
 
-```lang=csharp, name="NumberGenerator Script"
+```TS:"NumberGenerator Script"
 class NumberGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;
@@ -168,7 +168,7 @@ This is accomplished in code by setting a [Seed](../../../code_reference/class_r
 - In the `NumberGenerator` script
  - Update the `NumberGenerator` class to the following:
 
-```lang=csharp, name="NumberGenerator Script"
+```TS:"NumberGenerator Script"
 class NumberGenerator : NadaComponent
 {
   [Dependency] var RandomContext : RandomContext;

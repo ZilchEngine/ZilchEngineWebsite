@@ -115,7 +115,7 @@ Let's add a component that lets us control the animation.
 - In the `PlayerAnimationController` script
  - Update the `PlayerAnimationController` class to the following:
 
-```lang=csharp, name="PlayerAnimationController"
+```TS:"PlayerAnimationController"
 class PlayerAnimationController : NadaComponent
 {
   [Dependency] var Sprite : Sprite;

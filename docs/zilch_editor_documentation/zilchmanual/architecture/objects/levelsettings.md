@@ -25,7 +25,7 @@ NOTE: **LevelSettings & Hierarchies**  While parenting can often be useful with 
  ## Accessing the LevelSettings Object In Script
 The LevelSettings object may be accessed from scripts via any component or Cog:
 
-```name=LevelSettings Access Example, lang=csharp
+```TS:LevelSettings Access Example
 class ExampleComponent : NadaComponent
 {
   function Initialize(init : CogInitializer)

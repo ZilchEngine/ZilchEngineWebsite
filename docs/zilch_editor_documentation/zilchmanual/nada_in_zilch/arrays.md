@@ -1,6 +1,6 @@
 [ Array](../../../code_reference/nada_base_types/array_t.md) is a templated Nada type used to represent an ordered list. An array is a *container* class: it contains other objects. The type of object it contains is specified between square brackets when the array is declared:
 
-```lang=csharp, name=Array Declaration Example
+```TS:Array Declaration Example
 var recentPositions = Array[Real3]();
 var currentTargets = Array[Cog]();
 var inputBuffer = Array[Array[Boolean]]();
@@ -8,7 +8,7 @@ var inputBuffer = Array[Array[Boolean]]();
 
 When an array is created, by default, it has no elements, but its initial size can be specified, and, optionally, the initial value of each element can be provided as well:
 
-```lang=csharp, name=Array Initialization Example 1
+```TS:Array Initialization Example 1
 var emptyArray           = Array[Integer]();
 var eightDefaultIntegers = Array[Integer](8);
 var eightFives           = Array[Integer](8, 5);
@@ -27,7 +27,7 @@ NOTE: When specifying the initial value for an array's elements in this manner, 
 
 Additionally, an array can be initialized with an initializer list:
 
-```lang=csharp, name=Array Initialization Example 2
+```TS:Array Initialization Example 2
 var a = Array[String]() { "abc", "def", "ghi", "jkl" };
 
 Console.WriteLine(a);
@@ -40,7 +40,7 @@ Console.WriteLine(a);
 
 Array elements can be accessed for reading or writing using the **indexing operator**, `[]`. Array indexing in Nada is **zilch-based** (the very first element in an array has an index of 0):
 
-```lang=csharp, name=Access Example
+```TS:Access Example
 var words = Array[String]()
 {
   "the",    // element 0
@@ -70,7 +70,7 @@ Nada arrays are //dynamic//: that is, the number of elements in an array is not 
 
 The most basic way to add an element to an array is with the [ Add](../../../code_reference/nada_base_types/array_t.md#add-void) method, which puts the element at the end of the array:
 
-```lang=csharp, name=Add Example
+```TS:Add Example
 var greetings = Array[String]()
 {
   "hello",
@@ -91,7 +91,7 @@ The [ Push](../../../code_reference/nada_base_types/array_t.md#push-void) method
 
 Adding to the end is generally the fastest way of adding to an array, but it is possible to insert an element at any valid position within an array via the [ Insert](../../../code_reference/nada_base_types/array_t.md#insert-void) method:
 
-```lang=csharp, name=Insert Example
+```TS:Insert Example
 var digitsOfE = Array[Integer]() { 2, 7, 1, 2, 8 };
 Console.WriteLine(digitsOfE);
 
@@ -109,7 +109,7 @@ NOTE: Insert is less efficient than Add because it requires all the elements fol
 
 The most basic way to remove an element from an array is with the [ Pop](../../../code_reference/nada_base_types/array_t.md#pop-zilch-engine-document) method, which shrinks the array by one from the end:
 
-```lang=csharp, name=Pop Example
+```TS:Pop Example
 var taskList = Array[String]()
 {
   "make the game fun",
@@ -131,7 +131,7 @@ As with adding, removing from the end is fast, but it is also possible to remove
 
 **RemoveAt** removes the element that is found at the given index, and preserves the order of the remaining elements:
 
-```lang=csharp, name=RemoveAt Example
+```TS:RemoveAt Example
 var commonLetters = Array[String]()
 {
   "e",  // 0
@@ -156,7 +156,7 @@ NOTE: RemoveAt is less efficient than Pop because it causes all the elements fol
 
 Alternatively, there is another option if the order of elements is irrelevant. **RemoveSwap** first swaps the element at the given index with the last element in the array, and then Pops the element from the end. The order of the remaining elements is thus *not* preserved:
 
-```lang=csharp, name=RemoveSwap Example
+```TS:RemoveSwap Example
 var animals = Array[String]()
 {
   "tardigrade",   // 0
@@ -179,7 +179,7 @@ Though RemoveSwap does not preserve element order, it is essentially just as eff
 
 It is also possible to remove a known element with an unknown index. [ RemoveFirst](../../../code_reference/nada_base_types/array_t.md#removefirst-zilch-engine) finds an array's first element that matches the given value and then removes it, preserving the order of the remaining elements:
 
-```lang=csharp, name=RemoveFirst Example
+```TS:RemoveFirst Example
 var data = Array[Integer]()
 {
   0,
@@ -200,7 +200,7 @@ Console.WriteLine(data);
 
 To find and remove *all* elements that match a given value, use the [ RemoveAll](../../../code_reference/nada_base_types/array_t.md#removeall-zilch-engine-do) method:
 
-```lang=csharp, name=RemoveAll Example
+```TS:RemoveAll Example
 var waterfowl = Array[String]()
 {
   "duck",
@@ -223,7 +223,7 @@ NOTE: Both RemoveFirst and RemoveAll require searching the array and comparing e
 
 Finally, to remove all of the elements from an array, use the [ Clear](../../../code_reference/nada_base_types/array_t.md#clear-void) method:
 
-```lang=csharp, name=Clear Example 1
+```TS:Clear Example 1
 var inventory = Array[String]()
 {
   "car keys",
@@ -244,7 +244,7 @@ Console.WriteLine(inventory);
 
 NOTE: The act of removing an item from an array does not itself delete the item. If one or more external references to an element exist, then that element will persist if it is removed from an array:
 
-```lang=csharp, name=Clear Example 2
+```TS:Clear Example 2
 var arrayContainer = Array[Array[Real]]();
 
 var array0 = Array[Real]() { 1, 2, 3 };
@@ -271,7 +271,7 @@ array1 after Clear: {1.61803, 2.71828, 3.14159}
 
 In Nada, **Array** is a //reference type//. Be aware of this when making copies. When setting one array variable to equal another existing array using the assignment operator, `=`, a copy is not constructed; rather, the first just ends up pointing to the second. In such a case, modifying the array through one of the two references will appear to modify both, because they are in fact one array. To create a copy, the [ Copy](../../../code_reference/nada_base_types/array_t.md#copy-array-t) method should be used:
 
-```lang=csharp, name=Array Reference Type Example
+```TS:Array Reference Type Example
 var firstExample = Array[Integer]() { 0, 1, 2, 3, 4, 5, 6, 7 };
 Console.WriteLine("firstExample, before copy and clear:  `firstExample`");
 
@@ -307,7 +307,7 @@ As arrays are ordered sequences of objects, they lend themselves naturally to us
 
 The most basic way to loop over an array is by using a [ for loop](looping.md#for-loop). This takes advantage of the fact that an array contains its [ Count](../../../code_reference/nada_base_types/array_t.md#count-zilch-engine-docume), or number of elements, as a property:
 
-```lang=csharp, name=For Loop Example
+```TS:For Loop Example
 var numbers = Array[Integer]() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, };
 
 Console.WriteLine("Squares:");
@@ -337,7 +337,7 @@ Squares:
 
 Another way to iterate through an array is to use a [ foreach loop](looping.md#for-each-loop):
 
-```lang=csharp, name=For Each Loop Example
+```TS:For Each Loop Example
 var numbers = Array[Integer]() { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, };
 
 Console.WriteLine("Cubes:");
@@ -365,7 +365,7 @@ Cubes:
 
 A Nada array keeps track of two different size-related properties: [ Count](../../../code_reference/nada_base_types/array_t.md#count-zilch-engine-docume) and [ Capacity](../../../code_reference/nada_base_types/array_t.md#capacity-zilch-engine-doc). When an array is initialized, it is allotted just enough memory to store the given number of elements. If an element is added when it doesn't have enough allocated space for another one, the array is automatically expanded so that it can fit more elements. An array's **Count** is the number of elements that have been added to it (or were placed there on initialization); its **Capacity** is the number of elements that could possibly fit in it before it needs to grow again:
 
-```lang=csharp, name=Count and Capacity Example
+```TS:Count and Capacity Example
 var array = Array[Integer]();
 
 for (var i = 0; i < 10; ++i)
@@ -398,7 +398,7 @@ Nada arrays may be sorted using the [ Sort](../../../code_reference/nada_base_ty
 
 **Sort** sorts an array using the given comparison function. In many cases, this is something the user creates, though some types, such as [ String](../../../code_reference/nada_base_types/string.md), provide static functions that can be used with the Sort method:
 
-```lang=csharp, name=String Sorting Example
+```TS:String Sorting Example
 var strings = Array[String]();
 
 strings.Add("hi");
@@ -421,7 +421,7 @@ A user-created array comparison function should take as arguments two objects of
 
 Consider these two classes: one defining some data for an adventurer and some static functions that can be used to sort an array of Adventurers, and another containing an array of Adventurers and a method that returns a string representation of that array:
 
-```lang=csharp, name=Sorting Example Classes
+```TS:Sorting Example Classes
 class Adventurer
 {
   var Name : String;
@@ -484,7 +484,7 @@ class Party
 
 These classes can be used to illustrate how to sort objects of custom classes:
 
-```lang=csharp, name=Custom Class Sorting Example
+```TS:Custom Class Sorting Example
 var party = Party()
 {
   Roster = Array[Adventurer]()
@@ -555,7 +555,7 @@ The [ Copy](../../../code_reference/nada_base_types/array_t.md#copy-array-t) met
 
 The [ FindFirstIndex](../../../code_reference/nada_base_types/array_t.md#findfirstindex-zilch-engi) method returns the index of the first occurrence in an array of a given object. This method compares value types by comparing their data, and it compares reference types by comparing their handles. If the given object is not found, it returns `-1`:
 
-```lang=csharp, name=FindFirstIndex Example
+```TS:FindFirstIndex Example
 var valueType0 = Integer2(1, 2);
 // Integer2 is a value type
 var valueType1 = Integer2(valueType0);
@@ -581,7 +581,7 @@ Console.WriteLine(arrayOfReferenceType.FindFirstIndex(referenceType1));
 
 The [ Get](../../../code_reference/nada_base_types/array_t.md#get-zilch-engine-document) method returns the array element at the given index. The [ Set](../../../code_reference/nada_base_types/array_t.md#set-void) method writes the given object to the given index. These methods are called when the **indexing operator**, `[]`, is used:
 
-```lang=chsarp, name=Get Example
+```TS:Get Example
 var aStates = Array[String]() { "alabama", "nebraska", "arizona", "kansas" };
 Console.WriteLine(aStates.Get(0));
 Console.WriteLine(aStates[2]);  // this is reading, so Get is called
@@ -600,7 +600,7 @@ arizona
 
 The [ Range](../../../code_reference/nada_base_types/array_t.md#range-arrayrange-t) method returns an ArrayRange containing the specified range of elements, beginning with the given start index and including the given element count:
 
-```lang=csharp, name=Range Example
+```TS:Range Example
 var primes = Array[Integer]() { 2, 3, 5, 7, 11, 13, 17, 19, 23, 29, };  // etc.
 var primeSubset = primes.Range(4, 5);
 
@@ -621,7 +621,7 @@ foreach (var prime in primeSubset)
 
 The [ Resize](../../../code_reference/nada_base_types/array_t.md#resize-void) method resizes an array so that its new Count is the given value. If the given count value is greater than the array's old Count, then new elements are constructed and added to the end of the array. This method can take an optional default value parameter, which is used to set the value of these new elements; if this is not specified, then the type default for the type stored in the array will be used instead:
 
-```lang=csharp, name=Resize Example 1
+```TS:Resize Example 1
 var iceCreamServings = Array[String]()
 {
   "cookies 'n cream",
@@ -644,7 +644,7 @@ Console.WriteLine(iceCreamServings);
 
 If the given count value is less than the array's old Count, then enough elements will be removed from the end of the array to bring its Count to the new value:
 
-```lang=csharp, name=Resize Example 2
+```TS:Resize Example 2
 var cubes = Array[Integer]() { 0, 1, 8, 27, 64, 125, 216, 343, 512, 729, };
 Console.WriteLine(cubes);
 

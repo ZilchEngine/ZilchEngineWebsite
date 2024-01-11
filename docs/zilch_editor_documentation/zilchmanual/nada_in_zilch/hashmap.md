@@ -6,7 +6,7 @@ NOTE: The types `HashMap` and `KeyValue` not currently appear in the [nada_base_
 
 HashMap declaration is similiar to the declaration of any templated type in Nada. When a HashMap is created, by default, it has no elements.
 
-```name=HashMap Declaration Example, lang=csharp
+```TS:HashMap Declaration Example
 var namesToObjects = HashMap[String, Cog]();
 var idToCost = HashMap[Integer, Real]();
 var spawnerToEnemyType = HashMap[Cog, Archetype]();
@@ -18,7 +18,7 @@ HashMaps have a variety of uses. One may use them to keep track of objects at ru
  ## Initialization
 It is common for a HashMap to be populated at runtime, but it is also possible to define elements within an initializer list.
 
-```name=Initializer List Example, lang=csharp
+```TS:Initializer List Example
 var hash = HashMap[Integer, String]()
 {
   {1, "one"},
@@ -40,7 +40,7 @@ Notice that the order in which the elements are printed is not the order in whic
 
 NOTE: The HashMap templated type is currently lacking templated print functionality similiar to [Arrays](arrays.md). The `PrintHashMap` function used in this page is implemented below:
 
-```name=PrintHashMap, lang=csharp
+```TS:PrintHashMap,
 function PrintHashMap(hash : HashMap[Integer, String])
 {
   Console.WriteLine("`hash` \n{");
@@ -58,7 +58,7 @@ HashMap elements can be accessed for reading or writing in a few different ways 
  ## The `[]` Operator
 The `[]` (pronounced subscript) operator is the primary way to access any *value// within a HashMap. When a valid //key* is passed to the subscript operator the corresponding value is returned from the HashMap. The `[]` operator can also be used to assign new values to keys within the HashMap.
 
-```name=[] Operator Example, lang=csharp
+```TS:[] Operator Example
 var hash = HashMap[Integer, String]()
 {
   {1, "one"},
@@ -83,7 +83,7 @@ Another way to access the `KeyValue` pairs of a HashMap is to use the `get` func
  ### HashMap.Get
 `HashMap.Get` behaves the same as the `[]` operator, as it is the function actually called by the `[]` operator. However, being a function, `Get` can be referenced by a delegate.
 
-```name=HashMap.Get Example, lang=csharp
+```TS:HashMap.Get Example
 var hash = HashMap[Integer, String]()
 {
   {1, "one"},
@@ -103,7 +103,7 @@ three
  ### HashMap.GetOrDefault
 `HashMap.GetOrDefault` behaves the same as [Get](hashmap/.md#hashmap-get), but instead of throwing an exception when passed an invalid key it returns a *default// value that is the same type as the //values* of the HashMap.
 
-```name=HashMap.GetOrDefault Example, lang=csharp
+```TS:HashMap.GetOrDefault Example
 var hash = HashMap[Integer, String]()
 {
   {1, "one"},
@@ -133,7 +133,7 @@ There are multiple ways to add `KeyValue` pairs to HashMaps. [Add](hashmap/.md#h
  ## HashMap.Add
 `Add` takes a *key* and //value//, adding the pair to the HashMap. If the given key already exists then a runtime exception will be thrown.
 
-```name=Add, lang=csharp
+```TS:Add,
 var hash = HashMap[Integer, String]();
 hash.Add(1, "one");
 hash.Add(2, "two");
@@ -154,7 +154,7 @@ It should be noted that the `Add` function is called for each `KeyValue` pair wh
  ## HashMap.Set
 `Set` is very similar to [Add](hashmap/.md#hashmap-add). `Set` takes a *key// and //value//, adding the pair to the HashMap if the key does not exist. If the key does exist then the //value* paired with the given key will be replaced with the //given value//.
 
-```name=Set, lang=csharp
+```TS:Set,
 var hash = HashMap[Integer, String]();
 hash.Set(1, "one");
 hash.Set(2, "two");
@@ -172,7 +172,7 @@ HashMap[Integer, String] (20744110)
  ### HashMap.SetOrOverwrite
 The relationship of [Set](hashmap/.md#hashmap-set) and `SetOrOverwrite` is simliar to that of [Get](hashmap/.md#hashmap-get) and [GetOrError](hashmap/.md#hashmap-getorerror) in that they have the same behavior. However, like [Get](hashmap/.md#hashmap-get), [Set](hashmap/.md#hashmap-set) is called by the `[]` operator during assignment.
 
-```name=SetOrOverwrite, lang=csharp
+```TS:SetOrOverwrite,
 var hash = HashMap[Integer, String]();
 hash.SetOrOverwrite(1, "one");
 hash.SetOrOverwrite(2, "two");
@@ -190,7 +190,7 @@ HashMap[Integer, String] (20744110)
  ### HashMap.SetOrIgnore
 `SetOrIgnore` behaves the same as [Set](hashmap/.md#hashmap-set) except if the given *key* already exists the function returns leaving the HashMap unmodified.
 
-```name=SetOrIgnore, lang=csharp
+```TS:SetOrIgnore,
 var hash = HashMap[Integer, String]();
 hash.SetOrIgnore(1, "one");
 hash.SetOrIgnore(2, "two");
@@ -216,7 +216,7 @@ HashMap[Integer, String] (20744110)
  ## HashMap.Clear
 The `Clear` function simply removes all `KeyValue` pairs from the HashMap.
 
-```name=Clear Example, lang=csharp
+```TS:Clear Example
 var hash = HashMap[Integer, String]();
 hash[1] = "one";
 hash[2] = "two";
@@ -240,7 +240,7 @@ HashMap[Integer, String] (20712538)
  ## HashMap.Contains
 `Contains` takes a parameter matching the *key* type of the HashMap and returns `true` if the given key exists in the HashMap.
 
-```name=Contains Example, lang=csharp
+```TS:Contains Example
 var hash = HashMap[Integer, String]();
 hash[1] = "one";
 hash[2] = "two";
@@ -265,7 +265,7 @@ There are a number of HashMap properties providing iterable ranges that are part
 
  ## HashMap.All
 Contains an iterable range of all `KeyValue` pairs in the HashMap.
-```name=PrintHashMap, lang=csharp
+```TS:PrintHashMap,
 function PrintHashMap(hash : HashMap[Integer, String])
 {
   Console.WriteLine("`hash` \n{");

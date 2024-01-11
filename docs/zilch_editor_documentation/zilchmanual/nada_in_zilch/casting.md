@@ -1,5 +1,5 @@
 Fundamentally, casting is converting from one type to another.  As demonstrated in the code snippet below, a [Function](functions.md) that takes a grade and returns pass/fail can be thought of as a conversion from a [real](../../../code_reference/nada_base_types/real.md) to a [boolean](../../../code_reference/nada_base_types/boolean.md).
-```lang=csharp, name=Conversion Function
+```TS:Conversion Function
 function IsPassing(grade : Real) : Boolean
 {
   if(grade >= 70)
@@ -16,7 +16,7 @@ There are two types of casting, implicit and explicit.  Implicit casting occurs 
 
 WARNING: Even with explicit casting, there are still *cast operations* that are invalid and will trigger compile-time exceptions.
 
-```lang=csharp, name=Casting Implicitly and Explicitly
+```TS:Casting Implicitly and Explicitly
 var myReal : Real = 1.0;
 var myDoubleReal : DoubleReal = myReal; // implicit casting
 var myInteger : Integer = myReal as Integer; // explicit casting
@@ -35,7 +35,7 @@ The following base data types are considerered Numeric and Boolean:
 
 All *cast operations* using only these types are valid, meaning either explicit or implicit.  The code snippit below demonstates implicit casting between numeric types.
 
-```lang=csharp, name=Implicit Numeric Casts
+```TS:Implicit Numeric Casts
 var myInteger : Integer = 1;
 
 var myDoubleInteger : DoubleInteger = myInteger;
@@ -52,7 +52,7 @@ Notice that implicit casting is allowed when converting to a numeric set, from a
  ## Truncation
 When a real value is converted to an integer value explicitly, the value will be truncated.  This means the decimal part of the real value will be lost, and without rounding.
 
-```lang=csharp, name=Implicit Numeric Casts
+```TS:Implicit Numeric Casts
 Console.WriteLine(1.1 as Integer);
 Console.WriteLine(2.99 as Integer);
 Console.WriteLine(-3.99 as Integer);
@@ -66,14 +66,14 @@ Console.WriteLine(-3.99 as Integer);
  # Upcasting and Downcasting
 When casting between classes related through [inheritance](inheritance.md), one class must be a base class of the other.
 
-```lang=csharp, name=Classes with Inheritance
+```TS:Classes with Inheritance
 class A {}
 class B : A {}
 class C : B {}
 ```
 
 The code snippet below uses the `Classes with Inheritance` snippet.
-```lang=csharp, name=Upcasting and Downcasting
+```TS:Upcasting and Downcasting
 var a : A = A();
 var b : B = B();
 var c : C = C();
@@ -90,7 +90,7 @@ var bc : C = b as C;
 ```
 Notice how all the implicit casts involve converting from a derived class to a base class.  This is known as **upcasting**.  **Downcasting** involves taking a base class and casting it to a derived class, which must be done explicitly.  **Downcasting** is also a type of dynamic casting, which is validated at runtime.  Observe that the objects `a`, `b`, and `c` are all references being casted, and not values.  If a base class reference is downcasted to a derived class reference and the value referenced is of the base class type, then the cast failed at runtime.  A *failed dynamic cast* will result in the value `null`.  The code snippet below uses the `Classes with Inheritance` snippet.
 
-```lang=csharp, name=Dynamic Casting
+```TS:Dynamic Casting
 var a_ref_b : A = B(); // upcast invoked implicitly
 var b_ref_a : B = A() as B; // downcast invoked explicitly
 var b_ref_b : B = a_ref_b as B; // downcast invoked explicitly
@@ -108,7 +108,7 @@ false
  # Null Casts
 The value `null` can be cast to any reference type implicitly.  The code snippet below uses the `Classes with Inheritance` snippet.
 
-```lang=csharp, name=Null Casting
+```TS:Null Casting
 var a1 : A = null; // implicit cast
 var a2 : A = null as A; // explicit cast (unnecessary)
 ```
@@ -117,7 +117,7 @@ NOTE: Interpreting `null` as an invalid state for object references is a common 
 
  # Any Casts
 Any type can be cast implicitly to an [any](../../../code_reference/nada_base_types/any.md), and an [any](../../../code_reference/nada_base_types/any.md) value can be implicitly cast to any type.  The [any](../../../code_reference/nada_base_types/any.md) type is used as a generic reference to any instantiated class or struct.
-```lang=csharp, name=Any Casting
+```TS:Any Casting
 var integerOne : any = 1;
 var myInteger : Integer = integerOne; // any cast
 var myReal : Real = integerOne; // runtime exception
@@ -126,7 +126,7 @@ Notice how the attempt to cast `integerOne`, which is an [any](../../../code_ref
 
  # Same Casts
 Same casts are casts that convert a value of one type to the same type.  All same casts can be done implicitly and are unnecessary.
-```lang=csharp, name=Same Casting
+```TS:Same Casting
 var myReal : Real = 1.0; // implicit same cast
 var myInteger : Integer = 1 as Integer; // explicit same cast
 ```

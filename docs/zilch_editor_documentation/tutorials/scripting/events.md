@@ -34,7 +34,7 @@ To get our player moving around we'll be using [LogicUpdate](../../../code_refer
 
 - Update the `PlayerMovement` script to the following:
 
-```lang=csharp, name=PlayerMovement
+```TS:PlayerMovement
 class PlayerMovement : NadaComponent
 {
   [Dependency] var RigidBody : RigidBody;
@@ -95,7 +95,7 @@ class PlayerMovement : NadaComponent
 
 Connecting to an event involves both calling the [Zilch.Connect](../../../code_reference/class_reference/zilch.md#connect-void-key-static) function and creating the appropriate callback function. Let's look at the call to the Connect function first, parameter by parameter:
 
-```lang=csharp, name=Example Event Connect Function Call
+```TS:Example Event Connect Function Call
 Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
 ```
 
@@ -107,7 +107,7 @@ Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
 
 The callback function must take a parameter whose type matches the type of the event that you are connecting to. Now let's take a look at the callback function:
 
-```lang=csharp, name=LogicUpdate callback function
+```TS:LogicUpdate callback function
 function OnLogicUpdate(event : UpdateEvent)
 ```
 
@@ -141,7 +141,7 @@ Now we need to create another component that will destroy the player cog in resp
  - Create a NadaScript resource using the Component template template and name it `DestroyOnCollide`
 - Update the `DestroyOnCollide` script to the following:
 
-```lang=csharp, name=DestroyOnCollide
+```TS:DestroyOnCollide
 class DestroyOnCollide : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -174,7 +174,7 @@ Another useful built-in event is the [CogDestroy](../../../code_reference/event_
  - Create a NadaScript resource using the Component template template and name it `SpawnObjectOnDestroy`
 - Update the `SpawnObjectOnDestroy` script to the following:
 
-```lang=csharp, name=SpawnObjectOnDestroy
+```TS:SpawnObjectOnDestroy
 class SpawnObjectOnDestroy : NadaComponent
 {
   [Dependency] var Transform : Transform;

@@ -6,7 +6,7 @@ WARNING: Nada uses its own containers, including Array, HashMap, String, etc. Fo
 
 Include the Nada.cpp into your compilation process, and start by having your main include the Nada.hpp
 
-```lang=csharp
+```C++
 
 # include "Nada.hpp"
 
@@ -21,7 +21,7 @@ int main()
 So long as Nada.cpp is built and linked in, this program should fully compile.
 
  #  Compiling a Nada script
-```lang=csharp
+```C++
 
 # include "Nada.hpp"
 
@@ -67,7 +67,7 @@ Create a Nada script with code that we want to test out.
 
  ##  Player.Nada
 
-```lang=csharp
+```TS
 class Player
 {
   var Health : Real = 100;
@@ -94,7 +94,7 @@ WARNING: Make sure to put the `Player.nada` file side by side with the executabl
 
 We now need to compile the code into a Library, and finally link that library into an ExecutableState. A Library stores all the compiled types and functions. The ExecutableState has its own stack and virtual machine, and is responsible for executing Nada code.
 
-```lang=csharp
+```C++
 
 # include "Nada.hpp"
 

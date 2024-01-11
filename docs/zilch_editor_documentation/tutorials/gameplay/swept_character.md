@@ -55,7 +55,7 @@ The `SAMPLECHARACTERCONTROLLERS[1.0]` package on the [ Zilch Market](../external
 
 Let's take a look at the `SweptInput2D` component.
 
-```name=SweptInput2D, lang=csharp
+```TS:SweptInput2D,
 class SweptInput2D : NadaComponent
 {
   [Dependency] var SweptController : SweptController;
@@ -223,7 +223,7 @@ Collision events were covered in [the events tutorial](../scripting/events.md#co
  - Create a NadaScript resource using the Component template template and name it `CollisionDetector`
 - Update the `CollisionDetector` script to the following:
 
-```lang=csharp, name="CollisionDetector"
+```TS:"CollisionDetector"
 class CollisionDetector : NadaComponent
 {
   function Initialize(init : CogInitializer)

@@ -38,7 +38,7 @@ This lesson covers how to cast rays using Physics and interpret the results.
 - In the `MoveUpAndDown` script
  - Update the `MoveUpAndDown` class to the following:
 
-```lang=csharp, name="MoveUpAndDown"
+```TS:"MoveUpAndDown"
 class MoveUpAndDown : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -124,7 +124,7 @@ The first step to raycasting is to build the ray with the desired parameters. Le
 - In the `RayCasterLogic` script
  - Update the `RayCasterLogic` class to the following:
 
-```lang=csharp, name="Ray Casting"
+```TS:"Ray Casting"
 class RayCasterLogic : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -224,7 +224,7 @@ It is also possible to cast a Ray and retrieve the resulting intersections with 
 
 - Add the following function to the `RayCasterLogic` class:
 
-```lang=csharp, name="Multiple Results"
+```TS:"Multiple Results"
   function FindSeveralObjects()
   {
     //Create Ray
@@ -262,7 +262,7 @@ It is also possible to cast a Ray and retrieve the resulting intersections with 
 
 - Replace the `OnLogicUpdate` function in the `RayCasterLogic` class with the following:
 
-```lang=csharp, name="New Logic Update"
+```TS:"New Logic Update"
   function OnLogicUpdate(event : UpdateEvent)
   {
       //this.FindFirstObject();
@@ -287,7 +287,7 @@ The [ CastRay](../../../code_reference/class_reference/physicsspace.md) function
 
 - Replace the `FindSeveralObjects` function in the `RayCasterLogic` class with the following :
 
-```lang=csharp, name="Filter Example"
+```TS:"Filter Example"
   function FindSeveralObjects()
   {
     //Create Filter

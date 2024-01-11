@@ -127,7 +127,7 @@ class DelegateDriver : NadaComponent
 
 The `DelegateDriver` class covers a number of different ways to define and call a delegate. Lines 10 and 11 create two `DelegateHolder` objects, `gh` and `ef`, while line 14 creates a delegate variable that's set to the delegate variable found in object `gh`:
 
-```name=Drive Lines 10 - 14, lang=csharp
+```TS:Drive Lines 10 - 14
 var gh = new DelegateHolder("gh");
 var ef = new DelegateHolder("ef");
 
@@ -135,26 +135,26 @@ var getName : delegate() = gh.Greeting;
 ```
 
  Line 17 demonstrates directly calling a delegate using a delegate variable, while line 20 reassigns that delegate to the delegate variable found in object `ef`:
-```lang=csharp, name=Driver Lines 17 & 20
+```TS:Driver Lines 17 & 20
 getName();    
 
 getName = ef.Greeting;
 ```
 
 Line 24 passes the delegate variable into a function, `DelegateCaller`, which is defined further down the script�that calls the delegate function of any delegate passed into it:
-```lang=csharp, name=Driver Line 24
+```TS:Driver Line 24
 getName = DelegateDriver.DelegateTest;
 ```
 Line 27 assigns a static function to the delegate variable, `DelegateTest`, which defines its own delegate function assigned the to `Exponent` function in `MyMathLib`:
-```lang=csharp, name=Driver Line 27
+```TS:Driver Line 27
 getName = DelegateDriver.DelegateTest;
 ```
 Line 30 then passes in the re-assigned variable back into the `DelegateCaller` function, showing that the `Exponent` function is still called:
-```lang=csharp, name=Driver Line 30
+```TS:Driver Line 30
 DelegateDriver.DelegateCaller(getName);
 ```
 Line 33 creates a new delegate variable assigning it to another static function, while lines 35 - 44 demonstrates passing a delegate (that is redefined a couple of times) into a function that expects a delegate as a parameter:
-```lang=csharp, name=Driver Lines 33-44
+```TS:Driver Lines 33-44
 var doMath : delegate(a: Integer, b: Integer): Integer = DelegateDriver.Add;
     
 Console.WriteLine(DelegateDriver.BinaryIntOpsCaller(doMath)); // 8
@@ -188,7 +188,7 @@ Hi I'm ef
  # Named Parameters
 IMPORTANT: At this time the names chosen for the parameters are part of the signature. In order for two function signatures to be the same the names chosen for the parameters must match:
 
-```lang=csharp, name=MyMathLib
+```TS:MyMathLib
 class MyMathLib
 {
   [Static] // Note named parameters are lhs and rhs:
@@ -201,7 +201,7 @@ class MyMathLib
 
 Consider these tests:
 
-```lang=csharp, name=Invalid Delegate Parameter Names
+```TS:Invalid Delegate Parameter Names
 class Driver
 {
   function DelegateTest()
@@ -217,7 +217,7 @@ class Driver
   Its type is 'delegate (lhs : Integer, rhs : Integer) : Integer'.
 ```
 
-```lang=csharp, name=Excluded Parameter Names
+```TS:Excluded Parameter Names
 class Driver
 {
   function DelegateTest()
@@ -233,7 +233,7 @@ Function declaration 'delegate' has an invalid argument list. We found 'UpperIde
 we expected to find ')'.
 ```
 
-```lang=csharp, name=Correctly Named Parameters
+```TS:Correctly Named Parameters
 class Driver
 {
   function DelegateTest()
@@ -255,7 +255,7 @@ IMPORTANT: Delegates that point at member functions can create memory leaks if t
 
 IMPORTANT: Delegates pointing to member functions will throw runtime errors if the instance it was bound with was destroyed:
 
-```lang=csharp, name=Invalid Call to a Delegate from a Deleted Variable
+```TS:Invalid Call to a Delegate from a Deleted Variable
   // Here are three Objects with the ability to hold delegates:
   var ab = new DelegateHolder("ab");
   var b = new DelegateHolder("b");
@@ -274,7 +274,7 @@ Attempted to access a member of a null handle: Attempted to call a member functi
 
 IMPORTANT: It is an illegal operation to call a null delegate, so be sure to initialize your delegates before calling!
 
-```lang=csharp
+```TS
 // Here are three Objects with the ability to hold delegates:
 var ab: delegate(a: Integer, b: Integer): Integer  = null;
 

@@ -21,7 +21,7 @@ First we will make the ground and player objects.
  - Create a NadaScript resource using the Component template template and name it `PlayerController`
 - Update `PlayerController` script to the following code block:
 
-```name=PlayerController, lang=csharp
+```TS:PlayerController
 class PlayerController : NadaComponent
 {
   [Property]
@@ -74,7 +74,7 @@ class PlayerController : NadaComponent
  - Create a NadaScript resource using the Component template template and name it `FollowerController`
 - Update `FollowerController` script to the following code block:
 
-```name=FollowerController, lang=csharp
+```TS:FollowerController
 class FollowerController : NadaComponent
 {
   [Property]
@@ -183,7 +183,7 @@ Notice that the text of `name=PlayerCogPath, icon=pencil-square-o` changes from 
 
 - In the `FollowerController` script update `OnLogicUpdate` to this code block
 
-```name=FollowerController OnLogicUpdate, lang=csharp
+```TS:FollowerController OnLogicUpdate
 function OnLogicUpdate(event : UpdateEvent)
 {
   var targetPos = this.PlayerCogPath.Cog.Transform.WorldTranslation;

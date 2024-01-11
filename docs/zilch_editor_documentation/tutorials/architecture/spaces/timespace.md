@@ -86,7 +86,7 @@ Now we can see that the time scale directly affects the rate of time without aff
  - Create a NadaScript resource using the Component template template and name it `TimeControl`
 - Update the `TimeControl` script to the following:
 
-```lang=csharp, name="TimeControl"
+```TS:"TimeControl"
 class TimeControl : NadaComponent
 {
   [Property]
@@ -145,13 +145,13 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
 
 
 - Add the following property to the `TimeControl` script:
-```name=PauseKey Property, lang=csharp
+```TS:PauseKey Property
   [Property]
   var PauseKey : Keys = Keys.Space;
 ```
 
 - Add the following function to the `TimeControl` script:
-```name=TogglePause, lang=csharp
+```TS:TogglePause
   function TogglePause()
   {
     if(this.Space.TimeSpace.Paused)
@@ -167,7 +167,7 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
   }
 ```
 - Add the following block to the end of the `OnLogicUpdate` function in the `TimeControl` script:
-```name=OnLogicUpdate Extension,lang=csharp
+```TS:OnLogicUpdate Extension
     if(Zilch.Keyboard.KeyIsPressed(this.PauseKey))
       this.TogglePause();
 ```
@@ -185,7 +185,7 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
 You probably noticed that the game will not unpause. This is because when the [TimeSpace](../../../../code_reference/class_reference/timespace.md) is paused, [Keyboard](../../../../code_reference/class_reference/keyboard.md), listening for the [KeyDown](../../../../code_reference/event_reference.md#keydown) event, or to poll the keyboard input on [FrameUpdate](../../../../code_reference/event_reference.md#frameupdate).
 
 - Update the `Initialize` function in `TimeControl` to the following:
-```name=Initialize, lang=csharp
+```TS:Initialize
   function Initialize(init : CogInitializer)
   {
     Zilch.Connect(Zilch.Keyboard, Events.KeyDown, this.OnKeyDown);
@@ -193,7 +193,7 @@ You probably noticed that the game will not unpause. This is because when the [T
 ```
 
 - Replace the `OnLogicUpdate` function in `TimeControl` with the following:
-```name=Initialize, lang=csharp
+```TS:Initialize
   function OnKeyDown(event : KeyboardEvent)
   {
     if(event.Key == this.IncreaseRateKey)

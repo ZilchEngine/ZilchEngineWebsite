@@ -22,7 +22,7 @@ A critical part of making a game is to allow the user to interact with it. The s
 
  - Update the `CharacterLogic` script to the following code block:
 
-```lang=csharp, name=Keyboard Input
+```TS:Keyboard Input
 class CharacterLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -103,7 +103,7 @@ Let's use what we just learned to create a character controller for a simple pla
  - In the `CharacterLogic` script
   - Replace the previous `LogicUpdate` function with the following:
 
-```lang=csharp, name=Movement Logic
+```TS:Movement Logic
 function OnLogicUpdate(event : UpdateEvent)
 {
   var speed : Real = 5.0;

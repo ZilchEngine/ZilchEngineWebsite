@@ -38,7 +38,7 @@ Often in games we find that we wish to smoothly transition a property from its e
  # Property Actions
 The first and most common action type is a Property Action which allows us to interpolate a property from its current value to a target value, over a specific duration, at a rate defined by an easing function. We can break down the construction of a property action parameter by parameter.
 
-```name=Example Property Action, lang=csharp
+```TS:Example Property Action
 Actions.Property(this.Owner.Actions,
                  @this.Area.Size,
                  this.TargetSize,
@@ -57,7 +57,7 @@ Actions.Property(this.Owner.Actions,
  ## Using a Property Action
 Now that we've covered the basics of what a property action is let's try using one:
 - Update the `SpriteFader` script:
-``` lang=csharp, name=SpriteFader 
+``` TS:SpriteFader 
 class SpriteFader : NadaComponent
 {
   [Dependency] var Sprite : Sprite;
@@ -103,12 +103,12 @@ Here you can see the property action interpolating the title scale over the give
 You may already be wondering how to chain actions together, well this is the purpose of an [ActionSequence](../../../code_reference/class_reference/actionsequence.md).
 
 - Add the following property to `SpriteFader`:
-```name=Color, lang=csharp
+```TS:Color,
   [Property]
   var TargetColor : Real4 = Real4(1,0,0,1);
 ```
 - Update the `Animate` function in `SpriteFader` script:
-``` lang=csharp, name=SpriteFader Action Sequence
+``` TS:SpriteFader Action Sequence
   function Animate()
   {
     //create a sequence driven by the object
@@ -143,7 +143,7 @@ Here we can see sequences allow up to play actions in a linear order. This is ve
 Similiar to how an [ActionSequence](../../../code_reference/class_reference/actionsequence.md) will let us perform actions in sequence an [ActionGroup](../../../code_reference/class_reference/actiongroup.md) will let us perform actions in parallel (at the same time).
 
 - Update the `Animate` function in `SpriteFader` script:
-``` lang=csharp, name=SpriteFader Action Group
+``` TS:SpriteFader Action Group
   function Animate()
   {
     //Create a group driven by the object
@@ -177,14 +177,14 @@ Now that the property actions are in a `group` instead of in a `sequence` they h
 So far we have seen sequences and groups working seperately but what if we wanted to combine them. That would mean we could make sequences of grouped actions, or groups of sequenced actions. We can use the `SpriteFader` component to test this.
 
 - Add the following variables to `SpriteFader`:
-```name=Original Value Variables, lang=csharp
+```TS:Original Value Variables
   var OriginalSize : Real2;
   
   var OriginalColor : Real4;
 ```
 
 - Update the `Initialize` function in `SpriteFader`:
-```name=SpriteFader.Initialize(), lang=csharp
+```TS:SpriteFader.Initialize(),
   function Initialize(init : CogInitializer)
   {
     //Capture original values
@@ -197,7 +197,7 @@ So far we have seen sequences and groups working seperately but what if we wante
 ```
 
 - Update the `Animate` function in `SpriteFader`:
-```name=SpriteFader Grouped Sequences, lang=csharp
+```TS:SpriteFader Grouped Sequences
   function Animate()
   {
     //Create a group driven by the object
@@ -246,7 +246,7 @@ So far we have seen sequences and groups working seperately but what if we wante
 It should be noted that `this.Owner.Actions` is an [ActionGroup](../../../code_reference/class_reference/actiongroup.md) so in this simple case we could have just passed it to the constructor for the action sequences. We could also invert the group and sequence nesting to achieve the same affect from a different approach.
 
 - Update the `Animate` function in `SpriteFader`:
-```name=SpriteFader Sequenced Groups, lang=csharp
+```TS:SpriteFader Sequenced Groups
   function Animate()
   {
     //Create a group driven by the object
@@ -305,7 +305,7 @@ Another type of action is the call option. This allows you to put calls to funct
 ```
 
 - Update the `Animate` function in `SpriteFader`:
-```name=SpriteFader with printing, lang=csharp
+```TS:SpriteFader with printing
   function Animate()
   {
     //Create a group driven by the object
@@ -369,12 +369,12 @@ Now you can see the print function executed at the beginning and end of the sequ
  ## Action Loops
 
 - Add the following property to `SpriteFader`:
-```name=Action Sequence Storage, lang=csharp
+```TS:Action Sequence Storage
   var LoopedSequence : ActionSet;
 ```
 
 - Update the `Animate` function in `SpriteFader`:
-```name=SpriteFader with printing, lang=csharp
+```TS:SpriteFader with printing
   function Animate()
   {
     if(this.LoopedSequence != null)
@@ -433,7 +433,7 @@ Now you can see the print function executed at the beginning and end of the sequ
 
 Now we can see the action sequence call the function that originally set it up. This create a loop in the sequence of actions which will repeat. You should also notice that we started storing the action sequence in a member variable of `SpriteFader` instead of a local variable. This does not change the behavior of the action sequence, but it does allow us to examine, pause, and cancel the sequence while it is running. This usually good practice for all action sets. We actually already introduced a small example of how one may use an [ ActionSet](../../../code_reference/class_reference/actionset.md) member variable when we introduced these two lines at the top of `animate`.
 
-```name=Checking Looped Sequence for duplicate, lang=csharp
+```TS:Checking Looped Sequence for duplicate
   if(this.LoopedSequence != null)
       this.LoopedSequence.Cancel();
 ```
@@ -444,7 +444,7 @@ By checking if `this.LoopedSequence` is not `null` we can determine if there is 
 Delay actions allow the insertion of a time based delay in an action sequence. When put in a group they can prevent the group completing but will not keep other actions in the group from running.
 
 - Update the `Animate` function in `SpriteFader`:
-```name=SpriteFader with printing, lang=csharp
+```TS:SpriteFader with printing
   function Animate()
   {
     if(this.LoopedSequence != null)
@@ -510,12 +510,12 @@ The final action type is the event action. This allows you to instantiate an eve
 
 
 - Add the following in the `SpriteFader` class within `SpriteFader`:
-```name=Event Registration, lang=csharp
+```TS:Event Registration
   sends SpriteFaded : NadaEvent;
 ```
 
 - Update the `Initialize` function in `SpriteFader`:
-```name=SpriteFader with event actions, lang=csharp
+```TS:SpriteFader with event actions
   function Initialize(init : CogInitializer)
   {
     //Capture original values
@@ -530,7 +530,7 @@ The final action type is the event action. This allows you to instantiate an eve
 ```
 
 - Add the following function to `SpriteFader`:
-```name=Event Response Function, lang=csharp
+```TS:Event Response Function
   function OnSpriteFaded(event : NadaEvent)
   {
     Console.WriteLine("Sprite Faded");
@@ -538,7 +538,7 @@ The final action type is the event action. This allows you to instantiate an eve
 ```
 
 - Update the `Initialize` function in `SpriteFader`:
-```name=Animate With Event Action, lang=csharp
+```TS:Animate With Event Action
   function Animate()
   {
     if(this.LoopedSequence != null)

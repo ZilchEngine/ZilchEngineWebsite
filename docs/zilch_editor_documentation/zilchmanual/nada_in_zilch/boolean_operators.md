@@ -5,7 +5,7 @@ The [boolean](../../../code_reference/nada_base_types/boolean.md) type has speci
  # The Negation Operator `!`
 The `!` operator, called the negation operator, is typically the simplest of the boolean operators as it changes the value of its operand to `true` if it was `false`, and changes the value to `false` if it was `true`.
 
-```name=The ! Operator, lang=csharp
+```TS:The ! Operator
 var a = true;
 Console.WriteLine("a starts as `a`");
 a = !a;
@@ -24,7 +24,7 @@ All comparison operators take a left side and right side operand and evaluate to
  ## Equality `==`
 Often certain code should only run under specific conditions. The `==` operator, called the Equality operator, determines if the value of two operands are equalivalent and returns `true` or `false`.
 
-```name=Equality Operator, lang = csharp
+```TS:Equality Operator
 var a = true;
 var b = true;
 var c = false;
@@ -52,7 +52,7 @@ While the Equality operator is not exclusively used with booleans it does always
 
  ## Inequality `!=`
 The `!=` operator, called the inequality operator, is the logical inverse of the equality operator return `true` if the operands are not the equal and `false` if they are.
-```name=Inequality Operator, lang = csharp
+```TS:Inequality Operator
 
 var a = true;
 var b = true;
@@ -81,7 +81,7 @@ Notice that `a != b != c` results in false. This is because `==` and `!=` are ev
  ## Less Than & Greater Than `<` & `>`
 The `<` and `>` operators, called the less or greater then operators respectively, evaluate if one operand has a smaller/larger value than the other.
 
-```name=Less/Greater Than, lang = csharp
+```TS:Less/Greater Than
 var i = 0;
 var j = 1;
 var k = 0;
@@ -107,7 +107,7 @@ Notice that `i` is not less or greater than `k` as `0` is not less or greater th
  ## Less Than or Equal & Greater Than or Equal (`<=` & `>=`)
 The `<=` and `>=`, called the `less than or equal to` and `greater than or equal to` operators, determine if the value of the left operand is lesser than, greater than, or equal to the right operand.
 
-```name=Less/Greater Than, lang = csharp
+```TS:Less/Greater Than
 var i = 0;
 var j = 1;
 var k = 0;
@@ -134,7 +134,7 @@ Logical operators take a left and a right side areguement, both of which must ev
  # and `&&`
 The `&&` operator, called the `and` operator, takes two boolean values and evaluates them, returning true only if both operands evaluate to true. This can be very useful as often one may find that a condition in script may depend on two seperate factors.
 
-```name=Nested if, lang = csharp
+```TS:Nested if
 var i = true;
 var j = false;
 
@@ -160,7 +160,7 @@ Inner Else: Either i or j is false
 
 This can be simplified using the `&&` operator to evaluate both `i` and `j` within the same `if` statement.
 
-```name=&&, lang = csharp
+```TS:&&
 var i = true;
 var j = false;
 
@@ -192,7 +192,7 @@ The nested `if` version of the above code does allow information about whether i
 The `||` operator, called the `or` operator, takes two boolean values and evaluates them, returning true if either operands evaluates to true.
 
 
-```name=||, lang = csharp
+```TS:||
 var i = true;
 var j = false;
 

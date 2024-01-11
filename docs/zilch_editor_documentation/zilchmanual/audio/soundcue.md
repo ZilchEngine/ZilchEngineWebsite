@@ -63,7 +63,7 @@ Every [ SoundTag ](soundtag.md) in the list of SoundTagEntries will be applied t
 
 The following code block shows how to connect to the `SoundCuePrePlay` event and change the SoundInstance's volume before it plays.
 
-```lang=csharp
+```TS
 [Property] var Cue : SoundCue;
 
 function Initialize(init : CogInitializer)

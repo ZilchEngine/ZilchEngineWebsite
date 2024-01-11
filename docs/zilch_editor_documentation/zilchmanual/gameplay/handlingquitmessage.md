@@ -11,7 +11,7 @@ This section will cover connecting to the event and setting up the response func
  ## Connecting to the GameRequestQuit Event
 When connecting to the GameRequestQuit, it must be listening for the `Events.GameRequestQuit` dispatch (which is done by pressing the `esc` key) onto `this.GameSession`, as follows:
 
-```lang=csharp
+```TS
 //Listening for Events.GameRequestQuit dispatch onto this.GameSession
 Zilch.Connect(this.GameSession, Events.GameRequestQuit, this.OnGameRequestQuit);
 ```

@@ -146,7 +146,7 @@ Now we can see the two spheres, which are set up to skip resolution and detectio
  - Create a NadaScript resource using the Component template template and name it `PrintCollision`
 - Update the `PrintCollision` script to the following:
 
-```lang=csharp, name="PrintCollision"
+```TS:"PrintCollision"
 class PrintCollision : NadaComponent
 {
   function Initialize(init : CogInitializer)

@@ -1,6 +1,6 @@
 Flags are very similar to [enums](enums.md) except that they are ordered like a bit field (i.e. increasing in powers of two starting at 1 by default). Flags can be defined with the **flags** keyword:
 
-```lang=csharp, name=Flags Type Defined
+```TS:Flags Type Defined
 flags Pizza 
 { 
   Sauce, 
@@ -46,7 +46,7 @@ Pizza.Artichokes    as Integer: 512
 
 Flags are meant to work together; consider the following:
 
-```lang=csharp, name=Adding Flags Together
+```TS:Adding Flags Together
 var hawaiian : Pizza = Pizza.Sauce + Pizza.Cheese + Pizza.CanadianBacon + Pizza.Pineapple;
 Console.WriteLine(hawaiian);
 // Using bitwise and, '&', to determine if the hawaiian pizza has pepperoni on it
@@ -69,7 +69,7 @@ Hawaiian pizza does not have Pepperoni on it.
 Basically, flags are enums that assign the next value by multiplying the previous value by two. 
 For instance, given:
 
-```lang=csharp, name=Defining a Custom Value
+```TS:Defining a Custom Value
 flags Cookie
 {
   ChocolateChips, 
@@ -87,7 +87,7 @@ flags Cookie
 
 The values are different:
 
-```lang=csharp
+```TS
 Console.WriteLine("Cookie.ChocolateChips as Integer: `Cookie.ChocolateChips as Integer`");
 Console.WriteLine("Cookie.Raisins        as Integer: `Cookie.Raisins        as Integer`");
 Console.WriteLine("Cookie.Oatmeal        as Integer: `Cookie.Oatmeal        as Integer`");
@@ -115,7 +115,7 @@ Cookie.Sugar          as Integer: 3
 
 The underlying structure is [integer](../../../code_reference/nada_base_types/integer.md); therefore, you could interpret Integers as a flags type:
 
-```lang=csharp, name=Casting Integers to Flags
+```TS:Casting Integers to Flags
 var random: Pizza = 583 as Pizza;
 Console.WriteLine(random);
 Console.WriteLine(7 as Cookie);
@@ -130,7 +130,7 @@ ChocolateChips | Raisins | Oatmeal | MacadamiaNuts | Peanuts | Sugar
  ## Identifier Capitalization
 Identifiers for the flags type name and the enumerated values must be capitalized.
 
-```lang=csharp, name=Invalid Value Capitalization
+```TS:Invalid Value Capitalization
 // This will not compile. 
 flags Directions {up, down, left, right}
 ```
@@ -139,7 +139,7 @@ Enum declaration 'Directions' does not have a closing '}'. We found 'LowerIdenti
 expected to find '}'.
 ```
 
-```lang=csharp, name=Invalid Type Name Capitalization
+```TS:Invalid Type Name Capitalization
 // Neither will this.
 flags directions {Up, Down, Left, Right}
 ```
@@ -151,7 +151,7 @@ instead of 'directions').
  ## Unique Identifiers
 Identifiers for the enumerated values must be unique.
 
-```lang=csharp, name=Duplicate Identifiers
+```TS:Duplicate Identifiers
 // This will not compile.
 flags Directions {Up, Down, Up, Down}
 ```
@@ -163,7 +163,7 @@ only be used once.
  ## Definition Scope
 Flags cannot be defined inside classes, structs, or other enums.
 
-```lang=csharp, name=Incorrectly Defined Inside a Class
+```TS:Incorrectly Defined Inside a Class
 // Classes cannot contain flags.
 class FlagsWrapper
 {
@@ -177,7 +177,7 @@ Class declaration 'FlagsWrapper' does not have a closing '}'. We found 'flags' b
 
  ## Representation
 If there is no enumerated value the enum is represented as an Integer:
-```lang=csharp, name=Integer That Does Not Map to Enum
+```TS:Integer That Does Not Map to Enum
 Console.WriteLine((64) as Cookie);
 ```
 ```name=Console Output
@@ -190,7 +190,7 @@ As in other languages, Integers make up the backbone of how flags work, and thus
  ## Casting
 Because of this, Nada will implicitly cast from a flag to an Integer when necessary:
 
-```lang=csharp, name=Implict Integer Cast
+```TS:Implict Integer Cast
 class FlagsExample
 {
   [Static]
@@ -211,7 +211,7 @@ class FlagsExample
 
 We can test the calls to these functions to see the interplay of casting:
 
-```lang=csharp
+```TS
 var paramInt = 128;
 var paramFlags = Pizza.Pineapple;
 
@@ -229,7 +229,7 @@ Pineapple turned into Pineapple!
 128 turned into Pineapple!
 ```
 
-```lang=csharp, name=Invalid Implicit Cast
+```TS:Invalid Implicit Cast
 // Attempting to pass an Integer without casting to an enum 
 // will cause a compiler error
 Console.Write(paramInt);
@@ -246,7 +246,7 @@ The possible choices were:
   AcceptsFlags(param : Pizza)
 ```
 
-```lang=csharp
+```TS
 // This also works as you'd expect. 
 Console.Write(paramInt);
 FlagsExample.AcceptsInt(paramInt);
@@ -264,7 +264,7 @@ Pineapple turned into 128!
 
 Flags can perform all operations as if they were Integers. For instance, you can perform all of the normal math operations as implicit conversion will happen as necessary from the enum type to Integer:
 
-```lang=csharp, name=Flags Using Integer Operations
+```TS:Flags Using Integer Operations
 // Here you can see use of the +, -, *, /, (), ^ and % Integer operators.
 var pizza = (Pizza.Sauce + Pizza.Cheese) ^ Pizza.Sausage % 
            Pizza.Mushroom - Pizza.Artichokes * Pizza.Peppers;
@@ -287,7 +287,7 @@ You can see the typeid is not an Integer but Pizza. An Integer value was printed
 
 Although flags cast to Integers, they **will not** cast to Integers to perform cross-flags operations.
 
-```lang=csharp, name=Invalid Cross-Flags Operation
+```TS:Invalid Cross-Flags Operation
 // This won't compile.
 Console.WriteLine(Pizza.Pineapple + Cookie.Sugar);
 ```

@@ -19,7 +19,7 @@
 An `if` statement evaluates an expression to a [Boolean](../../../code_reference/nada_base_types/boolean.md) value of `true` or `false`. If the expression is true, code within the scope of the `if` statement will be executed, otherwise the application focus will skip over its scope.
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -62,7 +62,7 @@ The [ Negation Operator](../../zilchmanual/nada_in_zilch/operators_precedence_ch
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
 
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -109,7 +109,7 @@ Notice how `false` and `false` are the same, resulting in a `true` conditional.
 Where `if` statements determine if a situation is `true`, `else if` statements can determine if alternative situations are `true` as long as previous conditionals are `false`. `else` statements catch all remaining conditions.
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -145,7 +145,7 @@ Notice how the lines checking if `grade < 70` and `grade < 80` each ran first. T
 
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class ConditionalsLogic : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -182,7 +182,7 @@ The most common way to follow an `if` statement is to use the brackets discussed
 
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -216,7 +216,7 @@ Alternatively, if only one line of code needs to be performed, it can be common 
 
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -242,7 +242,7 @@ The line of code was run due being indented and following a `true` `if` statemen
 
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -273,7 +273,7 @@ Only the first indented line following a `true` `if` statement is performed. Thi
 
 - Update the `icon=square-o, name = ConditionalsLogic` script:
 
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class NumberGenerator : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -305,7 +305,7 @@ Notice how `2` and `3` were still printed to console, even though they match the
 It is important to realize that `if` statements can be nested within one another. Further, `else` statements take advantage of scenarios where a statement returns false.
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
-```lang=csharp, name=ConditionalsLogic Script
+```TS:ConditionalsLogic Script
 class ConditionalsLogic: NadaComponent
 {
   // Ingredients Boolean

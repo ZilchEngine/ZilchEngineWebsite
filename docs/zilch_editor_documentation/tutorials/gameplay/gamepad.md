@@ -34,7 +34,7 @@ NOTE: An interactive controller diagram with input feedback is included in many 
 The first step in detecting input on a gamepad device is to detect the gamepad itself.
 
 - Update `GamepadHandle` to the following:
-```name=GamepadHandle Detecting the Gamepad, lang=csharp
+```TS:GamepadHandle Detecting the Gamepad
 class GamepadHandle : NadaComponent
 {
   [Property]
@@ -72,7 +72,7 @@ Button events are very similar to keyboard events. `ButtonDown` and `ButtonUp` a
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `PauseManager`
 - Update `PauseManager` to the following:
-```name=PauseManager, lang=csharp
+```TS:PauseManager,
 class PauseManager : NadaComponent
 {
   [Dependency] var TimeSpace : TimeSpace;
@@ -135,7 +135,7 @@ Let's use the left stick to get our Player object moving.
  - Create a NadaScript resource using the Component template template and name it `SweptGamepadInput2D`
 
 - Update `SweptGamepadInput2D` to the following:
-```name=SweptGamepadInput2D, lang=csharp
+```TS:SweptGamepadInput2D,
 class SweptGamepadInput2D : NadaComponent
 {
   [Dependency] var SweptController : SweptController;
@@ -207,7 +207,7 @@ Now that we have covered detecting various kinds of input, let's talk more about
 Let's check if the gamepad is connected while the game is running.
 
 - Update `GamepadHandle` to the following:
-```name=GamepadHandle Detecting Gamepad at Runtime, lang=csharp
+```TS:GamepadHandle Detecting Gamepad at Runtime
 class GamepadHandle : NadaComponent
 {
   [Property]
@@ -277,7 +277,7 @@ Your console output should roughly take the above form with more prints in place
 What use is this to us? So far, we simply have another Boolean, `this.Connected`, that tracks the state of `Gamepad.IsActive` from the previous frame. Before we update the value of `this.Connected` to match `Gamepad.IsActive`, if they are not already equal, then we know that the gamepad was connected or disconnected on that frame. In this way, we can detect the exact frame the gamepad disconnected or reconnected and let other parts of the game know.
 
 - Update `GamepadHandle` to the following:
-```name=GamepadHandle Sending Events, lang=csharp
+```TS:GamepadHandle Sending Events
 class GamepadHandle : NadaComponent
 {
   [Property]
@@ -340,12 +340,12 @@ class GamepadConnectionEvent : NadaEvent
 Now when a gamepad is disconnected or reconnected, `GamepadHandle` dispatches a `GamepadConnectionEvent` to the `Space` to let all objects who care know that the state of a gamepad has changed.
 
 - Add the following to the `Initialize` function of the `PauseManager` class:
-```name=PauseManager Initialize, lang=csharp
+```TS:PauseManager Initialize
 Zilch.Connect(this.Space, Events.GamepadConnected, this.OnGamepadConnected);
 Zilch.Connect(this.Space, Events.GamepadDisconnected, this.OnGamepadDisconnected);
 ```
 - Add the following to the `PauseManager` class:
-```name=PauseManager Gamepad Event Callbacks, lang=csharp
+```TS:PauseManager Gamepad Event Callbacks
 function OnGamepadConnected(event : GamepadConnectionEvent)
 {
   this.TimeSpace.Paused = false;

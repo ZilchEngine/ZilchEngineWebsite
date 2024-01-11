@@ -6,7 +6,7 @@ The first thing we need to do is create a class that derives from StaticLibrary.
 
 Below we have an example of a header file that contains the static library Wallaby and two example classes that might belong to that library. Remember, the name of the library can be anything you want.
 
-```lang=csharp
+```C++
 
 # pragma once
 
@@ -58,7 +58,7 @@ public:
 With *Internal Binding* we must use the `NadaDeclareBaseType` and `NadaDeclareDerivedType` macros in a public section of the class (typically at the beginning, but make sure to use public!). The Character class also publicly inherits from `INadaObject`, which is not required but allows the `character->NadaGetDerivedType()` function to be virtual, which will retrieve the BoundType for `Player` instead of `Character`.
 The following code should appear once within a translational unit (do not put this within a header):
 
-```lang=csharp
+```C++
 
 # include "Wallaby.hpp"
 
@@ -145,7 +145,7 @@ External binding works the same as internal binding, except the following differ
  #  Binding Enumerations or Flags
 Since enumerations cannot be virtual or have methods declare inside of them, all enums must be bound using External Binding. At the moment, enumerations MUST be the same size as the int type, which you can generally force either be using the new C++ class enums or by making an enum value set to `0x7FFFFFFF`. Inside the `NadaDefineExternalType` macro at the beginning use the following lines:
 
-```lang=csharp
+```C++
 // You can also pass in SpecialType::Flags if all the values of the enum are bit flags
 NadaBindEnum(builder, type, SpecialType::Enumeration);
 NadaBindEnumValue(builder, type, YourEnum::ValueName, "ValueName");
@@ -197,7 +197,7 @@ The following list is not exhaustive, but contains the most common types that we
 
 The following types are automatically redirected to the Nada Integer type (except unsigned long long which redirects to DoubleInteger):
 
-```lang=csharp
+```C++
 char
 signed char
 signed short

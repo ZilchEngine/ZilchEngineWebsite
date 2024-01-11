@@ -27,7 +27,7 @@ Let's create a tile archetype with some custom game logic and add it to our leve
  - Create a NadaScript resource using the Component template template and name it `ReloadLevelOnCollisionStarted`
 - Update the `ReloadLevelOnCollisionStarted` script to the following:
 
-```lang=csharp, name="ReloadLevelOnCollisionStarted"
+```TS:"ReloadLevelOnCollisionStarted"
 class ReloadLevelOnCollisionStarted : NadaComponent
 {
   function Initialize(init : CogInitializer)

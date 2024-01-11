@@ -1,7 +1,7 @@
 The Market is a convenient hub for downloading and uploading content for use within the Zilch Editor. It contains content made by the #zilch_engine_developers and users alike.
 
  ## How to open the market in editor
-The Market can be opened from within the Zilch Editor by clicking on ![MarketIcon](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47507.png) located in the upper right hand corner. You can also visit the Market from any web browser by going to [market.zeroengine.io](https://market.zeroengine.io ).
+The Market can be opened from within the Zilch Editor by clicking on ![MarketIcon](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47507.png) located in the upper right hand corner. You can also visit the Market from any web browser by going to [market.zilchengine.com](https://market.zilchengine.com ).
 
  ### How to track down downloads in editor
 Active or completed downloads may be viewed within the Zilch Editor by clicking on ![DownloadIcon](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47509.png) located next to the Market icon. A drop down list of complete and in progress items will be displayed. Selecting completed items will open the file at its current location.

@@ -1,6 +1,6 @@
 Get-Sets are syntactic sugar. They define two functions that look like variable usage.
 
-```lang=csharp
+```TS
 class Example
 {
   // This is a field.
@@ -43,7 +43,7 @@ class Driver
 
 This get-set could easily be replaced by functions. The following is its equivalent:
 
-```lang=csharp
+```TS
 class Example
 {
   var SquareSideLength: Real = 2.0;
@@ -89,7 +89,7 @@ NOTE: Get-sets are not fields, and thus they have no storage of their own. If da
 
  # Parts of a Property's definition
 
-```lang=csharp
+```TS
 // The type specified refers to BOTH the return type of the getter
 // and the parameter type of the setter.
 var Perimeter : Real // Despite ``var`` keyword, Properties have no storage.

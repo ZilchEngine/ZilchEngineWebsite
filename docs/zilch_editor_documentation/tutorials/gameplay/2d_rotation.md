@@ -46,7 +46,7 @@ Rotation  can be changed either through the `Properties Window` or via accessing
 - In `Rotate2D`
  - Replace the script's content with the following code block
 
-```name=Rotate2D, lang=csharp
+```TS:Rotate2D,
 class Rotate2D : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -72,7 +72,7 @@ The first thing we need in order to rotate an object is a speed, which we have d
 
 - In `Rotate2D`
  - Update the `OnLogicUpdate` function to the following
-```name=Continuous Rotation On Update, lang=csharp
+```TS:Continuous Rotation On Update
 function OnLogicUpdate(event : UpdateEvent)
 {
   //convert rotation speed to radians
@@ -147,7 +147,7 @@ Rotating on update is useful when trying to rotate in a specific direction, cont
 - In `Rotate2D`
  - Update the `Rotate2D` class to look like the following code block
 
-```name=Rotate With Actions, lang=csharp
+```TS:Rotate With Actions
 class Rotate2D : NadaComponent
 {
   [Dependency] var Transform : Transform;

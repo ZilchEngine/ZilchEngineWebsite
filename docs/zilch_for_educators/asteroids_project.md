@@ -155,7 +155,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 
 - The `ScreenWrap` component should look like this
 
-```name=ScreenWrap, lang=csharp
+```TS:ScreenWrap,
 class ScreenWrap : NadaComponent
 {
   [Dependency] var Transform : Transform;

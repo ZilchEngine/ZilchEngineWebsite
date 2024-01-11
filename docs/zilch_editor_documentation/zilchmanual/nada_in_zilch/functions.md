@@ -1,7 +1,7 @@
 A function is a named block of code (with its own [scope](variables_and_data_types.md#scope) that performs a task. Ideally, one function should perform just one task. A function may return a value of a specific [type](variables_and_data_types.md) based on the operation performed in the function or it may return nothing at all. Functions can also take in values of a specific type, which are called parameters, that are used and/or changed by the operation of the function.
 
 Functions are declared using the **function** keyword:
-```lang=csharp, name=Function Declaration
+```TS:Function Declaration
 // Note:
 // -function keyword is used
 // -function name is capitalized
@@ -26,7 +26,7 @@ There are a number of important rules that functions in Nada must follow. If the
  ## No Global Functions
 Nada **does not support** global functions. They must be contained within the scope of either a [class](classes.md) or [struct](structs.md). Thus, the above would actually be encased like this:
 
-```lang=csharp, name=Function Defined Within a Class
+```TS:Function Defined Within a Class
 class MyClassName
 {
     function MyFunctionName(param1: MyParamType1, param2: MyParamType2) : MyReturnType
@@ -38,7 +38,7 @@ class MyClassName
 ```
 
 or this:
-```lang=csharp, name=Function Defined Within a Struct
+```TS:Function Defined Within a Struct
 struct MyStructName
 {
   function MyFunctionName(param1: MyParamType1, param2: MyParamType2) : MyReturnType
@@ -57,7 +57,7 @@ Parsing could not be completed (we ran into something we didn't understand). The
  # The Static Keyword
 Static functions can be implemented using the `[Static]` attribute. Operations performed by functions which are static should be independent of independent of any particular data of the class. This is important as static functions can also be called with out access to an instance of the class by referencing the function through the non-instantied type:
 
-```lang=csharp, name=Static Function
+```TS:Static Function
 class MyClass
 {
   [Static] // Marking it static allows you to reference the function without creating an instance.
@@ -82,7 +82,7 @@ NOTE: Unlike other languages static functions **cannot** be called from an insta
 
 The first letter of a function name MUST be capitalized. While the rest of the name may remain un-capitalized, function names are traditionally written using [upper camel case](https://en.wikipedia.org/wiki/Camel_case) (e.g. `MyFunctionName` instead of `Myfunctionname`).
 
-```lang=csharp, name=Incorrect Function Name
+```TS:Incorrect Function Name
 // Lowercase function name will cause a compiler error.
 function myFunctionName() // This won't work..
 {
@@ -98,7 +98,7 @@ Function declaration is missing a name. Upper-camel case names are required here
 
 Parameters and locally-scoped (to the function scope in this case) MUST start with a lowercase character. While the rest of the name may remain un-capitalized, parameter and local variables are traditionally written using lower camel case (e.g. `myParamName` instead of `myparamname`).
 
-```lang=csharp, name=Incorrect Parameter Name
+```TS:Incorrect Parameter Name
 // Capitalized parameter identifiers will cause a compiler error.
 function MyFunctionName(Param1: MyParamType) // This won't work.
 {
@@ -116,7 +116,7 @@ In this error, `UpperIdentifier` refers to the uppercase letter 'P' used in `Par
 
 Return types are appended to the function signature **after** the argument list separated by the `:` operator. When this is left off the return type is assumed to be Void. You can use the **return** keyword to return a value from the function; however, if the function signature has a Void return type, the return statement must be omitted.
 
-```lang=csharp, name=Using return Without Specifying Return Type
+```TS:Using return Without Specifying Return Type
 // Leaving off the return value, assumes nothing is returned.
 function MyFunctionName()
 {

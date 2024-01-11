@@ -4,7 +4,7 @@
 
 In Nada, a string literal is made by enclosing zero or more characters in double quotation marks:
 
-```lang=csharp, name=String Literal Examples
+```TS:String Literal Examples
 var greeting = "hello world";
 var colorCode = "#F9EF1A";
 var empty = "";
@@ -14,7 +14,7 @@ var empty = "";
 
 *String interpolation* is a way of evaluating an expression and inserting it directly into a string literal. In Nada, string interpolation is done using the **grave accent** character, ##`##. Anything in a string literal that is entered between two ##`##s is evaluated, and the result of that evaluation is used instead. For example:
 
-```lang=csharp, name=String Interpolation Examples
+```TS:String Interpolation Examples
 var xp = Integer.PositiveMax;
 var message = "Gained `xp` experience points.";
 Console.WriteLine(message);
@@ -33,7 +33,7 @@ This component is attached to <Cog 'LevelSettings' [425]>.
 
 String interpolation presents a handy means of joining two strings:
 
-```lang=csharp, name=String Interpolation Joining
+```TS:String Interpolation Joining
 var str0 = "GAME";
 var str1 = "OVER";
 Console.WriteLine("`str0` `str1`");
@@ -44,7 +44,7 @@ GAME OVER
 
 It can also be used to effectively "append" to a string:
 
-```lang=csharp, name=String Interpolation Appending
+```TS:String Interpolation Appending
 var evenDigits = "";
 var oddDigits = "";
 
@@ -72,7 +72,7 @@ Note that strings in Nada are **immutable**, which means they cannot be altered 
 
 Some characters are entered in a string literal via special sequences of characters called //escape sequences//. In Nada, all escape sequences consist of a backslash followed by another character.
 
-```lang=csharp, name=Escape Sequence Examples
+```TS:Escape Sequence Examples
 // \" -- double quotation marks
 Console.WriteLine("Say \"hello\" to Dr. Cosmo for me.");
 Console.WriteLine();
@@ -114,7 +114,7 @@ BEWARE
 
 [ StringRange](../../../code_reference/nada_base_types/stringrange.md) is a separate but related class to **String**. It is an iterable range that can be used in a [ For Each loop](looping.md#for-each-loop). A string can be **implicitly cast** to StringRange, so a string can be passed into any function that expects a StringRange. However, a StringRange *cannot* be implicitly cast to String:
 
-```lang=csharp, name=String and StringRange Implicit Casting Examples
+```TS:String and StringRange Implicit Casting Examples
   var string = "";
   var stringRange = StringRange();
   
@@ -133,7 +133,7 @@ BEWARE
 
 [ Compare](../../../code_reference/nada_base_types/string.md#compare-zilch-engine-docu) returns an Integer indicating the *relative sort order* of the two given strings; that is, whether one string would be sorted before another when comparing the character codes of the two strings:
 
-```lang=csharp, name=Relative Sort Order Example
+```TS:Relative Sort Order Example
 var str0 = "abc";
 var str1 = "def";
 
@@ -149,7 +149,7 @@ Console.WriteLine(String.Compare(str0, str0));
 
 This results in more or less the same ordering as one would use to sort entries in an English dictionary, except that because it goes by character codes, uppercase letters are sorted before lowercase letters, etc.:
 
-```lang=csharp, name=Letter Case Sorting Example
+```TS:Letter Case Sorting Example
 var str0 = "cat";
 var str1 = "dog";
 var str2 = "DOG";
@@ -164,7 +164,7 @@ Console.WriteLine(String.Compare(str0, str2));
 
 This method is handy for sorting arrays of strings. [ Sort](../../../code_reference/nada_base_types/array_t.md#sort-void) is an [ Array](../../../code_reference/nada_base_types/array_t.md) method that sorts an array in place using a given comparison function:
 
-```lang=csharp, name=Compare Sort Example
+```TS:Compare Sort Example
 var strings = Array[String]();
 
 strings.Add("hi");
@@ -187,7 +187,7 @@ Console.WriteLine(strings);
 
 [ Concatenate](../../../code_reference/nada_base_types/string.md#concatenate-zilch-engine) can be used to join two existing strings:
 
-```lang=csharp, name=Concatenate Example
+```TS:Concatenate Example
 Console.WriteLine(String.Concatenate("exa", "mple"));
 ```
 ```name=Console Window
@@ -198,7 +198,7 @@ example
 
 [ FormatC](../../../code_reference/nada_base_types/string.md#formatc-zilch-engine-docu) produces a string using C-style string formatting syntax:
 
-```lang=csharp, name=FormatC Example
+```TS:FormatC Example
 var score = 12340;
 Console.WriteLine(String.FormatC("Score: %08d", score));
 var hull = 100.0 * 43.0 / 64.0; // actual value 67.1875
@@ -219,7 +219,7 @@ Hull integrity at 67.19 percent
 
 [ FromRune](../../../code_reference/nada_base_types/string.md#fromrune-zilch-engine-doc) returns a one-character string that consists of the given rune, which can either be passed in directly, or be specified by its code point:
 
-```lang=csharp, name=FromRune Example
+```TS:FromRune Example
 Console.WriteLine(String.FromRune(65));
 Console.WriteLine(String.FromRune(Rune(90)));
 ```
@@ -232,7 +232,7 @@ Z
 
 [ IsNullOrEmpty](../../../code_reference/nada_base_types/string.md#isnullorempty-zilch-engin) returns true if the given string is either **null** or the empty string, `""`, and false otherwise. [ IsNullOrWhitespace](../../../code_reference/nada_base_types/string.md#isnullorwhitespace-zero) works just the same way, except that it also returns true if the given string consists only of **whitespace** characters:
 
-```lang=csharp, name=IsNullOrWhitespace Example
+```TS:IsNullOrWhitespace Example
 Console.WriteLine(String.IsNullOrWhitespace("  \n  \t  "));
 ```
 ```name=Console Window
@@ -243,7 +243,7 @@ true
 
 [ Join](../../../code_reference/nada_base_types/string.md#join-zilch-engine-documen) combines two, three, or four strings into one, placing a given separator string between them in the result:
 
-```lang=csharp, name=Join Example
+```TS:Join Example
 var word0 = "Eeny";
 var word1 = "Meeny";
 var word2 = "Miney";
@@ -261,7 +261,7 @@ Eeny, Meeny, Miney, Moe
 
 [ All](../../../code_reference/nada_base_types/string.md#all-zilch-engine-document) converts the string into a StringRange. In Nada, strings can be implicitly cast to StringRanges, so it is typically not necessary to use this property:
 
-```lang=csharp, name=All Example
+```TS:All Example
 // Contains takes a StringRange
 Console.WriteLine("homeowner".Contains("meow"));
 Console.WriteLine("homeowner".Contains("meow".All));
@@ -275,7 +275,7 @@ true
 
 [ Begin](../../../code_reference/nada_base_types/string.md#begin-zilch-engine-docume) gets the RuneIterator at the start of the string, and [ End](../../../code_reference/nada_base_types/string.md#end-zilch-engine-document) gets the RuneIterator at the end of it:
 
-```lang=csharp, name=Begin and End Example
+```TS:Begin and End Example
 var fileName = "SnowLevel.Analytics.gamedata";
 var levelName = fileName.SubString(fileName.Begin, fileName.FindFirstOf(".").Begin);
 var extension = fileName.SubString(fileName.FindLastOf(".").End, fileName.End);
@@ -291,7 +291,7 @@ gamedata
 
 [ ByteCount](../../../code_reference/nada_base_types/string.md#bytecount-zilch-engine-do) gets the number of bytes in the string. For a string that contains one or more characters outside of the ASCII range, this will be different from the number of runes represented by the string (see [ComputeRuneCount](strings/.md#computerunecount) below). Consider the following code example, attached to a cog that has a SpriteText component whose Text property is set to the French word //gar�on//:
 
-```lang=csharp, name=ByteCount Example
+```TS:ByteCount Example
 var englishString = "string";
 var frenchString = this.Owner.SpriteText.Text;
 
@@ -309,7 +309,7 @@ The [ Count](../../../code_reference/nada_base_types/string.md#count-zilch-engin
 
 [ Empty](../../../code_reference/nada_base_types/string.md#empty-zilch-engine-docume) gets whether the string contains any characters at all:
 
-```lang=csharp, name=Empty Example
+```TS:Empty Example
 var userNameInput = "";
 
 if (userNameInput.Empty)
@@ -327,7 +327,7 @@ Please enter a name.
 
 String methods are found on string instances, including literals:
 
-```lang=csharp, name=String Method on Literal Example
+```TS:String Method on Literal Example
 Console.WriteLine("hello world".ToUpper());
 ```
 ```name=Console Window
@@ -342,7 +342,7 @@ A string's [ CompareTo](../../../code_reference/nada_base_types/string.md#compar
 
 The [ ComputeRuneCount](../../../code_reference/nada_base_types/string.md#computerunecount-zilch-en) method calculates the number of runes represented by the string by iterating through it from its [Begin iterator to its End](strings/.md#begin-and-end). As noted [above](strings/.md#bytecount-and-count), a string that contains one or more characters outside of the ASCII range will have a different rune count from its byte count:
 
-```lang=csharp, name=ComputeRuneCount Example
+```TS:ComputeRuneCount Example
 var englishString = "string";
 var frenchString = this.Owner.SpriteText.Text;
 
@@ -358,7 +358,7 @@ The French string has 6 runes
 
 The [ Contains](../../../code_reference/nada_base_types/string.md#contains-zilch-engine-doc) method checks whether a string contains a given substring:
 
-```lang=csharp, name=Contains Example
+```TS:Contains Example
 var sentence = "DR. COSMO: \"I'm looking for a person named Brianna.\"";
 var name0 = "Brian";
 var name1 = "Anna";
@@ -381,7 +381,7 @@ As this example shows, **Contains** is case-sensitive, but it does *not* match o
 
 The [ EndsWith](../../../code_reference/nada_base_types/string.md#endswith-zilch-engine-doc) method checks whether a string ends with a given substring:
 
-```lang=csharp, name=EndsWith Example
+```TS:EndsWith Example
 var fileNameToOpen = "DesertLevel.Analytics.gamedata";
 
 var validFileExtension = ".gamedata";
@@ -401,7 +401,7 @@ The [ StartsWith](../../../code_reference/nada_base_types/string.md#startswith-z
 
 The [ Replace](../../../code_reference/nada_base_types/string.md#replace-zilch-engine-docu) method returns a new string, with all occurrences of a given old substring replaced with a given new substring:
 
-```lang=csharp, name=Replace Example
+```TS:Replace Example
 var dialogueFromFile = "Oh, [HERO_NAME]! Your friend [VILLAIN_NAME] was looking for you.";
 
 var heroName = "Brianna";
@@ -420,7 +420,7 @@ Oh, Brianna! Your friend Dr. Cosmo was looking for you.
 
 The [ Split](../../../code_reference/nada_base_types/string.md#split-zilch-engine-docume) method scans a string for a given delimiter StringRange of one or more characters. The substrings that were found separated by occurrences of that delimiter, if any, are returned as an iterable range. The delimiter itself is not present in the split results:
 
-```lang=csharp, name=Split Example
+```TS:Split Example
 var dataFromFile = "0,0,2,0,5,4,1,1,0,0,0,1,1,3,5,1";
 var splitResults = dataFromFile.Split(",");
 
@@ -443,7 +443,7 @@ NOTE: [ Parse](../../../code_reference/nada_base_types/integer.md#parse-zilch-en
 
 The [ SubString](../../../code_reference/nada_base_types/string.md#substring-zilch-engine-do) method returns the snippet of a string that is bounded by the two given RuneIterators. This may be the entire string itself, or it may be a smaller portion thereof:
 
-```lang=csharp, name=SubString Example
+```TS:SubString Example
 var name = "The Evil Dr. Cosmo";
 
 var firstSpace = name.FindFirstOf(" ");
@@ -475,7 +475,7 @@ Besides **SubString**, there are two other String methods that return substrings
 
 - [ SubStringBytes](../../../code_reference/nada_base_types/string.md#substringbytes-zilch-engi) returns a string's substring that starts at the given byte index and runs for the given byte length:
 
-```lang=csharp, name=SubStringBytes Example
+```TS:SubStringBytes Example
 var str = "abcdefghij";
 //         0123456789
 //      start ^
@@ -492,7 +492,7 @@ IMPORTANT: A string that contains characters that are outside of the ASCII range
 
 - [ SubStringFromRuneIndices](../../../code_reference/nada_base_types/string.md#substringfromruneindices) returns a string's substring that starts at the given starting rune index and ends one past the given ending rune index:
 
-```lang=csharp, name=SubStringFromRuneIndices Example
+```TS:SubStringFromRuneIndices Example
 var str = "abcdefghij";
 //         0123456789
 //     start ^      ^ one past the end
@@ -509,7 +509,7 @@ NOTE: Finding a given rune by its index requires a linear search through a strin
 
 The [ ToLower](../../../code_reference/nada_base_types/string.md#tolower-zilch-engine-docu) method returns a copy of the original string with all of its letters converted to lowercase. Any character that is not an uppercase alphabetical character is unchanged:
 
-```lang=csharp, name=ToLower Example
+```TS:ToLower Example
 var sentence = "gEt ReKT scRUb";
 var forbiddenWord = "scrub";
 
@@ -526,7 +526,7 @@ You have been reported for bad manners.
 
 The [ ToUpper](../../../code_reference/nada_base_types/string.md#toupper-zilch-engine-docu) method is just like ToLower, except that it converts letters to uppercase:
 
-```lang=csharp, name=ToUpper Example
+```TS:ToUpper Example
 var name = "Johnny";
 var upperName = name.ToUpper();
 var dialogue = "`upperName`: \"This is `name`.\"";
@@ -540,7 +540,7 @@ JOHNNY: "This is Johnny."
 
 The [ Trim](../../../code_reference/nada_base_types/string.md#trim-zilch-engine-documen) method returns a copy of the original string with all of its whitespace characters removed from its beginning and end:
 
-```lang=csharp, name=Trim Example
+```TS:Trim Example
 var untrimmedID = "    f08b47e1            ";
 Console.WriteLine("Your ID is `untrimmedID`. Write it down.");
 

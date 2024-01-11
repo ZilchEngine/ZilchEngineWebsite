@@ -29,7 +29,7 @@ Functions are a sequence of logic statements that take a set of input variables 
 Start declaring by typing `function` followed by a name and a pair parentheses:
 
 
-```lang=csharpp, name=Function Declaration
+```TS:Function Declaration
 function Square()
 ```
 
@@ -37,7 +37,7 @@ function Square()
 
 An important feature of functions is their ability to take literals and variables as input, referred to as **parameters**. These parameters are passed into the function to supply the data needed to complete the intended operation. They are declared within the function's parentheses by giving each a parameter name, followed by a type (`ParamName` : `ParamType`).
 
-```lang=csharp, name=Parameters
+```TS:Parameters
 function Square( number : Real )
 ```
 
@@ -47,7 +47,7 @@ NOTE: Functions can have any number of parameters (including none), each separat
 
 Just like classes, functions have a defined scope within which all of its functionality is outlined. We denote the scope by adding a pair of curly braces.
 
-```lang=csharp, name=Scope
+```TS:Scope
 function Square( number : Real )
 {
 
@@ -58,7 +58,7 @@ function Square( number : Real )
 
 Some functions may provide a final result that can be returned back to the scope where it was invoked. These are called Return Types and are declared after the function's parentheses by typing colon `:` followed by the type to be returned.
 
-```lang=csharp, name=Return Value
+```TS:Return Value
 function Square( number : Real ) : Real
 {
 
@@ -71,7 +71,7 @@ NOTE: It is not necessary for a function to return anything, in such cases no re
 
 The body contains all the logic to be performed when the function is invoked. If the function has a Return Type, it is required to include a `return` statement within our function.
 
-```lang=csharp, name=Function Body
+```TS:Function Body
 function Square( number : Real ) : Real
 {
     return number * number;
@@ -93,13 +93,13 @@ Now that we have created a function, it can be invoked elsewhere in code wheneve
 
 When invoking a function that exists within the same class you can simply type:
 
-```lang=csharp, name=Invoking Functions Within the Same Class
+```TS:Invoking Functions Within the Same Class
 this.Square(2.0);
 ```
 
 Similar to accessing variables, when invoking an external function we must first reference the class to whom it belongs:
 
-```lang=csharp, name=Invoking Functions from Other Classes
+```TS:Invoking Functions from Other Classes
 //Syntax used by an external code trying to invoke our function
 this.Owner.MyBehavior.Square(2.0);
 ```
@@ -112,7 +112,7 @@ Once a function is invoked, all of the instructions outlined within its scope ar
 
 Example:
 
-```lang=csharp, name=Return Values
+```TS:Return Values
 var pi : Real = 3.1415926;
 
 var piSquare : Real = this.Square(pi);

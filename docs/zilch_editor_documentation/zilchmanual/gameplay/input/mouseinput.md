@@ -42,7 +42,7 @@ NOTE: A **mouse event target** is anything that can receive a mouse event. Mouse
 
 Here is an example of the use of mouse events, showing two different event connections, one to the space and one to the Reactive object itself:
 
-```lang=csharp, name="Mouse Event Demonstration"
+```TS:"Mouse Event Demonstration"
 class MouseEventDemonstration : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -88,7 +88,7 @@ This component's dependency on **Reactive** requires that the object it is attac
 
 There are a number of mouse events that are dispatched to mouse event targets:
 
-```lang=csharp, name="Mouse Event Connections"
+```TS:"Mouse Event Connections"
 function Initialize(init : CogInitializer)
 {
   Zilch.Connect(this.Owner, Events.MouseUpdate,       this.OnMouseUpdate);
@@ -126,7 +126,7 @@ Each of these events is a [ ViewportMouseEvent](../../../../code_reference/class
 
 Every frame that the mouse is over a mouse event target, the [ MouseUpdate](../../../../code_reference/event_reference.md#mouseupdate) event is dispatched to that target:
 
-```lang=csharp, name="MouseUpdate Example"
+```TS:"MouseUpdate Example"
 function OnMouseUpdate(event : ViewportMouseEvent)
 {
   // move this object to the mouse position
@@ -142,7 +142,7 @@ As the mouse cursor enters a mouse event target, if it is simultaneously exiting
 
 For example, this code snippet connects to two different cogs, `CogA` and `CogB` (declared elsewhere in the script), for these events:
 
-```lang=csharp, name="MouseEnter, MouseExit, and MouseEnterPreview Examples"
+```TS:"MouseEnter, MouseExit, and MouseEnterPreview Examples"
 function Initialize(init : CogInitializer)
 {
   Zilch.Connect(this.CogA, Events.MouseExit, this.OnMouseExit);
@@ -180,7 +180,7 @@ MouseEnterPreview is useful when there is code that should be run before the Mou
 
 Every frame that the mouse **moves** while the cursor is over a mouse event target, the [ MouseMove](../../../../code_reference/event_reference.md#mousemove) event is dispatched to that target. When the mouse is **scrolled** while the cursor is over a mouse event target, the [ MouseScroll](../../../../code_reference/event_reference.md#mousescroll) event is dispatched to that target:
 
-```lang=csharp, name="MouseMove and MouseScroll Examples"
+```TS:"MouseMove and MouseScroll Examples"
 function OnMouseMove(event : ViewportMouseEvent)
 {
   // move the camera an amount equal to the
@@ -202,7 +202,7 @@ When any mouse button is **pressed** while the cursor is over a mouse event targ
 
 **MouseDown** and **MouseUp** are useful when writing controls that can be bound to any mouse button. To determine which mouse button was pressed or released, just check the `Button` field on the ViewportMouseEvent object that is sent with the event:
 
-```lang=csharp, name="MouseDown and MouseUp Examples"
+```TS:"MouseDown and MouseUp Examples"
 function OnMouseDown(event : ViewportMouseEvent)
 {
   if (event.Button == this.LaserButton)
@@ -226,7 +226,7 @@ function OnMouseUp(event : ViewportMouseEvent)
 
 Zilch also has specific events for [ LeftMouseDown](../../../../code_reference/event_reference.md#leftmousedown) and [ LeftMouseUp](../../../../code_reference/event_reference.md#leftmouseup), [ RightMouseDown](../../../../code_reference/event_reference.md#rightmousedown) and [ RightMouseUp](../../../../code_reference/event_reference.md#rightmouseup), and [ MiddleMouseDown](../../../../code_reference/event_reference.md#middlemousedown) and [ MiddleMouseUp](../../../../code_reference/event_reference.md#middlemouseup), which are dispatched only when the corresponding button is pressed or released:
 
-```lang=csharp, name="Other Down and Up Examples"
+```TS:"Other Down and Up Examples"
 function OnLeftMouseDown(event : ViewportMouseEvent)
 {
   this.BeginChargingLaser();
@@ -247,7 +247,7 @@ function OnMiddleMouseDown(event : ViewportMouseEvent)
 
 When a mouse button is both **pressed** and **released** over the same object, that object is said to have been //clicked//. Click events are commonly used for UI elements, such as buttons. Zilch dispatches [ LeftClick](../../../../code_reference/event_reference.md#leftclick), [ RightClick](../../../../code_reference/event_reference.md#rightclick), and [ MiddleClick](../../../../code_reference/event_reference.md#middleclick) events:
 
-```lang=csharp, name="Click Examples"
+```TS:"Click Examples"
 function OnLeftClick(event : ViewportMouseEvent)
 {
   // perform whatever effect this button does
@@ -271,7 +271,7 @@ function OnMiddleClick(event : ViewportMouseEvent)
 
 When a mouse event target is double-clicked, the [ DoubleClick](../../../../code_reference/event_reference.md#doubleclick) event is dispatched to that target:
 
-```lang=csharp, name="DoubleClick Example"
+```TS:"DoubleClick Example"
 function OnDoubleClick(event : ViewportMouseEvent)
 {
   if (event.Button == this.LaserButton)
@@ -289,7 +289,7 @@ NOTE: The timing of the two clicks involved in a double click is defined by the 
 
 Polling-based input typically occurs in a callback for an [ Update event](../../../../code_reference/class_reference/updateevent.md) such as [ LogicUpdate](../../../../code_reference/event_reference.md#logicupdate):
 
-```lang=csharp, name="Update Connection Example"
+```TS:"Update Connection Example"
 function Initialize(init : CogInitializer)
 {
   Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
@@ -311,7 +311,7 @@ NOTE: CursorMovement and RawMovement often differ because the final position of 
 
 The ClientPosition property is given in screen space, but it may be helpful to convert it to another coordinate basis, such as world space. The [ CameraViewport](../../../../code_reference/class_reference/cameraviewport.md) component has handy functions for performing such changes of basis:
 
-```lang=csharp, name="ClientPosition to World Space Example"
+```TS:"ClientPosition to World Space Example"
 function OnLogicUpdate(event : UpdateEvent)
 {
   // mouse position in screen space
@@ -328,7 +328,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
 The [ IsButtonDown](../../../../code_reference/class_reference/mouse.md#isbuttondown-zilch-engine) function returns whether the given mouse button is down on the current frame. It closely parallels the [ KeyIsDown](../../../../code_reference/class_reference/keyboard.md#keyisdown-zilch-engine-do) function on the [ Keyboard](../../../../code_reference/class_reference/keyboard.md) object:
 
-```lang=csharp, name="IsButtonDown Example"
+```TS:"IsButtonDown Example"
 function OnLogicUpdate(event : UpdateEvent)
 {
   // if the mouse look button is held, turn the camera with the mouse's movement

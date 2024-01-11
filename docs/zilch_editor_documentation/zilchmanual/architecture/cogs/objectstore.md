@@ -3,7 +3,7 @@
 
 When used with Nada, make sure you mark the data to be saved with either `[Serialized]` or `[Property]` attributes. 
 
-```lang=csharp
+```TS
 class ObjectStoreTest : NadaComponent
 {
     [Property]

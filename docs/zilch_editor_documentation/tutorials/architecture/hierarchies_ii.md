@@ -21,7 +21,7 @@ This lesson covers how to manipulate object hierarchies in Nada.
  - Rename Sprite object to `Square`
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `SquareLogic`
 - Update the `SquareLogic` script to the following:
-```lang=csharp, name="SquareLogic"
+```TS:"SquareLogic"
 class SquareLogic : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -72,7 +72,7 @@ Now let's modify the `SquareLogic` component to spawn circles and parent them to
 
 - Update the `SquareLogic` script to the following:
 
-```lang=csharp, name=Square Logic
+```TS:Square Logic
 class SquareLogic : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -124,7 +124,7 @@ Similarly, you can call the [Detach](../../../code_reference/class_reference/cog
 
 - Add the following to the end of `OnLogicUpdate` function in the `SquareLogic` component:
 
-```lang=csharp, name=Detaching
+```TS:Detaching
 if(Zilch.Keyboard.KeyIsPressed(Keys.D))
 {
    this.Owner.Children.Current.Detach();
@@ -155,7 +155,7 @@ Within a script, you can easily access a cog's parent:
 
 - Add the following to the `SquareLogic` class:
 
-```lang=csharp, name=Growth Property
+```TS:Growth Property
 [Property]
 var Growth : Real = 1.1;
 ```
@@ -165,7 +165,7 @@ var Growth : Real = 1.1;
   - Below the line, `obj.AttachTo(this.Owner);`
    - Add the following code:
 
-```lang=csharp, name=Accessing Parent
+```TS:Accessing Parent
 obj.Parent.Transform.Scale *= this.Growth;
 ```
 
@@ -186,7 +186,7 @@ You can also get a range containing all immediate children. Let's implement an a
 
 - Add the following to `OnLogicUpdate` function in the `SquareLogic` component:
 
-```lang=csharp, name=Accessing Children
+```TS:Accessing Children
     if(Zilch.Keyboard.KeyIsPressed(Keys.Enter))
     {
       foreach(var child in this.Owner.Children)

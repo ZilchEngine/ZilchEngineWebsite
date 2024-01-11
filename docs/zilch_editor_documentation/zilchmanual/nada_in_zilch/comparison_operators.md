@@ -11,14 +11,14 @@ The `==` (equality) operator compares two operands and returns `true` if they ar
 
 The equality operator is very useful when trying to identify unknown data, or verifying existing data.
 
-```name="== Operator Identifying Data", lang=csharp
+```TS:"== Operator Identifying Data"
 if(unknownObject == this.TargetObject)
 {
   Console.WriteLine("Found Target");
 }
 ```
 
-```name="== Operator Verifying Data", lang=csharp
+```TS:"== Operator Verifying Data"
 if(this.Owner.Player.TeamId == hitObject.Player.TeamId)
   Console.WriteLine("Friendly Fire!");
 ```
@@ -27,7 +27,7 @@ Keep in mind that the values of the operands must be exactly equal. When compari
 
 
 The `!=` operator is commonly used to verify data exists before attempting to use it.
-```name="!= Operator Verifying Data", lang=csharp
+```TS:"!= Operator Verifying Data"
 if(unknownObject != null)
 {
   Console.WriteLine(`unkownObject` is valid);
@@ -46,7 +46,7 @@ NOTE: To read about the details about by-value and by-reference objects, [ read 
  ## Object Comparison by Value
 Take the following struct as a by-value example:
 
-```name="ValueObj", lang=csharp
+```TS:"ValueObj",
 struct ValueObj
 {
   var ValueOne : Boolean;
@@ -57,7 +57,7 @@ struct ValueObj
 
 In Nada, structs are value types, so when they're compared using the `==` or `!=` operators, the value(s) within the type are what is compared. This means that the `==` and `!=` operators **cannot** be used with references to structs to determine if the operands are the same struct instance.
 
-```name="Comparing Objects - ValueObj", lang=csharp
+```TS:"Comparing Objects - ValueObj"
 var a = ValueObj();
 var b = a;
 var c = ValueObj();
@@ -81,7 +81,7 @@ In this case, the `ValueObj` instances are constructed and compared by value. So
  ## Object Comparison by Reference
 Take the following class as a by-reference example:
 
-```name="ReferenceObj", lang=csharp
+```TS:"ReferenceObj",
 class ReferenceObj
 {
   var ValueOne : Boolean;
@@ -92,7 +92,7 @@ class ReferenceObj
 
 In Nada, classes are reference types, so when they're compared using the `==` or `!=` operators, what are actually compared are the addresses of the objects in memory. This means that the `==` and `!=` operators **cannot** be used with class references to determine if the operands contain the same values; instead, they reveal whether the two objects are the same class instance.
 
-```name="Comparing Objects - ReferenceObj", lang=csharp
+```TS:"Comparing Objects - ReferenceObj"
 var a = ReferenceObj();
 var b = a;
 var c = ReferenceObj();
@@ -118,7 +118,7 @@ In this case, the `ReferenceObj` instances are constructed and compared by refer
 
 Due to floating-point error, it is best to avoid comparing two extremely precise or large values of floating-point types (such as [ Real](../../../code_reference/nada_base_types/real.md)) with the `==` and `!=` operators. Consider:
 
-```lang=csharp, name="Floating-Point Comparison, Example 1"
+```TS:"Floating-Point Comparison, Example 1"
 Console.WriteLine(2000000000.0 == 2000000042.0);
 ```
 ```name=Console Output
@@ -126,14 +126,14 @@ true
 ```
 
 This is not a quirk of the engine, it's a quirk of modern computing. Instead of using these operators, it is best to use a function like `Math.ApproximatelyEqual` (which can then be negated using the `!` operator to check for inequality) for floating-point types. For example, instead of something like this:
-```lang=csharp, name="Floating-Point Comparison, Example 2 (problematic)", counterexample
+```TS:"Floating-Point Comparison, Example 2 (problematic)", counterexample
 if (this.Transform.WorldTranslation.Y == this.JumpHeight)
 {
   //
 }
 ```
 ... try something like this:
-```lang=csharp, name="Floating-Point Comparison, Example 2 (fixed)"
+```TS:"Floating-Point Comparison, Example 2 (fixed)"
 if (Math.ApproximatelyEqual(this.Transform.WorldTranslation.Y, this.JumpHeight, 0.01))
 {
   //
@@ -153,14 +153,14 @@ The `>` (greater than) operator returns true if the left operand is *greater tha
 
 `<` is often used to compare simulation values to detemine if a threshold has failed to be reached.
 
-```name="< Operator Checking Threshold", lang=csharp
+```TS:"< Operator Checking Threshold"
 if(height < 5)
   Console.WriteLine("You must be at least 5ft tall to ride this attraction");
 ```
 
 `>` is often used to compare simulation values to detemine if a threshold has been exceeded.
 
-```name="> Operator Checking Threshold", lang=csharp
+```TS:"> Operator Checking Threshold"
 if(cost > 10)
   Console.WriteLine("That restaurant is not within my dinner budget");
 ```
@@ -178,14 +178,14 @@ The `>=` (greater than or equal to) operator returns true if the left operand is
 
 `<=` is often used to compare simulation values to detemine if a threshold has failed to be exceeded.
 
-```name="< Operator Checking Threshold", lang=csharp
+```TS:"< Operator Checking Threshold"
 if(cost <= 10)
   Console.WriteLine("That restaurant is within my dinner budget");
 ```
 
 `>` is often used to compare simulation values to detemine if a threshold has been exceeded.
 
-```name="> Operator Checking Threshold", lang=csharp
+```TS:"> Operator Checking Threshold"
 if(height >= 5)
   Console.WriteLine("You are at least 5ft tall, you may ride this attraction");
 ```

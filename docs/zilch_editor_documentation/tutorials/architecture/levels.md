@@ -76,7 +76,7 @@ There's no sense in having a level if there's no player, eh?
  - Create a NadaScript resource using the Component template template and name it `KeyboardMovement`
 - Update the `KeyboardMovement` script to the following:
 
-```lang=csharp, name="KeyboardMovement"
+```TS:"KeyboardMovement"
 class KeyboardMovement : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -194,7 +194,7 @@ Going from one level to another is as simple as calling the [ space](../../../co
  - Create a NadaScript resource using the Component template template and name it `LoadLevelOnCollisionStarted`
 - Update the `LoadLevelOnCollisionStarted` script to the following:
 
-```lang=csharp, name="LoadLevelOnCollisionStarted"
+```TS:"LoadLevelOnCollisionStarted"
 class LoadLevelOnCollisionStarted : NadaComponent
 {
   [Property]
@@ -279,7 +279,7 @@ Just as the space has a function to load a level, it also has a function to relo
  - Create a NadaScript resource using the Component template template and name it `ReloadLevelOnKeyDown`
 - Update the `ReloadLevelOnKeyDown` script to the following:
 
-```lang=csharp, name="ReloadLevelOnKeyDown"
+```TS:"ReloadLevelOnKeyDown"
 class ReloadLevelOnKeyDown : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -387,7 +387,7 @@ Next, we need a component to load Level 1 from the title screen.
  - Create a NadaScript resource using the Component template template and name it `LoadLevelOnKeyDown`
 - Update the `LoadLevelOnKeyDown` script to the following:
 
-```lang=csharp, name="LoadLevelOnKeyDown"
+```TS:"LoadLevelOnKeyDown"
 class LoadLevelOnKeyDown : NadaComponent
 {
   [Property]

@@ -102,7 +102,7 @@ Next is the `Initialize` function. While **functions** will be covered in more d
 - In the `MyComponent` script
  - Add the following to the `Initialize` function in the `MyComponent` class:
 
-```lang=csharp, name="Initialize Functionality"
+```TS:"Initialize Functionality"
 this.Owner.Sprite.VertexColor = Real4(1,0,0,1);
 ```
 

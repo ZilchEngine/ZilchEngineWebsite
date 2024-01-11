@@ -40,7 +40,7 @@ Displaying messages on the `Console Window` is not exclusive to the editor; user
 
  - Add the following code to the Initialize scope of the MyBehavior resource NadaScript:
 
-```lang=csharp, name=Console Printing
+```TS:Console Printing
 Console.WriteLine("Hello World!");
 ```
 
@@ -68,10 +68,10 @@ In addition to literals, we can also print variable values or even convert those
 
  - Add the following lines to the Initialize function in the MyBehavior resource NadaScript.
 
-```lang=csharp, name=Literal String Printing
+```TS:Literal String Printing
 Console.WriteLine("This is a String");
 ```
-```lang=csharp, name=Literal Integer Printing
+```TS:Literal Integer Printing
 Console.WriteLine(3);
 ```
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
@@ -87,11 +87,11 @@ Console.WriteLine(3);
 
  - Replace the previous lines of code with the following:
 
-```lang=csharp, name=External Variable Printing
+```TS:External Variable Printing
 Console.WriteLine(this.Owner.Transform.Translation);
 ```
 
-```lang=csharp, name= Local Variable Printing
+```TS: Local Variable Printing
 var lives : Integer = 3;
 
 Console.WriteLine(lives);
@@ -113,7 +113,7 @@ We can also get more informative messages by using compound console print statem
 
  - Replace the previous lines of code with the following:
 
-```lang=csharp, name=Compound Print Statements
+```TS:Compound Print Statements
 var lives : Integer = 3;
 
 Console.Write("Current value of lives: ");
@@ -134,7 +134,7 @@ We can simplify the code from the previous example by using String Interpolation
 
  - Replace the previous lines of code with the following:
 
-```lang=csharp, name=String Interpolation
+```TS:String Interpolation
 var lives : Integer = 3;
 
 Console.WriteLine("Current value of lives: `lives`");

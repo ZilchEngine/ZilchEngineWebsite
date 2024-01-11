@@ -32,7 +32,7 @@ Just as instances of the class [CollisionEvent](../../../code_reference/class_re
  - Create a NadaScript resource using the Component template template and name it `CreateObjectOnInput`
 - Update the `CreateObjectOnInput` script to the following:
 
-```lang=csharp, name=CreateObjectOnInput
+```TS:CreateObjectOnInput
 class CreateObjectOnInput : NadaComponent
 {
   sends CreateObject : NadaEvent;
@@ -90,7 +90,7 @@ The first part of this script that should be new is the line with the `sends` ke
 
 The next relevant line is where the `CreateObject` event is dispatched:
 
-```lang=csharp, name=Dispatching an Event
+```TS:Dispatching an Event
 this.Owner.DispatchEvent(Events.CreateObject, NadaEvent());
 ```
 
@@ -132,7 +132,7 @@ Now we can create the component that will spawn and set the velocity of the obje
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `SpawnObjectWithVelocity`
 - Update the `SpawnObjectWithVelocity` script to the following:
-```lang=csharp, name=SpawnObjectWithVelocity
+```TS:SpawnObjectWithVelocity
 class SpawnObjectWithVelocity : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -183,7 +183,7 @@ Well, that didn't behave how we wanted it to. Here's what happened: first, the p
 
 - Update the `DestroyOnCollide` script to the following:
 
-```lang=csharp, name=Updated DestroyOnCollide
+```TS:Updated DestroyOnCollide
 class DestroyOnCollide : NadaComponent
 {
   [Property]
@@ -237,7 +237,7 @@ To start, we need to define our own event class that inherits from NadaEvent.
 
 - Add the following to the top of the `CreateObjectOnInput` script:
 
-```lang=csharp, name="ObjectCreationEvent"
+```TS:"ObjectCreationEvent"
 class ObjectCreationEvent : NadaEvent
 {
   sends CreateObject : ObjectCreationEvent;
@@ -251,7 +251,7 @@ Note that this custom event class uses the `sends` keyword, registering `CreateO
 - In the `CreateObjectOnInput` script
  - Update the `CreateObjectOnInput` class to the following:
 
-```lang=csharp, name=Updated CreateObjectOnInput
+```TS:Updated CreateObjectOnInput
 class CreateObjectOnInput : NadaComponent
 {
   [Property]
@@ -294,7 +294,7 @@ Now that we have our new event and have dispatched it, we'll need to update the 
 
 - Update the `SpawnObjectWithVelocity` script to the following:
 
-```lang=csharp, name=Updated SpawnObjectWithVelocity
+```TS:Updated SpawnObjectWithVelocity
 class SpawnObjectWithVelocity : NadaComponent
 {
   [Dependency] var Transform : Transform;

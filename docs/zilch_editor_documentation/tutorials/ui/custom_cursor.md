@@ -66,7 +66,7 @@ There's a problem here: the main game level's objects are drawn overtop of the c
  - Create a NadaScript resource using the Component template template and name it `MouseFollower`
 - Update the `MouseFollower` script to the following:
 
-```lang=csharp, name="MouseFollower"
+```TS:"MouseFollower"
 class MouseFollower : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -147,7 +147,7 @@ Next, we need a component that, when initialized, will create the cursor space, 
  - Create a NadaScript resource using the Component template template and name it `CustomCursor`
 - Update the `CustomCursor` script to the following:
 
-```lang=csharp, name="CustomCursor"
+```TS:"CustomCursor"
 class CustomCursor : NadaComponent
 {
   [Property]

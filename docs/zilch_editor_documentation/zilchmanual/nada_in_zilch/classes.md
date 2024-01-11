@@ -3,7 +3,7 @@ Classes and structs define the type of certain objects in Nada, and the `class` 
  # Class Contents
 Classes in Nada must be defined in [global scope](variables_and_data_types.md#global-scope).  The format for classes and structs are as shown below:
 
-```lang=csharp, name=Simple Classes
+```TS:Simple Classes
 struct SimpleStruct {}
 class SimpleClass {}
 ```
@@ -13,7 +13,7 @@ Any members that belong to `SimpleStruct` or `SimpleClass` will be defined withi
  ## Struct Members in Classes
 Because structs are copied `by-value`, structs cannot have class members.  As shown in the code snippet below, any other permutation of containment is valid.
 
-```lang=csharp, name=Classes and Structs in Classes and Structs
+```TS:Classes and Structs in Classes and Structs
 struct StructInStruct { var MyStruct : SimpleStruct; }
 struct ClassInStruct { var MyClass : SimpleClass; } // ERROR
 class StructInClass { var MyStruct : SimpleStruct; }
@@ -25,7 +25,7 @@ The class `MyClass` is a member of `ClassInStruct`, which is a struct.  Having a
  ## Static vs Non-Static Members
 Variables and functions inside a class or struct are known as members. Most member variables must be accessed through instantiations of the object.  The one exception are member variables with the [Static](attributes.md#static) [Attribute](attributes.md).
 
-```lang=csharp, name=Static Members
+```TS:Static Members
 class MyClass
 {
   // standard variable instantiation and initialization
@@ -46,7 +46,7 @@ Accessing static members can be done with `MyVariableClass.MyStaticReal` or `MyV
  ## Member Variable Declaration
 Member variables define the data in a class.  The rules for defining member variables differ from how local variables are defined.
 
-```lang=csharp, name=Member Variables
+```TS:Member Variables
 class MyClass
 {
   // variable instantiation only is allowed
@@ -61,7 +61,7 @@ Notice how `MyDoubleReal` isn't initialized.  At the class scope, uninitialized 
  ## Member Functions
 Member functions hold executable code, can take input parameters, and can return data.  Member functions without the `[Static]` attribute  also have access to the instantiated object that invoked them.
 
-```lang=csharp, name=Member Functions
+```TS:Member Functions
 class MyClass
 {
   var MyReal : Real = 1.2;
@@ -84,7 +84,7 @@ Notice how `MyReal`, a member variable of `MyClass`, is accessed in `MyFunc` usi
  ## Constructors and Destructors
 Structs/Classes can have constructor and destructors, which are special functions with no return type.  Constructors are called when an object is instantiated, and the destructor is called when the object is deleted.
 
-```lang=csharp, name=Default Constructor
+```TS:Default Constructor
 class ExplicitDefault
 {
   constructor() {}
@@ -103,7 +103,7 @@ class Driver
 ```
 The class `ExplicitDefault` has a single constructor that takes no parameters.  This constructors type is known as the //default constructor//.  Notice how the constructor is called by the class name in the statement `ExplicitDefault();`  Also notice how `ImplicitDefault` is constructed with the default constructor in the statement `ImplicitDefault();`.  As long as there are no constructors defined, the default will always be defined by nada.
 
-```lang=csharp, name=Custom Constructors
+```TS:Custom Constructors
 class ExplicitCustom
 {
   constructor(r : Real) {}
@@ -133,7 +133,7 @@ NOTE: Explcitly defining a constructor is **not required** in Nada as long as ev
 
 Destructors are called when all handles to an object are destroyed.  The exception is when an object is not a copy by reference type, in which case the destructor isn't called.
 
-```lang=csharp, name=Destructors
+```TS:Destructors
 struct MyStruct
 {
   var Id : Integer;

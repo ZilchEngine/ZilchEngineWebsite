@@ -3,7 +3,7 @@
  # Understanding a Swizzle
 To swizzle a vector, refer to its values as if they were data members, using the letters `X`, `Y`, `Z`, and `W` for the corresponding elements. These can be combined in any permutation or combination.
 
-```name=Simple Swizzle, lang=csharp
+```TS:Simple Swizzle
 var a = Real3(0,1,2);
 Console.WriteLine("Example 1: a.X: `a.X`");
 Console.WriteLine("Example 2: a.XYZ: `a.XYZ`");
@@ -33,7 +33,7 @@ In this example `a` is a simple [real3](../../../code_reference/nada_base_types/
  # Assigning With Swizzles
 Extracting portions of a vector as seen above is a fairly common operation even outside of shader development. An example may be centering the camera object while not affecting its zoom in a 2D game.
 
-```name=XY Assignment Without Swizzle, lang=csharp
+```TS:XY Assignment Without Swizzle
 //0 out the XY axis and maintain the Z axis values
 var cameraOffset = this.Camera.Transform.LocalTranslation;
 cameraOffset.XY = Real2.Zero;
@@ -41,7 +41,7 @@ this.Camera.Transform.LocalTranslation = cameraOffset;
 ```
 If we tried to assign into the swizzle constructed by-value from the member variable, however, it would not work:
 
-```name=Direct Assignment Into Member Swizzle, lang=csharp, counterexample
+```TS:Direct Assignment Into Member Swizzle, counterexample
 this.Camera.Transform.LocalTranslation.XY = Real2();
 ```
 

@@ -62,7 +62,7 @@ A very common reason for creating a second space is to implement a HUD that over
  - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `HUDManager`
 - In `HUDManager`
  - Update the `HUDManager` script to the following:
-```name=HUDManager, lang=csharp
+```TS:HUDManager
 class HUDManager : NadaComponent
 {
   [Property]
@@ -139,7 +139,7 @@ Having multiple spaces can increase a project's complexity. It is important to k
  - Create a NadaScript resource using the Component template template and name it `Meter`
 - Update the `Meter` script to the following:
 
-```lang=csharp, name="Meter"
+```TS:"Meter"
 class Meter : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -200,7 +200,7 @@ This `Meter` component will be be *communicated// with via events sent from the 
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `Input`
 - Update the `Input` script to the following:
-```name=Input, lang=csharp
+```TS:Input
 class Input : NadaComponent
 {
   [Dependency] var HUDManager : HUDManager;

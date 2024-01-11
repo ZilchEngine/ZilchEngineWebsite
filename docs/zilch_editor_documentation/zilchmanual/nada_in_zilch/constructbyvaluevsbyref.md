@@ -4,13 +4,13 @@
 
 When working with **by-value** types that have constructors, such as structs or more complex stack primitive data types, the keyword **local** may be used:
 
-```lang=csharp
+```TS
   var up : Real3 = local Real3(0.0, 1.0, 0.0);
   var stackStructInstance : CustomStruct = local CustomStruct();
 ```
 
 The compiler will infer the use of local for by-value types:
-```lang=csharp
+```TS
   // This is also valid.
   var up : Real3 = Real3(0.0, 1.0, 0.0);
   var stackStructInstance : CustomStruct = CustomStruct();
@@ -20,21 +20,21 @@ The compiler will infer the use of local for by-value types:
 
 When working with [classes](classes.md), references, or other or anything located on the heap with a constructor, use the **new** keyword:
 
-```lang=csharp
+```TS
   var heapObject : CustomClass = new CustomClass();
   var heapStructInstance : CustomStruct = new CustomStruct();
 ```
 
 Once again the compiler will infer the use of new for **by-ref** types:
 
-```lang=csharp
+```TS
     // This is also valid.
     var heapObject : CustomClass = CustomClass();
 ```
 
 Since structs are by-value, in order to get a reference you **must** specify new.
 
-```lang=csharp
+```TS
     // This does not compile
     var heapStructInstance : CustomStruct = CustomStruct();
 ```

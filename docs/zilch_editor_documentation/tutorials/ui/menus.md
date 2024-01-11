@@ -307,7 +307,7 @@ The button's outward appearance is mostly complete, but we need to give it a Nad
  - Create a NadaScript resource using the Component template template and name it `LoadLevelOnClick`
 - Update the `LoadLevelOnClick` script to the following:
 
-```lang=csharp, name=LoadLevelOnClick
+```TS:LoadLevelOnClick
 class LoadLevelOnClick : NadaComponent
 {
   [Property]
@@ -370,7 +370,7 @@ We'll just throw something together real quick to make a gameplay level. It won'
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `KeyboardMovement`
 - Update the `KeyboardMovement` script to the following:
-```lang=csharp, name="KeyboardMovement"
+```TS:"KeyboardMovement"
 class KeyboardMovement : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -430,7 +430,7 @@ Let's make it so that the `Escape` (Escape) key takes us back to the main menu. 
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `QuitHandler`
 - Update the `QuitHandler` script to the following:
-```lang=csharp, name="QuitHandler"
+```TS:"QuitHandler"
 class QuitHandler : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -450,7 +450,7 @@ When `Escape` is pressed, the [ GameRequestQuit](../../../code_reference/event_r
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `LoadLevelOnKeystroke`
 - Update the `LoadLevelOnKeystroke` script to the following:
-```lang=csharp, name="LoadLevelOnKeystroke"
+```TS:"LoadLevelOnKeystroke"
 class LoadLevelOnKeystroke : NadaComponent
 {
   [Property]
@@ -772,7 +772,7 @@ The quit button still has its old `LoadLevelOnClick` component from its days as 
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `RequestQuitOnClick`
 - Update the `RequestQuitOnClick` script to the following:
-```lang=csharp, name="RequestQuitOnClick"
+```TS:"RequestQuitOnClick"
 class RequestQuitOnClick : NadaComponent
 {
   function Initialize(init : CogInitializer)

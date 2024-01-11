@@ -3,7 +3,7 @@ Conditionals allow programs to ask questions and act or not act based of the res
  # if
 An `if` conditional evaluates a given statement that evaluates to a [boolean](../../../code_reference/nada_base_types/boolean.md) value and executes code in a block scope defined underneath if it evaluates to `true`.
 
-```lang=csharp, name=if Conditional
+```TS:if Conditional
 var boolValue = true;
 if(boolValue)
 {
@@ -27,7 +27,7 @@ End of the example
  ## Unnecessary Conditionals
 Because `if` conditionals take boolean values, a literal value can also be used:
 
-```lang=csharp, name=Tautology and Contradiction
+```TS:Tautology and Contradiction
 if(true)
 {
   Console.WriteLine("This is a tautology");
@@ -43,7 +43,7 @@ This is a tautology
 ```
 The first `if` conditional is known as a tautology, while the second is a contradiction.  A tautology is always true, and the code block will always execute.  A condtradiction is always false, and its code block will never be executed.  While these patterns have no practical purpose in a program, the ability to 'disable' a conditional can be a useful debugging tool, making minimal changes to the code:
 
-```lang=csharp, name=Disabling an if conditional with a tautology
+```TS:Disabling an if conditional with a tautology
 if(true /*myVar*/)
 {
   Console.WriteLine("Is this line run?");
@@ -54,7 +54,7 @@ if(true /*myVar*/)
  # Else
 An `if` conditional on its own has the power to decide between action and inaction, but often a decision is made between two different actions. The `else` conditional is used to execute code when the `if` condition fails.
 
-```lang=csharp, name=else Conditional
+```TS:else Conditional
 if(false)
 {
   Console.WriteLine("The if ran");
@@ -72,7 +72,7 @@ Under the code block of the first `if`, there is a code block paired with the [K
  ## Else If
 While often for any given conditional there are only two outcomes, sometimes there are more. The `else if` keyword combinations allows the chaining of conditional statements.
 
-```lang=csharp, name=else if Conditional
+```TS:else if Conditional
 var valone = false;
 var valtwo = false;
 
@@ -98,7 +98,7 @@ In the example above `valone` is evaluated as `false` in the first `if` conditio
 
 Conditionals don't always require the use of scope operators. If the code block underneath is only one line long, the `{` and `}` become unnecessary.
 
-```lang=csharp, name=else if Conditional
+```TS:else if Conditional
 var valone = false;
 var valtwo = false;
 
@@ -120,7 +120,7 @@ WARNING: Removing scope operators isn't always good practice, because they need 
 The `else if` conditional is actually an `else` conditional with an `if`-`else` pair afterwards. The fact that scope operators can be removed is the reason that `else if` is valid. Using this logic we can rewrite the last example with explcit scopes to make this clearer.
 
 
-```lang=csharp, name=else if Conditional
+```TS:else if Conditional
 var valone = false;
 var valtwo = false;
 

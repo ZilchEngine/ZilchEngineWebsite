@@ -38,7 +38,7 @@ Now we can add the code that will make the balloon inflate.
  - Create a NadaScript resource using the Component template template and name it `ScaleWithMouseEvents`
 - Update the `ScaleWithMouseEvents` script to the following:
 
-```lang=csharp, name="ScaleWithMouseEvents"
+```TS:"ScaleWithMouseEvents"
 class ScaleWithMouseEvents : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -100,7 +100,7 @@ Now let's add a bit more functionality to this component.
 
 - Update the `ScaleWithMouseEvents` script to the following:
 
-```lang=csharp, name="ScaleWithMouseEvents, updated"
+```TS:"ScaleWithMouseEvents, updated"
 class ScaleWithMouseEvents : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -188,7 +188,7 @@ As we've seen already, mouse events are dispatched with the [ ViewportMouseEvent
  - Create a NadaScript resource using the Component template template and name it `PrintPositionOnMouseDown`
 - Update the `PrintPositionOnMouseDown` script to the following:
 
-```lang=csharp, name="PrintPositionOnMouseDown"
+```TS:"PrintPositionOnMouseDown"
 class PrintPositionOnMouseDown : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -224,7 +224,7 @@ The [ ViewportMouseEvent](../../../code_reference/class_reference/viewportmousee
 
 - Replace the `OnMouseDown` function in the `PrintPositionOnMouseDown` class with the following:
 
-```lang=csharp, name="PrintPositionOnMouseDown, updated"
+```TS:"PrintPositionOnMouseDown, updated"
 function OnMouseDown(event : ViewportMouseEvent)
 {
   var mousePosition = event.ToWorldZPlane(0);
@@ -256,7 +256,7 @@ It's good practice to remove or comment out console print statements when you're
  - Create a NadaScript resource using the Component template template and name it `MoveOnMiddleMouseDown`
 - Update the `MoveOnMiddleMouseDown` script to the following:
 
-```lang=csharp, name="MoveOnMiddleMouseDown"
+```TS:"MoveOnMiddleMouseDown"
 class MoveOnMiddleMouseDown : NadaComponent
 {
   [Dependency] var Transform : Transform;

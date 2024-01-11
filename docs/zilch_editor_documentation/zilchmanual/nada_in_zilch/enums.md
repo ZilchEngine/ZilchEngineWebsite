@@ -1,11 +1,11 @@
 An enum, or enumerated type, is a set custom identifiers that are enumerated. An enumerated type may be defined with the **enum** keyword:
 
-```lang=csharp, name=Enum Definition
+```TS:Enum Definition
 enum ControllerButtons {Start, Select, Up=0, Down, Left, Right, A=0, B=1} // no semicolon
 ```
 
 The names line up with incrementing [Integers](../../../code_reference/nada_base_types/integer.md) where the default starting value is 0. The values can be manually set in which case the following values will increment off of that manually defined value. Note that to access these Integer values, the enum must be [casted](casting.md) to an Integer:
-```lang=csharp, name=Casting Enums to Integers
+```TS:Casting Enums to Integers
 Console.WriteLine("ControllerButtons.Start  = `ControllerButtons.Start  as Integer`  " );
 Console.WriteLine("ControllerButtons.Select = `ControllerButtons.Select as Integer`  " );
 Console.WriteLine("ControllerButtons.Up     = `ControllerButtons.Up     as Integer`  " );
@@ -36,7 +36,7 @@ There a number of rules that must be followed when defining enums. If these rule
 
 Identifiers for the enum type name and the enumerated values must be capitalized.
 
-```lang=csharp, name=Incorrect Value Identifiers
+```TS:Incorrect Value Identifiers
 // This will not compile. 
 enum Directions {up, down, left, right}
 ```
@@ -45,7 +45,7 @@ enum Directions {up, down, left, right}
 Enum declaration 'Directions' does not have a closing '}'. We found 'LowerIdentifier' but we expected to find '}'.
 ```
 
-```lang=csharp, name=Incorrect Type Name Identifier
+```TS:Incorrect Type Name Identifier
 // This won't compile either.
 enum directions {Up, Down, Left, Right}
 ```
@@ -60,7 +60,7 @@ instead of 'directions').
 
 Identifiers for the enumerated values must be unique.
 
-```lang=csharp, name=Duplicate Identifiers
+```TS:Duplicate Identifiers
 // This will not compile.
 enum Directions {Up, Down, Up, Down}
 ```
@@ -74,7 +74,7 @@ only be used once.
 
 Enums cannot be defined inside classes, structs, or other enums.
 
-```lang=csharp, name=Incorrectly Defined Inside a Class
+```TS:Incorrectly Defined Inside a Class
 // Classes cannot contain enums.
 class EnumWrapper
 {
@@ -97,7 +97,7 @@ Because of this, Nada will implicitly cast from an enum to an Integer when neces
 
 Given this:
 
-```lang=csharp, name=Controller Class and Buttons Enum
+```TS:Controller Class and Buttons Enum
 enum ControllerButtons {Start, Select, Up=0, Down, Left, Right, A=0, B=1}
 
 class Controller
@@ -120,7 +120,7 @@ class Controller
 
 We can test the calls to these [functions](functions.md) to see the interplay of casting:
 
-```lang=csharp, name=Implicit Enum Cast
+```TS:Implicit Enum Cast
 var paramInt = 3;
 var paramEnum = ControllerButtons.Right;
 
@@ -139,7 +139,7 @@ Right turned into Right!
 3 turned into Right!    
 ```
 
-```lang=csharp, name=Passing Integer to a Function That Expects Enum
+```TS:Passing Integer to a Function That Expects Enum
 // Attempting to pass an Integer without casting to an enum 
 // will cause a compiler error
 Console.Write(paramInt);
@@ -157,7 +157,7 @@ The possible choices were:
   AcceptsEnum(param : ControllerButtons)
 ```
 
-```lang=csharp, name=Passing Enum to a Function That Expects Integer
+```TS:Passing Enum to a Function That Expects Integer
 // This also works as you'd expect. 
 Console.Write(paramInt);
 Controller.AcceptsInt(paramInt);
@@ -176,7 +176,7 @@ Right turned into 3!
  ## Enum-Integer Operations
 
 Enums can perform all operations as if they were Integers. For instance, you can perform all of the normal Integer math operations as implicit conversion will happen as necessary:
-```lang=csharp, name=Using Integer Operations on an Enum
+```TS:Using Integer Operations on an Enum
 // Here you can see use of the +, -, *, /, (), ^ and % Integer operators.
 var math = (ControllerButtons.Start + ControllerButtons.Right) ^ ControllerButtons.Left % 
            ControllerButtons.Right - ControllerButtons.Right * ControllerButtons.Select;
@@ -206,7 +206,7 @@ When an operation includes both an enum and an Integer the result is always prom
 
 Although enums cast to Integers, they **will not** cast to Integers to perform cross-enum operations.
 
-```lang=csharp, name=Invalid Cross-Enum Operation
+```TS:Invalid Cross-Enum Operation
 // This won't compile.
 Console.WriteLine(ControllerButtons.Down + Directions.Down);
 ```

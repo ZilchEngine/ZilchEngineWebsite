@@ -15,7 +15,7 @@ This lesson covers loops in Nada scripting.
  - Create a NadaScript resource using the Component template template and name it `LoopExamples`
 - In the `LoopExamples` NadaScript
  - Replace the script's contents with the following:
-```lang=csharp, name="LoopExamples"
+```TS:"LoopExamples"
 class LoopExamples : NadaComponent
 {
   function Initialize(init : CogInitializer)
@@ -33,7 +33,7 @@ class LoopExamples : NadaComponent
 
 Recall the `Square` function from the [ Functions Tutorial](functions.md). It takes a Real parameter, multiplies it by itself, and returns the result:
 
-```lang=csharp, name="Square"
+```TS:"Square"
 function Square(number : Real) : Real
 {
   return number * number;
@@ -42,7 +42,7 @@ function Square(number : Real) : Real
 
 Thus, the returned result of `Square(x)` is equal to `x` squared. But what about `x` cubed? Here's another function:
 
-```lang=csharp, name="Cube"
+```TS:"Cube"
 function Cube(number : Real) : Real
 {
   return number * number * number;
@@ -54,7 +54,7 @@ The result of `Cube(x)` equals `x` cubed. What about `x` to the fourth power, or
 - In the `LoopExamples` NadaScript resource
  - Add the following function to the `LoopExamples` class:
 
-```lang=csharp, name="Incomplete Power Function, step 1"
+```TS:"Incomplete Power Function, step 1"
 function IncompletePower(number : Real, exponent : Integer) : Real
 {
   var result = 1.0;
@@ -72,7 +72,7 @@ Now to fill in the math. Before each multiplication is done, if the number of mu
 
 - Add the following code to the `IncompletePower` function:
 
-```lang=csharp, name="Incomplete Power Function, step 2"
+```TS:"Incomplete Power Function, step 2"
 function IncompletePower(number : Real, exponent : Integer) : Real
 {
   var result = 1.0;
@@ -111,7 +111,7 @@ As its name implies, this function is incomplete, but it should work in some cas
 
 - Add the following code to the `Initialize` function:
 
-```lang=csharp, name="IncompletePower Test"
+```TS:"IncompletePower Test"
 function Initialize(init : CogInitializer)
 {
   Console.WriteLine("IncompletePower: `this.IncompletePower(2.0, 2)`, x ^ y: `2.0 ^ 2`");
@@ -171,7 +171,7 @@ Take another look at the `IncompletePower` function. Note that the *if* block is
 
 - Add the following function to the `LoopExamples` class:
 
-```lang=csharp, name="WhileLoopPower Function"
+```TS:"WhileLoopPower Function"
 function WhileLoopPower(number : Real, exponent : Integer) : Real
 {
   var result = 1.0;
@@ -190,7 +190,7 @@ function WhileLoopPower(number : Real, exponent : Integer) : Real
 Let's test this new version of the function.
 
 - Replace the contents of the `Initialize` function with the following code:
-```lang=csharp, name="WhileLoopPower Test"
+```TS:"WhileLoopPower Test"
 function Initialize(init : CogInitializer)
 {
   Console.WriteLine("WhileLoopPower: `this.WhileLoopPower(5.0, 6)`, x ^ y: `5.0 ^ 6`");
@@ -215,7 +215,7 @@ The results match. Of course, `WhileLoopPower` still has some severe limitations
 
 Let's look again at the loop inside the `WhileLoopPower` function:
 
-```lang=csharp, name="While Loop Reexamined"
+```TS:"While Loop Reexamined"
 while (multiplications < exponent)
 {
   result *= number;
@@ -227,7 +227,7 @@ This runs over and over again, as long as `multiplications` is less than `expone
 
 - Update the `WhileLoopPower` function with the following change:
 
-```lang=csharp, name="Infinite Loop", counterexample
+```TS:"Infinite Loop", counterexample
 function WhileLoopPower(number : Real, exponent : Integer) : Real
 {
   var result = 1.0;
@@ -296,7 +296,7 @@ Let's write a new version of `WhileLoopPower` that uses a `for` loop instead of 
 
 - Add the following function to the `LoopExamples` class:
 
-```lang=csharp, name="ForLoopPower Function"
+```TS:"ForLoopPower Function"
 function ForLoopPower(number : Real, exponent : Integer) : Real
 {
   var result = 1.0;
@@ -320,7 +320,7 @@ Let's test the new function with the same arguments that were supplied to the ol
 
 - Update the `Initialize` function with the following changes:
 
-```lang=csharp, name="ForLoopPower Test"
+```TS:"ForLoopPower Test"
 function Initialize(init : CogInitializer)
 {
   Console.WriteLine("ForLoopPower: `this.ForLoopPower(5.0, 6)`, x ^ y: `5.0 ^ 6`");
@@ -349,7 +349,7 @@ Let's write a function that draws boxes in the console.
 
 - Add the following function to the `LoopExamples` class:
 
-```lang=csharp, name="DrawBoxes Function"
+```TS:"DrawBoxes Function"
 function DrawBoxes(count : Integer)
 {
   for (var i = 0; i < count; ++i)
@@ -372,7 +372,7 @@ Let's try it out.
 
 - Replace the contents of the `Initialize` function with the following code:
 
-```lang=csharp, name="DrawBoxes Test"
+```TS:"DrawBoxes Test"
 function Initialize(init : CogInitializer)
 {
   this.DrawBoxes(10);
@@ -393,7 +393,7 @@ The `DrawBoxes` function, as it exists right now, already does a perfectly good 
 
 - Add the following function to the `LoopExamples` class:
 
-```lang=csharp, name="DrawBoxesInGrid Function"
+```TS:"DrawBoxesInGrid Function"
 function DrawBoxesInGrid(columns : Integer, rows : Integer)
 {
   var totalBoxesDrawn = 0;
@@ -452,7 +452,7 @@ Let's try out the function.
 
 - Update the `Initialize` function with the following changes:
 
-```lang=csharp, name="DrawBoxesInGrid Test"
+```TS:"DrawBoxesInGrid Test"
 function Initialize(init : CogInitializer)
 {
   this.DrawBoxesInGrid(8, 4);
@@ -494,7 +494,7 @@ First off, the function needs to take two new Integer parameters, specifying the
 
 - Add the following function to the `LoopExamples` class:
 
-```lang=csharp, name="Continue Example"
+```TS:"Continue Example"
 function DrawBoxesWithGap(columns : Integer, rows : Integer, skipX : Integer, skipY : Integer)
 {
   var totalBoxesDrawn = 0;
@@ -524,7 +524,7 @@ Now to test it out.
 
 - Update the `Initialize` function with the following changes:
 
-```lang=csharp, name="Continue Test"
+```TS:"Continue Test"
 function Initialize(init : CogInitializer)
 {
   this.DrawBoxesWithGap(8, 4, 6, 2);
@@ -560,7 +560,7 @@ First of all, yet another new Integer parameter is needed for the `DrawBoxes` fu
 
 - Add the following function to the `LoopExamples` class:
 
-```lang=csharp, name="Break Example, step 1"
+```TS:"Break Example, step 1"
 function DrawBoxesWithMax(columns : Integer, rows : Integer, max : Integer)
 {
   var totalBoxesDrawn = 0;
@@ -587,7 +587,7 @@ Now to test the changes.
 
 - Update the `Initialize` function with the following changes:
 
-```lang=csharp, name="Break Test"
+```TS:"Break Test"
 function Initialize(init : CogInitializer)
 {
   this.DrawBoxesWithMax(10, 10, 40);
@@ -618,7 +618,7 @@ To modify the function to make it break out of both loops, just add a Boolean va
 
 - Update the `DrawBoxesWithMax` function with the following changes:
 
-```lang=csharp, name="Break Example, step 2"
+```TS:"Break Example, step 2"
 function DrawBoxesWithMax(columns : Integer, rows : Integer, max : Integer)
 {
   var totalBoxesDrawn = 0;

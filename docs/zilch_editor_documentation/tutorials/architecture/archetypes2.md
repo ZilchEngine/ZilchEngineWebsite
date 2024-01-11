@@ -14,7 +14,7 @@ This lesson covers how to create archetypes from a script at game runtime.
 - In the `MovementLogic` script
  - Replace the script's contents with the following:
 
-```lang=csharp, name="MovementLogic"
+```TS:MovementLogic
 class MovementLogic : NadaComponent
 {
   var Speed : Real = 5.0;
@@ -92,7 +92,7 @@ Before we can spawn objects from script, we need to create the archetype from wh
 - In the `ShootingLogic`
  - Replace the script's contents with the following:
 
-```lang=csharp, name="ShootingLogic"
+```TS:ShootingLogic
 class ShootingLogic : NadaComponent
 {
   

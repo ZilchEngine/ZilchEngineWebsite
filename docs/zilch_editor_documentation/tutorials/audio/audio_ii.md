@@ -48,7 +48,7 @@ Let's do that now.
  - Create a NadaScript resource using the Component template template and name it `KeyboardMovement`
 - Update `KeyboardMovement` to the following:
 
-```lang=csharp, name="KeyboardMovement"
+```TS:"KeyboardMovement"
 class KeyboardMovement : NadaComponent
 {
   [Dependency] var Transform : Transform;
@@ -95,7 +95,7 @@ In order for a sound played by a SoundEmitter to be heard, it needs to be picked
  - Create a NadaScript resource using the Component template template and name it `SoundController`
 - Update `SoundController` to the following:
 
-```lang=csharp, name="SoundController"
+```TS:"SoundController"
 class SoundController : NadaComponent
 {
   [Dependency]
@@ -152,7 +152,7 @@ Every sound played by a SoundEmitter is played at the volume level specified by 
 
 - Add the following to the `OnLogicUpdate` function of the `SoundController` class:
 
-```lang=csharp, name="SoundController (continued 1)"
+```TS:"SoundController (continued 1)"
 if (Zilch.Keyboard.KeyIsDown(Keys.LeftBracket))
 {
   this.SoundEmitter.Volume -= event.Dt;
@@ -188,7 +188,7 @@ What if we want to modify the volume of a SoundEmitter gradually over time, but 
 
 - Replace the `OnLogicUpdate` function of the `SoundController` class with the following:
 
-```lang=csharp, name="SoundController (continued 2)"
+```TS:"SoundController (continued 2)"
 function OnLogicUpdate(event : UpdateEvent)
 {
   if (Zilch.Keyboard.KeyIsPressed(Keys.Space))
@@ -221,7 +221,7 @@ The SoundSpace manages all sounds played in a space, but it can also be used to 
  - Create a NadaScript resource using the Component template template and name it `MusicPlayer`
 - Update `MusicPlayer` to the following:
 
-```lang=csharp, name="MusicPlayer"
+```TS:"MusicPlayer"
 class MusicPlayer : NadaComponent
 {
   [Property]
@@ -245,7 +245,7 @@ Notice how moving the player around has no effect on the volume level of the mus
 
 - Update `MusicPlayer` to the following:
 
-```lang=csharp, name="MusicPlayer (continued 1)"
+```TS:"MusicPlayer (continued 1)"
 class MusicPlayer : NadaComponent
 {
   [Property]
@@ -288,7 +288,7 @@ A [ SoundInstance](../../../code_reference/class_reference/soundinstance.md) is 
 
 - Update `MusicPlayer` to the following:
 
-```lang=csharp, name="MusicPlayer (continued 2)"
+```TS:"MusicPlayer (continued 2)"
 class MusicPlayer : NadaComponent
 {
   [Property]

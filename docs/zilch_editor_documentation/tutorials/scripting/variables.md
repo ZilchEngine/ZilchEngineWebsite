@@ -17,7 +17,7 @@ This lesson covers the basics of using Variables in [Nada](../../zilchmanual/nad
  - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Square`
- - [Add Component](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/zilchmanual/editor/addremovecomponent/) : `MyBehavior`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MyBehavior`
 
  # Class Variables
 
@@ -37,7 +37,7 @@ Variables are used to represent values your game needs to perform its logic such
 
 We can declare (create) a variable by typing the following code within the class scope:
 
-```lang=csharp, name=Class Variable Declaration
+```TS:Class Variable Declaration
 var Speed : Real = 0.1;
 ```
 
@@ -64,17 +64,17 @@ The assignment operator sets the value of the variable on its left (known as the
 
 Examples:
 
-```lang=csharp, name=Literal Assignment
+```TS:Literal Assignment
 this.Speed = 5.0;
 ```
 
-```lang=csharp, name=Variable Assignment
+```TS:Variable Assignment
 var Pi : Real = 3.1415926;
 
 this.Speed = this.Pi;
 ```
 
-```lang=csharp, name=Expression Assignment
+```TS:Expression Assignment
 var Pi : Real = 3.1415926;
 
 this.Speed = this.Pi + 5.0;
@@ -91,11 +91,11 @@ Applicable to arithmetic types (Integer, Real, Real2, Real3, etc) these allow yo
  - `*` - Multiply
  - `/` - Divide
 
-```lang=csharp, name=Addition Increment
+```TS:Addition Increment
 this.Speed = this.Speed + 1.0;
 ```
 
-```lang=csharp, name=Multiplication of the Current Value
+```TS:Multiplication of the Current Value
 this.Speed = this.Speed * 2.0;
 ```
 
@@ -107,7 +107,7 @@ These operators let you add, subtract, multiply and subtract the values on the r
 
 Example:
 
-```lang=csharp, name=Arithmetic Assignment
+```TS:Arithmetic Assignment
 var Speed : Real = 1.0;
 
 this.Speed += 2.3;
@@ -123,7 +123,7 @@ These are used in combination with Integer and Real types to either add or subtr
 
 Example:
 
-```lang=csharp, name=Increment Operator
+```TS:Increment Operator
 ++this.Speed;
 ```
 
@@ -137,7 +137,7 @@ Let's try and modify our Square object to move to the right based on our speed. 
 
  - Add the following line of code inside LogicUpdate:
 
-```lang=csharp, name=Accessing Properties
+```TS:Accessing Properties
 this.Owner.Transform.Translation += Real3(this.Speed, 0, 0);
 ```
 |`this.` | Refers to the class we're currently in (In this case the MyBehavior component) |
@@ -181,7 +181,7 @@ To prevent this, we can declare a dependency on the [Transform](../../../code_re
 
  - Add the following line at the beginning of the class scope:
 
-```lang=csharp, name=Dependencies
+```TS:Dependencies
 [Dependency]  
 var Transform : Transform;
 ```
@@ -241,7 +241,7 @@ Local Variables are defined within the scope of a function or nested scope are c
 
 Example:
 
-```lang=csharp, name=Local Variable Declaration
+```TS:Local Variable Declaration
 var lives : Integer = 3;
 ```
 
@@ -252,14 +252,14 @@ Now that we've seen the basics of using variables, let's move create a variable 
 - In the `MyBehavior` script
  - Add the following  property:
 
-```lang=csharp, name=Direction Property
+```TS:Direction Property
 [Property]
 var Direction : Real2 = Real2(1.0, 1.0);
 ```
 - In the `MyBehavior` script
  - Replace the previous content of the LogicUpdate function with the following:
 
-```lang=csharp, name=New LogicUpdate
+```TS:New LogicUpdate
 function OnLogicUpdate(event : UpdateEvent)
 {
   var normalized_direction : Real2 = Math.Normalize(this.Direction);

@@ -25,7 +25,7 @@ Creating Game Objects, Changing Properties
  ## [Basic Components](architecture/basiccomponents.md)
 Box /  Sphere Collider, RigidBody, Sprite, SpriteText
 
- ## [Physics Effects](https://github.com/ZilchEngine/ZilchDocs/blob/master/zilch_editor_documentation/tutorials/physics/physicseffects/)
+ ## [Physics Effects](physics/physicseffects.md)
 Gravity, Drag, IgnoreSpaceEffects,  LevelSettings, Region, Force, Buoyancy, Wind
 
  ## [Physics Materials](physics/physicsmaterials.md)

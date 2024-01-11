@@ -1,6 +1,6 @@
 Property Delegates can be generated from any field using the `@` symbol. Fields are variables, but not all variables are fields. Local variables do not have the ability to be accessed via a property and they cannot be used in conjunction with the property delegate operator like fields can.
 
-```name=Cat, lang=csharp
+```TS:Cat,
 class Cat
 {
   var Lives: Integer = 9;
@@ -30,7 +30,7 @@ Property[Integer]
  # Property Delegates as Function Parameters
 Choosing to take a property delegate as a parameter allows the user to propagate side-effects to the parameters that would otherwise be lost on copies passed in by-value.
 
-```name=PropertyDelegateTest, lang=csharp
+```TS:PropertyDelegateTest,
 class PropertyDelegateTest : NadaComponent
 {
   [Property]

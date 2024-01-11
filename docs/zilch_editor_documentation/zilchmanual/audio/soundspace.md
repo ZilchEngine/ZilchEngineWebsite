@@ -6,7 +6,7 @@ The [ SoundSpace ](../../../code_reference/class_reference/soundspace.md) is one
 
 [SoundCues  ](soundcue.md) can be played through SoundSpaces for non-positional audio that does not go through the SoundListeners. The `PlayCue` method will start playing the SoundCue immediately, while the `PlayCuePaused` method will create a paused [SoundInstance ](soundinstance.md), which allows the user to change its settings before un-pausing it.
 
-```lang=csharp
+```TS
 this.MySoundInstance = this.Space.SoundSpace.PlayCuePaused(this.MySoundCue);
 this.MySoundInstance.Volume = 0.5;
 this.MySoundInstance.Paused = false;

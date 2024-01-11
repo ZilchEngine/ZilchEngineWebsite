@@ -26,7 +26,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Audio : Audio
 
 
@@ -36,7 +36,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Editor : Editor
 
 
@@ -46,7 +46,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Engine : Engine
 
 
@@ -56,7 +56,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Environment : Environment
 
 
@@ -66,7 +66,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Gamepads : Gamepads
 
 
@@ -76,7 +76,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Joysticks : Joysticks
 
 
@@ -86,7 +86,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Keyboard : Keyboard
 
 
@@ -96,7 +96,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var Mouse : Mouse
 
 
@@ -106,7 +106,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var ObjectStore : ObjectStore
 
 
@@ -116,7 +116,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var OsShell : OsShell
 
 
@@ -126,7 +126,7 @@
  `read-only` `static`
 
 > 
-> ``` lang=cpp, name=Nada
+> ```TS
 > var ResourceSystem : ResourceSystem
 
 
@@ -145,7 +145,7 @@
 > |sender|Object| |
 > |eventId|[string](../nada_base_types/string.md)| |
 > |receiverDelegate|delegate()| |
-> ``` lang=cpp, name=Nada
+> ```TS
 > function Connect(sender : Object, eventId : String, receiverDelegate : delegate())
 > ``` 
 
@@ -161,7 +161,7 @@
 > |sender|Object| |
 > |eventId|[string](../nada_base_types/string.md)| |
 > |receiver|Object| |
-> ``` lang=cpp, name=Nada
+> ```TS
 > function Disconnect(sender : Object, eventId : String, receiver : Object)
 > ``` 
 
@@ -176,7 +176,7 @@
 > |---|---|---|
 > ||Object| |
 > ||Object| |
-> ``` lang=cpp, name=Nada
+> ```TS
 > function DisconnectAll( : Object,  : Object)
 > ``` 
 

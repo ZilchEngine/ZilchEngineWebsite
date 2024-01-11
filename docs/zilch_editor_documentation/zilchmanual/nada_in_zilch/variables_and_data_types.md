@@ -4,7 +4,7 @@ Variables are used to store data, and are declared using the `var` keyword.  Eac
 
 `var Name : Type = value;`
 
-```lang=csharp, name=Variable Instantiation with Initialization
+```TS:Variable Instantiation with Initialization
 var Greeting : String = "Hello";
 var Sum : Real = 1 + 2;
 var Up : Real3 = Real3(0,1,0);
@@ -48,9 +48,9 @@ A scope is a region in which certain elements of the language, such as variables
 
 
  ## Global Scope
-Everything in script exists *in// the **global scope**; however, not everything is created //at// the **global scope**. Libraries such as `Zilch` and `Math` exist //at// the **global scope** and are therefore accessible from any scope in script.  The [Zilch](../../../code_reference/class_reference/zero.md) and [Math](../../../code_reference/nada_base_types/math.md) libraries are objects defined at the global scope. [Classes and Structs](classes.md) are the only Nada constructs that can be defined //at* the **global scope**.
+Everything in script exists *in// the **global scope**; however, not everything is created //at// the **global scope**. Libraries such as `Zilch` and `Math` exist //at// the **global scope** and are therefore accessible from any scope in script.  The [Zilch](../../../code_reference/class_reference/zilch.md) and [Math](../../../code_reference/nada_base_types/math.md) libraries are objects defined at the global scope. [Classes and Structs](classes.md) are the only Nada constructs that can be defined //at* the **global scope**.
 
-```lang=csharp, name=Global Scope
+```TS:Global Scope
 var R1 : Real; //Error, can not declare variables at the global scope
 
 class MyClass : NadaComponent //We can declare definitions of objects such as classes at the global scope
@@ -63,7 +63,7 @@ Notice in this example that the attempted instantiation of a variable at the **g
  ## Object Scope
 [Classes and Structs](classes.md) define their own scope and are one of the few constructs that exist *at// the **Global Scope**. Variables defined //at* the **object scope** are called **member** variables and will exist as long as the object exists.
 
-```lang=csharp, name=Object Scope
+```TS:Object Scope
 class MyClass
 {
   var Pi : Real = Math.Pi; //compiles
@@ -90,7 +90,7 @@ NOTE: Local variables can be implicitly initialized and have their types inferre
 
  ### The Scope Operator
 In addition to to logical constructs defining scope, Nada allows the user to define arbitrary scopes using the [scope](keywords.md) keyword.
-```lang=csharp, name=Block Scope
+```TS:Block Scope
 class MyClass
 {
   var M1 : Real = 1.0;
@@ -107,8 +107,7 @@ class MyClass
 }
 ```
 
-In the above example begins with `var r1 = this.M1;` and then demonstrates the use of the {icon university}[[zilch_engine_documentation/zilch_editor_documentation/zeroma
-nual/nada_in_zilch/keywords/|scope]] keyword.
+In the above example begins with `var r1 = this.M1;` and then demonstrates the use of the {icon university}[[zilch_engine_documentation/zilch_editor_documentation/zeromanual/nada_in_zilch/keywords/|scope]] keyword.
 
 Inside the inner block scope is the line `var r2 = r1;`. Because `r1` is declared in an outer scope it can be used to initialize `r2`.
 
@@ -119,7 +118,7 @@ The line `var r3 = r1;` follows the closing `}` of the inner block scope. Becaus
  # Caching Variables
 Caching accessed data into locally scoped variables is a common practice that can improve the efficiency, readability, and flexibility of code. Often users may find themselves needing a value that will be used multiple times throughout the scope it is calculated/accessed in.
 
-```name=With Variable Caching, lang = csharp
+```CS:With Variable Caching
 class Intercept : NadaComponent
 {
   [Dependency] var RigidBody : RigidBody;
@@ -162,7 +161,7 @@ class Intercept : NadaComponent
 ```
 In the above example `playerCog`, `playerPos`, and `myPos` are all examples of caching accessed values to local variables. These pieces of data are needed multiple times in calculations made later in the `OnLogicUpdate` function. By caching these values, not only does writing and reading the calculations become easier, it reduces the number of member data accesses that are necessary via the `.` operator.
 
-```name=Intercept.OnLogicUpdate No Caching, lang=csharp, counterexample
+```CS:Intercept.OnLogicUpdate No Caching - counterexample
 function OnLogicUpdate(event : UpdateEvent)
 {
   if(Math.Distance(this.Owner.Transform.Translation, this.PlayerCogPath.Cog.Transform.Translation) <= this.MinDistance)

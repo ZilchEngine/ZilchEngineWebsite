@@ -8,7 +8,7 @@ There are two ways of checking keyboard input in the Zilch Engine: by polling th
 
 Polling-based input typically occurs in a callback for an Update event such as [ LogicUpdate](../../../../code_reference/event_reference.md#logicupdate):
 
-```lang=csharp, name=Update Connection Example
+```TS:Update Connection Example
 function Initialize(init : CogInitializer)
 {
   Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
@@ -21,7 +21,7 @@ The keyboard may be polled using a handful of functions on `Zilch.Keyboard`.
 
 The [ KeyIsDown](../../../../code_reference/class_reference/keyboard.md#keyisdown-zilch-engine-do) function returns whether the given keyboard key is down on the current frame. It is often used for movement and other actions that are performed over the course of many consecutive frames:
 
-```lang=csharp, name=KeyIsDown Example
+```TS:KeyIsDown Example
 if (Zilch.Keyboard.KeyIsDown(Keys.Up))
 {
   this.MoveForward();
@@ -32,7 +32,7 @@ if (Zilch.Keyboard.KeyIsDown(Keys.Up))
 
 The [ KeyIsUp](../../../../code_reference/class_reference/keyboard.md#keyisup-zilch-engine-docu) function returns whether the given keyboard key is *not* down on the current frame. It is sometimes used in combination with **KeyIsDown** in movement code:
 
-```lang=csharp, name=KeyIsUp Example
+```TS:KeyIsUp Example
 if (Zilch.Keyboard.KeyIsDown(Keys.Right) && Zilch.Keyboard.KeyIsUp(Keys.Left))
 {
   this.TurnCounterClockwise();
@@ -48,7 +48,7 @@ if (Zilch.Keyboard.KeyIsDown(Keys.Left) && Zilch.Keyboard.KeyIsUp(Keys.Right))
 
 The [ KeyIsPressed](../../../../code_reference/class_reference/keyboard.md#keyispressed-zilch-engine) function returns whether the given keyboard key is down on the current frame *and* was up on the previous frame. It is often used for discrete actions, like activating character abilities and interacting with menus:
 
-```lang=csharp, name=KeyIsPressed Example
+```TS:KeyIsPressed Example
 if (Zilch.Keyboard.KeyIsPressed(Keys.Space))
 {
   this.Jump();
@@ -59,7 +59,7 @@ if (Zilch.Keyboard.KeyIsPressed(Keys.Space))
 
 The [ KeyIsReleased](../../../../code_reference/class_reference/keyboard.md#keyisreleased-zilch-engin) function returns whether the given keyboard key is up on the current frame, but was down on the previous frame. It is often used to end actions or processes that were started by the same key in a KeyIsPressed check:
 
-```lang=csharp, name=KeyIsReleased Example
+```TS:KeyIsReleased Example
 if (Zilch.Keyboard.KeyIsReleased(Keys.Space))
 {
   this.EndJump();
@@ -68,7 +68,7 @@ if (Zilch.Keyboard.KeyIsReleased(Keys.Space))
 
 Such queries are usually performed in a function that is called every frame, once per frame, such as an Update function; polling for input in this way is also called **frame-based input**. However, the keyboard can be polled at any time. For instance, one might check whether a certain key is held in a [ CollisionStarted](../../../../code_reference/event_reference.md#collisionstarted) callback, to determine whether some special action should occur:
 
-```lang=csharp, name=Collision Polling Example
+```TS:Collision Polling Example
 function OnCollisionStarted(event : CollisionEvent)
 {
   if (Zilch.Keyboard.KeyIsDown(Keys.Z))
@@ -82,7 +82,7 @@ NOTE: Beware that the LogicUpdate event is not dispatched on a paused TimeSpace.
 
 The keyboard dispatches a set of handy events that can be used for keyboard input:
 
-```lang=csharp, name=Keyboard Connection Example
+```TS:Keyboard Connection Example
 function Initialize(init : CogInitializer)
 {
   Zilch.Connect(Zilch.Keyboard, Events.KeyDown, this.OnKeyDown);
@@ -97,7 +97,7 @@ The [ KeyboardEvent](../../../../code_reference/class_reference/keyboardevent.md
 
 When any key on the keyboard is pressed, the [ KeyDown](../../../../code_reference/event_reference.md#keydown) event is dispatched that frame:
 
-```lang=csharp, name=KeyDown Example
+```TS:KeyDown Example
 function OnKeyDown(event : KeyboardEvent)
 {
   if (event.Key == Keys.R && event.CtrlPressed)
@@ -109,7 +109,7 @@ function OnKeyDown(event : KeyboardEvent)
 
 When any key on the keyboard is released, the [ KeyUp](../../../../code_reference/event_reference.md#keyup) event is dispatched that frame:
 
-```lang=csharp, name=KeyUpExample
+```TS:KeyUpExample
 function OnKeyUp(event : KeyboardEvent)
 {
   if (event.Key == Keys.Shift)
@@ -121,7 +121,7 @@ function OnKeyUp(event : KeyboardEvent)
 
 When any key on the keyboard is held long enough for the operating system to send its "repeated" event, the [ KeyRepeated](../../../../code_reference/event_reference.md#keyrepeated) event begins being dispatched. The delays before this begins and between dispatches are determined by the operating system:
 
-```lang=csharp, name=KeyRepeated Example
+```TS:KeyRepeated Example
 function OnKeyRepeated(event : KeyboardEvent)
 {
   if (event.Key == Keys.Back)

@@ -12,7 +12,7 @@ GeneratedWaveNodes create audio using either a sine wave, square wave, saw wave,
 The following code block illustrates how to use a GeneratedWaveNode to make a simple alarm-siren noise.
 
 
-```lang=csharp
+```TS
 class SimpleSiren : NadaComponent
 {
   // Make sure this object has a SoundEmitter component

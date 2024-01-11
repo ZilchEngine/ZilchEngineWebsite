@@ -22,7 +22,7 @@ Developers often find themselves needing to make lists of data within their appl
 
 - Update the `ArrayExample` class to the following:
 
-```name=Array Declaration & Default Constructor, lang=csharp
+```TS:Array Declaration & Default Constructor
 class ArrayExample : NadaComponent
 {
   var DefaultConstructorExample : Array[Integer] = Array[Integer]();
@@ -66,12 +66,12 @@ Another way to initialize an array is to use an initializer list that allows the
 
 
 - Add the following to the `ArrayExample` class:
-```name=Array Initializer List, lang=csharp
+```TS:Array Initializer List
 var InitializarListExample : Array[Integer] = Array[Integer]() {6, 7, 8, 9};
 ```
 
 - Add the following to the `Initialize` function in the `ArrayExample` class:
-```name=Printing Array Examples, lang=csharp
+```TS:Printing Array Examples
 Console.WriteLine(this.InitializarListExample);
 ```
 
@@ -94,7 +94,7 @@ We can see the array we constructed using an initializer list printed out with t
 The `[]` (subscript) operator can be used as a method of accessing individual elements in an array.
 
 - Add the following to the `Initialize` function in the `ArrayExample` class:
-```name=Printing Array Examples, lang=csharp
+```TS:Printing Array Examples
 Console.WriteLine(this.InitializarListExample[2]);
 ```
 - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
@@ -118,7 +118,7 @@ We can see that `8` is printed out to the `Console Window` which is the value of
 The `[]` operator can also be used to overwrite the value of an element which already exists in the Array.
 
 - Add the following to the `Initialize` function in the `ArrayExample` class:
-```name=Printing Array Examples, lang=csharp
+```TS:Printing Array Examples
 this.InitializarListExample[2] = 0;
 Console.WriteLine(this.InitializarListExample);
 ```
@@ -146,7 +146,7 @@ We have looked at how to declare and initialize arrays using a rather basic exam
 - In the `SpawnOnInput` script
  - Update the `SpawnOnInput` script to the following:
 
-```name=SpawnOnInput , lang=csharp
+```TS:SpawnOnInput 
 class SpawnOnInput : NadaComponent
 {
   [Property]
@@ -205,7 +205,7 @@ This is just a utility component similar to some we have seen in [previous tutor
  - Create a NadaScript resource using the Component template template and name it `EnemyManager`
 - In the `EnemyManager` script
  - Update the `EnemyManager` class to the following:
-```name=EnemyManager, lang=csharp
+```TS:EnemyManager,
 class EnemyManager : NadaComponent
 {
   var Enemies : Array[Cog] = Array[Cog]();
@@ -255,11 +255,11 @@ The `[]` (subscript) operator can be used as a method of accessing individual el
 
 - In the `EnemyManager` script
  - Add the following to the `Initialize` function in the `EnemyManager` class:
-```name=KeyDown Connection, lang=csharp
+```TS:KeyDown Connection
 Zilch.Connect(Zilch.Keyboard, Events.KeyDown, this.OnKeyDown);
 ```
  - Add the following to the `EnemyManager` class:
-```name=OnKeyDown, lang=csharp
+```TS:OnKeyDown,
 function OnKeyDown(event : KeyboardEvent)
 {
   if(event.Key == Keys.D)
@@ -291,11 +291,11 @@ In this case, we had not created an enemy so there was nothing in the array to a
  - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RandomContext](../../../code_reference/class_reference/randomcontext.md)
 - In the `EnemyManager` script
  - Add the following to the `EnemyManager` class:
-```name=KeyDown Connection, lang=csharp
+```TS:KeyDown Connection
 [Dependency] var RandomContext : RandomContext;
 ```
  - Replace the `OnKeyDown` function in the `EnemyManager` class with the following: 
-```name=OnKeyDown, lang=csharp
+```TS:OnKeyDown,
 function OnKeyDown(event : KeyboardEvent)
 {
   //check the array is not empty before trying to access
@@ -334,7 +334,7 @@ Notice how each time `D` is pressed and an enemy is destroyed, the length of `En
 
  ## RemoveAt
  - Replace the `OnKeyDown` function in the `EnemyManager` class with the following: 
-```name=OnKeyDown, lang=csharp
+```TS:OnKeyDown,
 function OnKeyDown(event : KeyboardEvent)
 {
   if(event.Key == Keys.D && this.Enemies.Count > 0)
@@ -370,7 +370,7 @@ Now, what if we wanted to perform a group operation on all the enemies in the ar
 Performing the same operation multiple times should remind you of [loops](loops.md). As it turns out [for](loops.md#for-loops) loops are great for iterating over the elements of an array.
 
  - Replace the `OnKeyDown` function in the `EnemyManager` class with the following: 
-```name=OnKeyDown, lang=csharp
+```TS:OnKeyDown,
 function OnKeyDown(event : KeyboardEvent)
 {
   if(event.Key == Keys.D)
@@ -414,7 +414,7 @@ Now that we are accessing and destroying each cog in the array all at once we ne
 There is a slightly simpler way of iterating over an array.
 
  - Replace the `OnKeyDown` function in the `EnemyManager` class with the following: 
-```name=OnKeyDown, lang=csharp
+```TS:OnKeyDown,
 function OnKeyDown(event : KeyboardEvent)
 {
   if(event.Key == Keys.D)

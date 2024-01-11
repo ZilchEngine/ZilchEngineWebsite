@@ -29,7 +29,7 @@ Note that these volume changes will be combined with any other volume modificati
 A SoundInstance's  Looping checkBox property is initially set by the corresponding property on the SoundCue. When this property is `true`, the SoundInstance will repeat indefinitely, using the  LoopStartTime  and  LoopEndTime  properties on the [SoundEntry](soundcue.md#soundentry) that the SoundCue used to create the SoundInstance. If a SoundInstance is looping and the property is changed to `false` as it is playing it will continue playing to its  EndTime  and then stop.
 
 The following code block shows you how to make a SoundInstance finish naturally after it has looped three times, using the `SoundLooped` event.
-```lang=csharp
+```TS
 // A property to be set to the SoundCue desired
 [Property] var MySoundCue : SoundCue;
 
