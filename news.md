@@ -105,9 +105,10 @@ Below is a short list of items that need to be completed before the 1.0 release.
 - In-Game UI improvement
 - Content library improvements
 
+
 ## Q & A
 
-Q: There are already multiple engines available, like Unity, Unreal, O3DE, etc... Why bother with this engine?
+*Q: There are already multiple engines available, like Unity, Unreal, O3DE, etc... Why bother with this engine?*
 A: I would like to categorically rule out non-open source engines for now and discuss why ZilchEngine and not other open source engines.
    Most open source engines I've come across are either incomplete, poorly documented, or have limitations which make them non-starters for my use-cases.
    I wanted an engine that has strong support for both 2D and 3D game development, has a usable editor, and supports multiple platforms.
@@ -115,19 +116,26 @@ A: I would like to categorically rule out non-open source engines for now and di
    With just those few requirements, the pickings already become slim.
    Lets talk about a few of the contenders (in no particular order) and why they don't fit the bill.
    
-   Stride: Editor is not cross platform. Supporting C# on all the platforms I want to target (Android, iOS, Web) is a nightmare.
+   ### Stride
+   Editor is not cross platform. Supporting C# on all the platforms I want to target (Android, iOS, Web) is a nightmare.
    
-   LumixEngine: Not intended for mobile development.
+   ### LumixEngine
+   Not intended for mobile development.
    
-   Cocos Creator: Great platform support, and complet feature set. However, editor is closed source.
+   ### Cocos Creator
+   Great platform support, and complet feature set. However, editor is closed source.
    
-   O3DE: Too bulky, and no 2D support to speak of.
+   ### O3DE
+   Too bulky, and no 2D support to speak of.
    
-   Defold: Great 2D support, paltry 3D support at the moment.
+   ### Defold
+   Great 2D support, paltry 3D support at the moment.
    
-   MonoGame/XNA: Not complete engines.
+   ### MonoGame/XNA
+   Not complete engines.
    
-   Godot: This is the most complete option, and also the closest to ZilchEngine in many ways, so I can give an in-depth comparison of the two. 
+   ### Godot
+   This is the most complete option, and also the closest to ZilchEngine in many ways, so I can give an in-depth comparison of the two. 
    Godot developers have made some technical decisions which I believe leaves a lot of performance on the table.
    These decisions are fundamental to the engine and not something I can change as a user. This is ingrained in the way the scenegraph is architected.
    The node-base architecture favours inheritance and deep inheritance hierarchies for certain nodes. Some nodes have redundant data due to the design.
@@ -164,6 +172,6 @@ A: I would like to categorically rule out non-open source engines for now and di
    I want absolute freedom when it comes to the engine I use. It's as simple as that.
    Check out the [Documentation](https://zilchengine.com/docs) to learn more about ZeroEngine.
 
-Q: Will ZilchEngine support C#?
+*Q: Will ZilchEngine support C#?*
 A: There are no immediate plans to support C#. However, if someone contributes C# support then I will not be opposed to it.
    Additionally, if there is demand for C# support, then it may be added to some future roadmap.
