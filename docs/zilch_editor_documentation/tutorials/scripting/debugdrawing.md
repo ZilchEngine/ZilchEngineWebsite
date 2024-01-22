@@ -122,7 +122,7 @@ Calling our `DrawDebug` function every frame that the mouse is down allows our d
 - [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # DebugCircle
-There are many types that can be debug drawn, as can be seen in the [Related Materials](debugdrawing/.md#related_materials)[DebugCircle](../../../code_reference/class_reference/debugcircle.md), which will be used to make a clock.
+There are many types that can be debug drawn, as can be seen in the [Related Materials](debugdrawing.md#related_materials)[DebugCircle](../../../code_reference/class_reference/debugcircle.md), which will be used to make a clock.
 
 - [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `DebugClock`

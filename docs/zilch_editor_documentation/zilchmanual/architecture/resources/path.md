@@ -14,8 +14,8 @@ The Path resource on its own has no accessible functions. Instead a LevelPath co
 
 ### Reference Pages
 
-[Path](../../../code_reference/class_reference/path.md) 
-[LevelPath](../../../code_reference/class_reference/levelpath.md) 
+[Path](../../../../code_reference/class_reference/path.md) 
+[LevelPath](../../../../code_reference/class_reference/levelpath.md) 
  
 
  

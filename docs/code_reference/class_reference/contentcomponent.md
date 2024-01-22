@@ -3,7 +3,6 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | | |[eventobject](eventobject.md)|[buildercomponent](buildercomponent.md)|
-| | | |[contentcopyright](contentcopyright.md)|
 | | | |[contenteditoroptions](contenteditoroptions.md)|
 | | | |[contenthistory](contenthistory.md)|
 | | | |[contentnotes](contentnotes.md)|

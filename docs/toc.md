@@ -32,7 +32,7 @@
 ##### [spritesourceeditor](zilch_editor_documentation/zilchmanual/graphics/sprites/spritesourceeditor.md)
 ### [TextEditor](zilch_editor_documentation/zilchmanual/editor/texteditor.md)
 #### [Text Editor Hotkeys](zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorhotkeys.md)
-#### [Tab Completion](zilch_editor_documentation/zilchmanual/editor/texteditor/tab completion.md)
+#### [Tab Completion](zilch_editor_documentation/zilchmanual/editor/texteditor/tab_completion.md)
 #### [Text Editor Config](zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorconfig.md)
 ### Adding To Your Project
 #### [AddRemoveComponent](zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md)
@@ -62,7 +62,6 @@
 #### [The Game Session Object](zilch_editor_documentation/zilchmanual/architecture/objects/gamesession.md)
 
 ###  [Resources](zilch_editor_documentation/zilchmanual/architecture/resources.md)
-#### [Resources](zilch_editor_documentation/zilchmanual/architecture/resources/resources.md)
 #### [ResourceAdding](zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 #### Independent Resources
 ##### [ColorGradient](zilch_editor_documentation/zilchmanual/architecture/resources/colorgradient.md)

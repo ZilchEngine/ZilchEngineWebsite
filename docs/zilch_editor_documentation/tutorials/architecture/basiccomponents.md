@@ -1,4 +1,4 @@
-This lesson covers the basics of [Components](../../zilchmanual/architecture/components/components.md) and demonstrates basic usage of the [Collider](../../zilchmanual/physics/colliders.md), [RigidBody](../../zilchmanual/physics/rigidbody.md), [Sprite](../../zilchmanual/graphics/sprites/sprite.md), and [SpriteText](../../zilchmanual/graphics/sprites/spritetext.md) components.
+This lesson covers the basics of [Components](../../zilchmanual/architecture/components.md) and demonstrates basic usage of the [Collider](../../zilchmanual/physics/colliders.md), [RigidBody](../../zilchmanual/physics/rigidbody.md), [Sprite](../../zilchmanual/graphics/sprites/sprite.md), and [SpriteText](../../zilchmanual/graphics/sprites/spritetext.md) components.
 
 
  #  Learning Objectives
@@ -282,7 +282,7 @@ Let's take a look at our final result:
 
  #  Related Materials
  ##  Manual
-- [components](../../zilchmanual/architecture/components/components.md)
+- [components](../../zilchmanual/architecture/components.md)
 - [colliders](../../zilchmanual/physics/colliders.md)
 - [rigidbody](../../zilchmanual/physics/rigidbody.md)
 - [sprites](../../zilchmanual/graphics/sprites.md)

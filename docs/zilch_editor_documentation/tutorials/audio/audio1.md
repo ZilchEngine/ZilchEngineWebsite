@@ -12,7 +12,7 @@ This lesson focuses on covering the basics of audio in Zilch Engine.
 - [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Square`
- - [Add Component](../../zilchmanual/editor/addremovecomponent/) : [RigidBody]D:/Dev/CPP/ZilchEngine/ZilchEngineWebsite/docs/code_reference/class_reference/rigidbody.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody]D:/Dev/CPP/ZilchEngine/ZilchEngineWebsite/docs/code_reference/class_reference/rigidbody.md)
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [SimpleSound](../../../code_reference/class_reference/simplesound.md)
 

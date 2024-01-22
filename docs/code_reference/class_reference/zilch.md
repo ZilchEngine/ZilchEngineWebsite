@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[Connect](zero.md#connect-void)|[Audio](zero.md#audio-zilch-engine-docume)| | |
-|[Disconnect](zero.md#disconnect-void)|[Editor](zero.md#editor-zilch-engine-docum)| | |
-|[DisconnectAll](zero.md#disconnectall-void)|[Engine](zero.md#engine-zilch-engine-docum)| | |
-| |[Environment](zero.md#environment-zilch-engine)| | |
-| |[Gamepads](zero.md#gamepads-zilch-engine-doc)| | |
-| |[Joysticks](zero.md#joysticks-zilch-engine-do)| | |
-| |[Keyboard](zero.md#keyboard-zilch-engine-doc)| | |
-| |[Mouse](zero.md#mouse-zilch-engine-docume)| | |
-| |[ObjectStore](zero.md#objectstore-zilch-engine)| | |
-| |[OsShell](zero.md#osshell-zilch-engine-docu)| | |
-| |[ResourceSystem](zero.md#resourcesystem-zilch-engi)| | |
+|[Connect](zilch.md#connect-void)|[Audio](zilch.md#audio-zilch-engine-docume)| | |
+|[Disconnect](zilch.md#disconnect-void)|[Editor](zilch.md#editor-zilch-engine-docum)| | |
+|[DisconnectAll](zilch.md#disconnectall-void)|[Engine](zilch.md#engine-zilch-engine-docum)| | |
+| |[Environment](zilch.md#environment-zilch-engine)| | |
+| |[Gamepads](zilch.md#gamepads-zilch-engine-doc)| | |
+| |[Joysticks](zilch.md#joysticks-zilch-engine-do)| | |
+| |[Keyboard](zilch.md#keyboard-zilch-engine-doc)| | |
+| |[Mouse](zilch.md#mouse-zilch-engine-docume)| | |
+| |[ObjectStore](zilch.md#objectstore-zilch-engine)| | |
+| |[OsShell](zilch.md#osshell-zilch-engine-docu)| | |
+| |[ResourceSystem](zilch.md#resourcesystem-zilch-engi)| | |
 
 
  #  Properties

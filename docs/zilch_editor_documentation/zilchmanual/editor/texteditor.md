@@ -3,7 +3,7 @@ The Zilch Engine's text editor can be used to modify [NadaScripts](../nada_in_zi
  # Usability Features
 
 - [Text Editor Hotkeys](texteditor/texteditorhotkeys.md)
-- [Tab Completion](texteditor/tab completion.md)
+- [Tab Completion](texteditor/tab_completion.md)
 
  # Customization
 

@@ -200,7 +200,6 @@
 - [conflictoptions](class_reference/conflictoptions.md) 
 - [contentcomponent](class_reference/contentcomponent.md) 
 - [contentcomposition](class_reference/contentcomposition.md) 
-- [contentcopyright](class_reference/contentcopyright.md) 
 - [contenteditoroptions](class_reference/contenteditoroptions.md) 
 - [contenthistory](class_reference/contenthistory.md) 
 - [contentitem](class_reference/contentitem.md) 

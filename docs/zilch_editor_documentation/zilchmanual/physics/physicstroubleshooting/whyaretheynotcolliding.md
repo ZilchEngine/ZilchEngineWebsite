@@ -13,9 +13,9 @@ A common issue during development is to have two objects not collide when the us
  #  Related Materials
  ##  Manual
 - [physicstroubleshooting.md](../physicstroubleshooting.md)
-- [colliders.md](colliders.md)
-- [collisionoverview.md](collisionoverview.md)
-- [collisiongroupsandtables.md](collisionoverview/collisiongroupsandtables.md)
+- [colliders.md](../colliders.md)
+- [collisionoverview.md](../collisionoverview.md)
+- [collisiongroupsandtables.md](../collisionoverview/collisiongroupsandtables.md)
 
  ##  Reference
 - [Collider](../../../../code_reference/class_reference/collider.md)

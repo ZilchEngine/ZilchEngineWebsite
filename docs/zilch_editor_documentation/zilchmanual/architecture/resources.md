@@ -1,6 +1,5 @@
 Resources are where most data comes from in a game. While Cogs allow us to model any scene we want, the model will often lack context or depth with out resources such as visual and audio assets. While many resources are imported into a project from outside the engine some such as Levels and Archetypes are created within the engine.
 
-- [Resources](resources/resources.md)
 - [ResourceAdding](../editor/editorcommands/resourceadding.md)
 
  # Independent Resources
