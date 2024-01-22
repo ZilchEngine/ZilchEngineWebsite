@@ -2,19 +2,19 @@
  # Learning Objectives
 - Drawing debug primitives
 
-Often when developing a game we may we run into data that is hard to interpret from just printing to the [console](../../../code_reference/nada_base_types/console.md). Values such as [Velocity](../../../code_reference/class_reference/rigidbody.md#velocity-zilch-engine-doc) or the direction a [ Cog ](../../../code_reference/class_reference/cog.md) is facing are better represented visually than by numerical values. DebugDraw objects are a useful debuging technique that allows us to draw simple primitives to visually represent data in the game itself.
+Often when developing a game we may we run into data that is hard to interpret from just printing to the [console](../../../code_reference/nada_base_types/console.md). Values such as [Velocity](../../../code_reference/class_reference/rigidbody.md#velocity-zilch-engine-doc) or the direction a [Cog](../../../code_reference/class_reference/cog.md) is facing are better represented visually than by numerical values. DebugDraw objects are a useful debuging technique that allows us to draw simple primitives to visually represent data in the game itself.
 
  # Level Setup
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateCube](../../../code_reference/command_reference.md#createcube)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateCube](../../../code_reference/command_reference.md#createcube)
 - In the `Properties Window`
  - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, -2, 0]`
   - Set Scale  to `[20, 1, 1]`
-- [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
+- [Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `DebugLauncher`
 
 - Update the `DebugLauncher` class to the following:
@@ -68,12 +68,12 @@ class DebugLauncher : NadaComponent
 
 Notice we use [FrameUpdate](../../../code_reference/event_reference.md#frameupdate) as opposed to [LogicUpdate](../../../code_reference/event_reference.md#logicupdate). Generally, debug drawing should still occur when a [TimeSpace](../../../code_reference/class_reference/timespace.md) is paused, and FrameUpdate is sent every frame, whether a space is paused or not. 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSphere](../../../code_reference/command_reference.md#createsphere)
-- [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `DebugLauncher`
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSphere](../../../code_reference/command_reference.md#createsphere)
+- [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `DebugLauncher`
 - In the `Properties Window`
  - Under `DebugLauncher`
   - Set Camera  to GameCamera object
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 - `Click + Hold` and `Release` around on the screen above the platform
 
 
@@ -85,7 +85,7 @@ NOTE: The yellow circle overlaying the cursor is added to the image by the scree
 
 We can see when the mouse button is released that the velocity of the ball is set and the ball launches towards the cursor position. This is a prime example of a physics-based behavior that can be hard to debug or tune without further visual assistance.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # DebugLine
 One of the most common debug draw type is [DebugLine](../../../code_reference/class_reference/debugline.md), which is actually a line segment as it has start and end points. 
@@ -111,7 +111,7 @@ this.DrawDebug();
 
 Calling our `DrawDebug` function every frame that the mouse is down allows our drawing of the line segment to be reactive to when we want to communicate the information about the launch velocity. Integrating debug drawing into functionality you are implementing is a fairly common task.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 - `Click + Hold` and `Release` around on the screen above the platform
 
 
@@ -119,12 +119,12 @@ Calling our `DrawDebug` function every frame that the mouse is down allows our d
 ![DebugLauncherDraw](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/98968.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # DebugCircle
 There are many types that can be debug drawn, as can be seen in the [Related Materials](debugdrawing/.md#related_materials)[DebugCircle](../../../code_reference/class_reference/debugcircle.md), which will be used to make a clock.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `DebugClock`
 - Update the `DebugClock` class to the following:
 ```TS:DebugClock,
@@ -158,11 +158,11 @@ class DebugClock : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateTransform](../../../code_reference/command_reference.md#createtransform)
-- [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `DebugClock`
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `DebugClock`
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -171,7 +171,7 @@ class DebugClock : NadaComponent
 
 We can see the [DebugCircle](../../../code_reference/class_reference/debugcircle.md) being drawn in the background now. Just like we set the color of the line we can set the color of the circle. 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 - Add the following to the `DebugClock` class:
 ```TS:New DebugClock Variables
@@ -270,7 +270,7 @@ function OnFrameUpdate(event : UpdateEvent)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Watch the clock
 
@@ -286,15 +286,15 @@ function OnFrameUpdate(event : UpdateEvent)
 *Here we see the clock in motion at different point in it's cycle*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now we know how to debug draw simple objects. Let's look at a more complicated built-in example.
 
  # VortexEffect
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateTransform](../../../code_reference/command_reference.md#createtransform)
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [VortexEffect](../../../code_reference/class_reference/vortexeffect.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [VortexEffect](../../../code_reference/class_reference/vortexeffect.md)
  - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0,5,0]`
  - Under [VortexEffect](../../../code_reference/class_reference/vortexeffect.md)
@@ -309,17 +309,17 @@ Here is an example of a built-in debug draw effect in action. You actually see d
 
  # Related Materials
  ## Manual
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
-- [ Add Component](../../zilchmanual/editor/addremovecomponent.md)
-- [ Remove Component](../../zilchmanual/editor/addremovecomponent.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Add Component](../../zilchmanual/editor/addremovecomponent.md)
+- [Remove Component](../../zilchmanual/editor/addremovecomponent.md)
 
  ## Tutorial
 - [PhysicsEffects](../physics/physicseffects.md)
 
  ## Reference
  ### Classes
-- [ Cog ](../../../code_reference/class_reference/cog.md)
+- [Cog](../../../code_reference/class_reference/cog.md)
 - [Console](../../../code_reference/nada_base_types/console.md)
 - [RigidBody](../../../code_reference/class_reference/rigidbody.md)
 - [DebugArc](../../../code_reference/class_reference/debugarc.md)
@@ -338,12 +338,12 @@ Here is an example of a built-in debug draw effect in action. You actually see d
 - [VortexEffect](../../../code_reference/class_reference/vortexeffect.md)
 
  ### Commands
-- [ New Project](../../../code_reference/command_reference.md#newproject)
-- [ CreateTransform](../../../code_reference/command_reference.md#createtransform)
-- [ CreateCube](../../../code_reference/command_reference.md#createcube)
+- [New Project](../../../code_reference/command_reference.md#newproject)
+- [CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [CreateCube](../../../code_reference/command_reference.md#createcube)
 
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ## Development Task
 - T1343 

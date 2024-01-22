@@ -1,4 +1,4 @@
-The [ CompressorNode ](../../../../code_reference/class_reference/compressornode.md) collects audio data from all of its inputs and applies a compressor filter before passing the data along to its outputs. 
+The [CompressorNode](../../../../code_reference/class_reference/compressornode.md) collects audio data from all of its inputs and applies a compressor filter before passing the data along to its outputs. 
 
  # Common Uses
 
@@ -21,6 +21,6 @@ The `AttackMillisec` and `ReleaseMillisec` properties control how quickly the fi
 - [expandernode](expandernode.md)
 
  ## Code Reference
-- [ CompressorNode ](../../../../code_reference/class_reference/compressornode.md) 
+- [CompressorNode](../../../../code_reference/class_reference/compressornode.md) 
 
  

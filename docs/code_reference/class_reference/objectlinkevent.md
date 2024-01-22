@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EdgeId](objectlinkevent.md#edgeid-zilch-engine-docum)|[event](event.md)| |
-| |[ NewCog](objectlinkevent.md#newcog-zilch-engine-docum)| | |
-| |[ OldCog](objectlinkevent.md#oldcog-zilch-engine-docum)| | |
+| |[EdgeId](objectlinkevent.md#edgeid-zilch-engine-docum)|[event](event.md)| |
+| |[NewCog](objectlinkevent.md#newcog-zilch-engine-docum)| | |
+| |[OldCog](objectlinkevent.md#oldcog-zilch-engine-docum)| | |
 
 
  #  Properties

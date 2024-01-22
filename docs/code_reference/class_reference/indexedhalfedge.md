@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](indexedhalfedge.md#indexedhalfedge-void)|[ FaceIndex](indexedhalfedge.md#faceindex-zilch-engine-do)|[safeid32object](safeid32object.md)| |
-| |[ TwinIndex](indexedhalfedge.md#twinindex-zilch-engine-do)| | |
-| |[ VertexIndex](indexedhalfedge.md#vertexindex-zilch-engine)| | |
+|[Constructor](indexedhalfedge.md#indexedhalfedge-void)|[FaceIndex](indexedhalfedge.md#faceindex-zilch-engine-do)|[safeid32object](safeid32object.md)| |
+| |[TwinIndex](indexedhalfedge.md#twinindex-zilch-engine-do)| | |
+| |[VertexIndex](indexedhalfedge.md#vertexindex-zilch-engine)| | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](unittestmouseevent.md#unittestmouseevent-void)| |UnitTestBaseMouseEvent| |
+|[Constructor](unittestmouseevent.md#unittestmouseevent-void)| |UnitTestBaseMouseEvent| |
 
 
  #  Properties

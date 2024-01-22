@@ -6,9 +6,9 @@ This lesson covers how to import and use sprite sheets to create sprite animatio
  - Sprite animation parameters
 
  # Level Setup
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Player`
  - Under [Transform](../../../code_reference/class_reference/transform.md)
@@ -90,14 +90,14 @@ Now that we've generated the animation resources, we can start using them with s
  - Under [Sprite](../../../code_reference/class_reference/sprite.md)
  - Set SpriteSource enum to `Walk`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![WalkAnimatio](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106332.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Looking at the [Sprite](../../../code_reference/class_reference/sprite.md) component on the property grid we find that the last 4 properties are dedicated to sprite animations. They are:
 
@@ -110,7 +110,7 @@ Looking at the [Sprite](../../../code_reference/class_reference/sprite.md) compo
 
 Let's add a component that lets us control the animation.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `PlayerAnimationController`
 - In the `PlayerAnimationController` script
  - Update the `PlayerAnimationController` class to the following:
@@ -158,8 +158,8 @@ class PlayerAnimationController : NadaComponent
 ```
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `PlayerAnimationController`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `PlayerAnimationController`
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `Space`
 
@@ -168,7 +168,7 @@ class PlayerAnimationController : NadaComponent
 ![WalkAndRoll](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/106395.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
@@ -186,8 +186,8 @@ class PlayerAnimationController : NadaComponent
 
  ### Commands
 - [CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  ## Development Task

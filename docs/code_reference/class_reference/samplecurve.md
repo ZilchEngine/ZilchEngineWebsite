@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DebugSample](samplecurve.md#debugsample-zilch-engine)|[ HeightMax](samplecurve.md#heightmax-zilch-engine-do)|[dataresource](dataresource.md)| |
-|[ Sample](samplecurve.md#sample-zilch-engine-docum)|[ WidthMax](samplecurve.md#widthmax-zilch-engine-doc)| | |
+|[DebugSample](samplecurve.md#debugsample-zilch-engine)|[HeightMax](samplecurve.md#heightmax-zilch-engine-do)|[dataresource](dataresource.md)| |
+|[Sample](samplecurve.md#sample-zilch-engine-docum)|[WidthMax](samplecurve.md#widthmax-zilch-engine-doc)| | |
 
 
  #  Properties

@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](resourcetemplate.md#resourcetemplate-void)|[ Category](resourcetemplate.md#category-zilch-engine-doc)|[contentcomponent](contentcomponent.md)| |
-| |[ CategorySortWeight](resourcetemplate.md#categorysortweight-zero)| | |
-| |[ Description](resourcetemplate.md#description-zilch-engine)| | |
-| |[ DisplayName](resourcetemplate.md#displayname-zilch-engine)| | |
-| |[ SortWeight](resourcetemplate.md#sortweight-zilch-engine-d)| | |
+|[Constructor](resourcetemplate.md#resourcetemplate-void)|[Category](resourcetemplate.md#category-zilch-engine-doc)|[contentcomponent](contentcomponent.md)| |
+| |[CategorySortWeight](resourcetemplate.md#categorysortweight-zero)| | |
+| |[Description](resourcetemplate.md#description-zilch-engine)| | |
+| |[DisplayName](resourcetemplate.md#displayname-zilch-engine)| | |
+| |[SortWeight](resourcetemplate.md#sortweight-zilch-engine-d)| | |
 
 
  #  Properties

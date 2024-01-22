@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](sweepresult.md#sweepresult-void)|[ OtherCollider](sweepresult.md#othercollider-zilch-engin)| | |
-| |[ OtherObject](sweepresult.md#otherobject-zilch-engine)| | |
-| |[ Penetration](sweepresult.md#penetration-zilch-engine)| | |
-| |[ Time](sweepresult.md#time-zilch-engine-documen)| | |
-| |[ WorldNormalTowardsOther](sweepresult.md#worldnormaltowardsother)| | |
-| |[ WorldNormalTowardsSelf](sweepresult.md#worldnormaltowardsself-z)| | |
-| |[ WorldPoint](sweepresult.md#worldpoint-zilch-engine-d)| | |
+|[Constructor](sweepresult.md#sweepresult-void)|[OtherCollider](sweepresult.md#othercollider-zilch-engin)| | |
+| |[OtherObject](sweepresult.md#otherobject-zilch-engine)| | |
+| |[Penetration](sweepresult.md#penetration-zilch-engine)| | |
+| |[Time](sweepresult.md#time-zilch-engine-documen)| | |
+| |[WorldNormalTowardsOther](sweepresult.md#worldnormaltowardsother)| | |
+| |[WorldNormalTowardsSelf](sweepresult.md#worldnormaltowardsself-z)| | |
+| |[WorldPoint](sweepresult.md#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties

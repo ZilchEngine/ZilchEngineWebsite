@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](selectionicon.md#selectionicon-void)|[ Material](selectionicon.md#material-zilch-engine-doc)|[component](component.md)| |
-| |[ OverrideSelections](selectionicon.md#overrideselections-zero)| | |
-| |[ ShaderInputs](selectionicon.md#shaderinputs-zilch-engine)| | |
-| |[ SpriteSource](selectionicon.md#spritesource-zilch-engine)| | |
-| |[ ViewScale](selectionicon.md#viewscale-zilch-engine-do)| | |
-| |[ VisibilityEvents](selectionicon.md#visibilityevents-zilch-en)| | |
-| |[ Visible](selectionicon.md#visible-zilch-engine-docu)| | |
+|[Constructor](selectionicon.md#selectionicon-void)|[Material](selectionicon.md#material-zilch-engine-doc)|[component](component.md)| |
+| |[OverrideSelections](selectionicon.md#overrideselections-zero)| | |
+| |[ShaderInputs](selectionicon.md#shaderinputs-zilch-engine)| | |
+| |[SpriteSource](selectionicon.md#spritesource-zilch-engine)| | |
+| |[ViewScale](selectionicon.md#viewscale-zilch-engine-do)| | |
+| |[VisibilityEvents](selectionicon.md#visibilityevents-zilch-en)| | |
+| |[Visible](selectionicon.md#visible-zilch-engine-docu)| | |
 
 
  #  Properties

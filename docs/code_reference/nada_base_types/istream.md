@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Flush](istream.md#flush-void)|[ Capabilities](istream.md#capabilities-zilch-engine)| |[filestream](filestream.md)|
-|[ Constructor](istream.md#istream-void)|[ Count](istream.md#count-zilch-engine-docume)| | |
-|[ Read](istream.md#read-zilch-engine-documen)|[ Position](istream.md#position-zilch-engine-doc)| | |
-|[ ReadAllText](istream.md#readalltext-zilch-engine)| | | |
-|[ ReadByte](istream.md#readbyte-zilch-engine-doc)| | | |
-|[ ReadLine](istream.md#readline-zilch-engine-doc)| | | |
-|[ Seek](istream.md#seek-zilch-engine-documen)| | | |
-|[ Write](istream.md#write-zilch-engine-docume)| | | |
-|[ WriteByte](istream.md#writebyte-zilch-engine-do)| | | |
-|[ WriteText](istream.md#writetext-zilch-engine-do)| | | |
+|[Flush](istream.md#flush-void)|[Capabilities](istream.md#capabilities-zilch-engine)| |[filestream](filestream.md)|
+|[Constructor](istream.md#istream-void)|[Count](istream.md#count-zilch-engine-docume)| | |
+|[Read](istream.md#read-zilch-engine-documen)|[Position](istream.md#position-zilch-engine-doc)| | |
+|[ReadAllText](istream.md#readalltext-zilch-engine)| | | |
+|[ReadByte](istream.md#readbyte-zilch-engine-doc)| | | |
+|[ReadLine](istream.md#readline-zilch-engine-doc)| | | |
+|[Seek](istream.md#seek-zilch-engine-documen)| | | |
+|[Write](istream.md#write-zilch-engine-docume)| | | |
+|[WriteByte](istream.md#writebyte-zilch-engine-do)| | | |
+|[WriteText](istream.md#writetext-zilch-engine-do)| | | |
 
 
  #  Properties

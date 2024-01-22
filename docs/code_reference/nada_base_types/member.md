@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ IsStatic](member.md#isstatic-zilch-engine-doc)|[reflectionobject](reflectionobject.md)|[function](function.md)|
-| |[ Library](member.md#library-zilch-engine-docu)| | |
-| |[ Name](member.md#name-zilch-engine-documen)| | |
-| |[ Owner](member.md#owner-zilch-engine-docume)| | |
-| |[ Type](member.md#type-zilch-engine-documen)| | |
+| |[IsStatic](member.md#isstatic-zilch-engine-doc)|[reflectionobject](reflectionobject.md)|[function](function.md)|
+| |[Library](member.md#library-zilch-engine-docu)| | |
+| |[Name](member.md#name-zilch-engine-documen)| | |
+| |[Owner](member.md#owner-zilch-engine-docume)| | |
+| |[Type](member.md#type-zilch-engine-documen)| | |
 
 
  #  Properties

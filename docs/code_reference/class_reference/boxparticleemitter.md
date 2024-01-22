@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](boxparticleemitter.md#boxparticleemitter-void)| |[particleemittershared](particleemittershared.md)| |
+|[Constructor](boxparticleemitter.md#boxparticleemitter-void)| |[particleemittershared](particleemittershared.md)| |
 
 
  #  Properties

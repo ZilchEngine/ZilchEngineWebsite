@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](spline.md#clone-zilch-engine-docume)|[ BakedPoints](spline.md#bakedpoints-zilch-engine)|[referencecountedeventobject](referencecountedeventobject.md)| |
-|[ Create](spline.md#create-zilch-engine-docum)|[ Closed](spline.md#closed-zilch-engine-docum)| | |
-|[ DebugDraw](spline.md#debugdraw-void)|[ ControlPoints](spline.md#controlpoints-zilch-engin)| | |
-|[ ForceRebuild](spline.md#forcerebuild-void)|[ Error](spline.md#error-zilch-engine-docume)| | |
-|[ RebuildIfModified](spline.md#rebuildifmodified-void)|[ SplineType](spline.md#splinetype-zilch-engine-d)| | |
-|[ SampleDistance](spline.md#sampledistance-zilch-engi)|[ TotalDistance](spline.md#totaldistance-zilch-engin)| | |
-|[ SampleNormalized](spline.md#samplenormalized-zilch-en)| | | |
+|[Clone](spline.md#clone-zilch-engine-docume)|[BakedPoints](spline.md#bakedpoints-zilch-engine)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[Create](spline.md#create-zilch-engine-docum)|[Closed](spline.md#closed-zilch-engine-docum)| | |
+|[DebugDraw](spline.md#debugdraw-void)|[ControlPoints](spline.md#controlpoints-zilch-engin)| | |
+|[ForceRebuild](spline.md#forcerebuild-void)|[Error](spline.md#error-zilch-engine-docume)| | |
+|[RebuildIfModified](spline.md#rebuildifmodified-void)|[SplineType](spline.md#splinetype-zilch-engine-d)| | |
+|[SampleDistance](spline.md#sampledistance-zilch-engi)|[TotalDistance](spline.md#totaldistance-zilch-engin)| | |
+|[SampleNormalized](spline.md#samplenormalized-zilch-en)| | | |
 
 
  #  Properties

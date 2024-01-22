@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddCommandByName](contextmenuentry.md#addcommandbyname-zilch-en)|[ Icon](contextmenuentry.md#icon-zilch-engine-documen)|[safeid32eventobject](safeid32eventobject.md)|[contextmenuentrycommand](contextmenuentrycommand.md)|
-|[ AddDivider](contextmenuentry.md#adddivider-zilch-engine-d)|[ Name](contextmenuentry.md#name-zilch-engine-documen)| |[contextmenuentrydivider](contextmenuentrydivider.md)|
-|[ AddEntry](contextmenuentry.md#addentry-zilch-engine-doc)| | |[contextmenuentrymenu](contextmenuentrymenu.md)|
-|[ Constructor](contextmenuentry.md#contextmenuentry-void)| | | |
-|[ Entries](contextmenuentry.md#entries-zilch-engine-docu)| | | |
-|[ GetEntry](contextmenuentry.md#getentry-zilch-engine-doc)| | | |
-|[ RemoveEntry](contextmenuentry.md#removeentry-void)| | | |
+|[AddCommandByName](contextmenuentry.md#addcommandbyname-zilch-en)|[Icon](contextmenuentry.md#icon-zilch-engine-documen)|[safeid32eventobject](safeid32eventobject.md)|[contextmenuentrycommand](contextmenuentrycommand.md)|
+|[AddDivider](contextmenuentry.md#adddivider-zilch-engine-d)|[Name](contextmenuentry.md#name-zilch-engine-documen)| |[contextmenuentrydivider](contextmenuentrydivider.md)|
+|[AddEntry](contextmenuentry.md#addentry-zilch-engine-doc)| | |[contextmenuentrymenu](contextmenuentrymenu.md)|
+|[Constructor](contextmenuentry.md#contextmenuentry-void)| | | |
+|[Entries](contextmenuentry.md#entries-zilch-engine-docu)| | | |
+|[GetEntry](contextmenuentry.md#getentry-zilch-engine-doc)| | | |
+|[RemoveEntry](contextmenuentry.md#removeentry-void)| | | |
 
 
  #  Properties

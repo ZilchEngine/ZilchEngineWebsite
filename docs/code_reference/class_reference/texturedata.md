@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](texturedata.md#get-zilch-engine-document)|[ Format](texturedata.md#format-zilch-engine-docum)| | |
-|[ Set](texturedata.md#set-void)|[ Height](texturedata.md#height-zilch-engine-docum)| | |
-|[ Constructor](texturedata.md#texturedata-void)|[ PixelCount](texturedata.md#pixelcount-zilch-engine-d)| | |
-| |[ Width](texturedata.md#width-zilch-engine-docume)| | |
+|[Get](texturedata.md#get-zilch-engine-document)|[Format](texturedata.md#format-zilch-engine-docum)| | |
+|[Set](texturedata.md#set-void)|[Height](texturedata.md#height-zilch-engine-docum)| | |
+|[Constructor](texturedata.md#texturedata-void)|[PixelCount](texturedata.md#pixelcount-zilch-engine-d)| | |
+| |[Width](texturedata.md#width-zilch-engine-docume)| | |
 
 
  #  Properties

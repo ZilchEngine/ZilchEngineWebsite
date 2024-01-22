@@ -2,19 +2,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](cogpath.md#clone-zilch-engine-docume)|[ Cog](cogpath.md#cog-zilch-engine-document)|Object| |
-|[ Constructor](cogpath.md#cogpath-void)|[ DirectCog](cogpath.md#directcog-zilch-engine-do)| | |
-|[ ComputePath](cogpath.md#computepath-zilch-engine)|[ ErrorOnDirectLinkFail](cogpath.md#errorondirectlinkfail-ze)| | |
-|[ Refresh](cogpath.md#refresh-zilch-engine-docu)|[ ErrorOnPathCantCompute](cogpath.md#erroronpathcantcompute-z)| | |
-|[ RefreshIfNull](cogpath.md#refreshifnull-zilch-engin)|[ ErrorOnResolveToNull](cogpath.md#erroronresolvetonull-zer)| | |
-|[ Resolve](cogpath.md#resolve-zilch-engine-docu)|[ Path](cogpath.md#path-zilch-engine-documen)| | |
-| |[ PathPreference0](cogpath.md#pathpreference0-zilch-eng)| | |
-| |[ PathPreference1](cogpath.md#pathpreference1-zilch-eng)| | |
-| |[ PathPreference2](cogpath.md#pathpreference2-zilch-eng)| | |
-| |[ RelativeTo](cogpath.md#relativeto-zilch-engine-d)| | |
-| |[ UpdateCogOnInitialize](cogpath.md#updatecogoninitialize-ze)| | |
-| |[ UpdateCogOnPathChange](cogpath.md#updatecogonpathchange-ze)| | |
-| |[ UpdatePathOnCogChange](cogpath.md#updatepathoncogchange-ze)| | |
+|[Clone](cogpath.md#clone-zilch-engine-docume)|[Cog](cogpath.md#cog-zilch-engine-document)|Object| |
+|[Constructor](cogpath.md#cogpath-void)|[DirectCog](cogpath.md#directcog-zilch-engine-do)| | |
+|[ComputePath](cogpath.md#computepath-zilch-engine)|[ErrorOnDirectLinkFail](cogpath.md#errorondirectlinkfail-ze)| | |
+|[Refresh](cogpath.md#refresh-zilch-engine-docu)|[ErrorOnPathCantCompute](cogpath.md#erroronpathcantcompute-z)| | |
+|[RefreshIfNull](cogpath.md#refreshifnull-zilch-engin)|[ErrorOnResolveToNull](cogpath.md#erroronresolvetonull-zer)| | |
+|[Resolve](cogpath.md#resolve-zilch-engine-docu)|[Path](cogpath.md#path-zilch-engine-documen)| | |
+| |[PathPreference0](cogpath.md#pathpreference0-zilch-eng)| | |
+| |[PathPreference1](cogpath.md#pathpreference1-zilch-eng)| | |
+| |[PathPreference2](cogpath.md#pathpreference2-zilch-eng)| | |
+| |[RelativeTo](cogpath.md#relativeto-zilch-engine-d)| | |
+| |[UpdateCogOnInitialize](cogpath.md#updatecogoninitialize-ze)| | |
+| |[UpdateCogOnPathChange](cogpath.md#updatecogonpathchange-ze)| | |
+| |[UpdatePathOnCogChange](cogpath.md#updatepathoncogchange-ze)| | |
 
 
  #  Properties

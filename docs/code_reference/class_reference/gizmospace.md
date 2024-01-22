@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](gizmospace.md#gizmospace-void)| |[component](component.md)| |
+|[Constructor](gizmospace.md#gizmospace-void)| |[component](component.md)| |
 
 
  #  Properties

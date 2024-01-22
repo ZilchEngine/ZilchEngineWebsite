@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ForceRebuild](hierarchyspline.md#forcerebuild-void)|[ Closed](hierarchyspline.md#closed-zilch-engine-docum)|[component](component.md)| |
-|[ Constructor](hierarchyspline.md#hierarchyspline-void)|[ DebugDrawSpline](hierarchyspline.md#debugdrawspline-zilch-eng)| | |
-|[ RebuildIfModified](hierarchyspline.md#rebuildifmodified-void)|[ Error](hierarchyspline.md#error-zilch-engine-docume)| | |
-| |[ Spline](hierarchyspline.md#spline-zilch-engine-docum)| | |
-| |[ SplineColor](hierarchyspline.md#splinecolor-zilch-engine)| | |
-| |[ SplineType](hierarchyspline.md#splinetype-zilch-engine-d)| | |
+|[ForceRebuild](hierarchyspline.md#forcerebuild-void)|[Closed](hierarchyspline.md#closed-zilch-engine-docum)|[component](component.md)| |
+|[Constructor](hierarchyspline.md#hierarchyspline-void)|[DebugDrawSpline](hierarchyspline.md#debugdrawspline-zilch-eng)| | |
+|[RebuildIfModified](hierarchyspline.md#rebuildifmodified-void)|[Error](hierarchyspline.md#error-zilch-engine-docume)| | |
+| |[Spline](hierarchyspline.md#spline-zilch-engine-docum)| | |
+| |[SplineColor](hierarchyspline.md#splinecolor-zilch-engine)| | |
+| |[SplineType](hierarchyspline.md#splinetype-zilch-engine-d)| | |
 
 
  #  Properties

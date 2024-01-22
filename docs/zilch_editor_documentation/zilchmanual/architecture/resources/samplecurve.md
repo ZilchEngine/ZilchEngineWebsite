@@ -147,7 +147,7 @@ Since using `SampleCurve.Sample()` uses the full values of both axes, if they ar
 
  # Related Materials
  ## Manual
-- [Using Custom Eases in Actions ](../../editor/usingcustomeaseinactions.md)
+- [Using Custom Eases in Actions](../../editor/usingcustomeaseinactions.md)
 
  ## Tutorials
 - [Using Actions](../../../tutorials/scripting/actions.md)

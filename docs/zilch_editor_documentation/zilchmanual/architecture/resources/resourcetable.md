@@ -1,16 +1,16 @@
-[ResourceTable](../../../../code_reference/class_reference/resourcetable.md) is a resource that stores a collection of entries of a certain resource type for sampling during run-time. Sampling can be performed through three different interfaces: array, hashmap, and a [ weighted table](../../../../../docs.md#weightedtable-interface).
+[ResourceTable](../../../../code_reference/class_reference/resourcetable.md) is a resource that stores a collection of entries of a certain resource type for sampling during run-time. Sampling can be performed through three different interfaces: array, hashmap, and a [weighted table](../../../../../docs.md#weightedtable-interface).
 
 
 
 
 ![ResourceTable1](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47118.PNG)
 
-ResourceTables store a homogeneous collection of entries. Pictured above is a table of [ Archetypes ](../archetypes.md). This can be switched to any other resource type or to strings.
+ResourceTables store a homogeneous collection of entries. Pictured above is a table of [Archetypes](../archetypes.md). This can be switched to any other resource type or to strings.
 
 ResourceTable entries are composed of three items:
  - **Name**: A name used for hashmap queries. This is sometimes used as a display name for the entry. Note: This name does not have to Value. 
  - **Value**: The actual resource/string of the entry.
- - **Weight**: The weight to use when randomly sampling the table. See the [ WeightedTable Interface](../../../../../docs.md#weightedtable-interface) section below for details.
+ - **Weight**: The weight to use when randomly sampling the table. See the [WeightedTable Interface](../../../../../docs.md#weightedtable-interface) section below for details.
 
 All sampling functions for a ResourceTable return a [ResourceTableEntry](../../../../code_reference/class_reference/resourcetableentry.md). In addition to the above listed properties, the stored resource can also be looked up via the `Resource` property. Note: This must be casted to the correct resource type.
 

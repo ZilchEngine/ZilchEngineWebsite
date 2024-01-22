@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](netspace.md#netspace-void)|[ NetObjectCount](netspace.md#netobjectcount-zilch-engi)|[netobject](netobject.md)| |
-| |[ NetUserCount](netspace.md#netusercount-zilch-engine)| | |
+|[Constructor](netspace.md#netspace-void)|[NetObjectCount](netspace.md#netobjectcount-zilch-engi)|[netobject](netobject.md)| |
+| |[NetUserCount](netspace.md#netusercount-zilch-engine)| | |
 
 
  #  Properties

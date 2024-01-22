@@ -1,4 +1,4 @@
-The [ GeneratedWaveNode](../../../../code_reference/class_reference/generatedwavenode.md) will generate audio using a specified wave type and frequency. Since it is a generating node, it will ignore any input connections.
+The [GeneratedWaveNode](../../../../code_reference/class_reference/generatedwavenode.md) will generate audio using a specified wave type and frequency. Since it is a generating node, it will ignore any input connections.
 
  # Common Uses
 
@@ -75,6 +75,6 @@ class SimpleSiren : NadaComponent
 - [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ GeneratedWaveNode ](../../../../code_reference/class_reference/generatedwavenode.md) 
+- [GeneratedWaveNode](../../../../code_reference/class_reference/generatedwavenode.md) 
 
  

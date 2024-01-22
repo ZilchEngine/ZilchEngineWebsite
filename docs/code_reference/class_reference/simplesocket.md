@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](simplesocket.md#simplesocket-void)|[ Socket](simplesocket.md#socket-zilch-engine-docum)|[component](component.md)| |
+|[Constructor](simplesocket.md#simplesocket-void)|[Socket](simplesocket.md#socket-zilch-engine-docum)|[component](component.md)| |
 
 
  #  Properties

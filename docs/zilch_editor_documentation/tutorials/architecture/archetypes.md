@@ -10,13 +10,13 @@ This lesson focuses on covering the basics of how Archetypes work in Zilch Engin
 - Turning hierarchies into archetypes
 
  # Level Setup
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `RedCircle`
- - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
+ - Under [Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `Red: [R:255, G:0, B:0, A:1.00]`
   - Set  SpriteSource texture to `Circle`
 
@@ -84,7 +84,7 @@ The other useful property of Archetypes is being able to edit their definition a
 
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : RedCircle object
 - In the `Properties Window`
- - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
+ - Under [Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `Blue: [R:0, G:0, B:255, A:1.00]`
 
 Notice that the modified property turns orange; this means that this property has been modified from the archetype this object is associated with.
@@ -112,7 +112,7 @@ Another benefit of Archetypes is being able to revert an instance with modified 
 
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : RedCircle object (the left most)
 - In the `Properties Window`
- - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
+ - Under [Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `Green: [R:0, G:255, B:0, A:1.00]`
 
 
@@ -145,7 +145,7 @@ In addition to single objects you can also turn object hierarchies into archetyp
  - Press  `Ctrl + A`
  - Press  `Delete`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `ParentSquare`
@@ -153,7 +153,7 @@ In addition to single objects you can also turn object hierarchies into archetyp
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
  - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, 0, 0]`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `ChildSquare`
@@ -180,27 +180,27 @@ You can now create multiple copies of that new hierarchy by instantiating it.
 
 Once parented, both objects behave physically as if they were a single one. Let's test that by adding the following:
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateCube](../../../code_reference/command_reference.md#createcube)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateCube](../../../code_reference/command_reference.md#createcube)
 - In the `Properties Window`
  - [Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
  - Under [Transform](../../../code_reference/class_reference/transform.md)
     - Set Translation  to: `[-2, -4, 0]`
     - Set Scale  to: `[4, 1, 1]`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![SquaresCollision](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/88652.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
  ## Manual
 - [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
-- [ COGs](../../zilchmanual/architecture/cogs/gameobjectsconcept.md)
-- [ Archetypes](../../zilchmanual/architecture/archetypes.md)
+- [COGs](../../zilchmanual/architecture/cogs/gameobjectsconcept.md)
+- [Archetypes](../../zilchmanual/architecture/archetypes.md)
 
  ## Reference
  ### Classes
@@ -211,8 +211,8 @@ Once parented, both objects behave physically as if they were a single one. Let'
 - [BoxCollider](../../../code_reference/class_reference/boxcollider.md)
 
  ### Commands
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - [CreateCube](../../../code_reference/command_reference.md#createcube) 
 

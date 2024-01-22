@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](cylindercollider.md#cylindercollider-void)|[ Direction](cylindercollider.md#direction-zilch-engine-do)|[collider](collider.md)| |
-| |[ Height](cylindercollider.md#height-zilch-engine-docum)| | |
-| |[ Radius](cylindercollider.md#radius-zilch-engine-docum)| | |
-| |[ WorldHeight](cylindercollider.md#worldheight-zilch-engine)| | |
-| |[ WorldRadius](cylindercollider.md#worldradius-zilch-engine)| | |
+|[Constructor](cylindercollider.md#cylindercollider-void)|[Direction](cylindercollider.md#direction-zilch-engine-do)|[collider](collider.md)| |
+| |[Height](cylindercollider.md#height-zilch-engine-docum)| | |
+| |[Radius](cylindercollider.md#radius-zilch-engine-docum)| | |
+| |[WorldHeight](cylindercollider.md#worldheight-zilch-engine)| | |
+| |[WorldRadius](cylindercollider.md#worldradius-zilch-engine)| | |
 
 
  #  Properties

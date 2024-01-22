@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Capture](mousecapture.md#capture-zilch-engine-docu)|[ IsCaptured](mousecapture.md#iscaptured-zilch-engine-d)|[component](component.md)| |
-|[ Constructor](mousecapture.md#mousecapture-void)| | | |
-|[ ReleaseCapture](mousecapture.md#releasecapture-void)| | | |
+|[Capture](mousecapture.md#capture-zilch-engine-docu)|[IsCaptured](mousecapture.md#iscaptured-zilch-engine-d)|[component](component.md)| |
+|[Constructor](mousecapture.md#mousecapture-void)| | | |
+|[ReleaseCapture](mousecapture.md#releasecapture-void)| | | |
 
 
  #  Properties

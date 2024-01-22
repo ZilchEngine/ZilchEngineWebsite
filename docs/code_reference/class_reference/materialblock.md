@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](materialblock.md#materialblock-void)| |Object|[materialblockproxy](materialblockproxy.md)|
+|[Constructor](materialblock.md#materialblock-void)| |Object|[materialblockproxy](materialblockproxy.md)|
 
 
  #  Properties

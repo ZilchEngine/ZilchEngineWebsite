@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](filestream.md#close-void)| |[istream](istream.md)| |
-|[ Constructor](filestream.md#filestream-void)| | | |
+|[Close](filestream.md#close-void)| |[istream](istream.md)| |
+|[Constructor](filestream.md#filestream-void)| | | |
 
 
  #  Properties

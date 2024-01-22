@@ -1,4 +1,4 @@
-Add and remove [ components  ](../architecture/components.md) from objects to give them new functionality.
+Add and remove [components ](../architecture/components.md) from objects to give them new functionality.
 
  # Adding a Component
 There are multiple ways to add a component to an object:

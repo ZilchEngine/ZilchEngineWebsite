@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](jointspring.md#jointspring-void)|[ Active](jointspring.md#active-zilch-engine-docum)|[component](component.md)| |
-| |[ AtomIds](jointspring.md#atomids-zilch-engine-docu)| | |
-| |[ DampingRatio](jointspring.md#dampingratio-zilch-engine)| | |
-| |[ FrequencyHz](jointspring.md#frequencyhz-zilch-engine)| | |
+|[Constructor](jointspring.md#jointspring-void)|[Active](jointspring.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[AtomIds](jointspring.md#atomids-zilch-engine-docu)| | |
+| |[DampingRatio](jointspring.md#dampingratio-zilch-engine)| | |
+| |[FrequencyHz](jointspring.md#frequencyhz-zilch-engine)| | |
 
 
  #  Properties

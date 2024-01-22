@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugcone.md#debugcone-void)|[ Color](debugcone.md#color-zilch-engine-docume)| | |
-| |[ Direction](debugcone.md#direction-zilch-engine-do)| | |
-| |[ Length](debugcone.md#length-zilch-engine-docum)| | |
-| |[ OnTop](debugcone.md#ontop-zilch-engine-docume)| | |
-| |[ Position](debugcone.md#position-zilch-engine-doc)| | |
-| |[ Radius](debugcone.md#radius-zilch-engine-docum)| | |
-| |[ ViewAligned](debugcone.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugcone.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugcone.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugcone.md#debugcone-void)|[Color](debugcone.md#color-zilch-engine-docume)| | |
+| |[Direction](debugcone.md#direction-zilch-engine-do)| | |
+| |[Length](debugcone.md#length-zilch-engine-docum)| | |
+| |[OnTop](debugcone.md#ontop-zilch-engine-docume)| | |
+| |[Position](debugcone.md#position-zilch-engine-doc)| | |
+| |[Radius](debugcone.md#radius-zilch-engine-docum)| | |
+| |[ViewAligned](debugcone.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugcone.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugcone.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

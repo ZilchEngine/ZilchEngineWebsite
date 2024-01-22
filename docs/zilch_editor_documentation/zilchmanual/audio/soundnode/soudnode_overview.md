@@ -1,6 +1,6 @@
 ![Graph](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46355.png)
 
-[ SoundNodes ](../../../../code_reference/class_reference/soundnode.md) are the building blocks behind all audio in the Zilch Engine. A SoundNode receives audio data from other SoundNodes through its input connections, modifies that data in some way (or simply collects it), then passes it along to more SoundNodes through its output connections.
+[SoundNodes](../../../../code_reference/class_reference/soundnode.md) are the building blocks behind all audio in the Zilch Engine. A SoundNode receives audio data from other SoundNodes through its input connections, modifies that data in some way (or simply collects it), then passes it along to more SoundNodes through its output connections.
 
 Some SoundNodes only generate audio data, like [SoundInstances](../soundinstance.md). Those nodes do not collect anything from their input connections and attaching nodes to their input would have no effect.
 
@@ -14,7 +14,7 @@ The [SoundNode Graph](../soundnode_graph.md) tool can be extremely helpful when 
 
 WARNING: SoundNodes can be connected in many complicated ways, but users must be careful not to create a loop. If loops are created, the user will receive an error, and the SoundNodes will be automatically disconnected.
 
-In most cases, nodes can be connected in any order and to any number of other nodes. The exception is the [PitchNode ](pitchnode.md). The PitchNode changes the pitch of a sound by essentially stretching or squishing the sound waves, which means that it needs a different amount of data than other nodes. This causes a problem when a PitchNode and a node that was not pitch-shifted request data from the same SoundInstance.
+In most cases, nodes can be connected in any order and to any number of other nodes. The exception is the [PitchNode](pitchnode.md). The PitchNode changes the pitch of a sound by essentially stretching or squishing the sound waves, which means that it needs a different amount of data than other nodes. This causes a problem when a PitchNode and a node that was not pitch-shifted request data from the same SoundInstance.
 
 WARNING: When using PitchNodes, if a generating node has multiple output connections the user must make sure all of them are at the same pitch. If SoundNodes request data from the generating node at different pitch settings there will be an error and the nodes will be disconnected.
 
@@ -73,19 +73,19 @@ If the `AutoCollapse` property is set to True, the SoundNode will automatically 
 
  ## Nada Events
 
-- The `SoundNodeDisconnected` [ SoundEvent ](../../../../code_reference/class_reference/soundevent.md) is sent by all SoundNodes when they are is completely disconnected from the graph (when the node has no more inputs or outputs).
+- The `SoundNodeDisconnected` [SoundEvent](../../../../code_reference/class_reference/soundevent.md) is sent by all SoundNodes when they are is completely disconnected from the graph (when the node has no more inputs or outputs).
 
 ---
  # Related Materials
 
  ## Manual
 
-- [SoundInstance ](../soundinstance.md)
-- [SoundSpace ](../soundspace.md)
-- [SoundNode Graph ](../soundnode_graph.md)
+- [SoundInstance](../soundinstance.md)
+- [SoundSpace](../soundspace.md)
+- [SoundNode Graph](../soundnode_graph.md)
 
  ## Reference
 
-- [ SoundNode ](../../../../code_reference/class_reference/soundnode.md) 
+- [SoundNode](../../../../code_reference/class_reference/soundnode.md) 
 
  

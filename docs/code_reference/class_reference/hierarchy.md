@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](hierarchy.md#hierarchy-void)|[ Children](hierarchy.md#children-zilch-engine-doc)|[component](component.md)| |
+|[Constructor](hierarchy.md#hierarchy-void)|[Children](hierarchy.md#children-zilch-engine-doc)|[component](component.md)| |
 
 
  #  Properties

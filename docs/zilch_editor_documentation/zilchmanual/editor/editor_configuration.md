@@ -25,14 +25,14 @@ Components found on EditorConfig object are unique to it, and cannot be attached
 
  ##  MainConfig
 
-The [ MainConfig](../../../code_reference/class_reference/mainconfig.md) component shows details about the current version of the editor. *Its fields are read-only.*
+The [MainConfig](../../../code_reference/class_reference/mainconfig.md) component shows details about the current version of the editor. *Its fields are read-only.*
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66647.png)
 
 
-*The [ MainConfig](../../../code_reference/class_reference/mainconfig.md) component*
+*The [MainConfig](../../../code_reference/class_reference/mainconfig.md) component*
 
 
  ##  ContentConfig
@@ -43,7 +43,7 @@ The **ContentConfig** component contains settings controlling the loading of add
 
  ##  TextEditorConfig
 
-The [ TextEditorConfig](../../../code_reference/class_reference/texteditorconfig.md) component allows the user to view and modify various settings of Zilch's text editor.
+The [TextEditorConfig](../../../code_reference/class_reference/texteditorconfig.md) component allows the user to view and modify various settings of Zilch's text editor.
 
  ###  TabWidth
 The text editor may be configured to insert either two or four spaces when the `Tab` key is pressed.
@@ -126,12 +126,12 @@ NOTE: The data from EditorConfig object is read from and written to a config fil
 
  ##  Manual
 - [Project Configuration](project_configuration.md)
-- [ Tab Completion](texteditor/tab_completion.md)
+- [Tab Completion](texteditor/tab_completion.md)
 
  ##  Reference
-- [ MainConfig](../../../code_reference/class_reference/mainconfig.md)
-- [ TextEditorConfig](../../../code_reference/class_reference/texteditorconfig.md)
+- [MainConfig](../../../code_reference/class_reference/mainconfig.md)
+- [TextEditorConfig](../../../code_reference/class_reference/texteditorconfig.md)
 - [editorsettings](../../../code_reference/class_reference/editorsettings.md)
-- [ TabWidth](../../../code_reference/enum_reference.md#tabwidth) 
+- [TabWidth](../../../code_reference/enum_reference.md#tabwidth) 
 
  

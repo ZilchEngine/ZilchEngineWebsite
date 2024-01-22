@@ -4,17 +4,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddAttribute](vertexbuffer.md#addattribute-void)|[ VertexCount](vertexbuffer.md#vertexcount-zilch-engine)|[safeid32](safeid32.md)| |
-|[ AddByte](vertexbuffer.md#addbyte-void)| | | |
-|[ AddReal](vertexbuffer.md#addreal-void)| | | |
-|[ AddShort](vertexbuffer.md#addshort-void)| | | |
-|[ ClearAttributes](vertexbuffer.md#clearattributes-void)| | | |
-|[ ClearData](vertexbuffer.md#cleardata-void)| | | |
-|[ GetAttributes](vertexbuffer.md#getattributes-zilch-engin)| | | |
-|[ GetElementCount](vertexbuffer.md#getelementcount-zilch-eng)| | | |
-|[ GetElementType](vertexbuffer.md#getelementtype-zilch-engi)| | | |
-|[ GetVertexData](vertexbuffer.md#getvertexdata-zilch-engin)| | | |
-|[ IsValidVertexData](vertexbuffer.md#isvalidvertexdata-zilch-e)| | | |
+|[AddAttribute](vertexbuffer.md#addattribute-void)|[VertexCount](vertexbuffer.md#vertexcount-zilch-engine)|[safeid32](safeid32.md)| |
+|[AddByte](vertexbuffer.md#addbyte-void)| | | |
+|[AddReal](vertexbuffer.md#addreal-void)| | | |
+|[AddShort](vertexbuffer.md#addshort-void)| | | |
+|[ClearAttributes](vertexbuffer.md#clearattributes-void)| | | |
+|[ClearData](vertexbuffer.md#cleardata-void)| | | |
+|[GetAttributes](vertexbuffer.md#getattributes-zilch-engin)| | | |
+|[GetElementCount](vertexbuffer.md#getelementcount-zilch-eng)| | | |
+|[GetElementType](vertexbuffer.md#getelementtype-zilch-engi)| | | |
+|[GetVertexData](vertexbuffer.md#getvertexdata-zilch-engin)| | | |
+|[IsValidVertexData](vertexbuffer.md#isvalidvertexdata-zilch-e)| | | |
 
 
  #  Properties

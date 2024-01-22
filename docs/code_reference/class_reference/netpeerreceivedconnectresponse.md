@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurIpAddress](netpeerreceivedconnectresponse.md#ouripaddress-zilch-engine)|[event](event.md)| |
-| |[ OurNetPeerId](netpeerreceivedconnectresponse.md#ournetpeerid-zilch-engine)| | |
-| |[ OurPendingUserAddRequestCount](netpeerreceivedconnectresponse.md#ourpendinguseraddrequest)| | |
-| |[ OurRequestBundle](netpeerreceivedconnectresponse.md#ourrequestbundle-zilch-en)| | |
-| |[ TheirConnectResponse](netpeerreceivedconnectresponse.md#theirconnectresponse-zer)| | |
-| |[ TheirIpAddress](netpeerreceivedconnectresponse.md#theiripaddress-zilch-engi)| | |
-| |[ TheirResponseBundle](netpeerreceivedconnectresponse.md#theirresponsebundle-zero)| | |
+| |[OurIpAddress](netpeerreceivedconnectresponse.md#ouripaddress-zilch-engine)|[event](event.md)| |
+| |[OurNetPeerId](netpeerreceivedconnectresponse.md#ournetpeerid-zilch-engine)| | |
+| |[OurPendingUserAddRequestCount](netpeerreceivedconnectresponse.md#ourpendinguseraddrequest)| | |
+| |[OurRequestBundle](netpeerreceivedconnectresponse.md#ourrequestbundle-zilch-en)| | |
+| |[TheirConnectResponse](netpeerreceivedconnectresponse.md#theirconnectresponse-zer)| | |
+| |[TheirIpAddress](netpeerreceivedconnectresponse.md#theiripaddress-zilch-engi)| | |
+| |[TheirResponseBundle](netpeerreceivedconnectresponse.md#theirresponsebundle-zero)| | |
 
 
  #  Properties

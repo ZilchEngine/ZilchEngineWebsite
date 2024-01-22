@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](spherecollider.md#spherecollider-void)|[ Radius](spherecollider.md#radius-zilch-engine-docum)|[collider](collider.md)| |
-| |[ WorldRadius](spherecollider.md#worldradius-zilch-engine)| | |
+|[Constructor](spherecollider.md#spherecollider-void)|[Radius](spherecollider.md#radius-zilch-engine-docum)|[collider](collider.md)| |
+| |[WorldRadius](spherecollider.md#worldradius-zilch-engine)| | |
 
 
  #  Properties

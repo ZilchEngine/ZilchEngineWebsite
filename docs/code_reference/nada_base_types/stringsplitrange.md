@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](stringsplitrange.md#movenext-void)|[ All](stringsplitrange.md#all-zilch-engine-document)| | |
-| |[ Current](stringsplitrange.md#current-zilch-engine-docu)| | |
-| |[ IsNotEmpty](stringsplitrange.md#isnotempty-zilch-engine-d)| | |
+|[MoveNext](stringsplitrange.md#movenext-void)|[All](stringsplitrange.md#all-zilch-engine-document)| | |
+| |[Current](stringsplitrange.md#current-zilch-engine-docu)| | |
+| |[IsNotEmpty](stringsplitrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

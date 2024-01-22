@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](shaderinputs.md#add-void)| |[referencecountedthreadsafeid32](referencecountedthreadsafeid32.md)| |
-|[ Clear](shaderinputs.md#clear-void)| | | |
-|[ Remove](shaderinputs.md#remove-void)| | | |
-|[ Constructor](shaderinputs.md#shaderinputs-void)| | | |
+|[Add](shaderinputs.md#add-void)| |[referencecountedthreadsafeid32](referencecountedthreadsafeid32.md)| |
+|[Clear](shaderinputs.md#clear-void)| | | |
+|[Remove](shaderinputs.md#remove-void)| | | |
+|[Constructor](shaderinputs.md#shaderinputs-void)| | | |
 
 
  #  Properties

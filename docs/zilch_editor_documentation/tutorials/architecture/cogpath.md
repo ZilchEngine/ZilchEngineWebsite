@@ -12,7 +12,7 @@
 
 
 First we will make the ground and player objects.
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
  - [Remove component](../../zilchmanual/editor/addremovecomponent.md) : [gravityeffect](../../../code_reference/class_reference/gravityeffect.md)
@@ -58,7 +58,7 @@ class PlayerController : NadaComponent
  - [Add component](../../zilchmanual/editor/addremovecomponent.md) : [rigidbody](../../../code_reference/class_reference/rigidbody.md)
  - [Add component](../../zilchmanual/editor/addremovecomponent.md) : [boxcollider](../../../code_reference/class_reference/boxcollider.md)
  - [Add component](../../zilchmanual/editor/addremovecomponent.md) : `PlayerController`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Press `Left`, `Right`, `Up` and `Down`
 
 
@@ -66,7 +66,7 @@ class PlayerController : NadaComponent
 ![simpleinput](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90208.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # The Follower
 
@@ -125,7 +125,7 @@ This is the CogPath Property GUI. To select which object the CogPath points add 
 
   - Set `name=PlayerCogPath, icon=pencil-square-o` to reference the Player object
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Press `Left`, `Right`, `Up` and `Down`
 
 
@@ -133,7 +133,7 @@ This is the CogPath Property GUI. To select which object the CogPath points add 
 ![Follower](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90220.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # CogPaths and Hierarchies
 
@@ -159,12 +159,12 @@ This is the CogPath Property GUI. To select which object the CogPath points add 
 
   ![PlayerToParent](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90364.gif)
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Press `Left`, `Right`, `Up` and `Down`
 
  ![TestChildPlayer](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90230.gif)
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 It can be seen that the Player object moves independently of its parent object do to it having its own RigidBody. However, you may be wondering why the follower no longer goes to the same position as the Player object. If you remember from [Hierarchies I](hierarchies.md), Player object is now a child object meaning its `name=Translation, icon=pencil-square-o` is measured relative to it's paren object. Since the `FollowerController` was not changed to use the explicit `name=WorldTranslation, icon=pencil-square-o` of the Player object, the Follower object moves to the same offset of the Player object as it starts with its Parent object.
 
@@ -193,20 +193,20 @@ function OnLogicUpdate(event : UpdateEvent)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
  - Press `Left`, `Right`, `Up` and `Down`
 
  ![FollowWorldTrans](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90366.gif)
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now the Follower object follows the Player object `name=WorldTranslation, icon=pencil-square-o` correctly.
 
  # Related Materials
  # Manual
 - [CogPaths](../../zilchmanual/editor/cogpathsmanual.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 
  # Tutorials
 - [hierarchies](hierarchies.md)
@@ -220,8 +220,8 @@ Now the Follower object follows the Player object `name=WorldTranslation, icon=p
 - [transform](../../../code_reference/class_reference/transform.md)
 
  ### Commands
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
 

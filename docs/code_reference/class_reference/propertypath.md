@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](propertypath.md#propertypath-void)| | | |
+|[Constructor](propertypath.md#propertypath-void)| | | |
 
 
  #  Properties

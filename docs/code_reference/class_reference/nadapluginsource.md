@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clean](nadapluginsource.md#clean-void)| |[dataresource](dataresource.md)| |
-|[ CompileDebug](nadapluginsource.md#compiledebug-void)| | | |
-|[ CompileRelease](nadapluginsource.md#compilerelease-void)| | | |
-|[ CopyPluginDependencies](nadapluginsource.md#copyplugindependencies-v)| | | |
-|[ InstallIdeTools](nadapluginsource.md#installidetools-void)| | | |
-|[ OpenDirectory](nadapluginsource.md#opendirectory-void)| | | |
-|[ OpenIde](nadapluginsource.md#openide-void)| | | |
+|[Clean](nadapluginsource.md#clean-void)| |[dataresource](dataresource.md)| |
+|[CompileDebug](nadapluginsource.md#compiledebug-void)| | | |
+|[CompileRelease](nadapluginsource.md#compilerelease-void)| | | |
+|[CopyPluginDependencies](nadapluginsource.md#copyplugindependencies-v)| | | |
+|[InstallIdeTools](nadapluginsource.md#installidetools-void)| | | |
+|[OpenDirectory](nadapluginsource.md#opendirectory-void)| | | |
+|[OpenIde](nadapluginsource.md#openide-void)| | | |
 
 
  #  Properties

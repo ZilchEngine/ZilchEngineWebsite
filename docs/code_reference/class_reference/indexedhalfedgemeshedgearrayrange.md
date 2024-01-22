@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](indexedhalfedgemeshedgearrayrange.md#indexedhalfedgemeshedgea)|[ All](indexedhalfedgemeshedgearrayrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](indexedhalfedgemeshedgearrayrange.md#movenext-void)|[ Current](indexedhalfedgemeshedgearrayrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](indexedhalfedgemeshedgearrayrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](indexedhalfedgemeshedgearrayrange.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](indexedhalfedgemeshedgearrayrange.md#indexedhalfedgemeshedgea)|[All](indexedhalfedgemeshedgearrayrange.md#all-zilch-engine-document)| | |
+|[MoveNext](indexedhalfedgemeshedgearrayrange.md#movenext-void)|[Current](indexedhalfedgemeshedgearrayrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](indexedhalfedgemeshedgearrayrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](indexedhalfedgemeshedgearrayrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

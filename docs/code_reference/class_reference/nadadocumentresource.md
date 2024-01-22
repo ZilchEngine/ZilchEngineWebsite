@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Text](nadadocumentresource.md#text-zilch-engine-documen)|[documentresource](documentresource.md)|[nadafragment](nadafragment.md)|
+| |[Text](nadadocumentresource.md#text-zilch-engine-documen)|[documentresource](documentresource.md)|[nadafragment](nadafragment.md)|
 | | | |[nadascript](nadascript.md)|
 
 

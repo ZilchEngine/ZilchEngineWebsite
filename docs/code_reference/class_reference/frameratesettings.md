@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](frameratesettings.md#frameratesettings-void)|[ FrameRate](frameratesettings.md#framerate-zilch-engine-do)|[component](component.md)| |
-| |[ LimitFrameRate](frameratesettings.md#limitframerate-zilch-engi)| | |
-| |[ VerticalSync](frameratesettings.md#verticalsync-zilch-engine)| | |
+|[Constructor](frameratesettings.md#frameratesettings-void)|[FrameRate](frameratesettings.md#framerate-zilch-engine-do)|[component](component.md)| |
+| |[LimitFrameRate](frameratesettings.md#limitframerate-zilch-engi)| | |
+| |[VerticalSync](frameratesettings.md#verticalsync-zilch-engine)| | |
 
 
  #  Properties

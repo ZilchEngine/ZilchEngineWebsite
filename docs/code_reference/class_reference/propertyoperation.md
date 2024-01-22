@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ValueAfter](propertyoperation.md#valueafter-t)|[operation](operation.md)| |
-| |[ ValueBefore](propertyoperation.md#valuebefore-t)| | |
+| |[ValueAfter](propertyoperation.md#valueafter-t)|[operation](operation.md)| |
+| |[ValueBefore](propertyoperation.md#valuebefore-t)| | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Root](selectivenode.md#root-zilch-engine-documen)|[dualblendselectivenode](dualblendselectivenode.md)| |
+| |[Root](selectivenode.md#root-zilch-engine-documen)|[dualblendselectivenode](dualblendselectivenode.md)| |
 
 
  #  Properties

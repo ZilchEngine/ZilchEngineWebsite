@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](forceeffect.md#forceeffect-void)| |[basicdirectioneffect](basicdirectioneffect.md)| |
+|[Constructor](forceeffect.md#forceeffect-void)| |[basicdirectioneffect](basicdirectioneffect.md)| |
 
 
  #  Properties

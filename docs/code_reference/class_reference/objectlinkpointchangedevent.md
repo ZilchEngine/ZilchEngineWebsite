@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EdgeId](objectlinkpointchangedevent.md#edgeid-zilch-engine-docum)|[event](event.md)| |
-| |[ NewLocalPoint](objectlinkpointchangedevent.md#newlocalpoint-zilch-engin)| | |
-| |[ OldLocalPoint](objectlinkpointchangedevent.md#oldlocalpoint-zilch-engin)| | |
+| |[EdgeId](objectlinkpointchangedevent.md#edgeid-zilch-engine-docum)|[event](event.md)| |
+| |[NewLocalPoint](objectlinkpointchangedevent.md#newlocalpoint-zilch-engin)| | |
+| |[OldLocalPoint](objectlinkpointchangedevent.md#oldlocalpoint-zilch-engin)| | |
 
 
  #  Properties

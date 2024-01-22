@@ -11,9 +11,9 @@ Having already seen [spaces](../spaces.md) in a previous tutorial, we will now t
  #  Level Setup
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../../code_reference/command_reference.md#newproject)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../../code_reference/class_reference/rigidbody.md)
  - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : [BoxCollider](../../../../code_reference/class_reference/boxcollider.md)
@@ -21,7 +21,7 @@ Having already seen [spaces](../spaces.md) in a previous tutorial, we will now t
   - Set `name=DynamicState,icon=list` to [Static](../../../../code_reference/enum_reference.md#rigidbodydynamicstate)
  - Under [Transform](../../../../code_reference/class_reference/transform.md)
   - Set Scale  to `[25,1,1]`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
 - In the `Properties Window`
  - Under [Transform](../../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[-10,5,0]`
@@ -34,14 +34,14 @@ Having already seen [spaces](../spaces.md) in a previous tutorial, we will now t
 
 The [TimeSpace](../../../../code_reference/class_reference/timespace.md) component allows for developer control over time in the space it is attached to. Time in that space can be slowed or even stopped. Let's see what the demo looks like right now to get a frame of reference.
 
-  - [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+  - [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
 ![control](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94788.gif)
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 The ball falls, bounces, and rolls at a normal pace for the values it was initialized with.
 
@@ -52,14 +52,14 @@ The ball falls, bounces, and rolls at a normal pace for the values it was initia
 A common dramatic effect is to slow down time during some in-game event. Slow motion effects are typically implemented via the [TimeScale](../../../../code_reference/class_reference/timespace.md#timescale-zilch-engine-do) property, which is a scalar for the rate at which time passes. There are also some times where running your project at a slower speed will allow you to debug issues more easily. Let's take a look at how to change TimeScale  using the UI.
 
 (NOTE)**Space Selection**:
- The [Space](../../../../code_reference/class_reference/space.md) can be selected via the `Select` menu, by clicking in the viewport and then pressing `Shift + S`, by pressing `Ctrl + Shift + S` with any window in focus, or by using the [ SelectSpace](../../../../code_reference/command_reference.md#selectspace) command.
+ The [Space](../../../../code_reference/class_reference/space.md) can be selected via the `Select` menu, by clicking in the viewport and then pressing `Shift + S`, by pressing `Ctrl + Shift + S` with any window in focus, or by using the [SelectSpace](../../../../code_reference/command_reference.md#selectspace) command.
  ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94805.png)
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [SelectSpace](../../../../code_reference/command_reference.md#selectspace)
 - In the `Properties Window`
  - Under [TimeSpace](../../../../code_reference/class_reference/timespace.md)
   - Set TimeScale  to `0.5`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -69,11 +69,11 @@ A common dramatic effect is to slow down time during some in-game event. Slow mo
 *Demo running half speed with `0.5` TimeScale*
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 Now we can see that the time scale directly affects the rate of time without affecting the framerate.
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [SelectSpace](../../../../code_reference/command_reference.md#selectspace)
 - In the `Properties Window`
  - Under [TimeSpace](../../../../code_reference/class_reference/timespace.md)
   - Set TimeScale  to `1.0`
@@ -82,7 +82,7 @@ Now we can see that the time scale directly affects the rate of time without aff
  ##  Adjusting TimeScale In Script
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `TimeControl`
 - Update the `TimeControl` script to the following:
 
@@ -124,8 +124,8 @@ class TimeControl : NadaComponent
 - [Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
  - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : `TimeControl`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../../code_reference/command_reference.md#console)
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../../code_reference/command_reference.md#console)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
  - Adjust the time scale using the `up` and `down` keys
 
 
@@ -136,7 +136,7 @@ class TimeControl : NadaComponent
 *TimeScale  being adjusted up and down*
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 Above we can see the demo progressing slower and then faster as the [TimeScale](../../../../code_reference/class_reference/timespace.md#timescale-zilch-engine-do) is adjusted using the keyboard.
 
@@ -172,7 +172,7 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
       this.TogglePause();
 ```
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
  - Press `Space` to pause the game and then press `Space` again to attempt to unpause the game
 
 
@@ -180,7 +180,7 @@ Above we can see the demo progressing slower and then faster as the [TimeScale](
 ![stopped](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94809.gif)
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 You probably noticed that the game will not unpause. This is because when the [TimeSpace](../../../../code_reference/class_reference/timespace.md) is paused, [Keyboard](../../../../code_reference/class_reference/keyboard.md), listening for the [KeyDown](../../../../code_reference/event_reference.md#keydown) event, or to poll the keyboard input on [FrameUpdate](../../../../code_reference/event_reference.md#frameupdate).
 
@@ -207,7 +207,7 @@ You probably noticed that the game will not unpause. This is because when the [T
   }
 ```
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
  - Press `Space` to pause the game and then press `Space` again to attempt to unpause the game
 
 
@@ -220,7 +220,7 @@ You probably noticed that the game will not unpause. This is because when the [T
 
 Now we can see the game being paused and unpaused successfully.
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 
  #  Related Materials
@@ -233,12 +233,12 @@ Now we can see the game being paused and unpaused successfully.
 
  ##  Reference
  ###  Commands
-- [ CreateSprite](../../../../code_reference/command_reference.md#createsprite)
-- [ CreateSphere](../../../../code_reference/command_reference.md#createsphere)
-- [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
-- [ Console](../../../../code_reference/command_reference.md#console)
-- [ PlayGame](../../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
+- [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
+- [SelectSpace](../../../../code_reference/command_reference.md#selectspace)
+- [Console](../../../../code_reference/command_reference.md#console)
+- [PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
  ###  Classes
 - [transform](../../../../code_reference/class_reference/transform.md)
@@ -248,9 +248,9 @@ Now we can see the game being paused and unpaused successfully.
 - [keyboard](../../../../code_reference/class_reference/keyboard.md)
 
  ###  Events
-- [ LogicUpdate](../../../../code_reference/event_reference.md#logicupdate)
-- [ FrameUpdate](../../../../code_reference/event_reference.md#frameupdate)
-- [ KeyDown](../../../../code_reference/event_reference.md#keydown)
+- [LogicUpdate](../../../../code_reference/event_reference.md#logicupdate)
+- [FrameUpdate](../../../../code_reference/event_reference.md#frameupdate)
+- [KeyDown](../../../../code_reference/event_reference.md#keydown)
 
  ##  Development Tasks
 - {T1178} 

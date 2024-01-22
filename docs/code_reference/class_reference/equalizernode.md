@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateAllBands](equalizernode.md#interpolateallbands-void)|[ Band1Gain](equalizernode.md#band1gain-zilch-engine-do)|[soundnode](soundnode.md)| |
-| |[ Band2Gain](equalizernode.md#band2gain-zilch-engine-do)| | |
-| |[ Band3Gain](equalizernode.md#band3gain-zilch-engine-do)| | |
-| |[ HighPassGain](equalizernode.md#highpassgain-zilch-engine)| | |
-| |[ LowPassGain](equalizernode.md#lowpassgain-zilch-engine)| | |
+|[InterpolateAllBands](equalizernode.md#interpolateallbands-void)|[Band1Gain](equalizernode.md#band1gain-zilch-engine-do)|[soundnode](soundnode.md)| |
+| |[Band2Gain](equalizernode.md#band2gain-zilch-engine-do)| | |
+| |[Band3Gain](equalizernode.md#band3gain-zilch-engine-do)| | |
+| |[HighPassGain](equalizernode.md#highpassgain-zilch-engine)| | |
+| |[LowPassGain](equalizernode.md#lowpassgain-zilch-engine)| | |
 
 
  #  Properties

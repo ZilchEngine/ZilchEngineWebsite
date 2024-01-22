@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](integer2x4.md#get-zilch-engine-document)|[ Count](integer2x4.md#count-zilch-engine-docume)| | |
-|[ GetByIndex](integer2x4.md#getbyindex-zilch-engine-d)|[ CountX](integer2x4.md#countx-zilch-engine-docum)| | |
-|[ Constructor](integer2x4.md#integer2x4-void)|[ CountY](integer2x4.md#county-zilch-engine-docum)| | |
-|[ Set](integer2x4.md#set-void)|[ M00](integer2x4.md#m00-zilch-engine-document)| | |
-|[ SetByIndex](integer2x4.md#setbyindex-void)|[ M01](integer2x4.md#m01-zilch-engine-document)| | |
-| |[ M02](integer2x4.md#m02-zilch-engine-document)| | |
-| |[ M03](integer2x4.md#m03-zilch-engine-document)| | |
-| |[ M10](integer2x4.md#m10-zilch-engine-document)| | |
-| |[ M11](integer2x4.md#m11-zilch-engine-document)| | |
-| |[ M12](integer2x4.md#m12-zilch-engine-document)| | |
-| |[ M13](integer2x4.md#m13-zilch-engine-document)| | |
+|[Get](integer2x4.md#get-zilch-engine-document)|[Count](integer2x4.md#count-zilch-engine-docume)| | |
+|[GetByIndex](integer2x4.md#getbyindex-zilch-engine-d)|[CountX](integer2x4.md#countx-zilch-engine-docum)| | |
+|[Constructor](integer2x4.md#integer2x4-void)|[CountY](integer2x4.md#county-zilch-engine-docum)| | |
+|[Set](integer2x4.md#set-void)|[M00](integer2x4.md#m00-zilch-engine-document)| | |
+|[SetByIndex](integer2x4.md#setbyindex-void)|[M01](integer2x4.md#m01-zilch-engine-document)| | |
+| |[M02](integer2x4.md#m02-zilch-engine-document)| | |
+| |[M03](integer2x4.md#m03-zilch-engine-document)| | |
+| |[M10](integer2x4.md#m10-zilch-engine-document)| | |
+| |[M11](integer2x4.md#m11-zilch-engine-document)| | |
+| |[M12](integer2x4.md#m12-zilch-engine-document)| | |
+| |[M13](integer2x4.md#m13-zilch-engine-document)| | |
 
 
  #  Properties

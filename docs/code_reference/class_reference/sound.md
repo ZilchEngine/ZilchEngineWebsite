@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Channels](sound.md#channels-zilch-engine-doc)|Resource| |
-| |[ Length](sound.md#length-zilch-engine-docum)| | |
+| |[Channels](sound.md#channels-zilch-engine-doc)|Resource| |
+| |[Length](sound.md#length-zilch-engine-docum)| | |
 
 
  #  Properties

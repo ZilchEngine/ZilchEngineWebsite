@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Joint](jointevent.md#joint-zilch-engine-docume)|[event](event.md)| |
-| |[ JointCog](jointevent.md#jointcog-zilch-engine-doc)| | |
-| |[ ObjectA](jointevent.md#objecta-zilch-engine-docu)| | |
-| |[ ObjectB](jointevent.md#objectb-zilch-engine-docu)| | |
+| |[Joint](jointevent.md#joint-zilch-engine-docume)|[event](event.md)| |
+| |[JointCog](jointevent.md#jointcog-zilch-engine-doc)| | |
+| |[ObjectA](jointevent.md#objecta-zilch-engine-docu)| | |
+| |[ObjectB](jointevent.md#objectb-zilch-engine-docu)| | |
 
 
  #  Properties

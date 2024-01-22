@@ -6,7 +6,7 @@ The mouse can either be used as a cursor controller, for tracking a specific pos
 
  ##  Cursor Control
 
-**Cursor control**, also known as *point-and-click* control, is usually what is used for mouse-driven GUIs. It is mostly focused on the use of the mouse to manipulate the position of a cursor in a 2D plane. Cursor control typically makes heavy use of the [ Reactive](../../../../code_reference/class_reference/reactive.md) component to receive mouse events sent directly to interactive objects, such as buttons.
+**Cursor control**, also known as *point-and-click* control, is usually what is used for mouse-driven GUIs. It is mostly focused on the use of the mouse to manipulate the position of a cursor in a 2D plane. Cursor control typically makes heavy use of the [Reactive](../../../../code_reference/class_reference/reactive.md) component to receive mouse events sent directly to interactive objects, such as buttons.
 
 
 
@@ -34,9 +34,9 @@ Whether the mouse is used for cursor control or direct control, in any case, the
 
  ##  Events
 
-Mouse events are dispatched as the mouse is used, and the position of the mouse cursor determines the targets of these events. When the cursor is positioned over an cog with the [ Reactive](../../../../code_reference/class_reference/reactive.md) component, that cog receives mouse events.
+Mouse events are dispatched as the mouse is used, and the position of the mouse cursor determines the targets of these events. When the cursor is positioned over an cog with the [Reactive](../../../../code_reference/class_reference/reactive.md) component, that cog receives mouse events.
 
-In addition, mouse events are also sent to viewports. When a mouse event occurs in a viewport, it is dispatched to the cog with the [ Camera](../../../../code_reference/class_reference/camera.md) component and the cog with the [ CameraViewport](../../../../code_reference/class_reference/cameraviewport.md) component that represent that viewport. (Events are not dispatched doubly if both components are on the same cog, as is commonly the case.)
+In addition, mouse events are also sent to viewports. When a mouse event occurs in a viewport, it is dispatched to the cog with the [Camera](../../../../code_reference/class_reference/camera.md) component and the cog with the [CameraViewport](../../../../code_reference/class_reference/cameraviewport.md) component that represent that viewport. (Events are not dispatched doubly if both components are on the same cog, as is commonly the case.)
 
 NOTE: A **mouse event target** is anything that can receive a mouse event. Mouse event targets are spaces, cogs with the Camera component, cogs with the CameraViewport component, and cogs with the Reactive component.
 
@@ -120,11 +120,11 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-Each of these events is a [ ViewportMouseEvent](../../../../code_reference/class_reference/viewportmouseevent.md). This event contains various relevant mouse data, such as the position of the cursor and the states of its buttons.
+Each of these events is a [ViewportMouseEvent](../../../../code_reference/class_reference/viewportmouseevent.md). This event contains various relevant mouse data, such as the position of the cursor and the states of its buttons.
 
  ####  MouseUpdate
 
-Every frame that the mouse is over a mouse event target, the [ MouseUpdate](../../../../code_reference/event_reference.md#mouseupdate) event is dispatched to that target:
+Every frame that the mouse is over a mouse event target, the [MouseUpdate](../../../../code_reference/event_reference.md#mouseupdate) event is dispatched to that target:
 
 ```TS:"MouseUpdate Example"
 function OnMouseUpdate(event : ViewportMouseEvent)
@@ -136,9 +136,9 @@ function OnMouseUpdate(event : ViewportMouseEvent)
 
  ####  MouseEnter, MouseExit, and MouseEnterPreview
 
-When the mouse cursor "enters" a mouse event target � that is, when it goes from not being over the target to being over it from the perspective of the viewport showing it � the [ MouseEnter](../../../../code_reference/event_reference.md#mouseenter) event is dispatched to that target that frame. Likewise, when the cursor "exits" a target � it goes from over it to not over it � the [ MouseExit](../../../../code_reference/event_reference.md#mouseexit) event is dispatched to that target that frame.
+When the mouse cursor "enters" a mouse event target � that is, when it goes from not being over the target to being over it from the perspective of the viewport showing it � the [MouseEnter](../../../../code_reference/event_reference.md#mouseenter) event is dispatched to that target that frame. Likewise, when the cursor "exits" a target � it goes from over it to not over it � the [MouseExit](../../../../code_reference/event_reference.md#mouseexit) event is dispatched to that target that frame.
 
-As the mouse cursor enters a mouse event target, if it is simultaneously exiting another one, the [ MouseEnterPreview](../../../../code_reference/event_reference.md#mouseenterpreview) event is dispatched that frame to the target being entered. This event is dispatched *immediately before* the **MouseExit** and subsequent **MouseEnter** events are dispatched, in the same frame.
+As the mouse cursor enters a mouse event target, if it is simultaneously exiting another one, the [MouseEnterPreview](../../../../code_reference/event_reference.md#mouseenterpreview) event is dispatched that frame to the target being entered. This event is dispatched *immediately before* the **MouseExit** and subsequent **MouseEnter** events are dispatched, in the same frame.
 
 For example, this code snippet connects to two different cogs, `CogA` and `CogB` (declared elsewhere in the script), for these events:
 
@@ -178,7 +178,7 @@ MouseEnterPreview is useful when there is code that should be run before the Mou
 
  ####  MouseMove and MouseScroll
 
-Every frame that the mouse **moves** while the cursor is over a mouse event target, the [ MouseMove](../../../../code_reference/event_reference.md#mousemove) event is dispatched to that target. When the mouse is **scrolled** while the cursor is over a mouse event target, the [ MouseScroll](../../../../code_reference/event_reference.md#mousescroll) event is dispatched to that target:
+Every frame that the mouse **moves** while the cursor is over a mouse event target, the [MouseMove](../../../../code_reference/event_reference.md#mousemove) event is dispatched to that target. When the mouse is **scrolled** while the cursor is over a mouse event target, the [MouseScroll](../../../../code_reference/event_reference.md#mousescroll) event is dispatched to that target:
 
 ```TS:"MouseMove and MouseScroll Examples"
 function OnMouseMove(event : ViewportMouseEvent)
@@ -198,7 +198,7 @@ function OnMouseScroll(event : ViewportMouseEvent)
 
  ####  Down and Up Events
 
-When any mouse button is **pressed** while the cursor is over a mouse event target, the [ MouseDown](../../../../code_reference/event_reference.md#mousedown) event is dispatched to that target. Likewise, when any mouse button is **released** while the cursor is over a mouse event target, the [ MouseUp](../../../../code_reference/event_reference.md#mouseup) event is dispatched to that target.
+When any mouse button is **pressed** while the cursor is over a mouse event target, the [MouseDown](../../../../code_reference/event_reference.md#mousedown) event is dispatched to that target. Likewise, when any mouse button is **released** while the cursor is over a mouse event target, the [MouseUp](../../../../code_reference/event_reference.md#mouseup) event is dispatched to that target.
 
 **MouseDown** and **MouseUp** are useful when writing controls that can be bound to any mouse button. To determine which mouse button was pressed or released, just check the `Button` field on the ViewportMouseEvent object that is sent with the event:
 
@@ -224,7 +224,7 @@ function OnMouseUp(event : ViewportMouseEvent)
 }
 ```
 
-Zilch also has specific events for [ LeftMouseDown](../../../../code_reference/event_reference.md#leftmousedown) and [ LeftMouseUp](../../../../code_reference/event_reference.md#leftmouseup), [ RightMouseDown](../../../../code_reference/event_reference.md#rightmousedown) and [ RightMouseUp](../../../../code_reference/event_reference.md#rightmouseup), and [ MiddleMouseDown](../../../../code_reference/event_reference.md#middlemousedown) and [ MiddleMouseUp](../../../../code_reference/event_reference.md#middlemouseup), which are dispatched only when the corresponding button is pressed or released:
+Zilch also has specific events for [LeftMouseDown](../../../../code_reference/event_reference.md#leftmousedown) and [LeftMouseUp](../../../../code_reference/event_reference.md#leftmouseup), [RightMouseDown](../../../../code_reference/event_reference.md#rightmousedown) and [RightMouseUp](../../../../code_reference/event_reference.md#rightmouseup), and [MiddleMouseDown](../../../../code_reference/event_reference.md#middlemousedown) and [MiddleMouseUp](../../../../code_reference/event_reference.md#middlemouseup), which are dispatched only when the corresponding button is pressed or released:
 
 ```TS:"Other Down and Up Examples"
 function OnLeftMouseDown(event : ViewportMouseEvent)
@@ -245,7 +245,7 @@ function OnMiddleMouseDown(event : ViewportMouseEvent)
 
  ####  Click Events
 
-When a mouse button is both **pressed** and **released** over the same object, that object is said to have been //clicked//. Click events are commonly used for UI elements, such as buttons. Zilch dispatches [ LeftClick](../../../../code_reference/event_reference.md#leftclick), [ RightClick](../../../../code_reference/event_reference.md#rightclick), and [ MiddleClick](../../../../code_reference/event_reference.md#middleclick) events:
+When a mouse button is both **pressed** and **released** over the same object, that object is said to have been //clicked//. Click events are commonly used for UI elements, such as buttons. Zilch dispatches [LeftClick](../../../../code_reference/event_reference.md#leftclick), [RightClick](../../../../code_reference/event_reference.md#rightclick), and [MiddleClick](../../../../code_reference/event_reference.md#middleclick) events:
 
 ```TS:"Click Examples"
 function OnLeftClick(event : ViewportMouseEvent)
@@ -269,7 +269,7 @@ function OnMiddleClick(event : ViewportMouseEvent)
 
  ####  DoubleClick
 
-When a mouse event target is double-clicked, the [ DoubleClick](../../../../code_reference/event_reference.md#doubleclick) event is dispatched to that target:
+When a mouse event target is double-clicked, the [DoubleClick](../../../../code_reference/event_reference.md#doubleclick) event is dispatched to that target:
 
 ```TS:"DoubleClick Example"
 function OnDoubleClick(event : ViewportMouseEvent)
@@ -287,7 +287,7 @@ NOTE: The timing of the two clicks involved in a double click is defined by the 
 
  ##  Polling-Based Input
 
-Polling-based input typically occurs in a callback for an [ Update event](../../../../code_reference/class_reference/updateevent.md) such as [ LogicUpdate](../../../../code_reference/event_reference.md#logicupdate):
+Polling-based input typically occurs in a callback for an [Update event](../../../../code_reference/class_reference/updateevent.md) such as [LogicUpdate](../../../../code_reference/event_reference.md#logicupdate):
 
 ```TS:"Update Connection Example"
 function Initialize(init : CogInitializer)
@@ -301,15 +301,15 @@ function OnLogicUpdate(event : UpdateEvent)
 }
 ```
 
-The mouse may be polled via the global [ Mouse](../../../../code_reference/class_reference/mouse.md) object, which can be found at `Zilch.Mouse`; of interest to mouse input are its `CursorMovement`, `RawMovement`, and `ClientPosition` properties and its `IsButtonDown` function.
+The mouse may be polled via the global [Mouse](../../../../code_reference/class_reference/mouse.md) object, which can be found at `Zilch.Mouse`; of interest to mouse input are its `CursorMovement`, `RawMovement`, and `ClientPosition` properties and its `IsButtonDown` function.
 
  ###  CursorMovement, RawMovement, and ClientPosition
 
-[ RawMovement](../../../../code_reference/class_reference/mouse.md#rawmovement-zilch-engine) represents the amount of movement detected this frame by the mousing device. [ ClientPosition](../../../../code_reference/class_reference/mouse.md#clientposition-zilch-engi) gives the screen-space cursor position in pixels, as computed by the OS. ClientPosition is relative to the upper left pixel of the Zilch client (application), which is (0, 0), with X and Y increasing to the right and down respectively. The [ CursorMovement](../../../../code_reference/class_reference/mouse.md#cursormovement-zilch-engi) property is computed by Zilch as the difference in the ClientPosition between the current frame and the previous frame.
+[RawMovement](../../../../code_reference/class_reference/mouse.md#rawmovement-zilch-engine) represents the amount of movement detected this frame by the mousing device. [ClientPosition](../../../../code_reference/class_reference/mouse.md#clientposition-zilch-engi) gives the screen-space cursor position in pixels, as computed by the OS. ClientPosition is relative to the upper left pixel of the Zilch client (application), which is (0, 0), with X and Y increasing to the right and down respectively. The [CursorMovement](../../../../code_reference/class_reference/mouse.md#cursormovement-zilch-engi) property is computed by Zilch as the difference in the ClientPosition between the current frame and the previous frame.
 
 NOTE: CursorMovement and RawMovement often differ because the final position of the cursor depends on OS settings.
 
-The ClientPosition property is given in screen space, but it may be helpful to convert it to another coordinate basis, such as world space. The [ CameraViewport](../../../../code_reference/class_reference/cameraviewport.md) component has handy functions for performing such changes of basis:
+The ClientPosition property is given in screen space, but it may be helpful to convert it to another coordinate basis, such as world space. The [CameraViewport](../../../../code_reference/class_reference/cameraviewport.md) component has handy functions for performing such changes of basis:
 
 ```TS:"ClientPosition to World Space Example"
 function OnLogicUpdate(event : UpdateEvent)
@@ -326,7 +326,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
  ###  IsButtonDown
 
-The [ IsButtonDown](../../../../code_reference/class_reference/mouse.md#isbuttondown-zilch-engine) function returns whether the given mouse button is down on the current frame. It closely parallels the [ KeyIsDown](../../../../code_reference/class_reference/keyboard.md#keyisdown-zilch-engine-do) function on the [ Keyboard](../../../../code_reference/class_reference/keyboard.md) object:
+The [IsButtonDown](../../../../code_reference/class_reference/mouse.md#isbuttondown-zilch-engine) function returns whether the given mouse button is down on the current frame. It closely parallels the [KeyIsDown](../../../../code_reference/class_reference/keyboard.md#keyisdown-zilch-engine-do) function on the [Keyboard](../../../../code_reference/class_reference/keyboard.md) object:
 
 ```TS:"IsButtonDown Example"
 function OnLogicUpdate(event : UpdateEvent)
@@ -341,7 +341,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
  #  What to Use
 
-Whether direct control or cursor control is used, event-based input and polling-based input may have performance differences. As is the case with [ Keyboard Input](keyboardinput.md#what-to-use), the difference will often be very small, so sometimes it is best to use whichever method is easiest for the developer, but knowing how to decide which input method to use is always important.
+Whether direct control or cursor control is used, event-based input and polling-based input may have performance differences. As is the case with [Keyboard Input](keyboardinput.md#what-to-use), the difference will often be very small, so sometimes it is best to use whichever method is easiest for the developer, but knowing how to decide which input method to use is always important.
 
 To decide whether a component should use event-based mouse input or polling-based mouse input, begin by answering these guideline questions:
 
@@ -368,19 +368,19 @@ Performance can suffer noticeably if a large number of objects are simultaneousl
 - **A long time**: events may be better
 - **Not long**: consider polling
 
-Because mouse events are only dispatched when the mouse is used (other than [ MouseUpdate](../../../../.md#mouseupdate)), event-based input has the potential to be more efficient than frame-based input, especially when checking for an input that is expected to occur only rarely or sporadically.
+Because mouse events are only dispatched when the mouse is used (other than [MouseUpdate](../../../../.md#mouseupdate)), event-based input has the potential to be more efficient than frame-based input, especially when checking for an input that is expected to occur only rarely or sporadically.
 
  #  Related Materials
  ##  Manual
-- [ Keyboard Input](keyboardinput.md#what-to-use)
+- [Keyboard Input](keyboardinput.md#what-to-use)
 
  ##  Code Reference
-- [ Mouse](../../../../code_reference/class_reference/mouse.md)
-- [ ViewportMouseEvent](../../../../code_reference/class_reference/viewportmouseevent.md)
-- [ Reactive](../../../../code_reference/class_reference/reactive.md)
-- [ CameraViewport](../../../../code_reference/class_reference/cameraviewport.md)
-- [ Camera](../../../../code_reference/class_reference/camera.md)
-- [ Keyboard](../../../../code_reference/class_reference/keyboard.md)
+- [Mouse](../../../../code_reference/class_reference/mouse.md)
+- [ViewportMouseEvent](../../../../code_reference/class_reference/viewportmouseevent.md)
+- [Reactive](../../../../code_reference/class_reference/reactive.md)
+- [CameraViewport](../../../../code_reference/class_reference/cameraviewport.md)
+- [Camera](../../../../code_reference/class_reference/camera.md)
+- [Keyboard](../../../../code_reference/class_reference/keyboard.md)
  ##  Development Task
 - {T404} 
 

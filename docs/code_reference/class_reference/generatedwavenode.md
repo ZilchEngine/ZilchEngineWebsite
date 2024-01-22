@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](generatedwavenode.md#interpolatedecibels-void)|[ Decibels](generatedwavenode.md#decibels-zilch-engine-doc)|[soundnode](soundnode.md)| |
-|[ InterpolateVolume](generatedwavenode.md#interpolatevolume-void)|[ SquareWavePulseValue](generatedwavenode.md#squarewavepulsevalue-zer)| | |
-|[ InterpolateWaveFrequency](generatedwavenode.md#interpolatewavefrequency)|[ Volume](generatedwavenode.md#volume-zilch-engine-docum)| | |
-|[ Play](generatedwavenode.md#play-void)|[ WaveFrequency](generatedwavenode.md#wavefrequency-zilch-engin)| | |
-|[ Stop](generatedwavenode.md#stop-void)|[ WaveType](generatedwavenode.md#wavetype-zilch-engine-doc)| | |
+|[InterpolateDecibels](generatedwavenode.md#interpolatedecibels-void)|[Decibels](generatedwavenode.md#decibels-zilch-engine-doc)|[soundnode](soundnode.md)| |
+|[InterpolateVolume](generatedwavenode.md#interpolatevolume-void)|[SquareWavePulseValue](generatedwavenode.md#squarewavepulsevalue-zer)| | |
+|[InterpolateWaveFrequency](generatedwavenode.md#interpolatewavefrequency)|[Volume](generatedwavenode.md#volume-zilch-engine-docum)| | |
+|[Play](generatedwavenode.md#play-void)|[WaveFrequency](generatedwavenode.md#wavefrequency-zilch-engin)| | |
+|[Stop](generatedwavenode.md#stop-void)|[WaveType](generatedwavenode.md#wavetype-zilch-engine-doc)| | |
 
 
  #  Properties

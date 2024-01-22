@@ -17,7 +17,7 @@ Actions are a handy way to animate properties with just a few lines of code. The
 
 - [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `SpriteFader`
 
 
@@ -25,7 +25,7 @@ Actions are a handy way to animate properties with just a few lines of code. The
 - In the `Properties Window`
  - Under [Camera](../../../code_reference/class_reference/camera.md)
   - Set Size  to `5`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [Area](../../../code_reference/class_reference/area.md)
@@ -49,8 +49,8 @@ Actions.Property(this.Owner.Actions,
 | Action Property Parameters | | |
 | **Example Value** | **Paremeter Type** |**Description** |
 | `this.Owner.Actions` | [ActionSet](../../../code_reference/class_reference/actionset.md) | The ActionSet which will update this action |
-|`@this.Area.Size` |[ PropertyDelegate](../../zilchmanual/nada_in_zilch/property_delegates.md) | Delegate of the property to be modified by the action |
-| `this.TargetValue` | Property type of the [ PropertyDelegate](../../zilchmanual/nada_in_zilch/property_delegates.md) passed into the previous parameter (**i.e.** [Real3](../../../code_reference/nada_base_types/real3.md) in this example) | Value to which the action will interpolate the given property |
+|`@this.Area.Size` |[PropertyDelegate](../../zilchmanual/nada_in_zilch/property_delegates.md) | Delegate of the property to be modified by the action |
+| `this.TargetValue` | Property type of the [PropertyDelegate](../../zilchmanual/nada_in_zilch/property_delegates.md) passed into the previous parameter (**i.e.** [Real3](../../../code_reference/nada_base_types/real3.md) in this example) | Value to which the action will interpolate the given property |
 | `this.Duration` | [Real](../../../code_reference/nada_base_types/real.md) | The duration over which the action will be completed |
 | `Ease.Linear` | [Ease](../../../code_reference/enum_reference.md#ease) | The [Ease](../../../code_reference/enum_reference.md#ease) function used to calculate the rate of interpolation |
 
@@ -88,14 +88,14 @@ class SpriteFader : NadaComponent
   }
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![ScaleOnly](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93871.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Here you can see the property action interpolating the title scale over the given period of one second.
 
@@ -128,14 +128,14 @@ You may already be wondering how to chain actions together, well this is the pur
   }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![ScaleThenColor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93873.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Here we can see sequences allow up to play actions in a linear order. This is very helpful, but what if we want to make these actions happen at the same time?
 
@@ -162,14 +162,14 @@ Similiar to how an [ActionSequence](../../../code_reference/class_reference/acti
                      Ease.Linear);
   }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![ScaleAndColor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93875.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now that the property actions are in a `group` instead of in a `sequence` they happen at the same time.
 
@@ -234,14 +234,14 @@ So far we have seen sequences and groups working seperately but what if we wante
   }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![GroupedSequences](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93877.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 It should be noted that `this.Owner.Actions` is an [ActionGroup](../../../code_reference/class_reference/actiongroup.md) so in this simple case we could have just passed it to the constructor for the action sequences. We could also invert the group and sequence nesting to achieve the same affect from a different approach.
 
@@ -282,14 +282,14 @@ It should be noted that `this.Owner.Actions` is an [ActionGroup](../../../code_r
   }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![SequencedGroups](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/93879.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now we can see both property actions in the `scaleUpGroup` complete and then the two actions in the `scaleDownGroup` run. 
 
@@ -345,7 +345,7 @@ Another type of action is the call option. This allows you to put calls to funct
   }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -360,7 +360,7 @@ Animation sequence started
 Animation sequence complete
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now you can see the print function executed at the beginning and end of the sequence. This can be very helpful with debugging the behaviors of actions but it also has a slightly more complex application.
 
@@ -418,7 +418,7 @@ Now you can see the print function executed at the beginning and end of the sequ
     Actions.Call(this.LoopedSequence, this.Animate);
   }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -429,9 +429,9 @@ Now you can see the print function executed at the beginning and end of the sequ
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
-Now we can see the action sequence call the function that originally set it up. This create a loop in the sequence of actions which will repeat. You should also notice that we started storing the action sequence in a member variable of `SpriteFader` instead of a local variable. This does not change the behavior of the action sequence, but it does allow us to examine, pause, and cancel the sequence while it is running. This usually good practice for all action sets. We actually already introduced a small example of how one may use an [ ActionSet](../../../code_reference/class_reference/actionset.md) member variable when we introduced these two lines at the top of `animate`.
+Now we can see the action sequence call the function that originally set it up. This create a loop in the sequence of actions which will repeat. You should also notice that we started storing the action sequence in a member variable of `SpriteFader` instead of a local variable. This does not change the behavior of the action sequence, but it does allow us to examine, pause, and cancel the sequence while it is running. This usually good practice for all action sets. We actually already introduced a small example of how one may use an [ActionSet](../../../code_reference/class_reference/actionset.md) member variable when we introduced these two lines at the top of `animate`.
 
 ```TS:Checking Looped Sequence for duplicate
   if(this.LoopedSequence != null)
@@ -490,7 +490,7 @@ Delay actions allow the insertion of a time based delay in an action sequence. W
     Actions.Call(this.LoopedSequence, this.Animate);
   }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -501,7 +501,7 @@ Delay actions allow the insertion of a time based delay in an action sequence. W
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence after a short delay*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now we have the title animating in a loop with a short delay in the sequence before the next itteration of the loop.
 
@@ -583,7 +583,7 @@ The final action type is the event action. This allows you to instantiate an eve
     Actions.Call(this.LoopedSequence, this.Animate);
   }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -594,14 +594,14 @@ The final action type is the event action. This allows you to instantiate an eve
 *`SpriteFader` scaling up and changing the color of the menu title at the same time using a group in a sequence then reversing the actions with another group, then looping the sequence after a short delay*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  # Related Materials
 
  ## Manual
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md)
-- [ PropertyDelegate](../../zilchmanual/nada_in_zilch/property_delegates.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md)
+- [PropertyDelegate](../../zilchmanual/nada_in_zilch/property_delegates.md)
 
  ## Reference
  ### Classes
@@ -619,8 +619,8 @@ The final action type is the event action. This allows you to instantiate an eve
 - [Math.Lerp](../../../code_reference/nada_base_types/math.md#lerp-zilch-engine-documen)
 
  ### Commands
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ## Tasks
 - T782 

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](actionspace.md#actionspace-void)| |[component](component.md)| |
+|[Constructor](actionspace.md#actionspace-void)| |[component](component.md)| |
 
 
  #  Properties

@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AttackMillisec](expandernode.md#attackmillisec-zilch-engi)|[soundnode](soundnode.md)| |
-| |[ InputGainDecibels](expandernode.md#inputgaindecibels-zilch-e)| | |
-| |[ KneeWidth](expandernode.md#kneewidth-zilch-engine-do)| | |
-| |[ OutputGainDecibels](expandernode.md#outputgaindecibels-zero)| | |
-| |[ Ratio](expandernode.md#ratio-zilch-engine-docume)| | |
-| |[ ReleaseMillisec](expandernode.md#releasemillisec-zilch-eng)| | |
-| |[ ThresholdDecibels](expandernode.md#thresholddecibels-zilch-e)| | |
+| |[AttackMillisec](expandernode.md#attackmillisec-zilch-engi)|[soundnode](soundnode.md)| |
+| |[InputGainDecibels](expandernode.md#inputgaindecibels-zilch-e)| | |
+| |[KneeWidth](expandernode.md#kneewidth-zilch-engine-do)| | |
+| |[OutputGainDecibels](expandernode.md#outputgaindecibels-zero)| | |
+| |[Ratio](expandernode.md#ratio-zilch-engine-docume)| | |
+| |[ReleaseMillisec](expandernode.md#releasemillisec-zilch-eng)| | |
+| |[ThresholdDecibels](expandernode.md#thresholddecibels-zilch-e)| | |
 
 
  #  Properties

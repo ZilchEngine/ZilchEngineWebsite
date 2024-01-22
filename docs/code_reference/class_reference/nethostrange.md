@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](nethostrange.md#movenext-void)|[ All](nethostrange.md#all-zilch-engine-document)| | |
-|[ Constructor](nethostrange.md#nethostrange-void)|[ Current](nethostrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](nethostrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](nethostrange.md#isnotempty-zilch-engine-d)| | |
+|[MoveNext](nethostrange.md#movenext-void)|[All](nethostrange.md#all-zilch-engine-document)| | |
+|[Constructor](nethostrange.md#nethostrange-void)|[Current](nethostrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](nethostrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](nethostrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

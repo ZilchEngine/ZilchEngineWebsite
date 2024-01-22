@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Friction](presolveevent.md#friction-zilch-engine-doc)|[basecollisionevent](basecollisionevent.md)| |
-| |[ Restitution](presolveevent.md#restitution-zilch-engine)| | |
+| |[Friction](presolveevent.md#friction-zilch-engine-doc)|[basecollisionevent](basecollisionevent.md)| |
+| |[Restitution](presolveevent.md#restitution-zilch-engine)| | |
 
 
  #  Properties

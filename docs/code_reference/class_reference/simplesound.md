@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Play](simplesound.md#play-zilch-engine-documen)|[ Cue](simplesound.md#cue-zilch-engine-document)|[component](component.md)| |
-|[ Constructor](simplesound.md#simplesound-void)|[ IsPlaying](simplesound.md#isplaying-zilch-engine-do)| | |
-|[ Stop](simplesound.md#stop-void)|[ Paused](simplesound.md#paused-zilch-engine-docum)| | |
-| |[ Positional](simplesound.md#positional-zilch-engine-d)| | |
-| |[ StartPlaying](simplesound.md#startplaying-zilch-engine)| | |
+|[Play](simplesound.md#play-zilch-engine-documen)|[Cue](simplesound.md#cue-zilch-engine-document)|[component](component.md)| |
+|[Constructor](simplesound.md#simplesound-void)|[IsPlaying](simplesound.md#isplaying-zilch-engine-do)| | |
+|[Stop](simplesound.md#stop-void)|[Paused](simplesound.md#paused-zilch-engine-docum)| | |
+| |[Positional](simplesound.md#positional-zilch-engine-d)| | |
+| |[StartPlaying](simplesound.md#startplaying-zilch-engine)| | |
 
 
  #  Properties

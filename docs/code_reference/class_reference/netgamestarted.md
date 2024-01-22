@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GameSession](netgamestarted.md#gamesession-zilch-engine)|[event](event.md)| |
+| |[GameSession](netgamestarted.md#gamesession-zilch-engine)|[event](event.md)| |
 
 
  #  Properties

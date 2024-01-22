@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](jointmotor.md#jointmotor-void)|[ Active](jointmotor.md#active-zilch-engine-docum)|[component](component.md)| |
-| |[ AtomIds](jointmotor.md#atomids-zilch-engine-docu)| | |
-| |[ MaxImpulse](jointmotor.md#maximpulse-zilch-engine-d)| | |
-| |[ Reverse](jointmotor.md#reverse-zilch-engine-docu)| | |
-| |[ Speed](jointmotor.md#speed-zilch-engine-docume)| | |
+|[Constructor](jointmotor.md#jointmotor-void)|[Active](jointmotor.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[AtomIds](jointmotor.md#atomids-zilch-engine-docu)| | |
+| |[MaxImpulse](jointmotor.md#maximpulse-zilch-engine-d)| | |
+| |[Reverse](jointmotor.md#reverse-zilch-engine-docu)| | |
+| |[Speed](jointmotor.md#speed-zilch-engine-docume)| | |
 
 
  #  Properties

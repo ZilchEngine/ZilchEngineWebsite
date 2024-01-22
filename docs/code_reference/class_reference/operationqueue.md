@@ -2,23 +2,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ BeginBatch](operationqueue.md#beginbatch-void)|[ ActiveBatchName](operationqueue.md#activebatchname-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
-|[ ClearAll](operationqueue.md#clearall-void)|[ Commands](operationqueue.md#commands-zilch-engine-doc)| | |
-|[ ClearRedo](operationqueue.md#clearredo-void)|[ RedoCommands](operationqueue.md#redocommands-zilch-engine)| | |
-|[ ClearUndo](operationqueue.md#clearundo-void)| | | |
-|[ DestroyObject](operationqueue.md#destroyobject-void)| | | |
-|[ EndBatch](operationqueue.md#endbatch-void)| | | |
-|[ IsListeningForSideEffects](operationqueue.md#islisteningforsideeffect)| | | |
-|[ MarkPropertyAsModified](operationqueue.md#markpropertyasmodified-v)| | | |
-|[ ObjectCreated](operationqueue.md#objectcreated-void)| | | |
-|[ Constructor](operationqueue.md#operationqueue-void)| | | |
-|[ PopSubPropertyContext](operationqueue.md#popsubpropertycontext-vo)| | | |
-|[ QueueRegisteredSideEffects](operationqueue.md#queueregisteredsideeffec)| | | |
-|[ Redo](operationqueue.md#redo-void)| | | |
-|[ RegisterSideEffect](operationqueue.md#registersideeffect-void)| | | |
-|[ SaveObjectState](operationqueue.md#saveobjectstate-void)| | | |
-|[ StartListeningForSideEffects](operationqueue.md#startlisteningforsideeff)| | | |
-|[ Undo](operationqueue.md#undo-void)| | | |
+|[BeginBatch](operationqueue.md#beginbatch-void)|[ActiveBatchName](operationqueue.md#activebatchname-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ClearAll](operationqueue.md#clearall-void)|[Commands](operationqueue.md#commands-zilch-engine-doc)| | |
+|[ClearRedo](operationqueue.md#clearredo-void)|[RedoCommands](operationqueue.md#redocommands-zilch-engine)| | |
+|[ClearUndo](operationqueue.md#clearundo-void)| | | |
+|[DestroyObject](operationqueue.md#destroyobject-void)| | | |
+|[EndBatch](operationqueue.md#endbatch-void)| | | |
+|[IsListeningForSideEffects](operationqueue.md#islisteningforsideeffect)| | | |
+|[MarkPropertyAsModified](operationqueue.md#markpropertyasmodified-v)| | | |
+|[ObjectCreated](operationqueue.md#objectcreated-void)| | | |
+|[Constructor](operationqueue.md#operationqueue-void)| | | |
+|[PopSubPropertyContext](operationqueue.md#popsubpropertycontext-vo)| | | |
+|[QueueRegisteredSideEffects](operationqueue.md#queueregisteredsideeffec)| | | |
+|[Redo](operationqueue.md#redo-void)| | | |
+|[RegisterSideEffect](operationqueue.md#registersideeffect-void)| | | |
+|[SaveObjectState](operationqueue.md#saveobjectstate-void)| | | |
+|[StartListeningForSideEffects](operationqueue.md#startlisteningforsideeff)| | | |
+|[Undo](operationqueue.md#undo-void)| | | |
 
 
  #  Properties

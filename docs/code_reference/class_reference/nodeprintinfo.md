@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Connections](nodeprintinfo.md#connections-zilch-engine)| | |
-| |[ HasOutput](nodeprintinfo.md#hasoutput-zilch-engine-do)| | |
-| |[ ID](nodeprintinfo.md#id-zilch-engine-documenta)| | |
-| |[ Name](nodeprintinfo.md#name-zilch-engine-documen)| | |
-| |[ Position](nodeprintinfo.md#position-zilch-engine-doc)| | |
+| |[Connections](nodeprintinfo.md#connections-zilch-engine)| | |
+| |[HasOutput](nodeprintinfo.md#hasoutput-zilch-engine-do)| | |
+| |[ID](nodeprintinfo.md#id-zilch-engine-documenta)| | |
+| |[Name](nodeprintinfo.md#name-zilch-engine-documen)| | |
+| |[Position](nodeprintinfo.md#position-zilch-engine-doc)| | |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objectscalegizmo.md#objectscalegizmo-void)|[ AffectTranslation](objectscalegizmo.md#affecttranslation-zilch-e)|[objecttransformgizmo](objecttransformgizmo.md)| |
+|[Constructor](objectscalegizmo.md#objectscalegizmo-void)|[AffectTranslation](objectscalegizmo.md#affecttranslation-zilch-e)|[objecttransformgizmo](objecttransformgizmo.md)| |
 
 
  #  Properties

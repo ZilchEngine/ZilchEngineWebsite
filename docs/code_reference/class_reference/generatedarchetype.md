@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](generatedarchetype.md#generatedarchetype-void)| |[contentcomponent](contentcomponent.md)| |
+|[Constructor](generatedarchetype.md#generatedarchetype-void)| |[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](physicsmeshbuilder.md#physicsmeshbuilder-void)|[ MeshBuilt](physicsmeshbuilder.md#meshbuilt-zilch-engine-do)|[buildercomponent](buildercomponent.md)| |
+|[Constructor](physicsmeshbuilder.md#physicsmeshbuilder-void)|[MeshBuilt](physicsmeshbuilder.md#meshbuilt-zilch-engine-do)|[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties

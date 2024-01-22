@@ -1,4 +1,4 @@
-The [ AddNoiseNode ](../../../../code_reference/class_reference/addnoisenode.md) collects audio data from all of its inputs and adds white noise (with a low pass filter) to the audio before passing it along to its outputs.
+The [AddNoiseNode](../../../../code_reference/class_reference/addnoisenode.md) collects audio data from all of its inputs and adds white noise (with a low pass filter) to the audio before passing it along to its outputs.
 
  # Common Uses
 
@@ -13,6 +13,6 @@ The AddNoiseNode inserts noise into the audio using both addition and multiplica
 
  ## Reference
 
-- [ AddNoiseNode ](../../../../code_reference/class_reference/addnoisenode.md) 
+- [AddNoiseNode](../../../../code_reference/class_reference/addnoisenode.md) 
 
  

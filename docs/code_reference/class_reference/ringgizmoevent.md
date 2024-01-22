@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ DeltaRadiansAroundAxis](ringgizmoevent.md#deltaradiansaroundaxis-z)|[gizmoupdateevent](gizmoupdateevent.md)| |
-| |[ RadiansAroundAxis](ringgizmoevent.md#radiansaroundaxis-zilch-e)| | |
-| |[ WorldRotation](ringgizmoevent.md#worldrotation-zilch-engin)| | |
-| |[ WorldRotationAxis](ringgizmoevent.md#worldrotationaxis-zilch-e)| | |
+| |[DeltaRadiansAroundAxis](ringgizmoevent.md#deltaradiansaroundaxis-z)|[gizmoupdateevent](gizmoupdateevent.md)| |
+| |[RadiansAroundAxis](ringgizmoevent.md#radiansaroundaxis-zilch-e)| | |
+| |[WorldRotation](ringgizmoevent.md#worldrotation-zilch-engin)| | |
+| |[WorldRotationAxis](ringgizmoevent.md#worldrotationaxis-zilch-e)| | |
 
 
  #  Properties

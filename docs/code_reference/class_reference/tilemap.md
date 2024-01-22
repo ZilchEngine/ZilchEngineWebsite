@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](tilemap.md#tilemap-void)|[ MeshThickness](tilemap.md#meshthickness-zilch-engin)|[component](component.md)| |
-| |[ Source](tilemap.md#source-zilch-engine-docum)| | |
+|[Constructor](tilemap.md#tilemap-void)|[MeshThickness](tilemap.md#meshthickness-zilch-engin)|[component](component.md)| |
+| |[Source](tilemap.md#source-zilch-engine-docum)| | |
 
 
  #  Properties

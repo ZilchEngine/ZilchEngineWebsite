@@ -9,9 +9,9 @@ This lesson covers how to cast rays using Physics and interpret the results.
 
  # Level Setup
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Square`
  - Under [Transform](../../../code_reference/class_reference/transform.md)
@@ -33,7 +33,7 @@ This lesson covers how to cast rays using Physics and interpret the results.
 *The property values should look like this*
 
 
-- - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- - [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `MoveUpAndDown`
 - In the `MoveUpAndDown` script
  - Update the `MoveUpAndDown` class to the following:
@@ -75,11 +75,11 @@ class MoveUpAndDown : NadaComponent
 ```
 
 - For each Circle object
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [spherecollider](../../../code_reference/class_reference/spherecollider.md)
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [rigidbody](../../../code_reference/class_reference/rigidbody.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [spherecollider](../../../code_reference/class_reference/spherecollider.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [rigidbody](../../../code_reference/class_reference/rigidbody.md)
  - Under [rigidbody](../../../code_reference/class_reference/rigidbody.md)
   - Set DynamicState enum to `Kinematic`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MoveUpAndDown`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MoveUpAndDown`
  - Under `MoveUpAndDown`
   - Set the properties to the following:
 
@@ -90,7 +90,7 @@ class MoveUpAndDown : NadaComponent
 | BlueCircle object | `[1.5, 1, 0]` | `[1.5, -1, 0]` | `3` |
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -98,7 +98,7 @@ class MoveUpAndDown : NadaComponent
 
  *The circles should move like this*
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  # Rays
@@ -119,7 +119,7 @@ NOTE:
 
 The first step to raycasting is to build the ray with the desired parameters. Let's take a look.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `RayCasterLogic`
 - In the `RayCasterLogic` script
  - Update the `RayCasterLogic` class to the following:
@@ -186,9 +186,9 @@ class RayCasterLogic : NadaComponent
 ```
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Square object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `RaycasterLogic`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `RaycasterLogic`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -198,7 +198,7 @@ class RayCasterLogic : NadaComponent
 *We can see the ray starting at the Square object and extending to the right. Upon intersecting with one of the circles, the color of the square is changed to match it.*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
 
@@ -220,7 +220,7 @@ If the ray intersects an object, you can retrieve the following information from
 
  # Multiple Results
 
-It is also possible to cast a Ray and retrieve the resulting intersections with multiple objects by using the [ PhysicsSpace.CastRay()](../../../code_reference/class_reference/physicsspace.md) function instead.
+It is also possible to cast a Ray and retrieve the resulting intersections with multiple objects by using the [PhysicsSpace.CastRay()](../../../code_reference/class_reference/physicsspace.md) function instead.
 
 - Add the following function to the `RayCasterLogic` class:
 
@@ -270,20 +270,20 @@ It is also possible to cast a Ray and retrieve the resulting intersections with 
   }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![RaycastMultiple](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/105983.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
-The [ CastRay](../../../code_reference/class_reference/physicsspace.md) function allows you to specify the ray and a maximum number of objects to detect. It returns a range of [ CastResults](../../../code_reference/class_reference/castresult.md) that contains all of the objects intersected (up to the specified number) in order of distance (closest to farthest).
+The [CastRay](../../../code_reference/class_reference/physicsspace.md) function allows you to specify the ray and a maximum number of objects to detect. It returns a range of [CastResults](../../../code_reference/class_reference/castresult.md) that contains all of the objects intersected (up to the specified number) in order of distance (closest to farthest).
 
  # Cast Filters
 
-[ CastFilters](../../../code_reference/class_reference/castfilter.md) allow you to customize which objects the raycast process should hit and which should be ignored. The filter can then be passed as an optional third parameter to the `CastRay` function.
+[CastFilters](../../../code_reference/class_reference/castfilter.md) allow you to customize which objects the raycast process should hit and which should be ignored. The filter can then be passed as an optional third parameter to the `CastRay` function.
 
 - Replace the `FindSeveralObjects` function in the `RayCasterLogic` class with the following :
 
@@ -332,14 +332,14 @@ The [ CastRay](../../../code_reference/class_reference/physicsspace.md) function
  - Under [SphereCollider](../../../code_reference/class_reference/spherecollider.md)
   - Set  Ghost checkBox to `true`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![RaycastMultipleFiltered](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/105986.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Here are some useful properties you can set on the [CastFilter](../../../code_reference/class_reference/castfilter.md) that allow you to further customize which objects to ignore.
 
@@ -364,15 +364,15 @@ In addition to Rays, Zilch Engine allows you to cast other types of shapes, incl
 - [Frustum](../../../code_reference/class_reference/frustum.md)
 - [Collider](../../../code_reference/class_reference/collider.md)
 
-They all follow the same basic steps described in this tutorial: define the shape, request [PhysicsSpace](../../../code_reference/class_reference/physicsspace.md) to cast it (with the optional inclusion of a [CastFilter](../../../code_reference/class_reference/castfilter.md)) and then interpret the results. You can read more about them in the [ PhysicsCasting](../../zilchmanual/physics/physicscasting.md) Manual Page.
+They all follow the same basic steps described in this tutorial: define the shape, request [PhysicsSpace](../../../code_reference/class_reference/physicsspace.md) to cast it (with the optional inclusion of a [CastFilter](../../../code_reference/class_reference/castfilter.md)) and then interpret the results. You can read more about them in the [PhysicsCasting](../../zilchmanual/physics/physicscasting.md) Manual Page.
 
 
  # Related Materials
 
  ## Manual
-- [ PhysicsCasting](../../zilchmanual/physics/physicscasting.md)
-- [ Colliders](../../zilchmanual/physics/colliders.md)
-- [ Collision Groups and Tables](../../zilchmanual/physics/collisionoverview/collisiongroupsandtables.md)
+- [PhysicsCasting](../../zilchmanual/physics/physicscasting.md)
+- [Colliders](../../zilchmanual/physics/colliders.md)
+- [Collision Groups and Tables](../../zilchmanual/physics/collisionoverview/collisiongroupsandtables.md)
 
  ## Tutorial
 - [collisiongroups](collision/collisiongroups.md)
@@ -401,8 +401,8 @@ They all follow the same basic steps described in this tutorial: define the shap
 
  ### Commands
 - [CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  ## Development Task

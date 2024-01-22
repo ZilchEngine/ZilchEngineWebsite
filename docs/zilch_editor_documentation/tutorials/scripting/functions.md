@@ -9,10 +9,10 @@ This lesson covers the basics of using Functions in [Nada](../../zilchmanual/nad
 
  # Level Setup
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../code_reference/command_reference.md#add)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../code_reference/command_reference.md#add)
  - Create a NadaScript resource using the Component template template and name it `MyBehavior`
 - In the `Object Window`
  - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
@@ -133,8 +133,8 @@ WARNING: Functions may use conditionals; however, when a Return Type is declared
 
  ## Manual
 - [Components](../../zilchmanual/architecture/components.md)
-- [ Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
-- [ Functions](../../zilchmanual/nada_in_zilch/functions.md)
+- [Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
+- [Functions](../../zilchmanual/nada_in_zilch/functions.md)
 - [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
 
  ##  Tutorials

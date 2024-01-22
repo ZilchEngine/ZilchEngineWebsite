@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Bottom](spritesourcebuilder.md#bottom-zilch-engine-docum)|[buildercomponent](buildercomponent.md)| |
-| |[ Fill](spritesourcebuilder.md#fill-zilch-engine-documen)| | |
-| |[ Left](spritesourcebuilder.md#left-zilch-engine-documen)| | |
-| |[ Looping](spritesourcebuilder.md#looping-zilch-engine-docu)| | |
-| |[ OriginX](spritesourcebuilder.md#originx-zilch-engine-docu)| | |
-| |[ OriginY](spritesourcebuilder.md#originy-zilch-engine-docu)| | |
-| |[ PixelsPerUnit](spritesourcebuilder.md#pixelsperunit-zilch-engin)| | |
-| |[ Right](spritesourcebuilder.md#right-zilch-engine-docume)| | |
-| |[ Sampling](spritesourcebuilder.md#sampling-zilch-engine-doc)| | |
-| |[ Top](spritesourcebuilder.md#top-zilch-engine-document)| | |
+| |[Bottom](spritesourcebuilder.md#bottom-zilch-engine-docum)|[buildercomponent](buildercomponent.md)| |
+| |[Fill](spritesourcebuilder.md#fill-zilch-engine-documen)| | |
+| |[Left](spritesourcebuilder.md#left-zilch-engine-documen)| | |
+| |[Looping](spritesourcebuilder.md#looping-zilch-engine-docu)| | |
+| |[OriginX](spritesourcebuilder.md#originx-zilch-engine-docu)| | |
+| |[OriginY](spritesourcebuilder.md#originy-zilch-engine-docu)| | |
+| |[PixelsPerUnit](spritesourcebuilder.md#pixelsperunit-zilch-engin)| | |
+| |[Right](spritesourcebuilder.md#right-zilch-engine-docume)| | |
+| |[Sampling](spritesourcebuilder.md#sampling-zilch-engine-doc)| | |
+| |[Top](spritesourcebuilder.md#top-zilch-engine-document)| | |
 
 
  #  Properties

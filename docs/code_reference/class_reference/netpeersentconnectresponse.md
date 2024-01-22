@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurConnectResponse](netpeersentconnectresponse.md#ourconnectresponse-zero)|[event](event.md)| |
-| |[ OurIpAddress](netpeersentconnectresponse.md#ouripaddress-zilch-engine)| | |
-| |[ OurResponseBundle](netpeersentconnectresponse.md#ourresponsebundle-zilch-e)| | |
-| |[ TheirIpAddress](netpeersentconnectresponse.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](netpeersentconnectresponse.md#theirnetpeerid-zilch-engi)| | |
-| |[ TheirPendingUserAddRequestCount](netpeersentconnectresponse.md#theirpendinguseraddreque)| | |
-| |[ TheirRequestBundle](netpeersentconnectresponse.md#theirrequestbundle-zero)| | |
+| |[OurConnectResponse](netpeersentconnectresponse.md#ourconnectresponse-zero)|[event](event.md)| |
+| |[OurIpAddress](netpeersentconnectresponse.md#ouripaddress-zilch-engine)| | |
+| |[OurResponseBundle](netpeersentconnectresponse.md#ourresponsebundle-zilch-e)| | |
+| |[TheirIpAddress](netpeersentconnectresponse.md#theiripaddress-zilch-engi)| | |
+| |[TheirNetPeerId](netpeersentconnectresponse.md#theirnetpeerid-zilch-engi)| | |
+| |[TheirPendingUserAddRequestCount](netpeersentconnectresponse.md#theirpendinguseraddreque)| | |
+| |[TheirRequestBundle](netpeersentconnectresponse.md#theirrequestbundle-zero)| | |
 
 
  #  Properties

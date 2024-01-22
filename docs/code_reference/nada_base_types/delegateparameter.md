@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Name](delegateparameter.md#name-zilch-engine-documen)| | |
-| |[ Type](delegateparameter.md#type-zilch-engine-documen)| | |
+| |[Name](delegateparameter.md#name-zilch-engine-documen)| | |
+| |[Type](delegateparameter.md#type-zilch-engine-documen)| | |
 
 
  #  Properties

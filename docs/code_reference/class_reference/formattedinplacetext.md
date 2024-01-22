@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](formattedinplacetext.md#formattedinplacetext-voi)| | | |
+|[Constructor](formattedinplacetext.md#formattedinplacetext-voi)| | | |
 
 
  #  Properties

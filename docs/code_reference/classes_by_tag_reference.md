@@ -249,7 +249,7 @@
 ---  
 - [anyhandle](nada_base_types/anyhandle.md) 
 - [anytype](nada_base_types/anytype.md) 
-- [array_type ](nada_base_types/array_type .md) 
+- [array_type](nada_base_types/array_type.md) 
 - [asciiencoding](nada_base_types/asciiencoding.md) 
 - [boolean](nada_base_types/boolean.md) 
 - [boolean2](nada_base_types/boolean2.md) 
@@ -295,9 +295,9 @@
 - [gettersetter](nada_base_types/gettersetter.md) 
 - [gettersetterrange](nada_base_types/gettersetterrange.md) 
 - [[zilch_engine_documentation/code_reference/nada_base_types/hashmap_key, value /]] 
-- [hashmapkeyrange_key ](nada_base_types/hashmapkeyrange_key .md) 
+- [hashmapkeyrange_key](nada_base_types/hashmapkeyrange_key.md) 
 - [[zilch_engine_documentation/code_reference/nada_base_types/hashmaprange_key, value /]] 
-- [hashmapvaluerange_value ](nada_base_types/hashmapvaluerange_value .md) 
+- [hashmapvaluerange_value](nada_base_types/hashmapvaluerange_value .md) 
 - [iencoding](nada_base_types/iencoding.md) 
 - [indirectiontype](nada_base_types/indirectiontype.md) 
 - [integer](nada_base_types/integer.md) 
@@ -328,7 +328,7 @@
 - [pluginevent](nada_base_types/pluginevent.md) 
 - [processclass](nada_base_types/processclass.md) 
 - [processstartinfo](nada_base_types/processstartinfo.md) 
-- [property_type ](nada_base_types/property_type .md) 
+- [property_type](nada_base_types/property_type .md) 
 - [propertyrange](nada_base_types/propertyrange.md) 
 - [quaternion](nada_base_types/quaternion.md) 
 - [random](nada_base_types/random.md) 

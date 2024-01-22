@@ -1,7 +1,7 @@
-The [ RigidBody](../../../code_reference/class_reference/rigidbody.md) component defines the inertia (mass, velocity, etc...) of a rigid object (i.e. one that cannot be deformed by forces). RigidBody approximations are used in physics to simplify common behaviors for both performance and stability.
+The [RigidBody](../../../code_reference/class_reference/rigidbody.md) component defines the inertia (mass, velocity, etc...) of a rigid object (i.e. one that cannot be deformed by forces). RigidBody approximations are used in physics to simplify common behaviors for both performance and stability.
 
  #  RigidBodyDynamicState
-RigidBody defines the [ DynamicState](../../../code_reference/enum_reference.md#rigidbodydynamicstate) property that changes how the dynamics (or resolution) for an object is handled. The default state of a RigidBody is dynamic (i.e. the body is free to move and resolve as normal).
+RigidBody defines the [DynamicState](../../../code_reference/enum_reference.md#rigidbodydynamicstate) property that changes how the dynamics (or resolution) for an object is handled. The default state of a RigidBody is dynamic (i.e. the body is free to move and resolve as normal).
 
 Commonly, a body needs to be locked in space to behave as some fixed world geometry. One way to do this is to remove the RigidBody. Additionally a RigidBody's DynamicState enum can be changed to `Static`. This object will be treated as an infinite mass object that doesn't move. The difference between these two forms of static is mostly internal performance. The general rule of thumb is: if it always exists and never moves, remove the RigidBody; otherwise, mark it `Static`.
 
@@ -48,6 +48,6 @@ All of these are applied by default to the center of mass of the RigidBody. This
 - [PhysicsSpace](../../../code_reference/class_reference/physicsspace.md)
 - [RigidBody](../../../code_reference/class_reference/rigidbody.md)
 - [Transform](../../../code_reference/class_reference/transform.md)
-- [ DynamicState  ](../../../code_reference/enum_reference.md#rigidbodydynamicstate) 
+- [DynamicState ](../../../code_reference/enum_reference.md#rigidbodydynamicstate) 
 
  

@@ -1,8 +1,8 @@
 |Flags||
 |---|
-|[ FileMode](flags_reference.md#filemode)|
-|[ Members](flags_reference.md#members)|
-|[ StreamCapabilities](flags_reference.md#streamcapabilities)|
+|[FileMode](flags_reference.md#filemode)|
+|[Members](flags_reference.md#members)|
+|[StreamCapabilities](flags_reference.md#streamcapabilities)|
 
 
 

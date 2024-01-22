@@ -4,21 +4,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ComputeMotor](customconstraintinfo.md#computemotor-void)|[ Active](customconstraintinfo.md#active-zilch-engine-docum)|[referencecountedeventobject](referencecountedeventobject.md)| |
-|[ ComputeSpring](customconstraintinfo.md#computespring-void)|[ Angular0](customconstraintinfo.md#angular0-zilch-engine-doc)| | |
-|[ DetachFromOwner](customconstraintinfo.md#detachfromowner-void)|[ Angular1](customconstraintinfo.md#angular1-zilch-engine-doc)| | |
-|[ IsOwned](customconstraintinfo.md#isowned-zilch-engine-docu)|[ Baumgarte](customconstraintinfo.md#baumgarte-zilch-engine-do)| | |
-|[ SetErrorAndBias](customconstraintinfo.md#seterrorandbias-void)|[ Bias](customconstraintinfo.md#bias-zilch-engine-documen)| | |
-|[ SetJacobian](customconstraintinfo.md#setjacobian-void)|[ EffectiveMass](customconstraintinfo.md#effectivemass-zilch-engin)| | |
-| |[ Error](customconstraintinfo.md#error-zilch-engine-docume)| | |
-| |[ Gamma](customconstraintinfo.md#gamma-zilch-engine-docume)| | |
-| |[ Impulse](customconstraintinfo.md#impulse-zilch-engine-docu)| | |
-| |[ Linear0](customconstraintinfo.md#linear0-zilch-engine-docu)| | |
-| |[ Linear1](customconstraintinfo.md#linear1-zilch-engine-docu)| | |
-| |[ MaxImpulse](customconstraintinfo.md#maximpulse-zilch-engine-d)| | |
-| |[ MinImpulse](customconstraintinfo.md#minimpulse-zilch-engine-d)| | |
-| |[ Owner](customconstraintinfo.md#owner-zilch-engine-docume)| | |
-| |[ SolvePosition](customconstraintinfo.md#solveposition-zilch-engin)| | |
+|[ComputeMotor](customconstraintinfo.md#computemotor-void)|[Active](customconstraintinfo.md#active-zilch-engine-docum)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ComputeSpring](customconstraintinfo.md#computespring-void)|[Angular0](customconstraintinfo.md#angular0-zilch-engine-doc)| | |
+|[DetachFromOwner](customconstraintinfo.md#detachfromowner-void)|[Angular1](customconstraintinfo.md#angular1-zilch-engine-doc)| | |
+|[IsOwned](customconstraintinfo.md#isowned-zilch-engine-docu)|[Baumgarte](customconstraintinfo.md#baumgarte-zilch-engine-do)| | |
+|[SetErrorAndBias](customconstraintinfo.md#seterrorandbias-void)|[Bias](customconstraintinfo.md#bias-zilch-engine-documen)| | |
+|[SetJacobian](customconstraintinfo.md#setjacobian-void)|[EffectiveMass](customconstraintinfo.md#effectivemass-zilch-engin)| | |
+| |[Error](customconstraintinfo.md#error-zilch-engine-docume)| | |
+| |[Gamma](customconstraintinfo.md#gamma-zilch-engine-docume)| | |
+| |[Impulse](customconstraintinfo.md#impulse-zilch-engine-docu)| | |
+| |[Linear0](customconstraintinfo.md#linear0-zilch-engine-docu)| | |
+| |[Linear1](customconstraintinfo.md#linear1-zilch-engine-docu)| | |
+| |[MaxImpulse](customconstraintinfo.md#maximpulse-zilch-engine-d)| | |
+| |[MinImpulse](customconstraintinfo.md#minimpulse-zilch-engine-d)| | |
+| |[Owner](customconstraintinfo.md#owner-zilch-engine-docume)| | |
+| |[SolvePosition](customconstraintinfo.md#solveposition-zilch-engin)| | |
 
 
  #  Properties

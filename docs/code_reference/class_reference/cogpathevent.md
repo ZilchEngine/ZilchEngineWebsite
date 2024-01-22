@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CogPath](cogpathevent.md#cogpath-zilch-engine-docu)|[event](event.md)| |
+| |[CogPath](cogpathevent.md#cogpath-zilch-engine-docu)|[event](event.md)| |
 
 
  #  Properties

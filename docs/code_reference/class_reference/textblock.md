@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Text](textblock.md#text-zilch-engine-documen)|[documentresource](documentresource.md)| |
+| |[Text](textblock.md#text-zilch-engine-documen)|[documentresource](documentresource.md)| |
 
 
  #  Properties

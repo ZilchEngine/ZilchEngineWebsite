@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](manipulatorjointblock.md#manipulatorjointblock-vo)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](manipulatorjointblock.md#manipulatorjointblock-vo)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

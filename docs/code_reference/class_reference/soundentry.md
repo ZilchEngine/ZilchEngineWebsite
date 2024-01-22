@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Preview](soundentry.md#preview-void)|[ CrossFadeLoopTail](soundentry.md#crossfadelooptail-zilch-e)|Object| |
-|[ StopPreview](soundentry.md#stoppreview-void)|[ EndTime](soundentry.md#endtime-zilch-engine-docu)| | |
-| |[ LoopEndTime](soundentry.md#loopendtime-zilch-engine)| | |
-| |[ LoopStartTime](soundentry.md#loopstarttime-zilch-engin)| | |
-| |[ LoopTailLength](soundentry.md#looptaillength-zilch-engi)| | |
-| |[ Sound](soundentry.md#sound-zilch-engine-docume)| | |
-| |[ StartTime](soundentry.md#starttime-zilch-engine-do)| | |
-| |[ Weight](soundentry.md#weight-zilch-engine-docum)| | |
+|[Preview](soundentry.md#preview-void)|[CrossFadeLoopTail](soundentry.md#crossfadelooptail-zilch-e)|Object| |
+|[StopPreview](soundentry.md#stoppreview-void)|[EndTime](soundentry.md#endtime-zilch-engine-docu)| | |
+| |[LoopEndTime](soundentry.md#loopendtime-zilch-engine)| | |
+| |[LoopStartTime](soundentry.md#loopstarttime-zilch-engin)| | |
+| |[LoopTailLength](soundentry.md#looptaillength-zilch-engi)| | |
+| |[Sound](soundentry.md#sound-zilch-engine-docume)| | |
+| |[StartTime](soundentry.md#starttime-zilch-engine-do)| | |
+| |[Weight](soundentry.md#weight-zilch-engine-docum)| | |
 
 
  #  Properties

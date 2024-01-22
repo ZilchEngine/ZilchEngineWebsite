@@ -1,5 +1,5 @@
 
- # [ PBR Overview](graphics/physically_based_rendering.md)
+ # [PBR Overview](graphics/physically_based_rendering.md)
 The #zilch_engine uses physically based rendering techniques (PBR). The PBR overview offers a high level PBR description and resources for learning more about the details of PBR and its implementation in the #zilch_engine.
 
 Components tracked by the graphics engine to represent visual objects, each with different benefits for their intended usage.

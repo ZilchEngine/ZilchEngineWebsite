@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchEvent](nadaobject.md#dispatchevent-void)| |[eventobject](eventobject.md)| |
-|[ Constructor](nadaobject.md#nadaobject-void)| | | |
+|[DispatchEvent](nadaobject.md#dispatchevent-void)| |[eventobject](eventobject.md)| |
+|[Constructor](nadaobject.md#nadaobject-void)| | | |
 
 
  #  Properties

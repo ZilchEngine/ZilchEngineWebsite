@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OsWindow](rootwidget.md#oswindow-zilch-engine-doc)|[composite](composite.md)|[mainwindow](mainwindow.md)|
+| |[OsWindow](rootwidget.md#oswindow-zilch-engine-doc)|[composite](composite.md)|[mainwindow](mainwindow.md)|
 
 
  #  Properties

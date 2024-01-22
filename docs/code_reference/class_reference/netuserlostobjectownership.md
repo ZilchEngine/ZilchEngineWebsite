@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CurrentNetUserOwner](netuserlostobjectownership.md#currentnetuserowner-zero)|[event](event.md)| |
-| |[ LostObject](netuserlostobjectownership.md#lostobject-zilch-engine-d)| | |
+| |[CurrentNetUserOwner](netuserlostobjectownership.md#currentnetuserowner-zero)|[event](event.md)| |
+| |[LostObject](netuserlostobjectownership.md#lostobject-zilch-engine-d)| | |
 
 
  #  Properties

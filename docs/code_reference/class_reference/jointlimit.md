@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](jointlimit.md#jointlimit-void)|[ Active](jointlimit.md#active-zilch-engine-docum)|[component](component.md)| |
-| |[ AtomIds](jointlimit.md#atomids-zilch-engine-docu)| | |
-| |[ LowerLimit](jointlimit.md#lowerlimit-zilch-engine-d)| | |
-| |[ UpperLimit](jointlimit.md#upperlimit-zilch-engine-d)| | |
+|[Constructor](jointlimit.md#jointlimit-void)|[Active](jointlimit.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[AtomIds](jointlimit.md#atomids-zilch-engine-docu)| | |
+| |[LowerLimit](jointlimit.md#lowerlimit-zilch-engine-d)| | |
+| |[UpperLimit](jointlimit.md#upperlimit-zilch-engine-d)| | |
 
 
  #  Properties

@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](developerconfig.md#developerconfig-void)|[ CanModifyReadOnlyResources](developerconfig.md#canmodifyreadonlyresourc)|[component](component.md)| |
-| |[ DoubleEscapeQuit](developerconfig.md#doubleescapequit-zilch-en)| | |
-| |[ ProxyObjectsInPreviews](developerconfig.md#proxyobjectsinpreviews-z)| | |
+|[Constructor](developerconfig.md#developerconfig-void)|[CanModifyReadOnlyResources](developerconfig.md#canmodifyreadonlyresourc)|[component](component.md)| |
+| |[DoubleEscapeQuit](developerconfig.md#doubleescapequit-zilch-en)| | |
+| |[ProxyObjectsInPreviews](developerconfig.md#proxyobjectsinpreviews-z)| | |
 
 
  #  Properties

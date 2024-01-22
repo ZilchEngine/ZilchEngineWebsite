@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ JoystickCount](joysticks.md#joystickcount-zilch-engin)|[eventobject](eventobject.md)| |
-| |[ Joysticks](joysticks.md#joysticks-zilch-engine-do)| | |
+| |[JoystickCount](joysticks.md#joystickcount-zilch-engin)|[eventobject](eventobject.md)| |
+| |[Joysticks](joysticks.md#joysticks-zilch-engine-do)| | |
 
 
  #  Properties

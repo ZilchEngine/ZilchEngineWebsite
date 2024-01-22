@@ -14,25 +14,25 @@ CollisionGroups allow users to categorize colliders into different groups. Colli
 
 Before jumping into how CollisionGroups are used, we need to set up a simulation to use them in.
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../../code_reference/command_reference.md#newproject)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Platform`
  - Under [Transform](../../../../code_reference/class_reference/transform.md)
   - Set Scale  to `[10,1,1]`
  - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : [BoxCollider](../../../../code_reference/class_reference/boxcollider.md)
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
 - In the `Properties Window`
  - Rename Sphere object to `DefaultSphere`
  - Under [Transform](../../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[-3,5,0]`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Duplicate](../../../../code_reference/command_reference.md#dupliate)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Duplicate](../../../../code_reference/command_reference.md#dupliate)
 - In the `Properties Window`
  - Rename the duplicate DefaultSphere object to `SkipResolutionSphere`
  - Under [Transform](../../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0,5,0]`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Duplicate](../../../../code_reference/command_reference.md#dupliate)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Duplicate](../../../../code_reference/command_reference.md#dupliate)
 - In the `Properties Window`
  - Rename the duplicate SkipResolutionSphere object to `SkipDetectionSphere`
  - Under [Transform](../../../../code_reference/class_reference/transform.md)
@@ -52,26 +52,26 @@ A [CollisionGroup](../../../../code_reference/class_reference/collisiongroup.md)
 *CollisionGroup enum property on the [SphereCollider](../../../../code_reference/class_reference/spherecollider.md) component*
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a CollisionGroup resource using the Default template template and name it `SkipResolution`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a CollisionGroup resource using the Default template template and name it `SkipDetection`
-- [ Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipResolutionSphere object
+- [Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipResolutionSphere object
 - In the `Properties Window`
- - Under [ SphereCollider](../../../../code_reference/class_reference/spherecollider.md)
+ - Under [SphereCollider](../../../../code_reference/class_reference/spherecollider.md)
   - Set CollisionGroup enum to `SkipResolution`
-- [ Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipDetectionSphere object
+- [Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipDetectionSphere object
 - In the `Properties Window`
- - Under [ SphereCollider](../../../../code_reference/class_reference/spherecollider.md)
+ - Under [SphereCollider](../../../../code_reference/class_reference/spherecollider.md)
   - Set CollisionGroup enum to `SkipDetection`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
 ![notable](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94463.gif)
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 You will notice that the behavior of the balls has not changed as of yet. This is because in order for CollisionGroups to be used, they must be included in the space's [CollisionTable](../../../../code_reference/class_reference/collisiontable.md).
 
@@ -81,7 +81,7 @@ You will notice that the behavior of the balls has not changed as of yet. This i
 
 A [CollisionTable](../../../../code_reference/class_reference/collisiontable.md) defines the relationship between CollisionGroup pairs.
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
   - Create a CollisionTable resource using the Default template template and name it `GameTable`
 
 When a [CollisionTable](../../../../code_reference/class_reference/collisiontable.md) is created, the `CollisionTableEditor Window` opens.
@@ -106,18 +106,18 @@ This is the default configuration for a CollisionTable. It takes all the existin
 
 
 - Close the `CollisionTableEditor Window`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
 ![notable](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94463.gif)
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 You are probably wondering why the groups still aren't working. There is still one more step to perform for the groups to take effect: we have to tell the Space to use the CollisionTable we have created instead of the default CollisionTable.
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [SelectSpace](../../../../code_reference/command_reference.md#selectspace)
 - In the `Properties Window`
  - Under [PhysicsSpace](../../../../code_reference/class_reference/physicsspace.md)
   - Set CollisionTable enum to `GameTable`
@@ -130,19 +130,19 @@ You are probably wondering why the groups still aren't working. There is still o
 *Setting the CollisionTable enum property for the Space*
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
 ![noprint](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94471.gif)
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 Now we can see the two spheres, which are set up to skip resolution and detection respectively, fall through the platform as expected. We still need to prove to ourselves, however, that the SkipResolutionSphere object is still at least detecting the collision.
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `PrintCollision`
 - Update the `PrintCollision` script to the following:
 
@@ -162,14 +162,14 @@ class PrintCollision : NadaComponent
 ```
 
 
-- [ Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipResolutionSphere object
+- [Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipResolutionSphere object
 - In the `Properties Window`
- - [ Add Component](../../../zilchmanual/editor/addremovecomponent.md) : `PrintCollision`
-- [ Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipDetectionSphere object
+ - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : `PrintCollision`
+- [Select](../../../zilchmanual/editor/editorcommands/selectobject.md) : SkipDetectionSphere object
 - In the `Properties Window`
- - [ Add Component](../../../zilchmanual/editor/addremovecomponent.md) : `PrintCollision`
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ Console](../../../../code_reference/command_reference.md#console)
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+ - [Add Component](../../../zilchmanual/editor/addremovecomponent.md) : `PrintCollision`
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../../code_reference/command_reference.md#console)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -179,7 +179,7 @@ class PrintCollision : NadaComponent
 *CollisionGroups properly configured, and printing collision detection*
 
 
-- [ Command](../../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../../code_reference/command_reference.md#stopgame)
+- [Command](../../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 As can be seen by the printed message in the above image, the SkipResolutionSphere object is indeed detecting collision, whereas the SkipDetectionSphere object is not.
 
@@ -196,10 +196,10 @@ Collision groups and tables allow for a lot of flexibility in the usage of colli
 
  ##  Reference
  ###  Commands
-- [ CreateSprite](../../../../code_reference/command_reference.md#createsprite)
-- [ CreateSphere](../../../../code_reference/command_reference.md#createsphere)
-- [ Duplicate](../../../../code_reference/command_reference.md#duplicate)
-- [ SelectSpace](../../../../code_reference/command_reference.md#selectspace)
+- [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
+- [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
+- [Duplicate](../../../../code_reference/command_reference.md#duplicate)
+- [SelectSpace](../../../../code_reference/command_reference.md#selectspace)
 
  ###  Classes
 - [spherecollider](../../../../code_reference/class_reference/spherecollider.md)
@@ -209,10 +209,10 @@ Collision groups and tables allow for a lot of flexibility in the usage of colli
 - [collisiontable](../../../../code_reference/class_reference/collisiontable.md)
 
  ###  Events
-- [ CollisionStarted](../../../../code_reference/event_reference.md#collisionstarted)
+- [CollisionStarted](../../../../code_reference/event_reference.md#collisionstarted)
 
  ###  Enums
-- [ CollisionFilterCollisionFlags](../../../../code_reference/enum_reference.md#collisionfiltercollision)
+- [CollisionFilterCollisionFlags](../../../../code_reference/enum_reference.md#collisionfiltercollision)
 
  ##  Development Task 
 - {T1176} 

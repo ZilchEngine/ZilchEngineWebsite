@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeatherRadius](weightpaintertool.md#featherradius-zilch-engin)|[heightmapsubtool](heightmapsubtool.md)| |
-| |[ Radius](weightpaintertool.md#radius-zilch-engine-docum)| | |
-| |[ Strength](weightpaintertool.md#strength-zilch-engine-doc)| | |
-| |[ TextureChannel](weightpaintertool.md#texturechannel-zilch-engi)| | |
+| |[FeatherRadius](weightpaintertool.md#featherradius-zilch-engin)|[heightmapsubtool](heightmapsubtool.md)| |
+| |[Radius](weightpaintertool.md#radius-zilch-engine-docum)| | |
+| |[Strength](weightpaintertool.md#strength-zilch-engine-doc)| | |
+| |[TextureChannel](weightpaintertool.md#texturechannel-zilch-engi)| | |
 
 
  #  Properties

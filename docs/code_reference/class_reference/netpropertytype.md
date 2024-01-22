@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ResetConfig](netpropertytype.md#resetconfig-void)|[ Name](netpropertytype.md#name-zilch-engine-documen)|[safeid32object](safeid32object.md)| |
-|[ SetConfig](netpropertytype.md#setconfig-void)| | | |
+|[ResetConfig](netpropertytype.md#resetconfig-void)|[Name](netpropertytype.md#name-zilch-engine-documen)|[safeid32object](safeid32object.md)| |
+|[SetConfig](netpropertytype.md#setconfig-void)| | | |
 
 
  #  Properties

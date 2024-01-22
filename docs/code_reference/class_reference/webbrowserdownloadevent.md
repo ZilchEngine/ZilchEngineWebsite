@@ -4,19 +4,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Cancel](webbrowserdownloadevent.md#cancel-zilch-engine-docum)|[webbrowserevent](webbrowserevent.md)| |
-| |[ ContentDisposition](webbrowserdownloadevent.md#contentdisposition-zero)| | |
-| |[ CurrentSpeed](webbrowserdownloadevent.md#currentspeed-zilch-engine)| | |
-| |[ FilePath](webbrowserdownloadevent.md#filepath-zilch-engine-doc)| | |
-| |[ Id](webbrowserdownloadevent.md#id-zilch-engine-documenta)| | |
-| |[ IsComplete](webbrowserdownloadevent.md#iscomplete-zilch-engine-d)| | |
-| |[ IsInProgress](webbrowserdownloadevent.md#isinprogress-zilch-engine)| | |
-| |[ MimeType](webbrowserdownloadevent.md#mimetype-zilch-engine-doc)| | |
-| |[ OriginalUrl](webbrowserdownloadevent.md#originalurl-zilch-engine)| | |
-| |[ ReceivedBytes](webbrowserdownloadevent.md#receivedbytes-zilch-engin)| | |
-| |[ SuggestedFileName](webbrowserdownloadevent.md#suggestedfilename-zilch-e)| | |
-| |[ TotalBytes](webbrowserdownloadevent.md#totalbytes-zilch-engine-d)| | |
-| |[ Url](webbrowserdownloadevent.md#url-zilch-engine-document)| | |
+| |[Cancel](webbrowserdownloadevent.md#cancel-zilch-engine-docum)|[webbrowserevent](webbrowserevent.md)| |
+| |[ContentDisposition](webbrowserdownloadevent.md#contentdisposition-zero)| | |
+| |[CurrentSpeed](webbrowserdownloadevent.md#currentspeed-zilch-engine)| | |
+| |[FilePath](webbrowserdownloadevent.md#filepath-zilch-engine-doc)| | |
+| |[Id](webbrowserdownloadevent.md#id-zilch-engine-documenta)| | |
+| |[IsComplete](webbrowserdownloadevent.md#iscomplete-zilch-engine-d)| | |
+| |[IsInProgress](webbrowserdownloadevent.md#isinprogress-zilch-engine)| | |
+| |[MimeType](webbrowserdownloadevent.md#mimetype-zilch-engine-doc)| | |
+| |[OriginalUrl](webbrowserdownloadevent.md#originalurl-zilch-engine)| | |
+| |[ReceivedBytes](webbrowserdownloadevent.md#receivedbytes-zilch-engin)| | |
+| |[SuggestedFileName](webbrowserdownloadevent.md#suggestedfilename-zilch-e)| | |
+| |[TotalBytes](webbrowserdownloadevent.md#totalbytes-zilch-engine-d)| | |
+| |[Url](webbrowserdownloadevent.md#url-zilch-engine-document)| | |
 
 
  #  Properties

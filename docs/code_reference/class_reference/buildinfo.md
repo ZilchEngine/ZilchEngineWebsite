@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](buildinfo.md#buildinfo-void)| |Object| |
+|[Constructor](buildinfo.md#buildinfo-void)| |Object| |
 
 
  #  Properties

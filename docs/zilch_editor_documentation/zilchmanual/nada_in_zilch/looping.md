@@ -192,7 +192,7 @@ for(var i = 0; i < 5; ++i)
 Notice how `Console.WriteLine(i)` executes for each `i` in the range `[0, 4]` with the exception of `2`.  When `i == 2`, `continue` is reached and the next iteration is reached.  Also note that even when using `continue` in a for loop, the iterative statement `++i` is still executed.
 
  # Condensed Loops
-In the case that a loops only contains one statement within its scope (simliar to [ conditionals ](conditionals.md#condensed-conditionals)) then no `{}` brackets are needed.
+In the case that a loops only contains one statement within its scope (simliar to [conditionals](conditionals.md#condensed-conditionals)) then no `{}` brackets are needed.
 
 ```TS:Single Line Loop
 for(var i = 0; i < 3; ++i)

@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](blendsettingsmrt.md#get-zilch-engine-document)| |[threadsafereferencecounted](threadsafereferencecounted.md)| |
-|[ Set](blendsettingsmrt.md#set-void)| | | |
+|[Get](blendsettingsmrt.md#get-zilch-engine-document)| |[threadsafereferencecounted](threadsafereferencecounted.md)| |
+|[Set](blendsettingsmrt.md#set-void)| | | |
 
 
  #  Properties

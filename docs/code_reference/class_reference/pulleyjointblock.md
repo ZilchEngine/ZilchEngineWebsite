@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](pulleyjointblock.md#pulleyjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](pulleyjointblock.md#pulleyjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

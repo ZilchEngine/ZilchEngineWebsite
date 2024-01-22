@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Host](nethostupdate.md#host-zilch-engine-documen)|[event](event.md)| |
-| |[ Network](nethostupdate.md#network-zilch-engine-docu)| | |
-| |[ RefreshResult](nethostupdate.md#refreshresult-zilch-engin)| | |
-| |[ ResponseTime](nethostupdate.md#responsetime-zilch-engine)| | |
+| |[Host](nethostupdate.md#host-zilch-engine-documen)|[event](event.md)| |
+| |[Network](nethostupdate.md#network-zilch-engine-docu)| | |
+| |[RefreshResult](nethostupdate.md#refreshresult-zilch-engin)| | |
+| |[ResponseTime](nethostupdate.md#responsetime-zilch-engine)| | |
 
 
  #  Properties

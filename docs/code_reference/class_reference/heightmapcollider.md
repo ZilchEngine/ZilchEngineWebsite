@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ClearCachedEdgeAdjacency](heightmapcollider.md#clearcachededgeadjacency)|[ Thickness](heightmapcollider.md#thickness-zilch-engine-do)|[collider](collider.md)| |
-|[ Constructor](heightmapcollider.md#heightmapcollider-void)| | | |
+|[ClearCachedEdgeAdjacency](heightmapcollider.md#clearcachededgeadjacency)|[Thickness](heightmapcollider.md#thickness-zilch-engine-do)|[collider](collider.md)| |
+|[Constructor](heightmapcollider.md#heightmapcollider-void)| | | |
 
 
  #  Properties

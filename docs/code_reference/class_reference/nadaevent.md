@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](nadaevent.md#nadaevent-void)| |[event](event.md)| |
+|[Constructor](nadaevent.md#nadaevent-void)| |[event](event.md)| |
 
 
  #  Properties

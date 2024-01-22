@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objectlinkanchor.md#objectlinkanchor-void)|[ ObjectLinks](objectlinkanchor.md#objectlinks-zilch-engine)|[component](component.md)| |
+|[Constructor](objectlinkanchor.md#objectlinkanchor-void)|[ObjectLinks](objectlinkanchor.md#objectlinks-zilch-engine)|[component](component.md)| |
 
 
  #  Properties

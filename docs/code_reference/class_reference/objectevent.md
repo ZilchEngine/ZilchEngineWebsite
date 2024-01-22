@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Source](objectevent.md#source-object)|[event](event.md)|[commandevent](commandevent.md)|
+| |[Source](objectevent.md#source-object)|[event](event.md)|[commandevent](commandevent.md)|
 | | | |[commandupdateevent](commandupdateevent.md)|
 | | | |[rotationbasisgizmoaabbqueryevent](rotationbasisgizmoaabbqueryevent.md)|
 | | | |[rotationbasisgizmoinitializationevent](rotationbasisgizmoinitializationevent.md)|

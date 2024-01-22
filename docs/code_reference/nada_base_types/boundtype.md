@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetConstructor](boundtype.md#getconstructor-zilch-engi)|[ BaseType](boundtype.md#basetype-zilch-engine-doc)|[type](type.md)| |
-|[ GetField](boundtype.md#getfield-zilch-engine-doc)|[ DefaultConstructor](boundtype.md#defaultconstructor-zero)| | |
-|[ GetFunction](boundtype.md#getfunction-zilch-engine)|[ Destructor](boundtype.md#destructor-zilch-engine-d)| | |
-|[ GetGetterSetter](boundtype.md#getgettersetter-zilch-eng)|[ Fields](boundtype.md#fields-zilch-engine-docum)| | |
-|[ GetMember](boundtype.md#getmember-zilch-engine-do)|[ Functions](boundtype.md#functions-zilch-engine-do)| | |
-|[ GetProperty](boundtype.md#getproperty-zilch-engine)|[ GetterSetters](boundtype.md#gettersetters-zilch-engin)| | |
-|[ InstantiatePreConstructedObject](boundtype.md#instantiatepreconstructe)|[ IsNative](boundtype.md#isnative-zilch-engine-doc)| | |
-| |[ IsTypeOrBaseNative](boundtype.md#istypeorbasenative-zero)| | |
-| |[ Members](boundtype.md#members-zilch-engine-docu)| | |
-| |[ PreConstructor](boundtype.md#preconstructor-zilch-engi)| | |
-| |[ Properties](boundtype.md#properties-zilch-engine-d)| | |
-| |[ TemplateBaseName](boundtype.md#templatebasename-zilch-en)| | |
+|[GetConstructor](boundtype.md#getconstructor-zilch-engi)|[BaseType](boundtype.md#basetype-zilch-engine-doc)|[type](type.md)| |
+|[GetField](boundtype.md#getfield-zilch-engine-doc)|[DefaultConstructor](boundtype.md#defaultconstructor-zero)| | |
+|[GetFunction](boundtype.md#getfunction-zilch-engine)|[Destructor](boundtype.md#destructor-zilch-engine-d)| | |
+|[GetGetterSetter](boundtype.md#getgettersetter-zilch-eng)|[Fields](boundtype.md#fields-zilch-engine-docum)| | |
+|[GetMember](boundtype.md#getmember-zilch-engine-do)|[Functions](boundtype.md#functions-zilch-engine-do)| | |
+|[GetProperty](boundtype.md#getproperty-zilch-engine)|[GetterSetters](boundtype.md#gettersetters-zilch-engin)| | |
+|[InstantiatePreConstructedObject](boundtype.md#instantiatepreconstructe)|[IsNative](boundtype.md#isnative-zilch-engine-doc)| | |
+| |[IsTypeOrBaseNative](boundtype.md#istypeorbasenative-zero)| | |
+| |[Members](boundtype.md#members-zilch-engine-docu)| | |
+| |[PreConstructor](boundtype.md#preconstructor-zilch-engi)| | |
+| |[Properties](boundtype.md#properties-zilch-engine-d)| | |
+| |[TemplateBaseName](boundtype.md#templatebasename-zilch-en)| | |
 
 
  #  Properties

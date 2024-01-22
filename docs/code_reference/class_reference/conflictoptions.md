@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Action](conflictoptions.md#action-zilch-engine-docum)|Object| |
+| |[Action](conflictoptions.md#action-zilch-engine-docum)|Object| |
 
 
  #  Properties

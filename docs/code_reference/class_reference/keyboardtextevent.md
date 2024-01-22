@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Rune](keyboardtextevent.md#rune-zilch-engine-documen)|[event](event.md)| |
+| |[Rune](keyboardtextevent.md#rune-zilch-engine-documen)|[event](event.md)| |
 
 
  #  Properties

@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeatherRadius](heightmanipulationtool.md#featherradius-zilch-engin)|[heightmapsubtool](heightmapsubtool.md)|[flattentool](flattentool.md)|
-| |[ Radius](heightmanipulationtool.md#radius-zilch-engine-docum)| |[raiselowertool](raiselowertool.md)|
+| |[FeatherRadius](heightmanipulationtool.md#featherradius-zilch-engin)|[heightmapsubtool](heightmapsubtool.md)|[flattentool](flattentool.md)|
+| |[Radius](heightmanipulationtool.md#radius-zilch-engine-docum)| |[raiselowertool](raiselowertool.md)|
 | | | |[smoothsharpentool](smoothsharpentool.md)|
 
 

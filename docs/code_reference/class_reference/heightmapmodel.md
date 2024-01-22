@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](heightmapmodel.md#heightmapmodel-void)| |[graphical](graphical.md)| |
+|[Constructor](heightmapmodel.md#heightmapmodel-void)| |[graphical](graphical.md)| |
 
 
  #  Properties

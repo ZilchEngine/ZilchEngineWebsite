@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](physicscarwheelbasisgizmo.md#physicscarwheelbasisgizm)| |[component](component.md)| |
+|[Constructor](physicscarwheelbasisgizmo.md#physicscarwheelbasisgizm)| |[component](component.md)| |
 
 
  #  Properties

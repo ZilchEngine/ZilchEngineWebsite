@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AdditiveCutoff](addnoisenode.md#additivecutoff-zilch-engi)|[soundnode](soundnode.md)| |
-| |[ AdditiveGain](addnoisenode.md#additivegain-zilch-engine)| | |
-| |[ MultiplicativeCutoff](addnoisenode.md#multiplicativecutoff-zer)| | |
-| |[ MultiplicativeGain](addnoisenode.md#multiplicativegain-zero)| | |
+| |[AdditiveCutoff](addnoisenode.md#additivecutoff-zilch-engi)|[soundnode](soundnode.md)| |
+| |[AdditiveGain](addnoisenode.md#additivegain-zilch-engine)| | |
+| |[MultiplicativeCutoff](addnoisenode.md#multiplicativecutoff-zer)| | |
+| |[MultiplicativeGain](addnoisenode.md#multiplicativegain-zero)| | |
 
 
  #  Properties

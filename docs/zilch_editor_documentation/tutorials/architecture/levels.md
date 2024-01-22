@@ -12,7 +12,7 @@ This lesson covers levels in the Zilch Engine.
  #  Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 
 
@@ -25,9 +25,9 @@ A Level resource is a resource that stores a list of objects. These objects are 
  #  Creating a New Level
 
 
-Levels are added to the project in basically the same way as any other resource: by [ adding a resource](../../zilchmanual/editor/editorcommands/resourceadding.md) using one of the pre-defined resource templates.
+Levels are added to the project in basically the same way as any other resource: by [adding a resource](../../zilchmanual/editor/editorcommands/resourceadding.md) using one of the pre-defined resource templates.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 
 
 
@@ -40,16 +40,16 @@ Levels are added to the project in basically the same way as any other resource:
 Zilch's built-in Level templates are like shortcuts for creating levels of different kinds: they've already got the important cogs, like renderers and cameras, and they're pre-configured to be suitable for the chosen type of level. The {nav icon=clone, name="2D Level"} template provides a **forward renderer** and an **orthographic camera**, perfect for a simple 2D game.
 
  - Create a Level resource using the {nav icon=clone, name="2D Level"} template and name it `Level1`
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
 - In the `Properties Window`
  - Under `ForwardRenderer`
   - Set ClearColor  to `[R:16, G:78, B:32, A:1.00]`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 - In the `Properties Window`
  - Rename SpriteText object to `LevelNameText`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, 5, 0]`
- - Under [ SpriteText](../../../code_reference/class_reference/spritetext.md)
+ - Under [SpriteText](../../../code_reference/class_reference/spritetext.md)
   - Set Text  to `- Level 1 -`
   - Set PixelsPerUnit  to `32`
 
@@ -72,7 +72,7 @@ Zilch's built-in Level templates are like shortcuts for creating levels of diffe
 
 There's no sense in having a level if there's no player, eh?
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `KeyboardMovement`
 - Update the `KeyboardMovement` script to the following:
 
@@ -120,23 +120,23 @@ class KeyboardMovement : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Player`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, 0, 0.5]`
- - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
+ - Under [Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `[R:64, G:255, B:160, A:1.00]`
   - Set SpriteSource  to `CircleBordered`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `SphereCollider`
- - Under [ SphereCollider](../../../code_reference/class_reference/spherecollider.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `SphereCollider`
+ - Under [SphereCollider](../../../code_reference/class_reference/spherecollider.md)
   - Set Ghost checkBox to `true`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `RigidBody`
- - Under [ RigidBody](../../../code_reference/class_reference/rigidbody.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `RigidBody`
+ - Under [RigidBody](../../../code_reference/class_reference/rigidbody.md)
   - Set DynamicState enum to `Kinematic`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `KeyboardMovement`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `KeyboardMovement`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -148,7 +148,7 @@ class KeyboardMovement : NadaComponent
 
 You can move the player with the arrow keys.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now let's make a Level 2 to go to from Level 1.
 
@@ -165,11 +165,11 @@ Now let's make a Level 2 to go to from Level 1.
 
 Level 2 should be visually distinct from Level 1.
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelNameText object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelNameText object
 - In the `Properties Window`
  - Under `SpriteText`
   - Set Text  to `- Level 2 -`
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Renderer object
 - In the `Properties Window`
  - Under `ForwardRenderer`
   - Set ClearColor  to `[R:48, G:59, B:84, A:1.00]`
@@ -188,9 +188,9 @@ Now let's make some way of going between Level 1 and Level 2.
  #  Loading a Level in the Game
 
 
-Going from one level to another is as simple as calling the [ space](../../../code_reference/class_reference/space.md)'s LoadLevel function. Let's make a door: an object that calls that function when the player touches it.
+Going from one level to another is as simple as calling the [space](../../../code_reference/class_reference/space.md)'s LoadLevel function. Let's make a door: an object that calls that function when the player touches it.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `LoadLevelOnCollisionStarted`
 - Update the `LoadLevelOnCollisionStarted` script to the following:
 
@@ -215,18 +215,18 @@ class LoadLevelOnCollisionStarted : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Door`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[-5, 3, 0]`
   - Set Scale  to `[2, 3, 1]`
- - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
+ - Under [Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `[R:230, G:23, B:57, A:1.00]`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `BoxCollider`
- - Under [ BoxCollider](../../../code_reference/class_reference/boxcollider.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `BoxCollider`
+ - Under [BoxCollider](../../../code_reference/class_reference/boxcollider.md)
   - Set Ghost checkBox to `true`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `LoadLevelOnCollisionStarted`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `LoadLevelOnCollisionStarted`
  - Under `LoadLevelOnCollisionStarted`
   - Set LevelToLoad resource to `Level1`
 
@@ -238,11 +238,11 @@ class LoadLevelOnCollisionStarted : NadaComponent
 *Level 2 now has a door*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Copy](../../../code_reference/command_reference.md#copy) the Door object
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Copy](../../../code_reference/command_reference.md#copy) the Door object
 - Open the Level resource named `Level1`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Paste](../../../code_reference/command_reference.md#paste) the Door object
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Paste](../../../code_reference/command_reference.md#paste) the Door object
 - In the `Properties Window`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[5, -4, 0]`
  - Under `LoadLevelOnCollisionStarted`
   - Set LevelToLoad resource to `Level2`
@@ -255,7 +255,7 @@ class LoadLevelOnCollisionStarted : NadaComponent
 *Level 1 now has a door*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -264,7 +264,7 @@ class LoadLevelOnCollisionStarted : NadaComponent
 
 If you move the player to the door, the other level is loaded.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 (NOTE) **A Closer Look:**
  When the player touches the door in Level 1, Level 2 is loaded. So what happens to Level 1? When a space's LoadLevel function is called, first, all the objects in that space are destroyed: the player, the door, the camera, the renderer, all of them. Then, all the objects in Level 2 are created. This happens every time a space changes levels.
@@ -275,7 +275,7 @@ If you move the player to the door, the other level is loaded.
 
 Just as the space has a function to load a level, it also has a function to reload the current level.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `ReloadLevelOnKeyDown`
 - Update the `ReloadLevelOnKeyDown` script to the following:
 
@@ -297,10 +297,10 @@ class ReloadLevelOnKeyDown : NadaComponent
 
 Calling the ReloadLevel function does the same thing as calling the LoadLevel function and passing in the current level.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Select the Space](../../../code_reference/command_reference.md#selectspace)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Select the Space](../../../code_reference/command_reference.md#selectspace)
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `ReloadLevelOnKeyDown`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `ReloadLevelOnKeyDown`
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -309,7 +309,7 @@ Calling the ReloadLevel function does the same thing as calling the LoadLevel fu
 
 You can now reload the level by pressing key `Ctrl + R`.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 (NOTE)**A Closer Look:**
  Reloading a level is just the same as loading it again, so it goes through the same process. First, everything present is destroyed. Then, everything in the level is created anew. This means that all of its objects, and all of their components, are reinitialized. However, this does *not* destroy the space that contains the level, which is only initialized when it is created, and destroyed when the user explicitly destroys it in script (or when the game ends).
@@ -318,11 +318,11 @@ You can now reload the level by pressing key `Ctrl + R`.
  #  Setting a Game's Starting Level
 
 
-When a Zilch game is [ played in the editor](../../../code_reference/command_reference.md#playgame), the default game setup loads the level that is currently being edited. When the game is exported, however, this isn't necessarily the first level to be loaded. As a matter of fact, there is a component on the GameSession aptly named [ DefaultGameSetup](../../../code_reference/class_reference/defaultgamesetup.md), which manages this.
+When a Zilch game is [played in the editor](../../../code_reference/command_reference.md#playgame), the default game setup loads the level that is currently being edited. When the game is exported, however, this isn't necessarily the first level to be loaded. As a matter of fact, there is a component on the GameSession aptly named [DefaultGameSetup](../../../code_reference/class_reference/defaultgamesetup.md), which manages this.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Select the Game](../../../code_reference/command_reference.md#selectgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Select the Game](../../../code_reference/command_reference.md#selectgame)
 - In the `Properties Window`
- - Expand [ DefaultGameSetup](../../../code_reference/class_reference/defaultgamesetup.md)
+ - Expand [DefaultGameSetup](../../../code_reference/class_reference/defaultgamesetup.md)
 
 
 
@@ -337,28 +337,28 @@ Let's make a new level, a title screen, and set it as the starting level.
  ##  Creating a Title Screen
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a Level resource using the {nav icon=clone, name="2D Level"} template and name it `TitleScreen`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 - In the `Properties Window`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, 3, 0]`
- - Under [ SpriteText](../../../code_reference/class_reference/spritetext.md)
+ - Under [SpriteText](../../../code_reference/class_reference/spritetext.md)
   - Set Text  to `Azomarith's Revenge 2: Shadows of the Fallen`
   - Set PixelsPerUnit  to `32`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 - In the `Properties Window`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, 2, 0]`
- - Under [ SpriteText](../../../code_reference/class_reference/spritetext.md)
+ - Under [SpriteText](../../../code_reference/class_reference/spritetext.md)
   - Set Text  to `Game of the Year Edition`
   - Set FontSize  to `24`
   - Set PixelsPerUnit  to `32`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 - In the `Properties Window`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, -3, 0]`
- - Under [ SpriteText](../../../code_reference/class_reference/spritetext.md)
+ - Under [SpriteText](../../../code_reference/class_reference/spritetext.md)
   - Set Text  to `Press Enter`
   - Set FontSize  to `18`
   - Set PixelsPerUnit  to `32`
@@ -368,22 +368,22 @@ Let's make a new level, a title screen, and set it as the starting level.
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/96118.png)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Select the Game](../../../code_reference/command_reference.md#selectgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Select the Game](../../../code_reference/command_reference.md#selectgame)
 - In the `Properties Window`
- - Under [ DefaultGameSetup](../../../code_reference/class_reference/defaultgamesetup.md)
+ - Under [DefaultGameSetup](../../../code_reference/class_reference/defaultgamesetup.md)
   - Set StartingLevel enum to `TitleScreen`
   - Set LoadEditingLevel checkBox to `false`
 - Open the Level resource named `Level1`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 Even though we're editing Level 1, the editor loads the title screen, thanks to how the DefaultGameSetup has been configured.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Next, we need a component to load Level 1 from the title screen.
 
 - Open the Level resource named `TitleScreen`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `LoadLevelOnKeyDown`
 - Update the `LoadLevelOnKeyDown` script to the following:
 
@@ -408,11 +408,11 @@ class LoadLevelOnKeyDown : NadaComponent
 }
 ```
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `LoadLevelOnKeyDown`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `LoadLevelOnKeyDown`
 - Open the Level resource named `Level1`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -444,13 +444,13 @@ Now the game always starts with the title screen, and from there goes into Level
 - [defaultgamesetup](../../../code_reference/class_reference/defaultgamesetup.md)
 
  ###  Commands
-- [ CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
-- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
-- [ Paste](../../../code_reference/command_reference.md#paste)
-- [ SelectSpace](../../../code_reference/command_reference.md#selectspace)
-- [ SelectGame](../../../code_reference/command_reference.md#selectgame)
+- [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Paste](../../../code_reference/command_reference.md#paste)
+- [SelectSpace](../../../code_reference/command_reference.md#selectspace)
+- [SelectGame](../../../code_reference/command_reference.md#selectgame)
 
  ##  Development Task
 - {T1172} 

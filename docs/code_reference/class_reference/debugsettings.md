@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugsettings.md#debugsettings-void)|[ MaxDebugObjects](debugsettings.md#maxdebugobjects-zilch-eng)|[component](component.md)| |
+|[Constructor](debugsettings.md#debugsettings-void)|[MaxDebugObjects](debugsettings.md#maxdebugobjects-zilch-eng)|[component](component.md)| |
 
 
  #  Properties

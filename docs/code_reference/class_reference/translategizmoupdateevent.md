@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GizmoWorldTranslation](translategizmoupdateevent.md#gizmoworldtranslation-ze)|[gizmoupdateevent](gizmoupdateevent.md)| |
+| |[GizmoWorldTranslation](translategizmoupdateevent.md#gizmoworldtranslation-ze)|[gizmoupdateevent](gizmoupdateevent.md)| |
 
 
  #  Properties

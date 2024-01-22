@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](arrayhandleofmaterial.md#arrayhandleofmaterial-vo)|[ All](arrayhandleofmaterial.md#all-zilch-engine-document)| | |
-|[ MoveNext](arrayhandleofmaterial.md#movenext-void)|[ Current](arrayhandleofmaterial.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](arrayhandleofmaterial.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](arrayhandleofmaterial.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](arrayhandleofmaterial.md#arrayhandleofmaterial-vo)|[All](arrayhandleofmaterial.md#all-zilch-engine-document)| | |
+|[MoveNext](arrayhandleofmaterial.md#movenext-void)|[Current](arrayhandleofmaterial.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](arrayhandleofmaterial.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](arrayhandleofmaterial.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

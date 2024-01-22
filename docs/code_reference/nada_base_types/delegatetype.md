@@ -3,8 +3,8 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[[zilch_engine_documentation/code_reference/nada_base_types/delegatetype/#parameters-delegate() | Parameters]]|[type](type.md)| |
-| |[ Return](delegatetype.md#return-zilch-engine-docum)| | |
-| |[ Signature](delegatetype.md#signature-zilch-engine-do)| | |
+| |[Return](delegatetype.md#return-zilch-engine-docum)| | |
+| |[Signature](delegatetype.md#signature-zilch-engine-do)| | |
 
 
  #  Properties

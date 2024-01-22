@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateWetPercent](delaynode.md#interpolatewetpercent-vo)|[ Delay](delaynode.md#delay-zilch-engine-docume)|[soundnode](soundnode.md)| |
-|[ InterpolateWetValue](delaynode.md#interpolatewetvalue-void)|[ FeedbackPercent](delaynode.md#feedbackpercent-zilch-eng)| | |
-| |[ FeedbackValue](delaynode.md#feedbackvalue-zilch-engin)| | |
-| |[ WetPercent](delaynode.md#wetpercent-zilch-engine-d)| | |
-| |[ WetValue](delaynode.md#wetvalue-zilch-engine-doc)| | |
+|[InterpolateWetPercent](delaynode.md#interpolatewetpercent-vo)|[Delay](delaynode.md#delay-zilch-engine-docume)|[soundnode](soundnode.md)| |
+|[InterpolateWetValue](delaynode.md#interpolatewetvalue-void)|[FeedbackPercent](delaynode.md#feedbackpercent-zilch-eng)| | |
+| |[FeedbackValue](delaynode.md#feedbackvalue-zilch-engin)| | |
+| |[WetPercent](delaynode.md#wetpercent-zilch-engine-d)| | |
+| |[WetValue](delaynode.md#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties

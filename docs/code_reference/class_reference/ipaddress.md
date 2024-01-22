@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clear](ipaddress.md#clear-void)|[ Hash](ipaddress.md#hash-zilch-engine-documen)|SocketAddress| |
-|[ Constructor](ipaddress.md#ipaddress-void)|[ Host](ipaddress.md#host-zilch-engine-documen)| | |
-| |[ InternetProtocol](ipaddress.md#internetprotocol-zilch-en)| | |
-| |[ IsValid](ipaddress.md#isvalid-zilch-engine-docu)| | |
-| |[ Port](ipaddress.md#port-zilch-engine-documen)| | |
-| |[ PortString](ipaddress.md#portstring-zilch-engine-d)| | |
-| |[ String](ipaddress.md#string-zilch-engine-docum)| | |
+|[Clear](ipaddress.md#clear-void)|[Hash](ipaddress.md#hash-zilch-engine-documen)|SocketAddress| |
+|[Constructor](ipaddress.md#ipaddress-void)|[Host](ipaddress.md#host-zilch-engine-documen)| | |
+| |[InternetProtocol](ipaddress.md#internetprotocol-zilch-en)| | |
+| |[IsValid](ipaddress.md#isvalid-zilch-engine-docu)| | |
+| |[Port](ipaddress.md#port-zilch-engine-documen)| | |
+| |[PortString](ipaddress.md#portstring-zilch-engine-d)| | |
+| |[String](ipaddress.md#string-zilch-engine-docum)| | |
 
 
  #  Properties

@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BaseHeight](heightmapimporter.md#baseheight-zilch-engine-d)|[composite](composite.md)| |
-| |[ ImportMode](heightmapimporter.md#importmode-zilch-engine-d)| | |
-| |[ MaxHeightRange](heightmapimporter.md#maxheightrange-zilch-engi)| | |
-| |[ MinHeightRange](heightmapimporter.md#minheightrange-zilch-engi)| | |
-| |[ Name](heightmapimporter.md#name-zilch-engine-documen)| | |
-| |[ PatchColumns](heightmapimporter.md#patchcolumns-zilch-engine)| | |
-| |[ PatchRows](heightmapimporter.md#patchrows-zilch-engine-do)| | |
-| |[ PatchSize](heightmapimporter.md#patchsize-zilch-engine-do)| | |
+| |[BaseHeight](heightmapimporter.md#baseheight-zilch-engine-d)|[composite](composite.md)| |
+| |[ImportMode](heightmapimporter.md#importmode-zilch-engine-d)| | |
+| |[MaxHeightRange](heightmapimporter.md#maxheightrange-zilch-engi)| | |
+| |[MinHeightRange](heightmapimporter.md#minheightrange-zilch-engi)| | |
+| |[Name](heightmapimporter.md#name-zilch-engine-documen)| | |
+| |[PatchColumns](heightmapimporter.md#patchcolumns-zilch-engine)| | |
+| |[PatchRows](heightmapimporter.md#patchrows-zilch-engine-do)| | |
+| |[PatchSize](heightmapimporter.md#patchsize-zilch-engine-do)| | |
 
 
  #  Properties

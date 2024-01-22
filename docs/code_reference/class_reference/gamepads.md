@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetGamePad](gamepads.md#getgamepad-zilch-engine-d)|[ MaxGamepadCount](gamepads.md#maxgamepadcount-zilch-eng)|[eventobject](eventobject.md)| |
-|[ PauseVibration](gamepads.md#pausevibration-void)| | | |
-|[ ResumeVibration](gamepads.md#resumevibration-void)| | | |
+|[GetGamePad](gamepads.md#getgamepad-zilch-engine-d)|[MaxGamepadCount](gamepads.md#maxgamepadcount-zilch-eng)|[eventobject](eventobject.md)| |
+|[PauseVibration](gamepads.md#pausevibration-void)| | | |
+|[ResumeVibration](gamepads.md#resumevibration-void)| | | |
 
 
  #  Properties

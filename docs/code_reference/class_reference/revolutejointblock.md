@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](revolutejointblock.md#revolutejointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](revolutejointblock.md#revolutejointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

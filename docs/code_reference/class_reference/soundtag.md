@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ EQSetAllBands](soundtag.md#eqsetallbands-void)|[ CompressorAttack](soundtag.md#compressorattack-zilch-en)|[dataresource](dataresource.md)| |
-|[ InterpolateDecibels](soundtag.md#interpolatedecibels-void)|[ CompressorKneeWidth](soundtag.md#compressorkneewidth-zero)| | |
-|[ InterpolateVolume](soundtag.md#interpolatevolume-void)|[ CompressorRatio](soundtag.md#compressorratio-zilch-eng)| | |
-|[ StopSounds](soundtag.md#stopsounds-void)|[ CompressorRelease](soundtag.md#compressorrelease-zilch-e)| | |
-|[ TagSound](soundtag.md#tagsound-void)|[ CompressorThreshold](soundtag.md#compressorthreshold-zero)| | |
-|[ UnTagSound](soundtag.md#untagsound-void)|[ Decibels](soundtag.md#decibels-zilch-engine-doc)| | |
-| |[ EQBand1Gain](soundtag.md#eqband1gain-zilch-engine)| | |
-| |[ EQBand2Gain](soundtag.md#eqband2gain-zilch-engine)| | |
-| |[ EQBand3Gain](soundtag.md#eqband3gain-zilch-engine)| | |
-| |[ EQHighPassGain](soundtag.md#eqhighpassgain-zilch-engi)| | |
-| |[ EQLowPassGain](soundtag.md#eqlowpassgain-zilch-engin)| | |
-| |[ InstanceCount](soundtag.md#instancecount-zilch-engin)| | |
-| |[ InstanceLimit](soundtag.md#instancelimit-zilch-engin)| | |
-| |[ Instances](soundtag.md#instances-zilch-engine-do)| | |
-| |[ Paused](soundtag.md#paused-zilch-engine-docum)| | |
-| |[ TagForDucking](soundtag.md#tagforducking-zilch-engin)| | |
-| |[ UseCompressor](soundtag.md#usecompressor-zilch-engin)| | |
-| |[ UseEqualizer](soundtag.md#useequalizer-zilch-engine)| | |
-| |[ Volume](soundtag.md#volume-zilch-engine-docum)| | |
+|[EQSetAllBands](soundtag.md#eqsetallbands-void)|[CompressorAttack](soundtag.md#compressorattack-zilch-en)|[dataresource](dataresource.md)| |
+|[InterpolateDecibels](soundtag.md#interpolatedecibels-void)|[CompressorKneeWidth](soundtag.md#compressorkneewidth-zero)| | |
+|[InterpolateVolume](soundtag.md#interpolatevolume-void)|[CompressorRatio](soundtag.md#compressorratio-zilch-eng)| | |
+|[StopSounds](soundtag.md#stopsounds-void)|[CompressorRelease](soundtag.md#compressorrelease-zilch-e)| | |
+|[TagSound](soundtag.md#tagsound-void)|[CompressorThreshold](soundtag.md#compressorthreshold-zero)| | |
+|[UnTagSound](soundtag.md#untagsound-void)|[Decibels](soundtag.md#decibels-zilch-engine-doc)| | |
+| |[EQBand1Gain](soundtag.md#eqband1gain-zilch-engine)| | |
+| |[EQBand2Gain](soundtag.md#eqband2gain-zilch-engine)| | |
+| |[EQBand3Gain](soundtag.md#eqband3gain-zilch-engine)| | |
+| |[EQHighPassGain](soundtag.md#eqhighpassgain-zilch-engi)| | |
+| |[EQLowPassGain](soundtag.md#eqlowpassgain-zilch-engin)| | |
+| |[InstanceCount](soundtag.md#instancecount-zilch-engin)| | |
+| |[InstanceLimit](soundtag.md#instancelimit-zilch-engin)| | |
+| |[Instances](soundtag.md#instances-zilch-engine-do)| | |
+| |[Paused](soundtag.md#paused-zilch-engine-docum)| | |
+| |[TagForDucking](soundtag.md#tagforducking-zilch-engin)| | |
+| |[UseCompressor](soundtag.md#usecompressor-zilch-engin)| | |
+| |[UseEqualizer](soundtag.md#useequalizer-zilch-engine)| | |
+| |[Volume](soundtag.md#volume-zilch-engine-docum)| | |
 
 
  #  Properties

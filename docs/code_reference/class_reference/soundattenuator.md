@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FalloffCurve](soundattenuator.md#falloffcurve-zilch-engine)|[dataresource](dataresource.md)| |
-| |[ FalloffCurveType](soundattenuator.md#falloffcurvetype-zilch-en)| | |
-| |[ LowPassCutoffFreq](soundattenuator.md#lowpasscutofffreq-zilch-e)| | |
-| |[ LowPassStartDistance](soundattenuator.md#lowpassstartdistance-zer)| | |
-| |[ MinAttenuatedVolume](soundattenuator.md#minattenuatedvolume-zero)| | |
-| |[ StartDistance](soundattenuator.md#startdistance-zilch-engin)| | |
-| |[ StopDistance](soundattenuator.md#stopdistance-zilch-engine)| | |
-| |[ UseLowPassFilter](soundattenuator.md#uselowpassfilter-zilch-en)| | |
+| |[FalloffCurve](soundattenuator.md#falloffcurve-zilch-engine)|[dataresource](dataresource.md)| |
+| |[FalloffCurveType](soundattenuator.md#falloffcurvetype-zilch-en)| | |
+| |[LowPassCutoffFreq](soundattenuator.md#lowpasscutofffreq-zilch-e)| | |
+| |[LowPassStartDistance](soundattenuator.md#lowpassstartdistance-zer)| | |
+| |[MinAttenuatedVolume](soundattenuator.md#minattenuatedvolume-zero)| | |
+| |[StartDistance](soundattenuator.md#startdistance-zilch-engin)| | |
+| |[StopDistance](soundattenuator.md#stopdistance-zilch-engine)| | |
+| |[UseLowPassFilter](soundattenuator.md#uselowpassfilter-zilch-en)| | |
 
 
  #  Properties

@@ -7,23 +7,23 @@ This lesson focuses on covering the basics of audio in Zilch Engine.
 
  # Level Setup
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Square`
  - [Add Component](../../zilchmanual/editor/addremovecomponent/) : [RigidBody]D:/Dev/CPP/ZilchEngine/ZilchEngineWebsite/docs/code_reference/class_reference/rigidbody.md)
- - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
- - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ SimpleSound](../../../code_reference/class_reference/simplesound.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [SimpleSound](../../../code_reference/class_reference/simplesound.md)
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![AudioI](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46662.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Importing Audio
 
@@ -76,13 +76,13 @@ SoundCues are resources that allow you to modify properties of a sound without a
  - Set PlayMode  to `Looping`
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Square object
 - In the `Properties Window`
- - Under [ SimpleSound](../../../code_reference/class_reference/simplesound.md)
+ - Under [SimpleSound](../../../code_reference/class_reference/simplesound.md)
   - Set SoundCue enum to `Buzz`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 You should now be hearing the Buzz  sound effect looping.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Attenuation
 
@@ -95,7 +95,7 @@ Previously, we have played sounds that remain just as loud irrespective of the e
 
 Let's take a look on how to play positional sounds.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : 
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : 
  [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a SoundAttenuator resource named `CustomAttenuation`
 - In the `Library Window`
@@ -107,15 +107,15 @@ Let's take a look on how to play positional sounds.
  - Set MinAttenuatedVolume  to `0`
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Square object
 - In the `Properties Window`
- - Under [ SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
+ - Under [SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
   - Set Attenuator  to `CustomAttenuation`
- - Under [ SimpleSound](../../../code_reference/class_reference/simplesound.md)
+ - Under [SimpleSound](../../../code_reference/class_reference/simplesound.md)
   - Set Positional checkBox to `true`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 If done correctly, you should notice the sound getting quieter as the Square object object falls and gets farther from the `Game Camera` which has a [SoundListener](../../zilchmanual/audio/soundlistener.md).
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
@@ -139,9 +139,9 @@ If done correctly, you should notice the sound getting quieter as the Square obj
 
  ### Commands
 - [Create a New 2D Project](../../../code_reference/command_reference.md#newproject)
-- [ Add Resource](../../../code_reference/command_reference.md#add)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Add Resource](../../../code_reference/command_reference.md#add)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [CreateSprite](../../../code_reference/command_reference.md#createsprite) 
 
  

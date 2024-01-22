@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChangeAccepted](textupdatedevent.md#changeaccepted-zilch-engi)|[event](event.md)| |
+| |[ChangeAccepted](textupdatedevent.md#changeaccepted-zilch-engi)|[event](event.md)| |
 
 
  #  Properties

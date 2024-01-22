@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](ellipsoidcollider.md#ellipsoidcollider-void)|[ Radii](ellipsoidcollider.md#radii-zilch-engine-docume)|[collider](collider.md)| |
-| |[ WorldRadii](ellipsoidcollider.md#worldradii-zilch-engine-d)| | |
+|[Constructor](ellipsoidcollider.md#ellipsoidcollider-void)|[Radii](ellipsoidcollider.md#radii-zilch-engine-docume)|[collider](collider.md)| |
+| |[WorldRadii](ellipsoidcollider.md#worldradii-zilch-engine-d)| | |
 
 
  #  Properties

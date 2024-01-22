@@ -8,13 +8,13 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 
  # Level Setup
 
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ New Project](../code_reference/command_reference.md#newproject)
-- [Remove ](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) the [GravityEffect](../code_reference/class_reference/gravityeffect.md) from the LevelSettings object.
-- [Remove ](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) the [DragEffect](../code_reference/class_reference/drageffect.md) from the LevelSettings object.
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [New Project](../code_reference/command_reference.md#newproject)
+- [Remove](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) the [GravityEffect](../code_reference/class_reference/gravityeffect.md) from the LevelSettings object.
+- [Remove](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) the [DragEffect](../code_reference/class_reference/drageffect.md) from the LevelSettings object.
 
  # The Player
  ## Player Archetype
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.md)
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.md)
  - Rename the new sprite to `Player`
 - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) [RigidBody](../code_reference/class_reference/rigidbody.md) to the Player object
 - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) [Orientation](../code_reference/class_reference/orientation.md) to the Player object
@@ -22,7 +22,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - Upload the Player object to a new archetype called `Player`
 
  ## Player Movement
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 - Create a NadaScript resource using the Component template template and name it `PlayerMovement`
  - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) `PlayerMovement` to the Player object
 - Upload the Player object to a new archetype called `Player`
@@ -51,10 +51,10 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - Use [Transform.RotateWorld()](../code_reference/class_reference/transform.md#rotateworld-void) to rotate the object by `rotation * rotationSpeedRadians * event.Dt`
 
  ## Player Shooting
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 - Add a NadaScript resource using the Component template template and name it `ObjectSpawner`
  - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) `ObjectSpawner` to the Player object
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 - Add a NadaScript resource using the Component template template and name it `CreateOnInput`
  - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) `CreateOnInput` to the Player object
 - Upload the Player object to a new archetype called `Player`
@@ -87,7 +87,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 
 
  # The Projectile
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../zilch_editor_documentation/zilchmanual/editor/editorcommands/resourceadding.md)
 - Create a NadaScript resource using the Component template template and name it `DestroyOnCollision`
  - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) `DestroyOnCollision` to the Projectile object
 - Under the `Sprite` component change the `VertexColor`
@@ -110,7 +110,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
  - At this point the ship should be able to move, rotate, and shoot.
 
  # Astroids
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.md)
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.md)
  - Rename the new sprite to `Asteroid`
 - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) [RigidBody](../code_reference/class_reference/rigidbody.md) to the Asteroid object
 - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) [BoxCollider](../code_reference/class_reference/boxcollider.md) to the Asteroid object
@@ -118,7 +118,7 @@ NOTE: Like other project pages this tutorial does not cover every tiny step the 
 - Upload the `Asteroid` archetype
 
  ## Spawning Asteroids
-- [ Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.md)
+- [Command](../zilch_editor_documentation/zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../zilch_editor_documentation/zilchmanual/editor/editorcommands/createobject.md)
  - Rename the new sprite to `AsteroidSpawner`
 - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) [Orientation](../code_reference/class_reference/orientation.md) to the AsteroidSpawner object
 - [Add component](../zilch_editor_documentation/zilchmanual/editor/addremovecomponent.md) `ObjectSpawner` to the AsteroidSpawner object

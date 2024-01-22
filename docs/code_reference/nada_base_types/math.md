@@ -2,88 +2,88 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Abs](math.md#abs-zilch-engine-document)|[ E](math.md#e-zilch-engine-documentat)| | |
-|[ ACos](math.md#acos-zilch-engine-documen)|[ Pi](math.md#pi-zilch-engine-documenta)| | |
-|[ AllNonZero](math.md#allnonzilch-zilch-engine-d)| | | |
-|[ Angle2D](math.md#angle2d-zilch-engine-docu)| | | |
-|[ AngleBetween](math.md#anglebetween-zilch-engine)| | | |
-|[ AnyNonZero](math.md#anynonzilch-zilch-engine-d)| | | |
-|[ ApproximatelyEqual](math.md#approximatelyequal-zero)| | | |
-|[ ASin](math.md#asin-zilch-engine-documen)| | | |
-|[ ATan](math.md#atan-zilch-engine-documen)| | | |
-|[ ATan2](math.md#atan2-zilch-engine-docume)| | | |
-|[ AxisAngle](math.md#axisangle-zilch-engine-do)| | | |
-|[ Ceil](math.md#ceil-zilch-engine-documen)| | | |
-|[ Clamp](math.md#clamp-zilch-engine-docume)| | | |
-|[ Cos](math.md#cos-zilch-engine-document)| | | |
-|[ Cosh](math.md#cosh-zilch-engine-documen)| | | |
-|[ CountBits](math.md#countbits-zilch-engine-do)| | | |
-|[ Cross](math.md#cross-zilch-engine-docume)| | | |
-|[ Determinant](math.md#determinant-zilch-engine)| | | |
-|[ Distance](math.md#distance-zilch-engine-doc)| | | |
-|[ DistanceSq](math.md#distancesq-zilch-engine-d)| | | |
-|[ Dot](math.md#dot-zilch-engine-document)| | | |
-|[ Euler](math.md#euler-zilch-engine-docume)| | | |
-|[ Exp](math.md#exp-zilch-engine-document)| | | |
-|[ Exp2](math.md#exp2-zilch-engine-documen)| | | |
-|[ Floor](math.md#floor-zilch-engine-docume)| | | |
-|[ FMod](math.md#fmod-zilch-engine-documen)| | | |
-|[ Frac](math.md#frac-zilch-engine-documen)| | | |
-|[ GenerateRotationMatrix2x2](math.md#generaterotationmatrix2x)| | | |
-|[ GenerateRotationMatrix3x3](math.md#generaterotationmatrix3x)| | | |
-|[ GenerateRotationMatrix4x4](math.md#generaterotationmatrix4x)| | | |
-|[ GenerateScaleMatrix2x2](math.md#generatescalematrix2x2-z)| | | |
-|[ GenerateScaleMatrix3x3](math.md#generatescalematrix3x3-z)| | | |
-|[ GenerateScaleMatrix4x4](math.md#generatescalematrix4x4-z)| | | |
-|[ GenerateTransformMatrix2x2](math.md#generatetransformmatrix2)| | | |
-|[ GenerateTransformMatrix3x3](math.md#generatetransformmatrix3)| | | |
-|[ GenerateTransformMatrix4x4](math.md#generatetransformmatrix4)| | | |
-|[ GenerateTranslationMatrix3x3](math.md#generatetranslationmatri)| | | |
-|[ GenerateTranslationMatrix4x4](math.md#generatetranslationmatri)| | | |
-|[ Invert](math.md#invert-zilch-engine-docum)| | | |
-|[ Length](math.md#length-zilch-engine-docum)| | | |
-|[ LengthSq](math.md#lengthsq-zilch-engine-doc)| | | |
-|[ Lerp](math.md#lerp-zilch-engine-documen)| | | |
-|[ Log](math.md#log-zilch-engine-document)| | | |
-|[ Log10](math.md#log10-zilch-engine-docume)| | | |
-|[ Log2](math.md#log2-zilch-engine-documen)| | | |
-|[ Max](math.md#max-zilch-engine-document)| | | |
-|[ Min](math.md#min-zilch-engine-document)| | | |
-|[ Multiply](math.md#multiply-zilch-engine-doc)| | | |
-|[ MultiplyNormal](math.md#multiplynormal-zilch-engi)| | | |
-|[ MultiplyPoint](math.md#multiplypoint-zilch-engin)| | | |
-|[ MultiplyPointNoDivide](math.md#multiplypointnodivide-ze)| | | |
-|[ Normalize](math.md#normalize-zilch-engine-do)| | | |
-|[ Pow](math.md#pow-zilch-engine-document)| | | |
-|[ Project](math.md#project-zilch-engine-docu)| | | |
-|[ ProjectOnPlane](math.md#projectonplane-zilch-engi)| | | |
-|[ ProjectOnVector](math.md#projectonvector-zilch-eng)| | | |
-|[ ReflectAcrossPlane](math.md#reflectacrossplane-zero)| | | |
-|[ ReflectAcrossVector](math.md#reflectacrossvector-zero)| | | |
-|[ Refract](math.md#refract-zilch-engine-docu)| | | |
-|[ RotateTowards](math.md#rotatetowards-zilch-engin)| | | |
-|[ RotateVector](math.md#rotatevector-zilch-engine)| | | |
-|[ RotationQuaternionBetween](math.md#rotationquaternionbetwee)| | | |
-|[ Round](math.md#round-zilch-engine-docume)| | | |
-|[ RSqrt](math.md#rsqrt-zilch-engine-docume)| | | |
-|[ Saturate](math.md#saturate-zilch-engine-doc)| | | |
-|[ Sign](math.md#sign-zilch-engine-documen)| | | |
-|[ SignedAngle](math.md#signedangle-zilch-engine)| | | |
-|[ Sin](math.md#sin-zilch-engine-document)| | | |
-|[ Sinh](math.md#sinh-zilch-engine-documen)| | | |
-|[ Slerp](math.md#slerp-zilch-engine-docume)| | | |
-|[ SlerpUnnormalized](math.md#slerpunnormalized-zilch-e)| | | |
-|[ SmoothStep](math.md#smoothstep-zilch-engine-d)| | | |
-|[ Sqrt](math.md#sqrt-zilch-engine-documen)| | | |
-|[ Step](math.md#step-zilch-engine-documen)| | | |
-|[ Tan](math.md#tan-zilch-engine-document)| | | |
-|[ Tanh](math.md#tanh-zilch-engine-documen)| | | |
-|[ ToDegrees](math.md#todegrees-zilch-engine-do)| | | |
-|[ ToQuaternion](math.md#toquaternion-zilch-engine)| | | |
-|[ ToRadians](math.md#toradians-zilch-engine-do)| | | |
-|[ ToReal3x3](math.md#toreal3x3-zilch-engine-do)| | | |
-|[ Transpose](math.md#transpose-zilch-engine-do)| | | |
-|[ Truncate](math.md#truncate-zilch-engine-doc)| | | |
+|[Abs](math.md#abs-zilch-engine-document)|[E](math.md#e-zilch-engine-documentat)| | |
+|[ACos](math.md#acos-zilch-engine-documen)|[Pi](math.md#pi-zilch-engine-documenta)| | |
+|[AllNonZero](math.md#allnonzilch-zilch-engine-d)| | | |
+|[Angle2D](math.md#angle2d-zilch-engine-docu)| | | |
+|[AngleBetween](math.md#anglebetween-zilch-engine)| | | |
+|[AnyNonZero](math.md#anynonzilch-zilch-engine-d)| | | |
+|[ApproximatelyEqual](math.md#approximatelyequal-zero)| | | |
+|[ASin](math.md#asin-zilch-engine-documen)| | | |
+|[ATan](math.md#atan-zilch-engine-documen)| | | |
+|[ATan2](math.md#atan2-zilch-engine-docume)| | | |
+|[AxisAngle](math.md#axisangle-zilch-engine-do)| | | |
+|[Ceil](math.md#ceil-zilch-engine-documen)| | | |
+|[Clamp](math.md#clamp-zilch-engine-docume)| | | |
+|[Cos](math.md#cos-zilch-engine-document)| | | |
+|[Cosh](math.md#cosh-zilch-engine-documen)| | | |
+|[CountBits](math.md#countbits-zilch-engine-do)| | | |
+|[Cross](math.md#cross-zilch-engine-docume)| | | |
+|[Determinant](math.md#determinant-zilch-engine)| | | |
+|[Distance](math.md#distance-zilch-engine-doc)| | | |
+|[DistanceSq](math.md#distancesq-zilch-engine-d)| | | |
+|[Dot](math.md#dot-zilch-engine-document)| | | |
+|[Euler](math.md#euler-zilch-engine-docume)| | | |
+|[Exp](math.md#exp-zilch-engine-document)| | | |
+|[Exp2](math.md#exp2-zilch-engine-documen)| | | |
+|[Floor](math.md#floor-zilch-engine-docume)| | | |
+|[FMod](math.md#fmod-zilch-engine-documen)| | | |
+|[Frac](math.md#frac-zilch-engine-documen)| | | |
+|[GenerateRotationMatrix2x2](math.md#generaterotationmatrix2x)| | | |
+|[GenerateRotationMatrix3x3](math.md#generaterotationmatrix3x)| | | |
+|[GenerateRotationMatrix4x4](math.md#generaterotationmatrix4x)| | | |
+|[GenerateScaleMatrix2x2](math.md#generatescalematrix2x2-z)| | | |
+|[GenerateScaleMatrix3x3](math.md#generatescalematrix3x3-z)| | | |
+|[GenerateScaleMatrix4x4](math.md#generatescalematrix4x4-z)| | | |
+|[GenerateTransformMatrix2x2](math.md#generatetransformmatrix2)| | | |
+|[GenerateTransformMatrix3x3](math.md#generatetransformmatrix3)| | | |
+|[GenerateTransformMatrix4x4](math.md#generatetransformmatrix4)| | | |
+|[GenerateTranslationMatrix3x3](math.md#generatetranslationmatri)| | | |
+|[GenerateTranslationMatrix4x4](math.md#generatetranslationmatri)| | | |
+|[Invert](math.md#invert-zilch-engine-docum)| | | |
+|[Length](math.md#length-zilch-engine-docum)| | | |
+|[LengthSq](math.md#lengthsq-zilch-engine-doc)| | | |
+|[Lerp](math.md#lerp-zilch-engine-documen)| | | |
+|[Log](math.md#log-zilch-engine-document)| | | |
+|[Log10](math.md#log10-zilch-engine-docume)| | | |
+|[Log2](math.md#log2-zilch-engine-documen)| | | |
+|[Max](math.md#max-zilch-engine-document)| | | |
+|[Min](math.md#min-zilch-engine-document)| | | |
+|[Multiply](math.md#multiply-zilch-engine-doc)| | | |
+|[MultiplyNormal](math.md#multiplynormal-zilch-engi)| | | |
+|[MultiplyPoint](math.md#multiplypoint-zilch-engin)| | | |
+|[MultiplyPointNoDivide](math.md#multiplypointnodivide-ze)| | | |
+|[Normalize](math.md#normalize-zilch-engine-do)| | | |
+|[Pow](math.md#pow-zilch-engine-document)| | | |
+|[Project](math.md#project-zilch-engine-docu)| | | |
+|[ProjectOnPlane](math.md#projectonplane-zilch-engi)| | | |
+|[ProjectOnVector](math.md#projectonvector-zilch-eng)| | | |
+|[ReflectAcrossPlane](math.md#reflectacrossplane-zero)| | | |
+|[ReflectAcrossVector](math.md#reflectacrossvector-zero)| | | |
+|[Refract](math.md#refract-zilch-engine-docu)| | | |
+|[RotateTowards](math.md#rotatetowards-zilch-engin)| | | |
+|[RotateVector](math.md#rotatevector-zilch-engine)| | | |
+|[RotationQuaternionBetween](math.md#rotationquaternionbetwee)| | | |
+|[Round](math.md#round-zilch-engine-docume)| | | |
+|[RSqrt](math.md#rsqrt-zilch-engine-docume)| | | |
+|[Saturate](math.md#saturate-zilch-engine-doc)| | | |
+|[Sign](math.md#sign-zilch-engine-documen)| | | |
+|[SignedAngle](math.md#signedangle-zilch-engine)| | | |
+|[Sin](math.md#sin-zilch-engine-document)| | | |
+|[Sinh](math.md#sinh-zilch-engine-documen)| | | |
+|[Slerp](math.md#slerp-zilch-engine-docume)| | | |
+|[SlerpUnnormalized](math.md#slerpunnormalized-zilch-e)| | | |
+|[SmoothStep](math.md#smoothstep-zilch-engine-d)| | | |
+|[Sqrt](math.md#sqrt-zilch-engine-documen)| | | |
+|[Step](math.md#step-zilch-engine-documen)| | | |
+|[Tan](math.md#tan-zilch-engine-document)| | | |
+|[Tanh](math.md#tanh-zilch-engine-documen)| | | |
+|[ToDegrees](math.md#todegrees-zilch-engine-do)| | | |
+|[ToQuaternion](math.md#toquaternion-zilch-engine)| | | |
+|[ToRadians](math.md#toradians-zilch-engine-do)| | | |
+|[ToReal3x3](math.md#toreal3x3-zilch-engine-do)| | | |
+|[Transpose](math.md#transpose-zilch-engine-do)| | | |
+|[Truncate](math.md#truncate-zilch-engine-doc)| | | |
 
 
  #  Properties

@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsSubRenderGroup](rendergroup.md#issubrendergroup-zilch-en)|[ ChildRenderGroups](rendergroup.md#childrendergroups-zilch-e)|[dataresource](dataresource.md)| |
-|[ IsSubRenderGroupOf](rendergroup.md#issubrendergroupof-zero)|[ GraphicalSortMethod](rendergroup.md#graphicalsortmethod-zero)| | |
-| |[ Materials](rendergroup.md#materials-zilch-engine-do)| | |
-| |[ ParentRenderGroup](rendergroup.md#parentrendergroup-zilch-e)| | |
-| |[ ReferencedByList](rendergroup.md#referencedbylist-zilch-en)| | |
+|[IsSubRenderGroup](rendergroup.md#issubrendergroup-zilch-en)|[ChildRenderGroups](rendergroup.md#childrendergroups-zilch-e)|[dataresource](dataresource.md)| |
+|[IsSubRenderGroupOf](rendergroup.md#issubrendergroupof-zero)|[GraphicalSortMethod](rendergroup.md#graphicalsortmethod-zero)| | |
+| |[Materials](rendergroup.md#materials-zilch-engine-do)| | |
+| |[ParentRenderGroup](rendergroup.md#parentrendergroup-zilch-e)| | |
+| |[ReferencedByList](rendergroup.md#referencedbylist-zilch-en)| | |
 
 
  #  Properties

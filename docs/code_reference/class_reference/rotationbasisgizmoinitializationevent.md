@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ IntData](rotationbasisgizmoinitializationevent.md#intdata-zilch-engine-docu)|[objectevent](objectevent.md)| |
+| |[IntData](rotationbasisgizmoinitializationevent.md#intdata-zilch-engine-docu)|[objectevent](objectevent.md)| |
 
 
  #  Properties

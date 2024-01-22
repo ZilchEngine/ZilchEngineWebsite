@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](revolutejoint.md#revolutejoint-void)|[ FrameOfReference](revolutejoint.md#frameofreference-zilch-en)|[joint](joint.md)| |
-|[ SetWorldFrame](revolutejoint.md#setworldframe-void)|[ LocalBasisA](revolutejoint.md#localbasisa-zilch-engine)| | |
-|[ SetWorldPoints](revolutejoint.md#setworldpoints-void)|[ LocalBasisB](revolutejoint.md#localbasisb-zilch-engine)| | |
-| |[ LocalPointA](revolutejoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](revolutejoint.md#localpointb-zilch-engine)| | |
-| |[ WorldBasis](revolutejoint.md#worldbasis-zilch-engine-d)| | |
-| |[ WorldPointA](revolutejoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](revolutejoint.md#worldpointb-zilch-engine)| | |
+|[Constructor](revolutejoint.md#revolutejoint-void)|[FrameOfReference](revolutejoint.md#frameofreference-zilch-en)|[joint](joint.md)| |
+|[SetWorldFrame](revolutejoint.md#setworldframe-void)|[LocalBasisA](revolutejoint.md#localbasisa-zilch-engine)| | |
+|[SetWorldPoints](revolutejoint.md#setworldpoints-void)|[LocalBasisB](revolutejoint.md#localbasisb-zilch-engine)| | |
+| |[LocalPointA](revolutejoint.md#localpointa-zilch-engine)| | |
+| |[LocalPointB](revolutejoint.md#localpointb-zilch-engine)| | |
+| |[WorldBasis](revolutejoint.md#worldbasis-zilch-engine-d)| | |
+| |[WorldPointA](revolutejoint.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](revolutejoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

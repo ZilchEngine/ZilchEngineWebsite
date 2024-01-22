@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](weldjointblock.md#weldjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](weldjointblock.md#weldjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

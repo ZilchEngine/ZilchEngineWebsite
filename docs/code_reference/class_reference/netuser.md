@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddedByPeer](netuser.md#addedbypeer-zilch-engine)|[ AddedByMyPeer](netuser.md#addedbymypeer-zilch-engin)|[netobject](netobject.md)| |
-|[ FindOwnedNetObjectByName](netuser.md#findownednetobjectbyname)|[ NetPeerId](netuser.md#netpeerid-zilch-engine-do)| | |
-|[ FindOwnedNetObjectByNameInSpace](netuser.md#findownednetobjectbyname)|[ NetUserId](netuser.md#netuserid-zilch-engine-do)| | |
-|[ Constructor](netuser.md#netuser-void)|[ OwnedNetObjectCount](netuser.md#ownednetobjectcount-zero)| | |
-|[ ReleaseOwnedNetObjects](netuser.md#releaseownednetobjects-v)|[ OwnedNetObjects](netuser.md#ownednetobjects-zilch-eng)| | |
+|[AddedByPeer](netuser.md#addedbypeer-zilch-engine)|[AddedByMyPeer](netuser.md#addedbymypeer-zilch-engin)|[netobject](netobject.md)| |
+|[FindOwnedNetObjectByName](netuser.md#findownednetobjectbyname)|[NetPeerId](netuser.md#netpeerid-zilch-engine-do)| | |
+|[FindOwnedNetObjectByNameInSpace](netuser.md#findownednetobjectbyname)|[NetUserId](netuser.md#netuserid-zilch-engine-do)| | |
+|[Constructor](netuser.md#netuser-void)|[OwnedNetObjectCount](netuser.md#ownednetobjectcount-zero)| | |
+|[ReleaseOwnedNetObjects](netuser.md#releaseownednetobjects-v)|[OwnedNetObjects](netuser.md#ownednetobjects-zilch-eng)| | |
 
 
  #  Properties

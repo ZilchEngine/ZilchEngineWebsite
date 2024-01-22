@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objectrotategizmo.md#objectrotategizmo-void)|[ AffectTranslation](objectrotategizmo.md#affecttranslation-zilch-e)|[objecttransformgizmo](objecttransformgizmo.md)| |
+|[Constructor](objectrotategizmo.md#objectrotategizmo-void)|[AffectTranslation](objectrotategizmo.md#affecttranslation-zilch-e)|[objecttransformgizmo](objecttransformgizmo.md)| |
 
 
  #  Properties

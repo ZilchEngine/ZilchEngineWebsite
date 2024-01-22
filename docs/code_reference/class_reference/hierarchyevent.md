@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Child](hierarchyevent.md#child-zilch-engine-docume)|[event](event.md)| |
-| |[ Parent](hierarchyevent.md#parent-zilch-engine-docum)| | |
+| |[Child](hierarchyevent.md#child-zilch-engine-docume)|[event](event.md)| |
+| |[Parent](hierarchyevent.md#parent-zilch-engine-docum)| | |
 
 
  #  Properties

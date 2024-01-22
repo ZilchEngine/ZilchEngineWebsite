@@ -1,4 +1,4 @@
-The [ DelayNode ](../../../../code_reference/class_reference/delaynode.md) collects audio data from all of its inputs and applies a delay filter before passing it off to its outputs. 
+The [DelayNode](../../../../code_reference/class_reference/delaynode.md) collects audio data from all of its inputs and applies a delay filter before passing it off to its outputs. 
 
  # Common Uses
 
@@ -17,6 +17,6 @@ The `WetPercent` property controls the loudness of the delayed echo. At `100` th
 - [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ DelayNode ](../../../../code_reference/class_reference/delaynode.md) 
+- [DelayNode](../../../../code_reference/class_reference/delaynode.md) 
 
  

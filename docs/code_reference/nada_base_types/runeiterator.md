@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Decrement](runeiterator.md#decrement-void)|[ All](runeiterator.md#all-zilch-engine-document)| | |
-|[ Equals](runeiterator.md#equals-zilch-engine-docum)|[ ByteIndex](runeiterator.md#byteindex-zilch-engine-do)| | |
-|[ Increment](runeiterator.md#increment-void)|[ Current](runeiterator.md#current-zilch-engine-docu)| | |
-|[ MoveNext](runeiterator.md#movenext-void)|[ IsNotEmpty](runeiterator.md#isnotempty-zilch-engine-d)| | |
-|[ Constructor](runeiterator.md#runeiterator-void)|[ OriginalString](runeiterator.md#originalstring-zilch-engi)| | |
+|[Decrement](runeiterator.md#decrement-void)|[All](runeiterator.md#all-zilch-engine-document)| | |
+|[Equals](runeiterator.md#equals-zilch-engine-docum)|[ByteIndex](runeiterator.md#byteindex-zilch-engine-do)| | |
+|[Increment](runeiterator.md#increment-void)|[Current](runeiterator.md#current-zilch-engine-docu)| | |
+|[MoveNext](runeiterator.md#movenext-void)|[IsNotEmpty](runeiterator.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](runeiterator.md#runeiterator-void)|[OriginalString](runeiterator.md#originalstring-zilch-engi)| | |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CogInitializer](coginitializerevent.md#coginitializer-zilch-engi)|[event](event.md)| |
+| |[CogInitializer](coginitializerevent.md#coginitializer-zilch-engi)|[event](event.md)| |
 
 
  #  Properties

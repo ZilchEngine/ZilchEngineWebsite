@@ -22,7 +22,7 @@ Actions you can take on your project often come in the form of commands, so let'
 - [createobject](editorcommands/createobject.md)
 - [Stop your game](editorcommands/stopgame.md)
 - [Switching edit modes](editorcommands/switchingmode2dto3d.md)
-- [ Adding Resources](editorcommands/resourceadding.md)
+- [Adding Resources](editorcommands/resourceadding.md)
 - [Selecting Objects](editorcommands/selectobject.md)
 - [Right Click Context Menus](editorcommands/rightclicksubmenu.md)
 

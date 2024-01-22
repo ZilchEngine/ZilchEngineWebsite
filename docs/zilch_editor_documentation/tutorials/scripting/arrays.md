@@ -12,9 +12,9 @@ Developers often find themselves needing to make lists of data within their appl
  #  Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `ArrayExample`
 
  # Declaration
@@ -38,9 +38,9 @@ Notice how we pass the type [Integer](../../../code_reference/nada_base_types/in
 
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `ArrayExample`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../code_reference/command_reference.md#console)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `ArrayExample`
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../code_reference/command_reference.md#console)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -51,7 +51,7 @@ Loaded level 0.00s
 
 Here we can see the empty array print out as `{}`. 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Let's look at how to initialize an array on construction so it is not immediately empty.
 
@@ -76,7 +76,7 @@ Console.WriteLine(this.InitializarListExample);
 ```
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -85,7 +85,7 @@ Console.WriteLine(this.InitializarListExample);
 Level 'Level' was loaded.
 Loaded level 0.00s
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 We can see the array we constructed using an initializer list printed out with the exact values we passed to the initializer list.
 
@@ -97,7 +97,7 @@ The `[]` (subscript) operator can be used as a method of accessing individual el
 ```TS:Printing Array Examples
 Console.WriteLine(this.InitializarListExample[2]);
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -112,7 +112,7 @@ We can see that `8` is printed out to the `Console Window` which is the value of
 
 (NOTE)**Counting from `0`**: You may have figured this out already but in most programming languagwe always start counting at `0`. This means that the first index in any array is `0`. So by using the index `2` above we are accessing the third element in the array.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ## Writing
 The `[]` operator can also be used to overwrite the value of an element which already exists in the Array.
@@ -122,7 +122,7 @@ The `[]` operator can also be used to overwrite the value of an element which al
 this.InitializarListExample[2] = 0;
 Console.WriteLine(this.InitializarListExample);
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -136,12 +136,12 @@ Loaded level 0.00s
 
 We can see the element with an index of `2` is set to a value of `0`.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Adding Elements
 We have looked at how to declare and initialize arrays using a rather basic example so far. Let's learn about adding to arrays using an example that is more applicable.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `SpawnOnInput`
 - In the `SpawnOnInput` script
  - Update the `SpawnOnInput` script to the following:
@@ -191,8 +191,8 @@ class ObjectSpawnedEvent : NadaEvent
 
 This is just a utility component similar to some we have seen in [previous tutorials](../architecture/archetypes2.md). We will be using this component to spawn object that we will track using an array in another component.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateCube](../../../code_reference/command_reference.md#createcube)
-- [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateCube](../../../code_reference/command_reference.md#createcube)
+- [Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
 - In the `Properties Window`
  - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, -5, 0]`
@@ -201,7 +201,7 @@ This is just a utility component similar to some we have seen in [previous tutor
  ## Add
 [Array.Add](../../../code_reference/nada_base_types/array_t.md#add-void) is a function that lets the user add elements to the end of the array. Let's look at how we can use this to add the *enemy spheres* we are going to spawn.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `EnemyManager`
 - In the `EnemyManager` script
  - Update the `EnemyManager` class to the following:
@@ -231,10 +231,10 @@ class EnemyManager : NadaComponent
 
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) : `ArrayExample`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `SpawnOnInput`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `EnemyManager`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+ - [Remove Component](../../zilchmanual/editor/addremovecomponent.md) : `ArrayExample`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `SpawnOnInput`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `EnemyManager`
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `Space` a few times
 
@@ -245,7 +245,7 @@ class EnemyManager : NadaComponent
 
 We can see a new enemy spawned each time we pressed `space`. We can also see that each spawned object was added to the `Enemies` array in `EnemyManager` as we print it to the console following spawning the object.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Accessing Elements
 So far we have looked at how to create and add to arrays. What use is building a list of items if we can't use it to access those items though?
@@ -272,7 +272,7 @@ function OnKeyDown(event : KeyboardEvent)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `D`
 
@@ -281,14 +281,14 @@ function OnKeyDown(event : KeyboardEvent)
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/102458.png)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 In this case, we had not created an enemy so there was nothing in the array to access and the index was "out of bounds". We need to always ensure that whatever index we use to access an array element is always less than the number of elements and greater than or equal `0`. We should also make sure the array is not empty before trying to access its elements.
 
  # Removing Elements
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RandomContext](../../../code_reference/class_reference/randomcontext.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RandomContext](../../../code_reference/class_reference/randomcontext.md)
 - In the `EnemyManager` script
  - Add the following to the `EnemyManager` class:
 ```TS:KeyDown Connection
@@ -311,7 +311,7 @@ function OnKeyDown(event : KeyboardEvent)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `Space` multiple times
 - Press `D` multiple times
@@ -330,7 +330,7 @@ function OnKeyDown(event : KeyboardEvent)
 
 Notice how each time `D` is pressed and an enemy is destroyed, the length of `EnemyManager.Enemies` does not change. Just because we destroyed the enemy objects does not mean that the references to them we put in the array are removed. The exception is thrown when we attempt to access a member of one of the `null` references to one of the destroyed cogs. We need to remove these references when we destroy the cogs in order to prevent `null` references from existing in the array.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ## RemoveAt
  - Replace the `OnKeyDown` function in the `EnemyManager` class with the following: 
@@ -349,7 +349,7 @@ function OnKeyDown(event : KeyboardEvent)
   }
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `Space` multiple times
 - Press `D` multiple times
@@ -361,7 +361,7 @@ function OnKeyDown(event : KeyboardEvent)
 
 By calling [RemoveAt](../../../code_reference/nada_base_types/array_t.md#removeat-void) we removing an element at a paticular index. By removing the element before deleting the object we prevent there from ever being a `null` reference in the array to mistakenly access later.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Iterating
 Now, what if we wanted to perform a group operation on all the enemies in the array on the same frame. With our current implementation, we can only destroy one cog at a time. We need a way to walk the array and perform the same operation on each element.
@@ -388,7 +388,7 @@ function OnKeyDown(event : KeyboardEvent)
 
 Here we are using the `for` loop to increment the index variable `i` each iteration of the loop. We are also using [Array.Count](../../../code_reference/nada_base_types/array_t.md#count-zilch-engine-docume) to determine the number of iterations. An array has indexes corresponding to each of its element. The indexes range from `0` to `Array.Count - 1`. This means that by initializing `i` to `0` and stopping the loop when `i` is no longer less than `this.Enemies.Count`, the index `i` will iterate over the entire array.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `Space` multiple times
 - Press `D`
@@ -408,7 +408,7 @@ Current Enemy Objects:
 
 Now that we are accessing and destroying each cog in the array all at once we needed a way to do the same for removing the references from the array. `Array.Clear` removes all elements from the array, which is perfect considering we just destroyed all the cogs referenced in the array elements.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ## Using foreach
 There is a slightly simpler way of iterating over an array.
@@ -427,7 +427,7 @@ function OnKeyDown(event : KeyboardEvent)
   }
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 - Press `Space` multiple times
 - Press `D`
@@ -450,9 +450,9 @@ The [foreach](../../zilchmanual/nada_in_zilch/keywords.md) loop handles the acce
  # Related Materials
  ## Manual
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md)
-- [ Add Component](../../zilchmanual/editor/addremovecomponent.md)
-- [ Remove Component](../../zilchmanual/editor/addremovecomponent.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md)
+- [Add Component](../../zilchmanual/editor/addremovecomponent.md)
+- [Remove Component](../../zilchmanual/editor/addremovecomponent.md)
 - [foreach](../../zilchmanual/nada_in_zilch/keywords.md)
 
  ## Tutorial
@@ -467,10 +467,10 @@ The [foreach](../../zilchmanual/nada_in_zilch/keywords.md) loop handles the acce
 - [RandomContext](../../../code_reference/class_reference/randomcontext.md)
 
  ### Commands
-- [ New Project](../../../code_reference/command_reference.md#newproject)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [New Project](../../../code_reference/command_reference.md#newproject)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [Console](../../../code_reference/command_reference.md#console)
 - [CreateCube](../../../code_reference/command_reference.md#createcube)
 

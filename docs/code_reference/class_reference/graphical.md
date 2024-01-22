@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GroupSortValue](graphical.md#groupsortvalue-zilch-engi)|[component](component.md)|[basesprite](basesprite.md)|
-| |[ LocalAabbCenter](graphical.md#localaabbcenter-zilch-eng)| |[debuggraphical](debuggraphical.md)|
-| |[ LocalAabbHalfExtents](graphical.md#localaabbhalfextents-zer)| |[heightmapmodel](heightmapmodel.md)|
-| |[ Material](graphical.md#material-zilch-engine-doc)| |[model](model.md)|
-| |[ OverrideBoundingBox](graphical.md#overrideboundingbox-zero)| |[particlesystem](particlesystem.md)|
-| |[ ShaderInputs](graphical.md#shaderinputs-zilch-engine)| |[skinnedmodel](skinnedmodel.md)|
-| |[ ViewCulling](graphical.md#viewculling-zilch-engine)| | |
-| |[ VisibilityEvents](graphical.md#visibilityevents-zilch-en)| | |
-| |[ Visible](graphical.md#visible-zilch-engine-docu)| | |
-| |[ WorldAabb](graphical.md#worldaabb-zilch-engine-do)| | |
+| |[GroupSortValue](graphical.md#groupsortvalue-zilch-engi)|[component](component.md)|[basesprite](basesprite.md)|
+| |[LocalAabbCenter](graphical.md#localaabbcenter-zilch-eng)| |[debuggraphical](debuggraphical.md)|
+| |[LocalAabbHalfExtents](graphical.md#localaabbhalfextents-zer)| |[heightmapmodel](heightmapmodel.md)|
+| |[Material](graphical.md#material-zilch-engine-doc)| |[model](model.md)|
+| |[OverrideBoundingBox](graphical.md#overrideboundingbox-zero)| |[particlesystem](particlesystem.md)|
+| |[ShaderInputs](graphical.md#shaderinputs-zilch-engine)| |[skinnedmodel](skinnedmodel.md)|
+| |[ViewCulling](graphical.md#viewculling-zilch-engine)| | |
+| |[VisibilityEvents](graphical.md#visibilityevents-zilch-en)| | |
+| |[Visible](graphical.md#visible-zilch-engine-docu)| | |
+| |[WorldAabb](graphical.md#worldaabb-zilch-engine-do)| | |
 
 
  #  Properties

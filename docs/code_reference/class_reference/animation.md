@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Duration](animation.md#duration-zilch-engine-doc)|Resource| |
+| |[Duration](animation.md#duration-zilch-engine-doc)|Resource| |
 
 
  #  Properties

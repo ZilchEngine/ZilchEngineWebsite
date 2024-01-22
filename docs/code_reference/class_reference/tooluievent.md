@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NeedsPropertyGrid](tooluievent.md#needspropertygrid-zilch-e)|[event](event.md)| |
-| |[ Parent](tooluievent.md#parent-zilch-engine-docum)| | |
-| |[ SelectTool](tooluievent.md#selecttool-zilch-engine-d)| | |
+| |[NeedsPropertyGrid](tooluievent.md#needspropertygrid-zilch-e)|[event](event.md)| |
+| |[Parent](tooluievent.md#parent-zilch-engine-docum)| | |
+| |[SelectTool](tooluievent.md#selecttool-zilch-engine-d)| | |
 
 
  #  Properties

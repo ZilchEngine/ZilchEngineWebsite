@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objecttranslatetool.md#objecttranslatetool-void)|[ SnapDistance](objecttranslatetool.md#snapdistance-zilch-engine)|[objecttransformtool](objecttransformtool.md)| |
-| |[ SnapMode](objecttranslatetool.md#snapmode-zilch-engine-doc)| | |
-| |[ Snapping](objecttranslatetool.md#snapping-zilch-engine-doc)| | |
+|[Constructor](objecttranslatetool.md#objecttranslatetool-void)|[SnapDistance](objecttranslatetool.md#snapdistance-zilch-engine)|[objecttransformtool](objecttransformtool.md)| |
+| |[SnapMode](objecttranslatetool.md#snapmode-zilch-engine-doc)| | |
+| |[Snapping](objecttranslatetool.md#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

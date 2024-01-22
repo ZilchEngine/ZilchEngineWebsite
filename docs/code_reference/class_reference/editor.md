@@ -2,26 +2,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddResource](editor.md#addresource-void)|[ Actions](editor.md#actions-zilch-engine-docu)|[multidock](multidock.md)|[editormain](editormain.md)|
-|[ AddResourceType](editor.md#addresourcetype-void)|[ EditGameSession](editor.md#editgamesession-zilch-eng)| | |
-|[ CreateDockableWindow](editor.md#createdockablewindow-voi)|[ EditLevel](editor.md#editlevel-zilch-engine-do)| | |
-|[ DisplayGameSession](editor.md#displaygamesession-void)|[ EditSpace](editor.md#editspace-zilch-engine-do)| | |
-|[ EditGameSpaces](editor.md#editgamespaces-void)|[ OperationQueue](editor.md#operationqueue-zilch-engi)| | |
-|[ EditResource](editor.md#editresource-void)|[ ProjectCog](editor.md#projectcog-zilch-engine-d)| | |
-|[ ExecuteCommand](editor.md#executecommand-void)|[ Selection](editor.md#selection-zilch-engine-do)| | |
-|[ PauseGame](editor.md#pausegame-void)| | | |
-|[ PlayGame](editor.md#playgame-zilch-engine-doc)| | | |
-|[ PlayNewGame](editor.md#playnewgame-zilch-engine)| | | |
-|[ PlaySingleGame](editor.md#playsinglegame-zilch-engi)| | | |
-|[ SelectPrimary](editor.md#selectprimary-void)| | | |
-|[ SelectTool](editor.md#selecttool-void)| | | |
-|[ SetFocus](editor.md#setfocus-void)| | | |
-|[ SetGamePaused](editor.md#setgamepaused-void)| | | |
-|[ SetMainPropertyViewObject](editor.md#setmainpropertyviewobjec)| | | |
-|[ StepGame](editor.md#stepgame-void)| | | |
-|[ StopGame](editor.md#stopgame-void)| | | |
-|[ ToggleGamePaused](editor.md#togglegamepaused-void)| | | |
-|[ ZoomOnGame](editor.md#zoomongame-void)| | | |
+|[AddResource](editor.md#addresource-void)|[Actions](editor.md#actions-zilch-engine-docu)|[multidock](multidock.md)|[editormain](editormain.md)|
+|[AddResourceType](editor.md#addresourcetype-void)|[EditGameSession](editor.md#editgamesession-zilch-eng)| | |
+|[CreateDockableWindow](editor.md#createdockablewindow-voi)|[EditLevel](editor.md#editlevel-zilch-engine-do)| | |
+|[DisplayGameSession](editor.md#displaygamesession-void)|[EditSpace](editor.md#editspace-zilch-engine-do)| | |
+|[EditGameSpaces](editor.md#editgamespaces-void)|[OperationQueue](editor.md#operationqueue-zilch-engi)| | |
+|[EditResource](editor.md#editresource-void)|[ProjectCog](editor.md#projectcog-zilch-engine-d)| | |
+|[ExecuteCommand](editor.md#executecommand-void)|[Selection](editor.md#selection-zilch-engine-do)| | |
+|[PauseGame](editor.md#pausegame-void)| | | |
+|[PlayGame](editor.md#playgame-zilch-engine-doc)| | | |
+|[PlayNewGame](editor.md#playnewgame-zilch-engine)| | | |
+|[PlaySingleGame](editor.md#playsinglegame-zilch-engi)| | | |
+|[SelectPrimary](editor.md#selectprimary-void)| | | |
+|[SelectTool](editor.md#selecttool-void)| | | |
+|[SetFocus](editor.md#setfocus-void)| | | |
+|[SetGamePaused](editor.md#setgamepaused-void)| | | |
+|[SetMainPropertyViewObject](editor.md#setmainpropertyviewobjec)| | | |
+|[StepGame](editor.md#stepgame-void)| | | |
+|[StopGame](editor.md#stopgame-void)| | | |
+|[ToggleGamePaused](editor.md#togglegamepaused-void)| | | |
+|[ZoomOnGame](editor.md#zoomongame-void)| | | |
 
 
  #  Properties

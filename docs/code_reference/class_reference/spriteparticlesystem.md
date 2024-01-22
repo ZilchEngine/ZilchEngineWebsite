@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](spriteparticlesystem.md#spriteparticlesystem-voi)|[ BeamBaseScale](spriteparticlesystem.md#beambasescale-zilch-engin)|[particlesystem](particlesystem.md)| |
-| |[ BeamVelocityScale](spriteparticlesystem.md#beamvelocityscale-zilch-e)| | |
-| |[ GeometryMode](spriteparticlesystem.md#geometrymode-zilch-engine)| | |
-| |[ ParticleAnimation](spriteparticlesystem.md#particleanimation-zilch-e)| | |
-| |[ ParticleSort](spriteparticlesystem.md#particlesort-zilch-engine)| | |
-| |[ SpriteSource](spriteparticlesystem.md#spritesource-zilch-engine)| | |
-| |[ VertexColor](spriteparticlesystem.md#vertexcolor-zilch-engine)| | |
+|[Constructor](spriteparticlesystem.md#spriteparticlesystem-voi)|[BeamBaseScale](spriteparticlesystem.md#beambasescale-zilch-engin)|[particlesystem](particlesystem.md)| |
+| |[BeamVelocityScale](spriteparticlesystem.md#beamvelocityscale-zilch-e)| | |
+| |[GeometryMode](spriteparticlesystem.md#geometrymode-zilch-engine)| | |
+| |[ParticleAnimation](spriteparticlesystem.md#particleanimation-zilch-e)| | |
+| |[ParticleSort](spriteparticlesystem.md#particlesort-zilch-engine)| | |
+| |[SpriteSource](spriteparticlesystem.md#spritesource-zilch-engine)| | |
+| |[VertexColor](spriteparticlesystem.md#vertexcolor-zilch-engine)| | |
 
 
  #  Properties

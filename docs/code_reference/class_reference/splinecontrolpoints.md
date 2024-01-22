@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](splinecontrolpoints.md#add-void)|[ Count](splinecontrolpoints.md#count-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
-|[ Clear](splinecontrolpoints.md#clear-void)| | | |
-|[ Get](splinecontrolpoints.md#get-zilch-engine-document)| | | |
-|[ Set](splinecontrolpoints.md#set-void)| | | |
+|[Add](splinecontrolpoints.md#add-void)|[Count](splinecontrolpoints.md#count-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
+|[Clear](splinecontrolpoints.md#clear-void)| | | |
+|[Get](splinecontrolpoints.md#get-zilch-engine-document)| | | |
+|[Set](splinecontrolpoints.md#set-void)| | | |
 
 
  #  Properties

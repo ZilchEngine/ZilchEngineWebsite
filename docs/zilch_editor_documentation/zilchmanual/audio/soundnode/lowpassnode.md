@@ -1,4 +1,4 @@
-The [ LowPassNode ](../../../../code_reference/class_reference/lowpassnode.md) collects audio data from all of its inputs and applies a low pass filter to it before passing it along to its outputs.
+The [LowPassNode](../../../../code_reference/class_reference/lowpassnode.md) collects audio data from all of its inputs and applies a low pass filter to it before passing it along to its outputs.
 
  # Common Uses
 
@@ -17,6 +17,6 @@ Low pass filters leave low frequencies untouched while silencing high frequencie
 - [highpassnode](highpassnode.md)
 
  ## Code Reference
-- [ LowPassNode ](../../../../code_reference/class_reference/lowpassnode.md) 
+- [LowPassNode](../../../../code_reference/class_reference/lowpassnode.md) 
 
  

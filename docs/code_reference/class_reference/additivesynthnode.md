@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddHarmonic](additivesynthnode.md#addharmonic-void)| |[soundnode](soundnode.md)| |
-|[ NoteOff](additivesynthnode.md#noteoff-void)| | | |
-|[ NoteOn](additivesynthnode.md#noteon-void)| | | |
-|[ RemoveAllHarmonics](additivesynthnode.md#removeallharmonics-void)| | | |
-|[ StopAllNotes](additivesynthnode.md#stopallnotes-void)| | | |
+|[AddHarmonic](additivesynthnode.md#addharmonic-void)| |[soundnode](soundnode.md)| |
+|[NoteOff](additivesynthnode.md#noteoff-void)| | | |
+|[NoteOn](additivesynthnode.md#noteon-void)| | | |
+|[RemoveAllHarmonics](additivesynthnode.md#removeallharmonics-void)| | | |
+|[StopAllNotes](additivesynthnode.md#stopallnotes-void)| | | |
 
 
  #  Properties

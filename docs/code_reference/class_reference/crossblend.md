@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetNormalizedTimeScale](crossblend.md#setnormalizedtimescale-v)|[ Mode](crossblend.md#mode-zilch-engine-documen)|[dualblendcrossblend](dualblendcrossblend.md)| |
-|[ SyncCadence](crossblend.md#synccadence-void)|[ TimeScaleFrom](crossblend.md#timescalefrom-zilch-engin)| | |
-| |[ TimeScaleTo](crossblend.md#timescaleto-zilch-engine)| | |
-| |[ Type](crossblend.md#type-zilch-engine-documen)| | |
+|[SetNormalizedTimeScale](crossblend.md#setnormalizedtimescale-v)|[Mode](crossblend.md#mode-zilch-engine-documen)|[dualblendcrossblend](dualblendcrossblend.md)| |
+|[SyncCadence](crossblend.md#synccadence-void)|[TimeScaleFrom](crossblend.md#timescalefrom-zilch-engin)| | |
+| |[TimeScaleTo](crossblend.md#timescaleto-zilch-engine)| | |
+| |[Type](crossblend.md#type-zilch-engine-documen)| | |
 
 
  #  Properties

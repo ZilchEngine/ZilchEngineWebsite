@@ -2,35 +2,35 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Compare](string.md#compare-zilch-engine-docu)|[ All](string.md#all-zilch-engine-document)| | |
-|[ CompareTo](string.md#compareto-zilch-engine-do)|[ Begin](string.md#begin-zilch-engine-docume)| | |
-|[ ComputeRuneCount](string.md#computerunecount-zilch-en)|[ ByteCount](string.md#bytecount-zilch-engine-do)| | |
-|[ Concatenate](string.md#concatenate-zilch-engine)|[ Count](string.md#count-zilch-engine-docume)| | |
-|[ Contains](string.md#contains-zilch-engine-doc)|[ Empty](string.md#empty-zilch-engine-docume)| | |
-|[ EndsWith](string.md#endswith-zilch-engine-doc)|[ End](string.md#end-zilch-engine-document)| | |
-|[ FindFirstOf](string.md#findfirstof-zilch-engine)|[ IsNotEmpty](string.md#isnotempty-zilch-engine-d)| | |
-|[ FindLastOf](string.md#findlastof-zilch-engine-d)| | | |
-|[ FindRangeExclusive](string.md#findrangeexclusive-zero)| | | |
-|[ FindRangeInclusive](string.md#findrangeinclusive-zero)| | | |
-|[ FormatC](string.md#formatc-zilch-engine-docu)| | | |
-|[ FromRune](string.md#fromrune-zilch-engine-doc)| | | |
-|[ Get](string.md#get-zilch-engine-document)| | | |
-|[ IsNullOrEmpty](string.md#isnullorempty-zilch-engin)| | | |
-|[ IsNullOrWhitespace](string.md#isnullorwhitespace-zero)| | | |
-|[ Join](string.md#join-zilch-engine-documen)| | | |
-|[ Replace](string.md#replace-zilch-engine-docu)| | | |
-|[ RuneIteratorFromByteIndex](string.md#runeiteratorfrombyteinde)| | | |
-|[ RuneIteratorFromRuneIndex](string.md#runeiteratorfromruneinde)| | | |
-|[ Split](string.md#split-zilch-engine-docume)| | | |
-|[ StartsWith](string.md#startswith-zilch-engine-d)| | | |
-|[ SubString](string.md#substring-zilch-engine-do)| | | |
-|[ SubStringBytes](string.md#substringbytes-zilch-engi)| | | |
-|[ SubStringFromRuneIndices](string.md#substringfromruneindices)| | | |
-|[ ToLower](string.md#tolower-zilch-engine-docu)| | | |
-|[ ToUpper](string.md#toupper-zilch-engine-docu)| | | |
-|[ Trim](string.md#trim-zilch-engine-documen)| | | |
-|[ TrimEnd](string.md#trimend-zilch-engine-docu)| | | |
-|[ TrimStart](string.md#trimstart-zilch-engine-do)| | | |
+|[Compare](string.md#compare-zilch-engine-docu)|[All](string.md#all-zilch-engine-document)| | |
+|[CompareTo](string.md#compareto-zilch-engine-do)|[Begin](string.md#begin-zilch-engine-docume)| | |
+|[ComputeRuneCount](string.md#computerunecount-zilch-en)|[ByteCount](string.md#bytecount-zilch-engine-do)| | |
+|[Concatenate](string.md#concatenate-zilch-engine)|[Count](string.md#count-zilch-engine-docume)| | |
+|[Contains](string.md#contains-zilch-engine-doc)|[Empty](string.md#empty-zilch-engine-docume)| | |
+|[EndsWith](string.md#endswith-zilch-engine-doc)|[End](string.md#end-zilch-engine-document)| | |
+|[FindFirstOf](string.md#findfirstof-zilch-engine)|[IsNotEmpty](string.md#isnotempty-zilch-engine-d)| | |
+|[FindLastOf](string.md#findlastof-zilch-engine-d)| | | |
+|[FindRangeExclusive](string.md#findrangeexclusive-zero)| | | |
+|[FindRangeInclusive](string.md#findrangeinclusive-zero)| | | |
+|[FormatC](string.md#formatc-zilch-engine-docu)| | | |
+|[FromRune](string.md#fromrune-zilch-engine-doc)| | | |
+|[Get](string.md#get-zilch-engine-document)| | | |
+|[IsNullOrEmpty](string.md#isnullorempty-zilch-engin)| | | |
+|[IsNullOrWhitespace](string.md#isnullorwhitespace-zero)| | | |
+|[Join](string.md#join-zilch-engine-documen)| | | |
+|[Replace](string.md#replace-zilch-engine-docu)| | | |
+|[RuneIteratorFromByteIndex](string.md#runeiteratorfrombyteinde)| | | |
+|[RuneIteratorFromRuneIndex](string.md#runeiteratorfromruneinde)| | | |
+|[Split](string.md#split-zilch-engine-docume)| | | |
+|[StartsWith](string.md#startswith-zilch-engine-d)| | | |
+|[SubString](string.md#substring-zilch-engine-do)| | | |
+|[SubStringBytes](string.md#substringbytes-zilch-engi)| | | |
+|[SubStringFromRuneIndices](string.md#substringfromruneindices)| | | |
+|[ToLower](string.md#tolower-zilch-engine-docu)| | | |
+|[ToUpper](string.md#toupper-zilch-engine-docu)| | | |
+|[Trim](string.md#trim-zilch-engine-documen)| | | |
+|[TrimEnd](string.md#trimend-zilch-engine-docu)| | | |
+|[TrimStart](string.md#trimstart-zilch-engine-do)| | | |
 
 
  #  Properties

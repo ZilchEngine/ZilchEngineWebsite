@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](physicsmaterial.md#createruntime-zilch-engin)|[ Density](physicsmaterial.md#density-zilch-engine-docu)|[dataresource](dataresource.md)| |
-|[ Constructor](physicsmaterial.md#physicsmaterial-void)|[ Friction](physicsmaterial.md#friction-zilch-engine-doc)| | |
-|[ RuntimeClone](physicsmaterial.md#runtimeclone-zilch-engine)|[ FrictionImportance](physicsmaterial.md#frictionimportance-zero)| | |
-|[ UpdateAndNotifyIfModified](physicsmaterial.md#updateandnotifyifmodifie)|[ HighPriority](physicsmaterial.md#highpriority-zilch-engine)| | |
-| |[ Restitution](physicsmaterial.md#restitution-zilch-engine)| | |
-| |[ RestitutionImportance](physicsmaterial.md#restitutionimportance-ze)| | |
+|[CreateRuntime](physicsmaterial.md#createruntime-zilch-engin)|[Density](physicsmaterial.md#density-zilch-engine-docu)|[dataresource](dataresource.md)| |
+|[Constructor](physicsmaterial.md#physicsmaterial-void)|[Friction](physicsmaterial.md#friction-zilch-engine-doc)| | |
+|[RuntimeClone](physicsmaterial.md#runtimeclone-zilch-engine)|[FrictionImportance](physicsmaterial.md#frictionimportance-zero)| | |
+|[UpdateAndNotifyIfModified](physicsmaterial.md#updateandnotifyifmodifie)|[HighPriority](physicsmaterial.md#highpriority-zilch-engine)| | |
+| |[Restitution](physicsmaterial.md#restitution-zilch-engine)| | |
+| |[RestitutionImportance](physicsmaterial.md#restitutionimportance-ze)| | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](windowsoswindow.md#windowsoswindow-void)| |[oswindow](oswindow.md)| |
+|[Constructor](windowsoswindow.md#windowsoswindow-void)| |[oswindow](oswindow.md)| |
 
 
  #  Properties

@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](quickhull3d.md#add-void)|[ Index](quickhull3d.md#index-zilch-engine-docume)| | |
-|[ Build](quickhull3d.md#build-zilch-engine-docume)|[ Mesh](quickhull3d.md#mesh-zilch-engine-documen)| | |
-|[ Clear](quickhull3d.md#clear-void)|[ ShowDebugDraw](quickhull3d.md#showdebugdraw-zilch-engin)| | |
-|[ Draw](quickhull3d.md#draw-void)| | | |
-|[ Constructor](quickhull3d.md#quickhull3d-void)| | | |
+|[Add](quickhull3d.md#add-void)|[Index](quickhull3d.md#index-zilch-engine-docume)| | |
+|[Build](quickhull3d.md#build-zilch-engine-docume)|[Mesh](quickhull3d.md#mesh-zilch-engine-documen)| | |
+|[Clear](quickhull3d.md#clear-void)|[ShowDebugDraw](quickhull3d.md#showdebugdraw-zilch-engin)| | |
+|[Draw](quickhull3d.md#draw-void)| | | |
+|[Constructor](quickhull3d.md#quickhull3d-void)| | | |
 
 
  #  Properties

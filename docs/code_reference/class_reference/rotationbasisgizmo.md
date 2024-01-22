@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ActivateAsGizmo](rotationbasisgizmo.md#activateasgizmo-void)|[ WorldRotation](rotationbasisgizmo.md#worldrotation-zilch-engin)|[component](component.md)| |
-|[ Constructor](rotationbasisgizmo.md#rotationbasisgizmo-void)|[ XAxisName](rotationbasisgizmo.md#xaxisname-zilch-engine-do)| | |
-| |[ YAxisName](rotationbasisgizmo.md#yaxisname-zilch-engine-do)| | |
-| |[ ZAxisName](rotationbasisgizmo.md#zaxisname-zilch-engine-do)| | |
+|[ActivateAsGizmo](rotationbasisgizmo.md#activateasgizmo-void)|[WorldRotation](rotationbasisgizmo.md#worldrotation-zilch-engin)|[component](component.md)| |
+|[Constructor](rotationbasisgizmo.md#rotationbasisgizmo-void)|[XAxisName](rotationbasisgizmo.md#xaxisname-zilch-engine-do)| | |
+| |[YAxisName](rotationbasisgizmo.md#yaxisname-zilch-engine-do)| | |
+| |[ZAxisName](rotationbasisgizmo.md#zaxisname-zilch-engine-do)| | |
 
 
  #  Properties

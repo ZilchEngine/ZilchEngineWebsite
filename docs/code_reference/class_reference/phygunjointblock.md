@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](phygunjointblock.md#phygunjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](phygunjointblock.md#phygunjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

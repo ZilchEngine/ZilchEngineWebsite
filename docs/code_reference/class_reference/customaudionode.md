@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SendBuffer](customaudionode.md#sendbuffer-void)|[ Channels](customaudionode.md#channels-zilch-engine-doc)|[soundnode](soundnode.md)| |
-|[ SendMicCompressedData](customaudionode.md#sendmiccompresseddata-vo)|[ MinimumBufferSize](customaudionode.md#minimumbuffersize-zilch-e)| | |
-|[ SendMicUncompressedData](customaudionode.md#sendmicuncompresseddata)|[ SystemSampleRate](customaudionode.md#systemsamplerate-zilch-en)| | |
-|[ SendPartialBuffer](customaudionode.md#sendpartialbuffer-void)| | | |
+|[SendBuffer](customaudionode.md#sendbuffer-void)|[Channels](customaudionode.md#channels-zilch-engine-doc)|[soundnode](soundnode.md)| |
+|[SendMicCompressedData](customaudionode.md#sendmiccompresseddata-vo)|[MinimumBufferSize](customaudionode.md#minimumbuffersize-zilch-e)| | |
+|[SendMicUncompressedData](customaudionode.md#sendmicuncompresseddata)|[SystemSampleRate](customaudionode.md#systemsamplerate-zilch-en)| | |
+|[SendPartialBuffer](customaudionode.md#sendpartialbuffer-void)| | | |
 
 
  #  Properties

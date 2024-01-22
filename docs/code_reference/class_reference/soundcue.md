@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddSoundEntry](soundcue.md#addsoundentry-void)|[ Attenuator](soundcue.md#attenuator-zilch-engine-d)|[dataresource](dataresource.md)| |
-|[ AddSoundTagEntry](soundcue.md#addsoundtagentry-void)|[ BeatsPerMinute](soundcue.md#beatsperminute-zilch-engi)| | |
-|[ PlayCueOnNode](soundcue.md#playcueonnode-zilch-engin)|[ Decibels](soundcue.md#decibels-zilch-engine-doc)| | |
-|[ Preview](soundcue.md#preview-void)|[ DecibelVariation](soundcue.md#decibelvariation-zilch-en)| | |
-|[ StopPreview](soundcue.md#stoppreview-void)|[ Pitch](soundcue.md#pitch-zilch-engine-docume)| | |
-| |[ PitchVariation](soundcue.md#pitchvariation-zilch-engi)| | |
-| |[ PlayMode](soundcue.md#playmode-zilch-engine-doc)| | |
-| |[ SelectMode](soundcue.md#selectmode-zilch-engine-d)| | |
-| |[ Semitones](soundcue.md#semitones-zilch-engine-do)| | |
-| |[ SemitoneVariation](soundcue.md#semitonevariation-zilch-e)| | |
-| |[ ShowMusicOptions](soundcue.md#showmusicoptions-zilch-en)| | |
-| |[ Sounds](soundcue.md#sounds-zilch-engine-docum)| | |
-| |[ SoundTags](soundcue.md#soundtags-zilch-engine-do)| | |
-| |[ TimeSigBeats](soundcue.md#timesigbeats-zilch-engine)| | |
-| |[ TimeSigValue](soundcue.md#timesigvalue-zilch-engine)| | |
-| |[ UseDecibelVariation](soundcue.md#usedecibelvariation-zero)| | |
-| |[ UseSemitoneVariation](soundcue.md#usesemitonevariation-zer)| | |
-| |[ Volume](soundcue.md#volume-zilch-engine-docum)| | |
-| |[ VolumeVariation](soundcue.md#volumevariation-zilch-eng)| | |
+|[AddSoundEntry](soundcue.md#addsoundentry-void)|[Attenuator](soundcue.md#attenuator-zilch-engine-d)|[dataresource](dataresource.md)| |
+|[AddSoundTagEntry](soundcue.md#addsoundtagentry-void)|[BeatsPerMinute](soundcue.md#beatsperminute-zilch-engi)| | |
+|[PlayCueOnNode](soundcue.md#playcueonnode-zilch-engin)|[Decibels](soundcue.md#decibels-zilch-engine-doc)| | |
+|[Preview](soundcue.md#preview-void)|[DecibelVariation](soundcue.md#decibelvariation-zilch-en)| | |
+|[StopPreview](soundcue.md#stoppreview-void)|[Pitch](soundcue.md#pitch-zilch-engine-docume)| | |
+| |[PitchVariation](soundcue.md#pitchvariation-zilch-engi)| | |
+| |[PlayMode](soundcue.md#playmode-zilch-engine-doc)| | |
+| |[SelectMode](soundcue.md#selectmode-zilch-engine-d)| | |
+| |[Semitones](soundcue.md#semitones-zilch-engine-do)| | |
+| |[SemitoneVariation](soundcue.md#semitonevariation-zilch-e)| | |
+| |[ShowMusicOptions](soundcue.md#showmusicoptions-zilch-en)| | |
+| |[Sounds](soundcue.md#sounds-zilch-engine-docum)| | |
+| |[SoundTags](soundcue.md#soundtags-zilch-engine-do)| | |
+| |[TimeSigBeats](soundcue.md#timesigbeats-zilch-engine)| | |
+| |[TimeSigValue](soundcue.md#timesigvalue-zilch-engine)| | |
+| |[UseDecibelVariation](soundcue.md#usedecibelvariation-zero)| | |
+| |[UseSemitoneVariation](soundcue.md#usesemitonevariation-zer)| | |
+| |[Volume](soundcue.md#volume-zilch-engine-docum)| | |
+| |[VolumeVariation](soundcue.md#volumevariation-zilch-eng)| | |
 
 
  #  Properties

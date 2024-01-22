@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](stickjoint.md#setworldpoints-void)|[ Length](stickjoint.md#length-zilch-engine-docum)|[joint](joint.md)| |
-|[ Constructor](stickjoint.md#stickjoint-void)|[ LocalPointA](stickjoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](stickjoint.md#localpointb-zilch-engine)| | |
-| |[ WorldPointA](stickjoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](stickjoint.md#worldpointb-zilch-engine)| | |
+|[SetWorldPoints](stickjoint.md#setworldpoints-void)|[Length](stickjoint.md#length-zilch-engine-docum)|[joint](joint.md)| |
+|[Constructor](stickjoint.md#stickjoint-void)|[LocalPointA](stickjoint.md#localpointa-zilch-engine)| | |
+| |[LocalPointB](stickjoint.md#localpointb-zilch-engine)| | |
+| |[WorldPointA](stickjoint.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](stickjoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

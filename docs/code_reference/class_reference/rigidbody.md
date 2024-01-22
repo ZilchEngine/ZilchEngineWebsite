@@ -6,25 +6,25 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ApplyAngularImpulse](rigidbody.md#applyangularimpulse-void)|[ ActiveBody](rigidbody.md#activebody-zilch-engine-d)|[component](component.md)| |
-|[ ApplyAngularVelocity](rigidbody.md#applyangularvelocity-voi)|[ AllowSleep](rigidbody.md#allowsleep-zilch-engine-d)| | |
-|[ ApplyForce](rigidbody.md#applyforce-void)|[ AngularVelocity](rigidbody.md#angularvelocity-zilch-eng)| | |
-|[ ApplyForceAtOffsetVector](rigidbody.md#applyforceatoffsetvector)|[ Asleep](rigidbody.md#asleep-zilch-engine-docum)| | |
-|[ ApplyForceAtOffsetVectorNoWakeUp](rigidbody.md#applyforceatoffsetvector)|[ DynamicState](rigidbody.md#dynamicstate-zilch-engine)| | |
-|[ ApplyForceAtPoint](rigidbody.md#applyforceatpoint-void)|[ Force](rigidbody.md#force-zilch-engine-docume)| | |
-|[ ApplyForceAtPointNoWakeUp](rigidbody.md#applyforceatpointnowakeu)|[ LocalInverseInertiaTensor](rigidbody.md#localinverseinertiatenso)| | |
-|[ ApplyForceNoWakeUp](rigidbody.md#applyforcenowakeup-void)|[ Mass](rigidbody.md#mass-zilch-engine-documen)| | |
-|[ ApplyImpulseAtOffsetVector](rigidbody.md#applyimpulseatoffsetvect)|[ Mode2D](rigidbody.md#mode2d-zilch-engine-docum)| | |
-|[ ApplyImpulseAtPoint](rigidbody.md#applyimpulseatpoint-void)|[ RotationLocked](rigidbody.md#rotationlocked-zilch-engi)| | |
-|[ ApplyLinearImpulse](rigidbody.md#applylinearimpulse-void)|[ Torque](rigidbody.md#torque-zilch-engine-docum)| | |
-|[ ApplyLinearVelocity](rigidbody.md#applylinearvelocity-void)|[ Velocity](rigidbody.md#velocity-zilch-engine-doc)| | |
-|[ ApplyTorque](rigidbody.md#applytorque-void)|[ WorldCenterOfMass](rigidbody.md#worldcenterofmass-zilch-e)| | |
-|[ ApplyTorqueNoWakeUp](rigidbody.md#applytorquenowakeup-void)|[ WorldInverseInertiaTensor](rigidbody.md#worldinverseinertiatenso)| | |
-|[ ApplyVelocityAtPoint](rigidbody.md#applyvelocityatpoint-voi)| | | |
-|[ ForceAsleep](rigidbody.md#forceasleep-void)| | | |
-|[ ForceAwake](rigidbody.md#forceawake-void)| | | |
-|[ GetPointVelocity](rigidbody.md#getpointvelocity-zilch-en)| | | |
-|[ Constructor](rigidbody.md#rigidbody-void)| | | |
+|[ApplyAngularImpulse](rigidbody.md#applyangularimpulse-void)|[ActiveBody](rigidbody.md#activebody-zilch-engine-d)|[component](component.md)| |
+|[ApplyAngularVelocity](rigidbody.md#applyangularvelocity-voi)|[AllowSleep](rigidbody.md#allowsleep-zilch-engine-d)| | |
+|[ApplyForce](rigidbody.md#applyforce-void)|[AngularVelocity](rigidbody.md#angularvelocity-zilch-eng)| | |
+|[ApplyForceAtOffsetVector](rigidbody.md#applyforceatoffsetvector)|[Asleep](rigidbody.md#asleep-zilch-engine-docum)| | |
+|[ApplyForceAtOffsetVectorNoWakeUp](rigidbody.md#applyforceatoffsetvector)|[DynamicState](rigidbody.md#dynamicstate-zilch-engine)| | |
+|[ApplyForceAtPoint](rigidbody.md#applyforceatpoint-void)|[Force](rigidbody.md#force-zilch-engine-docume)| | |
+|[ApplyForceAtPointNoWakeUp](rigidbody.md#applyforceatpointnowakeu)|[LocalInverseInertiaTensor](rigidbody.md#localinverseinertiatenso)| | |
+|[ApplyForceNoWakeUp](rigidbody.md#applyforcenowakeup-void)|[Mass](rigidbody.md#mass-zilch-engine-documen)| | |
+|[ApplyImpulseAtOffsetVector](rigidbody.md#applyimpulseatoffsetvect)|[Mode2D](rigidbody.md#mode2d-zilch-engine-docum)| | |
+|[ApplyImpulseAtPoint](rigidbody.md#applyimpulseatpoint-void)|[RotationLocked](rigidbody.md#rotationlocked-zilch-engi)| | |
+|[ApplyLinearImpulse](rigidbody.md#applylinearimpulse-void)|[Torque](rigidbody.md#torque-zilch-engine-docum)| | |
+|[ApplyLinearVelocity](rigidbody.md#applylinearvelocity-void)|[Velocity](rigidbody.md#velocity-zilch-engine-doc)| | |
+|[ApplyTorque](rigidbody.md#applytorque-void)|[WorldCenterOfMass](rigidbody.md#worldcenterofmass-zilch-e)| | |
+|[ApplyTorqueNoWakeUp](rigidbody.md#applytorquenowakeup-void)|[WorldInverseInertiaTensor](rigidbody.md#worldinverseinertiatenso)| | |
+|[ApplyVelocityAtPoint](rigidbody.md#applyvelocityatpoint-voi)| | | |
+|[ForceAsleep](rigidbody.md#forceasleep-void)| | | |
+|[ForceAwake](rigidbody.md#forceawake-void)| | | |
+|[GetPointVelocity](rigidbody.md#getpointvelocity-zilch-en)| | | |
+|[Constructor](rigidbody.md#rigidbody-void)| | | |
 
 
  #  Properties

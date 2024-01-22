@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](nadacomponent.md#nadacomponent-void)| |[component](component.md)| |
+|[Constructor](nadacomponent.md#nadacomponent-void)| |[component](component.md)| |
 
 
  #  Properties

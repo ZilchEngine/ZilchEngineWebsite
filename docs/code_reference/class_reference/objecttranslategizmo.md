@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objecttranslategizmo.md#objecttranslategizmo-voi)|[ DuplicateOnCtrlDrag](objecttranslategizmo.md#duplicateonctrldrag-zero)|[objecttransformgizmo](objecttransformgizmo.md)| |
+|[Constructor](objecttranslategizmo.md#objecttranslategizmo-voi)|[DuplicateOnCtrlDrag](objecttranslategizmo.md#duplicateonctrldrag-zero)|[objecttransformgizmo](objecttransformgizmo.md)| |
 
 
  #  Properties

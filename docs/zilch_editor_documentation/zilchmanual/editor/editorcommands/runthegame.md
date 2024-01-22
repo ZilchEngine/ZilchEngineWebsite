@@ -8,7 +8,7 @@ Running the game will and should be done often. You can run the game in one of f
 
 *The standard right-pointing triangle plays the game*
 
-- [ Command](commands.md) : [ PlayGame](../../../../code_reference/command_reference.md#playgame)
+- [Command](commands.md) : [PlayGame](../../../../code_reference/command_reference.md#playgame)
 
  Select Menu `Project  > Play Game`
  

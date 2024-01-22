@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GameSession](netlevelstarted.md#gamesession-zilch-engine)|[event](event.md)| |
-| |[ LevelName](netlevelstarted.md#levelname-zilch-engine-do)| | |
-| |[ Space](netlevelstarted.md#space-zilch-engine-docume)| | |
+| |[GameSession](netlevelstarted.md#gamesession-zilch-engine)|[event](event.md)| |
+| |[LevelName](netlevelstarted.md#levelname-zilch-engine-do)| | |
+| |[Space](netlevelstarted.md#space-zilch-engine-docume)| | |
 
 
  #  Properties

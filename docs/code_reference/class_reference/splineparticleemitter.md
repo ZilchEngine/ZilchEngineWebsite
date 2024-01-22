@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](splineparticleemitter.md#splineparticleemitter-vo)|[ ClampT](splineparticleemitter.md#clampt-zilch-engine-docum)|[particleemittershared](particleemittershared.md)| |
-| |[ EmitRadius](splineparticleemitter.md#emitradius-zilch-engine-d)| | |
-| |[ SpawnT](splineparticleemitter.md#spawnt-zilch-engine-docum)| | |
-| |[ SpawnTVariance](splineparticleemitter.md#spawntvariance-zilch-engi)| | |
-| |[ Spline](splineparticleemitter.md#spline-zilch-engine-docum)| | |
-| |[ TargetSplineCog](splineparticleemitter.md#targetsplinecog-zilch-eng)| | |
+|[Constructor](splineparticleemitter.md#splineparticleemitter-vo)|[ClampT](splineparticleemitter.md#clampt-zilch-engine-docum)|[particleemittershared](particleemittershared.md)| |
+| |[EmitRadius](splineparticleemitter.md#emitradius-zilch-engine-d)| | |
+| |[SpawnT](splineparticleemitter.md#spawnt-zilch-engine-docum)| | |
+| |[SpawnTVariance](splineparticleemitter.md#spawntvariance-zilch-engi)| | |
+| |[Spline](splineparticleemitter.md#spline-zilch-engine-docum)| | |
+| |[TargetSplineCog](splineparticleemitter.md#targetsplinecog-zilch-eng)| | |
 
 
  #  Properties

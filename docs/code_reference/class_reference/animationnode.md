@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](animationnode.md#clone-zilch-engine-docume)|[ CollapseToPoseOnFinish](animationnode.md#collapsetoposeonfinish-z)|[referencecountedeventobject](referencecountedeventobject.md)|[basicanimation](basicanimation.md)|
-|[ CollapseToPose](animationnode.md#collapsetopose-void)|[ Duration](animationnode.md#duration-zilch-engine-doc)| |[dualblendchainnode](dualblendchainnode.md)|
-|[ GetNormalizedTime](animationnode.md#getnormalizedtime-zilch-e)|[ Paused](animationnode.md#paused-zilch-engine-docum)| |[dualblendcrossblend](dualblendcrossblend.md)|
-|[ IsActive](animationnode.md#isactive-zilch-engine-doc)|[ Time](animationnode.md#time-zilch-engine-documen)| |[dualblenddirectblend](dualblenddirectblend.md)|
-|[ PrintNode](animationnode.md#printnode-void)|[ TimeScale](animationnode.md#timescale-zilch-engine-do)| |[dualblendselectivenode](dualblendselectivenode.md)|
-|[ SetNormalizedTime](animationnode.md#setnormalizedtime-void)| | |[posenode](posenode.md)|
+|[Clone](animationnode.md#clone-zilch-engine-docume)|[CollapseToPoseOnFinish](animationnode.md#collapsetoposeonfinish-z)|[referencecountedeventobject](referencecountedeventobject.md)|[basicanimation](basicanimation.md)|
+|[CollapseToPose](animationnode.md#collapsetopose-void)|[Duration](animationnode.md#duration-zilch-engine-doc)| |[dualblendchainnode](dualblendchainnode.md)|
+|[GetNormalizedTime](animationnode.md#getnormalizedtime-zilch-e)|[Paused](animationnode.md#paused-zilch-engine-docum)| |[dualblendcrossblend](dualblendcrossblend.md)|
+|[IsActive](animationnode.md#isactive-zilch-engine-doc)|[Time](animationnode.md#time-zilch-engine-documen)| |[dualblenddirectblend](dualblenddirectblend.md)|
+|[PrintNode](animationnode.md#printnode-void)|[TimeScale](animationnode.md#timescale-zilch-engine-do)| |[dualblendselectivenode](dualblendselectivenode.md)|
+|[SetNormalizedTime](animationnode.md#setnormalizedtime-void)| | |[posenode](posenode.md)|
 
 
  #  Properties

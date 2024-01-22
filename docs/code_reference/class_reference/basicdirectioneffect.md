@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Direction](basicdirectioneffect.md#direction-zilch-engine-do)|[physicseffect](physicseffect.md)|[forceeffect](forceeffect.md)|
-| |[ LocalSpaceDirection](basicdirectioneffect.md#localspacedirection-zero)| |[gravityeffect](gravityeffect.md)|
-| |[ Strength](basicdirectioneffect.md#strength-zilch-engine-doc)| | |
-| |[ WorldDirection](basicdirectioneffect.md#worlddirection-zilch-engi)| | |
+| |[Direction](basicdirectioneffect.md#direction-zilch-engine-do)|[physicseffect](physicseffect.md)|[forceeffect](forceeffect.md)|
+| |[LocalSpaceDirection](basicdirectioneffect.md#localspacedirection-zero)| |[gravityeffect](gravityeffect.md)|
+| |[Strength](basicdirectioneffect.md#strength-zilch-engine-doc)| | |
+| |[WorldDirection](basicdirectioneffect.md#worlddirection-zilch-engi)| | |
 
 
  #  Properties

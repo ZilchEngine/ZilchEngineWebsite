@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Tags](metascripttagattribute.md#tags-zilch-engine-documen)|[metaattribute](metaattribute.md)| |
+| |[Tags](metascripttagattribute.md#tags-zilch-engine-documen)|[metaattribute](metaattribute.md)| |
 
 
  #  Properties

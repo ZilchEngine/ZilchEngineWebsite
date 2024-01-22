@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetCharacterPosition](spritetext.md#getcharacterposition-zer)|[ Font](spritetext.md#font-zilch-engine-documen)|[basesprite](basesprite.md)| |
-|[ MeasureGivenText](spritetext.md#measuregiventext-zilch-en)|[ FontSize](spritetext.md#fontsize-zilch-engine-doc)| | |
-|[ MeasureText](spritetext.md#measuretext-zilch-engine)|[ PixelsPerUnit](spritetext.md#pixelsperunit-zilch-engin)| | |
-|[ Constructor](spritetext.md#spritetext-void)|[ Text](spritetext.md#text-zilch-engine-documen)| | |
-| |[ TextAlign](spritetext.md#textalign-zilch-engine-do)| | |
+|[GetCharacterPosition](spritetext.md#getcharacterposition-zer)|[Font](spritetext.md#font-zilch-engine-documen)|[basesprite](basesprite.md)| |
+|[MeasureGivenText](spritetext.md#measuregiventext-zilch-en)|[FontSize](spritetext.md#fontsize-zilch-engine-doc)| | |
+|[MeasureText](spritetext.md#measuretext-zilch-engine)|[PixelsPerUnit](spritetext.md#pixelsperunit-zilch-engin)| | |
+|[Constructor](spritetext.md#spritetext-void)|[Text](spritetext.md#text-zilch-engine-documen)| | |
+| |[TextAlign](spritetext.md#textalign-zilch-engine-do)| | |
 
 
  #  Properties

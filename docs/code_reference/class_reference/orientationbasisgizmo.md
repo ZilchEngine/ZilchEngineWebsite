@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](orientationbasisgizmo.md#orientationbasisgizmo-vo)| |[component](component.md)| |
+|[Constructor](orientationbasisgizmo.md#orientationbasisgizmo-vo)| |[component](component.md)| |
 
 
  #  Properties

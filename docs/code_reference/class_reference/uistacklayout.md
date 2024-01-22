@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](uistacklayout.md#uistacklayout-void)|[ Spacing](uistacklayout.md#spacing-zilch-engine-docu)|[uilayout](uilayout.md)| |
-| |[ StackDirection](uistacklayout.md#stackdirection-zilch-engi)| | |
+|[Constructor](uistacklayout.md#uistacklayout-void)|[Spacing](uistacklayout.md#spacing-zilch-engine-docu)|[uilayout](uilayout.md)| |
+| |[StackDirection](uistacklayout.md#stackdirection-zilch-engi)| | |
 
 
  #  Properties

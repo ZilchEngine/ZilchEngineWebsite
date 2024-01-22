@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Button](gamepadevent.md#button-zilch-engine-docum)|[event](event.md)| |
-| |[ FlickDirection](gamepadevent.md#flickdirection-zilch-engi)| | |
-| |[ FlickedStick](gamepadevent.md#flickedstick-zilch-engine)| | |
-| |[ Gamepad](gamepadevent.md#gamepad-zilch-engine-docu)| | |
+| |[Button](gamepadevent.md#button-zilch-engine-docum)|[event](event.md)| |
+| |[FlickDirection](gamepadevent.md#flickdirection-zilch-engi)| | |
+| |[FlickedStick](gamepadevent.md#flickedstick-zilch-engine)| | |
+| |[Gamepad](gamepadevent.md#gamepad-zilch-engine-docu)| | |
 
 
  #  Properties

@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](multiconvexmeshcollider.md#multiconvexmeshcollider)|[ Mesh](multiconvexmeshcollider.md#mesh-zilch-engine-documen)|[collider](collider.md)| |
+|[Constructor](multiconvexmeshcollider.md#multiconvexmeshcollider)|[Mesh](multiconvexmeshcollider.md#mesh-zilch-engine-documen)|[collider](collider.md)| |
 
 
  #  Properties

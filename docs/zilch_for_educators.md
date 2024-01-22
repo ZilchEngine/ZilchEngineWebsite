@@ -185,8 +185,8 @@ After completing the #beginner_iv tutorials students should be able to implement
 - [Kenney Sprite Assets](https://opengameart.org/)
 
  ## Acceptable Asset Licenses
-- [CC0 ](https://creativecommons.org/share-your-work/public-domain/cc0/ ) (Creative Commons V0)
-- [MIT ](https://en.wikipedia.org/wiki/MIT_License )
+- [CC0](https://creativecommons.org/share-your-work/public-domain/cc0/ ) (Creative Commons V0)
+- [MIT](https://en.wikipedia.org/wiki/MIT_License )
 
  ## Editor Reference
 [Text Editor Hotkeys](zilch_editor_documentation/zilchmanual/editor/texteditor/texteditorhotkeys.md) 

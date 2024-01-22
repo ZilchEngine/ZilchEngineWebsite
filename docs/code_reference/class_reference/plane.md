@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](plane.md#plane-void)|[ Data](plane.md#data-zilch-engine-documen)| | |
-|[ Set](plane.md#set-void)|[ Distance](plane.md#distance-zilch-engine-doc)| | |
-| |[ Normal](plane.md#normal-zilch-engine-docum)| | |
+|[Constructor](plane.md#plane-void)|[Data](plane.md#data-zilch-engine-documen)| | |
+|[Set](plane.md#set-void)|[Distance](plane.md#distance-zilch-engine-doc)| | |
+| |[Normal](plane.md#normal-zilch-engine-docum)| | |
 
 
  #  Properties

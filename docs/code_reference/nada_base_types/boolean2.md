@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](boolean2.md#boolean2-void)|[ Count](boolean2.md#count-zilch-engine-docume)| | |
-|[ Get](boolean2.md#get-zilch-engine-document)|[ One](boolean2.md#one-zilch-engine-document)| | |
-|[ GetAxis](boolean2.md#getaxis-zilch-engine-docu)|[ XAxis](boolean2.md#xaxis-zilch-engine-docume)| | |
-|[ Set](boolean2.md#set-void)|[ YAxis](boolean2.md#yaxis-zilch-engine-docume)| | |
-| |[ Zero](boolean2.md#zilch-zilch-engine-documen)| | |
+|[Constructor](boolean2.md#boolean2-void)|[Count](boolean2.md#count-zilch-engine-docume)| | |
+|[Get](boolean2.md#get-zilch-engine-document)|[One](boolean2.md#one-zilch-engine-document)| | |
+|[GetAxis](boolean2.md#getaxis-zilch-engine-docu)|[XAxis](boolean2.md#xaxis-zilch-engine-docume)| | |
+|[Set](boolean2.md#set-void)|[YAxis](boolean2.md#yaxis-zilch-engine-docume)| | |
+| |[Zero](boolean2.md#zilch-zilch-engine-documen)| | |
 
 
  #  Properties

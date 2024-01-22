@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contactpoint.md#contactpoint-void)|[ ComplexImpulse](contactpoint.md#compleximpulse-zilch-engi)| | |
-| |[ FrictionImpulse](contactpoint.md#frictionimpulse-zilch-eng)| | |
-| |[ LocalPoint](contactpoint.md#localpoint-zilch-engine-d)| | |
-| |[ NormalImpulse](contactpoint.md#normalimpulse-zilch-engin)| | |
-| |[ OtherLocalPoint](contactpoint.md#otherlocalpoint-zilch-eng)| | |
-| |[ Penetration](contactpoint.md#penetration-zilch-engine)| | |
-| |[ RelativeVelocity](contactpoint.md#relativevelocity-zilch-en)| | |
-| |[ WorldNormalTowardsOther](contactpoint.md#worldnormaltowardsother)| | |
-| |[ WorldPoint](contactpoint.md#worldpoint-zilch-engine-d)| | |
+|[Constructor](contactpoint.md#contactpoint-void)|[ComplexImpulse](contactpoint.md#compleximpulse-zilch-engi)| | |
+| |[FrictionImpulse](contactpoint.md#frictionimpulse-zilch-eng)| | |
+| |[LocalPoint](contactpoint.md#localpoint-zilch-engine-d)| | |
+| |[NormalImpulse](contactpoint.md#normalimpulse-zilch-engin)| | |
+| |[OtherLocalPoint](contactpoint.md#otherlocalpoint-zilch-eng)| | |
+| |[Penetration](contactpoint.md#penetration-zilch-engine)| | |
+| |[RelativeVelocity](contactpoint.md#relativevelocity-zilch-en)| | |
+| |[WorldNormalTowardsOther](contactpoint.md#worldnormaltowardsother)| | |
+| |[WorldPoint](contactpoint.md#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties

@@ -1,4 +1,4 @@
-The [ FlangerNode ](../../../../code_reference/class_reference/flangernode.md) collects audio data from all of its inputs and applies a flanger filter before passing it along to its outputs. 
+The [FlangerNode](../../../../code_reference/class_reference/flangernode.md) collects audio data from all of its inputs and applies a flanger filter before passing it along to its outputs. 
 
  # Common Uses
 
@@ -14,6 +14,6 @@ Flanger filters apply an oscillating delay filter to the audio. The delay will i
 - [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ FlangerNode ](../../../../code_reference/class_reference/flangernode.md) 
+- [FlangerNode](../../../../code_reference/class_reference/flangernode.md) 
 
  

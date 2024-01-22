@@ -4,21 +4,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](soundinstance.md#interpolatedecibels-void)|[ CustomEventTime](soundinstance.md#customeventtime-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
-|[ InterpolatePitch](soundinstance.md#interpolatepitch-void)|[ Decibels](soundinstance.md#decibels-zilch-engine-doc)| | |
-|[ InterpolateSemitones](soundinstance.md#interpolatesemitones-voi)|[ EndTime](soundinstance.md#endtime-zilch-engine-docu)| | |
-|[ InterpolateVolume](soundinstance.md#interpolatevolume-void)|[ FileLength](soundinstance.md#filelength-zilch-engine-d)| | |
-|[ Stop](soundinstance.md#stop-void)|[ IsPlaying](soundinstance.md#isplaying-zilch-engine-do)| | |
-| |[ LoopEndTime](soundinstance.md#loopendtime-zilch-engine)| | |
-| |[ Looping](soundinstance.md#looping-zilch-engine-docu)| | |
-| |[ LoopStartTime](soundinstance.md#loopstarttime-zilch-engin)| | |
-| |[ Paused](soundinstance.md#paused-zilch-engine-docum)| | |
-| |[ Pitch](soundinstance.md#pitch-zilch-engine-docume)| | |
-| |[ Semitones](soundinstance.md#semitones-zilch-engine-do)| | |
-| |[ SoundName](soundinstance.md#soundname-zilch-engine-do)| | |
-| |[ SoundNode](soundinstance.md#soundnode-zilch-engine-do)| | |
-| |[ Time](soundinstance.md#time-zilch-engine-documen)| | |
-| |[ Volume](soundinstance.md#volume-zilch-engine-docum)| | |
+|[InterpolateDecibels](soundinstance.md#interpolatedecibels-void)|[CustomEventTime](soundinstance.md#customeventtime-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[InterpolatePitch](soundinstance.md#interpolatepitch-void)|[Decibels](soundinstance.md#decibels-zilch-engine-doc)| | |
+|[InterpolateSemitones](soundinstance.md#interpolatesemitones-voi)|[EndTime](soundinstance.md#endtime-zilch-engine-docu)| | |
+|[InterpolateVolume](soundinstance.md#interpolatevolume-void)|[FileLength](soundinstance.md#filelength-zilch-engine-d)| | |
+|[Stop](soundinstance.md#stop-void)|[IsPlaying](soundinstance.md#isplaying-zilch-engine-do)| | |
+| |[LoopEndTime](soundinstance.md#loopendtime-zilch-engine)| | |
+| |[Looping](soundinstance.md#looping-zilch-engine-docu)| | |
+| |[LoopStartTime](soundinstance.md#loopstarttime-zilch-engin)| | |
+| |[Paused](soundinstance.md#paused-zilch-engine-docum)| | |
+| |[Pitch](soundinstance.md#pitch-zilch-engine-docume)| | |
+| |[Semitones](soundinstance.md#semitones-zilch-engine-do)| | |
+| |[SoundName](soundinstance.md#soundname-zilch-engine-do)| | |
+| |[SoundNode](soundinstance.md#soundnode-zilch-engine-do)| | |
+| |[Time](soundinstance.md#time-zilch-engine-documen)| | |
+| |[Volume](soundinstance.md#volume-zilch-engine-docum)| | |
 
 
  #  Properties

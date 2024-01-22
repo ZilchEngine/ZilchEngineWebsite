@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](recentprojects.md#recentprojects-void)| |[component](component.md)| |
+|[Constructor](recentprojects.md#recentprojects-void)| |[component](component.md)| |
 
 
  #  Properties

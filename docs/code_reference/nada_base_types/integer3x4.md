@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](integer3x4.md#get-zilch-engine-document)|[ Count](integer3x4.md#count-zilch-engine-docume)| | |
-|[ GetByIndex](integer3x4.md#getbyindex-zilch-engine-d)|[ CountX](integer3x4.md#countx-zilch-engine-docum)| | |
-|[ Constructor](integer3x4.md#integer3x4-void)|[ CountY](integer3x4.md#county-zilch-engine-docum)| | |
-|[ Set](integer3x4.md#set-void)|[ M00](integer3x4.md#m00-zilch-engine-document)| | |
-|[ SetByIndex](integer3x4.md#setbyindex-void)|[ M01](integer3x4.md#m01-zilch-engine-document)| | |
-| |[ M02](integer3x4.md#m02-zilch-engine-document)| | |
-| |[ M03](integer3x4.md#m03-zilch-engine-document)| | |
-| |[ M10](integer3x4.md#m10-zilch-engine-document)| | |
-| |[ M11](integer3x4.md#m11-zilch-engine-document)| | |
-| |[ M12](integer3x4.md#m12-zilch-engine-document)| | |
-| |[ M13](integer3x4.md#m13-zilch-engine-document)| | |
-| |[ M20](integer3x4.md#m20-zilch-engine-document)| | |
-| |[ M21](integer3x4.md#m21-zilch-engine-document)| | |
-| |[ M22](integer3x4.md#m22-zilch-engine-document)| | |
-| |[ M23](integer3x4.md#m23-zilch-engine-document)| | |
+|[Get](integer3x4.md#get-zilch-engine-document)|[Count](integer3x4.md#count-zilch-engine-docume)| | |
+|[GetByIndex](integer3x4.md#getbyindex-zilch-engine-d)|[CountX](integer3x4.md#countx-zilch-engine-docum)| | |
+|[Constructor](integer3x4.md#integer3x4-void)|[CountY](integer3x4.md#county-zilch-engine-docum)| | |
+|[Set](integer3x4.md#set-void)|[M00](integer3x4.md#m00-zilch-engine-document)| | |
+|[SetByIndex](integer3x4.md#setbyindex-void)|[M01](integer3x4.md#m01-zilch-engine-document)| | |
+| |[M02](integer3x4.md#m02-zilch-engine-document)| | |
+| |[M03](integer3x4.md#m03-zilch-engine-document)| | |
+| |[M10](integer3x4.md#m10-zilch-engine-document)| | |
+| |[M11](integer3x4.md#m11-zilch-engine-document)| | |
+| |[M12](integer3x4.md#m12-zilch-engine-document)| | |
+| |[M13](integer3x4.md#m13-zilch-engine-document)| | |
+| |[M20](integer3x4.md#m20-zilch-engine-document)| | |
+| |[M21](integer3x4.md#m21-zilch-engine-document)| | |
+| |[M22](integer3x4.md#m22-zilch-engine-document)| | |
+| |[M23](integer3x4.md#m23-zilch-engine-document)| | |
 
 
  #  Properties

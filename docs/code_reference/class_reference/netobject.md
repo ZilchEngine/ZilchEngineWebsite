@@ -6,44 +6,44 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchBroadcast](netobject.md#dispatchbroadcast-void)|[ AcceptIncomingChanges](netobject.md#acceptincomingchanges-ze)|[component](component.md)|[netpeer](netpeer.md)|
-|[ DispatchLocal](netobject.md#dispatchlocal-void)|[ AccurateTimestampOnChange](netobject.md#accuratetimestamponchang)| |[netspace](netspace.md)|
-|[ DispatchLocalAndBroadcast](netobject.md#dispatchlocalandbroadcas)|[ AccurateTimestampOnOffline](netobject.md#accuratetimestamponoffli)| |[netuser](netuser.md)|
-|[ DispatchLocalAndRemote](netobject.md#dispatchlocalandremote-v)|[ AccurateTimestampOnOnline](netobject.md#accuratetimestampononlin)| | |
-|[ DispatchRemote](netobject.md#dispatchremote-void)|[ AllowNapping](netobject.md#allownapping-zilch-engine)| | |
-|[ Forget](netobject.md#forget-zilch-engine-docum)|[ AutomaticChannel](netobject.md#automaticchannel-zilch-en)| | |
-|[ GetNetChannel](netobject.md#getnetchannel-zilch-engin)|[ DetectOutgoingChanges](netobject.md#detectoutgoingchanges-ze)| | |
-|[ HasNetChannel](netobject.md#hasnetchannel-zilch-engin)|[ IsClient](netobject.md#isclient-zilch-engine-doc)| | |
-|[ IsOwnedByPeer](netobject.md#isownedbypeer-zilch-engin)|[ IsClientAndMine](netobject.md#isclientandmine-zilch-eng)| | |
-|[ IsOwnedByUser](netobject.md#isownedbyuser-zilch-engin)|[ IsClientButNotMine](netobject.md#isclientbutnotmine-zero)| | |
-|[ Constructor](netobject.md#netobject-void)|[ IsClientOrOffline](netobject.md#isclientoroffline-zilch-e)| | |
-|[ ReplicateNow](netobject.md#replicatenow-zilch-engine)|[ IsClientOrServer](netobject.md#isclientorserver-zilch-en)| | |
-|[ SelectRemote](netobject.md#selectremote-zilch-engine)|[ IsMine](netobject.md#ismine-zilch-engine-docum)| | |
-|[ SetNetUserOwnerDown](netobject.md#setnetuserownerdown-void)|[ IsNapping](netobject.md#isnapping-zilch-engine-do)| | |
-|[ SetNetUserOwnerUp](netobject.md#setnetuserownerup-void)|[ IsNotMine](netobject.md#isnotmine-zilch-engine-do)| | |
-|[ TakeNap](netobject.md#takenap-void)|[ IsNotOwnedByAUser](netobject.md#isnotownedbyauser-zilch-e)| | |
-|[ WakeUp](netobject.md#wakeup-void)|[ IsOffline](netobject.md#isoffline-zilch-engine-do)| | |
-| |[ IsOfflineAndMine](netobject.md#isofflineandmine-zilch-en)| | |
-| |[ IsOfflineButNotMine](netobject.md#isofflinebutnotmine-zero)| | |
-| |[ IsOnline](netobject.md#isonline-zilch-engine-doc)| | |
-| |[ IsOwnedByAUser](netobject.md#isownedbyauser-zilch-engi)| | |
-| |[ IsServer](netobject.md#isserver-zilch-engine-doc)| | |
-| |[ IsServerAndMine](netobject.md#isserverandmine-zilch-eng)| | |
-| |[ IsServerButNotMine](netobject.md#isserverbutnotmine-zero)| | |
-| |[ IsServerOrOffline](netobject.md#isserveroroffline-zilch-e)| | |
-| |[ LastChangeTimePassed](netobject.md#lastchangetimepassed-zer)| | |
-| |[ LastChangeTimestamp](netobject.md#lastchangetimestamp-zero)| | |
-| |[ NetObjectId](netobject.md#netobjectid-zilch-engine)| | |
-| |[ NetPropertyInfos](netobject.md#netpropertyinfos-zilch-en)| | |
-| |[ NetUserOwner](netobject.md#netuserowner-zilch-engine)| | |
-| |[ NetUserOwnerPath](netobject.md#netuserownerpath-zilch-en)| | |
-| |[ NetUserOwnerPeerId](netobject.md#netuserownerpeerid-zero)| | |
-| |[ NetUserOwnerUserId](netobject.md#netuserowneruserid-zero)| | |
-| |[ OfflineTimePassed](netobject.md#offlinetimepassed-zilch-e)| | |
-| |[ OfflineTimestamp](netobject.md#offlinetimestamp-zilch-en)| | |
-| |[ OnlineTimePassed](netobject.md#onlinetimepassed-zilch-en)| | |
-| |[ OnlineTimestamp](netobject.md#onlinetimestamp-zilch-eng)| | |
-| |[ Role](netobject.md#role-zilch-engine-documen)| | |
+|[DispatchBroadcast](netobject.md#dispatchbroadcast-void)|[AcceptIncomingChanges](netobject.md#acceptincomingchanges-ze)|[component](component.md)|[netpeer](netpeer.md)|
+|[DispatchLocal](netobject.md#dispatchlocal-void)|[AccurateTimestampOnChange](netobject.md#accuratetimestamponchang)| |[netspace](netspace.md)|
+|[DispatchLocalAndBroadcast](netobject.md#dispatchlocalandbroadcas)|[AccurateTimestampOnOffline](netobject.md#accuratetimestamponoffli)| |[netuser](netuser.md)|
+|[DispatchLocalAndRemote](netobject.md#dispatchlocalandremote-v)|[AccurateTimestampOnOnline](netobject.md#accuratetimestampononlin)| | |
+|[DispatchRemote](netobject.md#dispatchremote-void)|[AllowNapping](netobject.md#allownapping-zilch-engine)| | |
+|[Forget](netobject.md#forget-zilch-engine-docum)|[AutomaticChannel](netobject.md#automaticchannel-zilch-en)| | |
+|[GetNetChannel](netobject.md#getnetchannel-zilch-engin)|[DetectOutgoingChanges](netobject.md#detectoutgoingchanges-ze)| | |
+|[HasNetChannel](netobject.md#hasnetchannel-zilch-engin)|[IsClient](netobject.md#isclient-zilch-engine-doc)| | |
+|[IsOwnedByPeer](netobject.md#isownedbypeer-zilch-engin)|[IsClientAndMine](netobject.md#isclientandmine-zilch-eng)| | |
+|[IsOwnedByUser](netobject.md#isownedbyuser-zilch-engin)|[IsClientButNotMine](netobject.md#isclientbutnotmine-zero)| | |
+|[Constructor](netobject.md#netobject-void)|[IsClientOrOffline](netobject.md#isclientoroffline-zilch-e)| | |
+|[ReplicateNow](netobject.md#replicatenow-zilch-engine)|[IsClientOrServer](netobject.md#isclientorserver-zilch-en)| | |
+|[SelectRemote](netobject.md#selectremote-zilch-engine)|[IsMine](netobject.md#ismine-zilch-engine-docum)| | |
+|[SetNetUserOwnerDown](netobject.md#setnetuserownerdown-void)|[IsNapping](netobject.md#isnapping-zilch-engine-do)| | |
+|[SetNetUserOwnerUp](netobject.md#setnetuserownerup-void)|[IsNotMine](netobject.md#isnotmine-zilch-engine-do)| | |
+|[TakeNap](netobject.md#takenap-void)|[IsNotOwnedByAUser](netobject.md#isnotownedbyauser-zilch-e)| | |
+|[WakeUp](netobject.md#wakeup-void)|[IsOffline](netobject.md#isoffline-zilch-engine-do)| | |
+| |[IsOfflineAndMine](netobject.md#isofflineandmine-zilch-en)| | |
+| |[IsOfflineButNotMine](netobject.md#isofflinebutnotmine-zero)| | |
+| |[IsOnline](netobject.md#isonline-zilch-engine-doc)| | |
+| |[IsOwnedByAUser](netobject.md#isownedbyauser-zilch-engi)| | |
+| |[IsServer](netobject.md#isserver-zilch-engine-doc)| | |
+| |[IsServerAndMine](netobject.md#isserverandmine-zilch-eng)| | |
+| |[IsServerButNotMine](netobject.md#isserverbutnotmine-zero)| | |
+| |[IsServerOrOffline](netobject.md#isserveroroffline-zilch-e)| | |
+| |[LastChangeTimePassed](netobject.md#lastchangetimepassed-zer)| | |
+| |[LastChangeTimestamp](netobject.md#lastchangetimestamp-zero)| | |
+| |[NetObjectId](netobject.md#netobjectid-zilch-engine)| | |
+| |[NetPropertyInfos](netobject.md#netpropertyinfos-zilch-en)| | |
+| |[NetUserOwner](netobject.md#netuserowner-zilch-engine)| | |
+| |[NetUserOwnerPath](netobject.md#netuserownerpath-zilch-en)| | |
+| |[NetUserOwnerPeerId](netobject.md#netuserownerpeerid-zero)| | |
+| |[NetUserOwnerUserId](netobject.md#netuserowneruserid-zero)| | |
+| |[OfflineTimePassed](netobject.md#offlinetimepassed-zilch-e)| | |
+| |[OfflineTimestamp](netobject.md#offlinetimestamp-zilch-en)| | |
+| |[OnlineTimePassed](netobject.md#onlinetimepassed-zilch-en)| | |
+| |[OnlineTimestamp](netobject.md#onlinetimestamp-zilch-eng)| | |
+| |[Role](netobject.md#role-zilch-engine-documen)| | |
 
 
  #  Properties

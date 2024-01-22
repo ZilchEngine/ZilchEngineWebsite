@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](particlecollisionplane.md#particlecollisionplane-v)|[ Friction](particlecollisionplane.md#friction-zilch-engine-doc)|[particleanimator](particleanimator.md)| |
-| |[ PlaneNormal](particlecollisionplane.md#planenormal-zilch-engine)| | |
-| |[ PlanePosition](particlecollisionplane.md#planeposition-zilch-engin)| | |
-| |[ PlaneSpace](particlecollisionplane.md#planespace-zilch-engine-d)| | |
-| |[ Restitution](particlecollisionplane.md#restitution-zilch-engine)| | |
+|[Constructor](particlecollisionplane.md#particlecollisionplane-v)|[Friction](particlecollisionplane.md#friction-zilch-engine-doc)|[particleanimator](particleanimator.md)| |
+| |[PlaneNormal](particlecollisionplane.md#planenormal-zilch-engine)| | |
+| |[PlanePosition](particlecollisionplane.md#planeposition-zilch-engin)| | |
+| |[PlaneSpace](particlecollisionplane.md#planespace-zilch-engine-d)| | |
+| |[Restitution](particlecollisionplane.md#restitution-zilch-engine)| | |
 
 
  #  Properties

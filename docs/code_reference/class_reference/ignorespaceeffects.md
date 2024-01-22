@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetIgnoreState](ignorespaceeffects.md#getignorestate-zilch-engi)|[ IgnoreBuoyancy](ignorespaceeffects.md#ignorebuoyancy-zilch-engi)|[component](component.md)| |
-|[ Constructor](ignorespaceeffects.md#ignorespaceeffects-void)|[ IgnoreCustom](ignorespaceeffects.md#ignorecustom-zilch-engine)| | |
-|[ SetIgnoreState](ignorespaceeffects.md#setignorestate-void)|[ IgnoreDrag](ignorespaceeffects.md#ignoredrag-zilch-engine-d)| | |
-| |[ IgnoreFlow](ignorespaceeffects.md#ignoreflow-zilch-engine-d)| | |
-| |[ IgnoreForce](ignorespaceeffects.md#ignoreforce-zilch-engine)| | |
-| |[ IgnoreGravity](ignorespaceeffects.md#ignoregravity-zilch-engin)| | |
-| |[ IgnorePointForce](ignorespaceeffects.md#ignorepointforce-zilch-en)| | |
-| |[ IgnorePointGravity](ignorespaceeffects.md#ignorepointgravity-zero)| | |
-| |[ IgnoreThrust](ignorespaceeffects.md#ignorethrust-zilch-engine)| | |
-| |[ IgnoreTorque](ignorespaceeffects.md#ignoretorque-zilch-engine)| | |
-| |[ IgnoreVortex](ignorespaceeffects.md#ignorevortex-zilch-engine)| | |
-| |[ IgnoreWind](ignorespaceeffects.md#ignorewind-zilch-engine-d)| | |
+|[GetIgnoreState](ignorespaceeffects.md#getignorestate-zilch-engi)|[IgnoreBuoyancy](ignorespaceeffects.md#ignorebuoyancy-zilch-engi)|[component](component.md)| |
+|[Constructor](ignorespaceeffects.md#ignorespaceeffects-void)|[IgnoreCustom](ignorespaceeffects.md#ignorecustom-zilch-engine)| | |
+|[SetIgnoreState](ignorespaceeffects.md#setignorestate-void)|[IgnoreDrag](ignorespaceeffects.md#ignoredrag-zilch-engine-d)| | |
+| |[IgnoreFlow](ignorespaceeffects.md#ignoreflow-zilch-engine-d)| | |
+| |[IgnoreForce](ignorespaceeffects.md#ignoreforce-zilch-engine)| | |
+| |[IgnoreGravity](ignorespaceeffects.md#ignoregravity-zilch-engin)| | |
+| |[IgnorePointForce](ignorespaceeffects.md#ignorepointforce-zilch-en)| | |
+| |[IgnorePointGravity](ignorespaceeffects.md#ignorepointgravity-zero)| | |
+| |[IgnoreThrust](ignorespaceeffects.md#ignorethrust-zilch-engine)| | |
+| |[IgnoreTorque](ignorespaceeffects.md#ignoretorque-zilch-engine)| | |
+| |[IgnoreVortex](ignorespaceeffects.md#ignorevortex-zilch-engine)| | |
+| |[IgnoreWind](ignorespaceeffects.md#ignorewind-zilch-engine-d)| | |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CutoffFrequency](highpassnode.md#cutofffrequency-zilch-eng)|[soundnode](soundnode.md)| |
+| |[CutoffFrequency](highpassnode.md#cutofffrequency-zilch-eng)|[soundnode](soundnode.md)| |
 
 
  #  Properties

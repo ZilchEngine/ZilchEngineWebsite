@@ -6,20 +6,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ RotateAnglesLocal](transform.md#rotateangleslocal-void)|[ EulerAngles](transform.md#eulerangles-zilch-engine)|[component](component.md)| |
-|[ RotateAnglesWorld](transform.md#rotateanglesworld-void)|[ LocalRotation](transform.md#localrotation-zilch-engin)| | |
-|[ RotateAround](transform.md#rotatearound-void)|[ LocalScale](transform.md#localscale-zilch-engine-d)| | |
-|[ RotateLocal](transform.md#rotatelocal-void)|[ LocalTranslation](transform.md#localtranslation-zilch-en)| | |
-|[ RotateWorld](transform.md#rotateworld-void)|[ Parent](transform.md#parent-zilch-engine-docum)| | |
-|[ SetEulerAnglesXYZ](transform.md#seteuleranglesxyz-void)|[ Rotation](transform.md#rotation-zilch-engine-doc)| | |
-|[ SetRotationBases](transform.md#setrotationbases-void)|[ Scale](transform.md#scale-zilch-engine-docume)| | |
-|[ Constructor](transform.md#transform-void)|[ Translation](transform.md#translation-zilch-engine)| | |
-|[ TransformNormal](transform.md#transformnormal-zilch-eng)|[ WorldMatrix](transform.md#worldmatrix-zilch-engine)| | |
-|[ TransformNormalInverse](transform.md#transformnormalinverse-z)|[ WorldRotation](transform.md#worldrotation-zilch-engin)| | |
-|[ TransformNormalLocal](transform.md#transformnormallocal-zer)|[ WorldScale](transform.md#worldscale-zilch-engine-d)| | |
-|[ TransformPoint](transform.md#transformpoint-zilch-engi)|[ WorldTranslation](transform.md#worldtranslation-zilch-en)| | |
-|[ TransformPointInverse](transform.md#transformpointinverse-ze)| | | |
-|[ TransformPointLocal](transform.md#transformpointlocal-zero)| | | |
+|[RotateAnglesLocal](transform.md#rotateangleslocal-void)|[EulerAngles](transform.md#eulerangles-zilch-engine)|[component](component.md)| |
+|[RotateAnglesWorld](transform.md#rotateanglesworld-void)|[LocalRotation](transform.md#localrotation-zilch-engin)| | |
+|[RotateAround](transform.md#rotatearound-void)|[LocalScale](transform.md#localscale-zilch-engine-d)| | |
+|[RotateLocal](transform.md#rotatelocal-void)|[LocalTranslation](transform.md#localtranslation-zilch-en)| | |
+|[RotateWorld](transform.md#rotateworld-void)|[Parent](transform.md#parent-zilch-engine-docum)| | |
+|[SetEulerAnglesXYZ](transform.md#seteuleranglesxyz-void)|[Rotation](transform.md#rotation-zilch-engine-doc)| | |
+|[SetRotationBases](transform.md#setrotationbases-void)|[Scale](transform.md#scale-zilch-engine-docume)| | |
+|[Constructor](transform.md#transform-void)|[Translation](transform.md#translation-zilch-engine)| | |
+|[TransformNormal](transform.md#transformnormal-zilch-eng)|[WorldMatrix](transform.md#worldmatrix-zilch-engine)| | |
+|[TransformNormalInverse](transform.md#transformnormalinverse-z)|[WorldRotation](transform.md#worldrotation-zilch-engin)| | |
+|[TransformNormalLocal](transform.md#transformnormallocal-zer)|[WorldScale](transform.md#worldscale-zilch-engine-d)| | |
+|[TransformPoint](transform.md#transformpoint-zilch-engi)|[WorldTranslation](transform.md#worldtranslation-zilch-en)| | |
+|[TransformPointInverse](transform.md#transformpointinverse-ze)| | | |
+|[TransformPointLocal](transform.md#transformpointlocal-zero)| | | |
 
 
  #  Properties

@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](userconfig.md#userconfig-void)|[ UserEmail](userconfig.md#useremail-zilch-engine-do)|[component](component.md)| |
-| |[ UserName](userconfig.md#username-zilch-engine-doc)| | |
+|[Constructor](userconfig.md#userconfig-void)|[UserEmail](userconfig.md#useremail-zilch-engine-do)|[component](component.md)| |
+| |[UserName](userconfig.md#username-zilch-engine-doc)| | |
 
 
  #  Properties

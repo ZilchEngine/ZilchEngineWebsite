@@ -1,4 +1,4 @@
-[ SoundTags ](../../../code_reference/class_reference/soundtag.md) are resources that allow users to pause, resume, and stop a group of [SoundInstances ](soundinstance.md); control their volume, EQ, and compression; and get a list of tagged SoundInstances to change other properties in NadaScripts. 
+[SoundTags](../../../code_reference/class_reference/soundtag.md) are resources that allow users to pause, resume, and stop a group of [SoundInstances](soundinstance.md); control their volume, EQ, and compression; and get a list of tagged SoundInstances to change other properties in NadaScripts. 
 
  # Common Uses
 
@@ -8,7 +8,7 @@
 
  # Using SoundTags
 
-SoundTags can be added to [SoundCues](soundcue.md) using [SoundTagEntries ](soundcue.md#soundtagentries). When a SoundCue is played, the resulting SoundInstance will be automatically added to all SoundTags that are on the SoundCue. Users can also add and remove SoundInstances from SoundTags in scripts at runtime. Unlike other audio objects, SoundTags exist across all Spaces, so the same SoundTag can be used for SoundInstances in different [SoundSpaces ](soundspace.md). 
+SoundTags can be added to [SoundCues](soundcue.md) using [SoundTagEntries](soundcue.md#soundtagentries). When a SoundCue is played, the resulting SoundInstance will be automatically added to all SoundTags that are on the SoundCue. Users can also add and remove SoundInstances from SoundTags in scripts at runtime. Unlike other audio objects, SoundTags exist across all Spaces, so the same SoundTag can be used for SoundInstances in different [SoundSpaces](soundspace.md). 
 
  ## Volume 
 
@@ -20,17 +20,17 @@ Volume can be interpolated over time using either floating point or decibel valu
 
  ## Equalizer
 
-If the `UseEqualizer` property is set to `true`, the EQ properties will be applied to all tagged SoundInstances. These settings control the volume of the audio at different frequency ranges. SoundTags have properties for `EQLowPassGain`, `EQBand1Gain`, `EQBand2Gain`, `EQBand3Gain`, and `EQHighPassGain`. See the [EqualizerNode ](soundnode/equalizernode.md) for explanations of how these properties work.
+If the `UseEqualizer` property is set to `true`, the EQ properties will be applied to all tagged SoundInstances. These settings control the volume of the audio at different frequency ranges. SoundTags have properties for `EQLowPassGain`, `EQBand1Gain`, `EQBand2Gain`, `EQBand3Gain`, and `EQHighPassGain`. See the [EqualizerNode](soundnode/equalizernode.md) for explanations of how these properties work.
 
  ## Compressor
 
-If the `UseCompressor` property is set to `true`, the Compressor properties will be applied to all tagged SoundInstances. A compressor reduces the volume of the sound if it goes above a specified decibel level, or threshold. SoundTags have properties for `CompressorThreshold`, `CompressorAttack`, `CompressorRelease`, `CompressorRatio`, and `CompressorKneeWidth`. See the [CompressorNode ](soundnode/compressornode.md) for explanations of how these properties work.
+If the `UseCompressor` property is set to `true`, the Compressor properties will be applied to all tagged SoundInstances. A compressor reduces the volume of the sound if it goes above a specified decibel level, or threshold. SoundTags have properties for `CompressorThreshold`, `CompressorAttack`, `CompressorRelease`, `CompressorRatio`, and `CompressorKneeWidth`. See the [CompressorNode](soundnode/compressornode.md) for explanations of how these properties work.
 
 If the `TagForDucking` property is set to another SoundTag that tag's volume level will be used to trigger the compressor settings of this SoundTag.
 
  ## Nada Events
 
-- The `AddedInstanceToTag` [ SoundEvent ](../../../code_reference/class_reference/soundevent.md) is sent when a new SoundInstance is added to the SoundTag.
+- The `AddedInstanceToTag` [SoundEvent](../../../code_reference/class_reference/soundevent.md) is sent when a new SoundInstance is added to the SoundTag.
 - The `TagHasNoInstances` SoundEvent is sent when all SoundInstances have been removed from the SoundTag.
 
 ---
@@ -38,17 +38,17 @@ If the `TagForDucking` property is set to another SoundTag that tag's volume lev
 
  ## Manual
 
-- [SoundInstance ](soundinstance.md)
-- [SoundCue ](soundcue.md)
-- [SoundTagEntries ](soundcue.md#soundtagentries)
-- [SoundSpace ](soundspace.md)
-- [SoundEmitter ](soundemitter.md)
-- [EqualizerNode ](soundnode/equalizernode.md)
-- [CompressorNode ](soundnode/compressornode.md)
+- [SoundInstance](soundinstance.md)
+- [SoundCue](soundcue.md)
+- [SoundTagEntries](soundcue.md#soundtagentries)
+- [SoundSpace](soundspace.md)
+- [SoundEmitter](soundemitter.md)
+- [EqualizerNode](soundnode/equalizernode.md)
+- [CompressorNode](soundnode/compressornode.md)
 
  ## Reference
 
-- [ SoundTag ](../../../code_reference/class_reference/soundtag.md)
-- [ SoundEvent ](../../../code_reference/class_reference/soundevent.md) 
+- [SoundTag](../../../code_reference/class_reference/soundtag.md)
+- [SoundEvent](../../../code_reference/class_reference/soundevent.md) 
 
  

@@ -1,6 +1,6 @@
 Explore the Zilch Engine's architecture and learn how to build your games better.
 
- ## [Game Objects ](architecture/gameobjects.md) #Beginner_I
+ ## [Game Objects](architecture/gameobjects.md) #Beginner_I
 Creating Game Objects, Changing Properties
 
  ## [Basic Components](architecture/basiccomponents.md) #Beginner_I

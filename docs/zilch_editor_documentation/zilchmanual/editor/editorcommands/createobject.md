@@ -13,7 +13,7 @@ Creating an object is a common action within Zilch Engine, in this page we outli
 Additionally, here is a list of all create commands Zilch Engine provides:
 
 - [CreateBlockTower](../../../../code_reference/command_reference.md#createblocktower)
-- [ CreateCamera ](../../../../code_reference/command_reference.md#createcamera)
+- [CreateCamera](../../../../code_reference/command_reference.md#createcamera)
 - [CreateCube](../../../../code_reference/command_reference.md#createcube)
 - [CreateCylinder](../../../../code_reference/command_reference.md#createcylinder)
 - [CreateDirectionalLight](../../../../code_reference/command_reference.md#createdirectionallight)
@@ -23,9 +23,9 @@ Additionally, here is a list of all create commands Zilch Engine provides:
 - [CreatePyramid](../../../../code_reference/command_reference.md#createpyramid)
 - [CreateSphere](../../../../code_reference/command_reference.md#createsphere)
 - [CreateSplineParticleSystem](../../../../code_reference/command_reference.md#createsplineparticlesyst)
-- [ CreateSprite](../../../../code_reference/command_reference.md#createsprite)
+- [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
 - [CreateSpriteParticles](../../../../code_reference/command_reference.md#createspriteparticles)
-- [ CreateSpriteText](../../../../code_reference/command_reference.md#createspritetext)
+- [CreateSpriteText](../../../../code_reference/command_reference.md#createspritetext)
 - [CreateTeeter](../../../../code_reference/command_reference.md#createteeter)
 - [CreateTower](../../../../code_reference/command_reference.md#createtower)
 - [CreateTransform](../../../../code_reference/command_reference.md#createtransform)

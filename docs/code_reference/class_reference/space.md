@@ -4,24 +4,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddObjectsFromLevel](space.md#addobjectsfromlevel-zero)|[ AllObjects](space.md#allobjects-zilch-engine-d)|[cog](cog.md)| |
-|[ Create](space.md#create-zilch-engine-docum)|[ AllRootObjects](space.md#allrootobjects-zilch-engi)| | |
-|[ CreateAtPosition](space.md#createatposition-zilch-en)|[ CurrentLevel](space.md#currentlevel-zilch-engine)| | |
-|[ CreateLink](space.md#createlink-zilch-engine-d)|[ IsEditorMode](space.md#iseditormode-zilch-engine)| | |
-|[ DestroyAll](space.md#destroyall-void)|[ ObjectCount](space.md#objectcount-zilch-engine)| | |
-|[ DestroyAllFromLevel](space.md#destroyallfromlevel-void)| | | |
-|[ FindAllObjectsByName](space.md#findallobjectsbyname-zer)| | | |
-|[ FindFirstObjectByName](space.md#findfirstobjectbyname-ze)| | | |
-|[ FindFirstRootObjectByName](space.md#findfirstrootobjectbynam)| | | |
-|[ FindLastObjectByName](space.md#findlastobjectbyname-zer)| | | |
-|[ FindLastRootObjectByName](space.md#findlastrootobjectbyname)| | | |
-|[ FindObjectByName](space.md#findobjectbyname-zilch-en)| | | |
-|[ GetModified](space.md#getmodified-zilch-engine)| | | |
-|[ LoadLevel](space.md#loadlevel-void)| | | |
-|[ MarkModified](space.md#markmodified-void)| | | |
-|[ MarkNotModified](space.md#marknotmodified-void)| | | |
-|[ ReloadLevel](space.md#reloadlevel-void)| | | |
-|[ Constructor](space.md#space-void)| | | |
+|[AddObjectsFromLevel](space.md#addobjectsfromlevel-zero)|[AllObjects](space.md#allobjects-zilch-engine-d)|[cog](cog.md)| |
+|[Create](space.md#create-zilch-engine-docum)|[AllRootObjects](space.md#allrootobjects-zilch-engi)| | |
+|[CreateAtPosition](space.md#createatposition-zilch-en)|[CurrentLevel](space.md#currentlevel-zilch-engine)| | |
+|[CreateLink](space.md#createlink-zilch-engine-d)|[IsEditorMode](space.md#iseditormode-zilch-engine)| | |
+|[DestroyAll](space.md#destroyall-void)|[ObjectCount](space.md#objectcount-zilch-engine)| | |
+|[DestroyAllFromLevel](space.md#destroyallfromlevel-void)| | | |
+|[FindAllObjectsByName](space.md#findallobjectsbyname-zer)| | | |
+|[FindFirstObjectByName](space.md#findfirstobjectbyname-ze)| | | |
+|[FindFirstRootObjectByName](space.md#findfirstrootobjectbynam)| | | |
+|[FindLastObjectByName](space.md#findlastobjectbyname-zer)| | | |
+|[FindLastRootObjectByName](space.md#findlastrootobjectbyname)| | | |
+|[FindObjectByName](space.md#findobjectbyname-zilch-en)| | | |
+|[GetModified](space.md#getmodified-zilch-engine)| | | |
+|[LoadLevel](space.md#loadlevel-void)| | | |
+|[MarkModified](space.md#markmodified-void)| | | |
+|[MarkNotModified](space.md#marknotmodified-void)| | | |
+|[ReloadLevel](space.md#reloadlevel-void)| | | |
+|[Constructor](space.md#space-void)| | | |
 
 
  #  Properties

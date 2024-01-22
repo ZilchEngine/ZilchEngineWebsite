@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Step](timespace.md#step-void)|[ Dt](timespace.md#dt-zilch-engine-documenta)|[component](component.md)| |
-|[ Constructor](timespace.md#timespace-void)|[ DtOrZero](timespace.md#dtorzilch-zilch-engine-doc)| | |
-|[ TogglePause](timespace.md#togglepause-void)|[ Frame](timespace.md#frame-zilch-engine-docume)| | |
-| |[ GloballyPaused](timespace.md#globallypaused-zilch-engi)| | |
-| |[ MaxDt](timespace.md#maxdt-zilch-engine-docume)| | |
-| |[ MinDt](timespace.md#mindt-zilch-engine-docume)| | |
-| |[ Paused](timespace.md#paused-zilch-engine-docum)| | |
-| |[ RealDt](timespace.md#realdt-zilch-engine-docum)| | |
-| |[ RealTimePassed](timespace.md#realtimepassed-zilch-engi)| | |
-| |[ StepCount](timespace.md#stepcount-zilch-engine-do)| | |
-| |[ TimeMode](timespace.md#timemode-zilch-engine-doc)| | |
-| |[ TimePassed](timespace.md#timepassed-zilch-engine-d)| | |
-| |[ TimeScale](timespace.md#timescale-zilch-engine-do)| | |
+|[Step](timespace.md#step-void)|[Dt](timespace.md#dt-zilch-engine-documenta)|[component](component.md)| |
+|[Constructor](timespace.md#timespace-void)|[DtOrZero](timespace.md#dtorzilch-zilch-engine-doc)| | |
+|[TogglePause](timespace.md#togglepause-void)|[Frame](timespace.md#frame-zilch-engine-docume)| | |
+| |[GloballyPaused](timespace.md#globallypaused-zilch-engi)| | |
+| |[MaxDt](timespace.md#maxdt-zilch-engine-docume)| | |
+| |[MinDt](timespace.md#mindt-zilch-engine-docume)| | |
+| |[Paused](timespace.md#paused-zilch-engine-docum)| | |
+| |[RealDt](timespace.md#realdt-zilch-engine-docum)| | |
+| |[RealTimePassed](timespace.md#realtimepassed-zilch-engi)| | |
+| |[StepCount](timespace.md#stepcount-zilch-engine-do)| | |
+| |[TimeMode](timespace.md#timemode-zilch-engine-doc)| | |
+| |[TimePassed](timespace.md#timepassed-zilch-engine-d)| | |
+| |[TimeScale](timespace.md#timescale-zilch-engine-do)| | |
 
 
  #  Properties

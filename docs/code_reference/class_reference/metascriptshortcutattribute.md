@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Alt](metascriptshortcutattribute.md#alt-zilch-engine-document)|[metaattribute](metaattribute.md)| |
-| |[ Ctrl](metascriptshortcutattribute.md#ctrl-zilch-engine-documen)| | |
-| |[ Key](metascriptshortcutattribute.md#key-zilch-engine-document)| | |
-| |[ Shift](metascriptshortcutattribute.md#shift-zilch-engine-docume)| | |
+| |[Alt](metascriptshortcutattribute.md#alt-zilch-engine-document)|[metaattribute](metaattribute.md)| |
+| |[Ctrl](metascriptshortcutattribute.md#ctrl-zilch-engine-documen)| | |
+| |[Key](metascriptshortcutattribute.md#key-zilch-engine-document)| | |
+| |[Shift](metascriptshortcutattribute.md#shift-zilch-engine-docume)| | |
 
 
  #  Properties

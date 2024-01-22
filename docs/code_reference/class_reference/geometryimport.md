@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](geometryimport.md#geometryimport-void)|[ ChangeBasis](geometryimport.md#changebasis-zilch-engine)|[contentcomponent](contentcomponent.md)| |
-| |[ CollapsePivots](geometryimport.md#collapsepivots-zilch-engi)| | |
-| |[ OriginOffset](geometryimport.md#originoffset-zilch-engine)| | |
-| |[ ScaleFactor](geometryimport.md#scalefactor-zilch-engine)| | |
-| |[ XBasisTo](geometryimport.md#xbasisto-zilch-engine-doc)| | |
-| |[ YBasisTo](geometryimport.md#ybasisto-zilch-engine-doc)| | |
-| |[ ZBasisTo](geometryimport.md#zbasisto-zilch-engine-doc)| | |
+|[Constructor](geometryimport.md#geometryimport-void)|[ChangeBasis](geometryimport.md#changebasis-zilch-engine)|[contentcomponent](contentcomponent.md)| |
+| |[CollapsePivots](geometryimport.md#collapsepivots-zilch-engi)| | |
+| |[OriginOffset](geometryimport.md#originoffset-zilch-engine)| | |
+| |[ScaleFactor](geometryimport.md#scalefactor-zilch-engine)| | |
+| |[XBasisTo](geometryimport.md#xbasisto-zilch-engine-doc)| | |
+| |[YBasisTo](geometryimport.md#ybasisto-zilch-engine-doc)| | |
+| |[ZBasisTo](geometryimport.md#zbasisto-zilch-engine-doc)| | |
 
 
  #  Properties

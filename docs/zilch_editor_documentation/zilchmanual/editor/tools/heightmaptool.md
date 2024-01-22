@@ -18,7 +18,7 @@ To make a new HeightMap object, simply click anywhere on the text that has appea
 Now that there is a HeightMap object, the user may start adding patches to it by using the CreateDestroy sub-tool found in CreateTool drop-down menu within HeightMapTool. Patches are the segments of the HeightMap that can be altered through the HeightMapTool.
 
  ## CreateDestroy
-The CreateDestroy sub-tool is used to create and destroy patches that make up the height map. The size of the patch is created is dictated by the UnitsPerPatch  property of the HeightMap object. See the [[ for more information on this important property.
+The CreateDestroy sub-tool is used to create and destroy patches that make up the height map. The size of the patch is created is dictated by the UnitsPerPatch  property of the HeightMap object. See the [[for more information on this important property.
 
 There are four properties in the CreateDestroyTool window that define certain parameters of the patches created:
 

@@ -14,7 +14,7 @@ If you project is a very large stand alone, executable may not be the right opti
  - Open your project
  - Run the [Command](editorcommands.md) : [ExportContent](../../../code_reference/command_reference.md#exportcontent)
  - A folder will be opened will all the files that need to be in the installer
- - The [Inno-Setup ](http://www.jrsoftware.org/isdl.php ) file will generate an installer
+ - The [Inno-Setup](http://www.jrsoftware.org/isdl.php ) file will generate an installer
    ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47333.png)
  
 

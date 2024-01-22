@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](capsulecollider.md#capsulecollider-void)|[ Direction](capsulecollider.md#direction-zilch-engine-do)|[collider](collider.md)| |
-| |[ Height](capsulecollider.md#height-zilch-engine-docum)| | |
-| |[ Radius](capsulecollider.md#radius-zilch-engine-docum)| | |
-| |[ ScalingMode](capsulecollider.md#scalingmode-zilch-engine)| | |
-| |[ WorldCylinderHeight](capsulecollider.md#worldcylinderheight-zero)| | |
-| |[ WorldRadius](capsulecollider.md#worldradius-zilch-engine)| | |
+|[Constructor](capsulecollider.md#capsulecollider-void)|[Direction](capsulecollider.md#direction-zilch-engine-do)|[collider](collider.md)| |
+| |[Height](capsulecollider.md#height-zilch-engine-docum)| | |
+| |[Radius](capsulecollider.md#radius-zilch-engine-docum)| | |
+| |[ScalingMode](capsulecollider.md#scalingmode-zilch-engine)| | |
+| |[WorldCylinderHeight](capsulecollider.md#worldcylinderheight-zero)| | |
+| |[WorldRadius](capsulecollider.md#worldradius-zilch-engine)| | |
 
 
  #  Properties

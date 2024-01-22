@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugarc.md#debugarc-void)|[ Color](debugarc.md#color-zilch-engine-docume)| | |
-| |[ End](debugarc.md#end-zilch-engine-document)| | |
-| |[ Mid](debugarc.md#mid-zilch-engine-document)| | |
-| |[ OnTop](debugarc.md#ontop-zilch-engine-docume)| | |
-| |[ Start](debugarc.md#start-zilch-engine-docume)| | |
-| |[ ViewAligned](debugarc.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugarc.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugarc.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugarc.md#debugarc-void)|[Color](debugarc.md#color-zilch-engine-docume)| | |
+| |[End](debugarc.md#end-zilch-engine-document)| | |
+| |[Mid](debugarc.md#mid-zilch-engine-document)| | |
+| |[OnTop](debugarc.md#ontop-zilch-engine-docume)| | |
+| |[Start](debugarc.md#start-zilch-engine-docume)| | |
+| |[ViewAligned](debugarc.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugarc.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugarc.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

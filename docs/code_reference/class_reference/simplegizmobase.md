@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](simplegizmobase.md#simplegizmobase-void)|[ Color](simplegizmobase.md#color-zilch-engine-docume)|[component](component.md)|[arrowgizmo](arrowgizmo.md)|
-| |[ DrawOnTop](simplegizmobase.md#drawontop-zilch-engine-do)| |[ringgizmo](ringgizmo.md)|
-| |[ HoverColor](simplegizmobase.md#hovercolor-zilch-engine-d)| |[squaregizmo](squaregizmo.md)|
-| |[ MouseInput](simplegizmobase.md#mouseinput-zilch-engine-d)| | |
-| |[ PickingPriority](simplegizmobase.md#pickingpriority-zilch-eng)| | |
-| |[ UseParentAsViewScaleOrigin](simplegizmobase.md#useparentasviewscaleorig)| | |
-| |[ ViewScaled](simplegizmobase.md#viewscaled-zilch-engine-d)| | |
+|[Constructor](simplegizmobase.md#simplegizmobase-void)|[Color](simplegizmobase.md#color-zilch-engine-docume)|[component](component.md)|[arrowgizmo](arrowgizmo.md)|
+| |[DrawOnTop](simplegizmobase.md#drawontop-zilch-engine-do)| |[ringgizmo](ringgizmo.md)|
+| |[HoverColor](simplegizmobase.md#hovercolor-zilch-engine-d)| |[squaregizmo](squaregizmo.md)|
+| |[MouseInput](simplegizmobase.md#mouseinput-zilch-engine-d)| | |
+| |[PickingPriority](simplegizmobase.md#pickingpriority-zilch-eng)| | |
+| |[UseParentAsViewScaleOrigin](simplegizmobase.md#useparentasviewscaleorig)| | |
+| |[ViewScaled](simplegizmobase.md#viewscaled-zilch-engine-d)| | |
 
 
  #  Properties

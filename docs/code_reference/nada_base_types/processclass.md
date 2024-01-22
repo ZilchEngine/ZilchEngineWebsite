@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Close](processclass.md#close-void)|[ StandardError](processclass.md#standarderror-zilch-engin)| | |
-|[ IsRunning](processclass.md#isrunning-zilch-engine-do)|[ StandardInput](processclass.md#standardinput-zilch-engin)| | |
-|[ Constructor](processclass.md#processclass-void)|[ StandardOutput](processclass.md#standardoutput-zilch-engi)| | |
-|[ Start](processclass.md#start-void)| | | |
-|[ Terminate](processclass.md#terminate-void)| | | |
-|[ WaitForClose](processclass.md#waitforclose-zilch-engine)| | | |
+|[Close](processclass.md#close-void)|[StandardError](processclass.md#standarderror-zilch-engin)| | |
+|[IsRunning](processclass.md#isrunning-zilch-engine-do)|[StandardInput](processclass.md#standardinput-zilch-engin)| | |
+|[Constructor](processclass.md#processclass-void)|[StandardOutput](processclass.md#standardoutput-zilch-engi)| | |
+|[Start](processclass.md#start-void)| | | |
+|[Terminate](processclass.md#terminate-void)| | | |
+|[WaitForClose](processclass.md#waitforclose-zilch-engine)| | | |
 
 
  #  Properties

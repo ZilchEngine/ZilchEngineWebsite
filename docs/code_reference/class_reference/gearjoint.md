@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](gearjoint.md#gearjoint-void)|[ Constant](gearjoint.md#constant-zilch-engine-doc)|[joint](joint.md)| |
-| |[ JointA](gearjoint.md#jointa-zilch-engine-docum)| | |
-| |[ JointAPath](gearjoint.md#jointapath-zilch-engine-d)| | |
-| |[ JointB](gearjoint.md#jointb-zilch-engine-docum)| | |
-| |[ JointBPath](gearjoint.md#jointbpath-zilch-engine-d)| | |
-| |[ Ratio](gearjoint.md#ratio-zilch-engine-docume)| | |
+|[Constructor](gearjoint.md#gearjoint-void)|[Constant](gearjoint.md#constant-zilch-engine-doc)|[joint](joint.md)| |
+| |[JointA](gearjoint.md#jointa-zilch-engine-docum)| | |
+| |[JointAPath](gearjoint.md#jointapath-zilch-engine-d)| | |
+| |[JointB](gearjoint.md#jointb-zilch-engine-docum)| | |
+| |[JointBPath](gearjoint.md#jointbpath-zilch-engine-d)| | |
+| |[Ratio](gearjoint.md#ratio-zilch-engine-docume)| | |
 
 
  #  Properties

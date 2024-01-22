@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](soundlistener.md#soundlistener-void)|[ Active](soundlistener.md#active-zilch-engine-docum)|[component](component.md)| |
-| |[ AttenuationScale](soundlistener.md#attenuationscale-zilch-en)| | |
-| |[ SoundNode](soundlistener.md#soundnode-zilch-engine-do)| | |
+|[Constructor](soundlistener.md#soundlistener-void)|[Active](soundlistener.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[AttenuationScale](soundlistener.md#attenuationscale-zilch-en)| | |
+| |[SoundNode](soundlistener.md#soundnode-zilch-engine-do)| | |
 
 
  #  Properties

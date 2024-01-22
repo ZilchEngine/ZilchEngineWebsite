@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NewParticleCount](particleevent.md#newparticlecount-zilch-en)|[event](event.md)| |
-| |[ NewParticles](particleevent.md#newparticles-zilch-engine)| | |
+| |[NewParticleCount](particleevent.md#newparticlecount-zilch-en)|[event](event.md)| |
+| |[NewParticles](particleevent.md#newparticles-zilch-engine)| | |
 
 
  #  Properties

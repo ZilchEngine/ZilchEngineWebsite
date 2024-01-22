@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objectlink.md#objectlink-void)|[ LocalPointA](objectlink.md#localpointa-zilch-engine)|[component](component.md)| |
-| |[ LocalPointB](objectlink.md#localpointb-zilch-engine)| | |
-| |[ ObjectA](objectlink.md#objecta-zilch-engine-docu)| | |
-| |[ ObjectAPath](objectlink.md#objectapath-zilch-engine)| | |
-| |[ ObjectB](objectlink.md#objectb-zilch-engine-docu)| | |
-| |[ ObjectBPath](objectlink.md#objectbpath-zilch-engine)| | |
-| |[ WorldPointA](objectlink.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](objectlink.md#worldpointb-zilch-engine)| | |
+|[Constructor](objectlink.md#objectlink-void)|[LocalPointA](objectlink.md#localpointa-zilch-engine)|[component](component.md)| |
+| |[LocalPointB](objectlink.md#localpointb-zilch-engine)| | |
+| |[ObjectA](objectlink.md#objecta-zilch-engine-docu)| | |
+| |[ObjectAPath](objectlink.md#objectapath-zilch-engine)| | |
+| |[ObjectB](objectlink.md#objectb-zilch-engine-docu)| | |
+| |[ObjectBPath](objectlink.md#objectbpath-zilch-engine)| | |
+| |[WorldPointA](objectlink.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](objectlink.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

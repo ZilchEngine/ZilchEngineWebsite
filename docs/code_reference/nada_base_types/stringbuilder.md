@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clear](stringbuilder.md#clear-void)| | | |
-|[ Constructor](stringbuilder.md#stringbuilder-void)| | | |
-|[ ToString](stringbuilder.md#tostring-zilch-engine-doc)| | | |
-|[ Write](stringbuilder.md#write-void)| | | |
-|[ WriteLine](stringbuilder.md#writeline-void)| | | |
+|[Clear](stringbuilder.md#clear-void)| | | |
+|[Constructor](stringbuilder.md#stringbuilder-void)| | | |
+|[ToString](stringbuilder.md#tostring-zilch-engine-doc)| | | |
+|[Write](stringbuilder.md#write-void)| | | |
+|[WriteLine](stringbuilder.md#writeline-void)| | | |
 
 
  #  Properties

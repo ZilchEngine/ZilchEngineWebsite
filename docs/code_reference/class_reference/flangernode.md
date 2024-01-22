@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeedbackPercent](flangernode.md#feedbackpercent-zilch-eng)|[soundnode](soundnode.md)| |
-| |[ FeedbackValue](flangernode.md#feedbackvalue-zilch-engin)| | |
-| |[ MaxDelayMillisec](flangernode.md#maxdelaymillisec-zilch-en)| | |
-| |[ ModulationFrequency](flangernode.md#modulationfrequency-zero)| | |
+| |[FeedbackPercent](flangernode.md#feedbackpercent-zilch-eng)|[soundnode](soundnode.md)| |
+| |[FeedbackValue](flangernode.md#feedbackvalue-zilch-engin)| | |
+| |[MaxDelayMillisec](flangernode.md#maxdelaymillisec-zilch-en)| | |
+| |[ModulationFrequency](flangernode.md#modulationfrequency-zero)| | |
 
 
  #  Properties

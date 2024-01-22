@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GizmoRotation](rotategizmoupdateevent.md#gizmorotation-zilch-engin)|[gizmoupdateevent](gizmoupdateevent.md)| |
-| |[ GizmoWorldRotationAxis](rotategizmoupdateevent.md#gizmoworldrotationaxis-z)| | |
+| |[GizmoRotation](rotategizmoupdateevent.md#gizmorotation-zilch-engin)|[gizmoupdateevent](gizmoupdateevent.md)| |
+| |[GizmoWorldRotationAxis](rotategizmoupdateevent.md#gizmoworldrotationaxis-z)| | |
 
 
  #  Properties

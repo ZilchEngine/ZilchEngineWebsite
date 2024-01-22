@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AutoRegister](metaeditorscriptobject.md#autoregister-zilch-engine)|[metaattribute](metaattribute.md)| |
+| |[AutoRegister](metaeditorscriptobject.md#autoregister-zilch-engine)|[metaattribute](metaattribute.md)| |
 
 
  #  Properties

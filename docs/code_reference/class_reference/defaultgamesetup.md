@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](defaultgamesetup.md#defaultgamesetup-void)|[ LoadEditingLevel](defaultgamesetup.md#loadeditinglevel-zilch-en)|[component](component.md)| |
-| |[ StartingLevel](defaultgamesetup.md#startinglevel-zilch-engin)| | |
-| |[ StartingSpace](defaultgamesetup.md#startingspace-zilch-engin)| | |
+|[Constructor](defaultgamesetup.md#defaultgamesetup-void)|[LoadEditingLevel](defaultgamesetup.md#loadeditinglevel-zilch-en)|[component](component.md)| |
+| |[StartingLevel](defaultgamesetup.md#startinglevel-zilch-engin)| | |
+| |[StartingSpace](defaultgamesetup.md#startingspace-zilch-engin)| | |
 
 
  #  Properties

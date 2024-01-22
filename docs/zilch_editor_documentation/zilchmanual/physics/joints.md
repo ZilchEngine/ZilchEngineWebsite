@@ -1,4 +1,4 @@
-[ Joints](../../../code_reference/class_reference/joint.md) are a representation of a physics concept known as [constraints](https://en.wikipedia.org/wiki/Constraint_(mathematics) ). A constraint is a mathematical rule that defines (or constrains) how objects are allowed to move. A Joint is a collection of one or more constraints that define a more common interaction. In Zilch, a Joint is typically an independent object that connects two [ObjectLink](../../../code_reference/class_reference/objectlink.md).
+[Joints](../../../code_reference/class_reference/joint.md) are a representation of a physics concept known as [constraints](https://en.wikipedia.org/wiki/Constraint_(mathematics) ). A constraint is a mathematical rule that defines (or constrains) how objects are allowed to move. A Joint is a collection of one or more constraints that define a more common interaction. In Zilch, a Joint is typically an independent object that connects two [ObjectLink](../../../code_reference/class_reference/objectlink.md).
 
  #  Shared Properties
 Before looking at individual joints, there's a few useful shared properties:

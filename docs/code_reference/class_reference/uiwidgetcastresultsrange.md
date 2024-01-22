@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Empty](uiwidgetcastresultsrange.md#empty-zilch-engine-docume)| | | |
-|[ Front](uiwidgetcastresultsrange.md#front-zilch-engine-docume)| | | |
-|[ PopFront](uiwidgetcastresultsrange.md#popfront-void)| | | |
-|[ Size](uiwidgetcastresultsrange.md#size-zilch-engine-documen)| | | |
+|[Empty](uiwidgetcastresultsrange.md#empty-zilch-engine-docume)| | | |
+|[Front](uiwidgetcastresultsrange.md#front-zilch-engine-docume)| | | |
+|[PopFront](uiwidgetcastresultsrange.md#popfront-void)| | | |
+|[Size](uiwidgetcastresultsrange.md#size-zilch-engine-documen)| | | |
 
 
  #  Properties

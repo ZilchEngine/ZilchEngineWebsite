@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](fixedanglejoint.md#fixedanglejoint-void)|[ LocalBasisA](fixedanglejoint.md#localbasisa-zilch-engine)|[joint](joint.md)| |
-| |[ LocalBasisB](fixedanglejoint.md#localbasisb-zilch-engine)| | |
+|[Constructor](fixedanglejoint.md#fixedanglejoint-void)|[LocalBasisA](fixedanglejoint.md#localbasisa-zilch-engine)|[joint](joint.md)| |
+| |[LocalBasisB](fixedanglejoint.md#localbasisb-zilch-engine)| | |
 
 
  #  Properties

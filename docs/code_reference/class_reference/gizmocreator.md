@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](gizmocreator.md#gizmocreator-void)|[ GizmoArchetype](gizmocreator.md#gizmoarchetype-zilch-engi)|[component](component.md)| |
+|[Constructor](gizmocreator.md#gizmocreator-void)|[GizmoArchetype](gizmocreator.md#gizmoarchetype-zilch-engi)|[component](component.md)| |
 
 
  #  Properties

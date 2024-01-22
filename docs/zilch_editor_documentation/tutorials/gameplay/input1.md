@@ -6,10 +6,10 @@ This lesson covers how to handle basic keyboard input in Zilch Engine.
 - Checking for keyboard input
 
  # Level Setup
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../zilchmanual/editor/editorcommands/createobject.md)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../zilchmanual/editor/editorcommands/createobject.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `CharacterLogic`
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
@@ -39,7 +39,7 @@ class CharacterLogic : NadaComponent
   }
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Press key `Space`
 
 
@@ -47,7 +47,7 @@ class CharacterLogic : NadaComponent
 ![SimpleInput](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89953.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Let's take a closer look inside our if statement:
 
@@ -69,7 +69,7 @@ Here are all Keyboard functions:
 | [KeyIsReleased](../../../code_reference/class_reference/keyboard.md#keyisreleased-zilch-engin) | Checks whether a given key was released this frame |
 
 (NOTE) **Enumerations** - 
-An enumeration (or enum) is a data type that groups items assigning each a unique name under the enumerated list. Items can be referenced by accessing the type followed by a `.` and the name of the desired item (i.e. [Keys.Space](../../../code_reference/enum_reference.md#keys) or Colors.Red). You can read more on enumerations [ here ](../../zilchmanual/nada_in_zilch/enums.md).
+An enumeration (or enum) is a data type that groups items assigning each a unique name under the enumerated list. Items can be referenced by accessing the type followed by a `.` and the name of the desired item (i.e. [Keys.Space](../../../code_reference/enum_reference.md#keys) or Colors.Red). You can read more on enumerations [here](../../zilchmanual/nada_in_zilch/enums.md).
 
  # Dynamic Character Controller
 
@@ -86,7 +86,7 @@ Let's use what we just learned to create a character controller for a simple pla
 
  ## Ground Setup
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../zilchmanual/editor/editorcommands/createobject.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../zilchmanual/editor/editorcommands/createobject.md)
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Ground`
@@ -123,7 +123,7 @@ function OnLogicUpdate(event : UpdateEvent)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Press key `Left` and `Right`
 
 
@@ -131,7 +131,7 @@ function OnLogicUpdate(event : UpdateEvent)
 ![CharacterMovement](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89976.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
@@ -140,7 +140,7 @@ function OnLogicUpdate(event : UpdateEvent)
 - [RigidBody](../../zilchmanual/physics/rigidbody.md)
 - [Colliders](../../zilchmanual/physics/colliders.md)
 - [KeyboardInput](../../zilchmanual/gameplay/input/keyboardinput.md)
-- [ Enumerations ](../../zilchmanual/nada_in_zilch/enums.md)
+- [Enumerations](../../zilchmanual/nada_in_zilch/enums.md)
 - [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
 - [CreateSprite](../../zilchmanual/editor/editorcommands/createobject.md)
 - [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
@@ -160,7 +160,7 @@ function OnLogicUpdate(event : UpdateEvent)
 
  ### Commands
 
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame) 
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame) 
 
  

@@ -2,20 +2,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddTrailingDirectorySeparator](filepath.md#addtrailingdirectorysepa)|[ DirectorySeparator](filepath.md#directoryseparator-zero)| | |
-|[ ChangeExtension](filepath.md#changeextension-zilch-eng)|[ ExecutableDirectory](filepath.md#executabledirectory-zero)| | |
-|[ CombineDirectories](filepath.md#combinedirectories-zero)|[ ExecutableFile](filepath.md#executablefile-zilch-engi)| | |
-|[ CombineDirectoriesAndFile](filepath.md#combinedirectoriesandfil)|[ TemporaryDirectory](filepath.md#temporarydirectory-zero)| | |
-|[ GetCanonicalizedPathFromAbsolutePath](filepath.md#getcanonicalizedpathfrom)|[ UserDocumentsDirectory](filepath.md#userdocumentsdirectory-z)| | |
-|[ GetComparablePathFromAbsolutePath](filepath.md#getcomparablepathfromabs)|[ UserLocalDirectory](filepath.md#userlocaldirectory-zero)| | |
-|[ GetDirectoryName](filepath.md#getdirectoryname-zilch-en)|[ WorkingDirectory](filepath.md#workingdirectory-zilch-en)| | |
-|[ GetDirectoryPath](filepath.md#getdirectorypath-zilch-en)| | | |
-|[ GetExtensionWithDot](filepath.md#getextensionwithdot-zero)| | | |
-|[ GetExtensionWithoutDot](filepath.md#getextensionwithoutdot-z)| | | |
-|[ GetFileNameWithExtension](filepath.md#getfilenamewithextension)| | | |
-|[ GetFileNameWithoutExtension](filepath.md#getfilenamewithoutextens)| | | |
-|[ IsRelative](filepath.md#isrelative-zilch-engine-d)| | | |
-|[ RemoveTrailingDirectorySeparator](filepath.md#removetrailingdirectorys)| | | |
+|[AddTrailingDirectorySeparator](filepath.md#addtrailingdirectorysepa)|[DirectorySeparator](filepath.md#directoryseparator-zero)| | |
+|[ChangeExtension](filepath.md#changeextension-zilch-eng)|[ExecutableDirectory](filepath.md#executabledirectory-zero)| | |
+|[CombineDirectories](filepath.md#combinedirectories-zero)|[ExecutableFile](filepath.md#executablefile-zilch-engi)| | |
+|[CombineDirectoriesAndFile](filepath.md#combinedirectoriesandfil)|[TemporaryDirectory](filepath.md#temporarydirectory-zero)| | |
+|[GetCanonicalizedPathFromAbsolutePath](filepath.md#getcanonicalizedpathfrom)|[UserDocumentsDirectory](filepath.md#userdocumentsdirectory-z)| | |
+|[GetComparablePathFromAbsolutePath](filepath.md#getcomparablepathfromabs)|[UserLocalDirectory](filepath.md#userlocaldirectory-zero)| | |
+|[GetDirectoryName](filepath.md#getdirectoryname-zilch-en)|[WorkingDirectory](filepath.md#workingdirectory-zilch-en)| | |
+|[GetDirectoryPath](filepath.md#getdirectorypath-zilch-en)| | | |
+|[GetExtensionWithDot](filepath.md#getextensionwithdot-zero)| | | |
+|[GetExtensionWithoutDot](filepath.md#getextensionwithoutdot-z)| | | |
+|[GetFileNameWithExtension](filepath.md#getfilenamewithextension)| | | |
+|[GetFileNameWithoutExtension](filepath.md#getfilenamewithoutextens)| | | |
+|[IsRelative](filepath.md#isrelative-zilch-engine-d)| | | |
+|[RemoveTrailingDirectorySeparator](filepath.md#removetrailingdirectorys)| | | |
 
 
  #  Properties

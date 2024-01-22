@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](stickjointblock.md#stickjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](stickjointblock.md#stickjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

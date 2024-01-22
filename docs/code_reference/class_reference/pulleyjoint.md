@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](pulleyjoint.md#pulleyjoint-void)|[ JointA](pulleyjoint.md#jointa-zilch-engine-docum)|[joint](joint.md)| |
-| |[ JointAPath](pulleyjoint.md#jointapath-zilch-engine-d)| | |
-| |[ JointB](pulleyjoint.md#jointb-zilch-engine-docum)| | |
-| |[ JointBPath](pulleyjoint.md#jointbpath-zilch-engine-d)| | |
-| |[ Ratio](pulleyjoint.md#ratio-zilch-engine-docume)| | |
+|[Constructor](pulleyjoint.md#pulleyjoint-void)|[JointA](pulleyjoint.md#jointa-zilch-engine-docum)|[joint](joint.md)| |
+| |[JointAPath](pulleyjoint.md#jointapath-zilch-engine-d)| | |
+| |[JointB](pulleyjoint.md#jointb-zilch-engine-docum)| | |
+| |[JointBPath](pulleyjoint.md#jointbpath-zilch-engine-d)| | |
+| |[Ratio](pulleyjoint.md#ratio-zilch-engine-docume)| | |
 
 
  #  Properties

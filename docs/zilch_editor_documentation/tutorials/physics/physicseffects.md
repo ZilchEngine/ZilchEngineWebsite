@@ -7,18 +7,18 @@ This lesson focuses on teaching the basics of physics effects and components.
 - Basic uses of `name=LevelSettings, icon=cog`
 
  # Level Setup
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![FallingSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46396.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # GravityEffect
 
@@ -52,7 +52,7 @@ Let's take a look at the LevelSettings object in our level:
 - In the `Properties window`
  - Under [GravityEffect](../../../code_reference/class_reference/gravityeffect.md)
   - Set Active checkBox to `false`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -61,7 +61,7 @@ Let's take a look at the LevelSettings object in our level:
 
 Notice that the Sprite object isn't being affected by gravity anymore. That's because components that produce physics effects, when attached to the LevelSettings object object, will apply that effect to all objects within the Space.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Let's try and move the Sprite object in other ways:
 
@@ -69,7 +69,7 @@ Let's try and move the Sprite object in other ways:
 - In the `Properties Window`
  - Under [RigidBody](../../../code_reference/class_reference/rigidbody.md)
   - Set Velocity  to `[3.0, 0.0, 0.0]`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -78,7 +78,7 @@ Let's try and move the Sprite object in other ways:
 
 The Sprite object appears to be moving in the desired direction and still isn't affected by gravity but it slowed down and stopped. But according to Newton's first law of motion; an object retains its movement at a constant velocity unless acted upon by an external force. So what external force caused our object to stop?
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # DragEffect 
 
@@ -96,7 +96,7 @@ Let's take a look again at the LevelSettings object:
 | LinearDamping    | The amount of damping applied to the object's velocity |
 | AngularDamping    | The amount of damping applied to the object's angular velocity |
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -105,7 +105,7 @@ Let's take a look again at the LevelSettings object:
 
 The [DragEffect](../../../code_reference/class_reference/drageffect.md)  exists to simulate air resistance and other forces that would prevent your object from moving indefinitely.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Adding Physics Effects to Objects
 
@@ -114,7 +114,7 @@ These effects can also be applied to individual objects, let's take a look:
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [GravityEffect](../../../code_reference/class_reference/gravityeffect.md)
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [DragEffect](../../../code_reference/class_reference/drageffect.md)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -124,7 +124,7 @@ These effects can also be applied to individual objects, let's take a look:
 
 Now we get the same result we had initially, but we could tweak individual gravity and drag effects per object.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 WARNING: GravityEffect (and some other PhysicsEffects) have the LocalSpaceDirection checkBox property set to true by default. This means that, as the object rotates, the "down direction" will be constantly changing. Set LocalSpaceDirection checkBox to false to avoid this behavior.
 
@@ -166,8 +166,8 @@ NOTE: Experiment by adding the [ForceEffect](../../../code_reference/class_refer
 
  ## Manual
 - [Physics Effects & Regions](../../zilchmanual/physics/physicseffectsandregions.md)
-- [ Colliders ](../../zilchmanual/physics/colliders.md)
-- [ RigidBody ](../../zilchmanual/physics/rigidbody.md)
+- [Colliders](../../zilchmanual/physics/colliders.md)
+- [RigidBody](../../zilchmanual/physics/rigidbody.md)
 
  ## Code Reference
  ### Classes
@@ -183,9 +183,9 @@ NOTE: Experiment by adding the [ForceEffect](../../../code_reference/class_refer
 
  ### Commands
 - [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [CreateSprite](../../../code_reference/command_reference.md#createsprite) 
 
  

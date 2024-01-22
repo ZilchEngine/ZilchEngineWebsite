@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](uprightjointblock.md#uprightjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](uprightjointblock.md#uprightjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Buffer](receiveddataevent.md#buffer-zilch-engine-docum)|[connectionevent](connectionevent.md)| |
+| |[Buffer](receiveddataevent.md#buffer-zilch-engine-docum)|[connectionevent](connectionevent.md)| |
 
 
  #  Properties

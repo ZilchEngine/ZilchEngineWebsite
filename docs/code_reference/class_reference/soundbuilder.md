@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FileLoadType](soundbuilder.md#fileloadtype-zilch-engine)|[buildercomponent](buildercomponent.md)| |
-| |[ MaxVolume](soundbuilder.md#maxvolume-zilch-engine-do)| | |
-| |[ Name](soundbuilder.md#name-zilch-engine-documen)| | |
-| |[ Normalize](soundbuilder.md#normalize-zilch-engine-do)| | |
+| |[FileLoadType](soundbuilder.md#fileloadtype-zilch-engine)|[buildercomponent](buildercomponent.md)| |
+| |[MaxVolume](soundbuilder.md#maxvolume-zilch-engine-do)| | |
+| |[Name](soundbuilder.md#name-zilch-engine-documen)| | |
+| |[Normalize](soundbuilder.md#normalize-zilch-engine-do)| | |
 
 
  #  Properties

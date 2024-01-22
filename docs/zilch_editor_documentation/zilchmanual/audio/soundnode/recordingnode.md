@@ -1,4 +1,4 @@
-The [ RecordingNode ](../../../../code_reference/class_reference/recordingnode.md) collects audio data from its inputs and writes that data to a file. The audio data is then passed along to its outputs with no changes. 
+The [RecordingNode](../../../../code_reference/class_reference/recordingnode.md) collects audio data from its inputs and writes that data to a file. The audio data is then passed along to its outputs with no changes. 
 
  # Common Uses
 
@@ -22,6 +22,6 @@ this.MyRecorder.FileName = FilePath.CombineDirectoriesAndFile(FilePath.UserDocum
 - [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ RecordingNode ](../../../../code_reference/class_reference/recordingnode.md) 
+- [RecordingNode](../../../../code_reference/class_reference/recordingnode.md) 
 
  

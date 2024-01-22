@@ -1,4 +1,4 @@
-The [ ExpanderNode ](../../../../code_reference/class_reference/expandernode.md) collects audio data from all of its inputs and applies an expander filter before passing the data along to its outputs. 
+The [ExpanderNode](../../../../code_reference/class_reference/expandernode.md) collects audio data from all of its inputs and applies an expander filter before passing the data along to its outputs. 
 
  # Common Uses
 
@@ -22,6 +22,6 @@ The `AttackMillisec` and `ReleaseMillisec` properties control how quickly the fi
 - [compressornode](compressornode.md)
 
  ## Code Reference
-- [ ExpanderNode ](../../../../code_reference/class_reference/expandernode.md) 
+- [ExpanderNode](../../../../code_reference/class_reference/expandernode.md) 
 
  

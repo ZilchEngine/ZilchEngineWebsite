@@ -1,8 +1,8 @@
-[ AdditiveSynthNodes ](../../../../code_reference/class_reference/additivesynthnode.md) are basic synthesizers, generating notes using a combination of sound waves.
+[AdditiveSynthNodes](../../../../code_reference/class_reference/additivesynthnode.md) are basic synthesizers, generating notes using a combination of sound waves.
 
  ## Common Uses
 
-- A custom synthesizer using [MIDI ](midi.md) events sent by a keyboard or other device
+- A custom synthesizer using [MIDI](midi.md) events sent by a keyboard or other device
 - Creating music or sound effects with no audio files
 - Dynamic or procedural music 
 
@@ -10,7 +10,7 @@
 
 The AdditiveSynthNode generates audio at specified pitches using additive synthesis, where multiple sound waves at different frequencies are added together to make one sound. Each of these separate waves is called a harmonic. All harmonics have their own volume envelope which controls how quickly the sine wave goes from silence to full volume and back to silence: varying the envelopes for different harmonics will affect how the generated sound changes over time. 
 
-Online tools such as this [waveform generator ](http://meettechniek.info/additional/additive-synthesis.html ) are useful for experimenting with different sounds, though the envelope values and types of sound waves will have a large effect. (This particular tool uses harmonics which are integer multiples of the base frequency, resulting in sounds that always have a distinct pitch.) The code block below showing how to use the `AddHarmonic` method contains a simple example that can be used as a starting point.
+Online tools such as this [waveform generator](http://meettechniek.info/additional/additive-synthesis.html ) are useful for experimenting with different sounds, though the envelope values and types of sound waves will have a large effect. (This particular tool uses harmonics which are integer multiples of the base frequency, resulting in sounds that always have a distinct pitch.) The code block below showing how to use the `AddHarmonic` method contains a simple example that can be used as a starting point.
 
  ## Adding Harmonics
 
@@ -53,13 +53,13 @@ function Initialize(init : CogInitializer)
 
  ## Playing Notes
 
-The `NoteOn` method plays a note at a specific frequency, using MIDI key numbers. The Zilch Engine uses the MIDI convention where middle C is considered to be C3 and has the number `60`. (MIDI key number charts such as [this one ](http://computermusicresource.com/midikeys.html ) can be used to translate between notes at different octaves and their corresponding key numbers.) 
+The `NoteOn` method plays a note at a specific frequency, using MIDI key numbers. The Zilch Engine uses the MIDI convention where middle C is considered to be C3 and has the number `60`. (MIDI key number charts such as [this one](http://computermusicresource.com/midikeys.html ) can be used to translate between notes at different octaves and their corresponding key numbers.) 
 
 The `NoteOff` method stops any currently playing notes with the specified MIDI key number. The notes will jump to their Release phase but the release tail will not be cut off.
 
  ## AdsrEnvelope
 
-An ADSR envelope controls the Attack, Decay, Sustain, and Release portions of a sound's volume. The Attack period is first, where the sound goes from silence to full volume. The Decay period is next, where the sound goes from full volume to its sustain volume. The Sustain period controls how long it stays at the sustain volume, and the Release period is where it goes from the sustain volume back to silence. The [ AdsrEnvelope ](../../../../code_reference/class_reference/adsrenvelope.md) object used by the Zilch Engine also has a parameter for delaying when the sound starts.
+An ADSR envelope controls the Attack, Decay, Sustain, and Release portions of a sound's volume. The Attack period is first, where the sound goes from silence to full volume. The Decay period is next, where the sound goes from full volume to its sustain volume. The Sustain period controls how long it stays at the sustain volume, and the Release period is where it goes from the sustain volume back to silence. The [AdsrEnvelope](../../../../code_reference/class_reference/adsrenvelope.md) object used by the Zilch Engine also has a parameter for delaying when the sound starts.
 
 NOTE: Setting the `SustainTime` property to `0` will make the harmonic play indefinitely until the `NoteOff` method is called.
 
@@ -68,10 +68,10 @@ NOTE: Setting the `SustainTime` property to `0` will make the harmonic play inde
 
  ## Manual
 - [soudnode_overview](soudnode_overview.md)
-- [MIDI ](midi.md)
+- [MIDI](midi.md)
 
  ## Code Reference
-- [ AdditiveSynthNode ](../../../../code_reference/class_reference/additivesynthnode.md)
-- [ AdsrEnvelope ](../../../../code_reference/class_reference/adsrenvelope.md) 
+- [AdditiveSynthNode](../../../../code_reference/class_reference/additivesynthnode.md)
+- [AdsrEnvelope](../../../../code_reference/class_reference/adsrenvelope.md) 
 
  

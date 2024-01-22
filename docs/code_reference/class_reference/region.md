@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchEvent](region.md#dispatchevent-void)|[ WakeUpOnEffectChange](region.md#wakeuponeffectchange-zer)|[component](component.md)| |
-|[ Constructor](region.md#region-void)| | | |
+|[DispatchEvent](region.md#dispatchevent-void)|[WakeUpOnEffectChange](region.md#wakeuponeffectchange-zer)|[component](component.md)| |
+|[Constructor](region.md#region-void)| | | |
 
 
  #  Properties

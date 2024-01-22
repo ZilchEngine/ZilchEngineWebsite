@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Handled](handleableevent.md#handled-zilch-engine-docu)|[event](event.md)|[windowtabevent](windowtabevent.md)|
+| |[Handled](handleableevent.md#handled-zilch-engine-docu)|[event](event.md)|[windowtabevent](windowtabevent.md)|
 
 
  #  Properties

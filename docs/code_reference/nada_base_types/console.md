@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DumpValue](console.md#dumpvalue-void)| | | |
-|[ ReadBoolean](console.md#readboolean-zilch-engine)| | | |
-|[ ReadInteger](console.md#readinteger-zilch-engine)| | | |
-|[ ReadReal](console.md#readreal-zilch-engine-doc)| | | |
-|[ ReadString](console.md#readstring-zilch-engine-d)| | | |
-|[ Write](console.md#write-void)| | | |
-|[ WriteLine](console.md#writeline-void)| | | |
+|[DumpValue](console.md#dumpvalue-void)| | | |
+|[ReadBoolean](console.md#readboolean-zilch-engine)| | | |
+|[ReadInteger](console.md#readinteger-zilch-engine)| | | |
+|[ReadReal](console.md#readreal-zilch-engine-doc)| | | |
+|[ReadString](console.md#readstring-zilch-engine-d)| | | |
+|[Write](console.md#write-void)| | | |
+|[WriteLine](console.md#writeline-void)| | | |
 
 
  #  Properties

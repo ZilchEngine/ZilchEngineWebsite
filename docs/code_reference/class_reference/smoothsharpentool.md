@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AutoDetermineSamples](smoothsharpentool.md#autodeterminesamples-zer)|[heightmanipulationtool](heightmanipulationtool.md)| |
-| |[ RandomSampleDistance](smoothsharpentool.md#randomsampledistance-zer)| | |
-| |[ RandomSamples](smoothsharpentool.md#randomsamples-zilch-engin)| | |
-| |[ Strength](smoothsharpentool.md#strength-zilch-engine-doc)| | |
-| |[ UniformSamples](smoothsharpentool.md#uniformsamples-zilch-engi)| | |
+| |[AutoDetermineSamples](smoothsharpentool.md#autodeterminesamples-zer)|[heightmanipulationtool](heightmanipulationtool.md)| |
+| |[RandomSampleDistance](smoothsharpentool.md#randomsampledistance-zer)| | |
+| |[RandomSamples](smoothsharpentool.md#randomsamples-zilch-engin)| | |
+| |[Strength](smoothsharpentool.md#strength-zilch-engine-doc)| | |
+| |[UniformSamples](smoothsharpentool.md#uniformsamples-zilch-engi)| | |
 
 
  #  Properties

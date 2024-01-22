@@ -2,7 +2,7 @@ Before diving into Zilch Source, it is important to become familiar with Zilch i
 
 For more information specifically about the Nada C++ API, visit:
 
- - [nada.digipen.edu ](http://nada.digipen.edu )
+ - [nada.digipen.edu](http://nada.digipen.edu )
 
 Requirements
 ------------

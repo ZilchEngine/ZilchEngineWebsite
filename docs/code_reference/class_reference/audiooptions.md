@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GenerateCue](audiooptions.md#generatecue-zilch-engine)|Object| |
-| |[ GroupCueName](audiooptions.md#groupcuename-zilch-engine)| | |
-| |[ StreamingMode](audiooptions.md#streamingmode-zilch-engin)| | |
+| |[GenerateCue](audiooptions.md#generatecue-zilch-engine)|Object| |
+| |[GroupCueName](audiooptions.md#groupcuename-zilch-engine)| | |
+| |[StreamingMode](audiooptions.md#streamingmode-zilch-engin)| | |
 
 
  #  Properties

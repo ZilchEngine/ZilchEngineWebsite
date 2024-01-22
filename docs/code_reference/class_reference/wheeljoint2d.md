@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](wheeljoint2d.md#setworldpoints-void)|[ LocalBasisA](wheeljoint2d.md#localbasisa-zilch-engine)|[joint](joint.md)| |
-|[ Constructor](wheeljoint2d.md#wheeljoint2d-void)|[ LocalBasisB](wheeljoint2d.md#localbasisb-zilch-engine)| | |
-| |[ LocalPointA](wheeljoint2d.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](wheeljoint2d.md#localpointb-zilch-engine)| | |
-| |[ ShockAxis](wheeljoint2d.md#shockaxis-zilch-engine-do)| | |
-| |[ WorldPointA](wheeljoint2d.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](wheeljoint2d.md#worldpointb-zilch-engine)| | |
-| |[ WorldShockAxis](wheeljoint2d.md#worldshockaxis-zilch-engi)| | |
+|[SetWorldPoints](wheeljoint2d.md#setworldpoints-void)|[LocalBasisA](wheeljoint2d.md#localbasisa-zilch-engine)|[joint](joint.md)| |
+|[Constructor](wheeljoint2d.md#wheeljoint2d-void)|[LocalBasisB](wheeljoint2d.md#localbasisb-zilch-engine)| | |
+| |[LocalPointA](wheeljoint2d.md#localpointa-zilch-engine)| | |
+| |[LocalPointB](wheeljoint2d.md#localpointb-zilch-engine)| | |
+| |[ShockAxis](wheeljoint2d.md#shockaxis-zilch-engine-do)| | |
+| |[WorldPointA](wheeljoint2d.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](wheeljoint2d.md#worldpointb-zilch-engine)| | |
+| |[WorldShockAxis](wheeljoint2d.md#worldshockaxis-zilch-engi)| | |
 
 
  #  Properties

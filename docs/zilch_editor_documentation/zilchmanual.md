@@ -3,7 +3,7 @@ The Zilch Engine Manual is designed to be a comprehensive reference guide for al
  # [Getting Started](../getting_started.md)
 New to the Zilch or the manual? Get started here. 
 
- # [Editor ](zilchmanual/editor.md)
+ # [Editor](zilchmanual/editor.md)
 How to use the tabs, windows, and commands of the Zilch Editor.
 
  # [Scripting](zilchmanual/scripting.md)

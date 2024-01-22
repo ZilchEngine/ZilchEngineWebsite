@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](gizmodrag.md#gizmodrag-void)|[ AutoDrag](gizmodrag.md#autodrag-zilch-engine-doc)|[component](component.md)| |
-| |[ DragActive](gizmodrag.md#dragactive-zilch-engine-d)| | |
-| |[ DragDistance](gizmodrag.md#dragdistance-zilch-engine)| | |
-| |[ DragMode](gizmodrag.md#dragmode-zilch-engine-doc)| | |
-| |[ GrabMode](gizmodrag.md#grabmode-zilch-engine-doc)| | |
-| |[ GrabPoint](gizmodrag.md#grabpoint-zilch-engine-do)| | |
-| |[ LineDirection](gizmodrag.md#linedirection-zilch-engin)| | |
-| |[ NormalInWorld](gizmodrag.md#normalinworld-zilch-engin)| | |
-| |[ PlaneNormal](gizmodrag.md#planenormal-zilch-engine)| | |
+|[Constructor](gizmodrag.md#gizmodrag-void)|[AutoDrag](gizmodrag.md#autodrag-zilch-engine-doc)|[component](component.md)| |
+| |[DragActive](gizmodrag.md#dragactive-zilch-engine-d)| | |
+| |[DragDistance](gizmodrag.md#dragdistance-zilch-engine)| | |
+| |[DragMode](gizmodrag.md#dragmode-zilch-engine-doc)| | |
+| |[GrabMode](gizmodrag.md#grabmode-zilch-engine-doc)| | |
+| |[GrabPoint](gizmodrag.md#grabpoint-zilch-engine-do)| | |
+| |[LineDirection](gizmodrag.md#linedirection-zilch-engin)| | |
+| |[NormalInWorld](gizmodrag.md#normalinworld-zilch-engin)| | |
+| |[PlaneNormal](gizmodrag.md#planenormal-zilch-engine)| | |
 
 
  #  Properties

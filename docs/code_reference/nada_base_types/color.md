@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ FromBytes](color.md#frombytes-zilch-engine-do)| | | |
-|[ FromHexString](color.md#fromhexstring-zilch-engin)| | | |
-|[ FromHsva](color.md#fromhsva-zilch-engine-doc)| | | |
-|[ FromInteger](color.md#frominteger-zilch-engine)| | | |
-|[ ToBytes](color.md#tobytes-zilch-engine-docu)| | | |
-|[ ToHexString](color.md#tohexstring-zilch-engine)| | | |
-|[ ToHsva](color.md#tohsva-zilch-engine-docum)| | | |
-|[ ToInteger](color.md#tointeger-zilch-engine-do)| | | |
+|[FromBytes](color.md#frombytes-zilch-engine-do)| | | |
+|[FromHexString](color.md#fromhexstring-zilch-engin)| | | |
+|[FromHsva](color.md#fromhsva-zilch-engine-doc)| | | |
+|[FromInteger](color.md#frominteger-zilch-engine)| | | |
+|[ToBytes](color.md#tobytes-zilch-engine-docu)| | | |
+|[ToHexString](color.md#tohexstring-zilch-engine)| | | |
+|[ToHsva](color.md#tohsva-zilch-engine-docum)| | | |
+|[ToInteger](color.md#tointeger-zilch-engine-do)| | | |
 
 
  #  Properties

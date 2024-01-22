@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ReturnHostInfo](acquirenethostinfo.md#returnhostinfo-zilch-engi)|[event](event.md)| |
+| |[ReturnHostInfo](acquirenethostinfo.md#returnhostinfo-zilch-engi)|[event](event.md)| |
 
 
  #  Properties

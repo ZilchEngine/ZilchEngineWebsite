@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](rune.md#rune-void)|[ Value](rune.md#value-zilch-engine-docume)| | |
+|[Constructor](rune.md#rune-void)|[Value](rune.md#value-zilch-engine-docume)| | |
 
 
  #  Properties

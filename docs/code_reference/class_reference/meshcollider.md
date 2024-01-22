@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](meshcollider.md#meshcollider-void)|[ DrawEdges](meshcollider.md#drawedges-zilch-engine-do)|[collider](collider.md)| |
-| |[ DrawFaceNormals](meshcollider.md#drawfacenormals-zilch-eng)| | |
-| |[ DrawFaces](meshcollider.md#drawfaces-zilch-engine-do)| | |
-| |[ PhysicsMesh](meshcollider.md#physicsmesh-zilch-engine)| | |
+|[Constructor](meshcollider.md#meshcollider-void)|[DrawEdges](meshcollider.md#drawedges-zilch-engine-do)|[collider](collider.md)| |
+| |[DrawFaceNormals](meshcollider.md#drawfacenormals-zilch-eng)| | |
+| |[DrawFaces](meshcollider.md#drawfaces-zilch-engine-do)| | |
+| |[PhysicsMesh](meshcollider.md#physicsmesh-zilch-engine)| | |
 
 
  #  Properties

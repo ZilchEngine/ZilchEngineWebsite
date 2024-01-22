@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Destination](neteventreceived.md#destination-zilch-engine)|[event](event.md)| |
-| |[ NetEvent](neteventreceived.md#netevent-zilch-engine-doc)| | |
-| |[ ReturnAllow](neteventreceived.md#returnallow-zilch-engine)| | |
-| |[ TheirNetPeerId](neteventreceived.md#theirnetpeerid-zilch-engi)| | |
+| |[Destination](neteventreceived.md#destination-zilch-engine)|[event](event.md)| |
+| |[NetEvent](neteventreceived.md#netevent-zilch-engine-doc)| | |
+| |[ReturnAllow](neteventreceived.md#returnallow-zilch-engine)| | |
+| |[TheirNetPeerId](neteventreceived.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

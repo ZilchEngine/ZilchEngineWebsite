@@ -5,7 +5,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
 | |[[zilch_engine_documentation/code_reference/class_reference/audiofloatdataevent/#audiodata-array[real] | AudioData]]|[event](event.md)| |
-| |[ Channels](audiofloatdataevent.md#channels-zilch-engine-doc)| | |
+| |[Channels](audiofloatdataevent.md#channels-zilch-engine-doc)| | |
 
 
  #  Properties

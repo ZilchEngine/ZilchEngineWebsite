@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](editorconfig.md#editorconfig-void)|[ ZilchHubUsername](editorconfig.md#zilchhubusername-zilch-eng)|[component](component.md)| |
+|[Constructor](editorconfig.md#editorconfig-void)|[ZilchHubUsername](editorconfig.md#zilchhubusername-zilch-eng)|[component](component.md)| |
 
 
  #  Properties

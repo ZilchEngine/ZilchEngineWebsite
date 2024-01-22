@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DumpMemoryDebuggerStats](osshell.md#dumpmemorydebuggerstats)|[ ClipboardText](osshell.md#clipboardtext-zilch-engin)|[system](system.md)| |
-|[ GetWindow](osshell.md#getwindow-zilch-engine-do)|[ WindowCount](osshell.md#windowcount-zilch-engine)| | |
-|[ IsClipboardText](osshell.md#isclipboardtext-zilch-eng)| | | |
+|[DumpMemoryDebuggerStats](osshell.md#dumpmemorydebuggerstats)|[ClipboardText](osshell.md#clipboardtext-zilch-engin)|[system](system.md)| |
+|[GetWindow](osshell.md#getwindow-zilch-engine-do)|[WindowCount](osshell.md#windowcount-zilch-engine)| | |
+|[IsClipboardText](osshell.md#isclipboardtext-zilch-eng)| | | |
 
 
  #  Properties

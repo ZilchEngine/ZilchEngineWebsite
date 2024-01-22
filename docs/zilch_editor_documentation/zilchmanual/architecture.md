@@ -1,6 +1,6 @@
 The Zilch Engine uses a component based architecture that makes it easy to extend both the functionality of your game and the editor. In this section you can find explanations of the concepts that are core to our overall philosophy when constructing the engine and projects within it.
 
-If you feel you need more practice with architecture concepts check out the architecture tutorials section [here ](../tutorials/architecture.md).
+If you feel you need more practice with architecture concepts check out the architecture tutorials section [here](../tutorials/architecture.md).
 
 
  #  [Cogs](architecture/cogs.md)

@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](integer2.md#get-zilch-engine-document)|[ Count](integer2.md#count-zilch-engine-docume)| | |
-|[ GetAxis](integer2.md#getaxis-zilch-engine-docu)|[ NegativeMin](integer2.md#negativemin-zilch-engine)| | |
-|[ Constructor](integer2.md#integer2-void)|[ NegativeValueClosestToZero](integer2.md#negativevalueclosesttoze)| | |
-|[ Set](integer2.md#set-void)|[ One](integer2.md#one-zilch-engine-document)| | |
-| |[ PositiveMax](integer2.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](integer2.md#positivevalueclosesttoze)| | |
-| |[ XAxis](integer2.md#xaxis-zilch-engine-docume)| | |
-| |[ YAxis](integer2.md#yaxis-zilch-engine-docume)| | |
-| |[ Zero](integer2.md#zilch-zilch-engine-documen)| | |
+|[Get](integer2.md#get-zilch-engine-document)|[Count](integer2.md#count-zilch-engine-docume)| | |
+|[GetAxis](integer2.md#getaxis-zilch-engine-docu)|[NegativeMin](integer2.md#negativemin-zilch-engine)| | |
+|[Constructor](integer2.md#integer2-void)|[NegativeValueClosestToZero](integer2.md#negativevalueclosesttoze)| | |
+|[Set](integer2.md#set-void)|[One](integer2.md#one-zilch-engine-document)| | |
+| |[PositiveMax](integer2.md#positivemax-zilch-engine)| | |
+| |[PositiveValueClosestToZero](integer2.md#positivevalueclosesttoze)| | |
+| |[XAxis](integer2.md#xaxis-zilch-engine-docume)| | |
+| |[YAxis](integer2.md#yaxis-zilch-engine-docume)| | |
+| |[Zero](integer2.md#zilch-zilch-engine-documen)| | |
 
 
  #  Properties

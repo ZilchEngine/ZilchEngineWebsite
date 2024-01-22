@@ -6,39 +6,39 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddUser](netpeer.md#adduser-zilch-engine-docu)|[ BasicHostInfoTimeout](netpeer.md#basichostinfotimeout-zer)|[netobject](netobject.md)| |
-|[ CancelHostRequests](netpeer.md#cancelhostrequests-void)|[ ExtraHostInfoTimeout](netpeer.md#extrahostinfotimeout-zer)| | |
-|[ ClearHostList](netpeer.md#clearhostlist-void)|[ FrameFillSkip](netpeer.md#framefillskip-zilch-engin)| | |
-|[ ClearHostLists](netpeer.md#clearhostlists-void)|[ FrameFillWarning](netpeer.md#framefillwarning-zilch-en)| | |
-|[ Close](netpeer.md#close-void)|[ HostPingInterval](netpeer.md#hostpinginterval-zilch-en)| | |
-|[ ConnectLink](netpeer.md#connectlink-zilch-engine)|[ HostPortRangeEnd](netpeer.md#hostportrangeend-zilch-en)| | |
-|[ DisconnectAllLinks](netpeer.md#disconnectalllinks-zero)|[ HostPortRangeStart](netpeer.md#hostportrangestart-zero)| | |
-|[ DisconnectLink](netpeer.md#disconnectlink-zilch-engi)|[ Info](netpeer.md#info-zilch-engine-documen)| | |
-|[ DiscoverHostList](netpeer.md#discoverhostlist-zilch-en)|[ InternetDiscoverable](netpeer.md#internetdiscoverable-zer)| | |
-|[ GetHostByAddress](netpeer.md#gethostbyaddress-zilch-en)|[ InternetHostListTimeout](netpeer.md#internethostlisttimeout)| | |
-|[ GetHostByIndex](netpeer.md#gethostbyindex-zilch-engi)|[ InternetHostPublishInterval](netpeer.md#internethostpublishinter)| | |
-|[ GetHostList](netpeer.md#gethostlist-zilch-engine)|[ InternetHostRecordLifetime](netpeer.md#internethostrecordlifeti)| | |
-|[ GetLinkCreationDirection](netpeer.md#getlinkcreationdirection)|[ InternetSameIpHostRecordLimit](netpeer.md#internetsameiphostrecord)| | |
-|[ GetLinkInternetProtocol](netpeer.md#getlinkinternetprotocol)|[ Ipv4Address](netpeer.md#ipv4address-zilch-engine)| | |
-|[ GetLinkIpAddress](netpeer.md#getlinkipaddress-zilch-en)|[ Ipv4Host](netpeer.md#ipv4host-zilch-engine-doc)| | |
-|[ GetLinkNetPeerId](netpeer.md#getlinknetpeerid-zilch-en)|[ Ipv4Port](netpeer.md#ipv4port-zilch-engine-doc)| | |
-|[ GetLinkState](netpeer.md#getlinkstate-zilch-engine)|[ IsOpen](netpeer.md#isopen-zilch-engine-docum)| | |
-|[ GetLinkStatus](netpeer.md#getlinkstatus-zilch-engin)|[ LanDiscoverable](netpeer.md#landiscoverable-zilch-eng)| | |
-|[ GetNetObject](netpeer.md#getnetobject-zilch-engine)|[ LinkCount](netpeer.md#linkcount-zilch-engine-do)| | |
-|[ GetNetSpace](netpeer.md#getnetspace-zilch-engine)|[ NetObjectCount](netpeer.md#netobjectcount-zilch-engi)| | |
-|[ GetOurIpAddressFromLink](netpeer.md#getouripaddressfromlink)|[ NetPeerId](netpeer.md#netpeerid-zilch-engine-do)| | |
-|[ GetUser](netpeer.md#getuser-zilch-engine-docu)|[ NetSpaceCount](netpeer.md#netspacecount-zilch-engin)| | |
-|[ GetUsersAddedByPeer](netpeer.md#getusersaddedbypeer-zero)|[ NetUserCount](netpeer.md#netusercount-zilch-engine)| | |
-|[ Constructor](netpeer.md#netpeer-void)|[ UserCount](netpeer.md#usercount-zilch-engine-do)| | |
-|[ Open](netpeer.md#open-zilch-engine-documen)|[ Users](netpeer.md#users-zilch-engine-docume)| | |
-|[ OpenClient](netpeer.md#openclient-zilch-engine-d)|[ UsersAddedByMyPeer](netpeer.md#usersaddedbymypeer-zero)| | |
-|[ OpenOffline](netpeer.md#openoffline-zilch-engine)| | | |
-|[ OpenServer](netpeer.md#openserver-zilch-engine-d)| | | |
-|[ RefreshHost](netpeer.md#refreshhost-zilch-engine)| | | |
-|[ RefreshHostList](netpeer.md#refreshhostlist-zilch-eng)| | | |
-|[ RemoveUser](netpeer.md#removeuser-zilch-engine-d)| | | |
-|[ SubscribeToMasterServer](netpeer.md#subscribetomasterserver)| | | |
-|[ UnsubscribeFromMasterServer](netpeer.md#unsubscribefrommasterser)| | | |
+|[AddUser](netpeer.md#adduser-zilch-engine-docu)|[BasicHostInfoTimeout](netpeer.md#basichostinfotimeout-zer)|[netobject](netobject.md)| |
+|[CancelHostRequests](netpeer.md#cancelhostrequests-void)|[ExtraHostInfoTimeout](netpeer.md#extrahostinfotimeout-zer)| | |
+|[ClearHostList](netpeer.md#clearhostlist-void)|[FrameFillSkip](netpeer.md#framefillskip-zilch-engin)| | |
+|[ClearHostLists](netpeer.md#clearhostlists-void)|[FrameFillWarning](netpeer.md#framefillwarning-zilch-en)| | |
+|[Close](netpeer.md#close-void)|[HostPingInterval](netpeer.md#hostpinginterval-zilch-en)| | |
+|[ConnectLink](netpeer.md#connectlink-zilch-engine)|[HostPortRangeEnd](netpeer.md#hostportrangeend-zilch-en)| | |
+|[DisconnectAllLinks](netpeer.md#disconnectalllinks-zero)|[HostPortRangeStart](netpeer.md#hostportrangestart-zero)| | |
+|[DisconnectLink](netpeer.md#disconnectlink-zilch-engi)|[Info](netpeer.md#info-zilch-engine-documen)| | |
+|[DiscoverHostList](netpeer.md#discoverhostlist-zilch-en)|[InternetDiscoverable](netpeer.md#internetdiscoverable-zer)| | |
+|[GetHostByAddress](netpeer.md#gethostbyaddress-zilch-en)|[InternetHostListTimeout](netpeer.md#internethostlisttimeout)| | |
+|[GetHostByIndex](netpeer.md#gethostbyindex-zilch-engi)|[InternetHostPublishInterval](netpeer.md#internethostpublishinter)| | |
+|[GetHostList](netpeer.md#gethostlist-zilch-engine)|[InternetHostRecordLifetime](netpeer.md#internethostrecordlifeti)| | |
+|[GetLinkCreationDirection](netpeer.md#getlinkcreationdirection)|[InternetSameIpHostRecordLimit](netpeer.md#internetsameiphostrecord)| | |
+|[GetLinkInternetProtocol](netpeer.md#getlinkinternetprotocol)|[Ipv4Address](netpeer.md#ipv4address-zilch-engine)| | |
+|[GetLinkIpAddress](netpeer.md#getlinkipaddress-zilch-en)|[Ipv4Host](netpeer.md#ipv4host-zilch-engine-doc)| | |
+|[GetLinkNetPeerId](netpeer.md#getlinknetpeerid-zilch-en)|[Ipv4Port](netpeer.md#ipv4port-zilch-engine-doc)| | |
+|[GetLinkState](netpeer.md#getlinkstate-zilch-engine)|[IsOpen](netpeer.md#isopen-zilch-engine-docum)| | |
+|[GetLinkStatus](netpeer.md#getlinkstatus-zilch-engin)|[LanDiscoverable](netpeer.md#landiscoverable-zilch-eng)| | |
+|[GetNetObject](netpeer.md#getnetobject-zilch-engine)|[LinkCount](netpeer.md#linkcount-zilch-engine-do)| | |
+|[GetNetSpace](netpeer.md#getnetspace-zilch-engine)|[NetObjectCount](netpeer.md#netobjectcount-zilch-engi)| | |
+|[GetOurIpAddressFromLink](netpeer.md#getouripaddressfromlink)|[NetPeerId](netpeer.md#netpeerid-zilch-engine-do)| | |
+|[GetUser](netpeer.md#getuser-zilch-engine-docu)|[NetSpaceCount](netpeer.md#netspacecount-zilch-engin)| | |
+|[GetUsersAddedByPeer](netpeer.md#getusersaddedbypeer-zero)|[NetUserCount](netpeer.md#netusercount-zilch-engine)| | |
+|[Constructor](netpeer.md#netpeer-void)|[UserCount](netpeer.md#usercount-zilch-engine-do)| | |
+|[Open](netpeer.md#open-zilch-engine-documen)|[Users](netpeer.md#users-zilch-engine-docume)| | |
+|[OpenClient](netpeer.md#openclient-zilch-engine-d)|[UsersAddedByMyPeer](netpeer.md#usersaddedbymypeer-zero)| | |
+|[OpenOffline](netpeer.md#openoffline-zilch-engine)| | | |
+|[OpenServer](netpeer.md#openserver-zilch-engine-d)| | | |
+|[RefreshHost](netpeer.md#refreshhost-zilch-engine)| | | |
+|[RefreshHostList](netpeer.md#refreshhostlist-zilch-eng)| | | |
+|[RemoveUser](netpeer.md#removeuser-zilch-engine-d)| | | |
+|[SubscribeToMasterServer](netpeer.md#subscribetomasterserver)| | | |
+|[UnsubscribeFromMasterServer](netpeer.md#unsubscribefrommasterser)| | | |
 
 
  #  Properties

@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetOrigin](spritesource.md#getorigin-zilch-engine-do)|[ FrameCount](spritesource.md#framecount-zilch-engine-d)|Resource| |
-|[ GetSize](spritesource.md#getsize-zilch-engine-docu)| | | |
+|[GetOrigin](spritesource.md#getorigin-zilch-engine-do)|[FrameCount](spritesource.md#framecount-zilch-engine-d)|Resource| |
+|[GetSize](spritesource.md#getsize-zilch-engine-docu)| | | |
 
 
  #  Properties

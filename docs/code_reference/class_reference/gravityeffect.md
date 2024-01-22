@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](gravityeffect.md#gravityeffect-void)| |[basicdirectioneffect](basicdirectioneffect.md)| |
+|[Constructor](gravityeffect.md#gravityeffect-void)| |[basicdirectioneffect](basicdirectioneffect.md)| |
 
 
  #  Properties

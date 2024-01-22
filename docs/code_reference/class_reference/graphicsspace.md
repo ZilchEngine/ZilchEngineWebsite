@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](graphicsspace.md#graphicsspace-void)|[ Active](graphicsspace.md#active-zilch-engine-docum)|[component](component.md)| |
-| |[ RandomSeed](graphicsspace.md#randomseed-zilch-engine-d)| | |
-| |[ Seed](graphicsspace.md#seed-zilch-engine-documen)| | |
+|[Constructor](graphicsspace.md#graphicsspace-void)|[Active](graphicsspace.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[RandomSeed](graphicsspace.md#randomseed-zilch-engine-d)| | |
+| |[Seed](graphicsspace.md#seed-zilch-engine-documen)| | |
 
 
  #  Properties

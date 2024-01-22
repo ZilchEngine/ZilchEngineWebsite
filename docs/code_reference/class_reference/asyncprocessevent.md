@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](asyncprocessevent.md#asyncprocessevent-void)|[ Bytes](asyncprocessevent.md#bytes-zilch-engine-docume)|[event](event.md)| |
-| |[ StreamType](asyncprocessevent.md#streamtype-zilch-engine-d)| | |
+|[Constructor](asyncprocessevent.md#asyncprocessevent-void)|[Bytes](asyncprocessevent.md#bytes-zilch-engine-docume)|[event](event.md)| |
+| |[StreamType](asyncprocessevent.md#streamtype-zilch-engine-d)| | |
 
 
  #  Properties

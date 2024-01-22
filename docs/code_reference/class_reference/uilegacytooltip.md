@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddText](uilegacytooltip.md#addtext-void)|[ BackgroundColor](uilegacytooltip.md#backgroundcolor-zilch-eng)| | |
-|[ ClearText](uilegacytooltip.md#cleartext-void)|[ BorderColor](uilegacytooltip.md#bordercolor-zilch-engine)| | |
-|[ SetColorScheme](uilegacytooltip.md#setcolorscheme-void)|[ Padding](uilegacytooltip.md#padding-zilch-engine-docu)| | |
-|[ SetPlacement](uilegacytooltip.md#setplacement-void)| | | |
-|[ SetPriority](uilegacytooltip.md#setpriority-void)| | | |
-|[ Constructor](uilegacytooltip.md#uilegacytooltip-void)| | | |
+|[AddText](uilegacytooltip.md#addtext-void)|[BackgroundColor](uilegacytooltip.md#backgroundcolor-zilch-eng)| | |
+|[ClearText](uilegacytooltip.md#cleartext-void)|[BorderColor](uilegacytooltip.md#bordercolor-zilch-engine)| | |
+|[SetColorScheme](uilegacytooltip.md#setcolorscheme-void)|[Padding](uilegacytooltip.md#padding-zilch-engine-docu)| | |
+|[SetPlacement](uilegacytooltip.md#setplacement-void)| | | |
+|[SetPriority](uilegacytooltip.md#setpriority-void)| | | |
+|[Constructor](uilegacytooltip.md#uilegacytooltip-void)| | | |
 
 
  #  Properties

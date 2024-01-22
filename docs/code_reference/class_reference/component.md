@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](component.md#component-void)|[ GameSession](component.md#gamesession-zilch-engine)|Object|[actionspace](actionspace.md)|
-|[ DebugDraw](component.md#debugdraw-void)|[ LevelSettings](component.md#levelsettings-zilch-engin)| |[animationgraph](animationgraph.md)|
-| |[ Owner](component.md#owner-zilch-engine-docume)| |[archetyped](archetyped.md)|
-| |[ Space](component.md#space-zilch-engine-docume)| |[area](area.md)|
+|[Constructor](component.md#component-void)|[GameSession](component.md#gamesession-zilch-engine)|Object|[actionspace](actionspace.md)|
+|[DebugDraw](component.md#debugdraw-void)|[LevelSettings](component.md#levelsettings-zilch-engin)| |[animationgraph](animationgraph.md)|
+| |[Owner](component.md#owner-zilch-engine-docume)| |[archetyped](archetyped.md)|
+| |[Space](component.md#space-zilch-engine-docume)| |[area](area.md)|
 | | | |[audiosettings](audiosettings.md)|
 | | | |[bone](bone.md)|
 | | | |[camera](camera.md)|

@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Play](granularsynthnode.md#play-void)|[ BufferScanRate](granularsynthnode.md#bufferscanrate-zilch-engi)|[soundnode](soundnode.md)| |
-|[ SetSound](granularsynthnode.md#setsound-void)|[ GrainDelay](granularsynthnode.md#graindelay-zilch-engine-d)| | |
-|[ Stop](granularsynthnode.md#stop-void)|[ GrainDelayVariance](granularsynthnode.md#graindelayvariance-zero)| | |
-| |[ GrainLength](granularsynthnode.md#grainlength-zilch-engine)| | |
-| |[ GrainLengthVariance](granularsynthnode.md#grainlengthvariance-zero)| | |
-| |[ GrainPanningValue](granularsynthnode.md#grainpanningvalue-zilch-e)| | |
-| |[ GrainPanningVariance](granularsynthnode.md#grainpanningvariance-zer)| | |
-| |[ GrainResampleRate](granularsynthnode.md#grainresamplerate-zilch-e)| | |
-| |[ GrainResampleRateVariance](granularsynthnode.md#grainresampleratevarianc)| | |
-| |[ GrainVolume](granularsynthnode.md#grainvolume-zilch-engine)| | |
-| |[ GrainVolumeVariance](granularsynthnode.md#grainvolumevariance-zero)| | |
-| |[ RandomLocationValue](granularsynthnode.md#randomlocationvalue-zero)| | |
-| |[ WindowAttack](granularsynthnode.md#windowattack-zilch-engine)| | |
-| |[ WindowRelease](granularsynthnode.md#windowrelease-zilch-engin)| | |
-| |[ WindowType](granularsynthnode.md#windowtype-zilch-engine-d)| | |
+|[Play](granularsynthnode.md#play-void)|[BufferScanRate](granularsynthnode.md#bufferscanrate-zilch-engi)|[soundnode](soundnode.md)| |
+|[SetSound](granularsynthnode.md#setsound-void)|[GrainDelay](granularsynthnode.md#graindelay-zilch-engine-d)| | |
+|[Stop](granularsynthnode.md#stop-void)|[GrainDelayVariance](granularsynthnode.md#graindelayvariance-zero)| | |
+| |[GrainLength](granularsynthnode.md#grainlength-zilch-engine)| | |
+| |[GrainLengthVariance](granularsynthnode.md#grainlengthvariance-zero)| | |
+| |[GrainPanningValue](granularsynthnode.md#grainpanningvalue-zilch-e)| | |
+| |[GrainPanningVariance](granularsynthnode.md#grainpanningvariance-zer)| | |
+| |[GrainResampleRate](granularsynthnode.md#grainresamplerate-zilch-e)| | |
+| |[GrainResampleRateVariance](granularsynthnode.md#grainresampleratevarianc)| | |
+| |[GrainVolume](granularsynthnode.md#grainvolume-zilch-engine)| | |
+| |[GrainVolumeVariance](granularsynthnode.md#grainvolumevariance-zero)| | |
+| |[RandomLocationValue](granularsynthnode.md#randomlocationvalue-zero)| | |
+| |[WindowAttack](granularsynthnode.md#windowattack-zilch-engine)| | |
+| |[WindowRelease](granularsynthnode.md#windowrelease-zilch-engin)| | |
+| |[WindowType](granularsynthnode.md#windowtype-zilch-engine-d)| | |
 
 
  #  Properties

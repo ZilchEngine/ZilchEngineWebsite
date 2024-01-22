@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contactblock.md#contactblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](contactblock.md#contactblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

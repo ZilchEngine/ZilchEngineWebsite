@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](adsrenvelope.md#adsrenvelope-void)|[ AttackTime](adsrenvelope.md#attacktime-zilch-engine-d)| | |
-| |[ DecayTime](adsrenvelope.md#decaytime-zilch-engine-do)| | |
-| |[ DelayTime](adsrenvelope.md#delaytime-zilch-engine-do)| | |
-| |[ ReleaseTime](adsrenvelope.md#releasetime-zilch-engine)| | |
-| |[ SustainLevel](adsrenvelope.md#sustainlevel-zilch-engine)| | |
-| |[ SustainTime](adsrenvelope.md#sustaintime-zilch-engine)| | |
+|[Constructor](adsrenvelope.md#adsrenvelope-void)|[AttackTime](adsrenvelope.md#attacktime-zilch-engine-d)| | |
+| |[DecayTime](adsrenvelope.md#decaytime-zilch-engine-do)| | |
+| |[DelayTime](adsrenvelope.md#delaytime-zilch-engine-do)| | |
+| |[ReleaseTime](adsrenvelope.md#releasetime-zilch-engine)| | |
+| |[SustainLevel](adsrenvelope.md#sustainlevel-zilch-engine)| | |
+| |[SustainTime](adsrenvelope.md#sustaintime-zilch-engine)| | |
 
 
  #  Properties

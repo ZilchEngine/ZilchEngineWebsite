@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](indexedhalfedgeface.md#indexedhalfedgeface-void)|[ Edges](indexedhalfedgeface.md#edges-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
+|[Constructor](indexedhalfedgeface.md#indexedhalfedgeface-void)|[Edges](indexedhalfedgeface.md#edges-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
 
 
  #  Properties

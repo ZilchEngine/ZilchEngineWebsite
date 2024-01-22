@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Bottom](spritesourceeditor.md#bottom-zilch-engine-docum)|[composite](composite.md)| |
-| |[ CurrentFrame](spritesourceeditor.md#currentframe-zilch-engine)| | |
-| |[ FrameRate](spritesourceeditor.md#framerate-zilch-engine-do)| | |
-| |[ Left](spritesourceeditor.md#left-zilch-engine-documen)| | |
-| |[ Looping](spritesourceeditor.md#looping-zilch-engine-docu)| | |
-| |[ Origin](spritesourceeditor.md#origin-zilch-engine-docum)| | |
-| |[ OriginX](spritesourceeditor.md#originx-zilch-engine-docu)| | |
-| |[ OriginY](spritesourceeditor.md#originy-zilch-engine-docu)| | |
-| |[ PixelsPerUnit](spritesourceeditor.md#pixelsperunit-zilch-engin)| | |
-| |[ PreviewAnimation](spritesourceeditor.md#previewanimation-zilch-en)| | |
-| |[ Right](spritesourceeditor.md#right-zilch-engine-docume)| | |
-| |[ Sampling](spritesourceeditor.md#sampling-zilch-engine-doc)| | |
-| |[ SpriteFill](spritesourceeditor.md#spritefill-zilch-engine-d)| | |
-| |[ SpriteName](spritesourceeditor.md#spritename-zilch-engine-d)| | |
-| |[ Top](spritesourceeditor.md#top-zilch-engine-document)| | |
+| |[Bottom](spritesourceeditor.md#bottom-zilch-engine-docum)|[composite](composite.md)| |
+| |[CurrentFrame](spritesourceeditor.md#currentframe-zilch-engine)| | |
+| |[FrameRate](spritesourceeditor.md#framerate-zilch-engine-do)| | |
+| |[Left](spritesourceeditor.md#left-zilch-engine-documen)| | |
+| |[Looping](spritesourceeditor.md#looping-zilch-engine-docu)| | |
+| |[Origin](spritesourceeditor.md#origin-zilch-engine-docum)| | |
+| |[OriginX](spritesourceeditor.md#originx-zilch-engine-docu)| | |
+| |[OriginY](spritesourceeditor.md#originy-zilch-engine-docu)| | |
+| |[PixelsPerUnit](spritesourceeditor.md#pixelsperunit-zilch-engin)| | |
+| |[PreviewAnimation](spritesourceeditor.md#previewanimation-zilch-en)| | |
+| |[Right](spritesourceeditor.md#right-zilch-engine-docume)| | |
+| |[Sampling](spritesourceeditor.md#sampling-zilch-engine-doc)| | |
+| |[SpriteFill](spritesourceeditor.md#spritefill-zilch-engine-d)| | |
+| |[SpriteName](spritesourceeditor.md#spritename-zilch-engine-d)| | |
+| |[Top](spritesourceeditor.md#top-zilch-engine-document)| | |
 
 
  #  Properties

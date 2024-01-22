@@ -10,25 +10,25 @@ This tutorial covers custom events in Zilch Engine.
 - Custom event data
 
 
-While the most common events are built in, there are times when you will need to create your own events based on things that happen within your own game logic. They are especially useful if multiple components connect to the same event, causing multiple unique responses. This tutorial continues with the project started in the previous [ Events](events.md) tutorial.
+While the most common events are built in, there are times when you will need to create your own events based on things that happen within your own game logic. They are especially useful if multiple components connect to the same event, causing multiple unique responses. This tutorial continues with the project started in the previous [Events](events.md) tutorial.
 
 
  #  Level Setup
 
 
-- Reopen the Events zero project project from the [ previous tutorial](events.md)
+- Reopen the Events zero project project from the [previous tutorial](events.md)
 
 
  #  Declaring Custom Events
 
 
-Just as instances of the class [CollisionEvent](../../../code_reference/class_reference/collisionevent.md) are dispatched with multiple event IDs ([CollisionStarted](../../../code_reference/event_reference.md#collisionstarted), [CollisionPersisted](../../../code_reference/event_reference.md#collisionpersisted), [CollisionEnded](../../../code_reference/event_reference.md#collisionended)), you may register an event class as multiple custom events. Data may be sent along with a custom event (using a custom event class, discussed below), but this isn't always necessary; if no data is needed, the event can just use the type [ NadaEvent](../../../code_reference/class_reference/nadaevent.md).
+Just as instances of the class [CollisionEvent](../../../code_reference/class_reference/collisionevent.md) are dispatched with multiple event IDs ([CollisionStarted](../../../code_reference/event_reference.md#collisionstarted), [CollisionPersisted](../../../code_reference/event_reference.md#collisionpersisted), [CollisionEnded](../../../code_reference/event_reference.md#collisionended)), you may register an event class as multiple custom events. Data may be sent along with a custom event (using a custom event class, discussed below), but this isn't always necessary; if no data is needed, the event can just use the type [NadaEvent](../../../code_reference/class_reference/nadaevent.md).
 
 
  ##  The `sends` Keyword
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `CreateObjectOnInput`
 - Update the `CreateObjectOnInput` script to the following:
 
@@ -67,15 +67,15 @@ class CreateObjectOnInput : NadaComponent
 }
 ```
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
 - In the `Properties Window`
   - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `CreateObjectOnInput`
 
-The first part of this script that should be new is the line with the `sends` keyword. If you recall from the previous [events](events.md) tutorial, the second parameter in the [ Zilch.Connect](../../../code_reference/class_reference/zilch.md#connect-void) function is a [ String](../../../code_reference/nada_base_types/string.md) ID that identifies the event. The `sends` keyword defines this ID, and also declares the event type the custom event will use:
+The first part of this script that should be new is the line with the `sends` keyword. If you recall from the previous [events](events.md) tutorial, the second parameter in the [Zilch.Connect](../../../code_reference/class_reference/zilch.md#connect-void) function is a [String](../../../code_reference/nada_base_types/string.md) ID that identifies the event. The `sends` keyword defines this ID, and also declares the event type the custom event will use:
 
 `sends EventId : EventType;`
 
-...where `EventId` is a string value that is added to the Events namespace, where it can be found under the same name, and `EventType` is the event class type that is registered with the new event ID. In our case, `Events.CreateObject` equals the string `"CreateObject"`, which is registered with the event type [ NadaEvent](../../../code_reference/class_reference/nadaevent.md).
+...where `EventId` is a string value that is added to the Events namespace, where it can be found under the same name, and `EventType` is the event class type that is registered with the new event ID. In our case, `Events.CreateObject` equals the string `"CreateObject"`, which is registered with the event type [NadaEvent](../../../code_reference/class_reference/nadaevent.md).
 
 (NOTE) **Why Use `sends`?** It's not strictly necessary to register custom events with `sends`. So why bother? There are two main benefits. The first is that they will show up in code completion, saving you from time-consuming typos. The second is that it allows you to use event connection auto-complete functionality just like any other event. That is, if you type `Zilch.Connect(this.Owner, Events.MyEvent,` in a function and press the Tab key following the comma after the second argument, the event connection code will complete itself, and a callback function will automatically be generated directly beneath the function scope the connection is made in.
 
@@ -94,18 +94,18 @@ The next relevant line is where the `CreateObject` event is dispatched:
 this.Owner.DispatchEvent(Events.CreateObject, NadaEvent());
 ```
 
-Let's look at the [ DispatchEvent](../../../code_reference/class_reference/cog.md#dispatchevent-void) function's parameters.
+Let's look at the [DispatchEvent](../../../code_reference/class_reference/cog.md#dispatchevent-void) function's parameters.
 
 | Sample Value | Parameter Type | Description |
 |---|---|---|
 | `Events.CreateObject` | [string](../../../code_reference/nada_base_types/string.md) | The event identifier |
-| `NadaEvent()` | [ NadaEvent](../../../code_reference/class_reference/nadaevent.md) | The event to be dispatched |
+| `NadaEvent()` | [NadaEvent](../../../code_reference/class_reference/nadaevent.md) | The event to be dispatched |
 
 This function dispatches an event to `this.Owner`. Dispatching events to `this.Owner` is a common way for one component to communicate with other components on the same object. In this case, we're dispatching a NadaEvent with the ID `Events.CreateObject`.
 
 Before creating the component that will connect to this event, we need to create a projectile archetype that can be spawned as long as the key to create an object is down.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Projectile`
  - Set Archetype  to `Projectile`
@@ -121,7 +121,7 @@ Before creating the component that will connect to this event, we need to create
 
 *The completed Projectile object*
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Delete](../../../code_reference/command_reference.md#delete)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Delete](../../../code_reference/command_reference.md#delete)
 
 Now we can create the component that will spawn and set the velocity of the object from the player when it "hears" the SpawnObject event.
 
@@ -129,7 +129,7 @@ Now we can create the component that will spawn and set the velocity of the obje
  #  Responding to Custom Events
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `SpawnObjectWithVelocity`
 - Update the `SpawnObjectWithVelocity` script to the following:
 ```TS:SpawnObjectWithVelocity
@@ -158,7 +158,7 @@ class SpawnObjectWithVelocity : NadaComponent
   }
 }
 ```
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
 - In the `Properties Window`
   - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `SpawnObjectWithVelocity`
 
@@ -169,7 +169,7 @@ We also need to add our `DestroyOnCollide` component to the enemy so that the pr
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Enemy object
 - In the `Properties Window`
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `DestroyOnCollide`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Hold key the `Space` bar to fire
 
 
@@ -177,7 +177,7 @@ We also need to add our `DestroyOnCollide` component to the enemy so that the pr
 ![Projectile Destroying Player and Foe](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107041.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Well, that didn't behave how we wanted it to. Here's what happened: first, the projectile was spawned at the player's position. Then, since both player and projectile have colliders, they collided. In response to the [CollisionStarted](../../../code_reference/event_reference.md#collisionstarted) event, the player's `DestroyOnCollide` component caused the player to destroy itself. To fix this, we can make a simple change to our DestroyOnCollide component that will make use of Archetype checking within the OnCollisionStarted callback function. (We'll also make it so that the projectile is destroyed in the process.)
 
@@ -210,12 +210,12 @@ Now we can check to see what we're colliding with, and whether it's the correct 
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Enemy object
 - In the `Properties Window`
  - Set Archetype  to `Enemy`
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
 - In the `Properties Window`
  - Under `DestroyOnCollide`
   - Set CollisionArchetype enum to `Enemy`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Hold key the `Space` bar to fire
 
 
@@ -223,7 +223,7 @@ Now we can check to see what we're colliding with, and whether it's the correct 
 ![Projectile Destroying Only Foe](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107050.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Now we can move on to defining your own custom event class, which will allow you to specify and set the data to be sent with the event.
 
@@ -246,7 +246,7 @@ class ObjectCreationEvent : NadaEvent
 }
 ```
 
-Note that this custom event class uses the `sends` keyword, registering `CreateObject` as the event name for a custom event. Previously, this appeared in the `CreateObjectOnInput` class, where it registered that same event ID with the [ NadaEvent](../../../code_reference/class_reference/nadaevent.md) class. (Now that we're changing `CreateObject` to use this new `ObjectCreationEvent` class, we should remove the `sends` declaration from `CreateObjectOnInput`.) Now let's update the `CreateObjectOnInput` component to use the new event type.
+Note that this custom event class uses the `sends` keyword, registering `CreateObject` as the event name for a custom event. Previously, this appeared in the `CreateObjectOnInput` class, where it registered that same event ID with the [NadaEvent](../../../code_reference/class_reference/nadaevent.md) class. (Now that we're changing `CreateObject` to use this new `ObjectCreationEvent` class, we should remove the `sends` declaration from `CreateObjectOnInput`.) Now let's update the `CreateObjectOnInput` component to use the new event type.
 
 - In the `CreateObjectOnInput` script
  - Update the `CreateObjectOnInput` class to the following:
@@ -327,9 +327,9 @@ class SpawnObjectWithVelocity : NadaComponent
 }
 ```
 
-Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEvent` instead of `NadaEvent`. The parameter for an event callback function must always match the type of event it is responding to. The `event` argument is then used to access the [ Boolean](../../../code_reference/nada_base_types/boolean.md) data member, which determines the speed of the object that is spawned.
+Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEvent` instead of `NadaEvent`. The parameter for an event callback function must always match the type of event it is responding to. The `event` argument is then used to access the [Boolean](../../../code_reference/nada_base_types/boolean.md) data member, which determines the speed of the object that is spawned.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Hold key the `Space` bar to fire
 
 
@@ -337,7 +337,7 @@ Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEve
 ![Destroying Foe with Slow and Fast Projectiles](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/107064.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Related Materials
@@ -352,7 +352,7 @@ Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEve
 - [resourceadding](../../zilchmanual/editor/editorcommands/resourceadding.md)
 - [selectobject](../../zilchmanual/editor/editorcommands/selectobject.md)
 - [keywords](../../zilchmanual/nada_in_zilch/keywords.md)
-- [ Upload to Archetype](../../zilchmanual/architecture/archetypes/archetype_basics.md#upload-to-archetype)
+- [Upload to Archetype](../../zilchmanual/architecture/archetypes/archetype_basics.md#upload-to-archetype)
 - [addremovecomponent](../../zilchmanual/editor/addremovecomponent.md)
 
  ##  Reference
@@ -366,15 +366,15 @@ Notice that the parameter for `OnCreateObject` is now of type `ObjectCreationEve
 - [rigidbody](../../../code_reference/class_reference/rigidbody.md)
 
  ###  Commands
-- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ Delete](../../../code_reference/command_reference.md#delete)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Delete](../../../code_reference/command_reference.md#delete)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ###  Events
-- [ CollisionStarted](../../../code_reference/event_reference.md#collisionstarted)
-- [ CollisionPersisted](../../../code_reference/event_reference.md#collisionpersisted)
-- [ CollisionEnded](../../../code_reference/event_reference.md#collisionended)
+- [CollisionStarted](../../../code_reference/event_reference.md#collisionstarted)
+- [CollisionPersisted](../../../code_reference/event_reference.md#collisionpersisted)
+- [CollisionEnded](../../../code_reference/event_reference.md#collisionended)
 
  ###  Nada Base Types
 - [string](../../../code_reference/nada_base_types/string.md)

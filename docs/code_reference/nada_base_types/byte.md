@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Parse](byte.md#parse-zilch-engine-docume)|[ PositiveMax](byte.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](byte.md#positivevalueclosesttoze)| | |
+|[Parse](byte.md#parse-zilch-engine-docume)|[PositiveMax](byte.md#positivemax-zilch-engine)| | |
+| |[PositiveValueClosestToZero](byte.md#positivevalueclosesttoze)| | |
 
 
  #  Properties

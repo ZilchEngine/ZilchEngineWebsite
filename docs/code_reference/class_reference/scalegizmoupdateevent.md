@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GizmoWorldScale](scalegizmoupdateevent.md#gizmoworldscale-zilch-eng)|[gizmoupdateevent](gizmoupdateevent.md)| |
+| |[GizmoWorldScale](scalegizmoupdateevent.md#gizmoworldscale-zilch-eng)|[gizmoupdateevent](gizmoupdateevent.md)| |
 
 
  #  Properties

@@ -2,19 +2,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Create](webbrowser.md#create-zilch-engine-docum)|[ BackgroundColor](webbrowser.md#backgroundcolor-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
-|[ ExecuteScript](webbrowser.md#executescript-void)|[ CanGoBackward](webbrowser.md#cangobackward-zilch-engin)| | |
-|[ ExecuteScriptFromLocation](webbrowser.md#executescriptfromlocatio)|[ CanGoForward](webbrowser.md#cangoforward-zilch-engine)| | |
-|[ GoBackward](webbrowser.md#gobackward-void)|[ Focus](webbrowser.md#focus-zilch-engine-docume)| | |
-|[ GoForward](webbrowser.md#goforward-void)|[ IsLoading](webbrowser.md#isloading-zilch-engine-do)| | |
-|[ Reload](webbrowser.md#reload-void)|[ ScrollSpeed](webbrowser.md#scrollspeed-zilch-engine)| | |
-|[ SimulateKey](webbrowser.md#simulatekey-void)|[ Size](webbrowser.md#size-zilch-engine-documen)| | |
-|[ SimulateMouseClick](webbrowser.md#simulatemouseclick-void)|[ Status](webbrowser.md#status-zilch-engine-docum)| | |
-|[ SimulateMouseDoubleClick](webbrowser.md#simulatemousedoubleclick)|[ Texture](webbrowser.md#texture-zilch-engine-docu)| | |
-|[ SimulateMouseMove](webbrowser.md#simulatemousemove-void)|[ Title](webbrowser.md#title-zilch-engine-docume)| | |
-|[ SimulateMouseScroll](webbrowser.md#simulatemousescroll-void)|[ Transparent](webbrowser.md#transparent-zilch-engine)| | |
-|[ SimulateTextTyped](webbrowser.md#simulatetexttyped-void)|[ Url](webbrowser.md#url-zilch-engine-document)| | |
-| |[ Visible](webbrowser.md#visible-zilch-engine-docu)| | |
+|[Create](webbrowser.md#create-zilch-engine-docum)|[BackgroundColor](webbrowser.md#backgroundcolor-zilch-eng)|[referencecountedeventobject](referencecountedeventobject.md)| |
+|[ExecuteScript](webbrowser.md#executescript-void)|[CanGoBackward](webbrowser.md#cangobackward-zilch-engin)| | |
+|[ExecuteScriptFromLocation](webbrowser.md#executescriptfromlocatio)|[CanGoForward](webbrowser.md#cangoforward-zilch-engine)| | |
+|[GoBackward](webbrowser.md#gobackward-void)|[Focus](webbrowser.md#focus-zilch-engine-docume)| | |
+|[GoForward](webbrowser.md#goforward-void)|[IsLoading](webbrowser.md#isloading-zilch-engine-do)| | |
+|[Reload](webbrowser.md#reload-void)|[ScrollSpeed](webbrowser.md#scrollspeed-zilch-engine)| | |
+|[SimulateKey](webbrowser.md#simulatekey-void)|[Size](webbrowser.md#size-zilch-engine-documen)| | |
+|[SimulateMouseClick](webbrowser.md#simulatemouseclick-void)|[Status](webbrowser.md#status-zilch-engine-docum)| | |
+|[SimulateMouseDoubleClick](webbrowser.md#simulatemousedoubleclick)|[Texture](webbrowser.md#texture-zilch-engine-docu)| | |
+|[SimulateMouseMove](webbrowser.md#simulatemousemove-void)|[Title](webbrowser.md#title-zilch-engine-docume)| | |
+|[SimulateMouseScroll](webbrowser.md#simulatemousescroll-void)|[Transparent](webbrowser.md#transparent-zilch-engine)| | |
+|[SimulateTextTyped](webbrowser.md#simulatetexttyped-void)|[Url](webbrowser.md#url-zilch-engine-document)| | |
+| |[Visible](webbrowser.md#visible-zilch-engine-docu)| | |
 
 
  #  Properties

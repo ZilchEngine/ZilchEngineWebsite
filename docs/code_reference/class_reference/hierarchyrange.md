@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](hierarchyrange.md#hierarchyrange-void)|[ All](hierarchyrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](hierarchyrange.md#movenext-void)|[ Current](hierarchyrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](hierarchyrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](hierarchyrange.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](hierarchyrange.md#hierarchyrange-void)|[All](hierarchyrange.md#all-zilch-engine-document)| | |
+|[MoveNext](hierarchyrange.md#movenext-void)|[Current](hierarchyrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](hierarchyrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](hierarchyrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

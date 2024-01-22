@@ -6,10 +6,10 @@ This lesson covers how to create archetypes from a script at game runtime.
  - Modifing dynamically created objects
 
  # Level Setup
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `MovementLogic`
 - In the `MovementLogic` script
  - Replace the script's contents with the following:
@@ -43,17 +43,17 @@ class MovementLogic : NadaComponent
 }
 ```
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [GravityEffect](../../../code_reference/class_reference/gravityeffect.md)
- - [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [DragEffect](../../../code_reference/class_reference/drageffect.md)
+ - [Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [GravityEffect](../../../code_reference/class_reference/gravityeffect.md)
+ - [Remove Component](../../zilchmanual/editor/addremovecomponent.md) : [DragEffect](../../../code_reference/class_reference/drageffect.md)
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object 
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object 
 - In the `Properties Window`
  - Rename Sprite object  to `Player`
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MovementLogic`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Play the Game](../../zilchmanual/editor/editorcommands/runthegame.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Play the Game](../../zilchmanual/editor/editorcommands/runthegame.md)
  -  Press key `A` and `D`
 
 
@@ -61,13 +61,13 @@ class MovementLogic : NadaComponent
 ![Movement](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90547.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Stop Game](../../zilchmanual/editor/editorcommands/stopgame.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Stop Game](../../zilchmanual/editor/editorcommands/stopgame.md)
 
  # Archetype Creation
 
 Before we can spawn objects from script, we need to create the archetype from which the instances (objects) will be created.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename it to `Bullet`
  - Under [Sprite](../../../code_reference/class_reference/sprite.md)
@@ -87,7 +87,7 @@ Before we can spawn objects from script, we need to create the archetype from wh
 
  # Spawning Archetypes
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `ShootingLogic`
 - In the `ShootingLogic`
  - Replace the script's contents with the following:
@@ -121,10 +121,10 @@ class ShootingLogic : NadaComponent
 }
 ```
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
 - In the `Properties Window`
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `ShootingLogic` component
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Play the Game](../../zilchmanual/editor/editorcommands/runthegame.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Play the Game](../../zilchmanual/editor/editorcommands/runthegame.md)
  - Press key `A` and `D` keys to move
  - Press key `Space` key to shoot
 
@@ -133,7 +133,7 @@ class ShootingLogic : NadaComponent
 ![Shooting](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/90561.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Stop the Game](../../zilchmanual/editor/editorcommands/stopgame.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Stop the Game](../../zilchmanual/editor/editorcommands/stopgame.md)
 
 Let's take a closer look inside the `ShootingLogic`'s LogicUpdate function:
 
@@ -157,11 +157,11 @@ Let's take a closer look inside the `ShootingLogic`'s LogicUpdate function:
  # Related Materials
 
  ## Manual
-- [ COGs](../../zilchmanual/architecture/cogs/gameobjectsconcept.md)
-- [ Archetypes](../../zilchmanual/architecture/archetypes.md)
-- [ Play the Game](../../zilchmanual/editor/editorcommands/runthegame.md)
-- [ Stop the Game](../../zilchmanual/editor/editorcommands/stopgame.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [COGs](../../zilchmanual/architecture/cogs/gameobjectsconcept.md)
+- [Archetypes](../../zilchmanual/architecture/archetypes.md)
+- [Play the Game](../../zilchmanual/editor/editorcommands/runthegame.md)
+- [Stop the Game](../../zilchmanual/editor/editorcommands/stopgame.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 
  ## Reference
  ### Classes

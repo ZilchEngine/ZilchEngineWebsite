@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Set](colortargetmrt.md#set-void)| |[threadsafereferencecounted](threadsafereferencecounted.md)| |
+|[Set](colortargetmrt.md#set-void)| |[threadsafereferencecounted](threadsafereferencecounted.md)| |
 
 
  #  Properties

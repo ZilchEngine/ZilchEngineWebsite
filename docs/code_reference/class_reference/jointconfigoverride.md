@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](jointconfigoverride.md#jointconfigoverride-void)|[ AngularBaumgarte](jointconfigoverride.md#angularbaumgarte-zilch-en)|[component](component.md)| |
-| |[ AngularErrorCorrection](jointconfigoverride.md#angularerrorcorrection-z)| | |
-| |[ LinearBaumgarte](jointconfigoverride.md#linearbaumgarte-zilch-eng)| | |
-| |[ LinearErrorCorrection](jointconfigoverride.md#linearerrorcorrection-ze)| | |
-| |[ PositionCorrectionType](jointconfigoverride.md#positioncorrectiontype-z)| | |
-| |[ Slop](jointconfigoverride.md#slop-zilch-engine-documen)| | |
+|[Constructor](jointconfigoverride.md#jointconfigoverride-void)|[AngularBaumgarte](jointconfigoverride.md#angularbaumgarte-zilch-en)|[component](component.md)| |
+| |[AngularErrorCorrection](jointconfigoverride.md#angularerrorcorrection-z)| | |
+| |[LinearBaumgarte](jointconfigoverride.md#linearbaumgarte-zilch-eng)| | |
+| |[LinearErrorCorrection](jointconfigoverride.md#linearerrorcorrection-ze)| | |
+| |[PositionCorrectionType](jointconfigoverride.md#positioncorrectiontype-z)| | |
+| |[Slop](jointconfigoverride.md#slop-zilch-engine-documen)| | |
 
 
  #  Properties

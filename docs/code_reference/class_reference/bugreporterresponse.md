@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Response](bugreporterresponse.md#response-zilch-engine-doc)|[event](event.md)| |
+| |[Response](bugreporterresponse.md#response-zilch-engine-doc)|[event](event.md)| |
 
 
  #  Properties

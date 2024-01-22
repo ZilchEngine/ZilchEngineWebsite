@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](frustum.md#frustum-void)| | | |
-|[ Get](frustum.md#get-zilch-engine-document)| | | |
-|[ GetAabb](frustum.md#getaabb-zilch-engine-docu)| | | |
-|[ Set](frustum.md#set-void)| | | |
+|[Constructor](frustum.md#frustum-void)| | | |
+|[Get](frustum.md#get-zilch-engine-document)| | | |
+|[GetAabb](frustum.md#getaabb-zilch-engine-docu)| | | |
+|[Set](frustum.md#set-void)| | | |
 
 
  #  Properties

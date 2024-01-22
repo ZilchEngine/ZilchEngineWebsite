@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsButtonDown](mouse.md#isbuttondown-zilch-engine)|[ ClientPosition](mouse.md#clientposition-zilch-engi)|[eventobject](eventobject.md)| |
-|[ ToggleTrapped](mouse.md#toggletrapped-void)|[ Cursor](mouse.md#cursor-zilch-engine-docum)| | |
-| |[ CursorMovement](mouse.md#cursormovement-zilch-engi)| | |
-| |[ RawMovement](mouse.md#rawmovement-zilch-engine)| | |
-| |[ Trapped](mouse.md#trapped-zilch-engine-docu)| | |
+|[IsButtonDown](mouse.md#isbuttondown-zilch-engine)|[ClientPosition](mouse.md#clientposition-zilch-engi)|[eventobject](eventobject.md)| |
+|[ToggleTrapped](mouse.md#toggletrapped-void)|[Cursor](mouse.md#cursor-zilch-engine-docum)| | |
+| |[CursorMovement](mouse.md#cursormovement-zilch-engi)| | |
+| |[RawMovement](mouse.md#rawmovement-zilch-engine)| | |
+| |[Trapped](mouse.md#trapped-zilch-engine-docu)| | |
 
 
  #  Properties

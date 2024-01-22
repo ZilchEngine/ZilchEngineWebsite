@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetAxis](relativevelocityjoint.md#getaxis-zilch-engine-docu)| |[joint](joint.md)| |
-|[ GetAxisActive](relativevelocityjoint.md#getaxisactive-zilch-engin)| | | |
-|[ GetMaxImpulse](relativevelocityjoint.md#getmaximpulse-zilch-engin)| | | |
-|[ GetSpeed](relativevelocityjoint.md#getspeed-zilch-engine-doc)| | | |
-|[ Constructor](relativevelocityjoint.md#relativevelocityjoint-vo)| | | |
-|[ SetAxis](relativevelocityjoint.md#setaxis-void)| | | |
-|[ SetAxisActive](relativevelocityjoint.md#setaxisactive-void)| | | |
-|[ SetMaxImpulse](relativevelocityjoint.md#setmaximpulse-void)| | | |
-|[ SetSpeed](relativevelocityjoint.md#setspeed-void)| | | |
+|[GetAxis](relativevelocityjoint.md#getaxis-zilch-engine-docu)| |[joint](joint.md)| |
+|[GetAxisActive](relativevelocityjoint.md#getaxisactive-zilch-engin)| | | |
+|[GetMaxImpulse](relativevelocityjoint.md#getmaximpulse-zilch-engin)| | | |
+|[GetSpeed](relativevelocityjoint.md#getspeed-zilch-engine-doc)| | | |
+|[Constructor](relativevelocityjoint.md#relativevelocityjoint-vo)| | | |
+|[SetAxis](relativevelocityjoint.md#setaxis-void)| | | |
+|[SetAxisActive](relativevelocityjoint.md#setaxisactive-void)| | | |
+|[SetMaxImpulse](relativevelocityjoint.md#setmaximpulse-void)| | | |
+|[SetSpeed](relativevelocityjoint.md#setspeed-void)| | | |
 
 
  #  Properties

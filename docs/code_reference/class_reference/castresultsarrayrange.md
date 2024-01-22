@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](castresultsarrayrange.md#castresultsarrayrange-vo)|[ All](castresultsarrayrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](castresultsarrayrange.md#movenext-void)|[ Current](castresultsarrayrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](castresultsarrayrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](castresultsarrayrange.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](castresultsarrayrange.md#castresultsarrayrange-vo)|[All](castresultsarrayrange.md#all-zilch-engine-document)| | |
+|[MoveNext](castresultsarrayrange.md#movenext-void)|[Current](castresultsarrayrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](castresultsarrayrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](castresultsarrayrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

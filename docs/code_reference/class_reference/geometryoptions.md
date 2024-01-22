@@ -2,24 +2,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChangeBasis](geometryoptions.md#changebasis-zilch-engine)|Object| |
-| |[ CollapsePivots](geometryoptions.md#collapsepivots-zilch-engi)| | |
-| |[ CreateArchetype](geometryoptions.md#createarchetype-zilch-eng)| | |
-| |[ FlipWindingOrder](geometryoptions.md#flipwindingorder-zilch-en)| | |
-| |[ GenerateSmoothNormals](geometryoptions.md#generatesmoothnormals-ze)| | |
-| |[ GenerateTangentSpace](geometryoptions.md#generatetangentspace-zer)| | |
-| |[ ImportAnimations](geometryoptions.md#importanimations-zilch-en)| | |
-| |[ ImportMeshes](geometryoptions.md#importmeshes-zilch-engine)| | |
-| |[ ImportTextures](geometryoptions.md#importtextures-zilch-engi)| | |
-| |[ InvertUvYAxis](geometryoptions.md#invertuvyaxis-zilch-engin)| | |
-| |[ OriginOffset](geometryoptions.md#originoffset-zilch-engine)| | |
-| |[ PhysicsImport](geometryoptions.md#physicsimport-zilch-engin)| | |
-| |[ ScaleConversion](geometryoptions.md#scaleconversion-zilch-eng)| | |
-| |[ ScaleFactor](geometryoptions.md#scalefactor-zilch-engine)| | |
-| |[ SmoothingAngleDegreesThreshold](geometryoptions.md#smoothingangledegreesthr)| | |
-| |[ XBasisTo](geometryoptions.md#xbasisto-zilch-engine-doc)| | |
-| |[ YBasisTo](geometryoptions.md#ybasisto-zilch-engine-doc)| | |
-| |[ ZBasisTo](geometryoptions.md#zbasisto-zilch-engine-doc)| | |
+| |[ChangeBasis](geometryoptions.md#changebasis-zilch-engine)|Object| |
+| |[CollapsePivots](geometryoptions.md#collapsepivots-zilch-engi)| | |
+| |[CreateArchetype](geometryoptions.md#createarchetype-zilch-eng)| | |
+| |[FlipWindingOrder](geometryoptions.md#flipwindingorder-zilch-en)| | |
+| |[GenerateSmoothNormals](geometryoptions.md#generatesmoothnormals-ze)| | |
+| |[GenerateTangentSpace](geometryoptions.md#generatetangentspace-zer)| | |
+| |[ImportAnimations](geometryoptions.md#importanimations-zilch-en)| | |
+| |[ImportMeshes](geometryoptions.md#importmeshes-zilch-engine)| | |
+| |[ImportTextures](geometryoptions.md#importtextures-zilch-engi)| | |
+| |[InvertUvYAxis](geometryoptions.md#invertuvyaxis-zilch-engin)| | |
+| |[OriginOffset](geometryoptions.md#originoffset-zilch-engine)| | |
+| |[PhysicsImport](geometryoptions.md#physicsimport-zilch-engin)| | |
+| |[ScaleConversion](geometryoptions.md#scaleconversion-zilch-eng)| | |
+| |[ScaleFactor](geometryoptions.md#scalefactor-zilch-engine)| | |
+| |[SmoothingAngleDegreesThreshold](geometryoptions.md#smoothingangledegreesthr)| | |
+| |[XBasisTo](geometryoptions.md#xbasisto-zilch-engine-doc)| | |
+| |[YBasisTo](geometryoptions.md#ybasisto-zilch-engine-doc)| | |
+| |[ZBasisTo](geometryoptions.md#zbasisto-zilch-engine-doc)| | |
 
 
  #  Properties

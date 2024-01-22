@@ -1,9 +1,9 @@
-The [ PanningNode ](../../../../code_reference/class_reference/panningnode.md) collects audio data from all of its inputs and applies a volume modification to the left and right channels separately. 
+The [PanningNode](../../../../code_reference/class_reference/panningnode.md) collects audio data from all of its inputs and applies a volume modification to the left and right channels separately. 
 
  # Common Uses
 
 - Moving sounds from left to right and right to left (such as an ambient wind sound)
-- Positioning sounds without using a [SoundEmitter ](soundemitter.md)
+- Positioning sounds without using a [SoundEmitter](soundemitter.md)
 
  # Using the PanningNode
 
@@ -83,6 +83,6 @@ class MovingNoise : NadaComponent
 - [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ PanningNode ](../../../../code_reference/class_reference/panningnode.md) 
+- [PanningNode](../../../../code_reference/class_reference/panningnode.md) 
 
  

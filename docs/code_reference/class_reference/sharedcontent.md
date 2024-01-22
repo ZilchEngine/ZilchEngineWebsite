@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](sharedcontent.md#sharedcontent-void)|[ ExtraContentLibraries](sharedcontent.md#extracontentlibraries-ze)|[component](component.md)| |
+|[Constructor](sharedcontent.md#sharedcontent-void)|[ExtraContentLibraries](sharedcontent.md#extracontentlibraries-ze)|[component](component.md)| |
 
 
  #  Properties

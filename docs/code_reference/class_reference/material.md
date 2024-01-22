@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ RuntimeClone](material.md#runtimeclone-zilch-engine)|[ CompositionLabel](material.md#compositionlabel-zilch-en)|[dataresource](dataresource.md)| |
-| |[ ReferencedByList](material.md#referencedbylist-zilch-en)| | |
-| |[ RenderGroups](material.md#rendergroups-zilch-engine)| | |
+|[RuntimeClone](material.md#runtimeclone-zilch-engine)|[CompositionLabel](material.md#compositionlabel-zilch-en)|[dataresource](dataresource.md)| |
+| |[ReferencedByList](material.md#referencedbylist-zilch-en)| | |
+| |[RenderGroups](material.md#rendergroups-zilch-engine)| | |
 
 
  #  Properties

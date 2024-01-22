@@ -4,18 +4,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](texteditorconfig.md#texteditorconfig-void)|[ AutoCompleteOnEnter](texteditorconfig.md#autocompleteonenter-zero)|[component](component.md)| |
-| |[ CodeFolding](texteditorconfig.md#codefolding-zilch-engine)| | |
-| |[ ColorScheme](texteditorconfig.md#colorscheme-zilch-engine)| | |
-| |[ ConfidentAutoCompleteOnSymbols](texteditorconfig.md#confidentautocompleteons)| | |
-| |[ FontSize](texteditorconfig.md#fontsize-zilch-engine-doc)| | |
-| |[ HighlightPartialTextMatch](texteditorconfig.md#highlightpartialtextmatc)| | |
-| |[ KeywordAndTypeCompletion](texteditorconfig.md#keywordandtypecompletion)| | |
-| |[ LineNumbers](texteditorconfig.md#linenumbers-zilch-engine)| | |
-| |[ LocalWordCompletion](texteditorconfig.md#localwordcompletion-zero)| | |
-| |[ ShowWhiteSpace](texteditorconfig.md#showwhitespace-zilch-engi)| | |
-| |[ TabWidth](texteditorconfig.md#tabwidth-zilch-engine-doc)| | |
-| |[ TextMatchHighlighting](texteditorconfig.md#textmatchhighlighting-ze)| | |
+|[Constructor](texteditorconfig.md#texteditorconfig-void)|[AutoCompleteOnEnter](texteditorconfig.md#autocompleteonenter-zero)|[component](component.md)| |
+| |[CodeFolding](texteditorconfig.md#codefolding-zilch-engine)| | |
+| |[ColorScheme](texteditorconfig.md#colorscheme-zilch-engine)| | |
+| |[ConfidentAutoCompleteOnSymbols](texteditorconfig.md#confidentautocompleteons)| | |
+| |[FontSize](texteditorconfig.md#fontsize-zilch-engine-doc)| | |
+| |[HighlightPartialTextMatch](texteditorconfig.md#highlightpartialtextmatc)| | |
+| |[KeywordAndTypeCompletion](texteditorconfig.md#keywordandtypecompletion)| | |
+| |[LineNumbers](texteditorconfig.md#linenumbers-zilch-engine)| | |
+| |[LocalWordCompletion](texteditorconfig.md#localwordcompletion-zero)| | |
+| |[ShowWhiteSpace](texteditorconfig.md#showwhitespace-zilch-engi)| | |
+| |[TabWidth](texteditorconfig.md#tabwidth-zilch-engine-doc)| | |
+| |[TextMatchHighlighting](texteditorconfig.md#textmatchhighlighting-ze)| | |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ WebBrowser](webbrowserevent.md#webbrowser-zilch-engine-d)|[event](event.md)|[webbrowserconsoleevent](webbrowserconsoleevent.md)|
+| |[WebBrowser](webbrowserevent.md#webbrowser-zilch-engine-d)|[event](event.md)|[webbrowserconsoleevent](webbrowserconsoleevent.md)|
 | | | |[webbrowsercursorevent](webbrowsercursorevent.md)|
 | | | |[webbrowserdownloadevent](webbrowserdownloadevent.md)|
 | | | |[webbrowserpointqueryevent](webbrowserpointqueryevent.md)|

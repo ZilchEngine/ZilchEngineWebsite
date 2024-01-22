@@ -2,30 +2,30 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AdditiveSynthNode](audio.md#additivesynthnode-zilch-e)|[ DispatchMicrophoneCompressedByteData](audio.md#dispatchmicrophonecompre)|[system](system.md)| |
-|[ AddNoiseNode](audio.md#addnoisenode-zilch-engine)|[ DispatchMicrophoneUncompressedFloatData](audio.md#dispatchmicrophoneuncomp)| | |
-|[ BandPassNode](audio.md#bandpassnode-zilch-engine)|[ LatencySetting](audio.md#latencysetting-zilch-engi)| | |
-|[ ChorusNode](audio.md#chorusnode-zilch-engine-d)|[ MuteAllAudio](audio.md#muteallaudio-zilch-engine)| | |
-|[ CompressorNode](audio.md#compressornode-zilch-engi)|[ OutputChannels](audio.md#outputchannels-zilch-engi)| | |
-|[ CustomAudioNode](audio.md#customaudionode-zilch-eng)|[ PeakInputLevel](audio.md#peakinputlevel-zilch-engi)| | |
-|[ DelayNode](audio.md#delaynode-zilch-engine-do)|[ PeakOutputLevel](audio.md#peakoutputlevel-zilch-eng)| | |
-|[ EqualizerNode](audio.md#equalizernode-zilch-engin)|[ RMSOutputLevel](audio.md#rmsoutputlevel-zilch-engi)| | |
-|[ ExpanderNode](audio.md#expandernode-zilch-engine)|[ SystemVolume](audio.md#systemvolume-zilch-engine)| | |
-|[ FlangerNode](audio.md#flangernode-zilch-engine)| | | |
-|[ GeneratedWaveNode](audio.md#generatedwavenode-zilch-e)| | | |
-|[ GetNodeGraphInfo](audio.md#getnodegraphinfo-zilch-en)| | | |
-|[ GranularSynthNode](audio.md#granularsynthnode-zilch-e)| | | |
-|[ HighPassNode](audio.md#highpassnode-zilch-engine)| | | |
-|[ LowPassNode](audio.md#lowpassnode-zilch-engine)| | | |
-|[ MicrophoneInputNode](audio.md#microphoneinputnode-zero)| | | |
-|[ ModulationNode](audio.md#modulationnode-zilch-engi)| | | |
-|[ PanningNode](audio.md#panningnode-zilch-engine)| | | |
-|[ PitchNode](audio.md#pitchnode-zilch-engine-do)| | | |
-|[ RecordingNode](audio.md#recordingnode-zilch-engin)| | | |
-|[ ReverbNode](audio.md#reverbnode-zilch-engine-d)| | | |
-|[ SaveAudioNode](audio.md#saveaudionode-zilch-engin)| | | |
-|[ SoundBuffer](audio.md#soundbuffer-zilch-engine)| | | |
-|[ VolumeNode](audio.md#volumenode-zilch-engine-d)| | | |
+|[AdditiveSynthNode](audio.md#additivesynthnode-zilch-e)|[DispatchMicrophoneCompressedByteData](audio.md#dispatchmicrophonecompre)|[system](system.md)| |
+|[AddNoiseNode](audio.md#addnoisenode-zilch-engine)|[DispatchMicrophoneUncompressedFloatData](audio.md#dispatchmicrophoneuncomp)| | |
+|[BandPassNode](audio.md#bandpassnode-zilch-engine)|[LatencySetting](audio.md#latencysetting-zilch-engi)| | |
+|[ChorusNode](audio.md#chorusnode-zilch-engine-d)|[MuteAllAudio](audio.md#muteallaudio-zilch-engine)| | |
+|[CompressorNode](audio.md#compressornode-zilch-engi)|[OutputChannels](audio.md#outputchannels-zilch-engi)| | |
+|[CustomAudioNode](audio.md#customaudionode-zilch-eng)|[PeakInputLevel](audio.md#peakinputlevel-zilch-engi)| | |
+|[DelayNode](audio.md#delaynode-zilch-engine-do)|[PeakOutputLevel](audio.md#peakoutputlevel-zilch-eng)| | |
+|[EqualizerNode](audio.md#equalizernode-zilch-engin)|[RMSOutputLevel](audio.md#rmsoutputlevel-zilch-engi)| | |
+|[ExpanderNode](audio.md#expandernode-zilch-engine)|[SystemVolume](audio.md#systemvolume-zilch-engine)| | |
+|[FlangerNode](audio.md#flangernode-zilch-engine)| | | |
+|[GeneratedWaveNode](audio.md#generatedwavenode-zilch-e)| | | |
+|[GetNodeGraphInfo](audio.md#getnodegraphinfo-zilch-en)| | | |
+|[GranularSynthNode](audio.md#granularsynthnode-zilch-e)| | | |
+|[HighPassNode](audio.md#highpassnode-zilch-engine)| | | |
+|[LowPassNode](audio.md#lowpassnode-zilch-engine)| | | |
+|[MicrophoneInputNode](audio.md#microphoneinputnode-zero)| | | |
+|[ModulationNode](audio.md#modulationnode-zilch-engi)| | | |
+|[PanningNode](audio.md#panningnode-zilch-engine)| | | |
+|[PitchNode](audio.md#pitchnode-zilch-engine-do)| | | |
+|[RecordingNode](audio.md#recordingnode-zilch-engin)| | | |
+|[ReverbNode](audio.md#reverbnode-zilch-engine-d)| | | |
+|[SaveAudioNode](audio.md#saveaudionode-zilch-engin)| | | |
+|[SoundBuffer](audio.md#soundbuffer-zilch-engine)| | | |
+|[VolumeNode](audio.md#volumenode-zilch-engine-d)| | | |
 
 
  #  Properties

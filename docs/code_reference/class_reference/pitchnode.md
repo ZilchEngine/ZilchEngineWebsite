@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolatePitch](pitchnode.md#interpolatepitch-void)|[ Pitch](pitchnode.md#pitch-zilch-engine-docume)|[soundnode](soundnode.md)| |
-|[ InterpolateSemitones](pitchnode.md#interpolatesemitones-voi)|[ Semitones](pitchnode.md#semitones-zilch-engine-do)| | |
+|[InterpolatePitch](pitchnode.md#interpolatepitch-void)|[Pitch](pitchnode.md#pitch-zilch-engine-docume)|[soundnode](soundnode.md)| |
+|[InterpolateSemitones](pitchnode.md#interpolatesemitones-voi)|[Semitones](pitchnode.md#semitones-zilch-engine-do)| | |
 
 
  #  Properties

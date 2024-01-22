@@ -6,18 +6,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](soundspace.md#interpolatedecibels-void)|[ Decibels](soundspace.md#decibels-zilch-engine-doc)|[component](component.md)| |
-|[ InterpolatePitch](soundspace.md#interpolatepitch-void)|[ InputNode](soundspace.md#inputnode-zilch-engine-do)| | |
-|[ InterpolateSemitones](soundspace.md#interpolatesemitones-voi)|[ MuteAudio](soundspace.md#muteaudio-zilch-engine-do)| | |
-|[ InterpolateVolume](soundspace.md#interpolatevolume-void)|[ OutputNode](soundspace.md#outputnode-zilch-engine-d)| | |
-|[ PlayCue](soundspace.md#playcue-zilch-engine-docu)|[ Paused](soundspace.md#paused-zilch-engine-docum)| | |
-|[ PlayCuePaused](soundspace.md#playcuepaused-zilch-engin)|[ PauseWithTimeSpace](soundspace.md#pausewithtimespace-zero)| | |
-|[ Constructor](soundspace.md#soundspace-void)|[ Pitch](soundspace.md#pitch-zilch-engine-docume)| | |
-| |[ PitchWithTimeSpace](soundspace.md#pitchwithtimespace-zero)| | |
-| |[ Semitones](soundspace.md#semitones-zilch-engine-do)| | |
-| |[ SoundNodeInput](soundspace.md#soundnodeinput-zilch-engi)| | |
-| |[ SoundNodeOutput](soundspace.md#soundnodeoutput-zilch-eng)| | |
-| |[ Volume](soundspace.md#volume-zilch-engine-docum)| | |
+|[InterpolateDecibels](soundspace.md#interpolatedecibels-void)|[Decibels](soundspace.md#decibels-zilch-engine-doc)|[component](component.md)| |
+|[InterpolatePitch](soundspace.md#interpolatepitch-void)|[InputNode](soundspace.md#inputnode-zilch-engine-do)| | |
+|[InterpolateSemitones](soundspace.md#interpolatesemitones-voi)|[MuteAudio](soundspace.md#muteaudio-zilch-engine-do)| | |
+|[InterpolateVolume](soundspace.md#interpolatevolume-void)|[OutputNode](soundspace.md#outputnode-zilch-engine-d)| | |
+|[PlayCue](soundspace.md#playcue-zilch-engine-docu)|[Paused](soundspace.md#paused-zilch-engine-docum)| | |
+|[PlayCuePaused](soundspace.md#playcuepaused-zilch-engin)|[PauseWithTimeSpace](soundspace.md#pausewithtimespace-zero)| | |
+|[Constructor](soundspace.md#soundspace-void)|[Pitch](soundspace.md#pitch-zilch-engine-docume)| | |
+| |[PitchWithTimeSpace](soundspace.md#pitchwithtimespace-zero)| | |
+| |[Semitones](soundspace.md#semitones-zilch-engine-do)| | |
+| |[SoundNodeInput](soundspace.md#soundnodeinput-zilch-engi)| | |
+| |[SoundNodeOutput](soundspace.md#soundnodeoutput-zilch-eng)| | |
+| |[Volume](soundspace.md#volume-zilch-engine-docum)| | |
 
 
  #  Properties

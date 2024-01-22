@@ -1,10 +1,10 @@
-The [ SoundSpace ](../../../code_reference/class_reference/soundspace.md) is one of the default components of a Space. Its basic purpose is to separate sound areas, which means that a [SoundListener](soundlistener.md) in one SoundSpace can't hear sounds in a different SoundSpace. It also allows the user to control properties like pitch and volume for all sounds in the Space. 
+The [SoundSpace](../../../code_reference/class_reference/soundspace.md) is one of the default components of a Space. Its basic purpose is to separate sound areas, which means that a [SoundListener](soundlistener.md) in one SoundSpace can't hear sounds in a different SoundSpace. It also allows the user to control properties like pitch and volume for all sounds in the Space. 
 
  # Using SoundSpaces
 
  ## Playing SoundCues
 
-[SoundCues  ](soundcue.md) can be played through SoundSpaces for non-positional audio that does not go through the SoundListeners. The `PlayCue` method will start playing the SoundCue immediately, while the `PlayCuePaused` method will create a paused [SoundInstance ](soundinstance.md), which allows the user to change its settings before un-pausing it.
+[SoundCues ](soundcue.md) can be played through SoundSpaces for non-positional audio that does not go through the SoundListeners. The `PlayCue` method will start playing the SoundCue immediately, while the `PlayCuePaused` method will create a paused [SoundInstance](soundinstance.md), which allows the user to change its settings before un-pausing it.
 
 ```TS
 this.MySoundInstance = this.Space.SoundSpace.PlayCuePaused(this.MySoundCue);
@@ -32,7 +32,7 @@ If the `icon-check-square-o, name=PauseWithTimeSpace` property is `true`, which 
 
  ## SoundNodes
 
-Each SoundSpace has a single [SoundNode ](soundnode.md) that all audio in the Space is connected to, the `InputNode`. SoundListeners are connected directly to this node, as well as SoundInstances that are not played through a SoundEmitter. Since the SoundSpace uses additional SoundNodes to modify pitch and volume, it also has an `OutputNode` property which you can use to attach to the output of the SoundSpace. SoundNodes that the user creates to affect all audio in the SoundSpace should be inserted after the `OutputNode`. 
+Each SoundSpace has a single [SoundNode](soundnode.md) that all audio in the Space is connected to, the `InputNode`. SoundListeners are connected directly to this node, as well as SoundInstances that are not played through a SoundEmitter. Since the SoundSpace uses additional SoundNodes to modify pitch and volume, it also has an `OutputNode` property which you can use to attach to the output of the SoundSpace. SoundNodes that the user creates to affect all audio in the SoundSpace should be inserted after the `OutputNode`. 
 
 NOTE: SoundNodes that are inserted after the SoundSpace's `OutputNode` must be removed by the user, as these will not be automatically removed when the SoundSpace is destroyed.
 
@@ -43,15 +43,15 @@ SoundNodes cannot be inserted after the `InputNode` or before the `OutputNode`, 
 
  ## Manual
 
-- [SoundListener ](soundlistener.md)
-- [SoundCue ](soundcue.md)
-- [SoundInstance ](soundinstance.md)
-- [SoundTag ](soundtag.md)
-- [SoundEmitter ](soundemitter.md)
-- [SoundNode ](soundnode.md)
+- [SoundListener](soundlistener.md)
+- [SoundCue](soundcue.md)
+- [SoundInstance](soundinstance.md)
+- [SoundTag](soundtag.md)
+- [SoundEmitter](soundemitter.md)
+- [SoundNode](soundnode.md)
 
  ## Reference
 
-- [ SoundSpace ](../../../code_reference/class_reference/soundspace.md) 
+- [SoundSpace](../../../code_reference/class_reference/soundspace.md) 
 
  

@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](rendersettings.md#rendersettings-void)|[ BlendSettings](rendersettings.md#blendsettings-zilch-engin)| | |
-| |[ ColorTarget](rendersettings.md#colortarget-zilch-engine)| | |
-| |[ CullMode](rendersettings.md#cullmode-zilch-engine-doc)| | |
-| |[ DepthSettings](rendersettings.md#depthsettings-zilch-engin)| | |
-| |[ DepthTarget](rendersettings.md#depthtarget-zilch-engine)| | |
-| |[ GlobalShaderInputs](rendersettings.md#globalshaderinputs-zero)| | |
-| |[ MultiRenderTarget](rendersettings.md#multirendertarget-zilch-e)| | |
+|[Constructor](rendersettings.md#rendersettings-void)|[BlendSettings](rendersettings.md#blendsettings-zilch-engin)| | |
+| |[ColorTarget](rendersettings.md#colortarget-zilch-engine)| | |
+| |[CullMode](rendersettings.md#cullmode-zilch-engine-doc)| | |
+| |[DepthSettings](rendersettings.md#depthsettings-zilch-engin)| | |
+| |[DepthTarget](rendersettings.md#depthtarget-zilch-engine)| | |
+| |[GlobalShaderInputs](rendersettings.md#globalshaderinputs-zero)| | |
+| |[MultiRenderTarget](rendersettings.md#multirendertarget-zilch-e)| | |
 
 
  #  Properties

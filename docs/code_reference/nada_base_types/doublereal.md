@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Parse](doublereal.md#parse-zilch-engine-docume)|[ NegativeMin](doublereal.md#negativemin-zilch-engine)| | |
-| |[ NegativeValueClosestToZero](doublereal.md#negativevalueclosesttoze)| | |
-| |[ PositiveMax](doublereal.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](doublereal.md#positivevalueclosesttoze)| | |
+|[Parse](doublereal.md#parse-zilch-engine-docume)|[NegativeMin](doublereal.md#negativemin-zilch-engine)| | |
+| |[NegativeValueClosestToZero](doublereal.md#negativevalueclosesttoze)| | |
+| |[PositiveMax](doublereal.md#positivemax-zilch-engine)| | |
+| |[PositiveValueClosestToZero](doublereal.md#positivevalueclosesttoze)| | |
 
 
  #  Properties

@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](mesh.md#createruntime-zilch-engin)|[ Indices](mesh.md#indices-zilch-engine-docu)|Resource| |
-|[ RuntimeClone](mesh.md#runtimeclone-zilch-engine)|[ PrimitiveType](mesh.md#primitivetype-zilch-engin)| | |
-|[ Upload](mesh.md#upload-void)|[ Vertices](mesh.md#vertices-zilch-engine-doc)| | |
-|[ UploadNoRayCastInfo](mesh.md#uploadnoraycastinfo-void)| | | |
-|[ UploadNoRayCastInfoOrAabb](mesh.md#uploadnoraycastinfooraab)| | | |
+|[CreateRuntime](mesh.md#createruntime-zilch-engin)|[Indices](mesh.md#indices-zilch-engine-docu)|Resource| |
+|[RuntimeClone](mesh.md#runtimeclone-zilch-engine)|[PrimitiveType](mesh.md#primitivetype-zilch-engin)| | |
+|[Upload](mesh.md#upload-void)|[Vertices](mesh.md#vertices-zilch-engine-doc)| | |
+|[UploadNoRayCastInfo](mesh.md#uploadnoraycastinfo-void)| | | |
+|[UploadNoRayCastInfoOrAabb](mesh.md#uploadnoraycastinfooraab)| | | |
 
 
  #  Properties

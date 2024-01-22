@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Button](joystickevent.md#button-zilch-engine-docum)|[event](event.md)| |
-| |[ Joystick](joystickevent.md#joystick-zilch-engine-doc)| | |
+| |[Button](joystickevent.md#button-zilch-engine-docum)|[event](event.md)| |
+| |[Joystick](joystickevent.md#joystick-zilch-engine-doc)| | |
 
 
  #  Properties

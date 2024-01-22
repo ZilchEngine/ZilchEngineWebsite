@@ -2,13 +2,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debuglinecross.md#debuglinecross-void)|[ Color](debuglinecross.md#color-zilch-engine-docume)| | |
-| |[ HalfExtents](debuglinecross.md#halfextents-zilch-engine)| | |
-| |[ OnTop](debuglinecross.md#ontop-zilch-engine-docume)| | |
-| |[ Position](debuglinecross.md#position-zilch-engine-doc)| | |
-| |[ ViewAligned](debuglinecross.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debuglinecross.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debuglinecross.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debuglinecross.md#debuglinecross-void)|[Color](debuglinecross.md#color-zilch-engine-docume)| | |
+| |[HalfExtents](debuglinecross.md#halfextents-zilch-engine)| | |
+| |[OnTop](debuglinecross.md#ontop-zilch-engine-docume)| | |
+| |[Position](debuglinecross.md#position-zilch-engine-doc)| | |
+| |[ViewAligned](debuglinecross.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debuglinecross.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debuglinecross.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

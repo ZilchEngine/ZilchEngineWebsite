@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Network](nethostlistupdate.md#network-zilch-engine-docu)|[event](event.md)| |
+| |[Network](nethostlistupdate.md#network-zilch-engine-docu)|[event](event.md)| |
 
 
  #  Properties

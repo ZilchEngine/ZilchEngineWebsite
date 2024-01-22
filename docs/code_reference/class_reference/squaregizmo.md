@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](squaregizmo.md#squaregizmo-void)|[ Bordered](squaregizmo.md#bordered-zilch-engine-doc)|[simplegizmobase](simplegizmobase.md)| |
-| |[ Filled](squaregizmo.md#filled-zilch-engine-docum)| | |
-| |[ Size](squaregizmo.md#size-zilch-engine-documen)| | |
-| |[ SnapDistance](squaregizmo.md#snapdistance-zilch-engine)| | |
-| |[ ViewAligned](squaregizmo.md#viewaligned-zilch-engine)| | |
+|[Constructor](squaregizmo.md#squaregizmo-void)|[Bordered](squaregizmo.md#bordered-zilch-engine-doc)|[simplegizmobase](simplegizmobase.md)| |
+| |[Filled](squaregizmo.md#filled-zilch-engine-docum)| | |
+| |[Size](squaregizmo.md#size-zilch-engine-documen)| | |
+| |[SnapDistance](squaregizmo.md#snapdistance-zilch-engine)| | |
+| |[ViewAligned](squaregizmo.md#viewaligned-zilch-engine)| | |
 
 
  #  Properties

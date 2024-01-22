@@ -1,4 +1,4 @@
-A [ Sound ](../../../code_reference/class_reference/sound.md) resource is created for every imported audio file. Sounds can be attached to any number of [SoundCues](soundcue.md), allowing the user to play the same sound multiple ways while only storing the file once.
+A [Sound](../../../code_reference/class_reference/sound.md) resource is created for every imported audio file. Sounds can be attached to any number of [SoundCues](soundcue.md), allowing the user to play the same sound multiple ways while only storing the file once.
 
  # Using Sounds
 
@@ -14,7 +14,7 @@ Once files are imported, they will be resampled to 48000 Hz and stored in a cust
 
  # SoundBuilder Options
 
-When a Sound resource is selected, the [ SoundBuilder ](../../../code_reference/class_reference/soundbuilder.md) properties will be shown in the Property window.
+When a Sound resource is selected, the [SoundBuilder](../../../code_reference/class_reference/soundbuilder.md) properties will be shown in the Property window.
 
 NOTE: When changing these properties for an existing resource the user must click on the Reload button before the settings will take effect.
 
@@ -37,11 +37,11 @@ If the Normalize checkBox property is checked the MaxVolume  property will be sh
 
  ## Manual
 
-- [SoundCue ](soundcue.md)
-- [SoundEntry ](soundcue.md#soundentries)
+- [SoundCue](soundcue.md)
+- [SoundEntry](soundcue.md#soundentries)
 
  ## Reference
-- [ Sound ](../../../code_reference/class_reference/sound.md)
-- [ SoundBuilder ](../../../code_reference/class_reference/soundbuilder.md) 
+- [Sound](../../../code_reference/class_reference/sound.md)
+- [SoundBuilder](../../../code_reference/class_reference/soundbuilder.md) 
 
  

@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Expand](sphere.md#expand-void)|[ Center](sphere.md#center-zilch-engine-docum)| | |
-|[ Overlap](sphere.md#overlap-zilch-engine-docu)|[ Radius](sphere.md#radius-zilch-engine-docum)| | |
-|[ Overlaps](sphere.md#overlaps-zilch-engine-doc)|[ SurfaceArea](sphere.md#surfacearea-zilch-engine)| | |
-|[ Constructor](sphere.md#sphere-void)|[ Volume](sphere.md#volume-zilch-engine-docum)| | |
+|[Expand](sphere.md#expand-void)|[Center](sphere.md#center-zilch-engine-docum)| | |
+|[Overlap](sphere.md#overlap-zilch-engine-docu)|[Radius](sphere.md#radius-zilch-engine-docum)| | |
+|[Overlaps](sphere.md#overlaps-zilch-engine-doc)|[SurfaceArea](sphere.md#surfacearea-zilch-engine)| | |
+|[Constructor](sphere.md#sphere-void)|[Volume](sphere.md#volume-zilch-engine-docum)| | |
 
 
  #  Properties

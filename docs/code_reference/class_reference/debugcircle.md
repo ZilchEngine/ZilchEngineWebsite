@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugcircle.md#debugcircle-void)|[ Axis](debugcircle.md#axis-zilch-engine-documen)| | |
-| |[ Color](debugcircle.md#color-zilch-engine-docume)| | |
-| |[ OnTop](debugcircle.md#ontop-zilch-engine-docume)| | |
-| |[ Position](debugcircle.md#position-zilch-engine-doc)| | |
-| |[ Radius](debugcircle.md#radius-zilch-engine-docum)| | |
-| |[ ViewAligned](debugcircle.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugcircle.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugcircle.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugcircle.md#debugcircle-void)|[Axis](debugcircle.md#axis-zilch-engine-documen)| | |
+| |[Color](debugcircle.md#color-zilch-engine-docume)| | |
+| |[OnTop](debugcircle.md#ontop-zilch-engine-docume)| | |
+| |[Position](debugcircle.md#position-zilch-engine-doc)| | |
+| |[Radius](debugcircle.md#radius-zilch-engine-docum)| | |
+| |[ViewAligned](debugcircle.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugcircle.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugcircle.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](heightmaptool.md#heightmaptool-void)|[ CellIndexType](heightmaptool.md#cellindextype-zilch-engin)|[component](component.md)| |
-| |[ CurrentTool](heightmaptool.md#currenttool-zilch-engine)| | |
-| |[ ShowCellIndex](heightmaptool.md#showcellindex-zilch-engin)| | |
-| |[ ShowPatchIndex](heightmaptool.md#showpatchindex-zilch-engi)| | |
-| |[ SubTool](heightmaptool.md#subtool-zilch-engine-docu)| | |
+|[Constructor](heightmaptool.md#heightmaptool-void)|[CellIndexType](heightmaptool.md#cellindextype-zilch-engin)|[component](component.md)| |
+| |[CurrentTool](heightmaptool.md#currenttool-zilch-engine)| | |
+| |[ShowCellIndex](heightmaptool.md#showcellindex-zilch-engin)| | |
+| |[ShowPatchIndex](heightmaptool.md#showpatchindex-zilch-engi)| | |
+| |[SubTool](heightmaptool.md#subtool-zilch-engine-docu)| | |
 
 
  #  Properties

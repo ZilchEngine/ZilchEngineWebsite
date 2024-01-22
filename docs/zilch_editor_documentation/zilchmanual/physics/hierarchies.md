@@ -1,4 +1,4 @@
-[ Hierarchies](../../../code_reference/class_reference/hierarchy.md) allows physics to building complicated objects from simpler pieces
+[Hierarchies](../../../code_reference/class_reference/hierarchy.md) allows physics to building complicated objects from simpler pieces
 
  ##  Basic understanding
 To understand the basics of hierarchies, it's first important to conceptually understand what a [RigidBody](rigidbody.md) and {icon university}[[../Colliders | Collider's]] role is. A Collider defines a shape and contains certain physical attributes such as density, volume, friction, etc... A RigidBody gives an object inertia (e.g. mass, velocity, etc...). This gives a few meanings to objects in a hierarchy. If an object doesn't have a Collider, then it doesn't have volume or density, which means it can't contribute to the mass of a RigidBody. If an object doesn't have a RigidBody, then it may have collision properties, but it cannot be moved by physics interaction.

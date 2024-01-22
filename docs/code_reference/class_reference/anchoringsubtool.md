@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AnchoredPointMassColor](anchoringsubtool.md#anchoredpointmasscolor-z)|[pointmassselectorsubtool](pointmassselectorsubtool.md)| |
-| |[ DrawAnchoredPoints](anchoringsubtool.md#drawanchoredpoints-zero)| | |
+| |[AnchoredPointMassColor](anchoringsubtool.md#anchoredpointmasscolor-z)|[pointmassselectorsubtool](pointmassselectorsubtool.md)| |
+| |[DrawAnchoredPoints](anchoringsubtool.md#drawanchoredpoints-zero)| | |
 
 
  #  Properties

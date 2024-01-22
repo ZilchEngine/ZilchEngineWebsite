@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateWetPercent](reverbnode.md#interpolatewetpercent-vo)|[ Length](reverbnode.md#length-zilch-engine-docum)|[soundnode](soundnode.md)| |
-|[ InterpolateWetValue](reverbnode.md#interpolatewetvalue-void)|[ WetPercent](reverbnode.md#wetpercent-zilch-engine-d)| | |
-| |[ WetValue](reverbnode.md#wetvalue-zilch-engine-doc)| | |
+|[InterpolateWetPercent](reverbnode.md#interpolatewetpercent-vo)|[Length](reverbnode.md#length-zilch-engine-docum)|[soundnode](soundnode.md)| |
+|[InterpolateWetValue](reverbnode.md#interpolatewetvalue-void)|[WetPercent](reverbnode.md#wetpercent-zilch-engine-d)| | |
+| |[WetValue](reverbnode.md#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties

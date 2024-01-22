@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](customphysicseffect.md#customphysicseffect-void)| |[physicseffect](physicseffect.md)| |
+|[Constructor](customphysicseffect.md#customphysicseffect-void)| |[physicseffect](physicseffect.md)| |
 
 
  #  Properties

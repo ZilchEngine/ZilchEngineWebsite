@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Cursor](webbrowsercursorevent.md#cursor-zilch-engine-docum)|[webbrowserevent](webbrowserevent.md)| |
+| |[Cursor](webbrowsercursorevent.md#cursor-zilch-engine-docum)|[webbrowserevent](webbrowserevent.md)| |
 
 
  #  Properties

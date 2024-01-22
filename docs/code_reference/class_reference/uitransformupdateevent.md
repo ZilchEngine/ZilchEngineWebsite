@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ RootWidget](uitransformupdateevent.md#rootwidget-zilch-engine-d)|[event](event.md)| |
+| |[RootWidget](uitransformupdateevent.md#rootwidget-zilch-engine-d)|[event](event.md)| |
 
 
  #  Properties

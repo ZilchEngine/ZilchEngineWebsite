@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ActivateAutoUpdate](propertyview.md#activateautoupdate-void)| |[composite](composite.md)| |
-|[ Invalidate](propertyview.md#invalidate-void)| | | |
-|[ Refresh](propertyview.md#refresh-void)| | | |
-|[ SetObject](propertyview.md#setobject-void)| | | |
+|[ActivateAutoUpdate](propertyview.md#activateautoupdate-void)| |[composite](composite.md)| |
+|[Invalidate](propertyview.md#invalidate-void)| | | |
+|[Refresh](propertyview.md#refresh-void)| | | |
+|[SetObject](propertyview.md#setobject-void)| | | |
 
 
  #  Properties

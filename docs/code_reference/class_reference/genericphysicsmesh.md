@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ UpdateAndNotifyIfModified](genericphysicsmesh.md#updateandnotifyifmodifie)|[ Indices](genericphysicsmesh.md#indices-zilch-engine-docu)|Resource|[convexmesh](convexmesh.md)|
-|[ Validate](genericphysicsmesh.md#validate-zilch-engine-doc)|[ Vertices](genericphysicsmesh.md#vertices-zilch-engine-doc)| |[physicsmesh](physicsmesh.md)|
+|[UpdateAndNotifyIfModified](genericphysicsmesh.md#updateandnotifyifmodifie)|[Indices](genericphysicsmesh.md#indices-zilch-engine-docu)|Resource|[convexmesh](convexmesh.md)|
+|[Validate](genericphysicsmesh.md#validate-zilch-engine-doc)|[Vertices](genericphysicsmesh.md#vertices-zilch-engine-doc)| |[physicsmesh](physicsmesh.md)|
 
 
  #  Properties

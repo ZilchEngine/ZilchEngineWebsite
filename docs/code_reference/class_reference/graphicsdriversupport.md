@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ MultiTargetBlend](graphicsdriversupport.md#multitargetblend-zilch-en)| | |
-| |[ SamplerObjects](graphicsdriversupport.md#samplerobjects-zilch-engi)| | |
-| |[ TextureCompression](graphicsdriversupport.md#texturecompression-zero)| | |
+| |[MultiTargetBlend](graphicsdriversupport.md#multitargetblend-zilch-en)| | |
+| |[SamplerObjects](graphicsdriversupport.md#samplerobjects-zilch-engi)| | |
+| |[TextureCompression](graphicsdriversupport.md#texturecompression-zero)| | |
 
 
  #  Properties

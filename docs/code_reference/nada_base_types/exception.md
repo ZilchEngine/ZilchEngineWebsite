@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](exception.md#exception-void)|[ Message](exception.md#message-zilch-engine-docu)| | |
+|[Constructor](exception.md#exception-void)|[Message](exception.md#message-zilch-engine-docu)| | |
 
 
  #  Properties

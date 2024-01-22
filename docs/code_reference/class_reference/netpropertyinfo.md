@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Component](netpropertyinfo.md#component-zilch-engine-do)|[safeid32](safeid32.md)| |
-| |[ NetChannelConfig](netpropertyinfo.md#netchannelconfig-zilch-en)| | |
-| |[ NetPropertyConfig](netpropertyinfo.md#netpropertyconfig-zilch-e)| | |
-| |[ Property](netpropertyinfo.md#property-zilch-engine-doc)| | |
+| |[Component](netpropertyinfo.md#component-zilch-engine-do)|[safeid32](safeid32.md)| |
+| |[NetChannelConfig](netpropertyinfo.md#netchannelconfig-zilch-en)| | |
+| |[NetPropertyConfig](netpropertyinfo.md#netpropertyconfig-zilch-e)| | |
+| |[Property](netpropertyinfo.md#property-zilch-engine-doc)| | |
 
 
  #  Properties

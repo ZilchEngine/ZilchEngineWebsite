@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsA](type.md#isa-zilch-engine-document)|[ IsAny](type.md#isany-zilch-engine-docume)|[reflectionobject](reflectionobject.md)|[anytype](anytype.md)|
-|[ IsCastableTo](type.md#iscastableto-zilch-engine)|[ IsDelegate](type.md#isdelegate-zilch-engine-d)| |[boundtype](boundtype.md)|
-|[ IsRawCastableTo](type.md#israwcastableto-zilch-eng)|[ IsEnum](type.md#isenum-zilch-engine-docum)| |[delegatetype](delegatetype.md)|
-| |[ IsEnumOrFlags](type.md#isenumorflags-zilch-engin)| |[indirectiontype](indirectiontype.md)|
-| |[ IsFlags](type.md#isflags-zilch-engine-docu)| | |
-| |[ IsHandle](type.md#ishandle-zilch-engine-doc)| | |
-| |[ IsValue](type.md#isvalue-zilch-engine-docu)| | |
-| |[ Library](type.md#library-zilch-engine-docu)| | |
-| |[ Name](type.md#name-zilch-engine-documen)| | |
+|[IsA](type.md#isa-zilch-engine-document)|[IsAny](type.md#isany-zilch-engine-docume)|[reflectionobject](reflectionobject.md)|[anytype](anytype.md)|
+|[IsCastableTo](type.md#iscastableto-zilch-engine)|[IsDelegate](type.md#isdelegate-zilch-engine-d)| |[boundtype](boundtype.md)|
+|[IsRawCastableTo](type.md#israwcastableto-zilch-eng)|[IsEnum](type.md#isenum-zilch-engine-docum)| |[delegatetype](delegatetype.md)|
+| |[IsEnumOrFlags](type.md#isenumorflags-zilch-engin)| |[indirectiontype](indirectiontype.md)|
+| |[IsFlags](type.md#isflags-zilch-engine-docu)| | |
+| |[IsHandle](type.md#ishandle-zilch-engine-doc)| | |
+| |[IsValue](type.md#isvalue-zilch-engine-docu)| | |
+| |[Library](type.md#library-zilch-engine-docu)| | |
+| |[Name](type.md#name-zilch-engine-documen)| | |
 
 
  #  Properties

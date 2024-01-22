@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](linearaxisjoint.md#linearaxisjoint-void)|[ WorldAxis](linearaxisjoint.md#worldaxis-zilch-engine-do)|[joint](joint.md)| |
+|[Constructor](linearaxisjoint.md#linearaxisjoint-void)|[WorldAxis](linearaxisjoint.md#worldaxis-zilch-engine-do)|[joint](joint.md)| |
 
 
  #  Properties

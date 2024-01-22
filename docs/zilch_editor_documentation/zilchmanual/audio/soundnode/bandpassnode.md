@@ -1,4 +1,4 @@
-The [ BandPassNode ](../../../../code_reference/class_reference/bandpassnode.md) collects audio data from all of its inputs and applies a band pass filter to it before passing it along to its outputs. 
+The [BandPassNode](../../../../code_reference/class_reference/bandpassnode.md) collects audio data from all of its inputs and applies a band pass filter to it before passing it along to its outputs. 
 
  # Using the BandPassNode
 
@@ -12,6 +12,6 @@ Band pass filters are a combination of low pass and high pass filtering which al
 - [highpassnode](highpassnode.md)
 
  ## Code Reference
-- [ BandPassNode ](../../../../code_reference/class_reference/bandpassnode.md) 
+- [BandPassNode](../../../../code_reference/class_reference/bandpassnode.md) 
 
  

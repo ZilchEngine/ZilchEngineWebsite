@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](torqueeffect.md#torqueeffect-void)|[ LocalTorque](torqueeffect.md#localtorque-zilch-engine)|[physicseffect](physicseffect.md)| |
-| |[ TorqueAxis](torqueeffect.md#torqueaxis-zilch-engine-d)| | |
-| |[ TorqueStrength](torqueeffect.md#torquestrength-zilch-engi)| | |
-| |[ WorldTorqueAxis](torqueeffect.md#worldtorqueaxis-zilch-eng)| | |
+|[Constructor](torqueeffect.md#torqueeffect-void)|[LocalTorque](torqueeffect.md#localtorque-zilch-engine)|[physicseffect](physicseffect.md)| |
+| |[TorqueAxis](torqueeffect.md#torqueaxis-zilch-engine-d)| | |
+| |[TorqueStrength](torqueeffect.md#torquestrength-zilch-engi)| | |
+| |[WorldTorqueAxis](torqueeffect.md#worldtorqueaxis-zilch-eng)| | |
 
 
  #  Properties

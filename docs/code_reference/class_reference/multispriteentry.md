@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](multispriteentry.md#multispriteentry-void)|[ Index](multispriteentry.md#index-zilch-engine-docume)| | |
-| |[ SpriteSource](multispriteentry.md#spritesource-zilch-engine)| | |
+|[Constructor](multispriteentry.md#multispriteentry-void)|[Index](multispriteentry.md#index-zilch-engine-docume)| | |
+| |[SpriteSource](multispriteentry.md#spritesource-zilch-engine)| | |
 
 
  #  Properties

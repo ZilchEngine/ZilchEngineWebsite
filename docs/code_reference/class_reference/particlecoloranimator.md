@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](particlecoloranimator.md#particlecoloranimator-vo)|[ MaxParticleSpeed](particlecoloranimator.md#maxparticlespeed-zilch-en)|[particleanimator](particleanimator.md)| |
-| |[ TimeGradient](particlecoloranimator.md#timegradient-zilch-engine)| | |
-| |[ VelocityGradient](particlecoloranimator.md#velocitygradient-zilch-en)| | |
+|[Constructor](particlecoloranimator.md#particlecoloranimator-vo)|[MaxParticleSpeed](particlecoloranimator.md#maxparticlespeed-zilch-en)|[particleanimator](particleanimator.md)| |
+| |[TimeGradient](particlecoloranimator.md#timegradient-zilch-engine)| | |
+| |[VelocityGradient](particlecoloranimator.md#velocitygradient-zilch-en)| | |
 
 
  #  Properties

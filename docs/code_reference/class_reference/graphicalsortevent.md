@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GraphicalEntries](graphicalsortevent.md#graphicalentries-zilch-en)|[event](event.md)| |
-| |[ RenderGroup](graphicalsortevent.md#rendergroup-zilch-engine)| | |
+| |[GraphicalEntries](graphicalsortevent.md#graphicalentries-zilch-en)|[event](event.md)| |
+| |[RenderGroup](graphicalsortevent.md#rendergroup-zilch-engine)| | |
 
 
  #  Properties

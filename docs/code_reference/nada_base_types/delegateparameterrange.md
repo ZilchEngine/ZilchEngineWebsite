@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](delegateparameterrange.md#delegateparameterrange-v)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#all-delegate() | All]]| | |
-|[ MoveNext](delegateparameterrange.md#movenext-void)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#current-delegate() | Current]]| | |
-| |[ IsEmpty](delegateparameterrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](delegateparameterrange.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](delegateparameterrange.md#delegateparameterrange-v)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#all-delegate() | All]]| | |
+|[MoveNext](delegateparameterrange.md#movenext-void)|[[zilch_engine_documentation/code_reference/nada_base_types/delegateparameterrange/#current-delegate() | Current]]| | |
+| |[IsEmpty](delegateparameterrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](delegateparameterrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

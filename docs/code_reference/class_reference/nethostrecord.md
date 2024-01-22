@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BasicHostInfo](nethostrecord.md#basichostinfo-zilch-engin)|[safeid32](safeid32.md)| |
-| |[ IpAddress](nethostrecord.md#ipaddress-zilch-engine-do)| | |
-| |[ Lifetime](nethostrecord.md#lifetime-zilch-engine-doc)| | |
+| |[BasicHostInfo](nethostrecord.md#basichostinfo-zilch-engin)|[safeid32](safeid32.md)| |
+| |[IpAddress](nethostrecord.md#ipaddress-zilch-engine-do)| | |
+| |[Lifetime](nethostrecord.md#lifetime-zilch-engine-doc)| | |
 
 
  #  Properties

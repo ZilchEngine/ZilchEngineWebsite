@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debuggraphicalprimitive.md#debuggraphicalprimitive)| |[debuggraphical](debuggraphical.md)|[debuggraphicalthickline](debuggraphicalthickline.md)|
+|[Constructor](debuggraphicalprimitive.md#debuggraphicalprimitive)| |[debuggraphical](debuggraphical.md)|[debuggraphicalthickline](debuggraphicalthickline.md)|
 
 
  #  Properties

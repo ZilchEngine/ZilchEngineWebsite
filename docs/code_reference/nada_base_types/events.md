@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Connect](events.md#connect-void)| | | |
-|[ Send](events.md#send-zilch-engine-documen)| | | |
+|[Connect](events.md#connect-void)| | | |
+|[Send](events.md#send-zilch-engine-documen)| | | |
 
 
  #  Properties

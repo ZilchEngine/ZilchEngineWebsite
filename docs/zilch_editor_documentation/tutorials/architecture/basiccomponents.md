@@ -1,4 +1,4 @@
-This lesson covers the basics of [ Components ](../../zilchmanual/architecture/components/components.md) and demonstrates basic usage of the [ Collider ](../../zilchmanual/physics/colliders.md), [ RigidBody ](../../zilchmanual/physics/rigidbody.md), [ Sprite ](../../zilchmanual/graphics/sprites/sprite.md), and [ SpriteText ](../../zilchmanual/graphics/sprites/spritetext.md) components.
+This lesson covers the basics of [Components](../../zilchmanual/architecture/components/components.md) and demonstrates basic usage of the [Collider](../../zilchmanual/physics/colliders.md), [RigidBody](../../zilchmanual/physics/rigidbody.md), [Sprite](../../zilchmanual/graphics/sprites/sprite.md), and [SpriteText](../../zilchmanual/graphics/sprites/spritetext.md) components.
 
 
  #  Learning Objectives
@@ -17,14 +17,14 @@ Each component will typically have its own set of properties that can be modifie
  #  Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 
 
  ##  Create a Transform Object
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateTransform](../../../code_reference/command_reference.md#createtransform)
 
 
 
@@ -92,7 +92,7 @@ The [Sprite](../../../code_reference/class_reference/sprite.md) component provid
  #  Making a Copy of an Object
 
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Transform object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Transform object
  - Press key `Ctrl + C` to copy it 
  - Press key `Ctrl + V` to paste a new copy
 
@@ -132,7 +132,7 @@ NOTE:
 | White   | `[R:255, G:255, B:255, A:1.00]` | ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46260.png) |
 | Black   | `[R:0  , G:0  , B:0  , A:1.00]` | ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/46261.png) |
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : the other Transform object object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : the other Transform object object
 - Rename it to `Ground`
 - In the `Properties Window`
  - Under [Transform](../../../code_reference/class_reference/transform.md)
@@ -166,11 +166,11 @@ The [RigidBody](../../../code_reference/class_reference/rigidbody.md) component 
 | AngularVelocity  | Angular velocity is an object's current spin. Changing this property in the editor sets the object's initial spin (only around the Z axis for 2D objects) |
 | RotationLocked checkBox | Prevents the physics system from rotating the object. (The object can still be rotated by modifying its Transform's Rotation  property.) Commonly used for player characters |
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : RedBall object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : RedBall object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ RigidBody](../../../code_reference/class_reference/rigidbody.md)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Save Project](../../../code_reference/command_reference.md#saveproject)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Save Project](../../../code_reference/command_reference.md#saveproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 The RedBall object  is now affected by gravity.
 
@@ -182,15 +182,15 @@ The RedBall object  is now affected by gravity.
 *The RedBall object object falling due to gravity*
 
 
-Notice that it didn't collide with the Ground object object, though. To have the RedBall object  hit the ground, we'll need to add [ colliders](../../zilchmanual/physics/colliders.md) to our objects.
+Notice that it didn't collide with the Ground object object, though. To have the RedBall object  hit the ground, we'll need to add [colliders](../../zilchmanual/physics/colliders.md) to our objects.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Collider Components
 
 
-Colliders are used to detect when two objects occupy the same physical space, and, if so desired, prevent that. Zilch Engine offers several different types of colliders, including [ BoxCollider](../../../code_reference/class_reference/boxcollider.md), [ SphereCollider](../../../code_reference/class_reference/spherecollider.md), [ CylinderCollider](../../../code_reference/class_reference/cylindercollider.md), and [ CapsuleCollider](../../../code_reference/class_reference/capsulecollider.md); in this section, we'll demonstrate a couple of these.
+Colliders are used to detect when two objects occupy the same physical space, and, if so desired, prevent that. Zilch Engine offers several different types of colliders, including [BoxCollider](../../../code_reference/class_reference/boxcollider.md), [SphereCollider](../../../code_reference/class_reference/spherecollider.md), [CylinderCollider](../../../code_reference/class_reference/cylindercollider.md), and [CapsuleCollider](../../../code_reference/class_reference/capsulecollider.md); in this section, we'll demonstrate a couple of these.
 
 
 
@@ -207,18 +207,18 @@ Colliders are used to detect when two objects occupy the same physical space, an
 | Size  | How big the collider should be, relative to the object's scale (only available on BoxCollider) |
 | Radius  | How big the radius of the collider should be, relative to the object's scale (only available on SphereCollider) |
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : RedBall object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : RedBall object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ SphereCollider](../../../code_reference/class_reference/spherecollider.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [SphereCollider](../../../code_reference/class_reference/spherecollider.md)
 
 Let's also add a collider to our Ground object object.
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Ground object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Ground object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ BoxCollider](../../../code_reference/class_reference/boxcollider.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [BoxCollider](../../../code_reference/class_reference/boxcollider.md)
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Save Project](../../../code_reference/command_reference.md#saveproject)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Save Project](../../../code_reference/command_reference.md#saveproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -230,7 +230,7 @@ Let's also add a collider to our Ground object object.
 
 Now our RedBall object is colliding with the Ground object as intended.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  SpriteText Component
@@ -256,19 +256,19 @@ Similar to [Sprite](../../../code_reference/class_reference/sprite.md), the [Spr
 
 To finish up, the project let's add a Title object.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 - Rename SpriteText object to `Title`
 - In the `Properties Window`
  - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, 7, 0]`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ SpriteText](../../../code_reference/class_reference/spritetext.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [SpriteText](../../../code_reference/class_reference/spritetext.md)
  - Under [SpriteText](../../../code_reference/class_reference/spritetext.md)
   - Set FontSize  to `100`
   - Set Text  to `Hello World!`, or your preferred title
 
 Let's take a look at our final result:
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -278,7 +278,7 @@ Let's take a look at our final result:
 *The RedBall object falls and lands on the Ground object while the Title object says hello*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  Related Materials
  ##  Manual
@@ -294,12 +294,12 @@ Let's take a look at our final result:
 
  ##  Code Reference
  ###  Commands
-- [ NewProject](../../../code_reference/command_reference.md#newproject)
-- [ CreateTransform](../../../code_reference/command_reference.md#createtransform)
-- [ SaveProject](../../../code_reference/command_reference.md#saveproject)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
-- [ CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
+- [NewProject](../../../code_reference/command_reference.md#newproject)
+- [CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [SaveProject](../../../code_reference/command_reference.md#saveproject)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
+- [CreateSpriteText](../../../code_reference/command_reference.md#createspritetext)
 
  ###  Classes
 - [Sprite](../../../code_reference/class_reference/sprite.md)

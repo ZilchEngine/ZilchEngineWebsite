@@ -2,16 +2,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugtext.md#debugtext-void)|[ Centered](debugtext.md#centered-zilch-engine-doc)| | |
-| |[ Color](debugtext.md#color-zilch-engine-docume)| | |
-| |[ OnTop](debugtext.md#ontop-zilch-engine-docume)| | |
-| |[ Position](debugtext.md#position-zilch-engine-doc)| | |
-| |[ Rotation](debugtext.md#rotation-zilch-engine-doc)| | |
-| |[ Text](debugtext.md#text-zilch-engine-documen)| | |
-| |[ TextHeight](debugtext.md#textheight-zilch-engine-d)| | |
-| |[ ViewAligned](debugtext.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugtext.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugtext.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugtext.md#debugtext-void)|[Centered](debugtext.md#centered-zilch-engine-doc)| | |
+| |[Color](debugtext.md#color-zilch-engine-docume)| | |
+| |[OnTop](debugtext.md#ontop-zilch-engine-docume)| | |
+| |[Position](debugtext.md#position-zilch-engine-doc)| | |
+| |[Rotation](debugtext.md#rotation-zilch-engine-doc)| | |
+| |[Text](debugtext.md#text-zilch-engine-documen)| | |
+| |[TextHeight](debugtext.md#textheight-zilch-engine-d)| | |
+| |[ViewAligned](debugtext.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugtext.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugtext.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

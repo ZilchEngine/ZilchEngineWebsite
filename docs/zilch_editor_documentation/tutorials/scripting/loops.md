@@ -9,9 +9,9 @@ This lesson covers loops in Nada scripting.
 - Nested loops
 
  #  Level Setup
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `LoopExamples`
 - In the `LoopExamples` NadaScript
  - Replace the script's contents with the following:
@@ -25,13 +25,13 @@ class LoopExamples : NadaComponent
 }
 ```
 - In the `Objects Window`
- - [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+ - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : LoopExamples button 
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : LoopExamples button 
 
  #  Getting Started
 
-Recall the `Square` function from the [ Functions Tutorial](functions.md). It takes a Real parameter, multiplies it by itself, and returns the result:
+Recall the `Square` function from the [Functions Tutorial](functions.md). It takes a Real parameter, multiplies it by itself, and returns the result:
 
 ```TS:"Square"
 function Square(number : Real) : Real
@@ -122,7 +122,7 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 IncompletePower: 4, x ^ y: 4
@@ -132,7 +132,7 @@ IncompletePower: 16, x ^ y: 32
 IncompletePower: 16, x ^ y: 64
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 The function works as intended if the desired power is small enough, but it will always return the same result for `exponent` values of 4 and above. To accommodate for larger powers, the `if`  block could be copied and pasted in additional times. That's a bad idea, though: the function would have to grow to a preposterous length for it to work with large powers. What this problem really needs is a loop.
 
@@ -199,7 +199,7 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 WhileLoopPower: 15625, x ^ y: 15625
@@ -207,7 +207,7 @@ WhileLoopPower: 3020.29, x ^ y: 3020.29
 WhileLoopPower: 1e-16, x ^ y: 1e-16
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#playgame)
 
 The results match. Of course, `WhileLoopPower` still has some severe limitations when compared to Nada's exponentiation operator, perhaps the largest of which being that its exponent values must be nonnegative Integers.
 
@@ -243,7 +243,7 @@ function WhileLoopPower(number : Real, exponent : Integer) : Real
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 The editor hangs for a few moments, and then an exception is thrown:
 
@@ -254,7 +254,7 @@ The editor hangs for a few moments, and then an exception is thrown:
 
 Since the `++multiplications` statement has been commented out, the `while` loop's loop condition will always be true. Such a loop is called an **infinite loop**, or an *unconditional* loop. This is generally undesireable behavior.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Infinite loops are dangerous if handled improperly. Zilch has timeout functionality to catch infinite loops, but at best, they will still throw an error and halt the game. (Other software might not be so forgiving.) Be aware that a simple mistake could lead to an infinite loop!
 
@@ -329,7 +329,7 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 ForLoopPower: 15625, x ^ y: 15625
@@ -337,7 +337,7 @@ ForLoopPower: 3020.29, x ^ y: 3020.29
 ForLoopPower: 1e-16, x ^ y: 1e-16
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 It's still the same as before. In general, **any `for` loop can be rewritten as a `while` loop, and vice versa**.
 
@@ -379,7 +379,7 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 [][][][][][][][][][]
@@ -387,7 +387,7 @@ function Initialize(init : CogInitializer)
 
 Everything seems to be in order, but regardless of what number is passed into the function, all the boxes will always be drawn on the same line. In order to create multiple rows of boxes, the `DrawBoxes` function should employ another looping concept, called a nested loop.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 The `DrawBoxes` function, as it exists right now, already does a perfectly good job of drawing a single row of boxes. The only modification it needs is to make its contents run several times. And what is a good way to make code run several times? Of course, it's a loop. A **nested loop** is a loop written inside the body of another loop. Nested loops are often used in multi-dimensional tasks, such as drawing a 2D grid of boxes.
 
@@ -459,7 +459,7 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 [][][][][][][][]
@@ -471,7 +471,7 @@ Total boxes drawn: 32
 
 Four perfect rows of eight boxes each!
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Loops can be nested arbitrarily deep: a 3D array of boxes, for example, would call for a loop within a loop within a loop, and if each box is also a container that can hold objects, still another loop could be used to populate each one.
 
@@ -531,7 +531,7 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 [][][][][][][][]
@@ -543,7 +543,7 @@ Total boxes drawn: 31
 
 The specified box is skipped, and the printed total reflects this.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ##  Break
 
@@ -594,7 +594,7 @@ function Initialize(init : CogInitializer)
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 [][][][][][][][][][]
@@ -612,7 +612,7 @@ Total boxes drawn: 40
 
 Only forty boxes are drawn (and the specified box is still skipped). There's an awful lot of blank space, though, after the last box. This is because the `break` statement only causes the inner loop to end. The outer loop keeps running, writing another newline to the console with each iteration.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 To modify the function to make it break out of both loops, just add a Boolean variable that keeps track of whether the max has been reached. In the inner loop, if the function has drawn enough boxes, before breaking, set that variable to be `true`. In the outer loop, just after the inner loop is complete, check it. If it's true, `break` again.
 
@@ -650,7 +650,7 @@ function DrawBoxesWithMax(columns : Integer, rows : Integer, max : Integer)
 
 Let's test out this final modification.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name="Console output"
 [][][][][][][][][][]
@@ -662,7 +662,7 @@ Total boxes drawn: 40
 
 Forty boxes were drawn, and the loop stops after they're all done.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ###  Breaking an Infinite Loop
 
@@ -670,22 +670,22 @@ Rarely, it's actually desirable to create a loop that is intentionally unconditi
 
  #  Related Materials
  ##  Manual
-- [ Looping](../../zilchmanual/nada_in_zilch/looping.md)
-- [ Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Looping](../../zilchmanual/nada_in_zilch/looping.md)
+- [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 - [while](../../zilchmanual/nada_in_zilch/keywords.md)
 - [keywords](../../zilchmanual/nada_in_zilch/keywords.md)
 
  ##  Tutorials
-- [ Functions Tutorial](functions.md)
+- [Functions Tutorial](functions.md)
 
  ## Reference
  ### Nada Base Types
-- [ Math](../../../code_reference/nada_base_types/math.md)
+- [Math](../../../code_reference/nada_base_types/math.md)
 
  ### Commands
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
  
 
  

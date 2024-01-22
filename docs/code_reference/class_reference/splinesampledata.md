@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](splinesampledata.md#splinesampledata-void)|[ Point](splinesampledata.md#point-zilch-engine-docume)| | |
-| |[ Tangent](splinesampledata.md#tangent-zilch-engine-docu)| | |
-| |[ WorldPoint](splinesampledata.md#worldpoint-zilch-engine-d)| | |
-| |[ WorldTangent](splinesampledata.md#worldtangent-zilch-engine)| | |
+|[Constructor](splinesampledata.md#splinesampledata-void)|[Point](splinesampledata.md#point-zilch-engine-docume)| | |
+| |[Tangent](splinesampledata.md#tangent-zilch-engine-docu)| | |
+| |[WorldPoint](splinesampledata.md#worldpoint-zilch-engine-d)| | |
+| |[WorldTangent](splinesampledata.md#worldtangent-zilch-engine)| | |
 
 
  #  Properties

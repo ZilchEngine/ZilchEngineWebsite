@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](camera.md#camera-void)|[ CameraViewportCog](camera.md#cameraviewportcog-zilch-e)|[component](component.md)| |
-|[ GetFrustum](camera.md#getfrustum-zilch-engine-d)|[ FarPlane](camera.md#farplane-zilch-engine-doc)| | |
-| |[ FieldOfView](camera.md#fieldofview-zilch-engine)| | |
-| |[ NearPlane](camera.md#nearplane-zilch-engine-do)| | |
-| |[ PerspectiveMode](camera.md#perspectivemode-zilch-eng)| | |
-| |[ Size](camera.md#size-zilch-engine-documen)| | |
-| |[ WorldDirection](camera.md#worlddirection-zilch-engi)| | |
-| |[ WorldTranslation](camera.md#worldtranslation-zilch-en)| | |
-| |[ WorldUp](camera.md#worldup-zilch-engine-docu)| | |
+|[Constructor](camera.md#camera-void)|[CameraViewportCog](camera.md#cameraviewportcog-zilch-e)|[component](component.md)| |
+|[GetFrustum](camera.md#getfrustum-zilch-engine-d)|[FarPlane](camera.md#farplane-zilch-engine-doc)| | |
+| |[FieldOfView](camera.md#fieldofview-zilch-engine)| | |
+| |[NearPlane](camera.md#nearplane-zilch-engine-do)| | |
+| |[PerspectiveMode](camera.md#perspectivemode-zilch-eng)| | |
+| |[Size](camera.md#size-zilch-engine-documen)| | |
+| |[WorldDirection](camera.md#worlddirection-zilch-engi)| | |
+| |[WorldTranslation](camera.md#worldtranslation-zilch-en)| | |
+| |[WorldUp](camera.md#worldup-zilch-engine-docu)| | |
 
 
  #  Properties

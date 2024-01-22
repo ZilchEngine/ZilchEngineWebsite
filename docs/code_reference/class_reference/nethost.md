@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BasicHostInfo](nethost.md#basichostinfo-zilch-engin)|[safeid32](safeid32.md)| |
-| |[ ExtraHostInfo](nethost.md#extrahostinfo-zilch-engin)| | |
-| |[ IpAddress](nethost.md#ipaddress-zilch-engine-do)| | |
-| |[ Latency](nethost.md#latency-zilch-engine-docu)| | |
-| |[ Network](nethost.md#network-zilch-engine-docu)| | |
-| |[ RoundTripTime](nethost.md#roundtriptime-zilch-engin)| | |
+| |[BasicHostInfo](nethost.md#basichostinfo-zilch-engin)|[safeid32](safeid32.md)| |
+| |[ExtraHostInfo](nethost.md#extrahostinfo-zilch-engin)| | |
+| |[IpAddress](nethost.md#ipaddress-zilch-engine-do)| | |
+| |[Latency](nethost.md#latency-zilch-engine-docu)| | |
+| |[Network](nethost.md#network-zilch-engine-docu)| | |
+| |[RoundTripTime](nethost.md#roundtriptime-zilch-engin)| | |
 
 
  #  Properties

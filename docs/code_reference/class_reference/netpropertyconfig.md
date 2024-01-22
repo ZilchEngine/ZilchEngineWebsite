@@ -6,64 +6,64 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ActiveConvergenceWeight](netpropertyconfig.md#activeconvergenceweight)|[dataresource](dataresource.md)| |
-| |[ BasicNetType](netpropertyconfig.md#basicnettype-zilch-engine)| | |
-| |[ ConvergenceInterval](netpropertyconfig.md#convergenceinterval-zero)| | |
-| |[ DeltaThresholdDoubleInteger](netpropertyconfig.md#deltathresholddoubleinte)| | |
-| |[ DeltaThresholdDoubleReal](netpropertyconfig.md#deltathresholddoublereal)| | |
-| |[ DeltaThresholdInteger](netpropertyconfig.md#deltathresholdinteger-ze)| | |
-| |[ DeltaThresholdInteger2](netpropertyconfig.md#deltathresholdinteger2-z)| | |
-| |[ DeltaThresholdInteger3](netpropertyconfig.md#deltathresholdinteger3-z)| | |
-| |[ DeltaThresholdInteger4](netpropertyconfig.md#deltathresholdinteger4-z)| | |
-| |[ DeltaThresholdQuaternion](netpropertyconfig.md#deltathresholdquaternion)| | |
-| |[ DeltaThresholdReal](netpropertyconfig.md#deltathresholdreal-zero)| | |
-| |[ DeltaThresholdReal2](netpropertyconfig.md#deltathresholdreal2-zero)| | |
-| |[ DeltaThresholdReal3](netpropertyconfig.md#deltathresholdreal3-zero)| | |
-| |[ DeltaThresholdReal4](netpropertyconfig.md#deltathresholdreal4-zero)| | |
-| |[ EventOnConvergenceStateChange](netpropertyconfig.md#eventonconvergencestatec)| | |
-| |[ ExtrapolationLimit](netpropertyconfig.md#extrapolationlimit-zero)| | |
-| |[ InterpolationCurve](netpropertyconfig.md#interpolationcurve-zero)| | |
-| |[ QuantizationRangeMaxDoubleInteger](netpropertyconfig.md#quantizationrangemaxdoub)| | |
-| |[ QuantizationRangeMaxDoubleReal](netpropertyconfig.md#quantizationrangemaxdoub)| | |
-| |[ QuantizationRangeMaxInteger](netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxInteger2](netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxInteger3](netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxInteger4](netpropertyconfig.md#quantizationrangemaxinte)| | |
-| |[ QuantizationRangeMaxQuaternion](netpropertyconfig.md#quantizationrangemaxquat)| | |
-| |[ QuantizationRangeMaxReal](netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMaxReal2](netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMaxReal3](netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMaxReal4](netpropertyconfig.md#quantizationrangemaxreal)| | |
-| |[ QuantizationRangeMinDoubleInteger](netpropertyconfig.md#quantizationrangemindoub)| | |
-| |[ QuantizationRangeMinDoubleReal](netpropertyconfig.md#quantizationrangemindoub)| | |
-| |[ QuantizationRangeMinInteger](netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinInteger2](netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinInteger3](netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinInteger4](netpropertyconfig.md#quantizationrangemininte)| | |
-| |[ QuantizationRangeMinQuaternion](netpropertyconfig.md#quantizationrangeminquat)| | |
-| |[ QuantizationRangeMinReal](netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ QuantizationRangeMinReal2](netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ QuantizationRangeMinReal3](netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ QuantizationRangeMinReal4](netpropertyconfig.md#quantizationrangeminreal)| | |
-| |[ RestingConvergenceDuration](netpropertyconfig.md#restingconvergencedurati)| | |
-| |[ SampleTimeOffset](netpropertyconfig.md#sampletimeoffset-zilch-en)| | |
-| |[ SerializationMode](netpropertyconfig.md#serializationmode-zilch-e)| | |
-| |[ SnapThresholdDoubleInteger](netpropertyconfig.md#snapthresholddoubleinteg)| | |
-| |[ SnapThresholdDoubleReal](netpropertyconfig.md#snapthresholddoublereal)| | |
-| |[ SnapThresholdInteger](netpropertyconfig.md#snapthresholdinteger-zer)| | |
-| |[ SnapThresholdInteger2](netpropertyconfig.md#snapthresholdinteger2-ze)| | |
-| |[ SnapThresholdInteger3](netpropertyconfig.md#snapthresholdinteger3-ze)| | |
-| |[ SnapThresholdInteger4](netpropertyconfig.md#snapthresholdinteger4-ze)| | |
-| |[ SnapThresholdQuaternion](netpropertyconfig.md#snapthresholdquaternion)| | |
-| |[ SnapThresholdReal](netpropertyconfig.md#snapthresholdreal-zilch-e)| | |
-| |[ SnapThresholdReal2](netpropertyconfig.md#snapthresholdreal2-zero)| | |
-| |[ SnapThresholdReal3](netpropertyconfig.md#snapthresholdreal3-zero)| | |
-| |[ SnapThresholdReal4](netpropertyconfig.md#snapthresholdreal4-zero)| | |
-| |[ UseConvergence](netpropertyconfig.md#useconvergence-zilch-engi)| | |
-| |[ UseDeltaThreshold](netpropertyconfig.md#usedeltathreshold-zilch-e)| | |
-| |[ UseHalfFloats](netpropertyconfig.md#usehalffloats-zilch-engin)| | |
-| |[ UseInterpolation](netpropertyconfig.md#useinterpolation-zilch-en)| | |
-| |[ UseQuantization](netpropertyconfig.md#usequantization-zilch-eng)| | |
+| |[ActiveConvergenceWeight](netpropertyconfig.md#activeconvergenceweight)|[dataresource](dataresource.md)| |
+| |[BasicNetType](netpropertyconfig.md#basicnettype-zilch-engine)| | |
+| |[ConvergenceInterval](netpropertyconfig.md#convergenceinterval-zero)| | |
+| |[DeltaThresholdDoubleInteger](netpropertyconfig.md#deltathresholddoubleinte)| | |
+| |[DeltaThresholdDoubleReal](netpropertyconfig.md#deltathresholddoublereal)| | |
+| |[DeltaThresholdInteger](netpropertyconfig.md#deltathresholdinteger-ze)| | |
+| |[DeltaThresholdInteger2](netpropertyconfig.md#deltathresholdinteger2-z)| | |
+| |[DeltaThresholdInteger3](netpropertyconfig.md#deltathresholdinteger3-z)| | |
+| |[DeltaThresholdInteger4](netpropertyconfig.md#deltathresholdinteger4-z)| | |
+| |[DeltaThresholdQuaternion](netpropertyconfig.md#deltathresholdquaternion)| | |
+| |[DeltaThresholdReal](netpropertyconfig.md#deltathresholdreal-zero)| | |
+| |[DeltaThresholdReal2](netpropertyconfig.md#deltathresholdreal2-zero)| | |
+| |[DeltaThresholdReal3](netpropertyconfig.md#deltathresholdreal3-zero)| | |
+| |[DeltaThresholdReal4](netpropertyconfig.md#deltathresholdreal4-zero)| | |
+| |[EventOnConvergenceStateChange](netpropertyconfig.md#eventonconvergencestatec)| | |
+| |[ExtrapolationLimit](netpropertyconfig.md#extrapolationlimit-zero)| | |
+| |[InterpolationCurve](netpropertyconfig.md#interpolationcurve-zero)| | |
+| |[QuantizationRangeMaxDoubleInteger](netpropertyconfig.md#quantizationrangemaxdoub)| | |
+| |[QuantizationRangeMaxDoubleReal](netpropertyconfig.md#quantizationrangemaxdoub)| | |
+| |[QuantizationRangeMaxInteger](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[QuantizationRangeMaxInteger2](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[QuantizationRangeMaxInteger3](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[QuantizationRangeMaxInteger4](netpropertyconfig.md#quantizationrangemaxinte)| | |
+| |[QuantizationRangeMaxQuaternion](netpropertyconfig.md#quantizationrangemaxquat)| | |
+| |[QuantizationRangeMaxReal](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[QuantizationRangeMaxReal2](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[QuantizationRangeMaxReal3](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[QuantizationRangeMaxReal4](netpropertyconfig.md#quantizationrangemaxreal)| | |
+| |[QuantizationRangeMinDoubleInteger](netpropertyconfig.md#quantizationrangemindoub)| | |
+| |[QuantizationRangeMinDoubleReal](netpropertyconfig.md#quantizationrangemindoub)| | |
+| |[QuantizationRangeMinInteger](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[QuantizationRangeMinInteger2](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[QuantizationRangeMinInteger3](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[QuantizationRangeMinInteger4](netpropertyconfig.md#quantizationrangemininte)| | |
+| |[QuantizationRangeMinQuaternion](netpropertyconfig.md#quantizationrangeminquat)| | |
+| |[QuantizationRangeMinReal](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[QuantizationRangeMinReal2](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[QuantizationRangeMinReal3](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[QuantizationRangeMinReal4](netpropertyconfig.md#quantizationrangeminreal)| | |
+| |[RestingConvergenceDuration](netpropertyconfig.md#restingconvergencedurati)| | |
+| |[SampleTimeOffset](netpropertyconfig.md#sampletimeoffset-zilch-en)| | |
+| |[SerializationMode](netpropertyconfig.md#serializationmode-zilch-e)| | |
+| |[SnapThresholdDoubleInteger](netpropertyconfig.md#snapthresholddoubleinteg)| | |
+| |[SnapThresholdDoubleReal](netpropertyconfig.md#snapthresholddoublereal)| | |
+| |[SnapThresholdInteger](netpropertyconfig.md#snapthresholdinteger-zer)| | |
+| |[SnapThresholdInteger2](netpropertyconfig.md#snapthresholdinteger2-ze)| | |
+| |[SnapThresholdInteger3](netpropertyconfig.md#snapthresholdinteger3-ze)| | |
+| |[SnapThresholdInteger4](netpropertyconfig.md#snapthresholdinteger4-ze)| | |
+| |[SnapThresholdQuaternion](netpropertyconfig.md#snapthresholdquaternion)| | |
+| |[SnapThresholdReal](netpropertyconfig.md#snapthresholdreal-zilch-e)| | |
+| |[SnapThresholdReal2](netpropertyconfig.md#snapthresholdreal2-zero)| | |
+| |[SnapThresholdReal3](netpropertyconfig.md#snapthresholdreal3-zero)| | |
+| |[SnapThresholdReal4](netpropertyconfig.md#snapthresholdreal4-zero)| | |
+| |[UseConvergence](netpropertyconfig.md#useconvergence-zilch-engi)| | |
+| |[UseDeltaThreshold](netpropertyconfig.md#usedeltathreshold-zilch-e)| | |
+| |[UseHalfFloats](netpropertyconfig.md#usehalffloats-zilch-engin)| | |
+| |[UseInterpolation](netpropertyconfig.md#useinterpolation-zilch-en)| | |
+| |[UseQuantization](netpropertyconfig.md#usequantization-zilch-eng)| | |
 
 
  #  Properties

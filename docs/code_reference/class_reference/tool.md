@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ BeginDrag](tool.md#begindrag-void)| |[eventobject](eventobject.md)| |
+|[BeginDrag](tool.md#begindrag-void)| |[eventobject](eventobject.md)| |
 
 
  #  Properties

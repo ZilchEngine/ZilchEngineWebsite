@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Animation](basicanimation.md#animation-zilch-engine-do)|[animationnode](animationnode.md)| |
-| |[ PlayMode](basicanimation.md#playmode-zilch-engine-doc)| | |
+| |[Animation](basicanimation.md#animation-zilch-engine-do)|[animationnode](animationnode.md)| |
+| |[PlayMode](basicanimation.md#playmode-zilch-engine-doc)| | |
 
 
  #  Properties

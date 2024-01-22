@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](sprite.md#sprite-void)|[ AnimationActive](sprite.md#animationactive-zilch-eng)|[basesprite](basesprite.md)| |
-| |[ AnimationSpeed](sprite.md#animationspeed-zilch-engi)| | |
-| |[ CurrentFrame](sprite.md#currentframe-zilch-engine)| | |
-| |[ FlipX](sprite.md#flipx-zilch-engine-docume)| | |
-| |[ FlipY](sprite.md#flipy-zilch-engine-docume)| | |
-| |[ SpriteSource](sprite.md#spritesource-zilch-engine)| | |
-| |[ StartFrame](sprite.md#startframe-zilch-engine-d)| | |
+|[Constructor](sprite.md#sprite-void)|[AnimationActive](sprite.md#animationactive-zilch-eng)|[basesprite](basesprite.md)| |
+| |[AnimationSpeed](sprite.md#animationspeed-zilch-engi)| | |
+| |[CurrentFrame](sprite.md#currentframe-zilch-engine)| | |
+| |[FlipX](sprite.md#flipx-zilch-engine-docume)| | |
+| |[FlipY](sprite.md#flipy-zilch-engine-docume)| | |
+| |[SpriteSource](sprite.md#spritesource-zilch-engine)| | |
+| |[StartFrame](sprite.md#startframe-zilch-engine-d)| | |
 
 
  #  Properties

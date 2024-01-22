@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ BaseHeight](createdestroytool.md#baseheight-zilch-engine-d)|[heightmapsubtool](heightmapsubtool.md)| |
-| |[ PerlinAmplitude](createdestroytool.md#perlinamplitude-zilch-eng)| | |
-| |[ PerlinFrequency](createdestroytool.md#perlinfrequency-zilch-eng)| | |
-| |[ UsePerlinNoise](createdestroytool.md#useperlinnoise-zilch-engi)| | |
+| |[BaseHeight](createdestroytool.md#baseheight-zilch-engine-d)|[heightmapsubtool](heightmapsubtool.md)| |
+| |[PerlinAmplitude](createdestroytool.md#perlinamplitude-zilch-eng)| | |
+| |[PerlinFrequency](createdestroytool.md#perlinfrequency-zilch-eng)| | |
+| |[UsePerlinNoise](createdestroytool.md#useperlinnoise-zilch-engi)| | |
 
 
  #  Properties

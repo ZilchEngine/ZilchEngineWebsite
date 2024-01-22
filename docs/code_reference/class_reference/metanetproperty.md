@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NetChannelConfig](metanetproperty.md#netchannelconfig-zilch-en)|[metaattribute](metaattribute.md)| |
-| |[ NetPropertyConfig](metanetproperty.md#netpropertyconfig-zilch-e)| | |
+| |[NetChannelConfig](metanetproperty.md#netchannelconfig-zilch-en)|[metaattribute](metaattribute.md)| |
+| |[NetPropertyConfig](metanetproperty.md#netpropertyconfig-zilch-e)| | |
 
 
  #  Properties

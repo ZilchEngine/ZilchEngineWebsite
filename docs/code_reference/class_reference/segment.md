@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetPoint](segment.md#getpoint-zilch-engine-doc)|[ End](segment.md#end-zilch-engine-document)| | |
-|[ GetTValue](segment.md#gettvalue-zilch-engine-do)|[ Start](segment.md#start-zilch-engine-docume)| | |
-|[ Constructor](segment.md#segment-void)| | | |
+|[GetPoint](segment.md#getpoint-zilch-engine-doc)|[End](segment.md#end-zilch-engine-document)| | |
+|[GetTValue](segment.md#gettvalue-zilch-engine-do)|[Start](segment.md#start-zilch-engine-docume)| | |
+|[Constructor](segment.md#segment-void)| | | |
 
 
  #  Properties

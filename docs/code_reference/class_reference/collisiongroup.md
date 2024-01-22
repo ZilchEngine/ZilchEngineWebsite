@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](collisiongroup.md#createruntime-zilch-engin)| |[dataresource](dataresource.md)| |
-|[ RuntimeClone](collisiongroup.md#runtimeclone-zilch-engine)| | | |
+|[CreateRuntime](collisiongroup.md#createruntime-zilch-engin)| |[dataresource](dataresource.md)| |
+|[RuntimeClone](collisiongroup.md#runtimeclone-zilch-engine)| | | |
 
 
  #  Properties

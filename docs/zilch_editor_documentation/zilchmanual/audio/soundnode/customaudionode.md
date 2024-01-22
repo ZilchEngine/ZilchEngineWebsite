@@ -1,4 +1,4 @@
-The [ CustomAudioNode ](../../../../code_reference/class_reference/customaudionode.md) allows the user to provide buffers of custom audio data to the system for output, using a [ SoundBuffer ](../../../../code_reference/class_reference/soundbuffer.md) object. 
+The [CustomAudioNode](../../../../code_reference/class_reference/customaudionode.md) allows the user to provide buffers of custom audio data to the system for output, using a [SoundBuffer](../../../../code_reference/class_reference/soundbuffer.md) object. 
 
  # Common Uses
 
@@ -53,7 +53,7 @@ function OnSoundEvent(event : SoundEvent)
 - [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ CustomAudioNode ](../../../../code_reference/class_reference/customaudionode.md)
-- [ SoundBuffer ](../../../../code_reference/class_reference/soundbuffer.md) 
+- [CustomAudioNode](../../../../code_reference/class_reference/customaudionode.md)
+- [SoundBuffer](../../../../code_reference/class_reference/soundbuffer.md) 
 
  

@@ -1,4 +1,4 @@
-[ CollisionEvents](../../../../code_reference/class_reference/collisionevent.md) are the primary way that physics sends collision information to users. Three main event types are sent out for collisions: starting, persisting, and ending.
+[CollisionEvents](../../../../code_reference/class_reference/collisionevent.md) are the primary way that physics sends collision information to users. Three main event types are sent out for collisions: starting, persisting, and ending.
 
 Collision events are often used in gameplay, such as applying damage if an impact was large enough. Sometimes it is necessary to alter information about the two objects involved in a collision, such as their velocity. Other common examples include creating audio effects or graphics effects in response to a collision, such as a scraping sound and sparks of a sliding metal object.
 
@@ -19,7 +19,7 @@ There's a few properties worth discussing in detail on CollisionEvents.
 A collision event is sent with one object as the focus; that is to say that most information will have a primary object and a secondary object. This is necessary to know what direction other properties, such as the collision normal, face. If the event is received from the physics space then this ordering is not defined.
 
  ##  ContactPoints
-A CollisionEvent exposes a range of contact points. For physics to solve a collision, several points of contact may be necessary. Often in game logic, one contact point is sufficient; for convenience, the FirstPoint  property is exposed. [ ContactPoints](../../../../code_reference/class_reference/contactpoint.md) expose information about what happened in a collision:
+A CollisionEvent exposes a range of contact points. For physics to solve a collision, several points of contact may be necessary. Often in game logic, one contact point is sufficient; for convenience, the FirstPoint  property is exposed. [ContactPoints](../../../../code_reference/class_reference/contactpoint.md) expose information about what happened in a collision:
 
 **Local and World Points:** Contact points expose both a local and world space point on each object.
 

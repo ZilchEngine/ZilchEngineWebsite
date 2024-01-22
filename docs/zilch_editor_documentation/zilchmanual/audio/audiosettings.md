@@ -1,4 +1,4 @@
-The [ AudioSettings ](../../../code_reference/class_reference/audiosettings.md) component can be added to Zilch Engine's project settings to control project-wide audio settings. Some of these settings are advanced and must be used with caution.
+The [AudioSettings](../../../code_reference/class_reference/audiosettings.md) component can be added to Zilch Engine's project settings to control project-wide audio settings. Some of these settings are advanced and must be used with caution.
 
  # Using the AudioSettings Component
 
@@ -23,6 +23,6 @@ If the user is experiencing audio problems such as clicks, static, or other audi
 
  ## Reference
 
-- [ AudioSettings ](../../code_reference/class_reference/audiosettings.md) 
+- [AudioSettings](../../code_reference/class_reference/audiosettings.md) 
 
  

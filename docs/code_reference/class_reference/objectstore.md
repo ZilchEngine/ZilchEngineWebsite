@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ClearStore](objectstore.md#clearstore-void)|[ EntryCount](objectstore.md#entrycount-zilch-engine-d)| | |
-|[ Erase](objectstore.md#erase-void)| | | |
-|[ GetDirectoryPath](objectstore.md#getdirectorypath-zilch-en)| | | |
-|[ GetEntryAt](objectstore.md#getentryat-zilch-engine-d)| | | |
-|[ IsEntryStored](objectstore.md#isentrystored-zilch-engin)| | | |
-|[ IsStored](objectstore.md#isstored-zilch-engine-doc)| | | |
-|[ Restore](objectstore.md#restore-zilch-engine-docu)| | | |
-|[ RestoreOrArchetype](objectstore.md#restoreorarchetype-zero)| | | |
-|[ Store](objectstore.md#store-zilch-engine-docume)| | | |
+|[ClearStore](objectstore.md#clearstore-void)|[EntryCount](objectstore.md#entrycount-zilch-engine-d)| | |
+|[Erase](objectstore.md#erase-void)| | | |
+|[GetDirectoryPath](objectstore.md#getdirectorypath-zilch-en)| | | |
+|[GetEntryAt](objectstore.md#getentryat-zilch-engine-d)| | | |
+|[IsEntryStored](objectstore.md#isentrystored-zilch-engin)| | | |
+|[IsStored](objectstore.md#isstored-zilch-engine-doc)| | | |
+|[Restore](objectstore.md#restore-zilch-engine-docu)| | | |
+|[RestoreOrArchetype](objectstore.md#restoreorarchetype-zero)| | | |
+|[Store](objectstore.md#store-zilch-engine-docume)| | | |
 
 
  #  Properties

@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](indexedhalfedgemesh.md#indexedhalfedgemesh-void)|[ Edges](indexedhalfedgemesh.md#edges-zilch-engine-docume)|[referencecountedobject](referencecountedobject.md)| |
-| |[ Faces](indexedhalfedgemesh.md#faces-zilch-engine-docume)| | |
-| |[ Vertices](indexedhalfedgemesh.md#vertices-zilch-engine-doc)| | |
+|[Constructor](indexedhalfedgemesh.md#indexedhalfedgemesh-void)|[Edges](indexedhalfedgemesh.md#edges-zilch-engine-docume)|[referencecountedobject](referencecountedobject.md)| |
+| |[Faces](indexedhalfedgemesh.md#faces-zilch-engine-docume)| | |
+| |[Vertices](indexedhalfedgemesh.md#vertices-zilch-engine-doc)| | |
 
 
  #  Properties

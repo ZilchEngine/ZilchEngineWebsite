@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debuggraphicaltext.md#debuggraphicaltext-void)| |[debuggraphical](debuggraphical.md)| |
+|[Constructor](debuggraphicaltext.md#debuggraphicaltext-void)| |[debuggraphical](debuggraphical.md)| |
 
 
  #  Properties

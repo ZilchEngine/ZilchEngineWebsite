@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](collisionendblock.md#collisionendblock-void)| |[collisionfilterblock](collisionfilterblock.md)| |
+|[Constructor](collisionendblock.md#collisionendblock-void)| |[collisionfilterblock](collisionfilterblock.md)| |
 
 
  #  Properties

@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](splinebakedpoints.md#get-zilch-engine-document)|[ Count](splinebakedpoints.md#count-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
+|[Get](splinebakedpoints.md#get-zilch-engine-document)|[Count](splinebakedpoints.md#count-zilch-engine-docume)|[safeid32object](safeid32object.md)| |
 
 
  #  Properties

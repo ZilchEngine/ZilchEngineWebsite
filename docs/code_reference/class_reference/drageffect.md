@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](drageffect.md#drageffect-void)|[ AngularDamping](drageffect.md#angulardamping-zilch-engi)|[physicseffect](physicseffect.md)| |
-| |[ AngularDrag](drageffect.md#angulardrag-zilch-engine)| | |
-| |[ LinearDamping](drageffect.md#lineardamping-zilch-engin)| | |
-| |[ LinearDrag](drageffect.md#lineardrag-zilch-engine-d)| | |
+|[Constructor](drageffect.md#drageffect-void)|[AngularDamping](drageffect.md#angulardamping-zilch-engi)|[physicseffect](physicseffect.md)| |
+| |[AngularDrag](drageffect.md#angulardrag-zilch-engine)| | |
+| |[LinearDamping](drageffect.md#lineardamping-zilch-engin)| | |
+| |[LinearDrag](drageffect.md#lineardrag-zilch-engine-d)| | |
 
 
  #  Properties

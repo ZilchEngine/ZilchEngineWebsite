@@ -45,7 +45,7 @@ The Zilch Engine can be used to make simulations of any kind. Projects range fro
 Not all users have the same level of experience, with Zilch Engine or game engines in general. The following guidelines and recommendations provide recommendations for any level of user with different types of background and experience to become productive in Zilch.
 
  ## Novice Users
-So you have never made a game or even programmed before. No problem! We have a sequence of [ tutorials ](zilch_editor_documentation/tutorials.md) and [ manual ](zilch_editor_documentation/zilchmanual.md) pages that will instruct you in the basics of both Zilch and game programming in general. We suggest users of this level take the following steps to get started.
+So you have never made a game or even programmed before. No problem! We have a sequence of [tutorials](zilch_editor_documentation/tutorials.md) and [manual](zilch_editor_documentation/zilchmanual.md) pages that will instruct you in the basics of both Zilch and game programming in general. We suggest users of this level take the following steps to get started.
 
  ### New To Everything
  - The [standard tutorial sequence](zilch_editor_documentation/tutorials/tutorial_sequences.md) will get you up and interacting with the Editor in the shortest amount of time possible. It is an excellent place to start if you want to dive right in.

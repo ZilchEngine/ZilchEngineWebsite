@@ -1,4 +1,4 @@
-Quit Messages are sent by the engine to quit out of a game by closing Game window. This happens by default when the `esc` (escape) key is pressed in game. Using the [ GameRequestQuit  ](../../../code_reference/event_reference.md#gamerequestquit) event, however, gives the user control over the `esc` key press (which is otherwise inaccessible by Keyboard events). When connecting to the `GameRequestQuit` event, the user may assign any activity to the `esc` key that they wish. 
+Quit Messages are sent by the engine to quit out of a game by closing Game window. This happens by default when the `esc` (escape) key is pressed in game. Using the [GameRequestQuit ](../../../code_reference/event_reference.md#gamerequestquit) event, however, gives the user control over the `esc` key press (which is otherwise inaccessible by Keyboard events). When connecting to the `GameRequestQuit` event, the user may assign any activity to the `esc` key that they wish. 
 
  # Common Uses
  - Using the `esc` key to pause the game
@@ -63,7 +63,7 @@ class GameQuitTest : NadaComponent
 
  ## Code Reference
 - [GameEvent](../../code_reference/class_reference/gameevent.md) 
-- [ GameRequestQuit  ](../../../code_reference/event_reference.md#gamerequestquit)
+- [GameRequestQuit ](../../../code_reference/event_reference.md#gamerequestquit)
 
  
 

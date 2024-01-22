@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateNamedSpace](gamesession.md#createnamedspace-zilch-en)|[ AllSpaces](gamesession.md#allspaces-zilch-engine-do)|[cog](cog.md)| |
-|[ CreateSpace](gamesession.md#createspace-zilch-engine)|[ Focused](gamesession.md#focused-zilch-engine-docu)| | |
-|[ FindAllSpacesByName](gamesession.md#findallspacesbyname-zero)|[ FullScreen](gamesession.md#fullscreen-zilch-engine-d)| | |
-|[ FindSpaceByName](gamesession.md#findspacebyname-zilch-eng)|[ Paused](gamesession.md#paused-zilch-engine-docum)| | |
-|[ Constructor](gamesession.md#gamesession-void)|[ Resolution](gamesession.md#resolution-zilch-engine-d)| | |
-|[ IsEditorMode](gamesession.md#iseditormode-zilch-engine)| | | |
-|[ Pause](gamesession.md#pause-void)| | | |
-|[ Quit](gamesession.md#quit-void)| | | |
-|[ RequestQuit](gamesession.md#requestquit-void)| | | |
-|[ Start](gamesession.md#start-void)| | | |
+|[CreateNamedSpace](gamesession.md#createnamedspace-zilch-en)|[AllSpaces](gamesession.md#allspaces-zilch-engine-do)|[cog](cog.md)| |
+|[CreateSpace](gamesession.md#createspace-zilch-engine)|[Focused](gamesession.md#focused-zilch-engine-docu)| | |
+|[FindAllSpacesByName](gamesession.md#findallspacesbyname-zero)|[FullScreen](gamesession.md#fullscreen-zilch-engine-d)| | |
+|[FindSpaceByName](gamesession.md#findspacebyname-zilch-eng)|[Paused](gamesession.md#paused-zilch-engine-docum)| | |
+|[Constructor](gamesession.md#gamesession-void)|[Resolution](gamesession.md#resolution-zilch-engine-d)| | |
+|[IsEditorMode](gamesession.md#iseditormode-zilch-engine)| | | |
+|[Pause](gamesession.md#pause-void)| | | |
+|[Quit](gamesession.md#quit-void)| | | |
+|[RequestQuit](gamesession.md#requestquit-void)| | | |
+|[Start](gamesession.md#start-void)| | | |
 
 
  #  Properties

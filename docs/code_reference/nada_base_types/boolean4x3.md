@@ -2,21 +2,21 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](boolean4x3.md#boolean4x3-void)|[ Count](boolean4x3.md#count-zilch-engine-docume)| | |
-|[ Get](boolean4x3.md#get-zilch-engine-document)|[ CountX](boolean4x3.md#countx-zilch-engine-docum)| | |
-|[ GetByIndex](boolean4x3.md#getbyindex-zilch-engine-d)|[ CountY](boolean4x3.md#county-zilch-engine-docum)| | |
-|[ Set](boolean4x3.md#set-void)|[ M00](boolean4x3.md#m00-zilch-engine-document)| | |
-|[ SetByIndex](boolean4x3.md#setbyindex-void)|[ M01](boolean4x3.md#m01-zilch-engine-document)| | |
-| |[ M02](boolean4x3.md#m02-zilch-engine-document)| | |
-| |[ M10](boolean4x3.md#m10-zilch-engine-document)| | |
-| |[ M11](boolean4x3.md#m11-zilch-engine-document)| | |
-| |[ M12](boolean4x3.md#m12-zilch-engine-document)| | |
-| |[ M20](boolean4x3.md#m20-zilch-engine-document)| | |
-| |[ M21](boolean4x3.md#m21-zilch-engine-document)| | |
-| |[ M22](boolean4x3.md#m22-zilch-engine-document)| | |
-| |[ M30](boolean4x3.md#m30-zilch-engine-document)| | |
-| |[ M31](boolean4x3.md#m31-zilch-engine-document)| | |
-| |[ M32](boolean4x3.md#m32-zilch-engine-document)| | |
+|[Constructor](boolean4x3.md#boolean4x3-void)|[Count](boolean4x3.md#count-zilch-engine-docume)| | |
+|[Get](boolean4x3.md#get-zilch-engine-document)|[CountX](boolean4x3.md#countx-zilch-engine-docum)| | |
+|[GetByIndex](boolean4x3.md#getbyindex-zilch-engine-d)|[CountY](boolean4x3.md#county-zilch-engine-docum)| | |
+|[Set](boolean4x3.md#set-void)|[M00](boolean4x3.md#m00-zilch-engine-document)| | |
+|[SetByIndex](boolean4x3.md#setbyindex-void)|[M01](boolean4x3.md#m01-zilch-engine-document)| | |
+| |[M02](boolean4x3.md#m02-zilch-engine-document)| | |
+| |[M10](boolean4x3.md#m10-zilch-engine-document)| | |
+| |[M11](boolean4x3.md#m11-zilch-engine-document)| | |
+| |[M12](boolean4x3.md#m12-zilch-engine-document)| | |
+| |[M20](boolean4x3.md#m20-zilch-engine-document)| | |
+| |[M21](boolean4x3.md#m21-zilch-engine-document)| | |
+| |[M22](boolean4x3.md#m22-zilch-engine-document)| | |
+| |[M30](boolean4x3.md#m30-zilch-engine-document)| | |
+| |[M31](boolean4x3.md#m31-zilch-engine-document)| | |
+| |[M32](boolean4x3.md#m32-zilch-engine-document)| | |
 
 
  #  Properties

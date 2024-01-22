@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](projectsettings.md#projectsettings-void)|[ AutoTakeProjectScreenshot](projectsettings.md#autotakeprojectscreensho)|[component](component.md)| |
-| |[ ContentFolder](projectsettings.md#contentfolder-zilch-engin)| | |
-| |[ EditorContentFolder](projectsettings.md#editorcontentfolder-zero)| | |
-| |[ ProjectFolder](projectsettings.md#projectfolder-zilch-engin)| | |
-| |[ ProjectName](projectsettings.md#projectname-zilch-engine)| | |
-| |[ ProjectOwner](projectsettings.md#projectowner-zilch-engine)| | |
+|[Constructor](projectsettings.md#projectsettings-void)|[AutoTakeProjectScreenshot](projectsettings.md#autotakeprojectscreensho)|[component](component.md)| |
+| |[ContentFolder](projectsettings.md#contentfolder-zilch-engin)| | |
+| |[EditorContentFolder](projectsettings.md#editorcontentfolder-zero)| | |
+| |[ProjectFolder](projectsettings.md#projectfolder-zilch-engin)| | |
+| |[ProjectName](projectsettings.md#projectname-zilch-engine)| | |
+| |[ProjectOwner](projectsettings.md#projectowner-zilch-engine)| | |
 
 
  #  Properties

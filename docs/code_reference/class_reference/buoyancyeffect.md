@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](buoyancyeffect.md#buoyancyeffect-void)|[ DebugDrawRuntime](buoyancyeffect.md#debugdrawruntime-zilch-en)|[physicseffect](physicseffect.md)| |
-| |[ Density](buoyancyeffect.md#density-zilch-engine-docu)| | |
-| |[ Detail](buoyancyeffect.md#detail-zilch-engine-docum)| | |
-| |[ Gravity](buoyancyeffect.md#gravity-zilch-engine-docu)| | |
+|[Constructor](buoyancyeffect.md#buoyancyeffect-void)|[DebugDrawRuntime](buoyancyeffect.md#debugdrawruntime-zilch-en)|[physicseffect](physicseffect.md)| |
+| |[Density](buoyancyeffect.md#density-zilch-engine-docu)| | |
+| |[Detail](buoyancyeffect.md#detail-zilch-engine-docum)| | |
+| |[Gravity](buoyancyeffect.md#gravity-zilch-engine-docu)| | |
 
 
  #  Properties

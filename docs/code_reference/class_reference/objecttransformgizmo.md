@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddObject](objecttransformgizmo.md#addobject-void)|[ Basis](objecttransformgizmo.md#basis-zilch-engine-docume)|[component](component.md)|[objectrotategizmo](objectrotategizmo.md)|
-|[ ClearObjects](objecttransformgizmo.md#clearobjects-void)|[ ObjectCount](objecttransformgizmo.md#objectcount-zilch-engine)| |[objectscalegizmo](objectscalegizmo.md)|
-|[ GetObjectAtIndex](objecttransformgizmo.md#getobjectatindex-zilch-en)|[ Pivot](objecttransformgizmo.md#pivot-zilch-engine-docume)| |[objecttranslategizmo](objecttranslategizmo.md)|
-|[ Constructor](objecttransformgizmo.md#objecttransformgizmo-voi)| | | |
-|[ RemoveObject](objecttransformgizmo.md#removeobject-void)| | | |
-|[ SetOperationQueue](objecttransformgizmo.md#setoperationqueue-void)| | | |
-|[ ToggleCoordinateMode](objecttransformgizmo.md#togglecoordinatemode-voi)| | | |
+|[AddObject](objecttransformgizmo.md#addobject-void)|[Basis](objecttransformgizmo.md#basis-zilch-engine-docume)|[component](component.md)|[objectrotategizmo](objectrotategizmo.md)|
+|[ClearObjects](objecttransformgizmo.md#clearobjects-void)|[ObjectCount](objecttransformgizmo.md#objectcount-zilch-engine)| |[objectscalegizmo](objectscalegizmo.md)|
+|[GetObjectAtIndex](objecttransformgizmo.md#getobjectatindex-zilch-en)|[Pivot](objecttransformgizmo.md#pivot-zilch-engine-docume)| |[objecttranslategizmo](objecttranslategizmo.md)|
+|[Constructor](objecttransformgizmo.md#objecttransformgizmo-voi)| | | |
+|[RemoveObject](objecttransformgizmo.md#removeobject-void)| | | |
+|[SetOperationQueue](objecttransformgizmo.md#setoperationqueue-void)| | | |
+|[ToggleCoordinateMode](objecttransformgizmo.md#togglecoordinatemode-voi)| | | |
 
 
  #  Properties

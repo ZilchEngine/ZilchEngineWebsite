@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DispatchEvent](coginitializer.md#dispatchevent-void)|[ GameSession](coginitializer.md#gamesession-zilch-engine)|[safeid32eventobject](safeid32eventobject.md)| |
-| |[ Parent](coginitializer.md#parent-zilch-engine-docum)| | |
-| |[ Space](coginitializer.md#space-zilch-engine-docume)| | |
+|[DispatchEvent](coginitializer.md#dispatchevent-void)|[GameSession](coginitializer.md#gamesession-zilch-engine)|[safeid32eventobject](safeid32eventobject.md)| |
+| |[Parent](coginitializer.md#parent-zilch-engine-docum)| | |
+| |[Space](coginitializer.md#space-zilch-engine-docume)| | |
 
 
  #  Properties

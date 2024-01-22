@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](scalegizmo.md#scalegizmo-void)|[ SnapDistance](scalegizmo.md#snapdistance-zilch-engine)|[component](component.md)| |
-| |[ SnapMode](scalegizmo.md#snapmode-zilch-engine-doc)| | |
-| |[ Snapping](scalegizmo.md#snapping-zilch-engine-doc)| | |
+|[Constructor](scalegizmo.md#scalegizmo-void)|[SnapDistance](scalegizmo.md#snapdistance-zilch-engine)|[component](component.md)| |
+| |[SnapMode](scalegizmo.md#snapmode-zilch-engine-doc)| | |
+| |[Snapping](scalegizmo.md#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

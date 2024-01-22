@@ -10,7 +10,7 @@ To change the values applied to a SpriteSource when an image is imported, double
 ![SpriteSourceEditor](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47311.png) *Sprite Source Editor window*
 
 
-There are many different properties that may be modified such as where to set the origin, the type of sampling, and the SpriteFill mode (to change from Fill to [Nine Slice](../sprites/area.md) for example). If the SpriteSource is a sprite sheet created for [ Sprite animation](../sprites/spritesourceeditor.md#creating-sprite-animatio), click on `Convert to Animation` to open the Sprite Importer window.
+There are many different properties that may be modified such as where to set the origin, the type of sampling, and the SpriteFill mode (to change from Fill to [Nine Slice](../sprites/area.md) for example). If the SpriteSource is a sprite sheet created for [Sprite animation](../sprites/spritesourceeditor.md#creating-sprite-animatio), click on `Convert to Animation` to open the Sprite Importer window.
 
  # Related Material
 

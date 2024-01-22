@@ -1,4 +1,4 @@
-The [ SoundEmitter ](../../../code_reference/class_reference/soundemitter.md) component handles the 3D positioning of sounds in a level. For instance, if the SoundEmitter's object is to the left of a [SoundListener ](soundlistener.md), it will reduce the amount of sound going to the right speaker, so that the player hears the sound to their left. 
+The [SoundEmitter](../../../code_reference/class_reference/soundemitter.md) component handles the 3D positioning of sounds in a level. For instance, if the SoundEmitter's object is to the left of a [SoundListener](soundlistener.md), it will reduce the amount of sound going to the right speaker, so that the player hears the sound to their left. 
 
  # Using SoundEmitters
 
@@ -29,32 +29,32 @@ If a [SoundAttenuator](soundattenuator.md) resource other than DefaultNoAttenuat
 
  ## SoundNodes
 
-Unlike other objects, SoundEmitters are a collection of multiple [SoundNodes ](soundnode.md). This allows them to have settings for volume and pitch as well as handling spatialization. Because of this, instead of one SoundNode property, SoundEmitters have two separate properties for the first and last SoundNodes in their chain. 
+Unlike other objects, SoundEmitters are a collection of multiple [SoundNodes](soundnode.md). This allows them to have settings for volume and pitch as well as handling spatialization. Because of this, instead of one SoundNode property, SoundEmitters have two separate properties for the first and last SoundNodes in their chain. 
 
 The `InputNode` property should be used for attaching other SoundNodes to the input of the SoundEmitter, while the `OutputNode` should be used for attaching to its output. Users cannot insert other SoundNodes before or after the `InputNode`, and cannot insert SoundNodes before the `OutputNode`. Neither of these nodes can be replaced or removed from the graph.
 
  ##  Nada Events
 
-- The `SoundInstancePlayed` [ SoundInstanceEvent  ](../../../code_reference/class_reference/soundinstanceevent.md) will be sent when a SoundCue is played using either the `PlayCue` or `PlayCuePaused` methods. 
-- The `AudioInterpolationDone` [ SoundEvent  ](../../../code_reference/class_reference/soundevent.md) is sent whenever a volume or pitch interpolation has finished.
+- The `SoundInstancePlayed` [SoundInstanceEvent ](../../../code_reference/class_reference/soundinstanceevent.md) will be sent when a SoundCue is played using either the `PlayCue` or `PlayCuePaused` methods. 
+- The `AudioInterpolationDone` [SoundEvent ](../../../code_reference/class_reference/soundevent.md) is sent whenever a volume or pitch interpolation has finished.
 
 ---
  # Related Materials
 
  ## Manual
 
-- [SoundListener ](soundlistener.md)
-- [SoundInstance ](soundinstance.md)
-- [SoundTag ](soundtag.md)
-- [SoundCue ](soundcue.md)
-- [SoundSpace ](soundspace.md)
-- [SoundAttenuator ](soundattenuator.md)
-- [SoundNode ](soundnode.md)
+- [SoundListener](soundlistener.md)
+- [SoundInstance](soundinstance.md)
+- [SoundTag](soundtag.md)
+- [SoundCue](soundcue.md)
+- [SoundSpace](soundspace.md)
+- [SoundAttenuator](soundattenuator.md)
+- [SoundNode](soundnode.md)
 
  ## Reference
 
-- [ SoundEmitter ](../../../code_reference/class_reference/soundemitter.md)
-- [ SoundInstanceEvent  ](../../../code_reference/class_reference/soundinstanceevent.md) 
-- [ SoundEvent  ](../../../code_reference/class_reference/soundevent.md)  
+- [SoundEmitter](../../../code_reference/class_reference/soundemitter.md)
+- [SoundInstanceEvent ](../../../code_reference/class_reference/soundinstanceevent.md) 
+- [SoundEvent ](../../../code_reference/class_reference/soundevent.md)  
 
  

@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](sphericalparticleemitter.md#sphericalparticleemitter)| |[particleemittershared](particleemittershared.md)| |
+|[Constructor](sphericalparticleemitter.md#sphericalparticleemitter)| |[particleemittershared](particleemittershared.md)| |
 
 
  #  Properties

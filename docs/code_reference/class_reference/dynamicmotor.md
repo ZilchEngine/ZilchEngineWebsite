@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](dynamicmotor.md#dynamicmotor-void)|[ Active](dynamicmotor.md#active-zilch-engine-docum)|[component](component.md)| |
-|[ MoveInDirection](dynamicmotor.md#moveindirection-void)|[ MaxMoveImpulse](dynamicmotor.md#maxmoveimpulse-zilch-engi)| | |
-|[ SetReferenceFrameToObject](dynamicmotor.md#setreferenceframetoobjec)| | | |
-|[ SetReferenceFrameToWorld](dynamicmotor.md#setreferenceframetoworld)| | | |
+|[Constructor](dynamicmotor.md#dynamicmotor-void)|[Active](dynamicmotor.md#active-zilch-engine-docum)|[component](component.md)| |
+|[MoveInDirection](dynamicmotor.md#moveindirection-void)|[MaxMoveImpulse](dynamicmotor.md#maxmoveimpulse-zilch-engi)| | |
+|[SetReferenceFrameToObject](dynamicmotor.md#setreferenceframetoobjec)| | | |
+|[SetReferenceFrameToWorld](dynamicmotor.md#setreferenceframetoworld)| | | |
 
 
  #  Properties

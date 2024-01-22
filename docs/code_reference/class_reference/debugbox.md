@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugbox.md#debugbox-void)|[ Color](debugbox.md#color-zilch-engine-docume)| | |
-| |[ Filled](debugbox.md#filled-zilch-engine-docum)| | |
-| |[ HalfExtents](debugbox.md#halfextents-zilch-engine)| | |
-| |[ OnTop](debugbox.md#ontop-zilch-engine-docume)| | |
-| |[ Position](debugbox.md#position-zilch-engine-doc)| | |
-| |[ Rotation](debugbox.md#rotation-zilch-engine-doc)| | |
-| |[ ViewAligned](debugbox.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugbox.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugbox.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugbox.md#debugbox-void)|[Color](debugbox.md#color-zilch-engine-docume)| | |
+| |[Filled](debugbox.md#filled-zilch-engine-docum)| | |
+| |[HalfExtents](debugbox.md#halfextents-zilch-engine)| | |
+| |[OnTop](debugbox.md#ontop-zilch-engine-docume)| | |
+| |[Position](debugbox.md#position-zilch-engine-doc)| | |
+| |[Rotation](debugbox.md#rotation-zilch-engine-doc)| | |
+| |[ViewAligned](debugbox.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugbox.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugbox.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](ringgizmo.md#ringgizmo-void)|[ BackShade](ringgizmo.md#backshade-zilch-engine-do)|[simplegizmobase](simplegizmobase.md)| |
-| |[ DragRadiansPerPixel](ringgizmo.md#dragradiansperpixel-zero)| | |
-| |[ GrabArrowColor](ringgizmo.md#grabarrowcolor-zilch-engi)| | |
-| |[ GrabArrowHeadSize](ringgizmo.md#grabarrowheadsize-zilch-e)| | |
-| |[ GrabArrowLength](ringgizmo.md#grabarrowlength-zilch-eng)| | |
-| |[ GrabArrowOnTop](ringgizmo.md#grabarrowontop-zilch-engi)| | |
-| |[ GrabArrowViewScaled](ringgizmo.md#grabarrowviewscaled-zero)| | |
-| |[ Radius](ringgizmo.md#radius-zilch-engine-docum)| | |
-| |[ SelectRadius](ringgizmo.md#selectradius-zilch-engine)| | |
-| |[ ViewAligned](ringgizmo.md#viewaligned-zilch-engine)| | |
+|[Constructor](ringgizmo.md#ringgizmo-void)|[BackShade](ringgizmo.md#backshade-zilch-engine-do)|[simplegizmobase](simplegizmobase.md)| |
+| |[DragRadiansPerPixel](ringgizmo.md#dragradiansperpixel-zero)| | |
+| |[GrabArrowColor](ringgizmo.md#grabarrowcolor-zilch-engi)| | |
+| |[GrabArrowHeadSize](ringgizmo.md#grabarrowheadsize-zilch-e)| | |
+| |[GrabArrowLength](ringgizmo.md#grabarrowlength-zilch-eng)| | |
+| |[GrabArrowOnTop](ringgizmo.md#grabarrowontop-zilch-engi)| | |
+| |[GrabArrowViewScaled](ringgizmo.md#grabarrowviewscaled-zero)| | |
+| |[Radius](ringgizmo.md#radius-zilch-engine-docum)| | |
+| |[SelectRadius](ringgizmo.md#selectradius-zilch-engine)| | |
+| |[ViewAligned](ringgizmo.md#viewaligned-zilch-engine)| | |
 
 
  #  Properties

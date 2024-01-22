@@ -1,12 +1,12 @@
 
  #  Overview
-[ PhysicsEffects](../../../code_reference/class_reference/physicseffect.md) apply common types of forces to objects. How an effect is applied varies depending on what kind of object it's attached to. Not all attachment modes make logical sense for all effect types. In order, an effect will check for these conditions:
-  - [levelsettings](../architecture/objects/levelsettings.md): All objects in the level have this effect applied to them. See [ IgnoreSpaceEffects](physicseffectsandregions.md#ignorespaceeffects) for exceptions.
-  - [ Region ](../../../code_reference/class_reference/region.md): All objects in contact with this collision volume (Collider assumed) will have the effect applied to them. Typically, the relevant Collider should be set to Ghost.
+[PhysicsEffects](../../../code_reference/class_reference/physicseffect.md) apply common types of forces to objects. How an effect is applied varies depending on what kind of object it's attached to. Not all attachment modes make logical sense for all effect types. In order, an effect will check for these conditions:
+  - [levelsettings](../architecture/objects/levelsettings.md): All objects in the level have this effect applied to them. See [IgnoreSpaceEffects](physicseffectsandregions.md#ignorespaceeffects) for exceptions.
+  - [Region](../../../code_reference/class_reference/region.md): All objects in contact with this collision volume (Collider assumed) will have the effect applied to them. Typically, the relevant Collider should be set to Ghost.
   - [RigidBody](rigidbody.md): If a RigidBody exists without a Region, the effect will apply to the RigidBody's center of mass.
   - [Collider](colliders.md): If a Collider exists then it is assumed that the effect should apply to the nearest parent RigidBody in the hierarchy. If relevant, the effect will also apply the force at the Collider's position (such as [ThrustEffect](physicseffectsandregions/thrusteffect.md)).
-  - [ PhysicsSpace ](physicsspace.md): When a physics effect is attached to a space it'll apply to all objects in that space. This option is less preferred to LevelSettings.
-  - [ Hierarchy ](hierarchies.md): If an effect does fall into one of the above criteria, it is assumed to apply to the nearest parent RigidBody in the hierarchy.
+  - [PhysicsSpace](physicsspace.md): When a physics effect is attached to a space it'll apply to all objects in that space. This option is less preferred to LevelSettings.
+  - [Hierarchy](hierarchies.md): If an effect does fall into one of the above criteria, it is assumed to apply to the nearest parent RigidBody in the hierarchy.
 
 In the remainder of this page, the wording "global effect" will be used to refer to both LevelSettings and [PhysicsSpace](physicsspace.md) effect mode types.
 
@@ -23,7 +23,7 @@ The currently available PhysicsEffects are:
   - [VortexEffect](physicseffectsandregions/vortexeffect.md): Applies a force to make an object circle around a vortex center.
   - [WindEffect](physicseffectsandregions/windeffect.md): Applies a directional force proportional to the approximate surface area of the object in the wind direction.
   - [BuoyancyEffect](physicseffectsandregions/buoyancyeffect.md): Applies a buoyancy force to all objects in collision with this shape.
-  - [CustomPhysicsEffect ](physicseffectsandregions/customphysicseffect.md): Allows user defined effects via script events.
+  - [CustomPhysicsEffect](physicseffectsandregions/customphysicseffect.md): Allows user defined effects via script events.
   
  #  IgnoreSpaceEffects
 Occasionally some objects should not have certain global effects applied to them, such as gravity or drag. One solution to this is to remove the relevant effects from LevelSettings/Space and add the effect to every RigidBody instead. This quickly becomes impractical as the number of objects increases. Instead the problem can be approached from the opposite direction: telling certain objects to ignore global effects. The [IgnoreSpaceEffects](../../../code_reference/class_reference/ignorespaceeffects.md) component tells an object to not apply global forces of certain types.
@@ -42,7 +42,7 @@ Sometimes a PhysicsEffect will not behave as desired. When trying to troubleshoo
 - [colliders.md](colliders.md)
 - [physicsspace.md](physicsspace.md)
 - [levelsettings](../architecture/objects/levelsettings.md)
-- [ Hierarchy ](hierarchies.md)
+- [Hierarchy](hierarchies.md)
 
  ##  Reference
 - [RigidBody](../../../code_reference/class_reference/rigidbody.md)

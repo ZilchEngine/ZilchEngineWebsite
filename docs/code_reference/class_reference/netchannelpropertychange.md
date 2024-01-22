@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ChannelName](netchannelpropertychange.md#channelname-zilch-engine)|[event](event.md)| |
-| |[ ComponentName](netchannelpropertychange.md#componentname-zilch-engin)| | |
-| |[ Direction](netchannelpropertychange.md#direction-zilch-engine-do)| | |
-| |[ Object](netchannelpropertychange.md#object-zilch-engine-docum)| | |
-| |[ PropertyName](netchannelpropertychange.md#propertyname-zilch-engine)| | |
-| |[ ReplicationPhase](netchannelpropertychange.md#replicationphase-zilch-en)| | |
-| |[ Timestamp](netchannelpropertychange.md#timestamp-zilch-engine-do)| | |
+| |[ChannelName](netchannelpropertychange.md#channelname-zilch-engine)|[event](event.md)| |
+| |[ComponentName](netchannelpropertychange.md#componentname-zilch-engin)| | |
+| |[Direction](netchannelpropertychange.md#direction-zilch-engine-do)| | |
+| |[Object](netchannelpropertychange.md#object-zilch-engine-docum)| | |
+| |[PropertyName](netchannelpropertychange.md#propertyname-zilch-engine)| | |
+| |[ReplicationPhase](netchannelpropertychange.md#replicationphase-zilch-en)| | |
+| |[Timestamp](netchannelpropertychange.md#timestamp-zilch-engine-do)| | |
 
 
  #  Properties

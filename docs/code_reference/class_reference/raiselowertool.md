@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Relative](raiselowertool.md#relative-zilch-engine-doc)|[heightmanipulationtool](heightmanipulationtool.md)| |
-| |[ Strength](raiselowertool.md#strength-zilch-engine-doc)| | |
+| |[Relative](raiselowertool.md#relative-zilch-engine-doc)|[heightmanipulationtool](heightmanipulationtool.md)| |
+| |[Strength](raiselowertool.md#strength-zilch-engine-doc)| | |
 
 
  #  Properties

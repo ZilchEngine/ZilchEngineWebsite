@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](manipulatortool.md#manipulatortool-void)|[ DuplicateOnCtrlDrag](manipulatortool.md#duplicateonctrldrag-zero)|[component](component.md)| |
-| |[ GrabMode](manipulatortool.md#grabmode-zilch-engine-doc)| | |
-| |[ HoverColor](manipulatortool.md#hovercolor-zilch-engine-d)| | |
-| |[ IncludeMode](manipulatortool.md#includemode-zilch-engine)| | |
-| |[ SizeBoxCollider](manipulatortool.md#sizeboxcollider-zilch-eng)| | |
-| |[ SnapDistance](manipulatortool.md#snapdistance-zilch-engine)| | |
-| |[ Snapping](manipulatortool.md#snapping-zilch-engine-doc)| | |
-| |[ ToolColor](manipulatortool.md#toolcolor-zilch-engine-do)| | |
+|[Constructor](manipulatortool.md#manipulatortool-void)|[DuplicateOnCtrlDrag](manipulatortool.md#duplicateonctrldrag-zero)|[component](component.md)| |
+| |[GrabMode](manipulatortool.md#grabmode-zilch-engine-doc)| | |
+| |[HoverColor](manipulatortool.md#hovercolor-zilch-engine-d)| | |
+| |[IncludeMode](manipulatortool.md#includemode-zilch-engine)| | |
+| |[SizeBoxCollider](manipulatortool.md#sizeboxcollider-zilch-eng)| | |
+| |[SnapDistance](manipulatortool.md#snapdistance-zilch-engine)| | |
+| |[Snapping](manipulatortool.md#snapping-zilch-engine-doc)| | |
+| |[ToolColor](manipulatortool.md#toolcolor-zilch-engine-do)| | |
 
 
  #  Properties

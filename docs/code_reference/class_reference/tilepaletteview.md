@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Archetype](tilepaletteview.md#archetype-zilch-engine-do)|[composite](composite.md)| |
-| |[ Collision](tilepaletteview.md#collision-zilch-engine-do)| | |
-| |[ Mergeable](tilepaletteview.md#mergeable-zilch-engine-do)| | |
-| |[ Sprite](tilepaletteview.md#sprite-zilch-engine-docum)| | |
-| |[ TilePalette](tilepaletteview.md#tilepalette-zilch-engine)| | |
+| |[Archetype](tilepaletteview.md#archetype-zilch-engine-do)|[composite](composite.md)| |
+| |[Collision](tilepaletteview.md#collision-zilch-engine-do)| | |
+| |[Mergeable](tilepaletteview.md#mergeable-zilch-engine-do)| | |
+| |[Sprite](tilepaletteview.md#sprite-zilch-engine-docum)| | |
+| |[TilePalette](tilepaletteview.md#tilepalette-zilch-engine)| | |
 
 
  #  Properties

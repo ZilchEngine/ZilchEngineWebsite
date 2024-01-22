@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AcquiredObject](netuseracquiredobjectownership.md#acquiredobject-zilch-engi)|[event](event.md)| |
-| |[ PreviousNetUserOwner](netuseracquiredobjectownership.md#previousnetuserowner-zer)| | |
+| |[AcquiredObject](netuseracquiredobjectownership.md#acquiredobject-zilch-engi)|[event](event.md)| |
+| |[PreviousNetUserOwner](netuseracquiredobjectownership.md#previousnetuserowner-zer)| | |
 
 
  #  Properties

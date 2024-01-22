@@ -6,7 +6,7 @@
  - Gives access to vibration for tactile feedback to players
 
  ## Before Using Gamepads
-Before starting to use Gamepads in a project, take the time to check that they are properly working. What may be thought to be an error in code may, in fact, be that the Gamepad is not plugged in properly, has outdated drivers, etc. Most wired Gamepads should work without issue; however, some wireless Gamepads may need to have drivers updated. This page was written using wired XBox 360 controllers. If using an XBox One Gamepad, drivers may be found [here ](http://support.xbox.com/en-US/xbox-one/accessories/controller-pc-compatibility).
+Before starting to use Gamepads in a project, take the time to check that they are properly working. What may be thought to be an error in code may, in fact, be that the Gamepad is not plugged in properly, has outdated drivers, etc. Most wired Gamepads should work without issue; however, some wireless Gamepads may need to have drivers updated. This page was written using wired XBox 360 controllers. If using an XBox One Gamepad, drivers may be found [here](http://support.xbox.com/en-US/xbox-one/accessories/controller-pc-compatibility).
 
 
  # Using Gamepads

@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](windowlaunchsettings.md#windowlaunchsettings-voi)|[ LaunchFullscreen](windowlaunchsettings.md#launchfullscreen-zilch-en)|[component](component.md)| |
-| |[ WindowedResolution](windowlaunchsettings.md#windowedresolution-zero)| | |
+|[Constructor](windowlaunchsettings.md#windowlaunchsettings-voi)|[LaunchFullscreen](windowlaunchsettings.md#launchfullscreen-zilch-en)|[component](component.md)| |
+| |[WindowedResolution](windowlaunchsettings.md#windowedresolution-zero)| | |
 
 
  #  Properties

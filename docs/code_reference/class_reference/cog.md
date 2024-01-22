@@ -4,44 +4,44 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddComponentByName](cog.md#addcomponentbyname-zero)|[ Actions](cog.md#actions-zilch-engine-docu)|Object|[gamesession](gamesession.md)|
-|[ AddComponentByType](cog.md#addcomponentbytype-zero)|[ Archetype](cog.md#archetype-zilch-engine-do)| |[space](space.md)|
-|[ AttachTo](cog.md#attachto-zilch-engine-doc)|[ BaseArchetype](cog.md#basearchetype-zilch-engin)| | |
-|[ AttachToPreserveLocal](cog.md#attachtopreservelocal-ze)|[ ChildCount](cog.md#childcount-zilch-engine-d)| | |
-|[ ClearArchetype](cog.md#cleararchetype-void)|[ Children](cog.md#children-zilch-engine-doc)| | |
-|[ Clone](cog.md#clone-zilch-engine-docume)|[ ComponentCount](cog.md#componentcount-zilch-engi)| | |
-|[ Constructor](cog.md#cog-void)|[ EditorViewportHidden](cog.md#editorviewporthidden-zer)| | |
-|[ DebugDraw](cog.md#debugdraw-void)|[ GameSession](cog.md#gamesession-zilch-engine)| | |
-|[ Destroy](cog.md#destroy-void)|[ LevelSettings](cog.md#levelsettings-zilch-engin)| | |
-|[ Detach](cog.md#detach-void)|[ Locked](cog.md#locked-zilch-engine-docum)| | |
-|[ DetachPreserveLocal](cog.md#detachpreservelocal-void)|[ MarkedForDestruction](cog.md#markedfordestruction-zer)| | |
-|[ DispatchDown](cog.md#dispatchdown-void)|[ Name](cog.md#name-zilch-engine-documen)| | |
-|[ DispatchEvent](cog.md#dispatchevent-void)|[ ObjectViewHidden](cog.md#objectviewhidden-zilch-en)| | |
-|[ DispatchUp](cog.md#dispatchup-void)|[ Parent](cog.md#parent-zilch-engine-docum)| | |
-|[ FindAllChildrenByName](cog.md#findallchildrenbyname-ze)|[ Persistent](cog.md#persistent-zilch-engine-d)| | |
-|[ FindChildByName](cog.md#findchildbyname-zilch-eng)|[ RuntimeId](cog.md#runtimeid-zilch-engine-do)| | |
-|[ FindDirectChildByName](cog.md#finddirectchildbyname-ze)|[ Space](cog.md#space-zilch-engine-docume)| | |
-|[ FindNearestArchetype](cog.md#findnearestarchetype-zer)|[ Transient](cog.md#transient-zilch-engine-do)| | |
-|[ FindNextInOrder](cog.md#findnextinorder-zilch-eng)| | | |
-|[ FindNextSibling](cog.md#findnextsibling-zilch-eng)| | | |
-|[ FindPreviousInOrder](cog.md#findpreviousinorder-zero)| | | |
-|[ FindPreviousSibling](cog.md#findprevioussibling-zero)| | | |
-|[ FindRoot](cog.md#findroot-zilch-engine-doc)| | | |
-|[ FindRootArchetype](cog.md#findrootarchetype-zilch-e)| | | |
-|[ GetComponentByIndex](cog.md#getcomponentbyindex-zero)| | | |
-|[ GetComponentByName](cog.md#getcomponentbyname-zero)| | | |
-|[ GetComponentIndex](cog.md#getcomponentindex-zilch-e)| | | |
-|[ IsAncestorOf](cog.md#isancestorof-zilch-engine)| | | |
-|[ IsDescendant](cog.md#isdescendant-zilch-engine)| | | |
-|[ IsDescendantOf](cog.md#isdescendantof-zilch-engi)| | | |
-|[ IsModifiedFromArchetype](cog.md#ismodifiedfromarchetype)| | | |
-|[ PlaceAfterSibling](cog.md#placeaftersibling-void)| | | |
-|[ PlaceBeforeSibling](cog.md#placebeforesibling-void)| | | |
-|[ RemoveComponentByName](cog.md#removecomponentbyname-ze)| | | |
-|[ RemoveComponentByType](cog.md#removecomponentbytype-ze)| | | |
-|[ ReplaceChild](cog.md#replacechild-void)| | | |
-|[ SanitizeName](cog.md#sanitizename-zilch-engine)| | | |
-|[ UploadToArchetype](cog.md#uploadtoarchetype-void)| | | |
+|[AddComponentByName](cog.md#addcomponentbyname-zero)|[Actions](cog.md#actions-zilch-engine-docu)|Object|[gamesession](gamesession.md)|
+|[AddComponentByType](cog.md#addcomponentbytype-zero)|[Archetype](cog.md#archetype-zilch-engine-do)| |[space](space.md)|
+|[AttachTo](cog.md#attachto-zilch-engine-doc)|[BaseArchetype](cog.md#basearchetype-zilch-engin)| | |
+|[AttachToPreserveLocal](cog.md#attachtopreservelocal-ze)|[ChildCount](cog.md#childcount-zilch-engine-d)| | |
+|[ClearArchetype](cog.md#cleararchetype-void)|[Children](cog.md#children-zilch-engine-doc)| | |
+|[Clone](cog.md#clone-zilch-engine-docume)|[ComponentCount](cog.md#componentcount-zilch-engi)| | |
+|[Constructor](cog.md#cog-void)|[EditorViewportHidden](cog.md#editorviewporthidden-zer)| | |
+|[DebugDraw](cog.md#debugdraw-void)|[GameSession](cog.md#gamesession-zilch-engine)| | |
+|[Destroy](cog.md#destroy-void)|[LevelSettings](cog.md#levelsettings-zilch-engin)| | |
+|[Detach](cog.md#detach-void)|[Locked](cog.md#locked-zilch-engine-docum)| | |
+|[DetachPreserveLocal](cog.md#detachpreservelocal-void)|[MarkedForDestruction](cog.md#markedfordestruction-zer)| | |
+|[DispatchDown](cog.md#dispatchdown-void)|[Name](cog.md#name-zilch-engine-documen)| | |
+|[DispatchEvent](cog.md#dispatchevent-void)|[ObjectViewHidden](cog.md#objectviewhidden-zilch-en)| | |
+|[DispatchUp](cog.md#dispatchup-void)|[Parent](cog.md#parent-zilch-engine-docum)| | |
+|[FindAllChildrenByName](cog.md#findallchildrenbyname-ze)|[Persistent](cog.md#persistent-zilch-engine-d)| | |
+|[FindChildByName](cog.md#findchildbyname-zilch-eng)|[RuntimeId](cog.md#runtimeid-zilch-engine-do)| | |
+|[FindDirectChildByName](cog.md#finddirectchildbyname-ze)|[Space](cog.md#space-zilch-engine-docume)| | |
+|[FindNearestArchetype](cog.md#findnearestarchetype-zer)|[Transient](cog.md#transient-zilch-engine-do)| | |
+|[FindNextInOrder](cog.md#findnextinorder-zilch-eng)| | | |
+|[FindNextSibling](cog.md#findnextsibling-zilch-eng)| | | |
+|[FindPreviousInOrder](cog.md#findpreviousinorder-zero)| | | |
+|[FindPreviousSibling](cog.md#findprevioussibling-zero)| | | |
+|[FindRoot](cog.md#findroot-zilch-engine-doc)| | | |
+|[FindRootArchetype](cog.md#findrootarchetype-zilch-e)| | | |
+|[GetComponentByIndex](cog.md#getcomponentbyindex-zero)| | | |
+|[GetComponentByName](cog.md#getcomponentbyname-zero)| | | |
+|[GetComponentIndex](cog.md#getcomponentindex-zilch-e)| | | |
+|[IsAncestorOf](cog.md#isancestorof-zilch-engine)| | | |
+|[IsDescendant](cog.md#isdescendant-zilch-engine)| | | |
+|[IsDescendantOf](cog.md#isdescendantof-zilch-engi)| | | |
+|[IsModifiedFromArchetype](cog.md#ismodifiedfromarchetype)| | | |
+|[PlaceAfterSibling](cog.md#placeaftersibling-void)| | | |
+|[PlaceBeforeSibling](cog.md#placebeforesibling-void)| | | |
+|[RemoveComponentByName](cog.md#removecomponentbyname-ze)| | | |
+|[RemoveComponentByType](cog.md#removecomponentbytype-ze)| | | |
+|[ReplaceChild](cog.md#replacechild-void)| | | |
+|[SanitizeName](cog.md#sanitizename-zilch-engine)| | | |
+|[UploadToArchetype](cog.md#uploadtoarchetype-void)| | | |
 
 
  #  Properties

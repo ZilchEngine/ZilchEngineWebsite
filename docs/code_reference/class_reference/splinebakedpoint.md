@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](splinebakedpoint.md#splinebakedpoint-void)|[ Position](splinebakedpoint.md#position-zilch-engine-doc)| | |
-| |[ WorldPosition](splinebakedpoint.md#worldposition-zilch-engin)| | |
+|[Constructor](splinebakedpoint.md#splinebakedpoint-void)|[Position](splinebakedpoint.md#position-zilch-engine-doc)| | |
+| |[WorldPosition](splinebakedpoint.md#worldposition-zilch-engin)| | |
 
 
  #  Properties

@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Device](inputdeviceevent.md#device-zilch-engine-docum)|[event](event.md)| |
-| |[ LastDevice](inputdeviceevent.md#lastdevice-zilch-engine-d)| | |
+| |[Device](inputdeviceevent.md#device-zilch-engine-docum)|[event](event.md)| |
+| |[LastDevice](inputdeviceevent.md#lastdevice-zilch-engine-d)| | |
 
 
  #  Properties

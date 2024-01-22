@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](samplersettings.md#samplersettings-void)|[ AddressingX](samplersettings.md#addressingx-zilch-engine)| | |
-| |[ AddressingY](samplersettings.md#addressingy-zilch-engine)| | |
-| |[ CompareFunc](samplersettings.md#comparefunc-zilch-engine)| | |
-| |[ CompareMode](samplersettings.md#comparemode-zilch-engine)| | |
-| |[ Filtering](samplersettings.md#filtering-zilch-engine-do)| | |
+|[Constructor](samplersettings.md#samplersettings-void)|[AddressingX](samplersettings.md#addressingx-zilch-engine)| | |
+| |[AddressingY](samplersettings.md#addressingy-zilch-engine)| | |
+| |[CompareFunc](samplersettings.md#comparefunc-zilch-engine)| | |
+| |[CompareMode](samplersettings.md#comparemode-zilch-engine)| | |
+| |[Filtering](samplersettings.md#filtering-zilch-engine-do)| | |
 
 
  #  Properties

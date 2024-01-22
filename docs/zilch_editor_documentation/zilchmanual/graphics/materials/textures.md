@@ -1,6 +1,6 @@
-[ Textures  ](../../../../code_reference/class_reference/texture.md) are a special type of image used to render 3D graphics. It's commonly mapped to [ meshes ](../models/mesh.md), [ particles ](../../../tutorials/graphics/particles.md) and surfaces and it controls different aspects of rendering through colors, normals and masks and more.
+[Textures ](../../../../code_reference/class_reference/texture.md) are a special type of image used to render 3D graphics. It's commonly mapped to [meshes](../models/mesh.md), [particles](../../../tutorials/graphics/particles.md) and surfaces and it controls different aspects of rendering through colors, normals and masks and more.
 
-Textures are not a final picture of the object; they are inputs that, when combined with lighting and other visual effects, produce a variety of graphical results. One of the most important aspects of textures is the ability to be drawn at different sizes efficiently. This is accomplished through [Mipmapping ](http://en.wikipedia.org/wiki/Mipmap) and anisotropic filtering.
+Textures are not a final picture of the object; they are inputs that, when combined with lighting and other visual effects, produce a variety of graphical results. One of the most important aspects of textures is the ability to be drawn at different sizes efficiently. This is accomplished through [Mipmapping](http://en.wikipedia.org/wiki/Mipmap) and anisotropic filtering.
 
 For information on importing textures, see [adding_textures_and_sprites](../adding_assets/adding_textures_and_sprites.md).
 
@@ -30,7 +30,7 @@ The Texture Builder is a collection of settings used to convert your image file 
 
  ## Compression
 
-By default, Zilch performs an operation called [block_compression](../adding_assets/block_compression.md) on all textures. While this can reduce image quality it greatly reduces memory usage allowing it to be rendered faster. This setting should not be disable unless color accuracy is extremely important. For more information on this topic we recommend [this article ](http://www.reedbeta.com/blog/2012/02/12/understanding-bcn-texture-compression-formats/).
+By default, Zilch performs an operation called [block_compression](../adding_assets/block_compression.md) on all textures. While this can reduce image quality it greatly reduces memory usage allowing it to be rendered faster. This setting should not be disable unless color accuracy is extremely important. For more information on this topic we recommend [this article](http://www.reedbeta.com/blog/2012/02/12/understanding-bcn-texture-compression-formats/).
 
 ---
 

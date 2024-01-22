@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](linearparticleanimator.md#linearparticleanimator-v)|[ Dampening](linearparticleanimator.md#dampening-zilch-engine-do)|[particleanimator](particleanimator.md)| |
-| |[ Force](linearparticleanimator.md#force-zilch-engine-docume)| | |
-| |[ Growth](linearparticleanimator.md#growth-zilch-engine-docum)| | |
-| |[ RandomForce](linearparticleanimator.md#randomforce-zilch-engine)| | |
-| |[ Torque](linearparticleanimator.md#torque-zilch-engine-docum)| | |
-| |[ Twist](linearparticleanimator.md#twist-zilch-engine-docume)| | |
+|[Constructor](linearparticleanimator.md#linearparticleanimator-v)|[Dampening](linearparticleanimator.md#dampening-zilch-engine-do)|[particleanimator](particleanimator.md)| |
+| |[Force](linearparticleanimator.md#force-zilch-engine-docume)| | |
+| |[Growth](linearparticleanimator.md#growth-zilch-engine-docum)| | |
+| |[RandomForce](linearparticleanimator.md#randomforce-zilch-engine)| | |
+| |[Torque](linearparticleanimator.md#torque-zilch-engine-docum)| | |
+| |[Twist](linearparticleanimator.md#twist-zilch-engine-docume)| | |
 
 
  #  Properties

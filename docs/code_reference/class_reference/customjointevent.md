@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Dt](customjointevent.md#dt-zilch-engine-documenta)|[event](event.md)| |
-| |[ Owner](customjointevent.md#owner-zilch-engine-docume)| | |
+| |[Dt](customjointevent.md#dt-zilch-engine-documenta)|[event](event.md)| |
+| |[Owner](customjointevent.md#owner-zilch-engine-docume)| | |
 
 
  #  Properties

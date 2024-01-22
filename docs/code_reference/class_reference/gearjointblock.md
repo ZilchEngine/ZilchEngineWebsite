@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](gearjointblock.md#gearjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](gearjointblock.md#gearjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

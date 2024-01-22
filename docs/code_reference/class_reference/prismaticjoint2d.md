@@ -6,15 +6,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](prismaticjoint2d.md#prismaticjoint2d-void)|[ LocalAxisA](prismaticjoint2d.md#localaxisa-zilch-engine-d)|[joint](joint.md)| |
-|[ SetWorldPoints](prismaticjoint2d.md#setworldpoints-void)|[ LocalAxisB](prismaticjoint2d.md#localaxisb-zilch-engine-d)| | |
-| |[ LocalBasisA](prismaticjoint2d.md#localbasisa-zilch-engine)| | |
-| |[ LocalBasisB](prismaticjoint2d.md#localbasisb-zilch-engine)| | |
-| |[ LocalPointA](prismaticjoint2d.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](prismaticjoint2d.md#localpointb-zilch-engine)| | |
-| |[ WorldAxis](prismaticjoint2d.md#worldaxis-zilch-engine-do)| | |
-| |[ WorldPointA](prismaticjoint2d.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](prismaticjoint2d.md#worldpointb-zilch-engine)| | |
+|[Constructor](prismaticjoint2d.md#prismaticjoint2d-void)|[LocalAxisA](prismaticjoint2d.md#localaxisa-zilch-engine-d)|[joint](joint.md)| |
+|[SetWorldPoints](prismaticjoint2d.md#setworldpoints-void)|[LocalAxisB](prismaticjoint2d.md#localaxisb-zilch-engine-d)| | |
+| |[LocalBasisA](prismaticjoint2d.md#localbasisa-zilch-engine)| | |
+| |[LocalBasisB](prismaticjoint2d.md#localbasisb-zilch-engine)| | |
+| |[LocalPointA](prismaticjoint2d.md#localpointa-zilch-engine)| | |
+| |[LocalPointB](prismaticjoint2d.md#localpointb-zilch-engine)| | |
+| |[WorldAxis](prismaticjoint2d.md#worldaxis-zilch-engine-do)| | |
+| |[WorldPointA](prismaticjoint2d.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](prismaticjoint2d.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

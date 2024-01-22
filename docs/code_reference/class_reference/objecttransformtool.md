@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objecttransformtool.md#objecttransformtool-void)|[ Basis](objecttransformtool.md#basis-zilch-engine-docume)|[component](component.md)|[objectrotatetool](objectrotatetool.md)|
-| |[ Grab](objecttransformtool.md#grab-zilch-engine-documen)| |[objectscaletool](objectscaletool.md)|
-| |[ Pivot](objecttransformtool.md#pivot-zilch-engine-docume)| |[objecttranslatetool](objecttranslatetool.md)|
+|[Constructor](objecttransformtool.md#objecttransformtool-void)|[Basis](objecttransformtool.md#basis-zilch-engine-docume)|[component](component.md)|[objectrotatetool](objectrotatetool.md)|
+| |[Grab](objecttransformtool.md#grab-zilch-engine-documen)| |[objectscaletool](objectscaletool.md)|
+| |[Pivot](objecttransformtool.md#pivot-zilch-engine-docume)| |[objecttranslatetool](objecttranslatetool.md)|
 
 
  #  Properties

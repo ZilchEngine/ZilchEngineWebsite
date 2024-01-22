@@ -4,15 +4,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](splineparticleanimator.md#splineparticleanimator-v)|[ AutoCalculateLifetime](splineparticleanimator.md#autocalculatelifetime-ze)|[particleanimator](particleanimator.md)| |
-| |[ Helix](splineparticleanimator.md#helix-zilch-engine-docume)| | |
-| |[ HelixOffset](splineparticleanimator.md#helixoffset-zilch-engine)| | |
-| |[ HelixRadius](splineparticleanimator.md#helixradius-zilch-engine)| | |
-| |[ HelixWaveLength](splineparticleanimator.md#helixwavelength-zilch-eng)| | |
-| |[ Mode](splineparticleanimator.md#mode-zilch-engine-documen)| | |
-| |[ Speed](splineparticleanimator.md#speed-zilch-engine-docume)| | |
-| |[ SpringDampingRatio](splineparticleanimator.md#springdampingratio-zero)| | |
-| |[ SpringFrequencyHz](splineparticleanimator.md#springfrequencyhz-zilch-e)| | |
+|[Constructor](splineparticleanimator.md#splineparticleanimator-v)|[AutoCalculateLifetime](splineparticleanimator.md#autocalculatelifetime-ze)|[particleanimator](particleanimator.md)| |
+| |[Helix](splineparticleanimator.md#helix-zilch-engine-docume)| | |
+| |[HelixOffset](splineparticleanimator.md#helixoffset-zilch-engine)| | |
+| |[HelixRadius](splineparticleanimator.md#helixradius-zilch-engine)| | |
+| |[HelixWaveLength](splineparticleanimator.md#helixwavelength-zilch-eng)| | |
+| |[Mode](splineparticleanimator.md#mode-zilch-engine-documen)| | |
+| |[Speed](splineparticleanimator.md#speed-zilch-engine-docume)| | |
+| |[SpringDampingRatio](splineparticleanimator.md#springdampingratio-zero)| | |
+| |[SpringFrequencyHz](splineparticleanimator.md#springfrequencyhz-zilch-e)| | |
 
 
  #  Properties

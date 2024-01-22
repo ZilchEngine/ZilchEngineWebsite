@@ -5,7 +5,7 @@
  - Redirecting the use of `Esc` key in game 
 
  # Using the GameSession
-The GameSession object may be accessed from the scripts that are running via any [ Cog](../cogs/gameobjectsconcept.md):
+The GameSession object may be accessed from the scripts that are running via any [Cog](../cogs/gameobjectsconcept.md):
 
 ```
     // Within a script, those ``this`` variables referring to a Cog can get the GameSession
@@ -60,7 +60,7 @@ The user connects to these events when dispatched on the GameSession], e.g.:
  ## Manual
 - [HandlingQuitMessage](../../gameplay/handlingquitmessage.md)
 - [level](../resources/level.md) 
-- [ Cog](../cogs/gameobjectsconcept.md)
+- [Cog](../cogs/gameobjectsconcept.md)
 
  ## Reference
 - [GameSession](../../../../code_reference/class_reference/gamesession.md)

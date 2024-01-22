@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetNetProperty](netchannel.md#getnetproperty-zilch-engi)|[ Authority](netchannel.md#authority-zilch-engine-do)|[safeid32object](safeid32object.md)| |
-|[ HasNetProperty](netchannel.md#hasnetproperty-zilch-engi)|[ ChangeFlag](netchannel.md#changeflag-zilch-engine-d)| | |
-|[ ReplicateNow](netchannel.md#replicatenow-zilch-engine)|[ IsNapping](netchannel.md#isnapping-zilch-engine-do)| | |
-|[ TakeNap](netchannel.md#takenap-void)|[ IsScheduled](netchannel.md#isscheduled-zilch-engine)| | |
-|[ WakeUp](netchannel.md#wakeup-void)|[ LastChangeTimePassed](netchannel.md#lastchangetimepassed-zer)| | |
-| |[ LastChangeTimestamp](netchannel.md#lastchangetimestamp-zero)| | |
-| |[ Name](netchannel.md#name-zilch-engine-documen)| | |
-| |[ NetChannelType](netchannel.md#netchanneltype-zilch-engi)| | |
+|[GetNetProperty](netchannel.md#getnetproperty-zilch-engi)|[Authority](netchannel.md#authority-zilch-engine-do)|[safeid32object](safeid32object.md)| |
+|[HasNetProperty](netchannel.md#hasnetproperty-zilch-engi)|[ChangeFlag](netchannel.md#changeflag-zilch-engine-d)| | |
+|[ReplicateNow](netchannel.md#replicatenow-zilch-engine)|[IsNapping](netchannel.md#isnapping-zilch-engine-do)| | |
+|[TakeNap](netchannel.md#takenap-void)|[IsScheduled](netchannel.md#isscheduled-zilch-engine)| | |
+|[WakeUp](netchannel.md#wakeup-void)|[LastChangeTimePassed](netchannel.md#lastchangetimepassed-zer)| | |
+| |[LastChangeTimestamp](netchannel.md#lastchangetimestamp-zero)| | |
+| |[Name](netchannel.md#name-zilch-engine-documen)| | |
+| |[NetChannelType](netchannel.md#netchanneltype-zilch-engi)| | |
 
 
  #  Properties

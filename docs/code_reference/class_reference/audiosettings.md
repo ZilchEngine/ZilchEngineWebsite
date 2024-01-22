@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](audiosettings.md#audiosettings-void)|[ LatencySetting](audiosettings.md#latencysetting-zilch-engi)|[component](component.md)| |
-| |[ MinVolumeThreshold](audiosettings.md#minvolumethreshold-zero)| | |
-| |[ MixType](audiosettings.md#mixtype-zilch-engine-docu)| | |
-| |[ MuteAllAudio](audiosettings.md#muteallaudio-zilch-engine)| | |
-| |[ SystemVolume](audiosettings.md#systemvolume-zilch-engine)| | |
+|[Constructor](audiosettings.md#audiosettings-void)|[LatencySetting](audiosettings.md#latencysetting-zilch-engi)|[component](component.md)| |
+| |[MinVolumeThreshold](audiosettings.md#minvolumethreshold-zero)| | |
+| |[MixType](audiosettings.md#mixtype-zilch-engine-docu)| | |
+| |[MuteAllAudio](audiosettings.md#muteallaudio-zilch-engine)| | |
+| |[SystemVolume](audiosettings.md#systemvolume-zilch-engine)| | |
 
 
  #  Properties

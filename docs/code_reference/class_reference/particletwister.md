@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](particletwister.md#particletwister-void)|[ Axis](particletwister.md#axis-zilch-engine-documen)|[particleanimator](particleanimator.md)| |
-| |[ MaxDistance](particletwister.md#maxdistance-zilch-engine)| | |
-| |[ MinDistance](particletwister.md#mindistance-zilch-engine)| | |
-| |[ Strength](particletwister.md#strength-zilch-engine-doc)| | |
+|[Constructor](particletwister.md#particletwister-void)|[Axis](particletwister.md#axis-zilch-engine-documen)|[particleanimator](particleanimator.md)| |
+| |[MaxDistance](particletwister.md#maxdistance-zilch-engine)| | |
+| |[MinDistance](particletwister.md#mindistance-zilch-engine)| | |
+| |[Strength](particletwister.md#strength-zilch-engine-doc)| | |
 
 
  #  Properties

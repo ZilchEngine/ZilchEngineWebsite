@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](graphicalrangeinterface.md#add-void)|[ Count](graphicalrangeinterface.md#count-zilch-engine-docume)| | |
-|[ Clear](graphicalrangeinterface.md#clear-void)| | | |
-|[ Constructor](graphicalrangeinterface.md#graphicalrangeinterface)| | | |
+|[Add](graphicalrangeinterface.md#add-void)|[Count](graphicalrangeinterface.md#count-zilch-engine-docume)| | |
+|[Clear](graphicalrangeinterface.md#clear-void)| | | |
+|[Constructor](graphicalrangeinterface.md#graphicalrangeinterface)| | | |
 
 
  #  Properties

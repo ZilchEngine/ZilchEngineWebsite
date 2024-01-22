@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contenthistory.md#contenthistory-void)|[ Revisions](contenthistory.md#revisions-zilch-engine-do)|[contentcomponent](contentcomponent.md)| |
+|[Constructor](contenthistory.md#contenthistory-void)|[Revisions](contenthistory.md#revisions-zilch-engine-do)|[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

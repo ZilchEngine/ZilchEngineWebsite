@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ReferencedType](indirectiontype.md#referencedtype-zilch-engi)|[type](type.md)| |
+| |[ReferencedType](indirectiontype.md#referencedtype-zilch-engi)|[type](type.md)| |
 
 
  #  Properties

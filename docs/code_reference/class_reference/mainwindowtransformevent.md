@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NewScreenPosition](mainwindowtransformevent.md#newscreenposition-zilch-e)|[event](event.md)| |
-| |[ NewScreenSize](mainwindowtransformevent.md#newscreensize-zilch-engin)| | |
-| |[ OldScreenPosition](mainwindowtransformevent.md#oldscreenposition-zilch-e)| | |
-| |[ OldScreenSize](mainwindowtransformevent.md#oldscreensize-zilch-engin)| | |
-| |[ TargetWindow](mainwindowtransformevent.md#targetwindow-zilch-engine)| | |
+| |[NewScreenPosition](mainwindowtransformevent.md#newscreenposition-zilch-e)|[event](event.md)| |
+| |[NewScreenSize](mainwindowtransformevent.md#newscreensize-zilch-engin)| | |
+| |[OldScreenPosition](mainwindowtransformevent.md#oldscreenposition-zilch-e)| | |
+| |[OldScreenSize](mainwindowtransformevent.md#oldscreensize-zilch-engin)| | |
+| |[TargetWindow](mainwindowtransformevent.md#targetwindow-zilch-engine)| | |
 
 
  #  Properties

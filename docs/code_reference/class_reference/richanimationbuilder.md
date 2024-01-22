@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](richanimationbuilder.md#richanimationbuilder-voi)|[ PreviewArchetype](richanimationbuilder.md#previewarchetype-zilch-en)|[buildercomponent](buildercomponent.md)| |
+|[Constructor](richanimationbuilder.md#richanimationbuilder-voi)|[PreviewArchetype](richanimationbuilder.md#previewarchetype-zilch-en)|[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties

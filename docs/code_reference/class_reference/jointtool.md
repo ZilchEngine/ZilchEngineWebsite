@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](jointtool.md#jointtool-void)|[ AttachToCommonParent](jointtool.md#attachtocommonparent-zer)|[objectconnectingtool](objectconnectingtool.md)| |
-| |[ AttachToWorld](jointtool.md#attachtoworld-zilch-engin)| | |
-| |[ AutoSnaps](jointtool.md#autosnaps-zilch-engine-do)| | |
-| |[ JointType](jointtool.md#jointtype-zilch-engine-do)| | |
-| |[ Length](jointtool.md#length-zilch-engine-docum)| | |
-| |[ MaxImpulse](jointtool.md#maximpulse-zilch-engine-d)| | |
-| |[ OverrideLength](jointtool.md#overridelength-zilch-engi)| | |
-| |[ UseCenter](jointtool.md#usecenter-zilch-engine-do)| | |
+|[Constructor](jointtool.md#jointtool-void)|[AttachToCommonParent](jointtool.md#attachtocommonparent-zer)|[objectconnectingtool](objectconnectingtool.md)| |
+| |[AttachToWorld](jointtool.md#attachtoworld-zilch-engin)| | |
+| |[AutoSnaps](jointtool.md#autosnaps-zilch-engine-do)| | |
+| |[JointType](jointtool.md#jointtype-zilch-engine-do)| | |
+| |[Length](jointtool.md#length-zilch-engine-docum)| | |
+| |[MaxImpulse](jointtool.md#maximpulse-zilch-engine-d)| | |
+| |[OverrideLength](jointtool.md#overridelength-zilch-engi)| | |
+| |[UseCenter](jointtool.md#usecenter-zilch-engine-do)| | |
 
 
  #  Properties

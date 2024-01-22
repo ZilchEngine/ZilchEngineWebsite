@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurRequestBundle](netpeersentuseraddrequest.md#ourrequestbundle-zilch-en)|[event](event.md)| |
-| |[ TheirIpAddress](netpeersentuseraddrequest.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](netpeersentuseraddrequest.md#theirnetpeerid-zilch-engi)| | |
+| |[OurRequestBundle](netpeersentuseraddrequest.md#ourrequestbundle-zilch-en)|[event](event.md)| |
+| |[TheirIpAddress](netpeersentuseraddrequest.md#theiripaddress-zilch-engi)| | |
+| |[TheirNetPeerId](netpeersentuseraddrequest.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

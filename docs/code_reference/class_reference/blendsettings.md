@@ -4,13 +4,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](blendsettings.md#blendsettings-void)|[ BlendEquation](blendsettings.md#blendequation-zilch-engin)| | |
-| |[ BlendEquationAlpha](blendsettings.md#blendequationalpha-zero)| | |
-| |[ BlendMode](blendsettings.md#blendmode-zilch-engine-do)| | |
-| |[ DestFactor](blendsettings.md#destfactor-zilch-engine-d)| | |
-| |[ DestFactorAlpha](blendsettings.md#destfactoralpha-zilch-eng)| | |
-| |[ SourceFactor](blendsettings.md#sourcefactor-zilch-engine)| | |
-| |[ SourceFactorAlpha](blendsettings.md#sourcefactoralpha-zilch-e)| | |
+|[Constructor](blendsettings.md#blendsettings-void)|[BlendEquation](blendsettings.md#blendequation-zilch-engin)| | |
+| |[BlendEquationAlpha](blendsettings.md#blendequationalpha-zero)| | |
+| |[BlendMode](blendsettings.md#blendmode-zilch-engine-do)| | |
+| |[DestFactor](blendsettings.md#destfactor-zilch-engine-d)| | |
+| |[DestFactorAlpha](blendsettings.md#destfactoralpha-zilch-eng)| | |
+| |[SourceFactor](blendsettings.md#sourcefactor-zilch-engine)| | |
+| |[SourceFactorAlpha](blendsettings.md#sourcefactoralpha-zilch-e)| | |
 
 
  #  Properties

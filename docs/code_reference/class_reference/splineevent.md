@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](splineevent.md#splineevent-void)|[ Spline](splineevent.md#spline-zilch-engine-docum)|[event](event.md)| |
+|[Constructor](splineevent.md#splineevent-void)|[Spline](splineevent.md#spline-zilch-engine-docum)|[event](event.md)| |
 
 
  #  Properties

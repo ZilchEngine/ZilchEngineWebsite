@@ -1,6 +1,6 @@
 NOTE: All code written here assumes `using namespace Nada`
 
-Bound types are created through the [ | LibraryBuilder]. This article will cover particular areas of interest on a bound type.
+Bound types are created through the [| LibraryBuilder]. This article will cover particular areas of interest on a bound type.
 
  #  Enumerating Members
 

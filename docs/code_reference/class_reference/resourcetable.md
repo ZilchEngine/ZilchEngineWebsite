@@ -6,24 +6,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddOrError](resourcetable.md#addorerror-void)|[ All](resourcetable.md#all-zilch-engine-document)|[dataresource](dataresource.md)| |
-|[ AddOrIgnore](resourcetable.md#addorignore-zilch-engine)|[ Count](resourcetable.md#count-zilch-engine-docume)| | |
-|[ AddOrOverwrite](resourcetable.md#addoroverwrite-zilch-engi)|[ MaxWeight](resourcetable.md#maxweight-zilch-engine-do)| | |
-|[ Clear](resourcetable.md#clear-void)|[ ResourceType](resourcetable.md#resourcetype-zilch-engine)| | |
-|[ Contains](resourcetable.md#contains-zilch-engine-doc)| | | |
-|[ CreateRuntime](resourcetable.md#createruntime-zilch-engin)| | | |
-|[ ForceRebuild](resourcetable.md#forcerebuild-void)| | | |
-|[ Get](resourcetable.md#get-zilch-engine-document)| | | |
-|[ GetOrDefault](resourcetable.md#getordefault-zilch-engine)| | | |
-|[ GetOrError](resourcetable.md#getorerror-zilch-engine-d)| | | |
-|[ GetOrNull](resourcetable.md#getornull-zilch-engine-do)| | | |
-|[ RemoveAt](resourcetable.md#removeat-void)| | | |
-|[ RemoveOrError](resourcetable.md#removeorerror-void)| | | |
-|[ RemoveOrIgnore](resourcetable.md#removeorignore-zilch-engi)| | | |
-|[ RuntimeClone](resourcetable.md#runtimeclone-zilch-engine)| | | |
-|[ Sample](resourcetable.md#sample-zilch-engine-docum)| | | |
-|[ SampleIndex](resourcetable.md#sampleindex-zilch-engine)| | | |
-|[ Set](resourcetable.md#set-void)| | | |
+|[AddOrError](resourcetable.md#addorerror-void)|[All](resourcetable.md#all-zilch-engine-document)|[dataresource](dataresource.md)| |
+|[AddOrIgnore](resourcetable.md#addorignore-zilch-engine)|[Count](resourcetable.md#count-zilch-engine-docume)| | |
+|[AddOrOverwrite](resourcetable.md#addoroverwrite-zilch-engi)|[MaxWeight](resourcetable.md#maxweight-zilch-engine-do)| | |
+|[Clear](resourcetable.md#clear-void)|[ResourceType](resourcetable.md#resourcetype-zilch-engine)| | |
+|[Contains](resourcetable.md#contains-zilch-engine-doc)| | | |
+|[CreateRuntime](resourcetable.md#createruntime-zilch-engin)| | | |
+|[ForceRebuild](resourcetable.md#forcerebuild-void)| | | |
+|[Get](resourcetable.md#get-zilch-engine-document)| | | |
+|[GetOrDefault](resourcetable.md#getordefault-zilch-engine)| | | |
+|[GetOrError](resourcetable.md#getorerror-zilch-engine-d)| | | |
+|[GetOrNull](resourcetable.md#getornull-zilch-engine-do)| | | |
+|[RemoveAt](resourcetable.md#removeat-void)| | | |
+|[RemoveOrError](resourcetable.md#removeorerror-void)| | | |
+|[RemoveOrIgnore](resourcetable.md#removeorignore-zilch-engi)| | | |
+|[RuntimeClone](resourcetable.md#runtimeclone-zilch-engine)| | | |
+|[Sample](resourcetable.md#sample-zilch-engine-docum)| | | |
+|[SampleIndex](resourcetable.md#sampleindex-zilch-engine)| | | |
+|[Set](resourcetable.md#set-void)| | | |
 
 
  #  Properties

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ClientToScreen](oswindow.md#clienttoscreen-zilch-engi)|[ ClientSize](oswindow.md#clientsize-zilch-engine-d)|[threadsafeid32eventobject](threadsafeid32eventobject.md)|[windowsoswindow](windowsoswindow.md)|
-|[ HasFocus](oswindow.md#hasfocus-zilch-engine-doc)|[ MinSize](oswindow.md#minsize-zilch-engine-docu)| | |
-|[ ScreenToClient](oswindow.md#screentoclient-zilch-engi)|[ MouseCapture](oswindow.md#mousecapture-zilch-engine)| | |
-| |[ MouseCursor](oswindow.md#mousecursor-zilch-engine)| | |
-| |[ MouseTrap](oswindow.md#mousetrap-zilch-engine-do)| | |
-| |[ Parent](oswindow.md#parent-zilch-engine-docum)| | |
-| |[ Position](oswindow.md#position-zilch-engine-doc)| | |
-| |[ Size](oswindow.md#size-zilch-engine-documen)| | |
-| |[ State](oswindow.md#state-zilch-engine-docume)| | |
-| |[ Title](oswindow.md#title-zilch-engine-docume)| | |
-| |[ Visible](oswindow.md#visible-zilch-engine-docu)| | |
+|[ClientToScreen](oswindow.md#clienttoscreen-zilch-engi)|[ClientSize](oswindow.md#clientsize-zilch-engine-d)|[threadsafeid32eventobject](threadsafeid32eventobject.md)|[windowsoswindow](windowsoswindow.md)|
+|[HasFocus](oswindow.md#hasfocus-zilch-engine-doc)|[MinSize](oswindow.md#minsize-zilch-engine-docu)| | |
+|[ScreenToClient](oswindow.md#screentoclient-zilch-engi)|[MouseCapture](oswindow.md#mousecapture-zilch-engine)| | |
+| |[MouseCursor](oswindow.md#mousecursor-zilch-engine)| | |
+| |[MouseTrap](oswindow.md#mousetrap-zilch-engine-do)| | |
+| |[Parent](oswindow.md#parent-zilch-engine-docum)| | |
+| |[Position](oswindow.md#position-zilch-engine-doc)| | |
+| |[Size](oswindow.md#size-zilch-engine-documen)| | |
+| |[State](oswindow.md#state-zilch-engine-docume)| | |
+| |[Title](oswindow.md#title-zilch-engine-docume)| | |
+| |[Visible](oswindow.md#visible-zilch-engine-docu)| | |
 
 
  #  Properties

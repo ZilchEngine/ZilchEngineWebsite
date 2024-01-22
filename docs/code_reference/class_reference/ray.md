@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetPoint](ray.md#getpoint-zilch-engine-doc)|[ Direction](ray.md#direction-zilch-engine-do)| | |
-|[ GetTValue](ray.md#gettvalue-zilch-engine-do)|[ Start](ray.md#start-zilch-engine-docume)| | |
-|[ Constructor](ray.md#ray-void)| | | |
+|[GetPoint](ray.md#getpoint-zilch-engine-doc)|[Direction](ray.md#direction-zilch-engine-do)| | |
+|[GetTValue](ray.md#gettvalue-zilch-engine-do)|[Start](ray.md#start-zilch-engine-docume)| | |
+|[Constructor](ray.md#ray-void)| | | |
 
 
  #  Properties

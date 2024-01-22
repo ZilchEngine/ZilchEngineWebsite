@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Anchor](springpointproxy.md#anchor-zilch-engine-docum)|[eventobject](eventobject.md)| |
-| |[ Fixed](springpointproxy.md#fixed-zilch-engine-docume)| | |
-| |[ Mass](springpointproxy.md#mass-zilch-engine-documen)| | |
+| |[Anchor](springpointproxy.md#anchor-zilch-engine-docum)|[eventobject](eventobject.md)| |
+| |[Fixed](springpointproxy.md#fixed-zilch-engine-docume)| | |
+| |[Mass](springpointproxy.md#mass-zilch-engine-documen)| | |
 
 
  #  Properties

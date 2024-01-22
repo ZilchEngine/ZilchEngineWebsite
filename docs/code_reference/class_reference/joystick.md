@@ -4,16 +4,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Calibrating](joystick.md#calibrating-zilch-engine)|[ AxisCount](joystick.md#axiscount-zilch-engine-do)|[eventobject](eventobject.md)| |
-|[ EndCalibration](joystick.md#endcalibration-void)|[ ButtonCount](joystick.md#buttoncount-zilch-engine)| | |
-|[ GetAxisIndex](joystick.md#getaxisindex-zilch-engine)|[ DisabledValue](joystick.md#disabledvalue-zilch-engin)| | |
-|[ GetAxisName](joystick.md#getaxisname-zilch-engine)|[ IsActive](joystick.md#isactive-zilch-engine-doc)| | |
-|[ GetAxisValue](joystick.md#getaxisvalue-zilch-engine)|[ Name](joystick.md#name-zilch-engine-documen)| | |
-|[ GetAxisValueByName](joystick.md#getaxisvaluebyname-zero)| | | |
-|[ GetButtonValue](joystick.md#getbuttonvalue-zilch-engi)| | | |
-|[ LoadInputMapping](joystick.md#loadinputmapping-void)| | | |
-|[ SaveInputMapping](joystick.md#saveinputmapping-void)| | | |
-|[ StartCalibration](joystick.md#startcalibration-void)| | | |
+|[Calibrating](joystick.md#calibrating-zilch-engine)|[AxisCount](joystick.md#axiscount-zilch-engine-do)|[eventobject](eventobject.md)| |
+|[EndCalibration](joystick.md#endcalibration-void)|[ButtonCount](joystick.md#buttoncount-zilch-engine)| | |
+|[GetAxisIndex](joystick.md#getaxisindex-zilch-engine)|[DisabledValue](joystick.md#disabledvalue-zilch-engin)| | |
+|[GetAxisName](joystick.md#getaxisname-zilch-engine)|[IsActive](joystick.md#isactive-zilch-engine-doc)| | |
+|[GetAxisValue](joystick.md#getaxisvalue-zilch-engine)|[Name](joystick.md#name-zilch-engine-documen)| | |
+|[GetAxisValueByName](joystick.md#getaxisvaluebyname-zero)| | | |
+|[GetButtonValue](joystick.md#getbuttonvalue-zilch-engi)| | | |
+|[LoadInputMapping](joystick.md#loadinputmapping-void)| | | |
+|[SaveInputMapping](joystick.md#saveinputmapping-void)| | | |
+|[StartCalibration](joystick.md#startcalibration-void)| | | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](prismaticjointblock.md#prismaticjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](prismaticjointblock.md#prismaticjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

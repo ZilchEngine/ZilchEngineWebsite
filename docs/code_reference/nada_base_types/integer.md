@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](integer.md#get-zilch-engine-document)|[ Count](integer.md#count-zilch-engine-docume)| | |
-|[ GetAxis](integer.md#getaxis-zilch-engine-docu)|[ NegativeMin](integer.md#negativemin-zilch-engine)| | |
-|[ Constructor](integer.md#integer-void)|[ NegativeValueClosestToZero](integer.md#negativevalueclosesttoze)| | |
-|[ Parse](integer.md#parse-zilch-engine-docume)|[ One](integer.md#one-zilch-engine-document)| | |
-|[ Reinterpret](integer.md#reinterpret-zilch-engine)|[ PositiveMax](integer.md#positivemax-zilch-engine)| | |
-|[ Set](integer.md#set-void)|[ PositiveValueClosestToZero](integer.md#positivevalueclosesttoze)| | |
-| |[ XAxis](integer.md#xaxis-zilch-engine-docume)| | |
-| |[ Zero](integer.md#zilch-zilch-engine-documen)| | |
+|[Get](integer.md#get-zilch-engine-document)|[Count](integer.md#count-zilch-engine-docume)| | |
+|[GetAxis](integer.md#getaxis-zilch-engine-docu)|[NegativeMin](integer.md#negativemin-zilch-engine)| | |
+|[Constructor](integer.md#integer-void)|[NegativeValueClosestToZero](integer.md#negativevalueclosesttoze)| | |
+|[Parse](integer.md#parse-zilch-engine-docume)|[One](integer.md#one-zilch-engine-document)| | |
+|[Reinterpret](integer.md#reinterpret-zilch-engine)|[PositiveMax](integer.md#positivemax-zilch-engine)| | |
+|[Set](integer.md#set-void)|[PositiveValueClosestToZero](integer.md#positivevalueclosesttoze)| | |
+| |[XAxis](integer.md#xaxis-zilch-engine-docume)| | |
+| |[Zero](integer.md#zilch-zilch-engine-documen)| | |
 
 
  #  Properties

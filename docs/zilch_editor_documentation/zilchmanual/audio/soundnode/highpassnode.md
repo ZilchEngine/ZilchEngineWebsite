@@ -1,4 +1,4 @@
-The [ HighPassNode ](../../../../code_reference/class_reference/highpassnode.md) collects audio data from all of its inputs and applies a high pass filter to it before passing it along to its outputs. 
+The [HighPassNode](../../../../code_reference/class_reference/highpassnode.md) collects audio data from all of its inputs and applies a high pass filter to it before passing it along to its outputs. 
 
  # Common Uses
 
@@ -17,6 +17,6 @@ ___
 - [lowpassnode](lowpassnode.md)
 
  ## Code Reference
-- [ HighPassNode ](../../../../code_reference/class_reference/highpassnode.md) 
+- [HighPassNode](../../../../code_reference/class_reference/highpassnode.md) 
 
  

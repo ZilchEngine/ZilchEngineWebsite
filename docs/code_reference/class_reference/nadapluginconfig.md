@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](nadapluginconfig.md#nadapluginconfig-void)|[ AttemptedIdeToolsInstall](nadapluginconfig.md#attemptedidetoolsinstall)|[component](component.md)| |
+|[Constructor](nadapluginconfig.md#nadapluginconfig-void)|[AttemptedIdeToolsInstall](nadapluginconfig.md#attemptedidetoolsinstall)|[component](component.md)| |
 
 
  #  Properties

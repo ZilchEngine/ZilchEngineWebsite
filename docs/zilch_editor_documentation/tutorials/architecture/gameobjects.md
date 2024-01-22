@@ -13,7 +13,7 @@ This lesson focuses on teaching the very basics of the engine: creating objects,
  # Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
 
 Here is a new empty level:
@@ -39,7 +39,7 @@ We'll cover these in more detail in future tutorials.
 
  # Create a Game Object
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
 
 
@@ -58,7 +58,7 @@ The Sprite object object can now be found in the `Objects Window`:
 *The Sprite object listed in the `Objects Window`*
 
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 
 NOTE:
  If the `Properties Window` is not visible, then enter the [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Properties](../../../code_reference/command_reference.md#properties) in the `Search Window`. (Remember you can open the ` Search Window` from any where in the engine using `Ctrl + Shift + Space`.)
@@ -88,7 +88,7 @@ The properties of the [Transform](../../../code_reference/class_reference/transf
  #  Renaming an Object
 
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Square`
 
@@ -99,7 +99,7 @@ The properties of the [Transform](../../../code_reference/class_reference/transf
 *Renaming the Sprite object*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 Here is how the game should look:
 
@@ -110,7 +110,7 @@ Here is how the game should look:
 *The `Game Window`*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Tools

@@ -2,18 +2,18 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Contains](rectangle.md#contains-zilch-engine-doc)|[ Bottom](rectangle.md#bottom-zilch-engine-docum)| | |
-|[ Expand](rectangle.md#expand-void)|[ BottomLeft](rectangle.md#bottomleft-zilch-engine-d)| | |
-|[ GetCardinalLocation](rectangle.md#getcardinallocation-zero)|[ BottomRight](rectangle.md#bottomright-zilch-engine)| | |
-|[ GetLocation](rectangle.md#getlocation-zilch-engine)|[ Center](rectangle.md#center-zilch-engine-docum)| | |
-|[ Overlap](rectangle.md#overlap-zilch-engine-docu)|[ Left](rectangle.md#left-zilch-engine-documen)| | |
-|[ Overlaps](rectangle.md#overlaps-zilch-engine-doc)|[ Max](rectangle.md#max-zilch-engine-document)| | |
-|[ RemoveThickness](rectangle.md#removethickness-void)|[ Min](rectangle.md#min-zilch-engine-document)| | |
-|[ ResizeToPoint](rectangle.md#resizetopoint-void)|[ Right](rectangle.md#right-zilch-engine-docume)| | |
-|[ SetLocation](rectangle.md#setlocation-void)|[ Size](rectangle.md#size-zilch-engine-documen)| | |
-|[ Transform](rectangle.md#transform-void)|[ Top](rectangle.md#top-zilch-engine-document)| | |
-|[ Transformed](rectangle.md#transformed-zilch-engine)|[ TopLeft](rectangle.md#topleft-zilch-engine-docu)| | |
-| |[ TopRight](rectangle.md#topright-zilch-engine-doc)| | |
+|[Contains](rectangle.md#contains-zilch-engine-doc)|[Bottom](rectangle.md#bottom-zilch-engine-docum)| | |
+|[Expand](rectangle.md#expand-void)|[BottomLeft](rectangle.md#bottomleft-zilch-engine-d)| | |
+|[GetCardinalLocation](rectangle.md#getcardinallocation-zero)|[BottomRight](rectangle.md#bottomright-zilch-engine)| | |
+|[GetLocation](rectangle.md#getlocation-zilch-engine)|[Center](rectangle.md#center-zilch-engine-docum)| | |
+|[Overlap](rectangle.md#overlap-zilch-engine-docu)|[Left](rectangle.md#left-zilch-engine-documen)| | |
+|[Overlaps](rectangle.md#overlaps-zilch-engine-doc)|[Max](rectangle.md#max-zilch-engine-document)| | |
+|[RemoveThickness](rectangle.md#removethickness-void)|[Min](rectangle.md#min-zilch-engine-document)| | |
+|[ResizeToPoint](rectangle.md#resizetopoint-void)|[Right](rectangle.md#right-zilch-engine-docume)| | |
+|[SetLocation](rectangle.md#setlocation-void)|[Size](rectangle.md#size-zilch-engine-documen)| | |
+|[Transform](rectangle.md#transform-void)|[Top](rectangle.md#top-zilch-engine-document)| | |
+|[Transformed](rectangle.md#transformed-zilch-engine)|[TopLeft](rectangle.md#topleft-zilch-engine-docu)| | |
+| |[TopRight](rectangle.md#topright-zilch-engine-doc)| | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contenteditoroptions.md#contenteditoroptions-voi)|[ ShowInEditor](contenteditoroptions.md#showineditor-zilch-engine)|[contentcomponent](contentcomponent.md)| |
+|[Constructor](contenteditoroptions.md#contenteditoroptions-voi)|[ShowInEditor](contenteditoroptions.md#showineditor-zilch-engine)|[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](nadapluginbuilder.md#nadapluginbuilder-void)| |[databuilder](databuilder.md)| |
+|[Constructor](nadapluginbuilder.md#nadapluginbuilder-void)| |[databuilder](databuilder.md)| |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](positionjointblock.md#positionjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](positionjointblock.md#positionjointblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](relativevelocityjointblock.md#relativevelocityjointblo)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](relativevelocityjointblock.md#relativevelocityjointblo)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

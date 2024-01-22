@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](phygunjoint.md#phygunjoint-void)|[ LocalPoint](phygunjoint.md#localpoint-zilch-engine-d)|[joint](joint.md)| |
-| |[ TargetPoint](phygunjoint.md#targetpoint-zilch-engine)| | |
-| |[ TargetRotation](phygunjoint.md#targetrotation-zilch-engi)| | |
-| |[ WorldPoint](phygunjoint.md#worldpoint-zilch-engine-d)| | |
-| |[ WorldRotation](phygunjoint.md#worldrotation-zilch-engin)| | |
+|[Constructor](phygunjoint.md#phygunjoint-void)|[LocalPoint](phygunjoint.md#localpoint-zilch-engine-d)|[joint](joint.md)| |
+| |[TargetPoint](phygunjoint.md#targetpoint-zilch-engine)| | |
+| |[TargetRotation](phygunjoint.md#targetrotation-zilch-engi)| | |
+| |[WorldPoint](phygunjoint.md#worldpoint-zilch-engine-d)| | |
+| |[WorldRotation](phygunjoint.md#worldrotation-zilch-engin)| | |
 
 
  #  Properties

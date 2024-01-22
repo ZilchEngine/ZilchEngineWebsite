@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Space](commandevent.md#space-zilch-engine-docume)|[objectevent](objectevent.md)| |
+| |[Space](commandevent.md#space-zilch-engine-docume)|[objectevent](objectevent.md)| |
 
 
  #  Properties

@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddInputNode](soundnode.md#addinputnode-void)|[ AutoCollapse](soundnode.md#autocollapse-zilch-engine)|[referencecountedeventobject](referencecountedeventobject.md)|[additivesynthnode](additivesynthnode.md)|
-|[ InsertNodeAfter](soundnode.md#insertnodeafter-void)|[ BypassPercent](soundnode.md#bypasspercent-zilch-engin)| |[addnoisenode](addnoisenode.md)|
-|[ InsertNodeBefore](soundnode.md#insertnodebefore-void)|[ BypassValue](soundnode.md#bypassvalue-zilch-engine)| |[bandpassnode](bandpassnode.md)|
-|[ RemoveAllInputs](soundnode.md#removeallinputs-void)|[ HasInputs](soundnode.md#hasinputs-zilch-engine-do)| |[chorusnode](chorusnode.md)|
-|[ RemoveAllOutputs](soundnode.md#removealloutputs-void)|[ HasOutputs](soundnode.md#hasoutputs-zilch-engine-d)| |[compressornode](compressornode.md)|
-|[ RemoveAndAttachInputsToOutputs](soundnode.md#removeandattachinputstoo)|[ InputCount](soundnode.md#inputcount-zilch-engine-d)| |[customaudionode](customaudionode.md)|
-|[ RemoveInputNode](soundnode.md#removeinputnode-void)|[ OutputCount](soundnode.md#outputcount-zilch-engine)| |[delaynode](delaynode.md)|
-|[ ReplaceWith](soundnode.md#replacewith-void)| | |[equalizernode](equalizernode.md)|
+|[AddInputNode](soundnode.md#addinputnode-void)|[AutoCollapse](soundnode.md#autocollapse-zilch-engine)|[referencecountedeventobject](referencecountedeventobject.md)|[additivesynthnode](additivesynthnode.md)|
+|[InsertNodeAfter](soundnode.md#insertnodeafter-void)|[BypassPercent](soundnode.md#bypasspercent-zilch-engin)| |[addnoisenode](addnoisenode.md)|
+|[InsertNodeBefore](soundnode.md#insertnodebefore-void)|[BypassValue](soundnode.md#bypassvalue-zilch-engine)| |[bandpassnode](bandpassnode.md)|
+|[RemoveAllInputs](soundnode.md#removeallinputs-void)|[HasInputs](soundnode.md#hasinputs-zilch-engine-do)| |[chorusnode](chorusnode.md)|
+|[RemoveAllOutputs](soundnode.md#removealloutputs-void)|[HasOutputs](soundnode.md#hasoutputs-zilch-engine-d)| |[compressornode](compressornode.md)|
+|[RemoveAndAttachInputsToOutputs](soundnode.md#removeandattachinputstoo)|[InputCount](soundnode.md#inputcount-zilch-engine-d)| |[customaudionode](customaudionode.md)|
+|[RemoveInputNode](soundnode.md#removeinputnode-void)|[OutputCount](soundnode.md#outputcount-zilch-engine)| |[delaynode](delaynode.md)|
+|[ReplaceWith](soundnode.md#replacewith-void)| | |[equalizernode](equalizernode.md)|
 | | | |[expandernode](expandernode.md)|
 | | | |[flangernode](flangernode.md)|
 | | | |[generatedwavenode](generatedwavenode.md)|

@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](boolean2x3.md#boolean2x3-void)|[ Count](boolean2x3.md#count-zilch-engine-docume)| | |
-|[ Get](boolean2x3.md#get-zilch-engine-document)|[ CountX](boolean2x3.md#countx-zilch-engine-docum)| | |
-|[ GetByIndex](boolean2x3.md#getbyindex-zilch-engine-d)|[ CountY](boolean2x3.md#county-zilch-engine-docum)| | |
-|[ Set](boolean2x3.md#set-void)|[ M00](boolean2x3.md#m00-zilch-engine-document)| | |
-|[ SetByIndex](boolean2x3.md#setbyindex-void)|[ M01](boolean2x3.md#m01-zilch-engine-document)| | |
-| |[ M02](boolean2x3.md#m02-zilch-engine-document)| | |
-| |[ M10](boolean2x3.md#m10-zilch-engine-document)| | |
-| |[ M11](boolean2x3.md#m11-zilch-engine-document)| | |
-| |[ M12](boolean2x3.md#m12-zilch-engine-document)| | |
+|[Constructor](boolean2x3.md#boolean2x3-void)|[Count](boolean2x3.md#count-zilch-engine-docume)| | |
+|[Get](boolean2x3.md#get-zilch-engine-document)|[CountX](boolean2x3.md#countx-zilch-engine-docum)| | |
+|[GetByIndex](boolean2x3.md#getbyindex-zilch-engine-d)|[CountY](boolean2x3.md#county-zilch-engine-docum)| | |
+|[Set](boolean2x3.md#set-void)|[M00](boolean2x3.md#m00-zilch-engine-document)| | |
+|[SetByIndex](boolean2x3.md#setbyindex-void)|[M01](boolean2x3.md#m01-zilch-engine-document)| | |
+| |[M02](boolean2x3.md#m02-zilch-engine-document)| | |
+| |[M10](boolean2x3.md#m10-zilch-engine-document)| | |
+| |[M11](boolean2x3.md#m11-zilch-engine-document)| | |
+| |[M12](boolean2x3.md#m12-zilch-engine-document)| | |
 
 
  #  Properties

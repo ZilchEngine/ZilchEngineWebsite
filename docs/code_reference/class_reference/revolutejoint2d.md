@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](revolutejoint2d.md#revolutejoint2d-void)|[ LocalPointA](revolutejoint2d.md#localpointa-zilch-engine)|[joint](joint.md)| |
-|[ SetWorldPoints](revolutejoint2d.md#setworldpoints-void)|[ LocalPointB](revolutejoint2d.md#localpointb-zilch-engine)| | |
-| |[ WorldPointA](revolutejoint2d.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](revolutejoint2d.md#worldpointb-zilch-engine)| | |
+|[Constructor](revolutejoint2d.md#revolutejoint2d-void)|[LocalPointA](revolutejoint2d.md#localpointa-zilch-engine)|[joint](joint.md)| |
+|[SetWorldPoints](revolutejoint2d.md#setworldpoints-void)|[LocalPointB](revolutejoint2d.md#localpointb-zilch-engine)| | |
+| |[WorldPointA](revolutejoint2d.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](revolutejoint2d.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

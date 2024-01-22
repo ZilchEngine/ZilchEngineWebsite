@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](fixedanglejointblock.md#fixedanglejointblock-voi)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](fixedanglejointblock.md#fixedanglejointblock-voi)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

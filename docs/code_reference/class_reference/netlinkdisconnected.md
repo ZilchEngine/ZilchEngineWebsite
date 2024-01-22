@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Direction](netlinkdisconnected.md#direction-zilch-engine-do)|[event](event.md)| |
-| |[ DisconnectReason](netlinkdisconnected.md#disconnectreason-zilch-en)| | |
-| |[ RequestBundle](netlinkdisconnected.md#requestbundle-zilch-engin)| | |
-| |[ TheirIpAddress](netlinkdisconnected.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](netlinkdisconnected.md#theirnetpeerid-zilch-engi)| | |
+| |[Direction](netlinkdisconnected.md#direction-zilch-engine-do)|[event](event.md)| |
+| |[DisconnectReason](netlinkdisconnected.md#disconnectreason-zilch-en)| | |
+| |[RequestBundle](netlinkdisconnected.md#requestbundle-zilch-engin)| | |
+| |[TheirIpAddress](netlinkdisconnected.md#theiripaddress-zilch-engi)| | |
+| |[TheirNetPeerId](netlinkdisconnected.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

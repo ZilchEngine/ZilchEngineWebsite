@@ -50,7 +50,7 @@ If one or two directional lights are being used to represent the sun and/or moon
  # Related Materials
  ## Manual
 
-- [ Camera and CameraViewport](../../camerasviewportsrenderers.md)
+- [Camera and CameraViewport](../../camerasviewportsrenderers.md)
 
  ## Code Reference
 

@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ StartRecording](recordingnode.md#startrecording-void)|[ FileName](recordingnode.md#filename-zilch-engine-doc)|[soundnode](soundnode.md)| |
-|[ StopRecording](recordingnode.md#stoprecording-void)|[ Paused](recordingnode.md#paused-zilch-engine-docum)| | |
-| |[ StreamToDisk](recordingnode.md#streamtodisk-zilch-engine)| | |
+|[StartRecording](recordingnode.md#startrecording-void)|[FileName](recordingnode.md#filename-zilch-engine-doc)|[soundnode](soundnode.md)| |
+|[StopRecording](recordingnode.md#stoprecording-void)|[Paused](recordingnode.md#paused-zilch-engine-docum)| | |
+| |[StreamToDisk](recordingnode.md#streamtodisk-zilch-engine)| | |
 
 
  #  Properties

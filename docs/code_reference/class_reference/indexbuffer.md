@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](indexbuffer.md#add-void)|[ Count](indexbuffer.md#count-zilch-engine-docume)|[safeid32](safeid32.md)| |
-|[ Clear](indexbuffer.md#clear-void)| | | |
-|[ Get](indexbuffer.md#get-zilch-engine-document)| | | |
+|[Add](indexbuffer.md#add-void)|[Count](indexbuffer.md#count-zilch-engine-docume)|[safeid32](safeid32.md)| |
+|[Clear](indexbuffer.md#clear-void)| | | |
+|[Get](indexbuffer.md#get-zilch-engine-document)| | | |
 
 
  #  Properties

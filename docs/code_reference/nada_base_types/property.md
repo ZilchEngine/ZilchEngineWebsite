@@ -1,7 +1,7 @@
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetValue](property.md#getvalue-zilch-engine-doc)|[ Getter](property.md#getter-zilch-engine-docum)|[member](member.md)|[field](field.md)|
-|[ SetValue](property.md#setvalue-void)|[ Setter](property.md#setter-zilch-engine-docum)| |[gettersetter](gettersetter.md)|
+|[GetValue](property.md#getvalue-zilch-engine-doc)|[Getter](property.md#getter-zilch-engine-docum)|[member](member.md)|[field](field.md)|
+|[SetValue](property.md#setvalue-void)|[Setter](property.md#setter-zilch-engine-docum)| |[gettersetter](gettersetter.md)|
 
 
  #  Properties

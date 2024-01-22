@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](model.md#model-void)|[ Mesh](model.md#mesh-zilch-engine-documen)|[graphical](graphical.md)| |
+|[Constructor](model.md#model-void)|[Mesh](model.md#mesh-zilch-engine-documen)|[graphical](graphical.md)| |
 
 
  #  Properties

@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ All](castresults.md#all-zilch-engine-document)| | | |
-|[ Clear](castresults.md#clear-void)| | | |
-|[ Empty](castresults.md#empty-zilch-engine-docume)| | | |
+|[All](castresults.md#all-zilch-engine-document)| | | |
+|[Clear](castresults.md#clear-void)| | | |
+|[Empty](castresults.md#empty-zilch-engine-docume)| | | |
 
 
  #  Properties

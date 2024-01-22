@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Toggle](physicseffect.md#toggle-void)|[ Active](physicseffect.md#active-zilch-engine-docum)|[component](component.md)|[basicdirectioneffect](basicdirectioneffect.md)|
-| |[ DebugDrawEffect](physicseffect.md#debugdraweffect-zilch-eng)| |[basicpointeffect](basicpointeffect.md)|
-| |[ EffectType](physicseffect.md#effecttype-zilch-engine-d)| |[buoyancyeffect](buoyancyeffect.md)|
-| |[ WakeUpOnChange](physicseffect.md#wakeuponchange-zilch-engi)| |[customphysicseffect](customphysicseffect.md)|
+|[Toggle](physicseffect.md#toggle-void)|[Active](physicseffect.md#active-zilch-engine-docum)|[component](component.md)|[basicdirectioneffect](basicdirectioneffect.md)|
+| |[DebugDrawEffect](physicseffect.md#debugdraweffect-zilch-eng)| |[basicpointeffect](basicpointeffect.md)|
+| |[EffectType](physicseffect.md#effecttype-zilch-engine-d)| |[buoyancyeffect](buoyancyeffect.md)|
+| |[WakeUpOnChange](physicseffect.md#wakeuponchange-zilch-engi)| |[customphysicseffect](customphysicseffect.md)|
 | | | |[drageffect](drageffect.md)|
 | | | |[floweffect](floweffect.md)|
 | | | |[thrusteffect](thrusteffect.md)|

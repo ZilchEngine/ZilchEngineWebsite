@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Text](webbrowsertextevent.md#text-zilch-engine-documen)|[webbrowserevent](webbrowserevent.md)| |
+| |[Text](webbrowsertextevent.md#text-zilch-engine-documen)|[webbrowserevent](webbrowserevent.md)| |
 
 
  #  Properties

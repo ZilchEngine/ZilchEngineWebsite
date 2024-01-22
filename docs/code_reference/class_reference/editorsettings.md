@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](editorsettings.md#editorsettings-void)|[ AutoUpdateContentChanges](editorsettings.md#autoupdatecontentchanges)|[component](component.md)| |
-| |[ ViewCube](editorsettings.md#viewcube-zilch-engine-doc)| | |
-| |[ ViewCubeSize](editorsettings.md#viewcubesize-zilch-engine)| | |
+|[Constructor](editorsettings.md#editorsettings-void)|[AutoUpdateContentChanges](editorsettings.md#autoupdatecontentchanges)|[component](component.md)| |
+| |[ViewCube](editorsettings.md#viewcube-zilch-engine-doc)| | |
+| |[ViewCubeSize](editorsettings.md#viewcubesize-zilch-engine)| | |
 
 
  #  Properties

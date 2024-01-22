@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](physicssolverconfig.md#physicssolverconfig-void)|[ PositionCorrectionType](physicssolverconfig.md#positioncorrectiontype-z)|[dataresource](dataresource.md)| |
-| |[ PositionIterationCount](physicssolverconfig.md#positioniterationcount-z)| | |
-| |[ SolverIterationCount](physicssolverconfig.md#solveriterationcount-zer)| | |
-| |[ VelocityRestitutionThreshold](physicssolverconfig.md#velocityrestitutionthres)| | |
+|[Constructor](physicssolverconfig.md#physicssolverconfig-void)|[PositionCorrectionType](physicssolverconfig.md#positioncorrectiontype-z)|[dataresource](dataresource.md)| |
+| |[PositionIterationCount](physicssolverconfig.md#positioniterationcount-z)| | |
+| |[SolverIterationCount](physicssolverconfig.md#solveriterationcount-zer)| | |
+| |[VelocityRestitutionThreshold](physicssolverconfig.md#velocityrestitutionthres)| | |
 
 
  #  Properties

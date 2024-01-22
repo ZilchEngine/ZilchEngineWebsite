@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](revolutebasisgizmo.md#revolutebasisgizmo-void)| |[component](component.md)| |
+|[Constructor](revolutebasisgizmo.md#revolutebasisgizmo-void)| |[component](component.md)| |
 
 
  #  Properties

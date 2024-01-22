@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CentralFrequency](bandpassnode.md#centralfrequency-zilch-en)|[soundnode](soundnode.md)| |
-| |[ QualityFactor](bandpassnode.md#qualityfactor-zilch-engin)| | |
+| |[CentralFrequency](bandpassnode.md#centralfrequency-zilch-en)|[soundnode](soundnode.md)| |
+| |[QualityFactor](bandpassnode.md#qualityfactor-zilch-engin)| | |
 
 
  #  Properties

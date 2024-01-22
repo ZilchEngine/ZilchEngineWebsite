@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FeedbackPercent](chorusnode.md#feedbackpercent-zilch-eng)|[soundnode](soundnode.md)| |
-| |[ FeedbackValue](chorusnode.md#feedbackvalue-zilch-engin)| | |
-| |[ MaxDelayMillisec](chorusnode.md#maxdelaymillisec-zilch-en)| | |
-| |[ MinDelayMillisec](chorusnode.md#mindelaymillisec-zilch-en)| | |
-| |[ ModulationFrequency](chorusnode.md#modulationfrequency-zero)| | |
-| |[ OffsetMillisec](chorusnode.md#offsetmillisec-zilch-engi)| | |
+| |[FeedbackPercent](chorusnode.md#feedbackpercent-zilch-eng)|[soundnode](soundnode.md)| |
+| |[FeedbackValue](chorusnode.md#feedbackvalue-zilch-engin)| | |
+| |[MaxDelayMillisec](chorusnode.md#maxdelaymillisec-zilch-en)| | |
+| |[MinDelayMillisec](chorusnode.md#mindelaymillisec-zilch-en)| | |
+| |[ModulationFrequency](chorusnode.md#modulationfrequency-zero)| | |
+| |[OffsetMillisec](chorusnode.md#offsetmillisec-zilch-engi)| | |
 
 
  #  Properties

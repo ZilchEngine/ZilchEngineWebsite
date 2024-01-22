@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugsphere.md#debugsphere-void)|[ Color](debugsphere.md#color-zilch-engine-docume)| | |
-| |[ Colored](debugsphere.md#colored-zilch-engine-docu)| | |
-| |[ OnTop](debugsphere.md#ontop-zilch-engine-docume)| | |
-| |[ Position](debugsphere.md#position-zilch-engine-doc)| | |
-| |[ Radius](debugsphere.md#radius-zilch-engine-docum)| | |
-| |[ ViewAligned](debugsphere.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugsphere.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugsphere.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugsphere.md#debugsphere-void)|[Color](debugsphere.md#color-zilch-engine-docume)| | |
+| |[Colored](debugsphere.md#colored-zilch-engine-docu)| | |
+| |[OnTop](debugsphere.md#ontop-zilch-engine-docume)| | |
+| |[Position](debugsphere.md#position-zilch-engine-doc)| | |
+| |[Radius](debugsphere.md#radius-zilch-engine-docum)| | |
+| |[ViewAligned](debugsphere.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugsphere.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugsphere.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

@@ -2,17 +2,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugline.md#debugline-void)|[ BoxHeads](debugline.md#boxheads-zilch-engine-doc)| | |
-| |[ Color](debugline.md#color-zilch-engine-docume)| | |
-| |[ DualHeads](debugline.md#dualheads-zilch-engine-do)| | |
-| |[ End](debugline.md#end-zilch-engine-document)| | |
-| |[ Filled](debugline.md#filled-zilch-engine-docum)| | |
-| |[ HeadSize](debugline.md#headsize-zilch-engine-doc)| | |
-| |[ OnTop](debugline.md#ontop-zilch-engine-docume)| | |
-| |[ Start](debugline.md#start-zilch-engine-docume)| | |
-| |[ ViewAligned](debugline.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugline.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugline.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugline.md#debugline-void)|[BoxHeads](debugline.md#boxheads-zilch-engine-doc)| | |
+| |[Color](debugline.md#color-zilch-engine-docume)| | |
+| |[DualHeads](debugline.md#dualheads-zilch-engine-do)| | |
+| |[End](debugline.md#end-zilch-engine-document)| | |
+| |[Filled](debugline.md#filled-zilch-engine-docum)| | |
+| |[HeadSize](debugline.md#headsize-zilch-engine-doc)| | |
+| |[OnTop](debugline.md#ontop-zilch-engine-docume)| | |
+| |[Start](debugline.md#start-zilch-engine-docume)| | |
+| |[ViewAligned](debugline.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugline.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugline.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

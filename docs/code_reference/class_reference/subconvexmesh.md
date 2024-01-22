@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Indices](subconvexmesh.md#indices-zilch-engine-docu)|[safeid32object](safeid32object.md)| |
-| |[ Mesh](subconvexmesh.md#mesh-zilch-engine-documen)| | |
-| |[ TriangleIndices](subconvexmesh.md#triangleindices-zilch-eng)| | |
-| |[ Valid](subconvexmesh.md#valid-zilch-engine-docume)| | |
+| |[Indices](subconvexmesh.md#indices-zilch-engine-docu)|[safeid32object](safeid32object.md)| |
+| |[Mesh](subconvexmesh.md#mesh-zilch-engine-documen)| | |
+| |[TriangleIndices](subconvexmesh.md#triangleindices-zilch-eng)| | |
+| |[Valid](subconvexmesh.md#valid-zilch-engine-docume)| | |
 
 
  #  Properties

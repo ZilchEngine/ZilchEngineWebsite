@@ -49,7 +49,7 @@ The Discover tab is the Launcher's information hub. It features a number of usef
 | New Project Default Settings by Template |
 |--|
 | **Setting**  | **Description**| **EMPTY 2D PROJECT** | **EMPTY 3D PROJECT**|
-|[ PhysicsSpace ](../../../code_reference/class_reference/physicsspace.md)| Default behavior for collision resolution| `true`|`true`|
+|[PhysicsSpace](../../../code_reference/class_reference/physicsspace.md)| Default behavior for collision resolution| `true`|`true`|
 |EditorCamera|Settings of editor camera|2D (orthographic, etc..)|3D (perspective, etc..|
 |Default Camera|Settings of the camera that is placed by default in each new level|2D (ortographic, etc...)|3D (perspective, etc...)|
 |GridDraw Axis|Perpendicular axis to the grid plane|`ZAxis`|`YAxis`|
@@ -59,7 +59,7 @@ The Discover tab is the Launcher's information hub. It features a number of usef
 
 2. Type a name for the project in the **Name** field. (You will be notified if a project by the same name already exists in the folder specified in the **Location** field.)
 
-3. Specify where the project should be created in the **Location** field. The default path for new projects can be changed in [The Settings Tab ](launcher.md#the-settings-tab). 
+3. Specify where the project should be created in the **Location** field. The default path for new projects can be changed in [The Settings Tab](launcher.md#the-settings-tab). 
  - You can use the **Open Path** button next to the field to browse to a desired folder in your operating system's Folder Selection dialog.
 
 4. Optionally, you may give the project *tags* by typing them, separated by commas, in the **Tags** field. Tags are just bits of text that can be used as keywords when searching for projects in the [Recent Projects](launcher.md#recent-projects) subtab.

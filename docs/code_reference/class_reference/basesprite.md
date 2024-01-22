@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ GeometryMode](basesprite.md#geometrymode-zilch-engine)|[graphical](graphical.md)|[multisprite](multisprite.md)|
-| |[ VertexColor](basesprite.md#vertexcolor-zilch-engine)| |[sprite](sprite.md)|
+| |[GeometryMode](basesprite.md#geometrymode-zilch-engine)|[graphical](graphical.md)|[multisprite](multisprite.md)|
+| |[VertexColor](basesprite.md#vertexcolor-zilch-engine)| |[sprite](sprite.md)|
 | | | |[spritetext](spritetext.md)|
 
 

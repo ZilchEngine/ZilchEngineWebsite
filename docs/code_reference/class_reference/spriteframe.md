@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](spriteframe.md#spriteframe-void)| | | |
+|[Constructor](spriteframe.md#spriteframe-void)| | | |
 
 
  #  Properties

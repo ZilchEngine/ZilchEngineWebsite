@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Destination](neteventsent.md#destination-zilch-engine)|[event](event.md)| |
-| |[ NetEvent](neteventsent.md#netevent-zilch-engine-doc)| | |
-| |[ TheirNetPeerId](neteventsent.md#theirnetpeerid-zilch-engi)| | |
+| |[Destination](neteventsent.md#destination-zilch-engine)|[event](event.md)| |
+| |[NetEvent](neteventsent.md#netevent-zilch-engine-doc)| | |
+| |[TheirNetPeerId](neteventsent.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

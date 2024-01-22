@@ -4,12 +4,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contactgraphedge.md#contactgraphedge-void)|[ ContactPointCount](contactgraphedge.md#contactpointcount-zilch-e)|BaseConstraintGraphEdge<Physics::Contact,Physics::ContactEdge>| |
-| |[ ContactPoints](contactgraphedge.md#contactpoints-zilch-engin)| | |
-| |[ FirstPoint](contactgraphedge.md#firstpoint-zilch-engine-d)| | |
-| |[ IsGhost](contactgraphedge.md#isghost-zilch-engine-docu)| | |
-| |[ Object](contactgraphedge.md#object-zilch-engine-docum)| | |
-| |[ OtherObject](contactgraphedge.md#otherobject-zilch-engine)| | |
+|[Constructor](contactgraphedge.md#contactgraphedge-void)|[ContactPointCount](contactgraphedge.md#contactpointcount-zilch-e)|BaseConstraintGraphEdge<Physics::Contact,Physics::ContactEdge>| |
+| |[ContactPoints](contactgraphedge.md#contactpoints-zilch-engin)| | |
+| |[FirstPoint](contactgraphedge.md#firstpoint-zilch-engine-d)| | |
+| |[IsGhost](contactgraphedge.md#isghost-zilch-engine-docu)| | |
+| |[Object](contactgraphedge.md#object-zilch-engine-docum)| | |
+| |[OtherObject](contactgraphedge.md#otherobject-zilch-engine)| | |
 
 
  #  Properties

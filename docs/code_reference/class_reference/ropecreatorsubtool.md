@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ NumberOfLinks](ropecreatorsubtool.md#numberoflinks-zilch-engin)|[springsubtool](springsubtool.md)| |
+| |[NumberOfLinks](ropecreatorsubtool.md#numberoflinks-zilch-engin)|[springsubtool](springsubtool.md)| |
 
 
  #  Properties

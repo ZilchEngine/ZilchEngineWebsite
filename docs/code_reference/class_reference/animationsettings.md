@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AutoFocus](animationsettings.md#autofocus-zilch-engine-do)| | |
-| |[ AutoKey](animationsettings.md#autokey-zilch-engine-docu)| | |
-| |[ EditFps](animationsettings.md#editfps-zilch-engine-docu)| | |
-| |[ OnionSkinning](animationsettings.md#onionskinning-zilch-engin)| | |
-| |[ PlaybackSpeed](animationsettings.md#playbackspeed-zilch-engin)| | |
-| |[ PreviewMode](animationsettings.md#previewmode-zilch-engine)| | |
-| |[ SnappingX](animationsettings.md#snappingx-zilch-engine-do)| | |
-| |[ SnappingY](animationsettings.md#snappingy-zilch-engine-do)| | |
-| |[ TimeDisplay](animationsettings.md#timedisplay-zilch-engine)| | |
+| |[AutoFocus](animationsettings.md#autofocus-zilch-engine-do)| | |
+| |[AutoKey](animationsettings.md#autokey-zilch-engine-docu)| | |
+| |[EditFps](animationsettings.md#editfps-zilch-engine-docu)| | |
+| |[OnionSkinning](animationsettings.md#onionskinning-zilch-engin)| | |
+| |[PlaybackSpeed](animationsettings.md#playbackspeed-zilch-engin)| | |
+| |[PreviewMode](animationsettings.md#previewmode-zilch-engine)| | |
+| |[SnappingX](animationsettings.md#snappingx-zilch-engine-do)| | |
+| |[SnappingY](animationsettings.md#snappingy-zilch-engine-do)| | |
+| |[TimeDisplay](animationsettings.md#timedisplay-zilch-engine)| | |
 
 
  #  Properties

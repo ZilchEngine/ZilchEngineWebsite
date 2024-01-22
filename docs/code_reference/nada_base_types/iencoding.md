@@ -2,9 +2,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](iencoding.md#iencoding-void)|[ Ascii](iencoding.md#ascii-zilch-engine-docume)| |[asciiencoding](asciiencoding.md)|
-|[ Read](iencoding.md#read-zilch-engine-documen)|[ Utf8](iencoding.md#utf8-zilch-engine-documen)| |[utf8encoding](utf8encoding.md)|
-|[ Write](iencoding.md#write-zilch-engine-docume)| | | |
+|[Constructor](iencoding.md#iencoding-void)|[Ascii](iencoding.md#ascii-zilch-engine-docume)| |[asciiencoding](asciiencoding.md)|
+|[Read](iencoding.md#read-zilch-engine-documen)|[Utf8](iencoding.md#utf8-zilch-engine-documen)| |[utf8encoding](utf8encoding.md)|
+|[Write](iencoding.md#write-zilch-engine-docume)| | | |
 
 
  #  Properties

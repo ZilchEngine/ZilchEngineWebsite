@@ -1,10 +1,10 @@
 Welcome to the Docs, home of all Zilch Engine related documentation. 
 
  # New to the Zilch community? [Get started here!](getting_started.md)
-Get a quick glance at the engine's [ features here](getting_started/features.md). 
+Get a quick glance at the engine's [features here](getting_started/features.md). 
 
  #  [Download the Engine](http://downloadlauncher.zilchengine.com )
- - [ Minimum System Requirements](getting_started/min_specs.md)
+ - [Minimum System Requirements](getting_started/min_specs.md)
 
  #  The Docs
  ##  [Zilch Engine Documentation](zilch_editor_documentation.md)

@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](volumenode.md#interpolatedecibels-void)|[ Decibels](volumenode.md#decibels-zilch-engine-doc)|[soundnode](soundnode.md)| |
-|[ InterpolateVolume](volumenode.md#interpolatevolume-void)|[ Volume](volumenode.md#volume-zilch-engine-docum)| | |
+|[InterpolateDecibels](volumenode.md#interpolatedecibels-void)|[Decibels](volumenode.md#decibels-zilch-engine-doc)|[soundnode](soundnode.md)| |
+|[InterpolateVolume](volumenode.md#interpolatevolume-void)|[Volume](volumenode.md#volume-zilch-engine-docum)| | |
 
 
  #  Properties

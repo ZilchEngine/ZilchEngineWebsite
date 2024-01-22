@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](particlecollisionheightmap.md#particlecollisionheightm)|[ Friction](particlecollisionheightmap.md#friction-zilch-engine-doc)|[particleanimator](particleanimator.md)| |
-| |[ HeightMap](particlecollisionheightmap.md#heightmap-zilch-engine-do)| | |
-| |[ Restitution](particlecollisionheightmap.md#restitution-zilch-engine)| | |
+|[Constructor](particlecollisionheightmap.md#particlecollisionheightm)|[Friction](particlecollisionheightmap.md#friction-zilch-engine-doc)|[particleanimator](particleanimator.md)| |
+| |[HeightMap](particlecollisionheightmap.md#heightmap-zilch-engine-do)| | |
+| |[Restitution](particlecollisionheightmap.md#restitution-zilch-engine)| | |
 
 
  #  Properties

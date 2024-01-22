@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](wheeljoint2dblock.md#wheeljoint2dblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
+|[Constructor](wheeljoint2dblock.md#wheeljoint2dblock-void)| |[constraintconfigblock](constraintconfigblock.md)| |
 
 
  #  Properties

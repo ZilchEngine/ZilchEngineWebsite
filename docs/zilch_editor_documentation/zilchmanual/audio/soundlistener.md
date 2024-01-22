@@ -1,8 +1,8 @@
-[ SoundListeners ](../../../code_reference/class_reference/soundlistener.md), along with [SoundEmitters ](soundemitter.md), are responsible for all positional audio in the Zilch Engine.
+[SoundListeners](../../../code_reference/class_reference/soundlistener.md), along with [SoundEmitters](soundemitter.md), are responsible for all positional audio in the Zilch Engine.
 
  # Using SoundListeners
 
-The SoundListener component �hears� all positional audio in a [SoundSpace ](soundspace.md), using the orientation of the object it's attached to, as if it added a set of ears to that object. For example, if there is a SoundListener component on the Player object, and an object with a SoundEmitter playing a constant sound moves past the player from left to right, the sound will initially play primarily from the user's left speaker and will move to the right speaker as the object moves across the screen. If the SoundEmitter or [SoundCue](soundcue.md) is also using a [SoundAttenuator ](soundattenuator.md) resource, the sound will start quietly and become louder as the object approaches the player, then become quiet again as it moves away. It would sound exactly the same if the player moved past the object instead of the object moving past the player.
+The SoundListener component �hears� all positional audio in a [SoundSpace](soundspace.md), using the orientation of the object it's attached to, as if it added a set of ears to that object. For example, if there is a SoundListener component on the Player object, and an object with a SoundEmitter playing a constant sound moves past the player from left to right, the sound will initially play primarily from the user's left speaker and will move to the right speaker as the object moves across the screen. If the SoundEmitter or [SoundCue](soundcue.md) is also using a [SoundAttenuator](soundattenuator.md) resource, the sound will start quietly and become louder as the object approaches the player, then become quiet again as it moves away. It would sound exactly the same if the player moved past the object instead of the object moving past the player.
 
 The SoundListener component is traditionally placed on the player object (or the camera if the camera uses a first-person POV), as this the allows the player of the game to control the source from which all sounds in the level are heard. It is unusual to have multiple SoundListeners in a single SoundSpace, but if there are the audio that they hear will be combined.
 
@@ -15,13 +15,13 @@ If the SoundListener's Active checkBox property is set to `false` in a NadaScrip
 
  ## Manual
 
-- [SoundEmitter ](soundemitter.md)
-- [SoundSpace ](soundspace.md)
-- [SoundCue ](soundcue.md)
-- [SoundAttenuator ](soundattenuator.md)
+- [SoundEmitter](soundemitter.md)
+- [SoundSpace](soundspace.md)
+- [SoundCue](soundcue.md)
+- [SoundAttenuator](soundattenuator.md)
 
  ## Reference
 
-- [ SoundListener ](../../../code_reference/class_reference/soundlistener.md) 
+- [SoundListener](../../../code_reference/class_reference/soundlistener.md) 
 
  

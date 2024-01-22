@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](boxcollider.md#boxcollider-void)|[ HalfSize](boxcollider.md#halfsize-zilch-engine-doc)|[collider](collider.md)| |
-| |[ Size](boxcollider.md#size-zilch-engine-documen)| | |
-| |[ WorldSize](boxcollider.md#worldsize-zilch-engine-do)| | |
+|[Constructor](boxcollider.md#boxcollider-void)|[HalfSize](boxcollider.md#halfsize-zilch-engine-doc)|[collider](collider.md)| |
+| |[Size](boxcollider.md#size-zilch-engine-documen)| | |
+| |[WorldSize](boxcollider.md#worldsize-zilch-engine-do)| | |
 
 
  #  Properties

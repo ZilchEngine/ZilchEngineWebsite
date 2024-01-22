@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](graphicalentryrange.md#graphicalentryrange-void)|[ All](graphicalentryrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](graphicalentryrange.md#movenext-void)|[ Current](graphicalentryrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](graphicalentryrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](graphicalentryrange.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](graphicalentryrange.md#graphicalentryrange-void)|[All](graphicalentryrange.md#all-zilch-engine-document)| | |
+|[MoveNext](graphicalentryrange.md#movenext-void)|[Current](graphicalentryrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](graphicalentryrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](graphicalentryrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

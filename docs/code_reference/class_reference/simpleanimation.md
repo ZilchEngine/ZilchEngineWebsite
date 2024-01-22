@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ ChainAnimation](simpleanimation.md#chainanimation-zilch-engi)|[ Animation](simpleanimation.md#animation-zilch-engine-do)|[component](component.md)| |
-|[ CrossBlend](simpleanimation.md#crossblend-zilch-engine-d)|[ PlayMode](simpleanimation.md#playmode-zilch-engine-doc)| | |
-|[ DirectBlend](simpleanimation.md#directblend-zilch-engine)| | | |
-|[ PlayIsolatedAnimation](simpleanimation.md#playisolatedanimation-ze)| | | |
-|[ PlaySingle](simpleanimation.md#playsingle-zilch-engine-d)| | | |
-|[ Constructor](simpleanimation.md#simpleanimation-void)| | | |
+|[ChainAnimation](simpleanimation.md#chainanimation-zilch-engi)|[Animation](simpleanimation.md#animation-zilch-engine-do)|[component](component.md)| |
+|[CrossBlend](simpleanimation.md#crossblend-zilch-engine-d)|[PlayMode](simpleanimation.md#playmode-zilch-engine-doc)| | |
+|[DirectBlend](simpleanimation.md#directblend-zilch-engine)| | | |
+|[PlayIsolatedAnimation](simpleanimation.md#playisolatedanimation-ze)| | | |
+|[PlaySingle](simpleanimation.md#playsingle-zilch-engine-d)| | | |
+|[Constructor](simpleanimation.md#simpleanimation-void)| | | |
 
 
  #  Properties

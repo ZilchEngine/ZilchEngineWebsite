@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](jointgraphedge.md#jointgraphedge-void)|[ Joint](jointgraphedge.md#joint-zilch-engine-docume)|BaseJointGraphEdge<[joint](joint.md)>| |
-| |[ Object](jointgraphedge.md#object-zilch-engine-docum)| | |
-| |[ OtherObject](jointgraphedge.md#otherobject-zilch-engine)| | |
-| |[ Owner](jointgraphedge.md#owner-zilch-engine-docume)| | |
-| |[ Valid](jointgraphedge.md#valid-zilch-engine-docume)| | |
+|[Constructor](jointgraphedge.md#jointgraphedge-void)|[Joint](jointgraphedge.md#joint-zilch-engine-docume)|BaseJointGraphEdge<[joint](joint.md)>| |
+| |[Object](jointgraphedge.md#object-zilch-engine-docum)| | |
+| |[OtherObject](jointgraphedge.md#otherobject-zilch-engine)| | |
+| |[Owner](jointgraphedge.md#owner-zilch-engine-docume)| | |
+| |[Valid](jointgraphedge.md#valid-zilch-engine-docume)| | |
 
 
  #  Properties

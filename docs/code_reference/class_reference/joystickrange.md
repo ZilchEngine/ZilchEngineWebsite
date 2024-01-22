@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](joystickrange.md#joystickrange-void)|[ All](joystickrange.md#all-zilch-engine-document)| | |
-|[ MoveNext](joystickrange.md#movenext-void)|[ Current](joystickrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](joystickrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](joystickrange.md#isnotempty-zilch-engine-d)| | |
+|[Constructor](joystickrange.md#joystickrange-void)|[All](joystickrange.md#all-zilch-engine-document)| | |
+|[MoveNext](joystickrange.md#movenext-void)|[Current](joystickrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](joystickrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](joystickrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

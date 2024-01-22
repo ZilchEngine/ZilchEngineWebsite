@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contenttags.md#contenttags-void)| |[contentcomponent](contentcomponent.md)| |
+|[Constructor](contenttags.md#contenttags-void)| |[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

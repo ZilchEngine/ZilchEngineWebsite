@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](windeffect.md#windeffect-void)|[ LocalSpaceDirection](windeffect.md#localspacedirection-zero)|[physicseffect](physicseffect.md)| |
-| |[ WindDirection](windeffect.md#winddirection-zilch-engin)| | |
-| |[ WindSpeed](windeffect.md#windspeed-zilch-engine-do)| | |
-| |[ WorldWindDirection](windeffect.md#worldwinddirection-zero)| | |
+|[Constructor](windeffect.md#windeffect-void)|[LocalSpaceDirection](windeffect.md#localspacedirection-zero)|[physicseffect](physicseffect.md)| |
+| |[WindDirection](windeffect.md#winddirection-zilch-engin)| | |
+| |[WindSpeed](windeffect.md#windspeed-zilch-engine-do)| | |
+| |[WorldWindDirection](windeffect.md#worldwinddirection-zero)| | |
 
 
  #  Properties

@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](reactive.md#reactive-void)|[ Active](reactive.md#active-zilch-engine-docum)|[component](component.md)| |
+|[Constructor](reactive.md#reactive-void)|[Active](reactive.md#active-zilch-engine-docum)|[component](component.md)| |
 
 
  #  Properties

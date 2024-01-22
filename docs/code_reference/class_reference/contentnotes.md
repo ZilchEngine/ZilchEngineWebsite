@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contentnotes.md#contentnotes-void)|[ Notes](contentnotes.md#notes-zilch-engine-docume)|[contentcomponent](contentcomponent.md)| |
+|[Constructor](contentnotes.md#contentnotes-void)|[Notes](contentnotes.md#notes-zilch-engine-docume)|[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

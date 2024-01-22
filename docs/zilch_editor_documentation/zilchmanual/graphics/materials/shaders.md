@@ -25,7 +25,7 @@ When adding a new NadaFragment, there are multiple templates for each type of sh
 
 This tool translates Materials�rather, thNadachFragments that make up the Material�into different versions of the shader language GLSL.
 
-[Command](../../editor/editorcommands/commands.md) : [ DebugShaderTranslation](../../../../code_reference/command_reference.md#debugshadertranslation) will open the tool
+[Command](../../editor/editorcommands/commands.md) : [DebugShaderTranslation](../../../../code_reference/command_reference.md#debugshadertranslation) will open the tool
 
 On the left hand side of the window are properties that set the parameters that define the shaders to be be translated: CoreVertex enum, Material enum, and RenderPass enum. `Translation Language` set the version of GLSL to translate to.  These options set what exactly will be translated. Material enum, for example, sets the Material to be translated as its name would suggest.
 

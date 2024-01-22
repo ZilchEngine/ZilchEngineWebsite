@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](skinnedmodel.md#skinnedmodel-void)|[ Mesh](skinnedmodel.md#mesh-zilch-engine-documen)|[graphical](graphical.md)| |
-| |[ SkeletonPath](skinnedmodel.md#skeletonpath-zilch-engine)| | |
+|[Constructor](skinnedmodel.md#skinnedmodel-void)|[Mesh](skinnedmodel.md#mesh-zilch-engine-documen)|[graphical](graphical.md)| |
+| |[SkeletonPath](skinnedmodel.md#skeletonpath-zilch-engine)| | |
 
 
  #  Properties

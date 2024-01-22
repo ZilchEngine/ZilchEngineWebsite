@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ DoLayout](layout.md#dolayout-zilch-engine-doc)|[ Padding](layout.md#padding-zilch-engine-docu)| |[docklayout](docklayout.md)|
-|[ Measure](layout.md#measure-zilch-engine-docu)| | |[edgedocklayout](edgedocklayout.md)|
+|[DoLayout](layout.md#dolayout-zilch-engine-doc)|[Padding](layout.md#padding-zilch-engine-docu)| |[docklayout](docklayout.md)|
+|[Measure](layout.md#measure-zilch-engine-docu)| | |[edgedocklayout](edgedocklayout.md)|
 | | | |[filllayout](filllayout.md)|
 | | | |[gridlayout](gridlayout.md)|
 | | | |[ratiolayout](ratiolayout.md)|

@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](textureinfo.md#textureinfo-void)|[ Dimensions](textureinfo.md#dimensions-zilch-engine-d)|[contentcomponent](contentcomponent.md)| |
-| |[ FileType](textureinfo.md#filetype-zilch-engine-doc)| | |
-| |[ LoadFormat](textureinfo.md#loadformat-zilch-engine-d)| | |
-| |[ Size](textureinfo.md#size-zilch-engine-documen)| | |
+|[Constructor](textureinfo.md#textureinfo-void)|[Dimensions](textureinfo.md#dimensions-zilch-engine-d)|[contentcomponent](contentcomponent.md)| |
+| |[FileType](textureinfo.md#filetype-zilch-engine-doc)| | |
+| |[LoadFormat](textureinfo.md#loadformat-zilch-engine-d)| | |
+| |[Size](textureinfo.md#size-zilch-engine-documen)| | |
 
 
  #  Properties

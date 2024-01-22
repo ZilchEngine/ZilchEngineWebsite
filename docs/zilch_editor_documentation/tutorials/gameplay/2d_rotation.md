@@ -18,9 +18,9 @@ This lesson covers the basic ways to rotate an object in 2D at runtime.
 - In the `Properties Window`
  - Under [Camera](../../../code_reference/class_reference/camera.md)
   - Set Size  to `5`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `Rotate2D`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Parent`
  - Under [Transform](../../../code_reference/class_reference/transform.md)
@@ -87,20 +87,20 @@ function OnLogicUpdate(event : UpdateEvent)
   this.Transform.RotateWorld(frameRotation);
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![RotateOnUpdate](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94054.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Local vs World Rotation
 You may have noticed the name of the function [RotateAnglesWorld](../../../code_reference/class_reference/transform.md#rotateanglesworld-void), and wondered why there is also a [RotateAnglesLocal](../../../code_reference/class_reference/transform.md#rotateangleslocal-void) function. Let's take a closer look at these functions.
 
  ## Parent RotateWorld
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
  - Rename Sprite object to `Child`
@@ -110,7 +110,7 @@ You may have noticed the name of the function [RotateAnglesWorld](../../../code_
   - Set VertexColor  to `[R:255, G:0, B:0, A:1.0]`
 - [Attach](../architecture/hierarchies.md) Child object to Parent object
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -119,7 +119,7 @@ You may have noticed the name of the function [RotateAnglesWorld](../../../code_
 
 Now we can see that a child object rotates with its parent. You may have seen similar behavior when using the rotation tool with hierarchies in the past. It is important to note that the Child object maintains it's translation relative to the parent object as the parent object rotates.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ## Child RotateWorld
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Child object
@@ -128,7 +128,7 @@ Now we can see that a child object rotates with its parent. You may have seen si
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Parent object
 - In the `Properties Window`
  - [Remove Component](../../zilchmanual/editor/addremovecomponent.md) : `Rotate2D`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -139,7 +139,7 @@ Here we can see that rotating the Child object has no affect on the Parent objec
 
 (NOTE)[Transform.RotateWorld](../../../code_reference/class_reference/transform.md#rotateworld-void) vs [Transform.RotateLocal](../../../code_reference/class_reference/transform.md#rotatelocal-void): You may have noticed the RotateLocal function on Transform. `Local` and `World` refer to to the axes that the rotation will be applied to. RotateWorld rotates an object around its world axes, while RotateLocal rotates it around the axes of its parent object (if any). This is done by applying the rotation of the parent object to the child after the child applies its own rotation.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Rotating with Actions
 Rotating on update is useful when trying to rotate in a specific direction, continuously, or more than 360 degrees. However, we often want an object to make quick small rotations to a specific target rotation. This is where rotating with [Actions](../scripting/actions.md) is very convenient.
@@ -170,7 +170,7 @@ class Rotate2D : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -180,14 +180,14 @@ class Rotate2D : NadaComponent
 *Rotating the child object to 45 degrees on the Z-axis using an Action*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Child object
 - In the `Properties Window`
  - Under `Rotate2D`
   - Set `TargetRotation` to `[0,0,405]`
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -197,7 +197,7 @@ class Rotate2D : NadaComponent
 *Rotating the child object to 405 degrees on the Z-axis using an Action*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Notice how both rotations appear the same. Now one may expect the object to make a full 405 degree rotation. However, in the constructor of [Quaternion](../../../code_reference/nada_base_types/quaternion.md) the angle is normalized to the range of `[0, 360]` degrees. Since 405 degrees is equivalent to 45 degrees, that is the rotation of the [Quaternion](../../../code_reference/nada_base_types/quaternion.md) that is passed to the action constructor.
 
@@ -205,7 +205,7 @@ Notice how both rotations appear the same. Now one may expect the object to make
  # Related Materials
  ## Manual
 - [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 - {icon university}[[zilch_engine_documentation/zilch_editor_documentation/zilchmanual/editor/addremovecomponent/|Add/Remove Component]]
 
  ## Tutorials
@@ -220,8 +220,8 @@ Notice how both rotations appear the same. Now one may expect the object to make
 - [Camera](../../../code_reference/class_reference/camera.md)
 
  ### Commands
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [CreateSprite](../../../code_reference/command_reference.md#createsprite)
  ## Tasks
 - T1174 

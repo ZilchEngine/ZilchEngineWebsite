@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddMicUncompressedData](soundbuffer.md#addmicuncompresseddata-v)|[ SampleCount](soundbuffer.md#samplecount-zilch-engine)|[referencecountedobject](referencecountedobject.md)| |
-|[ AddSampleToBuffer](soundbuffer.md#addsampletobuffer-void)| | | |
-|[ GetSampleAtIndex](soundbuffer.md#getsampleatindex-zilch-en)| | | |
-|[ Reset](soundbuffer.md#reset-void)| | | |
+|[AddMicUncompressedData](soundbuffer.md#addmicuncompresseddata-v)|[SampleCount](soundbuffer.md#samplecount-zilch-engine)|[referencecountedobject](referencecountedobject.md)| |
+|[AddSampleToBuffer](soundbuffer.md#addsampletobuffer-void)| | | |
+|[GetSampleAtIndex](soundbuffer.md#getsampleatindex-zilch-en)| | | |
+|[Reset](soundbuffer.md#reset-void)| | | |
 
 
  #  Properties

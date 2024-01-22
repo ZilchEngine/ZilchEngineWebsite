@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](vertexsemanticrange.md#movenext-void)|[ All](vertexsemanticrange.md#all-zilch-engine-document)| | |
-|[ Constructor](vertexsemanticrange.md#vertexsemanticrange-void)|[ Current](vertexsemanticrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](vertexsemanticrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](vertexsemanticrange.md#isnotempty-zilch-engine-d)| | |
+|[MoveNext](vertexsemanticrange.md#movenext-void)|[All](vertexsemanticrange.md#all-zilch-engine-document)| | |
+|[Constructor](vertexsemanticrange.md#vertexsemanticrange-void)|[Current](vertexsemanticrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](vertexsemanticrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](vertexsemanticrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

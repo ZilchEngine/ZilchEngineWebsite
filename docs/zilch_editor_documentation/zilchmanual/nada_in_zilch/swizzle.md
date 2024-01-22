@@ -1,4 +1,4 @@
-**Swizzling** is accessing the values within vector types ([ Real2](../../../code_reference/nada_base_types/real2.md), [ Integer3](../../../code_reference/nada_base_types/integer3.md), etc.) in any order. The term *swizzling* originated as the name for a technique used for doing the same thing, but within shaders.
+**Swizzling** is accessing the values within vector types ([Real2](../../../code_reference/nada_base_types/real2.md), [Integer3](../../../code_reference/nada_base_types/integer3.md), etc.) in any order. The term *swizzling* originated as the name for a technique used for doing the same thing, but within shaders.
 
  # Understanding a Swizzle
 To swizzle a vector, refer to its values as if they were data members, using the letters `X`, `Y`, `Z`, and `W` for the corresponding elements. These can be combined in any permutation or combination.

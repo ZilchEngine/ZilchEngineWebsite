@@ -4,7 +4,7 @@ Ways to close out of the `Game Window` include:
 
 1. Press `Esc`
 
-2. [Command](commands.md) : [ StopGame ](../../../../code_reference/command_reference.md#stopgame)
+2. [Command](commands.md) : [StopGame](../../../../code_reference/command_reference.md#stopgame)
 
 3. Click `x` on the `name=Game Window, icon=window-restore` tab
    ![CloseGame](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47439.png)
@@ -13,6 +13,6 @@ Ways to close out of the `Game Window` include:
 
  # Related Materials
  ## Code Reference
-- [ StopGame ](../../../../code_reference/command_reference.md#stopgame) 
+- [StopGame](../../../../code_reference/command_reference.md#stopgame) 
 
  

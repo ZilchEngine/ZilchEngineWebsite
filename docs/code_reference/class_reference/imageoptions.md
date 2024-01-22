@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ImportImages](imageoptions.md#importimages-zilch-engine)|Object| |
+| |[ImportImages](imageoptions.md#importimages-zilch-engine)|Object| |
 
 
  #  Properties

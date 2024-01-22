@@ -6,16 +6,16 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AltPressed](keyboardevent.md#altpressed-zilch-engine-d)|[event](event.md)| |
-| |[ CtrlPressed](keyboardevent.md#ctrlpressed-zilch-engine)| | |
-| |[ HandledEvent](keyboardevent.md#handledevent-zilch-engine)| | |
-| |[ Key](keyboardevent.md#key-zilch-engine-document)| | |
-| |[ Keyboard](keyboardevent.md#keyboard-zilch-engine-doc)| | |
-| |[ ModifierPressed](keyboardevent.md#modifierpressed-zilch-eng)| | |
-| |[ OsKey](keyboardevent.md#oskey-zilch-engine-docume)| | |
-| |[ ShiftPressed](keyboardevent.md#shiftpressed-zilch-engine)| | |
-| |[ SpacePressed](keyboardevent.md#spacepressed-zilch-engine)| | |
-| |[ State](keyboardevent.md#state-zilch-engine-docume)| | |
+| |[AltPressed](keyboardevent.md#altpressed-zilch-engine-d)|[event](event.md)| |
+| |[CtrlPressed](keyboardevent.md#ctrlpressed-zilch-engine)| | |
+| |[HandledEvent](keyboardevent.md#handledevent-zilch-engine)| | |
+| |[Key](keyboardevent.md#key-zilch-engine-document)| | |
+| |[Keyboard](keyboardevent.md#keyboard-zilch-engine-doc)| | |
+| |[ModifierPressed](keyboardevent.md#modifierpressed-zilch-eng)| | |
+| |[OsKey](keyboardevent.md#oskey-zilch-engine-docume)| | |
+| |[ShiftPressed](keyboardevent.md#shiftpressed-zilch-engine)| | |
+| |[SpacePressed](keyboardevent.md#spacepressed-zilch-engine)| | |
+| |[State](keyboardevent.md#state-zilch-engine-docume)| | |
 
 
  #  Properties

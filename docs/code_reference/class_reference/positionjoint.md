@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](positionjoint.md#positionjoint-void)|[ LocalPointA](positionjoint.md#localpointa-zilch-engine)|[joint](joint.md)| |
-|[ SetWorldPoints](positionjoint.md#setworldpoints-void)|[ LocalPointB](positionjoint.md#localpointb-zilch-engine)| | |
-| |[ WorldPointA](positionjoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](positionjoint.md#worldpointb-zilch-engine)| | |
+|[Constructor](positionjoint.md#positionjoint-void)|[LocalPointA](positionjoint.md#localpointa-zilch-engine)|[joint](joint.md)| |
+|[SetWorldPoints](positionjoint.md#setworldpoints-void)|[LocalPointB](positionjoint.md#localpointb-zilch-engine)| | |
+| |[WorldPointA](positionjoint.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](positionjoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

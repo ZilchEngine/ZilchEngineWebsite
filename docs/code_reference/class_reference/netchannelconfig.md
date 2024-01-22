@@ -6,24 +6,24 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AcceptIncomingChanges](netchannelconfig.md#acceptincomingchanges-ze)|[dataresource](dataresource.md)| |
-| |[ AccurateTimestampOnChange](netchannelconfig.md#accuratetimestamponchang)| | |
-| |[ AllowNapping](netchannelconfig.md#allownapping-zilch-engine)| | |
-| |[ AllowRelay](netchannelconfig.md#allowrelay-zilch-engine-d)| | |
-| |[ AuthorityDefault](netchannelconfig.md#authoritydefault-zilch-en)| | |
-| |[ AuthorityMode](netchannelconfig.md#authoritymode-zilch-engin)| | |
-| |[ AwakeDetectionInterval](netchannelconfig.md#awakedetectioninterval-z)| | |
-| |[ AwakeDuration](netchannelconfig.md#awakeduration-zilch-engin)| | |
-| |[ DetectionMode](netchannelconfig.md#detectionmode-zilch-engin)| | |
-| |[ DetectOutgoingChanges](netchannelconfig.md#detectoutgoingchanges-ze)| | |
-| |[ EventOnIncomingPropertyChange](netchannelconfig.md#eventonincomingpropertyc)| | |
-| |[ EventOnOutgoingPropertyChange](netchannelconfig.md#eventonoutgoingpropertyc)| | |
-| |[ NapDetectionInterval](netchannelconfig.md#napdetectioninterval-zer)| | |
-| |[ ReliabilityMode](netchannelconfig.md#reliabilitymode-zilch-eng)| | |
-| |[ ReplicateOnOffline](netchannelconfig.md#replicateonoffline-zero)| | |
-| |[ ReplicateOnOnline](netchannelconfig.md#replicateononline-zilch-e)| | |
-| |[ SerializationMode](netchannelconfig.md#serializationmode-zilch-e)| | |
-| |[ TransferMode](netchannelconfig.md#transfermode-zilch-engine)| | |
+| |[AcceptIncomingChanges](netchannelconfig.md#acceptincomingchanges-ze)|[dataresource](dataresource.md)| |
+| |[AccurateTimestampOnChange](netchannelconfig.md#accuratetimestamponchang)| | |
+| |[AllowNapping](netchannelconfig.md#allownapping-zilch-engine)| | |
+| |[AllowRelay](netchannelconfig.md#allowrelay-zilch-engine-d)| | |
+| |[AuthorityDefault](netchannelconfig.md#authoritydefault-zilch-en)| | |
+| |[AuthorityMode](netchannelconfig.md#authoritymode-zilch-engin)| | |
+| |[AwakeDetectionInterval](netchannelconfig.md#awakedetectioninterval-z)| | |
+| |[AwakeDuration](netchannelconfig.md#awakeduration-zilch-engin)| | |
+| |[DetectionMode](netchannelconfig.md#detectionmode-zilch-engin)| | |
+| |[DetectOutgoingChanges](netchannelconfig.md#detectoutgoingchanges-ze)| | |
+| |[EventOnIncomingPropertyChange](netchannelconfig.md#eventonincomingpropertyc)| | |
+| |[EventOnOutgoingPropertyChange](netchannelconfig.md#eventonoutgoingpropertyc)| | |
+| |[NapDetectionInterval](netchannelconfig.md#napdetectioninterval-zer)| | |
+| |[ReliabilityMode](netchannelconfig.md#reliabilitymode-zilch-eng)| | |
+| |[ReplicateOnOffline](netchannelconfig.md#replicateonoffline-zero)| | |
+| |[ReplicateOnOnline](netchannelconfig.md#replicateononline-zilch-e)| | |
+| |[SerializationMode](netchannelconfig.md#serializationmode-zilch-e)| | |
+| |[TransferMode](netchannelconfig.md#transfermode-zilch-engine)| | |
 
 
  #  Properties

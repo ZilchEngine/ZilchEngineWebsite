@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ TimeLeft](actiondelay.md#timeleft-zilch-engine-doc)|[action](action.md)| |
+| |[TimeLeft](actiondelay.md#timeleft-zilch-engine-doc)|[action](action.md)| |
 
 
  #  Properties

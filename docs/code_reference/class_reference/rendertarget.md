@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Release](rendertarget.md#release-void)|[ Texture](rendertarget.md#texture-zilch-engine-docu)|[safeid32](safeid32.md)| |
+|[Release](rendertarget.md#release-void)|[Texture](rendertarget.md#texture-zilch-engine-docu)|[safeid32](safeid32.md)| |
 
 
  #  Properties

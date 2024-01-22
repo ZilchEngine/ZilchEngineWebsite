@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetResourceByName](resourcesystem.md#getresourcebyname-zilch-e)| |[eventobject](eventobject.md)| |
-|[ GetResourceByTypeAndName](resourcesystem.md#getresourcebytypeandname)| | | |
+|[GetResourceByName](resourcesystem.md#getresourcebyname-zilch-e)| |[eventobject](eventobject.md)| |
+|[GetResourceByTypeAndName](resourcesystem.md#getresourcebytypeandname)| | | |
 
 
  #  Properties

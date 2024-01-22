@@ -4,16 +4,16 @@ Particles are a great way to polish your game and are used for a variety of effe
  #  Learning Objectives
 
 
-- [ ParticleEmitters](../../../code_reference/class_reference/particleemittershared.md)
-- [ ParticleAnimators](../../../code_reference/class_reference/particleanimator.md)
+- [ParticleEmitters](../../../code_reference/class_reference/particleemittershared.md)
+- [ParticleAnimators](../../../code_reference/class_reference/particleanimator.md)
 
 
  #  Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](../../../code_reference/command_reference.md#createspriteparticles)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](../../../code_reference/command_reference.md#createspriteparticles)
 
 
 
@@ -130,7 +130,7 @@ Adding the X-axis random force simulates air blowing our fire around a little bi
  # Particle Color Animator
 The last thing we need in this particle system is to change the color throughout each particle's lifetime. The [ParticleColorAnimator](../../../code_reference/class_reference/particlecoloranimator.md) allows you to choose a gradient which will change the color of the particles throughout their lifetime.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 - Create a Gradient resource using the Default template template and name it `Fire`
 - In the `Gradient Editor`
  - `Double-Left-Click` to create a new *point* in the middle of the gradient
@@ -172,7 +172,7 @@ The most common technique to conquer this issue is to create multiple particle s
 
 By setting this to true, the particle system will always run and render in-editor without the game playing. So far in this lesson, the campfire particle system has always been selected so it has always been running. Now that we are creating a second system that we want to run and preview at the same time, we need to use PreviewInEditor checkBox.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](../../../code_reference/command_reference.md#createspriteparticles)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSpriteParticles](../../../code_reference/command_reference.md#createspriteparticles)
 - In the `Properties Window`
  - Rename the SpriteParticles object to `Sparks`
  - Under [SpriteParticleSystem](../../../code_reference/class_reference/spriteparticlesystem.md)
@@ -219,9 +219,9 @@ By changing the geometry mode to beam we scale the sparks based on their individ
  # Related Materials
  ## Manual
 - [Create a New 2D Project](../../zilchmanual/editor/editorcommands/launchernewproject.md)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md)
 - [Add Component](../../zilchmanual/editor/addremovecomponent.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 - [Select](../../zilchmanual/editor/editorcommands/selectobject.md)
 
  ## Reference

@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AllParticles](particlesystem.md#allparticles-zilch-engine)|[ BoundingBoxSize](particlesystem.md#boundingboxsize-zilch-eng)|[graphical](graphical.md)|[spriteparticlesystem](spriteparticlesystem.md)|
-|[ Clear](particlesystem.md#clear-void)|[ ChildSystem](particlesystem.md#childsystem-zilch-engine)| | |
-| |[ PreviewInEditor](particlesystem.md#previewineditor-zilch-eng)| | |
-| |[ SystemSpace](particlesystem.md#systemspace-zilch-engine)| | |
-| |[ WarmUpTime](particlesystem.md#warmuptime-zilch-engine-d)| | |
+|[AllParticles](particlesystem.md#allparticles-zilch-engine)|[BoundingBoxSize](particlesystem.md#boundingboxsize-zilch-eng)|[graphical](graphical.md)|[spriteparticlesystem](spriteparticlesystem.md)|
+|[Clear](particlesystem.md#clear-void)|[ChildSystem](particlesystem.md#childsystem-zilch-engine)| | |
+| |[PreviewInEditor](particlesystem.md#previewineditor-zilch-eng)| | |
+| |[SystemSpace](particlesystem.md#systemspace-zilch-engine)| | |
+| |[WarmUpTime](particlesystem.md#warmuptime-zilch-engine-d)| | |
 
 
  #  Properties

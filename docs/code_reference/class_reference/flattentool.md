@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Height](flattentool.md#height-zilch-engine-docum)|[heightmanipulationtool](heightmanipulationtool.md)| |
-| |[ SampleNormal](flattentool.md#samplenormal-zilch-engine)| | |
-| |[ SampleOnMouseDown](flattentool.md#sampleonmousedown-zilch-e)| | |
-| |[ SlopeNormal](flattentool.md#slopenormal-zilch-engine)| | |
+| |[Height](flattentool.md#height-zilch-engine-docum)|[heightmanipulationtool](heightmanipulationtool.md)| |
+| |[SampleNormal](flattentool.md#samplenormal-zilch-engine)| | |
+| |[SampleOnMouseDown](flattentool.md#sampleonmousedown-zilch-e)| | |
+| |[SlopeNormal](flattentool.md#slopenormal-zilch-engine)| | |
 
 
  #  Properties

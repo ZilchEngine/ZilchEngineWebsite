@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](gizmo.md#gizmo-void)|[ Active](gizmo.md#active-zilch-engine-docum)|[component](component.md)| |
-| |[ EditingObject](gizmo.md#editingobject-zilch-engin)| | |
-| |[ ForwardEventsToChildren](gizmo.md#forwardeventstochildren)| | |
-| |[ MouseOver](gizmo.md#mouseover-zilch-engine-do)| | |
+|[Constructor](gizmo.md#gizmo-void)|[Active](gizmo.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[EditingObject](gizmo.md#editingobject-zilch-engin)| | |
+| |[ForwardEventsToChildren](gizmo.md#forwardeventstochildren)| | |
+| |[MouseOver](gizmo.md#mouseover-zilch-engine-do)| | |
 
 
  #  Properties

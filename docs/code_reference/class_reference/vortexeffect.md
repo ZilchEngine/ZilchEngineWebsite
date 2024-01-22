@@ -6,17 +6,17 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](vortexeffect.md#vortexeffect-void)|[ EndCondition](vortexeffect.md#endcondition-zilch-engine)|[physicseffect](physicseffect.md)| |
-| |[ InterpolationType](vortexeffect.md#interpolationtype-zilch-e)| | |
-| |[ InwardStrengthAtMaxDistance](vortexeffect.md#inwardstrengthatmaxdista)| | |
-| |[ InwardStrengthAtMinDistance](vortexeffect.md#inwardstrengthatmindista)| | |
-| |[ LocalAxis](vortexeffect.md#localaxis-zilch-engine-do)| | |
-| |[ MaxDistance](vortexeffect.md#maxdistance-zilch-engine)| | |
-| |[ MinDistance](vortexeffect.md#mindistance-zilch-engine)| | |
-| |[ TwistStrengthAtMaxDistance](vortexeffect.md#twiststrengthatmaxdistan)| | |
-| |[ TwistStrengthAtMinDistance](vortexeffect.md#twiststrengthatmindistan)| | |
-| |[ VortexAxis](vortexeffect.md#vortexaxis-zilch-engine-d)| | |
-| |[ WorldVortexAxis](vortexeffect.md#worldvortexaxis-zilch-eng)| | |
+|[Constructor](vortexeffect.md#vortexeffect-void)|[EndCondition](vortexeffect.md#endcondition-zilch-engine)|[physicseffect](physicseffect.md)| |
+| |[InterpolationType](vortexeffect.md#interpolationtype-zilch-e)| | |
+| |[InwardStrengthAtMaxDistance](vortexeffect.md#inwardstrengthatmaxdista)| | |
+| |[InwardStrengthAtMinDistance](vortexeffect.md#inwardstrengthatmindista)| | |
+| |[LocalAxis](vortexeffect.md#localaxis-zilch-engine-do)| | |
+| |[MaxDistance](vortexeffect.md#maxdistance-zilch-engine)| | |
+| |[MinDistance](vortexeffect.md#mindistance-zilch-engine)| | |
+| |[TwistStrengthAtMaxDistance](vortexeffect.md#twiststrengthatmaxdistan)| | |
+| |[TwistStrengthAtMinDistance](vortexeffect.md#twiststrengthatmindistan)| | |
+| |[VortexAxis](vortexeffect.md#vortexaxis-zilch-engine-d)| | |
+| |[WorldVortexAxis](vortexeffect.md#worldvortexaxis-zilch-eng)| | |
 
 
  #  Properties

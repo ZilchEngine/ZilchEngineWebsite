@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Add](debugdraw.md#add-void)| | | |
+|[Add](debugdraw.md#add-void)| | | |
 
 
  #  Properties

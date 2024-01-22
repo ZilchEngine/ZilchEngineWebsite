@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Sample](colorgradient.md#sample-zilch-engine-docum)| |[dataresource](dataresource.md)| |
+|[Sample](colorgradient.md#sample-zilch-engine-docum)| |[dataresource](dataresource.md)| |
 
 
  #  Properties

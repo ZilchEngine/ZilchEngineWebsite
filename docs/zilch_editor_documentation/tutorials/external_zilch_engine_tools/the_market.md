@@ -7,23 +7,23 @@ This lesson covers the Market, and how to use it to download content for your pr
 
  #  Level Setup
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
- - Under [ Transform](../../../code_reference/class_reference/transform.md)
+ - Under [Transform](../../../code_reference/class_reference/transform.md)
   - Set Translation  to `[0, -3, 0]`
   - Set Scale  to `[10, 1, 1]`
- - Under [ Sprite](../../../code_reference/class_reference/sprite.md)
+ - Under [Sprite](../../../code_reference/class_reference/sprite.md)
   - Set SpriteSource enum to `Square`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `BoxCollider`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `BoxCollider`
 
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101883.png) *The level so far*
 
 
-[ The Market](../../zilchmanual/editor/using_the_market.md) is an online content collection. Users (including the #zilch_engine_developers) can upload and download assets to and from the Market for use in their projects. The Market can be accessed from within the Zilch Editor or from a web browser, but this tutorial will just use the Market's in-editor interface.
+[The Market](../../zilchmanual/editor/using_the_market.md) is an online content collection. Users (including the #zilch_engine_developers) can upload and download assets to and from the Market for use in their projects. The Market can be accessed from within the Zilch Editor or from a web browser, but this tutorial will just use the Market's in-editor interface.
 
  #  Accessing the Market
 
@@ -94,7 +94,7 @@ This content pack includes the `SweptController` character controller component,
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/101885.png) *The level with a player*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - Use the `A` and `D` keys and the `Space` bar to move the player and jump
 
 
@@ -104,7 +104,7 @@ This content pack includes the `SweptController` character controller component,
 
 You can use the Market to add content like the SweptController to any of your future projects.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  Related Materials
  ##  Manual
@@ -113,10 +113,10 @@ You can use the Market to add content like the SweptController to any of your fu
 - [addremovecomponent](../../zilchmanual/editor/addremovecomponent.md)
  ##  Reference
  ###  Commands
-- [ NewProject](../../../code_reference/command_reference.md#newproject)
-- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [NewProject](../../../code_reference/command_reference.md#newproject)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
  ###  Classes
 - [transform](../../../code_reference/class_reference/transform.md)
 - [sprite](../../../code_reference/class_reference/sprite.md)

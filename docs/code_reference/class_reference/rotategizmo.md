@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](rotategizmo.md#rotategizmo-void)|[ SnapAngle](rotategizmo.md#snapangle-zilch-engine-do)|[component](component.md)| |
-| |[ Snapping](rotategizmo.md#snapping-zilch-engine-doc)| | |
+|[Constructor](rotategizmo.md#rotategizmo-void)|[SnapAngle](rotategizmo.md#snapangle-zilch-engine-do)|[component](component.md)| |
+| |[Snapping](rotategizmo.md#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](texturecontent.md#texturecontent-void)| |[contentcomponent](contentcomponent.md)| |
+|[Constructor](texturecontent.md#texturecontent-void)| |[contentcomponent](contentcomponent.md)| |
 
 
  #  Properties

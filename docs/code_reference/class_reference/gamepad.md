@@ -4,14 +4,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ IsButtonHeld](gamepad.md#isbuttonheld-zilch-engine)|[ GamepadIndex](gamepad.md#gamepadindex-zilch-engine)|[eventobject](eventobject.md)| |
-|[ IsButtonPressed](gamepad.md#isbuttonpressed-zilch-eng)|[ IsActive](gamepad.md#isactive-zilch-engine-doc)| | |
-|[ IsButtonReleased](gamepad.md#isbuttonreleased-zilch-en)|[ LeftStick](gamepad.md#leftstick-zilch-engine-do)| | |
-|[ TimeButtonHeld](gamepad.md#timebuttonheld-zilch-engi)|[ LeftStickDelta](gamepad.md#leftstickdelta-zilch-engi)| | |
-|[ Vibrate](gamepad.md#vibrate-void)|[ LeftTrigger](gamepad.md#lefttrigger-zilch-engine)| | |
-| |[ RightStick](gamepad.md#rightstick-zilch-engine-d)| | |
-| |[ RightStickDelta](gamepad.md#rightstickdelta-zilch-eng)| | |
-| |[ RightTrigger](gamepad.md#righttrigger-zilch-engine)| | |
+|[IsButtonHeld](gamepad.md#isbuttonheld-zilch-engine)|[GamepadIndex](gamepad.md#gamepadindex-zilch-engine)|[eventobject](eventobject.md)| |
+|[IsButtonPressed](gamepad.md#isbuttonpressed-zilch-eng)|[IsActive](gamepad.md#isactive-zilch-engine-doc)| | |
+|[IsButtonReleased](gamepad.md#isbuttonreleased-zilch-en)|[LeftStick](gamepad.md#leftstick-zilch-engine-do)| | |
+|[TimeButtonHeld](gamepad.md#timebuttonheld-zilch-engi)|[LeftStickDelta](gamepad.md#leftstickdelta-zilch-engi)| | |
+|[Vibrate](gamepad.md#vibrate-void)|[LeftTrigger](gamepad.md#lefttrigger-zilch-engine)| | |
+| |[RightStick](gamepad.md#rightstick-zilch-engine-d)| | |
+| |[RightStickDelta](gamepad.md#rightstickdelta-zilch-eng)| | |
+| |[RightTrigger](gamepad.md#righttrigger-zilch-engine)| | |
 
 
  #  Properties

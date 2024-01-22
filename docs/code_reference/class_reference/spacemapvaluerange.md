@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](spacemapvaluerange.md#movenext-void)|[ All](spacemapvaluerange.md#all-zilch-engine-document)| | |
-|[ Constructor](spacemapvaluerange.md#spacemapvaluerange-void)|[ Current](spacemapvaluerange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](spacemapvaluerange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](spacemapvaluerange.md#isnotempty-zilch-engine-d)| | |
+|[MoveNext](spacemapvaluerange.md#movenext-void)|[All](spacemapvaluerange.md#all-zilch-engine-document)| | |
+|[Constructor](spacemapvaluerange.md#spacemapvaluerange-void)|[Current](spacemapvaluerange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](spacemapvaluerange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](spacemapvaluerange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

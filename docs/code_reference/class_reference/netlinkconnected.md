@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Direction](netlinkconnected.md#direction-zilch-engine-do)|[event](event.md)| |
-| |[ TheirIpAddress](netlinkconnected.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](netlinkconnected.md#theirnetpeerid-zilch-engi)| | |
+| |[Direction](netlinkconnected.md#direction-zilch-engine-do)|[event](event.md)| |
+| |[TheirIpAddress](netlinkconnected.md#theiripaddress-zilch-engi)| | |
+| |[TheirNetPeerId](netlinkconnected.md#theirnetpeerid-zilch-engi)| | |
 
 
  #  Properties

@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ EndCondition](basicpointeffect.md#endcondition-zilch-engine)|[physicseffect](physicseffect.md)|[pointforceeffect](pointforceeffect.md)|
-| |[ InterpolationType](basicpointeffect.md#interpolationtype-zilch-e)| |[pointgravityeffect](pointgravityeffect.md)|
-| |[ LocalPositionOffset](basicpointeffect.md#localpositionoffset-zero)| | |
-| |[ MaxDistance](basicpointeffect.md#maxdistance-zilch-engine)| | |
-| |[ MinDistance](basicpointeffect.md#mindistance-zilch-engine)| | |
-| |[ StrengthAtMax](basicpointeffect.md#strengthatmax-zilch-engin)| | |
-| |[ StrengthAtMin](basicpointeffect.md#strengthatmin-zilch-engin)| | |
+| |[EndCondition](basicpointeffect.md#endcondition-zilch-engine)|[physicseffect](physicseffect.md)|[pointforceeffect](pointforceeffect.md)|
+| |[InterpolationType](basicpointeffect.md#interpolationtype-zilch-e)| |[pointgravityeffect](pointgravityeffect.md)|
+| |[LocalPositionOffset](basicpointeffect.md#localpositionoffset-zero)| | |
+| |[MaxDistance](basicpointeffect.md#maxdistance-zilch-engine)| | |
+| |[MinDistance](basicpointeffect.md#mindistance-zilch-engine)| | |
+| |[StrengthAtMax](basicpointeffect.md#strengthatmax-zilch-engin)| | |
+| |[StrengthAtMin](basicpointeffect.md#strengthatmin-zilch-engin)| | |
 
 
  #  Properties

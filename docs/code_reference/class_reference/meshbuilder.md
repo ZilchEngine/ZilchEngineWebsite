@@ -2,12 +2,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](meshbuilder.md#meshbuilder-void)|[ FlipNormals](meshbuilder.md#flipnormals-zilch-engine)|[buildercomponent](buildercomponent.md)| |
-| |[ FlipWindingOrder](meshbuilder.md#flipwindingorder-zilch-en)| | |
-| |[ GenerateSmoothNormals](meshbuilder.md#generatesmoothnormals-ze)| | |
-| |[ GenerateTangentSpace](meshbuilder.md#generatetangentspace-zer)| | |
-| |[ InvertUvYAxis](meshbuilder.md#invertuvyaxis-zilch-engin)| | |
-| |[ SmoothingAngleDegreesThreshold](meshbuilder.md#smoothingangledegreesthr)| | |
+|[Constructor](meshbuilder.md#meshbuilder-void)|[FlipNormals](meshbuilder.md#flipnormals-zilch-engine)|[buildercomponent](buildercomponent.md)| |
+| |[FlipWindingOrder](meshbuilder.md#flipwindingorder-zilch-en)| | |
+| |[GenerateSmoothNormals](meshbuilder.md#generatesmoothnormals-ze)| | |
+| |[GenerateTangentSpace](meshbuilder.md#generatetangentspace-zer)| | |
+| |[InvertUvYAxis](meshbuilder.md#invertuvyaxis-zilch-engin)| | |
+| |[SmoothingAngleDegreesThreshold](meshbuilder.md#smoothingangledegreesthr)| | |
 
 
  #  Properties

@@ -6,14 +6,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](universaljoint.md#setworldpoints-void)|[ LocalAxis0OfBodyA](universaljoint.md#localaxis0ofbodya-zilch-e)|[joint](joint.md)| |
-|[ Constructor](universaljoint.md#universaljoint-void)|[ LocalAxis0OfBodyB](universaljoint.md#localaxis0ofbodyb-zilch-e)| | |
-| |[ LocalAxis1OfBodyA](universaljoint.md#localaxis1ofbodya-zilch-e)| | |
-| |[ LocalAxis1OfBodyB](universaljoint.md#localaxis1ofbodyb-zilch-e)| | |
-| |[ LocalPointA](universaljoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](universaljoint.md#localpointb-zilch-engine)| | |
-| |[ WorldPointA](universaljoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](universaljoint.md#worldpointb-zilch-engine)| | |
+|[SetWorldPoints](universaljoint.md#setworldpoints-void)|[LocalAxis0OfBodyA](universaljoint.md#localaxis0ofbodya-zilch-e)|[joint](joint.md)| |
+|[Constructor](universaljoint.md#universaljoint-void)|[LocalAxis0OfBodyB](universaljoint.md#localaxis0ofbodyb-zilch-e)| | |
+| |[LocalAxis1OfBodyA](universaljoint.md#localaxis1ofbodya-zilch-e)| | |
+| |[LocalAxis1OfBodyB](universaljoint.md#localaxis1ofbodyb-zilch-e)| | |
+| |[LocalPointA](universaljoint.md#localpointa-zilch-engine)| | |
+| |[LocalPointB](universaljoint.md#localpointb-zilch-engine)| | |
+| |[WorldPointA](universaljoint.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](universaljoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

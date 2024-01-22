@@ -1,4 +1,4 @@
-[ RandomContext](../../../code_reference/class_reference/randomcontext.md) is a component that contains methods for pseudo-random number generation.
+[RandomContext](../../../code_reference/class_reference/randomcontext.md) is a component that contains methods for pseudo-random number generation.
 
 
  #  Learning Objectives
@@ -13,15 +13,15 @@
  #  Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateTransform](../../../code_reference/command_reference.md#createtransform)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `NumberGenerator`
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Transform object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Transform object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : [ RandomContext](../../../code_reference/class_reference/randomcontext.md)
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `NumberGenerator`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RandomContext](../../../code_reference/class_reference/randomcontext.md)
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `NumberGenerator`
 
 
  #  RandomContext
@@ -50,8 +50,8 @@ class RandomGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Console](../../../code_reference/command_reference.md#console)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Console](../../../code_reference/command_reference.md#console)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -62,7 +62,7 @@ Loaded level 0.00s
 
 Notice how a random positive integer is returned.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Using the Modulo Operator
@@ -91,7 +91,7 @@ class RandomGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name = Console Output
 ---------------- Begin Game ----------------
@@ -106,7 +106,7 @@ Loaded level 0.00s
 
 Notice how the random integer given is then divided by various powers of 10 and the remainder is printed out. This is how a pseudo-random value can be constrained to a range starting at 0 and ending one before the applied value.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Using Range
@@ -142,7 +142,7 @@ class NumberGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -155,7 +155,7 @@ Loaded level 0.00s
 
 Notice how the output displays a random number of enemies created each time you start the game. In this example, a pseudo-random number is found between `1` and `10`, but another scenario could include finding between `1` and `5` enemies, and then adding `5` to it. That way, the end result will be between `6` and `10`. However, this could just be accomplished by finding a Range value between `6` and `10`.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Seeding
@@ -192,7 +192,7 @@ class NumberGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -206,8 +206,8 @@ Loaded level 0.00s
 
 Notice the number sequence that is printed.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -221,8 +221,8 @@ Loaded level 0.00s
 
 Notice how the number sequence was exactly the same as the first time.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -236,7 +236,7 @@ Loaded level 0.00s
 
 Notice that once again the number sequence was exactly the same. Continue this process to your heart's content.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Due to how the seed was set to `54321`, the pattern was the same throughout. However, it was not the same number repeated each time. This is due to how RandomContent is still referred to for a unique value.
 
@@ -249,10 +249,10 @@ Seeding is important in many different video games to recreate previous experien
  ##  Die Roll
 
 
-[DieRoll](../../../code_reference/class_reference/randomcontext.md#dieroll) is a simple function that returns an integer between 1 and a specified number of sides. It is intended for novice users, as it functions the same as the [ Range](../../../code_reference/class_reference/randomcontext.md#range) function, except that:
+[DieRoll](../../../code_reference/class_reference/randomcontext.md#dieroll) is a simple function that returns an integer between 1 and a specified number of sides. It is intended for novice users, as it functions the same as the [Range](../../../code_reference/class_reference/randomcontext.md#range) function, except that:
 - The value returned is inclusive of the maximum value
 - The lowest value possible is `1` instead of `0`
-- The value returned is an [ Integer](../../../code_reference/nada_base_types/integer.md) rather than a Real that must be [cast into an Integer](../../zilchmanual/nada_in_zilch/casting.md)
+- The value returned is an [Integer](../../../code_reference/nada_base_types/integer.md) rather than a Real that must be [cast into an Integer](../../zilchmanual/nada_in_zilch/casting.md)
 
 
  ##  Coin Flip
@@ -274,11 +274,11 @@ Seeding is important in many different video games to recreate previous experien
 
  ##  Reference
  ###  Commands
-- [ NewProject](../../../code_reference/command_reference.md#newproject)
-- [ CreateTransform](../../../code_reference/command_reference.md#createtransform)
-- [ Console](../../../code_reference/command_reference.md#console)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [NewProject](../../../code_reference/command_reference.md#newproject)
+- [CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [Console](../../../code_reference/command_reference.md#console)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ###  Classes
 - [randomcontext](../../../code_reference/class_reference/randomcontext.md) 

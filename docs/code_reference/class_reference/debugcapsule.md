@@ -2,14 +2,14 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugcapsule.md#debugcapsule-void)|[ Color](debugcapsule.md#color-zilch-engine-docume)| | |
-| |[ End](debugcapsule.md#end-zilch-engine-document)| | |
-| |[ OnTop](debugcapsule.md#ontop-zilch-engine-docume)| | |
-| |[ Radius](debugcapsule.md#radius-zilch-engine-docum)| | |
-| |[ Start](debugcapsule.md#start-zilch-engine-docume)| | |
-| |[ ViewAligned](debugcapsule.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugcapsule.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugcapsule.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugcapsule.md#debugcapsule-void)|[Color](debugcapsule.md#color-zilch-engine-docume)| | |
+| |[End](debugcapsule.md#end-zilch-engine-document)| | |
+| |[OnTop](debugcapsule.md#ontop-zilch-engine-docume)| | |
+| |[Radius](debugcapsule.md#radius-zilch-engine-docum)| | |
+| |[Start](debugcapsule.md#start-zilch-engine-docume)| | |
+| |[ViewAligned](debugcapsule.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugcapsule.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugcapsule.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ FinalLocalRotation](objecttransformgizmoevent.md#finallocalrotation-zero)|[gizmoevent](gizmoevent.md)| |
-| |[ FinalLocalScale](objecttransformgizmoevent.md#finallocalscale-zilch-eng)| | |
-| |[ FinalLocalTranslation](objecttransformgizmoevent.md#finallocaltranslation-ze)| | |
+| |[FinalLocalRotation](objecttransformgizmoevent.md#finallocalrotation-zero)|[gizmoevent](gizmoevent.md)| |
+| |[FinalLocalScale](objecttransformgizmoevent.md#finallocalscale-zilch-eng)| | |
+| |[FinalLocalTranslation](objecttransformgizmoevent.md#finallocaltranslation-ze)| | |
 
 
  #  Properties

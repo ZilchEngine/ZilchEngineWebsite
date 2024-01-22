@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ All](multisprite.md#all-zilch-engine-document)|[ AnimationActive](multisprite.md#animationactive-zilch-eng)|[basesprite](basesprite.md)| |
-|[ Clear](multisprite.md#clear-void)|[ AnimationSpeed](multisprite.md#animationspeed-zilch-engi)| | |
-|[ Get](multisprite.md#get-zilch-engine-document)| | | |
-|[ Constructor](multisprite.md#multisprite-void)| | | |
-|[ Set](multisprite.md#set-void)| | | |
+|[All](multisprite.md#all-zilch-engine-document)|[AnimationActive](multisprite.md#animationactive-zilch-eng)|[basesprite](basesprite.md)| |
+|[Clear](multisprite.md#clear-void)|[AnimationSpeed](multisprite.md#animationspeed-zilch-engi)| | |
+|[Get](multisprite.md#get-zilch-engine-document)| | | |
+|[Constructor](multisprite.md#multisprite-void)| | | |
+|[Set](multisprite.md#set-void)| | | |
 
 
  #  Properties

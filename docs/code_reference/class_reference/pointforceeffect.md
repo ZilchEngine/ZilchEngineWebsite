@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](pointforceeffect.md#pointforceeffect-void)| |[basicpointeffect](basicpointeffect.md)| |
+|[Constructor](pointforceeffect.md#pointforceeffect-void)| |[basicpointeffect](basicpointeffect.md)| |
 
 
  #  Properties

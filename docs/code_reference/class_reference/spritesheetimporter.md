@@ -2,26 +2,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetOffsetX](spritesheetimporter.md#getoffsetx-zilch-engine-d)|[ AlphaColor](spritesheetimporter.md#alphacolor-zilch-engine-d)|[composite](composite.md)| |
-|[ GetOffsetY](spritesheetimporter.md#getoffsety-zilch-engine-d)|[ CreatePalette](spritesheetimporter.md#createpalette-zilch-engin)| | |
-|[ SetOffsetX](spritesheetimporter.md#setoffsetx-void)|[ FrameCount](spritesheetimporter.md#framecount-zilch-engine-d)| | |
-|[ SetOffsetY](spritesheetimporter.md#setoffsety-void)|[ FrameHeight](spritesheetimporter.md#frameheight-zilch-engine)| | |
-| |[ FrameRate](spritesheetimporter.md#framerate-zilch-engine-do)| | |
-| |[ FramesPerRow](spritesheetimporter.md#framesperrow-zilch-engine)| | |
-| |[ FrameWidth](spritesheetimporter.md#framewidth-zilch-engine-d)| | |
-| |[ ImportFrames](spritesheetimporter.md#importframes-zilch-engine)| | |
-| |[ Name](spritesheetimporter.md#name-zilch-engine-documen)| | |
-| |[ NumberOfRows](spritesheetimporter.md#numberofrows-zilch-engine)| | |
-| |[ Origin](spritesheetimporter.md#origin-zilch-engine-docum)| | |
-| |[ PixelsPerUnit](spritesheetimporter.md#pixelsperunit-zilch-engin)| | |
-| |[ PreviewAnimate](spritesheetimporter.md#previewanimate-zilch-engi)| | |
-| |[ PreviewFrame](spritesheetimporter.md#previewframe-zilch-engine)| | |
-| |[ Smoothing](spritesheetimporter.md#smoothing-zilch-engine-do)| | |
-| |[ SourceSizeX](spritesheetimporter.md#sourcesizex-zilch-engine)| | |
-| |[ SourceSizeY](spritesheetimporter.md#sourcesizey-zilch-engine)| | |
-| |[ SpacingX](spritesheetimporter.md#spacingx-zilch-engine-doc)| | |
-| |[ SpacingY](spritesheetimporter.md#spacingy-zilch-engine-doc)| | |
-| |[ UseAlphaColorKey](spritesheetimporter.md#usealphacolorkey-zilch-en)| | |
+|[GetOffsetX](spritesheetimporter.md#getoffsetx-zilch-engine-d)|[AlphaColor](spritesheetimporter.md#alphacolor-zilch-engine-d)|[composite](composite.md)| |
+|[GetOffsetY](spritesheetimporter.md#getoffsety-zilch-engine-d)|[CreatePalette](spritesheetimporter.md#createpalette-zilch-engin)| | |
+|[SetOffsetX](spritesheetimporter.md#setoffsetx-void)|[FrameCount](spritesheetimporter.md#framecount-zilch-engine-d)| | |
+|[SetOffsetY](spritesheetimporter.md#setoffsety-void)|[FrameHeight](spritesheetimporter.md#frameheight-zilch-engine)| | |
+| |[FrameRate](spritesheetimporter.md#framerate-zilch-engine-do)| | |
+| |[FramesPerRow](spritesheetimporter.md#framesperrow-zilch-engine)| | |
+| |[FrameWidth](spritesheetimporter.md#framewidth-zilch-engine-d)| | |
+| |[ImportFrames](spritesheetimporter.md#importframes-zilch-engine)| | |
+| |[Name](spritesheetimporter.md#name-zilch-engine-documen)| | |
+| |[NumberOfRows](spritesheetimporter.md#numberofrows-zilch-engine)| | |
+| |[Origin](spritesheetimporter.md#origin-zilch-engine-docum)| | |
+| |[PixelsPerUnit](spritesheetimporter.md#pixelsperunit-zilch-engin)| | |
+| |[PreviewAnimate](spritesheetimporter.md#previewanimate-zilch-engi)| | |
+| |[PreviewFrame](spritesheetimporter.md#previewframe-zilch-engine)| | |
+| |[Smoothing](spritesheetimporter.md#smoothing-zilch-engine-do)| | |
+| |[SourceSizeX](spritesheetimporter.md#sourcesizex-zilch-engine)| | |
+| |[SourceSizeY](spritesheetimporter.md#sourcesizey-zilch-engine)| | |
+| |[SpacingX](spritesheetimporter.md#spacingx-zilch-engine-doc)| | |
+| |[SpacingY](spritesheetimporter.md#spacingy-zilch-engine-doc)| | |
+| |[UseAlphaColorKey](spritesheetimporter.md#usealphacolorkey-zilch-en)| | |
 
 
  #  Properties

@@ -6,13 +6,13 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](massoverride.md#massoverride-void)|[ Active](massoverride.md#active-zilch-engine-docum)|[component](component.md)| |
-|[ RecomputeMass](massoverride.md#recomputemass-void)|[ AutoComputeCenterOfMass](massoverride.md#autocomputecenterofmass)| | |
-| |[ AutoComputeInertia](massoverride.md#autocomputeinertia-zero)| | |
-| |[ InverseMass](massoverride.md#inversemass-zilch-engine)| | |
-| |[ LocalCenterOfMass](massoverride.md#localcenterofmass-zilch-e)| | |
-| |[ LocalInverseInertiaTensor](massoverride.md#localinverseinertiatenso)| | |
-| |[ Mass](massoverride.md#mass-zilch-engine-documen)| | |
+|[Constructor](massoverride.md#massoverride-void)|[Active](massoverride.md#active-zilch-engine-docum)|[component](component.md)| |
+|[RecomputeMass](massoverride.md#recomputemass-void)|[AutoComputeCenterOfMass](massoverride.md#autocomputecenterofmass)| | |
+| |[AutoComputeInertia](massoverride.md#autocomputeinertia-zero)| | |
+| |[InverseMass](massoverride.md#inversemass-zilch-engine)| | |
+| |[LocalCenterOfMass](massoverride.md#localcenterofmass-zilch-e)| | |
+| |[LocalInverseInertiaTensor](massoverride.md#localinverseinertiatenso)| | |
+| |[Mass](massoverride.md#mass-zilch-engine-documen)| | |
 
 
  #  Properties

@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](castresult.md#castresult-void)|[ Collider](castresult.md#collider-zilch-engine-doc)| | |
-|[ GetLocalPosition](castresult.md#getlocalposition-zilch-en)|[ Distance](castresult.md#distance-zilch-engine-doc)| | |
-| |[ Normal](castresult.md#normal-zilch-engine-docum)| | |
-| |[ ObjectHit](castresult.md#objecthit-zilch-engine-do)| | |
-| |[ WorldPosition](castresult.md#worldposition-zilch-engin)| | |
+|[Constructor](castresult.md#castresult-void)|[Collider](castresult.md#collider-zilch-engine-doc)| | |
+|[GetLocalPosition](castresult.md#getlocalposition-zilch-en)|[Distance](castresult.md#distance-zilch-engine-doc)| | |
+| |[Normal](castresult.md#normal-zilch-engine-docum)| | |
+| |[ObjectHit](castresult.md#objecthit-zilch-engine-do)| | |
+| |[WorldPosition](castresult.md#worldposition-zilch-engin)| | |
 
 
  #  Properties

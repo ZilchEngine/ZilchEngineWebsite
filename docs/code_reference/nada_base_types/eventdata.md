@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](eventdata.md#eventdata-void)| | |[buildevent](buildevent.md)|
+|[Constructor](eventdata.md#eventdata-void)| | |[buildevent](buildevent.md)|
 | | | |[consoleevent](consoleevent.md)|
 | | | |[debuggerevent](debuggerevent.md)|
 | | | |[errorevent](errorevent.md)|

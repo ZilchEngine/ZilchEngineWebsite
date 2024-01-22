@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contentconfig.md#contentconfig-void)| |[component](component.md)| |
+|[Constructor](contentconfig.md#contentconfig-void)| |[component](component.md)| |
 
 
  #  Properties

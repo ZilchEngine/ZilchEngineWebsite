@@ -2,15 +2,15 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](debugtriangle.md#debugtriangle-void)|[ Color](debugtriangle.md#color-zilch-engine-docume)| | |
-| |[ Filled](debugtriangle.md#filled-zilch-engine-docum)| | |
-| |[ OnTop](debugtriangle.md#ontop-zilch-engine-docume)| | |
-| |[ Point0](debugtriangle.md#point0-zilch-engine-docum)| | |
-| |[ Point1](debugtriangle.md#point1-zilch-engine-docum)| | |
-| |[ Point2](debugtriangle.md#point2-zilch-engine-docum)| | |
-| |[ ViewAligned](debugtriangle.md#viewaligned-zilch-engine)| | |
-| |[ ViewScaled](debugtriangle.md#viewscaled-zilch-engine-d)| | |
-| |[ ViewScaleOffset](debugtriangle.md#viewscaleoffset-zilch-eng)| | |
+|[Constructor](debugtriangle.md#debugtriangle-void)|[Color](debugtriangle.md#color-zilch-engine-docume)| | |
+| |[Filled](debugtriangle.md#filled-zilch-engine-docum)| | |
+| |[OnTop](debugtriangle.md#ontop-zilch-engine-docume)| | |
+| |[Point0](debugtriangle.md#point0-zilch-engine-docum)| | |
+| |[Point1](debugtriangle.md#point1-zilch-engine-docum)| | |
+| |[Point2](debugtriangle.md#point2-zilch-engine-docum)| | |
+| |[ViewAligned](debugtriangle.md#viewaligned-zilch-engine)| | |
+| |[ViewScaled](debugtriangle.md#viewscaled-zilch-engine-d)| | |
+| |[ViewScaleOffset](debugtriangle.md#viewscaleoffset-zilch-eng)| | |
 
 
  #  Properties

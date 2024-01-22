@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](binarybuilder.md#binarybuilder-void)| |[buildercomponent](buildercomponent.md)| |
+|[Constructor](binarybuilder.md#binarybuilder-void)| |[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties

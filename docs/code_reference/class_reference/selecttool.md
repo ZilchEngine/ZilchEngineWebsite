@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ RayCast](selecttool.md#raycast-zilch-engine-docu)|[ ArchetypeSelect](selecttool.md#archetypeselect-zilch-eng)|[component](component.md)| |
-|[ Constructor](selecttool.md#selecttool-void)|[ Raycaster](selecttool.md#raycaster-zilch-engine-do)| | |
-|[ SmartSelect](selecttool.md#smartselect-zilch-engine)|[ RootSelect](selecttool.md#rootselect-zilch-engine-d)| | |
-| |[ SmartGroupSelect](selecttool.md#smartgroupselect-zilch-en)| | |
+|[RayCast](selecttool.md#raycast-zilch-engine-docu)|[ArchetypeSelect](selecttool.md#archetypeselect-zilch-eng)|[component](component.md)| |
+|[Constructor](selecttool.md#selecttool-void)|[Raycaster](selecttool.md#raycaster-zilch-engine-do)| | |
+|[SmartSelect](selecttool.md#smartselect-zilch-engine)|[RootSelect](selecttool.md#rootselect-zilch-engine-d)| | |
+| |[SmartGroupSelect](selecttool.md#smartgroupselect-zilch-en)| | |
 
 
  #  Properties

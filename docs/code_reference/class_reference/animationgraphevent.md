@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Animation](animationgraphevent.md#animation-zilch-engine-do)|[event](event.md)| |
-| |[ Node](animationgraphevent.md#node-zilch-engine-documen)| | |
-| |[ PlayMode](animationgraphevent.md#playmode-zilch-engine-doc)| | |
+| |[Animation](animationgraphevent.md#animation-zilch-engine-do)|[event](event.md)| |
+| |[Node](animationgraphevent.md#node-zilch-engine-documen)| | |
+| |[PlayMode](animationgraphevent.md#playmode-zilch-engine-doc)| | |
 
 
  #  Properties

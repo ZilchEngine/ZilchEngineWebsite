@@ -6,20 +6,20 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateDecibels](soundemitter.md#interpolatedecibels-void)|[ Attenuator](soundemitter.md#attenuator-zilch-engine-d)|[component](component.md)| |
-|[ InterpolatePitch](soundemitter.md#interpolatepitch-void)|[ Decibels](soundemitter.md#decibels-zilch-engine-doc)| | |
-|[ InterpolateSemitones](soundemitter.md#interpolatesemitones-voi)|[ Directional](soundemitter.md#directional-zilch-engine)| | |
-|[ InterpolateVolume](soundemitter.md#interpolatevolume-void)|[ EmitAngle](soundemitter.md#emitangle-zilch-engine-do)| | |
-|[ PlayCue](soundemitter.md#playcue-zilch-engine-docu)|[ InputNode](soundemitter.md#inputnode-zilch-engine-do)| | |
-|[ PlayCuePaused](soundemitter.md#playcuepaused-zilch-engin)|[ IsPlaying](soundemitter.md#isplaying-zilch-engine-do)| | |
-|[ Constructor](soundemitter.md#soundemitter-void)|[ OutputNode](soundemitter.md#outputnode-zilch-engine-d)| | |
-| |[ Paused](soundemitter.md#paused-zilch-engine-docum)| | |
-| |[ Pitch](soundemitter.md#pitch-zilch-engine-docume)| | |
-| |[ RearVolume](soundemitter.md#rearvolume-zilch-engine-d)| | |
-| |[ Semitones](soundemitter.md#semitones-zilch-engine-do)| | |
-| |[ SoundNodeInput](soundemitter.md#soundnodeinput-zilch-engi)| | |
-| |[ SoundNodeOutput](soundemitter.md#soundnodeoutput-zilch-eng)| | |
-| |[ Volume](soundemitter.md#volume-zilch-engine-docum)| | |
+|[InterpolateDecibels](soundemitter.md#interpolatedecibels-void)|[Attenuator](soundemitter.md#attenuator-zilch-engine-d)|[component](component.md)| |
+|[InterpolatePitch](soundemitter.md#interpolatepitch-void)|[Decibels](soundemitter.md#decibels-zilch-engine-doc)| | |
+|[InterpolateSemitones](soundemitter.md#interpolatesemitones-voi)|[Directional](soundemitter.md#directional-zilch-engine)| | |
+|[InterpolateVolume](soundemitter.md#interpolatevolume-void)|[EmitAngle](soundemitter.md#emitangle-zilch-engine-do)| | |
+|[PlayCue](soundemitter.md#playcue-zilch-engine-docu)|[InputNode](soundemitter.md#inputnode-zilch-engine-do)| | |
+|[PlayCuePaused](soundemitter.md#playcuepaused-zilch-engin)|[IsPlaying](soundemitter.md#isplaying-zilch-engine-do)| | |
+|[Constructor](soundemitter.md#soundemitter-void)|[OutputNode](soundemitter.md#outputnode-zilch-engine-d)| | |
+| |[Paused](soundemitter.md#paused-zilch-engine-docum)| | |
+| |[Pitch](soundemitter.md#pitch-zilch-engine-docume)| | |
+| |[RearVolume](soundemitter.md#rearvolume-zilch-engine-d)| | |
+| |[Semitones](soundemitter.md#semitones-zilch-engine-do)| | |
+| |[SoundNodeInput](soundemitter.md#soundnodeinput-zilch-engi)| | |
+| |[SoundNodeOutput](soundemitter.md#soundnodeoutput-zilch-eng)| | |
+| |[Volume](soundemitter.md#volume-zilch-engine-docum)| | |
 
 
  #  Properties

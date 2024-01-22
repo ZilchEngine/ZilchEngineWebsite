@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ LostFocus](uifocusevent.md#lostfocus-zilch-engine-do)|[event](event.md)| |
-| |[ ReceivedFocus](uifocusevent.md#receivedfocus-zilch-engin)| | |
+| |[LostFocus](uifocusevent.md#lostfocus-zilch-engine-do)|[event](event.md)| |
+| |[ReceivedFocus](uifocusevent.md#receivedfocus-zilch-engin)| | |
 
 
  #  Properties

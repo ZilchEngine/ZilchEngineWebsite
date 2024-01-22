@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurNetUserId](netpeerreceiveduseraddresponse.md#ournetuserid-zilch-engine)|[event](event.md)| |
-| |[ OurRequestBundle](netpeerreceiveduseraddresponse.md#ourrequestbundle-zilch-en)| | |
-| |[ TheirAddResponse](netpeerreceiveduseraddresponse.md#theiraddresponse-zilch-en)| | |
-| |[ TheirIpAddress](netpeerreceiveduseraddresponse.md#theiripaddress-zilch-engi)| | |
-| |[ TheirNetPeerId](netpeerreceiveduseraddresponse.md#theirnetpeerid-zilch-engi)| | |
-| |[ TheirResponseBundle](netpeerreceiveduseraddresponse.md#theirresponsebundle-zero)| | |
+| |[OurNetUserId](netpeerreceiveduseraddresponse.md#ournetuserid-zilch-engine)|[event](event.md)| |
+| |[OurRequestBundle](netpeerreceiveduseraddresponse.md#ourrequestbundle-zilch-en)| | |
+| |[TheirAddResponse](netpeerreceiveduseraddresponse.md#theiraddresponse-zilch-en)| | |
+| |[TheirIpAddress](netpeerreceiveduseraddresponse.md#theiripaddress-zilch-engi)| | |
+| |[TheirNetPeerId](netpeerreceiveduseraddresponse.md#theirnetpeerid-zilch-engi)| | |
+| |[TheirResponseBundle](netpeerreceiveduseraddresponse.md#theirresponsebundle-zero)| | |
 
 
  #  Properties

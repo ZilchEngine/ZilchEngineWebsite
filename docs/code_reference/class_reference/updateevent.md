@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Dt](updateevent.md#dt-zilch-engine-documenta)|[event](event.md)| |
-| |[ RealTimePassed](updateevent.md#realtimepassed-zilch-engi)| | |
-| |[ TimePassed](updateevent.md#timepassed-zilch-engine-d)| | |
+| |[Dt](updateevent.md#dt-zilch-engine-documenta)|[event](event.md)| |
+| |[RealTimePassed](updateevent.md#realtimepassed-zilch-engi)| | |
+| |[TimePassed](updateevent.md#timepassed-zilch-engine-d)| | |
 
 
  #  Properties

@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ CurrentNetUserOwner](netuserownerchanged.md#currentnetuserowner-zero)|[event](event.md)| |
-| |[ PreviousNetUserOwner](netuserownerchanged.md#previousnetuserowner-zer)| | |
+| |[CurrentNetUserOwner](netuserownerchanged.md#currentnetuserowner-zero)|[event](event.md)| |
+| |[PreviousNetUserOwner](netuserownerchanged.md#previousnetuserowner-zer)| | |
 
 
  #  Properties

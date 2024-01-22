@@ -1,11 +1,11 @@
-Game objects in the Zilch Engine (game object compositions, or COGs) are not defined using classes. Instead they are collections of components, each of which provide a certain functionality to the object. A component can be data, behavior, and/or a link to a system. For example, an Cog called "Ball" might be a composition that includes the [ Transform  ](../../../../code_reference/class_reference/transform.md) (position, rotation, etc.), [ Model  ](../../graphics/models.md) (geometry, textures, etc.), [ RigidBody  ](../../physics/rigidbody.md) (movement), and Collider (shape, collision, etc.) components, while a "Main Camera" object would include Transform, Controller (mouse or keyboard input, etc.), and Camera (field of view, zoom, etc.). Or you could create a "Ball Camera," with Transform, Model, Rigid Body, Collider, Controller, and Camera.
+Game objects in the Zilch Engine (game object compositions, or COGs) are not defined using classes. Instead they are collections of components, each of which provide a certain functionality to the object. A component can be data, behavior, and/or a link to a system. For example, an Cog called "Ball" might be a composition that includes the [Transform ](../../../../code_reference/class_reference/transform.md) (position, rotation, etc.), [Model ](../../graphics/models.md) (geometry, textures, etc.), [RigidBody ](../../physics/rigidbody.md) (movement), and Collider (shape, collision, etc.) components, while a "Main Camera" object would include Transform, Controller (mouse or keyboard input, etc.), and Camera (field of view, zoom, etc.). Or you could create a "Ball Camera," with Transform, Model, Rigid Body, Collider, Controller, and Camera.
 
 One of the keys to working with a component based engine is to think of objects in terms of what they do, not what they are. If you have a hospital, a soldier, and a medic, the hospital and the medic have a healing component, while the soldier and the medic have a mobility component, but you don't need to group one as a building and the other two as infantry. All the game engine cares about is what the object can do. You might see a ball and a car as different types of things, but to the game engine they are both objects composed of Transform, Model, Rigid Body and Collider. They have the same functionality: the only difference is their data.
 
  # Creating a Cog
 
 
-The easiest way to start creating your own cog is to start with a command that generates one for you, e.g. [ CreateSprite ](../../../../code_reference/command_reference.md#createsprite), [ CreateCube ](../../../../code_reference/command_reference.md#createcube), [ CreateTransform ](../../../../code_reference/command_reference.md#createtransform), etc. These create cogs that you can then customize by adding or removing components and setting their properties in the Properties Window.
+The easiest way to start creating your own cog is to start with a command that generates one for you, e.g. [CreateSprite](../../../../code_reference/command_reference.md#createsprite), [CreateCube](../../../../code_reference/command_reference.md#createcube), [CreateTransform](../../../../code_reference/command_reference.md#createtransform), etc. These create cogs that you can then customize by adding or removing components and setting their properties in the Properties Window.
 
 
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/47151.png)
@@ -63,13 +63,13 @@ This code can be copy and pasted into other projects. This works because, unless
 
  # Related Materials
  ## Code Reference
- - [ Transform  ](../../../../code_reference/class_reference/transform.md)
- - [ CreateSprite ](../../../../code_reference/command_reference.md#createsprite)
- - [ CreateCube ](../../../../code_reference/command_reference.md#createcube)
- - [ CreateTransform ](../../../../code_reference/command_reference.md#createtransform)
+ - [Transform ](../../../../code_reference/class_reference/transform.md)
+ - [CreateSprite](../../../../code_reference/command_reference.md#createsprite)
+ - [CreateCube](../../../../code_reference/command_reference.md#createcube)
+ - [CreateTransform](../../../../code_reference/command_reference.md#createtransform)
 
  ## Manual
- - [ Model  ](../../graphics/models.md)
- - [ RigidBody  ](../../physics/rigidbody.md) 
+ - [Model ](../../graphics/models.md)
+ - [RigidBody ](../../physics/rigidbody.md) 
 
  

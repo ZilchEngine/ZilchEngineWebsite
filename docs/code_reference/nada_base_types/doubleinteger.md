@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Parse](doubleinteger.md#parse-zilch-engine-docume)|[ NegativeMin](doubleinteger.md#negativemin-zilch-engine)| | |
-| |[ NegativeValueClosestToZero](doubleinteger.md#negativevalueclosesttoze)| | |
-| |[ PositiveMax](doubleinteger.md#positivemax-zilch-engine)| | |
-| |[ PositiveValueClosestToZero](doubleinteger.md#positivevalueclosesttoze)| | |
+|[Parse](doubleinteger.md#parse-zilch-engine-docume)|[NegativeMin](doubleinteger.md#negativemin-zilch-engine)| | |
+| |[NegativeValueClosestToZero](doubleinteger.md#negativevalueclosesttoze)| | |
+| |[PositiveMax](doubleinteger.md#positivemax-zilch-engine)| | |
+| |[PositiveValueClosestToZero](doubleinteger.md#positivevalueclosesttoze)| | |
 
 
  #  Properties

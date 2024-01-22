@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ OurPendingUserAddRequestCount](netpeersentconnectrequest.md#ourpendinguseraddrequest)|[event](event.md)| |
-| |[ OurRequestBundle](netpeersentconnectrequest.md#ourrequestbundle-zilch-en)| | |
-| |[ TheirIpAddress](netpeersentconnectrequest.md#theiripaddress-zilch-engi)| | |
+| |[OurPendingUserAddRequestCount](netpeersentconnectrequest.md#ourpendinguseraddrequest)|[event](event.md)| |
+| |[OurRequestBundle](netpeersentconnectrequest.md#ourrequestbundle-zilch-en)| | |
+| |[TheirIpAddress](netpeersentconnectrequest.md#theiripaddress-zilch-engi)| | |
 
 
  #  Properties

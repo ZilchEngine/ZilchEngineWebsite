@@ -4,26 +4,26 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ BellCurve](random.md#bellcurve-zilch-engine-do)|[ MaxInteger](random.md#maxinteger-zilch-engine-d)| | |
-|[ Boolean](random.md#boolean-zilch-engine-docu)|[ Seed](random.md#seed-zilch-engine-documen)| | |
-|[ CoinFlip](random.md#coinflip-zilch-engine-doc)| | | |
-|[ DieRoll](random.md#dieroll-zilch-engine-docu)| | | |
-|[ DoubleRange](random.md#doublerange-zilch-engine)| | | |
-|[ DoubleReal](random.md#doublereal-zilch-engine-d)| | | |
-|[ Integer](random.md#integer-zilch-engine-docu)| | | |
-|[ Probability](random.md#probability-zilch-engine)| | | |
-|[ Quaternion](random.md#quaternion-zilch-engine-d)| | | |
-|[ Constructor](random.md#random-void)| | | |
-|[ Range](random.md#range-zilch-engine-docume)| | | |
-|[ RangeExclusiveMax](random.md#rangeexclusivemax-zilch-e)| | | |
-|[ RangeInclusiveMax](random.md#rangeinclusivemax-zilch-e)| | | |
-|[ Real](random.md#real-zilch-engine-documen)| | | |
-|[ Real2](random.md#real2-zilch-engine-docume)| | | |
-|[ Real3](random.md#real3-zilch-engine-docume)| | | |
-|[ Rotation](random.md#rotation-zilch-engine-doc)| | | |
-|[ UnitReal2](random.md#unitreal2-zilch-engine-do)| | | |
-|[ UnitReal3](random.md#unitreal3-zilch-engine-do)| | | |
-|[ Variance](random.md#variance-zilch-engine-doc)| | | |
+|[BellCurve](random.md#bellcurve-zilch-engine-do)|[MaxInteger](random.md#maxinteger-zilch-engine-d)| | |
+|[Boolean](random.md#boolean-zilch-engine-docu)|[Seed](random.md#seed-zilch-engine-documen)| | |
+|[CoinFlip](random.md#coinflip-zilch-engine-doc)| | | |
+|[DieRoll](random.md#dieroll-zilch-engine-docu)| | | |
+|[DoubleRange](random.md#doublerange-zilch-engine)| | | |
+|[DoubleReal](random.md#doublereal-zilch-engine-d)| | | |
+|[Integer](random.md#integer-zilch-engine-docu)| | | |
+|[Probability](random.md#probability-zilch-engine)| | | |
+|[Quaternion](random.md#quaternion-zilch-engine-d)| | | |
+|[Constructor](random.md#random-void)| | | |
+|[Range](random.md#range-zilch-engine-docume)| | | |
+|[RangeExclusiveMax](random.md#rangeexclusivemax-zilch-e)| | | |
+|[RangeInclusiveMax](random.md#rangeinclusivemax-zilch-e)| | | |
+|[Real](random.md#real-zilch-engine-documen)| | | |
+|[Real2](random.md#real2-zilch-engine-docume)| | | |
+|[Real3](random.md#real3-zilch-engine-docume)| | | |
+|[Rotation](random.md#rotation-zilch-engine-doc)| | | |
+|[UnitReal2](random.md#unitreal2-zilch-engine-do)| | | |
+|[UnitReal3](random.md#unitreal3-zilch-engine-do)| | | |
+|[Variance](random.md#variance-zilch-engine-doc)| | | |
 
 
  #  Properties

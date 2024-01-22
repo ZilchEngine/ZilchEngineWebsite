@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clear](webrequester.md#clear-void)|[ Url](webrequester.md#url-zilch-engine-document)|[component](component.md)| |
-|[ Run](webrequester.md#run-void)| | | |
-|[ SetHeader](webrequester.md#setheader-void)| | | |
-|[ SetPostData](webrequester.md#setpostdata-void)| | | |
-|[ Constructor](webrequester.md#webrequester-void)| | | |
+|[Clear](webrequester.md#clear-void)|[Url](webrequester.md#url-zilch-engine-document)|[component](component.md)| |
+|[Run](webrequester.md#run-void)| | | |
+|[SetHeader](webrequester.md#setheader-void)| | | |
+|[SetPostData](webrequester.md#setpostdata-void)| | | |
+|[Constructor](webrequester.md#webrequester-void)| | | |
 
 
  #  Properties

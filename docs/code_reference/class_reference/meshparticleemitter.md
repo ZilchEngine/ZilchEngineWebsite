@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](meshparticleemitter.md#meshparticleemitter-void)|[ Mesh](meshparticleemitter.md#mesh-zilch-engine-documen)|[particleemittershared](particleemittershared.md)| |
-| |[ MeshEmitMode](meshparticleemitter.md#meshemitmode-zilch-engine)| | |
-| |[ NormalExtrude](meshparticleemitter.md#normalextrude-zilch-engin)| | |
+|[Constructor](meshparticleemitter.md#meshparticleemitter-void)|[Mesh](meshparticleemitter.md#mesh-zilch-engine-documen)|[particleemittershared](particleemittershared.md)| |
+| |[MeshEmitMode](meshparticleemitter.md#meshemitmode-zilch-engine)| | |
+| |[NormalExtrude](meshparticleemitter.md#normalextrude-zilch-engin)| | |
 
 
  #  Properties

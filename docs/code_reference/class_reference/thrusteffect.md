@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](thrusteffect.md#thrusteffect-void)|[ ForceDirection](thrusteffect.md#forcedirection-zilch-engi)|[physicseffect](physicseffect.md)| |
-| |[ ForceStrength](thrusteffect.md#forcestrength-zilch-engin)| | |
-| |[ LocalSpaceDirection](thrusteffect.md#localspacedirection-zero)| | |
-| |[ WorldForceDirection](thrusteffect.md#worldforcedirection-zero)| | |
+|[Constructor](thrusteffect.md#thrusteffect-void)|[ForceDirection](thrusteffect.md#forcedirection-zilch-engi)|[physicseffect](physicseffect.md)| |
+| |[ForceStrength](thrusteffect.md#forcestrength-zilch-engin)| | |
+| |[LocalSpaceDirection](thrusteffect.md#localspacedirection-zero)| | |
+| |[WorldForceDirection](thrusteffect.md#worldforcedirection-zero)| | |
 
 
  #  Properties

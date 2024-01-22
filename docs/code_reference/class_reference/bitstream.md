@@ -4,135 +4,135 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](bitstream.md#bitstream-void)| | | |
-|[ CanReadBoolean](bitstream.md#canreadboolean-zilch-engi)| | | |
-|[ CanReadDoubleInteger](bitstream.md#canreaddoubleinteger-zer)| | | |
-|[ CanReadDoubleIntegerQuantized](bitstream.md#canreaddoubleintegerquan)| | | |
-|[ CanReadDoubleReal](bitstream.md#canreaddoublereal-zilch-e)| | | |
-|[ CanReadDoubleRealQuantized](bitstream.md#canreaddoublerealquantiz)| | | |
-|[ CanReadInteger](bitstream.md#canreadinteger-zilch-engi)| | | |
-|[ CanReadInteger2](bitstream.md#canreadinteger2-zilch-eng)| | | |
-|[ CanReadInteger2Quantized](bitstream.md#canreadinteger2quantized)| | | |
-|[ CanReadInteger3](bitstream.md#canreadinteger3-zilch-eng)| | | |
-|[ CanReadInteger3Quantized](bitstream.md#canreadinteger3quantized)| | | |
-|[ CanReadInteger4](bitstream.md#canreadinteger4-zilch-eng)| | | |
-|[ CanReadInteger4Quantized](bitstream.md#canreadinteger4quantized)| | | |
-|[ CanReadIntegerQuantized](bitstream.md#canreadintegerquantized)| | | |
-|[ CanReadQuaternion](bitstream.md#canreadquaternion-zilch-e)| | | |
-|[ CanReadReal](bitstream.md#canreadreal-zilch-engine)| | | |
-|[ CanReadReal2](bitstream.md#canreadreal2-zilch-engine)| | | |
-|[ CanReadReal2Half](bitstream.md#canreadreal2half-zilch-en)| | | |
-|[ CanReadReal2Quantized](bitstream.md#canreadreal2quantized-ze)| | | |
-|[ CanReadReal3](bitstream.md#canreadreal3-zilch-engine)| | | |
-|[ CanReadReal3Half](bitstream.md#canreadreal3half-zilch-en)| | | |
-|[ CanReadReal3Quantized](bitstream.md#canreadreal3quantized-ze)| | | |
-|[ CanReadReal4](bitstream.md#canreadreal4-zilch-engine)| | | |
-|[ CanReadReal4Half](bitstream.md#canreadreal4half-zilch-en)| | | |
-|[ CanReadReal4Quantized](bitstream.md#canreadreal4quantized-ze)| | | |
-|[ CanReadRealHalf](bitstream.md#canreadrealhalf-zilch-eng)| | | |
-|[ CanReadRealQuantized](bitstream.md#canreadrealquantized-zer)| | | |
-|[ CanReadString](bitstream.md#canreadstring-zilch-engin)| | | |
-|[ Clear](bitstream.md#clear-void)| | | |
-|[ ClearBitsRead](bitstream.md#clearbitsread-void)| | | |
-|[ ClearBitsWritten](bitstream.md#clearbitswritten-void)| | | |
-|[ GetBitCapacity](bitstream.md#getbitcapacity-zilch-engi)| | | |
-|[ GetBitsRead](bitstream.md#getbitsread-zilch-engine)| | | |
-|[ GetBitsUnread](bitstream.md#getbitsunread-zilch-engin)| | | |
-|[ GetBitsUnwritten](bitstream.md#getbitsunwritten-zilch-en)| | | |
-|[ GetBitsWritten](bitstream.md#getbitswritten-zilch-engi)| | | |
-|[ GetByteCapacity](bitstream.md#getbytecapacity-zilch-eng)| | | |
-|[ GetBytesRead](bitstream.md#getbytesread-zilch-engine)| | | |
-|[ GetBytesUnread](bitstream.md#getbytesunread-zilch-engi)| | | |
-|[ GetBytesUnwritten](bitstream.md#getbytesunwritten-zilch-e)| | | |
-|[ GetBytesWritten](bitstream.md#getbyteswritten-zilch-eng)| | | |
-|[ IsEmpty](bitstream.md#isempty-zilch-engine-docu)| | | |
-|[ MeasureBoolean](bitstream.md#measureboolean-zilch-engi)| | | |
-|[ MeasureDoubleInteger](bitstream.md#measuredoubleinteger-zer)| | | |
-|[ MeasureDoubleIntegerQuantized](bitstream.md#measuredoubleintegerquan)| | | |
-|[ MeasureDoubleReal](bitstream.md#measuredoublereal-zilch-e)| | | |
-|[ MeasureDoubleRealQuantized](bitstream.md#measuredoublerealquantiz)| | | |
-|[ MeasureInteger](bitstream.md#measureinteger-zilch-engi)| | | |
-|[ MeasureInteger2](bitstream.md#measureinteger2-zilch-eng)| | | |
-|[ MeasureInteger2Quantized](bitstream.md#measureinteger2quantized)| | | |
-|[ MeasureInteger3](bitstream.md#measureinteger3-zilch-eng)| | | |
-|[ MeasureInteger3Quantized](bitstream.md#measureinteger3quantized)| | | |
-|[ MeasureInteger4](bitstream.md#measureinteger4-zilch-eng)| | | |
-|[ MeasureInteger4Quantized](bitstream.md#measureinteger4quantized)| | | |
-|[ MeasureIntegerQuantized](bitstream.md#measureintegerquantized)| | | |
-|[ MeasureQuaternion](bitstream.md#measurequaternion-zilch-e)| | | |
-|[ MeasureReal](bitstream.md#measurereal-zilch-engine)| | | |
-|[ MeasureReal2](bitstream.md#measurereal2-zilch-engine)| | | |
-|[ MeasureReal2Half](bitstream.md#measurereal2half-zilch-en)| | | |
-|[ MeasureReal2Quantized](bitstream.md#measurereal2quantized-ze)| | | |
-|[ MeasureReal3](bitstream.md#measurereal3-zilch-engine)| | | |
-|[ MeasureReal3Half](bitstream.md#measurereal3half-zilch-en)| | | |
-|[ MeasureReal3Quantized](bitstream.md#measurereal3quantized-ze)| | | |
-|[ MeasureReal4](bitstream.md#measurereal4-zilch-engine)| | | |
-|[ MeasureReal4Half](bitstream.md#measurereal4half-zilch-en)| | | |
-|[ MeasureReal4Quantized](bitstream.md#measurereal4quantized-ze)| | | |
-|[ MeasureRealHalf](bitstream.md#measurerealhalf-zilch-eng)| | | |
-|[ MeasureRealQuantized](bitstream.md#measurerealquantized-zer)| | | |
-|[ MeasureString](bitstream.md#measurestring-zilch-engin)| | | |
-|[ ReadBoolean](bitstream.md#readboolean-zilch-engine)| | | |
-|[ ReadDoubleInteger](bitstream.md#readdoubleinteger-zilch-e)| | | |
-|[ ReadDoubleIntegerQuantized](bitstream.md#readdoubleintegerquantiz)| | | |
-|[ ReadDoubleReal](bitstream.md#readdoublereal-zilch-engi)| | | |
-|[ ReadDoubleRealQuantized](bitstream.md#readdoublerealquantized)| | | |
-|[ ReadInteger](bitstream.md#readinteger-zilch-engine)| | | |
-|[ ReadInteger2](bitstream.md#readinteger2-zilch-engine)| | | |
-|[ ReadInteger2Quantized](bitstream.md#readinteger2quantized-ze)| | | |
-|[ ReadInteger3](bitstream.md#readinteger3-zilch-engine)| | | |
-|[ ReadInteger3Quantized](bitstream.md#readinteger3quantized-ze)| | | |
-|[ ReadInteger4](bitstream.md#readinteger4-zilch-engine)| | | |
-|[ ReadInteger4Quantized](bitstream.md#readinteger4quantized-ze)| | | |
-|[ ReadIntegerQuantized](bitstream.md#readintegerquantized-zer)| | | |
-|[ ReadQuaternion](bitstream.md#readquaternion-zilch-engi)| | | |
-|[ ReadReal](bitstream.md#readreal-zilch-engine-doc)| | | |
-|[ ReadReal2](bitstream.md#readreal2-zilch-engine-do)| | | |
-|[ ReadReal2Half](bitstream.md#readreal2half-zilch-engin)| | | |
-|[ ReadReal2Quantized](bitstream.md#readreal2quantized-zero)| | | |
-|[ ReadReal3](bitstream.md#readreal3-zilch-engine-do)| | | |
-|[ ReadReal3Half](bitstream.md#readreal3half-zilch-engin)| | | |
-|[ ReadReal3Quantized](bitstream.md#readreal3quantized-zero)| | | |
-|[ ReadReal4](bitstream.md#readreal4-zilch-engine-do)| | | |
-|[ ReadReal4Half](bitstream.md#readreal4half-zilch-engin)| | | |
-|[ ReadReal4Quantized](bitstream.md#readreal4quantized-zero)| | | |
-|[ ReadRealHalf](bitstream.md#readrealhalf-zilch-engine)| | | |
-|[ ReadRealQuantized](bitstream.md#readrealquantized-zilch-e)| | | |
-|[ ReadString](bitstream.md#readstring-zilch-engine-d)| | | |
-|[ Reserve](bitstream.md#reserve-void)| | | |
-|[ SetBitsRead](bitstream.md#setbitsread-void)| | | |
-|[ SetBitsWritten](bitstream.md#setbitswritten-void)| | | |
-|[ SetBytesRead](bitstream.md#setbytesread-void)| | | |
-|[ SetBytesWritten](bitstream.md#setbyteswritten-void)| | | |
-|[ Unread](bitstream.md#unread-void)| | | |
-|[ WriteBoolean](bitstream.md#writeboolean-void)| | | |
-|[ WriteDoubleInteger](bitstream.md#writedoubleinteger-void)| | | |
-|[ WriteDoubleIntegerQuantized](bitstream.md#writedoubleintegerquanti)| | | |
-|[ WriteDoubleReal](bitstream.md#writedoublereal-void)| | | |
-|[ WriteDoubleRealQuantized](bitstream.md#writedoublerealquantized)| | | |
-|[ WriteInteger](bitstream.md#writeinteger-void)| | | |
-|[ WriteInteger2](bitstream.md#writeinteger2-void)| | | |
-|[ WriteInteger2Quantized](bitstream.md#writeinteger2quantized-v)| | | |
-|[ WriteInteger3](bitstream.md#writeinteger3-void)| | | |
-|[ WriteInteger3Quantized](bitstream.md#writeinteger3quantized-v)| | | |
-|[ WriteInteger4](bitstream.md#writeinteger4-void)| | | |
-|[ WriteInteger4Quantized](bitstream.md#writeinteger4quantized-v)| | | |
-|[ WriteIntegerQuantized](bitstream.md#writeintegerquantized-vo)| | | |
-|[ WriteQuaternion](bitstream.md#writequaternion-void)| | | |
-|[ WriteReal](bitstream.md#writereal-void)| | | |
-|[ WriteReal2](bitstream.md#writereal2-void)| | | |
-|[ WriteReal2Half](bitstream.md#writereal2half-void)| | | |
-|[ WriteReal2Quantized](bitstream.md#writereal2quantized-void)| | | |
-|[ WriteReal3](bitstream.md#writereal3-void)| | | |
-|[ WriteReal3Half](bitstream.md#writereal3half-void)| | | |
-|[ WriteReal3Quantized](bitstream.md#writereal3quantized-void)| | | |
-|[ WriteReal4](bitstream.md#writereal4-void)| | | |
-|[ WriteReal4Half](bitstream.md#writereal4half-void)| | | |
-|[ WriteReal4Quantized](bitstream.md#writereal4quantized-void)| | | |
-|[ WriteRealHalf](bitstream.md#writerealhalf-void)| | | |
-|[ WriteRealQuantized](bitstream.md#writerealquantized-void)| | | |
-|[ WriteString](bitstream.md#writestring-void)| | | |
+|[Constructor](bitstream.md#bitstream-void)| | | |
+|[CanReadBoolean](bitstream.md#canreadboolean-zilch-engi)| | | |
+|[CanReadDoubleInteger](bitstream.md#canreaddoubleinteger-zer)| | | |
+|[CanReadDoubleIntegerQuantized](bitstream.md#canreaddoubleintegerquan)| | | |
+|[CanReadDoubleReal](bitstream.md#canreaddoublereal-zilch-e)| | | |
+|[CanReadDoubleRealQuantized](bitstream.md#canreaddoublerealquantiz)| | | |
+|[CanReadInteger](bitstream.md#canreadinteger-zilch-engi)| | | |
+|[CanReadInteger2](bitstream.md#canreadinteger2-zilch-eng)| | | |
+|[CanReadInteger2Quantized](bitstream.md#canreadinteger2quantized)| | | |
+|[CanReadInteger3](bitstream.md#canreadinteger3-zilch-eng)| | | |
+|[CanReadInteger3Quantized](bitstream.md#canreadinteger3quantized)| | | |
+|[CanReadInteger4](bitstream.md#canreadinteger4-zilch-eng)| | | |
+|[CanReadInteger4Quantized](bitstream.md#canreadinteger4quantized)| | | |
+|[CanReadIntegerQuantized](bitstream.md#canreadintegerquantized)| | | |
+|[CanReadQuaternion](bitstream.md#canreadquaternion-zilch-e)| | | |
+|[CanReadReal](bitstream.md#canreadreal-zilch-engine)| | | |
+|[CanReadReal2](bitstream.md#canreadreal2-zilch-engine)| | | |
+|[CanReadReal2Half](bitstream.md#canreadreal2half-zilch-en)| | | |
+|[CanReadReal2Quantized](bitstream.md#canreadreal2quantized-ze)| | | |
+|[CanReadReal3](bitstream.md#canreadreal3-zilch-engine)| | | |
+|[CanReadReal3Half](bitstream.md#canreadreal3half-zilch-en)| | | |
+|[CanReadReal3Quantized](bitstream.md#canreadreal3quantized-ze)| | | |
+|[CanReadReal4](bitstream.md#canreadreal4-zilch-engine)| | | |
+|[CanReadReal4Half](bitstream.md#canreadreal4half-zilch-en)| | | |
+|[CanReadReal4Quantized](bitstream.md#canreadreal4quantized-ze)| | | |
+|[CanReadRealHalf](bitstream.md#canreadrealhalf-zilch-eng)| | | |
+|[CanReadRealQuantized](bitstream.md#canreadrealquantized-zer)| | | |
+|[CanReadString](bitstream.md#canreadstring-zilch-engin)| | | |
+|[Clear](bitstream.md#clear-void)| | | |
+|[ClearBitsRead](bitstream.md#clearbitsread-void)| | | |
+|[ClearBitsWritten](bitstream.md#clearbitswritten-void)| | | |
+|[GetBitCapacity](bitstream.md#getbitcapacity-zilch-engi)| | | |
+|[GetBitsRead](bitstream.md#getbitsread-zilch-engine)| | | |
+|[GetBitsUnread](bitstream.md#getbitsunread-zilch-engin)| | | |
+|[GetBitsUnwritten](bitstream.md#getbitsunwritten-zilch-en)| | | |
+|[GetBitsWritten](bitstream.md#getbitswritten-zilch-engi)| | | |
+|[GetByteCapacity](bitstream.md#getbytecapacity-zilch-eng)| | | |
+|[GetBytesRead](bitstream.md#getbytesread-zilch-engine)| | | |
+|[GetBytesUnread](bitstream.md#getbytesunread-zilch-engi)| | | |
+|[GetBytesUnwritten](bitstream.md#getbytesunwritten-zilch-e)| | | |
+|[GetBytesWritten](bitstream.md#getbyteswritten-zilch-eng)| | | |
+|[IsEmpty](bitstream.md#isempty-zilch-engine-docu)| | | |
+|[MeasureBoolean](bitstream.md#measureboolean-zilch-engi)| | | |
+|[MeasureDoubleInteger](bitstream.md#measuredoubleinteger-zer)| | | |
+|[MeasureDoubleIntegerQuantized](bitstream.md#measuredoubleintegerquan)| | | |
+|[MeasureDoubleReal](bitstream.md#measuredoublereal-zilch-e)| | | |
+|[MeasureDoubleRealQuantized](bitstream.md#measuredoublerealquantiz)| | | |
+|[MeasureInteger](bitstream.md#measureinteger-zilch-engi)| | | |
+|[MeasureInteger2](bitstream.md#measureinteger2-zilch-eng)| | | |
+|[MeasureInteger2Quantized](bitstream.md#measureinteger2quantized)| | | |
+|[MeasureInteger3](bitstream.md#measureinteger3-zilch-eng)| | | |
+|[MeasureInteger3Quantized](bitstream.md#measureinteger3quantized)| | | |
+|[MeasureInteger4](bitstream.md#measureinteger4-zilch-eng)| | | |
+|[MeasureInteger4Quantized](bitstream.md#measureinteger4quantized)| | | |
+|[MeasureIntegerQuantized](bitstream.md#measureintegerquantized)| | | |
+|[MeasureQuaternion](bitstream.md#measurequaternion-zilch-e)| | | |
+|[MeasureReal](bitstream.md#measurereal-zilch-engine)| | | |
+|[MeasureReal2](bitstream.md#measurereal2-zilch-engine)| | | |
+|[MeasureReal2Half](bitstream.md#measurereal2half-zilch-en)| | | |
+|[MeasureReal2Quantized](bitstream.md#measurereal2quantized-ze)| | | |
+|[MeasureReal3](bitstream.md#measurereal3-zilch-engine)| | | |
+|[MeasureReal3Half](bitstream.md#measurereal3half-zilch-en)| | | |
+|[MeasureReal3Quantized](bitstream.md#measurereal3quantized-ze)| | | |
+|[MeasureReal4](bitstream.md#measurereal4-zilch-engine)| | | |
+|[MeasureReal4Half](bitstream.md#measurereal4half-zilch-en)| | | |
+|[MeasureReal4Quantized](bitstream.md#measurereal4quantized-ze)| | | |
+|[MeasureRealHalf](bitstream.md#measurerealhalf-zilch-eng)| | | |
+|[MeasureRealQuantized](bitstream.md#measurerealquantized-zer)| | | |
+|[MeasureString](bitstream.md#measurestring-zilch-engin)| | | |
+|[ReadBoolean](bitstream.md#readboolean-zilch-engine)| | | |
+|[ReadDoubleInteger](bitstream.md#readdoubleinteger-zilch-e)| | | |
+|[ReadDoubleIntegerQuantized](bitstream.md#readdoubleintegerquantiz)| | | |
+|[ReadDoubleReal](bitstream.md#readdoublereal-zilch-engi)| | | |
+|[ReadDoubleRealQuantized](bitstream.md#readdoublerealquantized)| | | |
+|[ReadInteger](bitstream.md#readinteger-zilch-engine)| | | |
+|[ReadInteger2](bitstream.md#readinteger2-zilch-engine)| | | |
+|[ReadInteger2Quantized](bitstream.md#readinteger2quantized-ze)| | | |
+|[ReadInteger3](bitstream.md#readinteger3-zilch-engine)| | | |
+|[ReadInteger3Quantized](bitstream.md#readinteger3quantized-ze)| | | |
+|[ReadInteger4](bitstream.md#readinteger4-zilch-engine)| | | |
+|[ReadInteger4Quantized](bitstream.md#readinteger4quantized-ze)| | | |
+|[ReadIntegerQuantized](bitstream.md#readintegerquantized-zer)| | | |
+|[ReadQuaternion](bitstream.md#readquaternion-zilch-engi)| | | |
+|[ReadReal](bitstream.md#readreal-zilch-engine-doc)| | | |
+|[ReadReal2](bitstream.md#readreal2-zilch-engine-do)| | | |
+|[ReadReal2Half](bitstream.md#readreal2half-zilch-engin)| | | |
+|[ReadReal2Quantized](bitstream.md#readreal2quantized-zero)| | | |
+|[ReadReal3](bitstream.md#readreal3-zilch-engine-do)| | | |
+|[ReadReal3Half](bitstream.md#readreal3half-zilch-engin)| | | |
+|[ReadReal3Quantized](bitstream.md#readreal3quantized-zero)| | | |
+|[ReadReal4](bitstream.md#readreal4-zilch-engine-do)| | | |
+|[ReadReal4Half](bitstream.md#readreal4half-zilch-engin)| | | |
+|[ReadReal4Quantized](bitstream.md#readreal4quantized-zero)| | | |
+|[ReadRealHalf](bitstream.md#readrealhalf-zilch-engine)| | | |
+|[ReadRealQuantized](bitstream.md#readrealquantized-zilch-e)| | | |
+|[ReadString](bitstream.md#readstring-zilch-engine-d)| | | |
+|[Reserve](bitstream.md#reserve-void)| | | |
+|[SetBitsRead](bitstream.md#setbitsread-void)| | | |
+|[SetBitsWritten](bitstream.md#setbitswritten-void)| | | |
+|[SetBytesRead](bitstream.md#setbytesread-void)| | | |
+|[SetBytesWritten](bitstream.md#setbyteswritten-void)| | | |
+|[Unread](bitstream.md#unread-void)| | | |
+|[WriteBoolean](bitstream.md#writeboolean-void)| | | |
+|[WriteDoubleInteger](bitstream.md#writedoubleinteger-void)| | | |
+|[WriteDoubleIntegerQuantized](bitstream.md#writedoubleintegerquanti)| | | |
+|[WriteDoubleReal](bitstream.md#writedoublereal-void)| | | |
+|[WriteDoubleRealQuantized](bitstream.md#writedoublerealquantized)| | | |
+|[WriteInteger](bitstream.md#writeinteger-void)| | | |
+|[WriteInteger2](bitstream.md#writeinteger2-void)| | | |
+|[WriteInteger2Quantized](bitstream.md#writeinteger2quantized-v)| | | |
+|[WriteInteger3](bitstream.md#writeinteger3-void)| | | |
+|[WriteInteger3Quantized](bitstream.md#writeinteger3quantized-v)| | | |
+|[WriteInteger4](bitstream.md#writeinteger4-void)| | | |
+|[WriteInteger4Quantized](bitstream.md#writeinteger4quantized-v)| | | |
+|[WriteIntegerQuantized](bitstream.md#writeintegerquantized-vo)| | | |
+|[WriteQuaternion](bitstream.md#writequaternion-void)| | | |
+|[WriteReal](bitstream.md#writereal-void)| | | |
+|[WriteReal2](bitstream.md#writereal2-void)| | | |
+|[WriteReal2Half](bitstream.md#writereal2half-void)| | | |
+|[WriteReal2Quantized](bitstream.md#writereal2quantized-void)| | | |
+|[WriteReal3](bitstream.md#writereal3-void)| | | |
+|[WriteReal3Half](bitstream.md#writereal3half-void)| | | |
+|[WriteReal3Quantized](bitstream.md#writereal3quantized-void)| | | |
+|[WriteReal4](bitstream.md#writereal4-void)| | | |
+|[WriteReal4Half](bitstream.md#writereal4half-void)| | | |
+|[WriteReal4Quantized](bitstream.md#writereal4quantized-void)| | | |
+|[WriteRealHalf](bitstream.md#writerealhalf-void)| | | |
+|[WriteRealQuantized](bitstream.md#writerealquantized-void)| | | |
+|[WriteString](bitstream.md#writestring-void)| | | |
 
 
  #  Properties

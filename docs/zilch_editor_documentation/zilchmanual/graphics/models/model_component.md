@@ -1,4 +1,4 @@
-The Model component allows the user to assign a [Mesh](../../../../code_reference/class_reference/mesh.md) and a [ Material](../materials/materials_overview.md) to an object.
+The Model component allows the user to assign a [Mesh](../../../../code_reference/class_reference/mesh.md) and a [Material](../materials/materials_overview.md) to an object.
 
  # Material and Mesh
 

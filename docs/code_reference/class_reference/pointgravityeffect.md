@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](pointgravityeffect.md#pointgravityeffect-void)| |[basicpointeffect](basicpointeffect.md)| |
+|[Constructor](pointgravityeffect.md#pointgravityeffect-void)| |[basicpointeffect](basicpointeffect.md)| |
 
 
  #  Properties

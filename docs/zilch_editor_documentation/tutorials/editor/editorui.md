@@ -206,12 +206,12 @@ Saved : Project and all scripts saved.
  # Game Window
 
 The `Game Window` is where your game actually runs inside the Zilch Engine editor. You can test or play your game (or specific levels) here without having to create an executable. 
-- [Command](../../zilchmanual/editor/editorcommands/commands.md): [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md): [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 There are multiple ways to run the game in the editor.
  - Press key `F5` on the keyboard 
  - Press the Play button button in the `Tool Bar`
- - [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+ - [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
  - `Project Menu  > Play Game`
 
 The `Game Window` tab should appear in a tab next to the Level Window tab:
@@ -227,7 +227,7 @@ The `Game Window` should not show anything but a blank screen right now because 
 
 
 -  Close the `Game Window` by pressing the `X` button on the Game tab
-- You can also press `Esc` or use [Command](../../zilchmanual/editor/editorcommands/commands.md): [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- You can also press `Esc` or use [Command](../../zilchmanual/editor/editorcommands/commands.md): [StopGame](../../../code_reference/command_reference.md#stopgame)
   It is a good practice to close your game window promptly. Editing levels while the `Game Window` is open can cause erratic behavior, undefined behavior, or errors. 
 - Click on the Level tab to return to the `Level Window`
 
@@ -286,7 +286,7 @@ See [Executing Commands](../../zilchmanual/editor/editorcommands/commands.md) fo
 
  ## Manual
 - [Components](../../zilchmanual/architecture/components.md)
-- [ Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
+- [Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
 
  ##  Tutorials
 - [BasicComponents](../architecture/basiccomponents.md)
@@ -297,11 +297,11 @@ See [Executing Commands](../../zilchmanual/editor/editorcommands/commands.md) fo
 - [Transform](../../../code_reference/class_reference/transform.md)
 - [Sprite](../../../code_reference/class_reference/sprite.md)
 - [NadaScript](../../../code_reference/class_reference/nadascript.md)
-- [ Console](../../../code_reference/nada_base_types/console.md)
+- [Console](../../../code_reference/nada_base_types/console.md)
 
  ### Commands
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [New Project](../../../code_reference/command_reference.md#newproject)
 - [SaveProject](../../../code_reference/command_reference.md#saveproject)
  

@@ -6,8 +6,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](heightmap.md#heightmap-void)|[ Source](heightmap.md#source-zilch-engine-docum)|[component](component.md)| |
-| |[ UnitsPerPatch](heightmap.md#unitsperpatch-zilch-engin)| | |
+|[Constructor](heightmap.md#heightmap-void)|[Source](heightmap.md#source-zilch-engine-docum)|[component](component.md)| |
+| |[UnitsPerPatch](heightmap.md#unitsperpatch-zilch-engin)| | |
 
 
  #  Properties

@@ -4,23 +4,23 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](depthsettings.md#depthsettings-void)|[ DepthCompareFunc](depthsettings.md#depthcomparefunc-zilch-en)| | |
-| |[ DepthFailOp](depthsettings.md#depthfailop-zilch-engine)| | |
-| |[ DepthFailOpBackFace](depthsettings.md#depthfailopbackface-zero)| | |
-| |[ DepthMode](depthsettings.md#depthmode-zilch-engine-do)| | |
-| |[ DepthPassOp](depthsettings.md#depthpassop-zilch-engine)| | |
-| |[ DepthPassOpBackFace](depthsettings.md#depthpassopbackface-zero)| | |
-| |[ StencilCompareFunc](depthsettings.md#stencilcomparefunc-zero)| | |
-| |[ StencilCompareFuncBackFace](depthsettings.md#stencilcomparefuncbackfa)| | |
-| |[ StencilFailOp](depthsettings.md#stencilfailop-zilch-engin)| | |
-| |[ StencilFailOpBackFace](depthsettings.md#stencilfailopbackface-ze)| | |
-| |[ StencilMode](depthsettings.md#stencilmode-zilch-engine)| | |
-| |[ StencilReadMask](depthsettings.md#stencilreadmask-zilch-eng)| | |
-| |[ StencilReadMaskBackFace](depthsettings.md#stencilreadmaskbackface)| | |
-| |[ StencilTestValue](depthsettings.md#stenciltestvalue-zilch-en)| | |
-| |[ StencilTestValueBackFace](depthsettings.md#stenciltestvaluebackface)| | |
-| |[ StencilWriteMask](depthsettings.md#stencilwritemask-zilch-en)| | |
-| |[ StencilWriteMaskBackFace](depthsettings.md#stencilwritemaskbackface)| | |
+|[Constructor](depthsettings.md#depthsettings-void)|[DepthCompareFunc](depthsettings.md#depthcomparefunc-zilch-en)| | |
+| |[DepthFailOp](depthsettings.md#depthfailop-zilch-engine)| | |
+| |[DepthFailOpBackFace](depthsettings.md#depthfailopbackface-zero)| | |
+| |[DepthMode](depthsettings.md#depthmode-zilch-engine-do)| | |
+| |[DepthPassOp](depthsettings.md#depthpassop-zilch-engine)| | |
+| |[DepthPassOpBackFace](depthsettings.md#depthpassopbackface-zero)| | |
+| |[StencilCompareFunc](depthsettings.md#stencilcomparefunc-zero)| | |
+| |[StencilCompareFuncBackFace](depthsettings.md#stencilcomparefuncbackfa)| | |
+| |[StencilFailOp](depthsettings.md#stencilfailop-zilch-engin)| | |
+| |[StencilFailOpBackFace](depthsettings.md#stencilfailopbackface-ze)| | |
+| |[StencilMode](depthsettings.md#stencilmode-zilch-engine)| | |
+| |[StencilReadMask](depthsettings.md#stencilreadmask-zilch-eng)| | |
+| |[StencilReadMaskBackFace](depthsettings.md#stencilreadmaskbackface)| | |
+| |[StencilTestValue](depthsettings.md#stenciltestvalue-zilch-en)| | |
+| |[StencilTestValueBackFace](depthsettings.md#stenciltestvaluebackface)| | |
+| |[StencilWriteMask](depthsettings.md#stencilwritemask-zilch-en)| | |
+| |[StencilWriteMaskBackFace](depthsettings.md#stencilwritemaskbackface)| | |
 
 
  #  Properties

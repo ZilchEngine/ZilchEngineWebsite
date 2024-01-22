@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](manipulatorjoint.md#manipulatorjoint-void)|[ LocalPoint](manipulatorjoint.md#localpoint-zilch-engine-d)|[joint](joint.md)| |
-| |[ TargetPoint](manipulatorjoint.md#targetpoint-zilch-engine)| | |
-| |[ WorldPoint](manipulatorjoint.md#worldpoint-zilch-engine-d)| | |
+|[Constructor](manipulatorjoint.md#manipulatorjoint-void)|[LocalPoint](manipulatorjoint.md#localpoint-zilch-engine-d)|[joint](joint.md)| |
+| |[TargetPoint](manipulatorjoint.md#targetpoint-zilch-engine)| | |
+| |[WorldPoint](manipulatorjoint.md#worldpoint-zilch-engine-d)| | |
 
 
  #  Properties

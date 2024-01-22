@@ -8,10 +8,10 @@ This lesson covers the basics of using Variables in [Nada](../../zilchmanual/nad
 
  # Level Setup
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `MyBehavior`
 - In the `Level Window`
  - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
@@ -159,14 +159,14 @@ Here's what your code should look like:
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66927.png)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![Game2](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/66929.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Dependencies
 
@@ -229,11 +229,11 @@ We can then find the `Speed` property and edit it in the `Properties Window`.
 - In the `Properties Window`
  - Under `MyBehavior`
   - Set Speed  to 0.02
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 Notice that the object moves a lot slower now, in accordance with the `0.02` value we set on the `Properties Window` and **NOT** the initial value of `0.1` given when the function was declared. Once a variable is given a Property attribute; its values are *serialized* and will match the one listed in the `Properties Window`.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Local Variables
 
@@ -269,23 +269,23 @@ function OnLogicUpdate(event : UpdateEvent)
 
 Here we create a local variable that is the normalized value given by the Direction property; that is, a vector that points in the same direction but of length `1.0`. We then used that normalized direction to construct a Real3 (out of a Real2 and a Real), multiplying the direction by our `Speed` property and assign it to the Square object's translation.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![SquareMoveInDirection](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/89074.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
 
  ## Manual
 - [Components](../../zilchmanual/architecture/components.md)
-- [ Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
-- [ Variables](../../zilchmanual/nada_in_zilch/variables_and_data_types.md)
+- [Nada User Documentation](../../zilchmanual/nada_in_zilch.md)
+- [Variables](../../zilchmanual/nada_in_zilch/variables_and_data_types.md)
 - [Attributes](../../zilchmanual/nada_in_zilch/attributes.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 
  ## Reference
  ### Classes

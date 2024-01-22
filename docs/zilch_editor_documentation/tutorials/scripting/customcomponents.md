@@ -5,15 +5,15 @@ This tutorial covers how to create custom components and the basics of scripting
 
 
 - Creating custom components
-- [ Nada](../../zilchmanual/nada_in_zilch.md) scripting basics
+- [Nada](../../zilchmanual/nada_in_zilch.md) scripting basics
 
 
  #  Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 
 
 
@@ -26,14 +26,14 @@ This tutorial covers how to create custom components and the basics of scripting
 
 Until now, we have explored components built into Zilch Engine. These components are essential building blocks for your games, but you'll also need to write your own components to achieve the custom behavior your game needs.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `MyComponent`
 
 Once a component is created, we can add it to objects.
 
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Sprite object
 - In the `Properties Window`
- - [ Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MyComponent`
+ - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `MyComponent`
 
 
 
@@ -116,7 +116,7 @@ Your code should look like this:
 *The `MyComponent` class, updated*
 
 
-- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -126,9 +126,9 @@ Your code should look like this:
 *The Sprite object has turned red*
 
 
-These instructions are telling the **owner** of this component (the Sprite object object) to set its [Sprite](../../../code_reference/class_reference/sprite.md) component's VertexColor  property to red. This topic will be covered in more detail in the [ Variables](variables.md) tutorial.
+These instructions are telling the **owner** of this component (the Sprite object object) to set its [Sprite](../../../code_reference/class_reference/sprite.md) component's VertexColor  property to red. This topic will be covered in more detail in the [Variables](variables.md) tutorial.
 
-- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  ##  Code Comments
@@ -166,7 +166,7 @@ NOTE: Another way of defining comments is to use the `/*` and `*/` tokens. This 
  ##  LogicUpdate
 
 
-Once the event connection is established (typically done in `Initialize`), the component is ready to receive [ LogicUpdate](../../../code_reference/event_reference.md#logicupdate) events from the Engine. This allows the component to execute instructions every frame for as long as the connection exists.
+Once the event connection is established (typically done in `Initialize`), the component is ready to receive [LogicUpdate](../../../code_reference/event_reference.md#logicupdate) events from the Engine. This allows the component to execute instructions every frame for as long as the connection exists.
 
 LogicUpdate can be a good place to listen for input and respond accordingly, or to manage persistent behaviors, such as a character's artificial intelligence. 
 
@@ -184,7 +184,7 @@ This is what your code should look like:
 ![image](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/48344.png)
 
 
-- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
@@ -196,7 +196,7 @@ This is what your code should look like:
 
 The instruction we just added causes the object to move to the right just slightly, but since our code is running every frame, it causes our Sprite object object to move all the way to the right.
 
-- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 
  #  Related Materials
@@ -212,16 +212,16 @@ The instruction we just added causes the object to move to the right just slight
 
  ##  Reference
  ###  Commands
-- [ NewProject](../../../code_reference/command_reference.md#newproject)
-- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [NewProject](../../../code_reference/command_reference.md#newproject)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ###  Classes
 - [sprite](../../../code_reference/class_reference/sprite.md)
 - [transform](../../../code_reference/class_reference/transform.md)
 
  ###  Events
-- [ LogicUpdate](../../../code_reference/event_reference.md#logicupdate) 
+- [LogicUpdate](../../../code_reference/event_reference.md#logicupdate) 
 
  

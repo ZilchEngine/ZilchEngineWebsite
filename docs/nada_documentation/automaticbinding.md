@@ -154,46 +154,46 @@ NadaBindEnumValue(builder, type, YourEnum::ValueName, "ValueName");
  #  Built-in Types Available To Binding
 The following list is not exhaustive, but contains the most common types that we accept in binding automatically. Technically anything defined in Nada.hpp that either internal or external binding and is bound to the Core library can be used. Note that most primitives (int, float, etc) are simply type-defined as Integer, Real, etc and can be used in binding.
 
- - [ Boolean](../code_reference/nada_base_types/boolean.md)
- - [ Boolean2](../code_reference/nada_base_types/boolean2.md)
- - [ Boolean3](../code_reference/nada_base_types/boolean3.md)
- - [ Boolean4](../code_reference/nada_base_types/boolean4.md)
- - [ Byte](../code_reference/nada_base_types//byte.md)
- - [ Integer](../code_reference/nada_base_types/integer.md)
- - [ Integer2](../code_reference/nada_base_types/integer2.md)
- - [ Integer3](../code_reference/nada_base_types/integer3.md)
- - [ Integer4](../code_reference/nada_base_types/integer4.md)
- - [ Real](../code_reference/nada_base_types/real.md)
- - [ Real2](../code_reference/nada_base_types/real2.md)
- - [ Real3](../code_reference/nada_base_types/real3.md)
- - [ Real4](../code_reference/nada_base_types/real4.md)
- - [ Quaternion](../code_reference/nada_base_types/quaternion.md)
- - [ String](../code_reference/nada_base_types/string.md)
- - [ DoubleReal](../code_reference/nada_base_types/doublereal.md)
- - [ DoubleInteger](../code_reference/nada_base_types/doubleinteger.md)
- - [ Handle](../code_reference/nada_base_types/anyhandle.md) (binds to a special type that can accept any handle to any object type)
- - [ Delegate](../code_reference/nada_base_types//delegatetype.md) (binds to a special type that can accept any delegate)
- - [ Any](../code_reference/nada_base_types/anytype.md) (can accept any type in Nada)
- - [ StringBuilderExtended](../code_reference/nada_base_types/stringbuilder.md)
- - [[ | ArrayClass<Handle>]]
- - [[ | ArrayClass<Delegate>]]
- - [[ | ArrayClass<Boolean>]]
- - [[ | ArrayClass<Boolean2>]]
- - [[ | ArrayClass<Boolean3>]]
- - [[ | ArrayClass<Boolean4>]]
- - [[ | ArrayClass<Byte>]]
- - [[ | ArrayClass<Integer>]]
- - [[ | ArrayClass<Integer2>]]
- - [[ | ArrayClass<Integer3>]]
- - [[ | ArrayClass<Integer4>]]
- - [[ | ArrayClass<Real>]]
- - [[ | ArrayClass<Real2>]]
- - [[ | ArrayClass<Real3>]]
- - [[ | ArrayClass<Real4>]]
- - [[ | ArrayClass<Quaternion>]]
- - [[ | ArrayClass<DoubleInteger>]]
- - [[ | ArrayClass<DoubleReal>]]
- - [[ | ArrayClass<Any>]]
+ - [Boolean](../code_reference/nada_base_types/boolean.md)
+ - [Boolean2](../code_reference/nada_base_types/boolean2.md)
+ - [Boolean3](../code_reference/nada_base_types/boolean3.md)
+ - [Boolean4](../code_reference/nada_base_types/boolean4.md)
+ - [Byte](../code_reference/nada_base_types//byte.md)
+ - [Integer](../code_reference/nada_base_types/integer.md)
+ - [Integer2](../code_reference/nada_base_types/integer2.md)
+ - [Integer3](../code_reference/nada_base_types/integer3.md)
+ - [Integer4](../code_reference/nada_base_types/integer4.md)
+ - [Real](../code_reference/nada_base_types/real.md)
+ - [Real2](../code_reference/nada_base_types/real2.md)
+ - [Real3](../code_reference/nada_base_types/real3.md)
+ - [Real4](../code_reference/nada_base_types/real4.md)
+ - [Quaternion](../code_reference/nada_base_types/quaternion.md)
+ - [String](../code_reference/nada_base_types/string.md)
+ - [DoubleReal](../code_reference/nada_base_types/doublereal.md)
+ - [DoubleInteger](../code_reference/nada_base_types/doubleinteger.md)
+ - [Handle](../code_reference/nada_base_types/anyhandle.md) (binds to a special type that can accept any handle to any object type)
+ - [Delegate](../code_reference/nada_base_types//delegatetype.md) (binds to a special type that can accept any delegate)
+ - [Any](../code_reference/nada_base_types/anytype.md) (can accept any type in Nada)
+ - [StringBuilderExtended](../code_reference/nada_base_types/stringbuilder.md)
+ - [[| ArrayClass<Handle>]]
+ - [[| ArrayClass<Delegate>]]
+ - [[| ArrayClass<Boolean>]]
+ - [[| ArrayClass<Boolean2>]]
+ - [[| ArrayClass<Boolean3>]]
+ - [[| ArrayClass<Boolean4>]]
+ - [[| ArrayClass<Byte>]]
+ - [[| ArrayClass<Integer>]]
+ - [[| ArrayClass<Integer2>]]
+ - [[| ArrayClass<Integer3>]]
+ - [[| ArrayClass<Integer4>]]
+ - [[| ArrayClass<Real>]]
+ - [[| ArrayClass<Real2>]]
+ - [[| ArrayClass<Real3>]]
+ - [[| ArrayClass<Real4>]]
+ - [[| ArrayClass<Quaternion>]]
+ - [[| ArrayClass<DoubleInteger>]]
+ - [[| ArrayClass<DoubleReal>]]
+ - [[| ArrayClass<Any>]]
 
 The following types are automatically redirected to the Nada Integer type (except unsigned long long which redirects to DoubleInteger):
 

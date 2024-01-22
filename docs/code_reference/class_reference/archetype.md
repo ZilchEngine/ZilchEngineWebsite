@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ StoredType](archetype.md#storedtype-zilch-engine-d)|Resource| |
+| |[StoredType](archetype.md#storedtype-zilch-engine-d)|Resource| |
 
 
  #  Properties

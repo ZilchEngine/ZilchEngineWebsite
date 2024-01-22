@@ -6,7 +6,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](skeleton.md#skeleton-void)| |[component](component.md)| |
+|[Constructor](skeleton.md#skeleton-void)| |[component](component.md)| |
 
 
  #  Properties

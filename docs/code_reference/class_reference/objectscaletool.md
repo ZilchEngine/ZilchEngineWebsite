@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objectscaletool.md#objectscaletool-void)|[ AffectScale](objectscaletool.md#affectscale-zilch-engine)|[objecttransformtool](objecttransformtool.md)| |
-| |[ AffectTranslation](objectscaletool.md#affecttranslation-zilch-e)| | |
-| |[ SnapDistance](objectscaletool.md#snapdistance-zilch-engine)| | |
-| |[ SnapMode](objectscaletool.md#snapmode-zilch-engine-doc)| | |
-| |[ Snapping](objectscaletool.md#snapping-zilch-engine-doc)| | |
+|[Constructor](objectscaletool.md#objectscaletool-void)|[AffectScale](objectscaletool.md#affectscale-zilch-engine)|[objecttransformtool](objecttransformtool.md)| |
+| |[AffectTranslation](objectscaletool.md#affecttranslation-zilch-e)| | |
+| |[SnapDistance](objectscaletool.md#snapdistance-zilch-engine)| | |
+| |[SnapMode](objectscaletool.md#snapmode-zilch-engine-doc)| | |
+| |[Snapping](objectscaletool.md#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

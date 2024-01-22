@@ -2,29 +2,29 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Compare](stringrange.md#compare-zilch-engine-docu)|[ All](stringrange.md#all-zilch-engine-document)| | |
-|[ CompareTo](stringrange.md#compareto-zilch-engine-do)|[ Begin](stringrange.md#begin-zilch-engine-docume)| | |
-|[ Contains](stringrange.md#contains-zilch-engine-doc)|[ Current](stringrange.md#current-zilch-engine-docu)| | |
-|[ EndsWith](stringrange.md#endswith-zilch-engine-doc)|[ Empty](stringrange.md#empty-zilch-engine-docume)| | |
-|[ FindFirstOf](stringrange.md#findfirstof-zilch-engine)|[ End](stringrange.md#end-zilch-engine-document)| | |
-|[ FindLastOf](stringrange.md#findlastof-zilch-engine-d)|[ IsNotEmpty](stringrange.md#isnotempty-zilch-engine-d)| | |
-|[ FindRangeExclusive](stringrange.md#findrangeexclusive-zero)|[ OriginalString](stringrange.md#originalstring-zilch-engi)| | |
-|[ FindRangeInclusive](stringrange.md#findrangeinclusive-zero)| | | |
-|[ MoveNext](stringrange.md#movenext-void)| | | |
-|[ Replace](stringrange.md#replace-zilch-engine-docu)| | | |
-|[ RuneIteratorFromByteIndex](stringrange.md#runeiteratorfrombyteinde)| | | |
-|[ RuneIteratorFromRuneIndex](stringrange.md#runeiteratorfromruneinde)| | | |
-|[ Split](stringrange.md#split-zilch-engine-docume)| | | |
-|[ StartsWith](stringrange.md#startswith-zilch-engine-d)| | | |
-|[ Constructor](stringrange.md#stringrange-void)| | | |
-|[ SubString](stringrange.md#substring-zilch-engine-do)| | | |
-|[ SubStringBytes](stringrange.md#substringbytes-zilch-engi)| | | |
-|[ ToLower](stringrange.md#tolower-zilch-engine-docu)| | | |
-|[ ToString](stringrange.md#tostring-zilch-engine-doc)| | | |
-|[ ToUpper](stringrange.md#toupper-zilch-engine-docu)| | | |
-|[ Trim](stringrange.md#trim-zilch-engine-documen)| | | |
-|[ TrimEnd](stringrange.md#trimend-zilch-engine-docu)| | | |
-|[ TrimStart](stringrange.md#trimstart-zilch-engine-do)| | | |
+|[Compare](stringrange.md#compare-zilch-engine-docu)|[All](stringrange.md#all-zilch-engine-document)| | |
+|[CompareTo](stringrange.md#compareto-zilch-engine-do)|[Begin](stringrange.md#begin-zilch-engine-docume)| | |
+|[Contains](stringrange.md#contains-zilch-engine-doc)|[Current](stringrange.md#current-zilch-engine-docu)| | |
+|[EndsWith](stringrange.md#endswith-zilch-engine-doc)|[Empty](stringrange.md#empty-zilch-engine-docume)| | |
+|[FindFirstOf](stringrange.md#findfirstof-zilch-engine)|[End](stringrange.md#end-zilch-engine-document)| | |
+|[FindLastOf](stringrange.md#findlastof-zilch-engine-d)|[IsNotEmpty](stringrange.md#isnotempty-zilch-engine-d)| | |
+|[FindRangeExclusive](stringrange.md#findrangeexclusive-zero)|[OriginalString](stringrange.md#originalstring-zilch-engi)| | |
+|[FindRangeInclusive](stringrange.md#findrangeinclusive-zero)| | | |
+|[MoveNext](stringrange.md#movenext-void)| | | |
+|[Replace](stringrange.md#replace-zilch-engine-docu)| | | |
+|[RuneIteratorFromByteIndex](stringrange.md#runeiteratorfrombyteinde)| | | |
+|[RuneIteratorFromRuneIndex](stringrange.md#runeiteratorfromruneinde)| | | |
+|[Split](stringrange.md#split-zilch-engine-docume)| | | |
+|[StartsWith](stringrange.md#startswith-zilch-engine-d)| | | |
+|[Constructor](stringrange.md#stringrange-void)| | | |
+|[SubString](stringrange.md#substring-zilch-engine-do)| | | |
+|[SubStringBytes](stringrange.md#substringbytes-zilch-engi)| | | |
+|[ToLower](stringrange.md#tolower-zilch-engine-docu)| | | |
+|[ToString](stringrange.md#tostring-zilch-engine-doc)| | | |
+|[ToUpper](stringrange.md#toupper-zilch-engine-docu)| | | |
+|[Trim](stringrange.md#trim-zilch-engine-documen)| | | |
+|[TrimEnd](stringrange.md#trimend-zilch-engine-docu)| | | |
+|[TrimStart](stringrange.md#trimstart-zilch-engine-do)| | | |
 
 
  #  Properties

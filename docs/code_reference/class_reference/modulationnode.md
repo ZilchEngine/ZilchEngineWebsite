@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Frequency](modulationnode.md#frequency-zilch-engine-do)|[soundnode](soundnode.md)| |
-| |[ UseAmplitudeModulation](modulationnode.md#useamplitudemodulation-z)| | |
-| |[ WetPercent](modulationnode.md#wetpercent-zilch-engine-d)| | |
-| |[ WetValue](modulationnode.md#wetvalue-zilch-engine-doc)| | |
+| |[Frequency](modulationnode.md#frequency-zilch-engine-do)|[soundnode](soundnode.md)| |
+| |[UseAmplitudeModulation](modulationnode.md#useamplitudemodulation-z)| | |
+| |[WetPercent](modulationnode.md#wetpercent-zilch-engine-d)| | |
+| |[WetValue](modulationnode.md#wetvalue-zilch-engine-doc)| | |
 
 
  #  Properties

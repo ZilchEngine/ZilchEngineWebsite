@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](jointdebugdrawconfig.md#jointdebugdrawconfig-voi)|[ Active](jointdebugdrawconfig.md#active-zilch-engine-docum)|[component](component.md)| |
-| |[ Detail](jointdebugdrawconfig.md#detail-zilch-engine-docum)| | |
-| |[ ObjectAPerspective](jointdebugdrawconfig.md#objectaperspective-zero)| | |
-| |[ ObjectBPerspective](jointdebugdrawconfig.md#objectbperspective-zero)| | |
-| |[ Size](jointdebugdrawconfig.md#size-zilch-engine-documen)| | |
+|[Constructor](jointdebugdrawconfig.md#jointdebugdrawconfig-voi)|[Active](jointdebugdrawconfig.md#active-zilch-engine-docum)|[component](component.md)| |
+| |[Detail](jointdebugdrawconfig.md#detail-zilch-engine-docum)| | |
+| |[ObjectAPerspective](jointdebugdrawconfig.md#objectaperspective-zero)| | |
+| |[ObjectBPerspective](jointdebugdrawconfig.md#objectbperspective-zero)| | |
+| |[Size](jointdebugdrawconfig.md#size-zilch-engine-documen)| | |
 
 
  #  Properties

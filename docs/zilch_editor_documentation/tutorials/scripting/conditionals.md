@@ -1,4 +1,4 @@
-[ Conditionals](../../zilchmanual/nada_in_zilch/conditionals.md) allow a developer to make decisions in code based off of `true` & `false` values.
+[Conditionals](../../zilchmanual/nada_in_zilch/conditionals.md) allow a developer to make decisions in code based off of `true` & `false` values.
 
  #  Learning Objectives
  - Evaluating Expressions
@@ -6,10 +6,10 @@
  - `if`, `else`, and `else if`
 
  #  Level Setup
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateTransform](../../../code_reference/command_reference.md#createtransform)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateTransform](../../../code_reference/command_reference.md#createtransform)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
   - Create a NadaScript resource using the Component template template and name it `ConditionalsLogic`
  - [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Transform object
  - In the `Properties Window`
@@ -36,7 +36,7 @@ class ConditionalsLogic : NadaComponent
   }
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -47,18 +47,18 @@ Loaded level 0.00s
 
 Notice how the output displays only text within the `if(true)` conditional.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  Boolean Operators
-`if` statements are primarily used to determine whether an entire sequence results in `true` or `false`. By using [ Boolean Operators ](../../zilchmanual/nada_in_zilch/boolean_operators.md) an entire sequence can be evaluated rather than a single variable.
+`if` statements are primarily used to determine whether an entire sequence results in `true` or `false`. By using [Boolean Operators](../../zilchmanual/nada_in_zilch/boolean_operators.md) an entire sequence can be evaluated rather than a single variable.
 
-The [ Equality Operator ](../../zilchmanual/nada_in_zilch/boolean_operators.md#equality) `==` is used to determine if two values are the same. This is different than the [ Assignment Operator](../../zilchmanual/nada_in_zilch/operators_precedence_chart.md) `=` that is used to assign a new value to a variable.
+The [Equality Operator](../../zilchmanual/nada_in_zilch/boolean_operators.md#equality) `==` is used to determine if two values are the same. This is different than the [Assignment Operator](../../zilchmanual/nada_in_zilch/operators_precedence_chart.md) `=` that is used to assign a new value to a variable.
 
 NOTE: The Equality Operator is a type of comparison operator that returns a boolean operator. 
 
-The [ Inequality Operator](../../zilchmanual/nada_in_zilch/boolean_operators.md#inequality) `!=` is used to determine if two values are not the same. As long as the two values are not exactly the same, the `if` statement will be evaluated as `true`.
+The [Inequality Operator](../../zilchmanual/nada_in_zilch/boolean_operators.md#inequality) `!=` is used to determine if two values are not the same. As long as the two values are not exactly the same, the `if` statement will be evaluated as `true`.
 
-The [ Negation Operator](../../zilchmanual/nada_in_zilch/operators_precedence_chart.md) `!` is used to reverse some values when possible. In the example below, the `!` operator is used to reverse the value of a boolean.
+The [Negation Operator](../../zilchmanual/nada_in_zilch/operators_precedence_chart.md) `!` is used to reverse some values when possible. In the example below, the `!` operator is used to reverse the value of a boolean.
 
 - Update the `icon=square-o, name =ConditionalsLogic` script:
 
@@ -91,7 +91,7 @@ class ConditionalsLogic : NadaComponent
   }
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -102,7 +102,7 @@ Loaded level 0.00s
 
 Notice how `false` and `false` are the same, resulting in a `true` conditional.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  `else if` Statements
 
@@ -128,7 +128,7 @@ class ConditionalsLogic : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name=Console Output
 ---------------- Begin Game ----------------
@@ -139,7 +139,7 @@ Loaded level 0.00s
 
 Notice how the lines checking if `grade < 70` and `grade < 80` each ran first. They were skipped over since they evaluated to a `false` condition, but the `grade < 90` conditional was true. The remaining line containing an `else` conditional was not considered.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 `if` statements also can be used to evaluate the current state of a variable, such as time passed. This can be useful when evaluating variables.
 
@@ -161,7 +161,7 @@ class ConditionalsLogic : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name = Console Output
 ---------------- Begin Game ----------------
@@ -172,7 +172,7 @@ Loaded level 0.00s
 
 Notice that the `if` statement is run and the `timePassed` variable was used.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  Non-Bracketed Scopes
 
@@ -197,7 +197,7 @@ class NumberGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name = Console Output
 ---------------- Begin Game ----------------
@@ -210,7 +210,7 @@ Loaded level 0.00s
 
 Notice that all three lines of code were run. All actions within brackets immediately following a `true` `if` statement will be performed.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Alternatively, if only one line of code needs to be performed, it can be common practice to not use braces, as long as code it positioned properly.
 
@@ -227,7 +227,7 @@ class NumberGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name = Console Output
 ---------------- Begin Game ----------------
@@ -236,7 +236,7 @@ Level 'Level' was loaded.
 Loaded level 0.00s
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 The line of code was run due being indented and following a `true` `if` statement. Indention matters as some code can be skipped over or even unintentionally run if not written correctly.
 
@@ -255,7 +255,7 @@ class NumberGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name = Console Output
 ---------------- Begin Game ----------------
@@ -267,7 +267,7 @@ Loaded level 0.00s
 
 Notice how `1` was never printed due to the `false` `if` statement, but `2` and `3` were.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 Only the first indented line following a `true` `if` statement is performed. This is why it is important to use brackets for more than one line, for readability purposes. The following code is exactly the same as the previous example except that the second and third lines printed to Console are indented as well.
 
@@ -286,7 +286,7 @@ class NumberGenerator : NadaComponent
 }
 ```
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name = Console Output
 ---------------- Begin Game ----------------
@@ -298,7 +298,7 @@ Loaded level 0.00s
 
 Notice how `2` and `3` were still printed to console, even though they match the indention of the line above it.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  #  Nested `If Else` Statements
 
@@ -356,7 +356,7 @@ class ConditionalsLogic: NadaComponent
   }
 }
 ```
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 ```name= Console Output
 ---------------- Begin Game ----------------
@@ -367,7 +367,7 @@ Loaded level 0.00s
 
 Notice how the output tells the user what kind of sandwich they have based on the ingredients selected. The nested If Statements make it possible to follow through based on the Boolean variables
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  # Related Materials
  ## Manual
@@ -377,9 +377,9 @@ Notice how the output tells the user what kind of sandwich they have based on th
 - [Nada](../../zilchmanual/nada_in_zilch.md)
 - [Keywords](../../zilchmanual/nada_in_zilch/keywords.md)
 - [Operators Precedence Chart](../../zilchmanual/nada_in_zilch/operators_precedence_chart.md)
-- [ Boolean Operators ](../../zilchmanual/nada_in_zilch/boolean_operators.md)
-- [ Operator Precedence](../../zilchmanual/nada_in_zilch/operators_precedence_chart.md)
-- [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Boolean Operators](../../zilchmanual/nada_in_zilch/boolean_operators.md)
+- [Operator Precedence](../../zilchmanual/nada_in_zilch/operators_precedence_chart.md)
+- [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
 
  ## Reference
  ### Classes
@@ -389,8 +389,8 @@ Notice how the output tells the user what kind of sandwich they have based on th
 - [Nada Base Types](../../../code_reference/nada_base_types.md)
 
  ### Commands
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 - [CreateTransform](../../../code_reference/command_reference.md#createtransform) 
 
  

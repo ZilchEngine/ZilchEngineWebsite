@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ Channel](midievent.md#channel-zilch-engine-docu)|[event](event.md)| |
-| |[ MIDINumber](midievent.md#midinumber-zilch-engine-d)| | |
-| |[ Value](midievent.md#value-zilch-engine-docume)| | |
+| |[Channel](midievent.md#channel-zilch-engine-docu)|[event](event.md)| |
+| |[MIDINumber](midievent.md#midinumber-zilch-engine-d)| | |
+| |[Value](midievent.md#value-zilch-engine-docume)| | |
 
 
  #  Properties

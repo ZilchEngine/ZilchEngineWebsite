@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](particlewander.md#particlewander-void)|[ WanderAngle](particlewander.md#wanderangle-zilch-engine)|[particleanimator](particleanimator.md)| |
-| |[ WanderAngleVariance](particlewander.md#wanderanglevariance-zero)| | |
-| |[ WanderStrength](particlewander.md#wanderstrength-zilch-engi)| | |
+|[Constructor](particlewander.md#particlewander-void)|[WanderAngle](particlewander.md#wanderangle-zilch-engine)|[particleanimator](particleanimator.md)| |
+| |[WanderAngleVariance](particlewander.md#wanderanglevariance-zero)| | |
+| |[WanderStrength](particlewander.md#wanderstrength-zilch-engi)| | |
 
 
  #  Properties

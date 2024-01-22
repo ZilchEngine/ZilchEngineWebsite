@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objectrotatetool.md#objectrotatetool-void)|[ AffectRotation](objectrotatetool.md#affectrotation-zilch-engi)|[objecttransformtool](objecttransformtool.md)| |
-| |[ AffectTranslation](objectrotatetool.md#affecttranslation-zilch-e)| | |
-| |[ SnapAngle](objectrotatetool.md#snapangle-zilch-engine-do)| | |
-| |[ Snapping](objectrotatetool.md#snapping-zilch-engine-doc)| | |
+|[Constructor](objectrotatetool.md#objectrotatetool-void)|[AffectRotation](objectrotatetool.md#affectrotation-zilch-engi)|[objecttransformtool](objecttransformtool.md)| |
+| |[AffectTranslation](objectrotatetool.md#affecttranslation-zilch-e)| | |
+| |[SnapAngle](objectrotatetool.md#snapangle-zilch-engine-do)| | |
+| |[Snapping](objectrotatetool.md#snapping-zilch-engine-doc)| | |
 
 
  #  Properties

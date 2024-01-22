@@ -7,27 +7,27 @@ There are two types of events in the Zilch Engine: built-in events and custom ev
 
 
 - The [LogicUpdate](../../../code_reference/event_reference.md#logicupdate) Event
-- [ CollisionEvents](../../../code_reference/class_reference/collisionevent.md)
+- [CollisionEvents](../../../code_reference/class_reference/collisionevent.md)
 - Destruction events
 
 
  #  Level Setup
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ New Project](../../../code_reference/command_reference.md#newproject)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [New Project](../../../code_reference/command_reference.md#newproject)
  - Create a new project using the {nav icon=clone, name=Empty 2D Project} template
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : LevelSettings object
 - In the `Properties Window`
- - [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) :  [gravityeffect](../../../code_reference/class_reference/gravityeffect.md)
- - [ Remove Component](../../zilchmanual/editor/addremovecomponent.md) :  [drageffect](../../../code_reference/class_reference/drageffect.md)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+ - [Remove Component](../../zilchmanual/editor/addremovecomponent.md) :  [gravityeffect](../../../code_reference/class_reference/gravityeffect.md)
+ - [Remove Component](../../zilchmanual/editor/addremovecomponent.md) :  [drageffect](../../../code_reference/class_reference/drageffect.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Player`
  - Under [Sprite](../../../code_reference/class_reference/sprite.md)
   - Set VertexColor  to `[R:0, G:170, B:255, A:1.00]`
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [RigidBody](../../../code_reference/class_reference/rigidbody.md)
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : [BoxCollider](../../../code_reference/class_reference/boxcollider.md)
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `PlayerMovement`
 
 To get our player moving around we'll be using [LogicUpdate](../../../code_reference/event_reference.md#logicupdate), an [updateevent](../../../code_reference/class_reference/updateevent.md) that is dispatched on the space object every frame. Movement can be easily added by polling which [Keys](../../../code_reference/enum_reference.md#keys) are currently being pressed, if any, and updating the velocity of the object based on the keypress.
@@ -80,14 +80,14 @@ class PlayerMovement : NadaComponent
 }
 ```
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `PlayerMovement`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![KeyPolling](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94456.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
 `LogicUpdate` is the event and `this.OnLogicUpdate` is the event callback function. A callback function is a function passed as an argument into another function, with the expectation that it will be called in response to something.  An event callback function (in this case, this.OnLogicUpdate) is the function that is called every time a component (in this case, PlayerMovement) that is connected to some event (in this case, LogicUpdate) hears that the event has occurred (which is every frame in this instance). As `OnLogicUpdate` is called every frame, seamless movement can be achieved by updating the movement vector of the Cog within that function.
 
@@ -101,9 +101,9 @@ Zilch.Connect(this.Space, Events.LogicUpdate, this.OnLogicUpdate);
 
 | Example Value | Parameter Type | Description 
 |---|---|---
-| `this.Space` | [ Object](../../../code_reference/class_reference/object.md) | The object onto which the event will be dispatched. 
+| `this.Space` | [Object](../../../code_reference/class_reference/object.md) | The object onto which the event will be dispatched. 
 | `Events.LogicUpdate` | [string](../../../code_reference/nada_base_types/string.md) | The name of the event.
-| `this.OnLogicUpdate` | [ Delegate](../../zilchmanual/nada_in_zilch/delegates.md) | The callback function for the event.
+| `this.OnLogicUpdate` | [Delegate](../../zilchmanual/nada_in_zilch/delegates.md) | The callback function for the event.
 
 The callback function must take a parameter whose type matches the type of the event that you are connecting to. Now let's take a look at the callback function:
 
@@ -125,7 +125,7 @@ Built-in events are provided for you ready to connect. They are always dispatche
 
 There are three main [Collision events](../../../code_reference/class_reference/collisionevent.md): [CollisionStarted](../../../code_reference/event_reference.md#collisionstarted), [CollisionPersisted](../../../code_reference/event_reference.md#collisionpersisted), and [CollisionEnded](../../../code_reference/event_reference.md#collisionended). When an object with a collider comes into contact with another collider, a CollisionStarted event is created by the physics engine and is dispatched that frame on both objects involved in the collision. In the following frames, if the object's colliders are still in contact, the CollisionPersisted event is dispatched on the objects. The first frame the colliders are no longer in contact the CollisionEnded event is dispatched on both objects. To demonstrate a Collision event, let's make a simple enemy sprite:
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [CreateSprite](../../../code_reference/command_reference.md#createsprite)
 - In the `Properties Window`
  - Rename Sprite object to `Enemy`
  - Under [transform](../../../code_reference/class_reference/transform.md)
@@ -137,7 +137,7 @@ There are three main [Collision events](../../../code_reference/class_reference/
 
 Now we need to create another component that will destroy the player cog in response to the collision event.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `DestroyOnCollide`
 - Update the `DestroyOnCollide` script to the following:
 
@@ -155,22 +155,22 @@ class DestroyOnCollide : NadaComponent
   }
 }
 ```
-- [ Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
+- [Select](../../zilchmanual/editor/editorcommands/selectobject.md) : Player object
  - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `DestroyOnCollide`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![CircleAndSquare](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94458.gif) *Player cog being destroyed upon collision with an enemy cog.*
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ### Destruction Events
 
 Another useful built-in event is the [CogDestroy](../../../code_reference/event_reference.md#cogdestroy) event which is dispatched on a cog the frame its Destroy function is called. These can be used to add effects or to update the UI when the player or enemies have been destroyed. Let's create a component that will create a particle effect on the destruction of our player.
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [Add Resource](../../zilchmanual/editor/editorcommands/resourceadding.md)
  - Create a NadaScript resource using the Component template template and name it `SpawnObjectOnDestroy`
 - Update the `SpawnObjectOnDestroy` script to the following:
 
@@ -197,16 +197,16 @@ class SpawnObjectOnDestroy : NadaComponent
 }
 ```
 - [Add Component](../../zilchmanual/editor/addremovecomponent.md) : `SpawnObjectOnDestroy`
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ PlayGame](../../../code_reference/command_reference.md#playgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [PlayGame](../../../code_reference/command_reference.md#playgame)
 
 
 
 ![DestructionEffect](https://raw.githubusercontent.com/ZilchEngine/ZilchFiles/master/doc_files/94459.gif)
 
 
-- [ Command](../../zilchmanual/editor/editorcommands/commands.md) : [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [Command](../../zilchmanual/editor/editorcommands/commands.md) : [StopGame](../../../code_reference/command_reference.md#stopgame)
 
-Now we can see the particle system object being created in our event response function. In the [ next tutorial](events_ii.md), we will cover custom events, which are events you define and dispatch.
+Now we can see the particle system object being created in our event response function. In the [next tutorial](events_ii.md), we will cover custom events, which are events you define and dispatch.
 
 
  #  Related Materials
@@ -237,20 +237,20 @@ Now we can see the particle system object being created in our event response fu
 - [objectevent](../../../code_reference/class_reference/objectevent.md)
 
  ###  Command
-- [ NewProject](../../../code_reference/command_reference.md#newproject)
-- [ CreateSprite](../../../code_reference/command_reference.md#createsprite)
-- [ PlayGame](../../../code_reference/command_reference.md#playgame)
-- [ StopGame](../../../code_reference/command_reference.md#stopgame)
+- [NewProject](../../../code_reference/command_reference.md#newproject)
+- [CreateSprite](../../../code_reference/command_reference.md#createsprite)
+- [PlayGame](../../../code_reference/command_reference.md#playgame)
+- [StopGame](../../../code_reference/command_reference.md#stopgame)
 
  ###  Event
-- [ LogicUpdate](../../../code_reference/event_reference.md#logicupdate)
-- [ CollisionStarted](../../../code_reference/event_reference.md#collisionstarted)
-- [ CollisionPersisted](../../../code_reference/event_reference.md#collisionpersisted)
-- [ CollisionEnded](../../../code_reference/event_reference.md#collisionended)
-- [ CogDestroy](../../../code_reference/event_reference.md#cogdestroy)
+- [LogicUpdate](../../../code_reference/event_reference.md#logicupdate)
+- [CollisionStarted](../../../code_reference/event_reference.md#collisionstarted)
+- [CollisionPersisted](../../../code_reference/event_reference.md#collisionpersisted)
+- [CollisionEnded](../../../code_reference/event_reference.md#collisionended)
+- [CogDestroy](../../../code_reference/event_reference.md#cogdestroy)
 
  ###  Enums
-- [ Keys](../../../code_reference/enum_reference.md#keys)
+- [Keys](../../../code_reference/enum_reference.md#keys)
 
  ###  Nada Base Types
 - [string](../../../code_reference/nada_base_types/string.md)

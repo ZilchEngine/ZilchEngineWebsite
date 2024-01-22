@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Get](indexedhalfedgefaceedgeindexarray.md#get-zilch-engine-document)|[ All](indexedhalfedgefaceedgeindexarray.md#all-zilch-engine-document)|[safeid32object](safeid32object.md)| |
-| |[ Count](indexedhalfedgefaceedgeindexarray.md#count-zilch-engine-docume)| | |
+|[Get](indexedhalfedgefaceedgeindexarray.md#get-zilch-engine-document)|[All](indexedhalfedgefaceedgeindexarray.md#all-zilch-engine-document)|[safeid32object](safeid32object.md)| |
+| |[Count](indexedhalfedgefaceedgeindexarray.md#count-zilch-engine-docume)| | |
 
 
  #  Properties

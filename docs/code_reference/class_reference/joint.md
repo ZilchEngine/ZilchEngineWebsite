@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetCog](joint.md#getcog-zilch-engine-docum)|[ Active](joint.md#active-zilch-engine-docum)|[component](component.md)|[customjoint](customjoint.md)|
-|[ GetOtherObject](joint.md#getotherobject-zilch-engi)|[ AutoSnaps](joint.md#autosnaps-zilch-engine-do)| |[fixedanglejoint](fixedanglejoint.md)|
-|[ Constructor](joint.md#joint-void)|[ CollideConnected](joint.md#collideconnected-zilch-en)| |[gearjoint](gearjoint.md)|
-| |[ MaxImpulse](joint.md#maximpulse-zilch-engine-d)| |[linearaxisjoint](linearaxisjoint.md)|
-| |[ SendsEvents](joint.md#sendsevents-zilch-engine)| |[manipulatorjoint](manipulatorjoint.md)|
+|[GetCog](joint.md#getcog-zilch-engine-docum)|[Active](joint.md#active-zilch-engine-docum)|[component](component.md)|[customjoint](customjoint.md)|
+|[GetOtherObject](joint.md#getotherobject-zilch-engi)|[AutoSnaps](joint.md#autosnaps-zilch-engine-do)| |[fixedanglejoint](fixedanglejoint.md)|
+|[Constructor](joint.md#joint-void)|[CollideConnected](joint.md#collideconnected-zilch-en)| |[gearjoint](gearjoint.md)|
+| |[MaxImpulse](joint.md#maximpulse-zilch-engine-d)| |[linearaxisjoint](linearaxisjoint.md)|
+| |[SendsEvents](joint.md#sendsevents-zilch-engine)| |[manipulatorjoint](manipulatorjoint.md)|
 | | | |[phygunjoint](phygunjoint.md)|
 | | | |[positionjoint](positionjoint.md)|
 | | | |[prismaticjoint](prismaticjoint.md)|

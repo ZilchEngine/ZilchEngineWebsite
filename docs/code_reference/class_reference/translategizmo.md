@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](translategizmo.md#translategizmo-void)|[ SnapDistance](translategizmo.md#snapdistance-zilch-engine)|[component](component.md)| |
-| |[ SnapMode](translategizmo.md#snapmode-zilch-engine-doc)| | |
-| |[ Snapping](translategizmo.md#snapping-zilch-engine-doc)| | |
-| |[ UpdateMode](translategizmo.md#updatemode-zilch-engine-d)| | |
+|[Constructor](translategizmo.md#translategizmo-void)|[SnapDistance](translategizmo.md#snapdistance-zilch-engine)|[component](component.md)| |
+| |[SnapMode](translategizmo.md#snapmode-zilch-engine-doc)| | |
+| |[Snapping](translategizmo.md#snapping-zilch-engine-doc)| | |
+| |[UpdateMode](translategizmo.md#updatemode-zilch-engine-d)| | |
 
 
  #  Properties

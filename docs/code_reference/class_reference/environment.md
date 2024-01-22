@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ GetEnvironmentalVariable](environment.md#getenvironmentalvariable)|[ CommandLine](environment.md#commandline-zilch-engine)|Object| |
-|[ GetParsedArgument](environment.md#getparsedargument-zilch-e)| | | |
+|[GetEnvironmentalVariable](environment.md#getenvironmentalvariable)|[CommandLine](environment.md#commandline-zilch-engine)|Object| |
+|[GetParsedArgument](environment.md#getparsedargument-zilch-e)| | | |
 
 
  #  Properties

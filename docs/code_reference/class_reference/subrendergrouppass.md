@@ -4,10 +4,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddSubSettings](subrendergrouppass.md#addsubsettings-void)| |[safeid32](safeid32.md)| |
-|[ ExcludeSubRenderGroup](subrendergrouppass.md#excludesubrendergroup-vo)| | | |
-|[ Reset](subrendergrouppass.md#reset-void)| | | |
-|[ SetDefaultSettings](subrendergrouppass.md#setdefaultsettings-void)| | | |
+|[AddSubSettings](subrendergrouppass.md#addsubsettings-void)| |[safeid32](safeid32.md)| |
+|[ExcludeSubRenderGroup](subrendergrouppass.md#excludesubrendergroup-vo)| | | |
+|[Reset](subrendergrouppass.md#reset-void)| | | |
+|[SetDefaultSettings](subrendergrouppass.md#setdefaultsettings-void)| | | |
 
 
  #  Properties

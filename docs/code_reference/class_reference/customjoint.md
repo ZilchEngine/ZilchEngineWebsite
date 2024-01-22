@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ AddConstraint](customjoint.md#addconstraint-void)|[ ConstraintCount](customjoint.md#constraintcount-zilch-eng)|[joint](joint.md)| |
-|[ ClearConstraints](customjoint.md#clearconstraints-void)| | | |
-|[ CreateConstraint](customjoint.md#createconstraint-zilch-en)| | | |
-|[ Constructor](customjoint.md#customjoint-void)| | | |
-|[ GetConstraint](customjoint.md#getconstraint-zilch-engin)| | | |
-|[ RemoveConstraint](customjoint.md#removeconstraint-void)| | | |
+|[AddConstraint](customjoint.md#addconstraint-void)|[ConstraintCount](customjoint.md#constraintcount-zilch-eng)|[joint](joint.md)| |
+|[ClearConstraints](customjoint.md#clearconstraints-void)| | | |
+|[CreateConstraint](customjoint.md#createconstraint-zilch-en)| | | |
+|[Constructor](customjoint.md#customjoint-void)| | | |
+|[GetConstraint](customjoint.md#getconstraint-zilch-engin)| | | |
+|[RemoveConstraint](customjoint.md#removeconstraint-void)| | | |
 
 
  #  Properties

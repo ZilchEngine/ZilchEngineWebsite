@@ -26,13 +26,13 @@ class ObjectStoreTest : NadaComponent
     }
 }
 ```
-To clear all stored objects on a computer you can use the [ ClearStore ](../../../../code_reference/command_reference.md#clearobjectstore) command.
+To clear all stored objects on a computer you can use the [ClearStore](../../../../code_reference/command_reference.md#clearobjectstore) command.
 
 ---
 
  # Related Materials
  ## Code Reference
-- [ ClearStore ](../../../../code_reference/command_reference.md#clearobjectstore) 
+- [ClearStore](../../../../code_reference/command_reference.md#clearobjectstore) 
  ## Tutorial
 - [Loading and Saving Data](../../../tutorials/architecture/objectstore.md) 
 

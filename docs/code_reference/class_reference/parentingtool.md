@@ -4,7 +4,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](parentingtool.md#parentingtool-void)|[ MaintainPosition](parentingtool.md#maintainposition-zilch-en)|[objectconnectingtool](objectconnectingtool.md)| |
+|[Constructor](parentingtool.md#parentingtool-void)|[MaintainPosition](parentingtool.md#maintainposition-zilch-en)|[objectconnectingtool](objectconnectingtool.md)| |
 
 
  #  Properties

@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ MoveNext](multispriteentryrange.md#movenext-void)|[ All](multispriteentryrange.md#all-zilch-engine-document)| | |
-|[ Constructor](multispriteentryrange.md#multispriteentryrange-vo)|[ Current](multispriteentryrange.md#current-zilch-engine-docu)| | |
-| |[ IsEmpty](multispriteentryrange.md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](multispriteentryrange.md#isnotempty-zilch-engine-d)| | |
+|[MoveNext](multispriteentryrange.md#movenext-void)|[All](multispriteentryrange.md#all-zilch-engine-document)| | |
+|[Constructor](multispriteentryrange.md#multispriteentryrange-vo)|[Current](multispriteentryrange.md#current-zilch-engine-docu)| | |
+| |[IsEmpty](multispriteentryrange.md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](multispriteentryrange.md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

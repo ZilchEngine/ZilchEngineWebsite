@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateDelegate](function.md#createdelegate-zilch-engi)|[ Type](function.md#type-zilch-engine-documen)|[member](member.md)| |
-|[ Invoke](function.md#invoke-zilch-engine-docum)| | | |
+|[CreateDelegate](function.md#createdelegate-zilch-engi)|[Type](function.md#type-zilch-engine-documen)|[member](member.md)| |
+|[Invoke](function.md#invoke-zilch-engine-docum)| | | |
 
 
  #  Properties

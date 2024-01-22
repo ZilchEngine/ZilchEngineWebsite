@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ InterpolateLeftVolume](panningnode.md#interpolateleftvolume-vo)|[ LeftVolume](panningnode.md#leftvolume-zilch-engine-d)|[soundnode](soundnode.md)| |
-|[ InterpolateRightVolume](panningnode.md#interpolaterightvolume-v)|[ RightVolume](panningnode.md#rightvolume-zilch-engine)| | |
-|[ InterpolateVolumes](panningnode.md#interpolatevolumes-void)|[ SumToMono](panningnode.md#sumtomono-zilch-engine-do)| | |
+|[InterpolateLeftVolume](panningnode.md#interpolateleftvolume-vo)|[LeftVolume](panningnode.md#leftvolume-zilch-engine-d)|[soundnode](soundnode.md)| |
+|[InterpolateRightVolume](panningnode.md#interpolaterightvolume-v)|[RightVolume](panningnode.md#rightvolume-zilch-engine)| | |
+|[InterpolateVolumes](panningnode.md#interpolatevolumes-void)|[SumToMono](panningnode.md#sumtomono-zilch-engine-do)| | |
 
 
  #  Properties

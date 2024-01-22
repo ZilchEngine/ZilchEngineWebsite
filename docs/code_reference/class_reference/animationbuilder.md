@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](animationbuilder.md#animationbuilder-void)|[ Clips](animationbuilder.md#clips-zilch-engine-docume)|[buildercomponent](buildercomponent.md)| |
+|[Constructor](animationbuilder.md#animationbuilder-void)|[Clips](animationbuilder.md#clips-zilch-engine-docume)|[buildercomponent](buildercomponent.md)| |
 
 
  #  Properties

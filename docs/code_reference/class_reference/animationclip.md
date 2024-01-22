@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ AnimationIndex](animationclip.md#animationindex-zilch-engi)|Object| |
-| |[ EndFrame](animationclip.md#endframe-zilch-engine-doc)| | |
-| |[ Name](animationclip.md#name-zilch-engine-documen)| | |
-| |[ StartFrame](animationclip.md#startframe-zilch-engine-d)| | |
+| |[AnimationIndex](animationclip.md#animationindex-zilch-engi)|Object| |
+| |[EndFrame](animationclip.md#endframe-zilch-engine-doc)| | |
+| |[Name](animationclip.md#name-zilch-engine-documen)| | |
+| |[StartFrame](animationclip.md#startframe-zilch-engine-d)| | |
 
 
  #  Properties

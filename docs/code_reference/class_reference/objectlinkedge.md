@@ -4,9 +4,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](objectlinkedge.md#objectlinkedge-void)|[ ObjectLink](objectlinkedge.md#objectlink-zilch-engine-d)| | |
-| |[ OtherCog](objectlinkedge.md#othercog-zilch-engine-doc)| | |
-| |[ SelfCog](objectlinkedge.md#selfcog-zilch-engine-docu)| | |
+|[Constructor](objectlinkedge.md#objectlinkedge-void)|[ObjectLink](objectlinkedge.md#objectlink-zilch-engine-d)| | |
+| |[OtherCog](objectlinkedge.md#othercog-zilch-engine-doc)| | |
+| |[SelfCog](objectlinkedge.md#selfcog-zilch-engine-docu)| | |
 
 
  #  Properties

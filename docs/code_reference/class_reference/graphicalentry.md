@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetGraphicalSortValue](graphicalentry.md#setgraphicalsortvalue-vo)|[ Cog](graphicalentry.md#cog-zilch-engine-document)| | |
+|[SetGraphicalSortValue](graphicalentry.md#setgraphicalsortvalue-vo)|[Cog](graphicalentry.md#cog-zilch-engine-document)| | |
 
 
  #  Properties

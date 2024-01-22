@@ -1,4 +1,4 @@
-The [ ReverbNode ](../../../../code_reference/class_reference/reverbnode.md) collects audio data from all its inputs and applies a simple reverb filter before passing it off to its outputs. 
+The [ReverbNode](../../../../code_reference/class_reference/reverbnode.md) collects audio data from all its inputs and applies a simple reverb filter before passing it off to its outputs. 
 
  # Common Uses
 
@@ -16,6 +16,6 @@ The `Length` property sets the length of the reverb tail (the number of seconds 
 - [soudnode_overview](soudnode_overview.md)
 
  ## Code Reference
-- [ ReverbNode ](../../../../code_reference/class_reference/reverbnode.md) 
+- [ReverbNode](../../../../code_reference/class_reference/reverbnode.md) 
 
  

@@ -6,10 +6,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Debug](uilayout.md#debug-void)|[ PaddingBottom](uilayout.md#paddingbottom-zilch-engin)|[component](component.md)|[uidocklayout](uidocklayout.md)|
-| |[ PaddingLeft](uilayout.md#paddingleft-zilch-engine)| |[uifilllayout](uifilllayout.md)|
-| |[ PaddingRight](uilayout.md#paddingright-zilch-engine)| |[uistacklayout](uistacklayout.md)|
-| |[ PaddingTop](uilayout.md#paddingtop-zilch-engine-d)| | |
+|[Debug](uilayout.md#debug-void)|[PaddingBottom](uilayout.md#paddingbottom-zilch-engin)|[component](component.md)|[uidocklayout](uidocklayout.md)|
+| |[PaddingLeft](uilayout.md#paddingleft-zilch-engine)| |[uifilllayout](uifilllayout.md)|
+| |[PaddingRight](uilayout.md#paddingright-zilch-engine)| |[uistacklayout](uistacklayout.md)|
+| |[PaddingTop](uilayout.md#paddingtop-zilch-engine-d)| | |
 
 
  #  Properties

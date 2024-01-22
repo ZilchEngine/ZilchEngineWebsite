@@ -2,7 +2,7 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](contextmenuentrycommand.md#contextmenuentrycommand)|[ CommandName](contextmenuentrycommand.md#commandname-zilch-engine)|[contextmenuentry](contextmenuentry.md)| |
+|[Constructor](contextmenuentrycommand.md#contextmenuentrycommand)|[CommandName](contextmenuentrycommand.md#commandname-zilch-engine)|[contextmenuentry](contextmenuentry.md)| |
 
 
  #  Properties

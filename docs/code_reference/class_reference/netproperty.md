@@ -6,11 +6,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ LastChangeTimePassed](netproperty.md#lastchangetimepassed-zer)|[safeid32object](safeid32object.md)| |
-| |[ LastChangeTimestamp](netproperty.md#lastchangetimestamp-zero)| | |
-| |[ Name](netproperty.md#name-zilch-engine-documen)| | |
-| |[ NetChannel](netproperty.md#netchannel-zilch-engine-d)| | |
-| |[ NetPropertyType](netproperty.md#netpropertytype-zilch-eng)| | |
+| |[LastChangeTimePassed](netproperty.md#lastchangetimepassed-zer)|[safeid32object](safeid32object.md)| |
+| |[LastChangeTimestamp](netproperty.md#lastchangetimestamp-zero)| | |
+| |[Name](netproperty.md#name-zilch-engine-documen)| | |
+| |[NetChannel](netproperty.md#netchannel-zilch-engine-d)| | |
+| |[NetPropertyType](netproperty.md#netpropertytype-zilch-eng)| | |
 
 
  #  Properties

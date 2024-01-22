@@ -2,8 +2,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](graphicsraycastprovider.md#graphicsraycastprovider)|[ MultiSelectGraphical](graphicsraycastprovider.md#multiselectgraphical-zer)|[raycastprovider](raycastprovider.md)| |
-| |[ VisibleOnly](graphicsraycastprovider.md#visibleonly-zilch-engine)| | |
+|[Constructor](graphicsraycastprovider.md#graphicsraycastprovider)|[MultiSelectGraphical](graphicsraycastprovider.md#multiselectgraphical-zer)|[raycastprovider](raycastprovider.md)| |
+| |[VisibleOnly](graphicsraycastprovider.md#visibleonly-zilch-engine)| | |
 
 
  #  Properties

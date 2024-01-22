@@ -4,11 +4,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Clone](resourcetableentry.md#clone-zilch-engine-docume)|[ Name](resourcetableentry.md#name-zilch-engine-documen)| | |
-|[ Constructor](resourcetableentry.md#resourcetableentry-void)|[ Resource](resourcetableentry.md#resource-resource)| | |
-| |[ ResourceType](resourcetableentry.md#resourcetype-zilch-engine)| | |
-| |[ Value](resourcetableentry.md#value-zilch-engine-docume)| | |
-| |[ Weight](resourcetableentry.md#weight-zilch-engine-docum)| | |
+|[Clone](resourcetableentry.md#clone-zilch-engine-docume)|[Name](resourcetableentry.md#name-zilch-engine-documen)| | |
+|[Constructor](resourcetableentry.md#resourcetableentry-void)|[Resource](resourcetableentry.md#resource-resource)| | |
+| |[ResourceType](resourcetableentry.md#resourcetype-zilch-engine)| | |
+| |[Value](resourcetableentry.md#value-zilch-engine-docume)| | |
+| |[Weight](resourcetableentry.md#weight-zilch-engine-docum)| | |
 
 
  #  Properties

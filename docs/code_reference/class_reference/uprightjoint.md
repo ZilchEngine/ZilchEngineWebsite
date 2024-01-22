@@ -6,9 +6,9 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](uprightjoint.md#uprightjoint-void)|[ LocalAxisA](uprightjoint.md#localaxisa-zilch-engine-d)|[joint](joint.md)| |
-| |[ LocalAxisB](uprightjoint.md#localaxisb-zilch-engine-d)| | |
-| |[ WorldAxis](uprightjoint.md#worldaxis-zilch-engine-do)| | |
+|[Constructor](uprightjoint.md#uprightjoint-void)|[LocalAxisA](uprightjoint.md#localaxisa-zilch-engine-d)|[joint](joint.md)| |
+| |[LocalAxisB](uprightjoint.md#localaxisb-zilch-engine-d)| | |
+| |[WorldAxis](uprightjoint.md#worldaxis-zilch-engine-do)| | |
 
 
  #  Properties

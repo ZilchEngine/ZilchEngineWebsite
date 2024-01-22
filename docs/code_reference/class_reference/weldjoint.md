@@ -6,12 +6,12 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ SetWorldPoints](weldjoint.md#setworldpoints-void)|[ LocalBasisA](weldjoint.md#localbasisa-zilch-engine)|[joint](joint.md)| |
-|[ Constructor](weldjoint.md#weldjoint-void)|[ LocalBasisB](weldjoint.md#localbasisb-zilch-engine)| | |
-| |[ LocalPointA](weldjoint.md#localpointa-zilch-engine)| | |
-| |[ LocalPointB](weldjoint.md#localpointb-zilch-engine)| | |
-| |[ WorldPointA](weldjoint.md#worldpointa-zilch-engine)| | |
-| |[ WorldPointB](weldjoint.md#worldpointb-zilch-engine)| | |
+|[SetWorldPoints](weldjoint.md#setworldpoints-void)|[LocalBasisA](weldjoint.md#localbasisa-zilch-engine)|[joint](joint.md)| |
+|[Constructor](weldjoint.md#weldjoint-void)|[LocalBasisB](weldjoint.md#localbasisb-zilch-engine)| | |
+| |[LocalPointA](weldjoint.md#localpointa-zilch-engine)| | |
+| |[LocalPointB](weldjoint.md#localpointb-zilch-engine)| | |
+| |[WorldPointA](weldjoint.md#worldpointa-zilch-engine)| | |
+| |[WorldPointB](weldjoint.md#worldpointb-zilch-engine)| | |
 
 
  #  Properties

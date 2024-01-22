@@ -2,10 +2,10 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](hashmapkeyrange_key .md#hashmapkeyrange-key-void)|[ All](hashmapkeyrange_key .md#all-zilch-engine-document)| | |
-|[ MoveNext](hashmapkeyrange_key .md#movenext-void)|[ Current](hashmapkeyrange_key .md#current-key)| | |
-|[ Reset](hashmapkeyrange_key .md#reset-void)|[ IsEmpty](hashmapkeyrange_key .md#isempty-zilch-engine-docu)| | |
-| |[ IsNotEmpty](hashmapkeyrange_key .md#isnotempty-zilch-engine-d)| | |
+|[Constructor](hashmapkeyrange_key .md#hashmapkeyrange-key-void)|[All](hashmapkeyrange_key .md#all-zilch-engine-document)| | |
+|[MoveNext](hashmapkeyrange_key .md#movenext-void)|[Current](hashmapkeyrange_key .md#current-key)| | |
+|[Reset](hashmapkeyrange_key .md#reset-void)|[IsEmpty](hashmapkeyrange_key .md#isempty-zilch-engine-docu)| | |
+| |[IsNotEmpty](hashmapkeyrange_key .md#isnotempty-zilch-engine-d)| | |
 
 
  #  Properties

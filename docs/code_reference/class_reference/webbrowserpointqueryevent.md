@@ -4,8 +4,8 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-| |[ ScreenPixelPosition](webbrowserpointqueryevent.md#screenpixelposition-zero)|[webbrowserevent](webbrowserevent.md)| |
-| |[ ViewPixelPosition](webbrowserpointqueryevent.md#viewpixelposition-zilch-e)| | |
+| |[ScreenPixelPosition](webbrowserpointqueryevent.md#screenpixelposition-zero)|[webbrowserevent](webbrowserevent.md)| |
+| |[ViewPixelPosition](webbrowserpointqueryevent.md#viewpixelposition-zilch-e)| | |
 
 
  #  Properties

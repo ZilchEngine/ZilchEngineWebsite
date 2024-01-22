@@ -6,19 +6,19 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ CreateRuntime](texture.md#createruntime-zilch-engin)|[ AddressingX](texture.md#addressingx-zilch-engine)|Resource| |
-|[ SubUpload](texture.md#subupload-void)|[ AddressingY](texture.md#addressingy-zilch-engine)| | |
-|[ Upload](texture.md#upload-void)|[ Anisotropy](texture.md#anisotropy-zilch-engine-d)| | |
-| |[ CompareFunc](texture.md#comparefunc-zilch-engine)| | |
-| |[ CompareMode](texture.md#comparemode-zilch-engine)| | |
-| |[ Compression](texture.md#compression-zilch-engine)| | |
-| |[ Filtering](texture.md#filtering-zilch-engine-do)| | |
-| |[ Format](texture.md#format-zilch-engine-docum)| | |
-| |[ Height](texture.md#height-zilch-engine-docum)| | |
-| |[ MipMapping](texture.md#mipmapping-zilch-engine-d)| | |
-| |[ Size](texture.md#size-zilch-engine-documen)| | |
-| |[ Type](texture.md#type-zilch-engine-documen)| | |
-| |[ Width](texture.md#width-zilch-engine-docume)| | |
+|[CreateRuntime](texture.md#createruntime-zilch-engin)|[AddressingX](texture.md#addressingx-zilch-engine)|Resource| |
+|[SubUpload](texture.md#subupload-void)|[AddressingY](texture.md#addressingy-zilch-engine)| | |
+|[Upload](texture.md#upload-void)|[Anisotropy](texture.md#anisotropy-zilch-engine-d)| | |
+| |[CompareFunc](texture.md#comparefunc-zilch-engine)| | |
+| |[CompareMode](texture.md#comparemode-zilch-engine)| | |
+| |[Compression](texture.md#compression-zilch-engine)| | |
+| |[Filtering](texture.md#filtering-zilch-engine-do)| | |
+| |[Format](texture.md#format-zilch-engine-docum)| | |
+| |[Height](texture.md#height-zilch-engine-docum)| | |
+| |[MipMapping](texture.md#mipmapping-zilch-engine-d)| | |
+| |[Size](texture.md#size-zilch-engine-documen)| | |
+| |[Type](texture.md#type-zilch-engine-documen)| | |
+| |[Width](texture.md#width-zilch-engine-docume)| | |
 
 
  #  Properties

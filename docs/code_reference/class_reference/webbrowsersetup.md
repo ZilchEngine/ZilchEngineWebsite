@@ -2,11 +2,11 @@
 
 |Methods|Properties|Base Classes|Derived Classes|
 |---|---|---|---|
-|[ Constructor](webbrowsersetup.md#webbrowsersetup-void)|[ BackgroundColor](webbrowsersetup.md#backgroundcolor-zilch-eng)|Object| |
-| |[ ScrollSpeed](webbrowsersetup.md#scrollspeed-zilch-engine)| | |
-| |[ Size](webbrowsersetup.md#size-zilch-engine-documen)| | |
-| |[ Transparent](webbrowsersetup.md#transparent-zilch-engine)| | |
-| |[ Url](webbrowsersetup.md#url-zilch-engine-document)| | |
+|[Constructor](webbrowsersetup.md#webbrowsersetup-void)|[BackgroundColor](webbrowsersetup.md#backgroundcolor-zilch-eng)|Object| |
+| |[ScrollSpeed](webbrowsersetup.md#scrollspeed-zilch-engine)| | |
+| |[Size](webbrowsersetup.md#size-zilch-engine-documen)| | |
+| |[Transparent](webbrowsersetup.md#transparent-zilch-engine)| | |
+| |[Url](webbrowsersetup.md#url-zilch-engine-document)| | |
 
 
  #  Properties

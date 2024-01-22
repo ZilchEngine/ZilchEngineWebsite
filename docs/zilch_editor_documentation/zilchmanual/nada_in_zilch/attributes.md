@@ -245,7 +245,7 @@ if(collisionGroup == collisionGroupAccessedByInterface)
   Console.WriteLine("These variables reference the same component");
 ```
 
-Using a component interface does not mean that the property and methods of a derived class need to be exactly the same as the base class. What would be the point? Using the [ Virtual](../../../sandbox/arend_danielek/attributes.md#virtual) and [ Override ](../../../sandbox/arend_danielek/attributes.md#override) attributes, we can modify the interface of derived classes.
+Using a component interface does not mean that the property and methods of a derived class need to be exactly the same as the base class. What would be the point? Using the [Virtual](../../../sandbox/arend_danielek/attributes.md#virtual) and [Override](../../../sandbox/arend_danielek/attributes.md#override) attributes, we can modify the interface of derived classes.
 
 ```TS:Component Interface Example
 [ComponentInterface]
