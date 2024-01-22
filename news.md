@@ -104,6 +104,8 @@ Below is a short list of items that need to be completed before the 1.0 release.
 - Material import (In progress)
 - In-Game UI improvement
 - Content library improvements
+- Pathfinding (via Recast+Detour)
+- Fix GLTF importing
 
 
 ## Q & A

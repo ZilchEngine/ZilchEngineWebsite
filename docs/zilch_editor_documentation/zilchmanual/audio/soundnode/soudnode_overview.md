@@ -2,15 +2,15 @@
 
 [ SoundNodes ](../../../../code_reference/class_reference/soundnode.md) are the building blocks behind all audio in the Zilch Engine. A SoundNode receives audio data from other SoundNodes through its input connections, modifies that data in some way (or simply collects it), then passes it along to more SoundNodes through its output connections.
 
-Some SoundNodes only generate audio data, like [SoundInstances](soundinstance.md). Those nodes do not collect anything from their input connections and attaching nodes to their input would have no effect.
+Some SoundNodes only generate audio data, like [SoundInstances](../soundinstance.md). Those nodes do not collect anything from their input connections and attaching nodes to their input would have no effect.
 
-All sound objects in the Zilch Engine use some type of SoundNode. These nodes are connected together into a tree-like graph, with generating nodes as the topmost branches, and the output node of the [SoundSpace ](soundspace.md) as the root node at the bottom. The SoundNode graph processes audio by starting at the root node and requesting data from its input nodes. These nodes then request data from their inputs, and so on, until the request reaches a generating node which returns audio data that then follows the chain back down the graph. 
+All sound objects in the Zilch Engine use some type of SoundNode. These nodes are connected together into a tree-like graph, with generating nodes as the topmost branches, and the output node of the [SoundSpace](../soundspace.md) as the root node at the bottom. The SoundNode graph processes audio by starting at the root node and requesting data from its input nodes. These nodes then request data from their inputs, and so on, until the request reaches a generating node which returns audio data that then follows the chain back down the graph. 
 
 There are many types of SoundNodes that can only be created and added to the node graph in NadaScripts. These SoundNodes are reference counted: they will stay alive as long as the user stores a variable with the SoundNode assigned to it. If it is not stored, the node will be alive as long as it is connected to the graph, but users can no longer access it. 
 
 The SoundNodes of built-in objects are also exposed in Nada, and users can freely edit most of the graph connections, giving them a great deal of flexibility in creating audio. When building connections it is important to remember that nodes closer to the generating node modify the audio before nodes that are further away. For example, to change the pitch of a sound before applying reverb, the PitchNode must be between the SoundInstance and the ReverbNode. 
 
-The [SoundNode Graph ](soundnode_graph.md) tool can be extremely helpful when editing the graph directly.
+The [SoundNode Graph](../soundnode_graph.md) tool can be extremely helpful when editing the graph directly.
 
 WARNING: SoundNodes can be connected in many complicated ways, but users must be careful not to create a loop. If loops are created, the user will receive an error, and the SoundNodes will be automatically disconnected.
 
@@ -80,9 +80,9 @@ If the `AutoCollapse` property is set to True, the SoundNode will automatically 
 
  ## Manual
 
-- [SoundInstance ](soundinstance.md)
-- [SoundSpace ](soundspace.md)
-- [SoundNode Graph ](soundnode_graph.md)
+- [SoundInstance ](../soundinstance.md)
+- [SoundSpace ](../soundspace.md)
+- [SoundNode Graph ](../soundnode_graph.md)
 
  ## Reference
 
